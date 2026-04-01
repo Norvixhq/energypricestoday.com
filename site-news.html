@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site News & Updates — EnergyPricesToday.com</title>
+  <meta name="description" content="The latest updates about EnergyPricesToday.com features, improvements, and announcements.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <div class="container" style="max-width:800px;padding-top:36px;padding-bottom:60px">
+      <nav class="breadcrumbs"><a href="index.html">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> <span>Site News</span></nav>
+      <h1>Site News &amp; Updates</h1>
+      <p style="color:#9ca3af;font-size:15px;margin:10px 0 36px">The latest updates about EnergyPricesToday.com features, improvements, and announcements.</p>
+      <div id="site-news-list"></div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    const siteNews = [
+      { title: "Welcome to EnergyPricesToday.com", date: "Mar 31, 2026", body: "We're excited to launch EnergyPricesToday.com — a modern energy intelligence platform designed to give you clean, fast access to oil, gas, and energy market data without the clutter. Our goal is to be the most readable, most organized energy news source on the web." },
+      { title: "Live Market Data Integration Coming Soon", date: "Mar 28, 2026", body: "We're working on integrating real-time market data feeds for all major crude benchmarks, natural gas, and refined products. Stay tuned for live price updates directly on the homepage and our Markets hub." },
+      { title: "Category Pages Now Live", date: "Mar 25, 2026", body: "All major category pages are now available — from Oil Prices and Natural Gas to Geopolitics and Alternative Energy. Each page features curated content, market context, and easy navigation to related topics." },
+    ];
+    document.getElementById('site-news-list').innerHTML = siteNews.map(item => `
+      <div class="site-news-item">
+        <div class="flex items-center gap-12" style="margin-bottom:12px">
+          <div class="site-news-icon">${icon('bell',16)}</div>
+          <div>
+            <h3>${item.title}</h3>
+            <span class="site-news-date">${item.date}</span>
+          </div>
+        </div>
+        <p class="site-news-body">${item.body}</p>
+      </div>
+    `).join('');
+  </script>
+</body>
+</html>

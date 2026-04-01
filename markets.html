@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markets & Prices — EnergyPricesToday.com</title>
+  <meta name="description" content="Track real-time prices across crude oil benchmarks, OPEC blends, U.S. and Canadian blends, refined products, and natural gas markets.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <div class="container" style="padding-top:32px;padding-bottom:60px">
+      <nav class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        <span>Markets &amp; Prices</span>
+      </nav>
+      <div style="margin-bottom:32px">
+        <h1>Markets &amp; Prices</h1>
+        <p style="color:#9ca3af;font-size:15px;max-width:600px;margin-top:10px">Track real-time prices across crude oil benchmarks, OPEC blends, refined products, and natural gas markets worldwide.</p>
+      </div>
+      <div class="grid-5" id="key-benchmarks" style="margin-bottom:40px"></div>
+      <div id="full-market-table"></div>
+      <div class="disclaimer-box">
+        <p><strong>Disclaimer:</strong> Market data shown on this page is provided for informational and educational purposes only. Prices may be delayed and should not be used as a basis for trading decisions. For real-time data, please consult your broker or a licensed data provider.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('key-benchmarks').innerHTML = COMMODITIES.map(c => {
+      const color = c.change >= 0 ? '#22c55e' : '#ef4444';
+      return `<div class="price-card" style="padding:22px">
+        <div class="price-card-header" style="margin-bottom:12px">
+          <span class="price-card-label" style="font-size:13px">${c.name}</span>
+          ${sparkline(c.spark, color, 70, 26)}
+        </div>
+        <div class="price-card-value" style="font-size:30px">$${c.price.toFixed(2)}</div>
+        ${priceChange(c.change, c.pct)}
+        <div style="margin-top:8px;color:#4b5563;font-size:11px">Last updated: 14:32 ET · ${c.unit}</div>
+      </div>`;
+    }).join('');
+    renderMarketTable('full-market-table', false);
+  </script>
+</body>
+</html>

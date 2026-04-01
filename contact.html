@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us — EnergyPricesToday.com</title>
+  <meta name="description" content="Have a question, tip, or correction? Contact the EnergyPricesToday team.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <div class="container" style="max-width:800px;padding-top:36px;padding-bottom:60px">
+      <nav class="breadcrumbs"><a href="index.html">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> <span>Contact Us</span></nav>
+      <h1>Contact Us</h1>
+      <p style="color:#9ca3af;font-size:15px;margin:10px 0 36px">Have a question, tip, or correction? We'd love to hear from you.</p>
+      <div class="grid-2" style="gap:32px" id="contact-layout">
+        <div id="contact-form-wrap">
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input type="email" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Subject</label>
+              <input type="text" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Message</label>
+              <textarea class="form-input" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div>
+          <div class="card card-lg">
+            <h3 style="font-size:16px;margin-bottom:20px">Get in Touch</h3>
+            <div class="contact-info-row" id="ci-1"></div>
+            <div class="contact-info-row" id="ci-2"></div>
+            <div class="contact-info-row" id="ci-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    const contactData = [
+      ['ci-1','mail','Editorial Inquiries','editorial@energypricestoday.com'],
+      ['ci-2','mail','General Contact','info@energypricestoday.com'],
+      ['ci-3','globe','Website','www.energypricestoday.com'],
+    ];
+    contactData.forEach(([id,ic,label,val]) => {
+      document.getElementById(id).innerHTML = `
+        <div class="contact-info-icon">${icon(ic,16)}</div>
+        <div><div class="contact-info-label">${label}</div><div class="contact-info-value">${val}</div></div>
+      `;
+    });
+  </script>
+</body>
+</html>

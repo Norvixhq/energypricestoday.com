@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnergyPricesToday.com — Live Oil, Gas & Energy Market Prices and News</title>
+  <meta name="description" content="Track live oil, gas, and energy market prices. Get breaking energy news, OPEC updates, rig count data, and market analysis — clean, fast, and free.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container" style="position:relative;z-index:1">
+        <div style="margin-bottom:32px">
+          <p class="hero-eyebrow" id="hero-eyebrow"></p>
+          <h1>Energy Markets at a Glance</h1>
+          <p class="hero-sub">WTI crude climbs past $71 on bullish inventory data. OPEC+ holds production cuts. European gas rallies on cold weather outlook.</p>
+        </div>
+        <div class="grid-5" id="hero-prices" style="margin-bottom:24px"></div>
+        <div class="hero-actions" id="hero-actions"></div>
+      </div>
+    </section>
+
+    <!-- BREAKING NEWS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-breaking"></h2></div>
+      <div id="breaking-news"></div>
+    </div></section>
+
+    <!-- WHAT'S MOVING MARKETS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-drivers"></h2></div>
+      <div class="grid-auto-280" id="market-drivers"></div>
+    </div></section>
+
+    <!-- LATEST ENERGY NEWS -->
+    <section class="section"><div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="sec-news"></h2>
+        <a href="category/energy.html" class="section-action" id="sec-news-action"></a>
+      </div>
+      <div class="news-grid" id="latest-news"></div>
+    </div></section>
+
+    <!-- LIVE PRICES TABLE -->
+    <section class="section"><div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="sec-prices"></h2>
+        <a href="markets.html" class="section-action" id="sec-prices-action"></a>
+      </div>
+      <div id="home-market-table"></div>
+    </div></section>
+
+    <!-- CATEGORY SPOTLIGHTS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-explore"></h2></div>
+      <div class="grid-auto-180" id="spotlights"></div>
+    </div></section>
+
+    <!-- FEATURED ANALYSIS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-analysis"></h2></div>
+      <div class="grid-auto-280" id="featured-analysis"></div>
+    </div></section>
+
+    <!-- COMPANY NEWS -->
+    <section class="section"><div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="sec-company"></h2>
+        <a href="category/company-news.html" class="section-action" id="sec-company-action"></a>
+      </div>
+      <div class="grid-auto-280" id="company-news"></div>
+    </div></section>
+
+    <!-- GEOPOLITICS -->
+    <section class="section"><div class="container">
+      <div class="section-header">
+        <h2 class="section-title" id="sec-geo"></h2>
+        <a href="category/geopolitics.html" class="section-action" id="sec-geo-action"></a>
+      </div>
+      <div class="grid-auto-280" id="geo-news"></div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Section titles
+    document.getElementById('hero-eyebrow').innerHTML = icon('activity',14) + ' Live Energy Markets — March 31, 2026';
+    document.getElementById('sec-breaking').innerHTML = icon('zap',20) + ' Breaking News';
+    document.getElementById('sec-drivers').innerHTML = icon('activity',20) + " What's Moving Markets";
+    document.getElementById('sec-news').innerHTML = icon('newspaper',20) + ' Latest Energy News';
+    document.getElementById('sec-news-action').innerHTML = 'All News ' + icon('arrow-right',14);
+    document.getElementById('sec-prices').innerHTML = icon('bar-chart',20) + ' Market Prices';
+    document.getElementById('sec-prices-action').innerHTML = 'Full Markets Hub ' + icon('arrow-right',14);
+    document.getElementById('sec-explore').innerHTML = icon('layout',20) + ' Explore Coverage';
+    document.getElementById('sec-analysis').innerHTML = icon('trending-up',20) + ' Featured Analysis';
+    document.getElementById('sec-company').innerHTML = icon('building',20) + ' Company News';
+    document.getElementById('sec-company-action').innerHTML = 'More ' + icon('arrow-right',14);
+    document.getElementById('sec-geo').innerHTML = icon('globe',20) + ' Geopolitics &amp; Global Supply';
+    document.getElementById('sec-geo-action').innerHTML = 'More ' + icon('arrow-right',14);
+
+    // Hero buttons
+    document.getElementById('hero-actions').innerHTML =
+      '<a href="markets.html" class="btn btn-primary">' + icon('bar-chart',15) + ' View All Prices</a>' +
+      '<a href="category/energy.html" class="btn btn-ghost">' + icon('newspaper',15) + ' Explore News</a>' +
+      '<a href="category/oil-prices.html" class="btn btn-ghost">' + icon('trending-up',15) + ' Market Movers</a>';
+
+    // Hero price cards
+    document.getElementById('hero-prices').innerHTML = COMMODITIES.map(function(c) {
+      var color = c.change >= 0 ? '#22c55e' : '#ef4444';
+      return '<div class="price-card">' +
+        '<div class="price-card-header">' +
+          '<span class="price-card-label">' + c.name + '</span>' +
+          sparkline(c.spark, color) +
+        '</div>' +
+        '<div class="price-card-value">$' + c.price.toFixed(2) + '</div>' +
+        '<div class="price-card-footer">' +
+          priceChange(c.change, c.pct) +
+          '<span class="price-card-unit">' + c.unit + '</span>' +
+        '</div></div>';
+    }).join('');
+
+    // Breaking news
+    document.getElementById('breaking-news').innerHTML = BREAKING_NEWS.map(function(n, i) {
+      return '<a href="article.html" class="news-row">' +
+        '<span class="news-row-num">' + String(i + 1).padStart(2, '0') + '</span>' +
+        '<div class="flex-1"><p class="news-row-title">' + n.title + '</p></div>' +
+        '<div class="news-row-meta">' + catPill(n.cat, n.slug) +
+        '<span class="news-row-time">' + n.time + '</span></div></a>';
+    }).join('');
+
+    // Market drivers
+    document.getElementById('market-drivers').innerHTML = MARKET_DRIVERS.map(function(d) {
+      return '<div class="driver-card">' +
+        '<div class="flex items-center gap-10" style="margin-bottom:10px">' +
+          '<div class="driver-icon">' + icon(d.icon, 18) + '</div>' +
+          '<span class="driver-cat">' + d.cat + '</span></div>' +
+        '<div class="driver-title">' + d.title + '</div>' +
+        '<p class="driver-desc">' + d.desc + '</p></div>';
+    }).join('');
+
+    // Latest news
+    var feat = FEATURED_ARTICLES[0];
+    var supporting = FEATURED_ARTICLES.slice(1).map(function(a) {
+      return '<a href="article.html" class="article-card">' +
+        catPill(a.cat, a.slug) +
+        '<h4>' + a.title + '</h4>' +
+        '<div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
+    }).join('');
+
+    document.getElementById('latest-news').innerHTML =
+      '<a href="article.html" class="article-featured">' +
+        '<div class="article-featured-img">' + icon('trending-up', 48) + '</div>' +
+        '<div class="article-featured-body">' +
+          catPill(feat.cat, feat.slug) +
+          '<h3>' + feat.title + '</h3>' +
+          '<p>' + feat.excerpt + '</p>' +
+          '<div class="article-meta"><span>' + feat.author + '</span><span>' + feat.date + '</span><span>' + feat.readTime + ' read</span></div>' +
+        '</div></a>' +
+      '<div class="news-grid-supporting">' + supporting + '</div>';
+
+    // Market table
+    renderMarketTable('home-market-table', true);
+
+    // Spotlights
+    document.getElementById('spotlights').innerHTML = CATEGORY_LIST_FOR_SPOTLIGHTS.map(function(c) {
+      return '<a href="category/' + c.slug + '.html" class="spotlight-card">' +
+        '<div class="spotlight-icon">' + icon(c.icon, 22) + '</div>' +
+        '<h4>' + c.name + '</h4></a>';
+    }).join('');
+
+    // Featured analysis
+    document.getElementById('featured-analysis').innerHTML = FEATURED_ARTICLES.slice(1, 4).map(function(a) {
+      return '<a href="article.html" class="article-card card-lg">' +
+        catPill(a.cat, a.slug) +
+        '<h4 style="font-size:16px;margin:10px 0 8px">' + a.title + '</h4>' +
+        '<p style="color:#9ca3af;font-size:13px;line-height:1.6;margin-bottom:10px">' + a.excerpt + '</p>' +
+        '<div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
+    }).join('');
+
+    // Company news
+    document.getElementById('company-news').innerHTML = COMPANY_NEWS.map(function(n) {
+      return '<a href="article.html" class="article-card">' +
+        '<h4>' + n.title + '</h4>' +
+        '<span style="color:#6b7280;font-size:12px">' + n.date + '</span></a>';
+    }).join('');
+
+    // Geo news
+    document.getElementById('geo-news').innerHTML = GEO_ITEMS.map(function(g) {
+      return '<a href="article.html" class="geo-card">' +
+        '<div class="geo-region">' + g.region + '</div>' +
+        '<div class="geo-title">' + g.title + '</div>' +
+        '<p class="geo-desc">' + g.desc + '</p></a>';
+    }).join('');
+  </script>
+</body>
+</html>
