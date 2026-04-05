@@ -21,6 +21,7 @@
         <span>Crude Oil</span>
       </nav>
 
+      <div class="stat-row" id="cat-stats" style="margin-bottom:24px"></div>
       <div class="cat-icon-wrap">
         <div class="cat-icon-box" id="cat-icon"></div>
         <div><h1 style="margin:0">Crude Oil</h1></div>
@@ -85,14 +86,25 @@
     document.getElementById('sh-market').innerHTML = icon('bar-chart',16) + ' Market Snapshot';
     document.getElementById('sh-trending').innerHTML = icon('trending-up',16) + ' Trending';
 
+    // Category-specific content
+    var catData = (typeof CATEGORY_CONTENT !== "undefined" && CATEGORY_CONTENT[catSlug]) ? CATEGORY_CONTENT[catSlug] : { articles: CATEGORY_ARTICLES, stats: [] };
+    var catArticles = catData.articles || CATEGORY_ARTICLES;
+
+    // Stat cards
+    if (catData.stats && catData.stats.length > 0) {
+      document.getElementById("cat-stats").innerHTML = catData.stats.map(function(s) {
+        return "<div class=\"stat-box\"><div class=\"stat-box-label\">" + s.label + "</div><div class=\"stat-box-value\">" + s.value + "</div><div class=\"stat-box-sub\" style=\"color:var(--blue)\">" + s.sub + "</div></div>";
+      }).join("");
+    }
+
     // Featured article
-    const feat = CATEGORY_ARTICLES[0];
+    const feat = catArticles[0];
     document.getElementById('feat-title').textContent = feat.title;
     document.getElementById('feat-excerpt').textContent = feat.excerpt;
     document.getElementById('feat-meta').innerHTML = '<span>'+feat.author+'</span><span>'+feat.date+'</span><span>'+feat.readTime+' read</span>';
 
     // Article list
-    document.getElementById('article-list').innerHTML = CATEGORY_ARTICLES.slice(1).map(a => `
+    document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
       <a href="../article.html" class="article-list-item">
         <div class="article-list-thumb">${icon(catIcon, 20)}</div>
         <div>

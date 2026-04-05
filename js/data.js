@@ -375,3 +375,206 @@ const OIL_PRICE_SECTIONS = [
     ]
   },
 ];
+
+// ─── UNIQUE CONTENT PER CATEGORY PAGE ──────────────────────────────
+const CATEGORY_CONTENT = {
+  "oil-prices": {
+    articles: [
+      { id: 1001, title: "WTI Crude Climbs Past $71 as U.S. Inventories Post Sharp Drawdown", excerpt: "Commercial crude stocks at Cushing fell 4.2M barrels, well above the 1.8M consensus, signaling strong refinery demand ahead of driving season.", date: "Apr 4, 2026", author: "Sarah Mitchell", readTime: "5 min" },
+      { id: 1002, title: "Brent-WTI Spread Widens to $4.44 on Atlantic Basin Tightness", excerpt: "North Sea supply disruptions and strong European refinery margins are pulling Brent higher relative to WTI.", date: "Apr 3, 2026", author: "James Carter", readTime: "4 min" },
+      { id: 1003, title: "Goldman Sachs Raises Brent Forecast to $82 by Year-End", excerpt: "The bank cites stronger-than-expected emerging market demand growth and disciplined OPEC+ supply management.", date: "Apr 2, 2026", author: "Elena Petrova", readTime: "4 min" },
+      { id: 1004, title: "OPEC Basket Price Holds Above $74 Amid Production Cut Extensions", excerpt: "The reference basket used by OPEC member nations remains elevated as voluntary cuts of 2.2M bpd persist through Q3.", date: "Apr 1, 2026", author: "David Chen", readTime: "5 min" },
+      { id: 1005, title: "Dubai Crude Fetches Premium as Asian Refiners Compete for Sour Barrels", excerpt: "The Dubai benchmark has firmed on strong buying from Indian and Chinese refiners seeking Middle Eastern grades.", date: "Mar 31, 2026", author: "Anna Kowalski", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "WTI Crude", value: "$71.48", sub: "+1.75%" },
+      { label: "Brent Crude", value: "$75.92", sub: "+1.16%" },
+      { label: "OPEC Basket", value: "$74.12", sub: "+0.88%" },
+    ]
+  },
+  "oil-futures": {
+    articles: [
+      { id: 1101, title: "WTI Futures Curve Flips to Backwardation Through December 2026", excerpt: "Front-month contracts now trade at a premium to deferred months, signaling near-term supply tightness.", date: "Apr 4, 2026", author: "James Carter", readTime: "6 min" },
+      { id: 1102, title: "Brent Futures Open Interest Hits 3-Month High Ahead of OPEC Meeting", excerpt: "Speculative positioning in Brent crude futures has surged as traders anticipate policy signals from Vienna.", date: "Apr 3, 2026", author: "Sarah Mitchell", readTime: "5 min" },
+      { id: 1103, title: "Options Market Pricing Elevated Volatility Through Summer 2026", excerpt: "Implied volatility on WTI calls has risen 18% as geopolitical risk and demand uncertainty drive hedging activity.", date: "Apr 2, 2026", author: "David Chen", readTime: "5 min" },
+      { id: 1104, title: "Managed Money Net Longs in Crude Futures Rise for Fourth Straight Week", excerpt: "CFTC data shows hedge funds increasing bullish bets on oil as macro headwinds appear to be easing.", date: "Apr 1, 2026", author: "Elena Petrova", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "WTI Front Month", value: "$71.48", sub: "May 2026" },
+      { label: "Brent Front Month", value: "$75.92", sub: "May 2026" },
+      { label: "Curve Shape", value: "Backwardation", sub: "-$2.58 12-mo" },
+    ]
+  },
+  "rig-count": {
+    articles: [
+      { id: 1201, title: "U.S. Rig Count Falls to 584, Down 5 From Prior Week", excerpt: "Baker Hughes data shows continued drilling pullback as operators prioritize capital discipline over volume growth.", date: "Apr 4, 2026", author: "Staff", readTime: "3 min" },
+      { id: 1202, title: "Permian Basin Rigs Hold Steady at 302 Despite Overall U.S. Decline", excerpt: "The nation's most prolific basin continues to attract investment even as secondary plays see rig reductions.", date: "Apr 3, 2026", author: "James Carter", readTime: "5 min" },
+      { id: 1203, title: "Canadian Rig Count Rebounds to 118 as Spring Drilling Season Begins", excerpt: "Freeze-thaw cycle restrictions are easing across Alberta and Saskatchewan, allowing crews to mobilize.", date: "Apr 2, 2026", author: "Elena Petrova", readTime: "4 min" },
+      { id: 1204, title: "International Rig Count Stable at 958 as Middle East Activity Rises", excerpt: "Saudi Arabia and UAE are adding rigs to maintain production capacity even as OPEC+ quotas limit output.", date: "Apr 1, 2026", author: "David Chen", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "U.S. Total", value: "584", sub: "-5 w/w" },
+      { label: "U.S. Oil Rigs", value: "479", sub: "-3 w/w" },
+      { label: "Permian Basin", value: "302", sub: "Steady" },
+    ]
+  },
+  "energy": {
+    articles: [
+      { id: 1301, title: "Global Energy Demand Growth Slows to 1.2% in 2026, IEA Reports", excerpt: "The International Energy Agency's latest monthly report shows moderating consumption growth driven by Chinese economic headwinds and efficiency gains.", date: "Apr 4, 2026", author: "Sarah Mitchell", readTime: "7 min" },
+      { id: 1302, title: "U.S. Power Grid Faces Record Summer Demand From Data Center Expansion", excerpt: "AI-driven data center buildouts are straining electricity infrastructure across Texas, Virginia, and the Southwest.", date: "Apr 3, 2026", author: "Anna Kowalski", readTime: "6 min" },
+      { id: 1303, title: "European Energy Security Improves as LNG Import Capacity Doubles Since 2022", excerpt: "New regasification terminals in Germany, Italy, and Greece have significantly reduced Europe's vulnerability to supply shocks.", date: "Apr 2, 2026", author: "Elena Petrova", readTime: "5 min" },
+      { id: 1304, title: "India's Energy Consumption Surpasses Japan for First Time", excerpt: "Rapid industrialization and a growing middle class push India past Japan as the world's fourth-largest energy consumer.", date: "Apr 1, 2026", author: "David Chen", readTime: "5 min" },
+      { id: 1305, title: "Carbon Capture Investment Reaches $12B Globally in 2025", excerpt: "Direct air capture and point-source CCS projects are scaling up as government subsidies and carbon pricing incentivize deployment.", date: "Mar 31, 2026", author: "James Carter", readTime: "6 min" },
+    ],
+    stats: [
+      { label: "Global Demand", value: "104.2M", sub: "bpd (oil equiv.)" },
+      { label: "U.S. Production", value: "13.4M", sub: "bpd crude" },
+      { label: "LNG Exports", value: "14 Bcf/d", sub: "U.S. Gulf" },
+    ]
+  },
+  "crude-oil": {
+    articles: [
+      { id: 1401, title: "Permian Basin Production Hits Record 6.2 Million Barrels Per Day", excerpt: "Improved well productivity and extended lateral lengths continue to push U.S. shale output higher despite a falling rig count.", date: "Apr 4, 2026", author: "James Carter", readTime: "6 min" },
+      { id: 1402, title: "Guyana's Stabroek Block Delivers New 1.5 Billion Barrel Discovery", excerpt: "ExxonMobil's latest exploration well adds to what is already one of the most significant deepwater oil provinces found this century.", date: "Apr 3, 2026", author: "Sarah Mitchell", readTime: "7 min" },
+      { id: 1403, title: "OPEC+ Compliance Reaches 116% as Iraq Over-Produces Again", excerpt: "Baghdad's output consistently exceeds its agreed ceiling, creating tension within the alliance and complicating quota negotiations.", date: "Apr 2, 2026", author: "Elena Petrova", readTime: "5 min" },
+      { id: 1404, title: "North Sea Forties Pipeline Restart Eases Brent Supply Concerns", excerpt: "The 450,000 bpd system returns to full capacity after a 10-day maintenance shutdown that briefly tightened dated Brent.", date: "Apr 1, 2026", author: "David Chen", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "U.S. Production", value: "13.4M", sub: "bpd" },
+      { label: "OPEC Output", value: "26.8M", sub: "bpd" },
+      { label: "Global Supply", value: "102.6M", sub: "bpd" },
+    ]
+  },
+  "gas-prices": {
+    articles: [
+      { id: 1501, title: "U.S. Average Gas Price Rises to $3.42/Gallon Ahead of Spring Driving Season", excerpt: "AAA reports retail gasoline prices are up 12 cents from a month ago as refiners switch to costlier summer-blend formulations.", date: "Apr 4, 2026", author: "Staff", readTime: "3 min" },
+      { id: 1502, title: "California Gas Prices Hit $5.18 as State-Specific Regulations Add Costs", excerpt: "The Golden State's unique fuel standards and carbon pricing continue to push pump prices well above the national average.", date: "Apr 3, 2026", author: "Anna Kowalski", readTime: "5 min" },
+      { id: 1503, title: "Gulf Coast Refinery Margins Improve as Crack Spreads Widen", excerpt: "The 3-2-1 crack spread has expanded to $28/barrel, incentivizing higher refinery utilization rates.", date: "Apr 2, 2026", author: "James Carter", readTime: "4 min" },
+      { id: 1504, title: "EIA: U.S. Summer Gasoline Demand Expected to Average 9.1M BPD", excerpt: "The Energy Information Administration forecasts steady consumption growth despite elevated prices and rising EV adoption.", date: "Apr 1, 2026", author: "Elena Petrova", readTime: "5 min" },
+    ],
+    stats: [
+      { label: "U.S. National Avg", value: "$3.42", sub: "/gallon" },
+      { label: "RBOB Futures", value: "$2.18", sub: "/gallon" },
+      { label: "Crack Spread", value: "$28.00", sub: "3-2-1" },
+    ]
+  },
+  "natural-gas": {
+    articles: [
+      { id: 1601, title: "Henry Hub Falls Below $3.50 as U.S. Storage Surplus Persists", excerpt: "Above-average inventories and record production continue to weigh on domestic natural gas prices despite rising export demand.", date: "Apr 4, 2026", author: "Elena Petrova", readTime: "5 min" },
+      { id: 1602, title: "European TTF Gas Rallies 12% on Extended Cold Weather Forecast", excerpt: "A late-season cold snap across Northern Europe is drawing down storage reserves faster than seasonal norms.", date: "Apr 3, 2026", author: "Sarah Mitchell", readTime: "4 min" },
+      { id: 1603, title: "U.S. LNG Exports Hit Record 14 Bcf/d as Golden Pass Begins Operations", excerpt: "The new Qatar-Exxon joint venture facility in Texas adds 2.5 Bcf/d of liquefaction capacity to the Gulf Coast.", date: "Apr 2, 2026", author: "James Carter", readTime: "6 min" },
+      { id: 1604, title: "Japan LNG Spot Price Drops to $12.40/MMBtu on Mild Asian Demand", excerpt: "Warmer-than-normal temperatures across Northeast Asia reduce heating gas requirements heading into spring.", date: "Apr 1, 2026", author: "David Chen", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "Henry Hub", value: "$3.42", sub: "/MMBtu" },
+      { label: "TTF Dutch", value: "€11.85", sub: "/MWh" },
+      { label: "JKM LNG", value: "$12.40", sub: "/MMBtu" },
+    ]
+  },
+  "heating-oil": {
+    articles: [
+      { id: 1701, title: "Heating Oil Futures Ease as Winter Demand Season Winds Down", excerpt: "NYMEX heating oil contracts slip as warmer spring temperatures reduce residential heating demand across the Northeast.", date: "Apr 4, 2026", author: "Staff", readTime: "3 min" },
+      { id: 1702, title: "Northeast Home Heating Costs Rose 8% This Winter vs. Last Year", excerpt: "The EIA's Winter Fuels Outlook post-mortem shows higher crude prices and cold January temps drove seasonal cost increases.", date: "Apr 3, 2026", author: "Anna Kowalski", readTime: "5 min" },
+      { id: 1703, title: "Diesel and Heating Oil Margins Diverge as Trucking Demand Holds", excerpt: "While residential heating demand fades, strong freight activity keeps middle distillate markets well-supported.", date: "Apr 2, 2026", author: "James Carter", readTime: "4 min" },
+      { id: 1704, title: "European Diesel Imports From Asia Rise as Arbitrage Window Opens", excerpt: "A widening East-West price differential is pulling Asian diesel cargoes toward Europe for the first time since January.", date: "Apr 1, 2026", author: "Elena Petrova", readTime: "5 min" },
+    ],
+    stats: [
+      { label: "Heating Oil", value: "$2.34", sub: "/gallon" },
+      { label: "Diesel", value: "$2.41", sub: "/gallon" },
+      { label: "Distillate Stock", value: "118M", sub: "barrels" },
+    ]
+  },
+  "geopolitics": {
+    articles: [
+      { id: 1801, title: "Red Sea Attacks Force 60% of Tanker Traffic to Reroute Around Africa", excerpt: "Houthi missile and drone strikes continue to disrupt commercial shipping through the Bab el-Mandeb strait, adding $1-2/barrel to delivered crude costs.", date: "Apr 4, 2026", author: "Elena Petrova", readTime: "7 min" },
+      { id: 1802, title: "U.S. Tightens Sanctions Enforcement on Russian Oil Price Cap", excerpt: "The Treasury Department blacklists 14 additional tankers suspected of transporting Russian crude above the $60/barrel ceiling.", date: "Apr 3, 2026", author: "David Chen", readTime: "6 min" },
+      { id: 1803, title: "Venezuela Sanctions Relief Under Review as Election Promises Stall", excerpt: "Washington weighs re-imposing oil sector restrictions after Caracas fails to meet democratic reform benchmarks.", date: "Apr 2, 2026", author: "Sarah Mitchell", readTime: "5 min" },
+      { id: 1804, title: "Saudi-Iran Détente Reduces Persian Gulf Risk Premium", excerpt: "Diplomatic normalization between Riyadh and Tehran continues to ease tensions around the Strait of Hormuz chokepoint.", date: "Apr 1, 2026", author: "James Carter", readTime: "5 min" },
+      { id: 1805, title: "Nigeria Pipeline Security Improves 40% Under New Government Program", excerpt: "Reduced sabotage and theft in the Niger Delta enable Bonny Light production to recover toward 2019 levels.", date: "Mar 31, 2026", author: "Anna Kowalski", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "Hormuz Transit", value: "21M", sub: "bpd" },
+      { label: "Red Sea Impact", value: "+$1.50", sub: "/bbl premium" },
+      { label: "Russian Exports", value: "4.8M", sub: "bpd to Asia" },
+    ]
+  },
+  "company-news": {
+    articles: [
+      { id: 1901, title: "ExxonMobil Reports $9.2B Q1 Profit, Raises Dividend 4%", excerpt: "Strong upstream earnings from the Permian Basin and Guyana offset weaker downstream margins in the quarter.", date: "Apr 4, 2026", author: "David Chen", readTime: "5 min" },
+      { id: 1902, title: "Shell Accelerates North Sea Asset Sales Worth $4.5B", excerpt: "The energy major continues divesting mature UK and Norwegian assets to focus capital on high-return deepwater projects.", date: "Apr 3, 2026", author: "Sarah Mitchell", readTime: "4 min" },
+      { id: 1903, title: "Chevron Completes Hess Merger, Gains Guyana Stabroek Stake", excerpt: "The $53B deal closes after FTC review, giving Chevron a 30% stake in one of the world's fastest-growing oil provinces.", date: "Apr 2, 2026", author: "James Carter", readTime: "6 min" },
+      { id: 1904, title: "TotalEnergies Signs 20-Year LNG Supply Agreement with India", excerpt: "The deal secures 3 MTPA of LNG from Mozambique's Area 1 project, supporting India's coal-to-gas transition strategy.", date: "Apr 1, 2026", author: "Elena Petrova", readTime: "5 min" },
+      { id: 1905, title: "Saudi Aramco Invests $2B in South Korean Refinery Expansion", excerpt: "The investment strengthens Aramco's downstream integration strategy and secures long-term crude supply placement in Asia.", date: "Mar 31, 2026", author: "Anna Kowalski", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "ExxonMobil", value: "$9.2B", sub: "Q1 profit" },
+      { label: "Aramco CapEx", value: "$50B", sub: "2026 plan" },
+      { label: "M&A Volume", value: "$87B", sub: "YTD energy" },
+    ]
+  },
+  "alternative-energy": {
+    articles: [
+      { id: 2001, title: "Global Renewable Investment Hits $1.8 Trillion in 2025, IRENA Reports", excerpt: "Solar, wind, and battery storage captured 80% of new power generation investment worldwide for the first time.", date: "Apr 4, 2026", author: "Anna Kowalski", readTime: "6 min" },
+      { id: 2002, title: "Green Hydrogen Costs Fall 40% Since 2022 as Electrolyzer Scale Grows", excerpt: "Projects in Saudi Arabia, Australia, and Chile are proving that sub-$3/kg green hydrogen is achievable at scale.", date: "Apr 3, 2026", author: "James Carter", readTime: "5 min" },
+      { id: 2003, title: "Battery Storage Deployments Triple Year-Over-Year in the U.S.", excerpt: "Grid-scale lithium-ion installations reached 18 GW in 2025 as utilities pair storage with solar to meet peak demand.", date: "Apr 2, 2026", author: "Sarah Mitchell", readTime: "5 min" },
+      { id: 2004, title: "EU Carbon Price Stabilizes at €85/Tonne, Supporting Clean Energy Economics", excerpt: "The Emissions Trading System continues to make fossil fuel power generation more expensive relative to renewables.", date: "Apr 1, 2026", author: "Elena Petrova", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "Renewable CapEx", value: "$1.8T", sub: "2025 global" },
+      { label: "Solar Cost", value: "$24", sub: "/MWh avg" },
+      { label: "EV Sales Share", value: "22%", sub: "global 2025" },
+    ]
+  },
+  "nuclear": {
+    articles: [
+      { id: 2101, title: "NuScale Small Modular Reactor Receives Full NRC Design Certification", excerpt: "The 77 MWe module becomes the first SMR to complete the U.S. regulatory approval process, clearing the path for commercial deployment.", date: "Apr 4, 2026", author: "Anna Kowalski", readTime: "7 min" },
+      { id: 2102, title: "France Commits €10B to Build Six New EPR2 Reactors by 2040", excerpt: "President Macron's nuclear renaissance plan aims to replace aging reactors while supporting European energy independence.", date: "Apr 3, 2026", author: "Elena Petrova", readTime: "6 min" },
+      { id: 2103, title: "Uranium Spot Price Surges to $92/lb as Utility Contracting Accelerates", excerpt: "After a decade of low prices, uranium has rallied 180% since 2023 on renewed nuclear ambitions from the U.S., China, and India.", date: "Apr 2, 2026", author: "David Chen", readTime: "5 min" },
+      { id: 2104, title: "Microsoft Signs 20-Year Nuclear Power Purchase Agreement for Data Centers", excerpt: "The tech giant secures carbon-free baseload power from Constellation Energy's reactor fleet to support AI computing growth.", date: "Apr 1, 2026", author: "James Carter", readTime: "5 min" },
+    ],
+    stats: [
+      { label: "Uranium Price", value: "$92", sub: "/lb U₃O₈" },
+      { label: "Global Reactors", value: "440", sub: "operational" },
+      { label: "Under Constr.", value: "62", sub: "reactors" },
+    ]
+  },
+  "solar": {
+    articles: [
+      { id: 2201, title: "Global Solar Installations Reach Record 420 GW in 2025", excerpt: "China alone accounted for 230 GW of new solar capacity as module prices fell below $0.10/watt for the first time.", date: "Apr 4, 2026", author: "Anna Kowalski", readTime: "6 min" },
+      { id: 2202, title: "U.S. Utility-Scale Solar Pipeline Exceeds 300 GW as IRA Credits Flow", excerpt: "The Inflation Reduction Act's tax credits continue to drive a massive buildout of solar farms across the Sun Belt states.", date: "Apr 3, 2026", author: "Sarah Mitchell", readTime: "5 min" },
+      { id: 2203, title: "Perovskite-Silicon Tandem Cells Hit 33.9% Efficiency Record", excerpt: "Oxford PV's commercial-ready tandem cells promise to push rooftop solar economics further into mainstream territory.", date: "Apr 2, 2026", author: "James Carter", readTime: "5 min" },
+      { id: 2204, title: "India's Solar Tariffs Drop to Record Low $0.029/kWh in Rajasthan Auction", excerpt: "The world's cheapest solar electricity bid underscores India's aggressive renewable deployment targets.", date: "Apr 1, 2026", author: "David Chen", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "2025 Installed", value: "420 GW", sub: "global" },
+      { label: "Module Price", value: "$0.09", sub: "/watt" },
+      { label: "LCOE", value: "$24", sub: "/MWh avg" },
+    ]
+  },
+  "wind": {
+    articles: [
+      { id: 2301, title: "Offshore Wind Capacity Surpasses 80 GW Globally as Costs Stabilize", excerpt: "After a period of cost inflation driven by supply chain bottlenecks, offshore wind developers report stabilizing turbine and installation costs.", date: "Apr 4, 2026", author: "Elena Petrova", readTime: "6 min" },
+      { id: 2302, title: "Vineyard Wind Achieves Full 800 MW Output Off Massachusetts Coast", excerpt: "America's first utility-scale offshore wind farm is now operating at rated capacity, powering 400,000 homes.", date: "Apr 3, 2026", author: "Sarah Mitchell", readTime: "5 min" },
+      { id: 2303, title: "Vestas Unveils 17 MW Offshore Turbine, World's Most Powerful", excerpt: "The V236-17.0 MW platform can generate enough electricity for 20,000 households from a single installation.", date: "Apr 2, 2026", author: "James Carter", readTime: "4 min" },
+      { id: 2304, title: "Texas Wind Generation Sets New Record at 35 GW During March Storm", excerpt: "ERCOT's wind fleet produced more power than natural gas for a 48-hour period during sustained high wind conditions.", date: "Apr 1, 2026", author: "Anna Kowalski", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "Offshore Global", value: "80 GW", sub: "installed" },
+      { label: "U.S. Onshore", value: "155 GW", sub: "installed" },
+      { label: "Largest Turbine", value: "17 MW", sub: "Vestas" },
+    ]
+  },
+  "renewable-energy": {
+    articles: [
+      { id: 2401, title: "Renewables Provided 35% of Global Electricity in 2025, IEA Confirms", excerpt: "Wind, solar, hydro, and biomass generation surpassed coal for the first time on an annual basis worldwide.", date: "Apr 4, 2026", author: "Sarah Mitchell", readTime: "7 min" },
+      { id: 2402, title: "Grid-Scale Battery Storage Hits 100 GW Global Milestone", excerpt: "Lithium-ion dominates the market but sodium-ion and iron-air chemistries are gaining ground for long-duration applications.", date: "Apr 3, 2026", author: "James Carter", readTime: "5 min" },
+      { id: 2403, title: "Green Hydrogen Electrolyzer Orders Surge 300% in 2025", excerpt: "European and Middle Eastern projects drive demand for gigawatt-scale electrolysis systems from manufacturers like Plug Power and Nel.", date: "Apr 2, 2026", author: "David Chen", readTime: "5 min" },
+      { id: 2404, title: "U.S. Clean Energy Jobs Surpass 4 Million for First Time", excerpt: "Solar installation, EV manufacturing, and battery production drive employment growth outpacing fossil fuel sector hiring.", date: "Apr 1, 2026", author: "Anna Kowalski", readTime: "4 min" },
+    ],
+    stats: [
+      { label: "Global Share", value: "35%", sub: "of electricity" },
+      { label: "Storage", value: "100 GW", sub: "global installed" },
+      { label: "Clean Jobs (U.S.)", value: "4M+", sub: "employed" },
+    ]
+  },
+};

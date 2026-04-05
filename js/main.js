@@ -265,7 +265,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:28px;width:auto;margin-bottom:8px">
+          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:38px;width:auto;margin-bottom:12px">
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div>
