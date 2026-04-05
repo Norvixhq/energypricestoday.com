@@ -156,15 +156,17 @@
     // Trending
     document.getElementById('sidebar-trending').innerHTML = TRENDING_TOPICS.map((t,i) => `
 
-    // Live headlines sidebar — GDELT, no API key needed
-      document.getElementById('live-sidebar').style.display = '';
-      document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
-      loadLiveNews('natgas', 'sidebar-live-news', 4);
       <div class="sidebar-trending-item" ${i===4?'style="border:none"':''}>
         <span class="sidebar-trending-num">${i+1}</span>
         <span class="sidebar-trending-text">${t}</span>
       </div>
     `).join('');
+
+
+    // Live headlines sidebar — GDELT
+    document.getElementById('live-sidebar').style.display = '';
+    document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
+    loadLiveNews('natgas', 'sidebar-live-news', 4);
   </script>
 </body>
 </html>

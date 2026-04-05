@@ -102,7 +102,7 @@ function renderHeader(activePage) {
   ];
 
   // Fix paths for pages in subdirectories
-  const inSub = window.location.pathname.includes('/category/');
+  const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const prefix = inSub ? '../' : '';
 
   const navLinks = nav.map(n => {
@@ -215,30 +215,18 @@ function renderClocks() {
   var container = document.getElementById('ticker-clocks');
   if (!container) return;
 
-  var zones = [
-    { label: 'NY', tz: 'America/New_York' },
-    { label: 'LON', tz: 'Europe/London' },
-    { label: 'SGP', tz: 'Asia/Singapore' },
-  ];
-
   function update() {
     var now = new Date();
-    container.innerHTML = zones.map(function(z) {
-      var opts = { timeZone: z.tz, hour: '2-digit', minute: '2-digit', hour12: false };
-      var time = now.toLocaleTimeString('en-US', opts);
-      return '<span class="clock-zone">' +
-        '<span class="clock-label">' + z.label + '</span>' +
-        '<span class="clock-time">' + time + '</span>' +
-      '</span>';
-    }).join('<span class="clock-sep">·</span>') +
-    '<span class="clock-sep">·</span>' +
-    '<span class="clock-time" style="font-size:10.5px;opacity:0.6">' +
-      now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) +
-    '</span>';
+    var ny = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: '2-digit', minute: '2-digit', hour12: true });
+    var lon = now.toLocaleTimeString('en-US', { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', hour12: false });
+    container.innerHTML =
+      '<span class="clock-item">New York ' + ny + '</span>' +
+      '<span class="clock-dot"></span>' +
+      '<span class="clock-item">London ' + lon + '</span>';
   }
 
   update();
-  setInterval(update, 10000); // update every 10 seconds
+  setInterval(update, 30000);
 }
 
 // ─── NEWSLETTER SIGNUP ───────────────────────────────────────────
@@ -259,7 +247,7 @@ function initNewsletter() {
 
 // ─── FOOTER ──────────────────────────────────────────────────────
 function renderFooter() {
-  const inSub = window.location.pathname.includes('/category/');
+  const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
 
   document.getElementById('site-footer').innerHTML = `
