@@ -47,7 +47,7 @@
 
     
     <!-- LIVE HEADLINES FROM THE WEB -->
-    <section class="section" id="live-headlines-section" style="display:none">
+    <section class="section" id="live-headlines-section">
       <div class="container">
         <div class="section-header">
           <h2 class="section-title" id="sec-live"></h2>
@@ -254,12 +254,9 @@
         "<span class=\"chokepoint-stat\">" + icon("anchor",12) + " " + c.stat + "</span></div>";
     }).join("");
   
-    // LIVE HEADLINES (only shows if NewsAPI is configured)
+    // LIVE HEADLINES — pulls from GDELT, works immediately, no API key needed
     document.getElementById('sec-live').innerHTML = icon('zap',18) + ' Live Energy Headlines';
-    if (typeof NEWS_CONFIG !== 'undefined' && (NEWS_CONFIG.apiKey || NEWS_CONFIG.proxyUrl)) {
-      document.getElementById('live-headlines-section').style.display = '';
-      loadLiveNews('energy', 'live-energy-headlines', 8);
-    }
+    loadLiveNews('energy', 'live-energy-headlines', 8);
   </script>
 </body>
 </html>

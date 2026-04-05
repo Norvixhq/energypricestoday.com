@@ -80,7 +80,7 @@
             <div id="sidebar-trending"></div>
           </div>
           <!-- Live Headlines -->
-          <div class="sidebar-card" id="live-sidebar" style="display:none">
+          <div class="sidebar-card" id="live-sidebar">
             <div class="sidebar-heading" style="justify-content:space-between"><span id="sh-live"></span><span class="live-badge">LIVE</span></div>
             <div id="sidebar-live-news"></div>
           </div>
@@ -154,12 +154,10 @@
     // Trending
     document.getElementById('sidebar-trending').innerHTML = TRENDING_TOPICS.map((t,i) => `
 
-    // Live headlines sidebar
-    if (typeof NEWS_CONFIG !== 'undefined' && (NEWS_CONFIG.apiKey || NEWS_CONFIG.proxyUrl)) {
+    // Live headlines sidebar — GDELT, no API key needed
       document.getElementById('live-sidebar').style.display = '';
       document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
       loadLiveNews('natgas', 'sidebar-live-news', 4);
-    }
       <div class="sidebar-trending-item" ${i===4?'style="border:none"':''}>
         <span class="sidebar-trending-num">${i+1}</span>
         <span class="sidebar-trending-text">${t}</span>

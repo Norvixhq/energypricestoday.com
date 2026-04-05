@@ -80,7 +80,7 @@
             <div id="sidebar-trending"></div>
           </div>
           <!-- Live Headlines -->
-          <div class="sidebar-card" id="live-sidebar" style="display:none">
+          <div class="sidebar-card" id="live-sidebar">
             <div class="sidebar-heading" style="justify-content:space-between"><span id="sh-live"></span><span class="live-badge">LIVE</span></div>
             <div id="sidebar-live-news"></div>
           </div>
@@ -156,12 +156,10 @@
     if (typeof GEO_TRENDING !== "undefined") {
       document.getElementById("sidebar-trending").innerHTML = GEO_TRENDING.slice(0,6).map(function(t,i) {
 
-    // Live headlines sidebar
-    if (typeof NEWS_CONFIG !== 'undefined' && (NEWS_CONFIG.apiKey || NEWS_CONFIG.proxyUrl)) {
+    // Live headlines sidebar — GDELT, no API key needed
       document.getElementById('live-sidebar').style.display = '';
       document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
       loadLiveNews('geopolitics', 'sidebar-live-news', 4);
-    }
         return "<div class=\"sidebar-trending-item\">" +
           "<span class=\"sidebar-trending-num\">" + t.heat + "</span>" +
           "<div><span class=\"sidebar-trending-text\" style=\"font-weight:600;color:var(--text-1)\">" + t.title + "</span>" +
@@ -170,12 +168,10 @@
     } else {
       document.getElementById("sidebar-trending").innerHTML = TRENDING_TOPICS.map(function(t,i) {
 
-    // Live headlines sidebar
-    if (typeof NEWS_CONFIG !== 'undefined' && (NEWS_CONFIG.apiKey || NEWS_CONFIG.proxyUrl)) {
+    // Live headlines sidebar — GDELT, no API key needed
       document.getElementById('live-sidebar').style.display = '';
       document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
       loadLiveNews('geopolitics', 'sidebar-live-news', 4);
-    }
         return "<div class=\"sidebar-trending-item\"><span class=\"sidebar-trending-num\">" + (i+1) + "</span><span class=\"sidebar-trending-text\">" + t + "</span></div>";
       }).join("");
     }
