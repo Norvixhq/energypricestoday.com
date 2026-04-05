@@ -79,6 +79,11 @@
             <div class="sidebar-heading" id="sh-trending"></div>
             <div id="sidebar-trending"></div>
           </div>
+          <!-- Live Headlines -->
+          <div class="sidebar-card" id="live-sidebar" style="display:none">
+            <div class="sidebar-heading" style="justify-content:space-between"><span id="sh-live"></span><span class="live-badge">LIVE</span></div>
+            <div id="sidebar-live-news"></div>
+          </div>
         </aside>
       </div>
     </div>
@@ -88,6 +93,7 @@
   <script src="../js/article-slugs.js"></script>
   <script src="../js/main.js"></script>
   <script src="../js/live-data.js"></script>
+  <script src="../js/news-feed.js"></script>
   <script>
     const catSlug = 'company-news';
     const catIcon = 'building';
@@ -147,6 +153,13 @@
 
     // Trending
     document.getElementById('sidebar-trending').innerHTML = TRENDING_TOPICS.map((t,i) => `
+
+    // Live headlines sidebar
+    if (typeof NEWS_CONFIG !== 'undefined' && (NEWS_CONFIG.apiKey || NEWS_CONFIG.proxyUrl)) {
+      document.getElementById('live-sidebar').style.display = '';
+      document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
+      loadLiveNews('companies', 'sidebar-live-news', 4);
+    }
       <div class="sidebar-trending-item" ${i===4?'style="border:none"':''}>
         <span class="sidebar-trending-num">${i+1}</span>
         <span class="sidebar-trending-text">${t}</span>

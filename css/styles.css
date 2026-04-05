@@ -725,3 +725,39 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   animation:shimmer 8s ease-in-out infinite;
   pointer-events:none;border-radius:inherit;
 }
+
+/* ─── LIVE NEWS CARDS ───────────────────────────────────────────── */
+.live-news-card{
+  display:block;padding:14px 16px;
+  border-bottom:1px solid var(--border);
+  transition:background .12s;cursor:pointer;text-decoration:none;
+}
+.live-news-card:hover{background:rgba(61,143,212,0.03)}
+.live-news-card:last-child{border-bottom:none}
+.live-news-source{
+  font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.06em;
+  color:var(--blue);margin-bottom:4px;
+}
+.live-news-title{color:var(--text-1);font-size:13.5px;font-weight:500;line-height:1.4;margin-bottom:4px}
+.live-news-card:hover .live-news-title{color:var(--blue-h)}
+.live-news-time{color:var(--text-3);font-size:10.5px}
+
+.live-news-container{
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius);overflow:hidden;
+}
+.live-news-header{
+  padding:12px 16px;border-bottom:1px solid var(--border);
+  display:flex;align-items:center;justify-content:space-between;
+}
+.live-news-header h3{font-size:14px;margin:0;display:flex;align-items:center;gap:6px}
+.live-news-header h3 svg{color:var(--amber)}
+.live-badge{
+  font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;
+  color:var(--green);display:flex;align-items:center;gap:4px;
+}
+.live-badge::before{
+  content:'';width:6px;height:6px;border-radius:50%;background:var(--green);
+  animation:livePulse 2s ease-in-out infinite;
+}
+@keyframes livePulse{0%,100%{opacity:1}50%{opacity:0.3}}
