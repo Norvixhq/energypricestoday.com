@@ -172,8 +172,9 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
 /* ─── MARKET TICKER ─────────────────────────────────────────────── */
 .market-ticker-strip{
   background:rgba(255,255,255,0.015);border-bottom:1px solid var(--border);
-  overflow:hidden;height:32px;display:flex;align-items:center;
+  height:32px;display:flex;align-items:center;
 }
+.ticker-scroll-area{flex:1;overflow:hidden;height:100%;display:flex;align-items:center}
 .ticker-track{
   display:flex;align-items:center;white-space:nowrap;
   animation:tickerScroll 45s linear infinite;
@@ -187,6 +188,15 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
 .ticker-change.up{color:var(--green)}
 .ticker-change.down{color:var(--red)}
 .ticker-sep{color:rgba(255,255,255,0.06);padding:0 2px;font-size:8px}
+
+.ticker-clocks{
+  display:flex;align-items:center;gap:12px;padding:0 16px;
+  border-left:1px solid var(--border);height:100%;flex-shrink:0;
+}
+.clock-zone{display:flex;align-items:center;gap:4px}
+.clock-label{color:var(--text-3);font-size:9.5px;font-weight:600;letter-spacing:0.04em}
+.clock-time{color:var(--text-1);font-size:11px;font-weight:600;font-variant-numeric:tabular-nums}
+.clock-date{color:var(--text-3);font-size:10px;font-weight:500;padding-left:4px;border-left:1px solid var(--border);margin-left:4px}
 
 /* ─── SEARCH OVERLAY ────────────────────────────────────────────── */
 .search-overlay{
@@ -230,9 +240,6 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
   display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
 }
 .footer-bottom p{color:var(--text-3);font-size:11px}
-.footer-socials{display:flex;gap:14px}
-.footer-socials a{color:var(--text-3);transition:color .15s}
-.footer-socials a:hover{color:var(--blue)}
 
 /* ─── SECTION HEADER ────────────────────────────────────────────── */
 .section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
@@ -640,6 +647,7 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   .inline-data-card{grid-template-columns:1fr;gap:10px}
   .article-share-btns{margin-left:0}
   .market-ticker-strip{display:none}
+  .ticker-clocks{display:none}
 }
 @media(max-width:640px){
   .grid-5{grid-template-columns:repeat(2,1fr)}

@@ -140,7 +140,10 @@ function renderHeader(activePage) {
       </div>
     </div>
     <div class="market-ticker-strip" id="ticker-strip">
-      <div class="ticker-track" id="ticker-track"></div>
+      <div class="ticker-scroll-area">
+        <div class="ticker-track" id="ticker-track"></div>
+      </div>
+      <div class="ticker-clocks" id="ticker-clocks"></div>
     </div>
     <div class="mobile-nav" id="mobile-nav">${mobileLinks}</div>
     <div class="search-overlay" id="search-overlay">
@@ -208,6 +211,36 @@ function renderTicker() {
   track.innerHTML = items + '<span class="ticker-sep">·</span>' + items;
 }
 
+// ─── LIVE MULTI-TIMEZONE CLOCK ────────────────────────────────────
+function renderClocks() {
+  var container = document.getElementById('ticker-clocks');
+  if (!container) return;
+
+  var zones = [
+    { label: 'NY', tz: 'America/New_York' },
+    { label: 'LON', tz: 'Europe/London' },
+    { label: 'SGP', tz: 'Asia/Singapore' },
+  ];
+
+  function update() {
+    var now = new Date();
+    container.innerHTML = zones.map(function(z) {
+      var opts = { timeZone: z.tz, hour: '2-digit', minute: '2-digit', hour12: false };
+      var time = now.toLocaleTimeString('en-US', opts);
+      return '<span class="clock-zone">' +
+        '<span class="clock-label">' + z.label + '</span>' +
+        '<span class="clock-time">' + time + '</span>' +
+      '</span>';
+    }).join('') +
+    '<span class="clock-date">' +
+      now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) +
+    '</span>';
+  }
+
+  update();
+  setInterval(update, 10000); // update every 10 seconds
+}
+
 // ─── NEWSLETTER SIGNUP ───────────────────────────────────────────
 function initNewsletter() {
   var form = document.getElementById('newsletter-form');
@@ -273,11 +306,6 @@ function renderFooter() {
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 EnergyPricesToday.com. All rights reserved. Market data is provided for informational purposes only.</p>
-        <div class="footer-socials">
-          <a href="#" aria-label="Twitter">${icon('twitter', 16)}</a>
-          <a href="#" aria-label="LinkedIn">${icon('linkedin', 16)}</a>
-          <a href="#" aria-label="YouTube">${icon('youtube', 16)}</a>
-        </div>
       </div>
     </div>
   `;
@@ -364,6 +392,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderHeader();
   renderFooter();
   renderTicker();
+  renderClocks();
   initContactForm();
   initNewsletter();
   initReadingProgress();
