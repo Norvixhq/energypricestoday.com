@@ -41,6 +41,9 @@ const ICONS = {
   linkedin: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>',
   youtube: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>',
   folder: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>',
+  search: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>',
+  anchor: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V8"/><path d="M5 12H2a10 10 0 0 0 20 0h-3"/><circle cx="12" cy="5" r="3"/></svg>',
+  ship: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"/><path d="M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76"/><path d="M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6"/><path d="M12 10v4"/><path d="M12 2v3"/></svg>',
 };
 
 function icon(name, size) {
@@ -77,9 +80,9 @@ function renderHeader(activePage) {
   const nav = [
     { label: 'Home', href: 'index.html' },
     { label: 'Markets', href: 'markets.html' },
-    { label: 'Oil Prices', href: 'category/oil-prices.html' },
-    { label: 'Oil Futures', href: 'category/oil-futures.html' },
-    { label: 'Rig Count', href: 'category/rig-count.html' },
+    { label: 'Oil Prices', href: 'oil-prices.html' },
+    { label: 'Oil Futures', href: 'oil-futures.html' },
+    { label: 'Rig Count', href: 'rig-count.html' },
     { label: 'Energy', href: 'category/energy.html' },
     { label: 'Geopolitics', href: 'category/geopolitics.html' },
     { label: 'Company News', href: 'category/company-news.html' },
@@ -126,9 +129,32 @@ function renderHeader(activePage) {
         <span class="logo-text">Energy<span>Prices</span>Today</span>
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
-      <button class="mobile-toggle" onclick="toggleMobileNav()" aria-label="Menu">${icon('menu', 24)}</button>
+      <div class="header-actions">
+        <button class="header-search-btn" onclick="toggleSearch()" aria-label="Search">${icon('search', 18)}</button>
+        <button class="mobile-toggle" onclick="toggleMobileNav()" aria-label="Menu">${icon('menu', 24)}</button>
+      </div>
+    </div>
+    <div class="market-ticker-strip" id="ticker-strip">
+      <div class="ticker-track" id="ticker-track"></div>
     </div>
     <div class="mobile-nav" id="mobile-nav">${mobileLinks}</div>
+    <div class="search-overlay" id="search-overlay">
+      <div class="search-overlay-inner">
+        <div class="search-box">
+          ${icon('search', 20)}
+          <input type="text" id="search-input" placeholder="Search markets, news, and analysis..." autocomplete="off">
+          <button onclick="toggleSearch()" class="search-close-btn">${icon('x', 18)}</button>
+        </div>
+        <div class="search-hints">
+          <span class="search-hint-label">Popular:</span>
+          <a href="${prefix}category/oil-prices.html" class="search-hint-tag">Oil Prices</a>
+          <a href="${prefix}category/natural-gas.html" class="search-hint-tag">Natural Gas</a>
+          <a href="${prefix}category/geopolitics.html" class="search-hint-tag">Geopolitics</a>
+          <a href="${prefix}markets.html" class="search-hint-tag">Markets</a>
+          <a href="${prefix}category/alternative-energy.html" class="search-hint-tag">Alt Energy</a>
+        </div>
+      </div>
+    </div>
   `;
 
   // Scroll listener
@@ -142,6 +168,55 @@ function toggleMobileNav() {
   const btn = document.querySelector('.mobile-toggle');
   const open = nav.classList.toggle('open');
   btn.innerHTML = open ? icon('x', 24) : icon('menu', 24);
+}
+
+// ─── SEARCH OVERLAY ──────────────────────────────────────────────
+function toggleSearch() {
+  var overlay = document.getElementById('search-overlay');
+  if (!overlay) return;
+  var open = overlay.classList.toggle('open');
+  if (open) {
+    document.body.style.overflow = 'hidden';
+    setTimeout(function() {
+      var input = document.getElementById('search-input');
+      if (input) input.focus();
+    }, 150);
+  } else {
+    document.body.style.overflow = '';
+  }
+}
+
+// ─── MARKET TICKER STRIP ─────────────────────────────────────────
+function renderTicker() {
+  var track = document.getElementById('ticker-track');
+  if (!track || typeof COMMODITIES === 'undefined') return;
+  var items = COMMODITIES.map(function(c) {
+    var cls = c.change >= 0 ? 'up' : 'down';
+    var arrow = c.change >= 0 ? '▲' : '▼';
+    return '<span class="ticker-item">' +
+      '<span class="ticker-name">' + c.name + '</span>' +
+      '<span class="ticker-price">$' + c.price.toFixed(2) + '</span>' +
+      '<span class="ticker-change ' + cls + '">' + arrow + ' ' + (c.change >= 0 ? '+' : '') + c.pct.toFixed(2) + '%</span>' +
+    '</span>';
+  }).join('<span class="ticker-sep">·</span>');
+  // Duplicate for seamless scroll
+  track.innerHTML = items + '<span class="ticker-sep">·</span>' + items;
+}
+
+// ─── NEWSLETTER SIGNUP ───────────────────────────────────────────
+function initNewsletter() {
+  var form = document.getElementById('newsletter-form');
+  if (!form) return;
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    var wrap = document.getElementById('newsletter-wrap');
+    if (wrap) {
+      wrap.innerHTML = '<div style="text-align:center;padding:20px">' +
+        icon('check-circle', 32) +
+        '<p style="color:#22c55e;font-size:15px;font-weight:600;margin-top:12px">You\'re subscribed!</p>' +
+        '<p style="color:#9ca3af;font-size:13px">We\'ll send you market updates — no spam, ever.</p></div>';
+    }
+  });
 }
 
 // ─── FOOTER ──────────────────────────────────────────────────────
@@ -162,11 +237,11 @@ function renderFooter() {
         <div>
           <div class="footer-heading">Markets</div>
           <div class="footer-links">
-            <a href="${p}category/oil-prices.html">Oil Prices</a>
+            <a href="${p}oil-prices.html">Oil Prices</a>
             <a href="${p}category/natural-gas.html">Natural Gas</a>
             <a href="${p}category/gas-prices.html">Gas Prices</a>
             <a href="${p}category/heating-oil.html">Heating Oil</a>
-            <a href="${p}category/oil-futures.html">Oil Futures</a>
+            <a href="${p}oil-futures.html">Oil Futures</a>
           </div>
         </div>
         <div>
@@ -175,7 +250,7 @@ function renderFooter() {
             <a href="${p}category/energy.html">Energy</a>
             <a href="${p}category/geopolitics.html">Geopolitics</a>
             <a href="${p}category/company-news.html">Company News</a>
-            <a href="${p}category/rig-count.html">Rig Count</a>
+            <a href="${p}rig-count.html">Rig Count</a>
             <a href="${p}category/alternative-energy.html">Alternative Energy</a>
           </div>
         </div>
@@ -283,6 +358,8 @@ function initReadingProgress() {
 document.addEventListener('DOMContentLoaded', () => {
   renderHeader();
   renderFooter();
+  renderTicker();
   initContactForm();
+  initNewsletter();
   initReadingProgress();
 });

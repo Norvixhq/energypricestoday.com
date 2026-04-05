@@ -89,7 +89,22 @@
         <a href="category/geopolitics.html" class="section-action" id="sec-geo-action"></a>
       </div>
       <div class="grid-auto-280" id="geo-news"></div>
+      <div class="grid-auto-280" id="chokepoints" style="margin-top:20px"></div>
     </div></section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section">
+      <div class="newsletter-bg"></div>
+      <div class="newsletter-inner" id="newsletter-wrap">
+        <h2>Stay Ahead of the Markets</h2>
+        <p>Get the most important energy market news delivered to your inbox — free, concise, and no spam.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="you@example.com" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="newsletter-note">Free daily digest. Unsubscribe anytime.</p>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer" id="site-footer"></footer>
@@ -115,7 +130,7 @@
     document.getElementById('hero-actions').innerHTML =
       '<a href="markets.html" class="btn btn-primary">' + icon('bar-chart',15) + ' View All Prices</a>' +
       '<a href="category/energy.html" class="btn btn-ghost">' + icon('newspaper',15) + ' Explore News</a>' +
-      '<a href="category/oil-prices.html" class="btn btn-ghost">' + icon('trending-up',15) + ' Market Movers</a>';
+      '<a href="oil-prices.html" class="btn btn-ghost">' + icon('trending-up',15) + ' Market Movers</a>';
 
     // Hero price cards
     document.getElementById('hero-prices').innerHTML = COMMODITIES.map(function(c) {
@@ -204,6 +219,21 @@
         '<div class="geo-title">' + g.title + '</div>' +
         '<p class="geo-desc">' + g.desc + '</p></a>';
     }).join('');
+
+    // GLOBAL SUPPLY CHOKEPOINTS
+    var chokepoints = [
+      { label: "Chokepoint", title: "Strait of Hormuz", desc: "21M bpd of crude transit. Any disruption impacts global benchmarks.", stat: "21M bpd" },
+      { label: "Shipping", title: "Red Sea / Bab el-Mandeb", desc: "Houthi attacks reroute tankers around Cape of Good Hope, adding 10-14 days.", stat: "4.8M bpd" },
+      { label: "Infrastructure", title: "Suez Canal", desc: "Critical passage connecting Mediterranean and Asian markets.", stat: "5.5M bpd" },
+      { label: "LNG Terminal", title: "U.S. Gulf Coast LNG", desc: "Record export capacity supporting European and Asian supply diversification.", stat: "14 Bcf/d" },
+    ];
+    document.getElementById("chokepoints").innerHTML = chokepoints.map(function(c) {
+      return "<div class=\"chokepoint-card\">" +
+        "<div class=\"chokepoint-label\">" + c.label + "</div>" +
+        "<div class=\"chokepoint-title\">" + c.title + "</div>" +
+        "<p class=\"chokepoint-desc\">" + c.desc + "</p>" +
+        "<span class=\"chokepoint-stat\">" + icon("anchor",12) + " " + c.stat + "</span></div>";
+    }).join("");
   </script>
 </body>
 </html>

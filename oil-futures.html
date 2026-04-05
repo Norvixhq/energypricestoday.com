@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oil Futures — Crude Oil Futures Contracts & Forward Curves — EnergyPricesToday.com</title>
+  <meta name="description" content="Track crude oil futures contracts, forward curve analysis, and derivatives market data for WTI and Brent crude.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <section class="page-hero-large">
+      <div class="hero-bg"></div>
+      <div class="container" style="position:relative;z-index:1">
+        <nav class="breadcrumbs"><a href="index.html">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> <span>Oil Futures</span></nav>
+        <h1>Oil Futures</h1>
+        <p class="hero-sub">Crude oil futures contracts, forward curve positioning, and derivatives market analysis for WTI and Brent benchmarks.</p>
+
+        <div class="stat-row" style="margin-top:24px">
+          <div class="stat-box">
+            <div class="stat-box-label">WTI Front Month (CLc1)</div>
+            <div class="stat-box-value">$71.48</div>
+            <div class="stat-box-sub change up">+1.23 (+1.75%)</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-label">Brent Front Month (COc1)</div>
+            <div class="stat-box-value">$75.92</div>
+            <div class="stat-box-sub change up">+0.87 (+1.16%)</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-label">WTI-Brent Spread</div>
+            <div class="stat-box-value">-$4.44</div>
+            <div class="stat-box-sub" style="color:#6b7280">Contango</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-label">WTI 12-Mo Strip</div>
+            <div class="stat-box-value">$68.90</div>
+            <div class="stat-box-sub" style="color:#6b7280">Avg. forward price</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section"><div class="container">
+      <div class="explainer-block">
+        <h3>How Oil Futures Work</h3>
+        <p>Oil futures are standardized contracts traded on exchanges that obligate the buyer to purchase, and the seller to deliver, a specific quantity of crude oil at a predetermined price on a future date. WTI futures trade on the New York Mercantile Exchange (NYMEX) in 1,000-barrel contracts, while Brent futures trade on the Intercontinental Exchange (ICE).</p>
+        <p style="margin-top:12px">The futures curve shows prices for contracts expiring in successive months. When near-term contracts trade at higher prices than deferred months, the market is in <strong style="color:#fff">backwardation</strong> — typically signaling tight supply. When deferred months are more expensive, the curve is in <strong style="color:#fff">contango</strong> — often indicating oversupply or storage economics.</p>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-ftable"></h2></div>
+      <div id="futures-table"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-fnews"></h2></div>
+      <div class="grid-auto-280" id="futures-articles"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title">Related Coverage</h2></div>
+      <div class="grid-3" id="futures-related" style="max-width:800px"></div>
+    </div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('sec-ftable').innerHTML = icon('bar-chart',20) + ' Futures Pricing';
+    document.getElementById('sec-fnews').innerHTML = icon('newspaper',20) + ' Latest Futures News';
+    renderMarketTable('futures-table', false);
+    document.getElementById('futures-articles').innerHTML = CATEGORY_ARTICLES.slice(0,4).map(function(a) {
+      return '<a href="article.html" class="article-card"><h4>' + a.title + '</h4><div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span></div></a>';
+    }).join('');
+    document.getElementById('futures-related').innerHTML = [
+      ['Oil Prices','oil-prices.html','trending-up'],
+      ['Crude Oil News','category/crude-oil.html','droplets'],
+      ['Markets Hub','markets.html','bar-chart'],
+    ].map(function(r) {
+      return '<a href="' + r[1] + '" class="spotlight-card"><div class="spotlight-icon">' + icon(r[2],22) + '</div><h4>' + r[0] + '</h4></a>';
+    }).join('');
+  </script>
+</body>
+</html>

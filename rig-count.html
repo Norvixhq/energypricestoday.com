@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rig Count — U.S. & International Drilling Activity — EnergyPricesToday.com</title>
+  <meta name="description" content="Weekly rig count data for U.S. and international drilling. Track oil and gas rig trends, Baker Hughes data, and production outlook.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <section class="page-hero-large">
+      <div class="hero-bg"></div>
+      <div class="container" style="position:relative;z-index:1">
+        <nav class="breadcrumbs"><a href="index.html">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> <span>Rig Count</span></nav>
+        <h1>Rig Count</h1>
+        <p class="hero-sub">Weekly U.S. and international drilling rig count data, powered by Baker Hughes. Track oil and gas rig trends and production outlook.</p>
+
+        <div class="stat-row" style="margin-top:24px">
+          <div class="stat-box">
+            <div class="stat-box-label">U.S. Total Rigs</div>
+            <div class="stat-box-value">584</div>
+            <div class="stat-box-sub change down">-5 from last week</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-label">U.S. Oil Rigs</div>
+            <div class="stat-box-value">479</div>
+            <div class="stat-box-sub change down">-3 from last week</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-label">U.S. Gas Rigs</div>
+            <div class="stat-box-value">100</div>
+            <div class="stat-box-sub change down">-2 from last week</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-label">Canada Total</div>
+            <div class="stat-box-value">118</div>
+            <div class="stat-box-sub change up">+4 from last week</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-box-label">International</div>
+            <div class="stat-box-value">958</div>
+            <div class="stat-box-sub" style="color:#6b7280">Last monthly report</div>
+          </div>
+        </div>
+        <p style="color:#4b5563;font-size:11px;margin-top:12px">Source: Baker Hughes Rig Count · Updated March 28, 2026</p>
+      </div>
+    </section>
+
+    <section class="section"><div class="container">
+      <div class="explainer-block">
+        <h3>Why the Rig Count Matters</h3>
+        <p>The Baker Hughes rig count is one of the most closely watched indicators of U.S. oil and gas production activity. Published weekly, it measures the number of drilling rigs actively exploring for or developing oil and gas reserves. A rising rig count typically signals growing production capacity and potential future supply increases, while a declining count may indicate reduced investment and tightening supply ahead.</p>
+        <p style="margin-top:12px">The U.S. rig count has declined from its 2023 peak as operators prioritize capital discipline and shareholder returns over aggressive drilling programs. The Permian Basin in West Texas and New Mexico accounts for the majority of active oil rigs, followed by the Eagle Ford, Bakken, and DJ-Niobrara basins.</p>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-rignews"></h2></div>
+      <div class="grid-auto-280" id="rig-articles"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-rigmarket"></h2></div>
+      <div class="grid-5" id="rig-market-cards"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title">Related Coverage</h2></div>
+      <div class="grid-3" id="rig-related" style="max-width:800px"></div>
+    </div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('sec-rignews').innerHTML = icon('newspaper',20) + ' Latest Rig Count Updates';
+    document.getElementById('sec-rigmarket').innerHTML = icon('bar-chart',20) + ' Related Market Data';
+
+    document.getElementById('rig-articles').innerHTML = [
+      { title: "U.S. Rig Count Falls for Third Consecutive Week, Baker Hughes Reports", date: "Mar 28, 2026", author: "Staff", readTime: "3 min" },
+      { title: "Permian Basin Operators Slow Drilling Amid Capital Discipline Push", date: "Mar 27, 2026", author: "James Carter", readTime: "5 min" },
+      { title: "Canadian Rig Count Rebounds as Spring Drilling Season Approaches", date: "Mar 26, 2026", author: "Elena Petrova", readTime: "4 min" },
+      { title: "International Rig Count Holds Steady as Middle East Activity Rises", date: "Mar 25, 2026", author: "David Chen", readTime: "4 min" },
+    ].map(function(a) {
+      return '<a href="article.html" class="article-card"><h4>' + a.title + '</h4><div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
+    }).join('');
+
+    document.getElementById('rig-market-cards').innerHTML = COMMODITIES.slice(0,3).map(function(c) {
+      var color = c.change >= 0 ? '#22c55e' : '#ef4444';
+      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '</div></div>';
+    }).join('');
+
+    document.getElementById('rig-related').innerHTML = [
+      ['Oil Prices','oil-prices.html','trending-up'],
+      ['Crude Oil News','category/crude-oil.html','droplets'],
+      ['Energy News','category/energy.html','zap'],
+    ].map(function(r) {
+      return '<a href="' + r[1] + '" class="spotlight-card"><div class="spotlight-icon">' + icon(r[2],22) + '</div><h4>' + r[0] + '</h4></a>';
+    }).join('');
+  </script>
+</body>
+</html>
