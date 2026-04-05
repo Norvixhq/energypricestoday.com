@@ -54,7 +54,10 @@ function fetchGdeltHeadlines(query, containerId, maxItems) {
     '&format=json' +
     '&sourcelang=eng';
   
-  fetch(url)
+  // Use CORS proxy for cross-origin GDELT requests
+  var corsUrl = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(url);
+  
+  fetch(corsUrl)
     .then(function(res) { return res.json(); })
     .then(function(data) {
       if (!data.articles || data.articles.length === 0) {

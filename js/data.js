@@ -86,6 +86,7 @@ const COMPANY_NEWS = [
   { id: 203, title: "TotalEnergies Signs Major LNG Supply Deal with India", date: "Mar 30, 2026" },
   { id: 204, title: "ConocoPhillips Completes Marathon Oil Merger Integration", date: "Mar 29, 2026" },
   { id: 205, title: "Saudi Aramco Invests $2B in South Korean Refining Complex", date: "Mar 29, 2026" },
+  { id: 206, title: "Equinor Wins New Offshore Wind Contracts in the North Sea", date: "Mar 28, 2026" },
 ];
 
 const GEO_ITEMS = [

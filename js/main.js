@@ -142,7 +142,7 @@ function renderHeader(activePage) {
       <div class="ticker-scroll-area">
         <div class="ticker-track" id="ticker-track"></div>
       </div>
-      <div class="ticker-clocks" id="ticker-clocks"></div>
+
     </div>
     <div class="mobile-nav" id="mobile-nav">${mobileLinks}</div>
     <div class="search-overlay" id="search-overlay">
@@ -206,27 +206,8 @@ function renderTicker() {
       '<span class="ticker-change ' + cls + '">' + arrow + ' ' + (c.change >= 0 ? '+' : '') + c.pct.toFixed(2) + '%</span>' +
     '</span>';
   }).join('<span class="ticker-sep">·</span>');
-  // Duplicate for seamless scroll
-  track.innerHTML = items + '<span class="ticker-sep">·</span>' + items;
-}
-
-// ─── LIVE MULTI-TIMEZONE CLOCK ────────────────────────────────────
-function renderClocks() {
-  var container = document.getElementById('ticker-clocks');
-  if (!container) return;
-
-  function update() {
-    var now = new Date();
-    var ny = now.toLocaleTimeString('en-US', { timeZone: 'America/New_York', hour: '2-digit', minute: '2-digit', hour12: true });
-    var lon = now.toLocaleTimeString('en-US', { timeZone: 'Europe/London', hour: '2-digit', minute: '2-digit', hour12: false });
-    container.innerHTML =
-      '<span class="clock-item">New York ' + ny + '</span>' +
-      '<span class="clock-dot"></span>' +
-      '<span class="clock-item">London ' + lon + '</span>';
-  }
-
-  update();
-  setInterval(update, 30000);
+  // Triplicate for seamless continuous loop
+  track.innerHTML = items + items + items;
 }
 
 // ─── NEWSLETTER SIGNUP ───────────────────────────────────────────
@@ -379,7 +360,6 @@ document.addEventListener('DOMContentLoaded', () => {
   renderHeader();
   renderFooter();
   renderTicker();
-  renderClocks();
   initContactForm();
   initNewsletter();
   initReadingProgress();
