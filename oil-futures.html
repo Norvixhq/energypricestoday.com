@@ -70,9 +70,23 @@
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
   <script>
-    document.getElementById('sec-ftable').innerHTML = icon('bar-chart',20) + ' Futures Pricing';
+    document.getElementById('sec-ftable').innerHTML = icon('bar-chart',20) + ' Futures Contract Pricing';
     document.getElementById('sec-fnews').innerHTML = icon('newspaper',20) + ' Latest Futures News';
-    renderMarketTable('futures-table', false);
+
+    // Build futures table
+    var frows = OIL_FUTURES_DATA.map(function(f) {
+      var cls = f.change >= 0 ? 'up' : 'down';
+      return '<tr>' +
+        '<td>' + f.contract + '</td>' +
+        '<td class="table-price">$' + f.price.toFixed(2) + '</td>' +
+        '<td><span class="change ' + cls + '">' + (f.change >= 0 ? '+' : '') + f.change.toFixed(2) + '</span></td>' +
+        '<td><span class="change ' + cls + '">' + (f.pct >= 0 ? '+' : '') + f.pct.toFixed(2) + '%</span></td></tr>';
+    }).join('');
+    document.getElementById('futures-table').innerHTML =
+      '<div class="market-table-wrap"><table class="market-table">' +
+      '<thead><tr><th style="text-align:left">Contract</th><th>Price</th><th>Change</th><th>% Change</th></tr></thead>' +
+      '<tbody>' + frows + '</tbody></table>' +
+      '<div class="table-footer">Settlement prices · Updated Mar 31, 2026</div></div>';
     document.getElementById('futures-articles').innerHTML = CATEGORY_ARTICLES.slice(0,4).map(function(a) {
       return '<a href="article.html" class="article-card"><h4>' + a.title + '</h4><div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span></div></a>';
     }).join('');

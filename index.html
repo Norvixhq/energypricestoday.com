@@ -23,8 +23,8 @@
       <div class="container" style="position:relative;z-index:1">
         <div style="margin-bottom:32px">
           <p class="hero-eyebrow" id="hero-eyebrow"></p>
-          <h1>Energy Markets at a Glance</h1>
-          <p class="hero-sub">WTI crude climbs past $71 on bullish inventory data. OPEC+ holds production cuts. European gas rallies on cold weather outlook.</p>
+          <h1>Energy Markets Today</h1>
+          <p class="hero-sub">WTI surges past $71 on tight U.S. inventories — OPEC+ extends cuts — European gas rallies on cold snap forecasts.</p>
         </div>
         <div class="grid-5" id="hero-prices" style="margin-bottom:24px"></div>
         <div class="hero-actions" id="hero-actions"></div>
@@ -221,13 +221,7 @@
     }).join('');
 
     // GLOBAL SUPPLY CHOKEPOINTS
-    var chokepoints = [
-      { label: "Chokepoint", title: "Strait of Hormuz", desc: "21M bpd of crude transit. Any disruption impacts global benchmarks.", stat: "21M bpd" },
-      { label: "Shipping", title: "Red Sea / Bab el-Mandeb", desc: "Houthi attacks reroute tankers around Cape of Good Hope, adding 10-14 days.", stat: "4.8M bpd" },
-      { label: "Infrastructure", title: "Suez Canal", desc: "Critical passage connecting Mediterranean and Asian markets.", stat: "5.5M bpd" },
-      { label: "LNG Terminal", title: "U.S. Gulf Coast LNG", desc: "Record export capacity supporting European and Asian supply diversification.", stat: "14 Bcf/d" },
-    ];
-    document.getElementById("chokepoints").innerHTML = chokepoints.map(function(c) {
+    document.getElementById("chokepoints").innerHTML = SUPPLY_CHOKEPOINTS.slice(0,4).map(function(c) {
       return "<div class=\"chokepoint-card\">" +
         "<div class=\"chokepoint-label\">" + c.label + "</div>" +
         "<div class=\"chokepoint-title\">" + c.title + "</div>" +

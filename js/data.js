@@ -138,3 +138,43 @@ const CATEGORY_LIST_FOR_SPOTLIGHTS = [
   { slug: "alternative-energy", name: "Alternative Energy",  icon: "sun" },
   { slug: "rig-count",          name: "Rig Count",          icon: "hard-hat" },
 ];
+
+const RIG_COUNT_DATA = {
+  us_total: 584,
+  us_total_change: -5,
+  us_oil: 479,
+  us_oil_change: -3,
+  us_gas: 100,
+  us_gas_change: -2,
+  us_misc: 5,
+  canada_total: 118,
+  canada_change: 4,
+  international: 958,
+  last_updated: "March 28, 2026",
+  permian: 302,
+  eagle_ford: 48,
+  bakken: 31,
+  dj_niobrara: 14,
+};
+
+const OIL_FUTURES_DATA = [
+  { contract: "WTI May 2026", price: 71.48, change: 1.23, pct: 1.75 },
+  { contract: "WTI Jun 2026", price: 70.92, change: 1.10, pct: 1.58 },
+  { contract: "WTI Jul 2026", price: 70.35, change: 0.98, pct: 1.41 },
+  { contract: "WTI Aug 2026", price: 69.80, change: 0.85, pct: 1.23 },
+  { contract: "WTI Dec 2026", price: 68.15, change: 0.62, pct: 0.92 },
+  { contract: "WTI Dec 2027", price: 65.40, change: 0.35, pct: 0.54 },
+  { contract: "Brent May 2026", price: 75.92, change: 0.87, pct: 1.16 },
+  { contract: "Brent Jun 2026", price: 75.30, change: 0.78, pct: 1.05 },
+  { contract: "Brent Jul 2026", price: 74.72, change: 0.70, pct: 0.95 },
+  { contract: "Brent Dec 2026", price: 72.50, change: 0.48, pct: 0.67 },
+];
+
+const SUPPLY_CHOKEPOINTS = [
+  { label: "Chokepoint", title: "Strait of Hormuz", desc: "21M bpd of crude transit daily. Any disruption impacts global benchmarks and insurance premiums.", stat: "21M bpd", region: "Persian Gulf" },
+  { label: "Shipping", title: "Red Sea / Bab el-Mandeb", desc: "Houthi attacks reroute tankers around Cape of Good Hope, adding 10-14 days to delivery.", stat: "4.8M bpd", region: "Middle East" },
+  { label: "Infrastructure", title: "Suez Canal", desc: "Critical passage connecting Mediterranean and Asian oil markets via Egypt.", stat: "5.5M bpd", region: "Egypt" },
+  { label: "Pipeline", title: "Druzhba Pipeline", desc: "Major crude pipeline from Russia to Central Europe, partially sanctioned since 2022.", stat: "1.2M bpd", region: "Russia → EU" },
+  { label: "LNG Terminal", title: "U.S. Gulf Coast LNG", desc: "Record export capacity supporting European and Asian supply diversification.", stat: "14 Bcf/d", region: "United States" },
+  { label: "Strait", title: "Strait of Malacca", desc: "Key Asian oil transit route connecting Indian Ocean to South China Sea.", stat: "16M bpd", region: "Southeast Asia" },
+];

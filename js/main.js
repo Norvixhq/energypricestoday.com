@@ -79,7 +79,12 @@ function catPill(cat, slug) {
 function renderHeader(activePage) {
   const nav = [
     { label: 'Home', href: 'index.html' },
-    { label: 'Markets', href: 'markets.html' },
+    { label: 'Markets', href: 'markets.html', dropdown: [
+      { label: 'Crude Oil', href: 'category/crude-oil.html' },
+      { label: 'Gas Prices', href: 'category/gas-prices.html' },
+      { label: 'Natural Gas', href: 'category/natural-gas.html' },
+      { label: 'Heating Oil', href: 'category/heating-oil.html' },
+    ]},
     { label: 'Oil Prices', href: 'oil-prices.html' },
     { label: 'Oil Futures', href: 'oil-futures.html' },
     { label: 'Rig Count', href: 'rig-count.html' },
@@ -232,7 +237,7 @@ function renderFooter() {
             <div class="logo-icon" style="width:32px;height:32px">${icon('zap', 18)}</div>
             <span class="logo-text" style="font-size:16px">Energy<span>Prices</span>Today</span>
           </div>
-          <p>A modern energy intelligence platform delivering clean, fast market data and news without the clutter.</p>
+          <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div>
           <div class="footer-heading">Markets</div>

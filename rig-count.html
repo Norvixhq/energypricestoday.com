@@ -18,34 +18,8 @@
         <h1>Rig Count</h1>
         <p class="hero-sub">Weekly U.S. and international drilling rig count data, powered by Baker Hughes. Track oil and gas rig trends and production outlook.</p>
 
-        <div class="stat-row" style="margin-top:24px">
-          <div class="stat-box">
-            <div class="stat-box-label">U.S. Total Rigs</div>
-            <div class="stat-box-value">584</div>
-            <div class="stat-box-sub change down">-5 from last week</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-box-label">U.S. Oil Rigs</div>
-            <div class="stat-box-value">479</div>
-            <div class="stat-box-sub change down">-3 from last week</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-box-label">U.S. Gas Rigs</div>
-            <div class="stat-box-value">100</div>
-            <div class="stat-box-sub change down">-2 from last week</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-box-label">Canada Total</div>
-            <div class="stat-box-value">118</div>
-            <div class="stat-box-sub change up">+4 from last week</div>
-          </div>
-          <div class="stat-box">
-            <div class="stat-box-label">International</div>
-            <div class="stat-box-value">958</div>
-            <div class="stat-box-sub" style="color:#6b7280">Last monthly report</div>
-          </div>
-        </div>
-        <p style="color:#4b5563;font-size:11px;margin-top:12px">Source: Baker Hughes Rig Count · Updated March 28, 2026</p>
+        <div class="stat-row" id="rig-stats" style="margin-top:24px"></div>
+        <p style="color:#4b5563;font-size:11px;margin-top:12px" id="rig-updated"></p>
       </div>
     </section>
 
@@ -55,6 +29,11 @@
         <p>The Baker Hughes rig count is one of the most closely watched indicators of U.S. oil and gas production activity. Published weekly, it measures the number of drilling rigs actively exploring for or developing oil and gas reserves. A rising rig count typically signals growing production capacity and potential future supply increases, while a declining count may indicate reduced investment and tightening supply ahead.</p>
         <p style="margin-top:12px">The U.S. rig count has declined from its 2023 peak as operators prioritize capital discipline and shareholder returns over aggressive drilling programs. The Permian Basin in West Texas and New Mexico accounts for the majority of active oil rigs, followed by the Eagle Ford, Bakken, and DJ-Niobrara basins.</p>
       </div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-basins"></h2></div>
+      <div class="grid-4" id="basin-breakdown"></div>
     </div></section>
 
     <section class="section"><div class="container">
@@ -78,6 +57,42 @@
   <script>
     document.getElementById('sec-rignews').innerHTML = icon('newspaper',20) + ' Latest Rig Count Updates';
     document.getElementById('sec-rigmarket').innerHTML = icon('bar-chart',20) + ' Related Market Data';
+
+    // Rig count stats
+    var rd = RIG_COUNT_DATA;
+    var rigStats = [
+      { label: 'U.S. Total Rigs', val: rd.us_total, chg: rd.us_total_change },
+      { label: 'U.S. Oil Rigs', val: rd.us_oil, chg: rd.us_oil_change },
+      { label: 'U.S. Gas Rigs', val: rd.us_gas, chg: rd.us_gas_change },
+      { label: 'Canada Total', val: rd.canada_total, chg: rd.canada_change },
+      { label: 'International', val: rd.international, chg: null },
+    ];
+    document.getElementById('rig-stats').innerHTML = rigStats.map(function(s) {
+      var sub = '';
+      if (s.chg !== null) {
+        var cls = s.chg >= 0 ? 'up' : 'down';
+        sub = '<div class="stat-box-sub change ' + cls + '">' + (s.chg >= 0 ? '+' : '') + s.chg + ' from last week</div>';
+      } else {
+        sub = '<div class="stat-box-sub" style="color:#6b7280">Last monthly report</div>';
+      }
+      return '<div class="stat-box"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value">' + s.val + '</div>' + sub + '</div>';
+    }).join('');
+    document.getElementById('rig-updated').textContent = 'Source: Baker Hughes Rig Count · Updated ' + rd.last_updated;
+
+    // Basin breakdown
+    document.getElementById('sec-basins').innerHTML = icon('hard-hat',20) + ' Key Basin Activity';
+    var basins = [
+      { name: 'Permian Basin', rigs: rd.permian, pct: Math.round(rd.permian/rd.us_oil*100) },
+      { name: 'Eagle Ford', rigs: rd.eagle_ford, pct: Math.round(rd.eagle_ford/rd.us_oil*100) },
+      { name: 'Bakken', rigs: rd.bakken, pct: Math.round(rd.bakken/rd.us_oil*100) },
+      { name: 'DJ-Niobrara', rigs: rd.dj_niobrara, pct: Math.round(rd.dj_niobrara/rd.us_oil*100) },
+    ];
+    document.getElementById('basin-breakdown').innerHTML = basins.map(function(b) {
+      return '<div class="stat-box">' +
+        '<div class="stat-box-label">' + b.name + '</div>' +
+        '<div class="stat-box-value">' + b.rigs + '</div>' +
+        '<div class="stat-box-sub" style="color:#4a9eed">' + b.pct + '% of U.S. oil rigs</div></div>';
+    }).join('');
 
     document.getElementById('rig-articles').innerHTML = [
       { title: "U.S. Rig Count Falls for Third Consecutive Week, Baker Hughes Reports", date: "Mar 28, 2026", author: "Staff", readTime: "3 min" },
