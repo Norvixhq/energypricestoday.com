@@ -3,9 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oil Prices — Live Crude Oil Benchmarks & Market Data — EnergyPricesToday.com</title>
-  <meta name="description" content="Track live WTI, Brent, and global crude oil prices with real-time data, charts, and analysis.">
+  <title>Oil Prices — Live Global Crude Benchmarks, OPEC & International Blends — EnergyPricesToday.com</title>
+  <meta name="description" content="Track 150+ global crude oil prices including WTI, Brent, OPEC blends, and international benchmarks from 20+ countries. Live charts, data, and analysis.">
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -15,59 +18,73 @@
       <div class="hero-bg"></div>
       <div class="container" style="position:relative;z-index:1">
         <nav class="breadcrumbs"><a href="index.html">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> <span>Oil Prices</span></nav>
-        <h1>Oil Prices</h1>
-        <p class="hero-sub">Live WTI, Brent, and global crude benchmarks with daily change, trend indicators, and market analysis.</p>
-        <div class="grid-5" id="oil-benchmarks" style="margin-top:28px"></div>
+        <h1>Oil Price Charts</h1>
+        <p class="hero-sub">Real-time pricing for 150+ global crude blends and indexes — OPEC, international, Canadian, and U.S. regional benchmarks.</p>
+        <div class="grid-5" id="hero-benchmarks" style="margin-top:24px"></div>
       </div>
     </section>
 
-    <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-table"></h2></div>
-      <div id="oil-price-table"></div>
-    </div></section>
+    <!-- Quick nav for sections -->
+    <div style="border-bottom:1px solid var(--border);background:rgba(255,255,255,0.01)">
+      <div class="container" style="padding:10px 20px;overflow-x:auto">
+        <div id="section-nav" style="display:flex;gap:4px;flex-wrap:nowrap"></div>
+      </div>
+    </div>
+
+    <!-- All price sections rendered here -->
+    <div class="container" style="padding-top:32px;padding-bottom:60px" id="price-sections"></div>
 
     <section class="section"><div class="container">
       <div class="explainer-block">
-        <h3>Understanding Crude Oil Prices</h3>
-        <p>Crude oil prices are influenced by a complex web of factors including OPEC+ production decisions, global demand growth, geopolitical tensions, inventory levels, refining capacity, and currency movements. WTI (West Texas Intermediate) is the primary U.S. benchmark, while Brent crude serves as the global reference price. The spread between these benchmarks reflects transportation costs, quality differences, and regional supply-demand dynamics.</p>
-        <p style="margin-top:12px">Oil futures contracts trade on exchanges like NYMEX and ICE, with front-month contracts serving as the most-watched price indicators. Prices shown here represent the most recent settlement or spot prices and may be delayed.</p>
+        <h3>About Oil Price Data</h3>
+        <p>Prices shown represent the most recent settlement, spot, or official selling prices for each benchmark. Data may be delayed — timestamps indicate the last update for each section. International prices are typically reported with 1-4 day delays depending on the source. For real-time trading data, consult your broker or a licensed market data provider.</p>
       </div>
-    </div></section>
-
-    <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-articles"></h2></div>
-      <div class="grid-auto-280" id="oil-articles"></div>
-    </div></section>
-
-    <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title">Related Coverage</h2></div>
+      <div class="section-header" style="margin-top:28px"><h2 class="section-title" id="sec-related-title"></h2></div>
       <div class="grid-3" id="oil-related" style="max-width:800px"></div>
     </div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="js/data.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/live-data.js"></script>
   <script>
-    document.getElementById('sec-table').innerHTML = icon('bar-chart',20) + ' Oil Price Benchmarks';
-    document.getElementById('sec-articles').innerHTML = icon('newspaper',20) + ' Latest Oil Price News';
+    document.getElementById('sec-related-title').innerHTML = icon('trending-up',18) + ' Related Coverage';
 
-    // Benchmark cards
-    var oilBenchmarks = COMMODITIES.slice(0,2).concat([
-      { name: "OPEC Basket", price: 74.12, change: 0.65, pct: 0.88, unit: "$/bbl", spark: [72,73,73.5,73.8,74,74.1,74.12] },
-      { name: "Dubai Fateh", price: 73.56, change: 0.92, pct: 1.27, unit: "$/bbl", spark: [71,72,72.5,73,73.2,73.4,73.56] },
-      { name: "Louisiana Light", price: 72.85, change: 1.10, pct: 1.53, unit: "$/bbl", spark: [70,71,71.5,72,72.3,72.6,72.85] },
-    ]);
-    document.getElementById('oil-benchmarks').innerHTML = oilBenchmarks.map(function(c) {
-      var color = c.change >= 0 ? '#22c55e' : '#ef4444';
-      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
+    // Hero benchmark cards - top 5
+    var topBenchmarks = [COMMODITIES[0], COMMODITIES[1], COMMODITIES[2], COMMODITIES[3], COMMODITIES[4]];
+    document.getElementById('hero-benchmarks').innerHTML = topBenchmarks.map(function(c) {
+      var color = c.change >= 0 ? 'var(--green)' : 'var(--red)';
+      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, c.change >= 0 ? '#10b45c' : '#dc3545') + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
     }).join('');
 
-    // Price table - oil focused
-    renderMarketTable('oil-price-table', false);
+    // Section quick nav
+    document.getElementById('section-nav').innerHTML = OIL_PRICE_SECTIONS.map(function(s, i) {
+      return '<a href="#price-section-' + i + '" class="market-tab" style="text-decoration:none">' +
+        (s.flag ? s.flag + ' ' : '') + s.title + '</a>';
+    }).join('');
 
-    // Articles
-    document.getElementById('oil-articles').innerHTML = CATEGORY_ARTICLES.slice(0,4).map(function(a) {
-      return '<a href="article.html" class="article-card"><h4>' + a.title + '</h4><div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
+    // Render all price sections
+    document.getElementById('price-sections').innerHTML = OIL_PRICE_SECTIONS.map(function(s, i) {
+      var header = '<div id="price-section-' + i + '" style="scroll-margin-top:100px;margin-bottom:32px">' +
+        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">' +
+        (s.flag ? '<span style="font-size:22px">' + s.flag + '</span>' : '') +
+        '<h2 style="font-size:17px;margin:0">' + s.title + '</h2>' +
+        (s.subtitle ? '<span style="color:var(--text-3);font-size:12px;font-weight:500">(' + s.subtitle + ')</span>' : '') +
+        '</div>';
+
+      var table = '<div class="market-table-wrap"><table class="market-table">' +
+        '<thead><tr><th style="text-align:left">Blend / Index</th><th>Price</th><th>Change</th><th>% Change</th></tr></thead><tbody>';
+
+      table += s.rows.map(function(r) {
+        var cls = r.change >= 0 ? 'up' : 'down';
+        return '<tr><td>' + r.name + '</td>' +
+          '<td class="table-price">$' + r.price.toFixed(2) + '</td>' +
+          '<td><span class="change ' + cls + '">' + (r.change >= 0 ? '+' : '') + r.change.toFixed(2) + '</span></td>' +
+          '<td><span class="change ' + cls + '">' + (r.change >= 0 ? '+' : '') + r.pct.toFixed(2) + '%</span></td></tr>';
+      }).join('');
+
+      table += '</tbody></table></div></div>';
+      return header + table;
     }).join('');
 
     // Related links

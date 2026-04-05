@@ -130,8 +130,7 @@ function renderHeader(activePage) {
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
       <a class="logo" href="${prefix}index.html">
-        <div class="logo-icon">${icon('zap', 20)}</div>
-        <span class="logo-text">Energy<span>Prices</span>Today</span>
+        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img shimmer-subtle">
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
@@ -266,10 +265,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="flex items-center gap-10" style="margin-bottom:16px">
-            <div class="logo-icon" style="width:32px;height:32px">${icon('zap', 18)}</div>
-            <span class="logo-text" style="font-size:16px">Energy<span>Prices</span>Today</span>
-          </div>
+          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:28px;width:auto;margin-bottom:8px">
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div>
