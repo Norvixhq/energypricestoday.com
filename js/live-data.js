@@ -15,7 +15,7 @@
    the mock data in data.js so it always looks good.
    ═══════════════════════════════════════════════════════════════════ */
 
-var EIA_API_KEY = ''; // ← Paste your free EIA key here
+var EIA_API_KEY = '7e5ThaUOS3zjIVzaCxJCXDrCRRH9Eg15ji0gch0x'; // ← Paste your free EIA key here
 
 // EIA series IDs for major benchmarks
 var EIA_SERIES = {
