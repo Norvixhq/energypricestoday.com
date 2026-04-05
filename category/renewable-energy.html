@@ -5,6 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Renewable Energy News & Analysis — EnergyPricesToday.com</title>
   <meta name="description" content="The transition to sustainable energy sources and its market impacts.">
+  
+  <link rel="canonical" href="https://energypricestoday.com/category/renewable-energy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Renewable Energy News — EnergyPricesToday.com">
+  <meta property="og:description" content="The transition to sustainable energy and its market impacts.">
+  <meta property="og:url" content="https://energypricestoday.com/category/renewable-energy.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Renewable Energy News — EnergyPricesToday.com">
+  <meta name="twitter:description" content="The transition to sustainable energy and its market impacts.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Renewable Energy News","description":"The transition to sustainable energy and its market impacts.","url":"https://energypricestoday.com/category/renewable-energy.html","isPartOf":{"@type":"WebSite","name":"EnergyPricesToday.com","url":"https://energypricestoday.com"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://energypricestoday.com/"},{"@type":"ListItem","position":2,"name":"Renewable Energy News"}]}</script>
   <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
@@ -12,7 +24,7 @@
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <header class="site-header" id="site-header"></header>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="../index.html" style="color:#3d8fd4">Home</a><a href="../markets.html" style="color:#8891a5">Markets</a><a href="../oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="../category/energy.html" style="color:#8891a5">Energy</a><a href="../category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="../about.html" style="color:#8891a5">About</a><a href="../contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
   <main>
     <div class="container" style="padding-top:32px;padding-bottom:60px">
       <nav class="breadcrumbs">
@@ -32,7 +44,7 @@
         <!-- Articles column -->
         <div>
           <!-- Featured article -->
-          <a href="../article.html" class="article-featured" style="margin-bottom:20px">
+          <a href="" class="article-featured" id="feat-link" style="margin-bottom:20px">
             <div class="article-featured-body">
               <span style="color:#e8860c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px">Featured</span>
               <h3 id="feat-title"></h3>
@@ -73,6 +85,7 @@
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="../js/data.js"></script>
+  <script src="../js/article-slugs.js"></script>
   <script src="../js/main.js"></script>
   <script src="../js/live-data.js"></script>
   <script>
@@ -101,10 +114,12 @@
     document.getElementById('feat-title').textContent = feat.title;
     document.getElementById('feat-excerpt').textContent = feat.excerpt;
     document.getElementById('feat-meta').innerHTML = '<span>'+feat.author+'</span><span>'+feat.date+'</span><span>'+feat.readTime+' read</span>';
+    var featLink = document.getElementById('feat-link');
+    if (featLink) featLink.href = articleUrl(catArticles[0].title);
 
     // Article list
     document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
-      <a href="../article.html" class="article-list-item">
+      <a href="${articleUrl(a.title)}" class="article-list-item">
         
         <div>
           <h3>${a.title}</h3>

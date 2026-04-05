@@ -298,6 +298,8 @@ function renderFooter() {
             <a href="${p}privacy.html">Privacy Policy</a>
             <a href="${p}disclaimer.html">Disclaimer</a>
             <a href="${p}terms.html">Terms &amp; Conditions</a>
+            <a href="${p}editorial-policy.html">Editorial Policy</a>
+            <a href="${p}corrections-policy.html">Corrections Policy</a>
           </div>
         </div>
       </div>
@@ -426,7 +428,7 @@ function initLoadMore() {
     }
     batch.forEach(function(a) {
       var div = document.createElement('a');
-      div.href = '../article.html';
+      div.href = articleUrl(a.title);
       div.className = 'article-list-item';
       div.innerHTML = '<div class="article-list-thumb" style="background:linear-gradient(135deg,rgba(61,143,212,0.08),rgba(212,122,12,0.05))"></div>' +
         '<div><h3>' + a.title + '</h3>' +

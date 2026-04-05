@@ -4,13 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EnergyPricesToday.com — Live Oil, Gas & Energy Market Prices and News</title>
-  <meta name="description" content="Track live oil, gas, and energy market prices. Get breaking energy news, OPEC updates, rig count data, and market analysis — clean, fast, and free.">
-  <link rel="canonical" href="https://energypricestoday.com/index.html">
-  <meta property="og:title" content="EnergyPricesToday.com — Live Oil, Gas &amp; Energy Market Prices and News">
-  <meta property="og:description" content="Track live oil, gas, and energy market prices. Get breaking energy news, OPEC updates, rig count data, and market analysis.">
+  <meta name="description" content="Track live oil, gas, and energy market prices. Get breaking energy news, OPEC updates, rig count data, and market analysis — clean, fast, and free.">  
+  <link rel="canonical" href="https://energypricestoday.com/">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://energypricestoday.com">
-  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="EnergyPricesToday.com — Live Oil, Gas & Energy Market Prices and News — EnergyPricesToday.com">
+  <meta property="og:description" content="Track live oil, gas, and energy market prices. Breaking energy news, OPEC updates, rig count data, and market analysis.">
+  <meta property="og:url" content="https://energypricestoday.com/">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="EnergyPricesToday.com — Live Oil, Gas & Energy Market Prices and News — EnergyPricesToday.com">
+  <meta name="twitter:description" content="Track live oil, gas, and energy market prices. Breaking energy news, OPEC updates, rig count data, and market analysis.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EnergyPricesToday.com","url":"https://energypricestoday.com","logo":"https://energypricestoday.com/images/logo.png","description":"Modern energy market intelligence platform.","sameAs":[]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"EnergyPricesToday.com","url":"https://energypricestoday.com","potentialAction":{"@type":"SearchAction","target":"https://energypricestoday.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
   <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
@@ -18,7 +23,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="site-header" id="site-header"></header>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="index.html" style="color:#3d8fd4">Home</a><a href="markets.html" style="color:#8891a5">Markets</a><a href="oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="oil-futures.html" style="color:#8891a5">Oil Futures</a><a href="rig-count.html" style="color:#8891a5">Rig Count</a><a href="category/energy.html" style="color:#8891a5">Energy</a><a href="category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="category/company-news.html" style="color:#8891a5">Company News</a><a href="category/alternative-energy.html" style="color:#8891a5">Alt Energy</a><a href="about.html" style="color:#8891a5">About</a><a href="contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
   <main>
     <!-- HERO -->
     <section class="hero">
@@ -112,6 +117,7 @@
 
   <footer class="site-footer" id="site-footer"></footer>
   <script src="js/data.js"></script>
+  <script src="js/article-slugs.js"></script>
   <script src="js/main.js"></script>
   <script src="js/live-data.js"></script>
   <script>
@@ -153,7 +159,7 @@
 
     // Breaking news
     document.getElementById('breaking-news').innerHTML = BREAKING_NEWS.map(function(n, i) {
-      return '<a href="article.html" class="news-row">' +
+      return '<a href="' + articleUrl(n.title) + '" class="news-row">' +
         '<span class="news-row-num">' + String(i + 1).padStart(2, '0') + '</span>' +
         '<div class="flex-1"><p class="news-row-title">' + n.title + '</p></div>' +
         '<div class="news-row-meta">' + catPill(n.cat, n.slug) +
@@ -173,14 +179,14 @@
     // Latest news
     var feat = FEATURED_ARTICLES[0];
     var supporting = FEATURED_ARTICLES.slice(1).map(function(a) {
-      return '<a href="article.html" class="article-card">' +
+      return '<a href="' + articleUrl(a.title) + '" class="article-card">' +
         catPill(a.cat, a.slug) +
         '<h4>' + a.title + '</h4>' +
         '<div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
     }).join('');
 
     document.getElementById('latest-news').innerHTML =
-      '<a href="article.html" class="article-featured">' +
+      '<a href="' + articleUrl(feat.title) + '" class="article-featured">' +
         
         '<div class="article-featured-body">' +
           catPill(feat.cat, feat.slug) +
@@ -202,7 +208,7 @@
 
     // Featured analysis
     document.getElementById('featured-analysis').innerHTML = FEATURED_ARTICLES.slice(1, 4).map(function(a) {
-      return '<a href="article.html" class="article-card card-lg">' +
+      return '<a href="' + articleUrl(a.title) + '" class="article-card card-lg">' +
         catPill(a.cat, a.slug) +
         '<h4 style="font-size:16px;margin:10px 0 8px">' + a.title + '</h4>' +
         '<p style="color:#9ca3af;font-size:13px;line-height:1.6;margin-bottom:10px">' + a.excerpt + '</p>' +
@@ -211,14 +217,14 @@
 
     // Company news
     document.getElementById('company-news').innerHTML = COMPANY_NEWS.map(function(n) {
-      return '<a href="article.html" class="article-card">' +
+      return '<a href="' + articleUrl(a.title) + '" class="article-card">' +
         '<h4>' + n.title + '</h4>' +
         '<span style="color:#6b7280;font-size:12px">' + n.date + '</span></a>';
     }).join('');
 
     // Geo news
     document.getElementById('geo-news').innerHTML = GEO_ITEMS.map(function(g) {
-      return '<a href="article.html" class="geo-card">' +
+      return '<a href="' + articleUrl(g.title) + '" class="geo-card">' +
         '<div class="geo-region">' + g.region + '</div>' +
         '<div class="geo-title">' + g.title + '</div>' +
         '<p class="geo-desc">' + g.desc + '</p></a>';
