@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Not Found — EnergyPricesToday.com</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <div class="container" style="max-width:600px;padding:80px 20px;text-align:center">
+      <div style="width:80px;height:80px;border-radius:50%;background:rgba(74,158,237,0.1);display:flex;align-items:center;justify-content:center;margin:0 auto 24px" id="icon-404"></div>
+      <h1 style="font-size:48px;margin-bottom:8px">404</h1>
+      <p style="color:#9ca3af;font-size:18px;margin-bottom:32px">This page doesn't exist or has been moved.</p>
+      <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap" id="actions-404"></div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('icon-404').innerHTML = icon('zap', 36);
+    document.getElementById('actions-404').innerHTML =
+      '<a href="index.html" class="btn btn-primary">' + icon('arrow-right',15) + ' Back to Home</a>' +
+      '<a href="markets.html" class="btn btn-ghost">' + icon('bar-chart',15) + ' Markets</a>';
+  </script>
+</body>
+</html>

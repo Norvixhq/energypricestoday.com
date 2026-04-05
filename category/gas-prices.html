@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gas Prices News & Analysis — EnergyPricesToday.com</title>
   <meta name="description" content="Retail and wholesale gasoline pricing across the United States.">
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
   <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
@@ -102,7 +103,7 @@
       <div class="sidebar-price-row" ${i===2?'style="border:none"':''}>
         <span class="sidebar-price-name">${c.name}</span>
         <div style="text-align:right">
-          <span class="sidebar-price-val">\$${c.price.toFixed(2)}</span>
+          <span class="sidebar-price-val">$${c.price.toFixed(2)}</span>
           <div>${priceChange(c.change, c.pct)}</div>
         </div>
       </div>
