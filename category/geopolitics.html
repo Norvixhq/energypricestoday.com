@@ -82,7 +82,7 @@
 
     // Icons
     document.getElementById('cat-icon').innerHTML = icon(catIcon, 24);
-    document.getElementById('feat-icon').innerHTML = icon(catIcon, 40);
+    
     document.getElementById('sh-market').innerHTML = icon('bar-chart',16) + ' Market Snapshot';
     document.getElementById('sh-trending').innerHTML = icon('trending-up',16) + ' Trending';
 
@@ -106,7 +106,7 @@
     // Article list
     document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
       <a href="../article.html" class="article-list-item">
-        <div class="article-list-thumb">${icon(catIcon, 20)}</div>
+        <div class="article-list-thumb" style="background:linear-gradient(135deg,rgba(61,143,212,0.08),rgba(212,122,12,0.05))"></div>
         <div>
           <h3>${a.title}</h3>
           <div class="article-meta-sm"><span>${a.author}</span><span>${a.date}</span><span>${a.readTime}</span></div>
@@ -132,12 +132,19 @@
     `).join('');
 
     // Trending
-    document.getElementById('sidebar-trending').innerHTML = TRENDING_TOPICS.map((t,i) => `
-      <div class="sidebar-trending-item" ${i===4?'style="border:none"':''}>
-        <span class="sidebar-trending-num">${i+1}</span>
-        <span class="sidebar-trending-text">${t}</span>
-      </div>
-    `).join('');
+    // Geopolitics trending topics
+    if (typeof GEO_TRENDING !== "undefined") {
+      document.getElementById("sidebar-trending").innerHTML = GEO_TRENDING.slice(0,6).map(function(t,i) {
+        return "<div class=\"sidebar-trending-item\">" +
+          "<span class=\"sidebar-trending-num\">" + t.heat + "</span>" +
+          "<div><span class=\"sidebar-trending-text\" style=\"font-weight:600;color:var(--text-1)\">" + t.title + "</span>" +
+          "<div style=\"font-size:10.5px;color:var(--text-3);margin-top:2px\">" + t.desc + "</div></div></div>";
+      }).join("");
+    } else {
+      document.getElementById("sidebar-trending").innerHTML = TRENDING_TOPICS.map(function(t,i) {
+        return "<div class=\"sidebar-trending-item\"><span class=\"sidebar-trending-num\">" + (i+1) + "</span><span class=\"sidebar-trending-text\">" + t + "</span></div>";
+      }).join("");
+    }
   </script>
 </body>
 </html>

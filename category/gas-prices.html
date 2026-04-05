@@ -82,7 +82,7 @@
 
     // Icons
     document.getElementById('cat-icon').innerHTML = icon(catIcon, 24);
-    document.getElementById('feat-icon').innerHTML = icon(catIcon, 40);
+    
     document.getElementById('sh-market').innerHTML = icon('bar-chart',16) + ' Market Snapshot';
     document.getElementById('sh-trending').innerHTML = icon('trending-up',16) + ' Trending';
 
@@ -106,7 +106,7 @@
     // Article list
     document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
       <a href="../article.html" class="article-list-item">
-        <div class="article-list-thumb">${icon(catIcon, 20)}</div>
+        <div class="article-list-thumb" style="background:linear-gradient(135deg,rgba(61,143,212,0.08),rgba(212,122,12,0.05))"></div>
         <div>
           <h3>${a.title}</h3>
           <div class="article-meta-sm"><span>${a.author}</span><span>${a.date}</span><span>${a.readTime}</span></div>

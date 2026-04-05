@@ -105,11 +105,11 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
 
 .header-inner{
   max-width:1280px;margin:0 auto;padding:0 20px;
-  display:flex;align-items:center;justify-content:space-between;height:56px;
+  display:flex;align-items:center;justify-content:space-between;height:68px;
 }
 
 .logo{display:flex;align-items:center;text-decoration:none;flex-shrink:0}
-.logo-img{height:44px;width:auto;display:block}
+.logo-img{height:56px;width:auto;display:block}
 
 /* Shimmer effects */
 @keyframes shimmer{
@@ -203,13 +203,25 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
 .ticker-sep{color:rgba(255,255,255,0.06);padding:0 2px;font-size:8px}
 
 .ticker-clocks{
-  display:flex;align-items:center;gap:12px;padding:0 16px;
+  display:flex;align-items:center;gap:2px;padding:0 14px;
   border-left:1px solid var(--border);height:100%;flex-shrink:0;
 }
-.clock-zone{display:flex;align-items:center;gap:4px}
-.clock-label{color:var(--text-3);font-size:9.5px;font-weight:600;letter-spacing:0.04em}
-.clock-time{color:var(--text-1);font-size:11px;font-weight:600;font-variant-numeric:tabular-nums}
-.clock-date{color:var(--text-3);font-size:10px;font-weight:500;padding-left:4px;border-left:1px solid var(--border);margin-left:4px}
+.clock-zone{
+  display:flex;align-items:center;gap:3px;
+  padding:3px 8px;border-radius:4px;
+  background:rgba(255,255,255,0.02);
+}
+.clock-label{
+  color:var(--blue);font-size:9px;font-weight:700;letter-spacing:0.06em;
+  opacity:0.7;
+}
+.clock-time{color:var(--text-1);font-size:11px;font-weight:600;font-variant-numeric:tabular-nums;letter-spacing:0.02em}
+.clock-date{
+  color:var(--text-2);font-size:10px;font-weight:500;
+  padding:3px 8px;border-radius:4px;
+  background:rgba(255,255,255,0.02);
+  margin-left:2px;
+}
 
 /* ─── SEARCH OVERLAY ────────────────────────────────────────────── */
 .search-overlay{
@@ -496,7 +508,7 @@ a.cat-pill:hover{opacity:.8}
 .page-hero-large .hero-bg{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 30% 10%,rgba(61,143,212,0.05) 0%,transparent 50%)}
 
 /* ─── ARTICLE PAGE ──────────────────────────────────────────────── */
-.reading-progress{position:fixed;top:56px;left:0;right:0;height:2px;background:rgba(255,255,255,0.02);z-index:999}
+.reading-progress{position:fixed;top:68px;left:0;right:0;height:2px;background:rgba(255,255,255,0.02);z-index:999}
 .reading-progress-bar{height:100%;background:linear-gradient(90deg,var(--blue),var(--amber));width:0%;transition:width .08s}
 
 .article-page{max-width:720px;margin:0 auto;padding:32px 20px 56px}
@@ -674,7 +686,7 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   .price-card-value{font-size:20px}
   .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
   .newsletter-form{flex-direction:column}
-  .header-inner{height:50px}
+  .header-inner{height:58px}
   .logo-text{font-size:15px}
   .stat-row{grid-template-columns:repeat(2,1fr)}
 }
@@ -705,8 +717,38 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 
 /* Logo img responsive */
 @media(max-width:640px){
-  .logo-img{height:32px}
+  .logo-img{height:40px}
 }
 @media(min-width:641px) and (max-width:900px){
-  .logo-img{height:38px}
+  .logo-img{height:48px}
+}
+
+/* Clean featured image placeholder - no icon */
+.article-featured-img{
+  background:
+    linear-gradient(135deg,rgba(61,143,212,0.06) 0%,rgba(212,122,12,0.04) 50%,rgba(61,143,212,0.03) 100%),
+    repeating-linear-gradient(45deg,transparent,transparent 20px,rgba(255,255,255,0.008) 20px,rgba(255,255,255,0.008) 40px);
+}
+
+/* ─── GEOPOLITICS EMPHASIS ──────────────────────────────────────── */
+.nav-link-geo{
+  position:relative;overflow:hidden;
+  color:var(--amber) !important;font-weight:600 !important;
+}
+.nav-link-geo::after{
+  content:'';position:absolute;top:0;left:0;right:0;bottom:0;
+  background:linear-gradient(110deg,transparent 30%,rgba(212,122,12,0.08) 48%,rgba(224,173,40,0.12) 50%,rgba(212,122,12,0.08) 52%,transparent 70%);
+  background-size:250% 100%;
+  animation:shimmer 5s ease-in-out infinite;
+  pointer-events:none;border-radius:inherit;
+}
+.geo-card{
+  position:relative;overflow:hidden;
+}
+.geo-card::after{
+  content:'';position:absolute;top:0;left:0;right:0;bottom:0;
+  background:linear-gradient(110deg,transparent 35%,rgba(212,122,12,0.03) 48%,rgba(224,173,40,0.06) 50%,rgba(212,122,12,0.03) 52%,transparent 65%);
+  background-size:250% 100%;
+  animation:shimmer 8s ease-in-out infinite;
+  pointer-events:none;border-radius:inherit;
 }

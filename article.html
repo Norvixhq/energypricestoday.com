@@ -40,7 +40,7 @@
         <div class="article-share-btns" id="share-btns"></div>
       </div>
 
-      <div class="article-hero-img" id="hero-img-icon"></div>
+      <div class="article-hero-img"></div>
 
       <div class="article-body">
         <p>Energy markets are entering a pivotal phase as global supply dynamics shift in response to geopolitical pressures, OPEC+ strategy adjustments, and evolving demand patterns from the world's largest economies. Crude oil benchmarks have shown renewed strength in recent sessions, driven by a combination of tighter-than-expected U.S. inventory data and ongoing supply disruptions in key transit corridors.</p>
@@ -105,7 +105,6 @@
   <script src="js/live-data.js"></script>
   <script>
     document.getElementById('avatar-icon').innerHTML = icon('user', 16);
-    document.getElementById('hero-img-icon').innerHTML = icon('image', 48);
     document.getElementById('share-btns').innerHTML = ['twitter','linkedin','share'].map(s =>
       `<button class="share-btn">${icon(s, 15)}</button>`
     ).join('');

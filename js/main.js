@@ -115,7 +115,7 @@ function renderHeader(activePage) {
         <div class="nav-dropdown">${subs}</div>
       </div>`;
     }
-    return `<a class="nav-link${isActive ? ' active' : ''}" href="${href}">${n.label}</a>`;
+    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : ''}" href="${href}">${n.label}</a>`;
   }).join('');
 
   const mobileLinks = nav.map(n => {
@@ -265,7 +265,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:38px;width:auto;margin-bottom:12px">
+          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:48px;width:auto;margin-bottom:14px">
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div>
@@ -392,4 +392,55 @@ document.addEventListener('DOMContentLoaded', () => {
   initContactForm();
   initNewsletter();
   initReadingProgress();
+});
+
+// ─── LOAD MORE ARTICLES ──────────────────────────────────────────
+var EXTRA_ARTICLES = [
+  { title: "OPEC+ Considers Easing Production Cuts in Q4 2026", author: "Elena Petrova", date: "Mar 28, 2026", readTime: "5 min" },
+  { title: "China's Strategic Petroleum Reserve Purchases Slow in March", author: "David Chen", date: "Mar 27, 2026", readTime: "4 min" },
+  { title: "U.S. Shale Operators Report Highest Well Productivity on Record", author: "James Carter", date: "Mar 26, 2026", readTime: "6 min" },
+  { title: "IEA Warns of Potential Supply Shortfall in Late 2026", author: "Sarah Mitchell", date: "Mar 25, 2026", readTime: "5 min" },
+  { title: "European Refiners Boost Margins With Russian Crude Alternatives", author: "Elena Petrova", date: "Mar 24, 2026", readTime: "4 min" },
+  { title: "Brazil's Pre-Salt Output Reaches 4 Million Barrels Per Day Milestone", author: "Anna Kowalski", date: "Mar 23, 2026", readTime: "5 min" },
+  { title: "Natural Gas Flaring Reduction Efforts Gain Momentum in Permian", author: "James Carter", date: "Mar 22, 2026", readTime: "4 min" },
+  { title: "India Diversifies Crude Imports Away From Middle East Dependence", author: "David Chen", date: "Mar 21, 2026", readTime: "5 min" },
+  { title: "Global Oil Tanker Rates Spike on Red Sea Rerouting Congestion", author: "Sarah Mitchell", date: "Mar 20, 2026", readTime: "4 min" },
+  { title: "Electric Vehicle Sales Growth Slows in Europe But Accelerates in Asia", author: "Anna Kowalski", date: "Mar 19, 2026", readTime: "6 min" },
+];
+
+function initLoadMore() {
+  var btn = document.querySelector('.btn-load-more');
+  if (!btn) return;
+  var loaded = 0;
+  var listEl = document.getElementById('article-list');
+  
+  btn.addEventListener('click', function() {
+    if (!listEl) return;
+    var batch = EXTRA_ARTICLES.slice(loaded, loaded + 4);
+    if (batch.length === 0) {
+      btn.textContent = 'All articles loaded';
+      btn.style.opacity = '0.5';
+      btn.style.pointerEvents = 'none';
+      return;
+    }
+    batch.forEach(function(a) {
+      var div = document.createElement('a');
+      div.href = '../article.html';
+      div.className = 'article-list-item';
+      div.innerHTML = '<div class="article-list-thumb" style="background:linear-gradient(135deg,rgba(61,143,212,0.08),rgba(212,122,12,0.05))"></div>' +
+        '<div><h3>' + a.title + '</h3>' +
+        '<div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></div>';
+      listEl.appendChild(div);
+    });
+    loaded += batch.length;
+    if (loaded >= EXTRA_ARTICLES.length) {
+      btn.textContent = 'All articles loaded';
+      btn.style.opacity = '0.5';
+      btn.style.pointerEvents = 'none';
+    }
+  });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  initLoadMore();
 });
