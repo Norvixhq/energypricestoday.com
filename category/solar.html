@@ -33,7 +33,6 @@
         <div>
           <!-- Featured article -->
           <a href="../article.html" class="article-featured" style="margin-bottom:20px">
-            <div class="article-featured-img" id="feat-icon"></div>
             <div class="article-featured-body">
               <span style="color:#e8860c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px">Featured</span>
               <h3 id="feat-title"></h3>
@@ -106,7 +105,7 @@
     // Article list
     document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
       <a href="../article.html" class="article-list-item">
-        <div class="article-list-thumb" style="background:linear-gradient(135deg,rgba(61,143,212,0.08),rgba(212,122,12,0.05))"></div>
+        
         <div>
           <h3>${a.title}</h3>
           <div class="article-meta-sm"><span>${a.author}</span><span>${a.date}</span><span>${a.readTime}</span></div>

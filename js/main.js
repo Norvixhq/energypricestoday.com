@@ -230,8 +230,9 @@ function renderClocks() {
         '<span class="clock-label">' + z.label + '</span>' +
         '<span class="clock-time">' + time + '</span>' +
       '</span>';
-    }).join('') +
-    '<span class="clock-date">' +
+    }).join('<span class="clock-sep">·</span>') +
+    '<span class="clock-sep">·</span>' +
+    '<span class="clock-time" style="font-size:10.5px;opacity:0.6">' +
       now.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' }) +
     '</span>';
   }
@@ -265,7 +266,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:48px;width:auto;margin-bottom:14px">
+          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:52px;width:auto;margin-bottom:14px">
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div>
