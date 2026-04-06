@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wind News & Analysis — EnergyPricesToday.com</title>
+  <meta name="description" content="Onshore and offshore wind energy projects and market trends.">
+  
+  <link rel="canonical" href="https://energypricestoday.com/category/wind.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Wind Energy News — EnergyPricesToday.com">
+  <meta property="og:description" content="Onshore and offshore wind projects and market trends.">
+  <meta property="og:url" content="https://energypricestoday.com/category/wind.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Wind Energy News — EnergyPricesToday.com">
+  <meta name="twitter:description" content="Onshore and offshore wind projects and market trends.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Wind Energy News","description":"Onshore and offshore wind projects and market trends.","url":"https://energypricestoday.com/category/wind.html","isPartOf":{"@type":"WebSite","name":"EnergyPricesToday.com","url":"https://energypricestoday.com"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://energypricestoday.com/"},{"@type":"ListItem","position":2,"name":"Wind Energy News"}]}</script>
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+</head>
+<body>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="../index.html" style="color:#3d8fd4">Home</a><a href="../markets.html" style="color:#8891a5">Markets</a><a href="../oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="../category/energy.html" style="color:#8891a5">Energy</a><a href="../category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="../about.html" style="color:#8891a5">About</a><a href="../contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
+  <main>
+    <div class="container" style="padding-top:32px;padding-bottom:60px">
+      <nav class="breadcrumbs">
+        <a href="../index.html">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        <span>Wind</span>
+      </nav>
+
+      <div class="stat-row" id="cat-stats" style="margin-bottom:24px"></div>
+      <div class="cat-icon-wrap">
+        <div class="cat-icon-box" id="cat-icon"></div>
+        <div><h1 style="margin:0">Wind</h1></div>
+      </div>
+      <p class="cat-desc">Onshore and offshore wind energy projects and market trends.</p>
+
+      <div class="cat-layout">
+        <!-- Articles column -->
+        <div>
+          <!-- Featured article -->
+          <a href="" class="article-featured" id="feat-link" style="margin-bottom:20px">
+            <div class="article-featured-body">
+              <span style="color:#e8860c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px">Featured</span>
+              <h3 id="feat-title"></h3>
+              <p id="feat-excerpt"></p>
+              <div class="article-meta" id="feat-meta"></div>
+            </div>
+          </a>
+
+          <!-- Article list -->
+          <div id="article-list"></div>
+
+          <button class="btn-load-more" style="margin-top:24px">Load More Articles</button>
+        </div>
+
+        <!-- Sidebar -->
+        <aside>
+          <!-- Market snapshot -->
+          <div class="sidebar-card">
+            <div class="sidebar-heading" id="sh-market"></div>
+            <div id="sidebar-prices"></div>
+            <a href="../markets.html" class="view-markets-link">View All Markets →</a>
+          </div>
+
+          <!-- Related topics -->
+          <div class="sidebar-card">
+            <div class="sidebar-heading">Related Topics</div>
+            <div id="sidebar-topics"></div>
+          </div>
+
+          <!-- Trending -->
+          <div class="sidebar-card">
+            <div class="sidebar-heading" id="sh-trending"></div>
+            <div id="sidebar-trending"></div>
+          </div>
+          <!-- Live Headlines -->
+          <div class="sidebar-card" id="live-sidebar">
+            <div class="sidebar-heading" style="justify-content:space-between"><span id="sh-live"></span><span class="live-badge">LIVE</span></div>
+            <div id="sidebar-live-news"></div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="../js/data.js"></script>
+  <script src="../js/article-slugs.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/live-data.js"></script>
+  <script src="../js/news-feed.js"></script>
+  <script>
+    const catSlug = 'wind';
+    const catIcon = 'wind';
+
+    // Icons
+    document.getElementById('cat-icon').innerHTML = icon(catIcon, 24);
+    
+    document.getElementById('sh-market').innerHTML = icon('bar-chart',16) + ' Market Snapshot';
+    document.getElementById('sh-trending').innerHTML = icon('trending-up',16) + ' Trending';
+
+    // Category-specific content
+    var catData = (typeof CATEGORY_CONTENT !== "undefined" && CATEGORY_CONTENT[catSlug]) ? CATEGORY_CONTENT[catSlug] : { articles: CATEGORY_ARTICLES, stats: [] };
+    var catArticles = catData.articles || CATEGORY_ARTICLES;
+
+    // Stat cards
+    if (catData.stats && catData.stats.length > 0) {
+      document.getElementById("cat-stats").innerHTML = catData.stats.map(function(s) {
+        return "<div class=\"stat-box\"><div class=\"stat-box-label\">" + s.label + "</div><div class=\"stat-box-value\">" + s.value + "</div><div class=\"stat-box-sub\" style=\"color:var(--blue)\">" + s.sub + "</div></div>";
+      }).join("");
+    }
+
+    // Featured article
+    const feat = catArticles[0];
+    document.getElementById('feat-title').textContent = feat.title;
+    document.getElementById('feat-excerpt').textContent = feat.excerpt;
+    document.getElementById('feat-meta').innerHTML = '<span>'+feat.author+'</span><span>'+feat.date+'</span><span>'+feat.readTime+' read</span>';
+    var featLink = document.getElementById('feat-link');
+    if (featLink) featLink.href = articleUrl(catArticles[0].title);
+
+    // Article list
+    document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
+      <a href="${articleUrl(a.title)}" class="article-list-item">
+        
+        <div>
+          <h3>${a.title}</h3>
+          <div class="article-meta-sm"><span>${a.author}</span><span>${a.date}</span><span>${a.readTime}</span></div>
+        </div>
+      </a>
+    `).join('');
+
+    // Sidebar prices
+    document.getElementById('sidebar-prices').innerHTML = COMMODITIES.slice(0,3).map((c,i) => `
+      <div class="sidebar-price-row" ${i===2?'style="border:none"':''}>
+        <span class="sidebar-price-name">${c.name}</span>
+        <div style="text-align:right">
+          <span class="sidebar-price-val">$${c.price.toFixed(2)}</span>
+          <div>${priceChange(c.change, c.pct)}</div>
+        </div>
+      </div>
+    `).join('');
+
+    // Sidebar topics
+    const allCats = Object.entries(CATEGORIES).filter(([s]) => s !== catSlug).slice(0,5);
+    document.getElementById('sidebar-topics').innerHTML = allCats.map(([s,c]) => `
+      <a href="${s}.html" class="sidebar-link">${icon(c.icon,16)} ${c.name}</a>
+    `).join('');
+
+    // Trending
+    document.getElementById('sidebar-trending').innerHTML = TRENDING_TOPICS.map((t,i) => `
+
+      <div class="sidebar-trending-item" ${i===4?'style="border:none"':''}>
+        <span class="sidebar-trending-num">${i+1}</span>
+        <span class="sidebar-trending-text">${t}</span>
+      </div>
+    `).join('');
+
+
+    // Live headlines sidebar — GDELT
+    document.getElementById('live-sidebar').style.display = '';
+    document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
+    loadLiveNews('renewables', 'sidebar-live-news', 4);
+  </script>
+</body>
+</html>
