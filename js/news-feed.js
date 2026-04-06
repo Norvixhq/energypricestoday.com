@@ -54,11 +54,17 @@ function fetchGdeltHeadlines(query, containerId, maxItems) {
     '&format=json' +
     '&sourcelang=eng';
   
-  // Use CORS proxy for cross-origin GDELT requests
-  var corsUrl = 'https://corsproxy.io/?' + encodeURIComponent(url);
-  
-  fetch(corsUrl)
-    .then(function(res) { return res.json(); })
+  // Try direct GDELT call first, fall back to CORS proxy if blocked
+  fetch(url)
+    .then(function(res) {
+      if (!res.ok) throw new Error('Direct failed');
+      return res.json();
+    })
+    .catch(function() {
+      // Fallback: try CORS proxy
+      return fetch('https://corsproxy.io/?' + encodeURIComponent(url))
+        .then(function(res) { return res.json(); });
+    })
     .then(function(data) {
       if (!data.articles || data.articles.length === 0) {
         console.log('[EPT] No GDELT results for: ' + query);
