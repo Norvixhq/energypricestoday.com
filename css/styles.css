@@ -761,3 +761,6 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 @media(max-width:640px){
   .footer-brand img{max-width:160px}
 }
+
+/* Fix double line between featured and list items */
+.article-featured+.article-list-item{border-top:none}

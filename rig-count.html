@@ -114,9 +114,9 @@
 
     document.getElementById('rig-articles').innerHTML = [
       { title: "U.S. Rig Count Falls for Third Consecutive Week, Baker Hughes Reports", date: "Mar 28, 2026", author: "Staff", readTime: "3 min" },
-      { title: "Permian Basin Operators Slow Drilling Amid Capital Discipline Push", date: "Mar 27, 2026", author: "James Carter", readTime: "5 min" },
-      { title: "Canadian Rig Count Rebounds as Spring Drilling Season Approaches", date: "Mar 26, 2026", author: "Elena Petrova", readTime: "4 min" },
-      { title: "International Rig Count Holds Steady as Middle East Activity Rises", date: "Mar 25, 2026", author: "David Chen", readTime: "4 min" },
+      { title: "Permian Basin Operators Slow Drilling Amid Capital Discipline Push", date: "Mar 27, 2026", author: "Staff", readTime: "5 min" },
+      { title: "Canadian Rig Count Rebounds as Spring Drilling Season Approaches", date: "Mar 26, 2026", author: "Staff", readTime: "4 min" },
+      { title: "International Rig Count Holds Steady as Middle East Activity Rises", date: "Mar 25, 2026", author: "Staff", readTime: "4 min" },
     ].map(function(a) {
       return '<a href="' + articleUrl(a.title) + '" class="article-card"><h4>' + a.title + '</h4><div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
     }).join('');

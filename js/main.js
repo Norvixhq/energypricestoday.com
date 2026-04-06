@@ -115,7 +115,7 @@ function renderHeader(activePage) {
         <div class="nav-dropdown">${subs}</div>
       </div>`;
     }
-    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : ''}" href="${href}">${n.label}</a>`;
+    return `<a class="nav-link${isActive ? ' active' : ''}${(n.label === 'Geopolitics' || n.label === 'Energy') ? ' nav-link-geo' : ''}" href="${href}">${n.label}</a>`;
   }).join('');
 
   const mobileLinks = nav.map(n => {
@@ -367,16 +367,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ─── LOAD MORE ARTICLES ──────────────────────────────────────────
 var EXTRA_ARTICLES = [
-  { title: "OPEC+ Considers Easing Production Cuts in Q4 2026", author: "Elena Petrova", date: "Mar 28, 2026", readTime: "5 min" },
-  { title: "China's Strategic Petroleum Reserve Purchases Slow in March", author: "David Chen", date: "Mar 27, 2026", readTime: "4 min" },
-  { title: "U.S. Shale Operators Report Highest Well Productivity on Record", author: "James Carter", date: "Mar 26, 2026", readTime: "6 min" },
-  { title: "IEA Warns of Potential Supply Shortfall in Late 2026", author: "Sarah Mitchell", date: "Mar 25, 2026", readTime: "5 min" },
-  { title: "European Refiners Boost Margins With Russian Crude Alternatives", author: "Elena Petrova", date: "Mar 24, 2026", readTime: "4 min" },
-  { title: "Brazil's Pre-Salt Output Reaches 4 Million Barrels Per Day Milestone", author: "Anna Kowalski", date: "Mar 23, 2026", readTime: "5 min" },
-  { title: "Natural Gas Flaring Reduction Efforts Gain Momentum in Permian", author: "James Carter", date: "Mar 22, 2026", readTime: "4 min" },
-  { title: "India Diversifies Crude Imports Away From Middle East Dependence", author: "David Chen", date: "Mar 21, 2026", readTime: "5 min" },
-  { title: "Global Oil Tanker Rates Spike on Red Sea Rerouting Congestion", author: "Sarah Mitchell", date: "Mar 20, 2026", readTime: "4 min" },
-  { title: "Electric Vehicle Sales Growth Slows in Europe But Accelerates in Asia", author: "Anna Kowalski", date: "Mar 19, 2026", readTime: "6 min" },
+  { title: "OPEC+ Considers Easing Production Cuts in Q4 2026", author: "Staff", date: "Mar 28, 2026", readTime: "5 min" },
+  { title: "China's Strategic Petroleum Reserve Purchases Slow in March", author: "Staff", date: "Mar 27, 2026", readTime: "4 min" },
+  { title: "U.S. Shale Operators Report Highest Well Productivity on Record", author: "Staff", date: "Mar 26, 2026", readTime: "6 min" },
+  { title: "IEA Warns of Potential Supply Shortfall in Late 2026", author: "Staff", date: "Mar 25, 2026", readTime: "5 min" },
+  { title: "European Refiners Boost Margins With Russian Crude Alternatives", author: "Staff", date: "Mar 24, 2026", readTime: "4 min" },
+  { title: "Brazil's Pre-Salt Output Reaches 4 Million Barrels Per Day Milestone", author: "Staff", date: "Mar 23, 2026", readTime: "5 min" },
+  { title: "Natural Gas Flaring Reduction Efforts Gain Momentum in Permian", author: "Staff", date: "Mar 22, 2026", readTime: "4 min" },
+  { title: "India Diversifies Crude Imports Away From Middle East Dependence", author: "Staff", date: "Mar 21, 2026", readTime: "5 min" },
+  { title: "Global Oil Tanker Rates Spike on Red Sea Rerouting Congestion", author: "Staff", date: "Mar 20, 2026", readTime: "4 min" },
+  { title: "Electric Vehicle Sales Growth Slows in Europe But Accelerates in Asia", author: "Staff", date: "Mar 19, 2026", readTime: "6 min" },
 ];
 
 function initLoadMore() {

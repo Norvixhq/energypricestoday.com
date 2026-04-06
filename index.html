@@ -237,7 +237,7 @@
 
     // Global supply chokepoints
     document.getElementById('chokepoints').innerHTML = SUPPLY_CHOKEPOINTS.slice(0,4).map(function(c) {
-      return '<div class="chokepoint-card">' +
+      return '<a href="category/geopolitics.html" class="chokepoint-card" style="display:block;text-decoration:none">' +
         '<div class="chokepoint-label">' + c.label + '</div>' +
         '<div class="chokepoint-title">' + c.title + '</div>' +
         '<p class="chokepoint-desc">' + c.desc + '</p>' +
