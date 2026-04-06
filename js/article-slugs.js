@@ -138,9 +138,7 @@ var ARTICLE_SLUGS = {
 
 function articleUrl(title) {
   var slug = ARTICLE_SLUGS[title];
-  if (!slug) {
-    slug = title.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/[\s]+/g, '-').replace(/-+/g, '-').substring(0, 80);
-  }
+  if (!slug) slug = title.toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/[\s]+/g,'-').replace(/-+/g,'-').substring(0,80);
   var inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   return (inSub ? '../' : '') + 'articles/' + slug + '.html';
 }

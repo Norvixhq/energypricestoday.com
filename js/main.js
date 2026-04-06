@@ -115,19 +115,25 @@ function renderHeader(activePage) {
         <div class="nav-dropdown">${subs}</div>
       </div>`;
     }
-    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : (n.label === 'Energy' ? ' nav-link-energy' : '')}" href="${href}">${n.label}</a>`;
+    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : (n.label === 'Energy' || n.label === 'Home' ? ' nav-link-energy' : '')}" href="${href}">${n.label}</a>`;
   }).join('');
 
   const mobileLinks = nav.map(n => {
     const href = prefix + n.href;
     let cls = '';
     if (n.label === 'Geopolitics') cls = ' mobile-geo';
-    if (n.label === 'Energy') cls = ' mobile-energy';
-    let html = `<a href="${href}" class="${cls}">${n.label}</a>`;
+    if (n.label === 'Energy' || n.label === 'Home') cls = ' mobile-energy';
     if (n.dropdown) {
-      html += n.dropdown.map(s => `<a class="sub" href="${prefix + s.href}">${s.label}</a>`).join('');
+      const subs = n.dropdown.map(s => `<a class="sub" href="${prefix + s.href}">${s.label}</a>`).join('');
+      return `<div class="mobile-dropdown-group">
+        <div class="mobile-dropdown-header">
+          <a href="${href}" class="${cls}">${n.label}</a>
+          <button class="mobile-dropdown-toggle" onclick="this.parentElement.parentElement.classList.toggle('open')" aria-label="Expand">${icon('chevron-down', 16)}</button>
+        </div>
+        <div class="mobile-dropdown-items">${subs}</div>
+      </div>`;
     }
-    return html;
+    return `<a href="${href}" class="${cls}">${n.label}</a>`;
   }).join('');
 
   document.getElementById('site-header').innerHTML = `
@@ -236,47 +242,51 @@ function renderFooter() {
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
-      <div class="footer-grid">
+      <div class="footer-top">
         <div class="footer-brand">
-          <img src="${p}images/logo.png" alt="EnergyPricesToday.com" style="height:52px;width:auto;margin-bottom:14px">
+          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img"></a>
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
-        <div>
-          <div class="footer-heading">Markets</div>
-          <div class="footer-links">
-            <a href="${p}oil-prices.html">Oil Prices</a>
-            <a href="${p}category/natural-gas.html">Natural Gas</a>
-            <a href="${p}category/gas-prices.html">Gas Prices</a>
-            <a href="${p}category/heating-oil.html">Heating Oil</a>
-            <a href="${p}oil-futures.html">Oil Futures</a>
+        <div class="footer-columns">
+          <div>
+            <div class="footer-heading">Markets</div>
+            <div class="footer-links">
+              <a href="${p}oil-prices.html">Oil Prices</a>
+              <a href="${p}category/natural-gas.html">Natural Gas</a>
+              <a href="${p}category/gas-prices.html">Gas Prices</a>
+              <a href="${p}category/heating-oil.html">Heating Oil</a>
+              <a href="${p}oil-futures.html">Oil Futures</a>
+              <a href="${p}markets.html">All Markets</a>
+            </div>
           </div>
-        </div>
-        <div>
-          <div class="footer-heading">Coverage</div>
-          <div class="footer-links">
-            <a href="${p}category/energy.html">Energy</a>
-            <a href="${p}category/geopolitics.html">Geopolitics</a>
-            <a href="${p}category/company-news.html">Company News</a>
-            <a href="${p}rig-count.html">Rig Count</a>
-            <a href="${p}category/alternative-energy.html">Alternative Energy</a>
+          <div>
+            <div class="footer-heading">Coverage</div>
+            <div class="footer-links">
+              <a href="${p}category/energy.html">Energy</a>
+              <a href="${p}category/geopolitics.html">Geopolitics</a>
+              <a href="${p}category/company-news.html">Company News</a>
+              <a href="${p}rig-count.html">Rig Count</a>
+              <a href="${p}category/alternative-energy.html">Alternative Energy</a>
+              <a href="${p}category/crude-oil.html">Crude Oil</a>
+            </div>
           </div>
-        </div>
-        <div>
-          <div class="footer-heading">Company</div>
-          <div class="footer-links">
-            <a href="${p}about.html">About Us</a>
-            <a href="${p}contact.html">Contact</a>
-            <a href="${p}site-news.html">Site News</a>
-            <a href="${p}privacy.html">Privacy Policy</a>
-            <a href="${p}disclaimer.html">Disclaimer</a>
-            <a href="${p}terms.html">Terms &amp; Conditions</a>
-            <a href="${p}editorial-policy.html">Editorial Policy</a>
-            <a href="${p}corrections-policy.html">Corrections Policy</a>
+          <div>
+            <div class="footer-heading">Company</div>
+            <div class="footer-links">
+              <a href="${p}about.html">About Us</a>
+              <a href="${p}contact.html">Contact</a>
+              <a href="${p}site-news.html">Site News</a>
+              <a href="${p}editorial-policy.html">Editorial Policy</a>
+              <a href="${p}corrections-policy.html">Corrections Policy</a>
+              <a href="${p}privacy.html">Privacy Policy</a>
+              <a href="${p}disclaimer.html">Disclaimer</a>
+              <a href="${p}terms.html">Terms</a>
+            </div>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 EnergyPricesToday.com. All rights reserved. Market data is provided for informational purposes only.</p>
+        <p>&copy; 2026 EnergyPricesToday.com &middot; All rights reserved &middot; Market data for informational purposes only</p>
       </div>
     </div>
   `;

@@ -36,7 +36,11 @@
       </nav>
 
       <div class="stat-row" id="cat-stats" style="margin-bottom:24px"></div>
-      <div class="cat-icon-wrap">
+      
+      <!-- Company Directory -->
+      <div id="company-directory" style="margin-bottom:28px"></div>
+
+<div class="cat-icon-wrap">
         <div class="cat-icon-box" id="cat-icon"></div>
         <div><h1 style="margin:0">Company News</h1></div>
       </div>
@@ -167,6 +171,25 @@
     document.getElementById('live-sidebar').style.display = '';
     document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
     loadLiveNews('companies', 'sidebar-live-news', 4);
+
+
+    // Company directory
+    if (typeof ENERGY_COMPANIES !== 'undefined') {
+      var compHtml = '<h2 style="font-size:17px;margin-bottom:14px">' + icon('building',18) + ' Energy Company Directory</h2>';
+      compHtml += '<div class="market-table-wrap"><table class="market-table">';
+      compHtml += '<thead><tr><th style="text-align:left">Company</th><th>Ticker</th><th>Revenue</th><th>Profit</th><th>Production</th><th>Dividend</th><th>Sector</th></tr></thead><tbody>';
+      compHtml += ENERGY_COMPANIES.map(function(c) {
+        return '<tr><td style="font-weight:600">' + c.name + '</td>' +
+          '<td style="color:var(--blue);font-weight:600;text-align:right">' + c.ticker + '</td>' +
+          '<td style="text-align:right">' + c.revenue + '</td>' +
+          '<td style="text-align:right;color:var(--green)">' + c.profit + '</td>' +
+          '<td style="text-align:right">' + c.production + '</td>' +
+          '<td style="text-align:right">' + c.dividend + '</td>' +
+          '<td style="text-align:right;color:var(--text-3)">' + c.sector + '</td></tr>';
+      }).join('');
+      compHtml += '</tbody></table></div>';
+      document.getElementById('company-directory').innerHTML = compHtml;
+    }
   </script>
 </body>
 </html>

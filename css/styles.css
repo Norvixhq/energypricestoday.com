@@ -232,9 +232,13 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
 .search-hint-tag:hover{border-color:var(--blue);color:var(--blue)}
 
 /* ─── FOOTER ────────────────────────────────────────────────────── */
-.site-footer{background:#040610;border-top:1px solid var(--border);padding:56px 20px 28px}
-.footer-grid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:40px;margin-bottom:40px}
-.footer-brand p{color:var(--text-3);font-size:12.5px;line-height:1.7;max-width:260px;margin-top:12px}
+.site-footer{background:#030509;border-top:1px solid var(--border);padding:52px 0 24px}
+.footer-top{display:flex;gap:48px;margin-bottom:36px}
+.footer-brand{flex:0 0 260px}
+.footer-brand p{color:var(--text-3);font-size:12.5px;line-height:1.7;margin-top:12px}
+.footer-logo-img{height:42px;width:auto;max-width:180px;display:block}
+.footer-columns{display:flex;gap:40px;flex:1}
+.footer-columns>div{flex:1}
 .footer-heading{
   color:var(--text-2);font-size:11px;font-weight:600;margin-bottom:14px;
   text-transform:uppercase;letter-spacing:0.08em;
@@ -632,7 +636,7 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 @media(max-width:1024px){
   .grid-5{grid-template-columns:repeat(3,1fr)}
   .grid-4{grid-template-columns:repeat(2,1fr)}
-  .footer-grid{grid-template-columns:repeat(2,1fr)}
+  .footer-columns{flex-wrap:wrap}
 }
 @media(max-width:900px){
   .nav-desktop{display:none}
@@ -656,7 +660,7 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   .news-row-meta .cat-pill{display:none}
   .article-page{padding:20px 16px 44px}
   .price-card-value{font-size:20px}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:28px}
+  .footer-top{flex-direction:column;gap:28px}.footer-brand{flex:none}
   .newsletter-form{flex-direction:column}
   .header-inner{height:64px}
   .logo-text{font-size:15px}
@@ -756,11 +760,6 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 }
 @keyframes livePulse{0%,100%{opacity:1}50%{opacity:0.3}}
 
-/* Footer logo mobile fix */
-.footer-brand img{max-width:200px;height:auto !important}
-@media(max-width:640px){
-  .footer-brand img{max-width:160px}
-}
 
 /* Fix double line between featured and list items */
 .article-featured+.article-list-item{border-top:none}
@@ -820,4 +819,136 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   background-size:300% 100%;
   -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
   animation:textShimmer 4s ease-in-out infinite;font-weight:600;
+}
+
+/* ─── MOBILE DROPDOWN GROUPS ────────────────────────────────────── */
+.mobile-dropdown-group{margin:2px 0}
+.mobile-dropdown-header{display:flex;align-items:center;gap:0}
+.mobile-dropdown-header a{flex:1}
+.mobile-dropdown-toggle{
+  width:40px;height:40px;display:flex;align-items:center;justify-content:center;
+  background:none;border:1px solid var(--border);border-radius:var(--radius-sm);
+  color:var(--text-3);transition:all .2s;
+}
+.mobile-dropdown-toggle:hover{color:var(--text-1);border-color:var(--border-h)}
+.mobile-dropdown-group.open .mobile-dropdown-toggle{
+  color:var(--blue);border-color:rgba(61,143,212,0.3);
+  background:var(--blue-mute);transform:rotate(180deg);
+}
+.mobile-dropdown-items{
+  display:none;padding:4px 0 8px;
+  border-left:2px solid var(--border);margin-left:20px;
+}
+.mobile-dropdown-group.open .mobile-dropdown-items{display:block}
+.mobile-dropdown-items a.sub{
+  padding:10px 14px 10px 16px;font-size:14px;
+  border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+/* ─── PREMIUM CONTACT CARDS ─────────────────────────────────────── */
+.contact-cards{display:flex;flex-direction:column;gap:16px}
+.contact-card-premium{
+  display:flex;align-items:flex-start;gap:18px;
+  background:var(--surface);border:1px solid var(--border);
+  border-radius:var(--radius-lg);padding:24px 28px;
+  transition:all .2s;
+}
+.contact-card-premium:hover{border-color:var(--border-h);transform:translateY(-1px)}
+.contact-card-icon{
+  width:52px;height:52px;border-radius:var(--radius);
+  display:flex;align-items:center;justify-content:center;flex-shrink:0;
+}
+.contact-card-icon svg{width:22px;height:22px}
+.contact-card-body{flex:1}
+@media(max-width:640px){
+  .contact-card-premium{flex-direction:column;align-items:center;text-align:center;padding:20px}
+}
+
+/* ─── HEADER NAV REFINEMENTS ────────────────────────────────────── */
+.nav-link{
+  position:relative;padding:8px 12px;
+}
+.nav-link::after{
+  content:'';position:absolute;bottom:2px;left:12px;right:12px;
+  height:1px;background:var(--blue);opacity:0;
+  transition:opacity .2s;
+}
+.nav-link:hover::after,.nav-link.active::after{opacity:0.4}
+.nav-link-geo::after,.nav-link-energy::after{display:none}
+
+/* Header search button polish */
+.header-search-btn{
+  border-radius:50%;width:34px;height:34px;
+}
+
+/* Section divider accent */
+.section{border-top:1px solid rgba(255,255,255,0.04)}
+.section:hover>.container>.section-header .section-title svg{
+  transform:scale(1.1);transition:transform .2s;
+}
+
+/* Footer column responsive */
+@media(max-width:900px){
+  .footer-top{flex-direction:column;gap:28px}
+  .footer-brand{flex:none}
+  .footer-columns{flex-wrap:wrap;gap:24px}
+  .footer-columns>div{flex:0 0 calc(50% - 12px)}
+}
+@media(max-width:480px){
+  .footer-columns>div{flex:0 0 100%}
+}
+
+/* Article card hover refinement */
+.article-card{position:relative;overflow:hidden}
+.article-card::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;width:2px;
+  background:var(--blue);opacity:0;transition:opacity .15s;
+}
+.article-card:hover::before{opacity:1}
+
+/* Spotlight card icon glow on hover */
+.spotlight-card:hover .spotlight-icon{
+  box-shadow:0 0 16px rgba(61,143,212,0.15);
+}
+
+/* Price card subtle glow */
+.price-card:hover{
+  box-shadow:0 0 20px rgba(61,143,212,0.06);
+}
+
+/* Driver card icon pulse on hover */
+.driver-card:hover .driver-icon{
+  box-shadow:0 0 12px rgba(212,122,12,0.15);
+}
+
+/* Geo card shimmer on hover */
+.geo-card:hover{
+  box-shadow:inset 3px 0 0 var(--gold);
+}
+
+/* Section title icon color transitions */
+.section-title svg{transition:transform .2s,color .2s}
+
+/* Breadcrumb polish */
+.breadcrumbs a{font-weight:500}
+
+/* Market table row accent on hover */
+.market-table tbody tr:hover td:first-child{
+  color:var(--blue);
+}
+
+/* Load more button subtle animation */
+.btn-load-more:hover{
+  box-shadow:0 0 16px rgba(61,143,212,0.08);
+}
+
+/* Newsletter section inner glow */
+.newsletter-section{
+  position:relative;
+}
+.newsletter-form button{
+  box-shadow:0 2px 8px rgba(61,143,212,0.2);
+}
+.newsletter-form button:hover{
+  box-shadow:0 4px 16px rgba(61,143,212,0.3);
 }
