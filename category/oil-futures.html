@@ -89,6 +89,14 @@
         </aside>
       </div>
     </div>
+
+    <!-- FAQ -->
+    <section class="section" id="faq-section" style="display:none"><div class="container">
+      <div class="context-block">
+        <h3 id="faq-heading"></h3>
+        <div class="faq-section" id="faq-container"></div>
+      </div>
+    </div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="../js/data.js"></script>
@@ -167,6 +175,15 @@
     document.getElementById('live-sidebar').style.display = '';
     document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
     loadLiveNews('oil', 'sidebar-live-news', 4);
+
+    // Render FAQ if available
+    if (typeof CATEGORY_FAQS !== 'undefined' && CATEGORY_FAQS[catSlug]) {
+      document.getElementById('faq-section').style.display = '';
+      document.getElementById('faq-heading').innerHTML = icon('zap',16) + ' Frequently Asked Questions';
+      document.getElementById('faq-container').innerHTML = CATEGORY_FAQS[catSlug].map(function(f) {
+        return '<div class="faq-item"><div class="faq-q">' + f.q + '</div><div class="faq-a">' + f.a + '</div></div>';
+      }).join('');
+    }
   </script>
 </body>
 </html>

@@ -58,11 +58,47 @@
 
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-rigmarket"></h2></div>
-      <div class="grid-5" id="rig-market-cards"></div>
+      <div class="grid-6" id="rig-market-cards"></div>
     </div></section>
 
     <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title">Related Coverage</h2></div>
+      
+    <!-- International Rig Count -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-intl-rigs"></h2></div>
+      <div class="grid-4" id="intl-rigs"></div>
+    </div></section>
+
+    <!-- Rig Count FAQ -->
+    <section class="section"><div class="container">
+      <div class="context-block">
+        <h3 id="faq-title"></h3>
+        <div class="faq-section">
+          <div class="faq-item">
+            <div class="faq-q">What is the rig count and why does it matter?</div>
+            <div class="faq-a">The rig count measures the number of drilling rigs actively exploring for or developing oil and gas. Published weekly by Baker Hughes, it serves as a leading indicator of future production capacity. A rising count signals potential supply growth; a declining count suggests tightening ahead.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">How often is the rig count updated?</div>
+            <div class="faq-a">Baker Hughes publishes the U.S. rig count every Friday at 1:00 PM Eastern Time. The international rig count is published monthly. Both datasets are widely followed by traders, analysts, and energy company executives.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">What is the relationship between rig count and oil prices?</div>
+            <div class="faq-a">The rig count tends to follow oil prices with a lag of 4-6 months. When prices rise, operators add rigs to capture higher margins. When prices fall, rigs are idled to preserve capital. However, improving well productivity means each rig today produces more oil than a decade ago, weakening the direct correlation.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Why has the rig count been declining despite elevated oil prices?</div>
+            <div class="faq-a">Capital discipline. After years of over-spending on growth, U.S. shale operators now prioritize shareholder returns through dividends and buybacks. Companies are achieving production growth with fewer rigs by drilling longer laterals, optimizing well spacing, and improving completion techniques.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Which basins account for the most rigs?</div>
+            <div class="faq-a">The Permian Basin in West Texas and New Mexico accounts for over 60% of all U.S. oil rigs. The Eagle Ford in South Texas, the Bakken in North Dakota, and the DJ-Niobrara in Colorado make up most of the remainder. Offshore Gulf of Mexico rigs are counted separately.</div>
+          </div>
+        </div>
+      </div>
+    </div></section>
+
+<div class="section-header"><h2 class="section-title">Related Coverage</h2></div>
       <div class="grid-3" id="rig-related" style="max-width:800px"></div>
     </div></section>
   </main>
@@ -132,6 +168,26 @@
       ['Energy News','category/energy.html','zap'],
     ].map(function(r) {
       return '<a href="' + r[1] + '" class="spotlight-card"><div class="spotlight-icon">' + icon(r[2],22) + '</div><h4>' + r[0] + '</h4></a>';
+    }).join('');
+
+    // International rig count data
+    document.getElementById('sec-intl-rigs').innerHTML = icon('globe',18) + ' International Rig Count';
+    document.getElementById('faq-title').innerHTML = icon('zap',16) + ' Rig Count FAQ';
+    var intlRigs = [
+      { region: 'Middle East', rigs: 342, change: '+8', note: 'Saudi Arabia, UAE, Iraq lead growth' },
+      { region: 'Latin America', rigs: 168, change: '+3', note: 'Brazil, Argentina, Colombia active' },
+      { region: 'Europe', rigs: 82, change: '-2', note: 'North Sea, Norway dominant' },
+      { region: 'Africa', rigs: 94, change: '+1', note: 'Nigeria, Angola, Libya recovering' },
+      { region: 'Asia-Pacific', rigs: 198, change: '+5', note: 'China, India, Australia growth' },
+      { region: 'FSU / Russia', rigs: 74, change: '-4', note: 'Sanctions impact ongoing' },
+    ];
+    document.getElementById('intl-rigs').innerHTML = intlRigs.map(function(r) {
+      var cls = r.change.startsWith('+') ? 'up' : 'down';
+      return '<div class="stat-box" style="text-align:left;padding:16px">' +
+        '<div style="font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px">' + r.region + '</div>' +
+        '<div style="font-size:24px;font-weight:700;color:var(--text-1)">' + r.rigs + ' rigs</div>' +
+        '<div class="change ' + cls + '" style="margin:4px 0">' + r.change + ' m/m</div>' +
+        '<div style="font-size:11.5px;color:var(--text-3)">' + r.note + '</div></div>';
     }).join('');
   </script>
 </body>

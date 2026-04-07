@@ -4,11 +4,12 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 const COMMODITIES = [
-  { name: "WTI Crude", price: 71.48, change: 1.23, pct: 1.75, unit: "$/bbl", spark: [68,69,70,69.5,70.2,71,71.48] },
-  { name: "Brent Crude", price: 75.92, change: 0.87, pct: 1.16, unit: "$/bbl", spark: [73,74,74.5,75,74.8,75.5,75.92] },
-  { name: "Natural Gas", price: 3.42, change: -0.08, pct: -2.29, unit: "$/MMBtu", spark: [3.6,3.55,3.5,3.48,3.45,3.44,3.42] },
-  { name: "Gasoline RBOB", price: 2.18, change: 0.04, pct: 1.87, unit: "$/gal", spark: [2.1,2.12,2.14,2.15,2.16,2.17,2.18] },
-  { name: "Heating Oil", price: 2.34, change: -0.02, pct: -0.85, unit: "$/gal", spark: [2.38,2.37,2.36,2.35,2.35,2.34,2.34] },
+  { name: "WTI Crude", price: 0, change: 0, pct: 0, unit: "$/bbl", spark: [], loading: true },
+  { name: "Brent Crude", price: 0, change: 0, pct: 0, unit: "$/bbl", spark: [], loading: true },
+  { name: "Natural Gas", price: 0, change: 0, pct: 0, unit: "$/MMBtu", spark: [], loading: true },
+  { name: "Gasoline RBOB", price: 0, change: 0, pct: 0, unit: "$/gal", spark: [], loading: true },
+  { name: "Heating Oil", price: 0, change: 0, pct: 0, unit: "$/gal", spark: [], loading: true },
+  { name: "OPEC Basket", price: 0, change: 0, pct: 0, unit: "$/bbl", spark: [], loading: true },
 ];
 
 const FULL_PRICES = {
@@ -507,14 +508,7 @@ const CATEGORY_CONTENT = {
       { id: 1904, title: "TotalEnergies Signs 20-Year LNG Supply Agreement with India", excerpt: "The deal secures 3 MTPA of LNG from Mozambique's Area 1 project, supporting India's coal-to-gas transition strategy.", date: "Apr 1, 2026", author: "Staff", readTime: "5 min" },
       { id: 1905, title: "Saudi Aramco Invests $2B in South Korean Refinery Expansion", excerpt: "The investment strengthens Aramco's downstream integration strategy and secures long-term crude supply placement in Asia.", date: "Mar 31, 2026", author: "Staff", readTime: "4 min" },
     ],
-    stats: [
-      { label: "ExxonMobil Q1", value: "$9.2B", sub: "net income" },
-      { label: "Saudi Aramco Q1", value: "$27.3B", sub: "net income" },
-      { label: "Chevron Q1", value: "$5.8B", sub: "net income" },
-      { label: "Shell Q1", value: "$7.4B", sub: "net income" },
-      { label: "Energy M&A", value: "$87B", sub: "YTD volume" },
-      { label: "Sector Avg Yield", value: "3.8%", sub: "dividend" },
-    ]
+    stats: []
   },
   "alternative-energy": {
     articles: [
@@ -618,4 +612,85 @@ const ENERGY_COMPANIES = [
   { name: "Marathon Petroleum", ticker: "MPC", revenue: "$35.2B", profit: "$3.8B", production: "—", dividend: "2.2%", sector: "Refining", hq: "Findlay, OH" },
   { name: "Valero Energy", ticker: "VLO", revenue: "$32.4B", profit: "$3.1B", production: "—", dividend: "3.0%", sector: "Refining", hq: "San Antonio, TX" },
   { name: "Phillips 66", ticker: "PSX", revenue: "$36.8B", profit: "$2.4B", production: "—", dividend: "3.5%", sector: "Refining", hq: "Houston, TX" },
+  { name: "Eni", ticker: "ENI.MI", revenue: "€23.8B", profit: "€3.2B", production: "1.7M boe/d", dividend: "5.6%", sector: "Integrated", hq: "Rome, Italy" },
+  { name: "Repsol", ticker: "REP.MC", revenue: "€15.2B", profit: "€1.8B", production: "600K boe/d", dividend: "5.1%", sector: "Integrated", hq: "Madrid, Spain" },
+  { name: "CNOOC", ticker: "0883.HK", revenue: "¥260B", profit: "¥68B", production: "1.7M boe/d", dividend: "6.2%", sector: "E&P", hq: "Beijing, China" },
+  { name: "PetroChina", ticker: "0857.HK", revenue: "¥2.9T", profit: "¥162B", production: "4.7M boe/d", dividend: "4.8%", sector: "National Oil", hq: "Beijing, China" },
+  { name: "Woodside Energy", ticker: "WDS", revenue: "$13.4B", profit: "$4.2B", production: "480K boe/d", dividend: "7.8%", sector: "LNG / E&P", hq: "Perth, Australia" },
+  { name: "Canadian Natural", ticker: "CNQ", revenue: "$8.9B", profit: "$2.4B", production: "1.3M boe/d", dividend: "4.2%", sector: "E&P", hq: "Calgary, Canada" },
+  { name: "Suncor Energy", ticker: "SU", revenue: "$10.2B", profit: "$2.1B", production: "780K boe/d", dividend: "4.5%", sector: "Integrated", hq: "Calgary, Canada" },
+  { name: "ADNOC", ticker: "ADNOCDIST.AD", revenue: "$52B", profit: "$15B", production: "4.0M bpd", dividend: "4.0%", sector: "National Oil", hq: "Abu Dhabi, UAE" },
+  { name: "QatarEnergy", ticker: "Private", revenue: "$42B", profit: "—", production: "6.5M boe/d", dividend: "—", sector: "National Oil", hq: "Doha, Qatar" },
+  { name: "Kuwait Petroleum", ticker: "Private", revenue: "$38B", profit: "—", production: "2.8M bpd", dividend: "—", sector: "National Oil", hq: "Kuwait City, Kuwait" },
+  { name: "ONGC", ticker: "ONGC.NS", revenue: "₹1.4T", profit: "₹340B", production: "1.2M boe/d", dividend: "3.8%", sector: "National Oil", hq: "New Delhi, India" },
+  { name: "Ecopetrol", ticker: "EC", revenue: "$8.4B", profit: "$2.1B", production: "680K boe/d", dividend: "12.5%", sector: "National Oil", hq: "Bogotá, Colombia" },
+  { name: "YPF", ticker: "YPF", revenue: "$5.2B", profit: "$0.9B", production: "530K boe/d", dividend: "1.2%", sector: "Integrated", hq: "Buenos Aires, Argentina" },
+  { name: "Gazprom", ticker: "GAZP.ME", revenue: "₽4.2T", profit: "₽620B", production: "9.5M boe/d", dividend: "—", sector: "Gas / Integrated", hq: "Moscow, Russia" },
 ];
+
+// ─── CATEGORY FAQs ─────────────────────────────────────────────────
+const CATEGORY_FAQS = {
+  "oil-prices": [
+    { q: "What determines the price of oil?", a: "Oil prices are driven by supply and demand fundamentals, OPEC+ production decisions, geopolitical risk premiums, inventory levels, currency movements, refinery demand, and speculative positioning in futures markets." },
+    { q: "What is the difference between WTI and Brent?", a: "WTI (West Texas Intermediate) is the U.S. benchmark, traded on NYMEX. Brent is the global benchmark, traded on ICE. They differ in quality (API gravity, sulfur content) and delivery location. Brent typically trades at a premium to WTI." },
+    { q: "How often are oil prices updated?", a: "Futures markets trade nearly 24 hours on weekdays. Spot prices are typically assessed daily by pricing agencies like Platts and Argus. Our data updates from the EIA, which publishes daily settlement prices." },
+  ],
+  "natural-gas": [
+    { q: "What is Henry Hub?", a: "Henry Hub is the pricing point for natural gas futures on NYMEX, located in Erath, Louisiana. It serves as the benchmark for North American natural gas pricing due to its central location and pipeline connectivity." },
+    { q: "Why do natural gas prices vary so much by region?", a: "Unlike oil, natural gas is harder to transport and store. Prices in Europe (TTF), Asia (JKM), and the U.S. (Henry Hub) can diverge significantly due to pipeline infrastructure, LNG shipping costs, seasonal demand, and local supply conditions." },
+    { q: "What drives natural gas demand?", a: "Power generation (especially gas-fired plants), residential/commercial heating, industrial use, and LNG exports are the primary demand drivers. Weather is the single biggest short-term price mover." },
+  ],
+  "geopolitics": [
+    { q: "How do geopolitics affect energy prices?", a: "Geopolitical events create risk premiums in oil and gas prices. Conflicts near production zones or transit chokepoints (Strait of Hormuz, Red Sea) threaten supply, driving prices higher. Sanctions on major producers like Russia and Iran restrict supply access." },
+    { q: "What are the world's most critical energy chokepoints?", a: "The Strait of Hormuz (21M bpd), Strait of Malacca (16M bpd), Suez Canal (5.5M bpd), Bab el-Mandeb (4.8M bpd), and the Turkish Straits (2.4M bpd) are the most critical maritime chokepoints for global oil transit." },
+    { q: "How do sanctions affect oil markets?", a: "Sanctions can remove significant supply from the market. Western sanctions on Russia after 2022 redirected 4-5M bpd of crude toward Asia. Iranian sanctions keep roughly 1M bpd of capacity offline. Enforcement effectiveness varies and creates compliance uncertainty." },
+  ],
+  "alternative-energy": [
+    { q: "What percentage of global electricity comes from renewables?", a: "As of 2025, renewables provided approximately 35% of global electricity generation, including hydro, wind, solar, biomass, and geothermal. Excluding hydro, wind and solar alone account for about 15%." },
+    { q: "Is renewable energy cheaper than fossil fuels?", a: "In many regions, yes. Utility-scale solar and onshore wind are now the cheapest sources of new electricity generation in most markets, with levelized costs below $30/MWh. However, intermittency requires backup capacity or storage, which adds system costs." },
+    { q: "What is the energy transition?", a: "The energy transition refers to the global shift from fossil fuel-based energy systems to low-carbon alternatives. It encompasses electrification of transport, renewable power deployment, hydrogen development, carbon capture, and efficiency improvements." },
+  ],
+  "nuclear": [
+    { q: "How many nuclear reactors are operating globally?", a: "Approximately 440 nuclear reactors operate in 32 countries, providing about 10% of global electricity. France leads with ~70% nuclear share, followed by Ukraine, Slovakia, and Hungary." },
+    { q: "What are Small Modular Reactors (SMRs)?", a: "SMRs are nuclear reactors with output under 300 MW, designed for factory fabrication and modular deployment. They promise lower upfront costs, enhanced safety features, and flexible siting compared to traditional large reactors. NuScale's design received NRC certification in 2023." },
+    { q: "What is driving the nuclear renaissance?", a: "Climate goals requiring carbon-free baseload power, energy security concerns post-Ukraine conflict, AI data center demand for reliable electricity, and government policy support (including the U.S. IRA tax credits) are all driving renewed interest in nuclear." },
+  ],
+  "solar": [
+    { q: "How much solar capacity has been installed globally?", a: "Global cumulative solar PV capacity exceeded 1,600 GW by end of 2025, with China accounting for nearly half. Annual additions reached 420 GW in 2025, more than double the rate from just three years prior." },
+    { q: "How cheap is solar energy now?", a: "Utility-scale solar LCOE has fallen below $25/MWh in many markets, and record-low bids under $0.02/kWh have been recorded in the Middle East and India. Module prices have dropped below $0.10/watt." },
+  ],
+  "wind": [
+    { q: "What is the difference between onshore and offshore wind?", a: "Onshore wind is cheaper to build ($1,200-1,500/kW) but limited by land availability and lower wind speeds. Offshore wind costs more ($2,500-4,000/kW) but benefits from stronger, more consistent winds and can be built at massive scale without land constraints." },
+    { q: "How big are modern wind turbines?", a: "The largest offshore turbines now exceed 15 MW with rotor diameters over 230 meters. A single rotation of a 15 MW turbine generates enough electricity to power a home for two days. Onshore turbines typically range from 2-6 MW." },
+  ],
+  "gas-prices": [
+    { q: "What determines the price of gasoline at the pump?", a: "Crude oil costs account for about 50-55% of retail gas prices. Refining costs add 15-20%, federal and state taxes add 15-20%, and distribution/marketing add the remainder. State-specific regulations (like California's fuel standards) can significantly increase local prices." },
+    { q: "Why do gas prices vary so much by state?", a: "State taxes are the biggest factor — ranging from $0.09/gallon (Alaska) to over $0.68/gallon (California). Local supply/demand, proximity to refineries, environmental regulations, and seasonal blend requirements also create regional price differences." },
+  ],
+};
+
+// ─── U.S. GAS PRICES BY STATE (structure for future API integration) ──
+const GAS_PRICES_BY_STATE = [
+  { state: "California", regular: 5.18, mid: 5.42, premium: 5.58, diesel: 5.34 },
+  { state: "Hawaii", regular: 4.89, mid: 5.12, premium: 5.32, diesel: 5.61 },
+  { state: "Washington", regular: 4.42, mid: 4.65, premium: 4.82, diesel: 4.78 },
+  { state: "Nevada", regular: 4.18, mid: 4.38, premium: 4.55, diesel: 4.42 },
+  { state: "Oregon", regular: 4.12, mid: 4.35, premium: 4.52, diesel: 4.38 },
+  { state: "Arizona", regular: 3.89, mid: 4.12, premium: 4.28, diesel: 4.15 },
+  { state: "Illinois", regular: 3.82, mid: 4.08, premium: 4.25, diesel: 4.12 },
+  { state: "Pennsylvania", regular: 3.78, mid: 4.02, premium: 4.18, diesel: 4.08 },
+  { state: "New York", regular: 3.72, mid: 3.98, premium: 4.15, diesel: 4.22 },
+  { state: "Michigan", regular: 3.65, mid: 3.88, premium: 4.05, diesel: 3.98 },
+  { state: "Florida", regular: 3.58, mid: 3.82, premium: 3.98, diesel: 3.92 },
+  { state: "Ohio", regular: 3.52, mid: 3.75, premium: 3.92, diesel: 3.85 },
+  { state: "Virginia", regular: 3.48, mid: 3.72, premium: 3.88, diesel: 3.82 },
+  { state: "Georgia", regular: 3.35, mid: 3.58, premium: 3.75, diesel: 3.68 },
+  { state: "North Carolina", regular: 3.32, mid: 3.55, premium: 3.72, diesel: 3.65 },
+  { state: "Texas", regular: 3.18, mid: 3.42, premium: 3.58, diesel: 3.48 },
+  { state: "Louisiana", regular: 3.08, mid: 3.32, premium: 3.48, diesel: 3.38 },
+  { state: "Oklahoma", regular: 3.05, mid: 3.28, premium: 3.45, diesel: 3.35 },
+  { state: "Arkansas", regular: 3.02, mid: 3.25, premium: 3.42, diesel: 3.32 },
+  { state: "Mississippi", regular: 2.98, mid: 3.22, premium: 3.38, diesel: 3.28 },
+];
+
+const US_GAS_NATIONAL = { regular: 3.42, mid: 3.68, premium: 3.85, diesel: 3.78 };

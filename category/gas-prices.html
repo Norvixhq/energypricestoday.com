@@ -89,6 +89,27 @@
         </aside>
       </div>
     </div>
+
+    
+    <!-- State-by-State Gas Prices -->
+    <section class="section" id="state-prices-section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-state-prices"></h2></div>
+      <div class="stat-row" id="national-avg" style="margin-bottom:20px"></div>
+      <div class="company-directory-wrap">
+        <table class="market-table" id="gas-state-table">
+          <thead><tr><th style="text-align:left">State</th><th>Regular</th><th>Mid-Grade</th><th>Premium</th><th>Diesel</th></tr></thead>
+          <tbody id="gas-state-tbody"></tbody>
+        </table>
+      </div>
+      <p style="color:var(--text-3);font-size:11px;margin-top:12px">Prices are approximate state averages. Data structure ready for live AAA/EIA API integration.</p>
+    </div></section>
+<!-- FAQ -->
+    <section class="section" id="faq-section" style="display:none"><div class="container">
+      <div class="context-block">
+        <h3 id="faq-heading"></h3>
+        <div class="faq-section" id="faq-container"></div>
+      </div>
+    </div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="../js/data.js"></script>
@@ -167,6 +188,37 @@
     document.getElementById('live-sidebar').style.display = '';
     document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
     loadLiveNews('natgas', 'sidebar-live-news', 4);
+
+    // Render FAQ if available
+    if (typeof CATEGORY_FAQS !== 'undefined' && CATEGORY_FAQS[catSlug]) {
+      document.getElementById('faq-section').style.display = '';
+      document.getElementById('faq-heading').innerHTML = icon('zap',16) + ' Frequently Asked Questions';
+      document.getElementById('faq-container').innerHTML = CATEGORY_FAQS[catSlug].map(function(f) {
+        return '<div class="faq-item"><div class="faq-q">' + f.q + '</div><div class="faq-a">' + f.a + '</div></div>';
+      }).join('');
+    }
+
+    // State gas prices
+    document.getElementById('sec-state-prices').innerHTML = icon('fuel',18) + ' U.S. Gas Prices by State';
+    if (typeof US_GAS_NATIONAL !== 'undefined') {
+      document.getElementById('national-avg').innerHTML = [
+        { label: 'Regular', value: '$' + US_GAS_NATIONAL.regular.toFixed(2) },
+        { label: 'Mid-Grade', value: '$' + US_GAS_NATIONAL.mid.toFixed(2) },
+        { label: 'Premium', value: '$' + US_GAS_NATIONAL.premium.toFixed(2) },
+        { label: 'Diesel', value: '$' + US_GAS_NATIONAL.diesel.toFixed(2) },
+      ].map(function(s) {
+        return '<div class="stat-box"><div class="stat-box-label">' + s.label + ' (U.S. Avg)</div><div class="stat-box-value">' + s.value + '</div></div>';
+      }).join('');
+    }
+    if (typeof GAS_PRICES_BY_STATE !== 'undefined') {
+      document.getElementById('gas-state-tbody').innerHTML = GAS_PRICES_BY_STATE.map(function(s) {
+        return '<tr><td style="font-weight:600">' + s.state + '</td>' +
+          '<td style="text-align:right;color:var(--text-1);font-weight:600">$' + s.regular.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.mid.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.premium.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.diesel.toFixed(2) + '</td></tr>';
+      }).join('');
+    }
   </script>
 </body>
 </html>

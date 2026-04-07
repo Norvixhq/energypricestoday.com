@@ -206,7 +206,7 @@ function toggleSearch() {
 function renderTicker() {
   var track = document.getElementById('ticker-track');
   if (!track || typeof COMMODITIES === 'undefined') return;
-  var items = COMMODITIES.map(function(c) {
+  var items = COMMODITIES.filter(function(c) { return !c.loading && c.price > 0; }).map(function(c) {
     var cls = c.change >= 0 ? 'up' : 'down';
     var arrow = c.change >= 0 ? '▲' : '▼';
     return '<span class="ticker-item">' +

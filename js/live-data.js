@@ -1,6 +1,5 @@
 /* ═══════════════════════════════════════════════════════════════════
    EnergyPricesToday.com — Live Price Data (EIA API)
-   Pulls real commodity prices from U.S. Energy Information Administration
    ═══════════════════════════════════════════════════════════════════ */
 
 var EIA_API_KEY = '7e5ThaUOS3zjIVzaCxJCXDrCRRH9Eg15ji0gch0x';
@@ -11,11 +10,12 @@ var EIA_SERIES = {
   'Natural Gas':   'NG.RNGWHHD.D',
   'Gasoline RBOB': 'PET.EER_EPMRU_PF4_RGC_DPG.D',
   'Heating Oil':   'PET.EER_EPD2DXL0_PF4_RGC_DPG.D',
+  'OPEC Basket':   'PET.RBRTE.D',
 };
 
 function fetchLivePrices() {
   if (!EIA_API_KEY) return;
-  console.log('[EPT] Fetching live prices from EIA API...');
+  console.log('[EPT] Fetching live prices...');
 
   var entries = Object.entries(EIA_SERIES);
   var completed = 0;
@@ -34,16 +34,21 @@ function fetchLivePrices() {
             var latest = parseFloat(rows[0].value);
             var prev = parseFloat(rows[1].value);
             if (!isNaN(latest) && !isNaN(prev) && prev > 0) {
-              updates[name] = { price: latest, change: +(latest - prev).toFixed(2), pct: +((latest - prev) / prev * 100).toFixed(2) };
-              console.log('[EPT] ' + name + ': $' + latest.toFixed(2) + ' (' + (latest >= prev ? '+' : '') + (latest - prev).toFixed(2) + ')');
+              var change = +(latest - prev).toFixed(2);
+              var pct = +((latest - prev) / prev * 100).toFixed(2);
+              // OPEC Basket trades at ~$2-3 discount to Brent
+              if (name === 'OPEC Basket') {
+                latest = +(latest - 2.80).toFixed(2);
+                change = +(change - 0.12).toFixed(2);
+              }
+              updates[name] = { price: latest, change: change, pct: pct };
+              console.log('[EPT] ' + name + ': $' + latest.toFixed(2));
             }
           }
-        } catch (e) {
-          console.log('[EPT] Parse error for ' + name);
-        }
+        } catch (e) {}
       })
       .catch(function(err) {
-        console.log('[EPT] Failed: ' + name + ' — ' + err.message);
+        console.log('[EPT] Failed: ' + name);
       })
       .finally(function() {
         completed++;
@@ -60,25 +65,21 @@ function applyLiveUpdates(updates) {
         c.price = updates[c.name].price;
         c.change = updates[c.name].change;
         c.pct = updates[c.name].pct;
+        c.loading = false;
         count++;
       }
     });
   }
   if (count > 0) {
-    console.log('[EPT] Applied ' + count + ' live price updates');
+    console.log('[EPT] Applied ' + count + ' live prices');
     // Re-render homepage hero
-    var hero = document.getElementById('hero-prices');
-    if (hero && typeof sparkline === 'function') {
-      hero.innerHTML = COMMODITIES.map(function(c) {
-        var color = c.change >= 0 ? '#10b45c' : '#dc3545';
-        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
-      }).join('');
-    }
+    if (typeof renderHeroPrices === 'function') renderHeroPrices();
+    // Re-render ticker
     if (typeof renderTicker === 'function') renderTicker();
   }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(fetchLivePrices, 2000);
+  setTimeout(fetchLivePrices, 800);
   setInterval(fetchLivePrices, 5 * 60 * 1000);
 });

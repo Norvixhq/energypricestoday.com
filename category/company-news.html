@@ -35,7 +35,7 @@
         <span>Company News</span>
       </nav>
 
-      <div class="stat-row" id="cat-stats" style="margin-bottom:24px"></div>
+      <div class="stat-row" id="cat-stats" style="display:none"></div>
       
       <!-- Company Directory -->
       <div id="company-directory" style="margin-bottom:28px"></div>
@@ -93,6 +93,14 @@
         </aside>
       </div>
     </div>
+
+    <!-- FAQ -->
+    <section class="section" id="faq-section" style="display:none"><div class="container">
+      <div class="context-block">
+        <h3 id="faq-heading"></h3>
+        <div class="faq-section" id="faq-container"></div>
+      </div>
+    </div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="../js/data.js"></script>
@@ -176,7 +184,7 @@
     // Company directory
     if (typeof ENERGY_COMPANIES !== 'undefined') {
       var compHtml = '<h2 style="font-size:17px;margin-bottom:14px">' + icon('building',18) + ' Energy Company Directory</h2>';
-      compHtml += '<div class="market-table-wrap"><table class="market-table">';
+      compHtml += '<div class="company-directory-wrap"><table class="market-table">';
       compHtml += '<thead><tr><th style="text-align:left">Company</th><th>Ticker</th><th>Revenue</th><th>Profit</th><th>Production</th><th>Dividend</th><th>Sector</th></tr></thead><tbody>';
       compHtml += ENERGY_COMPANIES.map(function(c) {
         return '<tr><td style="font-weight:600">' + c.name + '</td>' +
@@ -189,6 +197,15 @@
       }).join('');
       compHtml += '</tbody></table></div>';
       document.getElementById('company-directory').innerHTML = compHtml;
+    }
+
+    // Render FAQ if available
+    if (typeof CATEGORY_FAQS !== 'undefined' && CATEGORY_FAQS[catSlug]) {
+      document.getElementById('faq-section').style.display = '';
+      document.getElementById('faq-heading').innerHTML = icon('zap',16) + ' Frequently Asked Questions';
+      document.getElementById('faq-container').innerHTML = CATEGORY_FAQS[catSlug].map(function(f) {
+        return '<div class="faq-item"><div class="faq-q">' + f.q + '</div><div class="faq-a">' + f.a + '</div></div>';
+      }).join('');
     }
   </script>
 </body>

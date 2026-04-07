@@ -35,7 +35,7 @@
           <h1>Energy Markets Today</h1>
           <p class="hero-sub">WTI surges past $71 on tight U.S. inventories — OPEC+ extends cuts — European gas rallies on cold snap forecasts.</p>
         </div>
-        <div class="grid-5" id="hero-prices" style="margin-bottom:20px"></div>
+        <div class="grid-6" id="hero-prices" style="margin-bottom:20px"></div>
         <div class="hero-actions" id="hero-actions"></div>
       </div>
     </section>
@@ -165,11 +165,17 @@
       '<a href="category/energy.html" class="btn btn-ghost">' + icon('newspaper',14) + ' Explore News</a>' +
       '<a href="oil-prices.html" class="btn btn-ghost">' + icon('trending-up',14) + ' Market Movers</a>';
 
-    // Hero price cards
-    document.getElementById('hero-prices').innerHTML = COMMODITIES.map(function(c) {
-      var color = c.change >= 0 ? '#10b45c' : '#dc3545';
-      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
-    }).join('');
+    // Hero price cards — skeleton until API loads
+    function renderHeroPrices() {
+      document.getElementById('hero-prices').innerHTML = COMMODITIES.map(function(c) {
+        if (c.loading || c.price === 0) {
+          return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value">—</div><div class="price-card-footer"><span></span><span class="price-card-unit">' + c.unit + '</span></div></div>';
+        }
+        var color = c.change >= 0 ? '#10b45c' : '#dc3545';
+        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
+      }).join('');
+    }
+    renderHeroPrices();
 
     // LIVE HEADLINES — GDELT, works immediately
     loadLiveNews('energy', 'live-energy-headlines', 8);

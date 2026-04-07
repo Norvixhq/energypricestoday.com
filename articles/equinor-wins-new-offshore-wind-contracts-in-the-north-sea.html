@@ -29,6 +29,19 @@
         <h2>Key Market Implications</h2>
         <p>The expansion reflects broader industry trends toward diversification among traditional oil and gas companies, with major energy firms increasingly allocating capital toward renewable projects.</p>
       </div>
+    
+      <div id="related-articles-section" style="margin-top:36px;padding-top:24px;border-top:1px solid var(--border)">
+        <h3 style="font-size:17px;margin-bottom:14px">More from EnergyPricesToday</h3>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px" id="article-related"></div>
+        <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+          <a href="../oil-prices.html" class="article-tag">Oil Prices</a>
+          <a href="../markets.html" class="article-tag">Markets</a>
+          <a href="../category/geopolitics.html" class="article-tag">Geopolitics</a>
+          <a href="../category/company-news.html" class="article-tag">Company News</a>
+          <a href="../rig-count.html" class="article-tag">Rig Count</a>
+          <a href="../category/alternative-energy.html" class="article-tag">Alt Energy</a>
+        </div>
+      </div>
     </article>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
@@ -37,5 +50,16 @@
   <script src="../js/main.js"></script>
   <script src="../js/live-data.js"></script>
   <script src="../js/news-feed.js"></script>
+<script>
+    // Related articles
+    if (typeof FEATURED_ARTICLES !== 'undefined') {
+      var relEl = document.getElementById('article-related');
+      if (relEl) {
+        relEl.innerHTML = FEATURED_ARTICLES.slice(0,4).map(function(a) {
+          return '<a href="' + articleUrl(a.title) + '" style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px;display:block;transition:border-color .15s"><h4 style="color:var(--text-1);font-size:13px;font-weight:600;line-height:1.4;margin:0 0 4px">' + a.title + '</h4><span style="color:var(--text-3);font-size:11px">' + (a.date || '') + '</span></a>';
+        }).join('');
+      }
+    }
+</script>
 </body>
 </html>
