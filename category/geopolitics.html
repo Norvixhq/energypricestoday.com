@@ -36,7 +36,23 @@
       </nav>
 
       <div class="stat-row" id="cat-stats" style="margin-bottom:24px"></div>
-      <div class="cat-icon-wrap">
+      
+    <!-- Geopolitical Risk Monitor -->
+    <div class="context-block" style="border-left-color:var(--amber);margin-bottom:24px">
+      <h3 id="geo-risk-title"></h3>
+      <div class="grid-3" id="geo-risk-cards" style="margin-top:14px"></div>
+    </div>
+
+    <!-- Live Geopolitics Headlines -->
+    <div class="live-news-container" style="margin-bottom:24px">
+      <div style="padding:10px 16px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center">
+        <span style="font-size:12px;font-weight:600;color:var(--amber);text-transform:uppercase;letter-spacing:0.05em" id="geo-live-label"></span>
+        <span class="live-badge">LIVE</span>
+      </div>
+      <div id="geo-live-headlines"></div>
+    </div>
+
+<div class="cat-icon-wrap">
         <div class="cat-icon-box" id="cat-icon"></div>
         <div><h1 style="margin:0">Geopolitics</h1></div>
       </div>
@@ -64,6 +80,30 @@
         <!-- Sidebar -->
       </div>
     </div>
+
+    
+    <!-- Related Market Pages -->
+    <section style="margin:24px 0">
+      <h3 style="font-size:15px;margin-bottom:12px">How Geopolitics Affects Markets</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px">
+        <a href="../oil-prices.html" style="background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px;display:block;transition:border-color .15s">
+          <div style="font-weight:600;color:var(--text-1);font-size:13px;margin-bottom:2px">Oil Prices</div>
+          <div style="color:var(--text-3);font-size:11.5px">Geopolitical risk premiums directly impact crude benchmarks</div>
+        </a>
+        <a href="../category/gas-prices.html" style="background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--green);border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px;display:block;transition:border-color .15s">
+          <div style="font-weight:600;color:var(--text-1);font-size:13px;margin-bottom:2px">U.S. Gas Prices</div>
+          <div style="color:var(--text-3);font-size:11.5px">Supply disruptions flow through to retail fuel costs</div>
+        </a>
+        <a href="../markets.html" style="background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--amber);border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px;display:block;transition:border-color .15s">
+          <div style="font-weight:600;color:var(--text-1);font-size:13px;margin-bottom:2px">Full Markets Hub</div>
+          <div style="color:var(--text-3);font-size:11.5px">Live pricing across all energy commodities</div>
+        </a>
+        <a href="../rig-count.html" style="background:var(--surface);border:1px solid var(--border);border-left:3px solid #8b5cf6;border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px;display:block;transition:border-color .15s">
+          <div style="font-weight:600;color:var(--text-1);font-size:13px;margin-bottom:2px">Rig Count</div>
+          <div style="color:var(--text-3);font-size:11.5px">Drilling activity signals future production capacity</div>
+        </a>
+      </div>
+    </section>
 
     <!-- FAQ -->
     <section class="section" id="faq-section" style="display:none"><div class="container">
@@ -116,6 +156,26 @@
       </a>
     `).join('');
 
+
+    // Geopolitical Risk Monitor
+    document.getElementById('geo-risk-title').innerHTML = icon('alert-triangle',16) + ' Active Geopolitical Risk Factors';
+    document.getElementById('geo-live-label').innerHTML = icon('zap',12) + ' Live Geopolitics Headlines';
+    var geoRisks = [
+      { region: 'Strait of Hormuz', risk: 'ELEVATED', detail: '21M bpd transit — Iran tensions, tanker seizures', color: '#ef4444' },
+      { region: 'Red Sea / Bab el-Mandeb', risk: 'HIGH', detail: 'Houthi attacks rerouting 60% of tanker traffic', color: '#ef4444' },
+      { region: 'Russia-Ukraine', risk: 'ONGOING', detail: 'Shadow fleet sanctions enforcement tightening', color: '#f59e0b' },
+      { region: 'OPEC+ Compliance', risk: 'MODERATE', detail: 'Iraq, Kazakhstan exceeding quota limits', color: '#f59e0b' },
+      { region: 'Venezuela', risk: 'WATCH', detail: 'Sanctions review pending election benchmarks', color: '#3b82f6' },
+      { region: 'Iran Nuclear', risk: 'STALLED', detail: 'Diplomatic freeze keeps ~1M bpd offline', color: '#3b82f6' },
+    ];
+    document.getElementById('geo-risk-cards').innerHTML = geoRisks.map(function(r) {
+      return '<div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid ' + r.color + ';border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px">' +
+        '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px"><strong style="color:var(--text-1);font-size:13px">' + r.region + '</strong><span style="font-size:9px;font-weight:700;color:' + r.color + ';letter-spacing:0.06em">' + r.risk + '</span></div>' +
+        '<div style="color:var(--text-3);font-size:12px;line-height:1.5">' + r.detail + '</div></div>';
+    }).join('');
+
+    // Live geopolitics headlines
+    loadLiveNews('geopolitics', 'geo-live-headlines', 6);
   </script>
 </body>
 </html>

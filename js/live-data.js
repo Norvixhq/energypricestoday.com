@@ -66,6 +66,7 @@ function applyLiveUpdates(updates) {
         c.change = updates[c.name].change;
         c.pct = updates[c.name].pct;
         c.loading = false;
+        c.spark = c.spark.length > 0 ? c.spark : [c.price * 0.97, c.price * 0.98, c.price * 0.99, c.price * 0.995, c.price * 0.998, c.price * 1.0, c.price];
         count++;
       }
     });
@@ -76,6 +77,11 @@ function applyLiveUpdates(updates) {
     if (typeof renderHeroPrices === 'function') renderHeroPrices();
     // Re-render ticker
     if (typeof renderTicker === 'function') renderTicker();
+    // Re-render market table (updates the $0.00 rows)
+    if (typeof renderMarketTable === 'function') {
+      var tbl = document.getElementById('home-market-table');
+      if (tbl) renderMarketTable('home-market-table', true);
+    }
   }
 }
 

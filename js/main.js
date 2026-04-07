@@ -63,6 +63,7 @@ function sparkline(data, color, w, h) {
 
 // ─── PRICE CHANGE HTML ───────────────────────────────────────────
 function priceChange(change, pct) {
+  if (change === null || change === undefined) return '<span style="color:var(--text-3)">—</span>';
   const up = change >= 0;
   const cls = up ? 'up' : 'down';
   const ico = up ? 'trending-up' : 'trending-down';
@@ -182,9 +183,25 @@ function renderHeader(activePage) {
 function toggleMobileNav() {
   const nav = document.getElementById('mobile-nav');
   const btn = document.querySelector('.mobile-toggle');
+  const backdrop = document.getElementById('mobile-backdrop');
   const open = nav.classList.toggle('open');
+  if (backdrop) backdrop.classList.toggle('open', open);
   btn.innerHTML = open ? icon('x', 24) : icon('menu', 24);
+  document.body.style.overflow = open ? 'hidden' : '';
 }
+
+// Close mobile nav via backdrop or close button
+document.addEventListener('click', function(e) {
+  if (e.target.id === 'mobile-backdrop' || e.target.id === 'mobile-close' || e.target.closest('#mobile-close')) {
+    var nav = document.getElementById('mobile-nav');
+    var backdrop = document.getElementById('mobile-backdrop');
+    if (nav) nav.classList.remove('open');
+    if (backdrop) backdrop.classList.remove('open');
+    var btn = document.querySelector('.mobile-toggle');
+    if (btn) btn.innerHTML = icon('menu', 24);
+    document.body.style.overflow = '';
+  }
+});
 
 // ─── SEARCH OVERLAY ──────────────────────────────────────────────
 function toggleSearch() {
@@ -206,7 +223,7 @@ function toggleSearch() {
 function renderTicker() {
   var track = document.getElementById('ticker-track');
   if (!track || typeof COMMODITIES === 'undefined') return;
-  var items = COMMODITIES.filter(function(c) { return !c.loading && c.price > 0; }).map(function(c) {
+  var items = COMMODITIES.filter(function(c) { return c.price !== null; }).map(function(c) {
     var cls = c.change >= 0 ? 'up' : 'down';
     var arrow = c.change >= 0 ? '▲' : '▼';
     return '<span class="ticker-item">' +
@@ -303,6 +320,16 @@ function renderMarketTable(containerId, compact) {
   function buildTable() {
     const data = FULL_PRICES[activeTab] || [];
     const rows = (compact ? data.slice(0, 5) : data).map(c => {
+      if (c.price === null || c.price === undefined) {
+        return `<tr>
+          <td>${c.name}</td>
+          <td class="table-price" style="color:var(--text-3)">Updating\u2026</td>
+          <td><span style="color:var(--text-3)">\u2014</span></td>
+          <td><span style="color:var(--text-3)">\u2014</span></td>
+          <td></td>
+          <td class="table-unit">${c.unit}</td>
+        </tr>`;
+      }
       const color = c.change >= 0 ? '#22c55e' : '#ef4444';
       return `<tr>
         <td>${c.name}</td>

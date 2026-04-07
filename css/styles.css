@@ -1030,3 +1030,88 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 .cat-content-full .section{padding:24px 0}
 .cat-content-full .context-block{margin:24px 0}
 .cat-content-full .faq-section{margin:20px 0}
+
+
+/* ─── REFINED MOBILE HAMBURGER ──────────────────────────────────── */
+.hamburger{
+  display:none;width:36px;height:36px;
+  border:1px solid var(--border);border-radius:var(--radius-sm);
+  align-items:center;justify-content:center;
+  background:transparent;transition:all .2s;
+}
+.hamburger:hover,.hamburger.active{border-color:var(--blue);background:var(--blue-mute)}
+.hamburger svg{color:var(--text-2);transition:color .2s}
+.hamburger:hover svg,.hamburger.active svg{color:var(--blue)}
+@media(max-width:900px){
+  .hamburger{display:flex}
+  .desktop-nav{display:none}
+}
+
+/* Mobile menu overlay */
+.mobile-nav{
+  position:fixed;top:0;right:-100%;width:min(300px,82vw);height:100vh;
+  background:var(--bg);border-left:1px solid var(--border);
+  z-index:9999;padding:20px;overflow-y:auto;
+  transition:right .3s cubic-bezier(0.4,0,0.2,1);
+  display:flex;flex-direction:column;gap:2px;
+}
+.mobile-nav.open{right:0}
+.mobile-nav-backdrop{
+  position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:9998;
+  opacity:0;pointer-events:none;transition:opacity .3s;
+}
+.mobile-nav-backdrop.open{opacity:1;pointer-events:all}
+
+/* Mobile nav header */
+.mobile-nav-close{
+  display:flex;align-items:center;justify-content:space-between;
+  padding-bottom:16px;margin-bottom:8px;border-bottom:1px solid var(--border);
+}
+.mobile-nav-close button{
+  width:32px;height:32px;border-radius:50%;border:1px solid var(--border);
+  display:flex;align-items:center;justify-content:center;background:transparent;
+  color:var(--text-2);transition:all .15s;
+}
+.mobile-nav-close button:hover{border-color:var(--text-1);color:var(--text-1)}
+
+/* Mobile nav links */
+.mobile-nav a{
+  display:flex;align-items:center;padding:11px 14px;
+  font-size:15px;color:var(--text-2);font-weight:500;
+  border-radius:var(--radius-sm);transition:all .12s;
+}
+.mobile-nav a:hover,.mobile-nav a:active{
+  background:var(--surface);color:var(--text-1);
+}
+.mobile-nav a.sub{
+  padding:9px 14px 9px 32px;font-size:13.5px;color:var(--text-3);
+}
+.mobile-nav a.sub:hover{color:var(--blue);background:var(--blue-mute)}
+
+/* Mobile dropdown groups */
+.mobile-dropdown-group{border-bottom:1px solid rgba(255,255,255,0.03)}
+.mobile-dropdown-header{display:flex;align-items:center}
+.mobile-dropdown-header a{flex:1}
+.mobile-dropdown-toggle{
+  width:36px;height:36px;display:flex;align-items:center;justify-content:center;
+  background:none;border:none;color:var(--text-3);transition:all .2s;
+  border-radius:var(--radius-sm);
+}
+.mobile-dropdown-toggle:hover{color:var(--text-1);background:var(--surface)}
+.mobile-dropdown-group.open .mobile-dropdown-toggle{
+  color:var(--blue);transform:rotate(180deg);
+}
+.mobile-dropdown-items{
+  display:none;padding:0 0 8px;
+}
+.mobile-dropdown-group.open .mobile-dropdown-items{display:block}
+
+/* Dual live headlines grid */
+.live-headlines-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:768px){.live-headlines-grid{grid-template-columns:1fr}}
+
+/* Skeleton card: fixed height to prevent CLS */
+.price-card-loading{min-height:110px;display:flex;flex-direction:column;justify-content:center}
+.price-card-loading .price-card-value{
+  animation:skeletonPulse 1.5s ease-in-out infinite;
+}

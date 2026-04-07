@@ -37,18 +37,18 @@
 
       <div class="stat-row" id="cat-stats" style="margin-bottom:24px"></div>
       
-    <!-- U.S. Gas Prices by State — 50 States + DC -->
+    
+
+      
+    <!-- U.S. Gas Prices — All 50 States + DC -->
     <section style="margin-bottom:28px">
       <div class="data-callout" style="margin-bottom:20px">
-        <div class="data-callout-label">U.S. National Average — Regular Gasoline</div>
-        <div class="data-callout-value" id="national-avg-value">Loading...</div>
-        <div class="data-callout-desc" id="national-avg-source"></div>
+        <div class="data-callout-label" id="gas-source-top"></div>
+        <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
+          <div class="data-callout-value" id="national-price">—</div>
+          <div id="national-grades-row" style="display:flex;gap:16px;flex-wrap:wrap"></div>
+        </div>
       </div>
-      <div class="stat-row" id="national-grades" style="margin-bottom:20px"></div>
-      <h3 style="font-size:16px;margin-bottom:12px;display:flex;align-items:center;justify-content:space-between">
-        <span>All 50 States + D.C.</span>
-        <span style="font-size:11px;color:var(--text-3);font-weight:400" id="gas-source-label"></span>
-      </h3>
       <div class="company-directory-wrap">
         <table class="market-table" id="gas-state-table">
           <thead><tr>
@@ -57,14 +57,16 @@
             <th>Mid-Grade</th>
             <th>Premium</th>
             <th>Diesel</th>
-            <th>E85</th>
           </tr></thead>
           <tbody id="gas-state-tbody"></tbody>
         </table>
       </div>
+      <div style="color:var(--text-3);font-size:11px;margin-top:10px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+        <span>Source: EIA Weekly Retail Gasoline and Diesel Prices</span>
+        <span>Data may reflect 1-week delay from survey collection</span>
+      </div>
     </section>
-
-      <div class="cat-icon-wrap">
+<div class="cat-icon-wrap">
         <div class="cat-icon-box" id="cat-icon"></div>
         <div><h1 style="margin:0">Gas Prices</h1></div>
       </div>
@@ -143,24 +145,6 @@
       </a>
     `).join('');
 
-    
-    // National average display
-    if (typeof US_GAS_NATIONAL !== 'undefined') {
-      var n = US_GAS_NATIONAL;
-      document.getElementById('national-avg-value').textContent = '$' + n.regular.toFixed(2) + '/gal';
-      document.getElementById('national-avg-source').textContent = n.source + ' — ' + n.updated;
-      document.getElementById('gas-source-label').textContent = n.source;
-      document.getElementById('national-grades').innerHTML = [
-        { label: 'Regular', value: '$' + n.regular.toFixed(2) },
-        { label: 'Mid-Grade', value: '$' + n.mid.toFixed(2) },
-        { label: 'Premium', value: '$' + n.premium.toFixed(2) },
-        { label: 'Diesel', value: '$' + n.diesel.toFixed(2) },
-        { label: 'E85', value: n.e85 ? '$' + n.e85.toFixed(2) : 'N/A' },
-      ].map(function(s) {
-        return '<div class="stat-box"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value">' + s.value + '</div></div>';
-      }).join('');
-    }
-
     // 50-state table
     if (typeof GAS_PRICES_BY_STATE !== 'undefined') {
       document.getElementById('gas-state-tbody').innerHTML = GAS_PRICES_BY_STATE.map(function(s) {
@@ -172,6 +156,29 @@
           '<td style="text-align:right">$' + s.premium.toFixed(2) + '</td>' +
           '<td style="text-align:right">$' + s.diesel.toFixed(2) + '</td>' +
           '<td style="text-align:right">' + e85 + '</td></tr>';
+      }).join('');
+    }
+
+    
+    // Gas prices display
+    if (typeof US_GAS_NATIONAL !== 'undefined') {
+      var n = US_GAS_NATIONAL;
+      document.getElementById('gas-source-top').textContent = 'U.S. National Average — ' + n.source + ' — ' + n.updated;
+      document.getElementById('national-price').innerHTML = '$' + n.regular.toFixed(2) + '<span style="font-size:14px;color:var(--text-2);margin-left:6px">/gal regular</span>';
+      document.getElementById('national-grades-row').innerHTML = [
+        ['Mid', n.mid], ['Premium', n.premium], ['Diesel', n.diesel]
+      ].map(function(g) {
+        return '<span style="color:var(--text-2);font-size:13px"><span style="color:var(--text-3)">' + g[0] + ':</span> <strong style="color:var(--text-1)">$' + g[1].toFixed(2) + '</strong></span>';
+      }).join('');
+    }
+    if (typeof GAS_PRICES_BY_STATE !== 'undefined') {
+      document.getElementById('gas-state-tbody').innerHTML = GAS_PRICES_BY_STATE.map(function(s) {
+        return '<tr>' +
+          '<td style="white-space:nowrap"><span style="display:inline-block;width:28px;height:18px;background:var(--surface);border:1px solid var(--border);border-radius:3px;text-align:center;font-size:10px;font-weight:700;line-height:18px;color:var(--text-2);margin-right:6px">' + s.abbr + '</span>' + s.state + '</td>' +
+          '<td style="text-align:right;font-weight:600;color:var(--text-1)">$' + s.regular.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.mid.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.premium.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.diesel.toFixed(2) + '</td></tr>';
       }).join('');
     }
 
