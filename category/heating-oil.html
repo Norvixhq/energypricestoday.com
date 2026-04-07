@@ -42,7 +42,7 @@
       </div>
       <p class="cat-desc">Heating oil prices, supply, and seasonal demand analysis.</p>
 
-      <div class="cat-layout">
+      <div class="cat-content-full">
         <!-- Articles column -->
         <div>
           <!-- Featured article -->
@@ -62,31 +62,6 @@
         </div>
 
         <!-- Sidebar -->
-        <aside>
-          <!-- Market snapshot -->
-          <div class="sidebar-card">
-            <div class="sidebar-heading" id="sh-market"></div>
-            <div id="sidebar-prices"></div>
-            <a href="../markets.html" class="view-markets-link">View All Markets →</a>
-          </div>
-
-          <!-- Related topics -->
-          <div class="sidebar-card">
-            <div class="sidebar-heading">Related Topics</div>
-            <div id="sidebar-topics"></div>
-          </div>
-
-          <!-- Trending -->
-          <div class="sidebar-card">
-            <div class="sidebar-heading" id="sh-trending"></div>
-            <div id="sidebar-trending"></div>
-          </div>
-          <!-- Live Headlines -->
-          <div class="sidebar-card" id="live-sidebar">
-            <div class="sidebar-heading" style="justify-content:space-between"><span id="sh-live"></span><span class="live-badge">LIVE</span></div>
-            <div id="sidebar-live-news"></div>
-          </div>
-        </aside>
       </div>
     </div>
 
@@ -110,9 +85,6 @@
 
     // Icons
     document.getElementById('cat-icon').innerHTML = icon(catIcon, 24);
-    
-    document.getElementById('sh-market').innerHTML = icon('bar-chart',16) + ' Market Snapshot';
-    document.getElementById('sh-trending').innerHTML = icon('trending-up',16) + ' Trending';
 
     // Category-specific content
     var catData = (typeof CATEGORY_CONTENT !== "undefined" && CATEGORY_CONTENT[catSlug]) ? CATEGORY_CONTENT[catSlug] : { articles: CATEGORY_ARTICLES, stats: [] };
@@ -143,38 +115,6 @@
         </div>
       </a>
     `).join('');
-
-    // Sidebar prices
-    document.getElementById('sidebar-prices').innerHTML = COMMODITIES.slice(0,3).map((c,i) => `
-      <div class="sidebar-price-row" ${i===2?'style="border:none"':''}>
-        <span class="sidebar-price-name">${c.name}</span>
-        <div style="text-align:right">
-          <span class="sidebar-price-val">$${c.price.toFixed(2)}</span>
-          <div>${priceChange(c.change, c.pct)}</div>
-        </div>
-      </div>
-    `).join('');
-
-    // Sidebar topics
-    const allCats = Object.entries(CATEGORIES).filter(([s]) => s !== catSlug).slice(0,5);
-    document.getElementById('sidebar-topics').innerHTML = allCats.map(([s,c]) => `
-      <a href="${s}.html" class="sidebar-link">${icon(c.icon,16)} ${c.name}</a>
-    `).join('');
-
-    // Trending
-    document.getElementById('sidebar-trending').innerHTML = TRENDING_TOPICS.map((t,i) => `
-
-      <div class="sidebar-trending-item" ${i===4?'style="border:none"':''}>
-        <span class="sidebar-trending-num">${i+1}</span>
-        <span class="sidebar-trending-text">${t}</span>
-      </div>
-    `).join('');
-
-
-    // Live headlines sidebar — GDELT
-    document.getElementById('live-sidebar').style.display = '';
-    document.getElementById('sh-live').innerHTML = icon('zap',14) + ' Live Headlines';
-    loadLiveNews('natgas', 'sidebar-live-news', 4);
 
     // Render FAQ if available
     if (typeof CATEGORY_FAQS !== 'undefined' && CATEGORY_FAQS[catSlug]) {

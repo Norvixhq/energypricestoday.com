@@ -36,7 +36,7 @@ function fetchLivePrices() {
             if (!isNaN(latest) && !isNaN(prev) && prev > 0) {
               var change = +(latest - prev).toFixed(2);
               var pct = +((latest - prev) / prev * 100).toFixed(2);
-              // OPEC Basket trades at ~$2-3 discount to Brent
+              // OPEC Basket: derived estimate based on Brent minus typical $2.80 discount
               if (name === 'OPEC Basket') {
                 latest = +(latest - 2.80).toFixed(2);
                 change = +(change - 0.12).toFixed(2);

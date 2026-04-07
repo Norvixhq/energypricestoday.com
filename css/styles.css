@@ -658,7 +658,7 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   .grid-3{grid-template-columns:1fr}
   .grid-auto-180{grid-template-columns:repeat(2,1fr)}
   .hero{padding:28px 0 24px}
-  .section{padding:36px 0}
+  .section{padding:28px 0}
   .container{padding:0 16px}
   .news-row-meta .cat-pill{display:none}
   .article-page{padding:20px 16px 44px}
@@ -1020,3 +1020,13 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 .context-block h3 svg{color:var(--amber)}
 .context-block p{color:var(--text-2);font-size:13.5px;line-height:1.7}
 .context-block p+p{margin-top:10px}
+
+/* ─── FULL-WIDTH CATEGORY LAYOUT (sidebar removed) ──────────────── */
+.cat-content-full{max-width:960px;margin:0 auto}
+.cat-main-full{width:100%}
+.cat-main-full .article-list-item h3{font-size:15.5px}
+
+/* Tighter section spacing */
+.cat-content-full .section{padding:24px 0}
+.cat-content-full .context-block{margin:24px 0}
+.cat-content-full .faq-section{margin:20px 0}

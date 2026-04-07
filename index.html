@@ -172,7 +172,8 @@
           return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value">—</div><div class="price-card-footer"><span></span><span class="price-card-unit">' + c.unit + '</span></div></div>';
         }
         var color = c.change >= 0 ? '#10b45c' : '#dc3545';
-        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
+        var label = c.name === 'OPEC Basket' ? c.name + ' <span style="font-size:8px;color:var(--text-3);font-weight:400">(est.)</span>' : c.name;
+        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + label + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
       }).join('');
     }
     renderHeroPrices();
