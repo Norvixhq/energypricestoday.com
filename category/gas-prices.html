@@ -94,6 +94,12 @@
         <!-- Sidebar -->
       </div>
     </div>
+
+    <!-- Related Gas Price Articles -->
+    <section style="margin:24px 0" id="gas-related-articles">
+      <h3 style="font-size:16px;margin-bottom:14px">Understanding Gas Prices</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px" id="gas-article-links"></div>
+    </section>
 <!-- FAQ -->
     <section class="section" id="faq-section" style="display:none"><div class="container">
       <div class="context-block">
@@ -197,6 +203,20 @@
           '<td style="text-align:right">$' + s.mid.toFixed(2) + '</td>' +
           '<td style="text-align:right">$' + s.premium.toFixed(2) + '</td>' +
           '<td style="text-align:right">$' + s.diesel.toFixed(2) + '</td></tr>';
+      }).join('');
+    }
+
+    // Gas price related articles
+    var gasArticles = [
+      { title: 'Gas Prices Today U.S. National and State Averages April 2026', desc: 'Current national and state-by-state breakdown' },
+      { title: 'Why Are Gas Prices So High What Drives Pump Prices in 2026', desc: 'Understanding the factors behind elevated pump prices' },
+      { title: 'U.S. Diesel Prices Why Diesel Costs More Than Gasoline', desc: 'The structural reasons diesel commands a premium' },
+      { title: 'Strait of Hormuz Why This Chokepoint Controls Global Oil Prices', desc: 'How geopolitics affects what you pay at the pump' },
+    ];
+    var gaEl = document.getElementById('gas-article-links');
+    if (gaEl) {
+      gaEl.innerHTML = gasArticles.map(function(a) {
+        return '<a href="' + articleUrl(a.title) + '" style="background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px;display:block;transition:border-color .15s"><div style="font-weight:600;color:var(--text-1);font-size:13px;margin-bottom:3px">' + a.title.substring(0,50) + '...</div><div style="color:var(--text-3);font-size:11.5px">' + a.desc + '</div></a>';
       }).join('');
     }
   </script>

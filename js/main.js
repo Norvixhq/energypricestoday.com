@@ -80,18 +80,18 @@ function catPill(cat, slug) {
 function renderHeader(activePage) {
   const nav = [
     { label: 'Home', href: 'index.html' },
+    { label: 'Gas Prices', href: 'category/gas-prices.html' },
+    { label: 'Oil Prices', href: 'oil-prices.html' },
+    { label: 'Geopolitics', href: 'category/geopolitics.html' },
     { label: 'Markets', href: 'markets.html', dropdown: [
       { label: 'Crude Oil', href: 'category/crude-oil.html' },
-      { label: 'Gas Prices', href: 'category/gas-prices.html' },
       { label: 'Natural Gas', href: 'category/natural-gas.html' },
       { label: 'Heating Oil', href: 'category/heating-oil.html' },
+      { label: 'Oil Futures', href: 'oil-futures.html' },
     ]},
-    { label: 'Oil Prices', href: 'oil-prices.html' },
-    { label: 'Oil Futures', href: 'oil-futures.html' },
     { label: 'Rig Count', href: 'rig-count.html' },
-    { label: 'Energy', href: 'category/energy.html' },
-    { label: 'Geopolitics', href: 'category/geopolitics.html' },
     { label: 'Company News', href: 'category/company-news.html' },
+    { label: 'Energy', href: 'category/energy.html' },
     { label: 'Alt Energy', href: 'category/alternative-energy.html', dropdown: [
       { label: 'Nuclear', href: 'category/nuclear.html' },
       { label: 'Solar', href: 'category/solar.html' },
@@ -116,14 +116,14 @@ function renderHeader(activePage) {
         <div class="nav-dropdown">${subs}</div>
       </div>`;
     }
-    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : (n.label === 'Energy' || n.label === 'Home' ? ' nav-link-energy' : '')}" href="${href}">${n.label}</a>`;
+    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : (n.label === 'Home' || n.label === 'Gas Prices' ? ' nav-link-energy' : '')}" href="${href}">${n.label}</a>`;
   }).join('');
 
   const mobileLinks = nav.map(n => {
     const href = prefix + n.href;
     let cls = '';
     if (n.label === 'Geopolitics') cls = ' mobile-geo';
-    if (n.label === 'Energy' || n.label === 'Home') cls = ' mobile-energy';
+    if (n.label === 'Home' || n.label === 'Gas Prices') cls = ' mobile-energy';
     if (n.dropdown) {
       const subs = n.dropdown.map(s => `<a class="sub" href="${prefix + s.href}">${s.label}</a>`).join('');
       return `<div class="mobile-dropdown-group">
@@ -354,7 +354,7 @@ function renderMarketTable(containerId, compact) {
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>
-        ${compact ? '<div class="table-footer">Showing top 5 — Updated Mar 31, 2026 at 14:32 ET</div>' : ''}
+        ${compact ? '<div class="table-footer">Showing top ' + (FULL_PRICES[activeTab]||[]).slice(0,5).filter(c=>c.price!==null).length + ' — Updated ' + new Date().toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}) + '</div>' : ''}
       </div>
     `;
 
