@@ -35,7 +35,7 @@
           <h1>Energy Markets Today</h1>
           <p class="hero-sub">WTI surges past $71 on tight U.S. inventories — OPEC+ extends cuts — European gas rallies on cold snap forecasts.</p>
         </div>
-        <div class="grid-6" id="hero-prices" style="margin-bottom:20px"></div>
+        <div class="grid-5" id="hero-prices" style="margin-bottom:20px"></div>
         <div class="hero-actions" id="hero-actions"></div>
       </div>
     </section>
@@ -186,8 +186,8 @@
     renderHeroPrices();
 
     // LIVE HEADLINES — GDELT, works immediately
-    loadLiveNews('energy', 'live-energy-headlines', 8);
-    loadLiveNews('geopolitics', 'live-geo-headlines', 8);
+    loadLiveNews('energy', 'live-energy-headlines', 12);
+    loadLiveNews('geopolitics', 'live-geo-headlines', 12);
 
     // Breaking news
     document.getElementById('breaking-news').innerHTML = BREAKING_NEWS.map(function(n, i) {

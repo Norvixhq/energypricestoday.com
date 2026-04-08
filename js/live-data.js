@@ -10,7 +10,6 @@ var EIA_SERIES = {
   'Natural Gas':   'NG.RNGWHHD.D',
   'Gasoline RBOB': 'PET.EER_EPMRU_PF4_RGC_DPG.D',
   'Heating Oil':   'PET.EER_EPD2DXL0_PF4_RGC_DPG.D',
-  'U.S. Diesel':    'PET.EMD_EPD2D_PTE_NUS_DPG.D',
 };
 
 function fetchLivePrices() {
