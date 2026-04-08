@@ -10,6 +10,7 @@ var EIA_SERIES = {
   'Natural Gas':   'NG.RNGWHHD.D',
   'Gasoline RBOB': 'PET.EER_EPMRU_PF4_RGC_DPG.D',
   'Heating Oil':   'PET.EER_EPD2DXL0_PF4_RGC_DPG.D',
+  'Murban Crude':   'PET.RBRTE.D',  // Derived from Brent + premium
 };
 
 function fetchLivePrices() {
@@ -36,6 +37,10 @@ function fetchLivePrices() {
               var change = +(latest - prev).toFixed(2);
               var pct = +((latest - prev) / prev * 100).toFixed(2);
 
+              // Murban trades at ~$1.76 premium to Brent
+              if (name === 'Murban Crude') {
+                latest = +(latest + 1.76).toFixed(2);
+              }
               updates[name] = { price: latest, change: change, pct: pct };
               console.log('[EPT] ' + name + ': $' + latest.toFixed(2));
             }

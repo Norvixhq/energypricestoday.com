@@ -35,7 +35,7 @@
           <h1>Energy Markets Today</h1>
           <p class="hero-sub">WTI surges past $71 on tight U.S. inventories — OPEC+ extends cuts — European gas rallies on cold snap forecasts.</p>
         </div>
-        <div class="grid-5" id="hero-prices" style="margin-bottom:20px"></div>
+        <div class="grid-6" id="hero-prices" style="margin-bottom:20px"></div>
         <div class="hero-actions" id="hero-actions"></div>
       </div>
     </section>
@@ -180,7 +180,8 @@
         }
         var color = c.change >= 0 ? '#10b45c' : '#dc3545';
         var est = '';
-        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + est + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
+        var estTag = c.name === 'Murban Crude' ? ' <span style="font-size:8px;color:var(--text-3)">est.</span>' : '';
+        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + estTag + est + '</span>' + sparkline(c.spark, color) + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
       }).join('');
     }
     renderHeroPrices();
