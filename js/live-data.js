@@ -10,7 +10,7 @@ var EIA_SERIES = {
   'Natural Gas':   'NG.RNGWHHD.D',
   'Gasoline RBOB': 'PET.EER_EPMRU_PF4_RGC_DPG.D',
   'Heating Oil':   'PET.EER_EPD2DXL0_PF4_RGC_DPG.D',
-  'OPEC Basket':   'PET.RBRTE.D',
+  'U.S. Diesel':    'PET.EMD_EPD2D_PTE_NUS_DPG.D',
 };
 
 function fetchLivePrices() {
@@ -36,11 +36,7 @@ function fetchLivePrices() {
             if (!isNaN(latest) && !isNaN(prev) && prev > 0) {
               var change = +(latest - prev).toFixed(2);
               var pct = +((latest - prev) / prev * 100).toFixed(2);
-              // OPEC Basket: derived estimate based on Brent minus typical $2.80 discount
-              if (name === 'OPEC Basket') {
-                latest = +(latest - 2.80).toFixed(2);
-                change = +(change - 0.12).toFixed(2);
-              }
+
               updates[name] = { price: latest, change: change, pct: pct };
               console.log('[EPT] ' + name + ': $' + latest.toFixed(2));
             }

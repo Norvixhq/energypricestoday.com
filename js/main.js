@@ -116,14 +116,14 @@ function renderHeader(activePage) {
         <div class="nav-dropdown">${subs}</div>
       </div>`;
     }
-    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : (n.label === 'Home' || n.label === 'Gas Prices' ? ' nav-link-energy' : '')}" href="${href}">${n.label}</a>`;
+    return `<a class="nav-link${isActive ? ' active' : ''}${n.label === 'Geopolitics' ? ' nav-link-geo' : (n.label === 'Home' || n.label === 'Gas Prices' || n.label === 'Oil Prices' ? ' nav-link-energy' : '')}" href="${href}">${n.label}</a>`;
   }).join('');
 
   const mobileLinks = nav.map(n => {
     const href = prefix + n.href;
     let cls = '';
     if (n.label === 'Geopolitics') cls = ' mobile-geo';
-    if (n.label === 'Home' || n.label === 'Gas Prices') cls = ' mobile-energy';
+    if (n.label === 'Home' || n.label === 'Gas Prices' || n.label === 'Oil Prices') cls = ' mobile-energy';
     if (n.dropdown) {
       const subs = n.dropdown.map(s => `<a class="sub" href="${prefix + s.href}">${s.label}</a>`).join('');
       return `<div class="mobile-dropdown-group">

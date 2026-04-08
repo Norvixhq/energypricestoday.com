@@ -702,20 +702,12 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   .logo-img{height:52px}
 }
 
-/* ─── GEOPOLITICS EMPHASIS ──────────────────────────────────────── */
+/* Geopolitics nav — subtle amber glow */
 .nav-link-geo{
-  background:linear-gradient(110deg,var(--amber) 0%,var(--gold) 25%,#fff 50%,var(--gold) 75%,var(--amber) 100%);
-  background-size:300% 100%;
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  animation:textShimmer 4s ease-in-out infinite;
-  font-weight:600 !important;
+  color:var(--amber) !important;font-weight:600 !important;
+  text-shadow:0 0 8px rgba(212,122,12,0.3);
 }
-@keyframes textShimmer{
-  0%{background-position:100% center}
-  100%{background-position:-100% center}
-}
+.nav-link-geo:hover{text-shadow:0 0 12px rgba(212,122,12,0.5)}
 .geo-card{
   position:relative;overflow:hidden;
 }
@@ -767,16 +759,12 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 /* Fix double line between featured and list items */
 .article-featured+.article-list-item{border-top:none}
 
-/* Energy nav — blue shimmer (separate from Geopolitics gold) */
+/* Priority nav — subtle blue glow */
 .nav-link-energy{
-  background:linear-gradient(110deg,var(--blue) 0%,var(--blue-h) 25%,#fff 50%,var(--blue-h) 75%,var(--blue) 100%);
-  background-size:300% 100%;
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  background-clip:text;
-  animation:textShimmer 4s ease-in-out infinite;
-  font-weight:600 !important;
+  color:var(--blue) !important;font-weight:600 !important;
+  text-shadow:0 0 8px rgba(61,143,212,0.3);
 }
+.nav-link-energy:hover{text-shadow:0 0 12px rgba(61,143,212,0.5)}
 
 /* Fix double line on Latest Energy News */
 #latest-news .article-featured{border:none;border-left:3px solid var(--blue)}
@@ -809,20 +797,9 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;
   color:var(--text-3);padding:16px 14px 6px;
 }
-/* Mobile Geopolitics gold shimmer */
-.mobile-nav a.mobile-geo{
-  background:linear-gradient(110deg,var(--amber) 0%,var(--gold) 25%,#fff 50%,var(--gold) 75%,var(--amber) 100%);
-  background-size:300% 100%;
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  animation:textShimmer 4s ease-in-out infinite;font-weight:600;
-}
-/* Mobile Energy blue shimmer */
-.mobile-nav a.mobile-energy{
-  background:linear-gradient(110deg,var(--blue) 0%,var(--blue-h) 25%,#fff 50%,var(--blue-h) 75%,var(--blue) 100%);
-  background-size:300% 100%;
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-  animation:textShimmer 4s ease-in-out infinite;font-weight:600;
-}
+/* Mobile priority nav glow */
+.mobile-nav a.mobile-geo{color:var(--amber) !important;font-weight:600;text-shadow:0 0 8px rgba(212,122,12,0.3)}
+.mobile-nav a.mobile-energy{color:var(--blue) !important;font-weight:600;text-shadow:0 0 8px rgba(61,143,212,0.3)}
 
 /* ─── MOBILE DROPDOWN GROUPS ────────────────────────────────────── */
 .mobile-dropdown-group{margin:2px 0}
@@ -869,7 +846,7 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 
 /* ─── HEADER NAV REFINEMENTS ────────────────────────────────────── */
 .nav-link{
-  position:relative;padding:8px 12px;
+  position:relative;padding:6px 10px;font-size:13.5px;white-space:nowrap;
 }
 .nav-link::after{
   content:'';position:absolute;bottom:2px;left:12px;right:12px;
