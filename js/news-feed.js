@@ -26,7 +26,7 @@ function fetchNewsHeadlines(feedUrl, containerId, maxItems) {
   var container = document.getElementById(containerId);
   if (!container) return;
 
-  var url = RSS2JSON_BASE + encodeURIComponent(feedUrl) + '&count=20';
+  var url = RSS2JSON_BASE + encodeURIComponent(feedUrl) ;
 
   fetch(url)
     .then(function(res) { return res.json(); })

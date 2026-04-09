@@ -4,12 +4,12 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 const COMMODITIES = [
-  { name: "WTI Crude", price: null, change: null, pct: null, unit: "$/bbl", spark: [], loading: true },
-  { name: "Brent Crude", price: null, change: null, pct: null, unit: "$/bbl", spark: [], loading: true },
-  { name: "Natural Gas", price: null, change: null, pct: null, unit: "$/MMBtu", spark: [], loading: true },
-  { name: "Gasoline RBOB", price: null, change: null, pct: null, unit: "$/gal", spark: [], loading: true },
-  { name: "Heating Oil", price: null, change: null, pct: null, unit: "$/gal", spark: [], loading: true },
-  { name: "Murban Crude", price: null, change: null, pct: null, unit: "$/bbl", spark: [], loading: true },
+  { name: "WTI Crude", price: 95.84, change: -17.11, pct: -15.15, unit: "$/bbl", spark: [112,110,108,104,100,97,95.84], loading: true },
+  { name: "Brent Crude", price: 95.02, change: -14.25, pct: -13.04, unit: "$/bbl", spark: [109,107,105,102,99,97,95.02], loading: true },
+  { name: "Natural Gas", price: 2.744, change: -0.126, pct: -4.39, unit: "$/MMBtu", spark: [2.95,2.90,2.87,2.83,2.80,2.77,2.744], loading: true },
+  { name: "Gasoline RBOB", price: 2.971, change: -0.334, pct: -10.11, unit: "$/gal", spark: [3.35,3.30,3.25,3.15,3.08,3.02,2.971], loading: true },
+  { name: "Heating Oil", price: 3.674, change: -0.803, pct: -17.95, unit: "$/gal", spark: [4.50,4.40,4.25,4.10,3.90,3.78,3.674], loading: true },
+  { name: "Murban Crude", price: 96.78, change: -22.48, pct: -18.85, unit: "$/bbl", spark: [119,116,112,108,103,99,96.78], loading: true },
 ];
 
 const FULL_PRICES = {
