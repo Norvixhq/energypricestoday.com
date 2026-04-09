@@ -1,8 +1,6 @@
 /* ═══════════════════════════════════════════════════════════════════
    EnergyPricesToday.com — Live Price Engine
-   
-   OilPriceAPI.com — 5-minute updates from CME/ICE
-   Single set of API calls shared across ALL page components.
+   OilPriceAPI.com — 5-minute CME/ICE data
    ═══════════════════════════════════════════════════════════════════ */
 
 var OILPRICE_API_KEY = 'f719bf8a7ff3844d0a5436da144bc985db3acf2431ddf3095702b1c5f4926e5a';
@@ -18,11 +16,22 @@ var API_CODES = {
   'Coal':          'COAL_USD',
 };
 
-// Batch fetch — fires all requests in parallel, applies once all complete
+// Map API code back to display name for oil price table matching
+var CODE_TO_TABLE = {
+  'WTI_USD': 'WTI Crude',
+  'BRENT_CRUDE_USD': 'Brent Crude',
+  'NATURAL_GAS_USD': 'Natural Gas',
+  'GASOLINE_USD': 'Gasoline RBOB',
+  'HEATING_OIL_USD': 'Heating Oil',
+  'DIESEL_USD': 'Diesel ULSD',
+  'JET_FUEL_USD': 'Jet Fuel',
+  'COAL_USD': 'Coal (Newcastle)',
+};
+
 function fetchLivePrices() {
   var names = Object.keys(API_CODES);
   var pending = names.length;
-  var results = {};
+  var liveMap = {};
 
   names.forEach(function(name) {
     fetch('https://api.oilpriceapi.com/v1/prices/latest?by_code=' + API_CODES[name], {
@@ -31,73 +40,67 @@ function fetchLivePrices() {
     .then(function(r) { return r.json(); })
     .then(function(d) {
       if (d.status === 'success' && d.data && d.data.price) {
-        results[name] = parseFloat(d.data.price);
+        liveMap[name] = parseFloat(d.data.price);
+        // Also map by API code for oil table matching
+        liveMap[API_CODES[name]] = parseFloat(d.data.price);
       }
     })
     .catch(function() {})
     .finally(function() {
-      if (--pending === 0) applyAll(results);
+      if (--pending === 0) applyAll(liveMap);
     });
   });
 }
 
-function applyAll(results) {
-  var count = 0;
-
-  // 1. Update COMMODITIES (homepage hero, ticker, market table)
+function applyAll(liveMap) {
+  // 1. UPDATE COMMODITIES (hero cards, ticker, market table)
   if (typeof COMMODITIES !== 'undefined') {
     COMMODITIES.forEach(function(c) {
-      var livePrice = results[c.name];
-      if (livePrice) {
-        var oldPrice = c.price || livePrice;
-        c.change = +(livePrice - oldPrice).toFixed(3);
-        c.pct = oldPrice ? +((livePrice - oldPrice) / oldPrice * 100).toFixed(2) : 0;
-        c.price = livePrice;
-        c.loading = false;
-        c.spark = [livePrice*.97,livePrice*.98,livePrice*.99,livePrice*.995,livePrice*.998,livePrice,livePrice];
-        count++;
-      }
-      // Murban = Brent + $1.76
-      if (c.name === 'Murban Crude' && results['Brent Crude']) {
-        c.price = +(results['Brent Crude'] + 1.76).toFixed(2);
+      if (liveMap[c.name]) {
+        c.price = liveMap[c.name];
+        c.change = 0;
+        c.pct = 0;
         c.loading = false;
         c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
-        count++;
+      }
+      if (c.name === 'Murban Crude' && liveMap['Brent Crude']) {
+        c.price = +(liveMap['Brent Crude'] + 1.76).toFixed(2);
+        c.loading = false;
+        c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
       }
     });
   }
 
-  // 2. Update OIL_PRICE_SECTIONS Futures & Indexes rows (oil-prices page)
+  // 2. UPDATE OIL_PRICE_SECTIONS Futures & Indexes
   if (typeof OIL_PRICE_SECTIONS !== 'undefined' && OIL_PRICE_SECTIONS[0]) {
     OIL_PRICE_SECTIONS[0].rows.forEach(function(row) {
-      if (row.apiCode) {
-        // Map apiCode back to name
-        var apiName = null;
-        Object.keys(API_CODES).forEach(function(n) {
-          if (API_CODES[n] === row.apiCode) apiName = n;
-        });
-        var livePrice = apiName ? results[apiName] : null;
-        if (livePrice) {
-          row.change = +(livePrice - row.price).toFixed(2);
-          row.pct = +((livePrice - row.price) / row.price * 100).toFixed(2);
-          row.price = livePrice;
-          row.live = true;
-        }
+      if (row.apiCode && liveMap[row.apiCode]) {
+        var newPrice = liveMap[row.apiCode];
+        row.change = +(newPrice - row.price).toFixed(2);
+        row.pct = row.price > 0 ? +((newPrice - row.price) / row.price * 100).toFixed(2) : 0;
+        row.price = newPrice;
+        row.live = true;
+      }
+    });
+    // Also update Murban in the table
+    OIL_PRICE_SECTIONS[0].rows.forEach(function(row) {
+      if (row.name === 'Murban Crude' && liveMap['Brent Crude']) {
+        var newPrice = +(liveMap['Brent Crude'] + 1.76).toFixed(2);
+        row.change = +(newPrice - row.price).toFixed(2);
+        row.pct = row.price > 0 ? +((newPrice - row.price) / row.price * 100).toFixed(2) : 0;
+        row.price = newPrice;
+        row.live = true;
       }
     });
   }
 
-  console.log('[EPT] Live prices applied: ' + count + ' commodities + oil table');
-
-  // 3. Re-render ALL displays
+  // 3. RE-RENDER EVERYTHING
   if (typeof renderHeroPrices === 'function') renderHeroPrices();
   if (typeof renderTicker === 'function') renderTicker();
-
-  // Market table (homepage)
   var mkt = document.getElementById('home-market-table');
   if (mkt && typeof renderMarketTable === 'function') renderMarketTable('home-market-table', true);
 
-  // Hero benchmark cards (oil-prices, markets, rig-count pages)
+  // Hero benchmarks on subpages
   var hero = document.getElementById('hero-benchmarks');
   if (hero && typeof sparkline === 'function' && typeof priceChange === 'function') {
     hero.innerHTML = COMMODITIES.slice(0,5).map(function(c) {
@@ -106,21 +109,35 @@ function applyAll(results) {
     }).join('');
   }
 
-  // Oil prices Futures & Indexes table re-render
-  var sec0 = document.getElementById('price-section-0');
-  if (sec0 && typeof OIL_PRICE_SECTIONS !== 'undefined') {
-    var tbody = sec0.querySelector('tbody');
-    if (tbody) {
-      tbody.innerHTML = OIL_PRICE_SECTIONS[0].rows.map(function(r) {
+  // 4. RE-RENDER OIL PRICES TABLE — full re-render of ALL sections
+  var sectionsEl = document.getElementById('price-sections');
+  if (sectionsEl && typeof OIL_PRICE_SECTIONS !== 'undefined') {
+    sectionsEl.innerHTML = OIL_PRICE_SECTIONS.map(function(s, i) {
+      var header = '<div id="price-section-' + i + '" style="scroll-margin-top:100px;margin-bottom:32px">' +
+        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">' +
+        (s.flag ? '<span style="font-size:22px">' + s.flag + '</span>' : '') +
+        '<h2 style="font-size:17px;margin:0">' + s.title + '</h2>' +
+        (s.subtitle ? '<span style="color:var(--text-3);font-size:12px;font-weight:500">(' + s.subtitle + ')</span>' : '') +
+        '</div>';
+
+      var table = '<div class="market-table-wrap"><table class="market-table">' +
+        '<thead><tr><th style="text-align:left">Blend / Index</th><th>Price</th><th>Change</th><th>% Change</th></tr></thead><tbody>';
+
+      table += s.rows.map(function(r) {
         var cls = r.change >= 0 ? 'up' : 'down';
-        var tag = r.live ? ' <span style="color:var(--green);font-size:9px;vertical-align:super">LIVE</span>' : '';
-        return '<tr><td>'+r.name+tag+'</td><td class="table-price">$'+r.price.toFixed(2)+'</td><td><span class="change '+cls+'">'+(r.change>=0?'+':'')+r.change.toFixed(2)+'</span></td><td><span class="change '+cls+'">'+(r.change>=0?'+':'')+r.pct.toFixed(2)+'%</span></td></tr>';
+        var tag = r.live ? ' <span style="color:#10b981;font-size:9px;font-weight:700;vertical-align:super">LIVE</span>' : '';
+        return '<tr><td>' + r.name + tag + '</td>' +
+          '<td class="table-price">$' + r.price.toFixed(2) + '</td>' +
+          '<td><span class="change ' + cls + '">' + (r.change >= 0 ? '+' : '') + r.change.toFixed(2) + '</span></td>' +
+          '<td><span class="change ' + cls + '">' + (r.change >= 0 ? '+' : '') + r.pct.toFixed(2) + '%</span></td></tr>';
       }).join('');
-    }
+
+      table += '</tbody></table></div></div>';
+      return header + table;
+    }).join('');
   }
 }
 
-// Boot
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof COMMODITIES !== 'undefined') {
     COMMODITIES.forEach(function(c) { if (c.price !== null) c.loading = false; });
