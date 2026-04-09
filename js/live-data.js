@@ -15,6 +15,9 @@ var API_CODES = {
   'Natural Gas':   'NATURAL_GAS_USD',
   'Gasoline RBOB': 'GASOLINE_USD',
   'Heating Oil':   'HEATING_OIL_USD',
+  'Diesel ULSD':   'DIESEL_USD',
+  'Jet Fuel':      'JET_FUEL_USD',
+  'Coal':          'COAL_USD',
 };
 
 function fetchLivePrices() {
@@ -107,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
     COMMODITIES.forEach(function(c) { if (c.price !== null) c.loading = false; });
   }
   // Fetch live prices after 1 second
-  setTimeout(fetchLivePrices, 1000);
+  fetchLivePrices();
   // Refresh every 5 minutes
   setInterval(fetchLivePrices, 5 * 60 * 1000);
 });

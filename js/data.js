@@ -4,12 +4,15 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 const COMMODITIES = [
-  { name: "WTI Crude", price: 95.84, change: -17.11, pct: -15.15, unit: "$/bbl", spark: [112,110,108,104,100,97,95.84], loading: true },
-  { name: "Brent Crude", price: 95.02, change: -14.25, pct: -13.04, unit: "$/bbl", spark: [109,107,105,102,99,97,95.02], loading: true },
-  { name: "Natural Gas", price: 2.744, change: -0.126, pct: -4.39, unit: "$/MMBtu", spark: [2.95,2.90,2.87,2.83,2.80,2.77,2.744], loading: true },
-  { name: "Gasoline RBOB", price: 2.971, change: -0.334, pct: -10.11, unit: "$/gal", spark: [3.35,3.30,3.25,3.15,3.08,3.02,2.971], loading: true },
-  { name: "Heating Oil", price: 3.674, change: -0.803, pct: -17.95, unit: "$/gal", spark: [4.50,4.40,4.25,4.10,3.90,3.78,3.674], loading: true },
-  { name: "Murban Crude", price: 96.78, change: -22.48, pct: -18.85, unit: "$/bbl", spark: [119,116,112,108,103,99,96.78], loading: true },
+  { name: "WTI Crude", price: null, change: null, pct: null, unit: "$/bbl", spark: [], loading: true },
+  { name: "Brent Crude", price: null, change: null, pct: null, unit: "$/bbl", spark: [], loading: true },
+  { name: "Natural Gas", price: null, change: null, pct: null, unit: "$/MMBtu", spark: [], loading: true },
+  { name: "Gasoline RBOB", price: null, change: null, pct: null, unit: "$/gal", spark: [], loading: true },
+  { name: "Heating Oil", price: null, change: null, pct: null, unit: "$/gal", spark: [], loading: true },
+  { name: "Murban Crude", price: null, change: null, pct: null, unit: "$/bbl", spark: [], loading: true },
+  { name: "Diesel ULSD", price: null, change: null, pct: null, unit: "$/gal", spark: [], loading: true },
+  { name: "Jet Fuel", price: null, change: null, pct: null, unit: "$/gal", spark: [], loading: true },
+  { name: "Coal", price: null, change: null, pct: null, unit: "$/ton", spark: [], loading: true },
 ];
 
 const FULL_PRICES = {
@@ -183,199 +186,145 @@ const SUPPLY_CHOKEPOINTS = [
 
 // ─── COMPREHENSIVE OIL PRICE DATA (mirrors OilPrice.com structure) ────
 const OIL_PRICE_SECTIONS = [
-  {
-    title: "Futures & Indexes",
-    flag: "",
-    rows: [
-      { name: "WTI Crude", price: 71.48, change: 1.23, pct: 1.75 },
-      { name: "Brent Crude", price: 75.92, change: 0.87, pct: 1.16 },
-      { name: "Murban Crude", price: 76.84, change: 1.21, pct: 1.60 },
-      { name: "Natural Gas", price: 3.42, change: -0.08, pct: -2.29 },
-      { name: "Gasoline", price: 2.18, change: 0.04, pct: 1.87 },
-      { name: "Heating Oil", price: 2.34, change: -0.02, pct: -0.85 },
-      { name: "WTI Midland", price: 71.92, change: 1.18, pct: 1.67 },
-      { name: "Mars", price: 69.50, change: 0.95, pct: 1.39 },
-      { name: "OPEC Basket", price: 74.12, change: 0.65, pct: 0.88 },
-      { name: "DME Oman", price: 73.66, change: -0.20, pct: -0.27 },
-      { name: "Mexican Basket", price: 65.56, change: -0.45, pct: -0.68 },
-      { name: "Indian Basket", price: 74.84, change: 0.31, pct: 0.42 },
-      { name: "Urals", price: 66.17, change: 0.44, pct: 0.67 },
-      { name: "Dubai", price: 74.52, change: 0.38, pct: 0.51 },
-      { name: "Louisiana Light", price: 72.85, change: 1.10, pct: 1.53 },
-      { name: "Domestic Swt. @ Cushing", price: 71.60, change: 1.23, pct: 1.75 },
-      { name: "ANS West Coast", price: 74.22, change: 0.56, pct: 0.76 },
-      { name: "Ethanol", price: 1.68, change: 0.02, pct: 1.20 },
-      { name: "Dutch TTF Natural Gas", price: 11.85, change: 0.32, pct: 2.77 },
-      { name: "LNG Japan/Korea Marker", price: 12.40, change: -0.15, pct: -1.20 },
-    ]
-  },
-  {
-    title: "OPEC Members",
-    subtitle: "Daily Pricing",
-    flag: "",
-    rows: [
-      { name: "Arab Light", price: 75.20, change: 0.78, pct: 1.05 },
-      { name: "Basrah Medium", price: 73.25, change: 0.55, pct: 0.76 },
-      { name: "Bonny Light", price: 76.45, change: 1.02, pct: 1.35 },
-      { name: "Es Sider", price: 75.14, change: 0.86, pct: 1.16 },
-      { name: "Iran Heavy", price: 70.88, change: 0.44, pct: 0.62 },
-      { name: "Kuwait Export", price: 73.65, change: 0.55, pct: 0.75 },
-      { name: "Merey", price: 58.31, change: 0.90, pct: 1.57 },
-      { name: "Murban", price: 76.84, change: 1.21, pct: 1.60 },
-      { name: "Saharan Blend", price: 77.59, change: 0.96, pct: 1.25 },
-    ]
-  },
-  {
-    title: "Australia", flag: "🇦🇺",
-    rows: [
-      { name: "Cossack", price: 76.41, change: 0.37, pct: 0.49 },
-      { name: "NWS Condensate", price: 73.51, change: 0.37, pct: 0.51 },
-      { name: "Ichthys Condensate", price: 78.46, change: 0.37, pct: 0.47 },
-    ]
-  },
-  {
-    title: "Angola", flag: "🇦🇴",
-    rows: [
-      { name: "Cabinda", price: 77.16, change: 0.37, pct: 0.48 },
-      { name: "Nemba", price: 75.41, change: 0.37, pct: 0.49 },
-      { name: "Dalia", price: 75.81, change: 0.37, pct: 0.49 },
-    ]
-  },
-  {
-    title: "Nigeria", flag: "🇳🇬",
-    rows: [
-      { name: "Brass River", price: 76.66, change: 0.37, pct: 0.48 },
-      { name: "Qua Iboe", price: 76.56, change: 0.37, pct: 0.49 },
-    ]
-  },
-  {
-    title: "UAE", flag: "🇦🇪",
-    rows: [
-      { name: "Das", price: 74.14, change: 0.41, pct: 0.56 },
-      { name: "Umm Lulu", price: 74.64, change: 0.41, pct: 0.55 },
-      { name: "Upper Zakum", price: 76.99, change: 0.41, pct: 0.54 },
-    ]
-  },
-  {
-    title: "Qatar", flag: "🇶🇦",
-    rows: [
-      { name: "Qatar Land", price: 73.89, change: 0.41, pct: 0.56 },
-      { name: "Al Shaheen", price: 76.99, change: 0.41, pct: 0.54 },
-      { name: "D.F. Condensate", price: 65.32, change: 0.41, pct: 0.63 },
-      { name: "L.S. Condensate", price: 65.02, change: 0.41, pct: 0.63 },
-    ]
-  },
-  {
-    title: "Iraq", flag: "🇮🇶",
-    rows: [
-      { name: "Basrah Heavy", price: 70.15, change: 0.49, pct: 0.70 },
-      { name: "Basrah Medium", price: 73.25, change: 0.49, pct: 0.67 },
-    ]
-  },
-  {
-    title: "Saudi Arabia", flag: "🇸🇦",
-    rows: [
-      { name: "Arab Extra Light", price: 75.62, change: 0.82, pct: 1.10 },
-      { name: "Arab Light", price: 75.20, change: 0.78, pct: 1.05 },
-      { name: "Arab Medium", price: 73.37, change: 0.82, pct: 1.13 },
-      { name: "Arab Heavy", price: 72.02, change: 0.82, pct: 1.15 },
-    ]
-  },
-  {
-    title: "Ecuador", flag: "🇪🇨",
-    rows: [
-      { name: "Oriente Crude", price: 64.45, change: 0.48, pct: 0.75 },
-      { name: "Napo Crude", price: 60.96, change: 0.48, pct: 0.79 },
-    ]
-  },
-  {
-    title: "Mexico", flag: "🇲🇽",
-    rows: [
-      { name: "Maya (Gulf Coast)", price: 62.98, change: -0.25, pct: -0.40 },
-      { name: "Isthmus (Gulf Coast)", price: 70.59, change: -0.32, pct: -0.45 },
-      { name: "Olmeca", price: 71.21, change: -0.35, pct: -0.49 },
-      { name: "Maya (West Coast)", price: 62.78, change: -0.25, pct: -0.40 },
-      { name: "Maya (Far East)", price: 71.69, change: -0.20, pct: -0.28 },
-    ]
-  },
-  {
-    title: "Iran", flag: "🇮🇷",
-    rows: [
-      { name: "Iran Light (NW Europe)", price: 69.41, change: -0.29, pct: -0.42 },
-      { name: "Iran Heavy (NW Europe)", price: 67.51, change: -0.29, pct: -0.43 },
-      { name: "Forozan Blend", price: 67.76, change: -0.29, pct: -0.43 },
-      { name: "Soroosh", price: 64.61, change: -0.29, pct: -0.45 },
-    ]
-  },
-  {
-    title: "Russia", flag: "🇷🇺",
-    rows: [
-      { name: "Sokol", price: 68.74, change: 0.41, pct: 0.60 },
-      { name: "Urals", price: 66.17, change: 0.44, pct: 0.67 },
-    ]
-  },
-  {
-    title: "Azerbaijan", flag: "🇦🇿",
-    rows: [{ name: "Azeri Light", price: 78.88, change: 0.78, pct: 1.00 }]
-  },
-  {
-    title: "Brazil", flag: "🇧🇷",
-    rows: [{ name: "Lula", price: 74.33, change: 0.78, pct: 1.06 }]
-  },
-  {
-    title: "Kazakhstan", flag: "🇰🇿",
-    rows: [{ name: "CPC Blend", price: 74.88, change: 0.78, pct: 1.05 }]
-  },
-  {
-    title: "Canadian Blends", flag: "🇨🇦",
-    rows: [
-      { name: "Western Canadian Select", price: 57.20, change: 0.85, pct: 1.51 },
-      { name: "Central Alberta", price: 62.97, change: -0.26, pct: -0.41 },
-      { name: "Light Sour Blend", price: 63.37, change: -0.26, pct: -0.41 },
-      { name: "Peace Sour", price: 62.45, change: 0.90, pct: 1.46 },
-      { name: "Syncrude Sweet Premium", price: 71.10, change: 1.15, pct: 1.64 },
-      { name: "Sweet Crude", price: 65.37, change: -0.26, pct: -0.40 },
-      { name: "Cold Lake Blend", price: 56.80, change: 0.72, pct: 1.28 },
-      { name: "Albian Heavy Synthetic", price: 70.62, change: -0.26, pct: -0.37 },
-      { name: "Access Western Blend", price: 70.22, change: -0.26, pct: -0.37 },
-      { name: "AECO C Natural Gas", price: 1.06, change: 0.03, pct: 2.91 },
-    ]
-  },
-  {
-    title: "United States — Texas", flag: "🇺🇸",
-    rows: [
-      { name: "West Texas Sour", price: 68.00, change: 0.49, pct: 0.73 },
-      { name: "West Texas Intermediate", price: 71.60, change: 1.23, pct: 1.75 },
-      { name: "Eagle Ford", price: 71.60, change: 1.23, pct: 1.75 },
-      { name: "North Texas Sweet", price: 69.25, change: -0.30, pct: -0.43 },
-      { name: "South Texas Sour", price: 62.85, change: -0.26, pct: -0.41 },
-      { name: "South Texas Light", price: 63.00, change: -0.30, pct: -0.47 },
-      { name: "Upper Texas Gulf Coast", price: 63.35, change: -0.26, pct: -0.41 },
-    ]
-  },
-  {
-    title: "United States — Oklahoma", flag: "🇺🇸",
-    rows: [
-      { name: "Oklahoma Sweet", price: 69.25, change: -0.30, pct: -0.43 },
-      { name: "Oklahoma Sour", price: 60.25, change: -0.30, pct: -0.50 },
-      { name: "Oklahoma Intermediate", price: 69.00, change: -0.30, pct: -0.43 },
-    ]
-  },
-  {
-    title: "United States — Other States", flag: "🇺🇸",
-    rows: [
-      { name: "Wyoming General Sour", price: 65.18, change: -0.26, pct: -0.40 },
-      { name: "Wyoming General Sweet", price: 65.70, change: -0.26, pct: -0.39 },
-      { name: "Colorado South East", price: 59.10, change: -0.26, pct: -0.44 },
-      { name: "Nebraska Sweet", price: 59.90, change: -0.26, pct: -0.43 },
-      { name: "Michigan Sour", price: 61.25, change: -0.30, pct: -0.49 },
-      { name: "Michigan Sweet", price: 66.00, change: -0.30, pct: -0.45 },
-      { name: "Louisiana (South)", price: 67.75, change: -0.30, pct: -0.44 },
-      { name: "Kansas Common", price: 58.95, change: -0.26, pct: -0.44 },
-      { name: "Arkansas Sweet", price: 67.50, change: -0.50, pct: -0.74 },
-      { name: "Arkansas Sour", price: 66.25, change: -0.50, pct: -0.75 },
-    ]
-  },
+  { title: "Futures & Indexes", flag: "", subtitle: "Primary benchmarks — API-updated every 5 minutes where available", rows: [
+    { name: "WTI Crude", price: 71.48, change: 1.23, pct: 1.75, apiCode: "WTI_USD" },
+    { name: "Brent Crude", price: 75.92, change: 0.87, pct: 1.16, apiCode: "BRENT_CRUDE_USD" },
+    { name: "Murban Crude", price: 76.84, change: 1.21, pct: 1.60 },
+    { name: "Natural Gas", price: 3.42, change: -0.08, pct: -2.29, apiCode: "NATURAL_GAS_USD" },
+    { name: "Gasoline RBOB", price: 2.18, change: 0.04, pct: 1.87, apiCode: "GASOLINE_USD" },
+    { name: "Heating Oil", price: 2.34, change: -0.02, pct: -0.85, apiCode: "HEATING_OIL_USD" },
+    { name: "Diesel ULSD", price: 2.85, change: -0.42, pct: -12.84, apiCode: "DIESEL_USD" },
+    { name: "Jet Fuel", price: 2.92, change: -0.38, pct: -11.52, apiCode: "JET_FUEL_USD" },
+    { name: "Coal (Newcastle)", price: 138.50, change: -2.20, pct: -1.56, apiCode: "COAL_USD" },
+    { name: "WTI Midland", price: 71.92, change: 1.18, pct: 1.67 },
+    { name: "Mars", price: 69.50, change: 0.95, pct: 1.39 },
+    { name: "OPEC Basket", price: 74.12, change: 0.65, pct: 0.88 },
+    { name: "DME Oman", price: 73.66, change: -0.20, pct: -0.27 },
+    { name: "Mexican Basket", price: 65.56, change: -0.45, pct: -0.68 },
+    { name: "Indian Basket", price: 74.84, change: 0.31, pct: 0.42 },
+    { name: "Urals", price: 66.17, change: 0.44, pct: 0.67 },
+    { name: "Dubai", price: 74.52, change: 0.38, pct: 0.51 },
+    { name: "Louisiana Light", price: 72.85, change: 1.10, pct: 1.53 },
+    { name: "Domestic Swt. @ Cushing", price: 71.60, change: 1.23, pct: 1.75 },
+    { name: "ANS West Coast", price: 74.22, change: 0.56, pct: 0.76 },
+    { name: "Ethanol", price: 1.68, change: 0.02, pct: 1.20 },
+    { name: "Dutch TTF Natural Gas", price: 11.85, change: 0.32, pct: 2.77 },
+    { name: "LNG Japan/Korea Marker", price: 12.40, change: -0.15, pct: -1.20 },
+  ]},
+  { title: "OPEC Members", flag: "", subtitle: "Daily official selling prices — 1-5 day delay", rows: [
+    { name: "Arab Light", price: 75.20, change: 0.78, pct: 1.05 },
+    { name: "Basrah Medium", price: 73.25, change: 0.55, pct: 0.76 },
+    { name: "Bonny Light", price: 76.45, change: 1.02, pct: 1.35 },
+    { name: "Es Sider", price: 75.14, change: 0.86, pct: 1.16 },
+    { name: "Iran Heavy", price: 70.88, change: 0.44, pct: 0.62 },
+    { name: "Kuwait Export", price: 73.65, change: 0.55, pct: 0.75 },
+    { name: "Merey", price: 58.31, change: 0.90, pct: 1.57 },
+    { name: "Murban", price: 76.84, change: 1.21, pct: 1.60 },
+    { name: "Saharan Blend", price: 77.59, change: 0.96, pct: 1.25 },
+  ]},
+  { title: "Australia", flag: "\ud83c\udde6\ud83c\uddfa", subtitle: "1-2 day delay", rows: [
+    { name: "Cossack", price: 76.41, change: 0.37, pct: 0.49 },
+    { name: "NWS Condensate", price: 73.51, change: 0.37, pct: 0.51 },
+    { name: "Ichthys Condensate", price: 78.46, change: 0.37, pct: 0.47 },
+  ]},
+  { title: "Angola", flag: "\ud83c\udde6\ud83c\uddf4", subtitle: "1-2 day delay", rows: [
+    { name: "Cabinda", price: 77.16, change: 0.37, pct: 0.48 },
+    { name: "Nemba", price: 75.41, change: 0.37, pct: 0.49 },
+    { name: "Dalia", price: 75.81, change: 0.37, pct: 0.49 },
+  ]},
+  { title: "Nigeria", flag: "\ud83c\uddf3\ud83c\uddec", subtitle: "1-2 day delay", rows: [
+    { name: "Brass River", price: 76.66, change: 0.37, pct: 0.48 },
+    { name: "Qua Iboe", price: 76.56, change: 0.37, pct: 0.49 },
+  ]},
+  { title: "UAE", flag: "\ud83c\udde6\ud83c\uddea", subtitle: "1-2 day delay", rows: [
+    { name: "Das", price: 74.14, change: 0.41, pct: 0.56 },
+    { name: "Umm Lulu", price: 74.64, change: 0.41, pct: 0.55 },
+    { name: "Upper Zakum", price: 76.99, change: 0.41, pct: 0.54 },
+  ]},
+  { title: "Qatar", flag: "\ud83c\uddf6\ud83c\udde6", subtitle: "1-2 day delay", rows: [
+    { name: "Qatar Land", price: 73.89, change: 0.41, pct: 0.56 },
+    { name: "Al Shaheen", price: 76.99, change: 0.41, pct: 0.54 },
+    { name: "D.F. Condensate", price: 65.32, change: 0.41, pct: 0.63 },
+    { name: "L.S. Condensate", price: 65.02, change: 0.41, pct: 0.63 },
+  ]},
+  { title: "Iraq", flag: "\ud83c\uddee\ud83c\uddf6", subtitle: "1-2 day delay", rows: [
+    { name: "Basrah Heavy", price: 70.15, change: 0.49, pct: 0.70 },
+    { name: "Basrah Medium", price: 73.25, change: 0.49, pct: 0.67 },
+  ]},
+  { title: "Saudi Arabia", flag: "\ud83c\uddf8\ud83c\udde6", subtitle: "1-2 day delay", rows: [
+    { name: "Arab Extra Light", price: 75.62, change: 0.82, pct: 1.10 },
+    { name: "Arab Light", price: 75.20, change: 0.78, pct: 1.05 },
+    { name: "Arab Medium", price: 73.37, change: 0.82, pct: 1.13 },
+    { name: "Arab Heavy", price: 72.02, change: 0.82, pct: 1.15 },
+  ]},
+  { title: "Ecuador", flag: "\ud83c\uddea\ud83c\udde8", subtitle: "3-7 day delay", rows: [
+    { name: "Oriente Crude", price: 64.45, change: 0.48, pct: 0.75 },
+    { name: "Napo Crude", price: 60.96, change: 0.48, pct: 0.79 },
+  ]},
+  { title: "Mexico", flag: "\ud83c\uddf2\ud83c\uddfd", subtitle: "1-2 day delay", rows: [
+    { name: "Maya (Gulf Coast)", price: 62.98, change: -0.25, pct: -0.40 },
+    { name: "Isthmus (Gulf Coast)", price: 70.59, change: -0.32, pct: -0.45 },
+    { name: "Olmeca", price: 71.21, change: -0.35, pct: -0.49 },
+    { name: "Maya (West Coast)", price: 62.78, change: -0.25, pct: -0.40 },
+    { name: "Maya (Far East)", price: 71.69, change: -0.20, pct: -0.28 },
+  ]},
+  { title: "Iran", flag: "\ud83c\uddee\ud83c\uddf7", subtitle: "1-2 day delay", rows: [
+    { name: "Iran Light (NW Europe)", price: 69.41, change: -0.29, pct: -0.42 },
+    { name: "Iran Heavy (NW Europe)", price: 67.51, change: -0.29, pct: -0.43 },
+    { name: "Forozan Blend", price: 67.76, change: -0.29, pct: -0.43 },
+    { name: "Soroosh", price: 64.61, change: -0.29, pct: -0.45 },
+  ]},
+  { title: "Russia", flag: "\ud83c\uddf7\ud83c\uddfa", subtitle: "1-2 day delay", rows: [
+    { name: "Sokol", price: 68.74, change: 0.41, pct: 0.60 },
+    { name: "Urals", price: 66.17, change: 0.44, pct: 0.67 },
+  ]},
+  { title: "Azerbaijan", flag: "\ud83c\udde6\ud83c\uddff", subtitle: "1-2 day delay", rows: [
+    { name: "Azeri Light", price: 78.88, change: 0.78, pct: 1.00 },
+  ]},
+  { title: "Brazil", flag: "\ud83c\udde7\ud83c\uddf7", subtitle: "1-2 day delay", rows: [
+    { name: "Lula", price: 74.33, change: 0.78, pct: 1.06 },
+  ]},
+  { title: "Kazakhstan", flag: "\ud83c\uddf0\ud83c\uddff", subtitle: "1-2 day delay", rows: [
+    { name: "CPC Blend", price: 74.88, change: 0.78, pct: 1.05 },
+  ]},
+  { title: "Canada", flag: "\ud83c\udde8\ud83c\udde6", subtitle: "1-2 day delay", rows: [
+    { name: "Western Canadian Select", price: 57.20, change: 0.85, pct: 1.51 },
+    { name: "Central Alberta", price: 62.97, change: -0.26, pct: -0.41 },
+    { name: "Light Sour Blend", price: 63.37, change: -0.26, pct: -0.41 },
+    { name: "Peace Sour", price: 62.45, change: 0.90, pct: 1.46 },
+    { name: "Syncrude Sweet Premium", price: 71.10, change: 1.15, pct: 1.64 },
+    { name: "Sweet Crude", price: 65.37, change: -0.26, pct: -0.40 },
+    { name: "Cold Lake Blend", price: 56.80, change: 0.72, pct: 1.28 },
+    { name: "Albian Heavy Synthetic", price: 70.62, change: -0.26, pct: -0.37 },
+    { name: "Access Western Blend", price: 70.22, change: -0.26, pct: -0.37 },
+    { name: "AECO C Natural Gas", price: 1.06, change: 0.03, pct: 2.91 },
+  ]},
+  { title: "United States — Texas", flag: "\ud83c\uddfa\ud83c\uddf8", subtitle: "1-2 day delay", rows: [
+    { name: "West Texas Sour", price: 68.00, change: 0.49, pct: 0.73 },
+    { name: "West Texas Intermediate", price: 71.60, change: 1.23, pct: 1.75 },
+    { name: "Eagle Ford", price: 71.60, change: 1.23, pct: 1.75 },
+    { name: "North Texas Sweet", price: 69.25, change: -0.30, pct: -0.43 },
+    { name: "South Texas Sour", price: 62.85, change: -0.26, pct: -0.41 },
+    { name: "South Texas Light", price: 63.00, change: -0.30, pct: -0.47 },
+    { name: "Upper Texas Gulf Coast", price: 63.35, change: -0.26, pct: -0.41 },
+  ]},
+  { title: "United States — Oklahoma", flag: "\ud83c\uddfa\ud83c\uddf8", subtitle: "1-2 day delay", rows: [
+    { name: "Oklahoma Sweet", price: 69.25, change: -0.30, pct: -0.43 },
+    { name: "Oklahoma Sour", price: 60.25, change: -0.30, pct: -0.50 },
+    { name: "Oklahoma Intermediate", price: 69.00, change: -0.30, pct: -0.43 },
+  ]},
+  { title: "United States — Other States", flag: "\ud83c\uddfa\ud83c\uddf8", subtitle: "1-7 day delay", rows: [
+    { name: "Wyoming General Sour", price: 65.18, change: -0.26, pct: -0.40 },
+    { name: "Wyoming General Sweet", price: 65.70, change: -0.26, pct: -0.39 },
+    { name: "Colorado South East", price: 59.10, change: -0.26, pct: -0.44 },
+    { name: "Nebraska Sweet", price: 59.90, change: -0.26, pct: -0.43 },
+    { name: "Michigan Sour", price: 61.25, change: -0.30, pct: -0.49 },
+    { name: "Michigan Sweet", price: 66.00, change: -0.30, pct: -0.45 },
+    { name: "Louisiana (South)", price: 67.75, change: -0.30, pct: -0.44 },
+    { name: "Kansas Common", price: 58.95, change: -0.26, pct: -0.44 },
+    { name: "Arkansas Sweet", price: 67.50, change: -0.50, pct: -0.74 },
+    { name: "Arkansas Sour", price: 66.25, change: -0.50, pct: -0.75 },
+  ]},
 ];
 
 // ─── UNIQUE CONTENT PER CATEGORY PAGE ──────────────────────────────

@@ -46,14 +46,7 @@
     <!-- All price sections rendered here -->
     <div class="container" style="padding-top:32px;padding-bottom:60px" id="price-sections"></div>
 
-    <section class="section"><div class="container">
-      <div class="explainer-block">
-        <h3>About Oil Price Data</h3>
-        <p>Prices shown represent the most recent settlement, spot, or official selling prices for each benchmark. Data may be delayed — timestamps indicate the last update for each section. International prices are typically reported with 1-4 day delays depending on the source. For real-time trading data, consult your broker or a licensed market data provider.</p>
-      </div>
-      <div class="section-header" style="margin-top:28px"><h2 class="section-title" id="sec-related-title"></h2></div>
-      <div class="grid-3" id="oil-related" style="max-width:800px"></div>
-    </div></section>
+    
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="js/data.js"></script>
@@ -62,7 +55,6 @@
   <script src="js/live-data.js"></script>
   <script src="js/news-feed.js"></script>
   <script>
-    document.getElementById('sec-related-title').innerHTML = icon('trending-up',18) + ' Related Coverage';
 
     // Hero benchmark cards - top 5
     var topBenchmarks = [COMMODITIES[0], COMMODITIES[1], COMMODITIES[2], COMMODITIES[3], COMMODITIES[4]];
@@ -109,14 +101,57 @@
       }).join('');
     }
 
-    // Related links
-    document.getElementById('oil-related').innerHTML = [
-      ['Crude Oil News','category/crude-oil.html','droplets'],
-      ['Oil Futures','oil-futures.html','line-chart'],
-      ['Rig Count','rig-count.html','hard-hat'],
-    ].map(function(r) {
-      return '<a href="' + r[1] + '" class="spotlight-card"><div class="spotlight-icon">' + icon(r[2],22) + '</div><h4>' + r[0] + '</h4></a>';
-    }).join('');
+    // Live-update Futures & Indexes rows via OilPriceAPI
+    var OIL_API_KEY = 'f719bf8a7ff3844d0a5436da144bc985db3acf2431ddf3095702b1c5f4926e5a';
+    function updateOilPriceTable() {
+      if (!OIL_PRICE_SECTIONS || !OIL_PRICE_SECTIONS[0]) return;
+      var futuresRows = OIL_PRICE_SECTIONS[0].rows;
+      var apiRows = futuresRows.filter(function(r) { return r.apiCode; });
+      var completed = 0;
+      apiRows.forEach(function(row) {
+        fetch('https://api.oilpriceapi.com/v1/prices/latest?by_code=' + row.apiCode, {
+          headers: { 'Authorization': 'Token ' + OIL_API_KEY }
+        })
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+          if (data.status === 'success' && data.data && data.data.price) {
+            var newPrice = parseFloat(data.data.price);
+            if (!isNaN(newPrice) && newPrice > 0) {
+              var oldPrice = row.price;
+              row.change = +(newPrice - oldPrice).toFixed(2);
+              row.pct = +((newPrice - oldPrice) / oldPrice * 100).toFixed(2);
+              row.price = newPrice;
+            }
+          }
+        })
+        .catch(function() {})
+        .finally(function() {
+          completed++;
+          if (completed === apiRows.length) {
+            // Re-render the Futures & Indexes table
+            var section0 = document.getElementById('price-section-0');
+            if (section0) {
+              var tbody = section0.querySelector('tbody');
+              if (tbody) {
+                tbody.innerHTML = futuresRows.map(function(r) {
+                  var cls = r.change >= 0 ? 'up' : 'down';
+                  var liveTag = r.apiCode ? ' <span style="color:var(--green);font-size:9px;vertical-align:super">LIVE</span>' : '';
+                  return '<tr><td>' + r.name + liveTag + '</td>' +
+                    '<td class="table-price">$' + r.price.toFixed(2) + '</td>' +
+                    '<td><span class="change ' + cls + '">' + (r.change >= 0 ? '+' : '') + r.change.toFixed(2) + '</span></td>' +
+                    '<td><span class="change ' + cls + '">' + (r.change >= 0 ? '+' : '') + r.pct.toFixed(2) + '%</span></td></tr>';
+                }).join('');
+              }
+            }
+            console.log('[EPT] Oil prices table: ' + apiRows.length + ' rows updated via OilPriceAPI');
+          }
+        });
+      });
+    }
+    // Fetch immediately + every 5 minutes
+    updateOilPriceTable();
+    setInterval(updateOilPriceTable, 5 * 60 * 1000);
+
   </script>
 </body>
 </html>
