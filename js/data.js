@@ -54,22 +54,23 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { id: 1, title: "OPEC+ Signals Extended Production Cuts Through Q3 2026 Amid Demand Uncertainty", time: "12 min ago", cat: "OPEC", slug: "opec" },
-  { id: 2, title: "WTI Crude Surges Past $71 on Tighter U.S. Inventory Data", time: "34 min ago", cat: "Oil Prices", slug: "oil-prices" },
-  { id: 3, title: "European Natural Gas Prices Rally as Cold Snap Forecast Returns", time: "1 hr ago", cat: "Natural Gas", slug: "natural-gas" },
-  { id: 4, title: "ExxonMobil Announces $4.2B Expansion of Permian Basin Operations", time: "2 hr ago", cat: "Company News", slug: "company-news" },
-  { id: 5, title: "U.S. Rig Count Falls for Third Consecutive Week, Baker Hughes Reports", time: "3 hr ago", cat: "Rig Count", slug: "rig-count" },
-  { id: 6, title: "Saudi Arabia Holds Firm on April OSP Despite Market Pressure", time: "4 hr ago", cat: "Geopolitics", slug: "geopolitics" },
-  { id: 7, title: "Renewable Energy Investment Hits Record $1.8 Trillion Globally in 2025", time: "5 hr ago", cat: "Alternative Energy", slug: "alternative-energy" },
+  { title: "U.S.-Iran Ceasefire Takes Effect After Pakistan-Brokered Deal Halts 40 Days of Conflict", cat: "Geopolitics", slug: "geopolitics", time: "Just now" },
+  { title: "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms", cat: "Oil Prices", slug: "oil-prices", time: "2h ago" },
+  { title: "Gulf States Report Intercepting Iranian Drones and Missiles Hours After Truce Announced", cat: "Geopolitics", slug: "geopolitics", time: "4h ago" },
+  { title: "Israel Continues Lebanon Strikes Despite Ceasefire — Netanyahu Says Hezbollah Not Included", cat: "Geopolitics", slug: "geopolitics", time: "5h ago" },
+  { title: "OPEC+ Emergency Session Expected as Oil Prices Face Largest One-Day Drop Since 2020", cat: "OPEC", slug: "energy", time: "6h ago" },
+  { title: "U.S. Gas Prices Expected to Drop Sharply if Ceasefire Holds and Hormuz Reopens", cat: "Gas Prices", slug: "gas-prices", time: "7h ago" },
+  { title: "Trump Says Iran Nuclear Enrichment Must End — Talks Set for Friday in Islamabad", cat: "Geopolitics", slug: "geopolitics", time: "8h ago" },
+  { title: "Kuwait Reports Significant Damage to Oil Facilities from Iranian Drone Attacks", cat: "Geopolitics", slug: "geopolitics", time: "10h ago" },
 ];
 
 const MARKET_DRIVERS = [
-  { icon: "globe", title: "Middle East Tensions Persist", desc: "Continued Houthi attacks in the Red Sea disrupt shipping routes, adding risk premiums to crude benchmarks.", cat: "Geopolitics" },
-  { icon: "bar-chart", title: "U.S. Inventories Draw Down", desc: "EIA reports a 4.2M barrel draw in commercial crude stocks, well above the 1.8M consensus estimate.", cat: "Supply" },
-  { icon: "users", title: "OPEC+ Holds Steady", desc: "The alliance reaffirms commitment to current production quotas, maintaining 2.2M bpd of voluntary cuts.", cat: "OPEC" },
-  { icon: "thermometer", title: "Cold Snap Lifts Gas Prices", desc: "Extended winter weather across Northern Europe drives heating demand and boosts TTF gas futures.", cat: "Weather" },
-  { icon: "factory", title: "Refinery Margins Under Pressure", desc: "Asian refining margins decline as oversupply of diesel meets weakened Chinese industrial demand.", cat: "Refining" },
-  { icon: "zap", title: "Renewable Surge Continues", desc: "Global solar and wind capacity additions outpace forecasts, reshaping long-term energy price models.", cat: "Renewables" },
+  { cat: "CEASEFIRE", icon: "shield", title: "Iran Ceasefire Rocks Markets", desc: "Two-week truce between U.S. and Iran sends crude crashing 15% as Strait of Hormuz reopening lifts supply outlook." },
+  { cat: "STRAIT OF HORMUZ", icon: "anchor", title: "Hormuz Reopening Imminent", desc: "Iran agrees to resume shipping through the strait — 21M bpd of oil transit set to normalize under ceasefire terms." },
+  { cat: "OPEC", icon: "users", title: "OPEC+ Emergency Response", desc: "Alliance expected to convene emergency session as oil prices face worst single-day crash in six years." },
+  { cat: "GULF STATES", icon: "alert-triangle", title: "Gulf Facilities Damaged", desc: "Kuwait, UAE, and Saudi Arabia report drone and missile interceptions. Abu Dhabi gas complex hit. Ceasefire violations alleged." },
+  { cat: "GASOLINE", icon: "fuel", title: "Pump Price Relief Ahead", desc: "Analysts expect U.S. gas prices to drop $0.30-0.60/gallon within weeks if ceasefire holds and supply normalizes." },
+  { cat: "DIPLOMACY", icon: "globe", title: "Islamabad Talks Friday", desc: "U.S. and Iran delegations set to meet in Pakistan on April 10 to negotiate permanent peace framework." },
 ];
 
 const FEATURED_ARTICLES = [

@@ -77,10 +77,18 @@ function applyLiveUpdates(updates) {
     if (typeof renderHeroPrices === 'function') renderHeroPrices();
     // Re-render ticker
     if (typeof renderTicker === 'function') renderTicker();
-    // Re-render market table (updates the $0.00 rows)
+    // Re-render market table
     if (typeof renderMarketTable === 'function') {
       var tbl = document.getElementById('home-market-table');
       if (tbl) renderMarketTable('home-market-table', true);
+    }
+    // Re-render any page-specific hero cards (oil-prices, markets, rig-count)
+    var heroBenchmarks = document.getElementById('hero-benchmarks');
+    if (heroBenchmarks) {
+      heroBenchmarks.innerHTML = COMMODITIES.slice(0, 5).map(function(c) {
+        if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating\u2026</div><div class="price-card-footer"><span class="price-card-unit">' + c.unit + '</span></div></div>';
+        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, c.change >= 0 ? '#10b45c' : '#dc3545') + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
+      }).join('');
     }
   }
 }

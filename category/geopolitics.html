@@ -161,12 +161,12 @@
     document.getElementById('geo-risk-title').innerHTML = icon('alert-triangle',16) + ' Active Geopolitical Risk Factors';
     document.getElementById('geo-live-label').innerHTML = icon('zap',12) + ' Live Geopolitics Headlines';
     var geoRisks = [
-      { region: 'Strait of Hormuz', risk: 'ELEVATED', detail: '21M bpd transit — Iran tensions, tanker seizures', color: '#ef4444' },
-      { region: 'Red Sea / Bab el-Mandeb', risk: 'HIGH', detail: 'Houthi attacks rerouting 60% of tanker traffic', color: '#ef4444' },
-      { region: 'Russia-Ukraine', risk: 'ONGOING', detail: 'Shadow fleet sanctions enforcement tightening', color: '#f59e0b' },
-      { region: 'OPEC+ Compliance', risk: 'MODERATE', detail: 'Iraq, Kazakhstan exceeding quota limits', color: '#f59e0b' },
-      { region: 'Venezuela', risk: 'WATCH', detail: 'Sanctions review pending election benchmarks', color: '#3b82f6' },
-      { region: 'Iran Nuclear', risk: 'STALLED', detail: 'Diplomatic freeze keeps ~1M bpd offline', color: '#3b82f6' },
+      { region: 'U.S.-IRAN CEASEFIRE', risk: 'ACTIVE', detail: 'Two-week truce brokered by Pakistan — Islamabad talks set for April 10', color: '#10b981' },
+      { region: 'Strait of Hormuz', risk: 'REOPENING', detail: 'Iran agrees to resume 21M bpd shipping transit under ceasefire terms', color: '#f59e0b' },
+      { region: 'Gulf State Attacks', risk: 'CRITICAL', detail: 'Kuwait, UAE, Saudi Arabia intercepting Iranian drones — oil facilities hit', color: '#ef4444' },
+      { region: 'Lebanon / Hezbollah', risk: 'ESCALATING', detail: 'Israel continues strikes — Netanyahu says Lebanon excluded from truce', color: '#ef4444' },
+      { region: 'Oil Price Crash', risk: 'SEVERE', detail: 'Crude down 15% — largest single-day drop since 2020 on de-escalation', color: '#f59e0b' },
+      { region: 'OPEC+ Emergency', risk: 'PENDING', detail: 'Alliance expected to convene emergency session on supply management', color: '#3b82f6' },
     ];
     document.getElementById('geo-risk-cards').innerHTML = geoRisks.map(function(r) {
       return '<div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid ' + r.color + ';border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px">' +
