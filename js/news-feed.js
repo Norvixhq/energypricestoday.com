@@ -2,7 +2,7 @@
 
 var NEWS_FEEDS = {
   energy:      'https://news.google.com/rss/search?q=oil+prices+energy+market&hl=en-US&gl=US&ceid=US:en',
-  geopolitics: 'https://news.google.com/rss/search?q=oil+geopolitics+OPEC+sanctions&hl=en-US&gl=US&ceid=US:en',
+  geopolitics: 'https://news.google.com/rss/search?q=Iran+ceasefire+oil+OR+OPEC+oil+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en',
   natgas:      'https://news.google.com/rss/search?q=natural+gas+price+LNG&hl=en-US&gl=US&ceid=US:en',
   renewables:  'https://news.google.com/rss/search?q=renewable+energy+solar+wind&hl=en-US&gl=US&ceid=US:en',
   companies:   'https://news.google.com/rss/search?q=ExxonMobil+Chevron+Shell+Aramco&hl=en-US&gl=US&ceid=US:en',

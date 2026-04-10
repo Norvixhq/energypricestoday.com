@@ -1,3 +1,6 @@
+/* Anti-flicker: prevent layout shift during header render */
+.site-header{min-height:60px}
+.site-header:empty{background:var(--bg)}
 /* ═══════════════════════════════════════════════════════════════════
    EnergyPricesToday.com — Design System v2
    
