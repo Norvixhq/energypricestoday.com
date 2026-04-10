@@ -1,81 +1,85 @@
-/* ═══════════════════════════════════════════════════════════════════
-   EnergyPricesToday.com — Live News Headlines
-   
-   Pulls live energy headlines from Google News RSS feeds via
-   rss2json.com (free, CORS-enabled, no API key required).
-   
-   SETUP: None. This works immediately on any domain.
-   ═══════════════════════════════════════════════════════════════════ */
+/* Live News Headlines via Google News RSS + rss2json.com */
 
 var NEWS_FEEDS = {
-  energy:      'https://news.google.com/rss/search?q=oil+price+OR+crude+oil+OR+energy+market+OR+OPEC&hl=en-US&gl=US&ceid=US:en',
-  geopolitics: 'https://news.google.com/rss/search?q=strait+hormuz+OR+red+sea+oil+OR+OPEC+production+OR+oil+sanctions+OR+oil+tanker+attack+OR+refinery+outage+OR+oil+supply+disruption&hl=en-US&gl=US&ceid=US:en',
-  natgas:      'https://news.google.com/rss/search?q=natural+gas+price+OR+LNG+OR+Henry+Hub&hl=en-US&gl=US&ceid=US:en',
-  renewables:  'https://news.google.com/rss/search?q=renewable+energy+OR+solar+power+OR+wind+energy+OR+nuclear+reactor&hl=en-US&gl=US&ceid=US:en',
-  companies:   'https://news.google.com/rss/search?q=ExxonMobil+OR+Chevron+OR+Shell+oil+OR+Saudi+Aramco&hl=en-US&gl=US&ceid=US:en',
-  oil:         'https://news.google.com/rss/search?q=crude+oil+production+OR+oil+drilling+OR+Brent+crude+OR+WTI&hl=en-US&gl=US&ceid=US:en',
-  rigcount:    'https://news.google.com/rss/search?q=rig+count+OR+Baker+Hughes+OR+drilling+activity&hl=en-US&gl=US&ceid=US:en',
-  gasoline:    'https://news.google.com/rss/search?q=gasoline+price+OR+gas+price+gallon+OR+fuel+price&hl=en-US&gl=US&ceid=US:en',
-  heating:     'https://news.google.com/rss/search?q=heating+oil+price+OR+diesel+fuel+OR+distillate&hl=en-US&gl=US&ceid=US:en',
+  energy:      'https://news.google.com/rss/search?q=oil+prices+energy+market&hl=en-US&gl=US&ceid=US:en',
+  geopolitics: 'https://news.google.com/rss/search?q=oil+geopolitics+OPEC+sanctions&hl=en-US&gl=US&ceid=US:en',
+  natgas:      'https://news.google.com/rss/search?q=natural+gas+price+LNG&hl=en-US&gl=US&ceid=US:en',
+  renewables:  'https://news.google.com/rss/search?q=renewable+energy+solar+wind&hl=en-US&gl=US&ceid=US:en',
+  companies:   'https://news.google.com/rss/search?q=ExxonMobil+Chevron+Shell+Aramco&hl=en-US&gl=US&ceid=US:en',
+  oil:         'https://news.google.com/rss/search?q=crude+oil+Brent+WTI&hl=en-US&gl=US&ceid=US:en',
+  rigcount:    'https://news.google.com/rss/search?q=oil+rig+count+drilling&hl=en-US&gl=US&ceid=US:en',
+  gasoline:    'https://news.google.com/rss/search?q=gas+prices+gasoline+fuel&hl=en-US&gl=US&ceid=US:en',
+  heating:     'https://news.google.com/rss/search?q=heating+oil+diesel+fuel&hl=en-US&gl=US&ceid=US:en',
+  breaking:    'https://news.google.com/rss/search?q=oil+energy+breaking+news&hl=en-US&gl=US&ceid=US:en',
 };
 
 var RSS2JSON_BASE = 'https://api.rss2json.com/v1/api.json?rss_url=';
 
 function fetchNewsHeadlines(feedUrl, containerId, maxItems) {
-  maxItems = maxItems || 6;
+  maxItems = maxItems || 8;
   var container = document.getElementById(containerId);
   if (!container) return;
 
-  var url = RSS2JSON_BASE + encodeURIComponent(feedUrl) ;
+  var url = RSS2JSON_BASE + encodeURIComponent(feedUrl);
+
+  container.innerHTML = '<div style="color:var(--text-3);font-size:12px;padding:12px 16px">Loading headlines...</div>';
 
   fetch(url)
     .then(function(res) { return res.json(); })
     .then(function(data) {
       if (data.status !== 'ok' || !data.items || data.items.length === 0) {
-        console.log('[EPT News] No results');
+        container.innerHTML = '<div style="color:var(--text-3);font-size:12px;padding:12px 16px">Headlines temporarily unavailable</div>';
         return;
       }
 
-      var html = data.items.slice(0, maxItems).map(function(item) {
+      container.innerHTML = data.items.slice(0, maxItems).map(function(item) {
         var title = item.title || '';
         var link = item.link || '#';
-        var pubDate = item.pubDate || '';
         var source = '';
-
-        // Extract source from title (Google News appends " - SourceName")
         var dashIdx = title.lastIndexOf(' - ');
         if (dashIdx > 20) {
           source = title.substring(dashIdx + 3);
           title = title.substring(0, dashIdx);
         }
-
-        var time = pubDate ? formatTimeAgo(pubDate) : '';
-
+        var time = item.pubDate ? formatTimeAgo(item.pubDate) : '';
         return '<a href="' + escapeAttr(link) + '" target="_blank" rel="noopener noreferrer" class="live-news-card">' +
           (source ? '<div class="live-news-source">' + escapeHtml(source) + '</div>' : '') +
           '<div class="live-news-title">' + escapeHtml(title) + '</div>' +
           (time ? '<div class="live-news-time">' + time + '</div>' : '') +
         '</a>';
       }).join('');
-
-      if (html) {
-        container.innerHTML = html;
-        var section = document.getElementById('live-headlines-section');
-        if (section) section.style.display = '';
-      }
-
-      console.log('[EPT News] Loaded ' + data.items.length + ' headlines');
     })
     .catch(function(err) {
-      console.log('[EPT News] Error:', err.message);
+      container.innerHTML = '<div style="color:var(--text-3);font-size:12px;padding:12px 16px">Headlines temporarily unavailable</div>';
     });
+}
+
+// Update breaking news banner with latest headline
+function updateBreakingBanner() {
+  var url = RSS2JSON_BASE + encodeURIComponent(NEWS_FEEDS.energy);
+  fetch(url)
+    .then(function(res) { return res.json(); })
+    .then(function(data) {
+      if (data.status === 'ok' && data.items && data.items.length > 0) {
+        var item = data.items[0];
+        var title = item.title || '';
+        var link = item.link || '#';
+        var dashIdx = title.lastIndexOf(' - ');
+        if (dashIdx > 20) title = title.substring(0, dashIdx);
+        
+        var textEl = document.querySelector('.breaking-text');
+        var linkEl = document.querySelector('.breaking-link');
+        if (textEl) textEl.textContent = title;
+        if (linkEl) linkEl.href = link;
+      }
+    })
+    .catch(function() {});
 }
 
 function formatTimeAgo(dateStr) {
   try {
     var then = new Date(dateStr);
-    var now = new Date();
-    var diff = Math.floor((now - then) / 1000);
+    var diff = Math.floor((new Date() - then) / 1000);
     if (isNaN(diff) || diff < 0) return '';
     if (diff < 120) return 'Just now';
     if (diff < 3600) return Math.floor(diff / 60) + 'm ago';
@@ -104,10 +108,17 @@ function loadLiveNews(topic, containerId, maxItems) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Auto-discover news containers
   var els = document.querySelectorAll('[data-news-topic]');
   els.forEach(function(el) {
     var topic = el.getAttribute('data-news-topic');
     var max = parseInt(el.getAttribute('data-news-max')) || 6;
     loadLiveNews(topic, el.id, max);
   });
+  
+  // Update breaking banner every 30 minutes
+  if (document.querySelector('.breaking-banner')) {
+    updateBreakingBanner();
+    setInterval(updateBreakingBanner, 30 * 60 * 1000);
+  }
 });
