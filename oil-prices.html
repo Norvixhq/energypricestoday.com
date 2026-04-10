@@ -98,13 +98,6 @@
     }).join('');
 
 
-    // Oil price FAQs
-    if (typeof CATEGORY_FAQS !== 'undefined' && CATEGORY_FAQS['oil-prices']) {
-      document.getElementById('oil-faqs').innerHTML = CATEGORY_FAQS['oil-prices'].map(function(f) {
-        return '<div class="faq-item"><div class="faq-q">' + f.q + '</div><div class="faq-a">' + f.a + '</div></div>';
-      }).join('');
-    }
-
   </script>
 </body>
 </html>
