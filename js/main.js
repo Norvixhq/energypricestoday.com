@@ -159,7 +159,7 @@ function renderHeader(activePage) {
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
       <a class="logo" href="${prefix}index.html">
-        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img shimmer-subtle">
+        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img" style="filter:drop-shadow(0 0 10px rgba(61,143,212,0.5)) drop-shadow(0 0 25px rgba(61,143,212,0.2))">
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
@@ -297,7 +297,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img"></a>
+          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img" style="filter:drop-shadow(0 0 8px rgba(61,143,212,0.4))"></a>
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div class="footer-columns">

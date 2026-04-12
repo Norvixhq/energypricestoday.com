@@ -5,12 +5,13 @@ function fetchStockPrices() {
   var tables = document.querySelectorAll('.company-table');
   if (!tables.length) return;
 
-  tables.forEach(function(table) {
+  tables.forEach(function(table, tableIdx) {
     var thead = table.querySelector('thead tr');
     if (thead && !thead.querySelector('.stock-th')) {
       var th = document.createElement('th');
       th.className = 'stock-th';
-      th.innerHTML = 'Stock Price <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span>';
+      var isFirst = (tableIdx === 0);
+      th.innerHTML = isFirst ? 'Stock Price <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span>' : 'Stock Price';
       thead.insertBefore(th, thead.children[2]);
     }
 
