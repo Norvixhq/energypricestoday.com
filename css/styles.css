@@ -1190,3 +1190,32 @@ a.article-featured{pointer-events:auto}
 .grid-10{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
 @media(max-width:1099px){.grid-10{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:599px){.grid-10{grid-template-columns:repeat(2,1fr)}}
+
+/* Mobile optimizations */
+@media(max-width:599px){
+  .price-card{padding:14px 12px !important}
+  .price-card-value{font-size:22px !important}
+  .price-card-label{font-size:11px !important}
+  .market-table{font-size:12px}
+  .market-table th,.market-table td{padding:8px 6px}
+  .article-featured{padding:16px}
+  .section-title{font-size:18px}
+  h1{font-size:24px !important}
+  .stat-box{padding:12px 10px}
+  .stat-box-value{font-size:22px}
+  .context-block{padding:16px}
+  .container{padding-left:12px;padding-right:12px}
+  .grid-10{grid-template-columns:repeat(2,1fr);gap:8px}
+  .grid-3{grid-template-columns:1fr !important}
+  .cat-content-full{grid-template-columns:1fr !important}
+  .company-directory-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+  .company-directory-wrap table{min-width:600px}
+}
+@media(max-width:380px){
+  .price-card-value{font-size:18px !important}
+  .grid-10{gap:6px}
+}
+
+/* Performance: GPU-accelerated animations */
+.price-card,.market-table tr,.article-list-item{will-change:auto;contain:layout style}
+.ticker-scroll{will-change:transform}

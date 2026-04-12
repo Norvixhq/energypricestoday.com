@@ -87,7 +87,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     var topBenchmarks = [COMMODITIES[0], COMMODITIES[1], COMMODITIES[2], COMMODITIES[3], COMMODITIES[4]];
     document.getElementById('hero-benchmarks').innerHTML = topBenchmarks.map(function(c) {
       if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating…</div><div class="price-card-footer"><span class="price-card-unit">' + c.unit + '</span></div></div>';
-      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + sparkline(c.spark, c.change >= 0 ? '#10b45c' : '#dc3545') + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
+      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + '' + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div></div>';
     }).join('');
 
     // Section quick nav

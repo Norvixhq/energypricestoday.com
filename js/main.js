@@ -110,7 +110,7 @@ function renderHeader(activePage) {
     ]},
     { label: 'Rig Count', href: 'rig-count.html' },
     { label: 'Company News', href: 'category/company-news.html' },
-    { label: 'Energy', href: 'category/energy.html' },
+    { label: 'Energy', href: 'category/geopolitics.html' },
     { label: 'Alt Energy', href: 'category/alternative-energy.html', dropdown: [
       { label: 'Nuclear', href: 'category/nuclear.html' },
       { label: 'Solar', href: 'category/solar.html' },
@@ -369,7 +369,7 @@ function renderMarketTable(containerId, compact) {
       <div class="market-table-wrap">
         <table class="market-table">
           <thead><tr>
-            <th style="text-align:left">Commodity</th><th>Price</th><th>Change</th><th>% Change</th><th>Chart</th><th>Unit</th>
+            <th style="text-align:left">Commodity</th><th>Price</th><th>Change</th><th>% Change</th><th>Unit</th>
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>
