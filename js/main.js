@@ -91,7 +91,7 @@ function priceChange(change, pct) {
 
 // ─── CATEGORY PILL ───────────────────────────────────────────────
 function catPill(cat, slug) {
-  if (slug) return `<a class="cat-pill" href="category/${slug}/">${cat}</a>`;
+  if (slug) return `<a class="cat-pill" href="category/${slug}.html">${cat}</a>`;
   return `<span class="cat-pill">${cat}</span>`;
 }
 
@@ -99,26 +99,26 @@ function catPill(cat, slug) {
 function renderHeader(activePage) {
   const nav = [
     { label: 'Home', href: 'index.html' },
-    { label: 'Gas Prices', href: 'category/gas-prices/' },
-    { label: 'Oil Prices', href: 'oil-prices/' },
-    { label: 'Geopolitics', href: 'category/geopolitics/' },
-    { label: 'Markets', href: 'markets/', dropdown: [
-      { label: 'Crude Oil', href: 'category/crude-oil/' },
-      { label: 'Natural Gas', href: 'category/natural-gas/' },
-      { label: 'Heating Oil', href: 'category/heating-oil/' },
-      { label: 'Oil Futures', href: 'oil-futures/' },
+    { label: 'Gas Prices', href: 'category/gas-prices.html' },
+    { label: 'Oil Prices', href: 'oil-prices.html' },
+    { label: 'Geopolitics', href: 'category/geopolitics.html' },
+    { label: 'Markets', href: 'markets.html', dropdown: [
+      { label: 'Crude Oil', href: 'category/crude-oil.html' },
+      { label: 'Natural Gas', href: 'category/natural-gas.html' },
+      { label: 'Heating Oil', href: 'category/heating-oil.html' },
+      { label: 'Oil Futures', href: 'oil-futures.html' },
     ]},
-    { label: 'Rig Count', href: 'rig-count/' },
-    { label: 'Company News', href: 'category/company-news/' },
-    { label: 'Energy', href: 'category/energy/' },
-    { label: 'Alt Energy', href: 'category/alternative-energy/', dropdown: [
-      { label: 'Nuclear', href: 'category/nuclear/' },
-      { label: 'Solar', href: 'category/solar/' },
-      { label: 'Wind', href: 'category/wind/' },
-      { label: 'Renewables', href: 'category/renewable-energy/' },
+    { label: 'Rig Count', href: 'rig-count.html' },
+    { label: 'Company News', href: 'category/company-news.html' },
+    { label: 'Energy', href: 'category/energy.html' },
+    { label: 'Alt Energy', href: 'category/alternative-energy.html', dropdown: [
+      { label: 'Nuclear', href: 'category/nuclear.html' },
+      { label: 'Solar', href: 'category/solar.html' },
+      { label: 'Wind', href: 'category/wind.html' },
+      { label: 'Renewables', href: 'category/renewable-energy.html' },
     ]},
-    { label: 'About', href: 'about/' },
-    { label: 'Contact', href: 'contact/' },
+    { label: 'About', href: 'about.html' },
+    { label: 'Contact', href: 'contact.html' },
   ];
 
   // Fix paths for pages in subdirectories

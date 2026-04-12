@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','957762016897581');fbq('track','PageView');
+</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://api.rss2json.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rig Count — U.S. & International Drilling Activity — EnergyPricesToday.com</title>
+  <meta name="description" content="Weekly rig count data for U.S. and international drilling. Track oil and gas rig trends, Baker Hughes data, and production outlook.">
+  
+  <link rel="canonical" href="https://www.energypricestoday.com/rig-count.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rig Count — U.S. & International Drilling Activity — EnergyPricesToday.com">
+  <meta property="og:description" content="Weekly Baker Hughes rig count data for U.S. and international drilling activity.">
+  <meta property="og:url" content="https://www.energypricestoday.com/rig-count.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Rig Count — U.S. & International Drilling Activity — EnergyPricesToday.com">
+  <meta name="twitter:description" content="Weekly Baker Hughes rig count data for U.S. and international drilling activity.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+</head>
+<body>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="index/" style="color:#3d8fd4">Home</a><a href="markets.html" style="color:#8891a5">Markets</a><a href="oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="oil-futures.html" style="color:#8891a5">Oil Futures</a><a href="rig-count.html" style="color:#8891a5">Rig Count</a><a href="category/energy.html" style="color:#8891a5">Energy</a><a href="category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="category/company-news.html" style="color:#8891a5">Company News</a><a href="category/alternative-energy.html" style="color:#8891a5">Alt Energy</a><a href="about.html" style="color:#8891a5">About</a><a href="contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
+  <main>
+    <section class="page-hero-large">
+      <div class="hero-bg"></div>
+      <div class="container" style="position:relative;z-index:1">
+        <nav class="breadcrumbs"><a href="index/">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> <span>Rig Count</span></nav>
+        <h1>Rig Count</h1>
+        <p class="hero-sub">Weekly U.S. and international drilling rig count data, powered by Baker Hughes. Track oil and gas rig trends and production outlook.</p>
+
+        <div class="stat-row" id="rig-stats" style="margin-top:24px"></div>
+        <p style="color:#4b5563;font-size:11px;margin-top:12px" id="rig-updated"></p>
+      </div>
+    </section>
+
+    <section class="section"><div class="container">
+      <div class="explainer-block">
+        <h3>Why the Rig Count Matters</h3>
+        <p>The Baker Hughes rig count is one of the most closely watched indicators of U.S. oil and gas production activity. Published weekly, it measures the number of drilling rigs actively exploring for or developing oil and gas reserves. A rising rig count typically signals growing production capacity and potential future supply increases, while a declining count may indicate reduced investment and tightening supply ahead.</p>
+        <p style="margin-top:12px">The U.S. rig count has declined from its 2023 peak as operators prioritize capital discipline and shareholder returns over aggressive drilling programs. The Permian Basin in West Texas and New Mexico accounts for the majority of active oil rigs, followed by the Eagle Ford, Bakken, and DJ-Niobrara basins.</p>
+      </div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-basins"></h2></div>
+      <div class="grid-4" id="basin-breakdown"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-rignews"></h2></div>
+      <div class="grid-auto-280" id="rig-articles"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-rigmarket"></h2></div>
+      <div class="grid-5" id="rig-market-cards"></div>
+    </div></section>
+
+    <section class="section"><div class="container">
+      
+    <!-- International Rig Count -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-intl-rigs"></h2></div>
+      <div class="grid-4" id="intl-rigs"></div>
+    </div></section>
+
+    <!-- Rig Count FAQ -->
+    <section class="section"><div class="container">
+      <div class="context-block">
+        <h3 id="faq-title"></h3>
+        <div class="faq-section">
+          <div class="faq-item">
+            <div class="faq-q">What is the rig count and why does it matter?</div>
+            <div class="faq-a">The rig count measures the number of drilling rigs actively exploring for or developing oil and gas. Published weekly by Baker Hughes, it serves as a leading indicator of future production capacity. A rising count signals potential supply growth; a declining count suggests tightening ahead.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">How often is the rig count updated?</div>
+            <div class="faq-a">Baker Hughes publishes the U.S. rig count every Friday at 1:00 PM Eastern Time. The international rig count is published monthly. Both datasets are widely followed by traders, analysts, and energy company executives.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">What is the relationship between rig count and oil prices?</div>
+            <div class="faq-a">The rig count tends to follow oil prices with a lag of 4-6 months. When prices rise, operators add rigs to capture higher margins. When prices fall, rigs are idled to preserve capital. However, improving well productivity means each rig today produces more oil than a decade ago, weakening the direct correlation.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Why has the rig count been declining despite elevated oil prices?</div>
+            <div class="faq-a">Capital discipline. After years of over-spending on growth, U.S. shale operators now prioritize shareholder returns through dividends and buybacks. Companies are achieving production growth with fewer rigs by drilling longer laterals, optimizing well spacing, and improving completion techniques.</div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q">Which basins account for the most rigs?</div>
+            <div class="faq-a">The Permian Basin in West Texas and New Mexico accounts for over 60% of all U.S. oil rigs. The Eagle Ford in South Texas, the Bakken in North Dakota, and the DJ-Niobrara in Colorado make up most of the remainder. Offshore Gulf of Mexico rigs are counted separately.</div>
+          </div>
+        </div>
+      </div>
+    </div></section>
+
+<div class="section-header"><h2 class="section-title">Related Coverage</h2></div>
+      <div class="grid-3" id="rig-related" style="max-width:800px"></div>
+    </div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/article-slugs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/live-data.js"></script>
+  <script src="js/news-feed.js"></script>
+  <script>
+    document.getElementById('sec-rignews').innerHTML = icon('newspaper',20) + ' Latest Rig Count Updates';
+    document.getElementById('sec-rigmarket').innerHTML = icon('bar-chart',20) + ' Related Market Data';
+
+    // Rig count stats
+    var rd = RIG_COUNT_DATA;
+    var rigStats = [
+      { label: 'U.S. Total Rigs', val: rd.us_total, chg: rd.us_total_change },
+      { label: 'U.S. Oil Rigs', val: rd.us_oil, chg: rd.us_oil_change },
+      { label: 'U.S. Gas Rigs', val: rd.us_gas, chg: rd.us_gas_change },
+      { label: 'Canada Total', val: rd.canada_total, chg: rd.canada_change },
+      { label: 'International', val: rd.international, chg: null },
+    ];
+    document.getElementById('rig-stats').innerHTML = rigStats.map(function(s) {
+      var sub = '';
+      if (s.chg !== null) {
+        var cls = s.chg >= 0 ? 'up' : 'down';
+        sub = '<div class="stat-box-sub change ' + cls + '">' + (s.chg >= 0 ? '+' : '') + s.chg + ' from last week</div>';
+      } else {
+        sub = '<div class="stat-box-sub" style="color:#6b7280">Last monthly report</div>';
+      }
+      return '<div class="stat-box"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value">' + s.val + '</div>' + sub + '</div>';
+    }).join('');
+    document.getElementById('rig-updated').textContent = 'Source: Baker Hughes Rig Count · Updated ' + rd.last_updated;
+
+    // Basin breakdown
+    document.getElementById('sec-basins').innerHTML = icon('hard-hat',20) + ' Key Basin Activity';
+    var basins = [
+      { name: 'Permian Basin', rigs: rd.permian, pct: Math.round(rd.permian/rd.us_oil*100) },
+      { name: 'Eagle Ford', rigs: rd.eagle_ford, pct: Math.round(rd.eagle_ford/rd.us_oil*100) },
+      { name: 'Bakken', rigs: rd.bakken, pct: Math.round(rd.bakken/rd.us_oil*100) },
+      { name: 'DJ-Niobrara', rigs: rd.dj_niobrara, pct: Math.round(rd.dj_niobrara/rd.us_oil*100) },
+    ];
+    document.getElementById('basin-breakdown').innerHTML = basins.map(function(b) {
+      return '<div class="stat-box">' +
+        '<div class="stat-box-label">' + b.name + '</div>' +
+        '<div class="stat-box-value">' + b.rigs + '</div>' +
+        '<div class="stat-box-sub" style="color:#4a9eed">' + b.pct + '% of U.S. oil rigs</div></div>';
+    }).join('');
+
+    document.getElementById('rig-articles').innerHTML = [
+      { title: "U.S. Rig Count Falls for Third Consecutive Week, Baker Hughes Reports", date: "Mar 28, 2026", author: "Staff", readTime: "3 min" },
+      { title: "Permian Basin Operators Slow Drilling Amid Capital Discipline Push", date: "Mar 27, 2026", author: "Staff", readTime: "5 min" },
+      { title: "Canadian Rig Count Rebounds as Spring Drilling Season Approaches", date: "Mar 26, 2026", author: "Staff", readTime: "4 min" },
+      { title: "International Rig Count Holds Steady as Middle East Activity Rises", date: "Mar 25, 2026", author: "Staff", readTime: "4 min" },
+    ].map(function(a) {
+      return '<a href="' + articleUrl(a.title) + '" class="article-card"><h4>' + a.title + '</h4><div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
+    }).join('');
+
+    document.getElementById('rig-market-cards').innerHTML = COMMODITIES.slice(0,3).map(function(c) {
+      var color = c.change >= 0 ? '#22c55e' : '#ef4444';
+      if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating…</div><div class="price-card-footer"><span class="price-card-unit">' + c.unit + '</span></div></div>';
+      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + '' + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '</div></div>';
+    }).join('');
+
+    document.getElementById('rig-related').innerHTML = [
+      ['Oil Prices','oil-prices.html','trending-up'],
+      ['Crude Oil News','category/crude-oil.html','droplets'],
+      ['Energy News','category/energy.html','zap'],
+    ].map(function(r) {
+      return '<a href="' + r[1] + '" class="spotlight-card"><div class="spotlight-icon">' + icon(r[2],22) + '</div><h4>' + r[0] + '</h4></a>';
+    }).join('');
+
+    // International rig count data
+    document.getElementById('sec-intl-rigs').innerHTML = icon('globe',18) + ' International Rig Count';
+    document.getElementById('faq-title').innerHTML = icon('zap',16) + ' Rig Count FAQ';
+    var intlRigs = [
+      { region: 'Middle East', rigs: 342, change: '+8', note: 'Saudi Arabia, UAE, Iraq lead growth' },
+      { region: 'Latin America', rigs: 168, change: '+3', note: 'Brazil, Argentina, Colombia active' },
+      { region: 'Europe', rigs: 82, change: '-2', note: 'North Sea, Norway dominant' },
+      { region: 'Africa', rigs: 94, change: '+1', note: 'Nigeria, Angola, Libya recovering' },
+      { region: 'Asia-Pacific', rigs: 198, change: '+5', note: 'China, India, Australia growth' },
+      { region: 'FSU / Russia', rigs: 74, change: '-4', note: 'Sanctions impact ongoing' },
+    ];
+    document.getElementById('intl-rigs').innerHTML = intlRigs.map(function(r) {
+      var cls = r.change.startsWith('+') ? 'up' : 'down';
+      return '<div class="stat-box" style="text-align:left;padding:16px">' +
+        '<div style="font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px">' + r.region + '</div>' +
+        '<div style="font-size:24px;font-weight:700;color:var(--text-1)">' + r.rigs + ' rigs</div>' +
+        '<div class="change ' + cls + '" style="margin:4px 0">' + r.change + ' m/m</div>' +
+        '<div style="font-size:11.5px;color:var(--text-3)">' + r.note + '</div></div>';
+    }).join('');
+  </script>
+</body>
+</html>
