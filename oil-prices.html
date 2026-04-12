@@ -58,6 +58,21 @@
   <script src="js/main.js"></script>
   <script src="js/live-data.js"></script>
   <script src="js/news-feed.js"></script>
+    <!-- FAQ Section -->
+    <section class="section"><div class="container">
+      <div class="context-block">
+        <h3 style="font-size:17px;margin-bottom:16px">Frequently Asked Questions</h3>
+        <div style="display:flex;flex-direction:column;gap:14px">
+          <div><div style="font-weight:600;color:var(--text-1);margin-bottom:6px;font-size:14px">What is the difference between WTI and Brent crude oil?</div><div style="color:var(--text-2);font-size:13px;line-height:1.7">WTI is the primary U.S. benchmark delivered at Cushing, Oklahoma. Brent is the global benchmark pricing ~75% of internationally traded crude. Brent typically trades $2-5 higher due to its seaborne nature.</div></div>
+          <div style="padding-top:14px;border-top:1px solid var(--border)"><div style="font-weight:600;color:var(--text-1);margin-bottom:6px;font-size:14px">Why do some prices show delays?</div><div style="color:var(--text-2);font-size:13px;line-height:1.7">Primary benchmarks update every 5 minutes via live API (marked LIVE). Regional and OPEC blends are reported through different channels with delays of 1-30 days.</div></div>
+          <div style="padding-top:14px;border-top:1px solid var(--border)"><div style="font-weight:600;color:var(--text-1);margin-bottom:6px;font-size:14px">What determines crude oil prices?</div><div style="color:var(--text-2);font-size:13px;line-height:1.7">Global supply-demand balance, OPEC+ production decisions, U.S. shale output, geopolitical risks (Strait of Hormuz, Red Sea), inventory levels, refinery utilization, and macroeconomic conditions.</div></div>
+          <div style="padding-top:14px;border-top:1px solid var(--border)"><div style="font-weight:600;color:var(--text-1);margin-bottom:6px;font-size:14px">How do oil prices affect gas prices?</div><div style="color:var(--text-2);font-size:13px;line-height:1.7">Crude oil accounts for ~55% of retail gasoline cost. A $10/barrel increase typically adds $0.25-0.30/gallon at the pump within 1-2 weeks.</div></div>
+          <div style="padding-top:14px;border-top:1px solid var(--border)"><div style="font-weight:600;color:var(--text-1);margin-bottom:6px;font-size:14px">What is backwardation vs contango?</div><div style="color:var(--text-2);font-size:13px;line-height:1.7">Backwardation: near-term futures higher than longer-dated contracts (tight supply signal). Contango: future prices exceed current prices (oversupply signal).</div></div>
+          <div style="padding-top:14px;border-top:1px solid var(--border)"><div style="font-weight:600;color:var(--text-1);margin-bottom:6px;font-size:14px">How often are prices updated on this page?</div><div style="color:var(--text-2);font-size:13px;line-height:1.7">Nine benchmarks marked LIVE update every 5 minutes via OilPriceAPI using real CME/ICE exchange data. All other prices are reference data with delay labels per section.</div></div>
+        </div>
+      </div>
+    </div></section>
+
   <script>
 
     // Hero benchmark cards - top 5

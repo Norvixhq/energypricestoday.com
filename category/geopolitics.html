@@ -165,12 +165,12 @@
     document.getElementById('geo-risk-title').innerHTML = icon('alert-triangle',16) + ' Active Geopolitical Risk Factors';
     document.getElementById('geo-live-label').innerHTML = icon('zap',12) + ' Live Geopolitics Headlines';
     var geoRisks = [
-      { region: 'U.S.-IRAN CEASEFIRE', risk: 'DAY 2', detail: 'Truce largely holding — no new Gulf attacks April 9. Pakistan talks set for Saturday.', color: '#10b981' },
-      { region: 'Strait of Hormuz', risk: 'STILL BLOCKED', detail: 'Little sign of meaningful reopening — Iran paused traffic over Israeli Lebanon strikes', color: '#ef4444' },
-      { region: 'Lebanon / Israel', risk: 'ESCALATING', detail: '303 killed in largest Israeli strike wave since war began — Netanyahu seeks direct talks', color: '#ef4444' },
-      { region: 'Saudi Aramco Abqaiq', risk: 'DAMAGED', detail: 'Satellite confirms smoke at world\'s largest crude processing plant — 5% of global supply', color: '#f59e0b' },
-      { region: 'Islamabad Talks', risk: 'SATURDAY', detail: 'Vance-led U.S. delegation preparing for negotiations — Trump calls Iran leaders \'more reasonable\'', color: '#3b82f6' },
-      { region: 'Oil Markets', risk: 'STABILIZING', detail: 'WTI near $98 after settling at $94.41 (-16.4%) — biggest single-day crash since 2020', color: '#f59e0b' },
+      { region: 'ISLAMABAD TALKS', risk: 'FAILED', detail: '21-hour marathon negotiations ended without deal — Vance departs blaming Iran', color: '#ef4444' },
+      { region: 'NAVAL BLOCKADE', risk: 'ANNOUNCED', detail: 'Trump orders U.S. Navy to blockade Strait of Hormuz and interdict Iran-linked vessels', color: '#ef4444' },
+      { region: 'Ceasefire', risk: 'EXPIRES APR 22', detail: 'Two-week truce running out with no extension — conflict resumption risk rising', color: '#f59e0b' },
+      { region: 'Nuclear Impasse', risk: 'UNRESOLVED', detail: 'Iran refuses enrichment commitments — core U.S. demand unmet', color: '#ef4444' },
+      { region: 'Lebanon / Israel', risk: 'TALKS TUESDAY', detail: 'Direct Israel-Lebanon negotiations set for Washington — 200+ Hezbollah targets struck', color: '#f59e0b' },
+      { region: 'Oil Markets', risk: 'HIGH ALERT', detail: 'Crude expected to surge Monday on failed talks and blockade — risk premium rebuilding', color: '#ef4444' },
     ];
     document.getElementById('geo-risk-cards').innerHTML = geoRisks.map(function(r) {
       return '<div style="background:var(--surface);border:1px solid var(--border);border-left:3px solid ' + r.color + ';border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px">' +

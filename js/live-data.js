@@ -1,120 +1,132 @@
 /* ═══════════════════════════════════════════════════════════════════
    EnergyPricesToday.com — Live Price Engine
    
-   PRIMARY: OilPriceAPI (5-min CME/ICE data)
-   FALLBACK: Reference prices after 5-second timeout
+   OilPriceAPI /v1/prices/all — ONE call returns ALL 35+ commodities
+   10,000 requests/month = 10,000 page loads/month (333/day)
    ═══════════════════════════════════════════════════════════════════ */
 
 var OILPRICE_API_KEY = 'f719bf8a7ff3844d0a5436da144bc985db3acf2431ddf3095702b1c5f4926e5a';
 
-var API_CODES = {
+// Map our display names to API codes
+// ALL 28 available commodity codes mapped
+var CODE_MAP = {
+  // Oil Benchmarks
   'WTI Crude':     'WTI_USD',
   'Brent Crude':   'BRENT_CRUDE_USD',
-  'Natural Gas':   'NATURAL_GAS_USD',
+  'Tapis Crude':   'TAPIS_CRUDE_USD',
+  // Refined Products
   'Gasoline RBOB': 'GASOLINE_USD',
   'Heating Oil':   'HEATING_OIL_USD',
   'Diesel ULSD':   'DIESEL_USD',
   'Jet Fuel':      'JET_FUEL_USD',
-  'Coal':          'COAL_USD',
+  'Ethanol':       'ETHANOL_USD',
+  // Natural Gas & LNG
+  'Natural Gas':          'NATURAL_GAS_USD',
+  'Henry Hub Natural Gas':'NATURAL_GAS_USD',
+  'UK NBP Natural Gas':   'NATURAL_GAS_GBP',
+  'Dutch TTF Natural Gas':'DUTCH_TTF_EUR',
+  'JKM LNG (Japan/Korea)':'JKM_LNG_USD',
+  // Coal
+  'Coal':                       'NEWCASTLE_COAL_USD',
+  'Newcastle Coal':             'NEWCASTLE_COAL_USD',
+  'CAPP Coal (Central Appalachia)':'CAPP_COAL_USD',
+  'Coking Coal':                'COKING_COAL_USD',
+  'NYMEX Appalachian Coal':     'NYMEX_APPALACHIAN_USD',
+  // Marine Fuels
+  'VLSFO (Very Low Sulfur Fuel Oil)':'VLSFO_USD',
+  'MGO 0.5% Sulfur':           'MGO_05S_USD',
+  'HFO 380 CST':               'HFO_380_USD',
+  'HFO 180 CST':               'HFO_180_USD',
+  // Metals & Other
+  'Gold':        'GOLD_USD',
+  'Uranium':     'URANIUM_USD',
+  'EU Carbon (EUA)':'EU_CARBON_EUR',
+  // Forex
+  'GBP/USD':     'GBP_USD',
+  'EUR/USD':     'EUR_USD',
+  // Storage
+  'Cushing OK Crude Storage':  'CUSHING_STORAGE',
+  'U.S. Natural Gas Storage':  'NATURAL_GAS_STORAGE',
 };
-
-// Reference prices — used as fallback if API fails
-var REF_PRICES = {
-  'WTI Crude':     { price: 98.72, change: 0.85, pct: 0.87 },
-  'Brent Crude':   { price: 96.51, change: 0.59, pct: 0.62 },
-  'Natural Gas':   { price: 2.672, change: 0.002, pct: 0.07 },
-  'Gasoline RBOB': { price: 3.018, change: 0.018, pct: 0.58 },
-  'Heating Oil':   { price: 3.975, change: 0.038, pct: 0.97 },
-  'Murban Crude':  { price: 99.62, change: 1.98, pct: 2.03 },
-  'Diesel ULSD':   { price: 3.91, change: 0.03, pct: 0.77 },
-  'Jet Fuel':      { price: 4.23, change: 0.05, pct: 1.20 },
-  'Coal':          { price: 107.70, change: -2.10, pct: -1.91 },
-};
-
-var apiResolved = false;
+var EXTRA_CODES = {};
 
 function fetchLivePrices() {
-  var names = Object.keys(API_CODES);
-  var pending = names.length;
-  var liveMap = {};
+  fetch('https://api.oilpriceapi.com/v1/prices/all', {
+    headers: { 'Authorization': 'Token ' + OILPRICE_API_KEY }
+  })
+  .then(function(r) { return r.json(); })
+  .then(function(resp) {
+    if (resp.status !== 'success' || !resp.data || !resp.data.data || !resp.data.data.prices) {
+      console.log('[EPT] API response invalid');
+      return;
+    }
+    var prices = resp.data.data.prices;
+    console.log('[EPT] All Prices API: ' + Object.keys(prices).length + ' commodities received');
+    applyAll(prices);
+  })
+  .catch(function(err) {
+    console.log('[EPT] API error: ' + err.message);
+  });
+}
 
-  names.forEach(function(name) {
-    fetch('https://api.oilpriceapi.com/v1/prices/latest?by_code=' + API_CODES[name], {
-      headers: { 'Authorization': 'Token ' + OILPRICE_API_KEY }
-    })
-    .then(function(r) { return r.json(); })
-    .then(function(d) {
-      if (d.status === 'success' && d.data && d.data.price) {
-        liveMap[name] = parseFloat(d.data.price);
-        liveMap[API_CODES[name]] = parseFloat(d.data.price);
+function applyAll(prices) {
+  var count = 0;
+
+  // 1. Update COMMODITIES (homepage hero, ticker, market table)
+  if (typeof COMMODITIES !== 'undefined') {
+    COMMODITIES.forEach(function(c) {
+      var code = CODE_MAP[c.name];
+      if (code && prices[code]) {
+        var p = prices[code];
+        c.price = p.price;
+        c.change = p.change_24h || 0;
+        c.pct = p.change_24h_percent || 0;
+        c.loading = false;
+        c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
+        count++;
       }
-    })
-    .catch(function() {})
-    .finally(function() {
-      if (--pending === 0) {
-        apiResolved = true;
-        if (Object.keys(liveMap).length > 0) {
-          console.log('[EPT] API success — ' + Object.keys(liveMap).length + ' prices');
-          applyPrices(liveMap, true);
-        } else {
-          console.log('[EPT] API returned no data — using reference prices');
-          applyPrices(null, false);
-        }
+      // Murban = Brent + $1.76
+      if (c.name === 'Murban Crude' && prices['BRENT_CRUDE_USD']) {
+        c.price = +(prices['BRENT_CRUDE_USD'].price + 1.76).toFixed(2);
+        c.change = prices['BRENT_CRUDE_USD'].change_24h || 0;
+        c.pct = prices['BRENT_CRUDE_USD'].change_24h_percent || 0;
+        c.loading = false;
+        c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
+        count++;
       }
     });
-  });
-}
+  }
 
-// Fallback timer — if API doesn't respond in 5 seconds, use reference prices
-function startFallbackTimer() {
-  setTimeout(function() {
-    if (!apiResolved) {
-      console.log('[EPT] API timeout — using reference prices');
-      applyPrices(null, false);
-    }
-  }, 5000);
-}
-
-function applyPrices(liveMap, isLive) {
-  if (typeof COMMODITIES === 'undefined') return;
-
-  COMMODITIES.forEach(function(c) {
-    var src = (liveMap && liveMap[c.name]) ? { price: liveMap[c.name], change: 0, pct: 0 } : REF_PRICES[c.name];
-    if (!src) return;
-    c.price = src.price;
-    c.change = (liveMap && liveMap[c.name]) ? 0 : src.change;
-    c.pct = (liveMap && liveMap[c.name]) ? 0 : src.pct;
-    c.loading = false;
-    c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
-
-    // Murban derived from Brent
-    if (c.name === 'Murban Crude' && liveMap && liveMap['Brent Crude']) {
-      c.price = +(liveMap['Brent Crude'] + 1.76).toFixed(2);
-      c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
-    }
-  });
-
-  // Update OIL_PRICE_SECTIONS Futures table
-  if (typeof OIL_PRICE_SECTIONS !== 'undefined' && OIL_PRICE_SECTIONS[0]) {
-    OIL_PRICE_SECTIONS[0].rows.forEach(function(row) {
-      if (row.apiCode && liveMap && liveMap[row.apiCode]) {
-        var np = liveMap[row.apiCode];
+  // 2. Update ALL OIL_PRICE_SECTIONS with live data
+  if (typeof OIL_PRICE_SECTIONS !== 'undefined') {
+    OIL_PRICE_SECTIONS.forEach(function(section) {
+    section.rows.forEach(function(row) {
+      var code = row.apiCode;
+      if (!code) {
+        Object.keys(CODE_MAP).forEach(function(name) {
+          if (row.name === name) code = CODE_MAP[name];
+        });
+      }
+      if (code && prices[code]) {
+        var p = prices[code];
+        row.change = +(p.price - row.price).toFixed(2);
+        row.pct = row.price > 0 ? +((p.price - row.price) / row.price * 100).toFixed(2) : 0;
+        row.price = p.price;
+        row.live = true;
+      }
+      // Murban derived from Brent
+      if (row.name === 'Murban Crude' && prices['BRENT_CRUDE_USD']) {
+        var np = +(prices['BRENT_CRUDE_USD'].price + 1.76).toFixed(2);
         row.change = +(np - row.price).toFixed(2);
         row.pct = row.price > 0 ? +((np - row.price) / row.price * 100).toFixed(2) : 0;
         row.price = np;
         row.live = true;
       }
-      if (row.name === 'Murban Crude' && liveMap && liveMap['BRENT_CRUDE_USD']) {
-        var np2 = +(liveMap['BRENT_CRUDE_USD'] + 1.76).toFixed(2);
-        row.change = +(np2 - row.price).toFixed(2);
-        row.pct = row.price > 0 ? +((np2 - row.price) / row.price * 100).toFixed(2) : 0;
-        row.price = np2;
-        row.live = true;
-      }
+    });
     });
   }
 
-  // Re-render everything
+  console.log('[EPT] Applied ' + count + ' live commodity prices');
   renderAll();
 }
 
@@ -125,6 +137,7 @@ function renderAll() {
   var mkt = document.getElementById('home-market-table');
   if (mkt && typeof renderMarketTable === 'function') renderMarketTable('home-market-table', true);
 
+  // Subpage hero cards
   var hero = document.getElementById('hero-benchmarks');
   if (hero && typeof sparkline === 'function' && typeof priceChange === 'function') {
     hero.innerHTML = COMMODITIES.slice(0,5).map(function(c) {
@@ -133,31 +146,28 @@ function renderAll() {
     }).join('');
   }
 
-  // Re-render oil prices table
+  // Oil prices page full table re-render
   var sectionsEl = document.getElementById('price-sections');
   if (sectionsEl && typeof OIL_PRICE_SECTIONS !== 'undefined') {
     sectionsEl.innerHTML = OIL_PRICE_SECTIONS.map(function(s, i) {
-      var header = '<div id="price-section-' + i + '" style="scroll-margin-top:100px;margin-bottom:32px">' +
-        '<div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">' +
+      var header = '<div id="price-section-' + i + '" style="scroll-margin-top:100px;margin-bottom:32px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:12px">' +
         (s.flag ? '<span style="font-size:22px">' + s.flag + '</span>' : '') +
         '<h2 style="font-size:17px;margin:0">' + s.title + '</h2>' +
-        (s.subtitle ? '<span style="color:var(--text-3);font-size:12px;font-weight:500">(' + s.subtitle + ')</span>' : '') +
-        '</div>';
-      var table = '<div class="market-table-wrap"><table class="market-table">' +
-        '<thead><tr><th style="text-align:left">Blend / Index</th><th>Price</th><th>Change</th><th>% Change</th></tr></thead><tbody>';
+        (s.subtitle ? '<span style="color:var(--text-3);font-size:12px;font-weight:500">(' + s.subtitle + ')</span>' : '') + '</div>';
+      var table = '<div class="market-table-wrap"><table class="market-table"><thead><tr><th style="text-align:left">Blend / Index</th><th>Price</th><th>Change</th><th>% Change</th></tr></thead><tbody>';
       table += s.rows.map(function(r) {
         var cls = r.change >= 0 ? 'up' : 'down';
         var tag = r.live ? ' <span style="color:#10b981;font-size:9px;font-weight:700;vertical-align:super">LIVE</span>' : '';
         return '<tr><td>'+r.name+tag+'</td><td class="table-price">$'+r.price.toFixed(2)+'</td><td><span class="change '+cls+'">'+(r.change>=0?'+':'')+r.change.toFixed(2)+'</span></td><td><span class="change '+cls+'">'+(r.change>=0?'+':'')+r.pct.toFixed(2)+'%</span></td></tr>';
       }).join('');
-      table += '</tbody></table></div></div>';
-      return header + table;
+      return header + table + '</tbody></table></div></div>';
     }).join('');
   }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Fetch immediately — 1 call gets everything
   fetchLivePrices();
-  startFallbackTimer();
+  // Refresh every 5 minutes
   setInterval(fetchLivePrices, 5 * 60 * 1000);
 });
