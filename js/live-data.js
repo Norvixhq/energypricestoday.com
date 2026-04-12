@@ -146,7 +146,10 @@ function renderAll() {
   if (hero && typeof sparkline === 'function' && typeof priceChange === 'function') {
     hero.innerHTML = COMMODITIES.slice(0,5).map(function(c) {
       if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">'+c.name+'</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating\u2026</div><div class="price-card-footer"><span class="price-card-unit">'+c.unit+'</span></div></div>';
-      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">'+c.name+'</span>'+sparkline(c.spark,c.change>=0?'#10b45c':'#dc3545')+'</div><div class="price-card-value">$'+c.price.toFixed(2)+'</div><div class="price-card-footer">'+priceChange(c.change,c.pct)+'<span class="price-card-unit">'+c.unit+'</span></div></div>';
+      var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
+      var chgArrow = c.change >= 0 ? '\u25B2' : '\u25BC';
+      var chgSign = c.change >= 0 ? '+' : '';
+      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">'+c.name+'</span></div><div class="price-card-value">$'+c.price.toFixed(c.price>100?2:c.price>10?2:3)+'</div><div class="price-card-footer"><span style="color:'+chgColor+';font-size:11px;font-weight:600">'+chgArrow+' '+chgSign+c.pct.toFixed(2)+'%</span><span class="price-card-unit" style="margin-left:auto">'+c.unit+'</span></div><div style="color:var(--text-3);font-size:9px;text-align:center;margin-top:2px">24h change</div></div>';
     }).join('');
   }
 
