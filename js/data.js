@@ -497,11 +497,7 @@ const CATEGORY_CONTENT = {
       { id: 1809, title: "Israel-Lebanon Direct Negotiations Set for Tuesday in Washington", excerpt: "First official talks between the two countries in decades aim to address Hezbollah disarmament and border security.", date: "Apr 12, 2026", author: "Staff", readTime: "5 min" },
       { id: 1810, title: "Global Energy Crisis Deepens as Diplomatic Off-Ramp Narrows", excerpt: "IEA warns current crisis could exceed 1970s oil shocks. European gas prices remain elevated. U.S. consumers face $4+ gas.", date: "Apr 12, 2026", author: "Staff", readTime: "6 min" },
     ],
-    stats: [
-      { label: "Hormuz Transit", value: "21M", sub: "bpd" },
-      { label: "Red Sea Impact", value: "+$1.50", sub: "/bbl premium" },
-      { label: "Russian Exports", value: "4.8M", sub: "bpd to Asia" },
-    ]
+    stats: []
   },
   "company-news": {
     articles: [

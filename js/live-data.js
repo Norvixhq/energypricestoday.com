@@ -158,7 +158,7 @@ function renderAll() {
         (s.flag ? '<span style="font-size:22px">' + s.flag + '</span>' : '') +
         '<h2 style="font-size:17px;margin:0">' + s.title + '</h2>' +
         (s.subtitle ? '<span style="color:var(--text-3);font-size:12px;font-weight:500">(' + s.subtitle + ')</span>' : '') + '</div>';
-      var table = '<div class="market-table-wrap"><table class="market-table"><thead><tr><th style="text-align:left">Blend / Index</th><th>Price</th><th>Change</th><th>% Change</th></tr></thead><tbody>';
+      var table = '<div class="market-table-wrap"><table class="market-table"><thead><tr><th style="text-align:left">Blend / Index</th><th>Price</th><th>24h Change</th><th>24h %</th></tr></thead><tbody>';
       table += s.rows.map(function(r) {
         var cls = r.change >= 0 ? 'up' : 'down';
         var tag = r.live ? ' <span style="color:#10b981;font-size:9px;font-weight:700;vertical-align:super">LIVE</span>' : '';

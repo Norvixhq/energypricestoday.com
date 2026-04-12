@@ -53,12 +53,31 @@ function icon(name, size) {
 }
 
 // ─── SPARKLINE SVG GENERATOR ─────────────────────────────────────
-function sparkline(data, color, w, h) {
-  w = w || 80; h = h || 28;
+function sparkline(data, color) {
   if (!data || data.length < 2) return '';
-  const min = Math.min(...data), max = Math.max(...data), range = max - min || 1;
-  const pts = data.map((v, i) => `${(i / (data.length - 1)) * w},${h - ((v - min) / range) * (h - 4) - 2}`).join(' ');
-  return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" style="display:block"><polyline points="${pts}" fill="none" stroke="${color}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  var w = 60, h = 24, pad = 2;
+  var min = Math.min.apply(null, data), max = Math.max.apply(null, data);
+  var range = max - min || 1;
+  var expanded = [];
+  for (var i = 0; i < data.length - 1; i++) {
+    expanded.push(data[i]);
+    var mid = (data[i] + data[i+1]) / 2;
+    expanded.push(mid + (Math.random() - 0.5) * range * 0.08);
+  }
+  expanded.push(data[data.length - 1]);
+  var pts = expanded.map(function(v, j) {
+    var x = pad + (j / (expanded.length - 1)) * (w - pad * 2);
+    var y = pad + (1 - (v - min) / range) * (h - pad * 2);
+    return x.toFixed(1) + ',' + y.toFixed(1);
+  });
+  var lastPt = pts[pts.length - 1].split(',');
+  var fillPts = pts.join(' ') + ' ' + (w-pad) + ',' + (h-1) + ' ' + pad + ',' + (h-1);
+  var gid = 'sg' + color.replace('#','');
+  return '<svg viewBox="0 0 ' + w + ' ' + h + '" width="' + w + '" height="' + h + '" style="vertical-align:middle;margin-left:6px">' +
+    '<defs><linearGradient id="' + gid + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="' + color + '" stop-opacity="0.25"/><stop offset="100%" stop-color="' + color + '" stop-opacity="0.02"/></linearGradient></defs>' +
+    '<polygon points="' + fillPts + '" fill="url(#' + gid + ')"/>' +
+    '<polyline points="' + pts.join(' ') + '" fill="none" stroke="' + color + '" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>' +
+    '<circle cx="' + lastPt[0] + '" cy="' + lastPt[1] + '" r="1.8" fill="' + color + '"/></svg>';
 }
 
 // ─── PRICE CHANGE HTML ───────────────────────────────────────────
