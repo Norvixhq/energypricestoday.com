@@ -91,7 +91,7 @@ function priceChange(change, pct) {
 
 // ─── CATEGORY PILL ───────────────────────────────────────────────
 function catPill(cat, slug) {
-  if (slug) return `<a class="cat-pill" href="category/${slug}.html">${cat}</a>`;
+  if (slug) return `<a class="cat-pill" href="category/${slug}/">${cat}</a>`;
   return `<span class="cat-pill">${cat}</span>`;
 }
 
@@ -99,26 +99,26 @@ function catPill(cat, slug) {
 function renderHeader(activePage) {
   const nav = [
     { label: 'Home', href: 'index.html' },
-    { label: 'Gas Prices', href: 'category/gas-prices.html' },
-    { label: 'Oil Prices', href: 'oil-prices.html' },
-    { label: 'Geopolitics', href: 'category/geopolitics.html' },
-    { label: 'Markets', href: 'markets.html', dropdown: [
-      { label: 'Crude Oil', href: 'category/crude-oil.html' },
-      { label: 'Natural Gas', href: 'category/natural-gas.html' },
-      { label: 'Heating Oil', href: 'category/heating-oil.html' },
-      { label: 'Oil Futures', href: 'oil-futures.html' },
+    { label: 'Gas Prices', href: 'category/gas-prices/' },
+    { label: 'Oil Prices', href: 'oil-prices/' },
+    { label: 'Geopolitics', href: 'category/geopolitics/' },
+    { label: 'Markets', href: 'markets/', dropdown: [
+      { label: 'Crude Oil', href: 'category/crude-oil/' },
+      { label: 'Natural Gas', href: 'category/natural-gas/' },
+      { label: 'Heating Oil', href: 'category/heating-oil/' },
+      { label: 'Oil Futures', href: 'oil-futures/' },
     ]},
-    { label: 'Rig Count', href: 'rig-count.html' },
-    { label: 'Company News', href: 'category/company-news.html' },
-    { label: 'Energy', href: 'category/energy.html' },
-    { label: 'Alt Energy', href: 'category/alternative-energy.html', dropdown: [
-      { label: 'Nuclear', href: 'category/nuclear.html' },
-      { label: 'Solar', href: 'category/solar.html' },
-      { label: 'Wind', href: 'category/wind.html' },
-      { label: 'Renewables', href: 'category/renewable-energy.html' },
+    { label: 'Rig Count', href: 'rig-count/' },
+    { label: 'Company News', href: 'category/company-news/' },
+    { label: 'Energy', href: 'category/energy/' },
+    { label: 'Alt Energy', href: 'category/alternative-energy/', dropdown: [
+      { label: 'Nuclear', href: 'category/nuclear/' },
+      { label: 'Solar', href: 'category/solar/' },
+      { label: 'Wind', href: 'category/wind/' },
+      { label: 'Renewables', href: 'category/renewable-energy/' },
     ]},
-    { label: 'About', href: 'about.html' },
-    { label: 'Contact', href: 'contact.html' },
+    { label: 'About', href: 'about/' },
+    { label: 'Contact', href: 'contact/' },
   ];
 
   // Fix paths for pages in subdirectories
@@ -183,11 +183,11 @@ function renderHeader(activePage) {
         </div>
         <div class="search-hints">
           <span class="search-hint-label">Popular:</span>
-          <a href="${prefix}category/oil-prices.html" class="search-hint-tag">Oil Prices</a>
-          <a href="${prefix}category/natural-gas.html" class="search-hint-tag">Natural Gas</a>
-          <a href="${prefix}category/geopolitics.html" class="search-hint-tag">Geopolitics</a>
+          <a href="${prefix}category/oil-prices/" class="search-hint-tag">Oil Prices</a>
+          <a href="${prefix}category/natural-gas/" class="search-hint-tag">Natural Gas</a>
+          <a href="${prefix}category/geopolitics/" class="search-hint-tag">Geopolitics</a>
           <a href="${prefix}markets.html" class="search-hint-tag">Markets</a>
-          <a href="${prefix}category/alternative-energy.html" class="search-hint-tag">Alt Energy</a>
+          <a href="${prefix}category/alternative-energy/" class="search-hint-tag">Alt Energy</a>
         </div>
       </div>
     </div>
@@ -266,7 +266,7 @@ function initNewsletter() {
     if (!email) return;
     var wrap = document.getElementById('newsletter-wrap');
     // Submit to Formspree
-    fetch('https://formspree.io/f/xpwdjkvo', {
+    fetch('https://formspree.io/f/mzdypypl', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: email, source: 'energypricestoday-newsletter' })
@@ -305,9 +305,9 @@ function renderFooter() {
             <div class="footer-heading">Markets</div>
             <div class="footer-links">
               <a href="${p}oil-prices.html">Oil Prices</a>
-              <a href="${p}category/natural-gas.html">Natural Gas</a>
-              <a href="${p}category/gas-prices.html">Gas Prices</a>
-              <a href="${p}category/heating-oil.html">Heating Oil</a>
+              <a href="${p}category/natural-gas/">Natural Gas</a>
+              <a href="${p}category/gas-prices/">Gas Prices</a>
+              <a href="${p}category/heating-oil/">Heating Oil</a>
               <a href="${p}oil-futures.html">Oil Futures</a>
               <a href="${p}markets.html">All Markets</a>
             </div>
@@ -315,12 +315,12 @@ function renderFooter() {
           <div>
             <div class="footer-heading">Coverage</div>
             <div class="footer-links">
-              <a href="${p}category/energy.html">Energy</a>
-              <a href="${p}category/geopolitics.html">Geopolitics</a>
-              <a href="${p}category/company-news.html">Company News</a>
+              <a href="${p}category/energy/">Energy</a>
+              <a href="${p}category/geopolitics/">Geopolitics</a>
+              <a href="${p}category/company-news/">Company News</a>
               <a href="${p}rig-count.html">Rig Count</a>
-              <a href="${p}category/alternative-energy.html">Alternative Energy</a>
-              <a href="${p}category/crude-oil.html">Crude Oil</a>
+              <a href="${p}category/alternative-energy/">Alternative Energy</a>
+              <a href="${p}category/crude-oil/">Crude Oil</a>
             </div>
           </div>
           <div>
@@ -363,7 +363,7 @@ function renderMarketTable(containerId, compact) {
           <td><span style="color:var(--text-3)">\u2014</span></td>
           <td><span style="color:var(--text-3)">\u2014</span></td>
           <td></td>
-          <td class="table-unit">${c.unit}</td>
+          
         </tr>`;
       }
       const color = c.change >= 0 ? '#22c55e' : '#ef4444';
@@ -373,7 +373,7 @@ function renderMarketTable(containerId, compact) {
         <td><span class="change ${c.change >= 0 ? 'up' : 'down'}">${c.change >= 0 ? '+' : ''}${c.change.toFixed(2)}</span></td>
         <td><span class="change ${c.pct >= 0 ? 'up' : 'down'}">${c.pct >= 0 ? '+' : ''}${c.pct.toFixed(2)}%</span></td>
         <td style="text-align:right">${sparkline(c.spark, color, 60, 24)}</td>
-        <td class="table-unit">${c.unit}</td>
+        
       </tr>`;
     }).join('');
 
@@ -386,7 +386,7 @@ function renderMarketTable(containerId, compact) {
       <div class="market-table-wrap">
         <table class="market-table">
           <thead><tr>
-            <th style="text-align:left">Commodity</th><th>Price</th><th>Change</th><th>% Change</th><th>Unit</th>
+            <th style="text-align:left">Commodity</th><th>Price</th><th>Change</th><th>% Change</th>
           </tr></thead>
           <tbody>${rows}</tbody>
         </table>
