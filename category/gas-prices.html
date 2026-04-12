@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','957762016897581');fbq('track','PageView');
+</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://api.rss2json.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gas Prices News & Analysis — EnergyPricesToday.com</title>
+  <meta name="description" content="Retail and wholesale gasoline pricing across the United States.">
+  
+  <link rel="canonical" href="https://www.energypricestoday.com/category/gas-prices.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Gas Prices News & Data — EnergyPricesToday.com">
+  <meta property="og:description" content="Retail and wholesale gasoline pricing across the United States.">
+  <meta property="og:url" content="https://www.energypricestoday.com/category/gas-prices.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Gas Prices News & Data — EnergyPricesToday.com">
+  <meta name="twitter:description" content="Retail and wholesale gasoline pricing across the United States.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Gas Prices News & Data","description":"Retail and wholesale gasoline pricing across the United States.","url":"https://www.energypricestoday.com/category/gas-prices.html","isPartOf":{"@type":"WebSite","name":"EnergyPricesToday.com","url":"https://www.energypricestoday.com"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.energypricestoday.com/"},{"@type":"ListItem","position":2,"name":"Gas Prices News & Data"}]}</script>
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+</head>
+<body>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="../index/" style="color:#3d8fd4">Home</a><a href="../markets.html" style="color:#8891a5">Markets</a><a href="../oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="../category/energy/" style="color:#8891a5">Energy</a><a href="../category/geopolitics/" style="color:#8891a5">Geopolitics</a><a href="../about.html" style="color:#8891a5">About</a><a href="../contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
+  <main>
+    <div class="container" style="padding-top:32px;padding-bottom:60px">
+      <nav class="breadcrumbs">
+        <a href="../index/">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        <span>Gas Prices</span>
+      </nav>
+
+      <div class="stat-row" id="cat-stats" style="display:none"></div>
+      
+    
+
+      
+    <!-- U.S. Gas Prices — All 50 States + DC -->
+    <section style="margin-bottom:28px">
+      <div class="data-callout" style="margin-bottom:20px">
+        <div class="data-callout-label" id="gas-source-top"></div>
+        <div style="display:flex;align-items:baseline;gap:12px;flex-wrap:wrap">
+          <div class="data-callout-value" id="national-price">—</div>
+          <div id="national-grades-row" style="display:flex;gap:16px;flex-wrap:wrap"></div>
+        </div>
+      </div>
+      <div class="company-directory-wrap">
+        <table class="market-table" id="gas-state-table">
+          <thead><tr>
+            <th style="text-align:left">State</th>
+            <th>Regular</th>
+            <th>Mid-Grade</th>
+            <th>Premium</th>
+            <th>Diesel</th>
+          </tr></thead>
+          <tbody id="gas-state-tbody"></tbody>
+        </table>
+      </div>
+      <div style="color:var(--text-3);font-size:11px;margin-top:10px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px">
+        <span>Source: EIA Weekly Retail Gasoline and Diesel Prices</span>
+        <span>Data may reflect 1-week delay from survey collection</span>
+      </div>
+    </section>
+<div class="cat-icon-wrap">
+        <div class="cat-icon-box" id="cat-icon"></div>
+        <div><h1 style="margin:0">Gas Prices</h1></div>
+      </div>
+      <p class="cat-desc">Retail and wholesale gasoline pricing across the United States.</p>
+
+      <div class="cat-content-full">
+        <!-- Articles column -->
+        <div>
+          <!-- Featured article -->
+          <a href="" class="article-featured" id="feat-link" style="margin-bottom:20px">
+            <div class="article-featured-body">
+              <span style="color:#e8860c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px">Featured</span>
+              <h3 id="feat-title"></h3>
+              <p id="feat-excerpt"></p>
+              <div class="article-meta" id="feat-meta"></div>
+            </div>
+          </a>
+
+          <!-- Article list -->
+          <div id="article-list"></div>
+
+          <button class="btn-load-more" style="margin-top:24px">Load More Articles</button>
+        </div>
+
+        <!-- Sidebar -->
+      </div>
+    </div>
+
+    <!-- Related Gas Price Articles -->
+    <section style="margin:24px 0" id="gas-related-articles">
+      <h3 style="font-size:16px;margin-bottom:14px">Understanding Gas Prices</h3>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px" id="gas-article-links"></div>
+    </section>
+<!-- FAQ -->
+    <section class="section" id="faq-section" style="display:none"><div class="container">
+      <div class="context-block">
+        <h3 id="faq-heading"></h3>
+        <div class="faq-section" id="faq-container"></div>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="../js/data.js"></script>
+  <script src="../js/article-slugs.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/live-data.js"></script>
+  <script src="../js/news-feed.js"></script>
+  <script>
+    const catSlug = 'gas-prices';
+    const catIcon = 'fuel';
+
+    // Icons
+    document.getElementById('cat-icon').innerHTML = icon(catIcon, 24);
+
+    // Category-specific content
+    var catData = (typeof CATEGORY_CONTENT !== "undefined" && CATEGORY_CONTENT[catSlug]) ? CATEGORY_CONTENT[catSlug] : { articles: CATEGORY_ARTICLES, stats: [] };
+    var catArticles = catData.articles || CATEGORY_ARTICLES;
+
+    // Stat cards
+    if (catData.stats && catData.stats.length > 0) {
+      document.getElementById("cat-stats").innerHTML = catData.stats.map(function(s) {
+        return "<div class=\"stat-box\"><div class=\"stat-box-label\">" + s.label + "</div><div class=\"stat-box-value\">" + s.value + "</div><div class=\"stat-box-sub\" style=\"color:var(--blue)\">" + s.sub + "</div></div>";
+      }).join("");
+    }
+
+    // Featured article
+    const feat = catArticles[0];
+    document.getElementById('feat-title').textContent = feat.title;
+    document.getElementById('feat-excerpt').textContent = feat.excerpt;
+    document.getElementById('feat-meta').innerHTML = '<span>'+feat.author+'</span><span>'+feat.date+'</span><span>'+feat.readTime+' read</span>';
+    var featLink = document.getElementById('feat-link');
+    if (featLink) featLink.href = articleUrl(catArticles[0].title);
+
+    // Article list
+    document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
+      <a href="${articleUrl(a.title)}" class="article-list-item">
+        
+        <div>
+          <h3>${a.title}</h3>
+          <div class="article-meta-sm"><span>${a.author}</span><span>${a.date}</span><span>${a.readTime}</span></div>
+        </div>
+      </a>
+    `).join('');
+
+    // 50-state table
+    if (typeof GAS_PRICES_BY_STATE !== 'undefined') {
+      document.getElementById('gas-state-tbody').innerHTML = GAS_PRICES_BY_STATE.map(function(s) {
+        var e85 = s.e85 ? '$' + s.e85.toFixed(2) : '<span style="color:var(--text-3)">—</span>';
+        return '<tr>' +
+          '<td style="font-weight:600;white-space:nowrap">' + s.flag + ' ' + s.state + '</td>' +
+          '<td style="text-align:right;font-weight:600;color:var(--text-1)">$' + s.regular.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.mid.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.premium.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.diesel.toFixed(2) + '</td>' +
+          '<td style="text-align:right">' + e85 + '</td></tr>';
+      }).join('');
+    }
+
+    
+    // Gas prices display
+    if (typeof US_GAS_NATIONAL !== 'undefined') {
+      var n = US_GAS_NATIONAL;
+      document.getElementById('gas-source-top').textContent = 'U.S. National Average — ' + n.source + ' — ' + n.updated;
+      document.getElementById('national-price').innerHTML = '$' + n.regular.toFixed(2) + '<span style="font-size:14px;color:var(--text-2);margin-left:6px">/gal regular</span>';
+      document.getElementById('national-grades-row').innerHTML = [
+        ['Mid', n.mid], ['Premium', n.premium], ['Diesel', n.diesel]
+      ].map(function(g) {
+        return '<span style="color:var(--text-2);font-size:13px"><span style="color:var(--text-3)">' + g[0] + ':</span> <strong style="color:var(--text-1)">$' + g[1].toFixed(2) + '</strong></span>';
+      }).join('');
+    }
+    if (typeof GAS_PRICES_BY_STATE !== 'undefined') {
+      document.getElementById('gas-state-tbody').innerHTML = GAS_PRICES_BY_STATE.map(function(s) {
+        return '<tr>' +
+          '<td style="white-space:nowrap"><span style="display:inline-block;width:28px;height:18px;background:var(--surface);border:1px solid var(--border);border-radius:3px;text-align:center;font-size:10px;font-weight:700;line-height:18px;color:var(--text-2);margin-right:6px">' + s.abbr + '</span>' + s.state + '</td>' +
+          '<td style="text-align:right;font-weight:600;color:var(--text-1)">$' + s.regular.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.mid.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.premium.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.diesel.toFixed(2) + '</td></tr>';
+      }).join('');
+    }
+
+    // Render FAQ if available
+    if (typeof CATEGORY_FAQS !== 'undefined' && CATEGORY_FAQS[catSlug]) {
+      document.getElementById('faq-section').style.display = '';
+      document.getElementById('faq-heading').innerHTML = icon('zap',16) + ' Frequently Asked Questions';
+      document.getElementById('faq-container').innerHTML = CATEGORY_FAQS[catSlug].map(function(f) {
+        return '<div class="faq-item"><div class="faq-q">' + f.q + '</div><div class="faq-a">' + f.a + '</div></div>';
+      }).join('');
+    }
+    if (typeof GAS_PRICES_BY_STATE !== 'undefined') {
+      document.getElementById('gas-state-tbody').innerHTML = GAS_PRICES_BY_STATE.map(function(s) {
+        return '<tr><td style="font-weight:600">' + s.state + '</td>' +
+          '<td style="text-align:right;color:var(--text-1);font-weight:600">$' + s.regular.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.mid.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.premium.toFixed(2) + '</td>' +
+          '<td style="text-align:right">$' + s.diesel.toFixed(2) + '</td></tr>';
+      }).join('');
+    }
+
+    // Gas price related articles
+    var gasArticles = [
+      { title: 'Gas Prices Today U.S. National and State Averages April 2026', desc: 'Current national and state-by-state breakdown' },
+      { title: 'Why Are Gas Prices So High What Drives Pump Prices in 2026', desc: 'Understanding the factors behind elevated pump prices' },
+      { title: 'U.S. Diesel Prices Why Diesel Costs More Than Gasoline', desc: 'The structural reasons diesel commands a premium' },
+      { title: 'Strait of Hormuz Why This Chokepoint Controls Global Oil Prices', desc: 'How geopolitics affects what you pay at the pump' },
+    ];
+    var gaEl = document.getElementById('gas-article-links');
+    if (gaEl) {
+      gaEl.innerHTML = gasArticles.map(function(a) {
+        return '<a href="' + articleUrl(a.title) + '" style="background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--blue);border-radius:0 var(--radius) var(--radius) 0;padding:14px 16px;display:block;transition:border-color .15s"><div style="font-weight:600;color:var(--text-1);font-size:13px;margin-bottom:3px">' + a.title.substring(0,50) + '...</div><div style="color:var(--text-3);font-size:11.5px">' + a.desc + '</div></a>';
+      }).join('');
+    }
+  </script>
+</body>
+</html>
