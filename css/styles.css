@@ -1219,3 +1219,12 @@ a.article-featured{pointer-events:auto}
 /* Performance: GPU-accelerated animations */
 .price-card,.market-table tr,.article-list-item{will-change:auto;contain:layout style}
 .ticker-scroll{will-change:transform}
+
+/* Logo glow effect */
+.logo-img,.site-logo,.site-logo-text,a[href*='index'] .logo-img{
+  filter:drop-shadow(0 0 8px rgba(61,143,212,0.4)) drop-shadow(0 0 20px rgba(61,143,212,0.15));
+  transition:filter 0.3s ease;
+}
+.site-logo:hover,.site-logo-text:hover{
+  filter:drop-shadow(0 0 12px rgba(61,143,212,0.6)) drop-shadow(0 0 30px rgba(61,143,212,0.25));
+}

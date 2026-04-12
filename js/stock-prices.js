@@ -1,5 +1,5 @@
 var FINNHUB_KEY = 'd7dsf2pr01qmm59ebskgd7dsf2pr01qmm59ebsl0';
-var US_TICKERS = ['XOM','CVX','COP','SHEL','TTE','BP','EOG','PXD','DVN','SLB','HAL','BKR','LNG','FANG','MPC','VLO','PSX','SU','EC','YPF'];
+var US_TICKERS = ['XOM','CVX','COP','SHEL','TTE','BP','EOG','DVN','SLB','HAL','BKR','LNG','FANG','MPC','VLO','PSX','SU','EC','YPF'];
 
 function fetchStockPrices() {
   var tables = document.querySelectorAll('.company-table');
@@ -24,7 +24,7 @@ function fetchStockPrices() {
       if (US_TICKERS.indexOf(ticker) > -1) {
         td.innerHTML = '<span style="color:var(--text-3);font-size:11px">Loading...</span>';
       } else {
-        td.innerHTML = '<span style="color:var(--text-3);font-size:11px">N/A</span>';
+        td.innerHTML = '<span style="color:var(--text-3);font-size:11px">Not Available</span>';
       }
       row.insertBefore(td, row.children[2]);
     });

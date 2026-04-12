@@ -372,7 +372,7 @@ function renderMarketTable(containerId, compact) {
         <td class="table-price">$${c.price.toFixed(2)}</td>
         <td><span class="change ${c.change >= 0 ? 'up' : 'down'}">${c.change >= 0 ? '+' : ''}${c.change.toFixed(2)}</span></td>
         <td><span class="change ${c.pct >= 0 ? 'up' : 'down'}">${c.pct >= 0 ? '+' : ''}${c.pct.toFixed(2)}%</span></td>
-        <td style="text-align:right">${sparkline(c.spark, color, 60, 24)}</td>
+
         
       </tr>`;
     }).join('');
