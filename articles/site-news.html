@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://api.rss2json.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site News & Updates — EnergyPricesToday.com</title>
+  <meta name="description" content="The latest updates about EnergyPricesToday.com features, improvements, and announcements.">
+  
+  <link rel="canonical" href="https://www.energypricestoday.com/site-news.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Site News & Updates — EnergyPricesToday.com">
+  <meta property="og:description" content="The latest updates about EnergyPricesToday.com features and improvements.">
+  <meta property="og:url" content="https://www.energypricestoday.com/site-news.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Site News & Updates — EnergyPricesToday.com">
+  <meta name="twitter:description" content="The latest updates about EnergyPricesToday.com features and improvements.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+</head>
+<body>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="index.html" style="color:#3d8fd4">Home</a><a href="markets.html" style="color:#8891a5">Markets</a><a href="oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="oil-futures.html" style="color:#8891a5">Oil Futures</a><a href="rig-count.html" style="color:#8891a5">Rig Count</a><a href="category/energy.html" style="color:#8891a5">Energy</a><a href="category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="category/company-news.html" style="color:#8891a5">Company News</a><a href="category/alternative-energy.html" style="color:#8891a5">Alt Energy</a><a href="about.html" style="color:#8891a5">About</a><a href="contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
+  <main>
+    <div class="container" style="max-width:800px;padding-top:36px;padding-bottom:60px">
+      <nav class="breadcrumbs"><a href="index.html">Home</a> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg> <span>Site News</span></nav>
+      <h1>Site News &amp; Updates</h1>
+      <p style="color:#9ca3af;font-size:15px;margin:10px 0 36px">The latest updates about EnergyPricesToday.com features, improvements, and announcements.</p>
+      <div id="site-news-list"></div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/article-slugs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/live-data.js"></script>
+  <script src="js/news-feed.js"></script>
+  <script>
+    const siteNews = [
+      { title: "Welcome to EnergyPricesToday.com", date: "Mar 31, 2026", body: "We're excited to launch EnergyPricesToday.com — a modern energy intelligence platform designed to give you clean, fast access to oil, gas, and energy market data without the clutter. Our goal is to be the most readable, most organized energy news source on the web." },
+      { title: "Live Market Data Integration Coming Soon", date: "Mar 28, 2026", body: "We're working on integrating real-time market data feeds for all major crude benchmarks, natural gas, and refined products. Stay tuned for live price updates directly on the homepage and our Markets hub." },
+      { title: "Category Pages Now Live", date: "Mar 25, 2026", body: "All major category pages are now available — from Oil Prices and Natural Gas to Geopolitics and Alternative Energy. Each page features curated content, market context, and easy navigation to related topics." },
+    ];
+    document.getElementById('site-news-list').innerHTML = siteNews.map(item => `
+      <div class="site-news-item">
+        <div class="flex items-center gap-12" style="margin-bottom:12px">
+          <div class="site-news-icon">${icon('bell',16)}</div>
+          <div>
+            <h3>${item.title}</h3>
+            <span class="site-news-date">${item.date}</span>
+          </div>
+        </div>
+        <p class="site-news-body">${item.body}</p>
+      </div>
+    `).join('');
+  </script>
+</body>
+</html>

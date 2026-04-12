@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://api.rss2json.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energy News & Analysis — EnergyPricesToday.com</title>
+  <meta name="description" content="Comprehensive energy sector news spanning oil, gas, power, and renewables.">
+  
+  <link rel="canonical" href="https://www.energypricestoday.com/category/energy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Energy News & Analysis — EnergyPricesToday.com">
+  <meta property="og:description" content="Comprehensive energy sector coverage spanning oil, gas, and power.">
+  <meta property="og:url" content="https://www.energypricestoday.com/category/energy.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Energy News & Analysis — EnergyPricesToday.com">
+  <meta name="twitter:description" content="Comprehensive energy sector coverage spanning oil, gas, and power.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Energy News & Analysis","description":"Comprehensive energy sector coverage spanning oil, gas, and power.","url":"https://www.energypricestoday.com/category/energy.html","isPartOf":{"@type":"WebSite","name":"EnergyPricesToday.com","url":"https://www.energypricestoday.com"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.energypricestoday.com/"},{"@type":"ListItem","position":2,"name":"Energy News & Analysis"}]}</script>
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+</head>
+<body>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="../index.html" style="color:#3d8fd4">Home</a><a href="../markets.html" style="color:#8891a5">Markets</a><a href="../oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="../category/energy.html" style="color:#8891a5">Energy</a><a href="../category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="../about.html" style="color:#8891a5">About</a><a href="../contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
+  <main>
+    <div class="container" style="padding-top:32px;padding-bottom:60px">
+      <nav class="breadcrumbs">
+        <a href="../index.html">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m9 18 6-6-6-6"/></svg>
+        <span>Energy</span>
+      </nav>
+
+      <div class="stat-row" id="cat-stats" style="margin-bottom:24px"></div>
+      <div class="cat-icon-wrap">
+        <div class="cat-icon-box" id="cat-icon"></div>
+        <div><h1 style="margin:0">Energy</h1></div>
+      </div>
+      <p class="cat-desc">Comprehensive energy sector news spanning oil, gas, power, and renewables.</p>
+
+      <div class="cat-content-full">
+        <!-- Articles column -->
+        <div>
+          <!-- Featured article -->
+          <a href="" class="article-featured" id="feat-link" style="margin-bottom:20px">
+            <div class="article-featured-body">
+              <span style="color:#e8860c;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px">Featured</span>
+              <h3 id="feat-title"></h3>
+              <p id="feat-excerpt"></p>
+              <div class="article-meta" id="feat-meta"></div>
+            </div>
+          </a>
+
+          <!-- Article list -->
+          <div id="article-list"></div>
+
+          <button class="btn-load-more" style="margin-top:24px">Load More Articles</button>
+        </div>
+
+        <!-- Sidebar -->
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <section class="section" id="faq-section" style="display:none"><div class="container">
+      <div class="context-block">
+        <h3 id="faq-heading"></h3>
+        <div class="faq-section" id="faq-container"></div>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="../js/data.js"></script>
+  <script src="../js/article-slugs.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/live-data.js"></script>
+  <script src="../js/news-feed.js"></script>
+  <script>
+    const catSlug = 'energy';
+    const catIcon = 'zap';
+
+    // Icons
+    document.getElementById('cat-icon').innerHTML = icon(catIcon, 24);
+
+    // Category-specific content
+    var catData = (typeof CATEGORY_CONTENT !== "undefined" && CATEGORY_CONTENT[catSlug]) ? CATEGORY_CONTENT[catSlug] : { articles: CATEGORY_ARTICLES, stats: [] };
+    var catArticles = catData.articles || CATEGORY_ARTICLES;
+
+    // Stat cards
+    if (catData.stats && catData.stats.length > 0) {
+      document.getElementById("cat-stats").innerHTML = catData.stats.map(function(s) {
+        return "<div class=\"stat-box\"><div class=\"stat-box-label\">" + s.label + "</div><div class=\"stat-box-value\">" + s.value + "</div><div class=\"stat-box-sub\" style=\"color:var(--blue)\">" + s.sub + "</div></div>";
+      }).join("");
+    }
+
+    // Featured article
+    const feat = catArticles[0];
+    document.getElementById('feat-title').textContent = feat.title;
+    document.getElementById('feat-excerpt').textContent = feat.excerpt;
+    document.getElementById('feat-meta').innerHTML = '<span>'+feat.author+'</span><span>'+feat.date+'</span><span>'+feat.readTime+' read</span>';
+    var featLink = document.getElementById('feat-link');
+    if (featLink) featLink.href = articleUrl(catArticles[0].title);
+
+    // Article list
+    document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
+      <a href="${articleUrl(a.title)}" class="article-list-item">
+        
+        <div>
+          <h3>${a.title}</h3>
+          <div class="article-meta-sm"><span>${a.author}</span><span>${a.date}</span><span>${a.readTime}</span></div>
+        </div>
+      </a>
+    `).join('');
+
+    // Render FAQ if available
+    if (typeof CATEGORY_FAQS !== 'undefined' && CATEGORY_FAQS[catSlug]) {
+      document.getElementById('faq-section').style.display = '';
+      document.getElementById('faq-heading').innerHTML = icon('zap',16) + ' Frequently Asked Questions';
+      document.getElementById('faq-container').innerHTML = CATEGORY_FAQS[catSlug].map(function(f) {
+        return '<div class="faq-item"><div class="faq-q">' + f.q + '</div><div class="faq-a">' + f.a + '</div></div>';
+      }).join('');
+    }
+  </script>
+</body>
+</html>
