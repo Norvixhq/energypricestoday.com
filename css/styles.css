@@ -1185,3 +1185,8 @@ a.article-featured{pointer-events:auto}
 
 /* Reduce paint on scroll */
 .site-header{will-change:auto;backface-visibility:hidden}
+
+/* 10-card commodity grid — 5x2 on desktop */
+.grid-10{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+@media(max-width:1099px){.grid-10{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:599px){.grid-10{grid-template-columns:repeat(2,1fr)}}

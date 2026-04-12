@@ -78,18 +78,22 @@ function applyAll(prices) {
       var code = CODE_MAP[c.name];
       if (code && prices[code]) {
         var p = prices[code];
+        var oldPrice = c.price || p.price;
         c.price = p.price;
-        c.change = p.change_24h || 0;
-        c.pct = p.change_24h_percent || 0;
+        // Try multiple field names for change data
+        c.change = p.change_24h || p.change || p.daily_change || +(p.price - oldPrice).toFixed(2);
+        c.pct = p.change_24h_percent || p.change_percent || p.daily_change_percent || (oldPrice > 0 ? +((p.price - oldPrice) / oldPrice * 100).toFixed(2) : 0);
         c.loading = false;
         c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
         count++;
       }
       // Murban = Brent + $1.76
       if (c.name === 'Murban Crude' && prices['BRENT_CRUDE_USD']) {
-        c.price = +(prices['BRENT_CRUDE_USD'].price + 1.76).toFixed(2);
-        c.change = prices['BRENT_CRUDE_USD'].change_24h || 0;
-        c.pct = prices['BRENT_CRUDE_USD'].change_24h_percent || 0;
+        var bp = prices['BRENT_CRUDE_USD'];
+        var oldMurban = c.price || (bp.price + 1.76);
+        c.price = +(bp.price + 1.76).toFixed(2);
+        c.change = bp.change_24h || bp.change || +(c.price - oldMurban).toFixed(2);
+        c.pct = bp.change_24h_percent || bp.change_percent || (oldMurban > 0 ? +((c.price - oldMurban) / oldMurban * 100).toFixed(2) : 0);
         c.loading = false;
         c.spark = [c.price*.97,c.price*.98,c.price*.99,c.price*.995,c.price*.998,c.price,c.price];
         count++;

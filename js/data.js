@@ -13,6 +13,7 @@ const COMMODITIES = [
   { name: "Diesel ULSD", price: 3.91, change: 0.03, pct: 0.77, unit: "$/gal", spark: [3.86,3.87,3.88,3.89,3.90,3.90,3.91], loading: false },
   { name: "Jet Fuel", price: 4.23, change: 0.05, pct: 1.20, unit: "$/gal", spark: [4.16,4.17,4.18,4.19,4.21,4.22,4.23], loading: false },
   { name: "Coal", price: 107.70, change: -2.10, pct: -1.91, unit: "$/ton", spark: [110,109.5,109,108.5,108,107.8,107.7], loading: false },
+  { name: "Gold", price: 2345.00, change: 12.50, pct: 0.54, unit: "$/oz", spark: [2320,2328,2332,2338,2340,2343,2345], loading: false },
 ];
 
 const FULL_PRICES = {
@@ -485,11 +486,16 @@ const CATEGORY_CONTENT = {
   },
   "geopolitics": {
     articles: [
-      { id: 1801, title: "Red Sea Attacks Force 60% of Tanker Traffic to Reroute Around Africa", excerpt: "Houthi missile and drone strikes continue to disrupt commercial shipping through the Bab el-Mandeb strait, adding $1-2/barrel to delivered crude costs.", date: "Apr 4, 2026", author: "Staff", readTime: "7 min" },
-      { id: 1802, title: "U.S. Tightens Sanctions Enforcement on Russian Oil Price Cap", excerpt: "The Treasury Department blacklists 14 additional tankers suspected of transporting Russian crude above the $60/barrel ceiling.", date: "Apr 3, 2026", author: "Staff", readTime: "6 min" },
-      { id: 1803, title: "Venezuela Sanctions Relief Under Review as Election Promises Stall", excerpt: "Washington weighs re-imposing oil sector restrictions after Caracas fails to meet democratic reform benchmarks.", date: "Apr 2, 2026", author: "Staff", readTime: "5 min" },
-      { id: 1804, title: "Saudi-Iran Détente Reduces Persian Gulf Risk Premium", excerpt: "Diplomatic normalization between Riyadh and Tehran continues to ease tensions around the Strait of Hormuz chokepoint.", date: "Apr 1, 2026", author: "Staff", readTime: "5 min" },
-      { id: 1805, title: "Nigeria Pipeline Security Improves 40% Under New Government Program", excerpt: "Reduced sabotage and theft in the Niger Delta enable Bonny Light production to recover toward 2019 levels.", date: "Mar 31, 2026", author: "Staff", readTime: "4 min" },
+      { id: 1801, title: "Islamabad Talks Collapse After 21-Hour Marathon — No Deal Reached Between U.S. and Iran", excerpt: "The highest-level U.S.-Iran negotiations since 1979 ended without agreement. Vance blamed Iran for refusing nuclear commitments. Trump announces full naval blockade of Hormuz.", date: "Apr 12, 2026", author: "Staff", readTime: "8 min" },
+      { id: 1802, title: "Trump Announces Full Naval Blockade of Strait of Hormuz", excerpt: "Following failed Islamabad talks, President Trump orders U.S. Navy to blockade the strait and interdict all vessels that paid transit tolls to Iran.", date: "Apr 12, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1803, title: "Ceasefire Expires April 22 With No Extension in Sight", excerpt: "The two-week truce brokered by Pakistan runs out in 10 days. Without a deal, the conflict could resume with even greater intensity.", date: "Apr 12, 2026", author: "Staff", readTime: "5 min" },
+      { id: 1804, title: "Iran Nuclear Program Remains Central Sticking Point in U.S. Negotiations", excerpt: "Tehran refuses to commit to ending uranium enrichment — Washington calls it the core requirement for any deal.", date: "Apr 12, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1805, title: "Israel Struck 200+ Hezbollah Targets During Islamabad Peace Talks", excerpt: "Military operations in Lebanon continued unabated even as diplomats negotiated in Pakistan, complicating ceasefire prospects.", date: "Apr 12, 2026", author: "Staff", readTime: "5 min" },
+      { id: 1806, title: "Pakistan Urges Continued Diplomacy After U.S.-Iran Talks End Without Deal", excerpt: "PM Sharif calls on both sides to uphold ceasefire commitments while keeping diplomatic channels open.", date: "Apr 12, 2026", author: "Staff", readTime: "4 min" },
+      { id: 1807, title: "Oil Markets Face Renewed Volatility as Islamabad Talks Fail", excerpt: "Crude prices expected to surge when markets open Monday as geopolitical risk premium rebuilds after diplomatic breakdown.", date: "Apr 12, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1808, title: "Strait of Hormuz: From Iranian Blockade to U.S. Naval Blockade", excerpt: "The world's most critical oil chokepoint faces competing closure threats from both sides of the conflict.", date: "Apr 12, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1809, title: "Israel-Lebanon Direct Negotiations Set for Tuesday in Washington", excerpt: "First official talks between the two countries in decades aim to address Hezbollah disarmament and border security.", date: "Apr 12, 2026", author: "Staff", readTime: "5 min" },
+      { id: 1810, title: "Global Energy Crisis Deepens as Diplomatic Off-Ramp Narrows", excerpt: "IEA warns current crisis could exceed 1970s oil shocks. European gas prices remain elevated. U.S. consumers face $4+ gas.", date: "Apr 12, 2026", author: "Staff", readTime: "6 min" },
     ],
     stats: [
       { label: "Hormuz Transit", value: "21M", sub: "bpd" },
