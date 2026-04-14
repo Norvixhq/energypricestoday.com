@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','957762016897581');fbq('track','PageView');
+</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://api.rss2json.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Markets & Prices — EnergyPricesToday.com</title>
+  <meta name="description" content="Track real-time prices across crude oil benchmarks, OPEC blends, U.S. and Canadian blends, refined products, and natural gas markets.">  
+  <link rel="canonical" href="https://www.energypricestoday.com/markets.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Markets & Prices — EnergyPricesToday.com">
+  <meta property="og:description" content="Track real-time prices across crude oil benchmarks, OPEC blends, refined products, and global natural gas markets.">
+  <meta property="og:url" content="https://www.energypricestoday.com/markets.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Markets & Prices — EnergyPricesToday.com">
+  <meta name="twitter:description" content="Track real-time prices across crude oil benchmarks, OPEC blends, refined products, and global natural gas markets.">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+</head>
+<body>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="index.html" style="color:#3d8fd4">Home</a><a href="markets.html" style="color:#8891a5">Markets</a><a href="oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="oil-futures.html" style="color:#8891a5">Oil Futures</a><a href="rig-count.html" style="color:#8891a5">Rig Count</a><a href="category/energy.html" style="color:#8891a5">Energy</a><a href="category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="category/company-news.html" style="color:#8891a5">Company News</a><a href="category/alternative-energy.html" style="color:#8891a5">Alt Energy</a><a href="about.html" style="color:#8891a5">About</a><a href="contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
+  <main>
+    <div class="container" style="padding-top:32px;padding-bottom:60px">
+      <nav class="breadcrumbs">
+        <a href="index.html">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+        <span>Markets &amp; Prices</span>
+      </nav>
+      <div style="margin-bottom:32px">
+        <h1>Markets &amp; Prices</h1>
+        <p style="color:#9ca3af;font-size:15px;max-width:600px;margin-top:10px">Real-time pricing across crude benchmarks, OPEC blends, refined products, and global natural gas markets.</p>
+      </div>
+      <div class="grid-5" id="key-benchmarks" style="margin-bottom:40px"></div>
+      <div id="full-market-table"></div>
+      <div class="disclaimer-box">
+        <p><strong>Disclaimer:</strong> Market data shown on this page is provided for informational and educational purposes only. Prices may be delayed and should not be used as a basis for trading decisions. For real-time data, please consult your broker or a licensed data provider.</p>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/article-slugs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/live-data.js"></script>
+  <script src="js/news-feed.js"></script>
+  <script>
+    document.getElementById('key-benchmarks').innerHTML = COMMODITIES.map(c => {
+      var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
+      var arrow = c.change >= 0 ? '\u25B2' : '\u25BC';
+      var sign = c.change >= 0 ? '+' : '';
+      return '<div class="price-card" style="padding:22px">' +
+        '<div class="price-card-header" style="margin-bottom:12px">' +
+          '<span class="price-card-label" style="font-size:13px">' + c.name + ' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span>' +
+        '</div>' +
+        '<div class="price-card-value" style="font-size:30px">$' + c.price.toFixed(c.price>100?2:c.price>10?2:3) + '</div>' +
+        '<div style="color:' + chgColor + ';font-size:13px;font-weight:600;margin-top:6px">' + arrow + ' ' + sign + c.change.toFixed(2) + ' (' + sign + c.pct.toFixed(2) + '%)</div>' +
+        '<div style="color:var(--text-3);font-size:8.5px;margin-top:4px">Updated every 5 min via API · ' + c.unit + '</div>' +
+      '</div>';
+    }).join('');
+    renderMarketTable('full-market-table', false);
+
+    // Render ALL live API sections
+    if (typeof OIL_PRICE_SECTIONS !== 'undefined') {
+      var liveContainer = document.getElementById('live-sections');
+      if (liveContainer) {
+        liveContainer.innerHTML = OIL_PRICE_SECTIONS.filter(function(s) {
+          return s.rows && s.rows.some(function(r) { return r.apiCode; });
+        }).map(function(s) {
+          return '<div style="margin-bottom:24px"><h3 style="font-size:15px;margin-bottom:10px;display:flex;align-items:center;gap:8px">' + s.title + ' <span style="color:#10b981;font-size:9px;font-weight:700;background:rgba(16,185,129,0.1);padding:2px 6px;border-radius:4px">LIVE</span></h3>' +
+            '<div class="market-table-wrap"><table class="market-table"><thead><tr><th style="text-align:left">Commodity</th><th>Price</th><th>24h Change</th><th>24h %</th></tr></thead><tbody>' +
+            s.rows.map(function(r) {
+              var cls = r.change >= 0 ? 'up' : 'down';
+              var tag = r.apiCode ? ' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span>' : '';
+              return '<tr><td>' + r.name + tag + '</td><td class="table-price">$' + r.price.toFixed(2) + '</td><td><span class="change ' + cls + '">' + (r.change>=0?'+':'') + r.change.toFixed(2) + '</span></td><td><span class="change ' + cls + '">' + (r.change>=0?'+':'') + r.pct.toFixed(2) + '%</span></td></tr>';
+            }).join('') +
+            '</tbody></table></div></div>';
+        }).join('');
+      }
+    }
+
+  </script>
+</body>
+</html>
