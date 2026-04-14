@@ -84,6 +84,7 @@ var ARTICLE_SLUGS = {
   'India\'s Solar Tariffs Drop to Record Low $0.029/kWh in Rajasthan Auction': 'indias-solar-tariffs-drop-to-record-low-0029kwh-in-rajasthan-auction',
   'International Rig Count Stable at 958 as Middle East Activity Rises': 'international-rig-count-stable-at-958-as-middle-east-activity-rises',
   'Iran': 'iran',
+  'Iran Blames U.S. for Failure of 21-Hour Islamabad Negotiations': 'iran-blames-us-for-failure-of-21-hour-islamabad-negotiations',
   'Iran Blames U.S. for Failure — Nuclear Program and Hormuz Control Key Sticking Points': 'iran-blames-us-for-failure-nuclear-program-and-hormuz-control-key-sticking-point',
   'Iran Ceasefire Rocks Markets': 'iran-ceasefire-rocks-markets',
   'Iran Nuclear Deal Stalls': 'iran-nuclear-deal-stalls',
@@ -137,9 +138,11 @@ var ARTICLE_SLUGS = {
   'Oil Markets Brace for Renewed Volatility as Ceasefire Future Uncertain': 'oil-markets-brace-for-renewed-volatility-as-ceasefire-future-uncertain',
   'Oil Markets Face Renewed Volatility as Islamabad Talks Fail': 'oil-markets-face-renewed-volatility-as-islamabad-talks-fail',
   'Oil Price Forecast 2026 What Analysts Predict for Crude': 'oil-price-forecast-2026-what-analysts-predict-for-crude',
+  'Oil Prices Expected to Surge as Markets Open Monday — Analysts Warn of $110+ WTI': 'oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti',
   'Options Market Pricing Elevated Volatility Through Summer 2026': 'options-market-pricing-elevated-volatility-through-summer-2026',
   'Pakistan Urges Both Sides to Continue Diplomacy Despite Failed Talks': 'pakistan-urges-both-sides-to-continue-diplomacy-despite-failed-talks',
   'Pakistan Urges Continued Diplomacy After U.S.-Iran Talks End Without Deal': 'pakistan-urges-continued-diplomacy-after-us-iran-talks-end-without-deal',
+  'Pakistan Urges Continued Diplomacy — Foreign Minister Says Ceasefire Must Hold': 'pakistan-urges-continued-diplomacy-foreign-minister-says-ceasefire-must-hold',
   'Permian Basin Output Hits Record 6.2M Barrels Per Day': 'permian-basin-output-hits-record-62m-barrels-per-day',
   'Permian Basin Production Hits Record 6.2 Million Barrels Per Day': 'permian-basin-production-hits-record-62-million-barrels-per-day',
   'Permian Basin Rigs Hold Steady at 302 Despite Overall U.S. Decline': 'permian-basin-rigs-hold-steady-at-302-despite-overall-us-decline',
@@ -153,7 +156,6 @@ var ARTICLE_SLUGS = {
   'Red Sea Attacks Force 60% of Tanker Traffic to Reroute Around Africa': 'red-sea-attacks-force-60-of-tanker-traffic-to-reroute-around-africa',
   'Red Sea Shipping Disruptions Continue to Impact Oil Transit Routes': 'red-sea-shipping-disruptions-continue-to-impact-oil-transit-routes',
   'Red Sea Shipping Disruptions Impact on Oil and Gas Prices': 'red-sea-shipping-disruptions-impact-on-oil-and-gas-prices',
-  'Reference prices — 1-24hr delay': 'reference-prices-1-24hr-delay',
   'Refinery Margins Under Pressure': 'refinery-margins-under-pressure',
   'Renewable Energy Investment Hits Record $1.8 Trillion Globally in 2025': 'renewable-energy-investment-hits-record-18-trillion-globally-in-2025',
   'Renewable Surge Continues': 'renewable-surge-continues',
@@ -168,6 +170,7 @@ var ARTICLE_SLUGS = {
   'Saudi Arabia Holds Firm on April OSP Despite Market Pressure': 'saudi-arabia-holds-firm-on-april-osp-despite-market-pressure',
   'Saudi Aramco Invests $2B in South Korean Refinery Expansion': 'saudi-aramco-invests-2b-in-south-korean-refinery-expansion',
   'Saudi Aramco Invests $2B in South Korean Refining Complex': 'saudi-aramco-invests-2b-in-south-korean-refining-complex',
+  'Saudi Aramco Restores East-West Pipeline Capacity After Drone Damage': 'saudi-aramco-restores-east-west-pipeline-capacity-after-drone-damage',
   'Saudi-Iran Détente': 'saudi-iran-dtente',
   'Saudi-Iran Détente Reduces Persian Gulf Risk Premium': 'saudi-iran-dtente-reduces-persian-gulf-risk-premium',
   'Shell Accelerates North Sea Asset Sales Worth $4.5B': 'shell-accelerates-north-sea-asset-sales-worth-45b',
@@ -188,7 +191,9 @@ var ARTICLE_SLUGS = {
   'TotalEnergies Signs Major LNG Supply Deal with India': 'totalenergies-signs-major-lng-supply-deal-with-india',
   'Trump Announces Full Naval Blockade of Strait of Hormuz': 'trump-announces-full-naval-blockade-of-strait-of-hormuz',
   'Trump Announces Hormuz Blockade': 'trump-announces-hormuz-blockade',
+  'Trump Orders Full Naval Blockade of Strait of Hormuz After Islamabad Talks Collapse': 'trump-orders-full-naval-blockade-of-strait-of-hormuz-after-islamabad-talks-colla',
   'Trump Says Iran Nuclear Enrichment Must End — Talks Set for Friday in Islamabad': 'trump-says-iran-nuclear-enrichment-must-end-talks-set-for-friday-in-islamabad',
+  'Two-Week Ceasefire Expires April 22 — No Extension Path After Failed Talks': 'two-week-ceasefire-expires-april-22-no-extension-path-after-failed-talks',
   'Two-Week Ceasefire Expires April 22 — No Path to Extension Visible': 'two-week-ceasefire-expires-april-22-no-path-to-extension-visible',
   'Two-Week Truce Expires April 22': 'two-week-truce-expires-april-22',
   'U.S. Average Gas Price Rises to $3.42/Gallon Ahead of Spring Driving Season': 'us-average-gas-price-rises-to-342gallon-ahead-of-spring-driving-season',
@@ -198,6 +203,7 @@ var ARTICLE_SLUGS = {
   'U.S. Gas Prices Ease Slightly to $4.13 National Average as Ceasefire Holds': 'us-gas-prices-ease-slightly-to-413-national-average-as-ceasefire-holds',
   'U.S. Gas Prices Expected to Drop Sharply if Ceasefire Holds and Hormuz Reopens': 'us-gas-prices-expected-to-drop-sharply-if-ceasefire-holds-and-hormuz-reopens',
   'U.S. Gas Prices Expected to Ease if Ceasefire Holds — National Average $4.16': 'us-gas-prices-expected-to-ease-if-ceasefire-holds-national-average-416',
+  'U.S. Gas Prices Hold at $4.13 National Average as Ceasefire Uncertainty Persists': 'us-gas-prices-hold-at-413-national-average-as-ceasefire-uncertainty-persists',
   'U.S. Gulf Coast LNG': 'us-gulf-coast-lng',
   'U.S. Inventories Draw Down': 'us-inventories-draw-down',
   'U.S. LNG Exports Hit Record 14 Bcf/d as Golden Pass Begins Operations': 'us-lng-exports-hit-record-14-bcfd-as-golden-pass-begins-operations',
@@ -237,6 +243,6 @@ var ARTICLE_SLUGS = {
 function articleUrl(title) {
   var slug = ARTICLE_SLUGS[title];
   if (!slug) slug = title.toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/[\s]+/g,'-').replace(/-+/g,'-').substring(0,80);
-  var inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/') || (window.location.pathname.split('/').filter(Boolean).length > 1 && !window.location.pathname.endsWith('/index.html'));
+  var inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   return (inSub ? '../' : '') + 'articles/' + slug + '.html';
 }
