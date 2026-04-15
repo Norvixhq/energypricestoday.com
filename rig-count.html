@@ -171,9 +171,14 @@ fbq('init','957762016897581');fbq('track','PageView');
     }).join('');
 
     document.getElementById('rig-market-cards').innerHTML = COMMODITIES.slice(0,3).map(function(c) {
-      var color = c.change >= 0 ? '#22c55e' : '#ef4444';
-      if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating…</div><div class="price-card-footer"><span class="price-card-unit">' + c.unit + '</span></div></div>';
-      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span>' + '' + '</div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '</div></div>';
+      var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
+      var arrow = c.change >= 0 ? '\u25B2' : '\u25BC';
+      var sign = c.change >= 0 ? '+' : '';
+      return '<div class="price-card" style="padding:20px">' +
+        '<div class="price-card-header"><span class="price-card-label" style="font-size:12px">' + c.name + ' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div>' +
+        '<div class="price-card-value" style="font-size:26px">$' + c.price.toFixed(2) + '</div>' +
+        '<div style="color:' + chgColor + ';font-size:12px;font-weight:600;margin-top:4px">' + arrow + ' ' + sign + c.pct.toFixed(2) + '%</div>' +
+        '<div style="color:var(--text-3);font-size:8px;margin-top:3px">Updated every 5 min via API</div></div>';
     }).join('');
 
     document.getElementById('rig-related').innerHTML = [
