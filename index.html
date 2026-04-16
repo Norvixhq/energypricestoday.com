@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="facebook-domain-verification" content="iabb2balkajrsqzetut0ekrins5m6a" />
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','957762016897581');fbq('track','PageView');
+</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://api.rss2json.com">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EnergyPricesToday.com — Live Oil, Gas & Energy Market Prices and News</title>
+  <meta name="description" content="Track live oil, gas, and energy market prices. Breaking energy news, OPEC updates, rig count data, and market analysis — clean, fast, and free.">
+  <link rel="canonical" href="https://www.energypricestoday.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EnergyPricesToday.com — Live Oil, Gas & Energy Market Prices and News">
+  <meta property="og:description" content="Track live oil, gas, and energy market prices. Breaking energy news, OPEC updates, rig count data, and market analysis.">
+  <meta property="og:url" content="https://www.energypricestoday.com/">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="EnergyPricesToday.com — Live Oil, Gas & Energy Market Prices and News">
+  <meta name="twitter:description" content="Track live oil, gas, and energy market prices. Breaking energy news, OPEC updates, rig count data, and market analysis.">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"EnergyPricesToday.com","url":"https://www.energypricestoday.com","logo":"https://www.energypricestoday.com/images/logo.png","description":"Modern energy market intelligence platform.","sameAs":[]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"EnergyPricesToday.com","url":"https://www.energypricestoday.com","potentialAction":{"@type":"SearchAction","target":"https://www.energypricestoday.com/search?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
+  <style>#latest-news{display:none}#latest-news.loaded{display:block !important}.cat-pill{max-height:22px;overflow:hidden}.article-featured{contain:content}</style>
+<link rel="stylesheet" href="css/styles.css">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+</head>
+<body>
+    <!-- BREAKING NEWS BANNER — auto-rotates from live RSS feed -->
+  <div class="breaking-banner" id="breaking-banner">
+    <div class="breaking-banner-inner">
+      <span class="breaking-badge">BREAKING</span>
+      <span class="breaking-text" id="breaking-rotate-text" style="transition:opacity 0.5s ease">Loading latest headlines…</span>
+      <a href="category/geopolitics.html" id="breaking-rotate-link" class="breaking-link" target="_blank" rel="noopener">Read More →</a>
+    </div>
+  </div>
+  <script>
+  (function(){
+    var textEl = document.getElementById('breaking-rotate-text');
+    var linkEl = document.getElementById('breaking-rotate-link');
+    if (!textEl) return;
+    var stories = [];
+    var idx = 0;
+
+    // Fetch live headlines from Google News RSS via rss2json
+    var rssUrl = 'https://news.google.com/rss/search?q=Iran+ceasefire+oil+OR+OPEC+oil+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en';
+    fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl) + '&count=8')
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (data.items && data.items.length > 0) {
+          stories = data.items.map(function(item) {
+            return { text: item.title.toUpperCase(), link: item.link };
+          });
+          textEl.textContent = stories[0].text;
+          linkEl.href = stories[0].link;
+          // Start rotation
+          setInterval(function() {
+            textEl.style.opacity = '0';
+            setTimeout(function() {
+              idx = (idx + 1) % stories.length;
+              textEl.textContent = stories[idx].text;
+              linkEl.href = stories[idx].link;
+              textEl.style.opacity = '1';
+            }, 500);
+          }, 8000);
+        }
+      })
+      .catch(function() {
+        textEl.textContent = 'TALKS COLLAPSE — Islamabad Negotiations End Without Deal — Trump Announces Naval Blockade of Hormuz';
+        linkEl.href = 'category/geopolitics.html';
+      });
+  })();
+  </script>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="index.html" style="color:#3d8fd4">Home</a><a href="markets.html" style="color:#8891a5">Markets</a><a href="oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="oil-futures.html" style="color:#8891a5">Oil Futures</a><a href="rig-count.html" style="color:#8891a5">Rig Count</a><a href="category/energy.html" style="color:#8891a5">Energy</a><a href="category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="category/company-news.html" style="color:#8891a5">Company News</a><a href="category/alternative-energy.html" style="color:#8891a5">Alt Energy</a><a href="about.html" style="color:#8891a5">About</a><a href="contact.html" style="color:#8891a5">Contact</a></nav></noscript></header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container" style="position:relative;z-index:1">
+        <div style="margin-bottom:28px">
+          <p class="hero-eyebrow" id="hero-eyebrow"></p>
+          <h1>Energy Markets Today</h1>
+          <p class="hero-sub">Ceasefire extension under discussion — Pakistan army chief in Tehran to restart talks — Ceasefire expires April 22 with no deal — Iran threatens Red Sea expansion if blockade continues — U.S. gas eases to $4.11.</p>
+        </div>
+        <div class="grid-10" id="hero-prices" style="margin-bottom:20px"></div>
+        <div class="hero-actions" id="hero-actions"></div>
+      </div>
+    </section>
+
+    <!-- LIVE HEADLINES FROM GDELT -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="sec-live"></h2>
+          <span class="live-badge">LIVE</span>
+        </div>
+        <div class="live-headlines-grid">
+          <div class="live-news-container">
+            <div style="padding:10px 16px;border-bottom:1px solid var(--border);font-size:12px;font-weight:600;color:var(--blue);text-transform:uppercase;letter-spacing:0.05em">Energy & Oil</div>
+            <div id="live-energy-headlines"></div>
+          </div>
+          <div class="live-news-container">
+            <div style="padding:10px 16px;border-bottom:1px solid var(--border);font-size:12px;font-weight:600;color:var(--amber);text-transform:uppercase;letter-spacing:0.05em">Geopolitics & Supply</div>
+            <div id="live-geo-headlines"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BREAKING NEWS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header"><h2 class="section-title" id="sec-breaking"></h2></div>
+        <div id="breaking-news"></div>
+      </div>
+    </section>
+
+    <!-- WHAT'S MOVING MARKETS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header"><h2 class="section-title" id="sec-drivers"></h2></div>
+        <div class="grid-3" id="market-drivers"></div>
+      </div>
+    </section>
+
+    <!-- LATEST ENERGY NEWS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="sec-news"></h2>
+          <a href="category/geopolitics.html" class="section-action" id="sec-news-action"></a>
+        </div>
+        <div id="latest-news" style="display:none"></div>
+      </div>
+    </section>
+
+    <!-- LIVE PRICES TABLE -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="sec-prices"></h2>
+          <a href="oil-prices.html" class="section-action" id="sec-prices-action"></a>
+        </div>
+        <div id="home-market-table"></div>
+      </div>
+    </section>
+
+    <!-- CATEGORY SPOTLIGHTS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header"><h2 class="section-title" id="sec-explore"></h2></div>
+        <div class="grid-auto-180" id="spotlights"></div>
+      </div>
+    </section>
+
+    <!-- COMPANY NEWS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="sec-company"></h2>
+          <a href="category/company-news.html" class="section-action" id="sec-company-action"></a>
+        </div>
+        <div class="grid-3" id="company-news"></div>
+      </div>
+    </section>
+
+    <!-- GEOPOLITICS -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="sec-geo"></h2>
+          <a href="category/geopolitics.html" class="section-action" id="sec-geo-action"></a>
+        </div>
+        <div class="grid-auto-280" id="geo-news"></div>
+        <div class="grid-auto-280" id="chokepoints" style="margin-top:16px"></div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section class="newsletter-section">
+      <div class="newsletter-bg"></div>
+      <div class="newsletter-inner" id="newsletter-wrap">
+        <h2>Stay Ahead of the Markets</h2>
+        <p>Get the most important energy market news delivered to your inbox — free, concise, and no spam.</p>
+        <form class="newsletter-form" id="newsletter-form">
+          <input type="email" placeholder="you@example.com" required>
+          <button type="submit">Subscribe</button>
+        </form>
+        <p class="newsletter-note">Free daily digest. Unsubscribe anytime.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/article-slugs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/live-data.js"></script>
+  <script src="js/news-feed.js"></script>
+  <script>
+    // Section titles
+    document.getElementById('hero-eyebrow').innerHTML = icon('activity',14) + ' Live Energy Markets';
+    document.getElementById('sec-live').innerHTML = icon('zap',18) + ' Live Energy Headlines';
+    document.getElementById('sec-breaking').innerHTML = icon('zap',18) + ' Breaking News';
+    document.getElementById('sec-drivers').innerHTML = icon('activity',18) + " What's Moving Markets";
+    document.getElementById('sec-news').innerHTML = icon('newspaper',18) + ' Latest Energy News';
+    document.getElementById('sec-news-action').innerHTML = 'All News ' + icon('arrow-right',14);
+    document.getElementById('sec-prices').innerHTML = icon('bar-chart',18) + ' Market Prices';
+    document.getElementById('sec-prices-action').innerHTML = 'Oil Prices & Markets ' + icon('arrow-right',14);
+    document.getElementById('sec-explore').innerHTML = icon('layout',18) + ' Explore Coverage';
+    document.getElementById('sec-company').innerHTML = icon('building',18) + ' Company News';
+    document.getElementById('sec-company-action').innerHTML = 'More ' + icon('arrow-right',14);
+    document.getElementById('sec-geo').innerHTML = icon('globe',18) + ' Geopolitics &amp; Global Supply';
+    document.getElementById('sec-geo-action').innerHTML = 'More ' + icon('arrow-right',14);
+
+    // Hero buttons
+    document.getElementById('hero-actions').innerHTML =
+      '<a href="category/gas-prices.html" class="btn btn-primary">' + icon('fuel',14) + ' U.S. Gas Prices</a>' +
+      '<a href="category/geopolitics.html" class="btn btn-ghost">' + icon('newspaper',14) + ' Explore Geopolitics</a>' +
+      '<a href="oil-prices.html" class="btn btn-ghost">' + icon('trending-up',14) + ' Market Movers</a>';
+
+    // Hero price cards — skeleton until API loads
+    function renderHeroPrices() {
+      document.getElementById('hero-prices').innerHTML = COMMODITIES.map(function(c) {
+        if (c.price === null) {
+          return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating\u2026</div><div class="price-card-footer"><span class="price-card-unit">' + c.unit + '</span></div></div>';
+        }
+        var color = c.change >= 0 ? '#10b45c' : '#dc3545';
+        var est = '';
+        var estTag = c.name === 'Murban Crude' ? ' <span style="font-size:8px;color:var(--text-3)">est.</span>' : '';
+        return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + estTag + ' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span>' + est + '</span></div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div><div style="color:var(--text-3);font-size:8px;text-align:center;margin-top:3px">Updated every 5 min via API</div></div>';
+      }).join('');
+    }
+    renderHeroPrices();
+
+    // LIVE HEADLINES — GDELT, works immediately
+    loadLiveNews('energy', 'live-energy-headlines', 10);
+    loadLiveNews('geopolitics', 'live-geo-headlines', 10);
+
+    // Breaking news
+    document.getElementById('breaking-news').innerHTML = BREAKING_NEWS.map(function(n, i) {
+      return '<a href="' + articleUrl(n.title) + '" class="news-row">' +
+        '<span class="news-row-num">' + String(i + 1).padStart(2, '0') + '</span>' +
+        '<div class="flex-1"><p class="news-row-title">' + n.title + '</p></div>' +
+        '<div class="news-row-meta">' + catPill(n.cat, n.slug) +
+        '<span class="news-row-time">' + n.time + '</span></div></a>';
+    }).join('');
+
+    // Market drivers — use grid-3 for clean 3-column layout
+    document.getElementById('market-drivers').innerHTML = MARKET_DRIVERS.map(function(d) {
+      return '<div class="driver-card">' +
+        '<div class="flex items-center gap-10" style="margin-bottom:10px">' +
+          '<div class="driver-icon">' + icon(d.icon, 18) + '</div>' +
+          '<span class="driver-cat">' + d.cat + '</span></div>' +
+        '<div class="driver-title">' + d.title + '</div>' +
+        '<p class="driver-desc">' + d.desc + '</p></div>';
+    }).join('');
+
+    // Latest news — clean list, no broken grid
+    document.getElementById('latest-news').innerHTML = FEATURED_ARTICLES.map(function(a, i) {
+      if (i === 0) {
+        // Featured article — prominent card
+        return '<a href="' + articleUrl(a.title) + '" class="article-featured" style="margin-bottom:16px">' +
+          '<div class="article-featured-body">' +
+            catPill(a.cat, a.slug) +
+            '<h3>' + a.title + '</h3>' +
+            '<p>' + a.excerpt + '</p>' +
+            '<div class="article-meta"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + ' read</span></div>' +
+          '</div></a>';
+      }
+      return '<a href="' + articleUrl(a.title) + '" class="article-list-item">' +
+        '<div><h3>' + a.title + '</h3>' +
+        '<div class="article-meta-sm"><span>' + a.author + '</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></div></a>';
+    }).join('');
+    var ln=document.getElementById('latest-news');ln.style.display='';ln.classList.add('loaded');
+
+    // Market table
+    renderMarketTable('home-market-table', true);
+
+    // Spotlights
+    document.getElementById('spotlights').innerHTML = CATEGORY_LIST_FOR_SPOTLIGHTS.map(function(c) {
+      return '<a href="category/' + c.slug + '.html" class="spotlight-card">' +
+        '<div class="spotlight-icon">' + icon(c.icon, 22) + '</div>' +
+        '<h4>' + c.name + '</h4></a>';
+    }).join('');
+
+    // Company news — fixed bug: was using a.title instead of n.title
+    document.getElementById('company-news').innerHTML = COMPANY_NEWS.map(function(n) {
+      return '<a href="' + articleUrl(n.title) + '" class="article-card">' +
+        '<h4>' + n.title + '</h4>' +
+        '<span style="color:var(--text-3);font-size:12px">' + n.date + '</span></a>';
+    }).join('');
+
+    // Geo news
+    document.getElementById('geo-news').innerHTML = GEO_ITEMS.map(function(g) {
+      return '<a href="' + articleUrl(g.title) + '" class="geo-card">' +
+        '<div class="geo-region">' + g.region + '</div>' +
+        '<div class="geo-title">' + g.title + '</div>' +
+        '<p class="geo-desc">' + g.desc + '</p></a>';
+    }).join('');
+
+    // Global supply chokepoints
+    document.getElementById('chokepoints').innerHTML = SUPPLY_CHOKEPOINTS.slice(0,4).map(function(c) {
+      return '<a href="category/geopolitics.html" class="chokepoint-card" style="display:block;text-decoration:none">' +
+        '<div class="chokepoint-label">' + c.label + '</div>' +
+        '<div class="chokepoint-title">' + c.title + '</div>' +
+        '<p class="chokepoint-desc">' + c.desc + '</p>' +
+        '<span class="chokepoint-stat">' + icon('anchor',12) + ' ' + c.stat + '</span></div>';
+    }).join('');
+  </script>
+</body>
+</html>
