@@ -95,6 +95,11 @@ function catPill(cat, slug) {
   return `<span class="cat-pill">${cat}</span>`;
 }
 
+
+// Prevent accidental swipe-right opening nav
+document.documentElement.style.touchAction = 'pan-y';
+document.body.style.touchAction = 'pan-y';
+
 // ─── HEADER ──────────────────────────────────────────────────────
 function renderHeader(activePage) {
   const nav = [

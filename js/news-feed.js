@@ -22,7 +22,7 @@ function fetchNewsHeadlines(feedUrl, containerId, maxItems) {
 
   var url = RSS2JSON_BASE + encodeURIComponent(feedUrl);
 
-  container.innerHTML = '';
+  // container starts empty — no loading indicator
 
   fetch(url)
     .then(function(res) { return res.json(); })
