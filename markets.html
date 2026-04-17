@@ -79,7 +79,7 @@
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
     document.getElementById('sec-hero').innerHTML = icon('bar-chart',20)+' Live Energy Benchmarks';
-    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What\u2019s Moving Markets Today';
+    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What’s Moving Markets Today';
     document.getElementById('sec-movers').innerHTML = icon('trending-up',20)+' Top Movers';
     document.getElementById('sec-groups').innerHTML = icon('layers',20)+' Markets by Category';
     document.getElementById('sec-explain').innerHTML = icon('info',20)+' Understanding Benchmarks';
@@ -89,13 +89,13 @@
     document.getElementById('hero-benchmarks').innerHTML = COMMODITIES.slice(0,5).map(function(c) {
       if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">'+c.name+'</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating...</div></div>';
       var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
-      var arrow = c.change >= 0 ? '\u25B2' : '\u25BC';
+      var arrow = c.change >= 0 ? '▲' : '▼';
       var sign = c.change >= 0 ? '+' : '';
       return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">'+c.name+' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value">$'+c.price.toFixed(2)+'</div><div class="price-card-footer"><span style="color:'+chgColor+';font-size:11px;font-weight:600">'+arrow+' '+sign+c.pct.toFixed(2)+'%</span><span class="price-card-unit" style="margin-left:auto">'+c.unit+'</span></div><div style="color:var(--text-3);font-size:8px;text-align:center;margin-top:3px">Updated every 5 min via API</div></div>';
     }).join('');
 
     document.getElementById('driver-cards').innerHTML = [
-      TC('globe','Hormuz Crisis','Naval blockade continues. 90%+ shipping still disrupted. Israel-Lebanon 10-day ceasefire begins Thursday. Trump says U.S. &ldquo;very close&rdquo; to Iran deal. Risk premium persists at $15-20/bbl. <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics \u2192</a>'),
+      TC('globe','Hormuz Crisis','Naval blockade continues. 90%+ shipping still disrupted. Israel-Lebanon 10-day ceasefire begins Thursday. Trump says U.S. &ldquo;very close&rdquo; to Iran deal. Risk premium persists at $15-20/bbl. <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
       TC('users','OPEC+ Policy','206K bpd April output increase proceeding as planned. Saudi East-West Pipeline restored. No emergency meeting called; OPEC+ monitoring for shifts if April 22 ceasefire lapses.'),
       TC('tool','Refining Season','Spring turnarounds reducing U.S. utilization to ~87%. Summer gasoline blend transition adding $0.10-0.25/gal to RBOB. Gulf Coast ramping for driving season.'),
       TC('trending-up','Natural Gas','Henry Hub ~$2.65/MMBtu. Mild spring demand. LNG exports near capacity at ~14 Bcf/d. European storage below 5-year avg.'),
@@ -114,11 +114,11 @@
     }).join('');
 
     document.getElementById('group-cards').innerHTML = [
-      TC('droplets','Crude Oil \u2014 WTI, Brent, 150+ Blends','Global and regional crude benchmarks including WTI (U.S. benchmark), Brent (global benchmark), OPEC blends, Canadian heavy, and international grades. <a href="oil-prices.html" style="color:var(--blue)">All Oil Prices \u2192</a>'),
-      TC('fuel','Gasoline \u2014 RBOB + Retail','Wholesale RBOB gasoline futures and AAA retail pump prices for all 50 states. Summer vs winter blend dynamics. <a href="category/gas-prices.html" style="color:var(--blue)">Gas Prices \u2192</a>'),
-      TC('flame','Diesel & Heating Oil','ULSD (ultra-low sulfur diesel) benchmark prices, seasonal heating fuel dynamics, and Northeast winter demand patterns. <a href="category/heating-oil.html" style="color:var(--blue)">Heating Oil \u2192</a>'),
-      TC('zap','Natural Gas \u2014 Henry Hub','U.S. natural gas benchmark, LNG export dynamics, storage inventory, and weather-driven demand. <a href="category/natural-gas.html" style="color:var(--blue)">Natural Gas \u2192</a>'),
-      TC('clock','Oil Futures & Spreads','Front-month contracts, term structure, contango vs backwardation, and what the curve says about market expectations. <a href="oil-futures.html" style="color:var(--blue)">Oil Futures \u2192</a>'),
+      TC('droplets','Crude Oil — WTI, Brent, 150+ Blends','Global and regional crude benchmarks including WTI (U.S. benchmark), Brent (global benchmark), OPEC blends, Canadian heavy, and international grades. <a href="oil-prices.html" style="color:var(--blue)">All Oil Prices →</a>'),
+      TC('fuel','Gasoline — RBOB + Retail','Wholesale RBOB gasoline futures and AAA retail pump prices for all 50 states. Summer vs winter blend dynamics. <a href="category/gas-prices.html" style="color:var(--blue)">Gas Prices →</a>'),
+      TC('flame','Diesel & Heating Oil','ULSD (ultra-low sulfur diesel) benchmark prices, seasonal heating fuel dynamics, and Northeast winter demand patterns. <a href="category/heating-oil.html" style="color:var(--blue)">Heating Oil →</a>'),
+      TC('zap','Natural Gas — Henry Hub','U.S. natural gas benchmark, LNG export dynamics, storage inventory, and weather-driven demand. <a href="category/natural-gas.html" style="color:var(--blue)">Natural Gas →</a>'),
+      TC('clock','Oil Futures & Spreads','Front-month contracts, term structure, contango vs backwardation, and what the curve says about market expectations. <a href="oil-futures.html" style="color:var(--blue)">Oil Futures →</a>'),
       TC('anchor','LNG & International','LNG reference prices (JKM, TTF), Middle East crude (Dubai, Oman), and international benchmarks reflecting global trade dynamics.'),
     ].join('');
 

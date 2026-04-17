@@ -99,35 +99,35 @@
     document.getElementById('sec-quality').innerHTML = icon('filter',20)+' Light Sweet vs Heavy Sour';
     document.getElementById('sec-discounts').innerHTML = icon('trending-down',20)+' Regional Discounts & Premiums';
     document.getElementById('sec-refining').innerHTML = icon('tool',20)+' Refineries Are the Customer';
-    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What\u2019s Moving Crude Today';
+    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What’s Moving Crude Today';
     document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live Crude Headlines';
     document.getElementById('sec-articles').innerHTML = icon('newspaper',20)+' Featured Coverage';
     document.getElementById('sec-explore').innerHTML = icon('compass',20)+' Explore Related Topics';
 
     document.getElementById('crude-snap').innerHTML = [
       SB('Global Production','~102M bpd','total daily supply'),
-      SB('U.S. Production','13.2M bpd','world\u2019s largest producer'),
+      SB('U.S. Production','13.2M bpd','world’s largest producer'),
       SB('Major Benchmarks','WTI + Brent','price 90%+ of traded oil'),
       SB('Distinct Grades','200+','each with unique properties'),
     ].join('');
 
     document.getElementById('grades-tbody').innerHTML = [
-      {g:'WTI',api:'39.6\u00B0',s:'0.24%',t:'Light Sweet',src:'U.S. Cushing hub'},
-      {g:'Brent',api:'38\u00B0',s:'0.37%',t:'Light Sweet',src:'North Sea'},
-      {g:'LLS (Louisiana Light)',api:'37\u00B0',s:'0.37%',t:'Light Sweet',src:'U.S. Gulf Coast'},
-      {g:'Mars Blend',api:'29\u00B0',s:'1.95%',t:'Medium Sour',src:'U.S. Gulf of Mexico'},
-      {g:'Arab Light',api:'33\u00B0',s:'1.9%',t:'Medium Sour',src:'Saudi Arabia'},
-      {g:'Dubai Crude',api:'31\u00B0',s:'2.0%',t:'Medium Sour',src:'UAE'},
-      {g:'Urals',api:'31\u00B0',s:'1.7%',t:'Medium Sour',src:'Russia'},
-      {g:'Bonny Light',api:'36\u00B0',s:'0.14%',t:'Light Sweet',src:'Nigeria'},
-      {g:'Maya',api:'22\u00B0',s:'3.3%',t:'Heavy Sour',src:'Mexico'},
-      {g:'Western Canadian Select',api:'20.5\u00B0',s:'3.5%',t:'Heavy Sour',src:'Alberta, Canada'},
-      {g:'Arab Heavy',api:'27\u00B0',s:'2.8%',t:'Medium/Heavy Sour',src:'Saudi Arabia'},
-      {g:'Merey (Venezuela)',api:'16\u00B0',s:'2.5%',t:'Heavy Sour',src:'Venezuela'},
+      {g:'WTI',api:'39.6°',s:'0.24%',t:'Light Sweet',src:'U.S. Cushing hub'},
+      {g:'Brent',api:'38°',s:'0.37%',t:'Light Sweet',src:'North Sea'},
+      {g:'LLS (Louisiana Light)',api:'37°',s:'0.37%',t:'Light Sweet',src:'U.S. Gulf Coast'},
+      {g:'Mars Blend',api:'29°',s:'1.95%',t:'Medium Sour',src:'U.S. Gulf of Mexico'},
+      {g:'Arab Light',api:'33°',s:'1.9%',t:'Medium Sour',src:'Saudi Arabia'},
+      {g:'Dubai Crude',api:'31°',s:'2.0%',t:'Medium Sour',src:'UAE'},
+      {g:'Urals',api:'31°',s:'1.7%',t:'Medium Sour',src:'Russia'},
+      {g:'Bonny Light',api:'36°',s:'0.14%',t:'Light Sweet',src:'Nigeria'},
+      {g:'Maya',api:'22°',s:'3.3%',t:'Heavy Sour',src:'Mexico'},
+      {g:'Western Canadian Select',api:'20.5°',s:'3.5%',t:'Heavy Sour',src:'Alberta, Canada'},
+      {g:'Arab Heavy',api:'27°',s:'2.8%',t:'Medium/Heavy Sour',src:'Saudi Arabia'},
+      {g:'Merey (Venezuela)',api:'16°',s:'2.5%',t:'Heavy Sour',src:'Venezuela'},
     ].map(function(r){return '<tr><td style="text-align:left;font-weight:600">'+r.g+'</td><td>'+r.api+'</td><td>'+r.s+'</td><td style="font-size:11px">'+r.t+'</td><td style="text-align:left;font-size:11px;color:var(--text-3)">'+r.src+'</td></tr>';}).join('');
 
     document.getElementById('discount-cards').innerHTML = [
-      TC('trending-down','WCS vs WTI','Western Canadian Select trades $15-25/bbl below WTI. Heavy (20\u00B0 API), sour (3.5% sulfur), and pipeline-constrained. Gulf Coast refineries are the primary buyer.'),
+      TC('trending-down','WCS vs WTI','Western Canadian Select trades $15-25/bbl below WTI. Heavy (20° API), sour (3.5% sulfur), and pipeline-constrained. Gulf Coast refineries are the primary buyer.'),
       TC('trending-down','Urals vs Brent','Russian Urals crude has traded at $10-15/bbl discount since Western sanctions. Redirected to India and China. Discount reflects buyer leverage, not quality.'),
       TC('trending-up','Brent vs WTI','Brent typically trades $2-5/bbl above WTI. Premium reflects seaborne access vs. landlocked U.S. delivery at Cushing. Widens during international supply stress.'),
       TC('trending-up','LLS vs WTI','Louisiana Light Sweet often trades above WTI because of direct Gulf Coast refinery and export access. The premium reflects logistical convenience.'),
@@ -136,7 +136,7 @@
     ].join('');
 
     document.getElementById('driver-cards').innerHTML = [
-      TC('globe','Hormuz Crisis','21M bpd normally transits Hormuz. Current blockade has removed ~10M bpd from market, per industry estimates. 230 loaded tankers waiting inside Gulf. <a href="geopolitics.html" style="color:var(--blue)">Geopolitics \u2192</a>'),
+      TC('globe','Hormuz Crisis','21M bpd normally transits Hormuz. Current blockade has removed ~10M bpd from market, per industry estimates. 230 loaded tankers waiting inside Gulf. <a href="geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
       TC('tool','Refinery Turnarounds','Spring and fall maintenance reduces regional crude demand, widening local discounts. Tracking refinery operations is essential for grade-level analysis.'),
       TC('users','OPEC+ Production','OPEC+ quotas control about 40% of global supply. April 206K bpd increase reflects gradual unwinding of prior cuts. Real output varies from announced quotas.'),
     ].join('');

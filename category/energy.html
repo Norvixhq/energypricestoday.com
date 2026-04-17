@@ -11,11 +11,11 @@ fbq('init','957762016897581');fbq('track','PageView');
 </script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Energy Systems & Power Markets \u2014 Electricity, LNG, Nuclear, Storage, Grid \u2014 EnergyPricesToday.com</title>
+  <title>Energy Systems & Power Markets — Electricity, LNG, Nuclear, Storage, Grid — EnergyPricesToday.com</title>
   <meta name="description" content="Comprehensive energy systems hub: electricity and power markets, LNG exports, nuclear energy, battery storage, grid reliability, utilities, coal, energy infrastructure, and consumer energy costs.">
   <link rel="canonical" href="https://www.energypricestoday.com/category/energy.html">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Energy Systems & Power Markets \u2014 EnergyPricesToday.com">
+  <meta property="og:title" content="Energy Systems & Power Markets — EnergyPricesToday.com">
   <meta property="og:description" content="The big picture on energy: electricity, power markets, LNG, nuclear, storage, utilities, grid reliability, infrastructure, and consumer costs.">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Energy Systems & Power Markets","description":"Comprehensive energy systems hub covering electricity, power markets, LNG, nuclear, storage, utilities, infrastructure, and consumer costs.","url":"https://www.energypricestoday.com/category/energy.html"}</script>
   <link rel="stylesheet" href="../css/styles.css">
@@ -189,7 +189,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     // Section headers
     var S = document.getElementById.bind(document);
     S('sec-snapshot').innerHTML = icon('activity',20)+' Energy Market Snapshot';
-    S('sec-mix').innerHTML = icon('pie-chart',20)+' U.S. Energy Mix \u2014 How America Powers Itself';
+    S('sec-mix').innerHTML = icon('pie-chart',20)+' U.S. Energy Mix — How America Powers Itself';
     S('sec-power').innerHTML = icon('zap',20)+' Electricity & Power Markets';
     S('sec-nuclear').innerHTML = icon('shield',20)+' Nuclear Energy Overview';
     S('sec-lng').innerHTML = icon('anchor',20)+' LNG & Natural Gas Exports';
@@ -208,25 +208,25 @@ fbq('init','957762016897581');fbq('track','PageView');
     S('energy-snapshot').innerHTML = [statBox('U.S. Electricity','~$0.168','avg residential $/kWh'),statBox('Natural Gas','$2.65','Henry Hub $/MMBtu'),statBox('U.S. Nuclear','93 reactors','19% of electricity'),statBox('Grid Storage','~22 GW','installed capacity')].join('');
 
     S('energy-mix').innerHTML = [
-      {s:'Natural Gas',p:'43%',n:'Largest generation source \u2014 sets marginal prices',c:'#3d8fd4'},
-      {s:'Wind',p:'11%',n:'Fastest-growing \u2014 TX, IA, OK lead',c:'#10b981'},
-      {s:'Nuclear',p:'19%',n:'93 reactors \u2014 largest carbon-free baseload',c:'#8b5cf6'},
-      {s:'Solar',p:'6%',n:'Doubling every 2-3 years \u2014 CA, TX, FL',c:'#f59e0b'},
+      {s:'Natural Gas',p:'43%',n:'Largest generation source — sets marginal prices',c:'#3d8fd4'},
+      {s:'Wind',p:'11%',n:'Fastest-growing — TX, IA, OK lead',c:'#10b981'},
+      {s:'Nuclear',p:'19%',n:'93 reactors — largest carbon-free baseload',c:'#8b5cf6'},
+      {s:'Solar',p:'6%',n:'Doubling every 2-3 years — CA, TX, FL',c:'#f59e0b'},
       {s:'Coal',p:'16%',n:'Declining but critical for peak demand',c:'#6b7280'},
-      {s:'Hydro',p:'5%',n:'Pacific NW \u2014 dispatchable clean power',c:'#06b6d4'},
-      {s:'Storage',p:'~1%',n:'22 GW \u2014 fastest-growing resource',c:'#ec4899'},
+      {s:'Hydro',p:'5%',n:'Pacific NW — dispatchable clean power',c:'#06b6d4'},
+      {s:'Storage',p:'~1%',n:'22 GW — fastest-growing resource',c:'#ec4899'},
       {s:'Other',p:'<1%',n:'Geothermal, biomass, petroleum, waste',c:'#78716c'},
     ].map(function(x){return '<div class="stat-box" style="text-align:left;padding:16px;border-left:3px solid '+x.c+'"><div style="display:flex;justify-content:space-between;align-items:baseline"><span style="font-size:12px;font-weight:600;color:var(--text-1)">'+x.s+'</span><span style="font-size:18px;font-weight:700;color:'+x.c+'">'+x.p+'</span></div><div style="font-size:11px;color:var(--text-3);margin-top:6px;line-height:1.5">'+x.n+'</div></div>';}).join('');
 
     S('power-markets').innerHTML = [
-      {n:'ERCOT (Texas)',c:'~85 GW',p:'26M people',d:'Isolated grid \u2014 no interstate connections. Extreme price spikes during weather events.'},
-      {n:'PJM (Mid-Atlantic)',c:'~180 GW',p:'65M people',d:'Largest U.S. market \u2014 13 states + DC. Capacity market ensures adequacy.'},
+      {n:'ERCOT (Texas)',c:'~85 GW',p:'26M people',d:'Isolated grid — no interstate connections. Extreme price spikes during weather events.'},
+      {n:'PJM (Mid-Atlantic)',c:'~180 GW',p:'65M people',d:'Largest U.S. market — 13 states + DC. Capacity market ensures adequacy.'},
       {n:'CAISO (California)',c:'~80 GW',p:'39M people',d:'Solar leader facing evening ramp challenges. Battery storage solving duck curve.'},
     ].map(function(m){return '<div class="stat-box" style="text-align:left;padding:18px"><div style="font-size:14px;font-weight:700;color:var(--text-1);margin-bottom:8px">'+m.n+'</div><div style="display:flex;gap:16px;margin-bottom:10px"><span style="font-size:12px;color:var(--blue)">'+m.c+'</span><span style="font-size:12px;color:var(--amber)">'+m.p+'</span></div><div style="font-size:12px;color:var(--text-3);line-height:1.55">'+m.d+'</div></div>';}).join('');
 
     S('nuclear-stats').innerHTML = [statBox('Operating Reactors','93','at 54 plants'),statBox('Share of Electricity','19%','largest carbon-free source'),statBox('Capacity Factor','93%','highest of any type'),statBox('SMRs in Development','6+','NuScale, X-energy, TerraPower')].join('');
 
-    S('lng-stats').innerHTML = [statBox('LNG Export Capacity','~14 Bcf/d','world\u2019s largest exporter'),statBox('Under Construction','~12 Bcf/d','Golden Pass, Plaquemines'),statBox('Europe Share','~65%','of U.S. LNG cargoes'),statBox('Active Terminals','7','Gulf Coast + East Coast')].join('');
+    S('lng-stats').innerHTML = [statBox('LNG Export Capacity','~14 Bcf/d','world’s largest exporter'),statBox('Under Construction','~12 Bcf/d','Golden Pass, Plaquemines'),statBox('Europe Share','~65%','of U.S. LNG cargoes'),statBox('Active Terminals','7','Gulf Coast + East Coast')].join('');
 
     function topicCard(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -239,7 +239,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     S('storage-stats').innerHTML = [statBox('Installed Capacity','~22 GW','up from <2 GW in 2020'),statBox('In Development','60+ GW','pipeline through 2030'),statBox('Cost Decline','~80%','since 2015 ($/kWh)'),statBox('Typical Duration','4 hours','lithium-ion standard')].join('');
 
     S('infra-cards').innerHTML = [
-      topicCard('git-branch','Pipelines','2.6 million miles of oil and gas pipelines \u2014 the world\u2019s largest network. Permian takeaway, Gulf Coast exports, and interstate gas lines are critical chokepoints.'),
+      topicCard('git-branch','Pipelines','2.6 million miles of oil and gas pipelines — the world’s largest network. Permian takeaway, Gulf Coast exports, and interstate gas lines are critical chokepoints.'),
       topicCard('zap','Power Plants','~1,200 GW installed across 10,000+ plants. Average coal plant age exceeds 40 years. Solar, wind, gas, and storage additions reshaping the fleet.'),
       topicCard('box','Refineries & Terminals','18.4M bpd refining capacity concentrated on the Gulf Coast. Seven LNG export terminals and strategic petroleum reserve sites form the export backbone.'),
     ].join('');

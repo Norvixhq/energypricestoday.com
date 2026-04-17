@@ -97,15 +97,15 @@
     document.getElementById('sec-months').innerHTML = icon('calendar',20)+' Term Structure (Illustrative)';
     document.getElementById('sec-spreads').innerHTML = icon('git-compare',20)+' Understanding Spreads';
     document.getElementById('sec-rollover').innerHTML = icon('refresh-cw',20)+' Contract Rollover';
-    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What\u2019s Moving Futures Today';
+    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What’s Moving Futures Today';
     document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live Headlines';
     document.getElementById('sec-explore').innerHTML = icon('compass',20)+' Explore Related Topics';
 
     var wti = COMMODITIES[0] || {price:95,name:'WTI'};
     var brent = COMMODITIES[1] || {price:94,name:'Brent'};
     document.getElementById('fu-snap').innerHTML = [
-      SB('WTI Front Month','$'+(wti.price!==null?wti.price.toFixed(2):'\u2014'),'May 2026 contract'),
-      SB('Brent Front Month','$'+(brent.price!==null?brent.price.toFixed(2):'\u2014'),'June 2026 contract'),
+      SB('WTI Front Month','$'+(wti.price!==null?wti.price.toFixed(2):'—'),'May 2026 contract'),
+      SB('Brent Front Month','$'+(brent.price!==null?brent.price.toFixed(2):'—'),'June 2026 contract'),
       SB('Curve Structure','Backwardation','tight near-term supply'),
       SB('Daily Volume','1M+ contracts','WTI notional >1B barrels/day'),
     ].join('');

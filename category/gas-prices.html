@@ -3,10 +3,10 @@
 <head>
 <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','957762016897581');fbq('track','PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gas Prices Today by State \u2014 U.S. Average, Diesel, Premium \u2014 EnergyPricesToday.com</title>
+  <title>Gas Prices Today by State — U.S. Average, Diesel, Premium — EnergyPricesToday.com</title>
   <meta name="description" content="Today's gas prices for all 50 states plus DC. National average, regular, mid-grade, premium, and diesel from AAA. Why gas prices vary by state, current market drivers, and how crude oil affects the pump.">
   <link rel="canonical" href="https://www.energypricestoday.com/category/gas-prices.html">
-  <meta property="og:type" content="website"><meta property="og:title" content="Gas Prices Today by State \u2014 EnergyPricesToday.com">
+  <meta property="og:type" content="website"><meta property="og:title" content="Gas Prices Today by State — EnergyPricesToday.com">
   <meta property="og:description" content="Today's gas prices for all 50 states. National averages for regular, mid-grade, premium, diesel. Updated daily from AAA.">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Gas Prices Today by State","description":"Daily U.S. gas prices for all 50 states from AAA.","url":"https://www.energypricestoday.com/category/gas-prices.html"}</script>
   <link rel="stylesheet" href="../css/styles.css">
@@ -117,7 +117,7 @@
     document.getElementById('sec-national').innerHTML = icon('fuel',20)+' National Gas Price Averages';
     document.getElementById('sec-highlights').innerHTML = icon('bar-chart',20)+' Price Highlights';
     document.getElementById('sec-states').innerHTML = icon('map',20)+' Gas Prices by State';
-    document.getElementById('sec-drivers').innerHTML = icon('trending-up',20)+' What\u2019s Moving Gas Prices';
+    document.getElementById('sec-drivers').innerHTML = icon('trending-up',20)+' What’s Moving Gas Prices';
     document.getElementById('sec-explain').innerHTML = icon('info',20)+' Understanding Gas Prices';
     document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live Gas Price Headlines';
     document.getElementById('sec-articles').innerHTML = icon('newspaper',20)+' Featured Coverage';
@@ -130,16 +130,16 @@
       SB('Premium','$'+g.premium.toFixed(3),'national average'),
       SB('Diesel','$'+g.diesel.toFixed(3),'national average'),
     ].join('');
-    document.getElementById('gas-source').textContent = g.source + ' \u2014 ' + g.updated;
+    document.getElementById('gas-source').textContent = g.source + ' — ' + g.updated;
 
     // Highlights: cheapest, most expensive, Texas
     var sorted = GAS_PRICES_BY_STATE.slice().sort(function(a,b){return a.regular-b.regular;});
     var cheapest = sorted[0], expensive = sorted[sorted.length-1];
     var tx = GAS_PRICES_BY_STATE.find(function(s){return s.abbr==='TX';});
     document.getElementById('highlights-cards').innerHTML = [
-      TC('trending-down','Cheapest: '+cheapest.state,'$'+cheapest.regular.toFixed(3)+'/gal regular \u2014 low taxes, refinery access, competitive retail markets keep prices below the national average.'),
-      TC('trending-up','Most Expensive: '+expensive.state,'$'+expensive.regular.toFixed(3)+'/gal regular \u2014 high taxes, strict fuel-blend requirements, limited refinery access, and geographic isolation drive costs.'),
-      TC('map-pin','Texas','$'+(tx?tx.regular.toFixed(3):'N/A')+'/gal regular \u2014 home to the nation\u2019s largest refining complex along the Gulf Coast. Low taxes and abundant domestic production.'),
+      TC('trending-down','Cheapest: '+cheapest.state,'$'+cheapest.regular.toFixed(3)+'/gal regular — low taxes, refinery access, competitive retail markets keep prices below the national average.'),
+      TC('trending-up','Most Expensive: '+expensive.state,'$'+expensive.regular.toFixed(3)+'/gal regular — high taxes, strict fuel-blend requirements, limited refinery access, and geographic isolation drive costs.'),
+      TC('map-pin','Texas','$'+(tx?tx.regular.toFixed(3):'N/A')+'/gal regular — home to the nation’s largest refining complex along the Gulf Coast. Low taxes and abundant domestic production.'),
     ].join('');
 
     // State table
@@ -152,10 +152,10 @@
 
     // Drivers
     document.getElementById('driver-cards').innerHTML = [
-      TC('trending-up','Crude Oil Prices','Crude is 55-60% of the pump price. WTI at $94.62 keeps gas elevated but eased below $100 is flowing through to the pump. AAA national fell 7 cents to $4.093 this week &mdash; first weekly decline of the conflict. <a href="../oil-prices.html" style="color:var(--blue)">Oil Prices \u2192</a>'),
+      TC('trending-up','Crude Oil Prices','Crude is 55-60% of the pump price. WTI at $94.62 keeps gas elevated but eased below $100 is flowing through to the pump. AAA national fell 7 cents to $4.093 this week &mdash; first weekly decline of the conflict. <a href="../oil-prices.html" style="color:var(--blue)">Oil Prices →</a>'),
       TC('tool','Refinery Operations','U.S. refinery utilization at ~87%. Spring maintenance (turnarounds) reducing gasoline output. Gulf Coast refineries ramping up for summer driving season.'),
       TC('calendar','Seasonal Blend Switch','EPA-mandated winter-to-summer blend transition underway (April-June). Summer blends cost $0.10-0.25/gal more to produce due to lower vapor pressure requirements.'),
-      TC('globe','Geopolitics & Supply','Strait of Hormuz still 90%+ shut. Israel-Lebanon 10-day ceasefire begins Thursday. Iran ceasefire expires April 22. Extension under discussion; Trump says U.S. &ldquo;very close&rdquo; to deal. <a href="geopolitics.html" style="color:var(--blue)">Geopolitics \u2192</a>'),
+      TC('globe','Geopolitics & Supply','Strait of Hormuz still 90%+ shut. Israel-Lebanon 10-day ceasefire begins Thursday. Iran ceasefire expires April 22. Extension under discussion; Trump says U.S. &ldquo;very close&rdquo; to deal. <a href="geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
       TC('dollar-sign','Taxes & Regulations','Federal: $0.184/gal. State taxes: $0.09 (AK) to $0.68 (CA). California cap-and-trade adds $0.20-0.30/gal. These create permanent baseline differences between states.'),
       TC('truck','Distribution & Logistics','Pipeline capacity, truck delivery networks, and terminal access affect local supply. Inland/rural areas pay more. Coastal/refinery-adjacent areas pay less.'),
     ].join('');

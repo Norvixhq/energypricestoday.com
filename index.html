@@ -203,8 +203,8 @@ fbq('init','957762016897581');fbq('track','PageView');
           <h2 class="section-title" id="sec-geo"></h2>
           <a href="category/geopolitics.html" class="section-action" id="sec-geo-action"></a>
         </div>
-        <div class="grid-auto-280" id="geo-news"></div>
-        <div class="grid-auto-280" id="chokepoints" style="margin-top:16px"></div>
+        <div class="grid-4" id="geo-news"></div>
+        <div class="grid-4" id="chokepoints" style="margin-top:16px"></div>
       </div>
     </section>
 
@@ -231,7 +231,7 @@ fbq('init','957762016897581');fbq('track','PageView');
   <script src="js/news-feed.js"></script>
   <script>
     document.getElementById('hero-eyebrow').innerHTML = icon('activity',14) + ' Live Energy Markets';
-    document.getElementById('sec-drivers').innerHTML = icon('activity',18) + " What\u2019s Moving Markets Today";
+    document.getElementById('sec-drivers').innerHTML = icon('activity',18) + " What’s Moving Markets Today";
     document.getElementById('sec-pillars').innerHTML = icon('layout',18) + ' The Three Pillars';
     document.getElementById('sec-live').innerHTML = icon('zap',18) + ' Live Energy Headlines';
     document.getElementById('sec-breaking').innerHTML = icon('zap',18) + ' Breaking News';
@@ -255,7 +255,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     function renderHeroPrices() {
       document.getElementById('hero-prices').innerHTML = COMMODITIES.map(function(c) {
         if (c.price === null) {
-          return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating\u2026</div><div class="price-card-footer"><span class="price-card-unit">' + c.unit + '</span></div></div>';
+          return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">' + c.name + '</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating…</div><div class="price-card-footer"><span class="price-card-unit">' + c.unit + '</span></div></div>';
         }
         var estTag = c.name === 'Murban Crude' ? ' <span style="font-size:8px;color:var(--text-3)">est.</span>' : '';
         return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">' + c.name + estTag + ' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value">$' + c.price.toFixed(2) + '</div><div class="price-card-footer">' + priceChange(c.change, c.pct) + '<span class="price-card-unit">' + c.unit + '</span></div><div style="color:var(--text-3);font-size:8px;text-align:center;margin-top:3px">Updated every 5 min via API</div></div>';
@@ -273,13 +273,14 @@ fbq('init','957762016897581');fbq('track','PageView');
         '<p class="driver-desc">' + d.desc + '</p></div>';
     }).join('');
 
-    // THREE PILLARS
-    var gasAvg = (typeof US_GAS_NATIONAL !== 'undefined' ? US_GAS_NATIONAL.regular.toFixed(3) : '4.108');
-    var dieselAvg = (typeof US_GAS_NATIONAL !== 'undefined' ? US_GAS_NATIONAL.diesel.toFixed(3) : '5.548');
-    var wtiPrice = (COMMODITIES[0] && COMMODITIES[0].price !== null ? '$' + COMMODITIES[0].price.toFixed(2) : 'LIVE');
-    var brentPrice = (COMMODITIES[1] && COMMODITIES[1].price !== null ? '$' + COMMODITIES[1].price.toFixed(2) : 'LIVE');
+    // THREE PILLARS — renderPillars() is called initially AND after each live-data refresh
+    function renderPillars() {
+      var gasAvg = (typeof US_GAS_NATIONAL !== 'undefined' ? US_GAS_NATIONAL.regular.toFixed(3) : '4.093');
+      var dieselAvg = (typeof US_GAS_NATIONAL !== 'undefined' ? US_GAS_NATIONAL.diesel.toFixed(3) : '5.614');
+      var wtiPrice = (COMMODITIES[0] && COMMODITIES[0].price !== null ? '$' + COMMODITIES[0].price.toFixed(2) : '—');
+      var brentPrice = (COMMODITIES[1] && COMMODITIES[1].price !== null ? '$' + COMMODITIES[1].price.toFixed(2) : '—');
 
-    document.getElementById('pillar-cards').innerHTML = [
+      document.getElementById('pillar-cards').innerHTML = [
       {
         href: 'category/gas-prices.html', icon: 'fuel', title: 'U.S. Gas Prices', accent: '#10b45c',
         desc: 'Daily AAA gas prices for all 50 states plus D.C. Understand why prices vary state-by-state and what drives changes at the pump.',
@@ -309,6 +310,10 @@ fbq('init','957762016897581');fbq('track','PageView');
         '<span class="pillar-cta">' + p.cta + ' ' + icon('arrow-right',14) + '</span>' +
       '</a>';
     }).join('');
+    }
+    renderPillars();
+    // Re-render pillar card when live data refreshes (COMMODITIES mutated by live-data.js)
+    window.addEventListener('livePricesUpdated', renderPillars);
 
     // LIVE HEADLINES
     loadLiveNews('energy', 'live-energy-headlines', 10);
@@ -357,8 +362,8 @@ fbq('init','957762016897581');fbq('track','PageView');
         '<span style="color:var(--text-3);font-size:12px">' + n.date + '</span></a>';
     }).join('');
 
-    // GEO NEWS
-    document.getElementById('geo-news').innerHTML = GEO_ITEMS.map(function(g) {
+    // GEO NEWS — show 4 items for balanced 4+4 grid layout
+    document.getElementById('geo-news').innerHTML = GEO_ITEMS.slice(0,4).map(function(g) {
       return '<a href="' + articleUrl(g.title) + '" class="geo-card">' +
         '<div class="geo-region">' + g.region + '</div>' +
         '<div class="geo-title">' + g.title + '</div>' +

@@ -136,6 +136,7 @@ function applyAll(prices) {
 
 function renderAll() {
   if (typeof renderHeroPrices === 'function') renderHeroPrices();
+  window.dispatchEvent(new Event('livePricesUpdated'));
   if (typeof renderTicker === 'function') renderTicker();
   
   var mkt = document.getElementById('home-market-table');

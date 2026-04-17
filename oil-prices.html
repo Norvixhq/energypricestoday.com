@@ -3,10 +3,10 @@
 <head>
 <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','957762016897581');fbq('track','PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Oil Prices Today \u2014 WTI, Brent, 150+ Global Crude Benchmarks \u2014 EnergyPricesToday.com</title>
+  <title>Oil Prices Today — WTI, Brent, 150+ Global Crude Benchmarks — EnergyPricesToday.com</title>
   <meta name="description" content="Live oil prices: WTI crude, Brent crude, and 150+ global crude benchmarks updated every 5 minutes. OPEC blends, U.S. regional crudes, Canadian benchmarks, refined products, and international grades.">
   <link rel="canonical" href="https://www.energypricestoday.com/oil-prices.html">
-  <meta property="og:type" content="website"><meta property="og:title" content="Oil Prices Today \u2014 WTI, Brent, 150+ Crude Benchmarks">
+  <meta property="og:type" content="website"><meta property="og:title" content="Oil Prices Today — WTI, Brent, 150+ Crude Benchmarks">
   <meta property="og:description" content="Live WTI, Brent, and 150+ global crude oil prices. OPEC blends, regional crudes, and refined products updated every 5 minutes.">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Oil Prices Today","description":"Live crude oil prices for 150+ global benchmarks including WTI, Brent, OPEC, and regional grades."}</script>
   <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
@@ -98,7 +98,7 @@
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
-    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What\u2019s Moving Oil Today';
+    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What’s Moving Oil Today';
     document.getElementById('sec-explain').innerHTML = icon('info',20)+' Understanding Crude Oil Benchmarks';
     document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live Oil Market Headlines';
     document.getElementById('sec-articles').innerHTML = icon('newspaper',20)+' Featured Coverage';
@@ -106,16 +106,16 @@
 
     // HERO BENCHMARKS (LIVE)
     document.getElementById('hero-benchmarks').innerHTML = COMMODITIES.slice(0,5).map(function(c) {
-      if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">'+c.name+'</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating\u2026</div></div>';
+      if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">'+c.name+'</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating…</div></div>';
       var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
-      var arrow = c.change >= 0 ? '\u25B2' : '\u25BC';
+      var arrow = c.change >= 0 ? '▲' : '▼';
       var sign = c.change >= 0 ? '+' : '';
       return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">'+c.name+' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value">$'+c.price.toFixed(2)+'</div><div class="price-card-footer"><span style="color:'+chgColor+';font-size:11px;font-weight:600">'+arrow+' '+sign+c.pct.toFixed(2)+'%</span><span class="price-card-unit" style="margin-left:auto">'+c.unit+'</span></div><div style="color:var(--text-3);font-size:8px;text-align:center;margin-top:3px">Updated every 5 min via API</div></div>';
     }).join('');
 
     // WHAT'S MOVING OIL
     document.getElementById('driver-cards').innerHTML = [
-      TC('globe','Hormuz & Blockade','U.S. naval blockade continues. Hormuz 90%+ shut. Israel-Lebanon 10-day ceasefire begins Thursday. Iran ceasefire expires April 22; extension under discussion. <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics \u2192</a>'),
+      TC('globe','Hormuz & Blockade','U.S. naval blockade continues. Hormuz 90%+ shut. Israel-Lebanon 10-day ceasefire begins Thursday. Iran ceasefire expires April 22; extension under discussion. <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
       TC('users','OPEC+ Policy','206,000 bpd April output increase proceeding on schedule. Saudi East-West Pipeline restored to full capacity. No emergency meeting called.'),
       TC('trending-up','Crude Near $95','WTI jumped 3.7% Thursday to $94.62 on surprise 9.13M barrel crude draw. Brent up 4%. Risk premium persists but below February peak. Market balancing ceasefire hopes vs. Hormuz reality.'),
       TC('tool','Refinery Season','Spring turnarounds reducing U.S. utilization to ~87%. Summer blend transition underway (adds $0.10-0.25/gal). Gulf Coast ramping for driving season.'),

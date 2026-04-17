@@ -207,7 +207,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     document.getElementById('sec-market').innerHTML = icon('bar-chart',20) + ' Related Market Data';
     document.getElementById('rig-market-cards').innerHTML = COMMODITIES.slice(0,5).map(function(c) {
       var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
-      var arrow = c.change >= 0 ? '\u25B2' : '\u25BC';
+      var arrow = c.change >= 0 ? '▲' : '▼';
       var sign = c.change >= 0 ? '+' : '';
       return '<div class="price-card" style="padding:16px"><div class="price-card-header"><span class="price-card-label" style="font-size:11px">' + c.name + ' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value" style="font-size:22px">$' + c.price.toFixed(2) + '</div><div style="color:' + chgColor + ';font-size:11px;font-weight:600;margin-top:4px">' + arrow + ' ' + sign + c.pct.toFixed(2) + '%</div><div style="color:var(--text-3);font-size:7.5px;margin-top:2px">Updated every 5 min via API</div></div>';
     }).join('');
