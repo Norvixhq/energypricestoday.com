@@ -1257,3 +1257,85 @@ a.article-featured{pointer-events:auto}
   .cat-pill{line-height:1.4}
   #latest-news .article-featured{margin-top:0}
 }
+
+
+/* ═══════════════════════════════════════════════════════════
+   APRIL 17 MOBILE FIXES
+   ═══════════════════════════════════════════════════════════ */
+
+/* FIX: Remove article-featured blue left border on mobile — was showing as stray blue line */
+@media (max-width: 768px) {
+  .article-featured {
+    border-left-width: 0 !important;
+    border-left: none !important;
+  }
+  .article-featured::before,
+  .article-featured::after {
+    display: none !important;
+  }
+  .news-row::before {
+    display: none !important;
+  }
+  /* Ensure no phantom borders appear between sections on mobile */
+  .section { border: none !important; }
+  .section-header { border-bottom: none !important; }
+}
+
+/* FIX: Company News directory table — usable on mobile */
+@media (max-width: 768px) {
+  .company-directory {
+    font-size: 11px;
+    min-width: 100%;
+  }
+  .company-directory thead th {
+    padding: 8px 4px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .company-directory tbody td {
+    padding: 8px 4px;
+    font-size: 11px;
+  }
+  /* Ensure Dividend column is visible by hiding less-critical columns on very small screens */
+  .company-directory tbody td:nth-child(n+4):nth-child(-n+5) {
+    font-size: 10px;
+  }
+  /* Wrap the table in scrollable container with elegant indicator */
+  .market-table-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+  }
+  .market-table-wrap::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 24px;
+    background: linear-gradient(270deg, var(--bg) 0%, transparent 100%);
+    pointer-events: none;
+    opacity: 0.7;
+  }
+}
+
+/* At very narrow widths, hide HQ column to prioritize Dividend visibility */
+@media (max-width: 480px) {
+  .company-directory thead th:last-child,
+  .company-directory tbody td:last-child {
+    display: none;
+  }
+  .company-directory thead th:nth-last-child(2),
+  .company-directory tbody td:nth-last-child(2) {
+    text-align: right;
+    padding-right: 8px;
+  }
+}
+
+/* FIX: Cat-pill rendering consistency — no more extra spacing artifacts */
+@media (max-width: 768px) {
+  .cat-pill {
+    line-height: 1.4;
+    vertical-align: middle;
+  }
+}

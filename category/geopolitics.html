@@ -63,7 +63,7 @@
       <div class="section-header"><h2 class="section-title" id="sec-impact"></h2></div>
       <div class="explainer-block">
         <h3>The Geopolitical Risk Premium</h3>
-        <p>Oil prices include a “geopolitical risk premium” — an amount above the fundamental supply-demand price that reflects the market’s assessment of potential supply disruptions. This premium can add $5-30+ per barrel depending on the severity and proximity of threats. During the 2026 Hormuz crisis, the risk premium exceeded $25/barrel at its peak.</p>
+        <p>Oil prices include a “geopolitical risk premium” — an amount above the fundamental supply-demand price that reflects the market’s assessment of potential supply disruptions. This premium can add $5-30+ per barrel depending on the severity and proximity of threats. During the 2026 Hormuz crisis, the risk premium exceeded $25/barrel at its peak. With Hormuz reopening April 17, the premium has collapsed — WTI dropped 11.45% in a single day.</p>
         <p style="margin-top:10px">The premium transmits through the entire energy chain: crude prices affect refinery economics, which affect wholesale gasoline and diesel prices, which affect pump prices within 1-2 weeks. A $10/barrel crude increase typically translates to $0.24-0.30/gallon at the pump. This is why geopolitical events in the Persian Gulf directly affect American consumers.</p>
       </div>
       <div class="grid-3" id="impact-cards" style="margin-top:20px"></div>
@@ -135,19 +135,19 @@
 
     // RISK DASHBOARD
     document.getElementById('geo-risk-cards').innerHTML = [
-      riskCard('Strait of Hormuz','HIGH','U.S. naval blockade continues. 90%+ of shipping still disrupted. 230 loaded oil tankers waiting inside Gulf per ADNOC CEO. Ceasefire expires April 22; extension under discussion.'),
+      riskCard('Strait of Hormuz','MODERATE','Iran declared the strait completely open for commercial traffic April 17. Coordinated routing required. Shipping backlog may take weeks to clear. U.S. blockade of Iranian ports remains.'),
       riskCard('Red Sea / Bab el-Mandeb','HIGH','Houthi attacks continue; most commercial traffic routed around Cape of Good Hope. Insurance premiums prohibitive. Iran restrictions on Gulf shipping remain.'),
       riskCard('Iran — U.S. Conflict','HIGH','Day 48 of war. Ceasefire expires April 22. Trump says U.S. &ldquo;very close&rdquo; to Iran deal. Pakistani officials traveling between Iran and Washington to facilitate next round.'),
       riskCard('OPEC+ Policy','ELEVATED','206,000 bpd output increase in April despite conflict. Saudi Arabia balancing market share vs. price support. Emergency meeting possible if ceasefire collapses.'),
       riskCard('Russia / Ukraine','ELEVATED','European energy independence accelerating. Russian crude redirected to Asia at discount. Pipeline gas flows to Europe at minimal levels.'),
       riskCard('Suez Canal','MODERATE','Canal itself operational but Red Sea rerouting has reduced Suez traffic significantly. Revenue impact on Egypt.'),
       riskCard('Venezuela / Sanctions','MODERATE','U.S. sanctions remain. Venezuelan production ~800,000 bpd, well below 2015 peak of 2.5M bpd. Limited upside without infrastructure investment.'),
-      riskCard('LNG Supply Chains','HIGH','Qatari LNG disrupted by Hormuz closure. Europe competing with Asia for U.S. cargoes. Global LNG prices elevated 40%+ above pre-crisis.'),
+      riskCard('LNG Supply Chains','MODERATE','Qatari LNG flows resuming with Hormuz open. Europe still competing for U.S. cargoes but price pressure easing. LNG prices off crisis highs but remain elevated.'),
     ].join('');
 
     // CHOKEPOINTS
     document.getElementById('chokepoints').innerHTML = [
-      TC('anchor','Strait of Hormuz','21-mile wide passage between Iran and Oman. Handles 21M bpd of oil (21% of global consumption) plus 25% of global LNG. Currently 90%+ shut due to U.S.-Iran conflict. Only sea route from the Persian Gulf.'),
+      TC('anchor','Strait of Hormuz','21-mile wide passage between Iran and Oman. Handles 21M bpd of oil (21% of global consumption) plus 25% of global LNG. Reopened April 17 with coordinated routing. Shipping backlog will take weeks to clear.'),
       TC('ship','Red Sea / Bab el-Mandeb','Connects the Indian Ocean to the Mediterranean via the Suez Canal. Handles ~10% of global oil trade and 12-14% of European LNG. Houthi attacks and Iranian threats have diverted most commercial shipping around Africa.'),
       TC('map-pin','Suez Canal','Egyptian waterway connecting Red Sea to Mediterranean. Handles ~12% of global trade and ~5.5M bpd of oil equivalents. Canal itself operational but reduced Red Sea traffic has cut Suez transits significantly.'),
       TC('git-branch','East-West Pipeline (Saudi)','5M bpd capacity bypassing Hormuz from eastern Saudi fields to Red Sea port of Yanbu. Damaged by drone strikes April 8, restored April 12. Critical Hormuz bypass but vulnerable to attack.'),
@@ -164,8 +164,8 @@
 
     // FLASHPOINTS
     document.getElementById('flashpoints').innerHTML = [
-      TC('shield','Iran Nuclear Standoff','Both sides proposed enrichment suspension but disagree on timeframe. U.S. demands facility dismantlement. Iran insists on sovereign rights. The nuclear issue is the core obstacle to a lasting peace deal.'),
-      TC('anchor','Naval Blockade','U.S. Navy enforcing port blockade on Iran since April 13. Iran accuses Washington of piracy, forces on maximum alert. Chinese tankers defying blockade. Freedom of navigation for non-Iran ports maintained.'),
+      TC('globe','Paris Summit','Macron and Starmer hosted multinational summit April 17 on Hormuz security. UK, France, South Korea exploring defensive coordination. Coalition of the willing forming to safeguard future navigation.'),
+      TC('anchor','U.S. Naval Blockade','Trump says blockade of Iranian ports remains in full force until peace deal signed. Iran warns of response. Blockade distinct from Hormuz transit for non-Iranian ports.'),
       TC('map-pin','Lebanon / Hezbollah','Israel-Lebanon 10-day ceasefire begins 5 P.M. Thursday April 16. Israel agrees to respond only to &lsquo;imminent threats from Hezbollah.&rsquo; Netanyahu rejected Hezbollah-demanded terms. Hezbollah response uncertain.'),
       TC('dollar-sign','OPEC+ Output','April 206K bpd increase proceeding despite conflict. Saudi Arabia restored East-West Pipeline capacity. Iraq, Kuwait, UAE maintaining compliance. Emergency session possible if ceasefire collapses.'),
       TC('globe','Russia Energy Flows','Russian crude finding willing buyers in India and China at $10-15 discount. EU oil embargo holding but enforcement varies. Nord Stream destroyed; remaining pipeline gas minimal.'),
@@ -176,7 +176,7 @@
     var tickerEl = document.getElementById('geo-ticker-text');
     if (tickerEl) {
       tickerEl.textContent = 'Loading live headlines...';
-      fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent('https://news.google.com/rss/search?q=Iran+ceasefire+oil+OR+Strait+Hormuz+OR+Middle+East+energy+war&hl=en-US&gl=US&ceid=US:en')+'&count=8')
+      fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent('https://news.google.com/rss/search?q=Hormuz+reopened+OR+Iran+ceasefire+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en')+'&count=8')
         .then(function(r){return r.json();})
         .then(function(data){
           if(data.items&&data.items.length>0){
