@@ -91,7 +91,10 @@ function priceChange(change, pct) {
 
 // ─── CATEGORY PILL ───────────────────────────────────────────────
 function catPill(cat, slug) {
-  if (slug) return `<a class="cat-pill" href="category/${slug}.html">${cat}</a>`;
+  // Always render as <span> — we used to return an <a> when slug was provided,
+  // but catPill is often called INSIDE an <a> tag (article cards), and nested
+  // anchors cause the HTML5 parser to split the DOM, creating phantom empty
+  // boxes that all click through to the parent link. Span-only avoids this.
   return `<span class="cat-pill">${cat}</span>`;
 }
 
