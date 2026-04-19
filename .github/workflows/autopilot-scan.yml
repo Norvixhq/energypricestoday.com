@@ -1,0 +1,56 @@
+name: Autopilot Scan
+
+# Phase 1 autopilot: observer + detect + conditionally render js/data.js
+# Runs every 15 minutes. Commits only when the orchestrator says data changed.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Force render even without meaningful changes"
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: autopilot-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run autopilot
+        env:
+          OILPRICE_API_KEY: ${{ secrets.OILPRICE_API_KEY }}
+          EIA_API_KEY: ${{ secrets.EIA_API_KEY }}
+        run: |
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then
+            python3 scripts/autopilot.py --force --verbose
+          else
+            python3 scripts/autopilot.py --verbose
+          fi
+
+      - name: Commit changes (if any)
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            python3 scripts/commit_and_push.py "autopilot price refresh"
+          else
+            echo "No changes to commit"
+          fi
