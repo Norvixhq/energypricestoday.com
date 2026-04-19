@@ -1,11 +1,11 @@
 {
   "commodity-prices": {
     "meta": {
-      "generated_at": "2026-04-19T20:49:07.427176+00:00",
+      "generated_at": "2026-04-19T21:43:37.504730+00:00",
       "status": "fresh",
       "source": "oilpriceapi",
       "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
-      "last_success": "2026-04-19T20:49:07.427176+00:00"
+      "last_success": "2026-04-19T21:43:37.504730+00:00"
     },
     "prices": {
       "Brent Crude": {
@@ -14,7 +14,7 @@
         "pct": 0.0,
         "unit": "$/bbl",
         "source_code": "BRENT_CRUDE_USD",
-        "updated_at": "2026-04-19T20:40:09Z"
+        "updated_at": "2026-04-19T21:40:45Z"
       },
       "Diesel ULSD": {
         "price": 3.43,
@@ -65,12 +65,12 @@
         "updated_at": "2026-04-18T00:00:04Z"
       },
       "Natural Gas": {
-        "price": 2.67,
-        "change": 0.0,
-        "pct": 0.0,
+        "price": 2.66,
+        "change": -0.01,
+        "pct": -0.37,
         "unit": "$/MMBtu",
         "source_code": "NATURAL_GAS_USD",
-        "updated_at": "2026-04-19T20:40:11Z"
+        "updated_at": "2026-04-19T21:40:48Z"
       },
       "Coal": {
         "price": 132.3,
@@ -81,22 +81,22 @@
         "updated_at": "2026-04-18T00:01:43Z"
       },
       "WTI Crude": {
-        "price": 85.76,
-        "change": 1.91,
-        "pct": 2.28,
+        "price": 86.25,
+        "change": 2.4,
+        "pct": 2.86,
         "unit": "$/bbl",
         "source_code": "WTI_USD",
-        "updated_at": "2026-04-19T20:40:06Z"
+        "updated_at": "2026-04-19T21:40:41Z"
       }
     }
   },
   "gas-prices-national": {
     "meta": {
-      "generated_at": "2026-04-19T20:49:11.147792+00:00",
+      "generated_at": "2026-04-19T21:43:41.041107+00:00",
       "status": "fresh",
       "source_label": "EIA Weekly Retail Gasoline Prices",
       "source_date": "April 19, 2026",
-      "last_success": "2026-04-19T20:49:11.147792+00:00"
+      "last_success": "2026-04-19T21:43:41.041107+00:00"
     },
     "prices": {
       "regular": 4.123,
@@ -105,5 +105,5 @@
       "diesel": 5.608
     }
   },
-  "as_of": "2026-04-19T20:49:11.189026+00:00"
+  "as_of": "2026-04-19T21:43:41.076819+00:00"
 }
