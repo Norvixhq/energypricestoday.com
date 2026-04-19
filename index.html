@@ -109,17 +109,17 @@ fbq('init','957762016897581');fbq('track','PageView');
           <p class="hero-sub">Live oil prices, U.S. gas prices by state, and real-time energy geopolitics — WTI, Brent, AAA data, and breaking news in one place. Today: Iran re-closes the Strait of Hormuz, IRGC gunboats fire on Indian tankers, and the U.S.-Iran ceasefire expires Tuesday, April 21.</p>
         </div>
         <div class="grid-10" id="hero-prices" style="margin-bottom:20px"></div>
-        <!-- AT-A-GLANCE MARKET STRIP — renders instantly from static data, upgraded by live-data.js -->
+        <!-- AT-A-GLANCE MARKET STRIP — complements the hero price cards above with derived + risk info -->
         <div class="glance-strip" id="glance-strip">
           <div class="glance-item">
-            <div class="glance-item-label">WTI Crude</div>
-            <div class="glance-item-value" data-glance="wti">$96.57</div>
-            <div class="glance-item-sub">per barrel</div>
+            <div class="glance-item-label">Brent-WTI Spread</div>
+            <div class="glance-item-value" data-glance="spread">+$4.62</div>
+            <div class="glance-item-sub">global vs U.S.</div>
           </div>
-          <div class="glance-item">
-            <div class="glance-item-label">Brent Crude</div>
-            <div class="glance-item-value" data-glance="brent">$95.20</div>
-            <div class="glance-item-sub">per barrel</div>
+          <div class="glance-item risk-high">
+            <div class="glance-item-label">Hormuz Status</div>
+            <div class="glance-item-value" style="font-size:14px">CLOSED</div>
+            <div class="glance-item-sub">re-closed Apr 18</div>
           </div>
           <div class="glance-item">
             <div class="glance-item-label">U.S. Gas Avg</div>
@@ -129,7 +129,7 @@ fbq('init','957762016897581');fbq('track','PageView');
           <div class="glance-item risk-high">
             <div class="glance-item-label">Risk Level</div>
             <div class="glance-item-value">HIGH</div>
-            <div class="glance-item-sub">Hormuz closed</div>
+            <div class="glance-item-sub">Hormuz + ceasefire</div>
           </div>
           <div class="glance-item">
             <div class="glance-item-label">Next Catalyst</div>
@@ -331,13 +331,16 @@ fbq('init','957762016897581');fbq('track','PageView');
         if (typeof COMMODITIES === 'undefined' || !COMMODITIES.length) return;
         var wti = COMMODITIES.find(function(c){return c.name==='WTI Crude';});
         var brent = COMMODITIES.find(function(c){return c.name==='Brent Crude';});
-        if (wti && wti.price) {
-          var el = document.querySelector('[data-glance="wti"]');
-          if (el) el.textContent = '$' + wti.price.toFixed(2);
-        }
-        if (brent && brent.price) {
-          var el2 = document.querySelector('[data-glance="brent"]');
-          if (el2) el2.textContent = '$' + brent.price.toFixed(2);
+        // Compute Brent-WTI spread — derived info not shown elsewhere on the page
+        if (wti && wti.price && brent && brent.price) {
+          var spread = brent.price - wti.price;
+          var el = document.querySelector('[data-glance="spread"]');
+          if (el) {
+            var sign = spread >= 0 ? '+$' : '−$';
+            el.textContent = sign + Math.abs(spread).toFixed(2);
+            // Color amber if unusually wide (>$5), green if normal range
+            el.style.color = Math.abs(spread) > 5 ? '#f59e0b' : '#10b981';
+          }
         }
         if (typeof US_GAS_NATIONAL !== 'undefined' && US_GAS_NATIONAL.regular) {
           var el3 = document.querySelector('[data-glance="gas"]');
@@ -348,11 +351,12 @@ fbq('init','957762016897581');fbq('track','PageView');
     updateGlanceStrip();
     window.addEventListener('livePricesUpdated', updateGlanceStrip);
 
-    // HERO CTAs (3 pillars emphasized)
+    // HERO CTAs (4 pillars)
     document.getElementById('hero-actions').innerHTML =
       '<a href="category/gas-prices.html" class="btn btn-primary">' + icon('fuel',14) + ' U.S. Gas Prices</a>' +
       '<a href="oil-prices.html" class="btn btn-primary">' + icon('trending-up',14) + ' Oil Prices</a>' +
-      '<a href="category/geopolitics.html" class="btn btn-amber">' + icon('globe',14) + ' Geopolitics</a>';
+      '<a href="category/geopolitics.html" class="btn btn-amber">' + icon('globe',14) + ' Geopolitics</a>' +
+      '<a href="markets.html" class="btn btn-primary">' + icon('bar-chart',14) + ' Markets</a>';
 
     // HERO PRICE CARDS
     function renderHeroPrices() {

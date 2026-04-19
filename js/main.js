@@ -139,7 +139,7 @@ function renderHeader(activePage) {
     if (n.dropdown) {
       const subs = n.dropdown.map(s => `<a href="${prefix + s.href}">${s.label}</a>`).join('');
       return `<div class="nav-dropdown-wrap">
-        <a class="nav-link${isActive ? ' active' : ''}" href="${href}">${n.label} ${icon('chevron-down', 12)}</a>
+        <a class="nav-link nav-link-energy${isActive ? ' active' : ''}" href="${href}">${n.label} ${icon('chevron-down', 12)}</a>
         <div class="nav-dropdown">${subs}</div>
       </div>`;
     }
