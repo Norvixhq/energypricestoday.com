@@ -1,4 +1,4 @@
-// Auto-generated article slug map - April 17, 2026
+// Auto-generated article slug map - April 18, 2026
 const ARTICLE_SLUGS = {
   "10-Day Ceasefire Begins Thursday 5 P.M.": "10-day-ceasefire-begins-thursday-5-pm",
   "20,000 Vessels Stranded": "20000-vessels-stranded",
@@ -28,6 +28,7 @@ const ARTICLE_SLUGS = {
   "Ceasefire Largely Holding Day 2 \u2014 No New Gulf State Attacks Reported April 9": "ceasefire-largely-holding-day-2-no-new-gulf-state-attacks-reported-april-9",
   "Cheapest Gas Prices by State Where to Find the Lowest Prices": "cheapest-gas-prices-by-state-where-to-find-the-lowest-prices",
   "Cheniere Energy Sees Q1 LNG Demand Surge Before Strait Reopens": "cheniere-energy-sees-q1-lng-demand-surge-before-strait-reopens",
+  "Cheniere Energy Sees Renewed LNG Premium as Hormuz Closes Again": "cheniere-energy-sees-renewed-lng-premium-as-hormuz-closes-again",
   "Cheniere Sees Strong Q1 LNG Demand Amid Hormuz Disruption": "cheniere-sees-strong-q1-lng-demand-amid-hormuz-disruption",
   "Chevron Completes Hess Merger, Gains Guyana Stabroek Stake": "chevron-completes-hess-merger-gains-guyana-stabroek-stake",
   "Chevron-Hess Arbitration Ruling Expected in Coming Weeks": "chevron-hess-arbitration-ruling-expected-in-coming-weeks",
@@ -35,6 +36,7 @@ const ARTICLE_SLUGS = {
   "Cold Snap Lifts Gas Prices": "cold-snap-lifts-gas-prices",
   "ConocoPhillips Completes Marathon Oil Integration Synergies": "conocophillips-completes-marathon-oil-integration-synergies",
   "ConocoPhillips Completes Marathon Oil Merger Integration": "conocophillips-completes-marathon-oil-merger-integration",
+  "Container Ship Struck by Unknown Projectile Off Oman Coast": "container-ship-struck-by-unknown-projectile-off-oman-coast",
   "Crude Braces for Turmoil": "crude-braces-for-turmoil",
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
@@ -46,6 +48,7 @@ const ARTICLE_SLUGS = {
   "EIA: U.S. Summer Gasoline Demand Expected to Average 9.1M BPD": "eia-us-summer-gasoline-demand-expected-to-average-91m-bpd",
   "EU Carbon Price Stabilizes at \u20ac85/Tonne, Supporting Clean Energy Economics": "eu-carbon-price-stabilizes-at-85tonne-supporting-clean-energy-economics",
   "Electric Vehicle Sales Growth Slows in Europe But Accelerates in Asia": "electric-vehicle-sales-growth-slows-in-europe-but-accelerates-in-asia",
+  "Energy Stocks Rebound as Hormuz Re-Closure Lifts Crude Prices": "energy-stocks-rebound-as-hormuz-re-closure-lifts-crude-prices",
   "Energy Stocks Tumble as Oil Crashes 11% on Hormuz Reopening": "energy-stocks-tumble-as-oil-crashes-11-on-hormuz-reopening",
   "Equinor Wins New Offshore Wind Contracts in the North Sea": "equinor-wins-new-offshore-wind-contracts-in-the-north-sea",
   "European Diesel Imports From Asia Rise as Arbitrage Window Opens": "european-diesel-imports-from-asia-rise-as-arbitrage-window-opens",
@@ -62,8 +65,13 @@ const ARTICLE_SLUGS = {
   "ExxonMobil vs. Chevron: Battle for Permian Supremacy": "exxonmobil-vs-chevron-battle-for-permian-supremacy",
   "Fragile Truce Holds": "fragile-truce-holds",
   "France Commits \u20ac10B to Build Six New EPR2 Reactors by 2040": "france-commits-10b-to-build-six-new-epr2-reactors-by-2040",
+  "French UN Peacekeeper Killed in Lebanon Attack, Macron Blames Hezbollah": "french-un-peacekeeper-killed-in-lebanon-attack-macron-blames-hezbollah",
+  "French UN Peacekeeper Killed in Lebanon, Macron Blames Hezbollah": "french-un-peacekeeper-killed-in-lebanon-macron-blames-hezbollah",
+  "French UN Peacekeeper Killed on Day 2 of Ceasefire": "french-un-peacekeeper-killed-on-day-2-of-ceasefire",
   "Futures & Indexes": "futures-indexes",
+  "Gas Prices Continue Slide to $4.058 \u2014 Seventh Straight Daily Decline": "gas-prices-continue-slide-to-4058-seventh-straight-daily-decline",
   "Gas Prices Continue Slide \u2014 AAA National Falls to $4.076": "gas-prices-continue-slide-aaa-national-falls-to-4076",
+  "Gas Prices Fall to $4.058 \u2014 Seventh Consecutive Daily Decline": "gas-prices-fall-to-4058-seventh-consecutive-daily-decline",
   "Gas Prices Fall to $4.076 \u2014 Lowest Level Since Late March": "gas-prices-fall-to-4076-lowest-level-since-late-march",
   "Gas Prices Today U.S. National and State Averages April 2026": "gas-prices-today-us-national-and-state-averages-april-2026",
   "Gasoline Futures Up 3.1%, Cracks Widen": "gasoline-futures-up-31-cracks-widen",
@@ -88,12 +96,16 @@ const ARTICLE_SLUGS = {
   "Guyana's Stabroek Block Delivers New 1.5 Billion Barrel Discovery": "guyanas-stabroek-block-delivers-new-15-billion-barrel-discovery",
   "Heating Oil Futures Ease as Winter Demand Season Winds Down": "heating-oil-futures-ease-as-winter-demand-season-winds-down",
   "Henry Hub Falls Below 3.50 as U.S. Storage Surplus Persists": "henry-hub-falls-below-350-as-us-storage-surplus-persists",
+  "Hormuz Closed Again: Iran Reverses Course as Trump Refuses to Lift Blockade": "hormuz-closed-again-iran-reverses-course-as-trump-refuses-to-lift-blockade",
   "Hormuz Reopening Imminent": "hormuz-reopening-imminent",
   "Hormuz Reopens: Iran Declares Strait Open as Oil Crashes 11%": "hormuz-reopens-iran-declares-strait-open-as-oil-crashes-11",
   "How OPEC Controls Oil Prices Simple Explanation": "how-opec-controls-oil-prices-simple-explanation",
   "How U.S. Oil Inventories Move Crude Prices Weekly EIA Report Guide": "how-us-oil-inventories-move-crude-prices-weekly-eia-report-guide",
   "IEA Warns of Potential Supply Shortfall in Late 2026": "iea-warns-of-potential-supply-shortfall-in-late-2026",
+  "IRGC Gunboats Fire on Two Indian-Flagged Merchant Ships in Strait of Hormuz": "irgc-gunboats-fire-on-two-indian-flagged-merchant-ships-in-strait-of-hormuz",
   "India Diversifies Crude Imports Away From Middle East Dependence": "india-diversifies-crude-imports-away-from-middle-east-dependence",
+  "India Summons Iranian Ambassador Over Attack on Indian Merchant Ships": "india-summons-iranian-ambassador-over-attack-on-indian-merchant-ships",
+  "India Summons Iranian Ambassador Over Shooting of Indian Ships": "india-summons-iranian-ambassador-over-shooting-of-indian-ships",
   "India's Energy Consumption Surpasses Japan for First Time": "indias-energy-consumption-surpasses-japan-for-first-time",
   "India's Solar Tariffs Drop to Record Low $0.029/kWh in Rajasthan Auction": "indias-solar-tariffs-drop-to-record-low-0029kwh-in-rajasthan-auction",
   "International Rig Count Drops 54 in March as Middle East Conflict Disrupts Drilling": "international-rig-count-drops-54-in-march-as-middle-east-conflict-disrupts-drill",
@@ -102,10 +114,12 @@ const ARTICLE_SLUGS = {
   "Iran Blames U.S. for Failure of 21-Hour Islamabad Negotiations": "iran-blames-us-for-failure-of-21-hour-islamabad-negotiations",
   "Iran Blames U.S. for Failure \u2014 Nuclear Program and Hormuz Control Key Sticking Points": "iran-blames-us-for-failure-nuclear-program-and-hormuz-control-key-sticking-point",
   "Iran Ceasefire Rocks Markets": "iran-ceasefire-rocks-markets",
+  "Iran Closes Strait of Hormuz Again in Response to U.S. Blockade": "iran-closes-strait-of-hormuz-again-in-response-to-us-blockade",
   "Iran Declares Strait of Hormuz Completely Open": "iran-declares-strait-of-hormuz-completely-open",
   "Iran Declares Strait of Hormuz Completely Open for Commercial Traffic": "iran-declares-strait-of-hormuz-completely-open-for-commercial-traffic",
   "Iran Nuclear Deal Stalls": "iran-nuclear-deal-stalls",
   "Iran Nuclear Program Remains Central Sticking Point in U.S. Negotiations": "iran-nuclear-program-remains-central-sticking-point-in-us-negotiations",
+  "Iran Re-Closes Strait of Hormuz After One-Day Reopening": "iran-re-closes-strait-of-hormuz-after-one-day-reopening",
   "Iran Rebuilding Bases": "iran-rebuilding-bases",
   "Iran Threatens to Block Red Sea and Gulf of Oman if U.S. Blockade Continues": "iran-threatens-to-block-red-sea-and-gulf-of-oman-if-us-blockade-continues",
   "Iran Warns of Strong Responses if Israeli Lebanon Strikes Continue": "iran-warns-of-strong-responses-if-israeli-lebanon-strikes-continue",
@@ -132,6 +146,7 @@ const ARTICLE_SLUGS = {
   "Japan LNG Spot Price Drops to $12.40/MMBtu on Mild Asian Demand": "japan-lng-spot-price-drops-to-1240mmbtu-on-mild-asian-demand",
   "Keystone Pipeline Restarts After Maintenance Shutdown": "keystone-pipeline-restarts-after-maintenance-shutdown",
   "Kuwait Reports Significant Damage to Oil Facilities from Iranian Drone Attacks": "kuwait-reports-significant-damage-to-oil-facilities-from-iranian-drone-attacks",
+  "Maersk, Hapag-Lloyd Suspend Hormuz Transits Again After Iran Reversal": "maersk-hapag-lloyd-suspend-hormuz-transits-again-after-iran-reversal",
   "Managed Money Net Longs in Crude Futures Rise for Fourth Straight Week": "managed-money-net-longs-in-crude-futures-rise-for-fourth-straight-week",
   "Markets React to Unexpected Inventory Build in Cushing Hub": "markets-react-to-unexpected-inventory-build-in-cushing-hub",
   "Microsoft Signs 20-Year Nuclear Power Purchase Agreement for Data Centers": "microsoft-signs-20-year-nuclear-power-purchase-agreement-for-data-centers",
@@ -159,6 +174,7 @@ const ARTICLE_SLUGS = {
   "OPEC+ Proceeds with April Output Increase Despite Conflict": "opec-proceeds-with-april-output-increase-despite-conflict",
   "OPEC+ Quota Compliance": "opec-quota-compliance",
   "OPEC+ Signals Extended Production Cuts Through Q3 2026 Amid Demand Uncertainty": "opec-signals-extended-production-cuts-through-q3-2026-amid-demand-uncertainty",
+  "OPEC+ Unchanged Despite Hormuz Re-Closure": "opec-unchanged-despite-hormuz-re-closure",
   "Offshore Wind Capacity Surpasses 80 GW Globally": "offshore-wind-capacity-surpasses-80-gw-globally",
   "Offshore Wind Capacity Surpasses 80 GW Globally as Costs Stabilize": "offshore-wind-capacity-surpasses-80-gw-globally-as-costs-stabilize",
   "Oil Markets Brace for Renewed Volatility as Ceasefire Future Uncertain": "oil-markets-brace-for-renewed-volatility-as-ceasefire-future-uncertain",
@@ -169,8 +185,11 @@ const ARTICLE_SLUGS = {
   "Oil Prices Climb Near $100 as Energy Secretary Warns Prices Will Keep Rising": "oil-prices-climb-near-100-as-energy-secretary-warns-prices-will-keep-rising",
   "Oil Prices Ease on Ceasefire Extension Hopes \u2014 WTI Pulls Back Below $95": "oil-prices-ease-on-ceasefire-extension-hopes-wti-pulls-back-below-95",
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
+  "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
+  "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration": "pakistan-fm-dar-working-to-bridge-us-iran-differences-before-tuesday-ceasefire-e",
+  "Pakistan Mediating Second Round of Talks": "pakistan-mediating-second-round-of-talks",
   "Pakistan Mediation Effort Intensifies Ahead of April 22 Deadline": "pakistan-mediation-effort-intensifies-ahead-of-april-22-deadline",
   "Pakistan PM Sharif Tours Qatar, Turkey in Mediation Effort": "pakistan-pm-sharif-tours-qatar-turkey-in-mediation-effort",
   "Pakistan PM Sharif Visits Qatar, Turkey in Continued U.S.-Iran Mediation Effort": "pakistan-pm-sharif-visits-qatar-turkey-in-continued-us-iran-mediation-effort",
@@ -206,6 +225,7 @@ const ARTICLE_SLUGS = {
   "Satellite Imagery Shows Smoke Rising from Saudi Aramco Abqaiq Facility": "satellite-imagery-shows-smoke-rising-from-saudi-aramco-abqaiq-facility",
   "Satellite Images Show Iran Rebuilding Underground Missile Bases During Ceasefire": "satellite-images-show-iran-rebuilding-underground-missile-bases-during-ceasefire",
   "Saudi Arabia Holds Firm on April OSP Despite Market Pressure": "saudi-arabia-holds-firm-on-april-osp-despite-market-pressure",
+  "Saudi Aramco Activates East-West Pipeline Contingency Protocols": "saudi-aramco-activates-east-west-pipeline-contingency-protocols",
   "Saudi Aramco Invests $2B in South Korean Refinery Expansion": "saudi-aramco-invests-2b-in-south-korean-refinery-expansion",
   "Saudi Aramco Invests $2B in South Korean Refining Complex": "saudi-aramco-invests-2b-in-south-korean-refining-complex",
   "Saudi Aramco Restores East-West Pipeline Capacity After Drone Damage": "saudi-aramco-restores-east-west-pipeline-capacity-after-drone-damage",
@@ -241,6 +261,9 @@ const ARTICLE_SLUGS = {
   "Trump Says U.S. 'Very Close' to Deal with Iran": "trump-says-us-very-close-to-deal-with-iran",
   "Trump Says U.S. 'Very Close' to Deal with Iran as Ceasefire Nears April 22 Expiration": "trump-says-us-very-close-to-deal-with-iran-as-ceasefire-nears-april-22-expiratio",
   "Trump Says US Blockade of Iranian Ports Will Remain in Full Force Until Peace Deal": "trump-says-us-blockade-of-iranian-ports-will-remain-in-full-force-until-peace-de",
+  "Trump Threatens to Resume Bombing if No Deal by Tuesday": "trump-threatens-to-resume-bombing-if-no-deal-by-tuesday",
+  "Trump Warns He May Not Extend Ceasefire, Threatens to Resume Bombing": "trump-warns-he-may-not-extend-ceasefire-threatens-to-resume-bombing",
+  "Trump Warns He May Not Extend Ceasefire, Threatens to Resume Bombing Iran": "trump-warns-he-may-not-extend-ceasefire-threatens-to-resume-bombing-iran",
   "Trump: Blockade Continues Until Peace Deal Signed": "trump-blockade-continues-until-peace-deal-signed",
   "Two-Week Ceasefire Expires April 22 \u2014 No Extension Path After Failed Talks": "two-week-ceasefire-expires-april-22-no-extension-path-after-failed-talks",
   "Two-Week Ceasefire Expires April 22 \u2014 No Path to Extension Visible": "two-week-ceasefire-expires-april-22-no-path-to-extension-visible",
@@ -302,22 +325,10 @@ const ARTICLE_SLUGS = {
 };
 
 function slugifyTitle(title) {
-  return title.toLowerCase()
-    .replace(/[^a-z0-9\s-]/g, '')
-    .replace(/\s+/g, '-')
-    .replace(/-+/g, '-')
-    .replace(/^-|-$/g, '')
-    .substring(0, 80);
+  return title.toLowerCase().replace(/[^a-z0-9\s-]/g, '').replace(/\s+/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').substring(0, 80);
 }
-
 function articleUrl(title) {
-  if (typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS[title]) {
-    return 'articles/' + ARTICLE_SLUGS[title] + '.html';
-  }
-  var slug = slugifyTitle(title);
-  return 'articles/' + slug + '.html';
+  if (typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS[title]) return 'articles/' + ARTICLE_SLUGS[title] + '.html';
+  return 'articles/' + slugifyTitle(title) + '.html';
 }
-
-function categoryArticleUrl(title) {
-  return '../' + articleUrl(title);
-}
+function categoryArticleUrl(title) { return '../' + articleUrl(title); }

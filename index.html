@@ -59,7 +59,7 @@ fbq('init','957762016897581');fbq('track','PageView');
   <div class="breaking-banner" id="breaking-banner">
     <div class="breaking-banner-inner">
       <span class="breaking-badge">BREAKING</span>
-      <span class="breaking-text" id="breaking-rotate-text" style="transition:opacity 0.5s ease">Iran declares Strait of Hormuz completely open — oil plunges 11% as WTI crashes to $83.85</span>
+      <span class="breaking-text" id="breaking-rotate-text" style="transition:opacity 0.5s ease">Iran closes Strait of Hormuz again &mdash; IRGC gunboats fire on Indian tankers, Trump threatens to resume bombing</span>
       <a href="category/geopolitics.html" id="breaking-rotate-link" class="breaking-link">Read More &rarr;</a>
     </div>
   </div>
@@ -103,7 +103,7 @@ fbq('init','957762016897581');fbq('track','PageView');
         <div style="margin-bottom:28px">
           <p class="hero-eyebrow" id="hero-eyebrow"></p>
           <h1>Energy Markets Today</h1>
-          <p class="hero-sub">The modern energy intelligence dashboard. Live oil prices, state-by-state U.S. gas data, real-time geopolitical risk analysis, and curated breaking news — free, fast, and built for clarity. Today: Iran declares the Strait of Hormuz completely open, WTI crashes 11% to $83.85, gas eases to $4.076, Israel-Lebanon ceasefire holds on Day 1, and Paris summit convenes coalition on Hormuz security.</p>
+          <p class="hero-sub">The modern energy intelligence dashboard. Live oil prices, state-by-state U.S. gas data, real-time geopolitical risk analysis, and curated breaking news &mdash; free, fast, and built for clarity. Today: Iran re-closes the Strait of Hormuz after one day of reopening, IRGC gunboats fire on Indian tankers, Trump threatens to resume bombing, and U.S.-Iran ceasefire expires Tuesday.</p>
         </div>
         <div class="grid-10" id="hero-prices" style="margin-bottom:20px"></div>
         <div class="hero-actions" id="hero-actions"></div>
@@ -249,7 +249,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     document.getElementById('hero-actions').innerHTML =
       '<a href="category/gas-prices.html" class="btn btn-primary">' + icon('fuel',14) + ' U.S. Gas Prices</a>' +
       '<a href="oil-prices.html" class="btn btn-primary">' + icon('trending-up',14) + ' Oil Prices</a>' +
-      '<a href="category/geopolitics.html" class="btn btn-ghost">' + icon('globe',14) + ' Geopolitics</a>';
+      '<a href="category/geopolitics.html" class="btn btn-amber">' + icon('globe',14) + ' Geopolitics</a>';
 
     // HERO PRICE CARDS
     function renderHeroPrices() {
@@ -296,7 +296,7 @@ fbq('init','957762016897581');fbq('track','PageView');
       {
         href: 'category/geopolitics.html', icon: 'globe', title: 'Geopolitics', accent: '#f59e0b',
         desc: 'Real-time geopolitical risk dashboard. Hormuz reopening, Iran-US talks, Israel-Lebanon ceasefire, sanctions, OPEC+ policy, and energy security analysis.',
-        stats: [['Hormuz', 'OPEN'], ['Iran Day', '49'], ['US-Iran CF', 'Apr 22'], ['Chokepoints', '6']],
+        stats: [['Hormuz', 'CLOSED'], ['Iran Day', '50'], ['US-Iran CF', 'Apr 22'], ['Chokepoints', '6']],
         cta: 'View risk dashboard'
       }
     ].map(function(p) {

@@ -1339,3 +1339,43 @@ a.article-featured{pointer-events:auto}
     vertical-align: middle;
   }
 }
+
+
+/* Amber/orange button variant - used for Geopolitics CTA to match header theme */
+.btn-amber {
+  background: var(--amber, #f59e0b) !important;
+  color: #fff !important;
+  border: 1px solid var(--amber, #f59e0b) !important;
+  font-weight: 600;
+}
+.btn-amber:hover {
+  background: #d97706 !important;
+  border-color: #d97706 !important;
+  color: #fff !important;
+}
+
+
+/* APRIL 18 - HIDE PILLAR-ACCENT ON MOBILE (fixes blue lines) */
+@media (max-width: 768px) {
+  .pillar-accent { display: none !important; }
+  .pillar-card { border-top: 1px solid var(--border) !important; padding: 18px !important; }
+}
+
+/* APRIL 18 - COMPANY NEWS DIVIDEND FINAL FIX */
+@media (max-width: 600px) {
+  .company-directory thead th:last-child,
+  .company-directory tbody td:last-child {
+    display: none !important;
+  }
+  .company-directory { font-size: 10.5px !important; }
+  .company-directory thead th,
+  .company-directory tbody td { padding: 7px 3px !important; }
+  .company-directory tbody td:nth-child(2) { font-size: 10px !important; padding-left: 2px !important; padding-right: 2px !important; }
+  .company-directory tbody td:nth-last-child(2) { text-align: right !important; padding-right: 8px !important; white-space: nowrap; }
+  .company-directory tbody td .stock-price,
+  .company-directory tbody td [data-ticker] { font-size: 10px !important; }
+}
+@media (max-width: 380px) {
+  .company-directory thead th:nth-child(4),
+  .company-directory tbody td:nth-child(4) { display: none !important; }
+}
