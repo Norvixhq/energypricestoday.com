@@ -117,12 +117,49 @@ def extract_all_visible_titles() -> set[str]:
 
 
 def slugify(text: str) -> str:
-    """Match the slug logic used in the site's JS."""
+    """Match the slug logic used in the site's JS.
+
+    Explicit overrides in js/article-slugs.js take precedence so that
+    hand-authored explainer articles can use clean SEO slugs instead
+    of the naive auto-derived ones.
+    """
+    # First try the explicit ARTICLE_SLUGS mapping
+    explicit = _explicit_slug(text)
+    if explicit:
+        return explicit
     s = text.lower()
     s = re.sub(r"[^a-z0-9\s-]", "", s)
     s = re.sub(r"\s+", "-", s.strip())
     s = re.sub(r"-+", "-", s)
     return s[:80]
+
+
+_ARTICLE_SLUGS_CACHE: dict[str, str] | None = None
+
+def _explicit_slug(title: str) -> str | None:
+    """Read the auto-generated ARTICLE_SLUGS map from js/article-slugs.js."""
+    global _ARTICLE_SLUGS_CACHE
+    if _ARTICLE_SLUGS_CACHE is None:
+        _ARTICLE_SLUGS_CACHE = {}
+        slug_file = Path(__file__).resolve().parent.parent.parent / "js" / "article-slugs.js"
+        if slug_file.exists():
+            try:
+                with open(slug_file, encoding="utf-8") as f:
+                    content = f.read()
+                # Parse "title": "slug" pairs
+                for m in re.finditer(r'"([^"]+)":\s*"([^"]+)"', content):
+                    raw_title = m.group(1)
+                    raw_slug = m.group(2)
+                    # Decode unicode escapes in the title
+                    try:
+                        decoded_title = bytes(raw_title, "utf-8").decode("unicode_escape")
+                    except Exception:
+                        decoded_title = raw_title
+                    _ARTICLE_SLUGS_CACHE[decoded_title] = raw_slug
+                    _ARTICLE_SLUGS_CACHE[raw_title] = raw_slug
+            except Exception:
+                pass
+    return _ARTICLE_SLUGS_CACHE.get(title)
 
 
 def format_news_item(title: str, cat: str, slug: str, time: str) -> str:
