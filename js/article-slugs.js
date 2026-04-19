@@ -18,6 +18,7 @@ const ARTICLE_SLUGS = {
   "Brazil's Pre-Salt Output Reaches 4 Million Barrels Per Day Milestone": "brazils-pre-salt-output-reaches-4-million-barrels-per-day-milestone",
   "Brent Futures Open Interest Hits 3-Month High Ahead of OPEC Meeting": "brent-futures-open-interest-hits-3-month-high-ahead-of-opec-meeting",
   "Brent Rises 4% as Doubts Resurface Over Scope of Iran Deal": "brent-rises-4-as-doubts-resurface-over-scope-of-iran-deal",
+  "Brent oil spot price for actual cargo soars to $141, highest level since 2008 financial crisis": "brent-oil-spot-price-for-actual-cargo-soars-to-141-highest-level-since-2008-fina",
   "Brent-WTI Spread Widens to 4.44 on Atlantic Basin Tightness": "brent-wti-spread-widens-to-444-on-atlantic-basin-tightness",
   "California Gas Prices Hit $5.18 as State-Specific Regulations Add Costs": "california-gas-prices-hit-518-as-state-specific-regulations-add-costs",
   "Canadian Blends": "canadian-blends",
