@@ -1,0 +1,67 @@
+{
+  "_comment": "Page -> data source dependency map. When a source changes, the orchestrator consults this map to decide which pages need regeneration. Phase 1 covers only the commodity + gas surfaces.",
+
+  "index.html": {
+    "label": "Homepage",
+    "depends_on": ["commodity_prices", "gas_prices_aaa"],
+    "cadence_minutes": 15,
+    "surfaces": ["hero-prices", "pillar-cards", "market-table"]
+  },
+
+  "oil-prices.html": {
+    "label": "Oil Prices",
+    "depends_on": ["commodity_prices"],
+    "cadence_minutes": 15,
+    "surfaces": ["price-cards", "market-table", "full-prices-grid"]
+  },
+
+  "markets.html": {
+    "label": "Markets Dashboard",
+    "depends_on": ["commodity_prices", "gas_prices_aaa"],
+    "cadence_minutes": 15,
+    "surfaces": ["market-table", "commodity-grid"]
+  },
+
+  "category/gas-prices.html": {
+    "label": "Gas Prices",
+    "depends_on": ["gas_prices_aaa", "gas_prices_by_state", "commodity_prices"],
+    "cadence_minutes": 60,
+    "surfaces": ["national-cards", "state-table", "highlights"]
+  },
+
+  "category/crude-oil.html": {
+    "label": "Crude Oil",
+    "depends_on": ["commodity_prices"],
+    "cadence_minutes": 15,
+    "surfaces": ["benchmark-cards"]
+  },
+
+  "category/natural-gas.html": {
+    "label": "Natural Gas",
+    "depends_on": ["commodity_prices"],
+    "cadence_minutes": 30,
+    "surfaces": ["price-cards"]
+  },
+
+  "category/heating-oil.html": {
+    "label": "Heating Oil",
+    "depends_on": ["commodity_prices"],
+    "cadence_minutes": 30,
+    "surfaces": ["price-cards"]
+  },
+
+  "oil-futures.html": {
+    "label": "Oil Futures",
+    "depends_on": ["commodity_prices"],
+    "cadence_minutes": 15,
+    "surfaces": ["curve-display"]
+  },
+
+  "_not_yet_covered": [
+    "index.html#today-snapshot (needs news source + Phase 3)",
+    "category/geopolitics.html (needs news + flag source)",
+    "category/company-news.html (stocks client-side; registry later)",
+    "category/renewable-energy.html (Phase 4)",
+    "rig-count.html (weekly observer, Phase 4)"
+  ]
+}

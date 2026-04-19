@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','957762016897581');fbq('track','PageView');
+</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>U.S. Rig Count — Weekly Baker Hughes Drilling Data</title>
+  <meta name="description" content="Weekly Baker Hughes U.S. rig count: oil rigs, gas rigs, basin breakdowns, trajectory analysis, and year-over-year drilling activity trends.">
+  <link rel="canonical" href="https://www.energypricestoday.com/rig-count.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="U.S. Rig Count — Weekly Baker Hughes Drilling Data">
+  <meta property="og:description" content="Weekly Baker Hughes U.S. rig count: oil rigs, gas rigs, basin breakdowns, trajectory analysis, and year-over-year drilling activity trends.">
+  <link rel="stylesheet" href="css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=2">
+  <link rel="shortcut icon" href="images/favicon.ico?v=2">
+</head>
+<body>
+  <header class="site-header" id="site-header"><noscript><nav style="padding:8px 20px;display:flex;flex-wrap:wrap;gap:8px;font-size:13px"><a href="index.html" style="color:#3d8fd4">Home</a><a href="markets.html" style="color:#8891a5">Markets</a><a href="oil-prices.html" style="color:#8891a5">Oil Prices</a><a href="rig-count.html" style="color:#8891a5">Rig Count</a><a href="category/geopolitics.html" style="color:#8891a5">Geopolitics</a><a href="about.html" style="color:#8891a5">About</a></nav></noscript></header>
+  <main>
+    <!-- HERO -->
+    <section class="page-hero-large">
+      <div class="hero-bg"></div>
+      <div class="container" style="position:relative;z-index:1">
+        <nav class="breadcrumbs"><a href="index.html">Home</a> › <span>Rig Count</span></nav>
+        <h1>Baker Hughes Rig Count</h1>
+        <p class="hero-sub">Weekly U.S. and Canadian drilling rig count with international monthly data. Track oil rigs, gas rigs, basin breakdowns, drilling trajectories, and year-over-year trends.</p>
+        <div class="stat-row" id="rig-hero-stats" style="margin-top:24px"></div>
+        <p style="color:#6b7280;font-size:11px;margin-top:12px" id="rig-source"></p>
+      </div>
+    </section>
+
+    <!-- U.S. SUMMARY -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-us-summary"></h2></div>
+      <div class="grid-5" id="us-summary-cards"></div>
+      <div class="explainer-block" style="margin-top:24px">
+        <h3>U.S. Drilling Activity Overview</h3>
+        <p>The U.S. rig count stands at <strong>545</strong> as of April 10, 2026 — down 3 rigs from the prior week and down 38 rigs (-6.5%) from 583 a year ago. Oil rigs held steady at 411 while gas rigs fell by 3 to 127. The week-over-week decline continues a trend of moderating drilling activity as operators prioritize capital discipline over aggressive growth.</p>
+        <p style="margin-top:10px">Of the 545 active rigs, 530 are land-based, 14 are offshore, and 1 is on inland waters. The Gulf of Mexico accounts for 13 offshore rigs. By drilling trajectory, 483 rigs (89%) are horizontal — the dominant technique for shale development — with 50 directional and 12 vertical.</p>
+      </div>
+    </div></section>
+
+    <!-- U.S. BY TYPE -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-us-type"></h2></div>
+      <div class="grid-3" id="us-type-cards"></div>
+    </div></section>
+
+    <!-- U.S. BY TRAJECTORY -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-us-traj"></h2></div>
+      <div class="grid-3" id="us-traj-cards"></div>
+    </div></section>
+
+    <!-- RELATED MARKET DATA (LIVE) -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-market"></h2></div>
+      <div class="grid-5" id="rig-market-cards"></div>
+    </div></section>
+
+    <!-- CANADA -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-canada"></h2></div>
+      <div class="grid-4" id="canada-cards"></div>
+      <div class="explainer-block" style="margin-top:20px">
+        <p>Canada's rig count fell 7 to <strong>135</strong>, down from 142 the prior week. Canadian drilling is highly seasonal — spring breakup typically reduces activity as thawing ground makes road access difficult. Oil rigs dropped 5 to 83 while gas rigs fell 2 to 52. Year-over-year, Canada is down just 3 rigs from 138.</p>
+      </div>
+    </div></section>
+
+    <!-- NORTH AMERICA TOTAL -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-na"></h2></div>
+      <div class="grid-3" id="na-cards"></div>
+    </div></section>
+
+    <!-- INTERNATIONAL -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-intl"></h2></div>
+      <div class="grid-3" id="intl-cards"></div>
+      <div class="explainer-block" style="margin-top:20px">
+        <h3>International Drilling Activity — March 2026</h3>
+        <p>The international rig count fell 54 to <strong>1,058</strong> in March 2026, driven primarily by a 38-rig decline in the Middle East as regional conflict disrupted drilling operations. Asia-Pacific lost 17 rigs to 190. Latin America was the only region to gain, adding 5 rigs to reach 143 — led by activity in Brazil, Argentina, and Colombia.</p>
+        <p style="margin-top:10px">Year-over-year, the international count is down 37 rigs from 1,095 in March 2025. The Middle East decline reflects the direct impact of the U.S.-Iran conflict on regional drilling programs, with operators in Iraq, Kuwait, and the UAE scaling back amid security concerns and logistics disruptions from the Strait of Hormuz closure.</p>
+      </div>
+    </div></section>
+
+    <!-- WORLDWIDE -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-ww"></h2></div>
+      <div class="grid-3" id="ww-cards"></div>
+    </div></section>
+
+    <!-- KEY CONTEXT -->
+    <section class="section"><div class="container">
+      <div class="explainer-block">
+        <h3>Why the Rig Count Matters for Energy Markets</h3>
+        <p>The Baker Hughes rig count is one of the most closely watched indicators in energy markets. Published weekly since 1944, it measures the number of drilling rigs actively exploring for or developing oil and gas reserves. The count serves as a leading indicator of future production — today's drilling activity determines supply levels 3-6 months ahead.</p>
+        <p style="margin-top:10px">The relationship between rig counts and production has evolved significantly. In 2014, it took roughly 1,600 rigs to produce 8.7 million barrels per day. Today, approximately 545 rigs support 13.2 million bpd — a 250% improvement in per-rig productivity driven by longer lateral wells, faster drilling speeds, and optimized completion techniques. This means the rig count alone doesn't tell the full production story, but directional changes remain highly informative.</p>
+        <p style="margin-top:10px">The current environment is defined by capital discipline. Despite crude prices elevated above $90/barrel due to the Iran conflict, operators are not aggressively adding rigs. Instead, they're returning cash to shareholders through dividends and buybacks while maintaining flat to slightly declining rig activity. This restraint supports the bullish case for oil prices — supply growth is structurally limited even as demand continues to recover.</p>
+      </div>
+    </div></section>
+
+    <!-- ARTICLES -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-articles"></h2></div>
+      <div class="grid-auto-280" id="rig-articles"></div>
+    </div></section>
+
+    <!-- LIVE NEWS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-live-news"></h2></div>
+      <div id="rig-live-news" data-news-topic="rigcount" data-news-max="6"></div>
+    </div></section>
+
+    <!-- FAQ -->
+    <section class="section"><div class="container">
+      <div class="context-block">
+        <h3>Frequently Asked Questions</h3>
+        <div class="faq-section">
+          <div class="faq-item"><div class="faq-q">What is the Baker Hughes rig count?</div><div class="faq-a">A weekly census of active drilling rigs in the U.S. and Canada, published every Friday at 1:00 PM ET by Baker Hughes (a GE company). The international rig count is published monthly. Baker Hughes has issued rig counts as a service to the petroleum industry since 1944, making it one of the longest-running energy datasets in existence.</div></div>
+          <div class="faq-item"><div class="faq-q">How are rigs counted?</div><div class="faq-a">Baker Hughes counts rigs that are actively drilling or have drilled at least one new well during the reporting period. Rigs performing maintenance, workover operations, or well-servicing are not included. Each rig is classified by location (land, offshore, inland waters), target (oil, gas, miscellaneous), and drilling trajectory (horizontal, directional, vertical).</div></div>
+          <div class="faq-item"><div class="faq-q">What is the difference between oil rigs and gas rigs?</div><div class="faq-a">Oil rigs target formations expected to produce primarily crude oil, while gas rigs target natural gas formations. The classification is based on the operator's stated objective. Currently, oil rigs outnumber gas rigs roughly 3-to-1 in the U.S. (411 oil vs. 127 gas), reflecting the higher profitability of oil production at current price levels.</div></div>
+          <div class="faq-item"><div class="faq-q">Why does the rig count matter for oil prices?</div><div class="faq-a">The rig count is a leading indicator of future production. Rising counts signal growing supply 3-6 months ahead, which can pressure prices lower. Falling counts suggest production declines, supporting prices. Markets react to week-over-week changes, particularly surprises versus expectations. However, improving well productivity means the rig-to-production relationship is not linear.</div></div>
+          <div class="faq-item"><div class="faq-q">What is horizontal drilling and why is it dominant?</div><div class="faq-a">Horizontal drilling involves turning the wellbore sideways to run parallel with the oil-bearing formation, exposing more rock surface to the well. Currently 89% of U.S. rigs (483 of 545) drill horizontally. This technique, combined with hydraulic fracturing, enabled the shale revolution by making previously uneconomic formations commercially viable. Horizontal wells produce 5-10x more oil than vertical wells in shale formations.</div></div>
+          <div class="faq-item"><div class="faq-q">Why has the rig count declined despite high oil prices?</div><div class="faq-a">Capital discipline. After years of over-spending on growth that destroyed investor returns, U.S. shale operators now prioritize shareholder returns through dividends and buybacks. They're achieving production growth with fewer rigs by drilling longer laterals (up to 3+ miles), optimizing well spacing, and improving completion efficiency. The rig count is down 38 year-over-year despite crude above $90.</div></div>
+          <div class="faq-item"><div class="faq-q">Which basins have the most drilling rigs?</div><div class="faq-a">The Permian Basin in West Texas and New Mexico dominates with approximately 60% of all U.S. oil rigs. The Eagle Ford in South Texas, Bakken in North Dakota, and DJ-Niobrara in Colorado account for most of the remainder. The Haynesville Shale in Louisiana and East Texas is the most active gas basin. Offshore Gulf of Mexico has 13 active rigs.</div></div>
+          <div class="faq-item"><div class="faq-q">How does the Canadian rig count differ from the U.S.?</div><div class="faq-a">Canadian drilling is highly seasonal. During spring breakup (March-May), thawing ground makes road access difficult, causing rig counts to plunge — sometimes by 50% or more. Activity rebounds in late spring and peaks in winter when frozen ground supports heavy equipment. Canada currently has 135 active rigs, with Alberta accounting for the vast majority.</div></div>
+          <div class="faq-item"><div class="faq-q">How long does it take a new rig to produce oil?</div><div class="faq-a">From spudding (starting) a well to first production typically takes 2-4 months for horizontal shale wells. Drilling takes 10-20 days, followed by completion (hydraulic fracturing) which takes another 2-4 weeks, then flowback and connection to gathering systems. Wells reach peak production in the first 1-3 months, then decline 60-70% in the first year — a characteristic of shale wells that requires continuous drilling to maintain flat production.</div></div>
+          <div class="faq-item"><div class="faq-q">What is the international rig count?</div><div class="faq-a">Published monthly by Baker Hughes, it covers drilling activity outside North America across five regions: Middle East (500 rigs), Asia-Pacific (190), Latin America (143), Europe (124), and Africa (101). The March 2026 international total was 1,058 — down 54 from February, largely due to conflict-related disruptions in the Middle East.</div></div>
+        </div>
+      </div>
+    </div></section>
+
+    <!-- RELATED -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title">Related Coverage</h2></div>
+      <div class="grid-3" id="rig-related" style="max-width:800px"></div>
+    </div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script>
+  <script src="js/article-slugs.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/live-data.js"></script>
+  <script src="js/news-feed.js"></script>
+  <script>
+    var rd = RIG_COUNT_DATA;
+
+    // HERO STATS
+    document.getElementById('sec-us-summary').innerHTML = icon('hard-hat',20) + ' U.S. Rig Count Summary';
+    document.getElementById('rig-hero-stats').innerHTML = [
+      { label: 'U.S. Total', val: rd.us_total, chg: rd.us_total_change, sub: 'w/w' },
+      { label: 'Oil Rigs', val: rd.us_oil, chg: rd.us_oil_change, sub: 'w/w' },
+      { label: 'Gas Rigs', val: rd.us_gas, chg: rd.us_gas_change, sub: 'w/w' },
+      { label: 'Canada', val: rd.canada_total, chg: rd.canada_change, sub: 'w/w' },
+      { label: 'International', val: rd.intl_total, chg: rd.intl_change, sub: 'm/m' },
+    ].map(function(s) {
+      var cls = s.chg >= 0 ? 'up' : 'down';
+      return '<div class="stat-box"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value">' + s.val + '</div><div class="stat-box-sub change ' + cls + '">' + (s.chg >= 0 ? '+' : '') + s.chg + ' ' + s.sub + '</div></div>';
+    }).join('');
+    document.getElementById('rig-source').textContent = 'Source: Baker Hughes · ' + rd.updated;
+
+    // U.S. SUMMARY CARDS
+    document.getElementById('us-summary-cards').innerHTML = [
+      { label: 'Total Rigs', val: rd.us_total, chg: rd.us_total_change + ' w/w', yoy: rd.us_yoy + ' y/y' },
+      { label: 'Oil Rigs', val: rd.us_oil, chg: rd.us_oil_change + ' w/w', yoy: 'from 472 y/y' },
+      { label: 'Gas Rigs', val: rd.us_gas, chg: rd.us_gas_change + ' w/w', yoy: 'from 105 y/y' },
+      { label: 'Gulf of Mexico', val: rd.us_gom, chg: '+3 w/w', yoy: 'from 11 y/y' },
+      { label: 'Misc. Rigs', val: rd.us_misc, chg: rd.us_misc_change + ' w/w', yoy: 'from 6 y/y' },
+    ].map(function(s) {
+      return '<div class="stat-box" style="text-align:center"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value" style="font-size:28px">' + s.val + '</div><div class="stat-box-sub change ' + (String(s.chg).startsWith('-') ? 'down' : 'up') + '">' + (String(s.chg).startsWith('-') ? '' : '+') + s.chg + '</div><div style="font-size:10px;color:var(--text-3);margin-top:2px">' + s.yoy + '</div></div>';
+    }).join('');
+
+    // U.S. BY LOCATION
+    document.getElementById('sec-us-type').innerHTML = icon('map-pin',20) + ' U.S. Rigs by Location';
+    document.getElementById('us-type-cards').innerHTML = [
+      { label: 'Land', val: rd.us_land, pct: Math.round(rd.us_land/rd.us_total*100), desc: '530 rigs on land across all basins' },
+      { label: 'Offshore', val: rd.us_offshore, pct: Math.round(rd.us_offshore/rd.us_total*100), desc: '14 rigs including 13 in Gulf of Mexico' },
+      { label: 'Inland Waters', val: rd.us_inland, pct: Math.round(rd.us_inland/rd.us_total*100), desc: '1 rig on inland waterways' },
+    ].map(function(s) {
+      return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;justify-content:space-between;align-items:baseline"><div class="stat-box-label">' + s.label + '</div><span style="font-size:11px;color:var(--blue)">' + s.pct + '% of total</span></div><div class="stat-box-value" style="font-size:32px;margin:8px 0">' + s.val + '</div><div style="font-size:12px;color:var(--text-3)">' + s.desc + '</div></div>';
+    }).join('');
+
+    // U.S. BY TRAJECTORY
+    document.getElementById('sec-us-traj').innerHTML = icon('compass',20) + ' U.S. Rigs by Drilling Trajectory';
+    document.getElementById('us-traj-cards').innerHTML = [
+      { label: 'Horizontal', val: rd.us_horizontal, pct: Math.round(rd.us_horizontal/rd.us_total*100), chg: '-2 w/w', desc: 'Dominant shale technique — longer laterals increase per-well recovery' },
+      { label: 'Directional', val: rd.us_directional, pct: Math.round(rd.us_directional/rd.us_total*100), chg: '+5 w/w', desc: 'Angled drilling for complex formations and offshore targets' },
+      { label: 'Vertical', val: rd.us_vertical, pct: Math.round(rd.us_vertical/rd.us_total*100), chg: '-4 w/w', desc: 'Traditional straight-down drilling — mainly conventional reservoirs' },
+    ].map(function(s) {
+      return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;justify-content:space-between;align-items:baseline"><div class="stat-box-label">' + s.label + '</div><span style="font-size:11px;color:var(--blue)">' + s.pct + '%</span></div><div style="display:flex;align-items:baseline;gap:10px;margin:8px 0"><span style="font-size:32px;font-weight:700;color:var(--text-1)">' + s.val + '</span><span class="change ' + (s.chg.startsWith('-') ? 'down' : 'up') + '" style="font-size:12px">' + s.chg + '</span></div><div style="font-size:12px;color:var(--text-3)">' + s.desc + '</div></div>';
+    }).join('');
+
+    // MARKET DATA (LIVE)
+    document.getElementById('sec-market').innerHTML = icon('bar-chart',20) + ' Related Market Data';
+    document.getElementById('rig-market-cards').innerHTML = COMMODITIES.slice(0,5).map(function(c) {
+      var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
+      var arrow = c.change >= 0 ? '▲' : '▼';
+      var sign = c.change >= 0 ? '+' : '';
+      return '<div class="price-card" style="padding:16px"><div class="price-card-header"><span class="price-card-label" style="font-size:11px">' + c.name + ' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value" style="font-size:22px">$' + c.price.toFixed(2) + '</div><div style="color:' + chgColor + ';font-size:11px;font-weight:600;margin-top:4px">' + arrow + ' ' + sign + c.pct.toFixed(2) + '%</div><div style="color:var(--text-3);font-size:7.5px;margin-top:2px">Updated every 5 min via API</div></div>';
+    }).join('');
+
+    // CANADA
+    document.getElementById('sec-canada').innerHTML = icon('flag',20) + ' Canada Rig Count';
+    document.getElementById('canada-cards').innerHTML = [
+      { label: 'Total Rigs', val: rd.canada_total, chg: rd.canada_change },
+      { label: 'Oil Rigs', val: rd.canada_oil, chg: '-5 w/w' },
+      { label: 'Gas Rigs', val: rd.canada_gas, chg: '-2 w/w' },
+      { label: 'Year Ago', val: rd.canada_yoy_total, chg: rd.canada_yoy + ' y/y' },
+    ].map(function(s) {
+      var c = String(s.chg).startsWith('-') ? 'down' : (s.chg === 0 ? '' : 'up');
+      return '<div class="stat-box"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value">' + s.val + '</div><div class="stat-box-sub change ' + c + '">' + (typeof s.chg === 'number' ? ((s.chg >= 0 ? '+' : '') + s.chg + ' w/w') : s.chg) + '</div></div>';
+    }).join('');
+
+    // NORTH AMERICA
+    document.getElementById('sec-na').innerHTML = icon('map',20) + ' North America Combined';
+    document.getElementById('na-cards').innerHTML = [
+      { label: 'N.A. Total', val: rd.na_total, sub: rd.na_change + ' w/w' },
+      { label: 'Year Ago', val: rd.na_yoy_total, sub: rd.na_yoy + ' y/y change' },
+      { label: 'YoY Decline', val: Math.abs(Math.round(rd.na_yoy/rd.na_yoy_total*100)) + '%', sub: rd.na_total + ' vs ' + rd.na_yoy_total },
+    ].map(function(s) {
+      return '<div class="stat-box"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value">' + s.val + '</div><div class="stat-box-sub" style="color:var(--text-3)">' + s.sub + '</div></div>';
+    }).join('');
+
+    // INTERNATIONAL
+    document.getElementById('sec-intl').innerHTML = icon('globe',20) + ' International Rig Count — March 2026';
+    document.getElementById('intl-cards').innerHTML = [
+      { region: 'Middle East', rigs: rd.intl_mideast, chg: rd.intl_mideast_change, note: 'Saudi Arabia, UAE, Iraq, Kuwait — conflict disruptions reduce activity' },
+      { region: 'Asia-Pacific', rigs: rd.intl_asiapac, chg: rd.intl_asiapac_change, note: 'China, India, Australia, Indonesia — seasonal adjustments' },
+      { region: 'Latin America', rigs: rd.intl_latam, chg: rd.intl_latam_change, note: 'Brazil deepwater, Argentina Vaca Muerta, Colombia onshore' },
+      { region: 'Europe', rigs: rd.intl_europe, chg: rd.intl_europe_change, note: 'North Sea (UK/Norway), Romania, Turkey, Netherlands' },
+      { region: 'Africa', rigs: rd.intl_africa, chg: rd.intl_africa_change, note: 'Nigeria, Algeria, Libya, Angola, Namibia exploration' },
+      { region: 'Total International', rigs: rd.intl_total, chg: rd.intl_change, note: 'All regions ex-North America · Year ago: ' + rd.intl_yoy_total },
+    ].map(function(r) {
+      var cls = r.chg >= 0 ? 'up' : 'down';
+      return '<div class="stat-box" style="text-align:left;padding:16px"><div style="font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.06em;margin-bottom:6px">' + r.region + '</div><div style="display:flex;align-items:baseline;gap:8px"><span style="font-size:24px;font-weight:700;color:var(--text-1)">' + r.rigs + '</span><span class="change ' + cls + '" style="font-size:12px">' + (r.chg >= 0 ? '+' : '') + r.chg + ' m/m</span></div><div style="font-size:11px;color:var(--text-3);margin-top:6px">' + r.note + '</div></div>';
+    }).join('');
+
+    // WORLDWIDE
+    document.getElementById('sec-ww').innerHTML = icon('globe',20) + ' Worldwide Total';
+    document.getElementById('ww-cards').innerHTML = [
+      { label: 'Worldwide Rigs', val: rd.ww_total.toLocaleString(), sub: rd.ww_change + ' from prior period' },
+      { label: 'International', val: rd.intl_total.toLocaleString(), sub: 'Ex-North America' },
+      { label: 'North America', val: rd.na_total, sub: 'U.S. + Canada' },
+    ].map(function(s) {
+      return '<div class="stat-box"><div class="stat-box-label">' + s.label + '</div><div class="stat-box-value">' + s.val + '</div><div class="stat-box-sub" style="color:var(--text-3)">' + s.sub + '</div></div>';
+    }).join('');
+
+    // ARTICLES
+    document.getElementById('sec-articles').innerHTML = icon('newspaper',20) + ' Latest Rig Count Analysis';
+    document.getElementById('rig-articles').innerHTML = [
+      { title: "U.S. Rig Count Falls 3 to 545 — Oil Rigs Steady, Gas Rigs Decline", date: "Apr 11, 2026", readTime: "4 min" },
+      { title: "Permian Basin Operators Slow Drilling Amid Capital Discipline Push", date: "Apr 10, 2026", readTime: "5 min" },
+      { title: "International Rig Count Drops 54 in March as Middle East Conflict Disrupts Drilling", date: "Apr 8, 2026", readTime: "6 min" },
+      { title: "Canadian Rig Count Plunges on Spring Breakup — 135 Active Rigs", date: "Apr 10, 2026", readTime: "4 min" },
+      { title: "Why Fewer Rigs Are Producing More Oil Than Ever", date: "Apr 5, 2026", readTime: "7 min" },
+      { title: "Gulf of Mexico Rig Count Rises to 13 as Deepwater Investment Returns", date: "Apr 3, 2026", readTime: "5 min" },
+    ].map(function(a) {
+      return '<a href="' + articleUrl(a.title) + '" class="article-card"><h4>' + a.title + '</h4><div class="article-meta-sm"><span>Staff</span><span>' + a.date + '</span><span>' + a.readTime + '</span></div></a>';
+    }).join('');
+
+    // LIVE NEWS
+    document.getElementById('sec-live-news').innerHTML = icon('rss',18) + ' Live Rig Count Headlines';
+
+    // RELATED
+    document.getElementById('rig-related').innerHTML = [
+      ['Oil Prices','oil-prices.html','trending-up'],
+      ['Crude Oil News','category/crude-oil.html','droplets'],
+      ['Company News','category/company-news.html','building'],
+    ].map(function(r) {
+      return '<a href="' + r[1] + '" class="spotlight-card"><div class="spotlight-icon">' + icon(r[2],22) + '</div><h4>' + r[0] + '</h4></a>';
+    }).join('');
+  </script>
+</body>
+</html>
