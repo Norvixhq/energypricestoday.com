@@ -1,0 +1,30 @@
+{
+  "_comment": "MANUAL OVERRIDE FILE — Homepage + featured content control.",
+  "_purpose": "Force specific content to appear (or not appear) in homepage and featured-coverage surfaces regardless of what autopilot selects. Phase 1 doesn't yet rotate homepage automatically, but the override file is created now so future phases can respect it from day one.",
+
+  "homepage_lead_story": {
+    "active": false,
+    "article_slug": null,
+    "reason": "When active, force this article as the homepage lead regardless of autopilot ranking.",
+    "set_by": null,
+    "set_at": null,
+    "expires_at": null
+  },
+
+  "pinned_featured_articles": {
+    "active": false,
+    "article_slugs": [],
+    "reason": "Slugs here will always be included in FEATURED_ARTICLES top of list.",
+    "set_by": null,
+    "set_at": null,
+    "expires_at": null
+  },
+
+  "suppressed_articles": {
+    "active": false,
+    "article_slugs": [],
+    "reason": "Slugs here will never be selected by autopilot for featured/homepage surfaces. Use for articles that are outdated or problematic but shouldn't be deleted yet.",
+    "set_by": null,
+    "set_at": null
+  }
+}

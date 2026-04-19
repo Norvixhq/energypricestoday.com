@@ -795,5 +795,5 @@ const US_GAS_NATIONAL = {
   premium: 4.936,
   diesel: 5.570,
   source: "AAA Daily Fuel Gauge Report",
-  updated: "As of April 18, 2026"
+  updated: "As of April 19, 2026"
 };

@@ -1,0 +1,40 @@
+{
+  "_comment": "MANUAL OVERRIDE FILE \u2014 Phase 1 price overrides.",
+  "_purpose": "If autopilot returns a wrong price (stale, corrupted, bad fallback), set the override here and autopilot will use it instead of what the observer fetched. Setting `active: false` (or removing the key entirely) disables the override.",
+  "_how_to_use": "1. Open this file. 2. Add an entry under 'commodity_prices' or 'gas_prices_national' with the display name as the key and {active, value, reason, set_by, set_at} as the value. 3. Commit and push. 4. The orchestrator reads this file before every render and applies active overrides on top of the observer data. 5. To release the override, set active:false or delete the entry.",
+  "commodity_prices": {
+    "_example": {
+      "active": false,
+      "price": 95.2,
+      "change": 0.0,
+      "pct": 0.0,
+      "reason": "Example entry \u2014 copy this shape for real overrides",
+      "set_by": "cr",
+      "set_at": "2026-04-19T00:00:00Z",
+      "expires_at": null
+    },
+    "WTI Crude": {
+      "active": false,
+      "price": 120.0,
+      "change": 25.0,
+      "pct": 26.0,
+      "reason": "Testing override flow \u2014 obviously fake",
+      "set_by": "test",
+      "set_at": "2026-04-19T00:00:00Z",
+      "expires_at": null
+    }
+  },
+  "gas_prices_national": {
+    "_example": {
+      "active": false,
+      "regular": 4.058,
+      "mid": 4.569,
+      "premium": 4.936,
+      "diesel": 5.57,
+      "reason": "Example entry \u2014 copy this shape for real overrides",
+      "set_by": "cr",
+      "set_at": "2026-04-19T00:00:00Z",
+      "expires_at": null
+    }
+  }
+}
