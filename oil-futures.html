@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','957762016897581');fbq('track','PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oil Futures — WTI Brent Front-Month, Contango, Backwardation, Spreads — EnergyPricesToday.com</title>
+  <meta name="description" content="Oil futures explained: WTI and Brent front-month contracts, term structure, contango vs backwardation, spreads, contract months, and what futures say about market expectations.">
+  <link rel="canonical" href="https://www.energypricestoday.com/oil-futures.html">
+  <meta property="og:type" content="website"><meta property="og:title" content="Oil Futures — WTI Brent Front-Month, Contango, Backwardation, Spreads — EnergyPricesToday.com">
+  <meta property="og:description" content="Oil futures explained: WTI and Brent front-month contracts, term structure, contango vs backwardation, spreads, contract months, and what futures say about market expectations.">
+  <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
+  <link rel="stylesheet" href="css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <section class="page-hero-large"><div class="hero-bg"></div><div class="container" style="position:relative;z-index:1">
+      <nav class="breadcrumbs"><a href="index.html">Home</a> &rsaquo; <span>Oil Futures</span></nav>
+      <h1>Oil Futures</h1>
+      <p class="hero-sub">The contracts that price global oil. WTI and Brent futures, term structure and forward curves, contango vs backwardation, rolling front-month contracts, calendar spreads, and what the futures market is telling you about supply expectations 12 months out.</p>
+    </div></section>
+
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-snap"></h2></div>
+      <div class="grid-4" id="fu-snap"></div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-what"></h2></div>
+      <div class="explainer-block">
+        <h3>What Are Oil Futures?</h3>
+        <p>An oil futures contract is a standardized agreement to buy or sell a specific quantity of oil at a predetermined price on a specific future date. The WTI contract (CME/NYMEX) covers 1,000 barrels per contract, deliverable at Cushing, Oklahoma. The Brent contract (ICE) covers 1,000 barrels, deliverable at Sullom Voe terminal in Scotland. Both settle financially or, for a small percentage, by physical delivery.</p>
+        <p style="margin-top:10px">Futures markets provide three essential functions: price discovery (transparent pricing reflecting collective market view), risk management (producers and consumers hedge price exposure), and liquidity (allowing anyone to take long or short positions). Daily WTI futures volume exceeds 1 million contracts — equivalent to more than 1 billion barrels of notional value traded every day.</p>
+      </div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-curve"></h2></div>
+      <div class="explainer-block">
+        <h3>The Forward Curve and Term Structure</h3>
+        <p>Futures exist for many delivery months simultaneously — WTI trades continuously with contracts for every month for the next 9+ years. Plotting the prices across delivery months creates the forward curve or term structure. The shape of this curve reflects market expectations about future supply and demand.</p>
+        <p style="margin-top:10px"><strong>Backwardation</strong> (downward-sloping curve): near-term prices higher than longer-dated. Signals tight current supply — the market pays a premium for immediate delivery. Current WTI is in backwardation due to the Hormuz supply disruption.</p>
+        <p style="margin-top:10px"><strong>Contango</strong> (upward-sloping curve): near-term prices lower than longer-dated. Signals abundant current supply with expected future tightening. Storage is economically attractive in contango. The 2020 shale glut created the steepest contango in history; the May 2020 WTI contract briefly traded negative as storage filled.</p>
+      </div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-months"></h2></div>
+      <div class="market-table-wrap">
+        <table class="market-table">
+          <thead><tr><th style="text-align:left">Contract Month</th><th>WTI Est</th><th>Brent Est</th><th style="text-align:left">Notes</th></tr></thead>
+          <tbody id="months-tbody"></tbody>
+        </table>
+      </div>
+      <p style="color:var(--text-3);font-size:10px;margin-top:8px">Illustrative values reflecting current backwardation structure. Live front-month pricing shown above.</p>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-spreads"></h2></div>
+      <div class="grid-3" id="spread-cards"></div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-rollover"></h2></div>
+      <div class="explainer-block">
+        <h3>Contract Rollover and the Front Month</h3>
+        <p>Each futures contract has an expiration date. The contract closest to expiration is the front month or prompt contract — typically the most actively traded. As expiration approaches, traders roll positions from the expiring contract to the next month to maintain exposure without taking physical delivery.</p>
+        <p style="margin-top:10px">The WTI front month expires on the third business day before the 25th of the month prior to delivery. So the May 2026 WTI contract expires around April 22. After that date, the June 2026 contract becomes the new front month. Rolling is typically done 5-10 days before expiration to avoid physical delivery risk. News outlets quoting oil prices almost always reference the front-month contract.</p>
+      </div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-drivers"></h2></div>
+      <div class="grid-3" id="driver-cards"></div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-live"></h2></div>
+      <div id="fu-live" data-news-topic="oil" data-news-max="6"></div>
+    </div></section>
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-explore"></h2></div>
+      <div class="grid-3" id="explore-cards"></div>
+    </div></section>
+    <section class="section"><div class="container"><div class="context-block">
+      <h3>Frequently Asked Questions</h3>
+      <div class="faq-section"><div class="faq-item"><div class="faq-q">What are oil futures?</div><div class="faq-a">Standardized contracts to buy or sell oil at a predetermined price on a specific future date. The WTI contract (NYMEX) covers 1,000 barrels deliverable at Cushing, Oklahoma. The Brent contract (ICE) covers 1,000 barrels deliverable in Scotland. Both trade electronically 24 hours a day on weekdays with deep liquidity.</div></div><div class="faq-item"><div class="faq-q">What is the difference between spot and futures?</div><div class="faq-a">Spot prices are for immediate physical delivery. Futures prices are for delivery at a specific future date. They usually differ because of storage costs, financing costs, and market expectations. The difference between spot and the nearest futures contract is called the basis.</div></div><div class="faq-item"><div class="faq-q">What is contango?</div><div class="faq-a">Contango describes a futures curve where later-dated contracts trade higher than near-term contracts — an upward-sloping curve. This signals expectations of tightening supply ahead, or currently abundant supply. Contango creates incentives for storage arbitrage: buy spot, sell forward. The 2020 shale glut produced extreme contango.</div></div><div class="faq-item"><div class="faq-q">What is backwardation?</div><div class="faq-a">Backwardation describes a futures curve where near-term contracts trade higher than later-dated ones — a downward-sloping curve. This signals tight current supply — the market pays a premium for immediate delivery. Current WTI is in backwardation due to the Strait of Hormuz supply disruption. Backwardation is traditionally considered bullish for near-term prices.</div></div><div class="faq-item"><div class="faq-q">Why do futures spreads matter?</div><div class="faq-a">Calendar spreads (the price difference between two delivery months) are the purest signal of market expectations. A widening backwardation (front month rising vs back) signals tightening supply. A widening contango signals surplus. Spread traders trade these relationships directly without taking outright oil price risk.</div></div><div class="faq-item"><div class="faq-q">How do futures influence oil market expectations?</div><div class="faq-a">Futures prices aggregate the views of thousands of participants — producers, refiners, hedge funds, banks, airlines, speculators. They provide transparent, real-time pricing that reflects collective expectations. OPEC decisions, geopolitical events, and inventory data move futures within seconds.</div></div><div class="faq-item"><div class="faq-q">How do I read a futures curve?</div><div class="faq-a">Plot prices on the y-axis, delivery months on the x-axis. If the line slopes down left-to-right, that is backwardation (near months higher). If it slopes up, that is contango (near months lower). The steepness indicates the strength of the signal.</div></div><div class="faq-item"><div class="faq-q">Can individuals trade oil futures?</div><div class="faq-a">Yes, through a futures brokerage account. However, oil futures are highly leveraged — a WTI contract has $95,000+ notional value with margin of only $5,000-10,000. Most individual investors gain oil exposure through ETFs (USO, BNO) or oil company stocks rather than direct futures trading.</div></div></div>
+    </div></div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+  <script src="js/data.js"></script><script src="js/article-slugs.js"></script><script src="js/main.js"></script><script src="js/live-data.js"></script><script src="js/news-feed.js"></script>
+  <script>
+    function SB(l,v,s){return '<div class="stat-box"><div class="stat-box-label">'+l+'</div><div class="stat-box-value">'+v+'</div><div class="stat-box-sub" style="color:var(--text-3)">'+s+'</div></div>';}
+    function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
+
+    document.getElementById('sec-snap').innerHTML = icon('clock',20)+' Oil Futures Snapshot';
+    document.getElementById('sec-what').innerHTML = icon('info',20)+' What Are Oil Futures?';
+    document.getElementById('sec-curve').innerHTML = icon('bar-chart',20)+' The Forward Curve';
+    document.getElementById('sec-months').innerHTML = icon('calendar',20)+' Term Structure (Illustrative)';
+    document.getElementById('sec-spreads').innerHTML = icon('git-compare',20)+' Understanding Spreads';
+    document.getElementById('sec-rollover').innerHTML = icon('refresh-cw',20)+' Contract Rollover';
+    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What’s Moving Futures Today';
+    document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live Headlines';
+    document.getElementById('sec-explore').innerHTML = icon('compass',20)+' Explore Related Topics';
+
+    var wti = COMMODITIES[0] || {price:95,name:'WTI'};
+    var brent = COMMODITIES[1] || {price:94,name:'Brent'};
+    document.getElementById('fu-snap').innerHTML = [
+      SB('WTI Front Month','$'+(wti.price!==null?wti.price.toFixed(2):'—'),'May 2026 contract'),
+      SB('Brent Front Month','$'+(brent.price!==null?brent.price.toFixed(2):'—'),'June 2026 contract'),
+      SB('Curve Structure','Backwardation','tight near-term supply'),
+      SB('Daily Volume','1M+ contracts','WTI notional >1B barrels/day'),
+    ].join('');
+
+    var wtiPrice = wti.price || 95;
+    var brentPrice = brent.price || 94;
+    document.getElementById('months-tbody').innerHTML = [
+      {m:'May 2026 (Front)',w:wtiPrice,b:brentPrice,n:'Current front-month contract'},
+      {m:'June 2026',w:wtiPrice-0.80,b:brentPrice-0.75,n:'Next contract (M+1)'},
+      {m:'Jul 2026',w:wtiPrice-1.45,b:brentPrice-1.40,n:'Summer demand period'},
+      {m:'Sep 2026',w:wtiPrice-2.35,b:brentPrice-2.25,n:'Post-summer unwind'},
+      {m:'Dec 2026',w:wtiPrice-3.60,b:brentPrice-3.45,n:'Year-end contract'},
+      {m:'Jun 2027',w:wtiPrice-5.20,b:brentPrice-5.05,n:'12 months forward'},
+      {m:'Dec 2027',w:wtiPrice-6.80,b:brentPrice-6.60,n:'Long-dated reference'},
+    ].map(function(r){
+      return '<tr><td style="text-align:left;font-weight:600">'+r.m+'</td><td class="table-price">$'+r.w.toFixed(2)+'</td><td class="table-price">$'+r.b.toFixed(2)+'</td><td style="text-align:left;font-size:11px;color:var(--text-3)">'+r.n+'</td></tr>';
+    }).join('');
+
+    document.getElementById('spread-cards').innerHTML = [
+      TC('git-compare','Calendar Spreads','Price difference between two delivery months of the same contract (Jun WTI vs Dec WTI). Indicates market expectations about supply tightness over time.'),
+      TC('git-branch','Brent-WTI Spread','Difference between Brent and WTI futures. Typically $2-5 with Brent premium. Widens during international supply stress (Hormuz crisis pushed it toward $5+).'),
+      TC('trending-down','Crack Spreads','Refining margin spreads between crude and products (gasoline, diesel). RBOB-WTI crack and ULSD-WTI crack reflect refiner profitability and product demand.'),
+    ].join('');
+
+    document.getElementById('driver-cards').innerHTML = [
+      TC('globe','Hormuz Supply Risk','Backwardation rebuilding after Friday’s compression. Front-month premium rising again as Hormuz re-closed April 18. Curve reflecting uncertainty through Tuesday’s ceasefire expiration.'),
+      TC('bar-chart','EIA Weekly Data','Last week’s 9.13M barrel draw remains supportive. Hormuz re-closure April 18 restored geopolitical premium. Inventory surprises and ceasefire headlines both primary near-term catalysts.'),
+      TC('users','OPEC+ Meetings','Production policy decisions move entire futures curve. Both near-term and forward contracts adjust to new expected supply path.'),
+    ].join('');
+
+    document.getElementById('explore-cards').innerHTML = [['Oil Prices','oil-prices.html','trending-up','WTI, Brent, 150+ blends'],['Gas Prices','category/gas-prices.html','fuel','AAA state-by-state'],['Geopolitics','category/geopolitics.html','globe','Hormuz, sanctions, OPEC'],['Rig Count','rig-count.html','hard-hat','Baker Hughes drilling'],['Energy Hub','category/energy.html','activity','Power, grid, LNG'],['Company News','category/company-news.html','building','ExxonMobil, Shell'],['Oil Futures','oil-futures.html','clock','Contango, backwardation'],['Crude Oil','category/crude-oil.html','droplets','Grades, benchmarks'],['Natural Gas','category/natural-gas.html','zap','Henry Hub, LNG']].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
+
+  </script>
+</body></html>
