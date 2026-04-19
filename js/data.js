@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Iran Closes Strait of Hormuz Again in Response to U.S. Blockade", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "IRGC Gunboats Fire on Two Indian-Flagged Merchant Ships in Strait of Hormuz", cat: "Geopolitics", slug: "geopolitics", time: "2h" },
-  { title: "Container Ship Struck by Unknown Projectile Off Oman Coast", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
-  { title: "Trump Warns He May Not Extend Ceasefire, Threatens to Resume Bombing Iran", cat: "Geopolitics", slug: "geopolitics", time: "4h" },
-  { title: "French UN Peacekeeper Killed in Lebanon Attack, Macron Blames Hezbollah", cat: "Geopolitics", slug: "geopolitics", time: "5h" },
-  { title: "Gas Prices Fall to $4.058 — Seventh Consecutive Daily Decline", cat: "Gas Prices", slug: "gas-prices", time: "6h" },
-  { title: "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration", cat: "Geopolitics", slug: "geopolitics", time: "7h" },
-  { title: "India Summons Iranian Ambassador Over Attack on Indian Merchant Ships", cat: "Geopolitics", slug: "geopolitics", time: "8h" },
+  { title: "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Current price of oil as of April 17, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Gasoline could drop below $4 in coming days", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "First Crude Cargo Clears Hormuz Since U.S. Blockade Began", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Trump's Waiver Of Jones Act Fails To Cool Oil Prices", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil Prices Sink 10% as Trump Announces Strait of Hormuz is Fully Open", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices plunge on claims Strait of Hormuz is open", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
