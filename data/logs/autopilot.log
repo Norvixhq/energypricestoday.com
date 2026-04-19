@@ -4,3 +4,17 @@
 [2026-04-19T16:04:08.920968+00:00] [observers] gas_prices: OK — Both AAA and EIA failed; kept previous snapshot
 [2026-04-19T16:04:08.998465+00:00] [detect]   • gas_prices_aaa: status seeded -> failed
 [2026-04-19T16:04:08.999284+00:00] autopilot: no-op — no meaningful changes (affected=8)
+[2026-04-19T16:29:23.405967+00:00] ════════════════════════════════════════════════════════════
+[2026-04-19T16:29:23.406087+00:00] autopilot: start
+[2026-04-19T16:29:24.373183+00:00] [observers] commodity_prices: FAIL — AttributeError: 'str' object has no attribute 'get'
+[2026-04-19T16:29:28.031117+00:00] [observers] gas_prices: OK — OK: EIA regular=$4.123 diesel=$5.608
+[2026-04-19T16:29:28.057955+00:00] [detect]   • gas_prices_aaa: status failed -> fresh
+[2026-04-19T16:29:28.058138+00:00] [plan] 5 changes, 8 page(s) affected
+[2026-04-19T16:29:28.091034+00:00] [render] [render_data_js] rendering: 5 price changes, 1 status flips
+[2026-04-19T16:29:28.091085+00:00] [render] [render_data_js] live-data.js owns 29 commodities — skipping those
+[2026-04-19T16:29:28.091113+00:00] [render]   COMMODITIES: 0 non-API-backed entries updated
+[2026-04-19T16:29:28.091139+00:00] [render]   US_GAS_NATIONAL: updated
+[2026-04-19T16:29:28.091163+00:00] [render] [render_data_js] ✓ js/data.js updated
+[2026-04-19T16:29:51.818211+00:00] [validate] all checks pass
+[2026-04-19T16:29:51.818279+00:00] autopilot: render complete, ready to commit
+[2026-04-19T16:29:51.818309+00:00] ════════════════════════════════════════════════════════════
