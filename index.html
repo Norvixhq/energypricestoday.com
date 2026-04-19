@@ -62,8 +62,13 @@ fbq('init','957762016897581');fbq('track','PageView');
   <div class="breaking-banner" id="breaking-banner">
     <div class="breaking-banner-inner">
       <span class="breaking-badge">BREAKING</span>
-      <span class="breaking-text" id="breaking-rotate-text" style="transition:opacity 0.5s ease">Iran closes Strait of Hormuz again &mdash; IRGC gunboats fire on Indian tankers, Trump threatens to resume bombing</span>
-      <a href="category/geopolitics.html" id="breaking-rotate-link" class="breaking-link">Read More &rarr;</a>
+      <span class="breaking-text" id="breaking-rotate-text" style="transition:opacity 0.5s ease"
+            data-event-bind="top_story.lead_title|truncate:140"
+            data-event-fallback="Iran closes Strait of Hormuz again — IRGC gunboats fire on Indian tankers, Trump threatens to resume bombing">Iran closes Strait of Hormuz again &mdash; IRGC gunboats fire on Indian tankers, Trump threatens to resume bombing</span>
+      <a href="category/geopolitics.html" id="breaking-rotate-link" class="breaking-link"
+         data-event-bind="top_story.lead_url"
+         data-event-attr="href"
+         data-event-fallback="category/geopolitics.html">Read More &rarr;</a>
     </div>
   </div>
   <script>
@@ -118,8 +123,12 @@ fbq('init','957762016897581');fbq('track','PageView');
           </div>
           <div class="glance-item risk-high">
             <div class="glance-item-label">Hormuz Status</div>
-            <div class="glance-item-value" style="font-size:14px">CLOSED</div>
-            <div class="glance-item-sub">re-closed Apr 18</div>
+            <div class="glance-item-value" style="font-size:14px"
+                 data-event-bind="hormuz_status.status"
+                 data-event-fallback="CLOSED">CLOSED</div>
+            <div class="glance-item-sub"
+                 data-event-bind="hormuz_status.status_detail|truncate:32"
+                 data-event-fallback="re-closed Apr 18">re-closed Apr 18</div>
           </div>
           <div class="glance-item">
             <div class="glance-item-label">U.S. Gas Avg</div>
@@ -128,13 +137,21 @@ fbq('init','957762016897581');fbq('track','PageView');
           </div>
           <div class="glance-item risk-high">
             <div class="glance-item-label">Risk Level</div>
-            <div class="glance-item-value">HIGH</div>
-            <div class="glance-item-sub">Hormuz + ceasefire</div>
+            <div class="glance-item-value"
+                 data-event-bind="global_risk_level.status"
+                 data-event-fallback="HIGH">HIGH</div>
+            <div class="glance-item-sub"
+                 data-event-bind="global_risk_level.summary_long|truncate:26"
+                 data-event-fallback="Hormuz + ceasefire">Hormuz + ceasefire</div>
           </div>
           <div class="glance-item">
             <div class="glance-item-label">Next Catalyst</div>
-            <div class="glance-item-value" style="font-size:14px">Apr 21</div>
-            <div class="glance-item-sub">Ceasefire expires</div>
+            <div class="glance-item-value" style="font-size:14px"
+                 data-event-bind="us_iran_ceasefire.next_catalyst_date|date_short"
+                 data-event-fallback="Apr 21">Apr 21</div>
+            <div class="glance-item-sub"
+                 data-event-bind="us_iran_ceasefire.next_catalyst_description|truncate:22"
+                 data-event-fallback="Ceasefire expires">Ceasefire expires</div>
           </div>
         </div>
         <div class="hero-actions" id="hero-actions" style="margin-top:16px"></div>
@@ -301,6 +318,7 @@ fbq('init','957762016897581');fbq('track','PageView');
   <script src="js/main.js"></script>
   <script src="js/live-data.js"></script>
   <script src="js/news-feed.js"></script>
+  <script src="js/event-state.js"></script>
   <script>
     document.getElementById('hero-eyebrow').innerHTML = icon('activity',14) + ' Live Energy Markets';
     document.getElementById('sec-drivers').innerHTML = icon('activity',18) + " What’s Moving Markets Today";

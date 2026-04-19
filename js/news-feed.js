@@ -28,8 +28,7 @@ function fetchNewsHeadlines(feedUrl, containerId, maxItems) {
     .then(function(res) { return res.json(); })
     .then(function(data) {
       if (data.status !== 'ok' || !data.items || data.items.length === 0) {
-        container.innerHTML = '<div style="color:var(--text-3);font-size:12px;padding:12px 16px">Headlines temporarily unavailable</div>';
-        return;
+        throw new Error('rss2json empty response');
       }
 
       container.innerHTML = data.items.slice(0, maxItems).map(function(item) {
@@ -50,6 +49,61 @@ function fetchNewsHeadlines(feedUrl, containerId, maxItems) {
       }).join('');
     })
     .catch(function(err) {
+      // PHASE 2.1 FALLBACK: pull from server-side cache written by fetch_headlines.py
+      // This ensures modules never go blank when rss2json fails or rate-limits.
+      loadHeadlinesFromCache(containerId, maxItems);
+    });
+}
+
+// Derive the cache topic key from the feed URL we were asked to fetch.
+// NEWS_FEEDS keys ("energy", "oil", ...) map 1:1 to cache filenames.
+function topicKeyFromFeedUrl(feedUrl) {
+  for (var key in NEWS_FEEDS) {
+    if (NEWS_FEEDS[key] === feedUrl) return key;
+  }
+  return 'energy'; // default
+}
+
+// Fetch from server-side cache (data/sources/headlines-{topic}.json).
+// This is the Phase 2.1 fallback that guarantees headline modules never go blank.
+function loadHeadlinesFromCache(containerId, maxItems) {
+  var container = document.getElementById(containerId);
+  if (!container) return;
+
+  // Find the data-news-topic attribute on the container (or its parent) to resolve topic
+  var el = container.hasAttribute('data-news-topic') ? container : container.closest('[data-news-topic]');
+  var topic = el ? el.getAttribute('data-news-topic') : 'energy';
+
+  // Resolve cache URL — works from any depth (root, /category/, /articles/)
+  var pathDepth = window.location.pathname.split('/').filter(Boolean).length;
+  var prefix = '';
+  if (window.location.pathname.indexOf('/category/') !== -1) prefix = '../';
+  else if (window.location.pathname.indexOf('/articles/') !== -1) prefix = '../';
+  else if (window.location.pathname.indexOf('/authors/') !== -1) prefix = '../';
+
+  var cacheUrl = prefix + 'data/sources/headlines-' + topic + '.json';
+
+  fetch(cacheUrl)
+    .then(function(res) { return res.ok ? res.json() : Promise.reject('cache miss'); })
+    .then(function(data) {
+      var stories = (data && data.stories) || [];
+      if (!stories.length) {
+        container.innerHTML = '<div style="color:var(--text-3);font-size:12px;padding:12px 16px">Headlines temporarily unavailable</div>';
+        return;
+      }
+      container.innerHTML = stories.slice(0, maxItems).map(function(item) {
+        var title = item.title || '';
+        var link = item.url || '#';
+        var source = item.source || '';
+        var time = item.published_at ? formatTimeAgo(item.published_at) : '';
+        return '<a href="' + escapeAttr(link) + '" target="_blank" rel="noopener noreferrer" class="live-news-card">' +
+          (source ? '<div class="live-news-source">' + escapeHtml(source) + '</div>' : '') +
+          '<div class="live-news-title">' + escapeHtml(title) + '</div>' +
+          (time ? '<div class="live-news-time">' + time + '</div>' : '') +
+        '</a>';
+      }).join('');
+    })
+    .catch(function() {
       container.innerHTML = '<div style="color:var(--text-3);font-size:12px;padding:12px 16px">Headlines temporarily unavailable</div>';
     });
 }
@@ -66,14 +120,29 @@ function updateBreakingBanner() {
         var link = item.link || '#';
         var dashIdx = title.lastIndexOf(' - ');
         if (dashIdx > 20) title = title.substring(0, dashIdx);
-        
+
         var textEl = document.querySelector('.breaking-text');
         var linkEl = document.querySelector('.breaking-link');
         if (textEl) textEl.textContent = title;
         if (linkEl) linkEl.href = link;
+        return;
       }
+      throw new Error('rss2json empty');
     })
-    .catch(function() {});
+    .catch(function() {
+      // Fallback to server-side cache — the homepage banner specifically pulls 'energy'
+      fetch('data/sources/headlines-energy.json')
+        .then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(data) {
+          if (!data || !data.stories || !data.stories.length) return;
+          var s = data.stories[0];
+          var textEl = document.querySelector('.breaking-text');
+          var linkEl = document.querySelector('.breaking-link');
+          if (textEl && s.title) textEl.textContent = s.title;
+          if (linkEl && s.url) linkEl.href = s.url;
+        })
+        .catch(function(){});
+    });
 }
 
 function formatTimeAgo(dateStr) {

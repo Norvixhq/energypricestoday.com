@@ -68,6 +68,7 @@ def run_observers(verbose: bool) -> dict:
     observers = [
         ("commodity_prices", SCRIPTS / "observers" / "fetch_commodity_prices.py"),
         ("gas_prices",       SCRIPTS / "observers" / "fetch_gas_prices.py"),
+        ("headlines",        SCRIPTS / "observers" / "fetch_headlines.py"),
     ]
     results = {}
     for name, script in observers:
@@ -111,6 +112,30 @@ def main() -> int:
     if args.observers_only:
         log("autopilot: observers-only complete")
         return 0
+
+    # Step 1b — Story clustering (Phase 2.2)
+    # Reads data/sources/headlines-*.json, writes data/clusters/*.json.
+    # Additive only — does not affect price-change detection or rendering.
+    # Exit 1 = no-change is normal; exit 2 = hard fail.
+    code, output = run_script(SCRIPTS / "cluster_stories.py", verbose=args.verbose)
+    if code == 2:
+        log(f"[cluster] FAILED exit=2: {output.strip()[-200:]}")
+        # Don't block the rest of autopilot on clustering failure — it's non-critical
+    else:
+        last_line = output.strip().split("\n")[-1] if output.strip() else ""
+        log(f"[cluster] {last_line}")
+
+    # Step 1c — Event-state resolution (Phase 2.3)
+    # Reads data/clusters/*.json, writes data/state/events.json — the single
+    # source of truth all future state-dependent UI modules will read from.
+    # Non-critical to price pipeline. Exit 2 = hard fail; 0/1 = ok.
+    code, output = run_script(SCRIPTS / "resolve_event_state.py", verbose=args.verbose)
+    if code == 2:
+        log(f"[resolver] FAILED exit=2: {output.strip()[-200:]}")
+        # Don't block autopilot — previous events.json remains valid
+    else:
+        last_line = output.strip().split("\n")[-1] if output.strip() else ""
+        log(f"[resolver] {last_line}")
 
     # Step 2 — Change detection
     code, output = run_script(SCRIPTS / "detect_changes.py", verbose=args.verbose)

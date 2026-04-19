@@ -55,7 +55,9 @@
         </div>
         <div class="glance-item risk-high">
           <div class="glance-item-label">Risk Premium</div>
-          <div class="glance-item-value" style="font-size:13px">~$15-25/bbl</div>
+          <div class="glance-item-value" style="font-size:13px"
+               data-event-bind="global_risk_level.status|risk_premium_band"
+               data-event-fallback="~$15-25/bbl">~$15-25/bbl</div>
           <div class="glance-item-sub">Hormuz driven</div>
         </div>
       </div>
@@ -166,6 +168,7 @@
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="js/data.js"></script><script src="js/article-slugs.js"></script><script src="js/main.js"></script><script src="js/live-data.js"></script><script src="js/news-feed.js"></script>
+  <script src="js/event-state.js"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -212,14 +215,25 @@
     }).join('');
 
     // WHAT'S MOVING OIL
+    // Hormuz and OPEC card bodies are bound to events.json via the spans with
+    // data-event-bind — event-state.js will overwrite textContent on fetch.
+    // The geopolitics link is appended separately so the bound area stays pure text.
+    var hormuzFallback = 'Hormuz re-closed April 18 after one-day reopening. Iran: IRGC warns approaching vessels treated as enemy cooperation. Gunboats fired on Indian-flagged tankers. Trump refuses to lift port blockade; threatens to resume bombing.';
+    var opecFallback   = '206,000 bpd April output increase proceeding. Saudi East-West Pipeline at full capacity. Hormuz re-closure keeps Gulf producers dependent on pipeline bypasses. May production decisions in flux.';
     document.getElementById('driver-cards').innerHTML = [
-      TC('globe','Hormuz & Blockade','Hormuz re-closed April 18 after one-day reopening. Iran: IRGC warns approaching vessels treated as enemy cooperation. Gunboats fired on Indian-flagged tankers. Trump refuses to lift port blockade; threatens to resume bombing. <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
-      TC('users','OPEC+ Policy','206,000 bpd April output increase proceeding. Saudi East-West Pipeline at full capacity. Hormuz re-closure keeps Gulf producers dependent on pipeline bypasses. May production decisions in flux.'),
-      TC('trending-up','Crude Near $95','WTI rebounding after Friday’s 11% crash on Hormuz reopening. Monday open will reflect re-closure news. Market whipsawing as traders price in continued uncertainty ahead of Tuesday’s ceasefire expiration.'),
+      TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
+      TC('users','OPEC+ Policy','<span data-event-bind="opec_plus_policy.summary_long|truncate:240" data-event-fallback="'+opecFallback.replace(/"/g,'&quot;')+'">'+opecFallback+'</span>'),
+      TC('trending-up','Crude Near $95','WTI rebounding after Friday\u2019s 11% crash on Hormuz reopening. Monday open will reflect re-closure news. Market whipsawing as traders price in continued uncertainty ahead of Tuesday\u2019s ceasefire expiration.'),
       TC('tool','Refinery Season','Spring turnarounds reducing U.S. utilization to ~87%. Summer blend transition underway (adds $0.10-0.25/gal). Gulf Coast ramping for driving season.'),
       TC('bar-chart','EIA Data','Last weekly EIA showed 9.13M barrel draw. Next report Wednesday. Hormuz re-closure April 18 interrupts expected Middle East cargo normalization. Inventories will stay tight near-term.'),
       TC('shield','Sanctions','Iran sanctions removing ~1.5M bpd from legal markets. Russia redirecting crude to Asia at discount. Venezuela limited at ~800K bpd. Sanctions enforcement tightening.'),
     ].join('');
+
+    // Re-apply event-state bindings now that innerHTML has injected bound nodes.
+    // event-state.js fires on DOMContentLoaded, but these cards are built AFTER that.
+    if (window.EventState && window.EventState.refresh) {
+      window.EventState.refresh();
+    }
 
     // SECTION QUICK NAV
     document.getElementById('section-nav').innerHTML = OIL_PRICE_SECTIONS.map(function(s, i) {

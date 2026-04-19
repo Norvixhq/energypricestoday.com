@@ -52,9 +52,13 @@
       <div class="risk-meter-bar">
         <div class="risk-meter-level">
           <span class="risk-meter-dot"></span>
-          <span class="risk-meter-label">Global Risk: Elevated</span>
+          <span class="risk-meter-label">Global Risk: <span
+              data-event-bind="global_risk_level.status|sentence"
+              data-event-fallback="Elevated">Elevated</span></span>
         </div>
-        <div class="risk-meter-text"><strong>Strait of Hormuz closed.</strong> IRGC gunboats firing on tankers. <strong>U.S.-Iran ceasefire expires Apr 21.</strong> ~$15-25/bbl risk premium priced into crude. Six chokepoints under monitoring.</div>
+        <div class="risk-meter-text"
+             data-event-bind="global_risk_level.summary_long|truncate:220"
+             data-event-fallback="Strait of Hormuz closed. IRGC gunboats firing on tankers. U.S.-Iran ceasefire expires Apr 21. ~$15-25/bbl risk premium priced into crude. Six chokepoints under monitoring."><strong>Strait of Hormuz closed.</strong> IRGC gunboats firing on tankers. <strong>U.S.-Iran ceasefire expires Apr 21.</strong> ~$15-25/bbl risk premium priced into crude. Six chokepoints under monitoring.</div>
       </div>
       <div id="geo-breaking-ticker" style="background:linear-gradient(135deg,#0f0a1a 0%,#1a0a0f 30%,#1f0a0a 60%,#0f0a1a 100%);border:1px solid rgba(239,68,68,0.2);border-radius:8px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.3)">
         <div style="display:flex;align-items:center;gap:0">
@@ -173,6 +177,7 @@
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="../js/data.js"></script><script src="../js/article-slugs.js"></script><script src="../js/main.js"></script><script src="../js/live-data.js"></script><script src="../js/news-feed.js"></script>
+  <script src="../js/event-state.js"></script>
   <script>
     function SB(l,v,s){return '<div class="stat-box"><div class="stat-box-label">'+l+'</div><div class="stat-box-value">'+v+'</div><div class="stat-box-sub" style="color:var(--text-3)">'+s+'</div></div>';}
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
