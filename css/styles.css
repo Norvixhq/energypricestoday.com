@@ -1425,3 +1425,80 @@ a.article-featured{pointer-events:auto}
     border-top: 1px solid var(--border) !important;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   PILLAR NETWORK STRIP — standardized cross-pillar nav used on all 5
+   flagship pages (Homepage, Gas, Oil, Geopolitics, Markets).
+   Kept subtle so it reinforces the ecosystem without dominating.
+   ═══════════════════════════════════════════════════════════════════ */
+.pillar-network{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0}
+.pillar-network-card{display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:14px 16px;text-decoration:none;transition:all .15s;color:var(--text-2)}
+.pillar-network-card:hover{border-color:var(--blue);background:var(--surface-2);transform:translateY(-1px)}
+.pillar-network-card.current{border-color:var(--blue);background:var(--blue-mute);cursor:default}
+.pillar-network-card.current:hover{transform:none}
+.pillar-network-icon{flex:0 0 32px;width:32px;height:32px;border-radius:8px;background:var(--blue-mute);color:var(--blue);display:flex;align-items:center;justify-content:center}
+.pillar-network-card.current .pillar-network-icon{background:var(--blue);color:#fff}
+.pillar-network-label{font-size:9.5px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);font-weight:700;line-height:1}
+.pillar-network-name{font-size:13.5px;font-weight:700;color:var(--text-1);margin-top:3px;line-height:1.2}
+@media(max-width:768px){
+  .pillar-network{grid-template-columns:repeat(2,1fr);gap:8px}
+  .pillar-network-card{padding:12px 14px}
+}
+@media(max-width:400px){.pillar-network{grid-template-columns:1fr}}
+
+/* GLOBAL RISK METER — geopolitics page top indicator */
+.risk-meter-bar{display:flex;align-items:center;gap:16px;background:linear-gradient(135deg,#1a0a0a 0%,#2a0f0f 50%,#1a0a0a 100%);border:1px solid rgba(239,68,68,0.3);border-radius:12px;padding:18px 22px;margin-bottom:20px}
+.risk-meter-level{display:flex;align-items:center;gap:10px;padding:6px 14px;border-radius:20px;background:rgba(239,68,68,0.15);border:1px solid rgba(239,68,68,0.4);flex-shrink:0}
+.risk-meter-dot{width:10px;height:10px;border-radius:50%;background:#ef4444;box-shadow:0 0 12px #ef4444;animation:pulse-dot 1.8s ease-in-out infinite}
+.risk-meter-label{color:#fff;font-size:11.5px;font-weight:800;letter-spacing:0.08em;text-transform:uppercase}
+.risk-meter-text{color:#fca5a5;font-size:13.5px;line-height:1.5;font-weight:500}
+.risk-meter-text strong{color:#fff;font-weight:700}
+@media(max-width:640px){
+  .risk-meter-bar{flex-direction:column;align-items:flex-start;padding:14px 16px}
+  .risk-meter-text{font-size:12.5px}
+}
+
+/* AT-A-GLANCE MARKET STRIP — homepage first-render instant-value element */
+.glance-strip{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin:20px 0 0}
+.glance-item{display:flex;flex-direction:column;gap:2px;padding:4px 10px;border-right:1px solid var(--border)}
+.glance-item:last-child{border-right:none}
+.glance-item-label{font-size:9.5px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);font-weight:700}
+.glance-item-value{font-size:16px;font-weight:800;color:var(--text-1);font-variant-numeric:tabular-nums}
+.glance-item-sub{font-size:10.5px;color:var(--text-3);font-weight:500}
+.glance-item.risk-high .glance-item-value{color:#ef4444}
+.glance-item.risk-elevated .glance-item-value{color:#f59e0b}
+@media(max-width:768px){
+  .glance-strip{grid-template-columns:repeat(2,1fr);gap:8px;padding:12px}
+  .glance-item{border-right:none;border-bottom:1px solid var(--border);padding-bottom:8px}
+  .glance-item:nth-last-child(-n+2){border-bottom:none}
+}
+@media(max-width:400px){.glance-strip{grid-template-columns:1fr}.glance-item{border-bottom:1px solid var(--border)}.glance-item:last-child{border-bottom:none}}
+
+/* GAS HIGHLIGHTS CARDS — cheapest/most-expensive columns */
+.gas-rank-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
+.gas-rank-card{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:16px 18px}
+.gas-rank-card h4{margin:0 0 10px;font-size:12px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);font-weight:700}
+.gas-rank-list{margin:0;padding:0;list-style:none}
+.gas-rank-item{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--border);font-size:13px}
+.gas-rank-item:last-child{border-bottom:none}
+.gas-rank-item-state{color:var(--text-2);display:flex;align-items:center;gap:8px}
+.gas-rank-item-abbr{font-weight:700;color:var(--blue);font-size:10.5px;min-width:22px}
+.gas-rank-item-price{font-weight:700;font-variant-numeric:tabular-nums}
+.gas-rank-item-price.cheap{color:#10b981}
+.gas-rank-item-price.expensive{color:#ef4444}
+@media(max-width:600px){.gas-rank-grid{grid-template-columns:1fr}}
+
+/* ═══════════════════════════════════════════════════════════════════
+   TRUST HUB STRIP — cross-links the 8 trust/policy pages so they don't
+   feel like isolated legal boilerplate. Used on About, Contact, Editorial,
+   Corrections, Disclaimer, Privacy, Terms, and Site News.
+   ═══════════════════════════════════════════════════════════════════ */
+.trust-hub{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0}
+.trust-hub-card{display:flex;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px 14px;text-decoration:none;color:var(--text-2);font-size:12.5px;font-weight:600;transition:all .15s}
+.trust-hub-card:hover{border-color:var(--blue);color:var(--text-1);background:var(--surface-2)}
+.trust-hub-card.current{border-color:var(--blue);background:var(--blue-mute);color:var(--text-1);cursor:default}
+.trust-hub-card.current:hover{background:var(--blue-mute)}
+.trust-hub-card svg{flex-shrink:0;color:var(--text-3)}
+.trust-hub-card.current svg{color:var(--blue)}
+@media(max-width:900px){.trust-hub{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:500px){.trust-hub{grid-template-columns:1fr}}

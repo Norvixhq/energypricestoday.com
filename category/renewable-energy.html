@@ -73,6 +73,30 @@
       <h3>Frequently Asked Questions</h3>
       <div class="faq-section"><div class="faq-item"><div class="faq-q">What counts as renewable energy?</div><div class="faq-a">Renewable energy comes from sources that naturally replenish: solar (sunlight), wind (air movement), hydroelectric (flowing water), geothermal (earth heat), and biomass (organic matter). Nuclear is carbon-free but not classified as renewable because uranium is finite. Battery storage is not a generation source but is essential for enabling renewable integration.</div></div><div class="faq-item"><div class="faq-q">Why are renewables growing so fast?</div><div class="faq-a">Three forces: economics (solar and wind are now the cheapest new generation), policy (IRA provides 10-year tax credit certainty), and demand (corporate PPAs, state mandates, consumer preference). Solar and wind additions exceeded all other sources combined in 2025.</div></div><div class="faq-item"><div class="faq-q">How do renewables affect the power grid?</div><div class="faq-a">Renewables are variable — output depends on weather, not demand. This creates challenges: ramping other sources at sunset (duck curve), managing transmission from remote wind/solar farms to cities, and maintaining reliability during extended low-wind/cloudy periods. Storage, flexible gas, and transmission expansion are the solutions.</div></div><div class="faq-item"><div class="faq-q">What role does storage play in renewables?</div><div class="faq-a">Storage transforms intermittent renewables into dispatchable power. Batteries store midday solar surplus for evening peak, capture excess wind for calm periods, and provide grid stability services. Without storage, renewable penetration above 30-40% becomes increasingly difficult to manage.</div></div><div class="faq-item"><div class="faq-q">Are renewables replacing fossil fuels?</div><div class="faq-a">Renewables are displacing coal fastest (coal dropped from 50% to 16% of U.S. electricity since 2005). Gas displacement is slower because gas plants provide the flexible backup that renewables need. Full replacement requires massive storage deployment, grid expansion, and likely continued nuclear. The transition will take decades.</div></div><div class="faq-item"><div class="faq-q">What are the biggest challenges for renewable growth?</div><div class="faq-a">Interconnection queue delays (2,600+ GW waiting 3-5 years), transmission constraints (new lines take 10-15 years), permitting complexity, supply chain concentration (Chinese solar manufacturing), intermittency management, and the need for firm backup capacity. These bottlenecks, not economics, are the primary constraint.</div></div></div>
     </div></div></section>
+  
+    <!-- PILLAR NETWORK — standardized cross-pillar nav -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-pillar-network"></h2></div>
+      <nav class="pillar-network" aria-label="Main site pillars">
+        <a href="../index.html" class="pillar-network-card">
+          <div class="pillar-network-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+          <div><div class="pillar-network-label">Front Door</div><div class="pillar-network-name">Homepage</div></div>
+        </a>
+        <a href="../oil-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg></div>
+          <div><div class="pillar-network-label">Crude Markets</div><div class="pillar-network-name">Oil Prices</div></div>
+        </a>
+        <a href="../category/gas-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="22" x2="15" y2="22"/><line x1="4" y1="9" x2="14" y2="9"/><path d="M14 22V4a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v18"/><path d="M14 13h2a2 2 0 0 1 2 2v2a2 2 0 0 0 2 2a2 2 0 0 0 2-2V9.83a2 2 0 0 0-.59-1.42L18 5"/></svg></div>
+          <div><div class="pillar-network-label">Pump & Consumer</div><div class="pillar-network-name">Gas Prices</div></div>
+        </a>
+        <a href="../category/geopolitics.html" class="pillar-network-card">
+          <div class="pillar-network-icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+          <div><div class="pillar-network-label">Risk & Security</div><div class="pillar-network-name">Geopolitics</div></div>
+        </a>
+      </nav>
+    </div></section>
+
   </main>
   <footer class="site-footer" id="site-footer"></footer>
   <script src="../js/data.js"></script><script src="../js/article-slugs.js"></script><script src="../js/main.js"></script><script src="../js/live-data.js"></script><script src="../js/news-feed.js"></script>
@@ -99,5 +123,11 @@
     var catR = (typeof CATEGORY_CONTENT !== 'undefined' && CATEGORY_CONTENT['renewable-energy']) ? CATEGORY_CONTENT['renewable-energy'] : null;
     document.getElementById('ren-articles').innerHTML = (catR ? catR.articles : []).slice(0,6).map(function(a){return '<a href="'+categoryArticleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';}).join('');
     document.getElementById('explore-cards').innerHTML = [['Nuclear Energy','nuclear.html','shield','Reactors, SMRs, baseload'],['Solar Energy','solar.html','sun','Utility-scale, rooftop, ITC'],['Wind Energy','wind.html','wind','Onshore, offshore, turbines'],['Renewables','renewable-energy.html','leaf','Clean energy overview'],['Alt Energy','alternative-energy.html','zap','Batteries, hydrogen, CCUS'],['Energy Hub','energy.html','activity','Power markets, grid, LNG'],['Oil Prices','../oil-prices.html','trending-up','WTI, Brent, benchmarks'],['Gas Prices','gas-prices.html','fuel','AAA state-by-state'],['Geopolitics','geopolitics.html','globe','Iran, Hormuz, supply']].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
+  </script>
+<script>
+    (function(){
+      var t = document.getElementById('sec-pillar-network');
+      if (t) t.innerHTML = (typeof icon === 'function' ? icon('layout',20) : '') + ' The EnergyPricesToday Pillars';
+    })();
   </script>
 </body></html>

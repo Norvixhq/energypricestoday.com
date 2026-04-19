@@ -109,7 +109,35 @@ fbq('init','957762016897581');fbq('track','PageView');
           <p class="hero-sub">Live oil prices, U.S. gas prices by state, and real-time energy geopolitics — WTI, Brent, AAA data, and breaking news in one place. Today: Iran re-closes the Strait of Hormuz, IRGC gunboats fire on Indian tankers, and the U.S.-Iran ceasefire expires Tuesday, April 21.</p>
         </div>
         <div class="grid-10" id="hero-prices" style="margin-bottom:20px"></div>
-        <div class="hero-actions" id="hero-actions"></div>
+        <!-- AT-A-GLANCE MARKET STRIP — renders instantly from static data, upgraded by live-data.js -->
+        <div class="glance-strip" id="glance-strip">
+          <div class="glance-item">
+            <div class="glance-item-label">WTI Crude</div>
+            <div class="glance-item-value" data-glance="wti">$96.57</div>
+            <div class="glance-item-sub">per barrel</div>
+          </div>
+          <div class="glance-item">
+            <div class="glance-item-label">Brent Crude</div>
+            <div class="glance-item-value" data-glance="brent">$95.20</div>
+            <div class="glance-item-sub">per barrel</div>
+          </div>
+          <div class="glance-item">
+            <div class="glance-item-label">U.S. Gas Avg</div>
+            <div class="glance-item-value" data-glance="gas">$4.058</div>
+            <div class="glance-item-sub">AAA regular</div>
+          </div>
+          <div class="glance-item risk-high">
+            <div class="glance-item-label">Risk Level</div>
+            <div class="glance-item-value">HIGH</div>
+            <div class="glance-item-sub">Hormuz closed</div>
+          </div>
+          <div class="glance-item">
+            <div class="glance-item-label">Next Catalyst</div>
+            <div class="glance-item-value" style="font-size:14px">Apr 21</div>
+            <div class="glance-item-sub">Ceasefire expires</div>
+          </div>
+        </div>
+        <div class="hero-actions" id="hero-actions" style="margin-top:16px"></div>
       </div>
     </section>
 
@@ -227,6 +255,31 @@ fbq('init','957762016897581');fbq('track','PageView');
       </div>
     </section>
 
+    <!-- PILLAR NETWORK — cross-pillar routing strip -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header"><h2 class="section-title" id="sec-network"></h2></div>
+        <nav class="pillar-network" aria-label="Main site pillars">
+          <a href="oil-prices.html" class="pillar-network-card">
+            <div class="pillar-network-icon" id="pn-oil"></div>
+            <div><div class="pillar-network-label">Crude Markets</div><div class="pillar-network-name">Oil Prices</div></div>
+          </a>
+          <a href="category/gas-prices.html" class="pillar-network-card">
+            <div class="pillar-network-icon" id="pn-gas"></div>
+            <div><div class="pillar-network-label">Pump & Consumer</div><div class="pillar-network-name">Gas Prices</div></div>
+          </a>
+          <a href="category/geopolitics.html" class="pillar-network-card">
+            <div class="pillar-network-icon" id="pn-geo"></div>
+            <div><div class="pillar-network-label">Risk & Security</div><div class="pillar-network-name">Geopolitics</div></div>
+          </a>
+          <a href="markets.html" class="pillar-network-card">
+            <div class="pillar-network-icon" id="pn-mkt"></div>
+            <div><div class="pillar-network-label">Benchmark Dashboard</div><div class="pillar-network-name">Markets</div></div>
+          </a>
+        </nav>
+      </div>
+    </section>
+
     <!-- NEWSLETTER -->
     <section class="newsletter-section">
       <div class="newsletter-bg"></div>
@@ -264,6 +317,36 @@ fbq('init','957762016897581');fbq('track','PageView');
     document.getElementById('sec-geo').innerHTML = icon('globe',18) + ' Geopolitics &amp; Global Supply';
     document.getElementById('sec-geo-action').innerHTML = 'More ' + icon('arrow-right',14);
     document.getElementById('sec-snapshot').innerHTML = icon('activity',18) + " Today's Market Snapshot";
+    var netEl = document.getElementById('sec-network');
+    if (netEl) netEl.innerHTML = icon('layout',18) + ' Explore the Pillars';
+    // Pillar Network icons
+    var pnOil = document.getElementById('pn-oil'); if (pnOil) pnOil.innerHTML = icon('trending-up',16);
+    var pnGas = document.getElementById('pn-gas'); if (pnGas) pnGas.innerHTML = icon('fuel',16);
+    var pnGeo = document.getElementById('pn-geo'); if (pnGeo) pnGeo.innerHTML = icon('globe',16);
+    var pnMkt = document.getElementById('pn-mkt'); if (pnMkt) pnMkt.innerHTML = icon('bar-chart',16);
+
+    // AT-A-GLANCE STRIP — updates whenever live-data.js dispatches a refresh
+    function updateGlanceStrip() {
+      try {
+        if (typeof COMMODITIES === 'undefined' || !COMMODITIES.length) return;
+        var wti = COMMODITIES.find(function(c){return c.name==='WTI Crude';});
+        var brent = COMMODITIES.find(function(c){return c.name==='Brent Crude';});
+        if (wti && wti.price) {
+          var el = document.querySelector('[data-glance="wti"]');
+          if (el) el.textContent = '$' + wti.price.toFixed(2);
+        }
+        if (brent && brent.price) {
+          var el2 = document.querySelector('[data-glance="brent"]');
+          if (el2) el2.textContent = '$' + brent.price.toFixed(2);
+        }
+        if (typeof US_GAS_NATIONAL !== 'undefined' && US_GAS_NATIONAL.regular) {
+          var el3 = document.querySelector('[data-glance="gas"]');
+          if (el3) el3.textContent = '$' + US_GAS_NATIONAL.regular.toFixed(3);
+        }
+      } catch(e) {}
+    }
+    updateGlanceStrip();
+    window.addEventListener('livePricesUpdated', updateGlanceStrip);
 
     // HERO CTAs (3 pillars emphasized)
     document.getElementById('hero-actions').innerHTML =

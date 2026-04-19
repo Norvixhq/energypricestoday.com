@@ -109,6 +109,29 @@ fbq('init','957762016897581');fbq('track','PageView');
       <div class="grid-3" id="explore-cards"></div>
     </div></section>
 
+    <!-- PILLAR NETWORK -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-network"></h2></div>
+      <nav class="pillar-network" aria-label="Main site pillars">
+        <a href="index.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-home"></div>
+          <div><div class="pillar-network-label">Front Door</div><div class="pillar-network-name">Homepage</div></div>
+        </a>
+        <a href="oil-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-oil"></div>
+          <div><div class="pillar-network-label">Crude Markets</div><div class="pillar-network-name">Oil Prices</div></div>
+        </a>
+        <a href="category/gas-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-gas"></div>
+          <div><div class="pillar-network-label">Pump & Consumer</div><div class="pillar-network-name">Gas Prices</div></div>
+        </a>
+        <a href="category/geopolitics.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-geo"></div>
+          <div><div class="pillar-network-label">Risk & Security</div><div class="pillar-network-name">Geopolitics</div></div>
+        </a>
+      </nav>
+    </div></section>
+
     <!-- FAQ — expanded -->
     <section class="section"><div class="container"><div class="context-block">
       <h3>Frequently Asked Questions</h3>
@@ -142,6 +165,14 @@ fbq('init','957762016897581');fbq('track','PageView');
     document.getElementById('sec-sources').innerHTML        = icon('folder',20)+' Data Sources & Update Frequency';
     document.getElementById('sec-live').innerHTML           = icon('newspaper',18)+' Live Market Headlines';
     document.getElementById('sec-explore').innerHTML        = icon('arrow-right',20)+' Explore Deeper';
+
+    // Pillar Network wiring
+    var netEl = document.getElementById('sec-network');
+    if (netEl) netEl.innerHTML = icon('layout',20) + ' The EnergyPricesToday Pillars';
+    var pnHome = document.getElementById('pn-home'); if (pnHome) pnHome.innerHTML = icon('activity',16);
+    var pnOil = document.getElementById('pn-oil'); if (pnOil) pnOil.innerHTML = icon('trending-up',16);
+    var pnGas = document.getElementById('pn-gas'); if (pnGas) pnGas.innerHTML = icon('fuel',16);
+    var pnGeo = document.getElementById('pn-geo'); if (pnGeo) pnGeo.innerHTML = icon('globe',16);
 
     // ═══════════════════════════════════════════════════════════
     // ALL LIVE BENCHMARKS — every commodity from OilPriceAPI.

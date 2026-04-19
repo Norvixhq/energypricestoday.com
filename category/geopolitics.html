@@ -48,6 +48,14 @@
 
     <!-- BREAKING TICKER (live RSS) -->
     <section class="section" style="padding-top:16px;padding-bottom:0"><div class="container">
+      <!-- GLOBAL RISK METER — top-line risk verdict -->
+      <div class="risk-meter-bar">
+        <div class="risk-meter-level">
+          <span class="risk-meter-dot"></span>
+          <span class="risk-meter-label">Global Risk: Elevated</span>
+        </div>
+        <div class="risk-meter-text"><strong>Strait of Hormuz closed.</strong> IRGC gunboats firing on tankers. <strong>U.S.-Iran ceasefire expires Apr 21.</strong> ~$15-25/bbl risk premium priced into crude. Six chokepoints under monitoring.</div>
+      </div>
       <div id="geo-breaking-ticker" style="background:linear-gradient(135deg,#0f0a1a 0%,#1a0a0f 30%,#1f0a0a 60%,#0f0a1a 100%);border:1px solid rgba(239,68,68,0.2);border-radius:8px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.3)">
         <div style="display:flex;align-items:center;gap:0">
           <div style="background:linear-gradient(180deg,#ef4444,#dc2626);color:#fff;font-size:10px;font-weight:800;letter-spacing:0.12em;padding:14px 16px;white-space:nowrap;border-right:1px solid rgba(0,0,0,0.3);display:flex;align-items:center;gap:6px"><span style="display:inline-block;width:7px;height:7px;background:#fff;border-radius:50%;animation:pulse-dot 1.5s ease-in-out infinite"></span>BREAKING</div>
@@ -118,6 +126,36 @@
       <div class="grid-3" id="explore-cards"></div>
     </div></section>
 
+    <!-- MARKETS ARE WATCHING — connection between geo events and market reactions -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-watching"></h2></div>
+      <p style="color:var(--text-2);font-size:13.5px;margin-bottom:18px;max-width:820px">How the current geopolitical landscape is pricing into energy markets right now. Each event connects to a specific market reaction traders can see on the oil, gas, and benchmark dashboards.</p>
+      <div class="grid-3" id="watching-cards"></div>
+    </div></section>
+
+    <!-- PILLAR NETWORK -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-network"></h2></div>
+      <nav class="pillar-network" aria-label="Main site pillars">
+        <a href="../index.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-home"></div>
+          <div><div class="pillar-network-label">Front Door</div><div class="pillar-network-name">Homepage</div></div>
+        </a>
+        <a href="../oil-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-oil"></div>
+          <div><div class="pillar-network-label">Crude Markets</div><div class="pillar-network-name">Oil Prices</div></div>
+        </a>
+        <a href="gas-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-gas"></div>
+          <div><div class="pillar-network-label">Pump & Consumer</div><div class="pillar-network-name">Gas Prices</div></div>
+        </a>
+        <a href="../markets.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-mkt"></div>
+          <div><div class="pillar-network-label">Benchmark Dashboard</div><div class="pillar-network-name">Markets</div></div>
+        </a>
+      </nav>
+    </div></section>
+
     <!-- FAQ -->
     <section class="section"><div class="container"><div class="context-block">
       <h3>Frequently Asked Questions</h3>
@@ -153,6 +191,29 @@
     document.getElementById('sec-articles').innerHTML = icon('newspaper',20)+' Featured Coverage';
     document.getElementById('sec-explore').innerHTML = icon('compass',20)+' Related Oil & Energy Topics';
     document.getElementById('sec-context').innerHTML = icon('globe',18) + ' Current Risk Landscape';
+
+    // Markets Are Watching section title + pillar network
+    var watchEl = document.getElementById('sec-watching');
+    if (watchEl) watchEl.innerHTML = icon('trending-up',20) + ' Markets Are Watching';
+    var netEl = document.getElementById('sec-network');
+    if (netEl) netEl.innerHTML = icon('layout',20) + ' The EnergyPricesToday Pillars';
+    var pnHome = document.getElementById('pn-home'); if (pnHome) pnHome.innerHTML = icon('activity',16);
+    var pnOil = document.getElementById('pn-oil'); if (pnOil) pnOil.innerHTML = icon('trending-up',16);
+    var pnGas = document.getElementById('pn-gas'); if (pnGas) pnGas.innerHTML = icon('fuel',16);
+    var pnMkt = document.getElementById('pn-mkt'); if (pnMkt) pnMkt.innerHTML = icon('bar-chart',16);
+
+    // Markets Are Watching — connects events to market reactions
+    var watchingEl = document.getElementById('watching-cards');
+    if (watchingEl) {
+      watchingEl.innerHTML = [
+        TC('trending-up','Oil Prices — Risk Premium Rebuilding','WTI and Brent both bounced from Friday\'s 11%+ crash on Monday\'s Hormuz re-closure news. The Brent-WTI spread is widening as maritime risk returns. <strong>Market says:</strong> ~$15-25/bbl risk premium embedded. <a href="../oil-prices.html" style="color:var(--blue)">Live oil prices →</a>'),
+        TC('fuel','Gas Prices — Still Easing','Despite the geopolitical reversal, AAA national average has fallen seven consecutive days to $4.058. Crude-to-pump lag is working the earlier downside through. <strong>Market says:</strong> lag is protecting consumers short-term. <a href="gas-prices.html" style="color:var(--blue)">State-by-state gas →</a>'),
+        TC('bar-chart','Curve Shape — Tight Prompt','WTI futures in steep backwardation through December 2026. Cushing stocks below 5-year average. EIA reported 9.13M barrel draw last week. <strong>Market says:</strong> physical supply is tight now. <a href="../markets.html" style="color:var(--blue)">Full benchmarks →</a>'),
+        TC('zap','LNG & Gas — Qatar Disruption','JKM and Dutch TTF both elevated. Qatari LNG routes through Hormuz; re-closure halts flows again. European buyers return to premium-bidding for U.S. cargoes. <strong>Market says:</strong> LNG arbitrage tightening globally.'),
+        TC('users','OPEC+ — Holding the Plan','April 206K bpd output increase proceeding despite Hormuz crisis. No emergency JMMC called. Saudi East-West Pipeline at full capacity. <strong>Market says:</strong> cartel accepting current price while preserving spare capacity.'),
+        TC('trending-up','Currencies — Safe Haven Flows','Dollar index firming on risk-off. Euro under pressure from European energy exposure. Gold near record highs. <strong>Market says:</strong> cross-asset markets pricing in extended uncertainty.'),
+      ].join('');
+    }
 
     // RISK DASHBOARD
     document.getElementById('geo-risk-cards').innerHTML = [

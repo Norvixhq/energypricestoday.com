@@ -56,7 +56,8 @@
     <!-- HIGHLIGHTS -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-highlights"></h2></div>
-      <div class="grid-3" id="highlights-cards"></div>
+      <div class="gas-rank-grid" id="gas-rank-grid"></div>
+      <p style="color:var(--text-3);font-size:11px;margin-top:12px" id="gas-rank-note"></p>
     </div></section>
 
     <!-- STATE TABLE -->
@@ -113,6 +114,29 @@
       <div class="grid-3" id="explore-cards"></div>
     </div></section>
 
+    <!-- PILLAR NETWORK -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-network"></h2></div>
+      <nav class="pillar-network" aria-label="Main site pillars">
+        <a href="../index.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-home"></div>
+          <div><div class="pillar-network-label">Front Door</div><div class="pillar-network-name">Homepage</div></div>
+        </a>
+        <a href="../oil-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-oil"></div>
+          <div><div class="pillar-network-label">Crude Markets</div><div class="pillar-network-name">Oil Prices</div></div>
+        </a>
+        <a href="geopolitics.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-geo"></div>
+          <div><div class="pillar-network-label">Risk & Security</div><div class="pillar-network-name">Geopolitics</div></div>
+        </a>
+        <a href="../markets.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-mkt"></div>
+          <div><div class="pillar-network-label">Benchmark Dashboard</div><div class="pillar-network-name">Markets</div></div>
+        </a>
+      </nav>
+    </div></section>
+
     <!-- FAQ -->
     <section class="section"><div class="container"><div class="context-block">
       <h3>Frequently Asked Questions</h3>
@@ -143,6 +167,12 @@
     document.getElementById('sec-articles').innerHTML = icon('newspaper',20)+' Featured Coverage';
     document.getElementById('sec-explore').innerHTML = icon('compass',20)+' Related: Oil Prices, Diesel & Geopolitics';
     document.getElementById('sec-context').innerHTML = icon('fuel',18) + ' Why Gas Prices Are Moving';
+    var netEl = document.getElementById('sec-network');
+    if (netEl) netEl.innerHTML = icon('layout',20) + ' The EnergyPricesToday Pillars';
+    var pnHome = document.getElementById('pn-home'); if (pnHome) pnHome.innerHTML = icon('activity',16);
+    var pnOil = document.getElementById('pn-oil'); if (pnOil) pnOil.innerHTML = icon('trending-up',16);
+    var pnGeo = document.getElementById('pn-geo'); if (pnGeo) pnGeo.innerHTML = icon('globe',16);
+    var pnMkt = document.getElementById('pn-mkt'); if (pnMkt) pnMkt.innerHTML = icon('bar-chart',16);
 
     var g = US_GAS_NATIONAL;
     document.getElementById('national-cards').innerHTML = [
@@ -153,15 +183,32 @@
     ].join('');
     document.getElementById('gas-source').textContent = g.source + ' — ' + g.updated;
 
-    // Highlights: cheapest, most expensive, Texas
+    // Highlights: top 5 cheapest + top 5 most expensive states
     var sorted = GAS_PRICES_BY_STATE.slice().sort(function(a,b){return a.regular-b.regular;});
-    var cheapest = sorted[0], expensive = sorted[sorted.length-1];
-    var tx = GAS_PRICES_BY_STATE.find(function(s){return s.abbr==='TX';});
-    document.getElementById('highlights-cards').innerHTML = [
-      TC('trending-down','Cheapest: '+cheapest.state,'$'+cheapest.regular.toFixed(3)+'/gal regular — low taxes, refinery access, competitive retail markets keep prices below the national average.'),
-      TC('trending-up','Most Expensive: '+expensive.state,'$'+expensive.regular.toFixed(3)+'/gal regular — high taxes, strict fuel-blend requirements, limited refinery access, and geographic isolation drive costs.'),
-      TC('map-pin','Texas','$'+(tx?tx.regular.toFixed(3):'N/A')+'/gal regular — home to the nation’s largest refining complex along the Gulf Coast. Low taxes and abundant domestic production.'),
-    ].join('');
+    var cheapest5 = sorted.slice(0, 5);
+    var expensive5 = sorted.slice(-5).reverse();
+    var natl = US_GAS_NATIONAL.regular;
+
+    function gasRankRow(s, cls) {
+      return '<li class="gas-rank-item">'
+        + '<span class="gas-rank-item-state"><span class="gas-rank-item-abbr">'+s.abbr+'</span>'+s.state+'</span>'
+        + '<span class="gas-rank-item-price '+cls+'">$'+s.regular.toFixed(3)+'</span></li>';
+    }
+
+    document.getElementById('gas-rank-grid').innerHTML =
+      '<div class="gas-rank-card">'
+        + '<h4><span style="color:#10b981">▼</span> Cheapest 5 States</h4>'
+        + '<ul class="gas-rank-list">' + cheapest5.map(function(s){return gasRankRow(s,'cheap');}).join('') + '</ul>'
+        + '<div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border);font-size:11px;color:var(--text-3)">Structural factors: low taxes, refinery access, no specialty blends. <a href="../articles/cheapest-gas-prices-right-now-state-rankings.html" style="color:var(--blue)">Full state rankings →</a></div>'
+      + '</div>'
+      + '<div class="gas-rank-card">'
+        + '<h4><span style="color:#ef4444">▲</span> Most Expensive 5 States</h4>'
+        + '<ul class="gas-rank-list">' + expensive5.map(function(s){return gasRankRow(s,'expensive');}).join('') + '</ul>'
+        + '<div style="margin-top:10px;padding-top:10px;border-top:1px solid var(--border);font-size:11px;color:var(--text-3)">Drivers: high state taxes, unique fuel specifications, geographic isolation. <a href="../articles/why-are-gas-prices-different-in-every-state.html" style="color:var(--blue)">Why states differ →</a></div>'
+      + '</div>';
+
+    var spread = (expensive5[0].regular - cheapest5[0].regular).toFixed(2);
+    document.getElementById('gas-rank-note').innerHTML = 'National average: <strong>$'+natl.toFixed(3)+'/gal</strong> · State-to-state spread: <strong>$'+spread+'/gal</strong> (cheapest vs most expensive) · ' + US_GAS_NATIONAL.source + ', ' + US_GAS_NATIONAL.updated;
 
     // State table
     var tbody = document.getElementById('state-tbody');
