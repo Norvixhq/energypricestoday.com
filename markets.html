@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','957762016897581');fbq('track','PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','957762016897581');fbq('track','PageView');
+</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Energy Markets Dashboard — Oil, Gas, LNG, Refined Products</title>
-  <meta name="description" content="Live energy markets dashboard: WTI, Brent, natural gas, gasoline, diesel, heating oil, and 150+ global benchmarks. Cross-asset pricing in one view.">
+  <title>Energy Markets Dashboard — Live Oil, Gas, LNG, Coal, Metals | EnergyPricesToday</title>
+  <meta name="description" content="Live energy markets dashboard: WTI, Brent, Dubai, 40+ global benchmarks across crude oil, refined products, natural gas, LNG, coal, marine fuels, metals, and currencies. Updated every 5 minutes.">
   <link rel="canonical" href="https://www.energypricestoday.com/markets.html">
-  <meta property="og:type" content="website"><meta property="og:title" content="Energy Markets Dashboard — Oil, Gas, LNG, Refined Products">
-  <meta property="og:description" content="Live energy markets dashboard: WTI, Brent, natural gas, gasoline, diesel, heating oil, and 150+ global benchmarks. Cross-asset pricing in one view.">
+  <meta property="og:type" content="website"><meta property="og:title" content="Energy Markets Dashboard — Live Oil, Gas, LNG, Coal, Metals">
+  <meta property="og:description" content="Live energy markets dashboard with 40+ global benchmarks. Crude oil, refined products, natural gas, LNG, coal, marine fuels, metals, and currencies — all updated every 5 minutes.">
   <link rel="preconnect" href="https://api.oilpriceapi.com" crossorigin>
   <link rel="stylesheet" href="css/styles.css">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
@@ -25,183 +32,179 @@
   <main>
     <section class="page-hero-large"><div class="hero-bg"></div><div class="container" style="position:relative;z-index:1">
       <nav class="breadcrumbs"><a href="index.html">Home</a> &rsaquo; <span>Energy Markets</span></nav>
-      <h1>Energy Markets</h1>
-      <p class="hero-sub">The cross-asset energy dashboard. Live benchmark pricing for crude oil, natural gas, refined products (gasoline, diesel, heating oil), LNG reference, and 150+ global crude blends — organized, explained, and updated every 5 minutes via API.</p>
+      <h1>Energy Markets Dashboard</h1>
+      <p class="hero-sub">The cross-asset energy dashboard. Real-time benchmark pricing for crude oil, refined products, natural gas, LNG, coal, marine fuels, industrial commodities, and currencies — 40+ global benchmarks, updated every 5 minutes via OilPriceAPI.</p>
     </div></section>
 
-    <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-hero"></h2></div>
-      <div class="grid-5" id="hero-benchmarks"></div>
-      <p style="color:var(--text-3);font-size:10px;margin-top:8px">Benchmarks marked LIVE update every 5 min via OilPriceAPI using real CME/ICE exchange data.</p>
-    </div></section>
-    <!-- ALL LIVE BENCHMARKS — all 42 commodities from OilPriceAPI grouped by asset class -->
+    <!-- ALL LIVE BENCHMARKS — the single source-of-truth price grid -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-all-benchmarks"></h2></div>
-      <p style="color:var(--text-2);font-size:13px;margin-bottom:16px;max-width:820px">Every benchmark our data provider tracks, grouped by asset class. Use the filters below to focus on a category. All prices auto-refresh every 5 minutes via OilPriceAPI.</p>
+      <p style="color:var(--text-2);font-size:13.5px;margin-bottom:14px;max-width:820px;line-height:1.65">Every commodity our data provider tracks, grouped by asset class. Use the filters below to focus on one category, or browse the full universe. All prices update every 5 minutes via OilPriceAPI using real CME, ICE, and exchange data.</p>
       <div id="bench-tabs" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:18px"></div>
+      <div id="bench-status" style="font-size:11px;color:var(--text-3);margin-bottom:12px"></div>
       <div id="all-benchmarks"></div>
     </div></section>
+
+    <!-- WHAT'S MOVING MARKETS TODAY — expanded driver card grid -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-drivers"></h2></div>
+      <p style="color:var(--text-2);font-size:13.5px;margin-bottom:18px;max-width:820px">The structural and event-driven forces shaping energy prices right now. Updated as conditions evolve.</p>
       <div class="grid-3" id="driver-cards"></div>
     </div></section>
+
+    <!-- TOP MOVERS — clearly labeled 24-hour interval -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-movers"></h2></div>
+      <p style="color:var(--text-2);font-size:13.5px;margin-bottom:14px;max-width:820px">The biggest 24-hour price moves across our tracked benchmarks, ranked by absolute percentage change. A good read on which markets are dislocating — and where the news is.</p>
       <div class="market-table-wrap">
         <table class="market-table">
-          <thead><tr><th style="text-align:left">Benchmark</th><th>Price</th><th>Change</th><th>%</th></tr></thead>
+          <thead><tr><th style="text-align:left">Benchmark</th><th>Price</th><th>24h Change</th><th>24h %</th></tr></thead>
           <tbody id="movers-tbody"></tbody>
         </table>
       </div>
     </div></section>
+
+    <!-- MARKETS BY CATEGORY -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-groups"></h2></div>
+      <p style="color:var(--text-2);font-size:13.5px;margin-bottom:18px;max-width:820px">Dedicated category pages with deeper context, explainers, and related coverage for each commodity complex.</p>
       <div class="grid-3" id="group-cards"></div>
     </div></section>
+
+    <!-- UNDERSTANDING BENCHMARKS — expanded educational section -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-explain"></h2></div>
-      <div class="explainer-block">
-        <h3>What Energy Benchmarks Are and Why They Matter</h3>
-        <p>A benchmark is a reference price used to value physical commodities and derivative contracts. WTI and Brent set reference prices for approximately 90% of globally traded crude oil. Henry Hub prices U.S. natural gas. RBOB sets U.S. wholesale gasoline. ULSD prices U.S. diesel and heating fuel. Each benchmark reflects deep liquidity, transparent price discovery, and market consensus on supply-demand balance.</p>
-        <p style="margin-top:10px">Benchmarks move based on fundamental factors (supply disruptions, demand shifts, inventory changes, refinery operations, weather) and financial factors (speculative positioning, currency moves, risk appetite). A $1 move in WTI affects approximately $0.025/gallon at the U.S. pump. A $0.50 move in Henry Hub affects approximately $0.01/kWh in gas-fired electricity costs.</p>
-      </div>
-      <div class="explainer-block" style="margin-top:16px">
-        <h3>How to Use This Dashboard</h3>
-        <p>The 5 hero cards show the most important energy benchmarks updated every 5 minutes. The movers table ranks the biggest price changes. The grouped sections organize benchmarks by commodity type. Click through to individual category pages (Crude Oil, Natural Gas, Heating Oil) for deeper context on each market.</p>
+      <div id="explain-intro" style="color:var(--text-2);font-size:14px;line-height:1.7;max-width:820px;margin-bottom:20px"></div>
+      <div class="grid-3" id="explain-cards" style="margin-bottom:20px"></div>
+      <div class="grid-2" id="explain-deep"></div>
+    </div></section>
+
+    <!-- PRICE TRANSMISSION TABLE — how benchmark moves affect consumer costs -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-transmission"></h2></div>
+      <p style="color:var(--text-2);font-size:13.5px;margin-bottom:14px;max-width:820px">When benchmarks move, downstream prices follow — but the transmission lag and magnitude varies by commodity. This table summarizes the real-world impact.</p>
+      <div class="market-table-wrap">
+        <table class="market-table">
+          <thead><tr><th style="text-align:left">Benchmark Move</th><th style="text-align:left">Downstream Impact</th><th>Lag</th><th>Visibility</th></tr></thead>
+          <tbody id="transmission-tbody"></tbody>
+        </table>
       </div>
     </div></section>
+
+    <!-- LIVE MARKET HEADLINES -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-live"></h2></div>
       <div id="mk-live" data-news-topic="energy" data-news-max="6"></div>
     </div></section>
+
+    <!-- KEY DATA SOURCES & UPDATE FREQUENCIES -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-sources"></h2></div>
+      <div class="grid-2" id="source-cards"></div>
+    </div></section>
+
+    <!-- EXPLORE DEEPER -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-explore"></h2></div>
       <div class="grid-3" id="explore-cards"></div>
     </div></section>
+
+    <!-- FAQ — expanded -->
     <section class="section"><div class="container"><div class="context-block">
       <h3>Frequently Asked Questions</h3>
-      <div class="faq-section"><div class="faq-item"><div class="faq-q">What does the Markets page track?</div><div class="faq-a">The Markets dashboard tracks live prices for the most important global energy benchmarks: crude oil (WTI, Brent), natural gas (Henry Hub), refined products (gasoline RBOB, diesel/heating oil ULSD), plus reference prices for 150+ regional and international blends. Everything updates via API every 5 minutes for LIVE-labeled benchmarks.</div></div><div class="faq-item"><div class="faq-q">Why do energy benchmarks move?</div><div class="faq-a">Benchmarks respond to supply disruptions, demand shifts, inventory data, weather, OPEC+ decisions, geopolitical events, currency moves, and trader positioning. In the current market, the Strait of Hormuz crisis is the dominant factor, adding a $20-25 risk premium to global crude and pressuring natural gas through LNG trade dynamics.</div></div><div class="faq-item"><div class="faq-q">What is the difference between spot and futures pricing?</div><div class="faq-a">Spot prices reflect immediate physical delivery. Futures prices reflect agreed delivery at a specific future date. The hero cards on this page show front-month futures (the most actively traded contract). The difference between spot and futures indicates market expectations — backwardation signals tight supply, contango signals surplus.</div></div><div class="faq-item"><div class="faq-q">Why are some benchmarks more important than others?</div><div class="faq-a">Benchmarks matter based on the volume of trade priced off them, liquidity in the futures market, and geographic relevance. Brent prices roughly 75% of globally traded oil. WTI dominates U.S. domestic crude. Henry Hub sets North American gas. RBOB and ULSD set U.S. refined product prices. Regional benchmarks (Dubai, WCS, Urals) serve specific trade flows.</div></div><div class="faq-item"><div class="faq-q">How do these prices affect gas, diesel, and heating costs?</div><div class="faq-a">WTI/Brent moves flow to wholesale gasoline (RBOB) and diesel (ULSD) within days and to pump prices in 1-2 weeks. Henry Hub gas prices flow to electricity bills and heating costs within weeks. A $10/barrel crude increase adds $0.24-0.30/gallon at the pump.</div></div><div class="faq-item"><div class="faq-q">How often does this page update?</div><div class="faq-a">The 5 hero benchmarks and the movers table update every 5 minutes via OilPriceAPI using real CME/ICE exchange data. Regional crude grades, OPEC blends, and international benchmarks update from their respective reporting channels with varying delays.</div></div></div>
+      <div class="faq-section">
+        <div class="faq-item"><div class="faq-q">What does the Markets page track?</div><div class="faq-a">The Markets dashboard tracks live prices for 40+ global energy benchmarks: crude oil (WTI, Brent, Dubai, OPEC Basket, Azeri Light, Western Canadian Select, Urals, Basrah Medium), refined products (gasoline RBOB, diesel, heating oil, jet fuel, ethanol, naphtha, propane), natural gas (Henry Hub, WAHA, UK NBP, Dutch TTF), LNG (JKM), coal (Newcastle, Coking, CAPP, PRB, Illinois Basin), marine fuels (VLSFO, MGO, HFO 380), metals (gold, silver, platinum, palladium), emissions (EU and UK carbon allowances), and currencies (EUR/USD, GBP/USD, USD/CNY). Everything updates via API every 5 minutes.</div></div>
+        <div class="faq-item"><div class="faq-q">How often do prices update?</div><div class="faq-a">The underlying API polls exchanges every 5 minutes during trading hours. Our page re-renders whenever the latest snapshot arrives. Weekends and market holidays show last-session prices until trading resumes. Regional benchmarks like OPEC Basket publish once daily on the afternoon trading close.</div></div>
+        <div class="faq-item"><div class="faq-q">Why do some cards show older timestamps?</div><div class="faq-a">Not every benchmark trades continuously. Regional crude grades (Azeri Light, Urals, OPEC Basket, Basrah Medium) publish one price per trading day. Marine fuel indices update once daily. Carbon allowance auctions run on specific weekly schedules. The price you see is the most recent available — all data flows straight from the source API.</div></div>
+        <div class="faq-item"><div class="faq-q">What does "24h change" mean for weekly-published benchmarks?</div><div class="faq-a">For benchmarks that publish once per trading day, "24h change" reflects the change since the previous publication. For real-time benchmarks (WTI, Brent, Natural Gas, Gold, currencies), it's the rolling 24-hour change as computed by the exchange.</div></div>
+        <div class="faq-item"><div class="faq-q">Why are energy benchmarks moving right now?</div><div class="faq-a">The Strait of Hormuz re-closure on April 18 is the dominant driver, adding a $15-25/barrel risk premium back to global crude. OPEC+ is proceeding with its 206K bpd April increase despite the crisis. The April 21 U.S.-Iran ceasefire expiration is the next major catalyst. On the gas side, Henry Hub is firming on Qatari LNG disruption; Dutch TTF remains elevated as European buyers return to premium bidding for LNG cargoes.</div></div>
+        <div class="faq-item"><div class="faq-q">How do these prices affect gasoline, diesel, and heating costs?</div><div class="faq-a">WTI and Brent moves flow to wholesale gasoline (RBOB) and diesel (ULSD) within days, and to retail pump prices in 1-2 weeks. A $10/barrel crude increase typically adds $0.24-0.30/gallon at the pump. Henry Hub gas prices flow to electricity bills within weeks (gas-fired generation sets marginal power prices in most U.S. grids) and to heating costs the following billing cycle. Dutch TTF primarily affects European industrial and utility bills.</div></div>
+        <div class="faq-item"><div class="faq-q">What is the difference between spot and futures pricing?</div><div class="faq-a">Spot prices reflect immediate physical delivery. Futures prices reflect agreed delivery at a specific future date. Most benchmarks on this page show front-month futures — the most actively traded contract, typically 30-45 days forward. The difference between spot and distant futures indicates market expectations: <strong>backwardation</strong> (spot higher than futures) signals tight supply; <strong>contango</strong> (spot lower than futures) signals surplus. See our <a href="articles/oil-futures-vs-spot-prices-difference.html" style="color:var(--blue)">full explainer on futures vs. spot</a>.</div></div>
+        <div class="faq-item"><div class="faq-q">Why does the U.S. have so many crude benchmarks?</div><div class="faq-a">Different regions produce different grades of crude and different pipelines carry them to different refineries. WTI is light sweet crude delivered at Cushing, Oklahoma. Louisiana Light is similar but Gulf Coast-delivered. Mars Blend and Eagle Ford are Gulf Coast sour grades. Western Canadian Select is heavy sour crude from Alberta. Each grade prices differently based on refinery demand and transportation economics.</div></div>
+        <div class="faq-item"><div class="faq-q">Why are Brent and WTI often different prices?</div><div class="faq-a">Geography, quality, and transport costs. Brent is a waterborne North Sea grade with global pricing power — about 75% of internationally traded crude prices off Brent. WTI is landlocked at Cushing, Oklahoma with U.S. domestic pricing power. The spread (usually $2-6 with Brent higher) reflects transport costs to move WTI to global markets. See our <a href="articles/wti-vs-brent-difference-why-it-matters.html" style="color:var(--blue)">WTI vs Brent full explainer</a>.</div></div>
+        <div class="faq-item"><div class="faq-q">What are carbon allowances and why do they matter?</div><div class="faq-a">EU Carbon (EUA) and UK Carbon allowances are compliance units in cap-and-trade systems. Industrial emitters must hold one allowance for each ton of CO₂ emitted. Prices reflect the marginal abatement cost — when allowances are expensive, emitters face stronger incentives to switch fuels (gas over coal, renewables over gas). EU Carbon also feeds into European power and gas prices because gas-vs-coal generation switching depends on it.</div></div>
+      </div>
     </div></div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js"></script><script src="js/article-slugs.js"></script><script src="js/main.js"></script><script src="js/live-data.js"></script><script src="js/news-feed.js"></script>
+  <script src="js/data.js?v=2"></script><script src="js/article-slugs.js?v=2"></script><script src="js/main.js?v=2"></script><script src="js/live-data.js?v=2"></script><script src="js/news-feed.js?v=2"></script>
   <script>
-    function SB(l,v,s){return '<div class="stat-box"><div class="stat-box-label">'+l+'</div><div class="stat-box-value">'+v+'</div><div class="stat-box-sub" style="color:var(--text-3)">'+s+'</div></div>';}
-    function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
+    // ─── Reusable card templates ─────────────────────────────────
+    function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.65">'+d+'</div></div>';}
 
-    document.getElementById('sec-hero').innerHTML = icon('bar-chart',20)+' Live Energy Benchmarks';
+    // ─── Section titles ──────────────────────────────────────────
     document.getElementById('sec-all-benchmarks').innerHTML = icon('layout',20)+' All Live Benchmarks';
-    document.getElementById('sec-drivers').innerHTML = icon('activity',20)+' What’s Moving Markets Today';
-    document.getElementById('sec-movers').innerHTML = icon('trending-up',20)+' Top Movers';
-    document.getElementById('sec-groups').innerHTML = icon('layers',20)+' Markets by Category';
-    document.getElementById('sec-explain').innerHTML = icon('info',20)+' Understanding Benchmarks';
-    document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live Market Headlines';
-    document.getElementById('sec-explore').innerHTML = icon('compass',20)+' Explore Deeper';
-
-    document.getElementById('hero-benchmarks').innerHTML = COMMODITIES.slice(0,5).map(function(c) {
-      if (c.price === null) return '<div class="price-card price-card-loading"><div class="price-card-header"><span class="price-card-label">'+c.name+'</span></div><div class="price-card-value" style="color:var(--text-3);font-size:15px">Updating...</div></div>';
-      var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
-      var arrow = c.change >= 0 ? '▲' : '▼';
-      var sign = c.change >= 0 ? '+' : '';
-      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">'+c.name+' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value">$'+c.price.toFixed(2)+'</div><div class="price-card-footer"><span style="color:'+chgColor+';font-size:11px;font-weight:600">'+arrow+' '+sign+c.pct.toFixed(2)+'%</span><span class="price-card-unit" style="margin-left:auto">'+c.unit+'</span></div><div style="color:var(--text-3);font-size:8px;text-align:center;margin-top:3px">Updated every 5 min via API</div></div>';
-    }).join('');
-
-    document.getElementById('driver-cards').innerHTML = [
-      TC('globe','Hormuz Crisis','Hormuz re-closed April 18 after one-day reopening. IRGC gunboats fire on Indian tankers. Trump threatens to resume bombing if no deal by Tuesday. Risk premium rebuilding after Friday’s collapse. <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
-      TC('users','OPEC+ Policy','206K bpd April increase proceeding. Saudi East-West Pipeline at full capacity. OPEC+ holding plan despite Hormuz re-closure. No emergency meeting called. Gulf producers watching ceasefire expiration Tuesday.'),
-      TC('tool','Refining Season','Spring turnarounds reducing U.S. utilization to ~87%. Summer gasoline blend transition adding $0.10-0.25/gal to RBOB. Gulf Coast ramping for driving season.'),
-      TC('trending-up','Natural Gas','Henry Hub ~$2.60/MMBtu, firming as Hormuz re-closure halts Qatari LNG again. Mild spring demand. U.S. LNG exports near capacity at ~14 Bcf/d as European buyers return to premium bidding.'),
-      TC('dollar-sign','Refined Products','RBOB gasoline rebounding after Friday decline, ULSD diesel firming. Crack spreads stabilizing as crude re-establishes premium on Hormuz re-closure. Summer blend transition underway.'),
-      TC('bar-chart','Inventory Data','Last weekly EIA showed 9.13M barrel draw. Next report Wednesday. Hormuz re-closure April 18 keeps Middle East cargoes stranded again. U.S. inventories will stay below 5-year average near-term.'),
-    ].join('');
-
-    var movers = COMMODITIES.slice().sort(function(a,b){
-      if (a.pct === null) return 1; if (b.pct === null) return -1;
-      return Math.abs(b.pct) - Math.abs(a.pct);
-    }).slice(0,8);
-    document.getElementById('movers-tbody').innerHTML = movers.map(function(c) {
-      if (c.price === null) return '';
-      var cls = c.change >= 0 ? 'up' : 'down';
-      return '<tr><td style="text-align:left;font-weight:600">'+c.name+'</td><td class="table-price">$'+c.price.toFixed(2)+'</td><td><span class="change '+cls+'">'+(c.change>=0?'+':'')+c.change.toFixed(2)+'</span></td><td><span class="change '+cls+'">'+(c.change>=0?'+':'')+c.pct.toFixed(2)+'%</span></td></tr>';
-    }).join('');
-
-    document.getElementById('group-cards').innerHTML = [
-      TC('droplets','Crude Oil — WTI, Brent, 150+ Blends','Global and regional crude benchmarks including WTI (U.S. benchmark), Brent (global benchmark), OPEC blends, Canadian heavy, and international grades. <a href="oil-prices.html" style="color:var(--blue)">All Oil Prices →</a>'),
-      TC('fuel','Gasoline — RBOB + Retail','Wholesale RBOB gasoline futures and AAA retail pump prices for all 50 states. Summer vs winter blend dynamics. <a href="category/gas-prices.html" style="color:var(--blue)">Gas Prices →</a>'),
-      TC('flame','Diesel & Heating Oil','ULSD (ultra-low sulfur diesel) benchmark prices, seasonal heating fuel dynamics, and Northeast winter demand patterns. <a href="category/heating-oil.html" style="color:var(--blue)">Heating Oil →</a>'),
-      TC('zap','Natural Gas — Henry Hub','U.S. natural gas benchmark, LNG export dynamics, storage inventory, and weather-driven demand. <a href="category/natural-gas.html" style="color:var(--blue)">Natural Gas →</a>'),
-      TC('clock','Oil Futures & Spreads','Front-month contracts, term structure, contango vs backwardation, and what the curve says about market expectations. <a href="oil-futures.html" style="color:var(--blue)">Oil Futures →</a>'),
-      TC('anchor','LNG & International','LNG reference prices (JKM, TTF), Middle East crude (Dubai, Oman), and international benchmarks reflecting global trade dynamics.'),
-    ].join('');
-
-    document.getElementById('explore-cards').innerHTML = [['Oil Prices','oil-prices.html','trending-up','WTI, Brent, 150+ blends'],['Gas Prices','category/gas-prices.html','fuel','AAA state-by-state'],['Geopolitics','category/geopolitics.html','globe','Hormuz, sanctions, OPEC'],['Rig Count','rig-count.html','hard-hat','Baker Hughes drilling'],['Energy Hub','category/energy.html','activity','Power, grid, LNG'],['Company News','category/company-news.html','building','ExxonMobil, Shell'],['Oil Futures','oil-futures.html','clock','Contango, backwardation'],['Crude Oil','category/crude-oil.html','droplets','Grades, benchmarks'],['Natural Gas','category/natural-gas.html','zap','Henry Hub, LNG']].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
+    document.getElementById('sec-drivers').innerHTML        = icon('activity',20)+' What’s Moving Markets Today';
+    document.getElementById('sec-movers').innerHTML         = icon('trending-up',20)+' Top Movers (24-Hour)';
+    document.getElementById('sec-groups').innerHTML         = icon('folder',20)+' Markets by Category';
+    document.getElementById('sec-explain').innerHTML        = icon('check-circle',20)+' Understanding Energy Benchmarks';
+    document.getElementById('sec-transmission').innerHTML   = icon('trending-up',20)+' How Benchmark Moves Reach You';
+    document.getElementById('sec-sources').innerHTML        = icon('folder',20)+' Data Sources & Update Frequency';
+    document.getElementById('sec-live').innerHTML           = icon('newspaper',18)+' Live Market Headlines';
+    document.getElementById('sec-explore').innerHTML        = icon('arrow-right',20)+' Explore Deeper';
 
     // ═══════════════════════════════════════════════════════════
-    // ALL LIVE BENCHMARKS — 42 commodities grouped by asset class.
-    // Every commodity here has a corresponding CODE_MAP entry in live-data.js,
-    // which means its price auto-refreshes every 5 min from OilPriceAPI.
+    // ALL LIVE BENCHMARKS — every commodity from OilPriceAPI.
+    // Tapis Crude removed (not provided via the monitor feed).
     // ═══════════════════════════════════════════════════════════
     var ALL_BENCHMARKS = [
       // ─── Crude Oil ───
-      { g: 'Crude Oil',         n: 'WTI Crude',               code: 'WTI_USD',               unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'Brent Crude',             code: 'BRENT_CRUDE_USD',       unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'Dubai Crude',             code: 'DUBAI_CRUDE_USD',       unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'Tapis Crude',             code: 'TAPIS_CRUDE_USD',       unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'Azeri Light',             code: 'AZERI_LIGHT_USD',       unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'Western Canadian Select', code: 'WCS_CRUDE_USD',         unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'Urals Crude',             code: 'URALS_CRUDE_USD',       unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'OPEC Basket',             code: 'OPEC_BASKET_USD',       unit: '$/bbl' },
-      { g: 'Crude Oil',         n: 'Basrah Medium',           code: 'BASRAH_MEDIUM_USD',     unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'WTI Crude',               code: 'WTI_USD',                       unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'Brent Crude',             code: 'BRENT_CRUDE_USD',               unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'Dubai Crude',             code: 'DUBAI_CRUDE_USD',               unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'Azeri Light',             code: 'AZERI_LIGHT_USD',               unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'Western Canadian Select', code: 'WCS_CRUDE_USD',                 unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'Urals Crude',             code: 'URALS_CRUDE_USD',               unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'OPEC Basket',             code: 'OPEC_BASKET_USD',               unit: '$/bbl' },
+      { g: 'Crude Oil',         n: 'Basrah Medium',           code: 'BASRAH_MEDIUM_USD',             unit: '$/bbl' },
       // ─── Refined Products ───
-      { g: 'Refined Products',  n: 'Gasoline RBOB',           code: 'GASOLINE_RBOB_USD',     unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Heating Oil',             code: 'HEATING_OIL_USD',       unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Diesel (Gulf Coast)',     code: 'DIESEL_USD',            unit: '$/gal' },
-      { g: 'Refined Products',  n: 'ULSD Diesel (NY Harbor)', code: 'ULSD_DIESEL_USD',       unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Jet Fuel',                code: 'JET_FUEL_USD',          unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Jet A-1 (NW Europe)',     code: 'JET_A1_NWE_USD',        unit: '$/bbl' },
-      { g: 'Refined Products',  n: 'Singapore Jet Kerosene',  code: 'SINGAPORE_JET_KEROSENE_USD', unit: '$/bbl' },
-      { g: 'Refined Products',  n: 'Singapore Mogas 92',      code: 'SINGAPORE_MOGAS_92_USD',unit: '$/MT' },
-      { g: 'Refined Products',  n: 'Ethanol',                 code: 'ETHANOL_USD',           unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Naphtha',                 code: 'NAPHTHA_USD',           unit: '$/MT' },
-      { g: 'Refined Products',  n: 'Propane (Mont Belvieu)',  code: 'PROPANE_MONT_BELVIEU_USD', unit: '$/gal' },
+      { g: 'Refined Products',  n: 'Gasoline RBOB',           code: 'GASOLINE_RBOB_USD',             unit: '$/gal' },
+      { g: 'Refined Products',  n: 'Heating Oil',             code: 'HEATING_OIL_USD',               unit: '$/gal' },
+      { g: 'Refined Products',  n: 'Diesel (Gulf Coast)',     code: 'DIESEL_USD',                    unit: '$/gal' },
+      { g: 'Refined Products',  n: 'ULSD Diesel (NY Harbor)', code: 'ULSD_DIESEL_USD',               unit: '$/gal' },
+      { g: 'Refined Products',  n: 'Jet Fuel',                code: 'JET_FUEL_USD',                  unit: '$/gal' },
+      { g: 'Refined Products',  n: 'Jet A-1 (NW Europe)',     code: 'JET_A1_NWE_USD',                unit: '$/bbl' },
+      { g: 'Refined Products',  n: 'Singapore Jet Kerosene',  code: 'SINGAPORE_JET_KEROSENE_USD',    unit: '$/bbl' },
+      { g: 'Refined Products',  n: 'Singapore Mogas 92',      code: 'SINGAPORE_MOGAS_92_USD',        unit: '$/MT'  },
+      { g: 'Refined Products',  n: 'Ethanol',                 code: 'ETHANOL_USD',                   unit: '$/gal' },
+      { g: 'Refined Products',  n: 'Naphtha',                 code: 'NAPHTHA_USD',                   unit: '$/MT'  },
+      { g: 'Refined Products',  n: 'Propane (Mont Belvieu)',  code: 'PROPANE_MONT_BELVIEU_USD',      unit: '$/gal' },
       // ─── Natural Gas & LNG ───
-      { g: 'Natural Gas & LNG', n: 'Natural Gas (Henry Hub)', code: 'NATURAL_GAS_USD',       unit: '$/MMBtu' },
-      { g: 'Natural Gas & LNG', n: 'WAHA Natural Gas',        code: 'NATURAL_GAS_WAHA',      unit: '$/MMBtu' },
-      { g: 'Natural Gas & LNG', n: 'Natural Gas (UK NBP)',    code: 'NATURAL_GAS_GBP',       unit: 'p/therm' },
-      { g: 'Natural Gas & LNG', n: 'Dutch TTF Gas',           code: 'DUTCH_TTF_EUR',         unit: '€/MWh' },
-      { g: 'Natural Gas & LNG', n: 'JKM LNG',                 code: 'JKM_LNG_USD',           unit: '$/MMBtu' },
+      { g: 'Natural Gas & LNG', n: 'Natural Gas (Henry Hub)', code: 'NATURAL_GAS_USD',               unit: '$/MMBtu' },
+      { g: 'Natural Gas & LNG', n: 'WAHA Natural Gas',        code: 'NATURAL_GAS_WAHA',              unit: '$/MMBtu' },
+      { g: 'Natural Gas & LNG', n: 'Natural Gas (UK NBP)',    code: 'NATURAL_GAS_GBP',               unit: 'p/therm' },
+      { g: 'Natural Gas & LNG', n: 'Dutch TTF Gas',           code: 'DUTCH_TTF_EUR',                 unit: '€/MWh' },
+      { g: 'Natural Gas & LNG', n: 'JKM LNG',                 code: 'JKM_LNG_USD',                   unit: '$/MMBtu' },
       // ─── Coal ───
-      { g: 'Coal',              n: 'Newcastle Coal (API6)',   code: 'NEWCASTLE_COAL_USD',    unit: '$/MT' },
-      { g: 'Coal',              n: 'Coking Coal',             code: 'COKING_COAL_USD',       unit: '$/MT' },
-      { g: 'Coal',              n: 'CAPP Coal',               code: 'CAPP_COAL_USD',         unit: '$/ton' },
-      { g: 'Coal',              n: 'Powder River Basin Coal', code: 'PRB_COAL_USD',          unit: '$/ton' },
-      { g: 'Coal',              n: 'Illinois Basin Coal',     code: 'ILLINOIS_COAL_USD',     unit: '$/ton' },
+      { g: 'Coal',              n: 'Newcastle Coal (API6)',   code: 'NEWCASTLE_COAL_USD',            unit: '$/MT' },
+      { g: 'Coal',              n: 'Coking Coal',             code: 'COKING_COAL_USD',               unit: '$/MT' },
+      { g: 'Coal',              n: 'CAPP Coal',               code: 'CAPP_COAL_USD',                 unit: '$/ton' },
+      { g: 'Coal',              n: 'Powder River Basin Coal', code: 'PRB_COAL_USD',                  unit: '$/ton' },
+      { g: 'Coal',              n: 'Illinois Basin Coal',     code: 'ILLINOIS_COAL_USD',             unit: '$/ton' },
       // ─── Marine Fuels ───
-      { g: 'Marine Fuels',      n: 'VLSFO',                   code: 'VLSFO_USD',             unit: '$/MT' },
-      { g: 'Marine Fuels',      n: 'MGO 0.5% Sulfur',         code: 'MGO_05S_USD',           unit: '$/MT' },
-      { g: 'Marine Fuels',      n: 'HFO 380',                 code: 'HFO_380_USD',           unit: '$/MT' },
+      { g: 'Marine Fuels',      n: 'VLSFO',                   code: 'VLSFO_USD',                     unit: '$/MT' },
+      { g: 'Marine Fuels',      n: 'MGO 0.5% Sulfur',         code: 'MGO_05S_USD',                   unit: '$/MT' },
+      { g: 'Marine Fuels',      n: 'HFO 380',                 code: 'HFO_380_USD',                   unit: '$/MT' },
       // ─── Metals ───
-      { g: 'Metals',            n: 'Gold',                    code: 'GOLD_USD',              unit: '$/oz' },
-      { g: 'Metals',            n: 'Silver',                  code: 'SILVER_USD',            unit: '$/oz' },
-      { g: 'Metals',            n: 'Platinum',                code: 'PLATINUM_USD',          unit: '$/oz' },
-      { g: 'Metals',            n: 'Palladium',               code: 'PALLADIUM_USD',         unit: '$/oz' },
+      { g: 'Metals',            n: 'Gold',                    code: 'GOLD_USD',                      unit: '$/oz' },
+      { g: 'Metals',            n: 'Silver',                  code: 'SILVER_USD',                    unit: '$/oz' },
+      { g: 'Metals',            n: 'Platinum',                code: 'PLATINUM_USD',                  unit: '$/oz' },
+      { g: 'Metals',            n: 'Palladium',               code: 'PALLADIUM_USD',                 unit: '$/oz' },
       // ─── Emissions & Industrial ───
-      { g: 'Emissions & Ind.',  n: 'EU Carbon (EUA)',         code: 'EU_CARBON_EUR',         unit: '€/tCO₂' },
-      { g: 'Emissions & Ind.',  n: 'UK Carbon Allowances',    code: 'UK_CARBON_GBP',         unit: '£/tCO₂' },
-      { g: 'Emissions & Ind.',  n: 'Urea',                    code: 'UREA_USD',              unit: '$/MT' },
+      { g: 'Emissions & Ind.',  n: 'EU Carbon (EUA)',         code: 'EU_CARBON_EUR',                 unit: '€/tCO₂' },
+      { g: 'Emissions & Ind.',  n: 'UK Carbon Allowances',    code: 'UK_CARBON_GBP',                 unit: '£/tCO₂' },
+      { g: 'Emissions & Ind.',  n: 'Urea',                    code: 'UREA_USD',                      unit: '$/MT' },
       // ─── Currencies ───
-      { g: 'Currencies',        n: 'EUR/USD',                 code: 'EUR_USD',               unit: 'USD' },
-      { g: 'Currencies',        n: 'GBP/USD',                 code: 'GBP_USD',               unit: 'USD' },
-      { g: 'Currencies',        n: 'USD/CNY',                 code: 'USD_CNY',               unit: 'CNY' },
+      { g: 'Currencies',        n: 'EUR/USD',                 code: 'EUR_USD',                       unit: 'USD' },
+      { g: 'Currencies',        n: 'GBP/USD',                 code: 'GBP_USD',                       unit: 'USD' },
+      { g: 'Currencies',        n: 'USD/CNY',                 code: 'USD_CNY',                       unit: 'CNY' },
     ];
 
-    // Cache of latest prices keyed by API code — updated from the livePricesUpdated event
     var BENCH_PRICES = {};
     var BENCH_ACTIVE_GROUP = 'All';
 
     function formatBenchPrice(value, unit) {
       if (value === null || value === undefined || isNaN(value)) return '—';
-      // Pick precision based on magnitude and unit
       var abs = Math.abs(value);
       if (unit === 'USD' || unit === 'CNY') return value.toFixed(4);
       if (abs >= 1000) return value.toFixed(0);
@@ -219,29 +222,43 @@
       return '$';
     }
 
+    function staleLabel(updatedAt) {
+      if (!updatedAt) return null;
+      var then = new Date(updatedAt).getTime();
+      if (isNaN(then)) return null;
+      var diffMin = (Date.now() - then) / 60000;
+      if (diffMin < 60 * 24) return { color: '#10b981', text: 'LIVE' };
+      if (diffMin < 60 * 24 * 14) return { color: '#f59e0b', text: Math.round(diffMin/60/24)+'d' };
+      return { color: '#6b7280', text: Math.round(diffMin/60/24)+'d' };
+    }
+
     function renderBenchmarkCard(b) {
       var p = BENCH_PRICES[b.code];
-      var priceVal = p ? p.price : null;
-      var change24 = p ? (p.change_24h != null ? p.change_24h : 0) : null;
-      var pct24    = p ? (p.change_24h_percent != null ? p.change_24h_percent : 0) : null;
-      var isLive   = !!p;
-      var ccy      = currencySymbol(b.unit);
+      var hasData = p && (p.price != null);
+      var ccy = currencySymbol(b.unit);
 
-      if (!isLive) {
-        return '<div class="price-card price-card-loading" data-bench-code="'+b.code+'">'
+      if (!hasData) {
+        return '<div class="price-card price-card-loading" data-bench-code="'+b.code+'" style="opacity:0.55">'
           + '<div class="price-card-header"><span class="price-card-label">'+b.n+'</span></div>'
-          + '<div class="price-card-value" style="color:var(--text-3);font-size:15px">Loading…</div>'
-          + '<div class="price-card-footer"><span class="price-card-unit">'+b.unit+'</span></div>'
+          + '<div class="price-card-value" style="color:var(--text-3);font-size:15px">—</div>'
+          + '<div class="price-card-footer"><span class="price-card-unit">'+b.unit+'</span><span style="color:var(--text-3);font-size:9px;margin-left:auto">No data</span></div>'
           + '</div>';
       }
+
+      var priceVal = p.price;
+      var change24 = (p.change_24h != null) ? p.change_24h : 0;
+      var pct24    = (p.change_24h_percent != null) ? p.change_24h_percent : 0;
+      var stale    = staleLabel(p.updated_at);
       var chgColor = change24 >= 0 ? '#10b981' : '#ef4444';
       var arrow    = change24 >= 0 ? '▲' : '▼';
       var sign     = change24 >= 0 ? '+' : '';
+      var tag      = stale ? '<span style="color:'+stale.color+';font-size:8px;font-weight:700;vertical-align:super;margin-left:4px">'+stale.text+'</span>' : '';
+
       return '<div class="price-card" data-bench-code="'+b.code+'">'
-        + '<div class="price-card-header"><span class="price-card-label">'+b.n+' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div>'
+        + '<div class="price-card-header"><span class="price-card-label">'+b.n+tag+'</span></div>'
         + '<div class="price-card-value">'+ccy+formatBenchPrice(priceVal, b.unit)+'</div>'
         + '<div class="price-card-footer">'
-        +   '<span style="color:'+chgColor+';font-size:11px;font-weight:600">'+arrow+' '+sign+(pct24!=null?pct24.toFixed(2):'0.00')+'%</span>'
+        +   '<span style="color:'+chgColor+';font-size:11px;font-weight:600">'+arrow+' '+sign+pct24.toFixed(2)+'%</span>'
         +   '<span class="price-card-unit" style="margin-left:auto">'+b.unit+'</span>'
         + '</div>'
         + '</div>';
@@ -250,19 +267,17 @@
     function renderAllBenchmarks() {
       var target = document.getElementById('all-benchmarks');
       if (!target) return;
-
       var groups = [];
       var seenGroups = {};
       ALL_BENCHMARKS.forEach(function(b) {
         if (!seenGroups[b.g]) { seenGroups[b.g] = true; groups.push(b.g); }
       });
-
       var html = '';
       groups.forEach(function(g) {
         if (BENCH_ACTIVE_GROUP !== 'All' && BENCH_ACTIVE_GROUP !== g) return;
         var groupBenchmarks = ALL_BENCHMARKS.filter(function(b) { return b.g === g; });
-        html += '<div style="margin-bottom:28px">'
-          + '<h3 id="bench-'+g.toLowerCase().replace(/[^a-z]/g,'-')+'" style="font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-2);font-weight:700;margin:0 0 12px;padding-bottom:6px;border-bottom:1px solid var(--border)">'+g+' <span style="color:var(--text-3);font-weight:500;text-transform:none;letter-spacing:0">('+groupBenchmarks.length+')</span></h3>'
+        html += '<div style="margin-bottom:32px">'
+          + '<h3 id="bench-'+g.toLowerCase().replace(/[^a-z]/g,'-')+'" style="font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-2);font-weight:700;margin:0 0 14px;padding-bottom:6px;border-bottom:1px solid var(--border)">'+g+' <span style="color:var(--text-3);font-weight:500;text-transform:none;letter-spacing:0">('+groupBenchmarks.length+')</span></h3>'
           + '<div class="grid-auto-180">'
           + groupBenchmarks.map(renderBenchmarkCard).join('')
           + '</div></div>';
@@ -283,7 +298,6 @@
         var count = g === 'All' ? ALL_BENCHMARKS.length : ALL_BENCHMARKS.filter(function(b){return b.g===g;}).length;
         return '<button type="button" data-bench-group="'+g+'" style="background:'+bg+';color:'+color+';border:1px solid var(--border);border-radius:20px;padding:6px 14px;font-size:12px;font-weight:600;cursor:pointer;transition:all .15s">'+g+' <span style="opacity:0.7;font-weight:500">·'+count+'</span></button>';
       }).join('');
-      // Wire clicks
       tabsEl.querySelectorAll('[data-bench-group]').forEach(function(btn) {
         btn.addEventListener('click', function() {
           BENCH_ACTIVE_GROUP = btn.getAttribute('data-bench-group');
@@ -293,18 +307,142 @@
       });
     }
 
-    // Pull prices into BENCH_PRICES whenever live-data.js finishes an update
+    function updateBenchStatus(count) {
+      var statusEl = document.getElementById('bench-status');
+      if (!statusEl) return;
+      var now = new Date();
+      var hh = String(now.getHours()).padStart(2,'0');
+      var mm = String(now.getMinutes()).padStart(2,'0');
+      statusEl.innerHTML = icon('chevron-right',10)+' '+count+' benchmarks updated at '+hh+':'+mm+' · auto-refresh every 5 min';
+    }
+
+    function renderTopMovers() {
+      var movers = [];
+      ALL_BENCHMARKS.forEach(function(b) {
+        var p = BENCH_PRICES[b.code];
+        if (!p || p.price == null || p.change_24h_percent == null || p.change_24h_percent === 0) return;
+        movers.push({
+          name: b.n, code: b.code, unit: b.unit,
+          price: p.price, change: p.change_24h || 0, pct: p.change_24h_percent || 0
+        });
+      });
+      movers.sort(function(a,b) { return Math.abs(b.pct) - Math.abs(a.pct); });
+      movers = movers.slice(0, 10);
+      var tbody = document.getElementById('movers-tbody');
+      if (!tbody) return;
+      if (!movers.length) {
+        tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--text-3);padding:20px">Loading movers…</td></tr>';
+        return;
+      }
+      tbody.innerHTML = movers.map(function(c) {
+        var cls = c.change >= 0 ? 'up' : 'down';
+        var ccy = currencySymbol(c.unit);
+        return '<tr><td style="text-align:left;font-weight:600">'+c.name+'</td>'
+          + '<td class="table-price">'+ccy+formatBenchPrice(c.price, c.unit)+'</td>'
+          + '<td><span class="change '+cls+'">'+(c.change>=0?'+':'')+c.change.toFixed(2)+'</span></td>'
+          + '<td><span class="change '+cls+'">'+(c.change>=0?'+':'')+c.pct.toFixed(2)+'%</span></td></tr>';
+      }).join('');
+    }
+
+    // ─── Driver cards (expanded to 9) ────────────────────────────
+    document.getElementById('driver-cards').innerHTML = [
+      TC('globe','Hormuz Crisis — Ongoing','Iran re-closed the Strait of Hormuz April 18 after a one-day reopening. IRGC gunboats fired on Indian-flagged tankers. Trump has threatened to resume bombing if no ceasefire extension by Tuesday. The risk premium that evaporated Friday is being aggressively rebuilt. <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics dashboard →</a>'),
+      TC('chevron-right','U.S.-Iran Ceasefire — Expires Apr 21','The Pakistani-mediated ceasefire sunsets at 00:01 Tehran time Tuesday. Three outcomes priced in: clean extension, soft lapse, or full collapse. Options volatility elevated. <a href="articles/us-iran-ceasefire-explained-timeline-terms-expiration.html" style="color:var(--blue)">Full explainer →</a>'),
+      TC('users','OPEC+ — Holding the Plan','The 206K bpd April output increase is proceeding despite the Hormuz crisis. Saudi East-West Pipeline at full capacity. No emergency JMMC meeting called. Gulf producers watching Tuesday closely. <a href="articles/what-is-opec-plus-how-it-affects-oil-prices.html" style="color:var(--blue)">OPEC+ explainer →</a>'),
+      TC('factory','Refining Season — Peak Turnaround','Spring maintenance has pulled U.S. refining utilization to ~87%. Summer gasoline blend transition is adding $0.10-0.25/gal to RBOB. Gulf Coast refiners ramping aggressively for peak driving demand through Memorial Day.'),
+      TC('bar-chart','EIA Inventory Data — Bullish','Last weekly EIA showed a 9.13 million barrel crude draw — second consecutive big weekly drawdown. Cushing stocks below the 5-year average. Next report Wednesday 10:30 a.m. ET. The Hormuz re-closure will keep Middle East cargoes stranded, reinforcing draws near-term.'),
+      TC('bar-chart','Refined Product Cracks — Stabilizing','RBOB gasoline rebounding after Friday\'s crude-led collapse. ULSD diesel firming. Crack spreads (the refiner margin over crude) widened back to $27-30/bbl as crude re-established its premium on the Hormuz re-closure. Refiner profitability intact.'),
+      TC('trending-up','Natural Gas — Firming','Henry Hub near $2.60/MMBtu, firming as the Qatari LNG disruption bites again. Mild spring demand softens the shoulder, but LNG exports near capacity at 14 Bcf/d as European buyers return to premium bidding. Dutch TTF elevated.'),
+      TC('anchor','LNG Trade — Tight','JKM and TTF both elevated on Qatari export disruption. Europe cannot easily pivot back to Russian pipeline gas; Asian importers are outbidding European utility buyers. Premium pricing likely to persist as long as Hormuz remains contested.'),
+      TC('activity','Trading Desks — Elevated Volatility','Wall Street commodity desks reporting record quarterly P&L on the Hormuz whipsaw. WTI posted an 11% single-day plunge Friday, then bounced on the Hormuz re-closure Monday. Options implied volatility well above the trailing 30-day realized level.'),
+    ].join('');
+
+    // ─── Markets by category cards ───────────────────────────────
+    document.getElementById('group-cards').innerHTML = [
+      TC('droplets','Crude Oil','Global and regional crude benchmarks — WTI, Brent, Dubai, OPEC Basket, Azeri Light, Canadian heavy, Russian Urals, and Iraqi Basrah Medium. Every major global grade tracked. <a href="oil-prices.html" style="color:var(--blue)">All Oil Prices →</a>'),
+      TC('fuel','Gasoline — Wholesale + Retail','RBOB wholesale gasoline futures plus AAA retail pump prices for all 50 states. Summer vs winter blend dynamics, state tax variation, and the California premium. <a href="category/gas-prices.html" style="color:var(--blue)">Gas Prices →</a>'),
+      TC('flame','Diesel & Heating Oil','ULSD (ultra-low sulfur diesel) benchmark prices, Gulf Coast and NY Harbor pricing, seasonal heating fuel demand, and Northeast winter dynamics. <a href="category/heating-oil.html" style="color:var(--blue)">Heating Oil →</a>'),
+      TC('zap','Natural Gas & LNG','Henry Hub U.S. benchmark, WAHA (West Texas), UK NBP, Dutch TTF, and JKM LNG. U.S. LNG export dynamics, storage data, and weather-driven demand. <a href="category/natural-gas.html" style="color:var(--blue)">Natural Gas →</a>'),
+      TC('chevron-right','Oil Futures & Curve','Front-month contracts, back-month curve shape, contango vs backwardation, and what term structure says about market expectations. <a href="oil-futures.html" style="color:var(--blue)">Oil Futures →</a>'),
+      TC('anchor','Coal & Industrial','Newcastle (API6), Coking Coal, Central Appalachian, Powder River Basin, and Illinois Basin. Plus urea, naphtha, and marine fuels (VLSFO, MGO, HFO).'),
+    ].join('');
+
+    // ─── Understanding Benchmarks — expanded intro + card grid ───
+    document.getElementById('explain-intro').innerHTML =
+      '<p style="margin:0 0 12px">A <strong>benchmark</strong> is a reference price used to value physical commodities and derivative contracts. It emerges from a combination of physical trading activity, futures market volumes, and assessments by price-reporting agencies (Platts, Argus, OPIS). The best benchmarks share three properties: <strong>deep liquidity</strong> (many buyers and sellers), <strong>transparent price discovery</strong> (real trades at observable prices), and <strong>fungibility</strong> (product quality is consistent and replicable).</p>'
+      + '<p style="margin:0">WTI and Brent alone set reference prices for roughly 90% of the world\'s traded crude. Henry Hub prices essentially all North American natural gas. RBOB sets U.S. wholesale gasoline. Each benchmark trades billions of dollars in daily volume — which is what makes the price you see on this page meaningful rather than a hypothetical.</p>';
+
+    document.getElementById('explain-cards').innerHTML = [
+      TC('droplets','Crude Oil Benchmarks','<strong>Brent</strong> is the global marker — North Sea light sweet, waterborne, prices ~75% of traded crude. <strong>WTI</strong> is the U.S. marker — landlocked at Cushing, Oklahoma, Midland-delivered. <strong>Dubai</strong> is the Middle East sour marker — prices Gulf cargoes to Asia. The Brent-WTI spread reflects transport economics for moving U.S. crude to global markets.'),
+      TC('flame','Refined Products','<strong>RBOB</strong> (Reformulated Gasoline Blendstock for Oxygenate Blending) prices U.S. wholesale gasoline futures at NYMEX. <strong>ULSD</strong> (Ultra-Low Sulfur Diesel) prices diesel and heating oil. <strong>Jet Fuel</strong> prices aviation kerosene. Refiner crack spreads (product minus crude) signal refining profitability.'),
+      TC('zap','Natural Gas & LNG','<strong>Henry Hub</strong> is the U.S. benchmark — a physical delivery point in Louisiana feeding most major pipelines. <strong>Dutch TTF</strong> is Europe\'s marker. <strong>UK NBP</strong> prices the British market. <strong>JKM</strong> (Japan Korea Marker) is the Asian LNG benchmark. Arbitrage between these three moves LNG cargoes globally.'),
+      TC('anchor','Marine Fuels','<strong>VLSFO</strong> (Very Low Sulfur Fuel Oil) is the post-2020 marine fuel standard. <strong>MGO 0.5%S</strong> is the distillate alternative. <strong>HFO 380</strong> is the pre-IMO-2020 high-sulfur residual fuel still used in scrubber-fitted vessels. Bunker fuel pricing sits at the intersection of crude markets and global shipping activity.'),
+      TC('bar-chart','Coal Benchmarks','<strong>Newcastle (API6)</strong> prices Asian thermal coal. <strong>Coking Coal</strong> is the steelmaking input. <strong>CAPP</strong> (Central Appalachian), <strong>PRB</strong> (Powder River Basin), and <strong>Illinois Basin</strong> are the three major U.S. regional benchmarks. Coal-to-gas switching economics drive meaningful volumes of utility demand.'),
+      TC('globe','Emissions & Industrial','<strong>EU Carbon (EUA)</strong> is the world\'s largest cap-and-trade market — European industrial emitters must hold one allowance per ton of CO₂. <strong>UK Carbon</strong> mirrors EUA for Britain post-Brexit. <strong>Urea</strong> is the primary nitrogen fertilizer input — gas-intensive to produce, geopolitically sensitive (Russia, China, Middle East dominate supply).'),
+    ].join('');
+
+    // ─── Understanding — deep-dive cards ─────────────────────────
+    document.getElementById('explain-deep').innerHTML = [
+      TC('trending-up','Why Prices Move — The Five Drivers','Energy prices reflect five forces in real time: <strong>(1) Supply</strong> — OPEC+ decisions, EIA inventory data, rig counts, unexpected outages. <strong>(2) Demand</strong> — Chinese manufacturing PMI, U.S. gasoline consumption, weather. <strong>(3) Geopolitics</strong> — Hormuz, sanctions, proxy attacks. <strong>(4) The U.S. Dollar</strong> — dollar strength makes oil more expensive for non-U.S. buyers. <strong>(5) Trader positioning</strong> — speculative flows, options gamma, algorithmic trading. On any given day, two or three of these dominate. <a href="articles/why-do-oil-prices-change-every-day.html" style="color:var(--blue)">Full explainer →</a>'),
+      TC('chevron-right','Spot vs Futures — The Curve Tells the Story','Spot prices reflect immediate physical delivery. Futures prices reflect agreed delivery at a specific future date. The <strong>front-month</strong> (nearest-expiry) future typically tracks spot closely. The shape of the curve from front-month to back-month is the market\'s forecast: <strong>backwardation</strong> (prompt higher than distant) signals tight supply now; <strong>contango</strong> (prompt lower than distant) signals surplus. Right now the WTI curve is in backwardation through December — a bullish signal about near-term supply. <a href="articles/oil-futures-vs-spot-prices-difference.html" style="color:var(--blue)">Futures vs spot explainer →</a>'),
+    ].join('');
+
+    // ─── Price Transmission table — how benchmarks reach you ────
+    document.getElementById('transmission-tbody').innerHTML = [
+      ['WTI +$10/bbl', 'U.S. pump gasoline +$0.24-$0.30/gal', '1-2 weeks', 'Very High'],
+      ['WTI +$10/bbl', 'U.S. diesel +$0.22-$0.28/gal', '1-2 weeks', 'Very High'],
+      ['Brent +$10/bbl', 'European retail gasoline +€0.08-€0.12/L', '1-3 weeks', 'High'],
+      ['Henry Hub +$1/MMBtu', 'U.S. electricity +$0.01-$0.02/kWh (gas-fired)', '2-6 weeks', 'Moderate'],
+      ['Henry Hub +$1/MMBtu', 'U.S. heating bill +$15-$25/month (gas heat)', 'Next billing cycle', 'High'],
+      ['Dutch TTF +€10/MWh', 'European industrial gas bill +~8% unit cost', '1-2 months', 'High'],
+      ['RBOB +$0.25/gal', 'U.S. pump gasoline +$0.22-$0.25/gal', '5-10 days', 'Very High'],
+      ['ULSD +$0.25/gal', 'U.S. trucking & shipping rates +0.8-1.2%', '2-4 weeks', 'Moderate'],
+      ['JKM LNG +$2/MMBtu', 'Asian industrial energy cost +~3%', '1-2 months', 'Moderate'],
+      ['EU Carbon +€10/tCO₂', 'European electricity +~€5/MWh (coal gen)', '2-4 weeks', 'Moderate'],
+    ].map(function(r) {
+      var vis = r[3];
+      var visColor = vis === 'Very High' ? '#10b981' : (vis === 'High' ? '#3d8fd4' : '#94a3b8');
+      return '<tr>'
+        + '<td style="text-align:left;font-weight:600">'+r[0]+'</td>'
+        + '<td style="text-align:left;color:var(--text-2);font-size:12.5px">'+r[1]+'</td>'
+        + '<td style="color:var(--text-3);font-size:12px">'+r[2]+'</td>'
+        + '<td><span style="color:'+visColor+';font-size:11px;font-weight:600">'+vis+'</span></td>'
+        + '</tr>';
+    }).join('');
+
+    // ─── Data Sources cards ─────────────────────────────────────
+    document.getElementById('source-cards').innerHTML = [
+      TC('folder','OilPriceAPI — 40+ Benchmarks, 5-Min Refresh','Our primary commodity data source. Covers crude oil benchmarks (WTI, Brent, Dubai, OPEC Basket, regional grades), refined products, natural gas, LNG, coal, marine fuels, metals, carbon, and currencies. Sourced from CME, ICE, and exchange feeds with 5-minute API polling during trading hours. Weekend and holiday pricing uses the last available session close.'),
+      TC('bar-chart','EIA — Weekly Inventory & Retail','U.S. Energy Information Administration. Weekly crude oil, gasoline, and distillate inventory data (Wednesdays 10:30 a.m. ET). Monthly short-term energy outlook. Daily retail gasoline and diesel averages by state. All published free via the EIA open data API. <a href="rig-count.html" style="color:var(--blue)">Inventory coverage →</a>'),
+      TC('users','AAA — Retail Gas Prices','American Automobile Association\'s daily fuel gauge report. Retail pump prices for regular, mid-grade, premium gasoline, and diesel across all 50 states and major metros. Primary data source for U.S. retail gas coverage on <a href="category/gas-prices.html" style="color:var(--blue)">our gas prices page</a>.'),
+      TC('factory','Baker Hughes — Rig Count','Weekly Baker Hughes North American rig count (Fridays after market close). Active drilling rigs by basin, oil vs gas, vertical vs horizontal. The leading indicator for near-term U.S. production. <a href="rig-count.html" style="color:var(--blue)">Rig count tracker →</a>'),
+    ].join('');
+
+    // ─── Explore Deeper cards ────────────────────────────────────
+    document.getElementById('explore-cards').innerHTML = [
+      ['Oil Prices','oil-prices.html','trending-up','WTI, Brent, 150+ blends'],
+      ['Gas Prices','category/gas-prices.html','fuel','AAA state-by-state'],
+      ['Geopolitics','category/geopolitics.html','globe','Hormuz, sanctions, OPEC'],
+      ['Rig Count','rig-count.html','hard-hat','Baker Hughes drilling'],
+      ['Energy Hub','category/energy.html','activity','Power, grid, LNG'],
+      ['Company News','category/company-news.html','building','ExxonMobil, Shell'],
+      ['Oil Futures','oil-futures.html','clock','Contango, backwardation'],
+      ['Crude Oil','category/crude-oil.html','droplets','Grades, benchmarks'],
+      ['Natural Gas','category/natural-gas.html','zap','Henry Hub, LNG'],
+    ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
+
+    // ═══════════════════════════════════════════════════════════
+    // LIVE DATA WIRING
+    // ═══════════════════════════════════════════════════════════
     window.addEventListener('livePricesUpdated', function() {
-      // live-data.js puts results into globals — we snoop the active price cache
-      // via a short second fetch is wasteful; instead piggyback on the global response
-      // cached by live-data's last fetch (via window._lastOilPrices if exposed).
       if (window._lastOilPrices) {
         BENCH_PRICES = window._lastOilPrices;
         renderAllBenchmarks();
+        renderTopMovers();
+        updateBenchStatus(Object.keys(BENCH_PRICES).length);
       }
     });
 
-    // Direct fetch as a reliable fallback — same API, same endpoint, same key
     (function primeBenchmarks() {
       try {
         fetch('https://api.oilpriceapi.com/v1/prices/all', {
@@ -317,13 +455,15 @@
           BENCH_PRICES = pr;
           window._lastOilPrices = pr;
           renderAllBenchmarks();
+          renderTopMovers();
+          updateBenchStatus(Object.keys(pr).length);
         })
-        .catch(function(e) { /* silent — hero section already shows loading state */ });
+        .catch(function(e) { /* silent */ });
       } catch (e) {}
     })();
 
     renderBenchTabs();
     renderAllBenchmarks();
-
+    renderTopMovers();
   </script>
 </body></html>
