@@ -192,7 +192,7 @@
     // ARTICLES
     var catG = (typeof CATEGORY_CONTENT !== 'undefined' && CATEGORY_CONTENT['geopolitics']) ? CATEGORY_CONTENT['geopolitics'] : null;
     document.getElementById('geo-articles').innerHTML = (catG ? catG.articles : []).slice(0,6).map(function(a){
-      return '<a href="'+articleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
+      return '<a href="'+categoryArticleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
     }).join('');
 
     // EXPLORE

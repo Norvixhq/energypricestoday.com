@@ -116,11 +116,11 @@ fbq('init','957762016897581');fbq('track','PageView');
     document.getElementById('feat-excerpt').textContent = feat.excerpt;
     document.getElementById('feat-meta').innerHTML = '<span>'+feat.author+'</span><span>'+feat.date+'</span><span>'+feat.readTime+' read</span>';
     var featLink = document.getElementById('feat-link');
-    if (featLink) featLink.href = articleUrl(catArticles[0].title);
+    if (featLink) featLink.href = categoryArticleUrl(catArticles[0].title);
 
     // Article list
     document.getElementById('article-list').innerHTML = catArticles.slice(1).map(a => `
-      <a href="${articleUrl(a.title)}" class="article-list-item">
+      <a href="${categoryArticleUrl(a.title)}" class="article-list-item">
         
         <div>
           <h3>${a.title}</h3>

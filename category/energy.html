@@ -256,7 +256,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     var catContent = (typeof CATEGORY_CONTENT !== 'undefined' && CATEGORY_CONTENT['energy']) ? CATEGORY_CONTENT['energy'] : null;
     var articles = catContent ? catContent.articles : [];
     S('energy-articles').innerHTML = articles.slice(0,6).map(function(a){
-      return '<a href="'+articleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
+      return '<a href="'+categoryArticleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
     }).join('') || '<p style="color:var(--text-3)">Energy articles loading...</p>';
 
     // Explore

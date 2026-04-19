@@ -1381,31 +1381,55 @@ a.article-featured{pointer-events:auto}
 }
 
 
+
+
 /* ═══════════════════════════════════════════════════════════
-   APRIL 19 — DEFINITIVE MOBILE BLUE LINE FIX
-   The .article-featured card has border-left:3px solid var(--blue)
-   that creates visible blue stripes on mobile when cards stack.
-   Completely remove the blue border on mobile; keep on desktop.
+   APRIL 19 — ABSOLUTE MOBILE BLUE LINE KILL
+   Nuclear option: on mobile, strip ALL blue borders from article cards,
+   featured items, list items, and skeleton containers. The blue left stripe
+   on article-featured cards was still showing on mobile despite prior fixes
+   due to rule-order and specificity issues with #latest-news .article-featured.
+   This rule comes LAST in the cascade and uses maximum specificity + !important.
    ═══════════════════════════════════════════════════════════ */
 @media (max-width: 768px) {
-  .article-featured,
   #latest-news .article-featured,
-  a.article-featured {
+  #latest-news a.article-featured,
+  #latest-news .article-list-item,
+  #latest-news a.article-list-item,
+  section #latest-news .article-featured,
+  body #latest-news .article-featured,
+  .article-featured,
+  a.article-featured,
+  .article-list-item,
+  a.article-list-item {
+    border: none !important;
     border-left: none !important;
     border-left-width: 0 !important;
     border-left-color: transparent !important;
+    border-left-style: none !important;
     box-shadow: none !important;
+    background-image: none !important;
   }
+  #latest-news .article-featured::before,
+  #latest-news .article-featured::after,
   .article-featured::before,
   .article-featured::after,
-  .article-featured:hover::before,
-  .article-featured:hover::after {
+  a.article-featured::before,
+  a.article-featured::after {
     display: none !important;
     content: none !important;
+    border: none !important;
+    background: none !important;
   }
-  /* Ensure hover state also doesn't reintroduce the border */
+  /* Kill any hover side-effects too */
+  #latest-news .article-featured:hover,
   .article-featured:hover {
+    border: none !important;
     border-left: none !important;
     border-left-color: transparent !important;
+  }
+  /* Thin divider between list items stays — but with subdued color */
+  #latest-news .article-list-item + .article-list-item {
+    border-top: 1px solid var(--border) !important;
   }
 }

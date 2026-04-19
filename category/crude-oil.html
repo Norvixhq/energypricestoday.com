@@ -143,7 +143,7 @@
 
     var catCR = (typeof CATEGORY_CONTENT !== 'undefined' && CATEGORY_CONTENT['crude-oil']) ? CATEGORY_CONTENT['crude-oil'] : null;
     document.getElementById('crude-articles').innerHTML = (catCR ? catCR.articles : []).slice(0,6).map(function(a){
-      return '<a href="'+articleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
+      return '<a href="'+categoryArticleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
     }).join('');
 
     document.getElementById('explore-cards').innerHTML = [['Oil Prices','../oil-prices.html','trending-up','WTI, Brent, 150+ blends'],['Gas Prices','gas-prices.html','fuel','AAA state-by-state'],['Geopolitics','geopolitics.html','globe','Hormuz, sanctions, OPEC'],['Rig Count','../rig-count.html','hard-hat','Baker Hughes drilling'],['Energy Hub','energy.html','activity','Power, grid, LNG'],['Company News','company-news.html','building','ExxonMobil, Shell'],['Oil Futures','../oil-futures.html','clock','Contango, backwardation'],['Markets','../markets.html','bar-chart','Full benchmark dashboard'],['Heating Oil','heating-oil.html','flame','Distillate markets']].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');

@@ -163,7 +163,7 @@
     // Articles
     var catGP = (typeof CATEGORY_CONTENT !== 'undefined' && CATEGORY_CONTENT['gas-prices']) ? CATEGORY_CONTENT['gas-prices'] : null;
     document.getElementById('gas-articles').innerHTML = (catGP ? catGP.articles : []).slice(0,6).map(function(a){
-      return '<a href="'+articleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
+      return '<a href="'+categoryArticleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
     }).join('');
 
     // Explore
