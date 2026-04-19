@@ -1,0 +1,59 @@
+name: Update News
+
+on:
+  schedule:
+    - cron: "0 */4 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch RSS and refresh breaking news
+        id: news
+        run: |
+          python3 scripts/update_news.py
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Upgrade stub articles with Claude
+        if: steps.news.outputs.exit_code == '0'
+        run: python3 scripts/generate_articles.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Rebuild slug map
+        if: steps.news.outputs.exit_code == '0'
+        run: python3 scripts/rebuild_slug_map.py
+
+      - name: Bump sitemap
+        if: steps.news.outputs.exit_code == '0'
+        run: python3 scripts/update_sitemap.py || true
+
+      - name: Validate
+        if: steps.news.outputs.exit_code == '0'
+        run: python3 scripts/validate.py
+
+      - name: Commit and push
+        if: steps.news.outputs.exit_code == '0'
+        run: python3 scripts/commit_and_push.py "breaking news"
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}

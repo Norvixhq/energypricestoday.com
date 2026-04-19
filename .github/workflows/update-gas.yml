@@ -1,0 +1,51 @@
+name: Update Gas Prices
+
+on:
+  schedule:
+    - cron: "0 16 * * *"
+    - cron: "0 20 * * *"
+    - cron: "0 1 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: update-gas
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Scrape AAA and update data.js
+        id: scrape
+        run: |
+          python3 scripts/update_gas_prices.py
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Bump sitemap dates
+        if: steps.scrape.outputs.exit_code == '0'
+        run: python3 scripts/update_sitemap.py || true
+
+      - name: Validate
+        if: steps.scrape.outputs.exit_code == '0'
+        run: python3 scripts/validate.py
+
+      - name: Commit and push
+        if: steps.scrape.outputs.exit_code == '0'
+        run: python3 scripts/commit_and_push.py "gas prices"
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
