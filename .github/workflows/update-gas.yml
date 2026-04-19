@@ -2,10 +2,14 @@ name: Update Gas Prices
 
 on:
   schedule:
+    # 3x daily in Central Time (Frisco, TX). GitHub Actions cron is UTC.
+    # 10am CT = 15 UTC (CDT) / 16 UTC (CST) — use 16 to cover winter
+    # 2pm CT  = 19 UTC / 20 UTC — use 20
+    # 7pm CT  = 00 UTC / 01 UTC next day — use 01
     - cron: "0 16 * * *"
     - cron: "0 20 * * *"
     - cron: "0 1 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch: {}  # manual trigger button in GitHub UI
 
 concurrency:
   group: update-gas

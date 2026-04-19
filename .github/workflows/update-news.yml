@@ -2,6 +2,7 @@ name: Update News
 
 on:
   schedule:
+    # Every 4 hours
     - cron: "0 */4 * * *"
   workflow_dispatch: {}
 
@@ -28,25 +29,34 @@ jobs:
           node-version: "20"
 
       - name: Fetch RSS and refresh breaking news
-        run: python3 scripts/update_news.py || true
-        # exit 1 (no new headlines) and exit 2 (network failure) both
-        # continue the workflow so Claude can still process pending stubs
+        id: news
+        run: |
+          python3 scripts/update_news.py
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
 
+      # Only runs if ANTHROPIC_API_KEY secret is configured in the repo.
+      # If not set, the script no-ops cleanly.
       - name: Upgrade stub articles with Claude
+        if: steps.news.outputs.exit_code == '0'
         run: python3 scripts/generate_articles.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Rebuild slug map
+        if: steps.news.outputs.exit_code == '0'
         run: python3 scripts/rebuild_slug_map.py
 
       - name: Bump sitemap
+        if: steps.news.outputs.exit_code == '0'
         run: python3 scripts/update_sitemap.py || true
 
       - name: Validate
+        if: steps.news.outputs.exit_code == '0'
         run: python3 scripts/validate.py
 
       - name: Commit and push
+        if: steps.news.outputs.exit_code == '0'
         run: python3 scripts/commit_and_push.py "breaking news"
         env:
           GITHUB_ACTOR: ${{ github.actor }}

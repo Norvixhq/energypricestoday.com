@@ -2,6 +2,7 @@ name: Nightly Audit
 
 on:
   schedule:
+    # 2am Central = 7am UTC (CST) / 8am UTC (CDT). Use 7am UTC.
     - cron: "0 7 * * *"
   workflow_dispatch: {}
 
@@ -32,6 +33,7 @@ jobs:
 
       - name: Clean up orphan articles
         run: python3 scripts/cleanup_orphans.py || true
+        # continue-on-error because "too many orphans" is a safety abort, not a failure
 
       - name: Refresh sitemap
         run: python3 scripts/update_sitemap.py || true
