@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-19T23:54:41.272759+00:00",
-  "previous_generated_at": "2026-04-19T23:42:14.527071+00:00",
-  "resolver_run_count": 2,
+  "generated_at": "2026-04-19T23:42:14.527071+00:00",
+  "previous_generated_at": "",
+  "resolver_run_count": 1,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -11,19 +11,19 @@
       "status": "CONTESTED",
       "status_detail": "Oil prices rise anew after a US-Iran standoff in the Strait of Hormuz strands tankers",
       "risk_level": "ELEVATED",
-      "confidence": 0.89,
-      "last_confirmed": "2026-04-19T23:47:35+00:00",
-      "source_count": 19,
+      "confidence": 0.875,
+      "last_confirmed": "2026-04-19T23:15:00+00:00",
+      "source_count": 28,
       "summary_short": "Strait of Hormuz crisis boosts WTI crude oil market predictions for April",
       "summary_long": "Strait of Hormuz crisis boosts WTI crude oil market predictions for April. Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "evidence_cluster_ids": [
         "c_b14daea6001116",
         "c_d742adec6f38ed",
-        "c_1b4437ba1029fd",
-        "c_72c0c903376162",
-        "c_a34d56828aac39"
+        "c_cc30a47f95f999",
+        "c_01929ca3c5eaf3",
+        "c_f01f6c83f82a66"
       ],
-      "evidence_count": 8,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,11 +40,12 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b14daea600 → CLOSED (kw='re-close', weight=0.57) [OPEN suppressed]",
-        "cluster c_d742adec6f → CONTESTED (kw='attack', weight=0.73)",
-        "cluster c_e1c125124c → CONTESTED (kw='attack', weight=0.59)",
-        "cluster c_c2581b5998 → CONTESTED (kw='attack', weight=0.36)",
-        "winning=CONTESTED (1.68/2.25), conf=0.89"
+        "cluster c_b14daea600 → CLOSED (kw='re-close', weight=0.66) [OPEN suppressed]",
+        "cluster c_d742adec6f → CONTESTED (kw='attack', weight=0.83)",
+        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
+        "cluster c_e1c125124c → CONTESTED (kw='attack', weight=0.69)",
+        "cluster c_c2581b5998 → CONTESTED (kw='attack', weight=0.45)",
+        "winning=CONTESTED (1.96/2.72), conf=0.875"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,9 +55,9 @@
       "status": "FRAGILE",
       "status_detail": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "risk_level": "HIGH",
-      "confidence": 0.96,
+      "confidence": 0.947,
       "last_confirmed": "2026-04-19T23:15:00+00:00",
-      "source_count": 13,
+      "source_count": 44,
       "summary_short": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "summary_long": "Iran closes strait of Hormuz again ‘until US lifts blockade’. Oil prices rise anew after a US-Iran standoff in the Strait of Hormuz strands tankers",
       "evidence_cluster_ids": [
@@ -64,9 +65,9 @@
         "c_d742adec6f38ed",
         "c_43fff660d862d7",
         "c_48cbc4467bfacd",
-        "c_c2581b5998b12f"
+        "c_cc30a47f95f999"
       ],
-      "evidence_count": 5,
+      "evidence_count": 37,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -81,8 +82,9 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_b14daea600 → FRAGILE (kw='fragile', weight=0.57)",
-        "winning=FRAGILE (0.57/0.57), conf=0.96"
+        "cluster c_b14daea600 → FRAGILE (kw='fragile', weight=0.66)",
+        "cluster c_10d4789f3a → FRAGILE (kw='fragile', weight=0.09)",
+        "winning=FRAGILE (0.74/0.74), conf=0.947"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": ""
@@ -96,7 +98,7 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-04-19T20:12:07+00:00",
-      "source_count": 3,
+      "source_count": 2,
       "summary_short": "OPEC: Middle East oil production plummets due to Iran war",
       "summary_long": "OPEC: Middle East oil production plummets due to Iran war. Middle East oil production plunges due to Iran war, OPEC data shows",
       "evidence_cluster_ids": [
@@ -157,8 +159,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVWlxckdGdjFzaHJLc0laUURqcWh3eG1EZUx0UUN0S2RIWmNFWW1yZktYaHJYNkxvRjYwRFQ0RFRSOUt0dE0tZ0VkeXk1WUxDRTExVWZ0TXVmRlJjY3lFSVNsM0x5amhZM3NHUXpZc0dCVkhkRWtNV1pXWTMyc2lrT29mbWwzY0xxLVZGc2xfbnF1LURBd3g4bnVwRzhaRXJlM3h3?oc=5",
       "lead_source": "Crypto Briefing",
       "topic": "oil",
-      "score": 82.83,
-      "novelty": "ongoing",
+      "score": 92.52,
+      "novelty": "new",
       "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
@@ -169,10 +171,56 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "new_event",
+      "from": null,
+      "to": "CONTESTED",
+      "detected_at": "2026-04-19T23:42:14.526902+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "new_event",
+      "from": null,
+      "to": "FRAGILE",
+      "detected_at": "2026-04-19T23:42:14.526902+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "opec_plus_policy",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-04-19T23:42:14.526902+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "new_event",
+      "from": null,
+      "to": "HIGH",
+      "detected_at": "2026-04-19T23:42:14.526902+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "top_story",
+      "field": "new_event",
+      "from": null,
+      "to": "",
+      "detected_at": "2026-04-19T23:42:14.526902+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.89, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.96, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.875, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.947, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
