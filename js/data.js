@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil Prices Jumped and Stock Futures Fell on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil Prices Jumped and Stock Futures Fell on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Current price of oil as of April 17, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Gasoline could drop below $4 in coming days", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
   { title: "Trading Desks Boom While Big Oil Output Stalls", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Crude Oil Weekly Forecast - 19/04: Lower Value (Chart)", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Crude oil prices jump as rising US-Iran tensions keep Strait of Hormuz closed; Brent oil above $95 a barrel", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil Prices Sink 10% as Trump Announces Strait of Hormuz is Fully Open", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Crude oil prices jump as rising US-Iran tensions keep Strait of Hormuz closed; Brent oil above $95 a barrel", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Prices Sink 10% as Trump Announces Strait of Hormuz is Fully Open", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices are falling — gas prices aren't. Here's why.", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [

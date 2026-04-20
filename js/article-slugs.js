@@ -196,6 +196,7 @@ const ARTICLE_SLUGS = {
   "Oil Prices Jumped and Stock Futures Fell on Renewed Iran Conflict": "oil-prices-jumped-and-stock-futures-fell-on-renewed-iran-conflict",
   "Oil Prices Sink 10% as Trump Announces Strait of Hormuz is Fully Open": "oil-prices-sink-10-as-trump-announces-strait-of-hormuz-is-fully-open",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
+  "Oil prices are falling \u2014 gas prices aren't. Here's why.": "oil-prices-are-falling-gas-prices-arent-heres-why",
   "Oil prices plunge 11% after Iran says Strait of Hormuz is open for commercial vessels": "oil-prices-plunge-11-after-iran-says-strait-of-hormuz-is-open-for-commercial-ves",
   "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire": "oil-prices-plunge-as-iran-says-strait-of-hormuz-open-during-ceasefire",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
