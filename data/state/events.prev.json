@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-20T10:21:28.508361+00:00",
-  "previous_generated_at": "2026-04-20T08:29:41.571125+00:00",
-  "resolver_run_count": 5,
+  "generated_at": "2026-04-20T11:53:52.329381+00:00",
+  "previous_generated_at": "2026-04-20T10:21:28.508361+00:00",
+  "resolver_run_count": 6,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.767,
-      "last_confirmed": "2026-04-20T10:07:15+00:00",
-      "source_count": 18,
-      "summary_short": "Opening Hormuz is the easy part. Restoring oil flows isn’t",
-      "summary_long": "Opening Hormuz is the easy part. Restoring oil flows isn’t. Iran closes strait of Hormuz again ‘until US lifts blockade’",
+      "confidence": 0.785,
+      "last_confirmed": "2026-04-20T11:24:46+00:00",
+      "source_count": 14,
+      "summary_short": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
+      "summary_long": "Iran closes strait of Hormuz again ‘until US lifts blockade’. Oil Climbs, Gold Volatile As Strait Of Hormuz Disruption Escalates",
       "evidence_cluster_ids": [
-        "c_2bb215d02b7337",
         "c_e95a88c20cfd53",
-        "c_c185e0cf6ecd53",
-        "c_6157a9e77327b7",
-        "c_8b601e8b9c7808"
+        "c_93f71b4c97de7a",
+        "c_a432e57953b043",
+        "c_c40ab95f9c25b5",
+        "c_2bb215d02b7337"
       ],
-      "evidence_count": 16,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e95a88c20c → CLOSED (kw='blockade', weight=0.71) [OPEN suppressed]",
-        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.68)",
-        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.37)",
-        "cluster c_c2581b5998 → CONTESTED (kw='attack', weight=0.20)",
-        "winning=CLOSED (0.71/1.96), conf=0.767"
+        "cluster c_e95a88c20c → CLOSED (kw='blockade', weight=0.79) [OPEN suppressed]",
+        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.56)",
+        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.35)",
+        "cluster c_c2581b5998 → CONTESTED (kw='attack', weight=0.18)",
+        "winning=CLOSED (0.79/1.88), conf=0.785"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,19 +56,19 @@
       "status_detail": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.952,
-      "last_confirmed": "2026-04-20T10:07:15+00:00",
-      "source_count": 19,
+      "confidence": 0.957,
+      "last_confirmed": "2026-04-20T11:48:11+00:00",
+      "source_count": 13,
       "summary_short": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
-      "summary_long": "Iran closes strait of Hormuz again ‘until US lifts blockade’. Oil prices rise after Trump says Iranian ship seized",
+      "summary_long": "Iran closes strait of Hormuz again ‘until US lifts blockade’. Oil prices rise and markets fall after US seizure of ship hits Iran peace deal hopes",
       "evidence_cluster_ids": [
         "c_e95a88c20cfd53",
+        "c_324fce6d6a0486",
+        "c_fd0bb8ee05ebd8",
         "c_ea3fb6c4f79a89",
-        "c_7ba4d0f00c7f58",
-        "c_8b601e8b9c7808",
-        "c_74813aedaf3be8"
+        "c_7ba4d0f00c7f58"
       ],
-      "evidence_count": 17,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -83,12 +83,12 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_e95a88c20c → FRAGILE (kw='in limbo', weight=0.71)",
-        "winning=FRAGILE (0.71/0.71), conf=0.952"
+        "cluster c_e95a88c20c → FRAGILE (kw='in limbo', weight=0.79)",
+        "winning=FRAGILE (0.79/0.79), conf=0.957"
       ],
-      "next_catalyst_date": "2027-03-18",
-      "next_catalyst_description": "Oil prices jump 5% after Iran threatens to attack Middle East energy facilities ",
-      "next_catalyst_micro": "Oil prices jump 5%"
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -100,14 +100,13 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-04-19T20:12:07+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "summary_short": "OPEC: Middle East oil production plummets due to Iran war",
-      "summary_long": "OPEC: Middle East oil production plummets due to Iran war. Middle East oil production plunges due to Iran war, OPEC data shows",
+      "summary_long": "OPEC: Middle East oil production plummets due to Iran war",
       "evidence_cluster_ids": [
-        "c_43fff660d862d7",
-        "c_69b02c2d83db4d"
+        "c_43fff660d862d7"
       ],
-      "evidence_count": 2,
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -157,12 +156,12 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_481f1f3ab4d875",
-      "lead_title": "Crude Oil Prices: Brent Jumps 5%, WTI Surges 6% as U.S. Seizes Iranian Ship",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX0F0VFZzNE9MWEdveXZ3clpYSlIzRWlKSGd5QVR3WWlVQ2prRk1aQXo1aWlieUJlUWg5QzNYdlZfNmV0cEFrSTVCcDZjSHpKNjF6UWRqQTRUV21sQTViSVo2b1ZnUjdMMXJzNW1wdFhTRTJxbHJUMjc3TlpWaDVIdy1seTBESFJsMkEyeDREN2NwOEYwekhQTUtnM1pfY1E?oc=5",
-      "lead_source": "Coinpaper",
+      "cluster_id": "c_10143e57d26a8b",
+      "lead_title": "Why are oil and gas prices up today, and will Brent, US WTI crude futures, Dutch and British gas rates ris",
+      "lead_url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPUWZWSFJNSnRLbDYyYXdUM3hLWC1ITmkzWEh3Qlo3Y1JMYkJ3ektUYTlsMlNIS1Z2MnliZTZYMEZFSE43YXFnYmtBOXpoNEpoTUE2QnVtX0NCc0l6b3NCWGJxTFV1cDJqWU5oZC1POWlQb0JnTlR1Nk1kQS1NOURNdEJKNVloNXJyd3JRektrZDR4U0RsX1VYM20tTE44M05teG9OZXMzMmo3YUxiRkgtMjVzUzhvMUVuMm1OaVZPQzFsZXRfSkp6aFJsdmE1djNVcW1HYlB3dlppeEx1YXdsVGw3UVhBY1k3WGc3YmxyWlNSZl9hX0E5WTduNDIwMUo1Wk5hZEtaVjhSemY1SGxpaGQzbkFZdXlBY09xdHV4NzZqYjNFcUlWYUFJb1lnSmVCUjYzbG5jM2oyVmthdGRnT3Znak1lZ0gzWjltR29sZ2Nyak9nODJtYmNMbm81RzhvUnhzSEg4NlpOZVdQa3RaTmtKYjBpZ0tJZnZ6azJpTdIBhANBVV95cUxNNU5VTEhRaVNSNnBvR2xVWHRtNDFtaEhLY1Y0Q3lVNlcwTnVpeVFkOUU2OWRtcHhVOUtlamlqU3docklhNTN0eHVHTWZWTGVUTURvbGtkbHJzaW16b0ZFMmVsWi16ZDJUY0RHYXdVcUFVMjFTekE0bi10RWZ3VTFJbThmc2xYTzdWTGFjTFVDeENTTHlGLWFmcW1YbHNTdXROamVVbUhwZWFNaFhvQ050dDh2d0xRVUZKQy00Vldyd1JaWUlnM05WZ1ZhUUZmZ01zY3JzVHBJWlVEVDBLVE9HNTBiVDNfSnY4QjNXUmtuallKbHg4bHFaS0FMUnozNTcyaHdZQ2hISmdOZ3RFZkVVUDNxZmdIdk5NVXNiN3NsZktkU2NrSURsQUxBWkV2TXVLVkpEem5zY2hYXzNNTjVkVjRUUS1MY1gtY09GQmcxdmhQRHNKNXBXdkd6OVZuYzlBei1aYnNEMW1ubVd2OU9VQVo2SUFTWjk5SWlsN0dBTk56MzZQ?oc=5",
+      "lead_source": "The Economic Times",
       "topic": "oil",
-      "score": 93.64,
+      "score": 93.87,
       "novelty": "new",
       "source_count": 9,
       "confidence": 0.95,
@@ -178,16 +177,16 @@
     {
       "event_key": "us_iran_ceasefire",
       "field": "next_catalyst_date",
-      "from": "",
-      "to": "2027-03-18",
-      "detected_at": "2026-04-20T10:21:28.508290+00:00",
+      "from": "2027-03-18",
+      "to": "",
+      "detected_at": "2026-04-20T11:53:52.329307+00:00",
       "meaningful": true,
       "triggers_publish": true
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.767, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.952, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.785, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.957, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
