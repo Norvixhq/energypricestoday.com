@@ -1,11 +1,11 @@
 {
   "topic": "natgas",
-  "generated_at": "2026-04-20T21:28:22.909413+00:00",
+  "generated_at": "2026-04-20T22:25:43.742592+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_d9b5fe5c0ba020",
@@ -24,11 +24,11 @@
       ],
       "earliest_seen": "2026-04-20T19:44:06+00:00",
       "latest_seen": "2026-04-20T19:44:06+00:00",
-      "age_hours": 1.74,
-      "score": 57.96,
+      "age_hours": 2.69,
+      "score": 57.38,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.96,
+        "recency_points": 23.38,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -66,16 +66,16 @@
       ],
       "earliest_seen": "2026-04-20T10:00:11+00:00",
       "latest_seen": "2026-04-20T10:00:11+00:00",
-      "age_hours": 11.47,
-      "score": 52.12,
+      "age_hours": 12.43,
+      "score": 46.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.12,
+        "recency_points": 17.54,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -92,6 +92,88 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_2beb1d725ea1b2",
+      "topic": "natgas",
+      "lead_title": "Henry Hub Spot Gas Prices 'Collapse'",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcENVbG10U2ctVHNkcGZRZVZPR0QzV2NleHlIY21JR1d3YmI0ZVlLVW1uUXVieU9nT1dSaml6RWlncm1taUo2MkVqd2FLSjNjTnp6NmFMNkRjVklhUTF4ZzhVTjBWUTN6RzZ2dC1HNlJPWGNDUEp0T09wdTAyVzVMSDhUMFZfcWl5WG9hSmt0WkI5RE1hRkE?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [
+        "Henry Hub"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-01-06T08:00:00+00:00",
+      "latest_seen": "2026-01-06T08:00:00+00:00",
+      "age_hours": 2510.43,
+      "score": 45.1,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 26.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "80a3e21611af219d",
+          "title": "Henry Hub Spot Gas Prices 'Collapse'",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcENVbG10U2ctVHNkcGZRZVZPR0QzV2NleHlIY21JR1d3YmI0ZVlLVW1uUXVieU9nT1dSaml6RWlncm1taUo2MkVqd2FLSjNjTnp6NmFMNkRjVklhUTF4ZzhVTjBWUTN6RzZ2dC1HNlJPWGNDUEp0T09wdTAyVzVMSDhUMFZfcWl5WG9hSmt0WkI5RE1hRkE?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2026-01-06T08:00:00+00:00",
+          "confidence": 0.87
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_67190354fc13c7",
+      "topic": "natgas",
+      "lead_title": "EIA Raises 2025 Henry Hub Price Forecast",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOEpsVmZibkZET1k5MHE5UVhoOXVWVUNoT2xhQkt6MGd5M1htYjJ3ZUl1WW5VQWV6NTVTcHhkdFZIclVkZWV5NXFCM1VuTklURWZ1bzdxQjE1Nk1sS1lnSjdMTExNMGIyd2c0WkNiTncyS0p2cmJoUVRXWFpnMVlGQUJMUXlqSjhDaUMtb3NCbF84NVNPLVlVcGQxVHpPQQ?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [
+        "Henry Hub"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2025-12-17T08:00:00+00:00",
+      "latest_seen": "2025-12-17T08:00:00+00:00",
+      "age_hours": 2990.43,
+      "score": 45.1,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 26.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b0f1a8af49cdcaa4",
+          "title": "EIA Raises 2025 Henry Hub Price Forecast",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOEpsVmZibkZET1k5MHE5UVhoOXVWVUNoT2xhQkt6MGd5M1htYjJ3ZUl1WW5VQWV6NTVTcHhkdFZIclVkZWV5NXFCM1VuTklURWZ1bzdxQjE1Nk1sS1lnSjdMTExNMGIyd2c0WkNiTncyS0p2cmJoUVRXWFpnMVlGQUJMUXlqSjhDaUMtb3NCbF84NVNPLVlVcGQxVHpPQQ?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2025-12-17T08:00:00+00:00",
+          "confidence": 0.87
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_f12aa80e9fba62",
       "topic": "natgas",
       "lead_title": "Eni Declares 'Giant' Gas Discovery offshore Indonesia",
@@ -105,16 +187,16 @@
       ],
       "earliest_seen": "2026-04-20T09:56:00+00:00",
       "latest_seen": "2026-04-20T09:56:00+00:00",
-      "age_hours": 11.54,
-      "score": 47.68,
+      "age_hours": 12.5,
+      "score": 42.1,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.08,
+        "recency_points": 17.5,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -127,84 +209,55 @@
           "confidence": 0.82
         }
       ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_adc4a066ebf5ec",
-      "topic": "natgas",
-      "lead_title": "USA Natural Gas Hits Record Weekly Gain",
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZDh4XzVlMnlWWUNkVktVTFpCQU1RSF95cE5qLVBxczY3WDdhNkRJWHh1QVZQLVlwR3o2aV9OM3VTYk1hVjlEV1RWYmtzNnU1S3haejhrd3VOSkFIRFBEYnJjeW84aHlNUEo2ZUVYeDRDYlJEdDloMGRQcjB5ajBERVlQaFMxcEpENlB1eHBKM2Q0cHE2ajZqQmhSelVmZDdwQVVj?oc=5",
-      "lead_source": "Rigzone",
-      "canonical_entities": [
-        "natural gas"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-01-23T08:00:00+00:00",
-      "latest_seen": "2026-01-23T08:00:00+00:00",
-      "age_hours": 2101.47,
-      "score": 45.1,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "61d6ab78d005124d",
-          "title": "USA Natural Gas Hits Record Weekly Gain",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZDh4XzVlMnlWWUNkVktVTFpCQU1RSF95cE5qLVBxczY3WDdhNkRJWHh1QVZQLVlwR3o2aV9OM3VTYk1hVjlEV1RWYmtzNnU1S3haejhrd3VOSkFIRFBEYnJjeW84aHlNUEo2ZUVYeDRDYlJEdDloMGRQcjB5ajBERVlQaFMxcEpENlB1eHBKM2Q0cHE2ajZqQmhSelVmZDdwQVVj?oc=5",
-          "source": "Rigzone",
-          "source_type": "rss",
-          "published_at": "2026-01-23T08:00:00+00:00",
-          "confidence": 0.87
-        }
-      ],
       "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_aa439c2e349918",
+      "cluster_id": "c_083c47bf6e5c5b",
       "topic": "natgas",
-      "lead_title": "Analyst Warns of USA NatGas Price Decoupling",
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXQ1ZWE2bkV2YkhXdkVNWUJEQlFmb2JQSDlHWjhsX3diVktzVlFyMllvOFdROXZQamNNa1BkN1Y4bGwwM0dxdU9KSTdPU3UyMFVObmY2UlA2S3ZmWDA5NkhNelhVTXFYcFFJZjQ5UFMzSVBleC1ab0NKTFNGX3A1QkhsMG9LOW8zekJCQmtJYTcwRF9WN2N6TjZNY1NmeUtTc253?oc=5",
-      "lead_source": "Rigzone",
-      "canonical_entities": [],
-      "source_count": 1,
+      "lead_title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
+      "lead_source": "Natural Gas Intelligence",
+      "canonical_entities": [
+        "Henry Hub",
+        "natural gas"
+      ],
+      "source_count": 2,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-03-18T07:00:00+00:00",
-      "latest_seen": "2026-03-18T07:00:00+00:00",
-      "age_hours": 806.47,
-      "score": 39.6,
+      "earliest_seen": "2026-01-07T08:00:00+00:00",
+      "latest_seen": "2026-01-08T08:00:00+00:00",
+      "age_hours": 2462.43,
+      "score": 39.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 24.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "d5ea2ae65d102e03",
-          "title": "Analyst Warns of USA NatGas Price Decoupling",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYXQ1ZWE2bkV2YkhXdkVNWUJEQlFmb2JQSDlHWjhsX3diVktzVlFyMllvOFdROXZQamNNa1BkN1Y4bGwwM0dxdU9KSTdPU3UyMFVObmY2UlA2S3ZmWDA5NkhNelhVTXFYcFFJZjQ5UFMzSVBleC1ab0NKTFNGX3A1QkhsMG9LOW8zekJCQmtJYTcwRF9WN2N6TjZNY1NmeUtTc253?oc=5",
-          "source": "Rigzone",
+          "headline_id": "9f5dbfb5625df812",
+          "title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
+          "source": "Natural Gas Intelligence",
           "source_type": "rss",
-          "published_at": "2026-03-18T07:00:00+00:00",
-          "confidence": 0.82
+          "published_at": "2026-01-08T08:00:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "99e16c31a7c3ac29",
+          "title": "Midmorning Markets: Henry Hub Natural Gas Cash Reclaims $3",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMDZONGYtcFowVzVXVElwTGdvODNnRXl3clBfMVdtZmVOQ2pPVEpjc2JGUVBYMTRyYmRVRjBXSXYtMmxZN2p6WjJBTkhNSkp5U2VJQzRHN1NKZFNQUldjc0RpcDVMSHhXczdsODhKZlBtU09rRVFvVS1RdzJ5SmI2VWtITDVYVnJ1bzZyNXVqbTB2bURp?oc=5",
+          "source": "Natural Gas Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-01-07T08:00:00+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -226,7 +279,7 @@
       ],
       "earliest_seen": "2026-03-27T07:00:00+00:00",
       "latest_seen": "2026-03-27T07:00:00+00:00",
-      "age_hours": 590.47,
+      "age_hours": 591.43,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -267,7 +320,7 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 758.47,
+      "age_hours": 759.43,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -293,47 +346,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_11ac49ff99ef10",
-      "topic": "natgas",
-      "lead_title": "Booming LNG exports may get dragged into US cost-of-living debate",
-      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ1ItV1YtSVlxM1hmRjJvVnAzLUotOWZ2bzM4OHlIaGFlZnllY1IzSUFHYmF5Rmw2QVhKMy10YllfeFU0TVd0bC1GUUNmbUFmWmMzSTl5aFpDYWtXM1pCMHVtWkhja3ljM0czdng1TjM5M2dNX0J5dFFPYXg3NTh3WEdkSDk5eldJMlNmNHRnQVlqT1JaSUtQcklwVjNxeFBDWTNSZmQ5TjFYMDRWNDQxMUwxbV9EWHJQZEx2dWVn?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "LNG"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-02-19T08:00:00+00:00",
-      "latest_seen": "2026-02-19T08:00:00+00:00",
-      "age_hours": 1453.47,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "a9d15a13d6a28ced",
-          "title": "Booming LNG exports may get dragged into US cost-of-living debate",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZ1ItV1YtSVlxM1hmRjJvVnAzLUotOWZ2bzM4OHlIaGFlZnllY1IzSUFHYmF5Rmw2QVhKMy10YllfeFU0TVd0bC1GUUNmbUFmWmMzSTl5aFpDYWtXM1pCMHVtWkhja3ljM0czdng1TjM5M2dNX0J5dFFPYXg3NTh3WEdkSDk5eldJMlNmNHRnQVlqT1JaSUtQcklwVjNxeFBDWTNSZmQ5TjFYMDRWNDQxMUwxbV9EWHJQZEx2dWVn?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-02-19T08:00:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_52b789091e504e",
       "topic": "natgas",
       "lead_title": "Henry Hub Natural Gas Weekly Futures (Oct 26 D09) Trade Ideas — NYMEX:HHW09V2026",
@@ -350,7 +362,7 @@
       ],
       "earliest_seen": "2026-04-08T18:54:22+00:00",
       "latest_seen": "2026-04-10T15:16:12+00:00",
-      "age_hours": 246.2,
+      "age_hours": 247.16,
       "score": 34.0,
       "score_components": {
         "source_count_points": 10,
@@ -401,7 +413,7 @@
       ],
       "earliest_seen": "2026-01-26T08:00:00+00:00",
       "latest_seen": "2026-01-28T08:00:00+00:00",
-      "age_hours": 1981.47,
+      "age_hours": 1982.43,
       "score": 34.0,
       "score_components": {
         "source_count_points": 10,
@@ -451,7 +463,7 @@
       ],
       "earliest_seen": "2026-01-22T08:00:00+00:00",
       "latest_seen": "2026-01-22T08:00:00+00:00",
-      "age_hours": 2125.47,
+      "age_hours": 2126.43,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -492,7 +504,7 @@
       ],
       "earliest_seen": "2026-01-19T08:00:00+00:00",
       "latest_seen": "2026-01-19T08:00:00+00:00",
-      "age_hours": 2197.47,
+      "age_hours": 2198.43,
       "score": 30.1,
       "score_components": {
         "source_count_points": 5,
@@ -533,7 +545,7 @@
       ],
       "earliest_seen": "2025-12-31T08:00:00+00:00",
       "latest_seen": "2025-12-31T08:00:00+00:00",
-      "age_hours": 2653.47,
+      "age_hours": 2654.43,
       "score": 30.1,
       "score_components": {
         "source_count_points": 5,
@@ -575,7 +587,7 @@
       ],
       "earliest_seen": "2026-04-02T19:41:04+00:00",
       "latest_seen": "2026-04-02T19:41:04+00:00",
-      "age_hours": 433.79,
+      "age_hours": 434.74,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -617,7 +629,7 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 758.47,
+      "age_hours": 759.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -659,7 +671,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 782.47,
+      "age_hours": 783.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -701,7 +713,7 @@
       ],
       "earliest_seen": "2026-03-14T12:00:28+00:00",
       "latest_seen": "2026-03-14T12:00:28+00:00",
-      "age_hours": 897.47,
+      "age_hours": 898.42,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -743,7 +755,7 @@
       ],
       "earliest_seen": "2026-03-12T07:00:00+00:00",
       "latest_seen": "2026-03-12T07:00:00+00:00",
-      "age_hours": 950.47,
+      "age_hours": 951.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -785,7 +797,7 @@
       ],
       "earliest_seen": "2026-03-10T07:00:00+00:00",
       "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 998.47,
+      "age_hours": 999.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -827,7 +839,7 @@
       ],
       "earliest_seen": "2026-03-09T07:00:00+00:00",
       "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1022.47,
+      "age_hours": 1023.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -869,7 +881,7 @@
       ],
       "earliest_seen": "2026-02-18T08:00:00+00:00",
       "latest_seen": "2026-02-19T08:00:00+00:00",
-      "age_hours": 1453.47,
+      "age_hours": 1454.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -920,7 +932,7 @@
       ],
       "earliest_seen": "2026-02-04T08:00:00+00:00",
       "latest_seen": "2026-02-04T08:00:00+00:00",
-      "age_hours": 1813.47,
+      "age_hours": 1814.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -962,7 +974,7 @@
       ],
       "earliest_seen": "2026-02-04T08:00:00+00:00",
       "latest_seen": "2026-02-04T08:00:00+00:00",
-      "age_hours": 1813.47,
+      "age_hours": 1814.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1004,7 +1016,7 @@
       ],
       "earliest_seen": "2026-01-28T08:00:00+00:00",
       "latest_seen": "2026-01-28T08:00:00+00:00",
-      "age_hours": 1981.47,
+      "age_hours": 1982.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1046,7 +1058,7 @@
       ],
       "earliest_seen": "2026-01-21T08:00:00+00:00",
       "latest_seen": "2026-01-21T08:00:00+00:00",
-      "age_hours": 2149.47,
+      "age_hours": 2150.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1088,7 +1100,7 @@
       ],
       "earliest_seen": "2026-01-14T08:00:00+00:00",
       "latest_seen": "2026-01-14T08:00:00+00:00",
-      "age_hours": 2317.47,
+      "age_hours": 2318.43,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1107,48 +1119,6 @@
           "source": "U.S. Energy Information Administration (EIA) (.gov)",
           "source_type": "rss",
           "published_at": "2026-01-14T08:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_083c47bf6e5c5b",
-      "topic": "natgas",
-      "lead_title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
-      "lead_source": "Natural Gas Intelligence",
-      "canonical_entities": [
-        "Henry Hub",
-        "natural gas"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-01-08T08:00:00+00:00",
-      "latest_seen": "2026-01-08T08:00:00+00:00",
-      "age_hours": 2461.47,
-      "score": 29.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "9f5dbfb5625df812",
-          "title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
-          "source": "Natural Gas Intelligence",
-          "source_type": "rss",
-          "published_at": "2026-01-08T08:00:00+00:00",
           "confidence": 0.7
         }
       ],

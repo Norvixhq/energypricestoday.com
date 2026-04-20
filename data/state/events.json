@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-20T21:28:23.001670+00:00",
-  "previous_generated_at": "2026-04-20T20:29:30.699411+00:00",
-  "resolver_run_count": 13,
+  "generated_at": "2026-04-20T22:25:43.827780+00:00",
+  "previous_generated_at": "2026-04-20T21:28:23.001670+00:00",
+  "resolver_run_count": 14,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.831,
-      "last_confirmed": "2026-04-20T21:00:51+00:00",
-      "source_count": 15,
-      "summary_short": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-      "summary_long": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz. Kuwait declares force majeure on oil shipments amid Hormuz blockade, Bloomberg News reports",
+      "confidence": 0.837,
+      "last_confirmed": "2026-04-20T22:24:39+00:00",
+      "source_count": 20,
+      "summary_short": "Crude Oil Price: Brent at $94.57 as Hormuz Freezes",
+      "summary_long": "Crude Oil Price: Brent at $94.57 as Hormuz Freezes. Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Horm",
       "evidence_cluster_ids": [
         "c_63a00d71b64729",
+        "c_5acfbf7bd8e39a",
         "c_e74cc7ab801026",
         "c_e7d2324e8b3e4c",
-        "c_7ebcbb8a596ae1",
-        "c_c185e0cf6ecd53"
+        "c_7ebcbb8a596ae1"
       ],
-      "evidence_count": 10,
+      "evidence_count": 13,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_63a00d71b6 → CLOSED (kw='blockade', weight=0.85) [OPEN suppressed]",
-        "cluster c_e7d2324e8b → OPEN (kw='reopen', weight=0.62)",
-        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.40)",
-        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.53) [OPEN suppressed]",
-        "winning=CLOSED (1.38/2.40), conf=0.831"
+        "cluster c_63a00d71b6 → CLOSED (kw='blockade', weight=0.78) [OPEN suppressed]",
+        "cluster c_e7d2324e8b → OPEN (kw='reopen', weight=0.51)",
+        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.34)",
+        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.51) [OPEN suppressed]",
+        "winning=CLOSED (1.29/2.14), conf=0.837"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-20T20:42:34+00:00",
-      "source_count": 23,
+      "last_confirmed": "2026-04-20T22:24:39+00:00",
+      "source_count": 20,
       "summary_short": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-      "summary_long": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz. Oil Prices Jump and Stocks Waver on Renewed Iran Conflict",
+      "summary_long": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz. Oil prices jump after Trump says Iranian ship seized",
       "evidence_cluster_ids": [
         "c_63a00d71b64729",
-        "c_65e2a7af276ecf",
         "c_574948415b84ce",
-        "c_b49522c7f91f39",
-        "c_b2e37557b602a3"
+        "c_5e74a8dc98b923",
+        "c_0953b9bdacb8ed",
+        "c_b49522c7f91f39"
       ],
-      "evidence_count": 18,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -153,13 +153,13 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_7a14735959dbed",
+      "cluster_id": "c_09712d49441e19",
       "lead_title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 20",
       "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNc0t1aDZBeHNvYVFCQjdLSEdsWWFBWHFDamRrZzJFUzhZQ25XTWZoSG9MTHNKcjVWcF9Gd2N5SEZBOVJDd2p0eGF6SV9GRkhrejdTV056Q0ZIazY5T1UzRUp2ZDlZTW1WeFpvMHBtb2RYY29UdTdLXzdIV19SSGJ4Ui1PU0hrdGlHeElGSEJpb3Z0WFZBXzh1ODR1MTRQT0xKOTAtS3ExcXhxTE9WVE1QZ0NQYkF4UnZGdV9LMzlRT3V0NHpwcElESnpyb3NPOVdtYjhObTlpZEEzc2l3Q0ZtcnJZTE1DdExGbTZQc0hxSGR2U0ZHOHFIcXZfTFhzdDZLYjMxdzZUMnAwZlEyNFBmenlQcUVKLVBzRlhyUDhB?oc=5",
       "lead_source": "S&P Global",
       "topic": "oil",
-      "score": 87.82,
-      "novelty": "ongoing",
+      "score": 93.62,
+      "novelty": "new",
       "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
@@ -172,7 +172,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.831, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.837, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
