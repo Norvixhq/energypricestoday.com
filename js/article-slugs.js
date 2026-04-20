@@ -193,6 +193,7 @@ const ARTICLE_SLUGS = {
   "Oil Prices Climb Near $100 as Energy Secretary Warns Prices Will Keep Rising": "oil-prices-climb-near-100-as-energy-secretary-warns-prices-will-keep-rising",
   "Oil Prices Ease on Ceasefire Extension Hopes \u2014 WTI Pulls Back Below $95": "oil-prices-ease-on-ceasefire-extension-hopes-wti-pulls-back-below-95",
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
+  "Oil Prices Jump and Stocks Waver on Renewed Iran Conflict": "oil-prices-jump-and-stocks-waver-on-renewed-iran-conflict",
   "Oil Prices Jumped and Stock Futures Fell on Renewed Iran Conflict": "oil-prices-jumped-and-stock-futures-fell-on-renewed-iran-conflict",
   "Oil Prices Sink 10% as Trump Announces Strait of Hormuz is Fully Open": "oil-prices-sink-10-as-trump-announces-strait-of-hormuz-is-fully-open",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",

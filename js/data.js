@@ -58,8 +58,8 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil Prices Jumped and Stock Futures Fell on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil Prices Jump and Stocks Waver on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Current price of oil as of April 17, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Gasoline could drop below $4 in coming days", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
   { title: "Trading Desks Boom While Big Oil Output Stalls", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
