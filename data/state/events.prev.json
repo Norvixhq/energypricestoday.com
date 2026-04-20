@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-20T15:46:01.795767+00:00",
-  "previous_generated_at": "2026-04-20T14:02:24.415645+00:00",
-  "resolver_run_count": 8,
+  "generated_at": "2026-04-20T17:14:52.593398+00:00",
+  "previous_generated_at": "2026-04-20T15:46:01.795767+00:00",
+  "resolver_run_count": 9,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.836,
-      "last_confirmed": "2026-04-20T14:16:58+00:00",
-      "source_count": 15,
-      "summary_short": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
-      "summary_long": "Iran closes strait of Hormuz again ‘until US lifts blockade’. Kuwait declares force majeure! The Hormuz crisis and the Middle East oil production cut storm are sw",
+      "confidence": 0.846,
+      "last_confirmed": "2026-04-20T16:05:35+00:00",
+      "source_count": 14,
+      "summary_short": "Kuwait declares force majeure on oil shipments amid Hormuz blockade, Bloomberg News reports",
+      "summary_long": "Kuwait declares force majeure on oil shipments amid Hormuz blockade, Bloomberg News reports. Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
       "evidence_cluster_ids": [
+        "c_1735c6178c0238",
         "c_e95a88c20cfd53",
-        "c_5acfbf7bd8e39a",
         "c_a22c7cc8b91fff",
-        "c_c185e0cf6ecd53",
-        "c_32d6d0eccd8502"
+        "c_93f71b4c97de7a",
+        "c_c185e0cf6ecd53"
       ],
-      "evidence_count": 13,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e95a88c20c → CLOSED (kw='blockade', weight=0.62) [OPEN suppressed]",
-        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.49)",
-        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.59) [OPEN suppressed]",
-        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.29)",
-        "winning=CLOSED (1.21/2.00), conf=0.836"
+        "cluster c_e95a88c20c → CLOSED (kw='blockade', weight=0.59) [OPEN suppressed]",
+        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.46)",
+        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.66) [OPEN suppressed]",
+        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.27)",
+        "winning=CLOSED (1.25/1.99), conf=0.846"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-20T15:43:01+00:00",
-      "source_count": 20,
-      "summary_short": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
-      "summary_long": "Iran closes strait of Hormuz again ‘until US lifts blockade’. Tesla’s EV Rebound Just Got Real — Iran War Sends EV Demand Soaring",
+      "last_confirmed": "2026-04-20T17:09:48+00:00",
+      "source_count": 19,
+      "summary_short": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz",
+      "summary_long": "Iran talks on shaky footing after U.S. seizure of ship in Strait of Hormuz. Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "evidence_cluster_ids": [
+        "c_1735c6178c0238",
         "c_e95a88c20cfd53",
-        "c_0953b9bdacb8ed",
-        "c_f2f4805928a884",
-        "c_068248f1ca2e96",
-        "c_ea3fb6c4f79a89"
+        "c_18519b57a3ee0a",
+        "c_c00505d5f35a5e",
+        "c_3fff4831b780d5"
       ],
-      "evidence_count": 18,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -87,9 +87,7 @@
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": "",
-      "previous_status": "FRAGILE",
-      "last_changed": "2026-04-20T15:46:01.795599+00:00"
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -151,9 +149,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "CRITICAL",
-      "last_changed": "2026-04-20T15:46:01.795599+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -164,9 +160,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX0F0VFZzNE9MWEdveXZ3clpYSlIzRWlKSGd5QVR3WWlVQ2prRk1aQXo1aWlieUJlUWg5QzNYdlZfNmV0cEFrSTVCcDZjSHpKNjF6UWRqQTRUV21sQTViSVo2b1ZnUjdMMXJzNW1wdFhTRTJxbHJUMjc3TlpWaDVIdy1seTBESFJsMkEyeDREN2NwOEYwekhQTUtnM1pfY1E?oc=5",
       "lead_source": "Coinpaper",
       "topic": "oil",
-      "score": 87.59,
-      "novelty": "growing",
-      "source_count": 6,
+      "score": 81.86,
+      "novelty": "ongoing",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -176,46 +172,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "status",
-      "from": "FRAGILE",
-      "to": "HOLDING",
-      "detected_at": "2026-04-20T15:46:01.795599+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-04-20T15:46:01.795599+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "CRITICAL",
-      "to": "HIGH",
-      "detected_at": "2026-04-20T15:46:01.795599+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "CRITICAL",
-      "to": "HIGH",
-      "detected_at": "2026-04-20T15:46:01.795599+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.836, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.846, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
