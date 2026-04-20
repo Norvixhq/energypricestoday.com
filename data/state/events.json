@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-20T06:07:09.436435+00:00",
-  "previous_generated_at": "2026-04-20T03:38:37.230870+00:00",
-  "resolver_run_count": 3,
+  "generated_at": "2026-04-20T08:29:41.571125+00:00",
+  "previous_generated_at": "2026-04-20T06:07:09.436435+00:00",
+  "resolver_run_count": 4,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CONTESTED",
-      "status_detail": "Oil prices jump after Iran and U.S. attack commercial ships as tensions escalate over Strait of Hormuz",
-      "status_tag": "Tankers at risk",
-      "risk_level": "ELEVATED",
-      "confidence": 0.85,
-      "last_confirmed": "2026-04-20T04:30:23+00:00",
-      "source_count": 14,
-      "summary_short": "Oil prices and stocks climb as the US-Iran standoff keeps the Strait of Hormuz in limbo",
-      "summary_long": "Oil prices and stocks climb as the US-Iran standoff keeps the Strait of Hormuz in limbo. Opening Hormuz is the easy part. Restoring oil flows isn’t",
+      "status": "CLOSED",
+      "status_detail": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
+      "status_tag": "Strait closed",
+      "risk_level": "HIGH",
+      "confidence": 0.782,
+      "last_confirmed": "2026-04-20T08:01:36+00:00",
+      "source_count": 19,
+      "summary_short": "Oil's new normal: Why Brent and WTI crude face a fresh Hormuz shock",
+      "summary_long": "Oil's new normal: Why Brent and WTI crude face a fresh Hormuz shock. Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "evidence_cluster_ids": [
-        "c_4bff3b748fcc44",
-        "c_b14daea6001116",
-        "c_32d6d0eccd8502",
-        "c_10d4789f3aecce",
-        "c_74f27591959277"
+        "c_e95a88c20cfd53",
+        "c_8975e72f51d044",
+        "c_b5d1728e109084",
+        "c_002ae6263fc390",
+        "c_8324baf6f65cc4"
       ],
-      "evidence_count": 10,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,33 +41,36 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b14daea600 → CLOSED (kw='re-close', weight=0.38) [OPEN suppressed]",
-        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.48)",
-        "cluster c_c2581b5998 → CONTESTED (kw='attack', weight=0.25)",
-        "winning=CONTESTED (0.72/1.10), conf=0.85"
-      ]
+        "cluster c_e95a88c20c → CLOSED (kw='blockade', weight=0.79) [OPEN suppressed]",
+        "cluster c_b5d1728e10 → OPEN (kw='reopen', weight=0.60)",
+        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.44)",
+        "cluster c_c2581b5998 → CONTESTED (kw='attack', weight=0.22)",
+        "winning=CLOSED (0.79/2.05), conf=0.782"
+      ],
+      "previous_status": "CONTESTED",
+      "last_changed": "2026-04-20T08:29:41.570940+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
       "status": "FRAGILE",
-      "status_detail": "Oil prices and stocks climb as the US-Iran standoff keeps the Strait of Hormuz in limbo",
+      "status_detail": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.949,
-      "last_confirmed": "2026-04-20T06:00:00+00:00",
-      "source_count": 28,
-      "summary_short": "Oil prices and stocks climb as the US-Iran standoff keeps the Strait of Hormuz in limbo",
-      "summary_long": "Oil prices and stocks climb as the US-Iran standoff keeps the Strait of Hormuz in limbo. Global oil supply losses hit $50bn amid Iran war",
+      "confidence": 0.95,
+      "last_confirmed": "2026-04-20T07:36:11+00:00",
+      "source_count": 25,
+      "summary_short": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
+      "summary_long": "Iran closes strait of Hormuz again ‘until US lifts blockade’. US Futures Fall, Oil Jumps as Iran Tensions Worsen: Markets Wrap",
       "evidence_cluster_ids": [
-        "c_4bff3b748fcc44",
-        "c_6cd58dcdcdc2ff",
-        "c_5e31b9b8921cdd",
-        "c_b14daea6001116",
-        "c_574948415b84ce"
+        "c_e95a88c20cfd53",
+        "c_f39981f8b26ab6",
+        "c_66be2b2a5afb58",
+        "c_9315c6ffa3391d",
+        "c_a6824de8d128aa"
       ],
-      "evidence_count": 22,
+      "evidence_count": 23,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -82,10 +85,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_4bff3b748f → FRAGILE (kw='in limbo', weight=0.75)",
-        "cluster c_b14daea600 → FRAGILE (kw='fragile', weight=0.38)",
-        "cluster c_10d4789f3a → FRAGILE (kw='fragile', weight=0.09)",
-        "winning=FRAGILE (1.22/1.22), conf=0.949"
+        "cluster c_e95a88c20c → FRAGILE (kw='in limbo', weight=0.79)",
+        "winning=FRAGILE (0.79/0.79), conf=0.95"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -101,14 +102,13 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-04-19T20:12:07+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "summary_short": "OPEC: Middle East oil production plummets due to Iran war",
-      "summary_long": "OPEC: Middle East oil production plummets due to Iran war. Middle East oil production plunges due to Iran war, OPEC data shows",
+      "summary_long": "OPEC: Middle East oil production plummets due to Iran war",
       "evidence_cluster_ids": [
-        "c_43fff660d862d7",
-        "c_48cbc4467bfacd"
+        "c_43fff660d862d7"
       ],
-      "evidence_count": 2,
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -128,19 +128,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "CRITICAL",
+      "risk_level": "CRITICAL",
+      "score": 65,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz contested, ceasefire fragile",
-      "summary_micro": "contested + fragile",
+      "summary_short": "Global energy risk: critical.",
+      "summary_long": "Risk drivers: Hormuz closed, ceasefire fragile",
+      "summary_micro": "closed + fragile",
       "rationale": [
-        "hormuz=CONTESTED (+25)",
+        "hormuz=CLOSED (+40)",
         "ceasefire=FRAGILE (+25)"
       ],
       "dependent_modules": [
@@ -152,20 +152,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-04-20T08:29:41.570940+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_dbe7b55e1e5d1d",
-      "lead_title": "Brent, WTI Crude Oil Price Surges as US-Iran Ceasefire Sends Mixed Signals",
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTFdPSUU4SGRjLVl1RnBKRTNjbHFkSFF4Y05ZZUNRMjN3SS1od1FnMlZoT2xuNzNPalg0V19uMHVQSGx2V3d5STJWaDRVYTZFY3FSdTBuckRwMnk2dzFRaDZoOHBkTkZaNVpTci1ha0I5cThpY2c1dmRYZTBjb0RmUWF6V2ljYTkzSnNfMVdXb1BqV1FGam5jVm1kOVU?oc=5",
-      "lead_source": "HDFC Sky",
+      "cluster_id": "c_002ae6263fc390",
+      "lead_title": "Oil's new normal: Why Brent and WTI crude face a fresh Hormuz shock",
+      "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPa1BUY3Y3ZjllVUphZ0dPMDVobG9OcXhxZWI1S19KbWFLdUp4X3kxM1JtYkw4T3hkenRfNTh0TTd0Sk5Xa0hqN0NZVFFzem43RHNnMWN2VE1BX2JfdDdLUExySzd5VHpEN2xzWElORzc0MF8yZXpBZmdWQWxMRjVIZTQwMFVFTlBBU3JiR1RmUnotRUpzamt4dTBpMUdaeWFpNnpJRUh2SU1lQkFCNmdndW4za1NrUF9yMHBxNUdlelNpVS1KYkQ4MlZwd29JR3NZRkwtOEJicEpKNlhiYkJHYw?oc=5",
+      "lead_source": "MSN",
       "topic": "oil",
-      "score": 97.26,
+      "score": 97.52,
       "novelty": "new",
-      "source_count": 9,
+      "source_count": 10,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -175,10 +177,47 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CONTESTED",
+      "to": "CLOSED",
+      "detected_at": "2026-04-20T08:29:41.570940+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-04-20T08:29:41.570940+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "CRITICAL",
+      "detected_at": "2026-04-20T08:29:41.570940+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "CRITICAL",
+      "detected_at": "2026-04-20T08:29:41.570940+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.85, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.949, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.782, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.95, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
