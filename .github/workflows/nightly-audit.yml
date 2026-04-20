@@ -35,6 +35,15 @@ jobs:
         run: python3 scripts/cleanup_orphans.py || true
         # continue-on-error because "too many orphans" is a safety abort, not a failure
 
+      - name: Fix dangling article references (Path A Guard C)
+        run: python3 scripts/fix_dangling_refs.py || true
+        # Exit 1 means "no dangling refs" (normal). Exit 2 means syntax/parse fail.
+        # Continue on error because a Guard-C stumble should not block the rest
+        # of nightly audit (sitemap, validate, etc.).
+
+      - name: Rebuild slug map after fix (if data.js was modified)
+        run: python3 scripts/rebuild_slug_map.py
+
       - name: Refresh sitemap
         run: python3 scripts/update_sitemap.py || true
 
