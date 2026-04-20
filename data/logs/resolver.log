@@ -79,3 +79,17 @@
 [2026-04-20T14:02:24.415611+00:00] resolver: no state changes
 [2026-04-20T14:02:24.416171+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-20T14:02:24.416211+00:00] ════════════════════════════════════════════════════════════
+[2026-04-20T15:46:01.789394+00:00] resolver: start
+[2026-04-20T15:46:01.793511+00:00] resolver: scanning 271 clusters across 10 topics
+[2026-04-20T15:46:01.793987+00:00]   hormuz_status: CLOSED (conf=0.836, freshness=fresh, clusters=13)
+[2026-04-20T15:46:01.795227+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=18)
+[2026-04-20T15:46:01.795354+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=1)
+[2026-04-20T15:46:01.795397+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-20T15:46:01.795563+00:00]   top_story: 'Crude Oil Prices: Brent Jumps 5%, WTI Surges 6% as U.S. Seiz' (score=87.59)
+[2026-04-20T15:46:01.795630+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-04-20T15:46:01.795661+00:00]   Δ us_iran_ceasefire.status: 'FRAGILE' → 'HOLDING' (triggers_publish=False)
+[2026-04-20T15:46:01.795693+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-04-20T15:46:01.795720+00:00]   Δ global_risk_level.status: 'CRITICAL' → 'HIGH' (triggers_publish=False)
+[2026-04-20T15:46:01.795744+00:00]   Δ global_risk_level.risk_level: 'CRITICAL' → 'HIGH' (triggers_publish=False)
+[2026-04-20T15:46:01.796342+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-20T15:46:01.796381+00:00] ════════════════════════════════════════════════════════════
