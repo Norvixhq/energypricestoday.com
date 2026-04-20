@@ -25,6 +25,8 @@ from pathlib import Path
 from urllib import request, error as urlerror
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from lib import quota  # noqa: E402
 CONFIG_PATH = ROOT / "data" / "config" / "sources.json"
 OUTPUT_PATH = ROOT / "data" / "sources" / "commodity-prices.json"
 LOG_PATH = ROOT / "data" / "logs" / "commodity-prices.log"
@@ -98,11 +100,14 @@ def fetch_from_api(config: dict) -> dict | None:
     try:
         with request.urlopen(req, timeout=15) as resp:
             raw = resp.read().decode("utf-8")
+            quota.record("oilpriceapi", endpoint="prices/all", succeeded=True)
             return json.loads(raw)
     except (urlerror.URLError, urlerror.HTTPError, TimeoutError) as e:
+        quota.record("oilpriceapi", endpoint="prices/all", succeeded=False)
         log(f"WARN: primary fetch failed: {e}")
         return None
     except Exception as e:
+        quota.record("oilpriceapi", endpoint="prices/all", succeeded=False)
         log(f"WARN: unexpected fetch error: {e}")
         return None
 

@@ -23,6 +23,8 @@ from pathlib import Path
 from urllib import request, error as urlerror
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from lib import quota  # noqa: E402
 OUTPUT_PATH = ROOT / "data" / "sources" / "gas-prices-national.json"
 LOG_PATH = ROOT / "data" / "logs" / "gas-prices-national.log"
 
@@ -67,7 +69,9 @@ def try_aaa() -> dict | None:
         )
         with request.urlopen(req, timeout=15) as resp:
             html = resp.read().decode("utf-8", errors="replace")
+            quota.record("aaa", endpoint="gasprices", succeeded=True)
     except Exception as e:
+        quota.record("aaa", endpoint="gasprices", succeeded=False)
         log(f"AAA fetch failed (expected on GitHub runners): {e}")
         return None
 
@@ -121,7 +125,9 @@ def try_eia() -> dict | None:
             series_data = data.get("response", {}).get("data", [])
             if series_data:
                 prices[grade] = round(float(series_data[0]["value"]), 4)
+            quota.record("eia", endpoint=f"gasoline/{grade}", succeeded=True)
         except Exception as e:
+            quota.record("eia", endpoint=f"gasoline/{grade}", succeeded=False)
             log(f"EIA {grade} fetch failed: {e}")
 
     if len(prices) < 4:

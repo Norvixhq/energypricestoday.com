@@ -26,6 +26,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 from lib import article_template  # noqa: E402
+from lib import quota  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ARTICLES_DIR = ROOT / "articles"
@@ -108,10 +109,13 @@ Return JSON only:
     try:
         with urllib.request.urlopen(req, timeout=30) as resp:
             data = json.loads(resp.read().decode("utf-8"))
+            quota.record("anthropic", endpoint="messages", succeeded=True)
     except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+        quota.record("anthropic", endpoint="messages", succeeded=False)
         print(f"  [!] API error for '{title[:40]}...': {e}")
         return None
     except json.JSONDecodeError:
+        quota.record("anthropic", endpoint="messages", succeeded=False)
         print(f"  [!] API returned invalid JSON for '{title[:40]}...'")
         return None
 

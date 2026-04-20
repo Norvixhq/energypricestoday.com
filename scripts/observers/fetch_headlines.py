@@ -52,6 +52,9 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(ROOT / "scripts"))
+from lib import quota  # noqa: E402
+
 CACHE_DIR = ROOT / "data" / "sources"
 CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -126,15 +129,33 @@ USER_AGENT = (
     "Chrome/131.0.0.0 Safari/537.36"
 )
 
+def _api_name_for_url(url: str) -> str:
+    """Map a URL to its api_name for quota tracking."""
+    if "news.google.com" in url:
+        return "google_news"
+    if "gdeltproject.org" in url or "gdelt" in url:
+        return "gdelt"
+    if "rss2json.com" in url:
+        return "rss2json"
+    # Default: don't track unknown hosts
+    return ""
+
+
 def http_get(url: str, timeout: int = 15, accept: str = "*/*") -> bytes | None:
     req = urllib.request.Request(url, headers={
         "User-Agent": USER_AGENT,
         "Accept": accept,
     })
+    api_name = _api_name_for_url(url)
     try:
         with urllib.request.urlopen(req, timeout=timeout) as resp:
-            return resp.read()
+            data = resp.read()
+            if api_name:
+                quota.record(api_name, succeeded=True)
+            return data
     except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
+        if api_name:
+            quota.record(api_name, succeeded=False)
         print(f"[fetch_headlines] HTTP fail {url[:80]}...: {e}")
         return None
 

@@ -431,15 +431,18 @@ def derive_reason_codes(checks: dict, quotas: dict) -> list[str]:
     if checks["nightly_audit"]["status"] == "missing":
         codes.append("NIGHTLY_AUDIT_MISSING")
 
-    # Quota signals (populated by lib/quota.py if present)
-    for api_name, quota_data in (quotas or {}).items():
+    # Quota signals (populated by lib/quota.py if present).
+    # Structure: quotas = {"date": "...", "apis": {"oilpriceapi": {pct_of_limit, ...}}}
+    quota_apis = (quotas or {}).get("apis", {})
+    for api_name, quota_data in quota_apis.items():
         if not isinstance(quota_data, dict):
             continue
         pct = quota_data.get("pct_of_limit")
         if pct is None:
             continue
         if pct >= THRESHOLDS["quota_critical_pct"]:
-            codes.append("API_QUOTA_CRITICAL")
+            if "API_QUOTA_CRITICAL" not in codes:
+                codes.append("API_QUOTA_CRITICAL")
             break
         elif pct >= THRESHOLDS["quota_high_pct"]:
             if "API_QUOTA_HIGH" not in codes:
