@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-04-20T18:12:44.207333+00:00",
-  "previous_generated_at": "2026-04-20T17:14:52.593398+00:00",
-  "resolver_run_count": 10,
+  "generated_at": "2026-04-20T19:36:50.166704+00:00",
+  "previous_generated_at": "2026-04-20T18:12:44.207333+00:00",
+  "resolver_run_count": 11,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Kuwait declares force majeure on oil shipments amid Hormuz blockade, Bloomberg News reports",
+      "status_detail": "Iran closes strait of Hormuz again ‘until US lifts blockade’",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.79,
-      "last_confirmed": "2026-04-20T14:16:58+00:00",
-      "source_count": 12,
-      "summary_short": "Kuwait declares force majeure on oil shipments amid Hormuz blockade, Bloomberg News reports",
-      "summary_long": "Kuwait declares force majeure on oil shipments amid Hormuz blockade, Bloomberg News reports. Stocks, Bonds Fall as Oil Jumps After Hormuz Chaos: Markets Wrap",
+      "confidence": 0.802,
+      "last_confirmed": "2026-04-20T18:37:26+00:00",
+      "source_count": 11,
+      "summary_short": "Oil surges back up as Iran says Strait of Hormuz is closed, US Navy seizes Iranian vessel",
+      "summary_long": "Oil surges back up as Iran says Strait of Hormuz is closed, US Navy seizes Iranian vessel. Kuwait declares force majeure on oil shipments amid Hormuz blockade, Bloomberg News reports",
       "evidence_cluster_ids": [
-        "c_6157a9e77327b7",
-        "c_a432e57953b043",
-        "c_a22c7cc8b91fff",
+        "c_16cf26e4b5ed21",
+        "c_28c0fe18ede955",
         "c_c185e0cf6ecd53",
-        "c_5acfbf7bd8e39a"
+        "c_5acfbf7bd8e39a",
+        "c_e95a88c20cfd53"
       ],
       "evidence_count": 10,
       "affected_pages": [
@@ -41,10 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.45)",
-        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.59) [OPEN suppressed]",
-        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.26)",
-        "winning=CLOSED (0.59/1.30), conf=0.79"
+        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.43)",
+        "cluster c_e95a88c20c → CLOSED (kw='blockade', weight=0.10) [OPEN suppressed]",
+        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.57) [OPEN suppressed]",
+        "cluster c_b94853dec7 → CONTESTED (kw='attack', weight=0.24)",
+        "winning=CLOSED (0.67/1.33), conf=0.802"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-20T17:19:52+00:00",
-      "source_count": 26,
-      "summary_short": "Oil prices jump after Trump says Iranian ship seized",
-      "summary_long": "Oil prices jump after Trump says Iranian ship seized. The U.S.-Iran Deal, The Deadline, and The $200 Per Barrel of Oil Question",
+      "last_confirmed": "2026-04-20T18:54:08+00:00",
+      "source_count": 29,
+      "summary_short": "Oil surges back up as Iran says Strait of Hormuz is closed, US Navy seizes Iranian vessel",
+      "summary_long": "Oil surges back up as Iran says Strait of Hormuz is closed, US Navy seizes Iranian vessel. Inflation jumps to 2.4% in March driven by Iran war oil shock",
       "evidence_cluster_ids": [
-        "c_574948415b84ce",
-        "c_87d3dac8f0cc2e",
-        "c_373c09916c1493",
-        "c_65e2a7af276ecf",
-        "c_ee32ba27e1c66b"
+        "c_16cf26e4b5ed21",
+        "c_b2e37557b602a3",
+        "c_3dfb309bb16419",
+        "c_2524a7ba363590",
+        "c_5e74a8dc98b923"
       ],
-      "evidence_count": 24,
+      "evidence_count": 28,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -154,14 +155,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_481f1f3ab4d875",
-      "lead_title": "Crude Oil Prices: Brent Jumps 5%, WTI Surges 6% as U.S. Seizes Iranian Ship",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX0F0VFZzNE9MWEdveXZ3clpYSlIzRWlKSGd5QVR3WWlVQ2prRk1aQXo1aWlieUJlUWg5QzNYdlZfNmV0cEFrSTVCcDZjSHpKNjF6UWRqQTRUV21sQTViSVo2b1ZnUjdMMXJzNW1wdFhTRTJxbHJUMjc3TlpWaDVIdy1seTBESFJsMkEyeDREN2NwOEYwekhQTUtnM1pfY1E?oc=5",
-      "lead_source": "Coinpaper",
+      "cluster_id": "c_7a14735959dbed",
+      "lead_title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 20",
+      "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNc0t1aDZBeHNvYVFCQjdLSEdsWWFBWHFDamRrZzJFUzhZQ25XTWZoSG9MTHNKcjVWcF9Gd2N5SEZBOVJDd2p0eGF6SV9GRkhrejdTV056Q0ZIazY5T1UzRUp2ZDlZTW1WeFpvMHBtb2RYY29UdTdLXzdIV19SSGJ4Ui1PU0hrdGlHeElGSEJpb3Z0WFZBXzh1ODR1MTRQT0xKOTAtS3ExcXhxTE9WVE1QZ0NQYkF4UnZGdV9LMzlRT3V0NHpwcElESnpyb3NPOVdtYjhObTlpZEEzc2l3Q0ZtcnJZTE1DdExGbTZQc0hxSGR2U0ZHOHFIcXZfTFhzdDZLYjMxdzZUMnAwZlEyNFBmenlQcUVKLVBzRlhyUDhB?oc=5",
+      "lead_source": "S&P Global",
       "topic": "oil",
-      "score": 81.5,
-      "novelty": "ongoing",
-      "source_count": 4,
+      "score": 98.02,
+      "novelty": "new",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -173,7 +174,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.79, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.802, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
