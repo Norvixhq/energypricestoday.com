@@ -4,3 +4,20 @@
 [2026-04-19T16:04:08.920968+00:00] [observers] gas_prices: OK — Both AAA and EIA failed; kept previous snapshot
 [2026-04-19T16:04:08.998465+00:00] [detect]   • gas_prices_aaa: status seeded -> failed
 [2026-04-19T16:04:08.999284+00:00] autopilot: no-op — no meaningful changes (affected=8)
+[2026-04-20T00:15:24.827407+00:00] ════════════════════════════════════════════════════════════
+[2026-04-20T00:15:24.827479+00:00] autopilot: start
+[2026-04-20T00:15:25.654224+00:00] [observers] commodity_prices: OK — OK: fetched 10 commodity prices
+[2026-04-20T00:15:28.681612+00:00] [observers] gas_prices: OK — OK: EIA regular=$4.123 diesel=$5.608
+[2026-04-20T00:16:48.904841+00:00] [observers] headlines: OK — [fetch_headlines] ✓ cache updated (300 total stories, 0 failed topics)
+[2026-04-20T00:16:48.988231+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-04-20T00:16:49.025778+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-04-20T00:16:49.051431+00:00] [detect]   • gas_prices_aaa: status unknown -> fresh
+[2026-04-20T00:16:49.051606+00:00] [plan] 4 changes, 8 page(s) affected
+[2026-04-20T00:16:49.085143+00:00] [render] [render_data_js] rendering: forced
+[2026-04-20T00:16:49.085204+00:00] [render] [render_data_js] live-data.js owns 51 commodities — skipping those
+[2026-04-20T00:16:49.085236+00:00] [render]   COMMODITIES: 0 non-API-backed entries updated
+[2026-04-20T00:16:49.085263+00:00] [render]   US_GAS_NATIONAL: updated
+[2026-04-20T00:16:49.085289+00:00] [render] [render_data_js] ✓ js/data.js updated
+[2026-04-20T00:17:11.810133+00:00] [validate] all checks pass
+[2026-04-20T00:17:11.810207+00:00] autopilot: render complete, ready to commit
+[2026-04-20T00:17:11.810240+00:00] ════════════════════════════════════════════════════════════
