@@ -60,12 +60,12 @@ const FULL_PRICES = {
 const BREAKING_NEWS = [
   { title: "Oil Prices Jump and Stocks Waver on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Current price of oil as of April 20, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil prices rise after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil prices jump after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Oil prices jump amid renewed tensions over the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Gasoline could drop below $4 in coming days", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Trading Desks Boom While Big Oil Output Stalls", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Prices Today: Crude Falls Below $100 as Two Ships Turn Back From U.S. Blockade in Hormuz Strait", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Trading Desks Boom While Big Oil Output Stalls", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil Prices Today: Crude Falls Below $100 as Two Ships Turn Back From U.S. Blockade in Hormuz Strait", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Brent oil spot price for actual cargo soars to $141, highest level since 2008 financial crisis", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices are falling — gas prices aren't. Here's why.", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
