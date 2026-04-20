@@ -157,6 +157,60 @@ def check_html_article_hrefs() -> None:
             + "; ".join(broken[:3]))
 
 
+def check_titles_use_explicit_slug_map() -> None:
+    """Strict Guard A check: every title referenced in data.js must have an
+    explicit entry in ARTICLE_SLUGS.
+
+    Why: the runtime articleUrl() function has two paths — (1) look up in
+    ARTICLE_SLUGS, or (2) fall through to slugifyTitle(). Path 2 is a silent
+    404 factory when titles have subtle casing/punctuation mismatches with
+    the actual article filename. This check forces path 1 for every title.
+
+    Warning (not error): a title that works via slugify fallback is still
+    functional, but fragile. We warn so it surfaces without blocking.
+    """
+    slugs_path = ROOT / "js" / "article-slugs.js"
+    if not slugs_path.exists():
+        warn("js/article-slugs.js missing — skipping strict slug-map check")
+        return
+
+    # Parse ARTICLE_SLUGS keys from the generated JS file
+    content = slugs_path.read_text()
+    slug_keys: set[str] = set()
+    # Match: "Title": "slug", — captures the title
+    for m in re.finditer(r'^\s*"((?:[^"\\]|\\.)*)"\s*:\s*"[^"]+",?\s*$', content, re.MULTILINE):
+        slug_keys.add(m.group(1).replace('\\"', '"').replace('\\\\', '\\'))
+
+    if not slug_keys:
+        warn(f"Could not parse any entries from {slugs_path.name} — skipping strict check")
+        return
+
+    visible = data_js.extract_all_visible_titles()
+    dangling = []
+    for title in visible:
+        if title not in slug_keys:
+            dangling.append(title)  # keep full title for accurate slug check
+
+    if dangling:
+        # Graduated severity: warn if fallback works, err if it doesn't
+        real_broken = []
+        fallback_works = []
+        for title in dangling:
+            slug = data_js.slugify(title)
+            if (ARTICLES_DIR / f"{slug}.html").exists():
+                fallback_works.append(title)
+            else:
+                real_broken.append(title)
+
+        if real_broken:
+            err(f"{len(real_broken)} title(s) in data.js have no valid article file. "
+                f"First 3: " + "; ".join(t[:70] for t in real_broken[:3]))
+        if fallback_works:
+            warn(f"{len(fallback_works)} title(s) rely on slugify-fallback "
+                 f"(fragile — should be in ARTICLE_SLUGS). "
+                 f"First 3: " + "; ".join(t[:70] for t in fallback_works[:3]))
+
+
 def check_no_literal_unicode() -> None:
     """No \\uXXXX literals in HTML — means an escape wasn't decoded."""
     total = 0
@@ -245,6 +299,7 @@ def main() -> int:
     check_inline_scripts()
     check_visible_titles_have_articles()
     check_html_article_hrefs()
+    check_titles_use_explicit_slug_map()
     check_no_literal_unicode()
     check_sitemap_dates()
     check_critical_integrations()

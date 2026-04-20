@@ -344,6 +344,13 @@ function slugifyTitle(title) {
     .substring(0, 80);
 }
 
+// articleUrl() — returns 'articles/<slug>.html' for known titles,
+// or falls back to slugify. PRESERVED AS-IS for backward compatibility
+// with 26+ call sites across the site.
+//
+// Path A Guard B: callers that render lists (map-based card rendering)
+// should filter their arrays via knownArticles() first to eliminate
+// dangling references before they become <a href="..."> with bad URLs.
 function articleUrl(title) {
   if (typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS[title]) {
     return 'articles/' + ARTICLE_SLUGS[title] + '.html';
@@ -353,4 +360,21 @@ function articleUrl(title) {
 
 function categoryArticleUrl(title) {
   return '../' + articleUrl(title);
+}
+
+// Path A Guard B — predicate: is this title explicitly mapped?
+// Use in Array.filter() to drop unknown titles from render loops.
+function isKnownArticle(title) {
+  return typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS.hasOwnProperty(title);
+}
+
+// Path A Guard B — helper: filter a list of article objects to only
+// those that will produce valid URLs. Use like:
+//   .map(...)  → .filter(knownArticleFilter)  → ...
+//
+// Works whether the element is { title } or a bare string title.
+function knownArticleFilter(item) {
+  if (!item) return false;
+  var title = (typeof item === 'string') ? item : item.title;
+  return isKnownArticle(title);
 }
