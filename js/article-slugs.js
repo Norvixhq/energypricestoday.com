@@ -43,6 +43,7 @@ const ARTICLE_SLUGS = {
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Oil Weekly Forecast - 19/04: Lower Value (Chart)": "crude-oil-weekly-forecast-1904-lower-value-chart",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
+  "Crude oil prices jump as rising US-Iran tensions keep Strait of Hormuz closed; Brent oil above $95 a barrel": "crude-oil-prices-jump-as-rising-us-iran-tensions-keep-strait-of-hormuz-closed-br",
   "Current price of oil as of April 17, 2026": "current-price-of-oil-as-of-april-17-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
   "Diesel and Heating Oil Margins Diverge as Trucking Demand Holds": "diesel-and-heating-oil-margins-diverge-as-trucking-demand-holds",
