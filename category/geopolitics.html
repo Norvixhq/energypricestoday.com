@@ -259,20 +259,35 @@
       TC('alert-triangle','Energy Infrastructure Attacks','Saudi Abqaiq processing facility damaged by drones. Pipeline attacks in Iraq. LNG terminal security elevated worldwide. Physical infrastructure vulnerability is a persistent risk factor.'),
     ].join('');
 
-    // BREAKING TICKER (live RSS)
+    // BREAKING TICKER — Path B: cache first, rss2json fallback
     var tickerEl = document.getElementById('geo-ticker-text');
     if (tickerEl) {
       tickerEl.textContent = 'Loading live headlines...';
-      fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent('https://news.google.com/rss/search?q=Hormuz+reopened+OR+Iran+ceasefire+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en')+'&count=8')
-        .then(function(r){return r.json();})
-        .then(function(data){
-          if(data.items&&data.items.length>0){
-            tickerEl.textContent=data.items.map(function(i){return '● '+i.title.toUpperCase();}).join('     ');
-          } else {
-            tickerEl.textContent=(typeof BREAKING_NEWS!=='undefined')?BREAKING_NEWS.map(function(b){return '● '+b.title;}).join('    '):'';
-          }
-        }).catch(function(){
-          tickerEl.textContent=(typeof BREAKING_NEWS!=='undefined')?BREAKING_NEWS.map(function(b){return '● '+b.title;}).join('    '):'';
+
+      var renderTicker = function(stories) {
+        if (!stories || !stories.length) {
+          tickerEl.textContent = (typeof BREAKING_NEWS !== 'undefined') ?
+            BREAKING_NEWS.map(function(b){return '● '+b.title;}).join('    ') : '';
+          return;
+        }
+        tickerEl.textContent = stories.slice(0,8).map(function(s){
+          return '● ' + String(s.title || '').toUpperCase();
+        }).join('     ');
+      };
+
+      fetch('../data/sources/headlines-geopolitics.json', { cache: 'no-store' })
+        .then(function(r){ if(!r.ok) throw new Error('cache '+r.status); return r.json(); })
+        .then(function(data){ renderTicker((data && data.stories) || []); })
+        .catch(function(){
+          // Emergency fallback to rss2json
+          fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent('https://news.google.com/rss/search?q=Hormuz+reopened+OR+Iran+ceasefire+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en')+'&count=8')
+            .then(function(r){return r.json();})
+            .then(function(data){
+              if(data && data.items){
+                renderTicker(data.items.map(function(i){return {title: i.title};}));
+              } else renderTicker(null);
+            })
+            .catch(function(){ renderTicker(null); });
         });
     }
 

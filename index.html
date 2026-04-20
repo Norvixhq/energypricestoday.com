@@ -72,32 +72,72 @@ fbq('init','957762016897581');fbq('track','PageView');
     </div>
   </div>
   <script>
+  // Breaking banner rotator — Path B: cache-first, rss2json fallback.
+  // Works alongside Phase 2.4's [data-event-bind="top_story.lead_title"]:
+  //   - event-state.js sets the initial banner text from events.json
+  //   - this rotator then cycles through fresh headlines from the cache
+  // Cache path: data/sources/headlines-geopolitics.json (refreshed every 15 min)
   (function(){
     var textEl = document.getElementById('breaking-rotate-text');
     var linkEl = document.getElementById('breaking-rotate-link');
     if (!textEl) return;
+
     var stories = [];
     var idx = 0;
-    // Fetch live headlines in background, upgrade from static first impression
-    var rssUrl = 'https://news.google.com/rss/search?q=Iran+ceasefire+oil+OR+OPEC+oil+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en';
-    fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl) + '&count=8')
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        if (data.items && data.items.length > 0) {
-          stories = data.items.map(function(item) { return { text: item.title.toUpperCase(), link: item.link }; });
-          textEl.textContent = stories[0].text;
-          linkEl.href = stories[0].link;
-          setInterval(function() {
-            textEl.style.opacity = '0';
-            setTimeout(function() {
-              idx = (idx + 1) % stories.length;
-              textEl.textContent = stories[idx].text;
-              linkEl.href = stories[idx].link;
-              textEl.style.opacity = '1';
-            }, 500);
-          }, 8000);
-        }
-      }).catch(function(){});
+    var ROTATE_MS = 8000;
+
+    function startRotation() {
+      if (stories.length <= 1) return;
+      // Start rotation from index 1 (keep current text visible first cycle)
+      setInterval(function() {
+        textEl.style.opacity = '0';
+        setTimeout(function() {
+          idx = (idx + 1) % stories.length;
+          textEl.textContent = stories[idx].text;
+          linkEl.href = stories[idx].link;
+          textEl.style.opacity = '1';
+        }, 500);
+      }, ROTATE_MS);
+    }
+
+    function loadFromCache() {
+      return fetch('data/sources/headlines-geopolitics.json', { cache: 'no-store' })
+        .then(function(r){ if (!r.ok) throw new Error('cache ' + r.status); return r.json(); })
+        .then(function(data) {
+          var items = (data && data.stories) || [];
+          if (!items.length) throw new Error('cache empty');
+          stories = items.slice(0, 8).map(function(s) {
+            var title = (s.title || '').toUpperCase();
+            return { text: title, link: s.url || '#' };
+          });
+        });
+    }
+
+    function loadFromRss2Json() {
+      var rssUrl = 'https://news.google.com/rss/search?q=Iran+ceasefire+oil+OR+OPEC+oil+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en';
+      return fetch('https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl) + '&count=8')
+        .then(function(r){ if (!r.ok) throw new Error('rss2json ' + r.status); return r.json(); })
+        .then(function(data) {
+          if (!data.items || !data.items.length) throw new Error('rss2json empty');
+          stories = data.items.map(function(item) {
+            return { text: (item.title || '').toUpperCase(), link: item.link || '#' };
+          });
+        });
+    }
+
+    // Cache first, rss2json as emergency fallback. Don't touch textEl directly
+    // on first success — event-state.js already set it from top_story. Start
+    // rotation instead so users see the sequence.
+    loadFromCache()
+      .catch(function(err) {
+        console.debug('[banner-rotator] cache miss → rss2json:', err && err.message);
+        return loadFromRss2Json();
+      })
+      .then(startRotation)
+      .catch(function(err) {
+        // Both sources failed — banner keeps its event-state.js / fallback text silently
+        console.debug('[banner-rotator] both sources failed:', err && err.message);
+      });
   })();
   </script>
 
