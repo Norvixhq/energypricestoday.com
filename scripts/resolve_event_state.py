@@ -434,6 +434,49 @@ def extract_catalyst_date(clusters: list[dict]) -> tuple[str, str]:
     return "", ""
 
 
+# Canonical compact UI labels for glance-strip / badges.
+# Each entry: event key → {status: short_tag (≤ 20 chars)}.
+# These are AUTHORITATIVE — do not replace with truncated news headlines.
+# Empty string = don't render a tag for this status combo.
+STATUS_TAG_MAP: dict[str, dict[str, str]] = {
+    "hormuz_status": {
+        "OPEN":      "Traffic normal",
+        "CONTESTED": "Tankers at risk",
+        "CLOSED":    "Strait closed",
+        "UNKNOWN":   "Status unclear",
+    },
+    "us_iran_ceasefire": {
+        "HOLDING":   "In effect",
+        "RENEWED":   "Recently extended",
+        "FRAGILE":   "Under strain",
+        "BROKEN":    "Ceasefire broken",
+        "UNKNOWN":   "Status unclear",
+    },
+    "opec_plus_policy": {
+        "HOLDING":          "No change",
+        "INCREASING":       "Output rising",
+        "CUTTING":          "Output cut",
+        "EMERGENCY_MEETING":"Emergency meeting",
+        "UNKNOWN":          "Awaiting signal",
+    },
+}
+
+
+def build_status_tag(key: str, status: str, event_def: dict) -> str:
+    """Return short canonical UI label for an (event, status) pair.
+
+    Falls back to the status itself title-cased if no explicit mapping,
+    which is usually already short enough. Hard cap at 24 chars so it
+    never overflows a glance-strip subtext slot.
+    """
+    mapping = STATUS_TAG_MAP.get(key, {})
+    if status in mapping:
+        return mapping[status]
+    # Fallback: "EMERGENCY_MEETING" → "Emergency meeting"
+    fallback = status.replace("_", " ").title() if status else ""
+    return fallback[:24]
+
+
 def build_event(
     key: str,
     event_def: dict,
@@ -483,6 +526,7 @@ def build_event(
         "category": event_def["category"],
         "status": status,
         "status_detail": status_detail,
+        "status_tag": build_status_tag(key, status, event_def),
         "risk_level": event_def.get("risk_level_map", {}).get(status, "LOW"),
         "confidence": confidence,
         "last_confirmed": latest_confirm.isoformat() if latest_confirm else "",
@@ -504,8 +548,39 @@ def build_event(
         cdate, cdesc = extract_catalyst_date(matched)
         event["next_catalyst_date"] = cdate
         event["next_catalyst_description"] = cdesc
+        event["next_catalyst_micro"] = derive_catalyst_micro(cdesc, key)
 
     return event
+
+
+def derive_catalyst_micro(description: str, event_key: str) -> str:
+    """Return a compact ≤20-char label summarizing the catalyst event type.
+
+    Better than truncating the full description mid-word. Uses keyword
+    signals to pick from a small library of event labels.
+    """
+    if not description:
+        return ""
+    d = description.lower()
+    # Keyword → short label, ordered by specificity
+    rules = [
+        ("expir",     "Ceasefire expires"),
+        ("deadline",  "Deadline hits"),
+        ("extend",    "Extension vote"),
+        ("summit",    "Summit"),
+        ("meeting",   "Key meeting"),
+        ("talks",     "Talks resume"),
+        ("vote",      "Vote scheduled"),
+        ("sanction",  "Sanctions update"),
+        ("opec",      "OPEC meeting"),
+        ("ceasefire", "Ceasefire update"),
+    ]
+    for kw, label in rules:
+        if kw in d:
+            return label
+    # Fallback: first 20 chars from description, cut at word boundary
+    truncated = description[:20].rsplit(" ", 1)[0]
+    return truncated or description[:20]
 
 
 def build_composite_global_risk(events: dict[str, dict]) -> dict:
@@ -551,6 +626,19 @@ def build_composite_global_risk(events: dict[str, dict]) -> dict:
     summary_short = f"Global energy risk: {level.lower()}."
     summary_long = "Risk drivers: " + (", ".join(summary_parts) if summary_parts else "no major disruption")
 
+    # Compact UI label for glance-strip subtext. ≤ 24 chars.
+    # Uses raw driver tags (no "Hormuz"/"ceasefire" prefix) joined by +.
+    micro_parts = []
+    if hormuz.get("status") and hormuz["status"] != "OPEN":
+        micro_parts.append(hormuz["status"].lower())
+    if ceasefire.get("status") and ceasefire["status"] not in ("HOLDING", "RENEWED"):
+        micro_parts.append(ceasefire["status"].lower())
+    if opec.get("status") == "EMERGENCY_MEETING":
+        micro_parts.append("OPEC alert")
+    summary_micro = " + ".join(micro_parts) if micro_parts else "stable"
+    if len(summary_micro) > 24:
+        summary_micro = summary_micro[:24]
+
     return {
         "key": "global_risk_level",
         "display_name": "Global Energy Risk Level",
@@ -561,6 +649,7 @@ def build_composite_global_risk(events: dict[str, dict]) -> dict:
         "composite_of": ["hormuz_status", "us_iran_ceasefire", "opec_plus_policy"],
         "summary_short": summary_short,
         "summary_long": summary_long,
+        "summary_micro": summary_micro,
         "rationale": contributions,
         "dependent_modules": [
             "homepage.glance-strip.risk-level",

@@ -167,8 +167,8 @@ fbq('init','957762016897581');fbq('track','PageView');
                  data-event-bind="hormuz_status.status"
                  data-event-fallback="CLOSED">CLOSED</div>
             <div class="glance-item-sub"
-                 data-event-bind="hormuz_status.status_detail|truncate:32"
-                 data-event-fallback="re-closed Apr 18">re-closed Apr 18</div>
+                 data-event-bind="hormuz_status.status_tag"
+                 data-event-fallback="Strait closed">Strait closed</div>
           </div>
           <div class="glance-item">
             <div class="glance-item-label">U.S. Gas Avg</div>
@@ -181,7 +181,7 @@ fbq('init','957762016897581');fbq('track','PageView');
                  data-event-bind="global_risk_level.status"
                  data-event-fallback="HIGH">HIGH</div>
             <div class="glance-item-sub"
-                 data-event-bind="global_risk_level.summary_long|truncate:26"
+                 data-event-bind="global_risk_level.summary_micro"
                  data-event-fallback="Hormuz + ceasefire">Hormuz + ceasefire</div>
           </div>
           <div class="glance-item">
@@ -190,7 +190,7 @@ fbq('init','957762016897581');fbq('track','PageView');
                  data-event-bind="us_iran_ceasefire.next_catalyst_date|date_short"
                  data-event-fallback="Apr 21">Apr 21</div>
             <div class="glance-item-sub"
-                 data-event-bind="us_iran_ceasefire.next_catalyst_description|truncate:22"
+                 data-event-bind="us_iran_ceasefire.next_catalyst_micro"
                  data-event-fallback="Ceasefire expires">Ceasefire expires</div>
           </div>
         </div>
