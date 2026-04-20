@@ -153,6 +153,9 @@ def main() -> int:
 
     if total_changes == 0 and not args.force:
         log(f"autopilot: no-op — no meaningful changes (affected={affected})")
+        # Even on no-op, write health snapshot so freshness timestamps update.
+        # This is critical — it's the heartbeat monitoring relies on.
+        _write_health(args.verbose)
         return 0
 
     log(f"[plan] {total_changes} changes, {affected} page(s) affected")
@@ -167,6 +170,7 @@ def main() -> int:
     if code != 0:
         log(f"[render] FAILED exit={code}")
         log(output.strip()[-400:], also_print=args.verbose)
+        _write_health(args.verbose)  # log failure for health endpoint
         return 1
     for line in output.strip().split("\n")[-5:]:
         if line.strip():
@@ -182,12 +186,29 @@ def main() -> int:
         log(f"[validate] FAILED exit={code}")
         log(output.strip()[-400:])
         log("autopilot: REFUSING to proceed — manual review required")
+        _write_health(args.verbose)  # log failure for health endpoint
         return 1
 
     log("[validate] all checks pass")
     log("autopilot: render complete, ready to commit")
+
+    # Step 5 — Write health snapshot (Phase 5.1).
+    # Non-blocking: if this fails, autopilot still succeeded, we just lose
+    # the health snapshot for this cycle.
+    _write_health(args.verbose)
+
     log("═" * 60)
     return 0
+
+
+def _write_health(verbose: bool) -> None:
+    """Run write_health.py. Non-blocking — log failures and continue."""
+    code, output = run_script(SCRIPTS / "write_health.py", verbose=verbose)
+    last_line = output.strip().split("\n")[-1] if output.strip() else ""
+    if code == 0:
+        log(f"[health] {last_line}")
+    else:
+        log(f"[health] FAILED exit={code}: {last_line[:200]}")
 
 
 if __name__ == "__main__":
