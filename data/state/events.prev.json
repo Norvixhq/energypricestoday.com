@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-21T18:17:05.005918+00:00",
-  "previous_generated_at": "2026-04-21T17:14:39.189053+00:00",
-  "resolver_run_count": 26,
+  "generated_at": "2026-04-21T19:43:53.984275+00:00",
+  "previous_generated_at": "2026-04-21T18:17:05.005918+00:00",
+  "resolver_run_count": 27,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Strait of Hormuz blockade: India, China’s alternate oil supply cushion fades as Russian crude on water ru",
+      "status_detail": "Strait of Hormuz May Not Return to Normal, Whether It’s Open or Closed",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.957,
+      "confidence": 0.956,
       "last_confirmed": "2026-04-21T17:24:38+00:00",
-      "source_count": 8,
-      "summary_short": "South Korea turns to US, Australian crude as Hormuz disruption bites",
-      "summary_long": "South Korea turns to US, Australian crude as Hormuz disruption bites. Alternative routes for Middle East oil and gas due to Hormuz disruption",
+      "source_count": 7,
+      "summary_short": "Strait of Hormuz May Not Return to Normal, Whether It’s Open or Closed",
+      "summary_long": "Strait of Hormuz May Not Return to Normal, Whether It’s Open or Closed. Alternative routes for Middle East oil and gas due to Hormuz disruption",
       "evidence_cluster_ids": [
-        "c_79eb3a3b370665",
+        "c_aab23ba7560c2f",
         "c_1a500eb1877a22",
         "c_b7c687e2a482f5",
         "c_98fb1717855edb",
-        "c_a35116d85fd76f"
+        "c_79eb3a3b370665"
       ],
-      "evidence_count": 8,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b7c687e2a4 → CLOSED (kw='blockade', weight=0.55) [OPEN suppressed]",
-        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.22) [OPEN suppressed]",
-        "winning=CLOSED (0.77/0.77), conf=0.957"
+        "cluster c_aab23ba756 → CLOSED (kw='closed strait', weight=0.54)",
+        "cluster c_b7c687e2a4 → CLOSED (kw='blockade', weight=0.53) [OPEN suppressed]",
+        "winning=CLOSED (1.07/1.07), conf=0.956"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-21T17:18:23+00:00",
+      "last_confirmed": "2026-04-21T19:21:04+00:00",
       "source_count": 16,
-      "summary_short": "Dow slumps 250 points, oil prices surge as Iran cease-fire deadline approaches",
-      "summary_long": "Dow slumps 250 points, oil prices surge as Iran cease-fire deadline approaches. A timeline of how the Iran war shook oil prices — and what comes next",
+      "summary_short": "Iran's Commander Warns of Oil Industry Destruction",
+      "summary_long": "Iran's Commander Warns of Oil Industry Destruction. Stocks slip, oil climbs as US-Iran truce expiry looms",
       "evidence_cluster_ids": [
-        "c_68352aa08be39e",
+        "c_4e821add79ec56",
+        "c_43fe563f8a620c",
+        "c_50466256eb14bd",
         "c_2dba67d802925a",
-        "c_63ec6346e59fef",
-        "c_ec7ed82edfbf71",
-        "c_8ffcf5436dd539"
+        "c_63ec6346e59fef"
       ],
-      "evidence_count": 16,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -151,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_343cc2d7502bd2",
-      "lead_title": "WTI Crude Oil Futures Drop 1.8% to $88.04 Pre-Bell; Brent Futures Fall 0.5% to $95.05",
-      "lead_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObFdDdVZPVWVwWjNwT0k1Y1d3OWRzN2tlY0Fld1d4Q2VMWG41UlRtZ2Y1clZhVTUxYVQ1YjVleXU0cDY2b3NNM2Z1Q1k1NklNYTgwQkc4ZmNUUGlKb3phMFltc1l4NDkwTk5PSTcwNUNibkFwZGM2SzlmcFQ4MUgtZE1DT0pGZ0dzNlRJZjJnYmFiWC1CdDE5Z1BrU3c4ZjFFeDlNZVZnb2lXSEdZV0NpN0h4cTVYcWdkSHNNMlJ2cEhicjBQOWdSVU1wcTNXdw?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_635ee2cde666c8",
+      "lead_title": "Brent oil nears $100 as doubts grow about Iran peace talks with ceasefire set to end soon",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0w3aGtyaDFQdXc0SllZZGRzSzk5RkFXMVB5a2hkdjlNa1ZqWElPdDhwVldhQm4zRENQUW52WU9JUjkzNHJ5aG8yRFlLMGtzTTZEZ0VGV25INkJTZG9rMzNucncwNE5MZFlEX25IanJpVGp2ejJwbExwZmJ3SC1Rcml1LWliQl9OX1JrcU84MzJqVlV2NnJXc1k1V29tbE3SAaQBQVVfeXFMUGZRU0NDenhZYzdSdXRySWlTXzVzTDdwSDNScTJBZlp1V1k1eGdtUDNoM25tdUFwemJrcm1GclpGQkRMM1V4RlBJaXBEU0s0VkJDRFRpQnpDSms5R3VwT1cxWUhrNWxWWmJ1T1hwdmczQ2c4cGF0QzRkckx1bG1Eay1jMExHX0ZYcW5mb2FMQkV6QmYwMXhQRGNTVTIxUXpuX0dqbXQ?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 87.18,
-      "novelty": "growing",
-      "source_count": 7,
+      "score": 89.73,
+      "novelty": "new",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -170,7 +170,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.956, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
