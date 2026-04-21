@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-21T08:10:24.934980+00:00",
-  "previous_generated_at": "2026-04-21T06:08:12.429361+00:00",
-  "resolver_run_count": 19,
+  "generated_at": "2026-04-21T09:53:43.240186+00:00",
+  "previous_generated_at": "2026-04-21T08:10:24.934980+00:00",
+  "resolver_run_count": 20,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Oil retreats from Monday surge on optimism over Hormuz Strait reopening",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.859,
-      "last_confirmed": "2026-04-21T07:30:00+00:00",
-      "source_count": 9,
-      "summary_short": "Strait of Hormuz traffic drops sharply as Iran tensions rise, oil prices jump",
-      "summary_long": "Strait of Hormuz traffic drops sharply as Iran tensions rise, oil prices jump. Yanbu crude loadings fall 17% amid Hormuz disruption",
+      "confidence": 0.954,
+      "last_confirmed": "2026-04-21T09:38:08+00:00",
+      "source_count": 6,
+      "summary_short": "US-Iran peace talks: Why could oil prices stay above $85/barrel even if Strait of Hormuz opens? Explained",
+      "summary_long": "US-Iran peace talks: Why could oil prices stay above $85/barrel even if Strait of Hormuz opens? Explained. Opening Hormuz is the easy part. Restoring oil flows isn’t",
       "evidence_cluster_ids": [
-        "c_11957537b24e94",
+        "c_d8b57cb19f0514",
         "c_eca23a75019aad",
         "c_45ec86d08ef9de",
         "c_cfeb518fcd75d1",
-        "c_5f2b6f32347523"
+        "c_93ea859389b413"
       ],
-      "evidence_count": 8,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_cfeb518fcd → OPEN (kw='reopen', weight=0.49)",
-        "cluster c_c185e0cf6e → OPEN (kw='reopen', weight=0.22)",
-        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.32) [OPEN suppressed]",
-        "winning=OPEN (0.70/1.02), conf=0.859"
+        "cluster c_cfeb518fcd → OPEN (kw='reopen', weight=0.46)",
+        "winning=OPEN (0.46/0.46), conf=0.954"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-21T07:52:20+00:00",
-      "source_count": 13,
-      "summary_short": "India's March crude imports slide on Iran war, Russian volumes hit record high, data shows",
-      "summary_long": "India's March crude imports slide on Iran war, Russian volumes hit record high, data shows. Biofuels back in vogue as Iran war triggers oil price surge",
+      "last_confirmed": "2026-04-21T09:38:08+00:00",
+      "source_count": 14,
+      "summary_short": "Marine fuel blenders, refiners chase heavy sweet oil amid Iran war disruptions",
+      "summary_long": "Marine fuel blenders, refiners chase heavy sweet oil amid Iran war disruptions. US-Iran peace talks: Why could oil prices stay above $85/barrel even if Strait of Hormuz opens? Expl",
       "evidence_cluster_ids": [
+        "c_63ec6346e59fef",
+        "c_d8b57cb19f0514",
+        "c_9cd6e9d783d64e",
         "c_8ffcf5436dd539",
-        "c_fcc31129824c40",
-        "c_11957537b24e94",
-        "c_87e23c545b15b6",
-        "c_05b54a2ffe110c"
+        "c_ea3fb6c4f79a89"
       ],
-      "evidence_count": 11,
+      "evidence_count": 12,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -151,14 +149,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_86166924dd3ad1",
-      "lead_title": "Technical Analysis Report for April 21: Spot Gold, WTI Crude Oil Futures",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYzZleG9OcENvRHNoNjhseVo5cWZQWlJSYnBOT05Dc2hsN3UtVkgwaGFJelhkVmYwM1dwOFkwNk5iNnFudVd2cmt5YUd1NkJDNDVTaGRnUS01SmJEWDJsbGJmOENCYVNrQXlKdGdLUXlHOThmcno4Slh2eEQ5ZWRKV2NxWU00Y3o1aWdmODA2MmZLVzlLX1NwQ2RHRFE5WV9i?oc=5",
-      "lead_source": "富途牛牛",
+      "cluster_id": "c_41f6236e6906e9",
+      "lead_title": "WTI Crude Oil Surges Near $86.00 Amid Critical Uncertainty Over US-Iran Nuclear Talks",
+      "lead_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1GMkVBSDNiRko0Q3kxQm9oZVJXdnpYd3VLVDVUM0Rtc1p0NVc5bnMxMVdGQVVwUi1rRWxrU2RMSEdReFBlTUNWeA?oc=5",
+      "lead_source": "MEXC",
       "topic": "oil",
-      "score": 92.22,
+      "score": 91.91,
       "novelty": "new",
-      "source_count": 9,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -170,7 +168,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.859, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.954, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
