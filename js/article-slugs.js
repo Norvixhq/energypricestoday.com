@@ -208,6 +208,7 @@ const ARTICLE_SLUGS = {
   "Oil prices plunge 11% after Iran says Strait of Hormuz is open for commercial vessels": "oil-prices-plunge-11-after-iran-says-strait-of-hormuz-is-open-for-commercial-ves",
   "Oil prices plunge as Iran says Strait of Hormuz 'open' during ceasefire": "oil-prices-plunge-as-iran-says-strait-of-hormuz-open-during-ceasefire",
   "Oil prices rise after Trump says Iranian ship seized": "oil-prices-rise-after-trump-says-iranian-ship-seized",
+  "Oil prices today: Crude falls as upcoming US-Iran talks offsets supply disruption fears": "oil-prices-today-crude-falls-as-upcoming-us-iran-talks-offsets-supply-disruption",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
   "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration": "pakistan-fm-dar-working-to-bridge-us-iran-differences-before-tuesday-ceasefire-e",
