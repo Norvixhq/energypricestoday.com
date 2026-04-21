@@ -173,3 +173,17 @@
 [2026-04-21T00:03:09.175939+00:00] resolver: no state changes
 [2026-04-21T00:03:09.176498+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-21T00:03:09.176538+00:00] ════════════════════════════════════════════════════════════
+[2026-04-21T03:47:34.162824+00:00] resolver: start
+[2026-04-21T03:47:34.166972+00:00] resolver: scanning 269 clusters across 10 topics
+[2026-04-21T03:47:34.167412+00:00]   hormuz_status: OPEN (conf=0.829, freshness=fresh, clusters=11)
+[2026-04-21T03:47:34.168610+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=17)
+[2026-04-21T03:47:34.168722+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-21T03:47:34.168764+00:00]   global_risk_level: LOW (score=10)
+[2026-04-21T03:47:34.168928+00:00]   top_story: 'Brent crude oil prices surge as US-Iran ceasefire nears expi' (score=88.24)
+[2026-04-21T03:47:34.168990+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-04-21T03:47:34.169018+00:00]   Δ hormuz_status.status: 'CLOSED' → 'OPEN' (triggers_publish=True)
+[2026-04-21T03:47:34.169046+00:00]   Δ hormuz_status.risk_level: 'HIGH' → 'LOW' (triggers_publish=True)
+[2026-04-21T03:47:34.169071+00:00]   Δ global_risk_level.status: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-04-21T03:47:34.169095+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-04-21T03:47:34.169690+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-21T03:47:34.169729+00:00] ════════════════════════════════════════════════════════════
