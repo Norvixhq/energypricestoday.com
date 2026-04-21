@@ -63,9 +63,9 @@ const BREAKING_NEWS = [
   { title: "Oil prices jump after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Oil prices jump amid renewed tensions over the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
   { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Crude oil prices jump as rising US-Iran tensions keep Strait of Hormuz closed; Brent oil above $95 a barrel", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Prices Rally as U.S.-Iran Tensions Escalate", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
   { title: "Trading Desks Boom While Big Oil Output Stalls", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil Prices Rally as U.S.-Iran Tensions Escalate", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Brent oil spot price for actual cargo soars to $141, highest level since 2008 financial crisis", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
