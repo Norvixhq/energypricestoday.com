@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-21T23:12:34.358077+00:00",
-  "previous_generated_at": "2026-04-21T22:28:27.848301+00:00",
-  "resolver_run_count": 31,
+  "generated_at": "2026-04-21T23:55:47.546417+00:00",
+  "previous_generated_at": "2026-04-21T23:12:34.358077+00:00",
+  "resolver_run_count": 32,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Strait of Hormuz blockade: India, China’s alternate oil supply cushion fades as Russian crude on water ru",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.958,
+      "confidence": 0.955,
       "last_confirmed": "2026-04-21T23:07:22+00:00",
-      "source_count": 6,
-      "summary_short": "Alternative routes for Middle East oil and gas due to Hormuz disruption",
-      "summary_long": "Alternative routes for Middle East oil and gas due to Hormuz disruption. The Strait of Hormuz crisis affects more than just oil. Here are 9 other commodities",
+      "source_count": 7,
+      "summary_short": "Strait of Hormuz blockade: India, China’s alternate oil supply cushion fades as Russian crude on water ru",
+      "summary_long": "Strait of Hormuz blockade: India, China’s alternate oil supply cushion fades as Russian crude on water ru. Alternative routes for Middle East oil and gas due to Hormuz disruption",
       "evidence_cluster_ids": [
-        "c_0e6da84f26ae81",
-        "c_78e71d61fc6449",
         "c_1a500eb1877a22",
         "c_b7c687e2a482f5",
-        "c_102fd962c2a8df"
+        "c_0e6da84f26ae81",
+        "c_78e71d61fc6449",
+        "c_23ac776a2e6c50"
       ],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b7c687e2a4 → CLOSED (kw='blockade', weight=0.47) [OPEN suppressed]",
-        "winning=CLOSED (0.47/0.47), conf=0.958"
+        "cluster c_b7c687e2a4 → CLOSED (kw='blockade', weight=0.45) [OPEN suppressed]",
+        "cluster c_c626f8654e → CLOSED (kw='blockade', weight=0.54) [OPEN suppressed]",
+        "winning=CLOSED (0.99/0.99), conf=0.955"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,16 +55,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-21T22:40:11+00:00",
-      "source_count": 19,
-      "summary_short": "Iran’s War on Iraq’s Oil Industry",
-      "summary_long": "Iran’s War on Iraq’s Oil Industry. U.S. operations against Iran expand to Indian Ocean with tanker capture",
+      "last_confirmed": "2026-04-21T23:51:04+00:00",
+      "source_count": 18,
+      "summary_short": "OTR: War's Ripple Effect: How the Iran Conflict Could Starve Asia",
+      "summary_long": "OTR: War's Ripple Effect: How the Iran Conflict Could Starve Asia. Oil Futures Settle Higher With U.S.-Iran Talks Undecided",
       "evidence_cluster_ids": [
-        "c_19e82cf1c61552",
-        "c_216b7f74e0c1da",
+        "c_88d5f7f8119f4a",
         "c_5b28debf95108a",
         "c_2dba67d802925a",
-        "c_8cf6d0b97a767d"
+        "c_19e82cf1c61552",
+        "c_216b7f74e0c1da"
       ],
       "evidence_count": 18,
       "affected_pages": [
@@ -150,13 +151,13 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_9970edc2c39c63",
-      "lead_title": "US judge blocks Trump administration actions stymieing wind, solar projects",
-      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMTNrRlNuU0l5LXpzaFN2N216R2hUNlZxM3loUEZpT2JLSzd6TXRCMkMzdzdOaGpHR0FzdjM4SFducndZX0V4YXF2ZXBMSWNGNi03Umw5LUtIUmxrVVdfU1U3STFpQ2lDSFNVS0VSX1NRdmM0OTlsUHJjcE5hV0d4YnhURXRMdWJCMTFJdXQzM19KX284MjlYd1lSY0p2TjR6b19ZQW9xRE42MDdwWVlDalBxZmxPZWVGeGhCY201bkZkMnhnU0E?oc=5",
-      "lead_source": "Reuters",
-      "topic": "renewables",
-      "score": 85.46,
-      "novelty": "growing",
+      "cluster_id": "c_51ae0e7e784558",
+      "lead_title": "Brent oil nears $100 as doubts grow about Iran peace talks with ceasefire set to end soon",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa0w3aGtyaDFQdXc0SllZZGRzSzk5RkFXMVB5a2hkdjlNa1ZqWElPdDhwVldhQm4zRENQUW52WU9JUjkzNHJ5aG8yRFlLMGtzTTZEZ0VGV25INkJTZG9rMzNucncwNE5MZFlEX25IanJpVGp2ejJwbExwZmJ3SC1Rcml1LWliQl9OX1JrcU84MzJqVlV2NnJXc1k1V29tbE3SAaQBQVVfeXFMUGZRU0NDenhZYzdSdXRySWlTXzVzTDdwSDNScTJBZlp1V1k1eGdtUDNoM25tdUFwemJrcm1GclpGQkRMM1V4RlBJaXBEU0s0VkJDRFRpQnpDSms5R3VwT1cxWUhrNWxWWmJ1T1hwdmczQ2c4cGF0QzRkckx1bG1Eay1jMExHX0ZYcW5mb2FMQkV6QmYwMXhQRGNTVTIxUXpuX0dqbXQ?oc=5",
+      "lead_source": "CNBC",
+      "topic": "oil",
+      "score": 82.72,
+      "novelty": "ongoing",
       "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
@@ -169,7 +170,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.958, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
