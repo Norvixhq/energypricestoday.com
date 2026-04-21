@@ -257,3 +257,17 @@
 [2026-04-21T15:55:55.270426+00:00] resolver: no state changes
 [2026-04-21T15:55:55.270898+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-21T15:55:55.270927+00:00] ════════════════════════════════════════════════════════════
+[2026-04-21T17:14:39.182496+00:00] resolver: start
+[2026-04-21T17:14:39.186768+00:00] resolver: scanning 273 clusters across 10 topics
+[2026-04-21T17:14:39.187176+00:00]   hormuz_status: CLOSED (conf=0.957, freshness=fresh, clusters=6)
+[2026-04-21T17:14:39.188474+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=21)
+[2026-04-21T17:14:39.188593+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-21T17:14:39.188639+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-21T17:14:39.188808+00:00]   top_story: 'US judge blocks Trump administration actions stymieing wind,' (score=89.02)
+[2026-04-21T17:14:39.188905+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-04-21T17:14:39.188940+00:00]   Δ hormuz_status.status: 'OPEN' → 'CLOSED' (triggers_publish=True)
+[2026-04-21T17:14:39.188979+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'HIGH' (triggers_publish=True)
+[2026-04-21T17:14:39.189006+00:00]   Δ global_risk_level.status: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-21T17:14:39.189030+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-21T17:14:39.189666+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-21T17:14:39.189707+00:00] ════════════════════════════════════════════════════════════
