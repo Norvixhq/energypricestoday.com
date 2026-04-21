@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil prices rise after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Current price of oil as of April 21, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil prices jump amid renewed tensions over the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Prices Jump and Stocks Waver on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Prices Today: Trump Expects a ‘Great Deal’ With Iran. What Crude Is Doing.", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil prices rise after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil Prices Today: Trump Expects a ‘Great Deal’ With Iran. What Crude Is Doing.", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil prices jump amid renewed tensions over the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil Prices Jump and Stocks Waver on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
   { title: "Oil prices today: Crude falls as upcoming US-Iran talks offsets supply disruption fears", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil Prices Rally as U.S.-Iran Tensions Escalate", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Trading Desks Boom While Big Oil Output Stalls", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
