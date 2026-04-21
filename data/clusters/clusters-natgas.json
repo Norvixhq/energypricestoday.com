@@ -1,11 +1,11 @@
 {
   "topic": "natgas",
-  "generated_at": "2026-04-21T06:08:12.354322+00:00",
+  "generated_at": "2026-04-21T08:10:24.852873+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_9e5d0d6b666055",
@@ -17,24 +17,24 @@
         "Henry Hub",
         "natural gas"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-20T10:00:11+00:00",
+      "earliest_seen": "2026-04-19T11:38:17+00:00",
       "latest_seen": "2026-04-20T10:00:11+00:00",
-      "age_hours": 20.13,
-      "score": 56.92,
+      "age_hours": 22.17,
+      "score": 50.7,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.92,
+        "recency_points": 11.7,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "52312a692ec6b229",
@@ -43,6 +43,15 @@
           "source": "TradingView",
           "source_type": "rss",
           "published_at": "2026-04-20T10:00:11+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "14e21a4c38c675a5",
+          "title": "Henry Hub Natural Gas Weekly Futures (Oct 26 D16) Trade Ideas — NYMEX:HHW16V2026",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBoX1ItcWdRaGE1WEJfcHhrakZVc1FKN29vVHhWSWh3OGxnOUN3THBxdGs1MF9YU1d0ZW1hX1ZoRWZqMlB1TjlmNW95WWNUcUp6YnlZektYbk9oZV82WVVmRUZPbTIwcUg1TXdFdmV4ZFRoVHd3SDhMZVBOeHJsMzA?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-04-19T11:38:17+00:00",
           "confidence": 0.7
         }
       ],
@@ -66,16 +75,16 @@
       ],
       "earliest_seen": "2026-04-20T19:44:06+00:00",
       "latest_seen": "2026-04-20T19:44:06+00:00",
-      "age_hours": 10.4,
-      "score": 52.76,
+      "age_hours": 12.44,
+      "score": 46.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.76,
+        "recency_points": 17.54,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -92,87 +101,63 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_083c47bf6e5c5b",
+      "cluster_id": "c_52b789091e504e",
       "topic": "natgas",
-      "lead_title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
-      "lead_source": "Natural Gas Intelligence",
+      "lead_title": "Henry Hub Natural Gas Weekly Futures (Oct 26 D09) Trade Ideas — NYMEX:HHW09V2026",
+      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOURuUXRsaHpSVVp0bDV2dDhacDgtV002aTUzWk4yOTdRbGtDeDBvSlhvQjNwU0MwR0xKbnhKVTI2WUF5U09qU3lCa2owOTlvSm1ya0lfcjFWbHN6d2Nkc2cwYlRjZ1NzU3E2UHYxN1RUcjQxckhiOGs3cEdCemJBSXJB?oc=5",
+      "lead_source": "TradingView",
       "canonical_entities": [
         "Henry Hub",
         "natural gas"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 3,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-01-08T08:00:00+00:00",
-      "latest_seen": "2026-01-08T08:00:00+00:00",
-      "age_hours": 2470.14,
+      "earliest_seen": "2026-04-08T18:54:22+00:00",
+      "latest_seen": "2026-04-10T15:16:12+00:00",
+      "age_hours": 256.9,
       "score": 44.0,
       "score_components": {
-        "source_count_points": 5,
+        "source_count_points": 10,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "9f5dbfb5625df812",
-          "title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
+          "headline_id": "1de60eb520a52e04",
+          "title": "Henry Hub Natural Gas Weekly Futures (Oct 26 D09) Trade Ideas — NYMEX:HHW09V2026",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOURuUXRsaHpSVVp0bDV2dDhacDgtV002aTUzWk4yOTdRbGtDeDBvSlhvQjNwU0MwR0xKbnhKVTI2WUF5U09qU3lCa2owOTlvSm1ya0lfcjFWbHN6d2Nkc2cwYlRjZ1NzU3E2UHYxN1RUcjQxckhiOGs3cEdCemJBSXJB?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-04-10T15:16:12+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "a7248de3b55765a8",
+          "title": "Micro Henry Hub Natural Gas Futures (Apr 2026) Trade Ideas — NYMEX:MNGJ2026",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9uMlZjMDB1TGhleE5JbFlqakI5QndCdVhZYzZ4clhhZDh4TmJVQl9iSGFrNmY5TzZtR3VIVkI5aTdTMWtHbEgxZFVlM292dDMyUllZUGVsYTJRTDBoTGNTSktaakc2UEpwMnBpVk92dk1BX0kwVVIzTElsSUU?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-04-10T15:16:12+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "f3eccddbc6fa326d",
+          "title": "Midday Snapshot: Natural Gas Cash Prices Slide as Henry Hub Hits 17-Month Low",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdUQ1M1ZTeENnVjBWRVhCN3FjS0k1TzBJcWl6a3RRcVRYREQ5MDFBeEFuWlJvQnJ0clNVeUtLa1U3YzI4YXJqVVkxOTh3eXpweW1tYlM1djN0WWllMU9ZUGtMenpxaFJ3YndDRDZYd1BsTkFLV3FFTVJuWnJHX0VLVjVrMV9JLTViaVFDQlI1Z29RbVJ2WXBHUllmaEpDdU53U3N6SDI4cU1OakNaOXZ3?oc=5",
           "source": "Natural Gas Intelligence",
           "source_type": "rss",
-          "published_at": "2026-01-08T08:00:00+00:00",
+          "published_at": "2026-04-08T18:54:22+00:00",
           "confidence": 0.7
         }
       ],
       "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6c4d4722e27fe0",
-      "topic": "natgas",
-      "lead_title": "U.S. LNG Profits Exposed as Market Again Shifts, Global Natural Gas Prices Converge",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYkx0OXhmdFpLQWlXQVA2UXU3TUVBaUdpNEtQLVViUFNuNjFXbjlDa3NnOEg3WnV5QTFVZVRuaEoyOFFDSGdRRFd6NjAwTElPUlE0cVEtTjk1SXBQRjRCRUc2OXZ1aU80OWlMNnppcnluT1FOdXRCTHJ0YzVSQ1RQd0ZWb0QtSGEzRnN3OUQwSlZLTTU5RmV1RWxOTFlTdjZ4bUlnd2tDdXV2cUVkVFBmRmdXcnc?oc=5",
-      "lead_source": "Natural Gas Intelligence",
-      "canonical_entities": [
-        "LNG",
-        "natural gas"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-01-08T08:00:00+00:00",
-      "latest_seen": "2026-01-08T08:00:00+00:00",
-      "age_hours": 2470.14,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "23dd6cf4e5bc250e",
-          "title": "U.S. LNG Profits Exposed as Market Again Shifts, Global Natural Gas Prices Converge",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQYkx0OXhmdFpLQWlXQVA2UXU3TUVBaUdpNEtQLVViUFNuNjFXbjlDa3NnOEg3WnV5QTFVZVRuaEoyOFFDSGdRRFd6NjAwTElPUlE0cVEtTjk1SXBQRjRCRUc2OXZ1aU80OWlMNnppcnluT1FOdXRCTHJ0YzVSQ1RQd0ZWb0QtSGEzRnN3OUQwSlZLTTU5RmV1RWxOTFlTdjZ4bUlnd2tDdXV2cUVkVFBmRmdXcnc?oc=5",
-          "source": "Natural Gas Intelligence",
-          "source_type": "rss",
-          "published_at": "2026-01-08T08:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
       "low_priority": false
     },
     {
@@ -189,11 +174,11 @@
       ],
       "earliest_seen": "2026-04-20T09:56:00+00:00",
       "latest_seen": "2026-04-20T09:56:00+00:00",
-      "age_hours": 20.2,
-      "score": 37.48,
+      "age_hours": 22.24,
+      "score": 36.26,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.88,
+        "recency_points": 11.66,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -230,7 +215,7 @@
       ],
       "earliest_seen": "2026-03-27T07:00:00+00:00",
       "latest_seen": "2026-03-27T07:00:00+00:00",
-      "age_hours": 599.14,
+      "age_hours": 601.17,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -271,7 +256,7 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 767.14,
+      "age_hours": 769.17,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -312,7 +297,7 @@
       ],
       "earliest_seen": "2026-02-19T08:00:00+00:00",
       "latest_seen": "2026-02-19T08:00:00+00:00",
-      "age_hours": 1462.14,
+      "age_hours": 1464.17,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -338,108 +323,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_52b789091e504e",
-      "topic": "natgas",
-      "lead_title": "Henry Hub Natural Gas Weekly Futures (Oct 26 D09) Trade Ideas — NYMEX:HHW09V2026",
-      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOURuUXRsaHpSVVp0bDV2dDhacDgtV002aTUzWk4yOTdRbGtDeDBvSlhvQjNwU0MwR0xKbnhKVTI2WUF5U09qU3lCa2owOTlvSm1ya0lfcjFWbHN6d2Nkc2cwYlRjZ1NzU3E2UHYxN1RUcjQxckhiOGs3cEdCemJBSXJB?oc=5",
-      "lead_source": "TradingView",
-      "canonical_entities": [
-        "Henry Hub",
-        "natural gas"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-08T18:54:22+00:00",
-      "latest_seen": "2026-04-10T15:16:12+00:00",
-      "age_hours": 254.87,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "1de60eb520a52e04",
-          "title": "Henry Hub Natural Gas Weekly Futures (Oct 26 D09) Trade Ideas — NYMEX:HHW09V2026",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPOURuUXRsaHpSVVp0bDV2dDhacDgtV002aTUzWk4yOTdRbGtDeDBvSlhvQjNwU0MwR0xKbnhKVTI2WUF5U09qU3lCa2owOTlvSm1ya0lfcjFWbHN6d2Nkc2cwYlRjZ1NzU3E2UHYxN1RUcjQxckhiOGs3cEdCemJBSXJB?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-04-10T15:16:12+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "f3eccddbc6fa326d",
-          "title": "Midday Snapshot: Natural Gas Cash Prices Slide as Henry Hub Hits 17-Month Low",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdUQ1M1ZTeENnVjBWRVhCN3FjS0k1TzBJcWl6a3RRcVRYREQ5MDFBeEFuWlJvQnJ0clNVeUtLa1U3YzI4YXJqVVkxOTh3eXpweW1tYlM1djN0WWllMU9ZUGtMenpxaFJ3YndDRDZYd1BsTkFLV3FFTVJuWnJHX0VLVjVrMV9JLTViaVFDQlI1Z29RbVJ2WXBHUllmaEpDdU53U3N6SDI4cU1OakNaOXZ3?oc=5",
-          "source": "Natural Gas Intelligence",
-          "source_type": "rss",
-          "published_at": "2026-04-08T18:54:22+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_601166d1f65a3c",
-      "topic": "natgas",
-      "lead_title": "Henry Hub natural gas prices close at $6.68, after rising 27% in one day and breaking $6 barrier",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQemNjYVJzYlNJZDZ3UVVnTFVQRGZkeTNjZUFReTRLZkIwOVRJY2F4YlpseEdNcW5VeGI2WlVwSmttZ1BHY0hCeFRta0ZqVnpXWThCZjVOQ0tyV3lDbEliV1NjNlBlTjRhQUkzUEUySmJrY1J6OHMybl9xelpkMlNxSmwtTDE4YkhBNi0wRUtXSUphWl93OXE3eERlNDhFOTFEMkJ1M0cwN25ZWFp2YUprbFBjRjNhX1pnWmpEbmZYbmFNV0l2TllLN3pvMDJGVHRSV0E?oc=5",
-      "lead_source": "The Corner .eu",
-      "canonical_entities": [
-        "Henry Hub",
-        "natural gas"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-01-26T08:00:00+00:00",
-      "latest_seen": "2026-01-28T08:00:00+00:00",
-      "age_hours": 1990.14,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0fccc43943279227",
-          "title": "Henry Hub natural gas prices close at $6.68, after rising 27% in one day and breaking $6 barrier",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQemNjYVJzYlNJZDZ3UVVnTFVQRGZkeTNjZUFReTRLZkIwOVRJY2F4YlpseEdNcW5VeGI2WlVwSmttZ1BHY0hCeFRta0ZqVnpXWThCZjVOQ0tyV3lDbEliV1NjNlBlTjRhQUkzUEUySmJrY1J6OHMybl9xelpkMlNxSmwtTDE4YkhBNi0wRUtXSUphWl93OXE3eERlNDhFOTFEMkJ1M0cwN25ZWFp2YUprbFBjRjNhX1pnWmpEbmZYbmFNV0l2TllLN3pvMDJGVHRSV0E?oc=5",
-          "source": "The Corner .eu",
-          "source_type": "rss",
-          "published_at": "2026-01-28T08:00:00+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "6c0400d1525cb02f",
-          "title": "Arctic Blast Paralyzes U.S. Natural Gas Markets: Henry Hub Prices Rocket 50% Amid Production Freeze-Offs",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNQVRqQ2Vjc3p6WVY1b2pWRS10Sll6ZFBCdDVjXzZFOUtZMGpieHpKRk80a2ZaTWhncVhybXdycGZrTHNfblZFMGtjTFAtcjlGbnNTdWswUmNIUUpZeEFGbFByWnUwcjJpYldQNG9kUVZhRTM4QzZfTVA1SHFQcGhCZzdfcGVnek5RLTd2Tko1bGJ4ZDdlTEpsSUtxZ05pb0ZlNHIyT21RSmVsX2NUSmEtdXNlVnZUZDVPMXpJTmNzU1JtWjl3ak5FQ3lOOUl5dmxqMVRRS1FOVnJhSlQ2YkhWOXFiOHJTdmFxdDVtZ1FsQUw2WFhJR2YwUDlTcWVxeVpsX3NtY2l3?oc=5",
-          "source": "FinancialContent",
-          "source_type": "rss",
-          "published_at": "2026-01-26T08:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_101c64f911667a",
       "topic": "natgas",
       "lead_title": "US winter storm derails Henry Hub's recent bearish turn",
@@ -455,7 +338,7 @@
       ],
       "earliest_seen": "2026-01-22T08:00:00+00:00",
       "latest_seen": "2026-01-22T08:00:00+00:00",
-      "age_hours": 2134.14,
+      "age_hours": 2136.17,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -496,7 +379,7 @@
       ],
       "earliest_seen": "2026-01-19T08:00:00+00:00",
       "latest_seen": "2026-01-19T08:00:00+00:00",
-      "age_hours": 2206.14,
+      "age_hours": 2208.17,
       "score": 30.1,
       "score_components": {
         "source_count_points": 5,
@@ -537,7 +420,7 @@
       ],
       "earliest_seen": "2025-12-31T08:00:00+00:00",
       "latest_seen": "2025-12-31T08:00:00+00:00",
-      "age_hours": 2662.14,
+      "age_hours": 2664.17,
       "score": 30.1,
       "score_components": {
         "source_count_points": 5,
@@ -579,7 +462,7 @@
       ],
       "earliest_seen": "2026-04-02T19:41:04+00:00",
       "latest_seen": "2026-04-02T19:41:04+00:00",
-      "age_hours": 442.45,
+      "age_hours": 444.49,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -621,7 +504,7 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 767.14,
+      "age_hours": 769.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -663,7 +546,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 791.14,
+      "age_hours": 793.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -705,7 +588,7 @@
       ],
       "earliest_seen": "2026-03-14T12:00:28+00:00",
       "latest_seen": "2026-03-14T12:00:28+00:00",
-      "age_hours": 906.13,
+      "age_hours": 908.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -747,7 +630,7 @@
       ],
       "earliest_seen": "2026-03-12T07:00:00+00:00",
       "latest_seen": "2026-03-12T07:00:00+00:00",
-      "age_hours": 959.14,
+      "age_hours": 961.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -789,7 +672,7 @@
       ],
       "earliest_seen": "2026-03-10T07:00:00+00:00",
       "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 1007.14,
+      "age_hours": 1009.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -831,7 +714,7 @@
       ],
       "earliest_seen": "2026-03-09T07:00:00+00:00",
       "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1031.14,
+      "age_hours": 1033.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -873,7 +756,7 @@
       ],
       "earliest_seen": "2026-02-20T08:00:00+00:00",
       "latest_seen": "2026-02-20T08:00:00+00:00",
-      "age_hours": 1438.14,
+      "age_hours": 1440.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -915,7 +798,7 @@
       ],
       "earliest_seen": "2026-02-18T08:00:00+00:00",
       "latest_seen": "2026-02-19T08:00:00+00:00",
-      "age_hours": 1462.14,
+      "age_hours": 1464.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -966,7 +849,7 @@
       ],
       "earliest_seen": "2026-02-04T08:00:00+00:00",
       "latest_seen": "2026-02-04T08:00:00+00:00",
-      "age_hours": 1822.14,
+      "age_hours": 1824.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1008,7 +891,7 @@
       ],
       "earliest_seen": "2026-02-04T08:00:00+00:00",
       "latest_seen": "2026-02-04T08:00:00+00:00",
-      "age_hours": 1822.14,
+      "age_hours": 1824.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1050,7 +933,7 @@
       ],
       "earliest_seen": "2026-01-28T08:00:00+00:00",
       "latest_seen": "2026-01-28T08:00:00+00:00",
-      "age_hours": 1990.14,
+      "age_hours": 1992.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1076,6 +959,48 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_601166d1f65a3c",
+      "topic": "natgas",
+      "lead_title": "Henry Hub natural gas prices close at $6.68, after rising 27% in one day and breaking $6 barrier",
+      "lead_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQemNjYVJzYlNJZDZ3UVVnTFVQRGZkeTNjZUFReTRLZkIwOVRJY2F4YlpseEdNcW5VeGI2WlVwSmttZ1BHY0hCeFRta0ZqVnpXWThCZjVOQ0tyV3lDbEliV1NjNlBlTjRhQUkzUEUySmJrY1J6OHMybl9xelpkMlNxSmwtTDE4YkhBNi0wRUtXSUphWl93OXE3eERlNDhFOTFEMkJ1M0cwN25ZWFp2YUprbFBjRjNhX1pnWmpEbmZYbmFNV0l2TllLN3pvMDJGVHRSV0E?oc=5",
+      "lead_source": "The Corner .eu",
+      "canonical_entities": [
+        "Henry Hub",
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-01-28T08:00:00+00:00",
+      "latest_seen": "2026-01-28T08:00:00+00:00",
+      "age_hours": 1992.17,
+      "score": 29.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "0fccc43943279227",
+          "title": "Henry Hub natural gas prices close at $6.68, after rising 27% in one day and breaking $6 barrier",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQemNjYVJzYlNJZDZ3UVVnTFVQRGZkeTNjZUFReTRLZkIwOVRJY2F4YlpseEdNcW5VeGI2WlVwSmttZ1BHY0hCeFRta0ZqVnpXWThCZjVOQ0tyV3lDbEliV1NjNlBlTjRhQUkzUEUySmJrY1J6OHMybl9xelpkMlNxSmwtTDE4YkhBNi0wRUtXSUphWl93OXE3eERlNDhFOTFEMkJ1M0cwN25ZWFp2YUprbFBjRjNhX1pnWmpEbmZYbmFNV0l2TllLN3pvMDJGVHRSV0E?oc=5",
+          "source": "The Corner .eu",
+          "source_type": "rss",
+          "published_at": "2026-01-28T08:00:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_99fbcf417eaead",
       "topic": "natgas",
       "lead_title": "Midmorning Markets: Henry Hub Natural Gas Spot Price Jumps Past $5",
@@ -1092,7 +1017,7 @@
       ],
       "earliest_seen": "2026-01-21T08:00:00+00:00",
       "latest_seen": "2026-01-21T08:00:00+00:00",
-      "age_hours": 2158.14,
+      "age_hours": 2160.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1134,7 +1059,7 @@
       ],
       "earliest_seen": "2026-01-14T08:00:00+00:00",
       "latest_seen": "2026-01-14T08:00:00+00:00",
-      "age_hours": 2326.14,
+      "age_hours": 2328.17,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1153,6 +1078,48 @@
           "source": "U.S. Energy Information Administration (EIA) (.gov)",
           "source_type": "rss",
           "published_at": "2026-01-14T08:00:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_083c47bf6e5c5b",
+      "topic": "natgas",
+      "lead_title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
+      "lead_source": "Natural Gas Intelligence",
+      "canonical_entities": [
+        "Henry Hub",
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-01-08T08:00:00+00:00",
+      "latest_seen": "2026-01-08T08:00:00+00:00",
+      "age_hours": 2472.17,
+      "score": 29.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "9f5dbfb5625df812",
+          "title": "Will Henry Hub Premium Hold? Natural Gas Outlook Still Murky",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVjNweXhKSWRtWThnOUtKNlJ3Wkd6aTRjMG1OZnYyRjFwdWN1RVkyaGNaYWk2bXBYMkx3bWFxOTNGRnc5Zm8yT0xYNmpydnkxTENhZlZlSXRsb3ZmLVQwa0tTTFI1ZU11VzVOd190aFFEVmMydUU0dTBtTGhidkdWUXVMbnl1UmtwT2hGMWtBOEpjZVlmR2JJcA?oc=5",
+          "source": "Natural Gas Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-01-08T08:00:00+00:00",
           "confidence": 0.7
         }
       ],
