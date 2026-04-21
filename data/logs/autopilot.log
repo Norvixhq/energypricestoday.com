@@ -161,3 +161,13 @@
 [2026-04-20T23:12:52.935749+00:00] [detect] [detect_changes] 0 meaningful changes across 2 sources; 0 page(s) affected
 [2026-04-20T23:12:52.935950+00:00] autopilot: no-op — no meaningful changes (affected=0)
 [2026-04-20T23:12:52.972669+00:00] [health] [write_health] status=healthy — all checks pass
+[2026-04-21T00:01:23.043164+00:00] ════════════════════════════════════════════════════════════
+[2026-04-21T00:01:23.043265+00:00] autopilot: start
+[2026-04-21T00:01:27.028963+00:00] [observers] commodity_prices: OK — OK: fetched 10 commodity prices
+[2026-04-21T00:01:56.961129+00:00] [observers] gas_prices: OK — Both AAA and EIA failed; kept previous snapshot
+[2026-04-21T00:03:09.026740+00:00] [observers] headlines: OK — [fetch_headlines] ✓ cache updated (300 total stories, 0 failed topics)
+[2026-04-21T00:03:09.137304+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-04-21T00:03:09.181079+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-04-21T00:03:09.210635+00:00] [detect]   • gas_prices_aaa: status fresh -> failed
+[2026-04-21T00:03:09.210807+00:00] autopilot: no-op — no meaningful changes (affected=3)
+[2026-04-21T00:03:09.247603+00:00] [health] [write_health] status=degraded codes=[OBSERVER_FAILED]

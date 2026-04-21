@@ -1,11 +1,11 @@
 {
   "topic": "renewables",
-  "generated_at": "2026-04-20T23:12:52.836850+00:00",
+  "generated_at": "2026-04-21T00:03:09.115576+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 29,
+  "clusters_found": 27,
   "clusters": [
     {
       "cluster_id": "c_4ee20d6b44fd2c",
@@ -17,24 +17,24 @@
         "solar",
         "wind"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-20T22:12:35+00:00",
-      "latest_seen": "2026-04-20T23:02:55+00:00",
-      "age_hours": 0.17,
-      "score": 76.9,
+      "earliest_seen": "2026-04-20T13:40:04+00:00",
+      "latest_seen": "2026-04-20T23:35:00+00:00",
+      "age_hours": 0.47,
+      "score": 75.72,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.9,
-        "source_quality_points": 24.0,
+        "source_count_points": 15,
+        "recency_points": 24.72,
+        "source_quality_points": 23.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "86424458f695e7b0",
@@ -46,6 +46,57 @@
           "confidence": 0.9
         },
         {
+          "headline_id": "c835bcae1b020ccf",
+          "title": "Interior’s Burgum accused of 'kneecapping’ wind and solar power in favor of oil, gas",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWk5Xck5yZEdsZ0wyeU16OUNYcnZqVEkxVklBajdJcldKY21uY0tDN1RJOGxzV1VLSlUyNFVPZ1F6VHVRQVhTbW9xenlYTXJBcVJHVExBQWE1Sl9XcjlZbGhQcW9acmNuNHNodEtGb0M4V0lnYTdVOENvSldiRGNxaFcyQmVQLW5HbVZybkItNGRuc0FZa3h5SzdMU1Q3aHlRUHFkZjdsZ0F1dFlxME9JNVg4UQ?oc=5",
+          "source": "News From The States",
+          "source_type": "rss",
+          "published_at": "2026-04-20T23:35:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "3978e58dec36cd9a",
+          "title": "Researchers survey the challenges of integrating wind and solar into power grids",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lcGxKZzVjckJ3Z1MycmJWZklQaWFsTGJDenNqS0NhclhEQ0ljYjM4aXBEZkJKN1lUNEpzMkI2Z28tR1VNNmpjMjF3OXBjM0ZjYmxXamNmWm9INTVyN21QRzZ5a3NnRnoxZVdJWEtFcGo3M1E?oc=5",
+          "source": "Tech Xplore",
+          "source_type": "rss",
+          "published_at": "2026-04-20T13:40:04+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3272b9fcf73846",
+      "topic": "renewables",
+      "lead_title": "Wind And Solar Focus Threaten America’s And South Africa’s Economy – OpEd",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZzNGR1RnV0ZNZVA0ZzBsQWVmN05tcllxRlJ1RHB4Q05mTnVoVFB6Y05SUHE2YkhOdVotU1hzYjUybE5fUDVPRDFqdmo4MXlPcENObkdOU2pHX0VVS1ZaYjJ0aWN2bm1memFtTHdHWEJWR1BxcGRyZnR6NVdGMnhvdmNfNHlOOXlwSXlLWWJjeEgxTFIzbF9JNWxGeldEdTZ3TWs3YU1WMnVjWDhjM3c?oc=5",
+      "lead_source": "Eurasia Review",
+      "canonical_entities": [
+        "solar",
+        "wind"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T15:51:35+00:00",
+      "latest_seen": "2026-04-20T22:12:35+00:00",
+      "age_hours": 1.84,
+      "score": 72.89,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 23.89,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
           "headline_id": "c05d502d00da6c8d",
           "title": "Wind And Solar Focus Threaten America’s And South Africa’s Economy – OpEd",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZzNGR1RnV0ZNZVA0ZzBsQWVmN05tcllxRlJ1RHB4Q05mTnVoVFB6Y05SUHE2YkhOdVotU1hzYjUybE5fUDVPRDFqdmo4MXlPcENObkdOU2pHX0VVS1ZaYjJ0aWN2bm1memFtTHdHWEJWR1BxcGRyZnR6NVdGMnhvdmNfNHlOOXlwSXlLWWJjeEgxTFIzbF9JNWxGeldEdTZ3TWs3YU1WMnVjWDhjM3c?oc=5",
@@ -53,6 +104,54 @@
           "source_type": "rss",
           "published_at": "2026-04-20T22:12:35+00:00",
           "confidence": 0.7
+        },
+        {
+          "headline_id": "70533caacdde1d05",
+          "title": "Wind, Solar Build-Out Sets Records in 2025",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBGNTlqeHJPS3NnRmJQTDNjb29YcksyUUhWc2YtVDNDdGNBeWFNaTd3eUphZzdFdmtEZTVkNkMtMllpeGpESklwMzBPNXRDR3Z0MUZWMnNOdnh0cFZnR2I5OHVwd1NTMUxGMnJYTDlyREk0Zw?oc=5",
+          "source": "Energy Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-04-20T15:51:35+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_b2e7ee80db449f",
+      "topic": "renewables",
+      "lead_title": "The 'dumb machine' promising a clean energy breakthrough",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PMkprZzlFMkxWd1AtbkRhZ3prNFJ6NEwxWE5idngtMkd0RmdfSWlzejlPcXV3MGJJRVc1MjJXd0hrdmljaTNHSTV4b2ZFTEdRUUxJX3ExWDhGdw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T23:09:41+00:00",
+      "latest_seen": "2026-04-20T23:09:41+00:00",
+      "age_hours": 0.89,
+      "score": 64.97,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.47,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "70f16a3ef25e5930",
+          "title": "The 'dumb machine' promising a clean energy breakthrough",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1PMkprZzlFMkxWd1AtbkRhZ3prNFJ6NEwxWE5idngtMkd0RmdfSWlzejlPcXV3MGJJRVc1MjJXd0hrdmljaTNHSTV4b2ZFTEdRUUxJX3ExWDhGdw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-04-20T23:09:41+00:00",
+          "confidence": 0.85
         }
       ],
       "top_tier": true,
@@ -62,8 +161,8 @@
       "cluster_id": "c_5ea11ae75d5047",
       "topic": "renewables",
       "lead_title": "Renewable energies overtook global electricity demand last year, led by solar growth in China, India",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDVJa0NHYWg4MUl1VGN4c2FQZmdNeXNReHYzRjR5NUNWMlFLdlBmT0diY0I4bkt1R1VuV0tfTFlnNzBjUEtOT01heWc3Q1Q0NnY2bWJBLUl1VFRwMEZ5dkJ2WnhIV21kNGtzV0hrZFB6TFdpTnUxaXFFYUNyQlVjV3dGdU1uSEF6TktYRnAxeDdfOWtuckwxNjJlaHpMX2tXZUg0TlFGcXV0cFNVdkJNaA?oc=5",
-      "lead_source": "Newsday",
+      "lead_url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPY2tjTno5TWM4ZHo0d0VrNnlLNUNBV2M2YzlBbm1lcTRyRGd1NVpUM1BqS2lGa2tBWWpZYWVrODg4ejdBMGI0SlZydEFEbE85VC1JeWVheVZ3RlpnSnRFZFlLeGtuZmw3YlhDNWt0bEhMbHBVelpnaXRvZHRxa0w5MER2VW81V3AwOW5mOEV2NEkyUllBRk0zVW9najdZWG5mM1drRkpwanhXOTU4MERlWXNwLWtHMnp3STNQU0ZiOGZ0b1hQUkp6RVdsSmNVZUdKUXR2SEFSelVWaDhxY1l2RE5uS2hKY2ZwdmRCaGdybDBCb3UwQnk5VWczUQ?oc=5",
+      "lead_source": "The Washington Post",
       "canonical_entities": [
         "renewable",
         "solar"
@@ -73,31 +172,31 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-20T23:06:21+00:00",
-      "latest_seen": "2026-04-20T23:06:21+00:00",
-      "age_hours": 0.11,
-      "score": 68.93,
+      "earliest_seen": "2026-04-20T23:23:52+00:00",
+      "latest_seen": "2026-04-20T23:23:52+00:00",
+      "age_hours": 0.65,
+      "score": 58.61,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.93,
+        "recency_points": 24.61,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "8c282cbc128d0d0c",
           "title": "Renewable energies overtook global electricity demand last year, led by solar growth in China, India",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNDVJa0NHYWg4MUl1VGN4c2FQZmdNeXNReHYzRjR5NUNWMlFLdlBmT0diY0I4bkt1R1VuV0tfTFlnNzBjUEtOT01heWc3Q1Q0NnY2bWJBLUl1VFRwMEZ5dkJ2WnhIV21kNGtzV0hrZFB6TFdpTnUxaXFFYUNyQlVjV3dGdU1uSEF6TktYRnAxeDdfOWtuckwxNjJlaHpMX2tXZUg0TlFGcXV0cFNVdkJNaA?oc=5",
-          "source": "Newsday",
+          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPY2tjTno5TWM4ZHo0d0VrNnlLNUNBV2M2YzlBbm1lcTRyRGd1NVpUM1BqS2lGa2tBWWpZYWVrODg4ejdBMGI0SlZydEFEbE85VC1JeWVheVZ3RlpnSnRFZFlLeGtuZmw3YlhDNWt0bEhMbHBVelpnaXRvZHRxa0w5MER2VW81V3AwOW5mOEV2NEkyUllBRk0zVW9najdZWG5mM1drRkpwanhXOTU4MERlWXNwLWtHMnp3STNQU0ZiOGZ0b1hQUkp6RVdsSmNVZUdKUXR2SEFSelVWaDhxY1l2RE5uS2hKY2ZwdmRCaGdybDBCb3UwQnk5VWczUQ?oc=5",
+          "source": "The Washington Post",
           "source_type": "rss",
-          "published_at": "2026-04-20T23:06:21+00:00",
+          "published_at": "2026-04-20T23:23:52+00:00",
           "confidence": 0.7
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -117,17 +216,17 @@
       ],
       "earliest_seen": "2026-04-20T22:58:27+00:00",
       "latest_seen": "2026-04-20T22:58:27+00:00",
-      "age_hours": 0.24,
-      "score": 68.86,
+      "age_hours": 1.08,
+      "score": 58.35,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.86,
+        "recency_points": 24.35,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "760e5977a34af07b",
@@ -137,210 +236,6 @@
           "source_type": "rss",
           "published_at": "2026-04-20T22:58:27+00:00",
           "confidence": 0.7
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_8cd8b2f26b8ce8",
-      "topic": "renewables",
-      "lead_title": "Clean energy generation exceeded rise in global electricity demand in 2025",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNjQ4U0dQNmhPZHNzSGR2b2dTUDJlRlYzUng5OEUzaGNHejAxdjZwN1BwOXl2dDdJMWxGeXdCblBXR0VkNmZsU3Z2MnU3MDl1OFJuaFRMWG1FcFFsdVNIdnMyeXVQNVoyUEZzbUtxaDZValFLT1IwOElPcXJVdlR3T2RqaWcwd0tWbU1tRlFfOTlja2JRa1kyTWJDdDZWTXJlYXJSMWVxMkdtdDE4MmQxclZJTFVPdVRFZkZSQw?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T23:03:00+00:00",
-      "latest_seen": "2026-04-20T23:03:00+00:00",
-      "age_hours": 0.16,
-      "score": 63.9,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.9,
-        "source_quality_points": 24.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "9ad9af9c16631be4",
-          "title": "Clean energy generation exceeded rise in global electricity demand in 2025",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNjQ4U0dQNmhPZHNzSGR2b2dTUDJlRlYzUng5OEUzaGNHejAxdjZwN1BwOXl2dDdJMWxGeXdCblBXR0VkNmZsU3Z2MnU3MDl1OFJuaFRMWG1FcFFsdVNIdnMyeXVQNVoyUEZzbUtxaDZValFLT1IwOElPcXJVdlR3T2RqaWcwd0tWbU1tRlFfOTlja2JRa1kyTWJDdDZWTXJlYXJSMWVxMkdtdDE4MmQxclZJTFVPdVRFZkZSQw?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-04-20T23:03:00+00:00",
-          "confidence": 0.8
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_603d7d7d92d2c5",
-      "topic": "renewables",
-      "lead_title": "Researchers survey the challenges of integrating wind and solar into power grids",
-      "lead_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lcGxKZzVjckJ3Z1MycmJWZklQaWFsTGJDenNqS0NhclhEQ0ljYjM4aXBEZkJKN1lUNEpzMkI2Z28tR1VNNmpjMjF3OXBjM0ZjYmxXamNmWm9INTVyN21QRzZ5a3NnRnoxZVdJWEtFcGo3M1E?oc=5",
-      "lead_source": "Tech Xplore",
-      "canonical_entities": [
-        "solar",
-        "wind"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T13:40:04+00:00",
-      "latest_seen": "2026-04-20T13:40:04+00:00",
-      "age_hours": 9.55,
-      "score": 63.27,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.27,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "3978e58dec36cd9a",
-          "title": "Researchers survey the challenges of integrating wind and solar into power grids",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5lcGxKZzVjckJ3Z1MycmJWZklQaWFsTGJDenNqS0NhclhEQ0ljYjM4aXBEZkJKN1lUNEpzMkI2Z28tR1VNNmpjMjF3OXBjM0ZjYmxXamNmWm9INTVyN21QRzZ5a3NnRnoxZVdJWEtFcGo3M1E?oc=5",
-          "source": "Tech Xplore",
-          "source_type": "rss",
-          "published_at": "2026-04-20T13:40:04+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f9c5d143583a49",
-      "topic": "renewables",
-      "lead_title": "Shawnee hospital uses solar farm to turn sunlight into clean energy",
-      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaGJIZF9kYlVjZm5OWGlwbU80YjB6OUcwN0Jab3g3NFp4Qk02a2ZTMERSbGp0ODkzTFZjYUpad2dCUE1IY0RpX2tSZS1qOUNXX3hyX3ZpWi1mQmJXbENJZ291UUpwbW54Q203cVFSeUxuVjloZEh6Q3FQMGNxU3JsRm1DdVB3TlVrZnc?oc=5",
-      "lead_source": "KOCO",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T22:33:00+00:00",
-      "latest_seen": "2026-04-20T22:33:00+00:00",
-      "age_hours": 0.66,
-      "score": 63.1,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.6,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "88bc21cbf6b6500c",
-          "title": "Shawnee hospital uses solar farm to turn sunlight into clean energy",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaGJIZF9kYlVjZm5OWGlwbU80YjB6OUcwN0Jab3g3NFp4Qk02a2ZTMERSbGp0ODkzTFZjYUpad2dCUE1IY0RpX2tSZS1qOUNXX3hyX3ZpWi1mQmJXbENJZ291UUpwbW54Q203cVFSeUxuVjloZEh6Q3FQMGNxU3JsRm1DdVB3TlVrZnc?oc=5",
-          "source": "KOCO",
-          "source_type": "rss",
-          "published_at": "2026-04-20T22:33:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7aebf43bc4b21a",
-      "topic": "renewables",
-      "lead_title": "How Enlight Renewable Energy Ltd. (ENLT) Affects Rotational Strategy Timing",
-      "lead_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX1hrdVNCbGdvTDVKdkRfZmdZZ1E2N0FabDRFZndldElzNUExMkp5eFZ6bDFMeVRJcmlXS1NpTVdScHRIa3NzQmw0a1BBb0hCVkU4ZkNLWnZRaUhIejNObVJuUXlVNW5aOWVFaU5mbnpkUzctUDFYVnNuWF8zeWpPbFM3NVB5VklkZ3ZnalZtZ1RZQ2FhU1ZRWDB1SlVLMVBiUVljTERjSDJsSmpDT3hjRUZodTJ4QXpVdUFsSDBqRzRYWXR4WWRZX29CTGJTQkVPak8zQ200SzNmMmlXak9WNlNfN2NuTlVk?oc=5",
-      "lead_source": "Stock Traders Daily",
-      "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T18:36:02+00:00",
-      "latest_seen": "2026-04-20T18:36:02+00:00",
-      "age_hours": 4.61,
-      "score": 60.73,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.23,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "d8624abde0085dd6",
-          "title": "How Enlight Renewable Energy Ltd. (ENLT) Affects Rotational Strategy Timing",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX1hrdVNCbGdvTDVKdkRfZmdZZ1E2N0FabDRFZndldElzNUExMkp5eFZ6bDFMeVRJcmlXS1NpTVdScHRIa3NzQmw0a1BBb0hCVkU4ZkNLWnZRaUhIejNObVJuUXlVNW5aOWVFaU5mbnpkUzctUDFYVnNuWF8zeWpPbFM3NVB5VklkZ3ZnalZtZ1RZQ2FhU1ZRWDB1SlVLMVBiUVljTERjSDJsSmpDT3hjRUZodTJ4QXpVdUFsSDBqRzRYWXR4WWRZX29CTGJTQkVPak8zQ200SzNmMmlXak9WNlNfN2NuTlVk?oc=5",
-          "source": "Stock Traders Daily",
-          "source_type": "rss",
-          "published_at": "2026-04-20T18:36:02+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3c009c17dafe48",
-      "topic": "renewables",
-      "lead_title": "Ameresco and Sunel secure contract to deliver 83 MW solar EPC project in Greece",
-      "lead_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUkxhREgybHYzRlhDazE5Tm11V0xKdXhxZU12V1VsTUFCWUVJNjhhSjFPa19CVnFuVTVHa29oZVJuSEJiZE10NFM1cXdUcmpuVHBpSGVudXg5MTlJTVlkWUlaWFRSZmtnaXl6aWhpNVdkczB0MXpfZFhDN2wxbXBoWQ?oc=5",
-      "lead_source": "Energies Media",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T17:19:55+00:00",
-      "latest_seen": "2026-04-20T17:19:55+00:00",
-      "age_hours": 5.88,
-      "score": 59.97,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.47,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "224a06101f96aa6d",
-          "title": "Ameresco and Sunel secure contract to deliver 83 MW solar EPC project in Greece",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUkxhREgybHYzRlhDazE5Tm11V0xKdXhxZU12V1VsTUFCWUVJNjhhSjFPa19CVnFuVTVHa29oZVJuSEJiZE10NFM1cXdUcmpuVHBpSGVudXg5MTlJTVlkWUlaWFRSZmtnaXl6aWhpNVdkczB0MXpfZFhDN2wxbXBoWQ?oc=5",
-          "source": "Energies Media",
-          "source_type": "rss",
-          "published_at": "2026-04-20T17:19:55+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -363,11 +258,11 @@
       ],
       "earliest_seen": "2026-04-20T16:05:48+00:00",
       "latest_seen": "2026-04-20T16:05:48+00:00",
-      "age_hours": 7.12,
-      "score": 54.73,
+      "age_hours": 7.96,
+      "score": 54.23,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.73,
+        "recency_points": 20.23,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -389,6 +284,86 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_8cd8b2f26b8ce8",
+      "topic": "renewables",
+      "lead_title": "Clean energy generation exceeded rise in global electricity demand in 2025",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNjQ4U0dQNmhPZHNzSGR2b2dTUDJlRlYzUng5OEUzaGNHejAxdjZwN1BwOXl2dDdJMWxGeXdCblBXR0VkNmZsU3Z2MnU3MDl1OFJuaFRMWG1FcFFsdVNIdnMyeXVQNVoyUEZzbUtxaDZValFLT1IwOElPcXJVdlR3T2RqaWcwd0tWbU1tRlFfOTlja2JRa1kyTWJDdDZWTXJlYXJSMWVxMkdtdDE4MmQxclZJTFVPdVRFZkZSQw?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T23:03:00+00:00",
+      "latest_seen": "2026-04-20T23:03:00+00:00",
+      "age_hours": 1.0,
+      "score": 53.4,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.4,
+        "source_quality_points": 24.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "9ad9af9c16631be4",
+          "title": "Clean energy generation exceeded rise in global electricity demand in 2025",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNjQ4U0dQNmhPZHNzSGR2b2dTUDJlRlYzUng5OEUzaGNHejAxdjZwN1BwOXl2dDdJMWxGeXdCblBXR0VkNmZsU3Z2MnU3MDl1OFJuaFRMWG1FcFFsdVNIdnMyeXVQNVoyUEZzbUtxaDZValFLT1IwOElPcXJVdlR3T2RqaWcwd0tWbU1tRlFfOTlja2JRa1kyTWJDdDZWTXJlYXJSMWVxMkdtdDE4MmQxclZJTFVPdVRFZkZSQw?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-04-20T23:03:00+00:00",
+          "confidence": 0.8
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f9c5d143583a49",
+      "topic": "renewables",
+      "lead_title": "Shawnee hospital uses solar farm to turn sunlight into clean energy",
+      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaGJIZF9kYlVjZm5OWGlwbU80YjB6OUcwN0Jab3g3NFp4Qk02a2ZTMERSbGp0ODkzTFZjYUpad2dCUE1IY0RpX2tSZS1qOUNXX3hyX3ZpWi1mQmJXbENJZ291UUpwbW54Q203cVFSeUxuVjloZEh6Q3FQMGNxU3JsRm1DdVB3TlVrZnc?oc=5",
+      "lead_source": "KOCO",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T22:33:00+00:00",
+      "latest_seen": "2026-04-20T22:33:00+00:00",
+      "age_hours": 1.5,
+      "score": 52.6,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.1,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "88bc21cbf6b6500c",
+          "title": "Shawnee hospital uses solar farm to turn sunlight into clean energy",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaGJIZF9kYlVjZm5OWGlwbU80YjB6OUcwN0Jab3g3NFp4Qk02a2ZTMERSbGp0ODkzTFZjYUpad2dCUE1IY0RpX2tSZS1qOUNXX3hyX3ZpWi1mQmJXbENJZ291UUpwbW54Q203cVFSeUxuVjloZEh6Q3FQMGNxU3JsRm1DdVB3TlVrZnc?oc=5",
+          "source": "KOCO",
+          "source_type": "rss",
+          "published_at": "2026-04-20T22:33:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_05f68b69533cff",
       "topic": "renewables",
       "lead_title": "Renewable energy isn’t lagging behind, we are",
@@ -404,11 +379,11 @@
       ],
       "earliest_seen": "2026-04-20T22:04:39+00:00",
       "latest_seen": "2026-04-20T22:04:39+00:00",
-      "age_hours": 1.14,
-      "score": 52.82,
+      "age_hours": 1.98,
+      "score": 52.31,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.32,
+        "recency_points": 23.81,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -443,11 +418,11 @@
       ],
       "earliest_seen": "2026-04-20T13:13:00+00:00",
       "latest_seen": "2026-04-20T13:13:00+00:00",
-      "age_hours": 10.0,
-      "score": 52.5,
+      "age_hours": 10.84,
+      "score": 52.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.0,
+        "recency_points": 18.5,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -484,11 +459,11 @@
       ],
       "earliest_seen": "2026-04-20T21:30:00+00:00",
       "latest_seen": "2026-04-20T21:30:00+00:00",
-      "age_hours": 1.71,
-      "score": 52.47,
+      "age_hours": 2.55,
+      "score": 51.97,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.97,
+        "recency_points": 23.47,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -503,6 +478,47 @@
           "source": "Yahoo Finance",
           "source_type": "rss",
           "published_at": "2026-04-20T21:30:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d9fc24f76bf972",
+      "topic": "renewables",
+      "lead_title": "California’s oldest congregation supports Episcopal energy independence goals with solar array",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbzV4Znpjc3plN0lDV2VVMUNtMmt6ZlRkQ1NxVnk4a0hwZ1lYQWRnbjRzVXlXT0RZalMzUWtYbVBFTzFsOUdPTHJMZ2pmZF9MSFZZaGhhTElySlRqT1FFTGlSWWJLOVlRTWRqSjlFa2dyd2NlVmdQRjhEdW52dTREdmJ2TGtpTDRfREM3MzM4aThwd2lIdlBQRHJuVmppMW9vazVnbHdNWHhQMlN1c2JZNGlGbXdYSWgzTE1LYTcteF80enBPek8tcHpNVUVEUm9tN0Ezbg?oc=5",
+      "lead_source": "Episcopal News Service",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T20:58:31+00:00",
+      "latest_seen": "2026-04-20T20:58:31+00:00",
+      "age_hours": 3.08,
+      "score": 51.65,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.15,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "491d87935733ba05",
+          "title": "California’s oldest congregation supports Episcopal energy independence goals with solar array",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbzV4Znpjc3plN0lDV2VVMUNtMmt6ZlRkQ1NxVnk4a0hwZ1lYQWRnbjRzVXlXT0RZalMzUWtYbVBFTzFsOUdPTHJMZ2pmZF9MSFZZaGhhTElySlRqT1FFTGlSWWJLOVlRTWRqSjlFa2dyd2NlVmdQRjhEdW52dTREdmJ2TGtpTDRfREM3MzM4aThwd2lIdlBQRHJuVmppMW9vazVnbHdNWHhQMlN1c2JZNGlGbXdYSWgzTE1LYTcteF80enBPek8tcHpNVUVEUm9tN0Ezbg?oc=5",
+          "source": "Episcopal News Service",
+          "source_type": "rss",
+          "published_at": "2026-04-20T20:58:31+00:00",
           "confidence": 0.65
         }
       ],
@@ -525,11 +541,11 @@
       ],
       "earliest_seen": "2026-04-20T20:22:00+00:00",
       "latest_seen": "2026-04-20T20:22:00+00:00",
-      "age_hours": 2.85,
-      "score": 51.79,
+      "age_hours": 3.69,
+      "score": 51.29,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.29,
+        "recency_points": 22.79,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -566,11 +582,11 @@
       ],
       "earliest_seen": "2026-04-20T20:20:13+00:00",
       "latest_seen": "2026-04-20T20:20:13+00:00",
-      "age_hours": 2.88,
-      "score": 51.77,
+      "age_hours": 3.72,
+      "score": 51.27,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.27,
+        "recency_points": 22.77,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -607,11 +623,11 @@
       ],
       "earliest_seen": "2026-04-20T20:16:00+00:00",
       "latest_seen": "2026-04-20T20:16:00+00:00",
-      "age_hours": 2.95,
-      "score": 51.73,
+      "age_hours": 3.79,
+      "score": 51.23,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.23,
+        "recency_points": 22.73,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -626,47 +642,6 @@
           "source": "FOX5 Vegas",
           "source_type": "rss",
           "published_at": "2026-04-20T20:16:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d9fc24f76bf972",
-      "topic": "renewables",
-      "lead_title": "California’s oldest congregation supports Episcopal energy independence goals with solar array",
-      "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbzV4Znpjc3plN0lDV2VVMUNtMmt6ZlRkQ1NxVnk4a0hwZ1lYQWRnbjRzVXlXT0RZalMzUWtYbVBFTzFsOUdPTHJMZ2pmZF9MSFZZaGhhTElySlRqT1FFTGlSWWJLOVlRTWRqSjlFa2dyd2NlVmdQRjhEdW52dTREdmJ2TGtpTDRfREM3MzM4aThwd2lIdlBQRHJuVmppMW9vazVnbHdNWHhQMlN1c2JZNGlGbXdYSWgzTE1LYTcteF80enBPek8tcHpNVUVEUm9tN0Ezbg?oc=5",
-      "lead_source": "Episcopal News Service",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T20:12:19+00:00",
-      "latest_seen": "2026-04-20T20:12:19+00:00",
-      "age_hours": 3.01,
-      "score": 51.69,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.19,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "491d87935733ba05",
-          "title": "California’s oldest congregation supports Episcopal energy independence goals with solar array",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbzV4Znpjc3plN0lDV2VVMUNtMmt6ZlRkQ1NxVnk4a0hwZ1lYQWRnbjRzVXlXT0RZalMzUWtYbVBFTzFsOUdPTHJMZ2pmZF9MSFZZaGhhTElySlRqT1FFTGlSWWJLOVlRTWRqSjlFa2dyd2NlVmdQRjhEdW52dTREdmJ2TGtpTDRfREM3MzM4aThwd2lIdlBQRHJuVmppMW9vazVnbHdNWHhQMlN1c2JZNGlGbXdYSWgzTE1LYTcteF80enBPek8tcHpNVUVEUm9tN0Ezbg?oc=5",
-          "source": "Episcopal News Service",
-          "source_type": "rss",
-          "published_at": "2026-04-20T20:12:19+00:00",
           "confidence": 0.65
         }
       ],
@@ -689,11 +664,11 @@
       ],
       "earliest_seen": "2026-04-20T20:04:20+00:00",
       "latest_seen": "2026-04-20T20:04:20+00:00",
-      "age_hours": 3.14,
-      "score": 51.61,
+      "age_hours": 3.98,
+      "score": 51.11,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.11,
+        "recency_points": 22.61,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -730,11 +705,11 @@
       ],
       "earliest_seen": "2026-04-20T19:32:50+00:00",
       "latest_seen": "2026-04-20T19:32:50+00:00",
-      "age_hours": 3.67,
-      "score": 51.3,
+      "age_hours": 4.51,
+      "score": 50.8,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.8,
+        "recency_points": 22.3,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -771,11 +746,11 @@
       ],
       "earliest_seen": "2026-04-20T19:07:39+00:00",
       "latest_seen": "2026-04-20T19:07:39+00:00",
-      "age_hours": 4.09,
-      "score": 51.05,
+      "age_hours": 4.93,
+      "score": 50.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.55,
+        "recency_points": 22.04,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -812,11 +787,11 @@
       ],
       "earliest_seen": "2026-04-20T18:43:13+00:00",
       "latest_seen": "2026-04-20T18:43:13+00:00",
-      "age_hours": 4.49,
-      "score": 50.8,
+      "age_hours": 5.33,
+      "score": 50.3,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.3,
+        "recency_points": 21.8,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -831,6 +806,88 @@
           "source": "Macau Business",
           "source_type": "rss",
           "published_at": "2026-04-20T18:43:13+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7aebf43bc4b21a",
+      "topic": "renewables",
+      "lead_title": "How Enlight Renewable Energy Ltd. (ENLT) Affects Rotational Strategy Timing",
+      "lead_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX1hrdVNCbGdvTDVKdkRfZmdZZ1E2N0FabDRFZndldElzNUExMkp5eFZ6bDFMeVRJcmlXS1NpTVdScHRIa3NzQmw0a1BBb0hCVkU4ZkNLWnZRaUhIejNObVJuUXlVNW5aOWVFaU5mbnpkUzctUDFYVnNuWF8zeWpPbFM3NVB5VklkZ3ZnalZtZ1RZQ2FhU1ZRWDB1SlVLMVBiUVljTERjSDJsSmpDT3hjRUZodTJ4QXpVdUFsSDBqRzRYWXR4WWRZX29CTGJTQkVPak8zQ200SzNmMmlXak9WNlNfN2NuTlVk?oc=5",
+      "lead_source": "Stock Traders Daily",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T18:36:02+00:00",
+      "latest_seen": "2026-04-20T18:36:02+00:00",
+      "age_hours": 5.45,
+      "score": 50.23,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 21.73,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "d8624abde0085dd6",
+          "title": "How Enlight Renewable Energy Ltd. (ENLT) Affects Rotational Strategy Timing",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNX1hrdVNCbGdvTDVKdkRfZmdZZ1E2N0FabDRFZndldElzNUExMkp5eFZ6bDFMeVRJcmlXS1NpTVdScHRIa3NzQmw0a1BBb0hCVkU4ZkNLWnZRaUhIejNObVJuUXlVNW5aOWVFaU5mbnpkUzctUDFYVnNuWF8zeWpPbFM3NVB5VklkZ3ZnalZtZ1RZQ2FhU1ZRWDB1SlVLMVBiUVljTERjSDJsSmpDT3hjRUZodTJ4QXpVdUFsSDBqRzRYWXR4WWRZX29CTGJTQkVPak8zQ200SzNmMmlXak9WNlNfN2NuTlVk?oc=5",
+          "source": "Stock Traders Daily",
+          "source_type": "rss",
+          "published_at": "2026-04-20T18:36:02+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3c009c17dafe48",
+      "topic": "renewables",
+      "lead_title": "Ameresco and Sunel secure contract to deliver 83 MW solar EPC project in Greece",
+      "lead_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUkxhREgybHYzRlhDazE5Tm11V0xKdXhxZU12V1VsTUFCWUVJNjhhSjFPa19CVnFuVTVHa29oZVJuSEJiZE10NFM1cXdUcmpuVHBpSGVudXg5MTlJTVlkWUlaWFRSZmtnaXl6aWhpNVdkczB0MXpfZFhDN2wxbXBoWQ?oc=5",
+      "lead_source": "Energies Media",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T17:19:55+00:00",
+      "latest_seen": "2026-04-20T17:19:55+00:00",
+      "age_hours": 6.72,
+      "score": 49.47,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 20.97,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "224a06101f96aa6d",
+          "title": "Ameresco and Sunel secure contract to deliver 83 MW solar EPC project in Greece",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUkxhREgybHYzRlhDazE5Tm11V0xKdXhxZU12V1VsTUFCWUVJNjhhSjFPa19CVnFuVTVHa29oZVJuSEJiZE10NFM1cXdUcmpuVHBpSGVudXg5MTlJTVlkWUlaWFRSZmtnaXl6aWhpNVdkczB0MXpfZFhDN2wxbXBoWQ?oc=5",
+          "source": "Energies Media",
+          "source_type": "rss",
+          "published_at": "2026-04-20T17:19:55+00:00",
           "confidence": 0.65
         }
       ],
@@ -853,11 +910,11 @@
       ],
       "earliest_seen": "2026-04-20T17:10:38+00:00",
       "latest_seen": "2026-04-20T17:10:38+00:00",
-      "age_hours": 6.04,
-      "score": 49.88,
+      "age_hours": 6.88,
+      "score": 49.37,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.38,
+        "recency_points": 20.87,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -894,11 +951,11 @@
       ],
       "earliest_seen": "2026-04-20T16:26:26+00:00",
       "latest_seen": "2026-04-20T16:26:26+00:00",
-      "age_hours": 6.77,
-      "score": 49.44,
+      "age_hours": 7.61,
+      "score": 48.93,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.94,
+        "recency_points": 20.43,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -935,11 +992,11 @@
       ],
       "earliest_seen": "2026-04-20T07:07:30+00:00",
       "latest_seen": "2026-04-20T07:07:30+00:00",
-      "age_hours": 16.09,
-      "score": 49.35,
+      "age_hours": 16.93,
+      "score": 48.84,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.35,
+        "recency_points": 14.84,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -976,11 +1033,11 @@
       ],
       "earliest_seen": "2026-04-20T16:03:28+00:00",
       "latest_seen": "2026-04-20T16:03:28+00:00",
-      "age_hours": 7.16,
-      "score": 49.21,
+      "age_hours": 7.99,
+      "score": 48.7,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.71,
+        "recency_points": 20.2,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -1002,88 +1059,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_a7bd108d0003e7",
-      "topic": "renewables",
-      "lead_title": "Slew of solar installations strengthen Texan energy grid | Projects Weekly",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWHMxR2NXZWx6di1kQ0dsZzlWdTVrb3gtVzE4WGd2ZEM2MmRRVExyM0xJNEhsRTVDanVCWWtsQlE1ODNyMW5VQzJMOWlsZW1jUXlKbXBpSlFGT3JxcXM3b3JTR3d0VDJYSnJvdV9yUTducEU2Y2lsMm0wTHR6UW1BV0ZEUnhleFFITmFudjJWWndXcDFxLVd3YmoyMElzc0oxdlFMWEQ0dmcweTFsS0tR?oc=5",
-      "lead_source": "Solar Builder",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T16:03:24+00:00",
-      "latest_seen": "2026-04-20T16:03:24+00:00",
-      "age_hours": 7.16,
-      "score": 49.21,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.71,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "99d5a825024d96af",
-          "title": "Slew of solar installations strengthen Texan energy grid | Projects Weekly",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWHMxR2NXZWx6di1kQ0dsZzlWdTVrb3gtVzE4WGd2ZEM2MmRRVExyM0xJNEhsRTVDanVCWWtsQlE1ODNyMW5VQzJMOWlsZW1jUXlKbXBpSlFGT3JxcXM3b3JTR3d0VDJYSnJvdV9yUTducEU2Y2lsMm0wTHR6UW1BV0ZEUnhleFFITmFudjJWWndXcDFxLVd3YmoyMElzc0oxdlFMWEQ0dmcweTFsS0tR?oc=5",
-          "source": "Solar Builder",
-          "source_type": "rss",
-          "published_at": "2026-04-20T16:03:24+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_653e1d10d39318",
-      "topic": "renewables",
-      "lead_title": "Standard Energy Showcases Vertically Integrated PV Supply Chain at SOLARTECH INDONESIA 2026, Serving Clean Energy Markets in the United States, India, Europe, Southeast Asia and Worldwide",
-      "lead_url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQM0Z6dkNON3I1bW1GUU9YLXRRSHlpd0lKdHJPalVoMElBY2JwSWlibG1EVDNHckJoNEdLN2JWRmwxbkRoaUJLZlpCRHhYUGV3ejBFZ0NodE40amFlelFfX2I5ODdkSjVHQzhILUluNDRmTkRBaGRMRFBrbHJNMGdoeF81aDduRnh3aEk1Y2VfLVVTZXJ5OW9JaFliVmdpaVBhNTJ5NElyWWhVUnJjT051c01kaWFXNXg3Tm0yaEhtWGhJWHl5T1Rhbk53R2NMVmtQd1h4ZFYtMS1Eamg0UkMwRERHaS1RbVZLX1VxVl90NzJpQWtJOTRuQ0dNel80ZFk0bjdWdE1fTzEzcml0bjZhMjg2eW9KMTFud2Njb3YyWWpLWmxqVkxzLTNfalM3Y0t1MnNZQzdwSVNxNnV3bFdsLW5iWnRkZDVxV3RnaUVJeVlaOWo2TTJnUHlGaw?oc=5",
-      "lead_source": "PR Newswire",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T15:37:00+00:00",
-      "latest_seen": "2026-04-20T15:37:00+00:00",
-      "age_hours": 7.6,
-      "score": 48.94,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.44,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "e79e7a797ac16bc6",
-          "title": "Standard Energy Showcases Vertically Integrated PV Supply Chain at SOLARTECH INDONESIA 2026, Serving Clean Energy Markets in the United States, India, Europe, Southeast Asia and Worldwide",
-          "url": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQM0Z6dkNON3I1bW1GUU9YLXRRSHlpd0lKdHJPalVoMElBY2JwSWlibG1EVDNHckJoNEdLN2JWRmwxbkRoaUJLZlpCRHhYUGV3ejBFZ0NodE40amFlelFfX2I5ODdkSjVHQzhILUluNDRmTkRBaGRMRFBrbHJNMGdoeF81aDduRnh3aEk1Y2VfLVVTZXJ5OW9JaFliVmdpaVBhNTJ5NElyWWhVUnJjT051c01kaWFXNXg3Tm0yaEhtWGhJWHl5T1Rhbk53R2NMVmtQd1h4ZFYtMS1Eamg0UkMwRERHaS1RbVZLX1VxVl90NzJpQWtJOTRuQ0dNel80ZFk0bjdWdE1fTzEzcml0bjZhMjg2eW9KMTFud2Njb3YyWWpLWmxqVkxzLTNfalM3Y0t1MnNZQzdwSVNxNnV3bFdsLW5iWnRkZDVxV3RnaUVJeVlaOWo2TTJnUHlGaw?oc=5",
-          "source": "PR Newswire",
-          "source_type": "rss",
-          "published_at": "2026-04-20T15:37:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_9822004165d5e9",
       "topic": "renewables",
       "lead_title": "Democrats urged to link clean energy to affordability as Iran war hikes up prices",
@@ -1097,11 +1072,11 @@
       ],
       "earliest_seen": "2026-04-20T14:46:00+00:00",
       "latest_seen": "2026-04-20T14:46:00+00:00",
-      "age_hours": 8.45,
-      "score": 48.93,
+      "age_hours": 9.29,
+      "score": 48.43,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.93,
+        "recency_points": 19.43,
         "source_quality_points": 24.0,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -1117,47 +1092,6 @@
           "source_type": "rss",
           "published_at": "2026-04-20T14:46:00+00:00",
           "confidence": 0.8
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2020bcbe0df1d5",
-      "topic": "renewables",
-      "lead_title": "Solar energy is taking off across Africa",
-      "lead_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02VXVZUHdGNjRIcE90V0dPei1qZ3A0UUZzS3VxNjNrUmNvZy1DUnljOFRhejhkaURGbkUxeXpadXpMQ0VmSjh4aDZESUY1UFo2ZDlkaDBxUndodDBELVpHNjgtQVpVMVk3LS1PdHp6MA?oc=5",
-      "lead_source": "Corporate Knights",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T15:14:54+00:00",
-      "latest_seen": "2026-04-20T15:14:54+00:00",
-      "age_hours": 7.97,
-      "score": 48.72,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.22,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "baf3c043ec09fbb9",
-          "title": "Solar energy is taking off across Africa",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02VXVZUHdGNjRIcE90V0dPei1qZ3A0UUZzS3VxNjNrUmNvZy1DUnljOFRhejhkaURGbkUxeXpadXpMQ0VmSjh4aDZESUY1UFo2ZDlkaDBxUndodDBELVpHNjgtQVpVMVk3LS1PdHp6MA?oc=5",
-          "source": "Corporate Knights",
-          "source_type": "rss",
-          "published_at": "2026-04-20T15:14:54+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -1180,11 +1114,11 @@
       ],
       "earliest_seen": "2026-04-20T08:29:42+00:00",
       "latest_seen": "2026-04-20T08:29:42+00:00",
-      "age_hours": 14.72,
-      "score": 45.17,
+      "age_hours": 15.56,
+      "score": 44.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.17,
+        "recency_points": 15.67,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
