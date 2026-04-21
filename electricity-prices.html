@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','957762016897581');fbq('track','PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electricity Rates by State — U.S. Residential & Commercial kWh Prices</title>
+  <meta name="description" content="Residential and commercial electricity rates for all 50 U.S. states plus D.C. Current cents per kWh, year-over-year change, regional averages, and context on why rates vary. Updated monthly from EIA data.">
+  <link rel="canonical" href="https://www.energypricestoday.com/electricity-prices.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Electricity Rates by State — U.S. Residential & Commercial Prices">
+  <meta property="og:description" content="Residential and commercial electricity rates for all 50 states plus D.C. Current cents per kWh, year-over-year change, regional analysis.">
+  <meta property="og:url" content="https://www.energypricestoday.com/electricity-prices.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Electricity Rates by State — U.S. Residential & Commercial Prices">
+  <meta name="twitter:description" content="Residential and commercial electricity rates for all 50 states plus D.C. Current cents per kWh, year-over-year change, regional analysis.">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Electricity Rates by State",
+    "description": "Residential and commercial electricity rates for all 50 U.S. states plus D.C., updated monthly.",
+    "url": "https://www.energypricestoday.com/electricity-prices.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "EnergyPricesToday.com",
+      "url": "https://www.energypricestoday.com/"
+    },
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://www.energypricestoday.com/"},
+        {"@type":"ListItem","position":2,"name":"Electricity Rates by State"}
+      ]
+    },
+    "mainEntity": {
+      "@type": "Dataset",
+      "name": "U.S. Electricity Rates by State",
+      "description": "Residential and commercial electricity rates in cents per kWh for all 50 states plus D.C.",
+      "keywords": ["electricity rates","kWh","residential","commercial","United States"],
+      "creator": {"@type":"Organization","name":"EnergyPricesToday.com"},
+      "distribution": {"@type":"DataDownload","contentUrl":"https://www.energypricestoday.com/data/sources/electricity-prices.json","encodingFormat":"application/json"}
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Which state has the cheapest electricity?","acceptedAnswer":{"@type":"Answer","text":"Louisiana has the cheapest residential electricity in the U.S., at roughly 12.44¢ per kWh — about 31% below the national average. For commercial rates, North Dakota leads at around 7.44¢ per kWh due to low infrastructure costs and hydroelectric access."}},
+      {"@type":"Question","name":"Why is Hawaii's electricity so expensive?","acceptedAnswer":{"@type":"Answer","text":"Hawaii pays roughly 39.89¢ per kWh — over 2.2x the national average — because the state imports petroleum for most power generation. Island geography means no mainland grid or natural gas pipeline access."}},
+      {"@type":"Question","name":"Why do residential and commercial rates differ?","acceptedAnswer":{"@type":"Answer","text":"Businesses consume electricity in larger, more predictable quantities, reducing per-customer infrastructure and billing overhead. Large commercial users also leverage time-of-use pricing and demand-response programs. Commercial rates average 22% below residential nationally."}},
+      {"@type":"Question","name":"What drives electricity prices?","acceptedAnswer":{"@type":"Answer","text":"Six main factors: fuel costs (especially natural gas, which powers 40% of U.S. generation), power plant expenses, transmission infrastructure, weather and seasonal demand, state regulations and renewable mandates, and market structure (regulated vs. deregulated)."}},
+      {"@type":"Question","name":"Can I switch electricity providers?","acceptedAnswer":{"@type":"Answer","text":"In 14 states plus D.C. with deregulated markets (Texas, Pennsylvania, Ohio, Illinois, New Jersey, New York, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, Rhode Island, and D.C.), customers can shop among retail providers and typically save 15-30%. In regulated states, rates are set by a single utility."}}
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=2">
+
+  <style>
+    /* Page-specific styles for electricity — extends the global design system */
+
+    /* Heat-map color scale for rate cells */
+    .rate-cell { font-variant-numeric: tabular-nums; font-weight: 700; }
+    .rate-low    { color: #10b981; }
+    .rate-mid    { color: #f59e0b; }
+    .rate-high   { color: #ef4444; }
+    .rate-extreme{ color: #dc2626; font-weight: 800; }
+
+    /* YoY change pill */
+    .yoy-pill {
+      display: inline-block; padding: 1px 6px; border-radius: 4px;
+      font-size: 10.5px; font-weight: 700; font-variant-numeric: tabular-nums;
+      margin-left: 4px;
+    }
+    .yoy-up   { color: #ef4444; background: rgba(239,68,68,0.12); }
+    .yoy-flat { color: #f59e0b; background: rgba(245,158,11,0.12); }
+
+    /* Regional bar chart */
+    .region-bar-row { display: grid; grid-template-columns: 130px 1fr 80px; gap: 12px; align-items: center; padding: 8px 0; }
+    .region-bar-label { font-size: 12.5px; color: var(--text-2); font-weight: 600; }
+    .region-bar-track { background: var(--border); border-radius: 4px; height: 14px; overflow: hidden; position: relative; }
+    .region-bar-fill { height: 100%; background: linear-gradient(90deg, #3d8fd4 0%, #ef4444 100%); border-radius: 4px; transition: width .4s ease; }
+    .region-bar-value { font-size: 12.5px; font-weight: 700; font-variant-numeric: tabular-nums; text-align: right; color: var(--text-1); }
+    @media (max-width: 600px) {
+      .region-bar-row { grid-template-columns: 96px 1fr 62px; gap: 8px; }
+      .region-bar-label { font-size: 11px; }
+      .region-bar-value { font-size: 11.5px; }
+    }
+
+    /* State table */
+    .elec-table-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 10px; background: var(--surface); }
+    .elec-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    .elec-table thead th {
+      text-align: left; padding: 12px 14px; font-size: 10.5px;
+      text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3);
+      font-weight: 700; border-bottom: 1px solid var(--border);
+      background: var(--surface); position: sticky; top: 0;
+    }
+    .elec-table tbody td { padding: 10px 14px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .elec-table tbody tr:hover { background: rgba(61,143,212,0.04); }
+    .elec-table tbody tr:last-child td { border-bottom: none; }
+    .elec-table th.num, .elec-table td.num { text-align: right; }
+    .elec-table .state-cell { font-weight: 600; color: var(--text-1); }
+    .elec-table .state-abbr { display: inline-block; color: var(--blue); font-size: 11px; font-weight: 700; margin-right: 8px; min-width: 22px; }
+    .elec-table .region-tag { font-size: 10px; color: var(--text-3); text-transform: uppercase; letter-spacing: 0.06em; font-weight: 600; }
+
+    /* Rankings callout cards */
+    .rank-callout {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+      padding: 18px; display: flex; flex-direction: column; gap: 4px;
+    }
+    .rank-callout-label { font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-3); font-weight: 700; }
+    .rank-callout-value { font-size: 22px; font-weight: 800; color: var(--text-1); font-variant-numeric: tabular-nums; line-height: 1.2; }
+    .rank-callout-sub { font-size: 12px; color: var(--text-2); }
+    .rank-callout.cheapest { border-color: rgba(16,185,129,0.3); }
+    .rank-callout.cheapest .rank-callout-value { color: #10b981; }
+    .rank-callout.expensive { border-color: rgba(239,68,68,0.3); }
+    .rank-callout.expensive .rank-callout-value { color: #ef4444; }
+
+    /* Toggle tabs */
+    .view-toggle { display: inline-flex; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 3px; gap: 3px; }
+    .view-toggle button {
+      background: transparent; border: none; color: var(--text-3); font-size: 12px; font-weight: 600;
+      padding: 6px 14px; border-radius: 6px; cursor: pointer; transition: all .15s;
+    }
+    .view-toggle button:hover { color: var(--text-1); }
+    .view-toggle button.active { background: var(--blue); color: #fff; }
+
+    /* Search input */
+    .state-search {
+      background: var(--surface); border: 1px solid var(--border);
+      color: var(--text-1); font-size: 13px; padding: 8px 14px;
+      border-radius: 8px; width: 220px; font-family: inherit;
+    }
+    .state-search:focus { outline: none; border-color: var(--blue); }
+    .state-search::placeholder { color: var(--text-3); }
+
+    /* Compact drivers / factors grid */
+    .factor-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+      padding: 16px 18px;
+    }
+    .factor-card h4 { margin: 0 0 8px; font-size: 13px; font-weight: 700; color: var(--text-1); display: flex; align-items: center; gap: 8px; }
+    .factor-card h4 svg { color: var(--amber); flex-shrink: 0; }
+    .factor-card p { margin: 0; font-size: 12.5px; color: var(--text-2); line-height: 1.55; }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="site-header"></header>
+  <main>
+    <!-- HERO -->
+    <section class="page-hero-large"><div class="hero-bg"></div><div class="container" style="position:relative;z-index:1">
+      <nav class="breadcrumbs"><a href="index.html">Home</a> &rsaquo; <span>Electricity Rates by State</span></nav>
+      <h1>U.S. Electricity Rates by State</h1>
+      <p class="hero-sub">Residential and commercial electricity rates for all 50 states plus D.C. — cents per kilowatt-hour, with year-over-year change, regional comparison, and context on why rates vary by geography. Refreshed monthly from U.S. Energy Information Administration data.</p>
+    </div></section>
+
+    <!-- GLANCE STRIP — headline numbers, first impression -->
+    <section class="section" style="padding-top:24px"><div class="container">
+      <div class="glance-strip" id="elec-glance"></div>
+    </div></section>
+
+    <!-- WHY RATES ARE CHANGING (SEO narrative block) -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-context"></h2></div>
+      <div style="max-width:880px;color:var(--text-2);font-size:15.5px;line-height:1.75" id="context-prose">
+        <p style="margin:0 0 14px">
+          <strong style="color:var(--text-1)">The national average residential electricity rate is <span id="ctx-res-rate">loading</span> per kWh</strong>,
+          up <span id="ctx-yoy">loading</span> year-over-year. Commercial customers pay less — averaging <span id="ctx-com-rate">loading</span> per kWh, about 22% below residential rates, reflecting the scale and predictability of business electricity consumption.
+        </p>
+        <p style="margin:0 0 14px">
+          Rates vary dramatically by geography. <strong style="color:var(--text-1)"><span id="ctx-cheapest">loading</span></strong> has the country's lowest residential electricity at <span id="ctx-cheapest-rate">—</span>, while <strong style="color:var(--text-1)"><span id="ctx-expensive">loading</span></strong> is the most expensive at <span id="ctx-expensive-rate">—</span> — more than 3x the cheapest. These gaps reflect fuel mix (hydroelectric vs. imported petroleum), grid age, regulatory structure, and renewable-energy mandates.
+        </p>
+        <p style="margin:0">
+          Electricity pricing is tightly coupled to the other energy markets this site covers. Natural gas generates roughly 40% of U.S. electricity — so when <a href="oil-prices.html" style="color:var(--blue);text-decoration:none">oil and gas prices move</a>, power generation costs follow. And when <a href="category/geopolitics.html" style="color:var(--blue);text-decoration:none">geopolitical events affect global LNG flows</a>, U.S. electricity costs absorb part of the shock. For context on the inputs driving these rates, see our <a href="category/gas-prices.html" style="color:var(--blue);text-decoration:none">gas prices by state</a> and <a href="category/natural-gas.html" style="color:var(--blue);text-decoration:none">natural gas pricing</a> coverage.
+        </p>
+      </div>
+    </div></section>
+
+    <!-- RANKINGS CALLOUTS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-rankings"></h2></div>
+      <div class="grid-4" id="rank-callouts"></div>
+    </div></section>
+
+    <!-- REGIONAL ANALYSIS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-regional"></h2></div>
+      <p style="color:var(--text-2);font-size:14px;line-height:1.7;margin:0 0 16px;max-width:800px">
+        Electricity costs follow clear geographic patterns driven by fuel sources, infrastructure age, and regulatory structure.
+        The Northeast pays substantially more than the national average, while the South Central region enjoys the lowest rates
+        thanks to abundant natural gas production and deregulated markets.
+      </p>
+      <div id="region-bars" style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:18px 22px"></div>
+    </div></section>
+
+    <!-- STATE-BY-STATE TABLE -->
+    <section class="section"><div class="container">
+      <div class="section-header" style="flex-wrap:wrap;gap:12px">
+        <h2 class="section-title" id="sec-table"></h2>
+        <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+          <input class="state-search" id="state-search" placeholder="Filter by state..." autocomplete="off">
+          <div class="view-toggle" id="view-toggle">
+            <button data-view="residential" class="active">Residential</button>
+            <button data-view="commercial">Commercial</button>
+            <button data-view="both">Both</button>
+          </div>
+        </div>
+      </div>
+      <div class="elec-table-wrap">
+        <table class="elec-table" id="elec-state-table">
+          <thead id="elec-state-thead"></thead>
+          <tbody id="elec-state-tbody"></tbody>
+        </table>
+      </div>
+      <p style="color:var(--text-3);font-size:11px;margin-top:10px" id="elec-source-note"></p>
+    </div></section>
+
+    <!-- WHY RATES VARY (factor cards) -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-factors"></h2></div>
+      <div class="grid-3" id="factor-cards"></div>
+    </div></section>
+
+    <!-- DEREGULATED MARKETS CALLOUT -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-deregulated"></h2></div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:22px 26px">
+        <p style="color:var(--text-2);font-size:14.5px;line-height:1.7;margin:0 0 14px">
+          <strong style="color:var(--text-1)">14 states plus D.C. have deregulated electricity markets</strong> — meaning customers can choose their retail electricity supplier from competing providers instead of being served exclusively by the local utility. In deregulated states, residential customers typically save 15-30% by actively shopping plans.
+        </p>
+        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px" id="dereg-states"></div>
+        <p style="color:var(--text-3);font-size:12px;line-height:1.6;margin:14px 0 0">
+          Regulated states set rates through a public utility commission. While customers can't shop providers, rates tend to be more stable and predictable.
+        </p>
+      </div>
+    </div></section>
+
+    <!-- HISTORICAL CONTEXT -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-history"></h2></div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:22px 26px;max-width:900px">
+        <p style="color:var(--text-2);font-size:14px;line-height:1.75;margin:0 0 14px">
+          The national average residential electricity rate has climbed roughly <strong style="color:var(--text-1)">21% over the past five years</strong>, rising from about 14.92¢/kWh in 2022 to the current level. Several structural forces drive this:
+        </p>
+        <ul style="color:var(--text-2);font-size:13.5px;line-height:1.75;margin:0 0 14px;padding-left:22px">
+          <li><strong style="color:var(--text-1)">Natural gas price volatility.</strong> Gas fires ~40% of U.S. power generation, so electricity rates inherit gas-price shocks with a lag.</li>
+          <li><strong style="color:var(--text-1)">Grid modernization.</strong> Utility investments in wildfire hardening (West), hurricane resilience (Gulf), and winter storm preparation (Texas) flow through as rate increases.</li>
+          <li><strong style="color:var(--text-1)">Data center and EV demand.</strong> Record data center construction and EV adoption are pushing system-wide consumption higher, tightening supply-demand balance.</li>
+          <li><strong style="color:var(--text-1)">Renewable transition costs.</strong> State renewable mandates require infrastructure buildouts that temporarily raise rates before long-term savings materialize.</li>
+        </ul>
+        <p style="color:var(--text-3);font-size:12.5px;line-height:1.6;margin:0">
+          Historical trend based on EIA annual averages. Full monthly series at <a href="https://www.eia.gov/electricity/monthly/" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:none">eia.gov/electricity/monthly</a>.
+        </p>
+      </div>
+    </div></section>
+
+    <!-- FAQ -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-faq"></h2></div>
+      <div style="max-width:900px">
+        <div class="faq-item"><div class="faq-q">Which state has the cheapest electricity?</div><div class="faq-a" id="faq-cheapest">Loading...</div></div>
+        <div class="faq-item"><div class="faq-q">Why is Hawaii's electricity so expensive?</div><div class="faq-a">Hawaii pays roughly 39.89¢/kWh — over 2.2x the national average — because the state imports petroleum for most power generation. Island geography means no access to mainland grid infrastructure or cheaper natural gas pipelines. Hawaii is actively transitioning to renewables with strong rooftop-solar adoption, and prices have begun declining modestly as solar and battery capacity grow.</div></div>
+        <div class="faq-item"><div class="faq-q">Why do residential and commercial rates differ?</div><div class="faq-a">Businesses consume electricity in larger, more predictable quantities, reducing per-customer infrastructure and billing overhead. Large commercial users also leverage time-of-use pricing and demand-response programs to shift consumption to off-peak hours. Nationally, commercial rates average about 22% below residential.</div></div>
+        <div class="faq-item"><div class="faq-q">What factors determine electricity prices?</div><div class="faq-a">Six main factors: fuel costs (especially natural gas, which fires 40% of U.S. generation), power-plant operating expenses, transmission infrastructure investments, weather-driven seasonal demand, state regulations including renewable mandates, and market structure (regulated vs. deregulated). Rate increases tend to lag fuel-price changes by 6-18 months.</div></div>
+        <div class="faq-item"><div class="faq-q">Can I switch electricity providers to save money?</div><div class="faq-a">If you live in one of 14 deregulated states (Texas, Pennsylvania, Ohio, Illinois, New Jersey, New York, Connecticut, Delaware, Maine, Maryland, Massachusetts, New Hampshire, Rhode Island) or D.C., you can choose among retail providers. Customers typically save 15-30% by actively shopping plans rather than defaulting to the incumbent utility.</div></div>
+        <div class="faq-item"><div class="faq-q">Why did rates increase so much this year?</div><div class="faq-a">This year's increase reflects rising natural gas prices, grid-modernization investments, elevated data-center and EV demand, extreme-weather hardening costs, and renewable transition expenses. Northeastern states and California have been hardest hit, with year-over-year increases of 7-9% in several markets.</div></div>
+        <div class="faq-item"><div class="faq-q">How does electricity pricing relate to oil and gas?</div><div class="faq-a">Oil prices have little direct effect on most electricity rates — oil fires less than 1% of U.S. generation. Natural gas is the critical fuel link, powering about 40% of generation. When <a href="oil-prices.html" style="color:var(--blue);text-decoration:none">gas prices rise</a>, electricity costs follow within 3-9 months. Coal, nuclear, hydro, wind, and solar provide the rest of the mix and their economics affect regional rates differently.</div></div>
+      </div>
+    </div></section>
+
+    <!-- EXPLORE MORE -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-explore"></h2></div>
+      <div class="grid-auto-280" id="explore-cards"></div>
+    </div></section>
+
+    <!-- DATA SOURCES -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-sources"></h2></div>
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:20px 24px;max-width:900px">
+        <p style="color:var(--text-2);font-size:13.5px;line-height:1.7;margin:0 0 10px">
+          <strong style="color:var(--text-1)">Rate data</strong> is sourced monthly from
+          <a href="https://www.eia.gov/electricity/monthly/" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:none">U.S. Energy Information Administration (EIA) Electric Power Monthly</a>,
+          the federal statistical agency that tracks electricity pricing, generation, and consumption. We consume the data via
+          <a href="https://www.electricchoice.com/electricity-prices-by-state/" target="_blank" rel="noopener" style="color:var(--blue);text-decoration:none">ElectricChoice.com's published CSV</a>, which aggregates EIA series into an accessible state-level format.
+        </p>
+        <p style="color:var(--text-2);font-size:13.5px;line-height:1.7;margin:0 0 10px">
+          <strong style="color:var(--text-1)">Update cadence:</strong> this page refreshes monthly — EIA publishes revised state-average rates on a roughly 4-6 week cadence.
+          Timestamp below reflects the last successful fetch.
+        </p>
+        <p style="color:var(--text-3);font-size:12px;line-height:1.6;margin:0" id="elec-last-updated">Loading timestamp...</p>
+        <p style="color:var(--text-3);font-size:12px;line-height:1.6;margin:10px 0 0">
+          Raw structured data is available at
+          <a href="data/sources/electricity-prices.json" style="color:var(--blue);text-decoration:none">/data/sources/electricity-prices.json</a>
+          for developers and researchers.
+        </p>
+      </div>
+    </div></section>
+  </main>
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/article-slugs.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // ─── Populate section titles ────────────────────────────────
+    document.getElementById('sec-context').innerHTML  = icon('activity',18) + " Why Electricity Rates Are What They Are";
+    document.getElementById('sec-rankings').innerHTML = icon('award',18) + " Highest & Lowest Rates in the Country";
+    document.getElementById('sec-regional').innerHTML = icon('map',18) + " Regional Rate Comparison";
+    document.getElementById('sec-table').innerHTML    = icon('bar-chart',18) + " Rates by State";
+    document.getElementById('sec-factors').innerHTML  = icon('layers',18) + " What Drives Your Electric Bill";
+    document.getElementById('sec-deregulated').innerHTML = icon('shuffle',18) + " Deregulated Markets";
+    document.getElementById('sec-history').innerHTML  = icon('trending-up',18) + " Five-Year Rate Trend";
+    document.getElementById('sec-faq').innerHTML      = icon('help-circle',18) + " Frequently Asked Questions";
+    document.getElementById('sec-explore').innerHTML  = icon('compass',18) + " Explore Other Energy Pricing";
+    document.getElementById('sec-sources').innerHTML  = icon('info',18) + " Data Sources & Methodology";
+
+    // ─── Helpers ────────────────────────────────────────────────
+    function fmtRate(n) { return n.toFixed(2) + '¢'; }
+    function fmtYoY(n) {
+      if (n === null || n === undefined) return '';
+      var sign = n >= 0 ? '+' : '';
+      return sign + n.toFixed(1) + '%';
+    }
+
+    // Heat-map class based on rate value. Tuned for U.S. residential range
+    // (roughly 12-40 cents). Sub-14 = low, 14-18 = mid, 18-25 = high, 25+ = extreme.
+    function rateClass(rate) {
+      if (rate < 14)  return 'rate-low';
+      if (rate < 18)  return 'rate-mid';
+      if (rate < 25)  return 'rate-high';
+      return 'rate-extreme';
+    }
+
+    // ─── Glance strip ───────────────────────────────────────────
+    (function renderGlance() {
+      if (typeof ELECTRICITY_NATIONAL === 'undefined' || typeof ELECTRICITY_PRICES_BY_STATE === 'undefined') {
+        document.getElementById('elec-glance').innerHTML =
+          '<div class="glance-item"><div class="glance-item-label">Status</div>' +
+          '<div class="glance-item-value" style="font-size:14px">Loading data</div>' +
+          '<div class="glance-item-sub">First refresh pending</div></div>';
+        return;
+      }
+      var n = ELECTRICITY_NATIONAL;
+      var states = ELECTRICITY_PRICES_BY_STATE.slice();
+
+      // Cheapest / most expensive residential
+      var byRes = states.slice().sort(function(a,b){ return a.residential - b.residential; });
+      var cheap = byRes[0], pricey = byRes[byRes.length-1];
+      // Spread
+      var spread = (pricey.residential - cheap.residential).toFixed(2);
+      // States above national avg
+      var aboveAvg = states.filter(function(s){ return s.residential > n.residential; }).length;
+
+      document.getElementById('elec-glance').innerHTML = [
+        '<div class="glance-item"><div class="glance-item-label">National Avg</div>' +
+          '<div class="glance-item-value">' + n.residential.toFixed(2) + '¢</div>' +
+          '<div class="glance-item-sub">residential/kWh</div></div>',
+        '<div class="glance-item"><div class="glance-item-label">YoY Change</div>' +
+          '<div class="glance-item-value" style="color:' + (n.residential_yoy >= 3 ? '#ef4444' : '#f59e0b') + '">' + fmtYoY(n.residential_yoy) + '</div>' +
+          '<div class="glance-item-sub">residential</div></div>',
+        '<div class="glance-item"><div class="glance-item-label">Cheapest</div>' +
+          '<div class="glance-item-value" style="font-size:14px;color:#10b981">' + cheap.state + '</div>' +
+          '<div class="glance-item-sub">' + cheap.residential.toFixed(2) + '¢/kWh</div></div>',
+        '<div class="glance-item"><div class="glance-item-label">Most Expensive</div>' +
+          '<div class="glance-item-value" style="font-size:14px;color:#ef4444">' + pricey.state + '</div>' +
+          '<div class="glance-item-sub">' + pricey.residential.toFixed(2) + '¢/kWh</div></div>',
+        '<div class="glance-item"><div class="glance-item-label">State Spread</div>' +
+          '<div class="glance-item-value">' + spread + '¢</div>' +
+          '<div class="glance-item-sub">' + aboveAvg + ' states above avg</div></div>',
+      ].join('');
+    })();
+
+    // ─── Context prose inline values ────────────────────────────
+    (function fillContextProse() {
+      if (typeof ELECTRICITY_NATIONAL === 'undefined' || typeof ELECTRICITY_PRICES_BY_STATE === 'undefined') return;
+      var n = ELECTRICITY_NATIONAL;
+      var states = ELECTRICITY_PRICES_BY_STATE.slice();
+      var byRes = states.slice().sort(function(a,b){ return a.residential - b.residential; });
+      var cheap = byRes[0], pricey = byRes[byRes.length-1];
+      document.getElementById('ctx-res-rate').textContent = n.residential.toFixed(2) + '¢';
+      document.getElementById('ctx-com-rate').textContent = n.commercial.toFixed(2) + '¢';
+      document.getElementById('ctx-yoy').textContent = fmtYoY(n.residential_yoy);
+      document.getElementById('ctx-cheapest').textContent = cheap.state;
+      document.getElementById('ctx-cheapest-rate').textContent = cheap.residential.toFixed(2) + '¢/kWh';
+      document.getElementById('ctx-expensive').textContent = pricey.state;
+      document.getElementById('ctx-expensive-rate').textContent = pricey.residential.toFixed(2) + '¢/kWh';
+
+      document.getElementById('faq-cheapest').innerHTML =
+        '<strong>' + cheap.state + '</strong> has the cheapest residential electricity at ' + cheap.residential.toFixed(2) + '¢/kWh — about ' +
+        Math.round(100 * (n.residential - cheap.residential) / n.residential) + '% below the national average. For commercial rates, the cheapest state is typically in the Great Plains or South Central region, where fuel costs are low and infrastructure investment per customer is minimized.';
+    })();
+
+    // ─── Ranking callouts ───────────────────────────────────────
+    (function renderRankings() {
+      if (typeof ELECTRICITY_PRICES_BY_STATE === 'undefined') return;
+      var states = ELECTRICITY_PRICES_BY_STATE.slice();
+      var byRes = states.slice().sort(function(a,b){ return a.residential - b.residential; });
+      var byCom = states.slice().sort(function(a,b){ return a.commercial - b.commercial; });
+      var cheapestRes = byRes[0], priciestRes = byRes[byRes.length-1];
+      var cheapestCom = byCom[0], priciestCom = byCom[byCom.length-1];
+
+      document.getElementById('rank-callouts').innerHTML = [
+        '<div class="rank-callout cheapest">' +
+          '<div class="rank-callout-label">Cheapest Residential</div>' +
+          '<div class="rank-callout-value">' + cheapestRes.residential.toFixed(2) + '¢</div>' +
+          '<div class="rank-callout-sub"><strong>' + cheapestRes.state + '</strong> · ' + cheapestRes.region + '</div>' +
+        '</div>',
+        '<div class="rank-callout expensive">' +
+          '<div class="rank-callout-label">Most Expensive Residential</div>' +
+          '<div class="rank-callout-value">' + priciestRes.residential.toFixed(2) + '¢</div>' +
+          '<div class="rank-callout-sub"><strong>' + priciestRes.state + '</strong> · ' + priciestRes.region + '</div>' +
+        '</div>',
+        '<div class="rank-callout cheapest">' +
+          '<div class="rank-callout-label">Cheapest Commercial</div>' +
+          '<div class="rank-callout-value">' + cheapestCom.commercial.toFixed(2) + '¢</div>' +
+          '<div class="rank-callout-sub"><strong>' + cheapestCom.state + '</strong> · ' + cheapestCom.region + '</div>' +
+        '</div>',
+        '<div class="rank-callout expensive">' +
+          '<div class="rank-callout-label">Most Expensive Commercial</div>' +
+          '<div class="rank-callout-value">' + priciestCom.commercial.toFixed(2) + '¢</div>' +
+          '<div class="rank-callout-sub"><strong>' + priciestCom.state + '</strong> · ' + priciestCom.region + '</div>' +
+        '</div>',
+      ].join('');
+    })();
+
+    // ─── Regional bars ──────────────────────────────────────────
+    (function renderRegional() {
+      if (typeof ELECTRICITY_PRICES_BY_STATE === 'undefined') return;
+      var states = ELECTRICITY_PRICES_BY_STATE;
+      var byRegion = {};
+      states.forEach(function(s){
+        if (!byRegion[s.region]) byRegion[s.region] = { res: [], com: [] };
+        byRegion[s.region].res.push(s.residential);
+        byRegion[s.region].com.push(s.commercial);
+      });
+      var rows = Object.keys(byRegion).map(function(r){
+        var v = byRegion[r];
+        var avg = v.res.reduce(function(a,b){ return a+b; }, 0) / v.res.length;
+        return { region: r, avg: avg, count: v.res.length };
+      }).sort(function(a,b){ return a.avg - b.avg; });
+
+      var max = Math.max.apply(null, rows.map(function(r){ return r.avg; }));
+      var html = rows.map(function(r){
+        var pct = (r.avg / max * 100).toFixed(1);
+        return '<div class="region-bar-row">' +
+          '<div class="region-bar-label">' + r.region + ' <span style="color:var(--text-3);font-weight:500;font-size:11px">(' + r.count + ')</span></div>' +
+          '<div class="region-bar-track"><div class="region-bar-fill" style="width:' + pct + '%"></div></div>' +
+          '<div class="region-bar-value">' + r.avg.toFixed(2) + '¢</div>' +
+        '</div>';
+      }).join('');
+      html += '<div style="border-top:1px solid var(--border);margin-top:14px;padding-top:12px;color:var(--text-3);font-size:12px;line-height:1.6">' +
+        'Residential rate averages by U.S. Census region, weighted by state count. ' +
+        'The Northeast leads due to aging grid infrastructure, limited domestic fuel production, and aggressive renewable mandates. ' +
+        'The South Central region enjoys the lowest rates from abundant natural gas and deregulated markets.' +
+        '</div>';
+      document.getElementById('region-bars').innerHTML = html;
+    })();
+
+    // ─── State table with filtering + view toggle ───────────────
+    var currentView = 'residential';
+    function renderStateTable() {
+      if (typeof ELECTRICITY_PRICES_BY_STATE === 'undefined') return;
+      var q = (document.getElementById('state-search').value || '').toLowerCase().trim();
+      var states = ELECTRICITY_PRICES_BY_STATE.slice().sort(function(a,b){ return a.state.localeCompare(b.state); });
+      if (q) states = states.filter(function(s){ return s.state.toLowerCase().indexOf(q) !== -1 || s.abbr.toLowerCase().indexOf(q) !== -1; });
+
+      var thead = '';
+      if (currentView === 'residential') {
+        thead = '<tr><th>State</th><th>Region</th><th class="num">Rate (¢/kWh)</th><th class="num">YoY</th></tr>';
+      } else if (currentView === 'commercial') {
+        thead = '<tr><th>State</th><th>Region</th><th class="num">Rate (¢/kWh)</th><th class="num">YoY</th></tr>';
+      } else {
+        thead = '<tr><th>State</th><th>Region</th><th class="num">Residential</th><th class="num">Res YoY</th><th class="num">Commercial</th><th class="num">Com YoY</th></tr>';
+      }
+      document.getElementById('elec-state-thead').innerHTML = thead;
+
+      var tbody = states.map(function(s){
+        var yoyRPill = s.residential_yoy !== null && s.residential_yoy !== undefined ? '<span class="yoy-pill ' + (s.residential_yoy >= 3 ? 'yoy-up' : 'yoy-flat') + '">' + fmtYoY(s.residential_yoy) + '</span>' : '—';
+        var yoyCPill = s.commercial_yoy !== null && s.commercial_yoy !== undefined ? '<span class="yoy-pill ' + (s.commercial_yoy >= 3 ? 'yoy-up' : 'yoy-flat') + '">' + fmtYoY(s.commercial_yoy) + '</span>' : '—';
+
+        var row = '<tr><td class="state-cell"><span class="state-abbr">' + s.abbr + '</span>' + s.state + '</td>' +
+                  '<td class="region-tag">' + s.region + '</td>';
+        if (currentView === 'residential') {
+          row += '<td class="num rate-cell ' + rateClass(s.residential) + '">' + fmtRate(s.residential) + '</td>' +
+                 '<td class="num">' + yoyRPill + '</td>';
+        } else if (currentView === 'commercial') {
+          row += '<td class="num rate-cell ' + rateClass(s.commercial) + '">' + fmtRate(s.commercial) + '</td>' +
+                 '<td class="num">' + yoyCPill + '</td>';
+        } else {
+          row += '<td class="num rate-cell ' + rateClass(s.residential) + '">' + fmtRate(s.residential) + '</td>' +
+                 '<td class="num">' + yoyRPill + '</td>' +
+                 '<td class="num rate-cell ' + rateClass(s.commercial) + '">' + fmtRate(s.commercial) + '</td>' +
+                 '<td class="num">' + yoyCPill + '</td>';
+        }
+        row += '</tr>';
+        return row;
+      }).join('');
+
+      if (!tbody) tbody = '<tr><td colspan="6" style="text-align:center;padding:24px;color:var(--text-3)">No states match your filter</td></tr>';
+      document.getElementById('elec-state-tbody').innerHTML = tbody;
+
+      var n = (typeof ELECTRICITY_NATIONAL !== 'undefined') ? ELECTRICITY_NATIONAL : null;
+      if (n) {
+        document.getElementById('elec-source-note').innerHTML =
+          'National average: <strong>' + n.residential.toFixed(2) + '¢/kWh residential</strong> (' + fmtYoY(n.residential_yoy) + ' YoY), ' +
+          '<strong>' + n.commercial.toFixed(2) + '¢/kWh commercial</strong> (' + fmtYoY(n.commercial_yoy) + ' YoY) · ' +
+          'Source: ' + n.source + ', ' + n.updated;
+      }
+    }
+    document.getElementById('state-search').addEventListener('input', renderStateTable);
+    document.querySelectorAll('#view-toggle button').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        document.querySelectorAll('#view-toggle button').forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        currentView = btn.getAttribute('data-view');
+        renderStateTable();
+      });
+    });
+    renderStateTable();
+
+    // ─── Factor cards — why rates vary ──────────────────────────
+    (function renderFactors() {
+      var cards = [
+        ['droplets','Fuel Mix','Natural gas fires ~40% of U.S. generation, coal ~16%, nuclear ~19%, hydro ~6%, wind/solar ~15%. States with hydroelectric (Idaho, Washington) pay the least; those dependent on imported fuel (Hawaii) pay the most.'],
+        ['zap','Grid Age & Resilience','Northeast grids date back decades and face congestion and storm-hardening costs. Texas learned winter-grid lessons the hard way. California invests heavily in wildfire prevention. These investments pass through as rates.'],
+        ['shuffle','Market Structure','14 states plus D.C. have deregulated retail markets where consumers shop providers. Remaining states use regulated monopolies. Deregulation can lower rates 15-30% for active shoppers but adds complexity.'],
+        ['dollar-sign','Taxes & Fees','State gross-receipts taxes, utility franchise fees, renewable-portfolio surcharges, and low-income assistance funds all add to base rates. These layers vary enormously by state.'],
+        ['sun','Renewable Mandates','Aggressive state renewable-portfolio standards (CA, NY, NJ, MA) raise near-term rates to fund infrastructure buildouts. Long-term, renewable additions lower generation costs — but transition periods are expensive.'],
+        ['trending-up','Demand Growth','Data-center construction and EV adoption are raising U.S. electricity consumption for the first time in 15 years. Tighter supply-demand balance directly lifts rates, especially in states with limited generation capacity.'],
+      ];
+      document.getElementById('factor-cards').innerHTML = cards.map(function(c){
+        return '<div class="factor-card">' +
+          '<h4>' + icon(c[0], 16) + c[1] + '</h4>' +
+          '<p>' + c[2] + '</p>' +
+        '</div>';
+      }).join('');
+    })();
+
+    // ─── Deregulated state pills ────────────────────────────────
+    (function renderDeregulated() {
+      var deregStates = ['Texas','Pennsylvania','Ohio','Illinois','New Jersey','New York','Connecticut','Delaware','Maine','Maryland','Massachusetts','New Hampshire','Rhode Island','District of Columbia'];
+      document.getElementById('dereg-states').innerHTML = deregStates.map(function(s){
+        return '<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(61,143,212,0.12);border:1px solid rgba(61,143,212,0.3);color:#7cb9e8;font-size:12px;font-weight:600;padding:4px 10px;border-radius:14px">' + s + '</span>';
+      }).join('');
+    })();
+
+    // ─── Explore cross-links ────────────────────────────────────
+    (function renderExplore() {
+      var items = [
+        ['Gas Prices by State','category/gas-prices.html','fuel','AAA daily gas prices for all 50 states'],
+        ['Oil Prices','oil-prices.html','trending-up','WTI, Brent, and 150+ global crude benchmarks'],
+        ['Natural Gas','category/natural-gas.html','flame','Henry Hub, LNG, residential heating gas'],
+        ['Geopolitics','category/geopolitics.html','globe','How global events affect your energy bill'],
+        ['Markets Hub','markets.html','bar-chart','Full commodity and futures dashboard'],
+        ['Rig Count','rig-count.html','hard-hat','Baker Hughes weekly drilling activity'],
+      ];
+      document.getElementById('explore-cards').innerHTML = items.map(function(r){
+        return '<a href="' + r[1] + '" class="spotlight-card" style="text-align:left;padding:16px">' +
+          '<div style="display:flex;align-items:center;gap:10px">' +
+            '<span style="color:var(--blue)">' + icon(r[2],18) + '</span>' +
+            '<div><h4 style="margin:0;font-size:13px">' + r[0] + '</h4>' +
+              '<div style="font-size:11px;color:var(--text-3);margin-top:2px">' + r[3] + '</div></div>' +
+          '</div></a>';
+      }).join('');
+    })();
+
+    // ─── Last-updated timestamp ─────────────────────────────────
+    fetch('data/sources/electricity-prices.json', { cache: 'no-store' })
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        if (d && d.meta && d.meta.last_success) {
+          var dt = new Date(d.meta.last_success);
+          var pretty = dt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) + ' at ' +
+                       dt.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+          document.getElementById('elec-last-updated').textContent = 'Last successful data fetch: ' + pretty + '.';
+        } else {
+          document.getElementById('elec-last-updated').textContent = 'Automated refresh pending — first data fetch will occur on next monthly cycle.';
+        }
+      })
+      .catch(function(){
+        document.getElementById('elec-last-updated').textContent = 'Automated refresh pending — first data fetch will occur on next monthly cycle.';
+      });
+  </script>
+</body>
+</html>
