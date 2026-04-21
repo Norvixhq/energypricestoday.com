@@ -1,11 +1,11 @@
 {
   "topic": "gasoline",
-  "generated_at": "2026-04-21T18:17:04.914450+00:00",
+  "generated_at": "2026-04-21T19:43:53.891299+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 28,
   "clusters": [
     {
       "cluster_id": "c_8b1125e29fdc11",
@@ -24,11 +24,11 @@
       ],
       "earliest_seen": "2026-04-21T13:09:00+00:00",
       "latest_seen": "2026-04-21T16:49:02+00:00",
-      "age_hours": 1.47,
-      "score": 67.62,
+      "age_hours": 2.91,
+      "score": 66.75,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 24.12,
+        "recency_points": 23.25,
         "source_quality_points": 25.5,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -59,120 +59,156 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_f2f7d3bdd51847",
+      "cluster_id": "c_4b2bc9bcb76e60",
       "topic": "gasoline",
-      "lead_title": "Gas Prices Tick Down In Levittown",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nTGlZajRXMjNxNnJmTldwLUdiZHBDeDlJVGFmdHVDMGdRckxtMk1uSzNUcGFhTVBXbUc5enRfdVdJUDdBS3JsbDdmY1gyS0pqb0p6Nzk4UlBhTTFRQ2FROV8tV0wwNzBCQ0tCbk5BMjNrT2Q0ODE3UlJB?oc=5",
-      "lead_source": "LevittownNow.com",
-      "canonical_entities": [],
+      "lead_title": "Gas prices expected to rise by end of week; When drivers could see relief at the pump",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcFZza2o1bmhvVkdFMVlJWHpYVFd2WlFWckFINHA2OVRrbkVOSnE2UWJQaGpqOTB6aGlmMUNGRlVlOENTYThBR2dQa2hMUDlBQzFxaGJ0OHBYdGpMa3ZpblE1UTgzaFRUdG5RMzl5cnpCckNzZGc1bXE2S2xTd3dNeENtT0NDTVZoU2ZMdUV0aU9hZzVZdjF2ZA?oc=5",
+      "lead_source": "Yahoo Finance",
+      "canonical_entities": [
+        "pump"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T18:08:50+00:00",
-      "latest_seen": "2026-04-21T18:08:50+00:00",
-      "age_hours": 0.14,
-      "score": 57.92,
+      "earliest_seen": "2026-04-21T19:25:07+00:00",
+      "latest_seen": "2026-04-21T19:25:07+00:00",
+      "age_hours": 0.31,
+      "score": 63.31,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.92,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
+        "recency_points": 24.81,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "c22d1599cb37c013",
-          "title": "Gas Prices Tick Down In Levittown",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nTGlZajRXMjNxNnJmTldwLUdiZHBDeDlJVGFmdHVDMGdRckxtMk1uSzNUcGFhTVBXbUc5enRfdVdJUDdBS3JsbDdmY1gyS0pqb0p6Nzk4UlBhTTFRQ2FROV8tV0wwNzBCQ0tCbk5BMjNrT2Q0ODE3UlJB?oc=5",
-          "source": "LevittownNow.com",
+          "headline_id": "0eda824811f92397",
+          "title": "Gas prices expected to rise by end of week; When drivers could see relief at the pump",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcFZza2o1bmhvVkdFMVlJWHpYVFd2WlFWckFINHA2OVRrbkVOSnE2UWJQaGpqOTB6aGlmMUNGRlVlOENTYThBR2dQa2hMUDlBQzFxaGJ0OHBYdGpMa3ZpblE1UTgzaFRUdG5RMzl5cnpCckNzZGc1bXE2S2xTd3dNeENtT0NDTVZoU2ZMdUV0aU9hZzVZdjF2ZA?oc=5",
+          "source": "Yahoo Finance",
           "source_type": "rss",
-          "published_at": "2026-04-21T18:08:50+00:00",
-          "confidence": 0.6
+          "published_at": "2026-04-21T19:25:07+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_5a0dca02c284ff",
+      "cluster_id": "c_28990a6b9ec99c",
       "topic": "gasoline",
-      "lead_title": "York County gas prices steady amid uncertainty: Where's the cheapest?",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOV8yN0daSkxOX25pZGdOZExwTXVBQlFnUFJ0N1JCQkNUMUJWaVgta2pqZS0tYlBtLVY1LWhIa0QtOXdVRERYYnN3R2tmbGJYNFlVV3dVbW90UkVzVEtHTWZlRzFiRlNKcjVOdkt4N2JIdkVLdVEtNWl6ZGU2UEk1LXdKMTlBVkRFblpRLWl4ZDZsdGptU25ZOXo5M1l0ODVWYmgyRHNvVEpHZWdBUkFLdQ?oc=5",
-      "lead_source": "York Daily Record",
-      "canonical_entities": [],
+      "lead_title": "AAA: Gas prices ease for now, but rising crude oil prices may curb relief for Oregon drivers",
+      "lead_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZzZjY0tNSy1LQjJfLUwzTmFUOGtFQVZFcEwtdXNQRDFWOWZsQUxxSF9OVFlCeTBYZ2dEZW5nZHhmekFLRkpQcTd4QzNSVElTMHhSUFVjVXBNTUJVTzUxZGx2T29tM0lsUHJ5VWJYaXpkRkZGSDRCUWxkSnhzR0pNMVRUdHhVVVVXMERjX0JjZmhRWnotTGRVLUUwRjJZSHdBd3BiLUFibzFMMENXZnMzZWhUV1JWc1J6a1FtWnlyVU1PeUIwSnZtUUt2blA4dzlGMlVMdjBDTTY?oc=5",
+      "lead_source": "KTVZ",
+      "canonical_entities": [
+        "AAA"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T18:08:00+00:00",
-      "latest_seen": "2026-04-21T18:08:00+00:00",
-      "age_hours": 0.15,
-      "score": 57.91,
+      "earliest_seen": "2026-04-21T19:05:33+00:00",
+      "latest_seen": "2026-04-21T19:05:33+00:00",
+      "age_hours": 0.64,
+      "score": 63.12,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.91,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
+        "recency_points": 24.62,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "2ccf4516329a2bd0",
-          "title": "York County gas prices steady amid uncertainty: Where's the cheapest?",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOV8yN0daSkxOX25pZGdOZExwTXVBQlFnUFJ0N1JCQkNUMUJWaVgta2pqZS0tYlBtLVY1LWhIa0QtOXdVRERYYnN3R2tmbGJYNFlVV3dVbW90UkVzVEtHTWZlRzFiRlNKcjVOdkt4N2JIdkVLdVEtNWl6ZGU2UEk1LXdKMTlBVkRFblpRLWl4ZDZsdGptU25ZOXo5M1l0ODVWYmgyRHNvVEpHZWdBUkFLdQ?oc=5",
-          "source": "York Daily Record",
+          "headline_id": "78afc6bf3dc9e76e",
+          "title": "AAA: Gas prices ease for now, but rising crude oil prices may curb relief for Oregon drivers",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZzZjY0tNSy1LQjJfLUwzTmFUOGtFQVZFcEwtdXNQRDFWOWZsQUxxSF9OVFlCeTBYZ2dEZW5nZHhmekFLRkpQcTd4QzNSVElTMHhSUFVjVXBNTUJVTzUxZGx2T29tM0lsUHJ5VWJYaXpkRkZGSDRCUWxkSnhzR0pNMVRUdHhVVVVXMERjX0JjZmhRWnotTGRVLUUwRjJZSHdBd3BiLUFibzFMMENXZnMzZWhUV1JWc1J6a1FtWnlyVU1PeUIwSnZtUUt2blA4dzlGMlVMdjBDTTY?oc=5",
+          "source": "KTVZ",
           "source_type": "rss",
-          "published_at": "2026-04-21T18:08:00+00:00",
-          "confidence": 0.6
+          "published_at": "2026-04-21T19:05:33+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_611e973fd4d02f",
+      "cluster_id": "c_02e1dbdb8bb9bd",
       "topic": "gasoline",
-      "lead_title": "Retail sales up 1.7% in March from February driven by a spike in gas prices due to the Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVXZuVTkwMWZ4NHlLVnBKbV9JVWlxWDIycUppZDVMUDdHQVQ2LV81Wnc5dnR2YlE5cXlfdDBLNW10S3NMQ3Mxb2JqbE8yRmZmVEdDaXhtRldRMlEzSjhpNHNLZTlvX25OZDdyeV9JMWhFM29vZVR1Y2lfZjlNbmhTNGJCenhOaU1Tc3FDVzJJSVRpM21nSmM0aWstUWF3aXBXem5Zb3N2bWp5TDNTY3FZckl1bm9hU0E?oc=5",
-      "lead_source": "WDEF",
+      "lead_title": "March retail sales jump on higher gas prices, Commerce Department says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa255MFdoOUlBUmlnalZxeGUzbzljN21qVl94QVVma3hNTjAwOGltc0psN2pkd01rUFNCWE0tQ3pBVDMzYTRMSWg1WXU3bVlHTmktbE9Xbm5KWjcydkF1MzFTZTB1NkJnOGJ3WXQ5Rmd3QWZJRUhXTGd4c0ZJTGV1YzJQNkh5RFFr0gGOAUFVX3lxTE9xYklKQ1dfQ0JaMm0wVFNTc3FkaDJXa3p6NWVSR2xvcDN0dHNGYUxoR0hTdTFJZGZ0bGZhWUN0VnNZLXZaOWo1NnFZR2ZZVWFZb2tKTDFtWDJDU3JhVElSd0FseVlTZ19ZTWlmcWdSdHdxc2pxYnVtbVlRNFBUaVIwYkxHc3dqUmE4bkJxTUE?oc=5",
+      "lead_source": "upi.com",
       "canonical_entities": [
         "retail"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T18:14:38+00:00",
+      "latest_seen": "2026-04-21T18:14:38+00:00",
+      "age_hours": 1.49,
+      "score": 62.61,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.11,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "c904032284b97d73",
+          "title": "March retail sales jump on higher gas prices, Commerce Department says",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa255MFdoOUlBUmlnalZxeGUzbzljN21qVl94QVVma3hNTjAwOGltc0psN2pkd01rUFNCWE0tQ3pBVDMzYTRMSWg1WXU3bVlHTmktbE9Xbm5KWjcydkF1MzFTZTB1NkJnOGJ3WXQ5Rmd3QWZJRUhXTGd4c0ZJTGV1YzJQNkh5RFFr0gGOAUFVX3lxTE9xYklKQ1dfQ0JaMm0wVFNTc3FkaDJXa3p6NWVSR2xvcDN0dHNGYUxoR0hTdTFJZGZ0bGZhWUN0VnNZLXZaOWo1NnFZR2ZZVWFZb2tKTDFtWDJDU3JhVElSd0FseVlTZ19ZTWlmcWdSdHdxc2pxYnVtbVlRNFBUaVIwYkxHc3dqUmE4bkJxTUE?oc=5",
+          "source": "upi.com",
+          "source_type": "rss",
+          "published_at": "2026-04-21T18:14:38+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_fe1bf5fbd7eae4",
+      "topic": "gasoline",
+      "lead_title": "Retail sales up a sharp 1.7% in March from February driven by a spike in gas prices due to the Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNdEtSbXFldVhvNGFiMTJEYktEZkZlTUwwNWVNOEVreVNQVjFGT0pRaUR1c29OcVhGV3lsYjhGemNlWGRXY1J1bFd3aVBVMnhPWHhCc2N4ZWhwOXpobVhmOUU5bzBBUHBiUTJiS0pZR2FQOFRtanBPN3NaR2VMZGNtUGZRRGsxVktIaGJPRXdaeVp3SE9ZMzEwbmN6ZjlOUWQzSXRLek8temkxZjFBajJUVXZHeTJOcnEybnRrTm9HR3JSaWR1LUN0TV94aENPSFZwdEdITGxn?oc=5",
+      "lead_source": "PBS",
+      "canonical_entities": [
+        "retail"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-04-21T14:24:06+00:00",
-      "latest_seen": "2026-04-21T16:52:48+00:00",
-      "age_hours": 1.4,
-      "score": 57.66,
+      "latest_seen": "2026-04-21T14:24:06+00:00",
+      "age_hours": 5.33,
+      "score": 60.3,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.16,
+        "source_count_points": 5,
+        "recency_points": 21.8,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
-        {
-          "headline_id": "37bb9224af6be567",
-          "title": "Retail sales up 1.7% in March from February driven by a spike in gas prices due to the Iran war",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVXZuVTkwMWZ4NHlLVnBKbV9JVWlxWDIycUppZDVMUDdHQVQ2LV81Wnc5dnR2YlE5cXlfdDBLNW10S3NMQ3Mxb2JqbE8yRmZmVEdDaXhtRldRMlEzSjhpNHNLZTlvX25OZDdyeV9JMWhFM29vZVR1Y2lfZjlNbmhTNGJCenhOaU1Tc3FDVzJJSVRpM21nSmM0aWstUWF3aXBXem5Zb3N2bWp5TDNTY3FZckl1bm9hU0E?oc=5",
-          "source": "WDEF",
-          "source_type": "rss",
-          "published_at": "2026-04-21T16:52:48+00:00",
-          "confidence": 0.65
-        },
         {
           "headline_id": "c034b91db3f1eb85",
           "title": "Retail sales up a sharp 1.7% in March from February driven by a spike in gas prices due to the Iran war",
@@ -187,24 +223,24 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_aca43594d3cf4f",
+      "cluster_id": "c_0655f8ee40524e",
       "topic": "gasoline",
-      "lead_title": "Speak Out: Trump, gas prices and tariff refunds",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGs5RzZlMDQ0QmRDX2hlX3dJeENiVVIwOUhzbEgyR2NMcjJrYTFRM0hBTnJpRWlwLVhaUTkwWlpSNVZKXy04NjhXUXplS3N5SWcydjQ2MkZPVEl6WXF3dVdpUk5Yc1lMUW1pSnczLVRxZDJhbHlyZGo4ZGxDalEyT3hwUDBWTWFV?oc=5",
-      "lead_source": "seMissourian",
+      "lead_title": "New Financial Report Says People Are Tightening Their Belts Ahead of Summer for This Frustrating Reason",
+      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVlk5UWxnNWRwOVZ1VGVoQlFtQm9TVnBuVE1VMml6WGpHd2ZXSFk2OEVKeFNHVFY4UzAtVm14d3NQWkpDWElmblZ6S19uQ3FOZEt4aEZLWUx6XzdiMWxwR1R1MzE4M0tOdWlRV2pRdnpwNUk1X3R2dS1JN2puekVZZDhB?oc=5",
+      "lead_source": "Parade",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T17:36:35+00:00",
-      "latest_seen": "2026-04-21T17:36:35+00:00",
-      "age_hours": 0.67,
-      "score": 57.6,
+      "earliest_seen": "2026-04-21T19:37:21+00:00",
+      "latest_seen": "2026-04-21T19:37:21+00:00",
+      "age_hours": 0.11,
+      "score": 57.93,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.6,
+        "recency_points": 24.93,
         "source_quality_points": 18.0,
         "entity_relevance_points": 0,
         "materiality_points": 10.0
@@ -213,12 +249,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "5d9a009e12b943b6",
-          "title": "Speak Out: Trump, gas prices and tariff refunds",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZGs5RzZlMDQ0QmRDX2hlX3dJeENiVVIwOUhzbEgyR2NMcjJrYTFRM0hBTnJpRWlwLVhaUTkwWlpSNVZKXy04NjhXUXplS3N5SWcydjQ2MkZPVEl6WXF3dVdpUk5Yc1lMUW1pSnczLVRxZDJhbHlyZGo4ZGxDalEyT3hwUDBWTWFV?oc=5",
-          "source": "seMissourian",
+          "headline_id": "6df49edba12b9cfc",
+          "title": "New Financial Report Says People Are Tightening Their Belts Ahead of Summer for This Frustrating Reason",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVlk5UWxnNWRwOVZ1VGVoQlFtQm9TVnBuVE1VMml6WGpHd2ZXSFk2OEVKeFNHVFY4UzAtVm14d3NQWkpDWElmblZ6S19uQ3FOZEt4aEZLWUx6XzdiMWxwR1R1MzE4M0tOdWlRV2pRdnpwNUk1X3R2dS1JN2puekVZZDhB?oc=5",
+          "source": "Parade",
           "source_type": "rss",
-          "published_at": "2026-04-21T17:36:35+00:00",
+          "published_at": "2026-04-21T19:37:21+00:00",
           "confidence": 0.6
         }
       ],
@@ -226,24 +262,24 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_5d706b03d21710",
+      "cluster_id": "c_760eeffff6d6ae",
       "topic": "gasoline",
-      "lead_title": "3 Best Stocks For A Squeezed Consumer Amid Higher-For-Longer Gas Prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTTZfS2VJVEphMWl3QUtMdVhCTmJzVlExY0UtNTVfN0Z6UUFjdkRqdmp1R09qaWdVSG9HTnJ6OFhHV3N4Y3dYdF9PSFlhTzNLRmpCMDhCRnZKY0d0R1h6dlFGMm1LNDctclJWc2NCbzBPT1FaRV9fbE5lSm03dDRLUXFQSWdMV1h6X1VINHEweWtibjJydGprVHdPc2cyOHB1SVlNUTBZT2ROb19YTUVsTjhR?oc=5",
-      "lead_source": "Seeking Alpha",
+      "lead_title": "Will gas dip below $3 a gallon this year? Here's what experts predict.",
+      "lead_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhdTA1R2syaU1SZDRpRmlkY0cxQlA4b1FNSlRfMEF2YmNkM1gyYm1GdkdWdFg5bmVjcnByMGVQYVhrRDhySjNyVm4zQTh1R21kNmJaMDEyX2dJLXVqdER6X3hoQdIBaEFVX3lxTE1iSFFmY1hSOEo3TUg4Q1VvUFdMTHhiQmZ5WjBlU1M4WW9OMXNqM2JaUFhYMlpYQ01hWDZXQkJCT0ItdVg1cE5qS2oteVkydmRMRkFFT24xWmFzUkJGczBuZUlfQWh3dU9Z?oc=5",
+      "lead_source": "CBS News",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T17:31:06+00:00",
-      "latest_seen": "2026-04-21T17:31:06+00:00",
-      "age_hours": 0.77,
-      "score": 57.54,
+      "earliest_seen": "2026-04-21T19:33:00+00:00",
+      "latest_seen": "2026-04-21T19:33:00+00:00",
+      "age_hours": 0.18,
+      "score": 57.89,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.54,
+        "recency_points": 24.89,
         "source_quality_points": 18.0,
         "entity_relevance_points": 0,
         "materiality_points": 10.0
@@ -252,12 +288,90 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "62f54615567f5a0e",
-          "title": "3 Best Stocks For A Squeezed Consumer Amid Higher-For-Longer Gas Prices",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTTZfS2VJVEphMWl3QUtMdVhCTmJzVlExY0UtNTVfN0Z6UUFjdkRqdmp1R09qaWdVSG9HTnJ6OFhHV3N4Y3dYdF9PSFlhTzNLRmpCMDhCRnZKY0d0R1h6dlFGMm1LNDctclJWc2NCbzBPT1FaRV9fbE5lSm03dDRLUXFQSWdMV1h6X1VINHEweWtibjJydGprVHdPc2cyOHB1SVlNUTBZT2ROb19YTUVsTjhR?oc=5",
-          "source": "Seeking Alpha",
+          "headline_id": "53b7d42c0e16f469",
+          "title": "Will gas dip below $3 a gallon this year? Here's what experts predict.",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBhdTA1R2syaU1SZDRpRmlkY0cxQlA4b1FNSlRfMEF2YmNkM1gyYm1GdkdWdFg5bmVjcnByMGVQYVhrRDhySjNyVm4zQTh1R21kNmJaMDEyX2dJLXVqdER6X3hoQdIBaEFVX3lxTE1iSFFmY1hSOEo3TUg4Q1VvUFdMTHhiQmZ5WjBlU1M4WW9OMXNqM2JaUFhYMlpYQ01hWDZXQkJCT0ItdVg1cE5qS2oteVkydmRMRkFFT24xWmFzUkJGczBuZUlfQWh3dU9Z?oc=5",
+          "source": "CBS News",
           "source_type": "rss",
-          "published_at": "2026-04-21T17:31:06+00:00",
+          "published_at": "2026-04-21T19:33:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_937a9a3a053c50",
+      "topic": "gasoline",
+      "lead_title": "As gas prices spike, a look at the state of electric vehicles in Arizona",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLThmMzdjMlp1ckMteEdhZDloVWVBWWZ2cFJHdFF4MmpJeHRuWnpCdkJVQV8zdl80QkxQOUF1UlplS3pnTkxsa1dNZ1lEd19hTzVTUElvc01WbmQwQTZMa3ZmMExjZWx2eTJLcXNXS2F5bUJTU0M2WEdtN05oeW51cmlRUWxydG9XY04tOW1lbnU0Nm9xZ0xQUDQzdndCdU83MGc4dEZXNF9zVVUtVTFlNEFB?oc=5",
+      "lead_source": "KJZZ",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T19:22:00+00:00",
+      "latest_seen": "2026-04-21T19:22:00+00:00",
+      "age_hours": 0.36,
+      "score": 57.78,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.78,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "763565d5ee6346de",
+          "title": "As gas prices spike, a look at the state of electric vehicles in Arizona",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPLThmMzdjMlp1ckMteEdhZDloVWVBWWZ2cFJHdFF4MmpJeHRuWnpCdkJVQV8zdl80QkxQOUF1UlplS3pnTkxsa1dNZ1lEd19hTzVTUElvc01WbmQwQTZMa3ZmMExjZWx2eTJLcXNXS2F5bUJTU0M2WEdtN05oeW51cmlRUWxydG9XY04tOW1lbnU0Nm9xZ0xQUDQzdndCdU83MGc4dEZXNF9zVVUtVTFlNEFB?oc=5",
+          "source": "KJZZ",
+          "source_type": "rss",
+          "published_at": "2026-04-21T19:22:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_2a8aff2a433be1",
+      "topic": "gasoline",
+      "lead_title": "Soaring jet fuel prices threaten to drive up summer travel costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUlNQMmtBMlRKQjJwV1h1VERTWlZuT2JURDZsTXlxSG93N01yaVlxcDhpODV5ZkZCQXl2c2I3MEpEakZOdksyU0ZtVmNMWVpVYzVlQmhZc3ozTFk5UWJMSzNRUEFWR2o1XzByRUtZSTZUcUNXa2hIYnU2TkpkbUFUZjhXdHVlYlRDY0ttdVd6Vkdmam1MZVZTN1VyVdIBoAFBVV95cUxNU2syS09sazE2NHNmRlhQOTNHQ3R1aXZnSWVQNE55b3U4dS1XWnhIMlFqTk1Kd2R5LVhrNUFCMDBWcURNQVUyMFV3UktPWUxKd3B6OHIzLVBZdV9WVDk0OUEyZmZ0d3c5R3V3X0ZTdzV0eG9BQTJOMzhSUlpia2hwQk9DSlQzVTJ2M3docFQ5MW9felpOYkFtUGplT2JQRFVf?oc=5",
+      "lead_source": "FOX 32 Chicago",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T19:07:42+00:00",
+      "latest_seen": "2026-04-21T19:07:42+00:00",
+      "age_hours": 0.6,
+      "score": 57.64,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.64,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "2317110a2905c367",
+          "title": "Soaring jet fuel prices threaten to drive up summer travel costs",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUlNQMmtBMlRKQjJwV1h1VERTWlZuT2JURDZsTXlxSG93N01yaVlxcDhpODV5ZkZCQXl2c2I3MEpEakZOdksyU0ZtVmNMWVpVYzVlQmhZc3ozTFk5UWJMSzNRUEFWR2o1XzByRUtZSTZUcUNXa2hIYnU2TkpkbUFUZjhXdHVlYlRDY0ttdVd6Vkdmam1MZVZTN1VyVdIBoAFBVV95cUxNU2syS09sazE2NHNmRlhQOTNHQ3R1aXZnSWVQNE55b3U4dS1XWnhIMlFqTk1Kd2R5LVhrNUFCMDBWcURNQVUyMFV3UktPWUxKd3B6OHIzLVBZdV9WVDk0OUEyZmZ0d3c5R3V3X0ZTdzV0eG9BQTJOMzhSUlpia2hwQk9DSlQzVTJ2M3docFQ5MW9felpOYkFtUGplT2JQRFVf?oc=5",
+          "source": "FOX 32 Chicago",
+          "source_type": "rss",
+          "published_at": "2026-04-21T19:07:42+00:00",
           "confidence": 0.6
         }
       ],
@@ -280,11 +394,11 @@
       ],
       "earliest_seen": "2026-04-21T13:21:17+00:00",
       "latest_seen": "2026-04-21T16:01:17+00:00",
-      "age_hours": 2.26,
-      "score": 57.14,
+      "age_hours": 3.71,
+      "score": 56.27,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 23.64,
+        "recency_points": 22.77,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -315,45 +429,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_110b711f9855a7",
-      "topic": "gasoline",
-      "lead_title": "UK pushes long-term renewables deals to shield against gas price shocks",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlBpcl9hMV9IVWthZm5JTktVdzdTSzB1STBKYzBGMWFha09URjJRdVZMcDBlUl9Uei0zU3psUDRTbWd2OUFudDJTaDdjSXQ5dzN2WFVvSUtvQ1JNd2NsazI0ZEtCdm9fak5fcUMtNTRLQk9CVDUzeGtfVkZ5MGcxMUg0UHJ2VlkyNUttRUFkYXdVeTN4VUZhM1F5Z0VaRC1feVJuMm9vVDNCMktRRjlsVWJSZ3U4Vkc5TFExMg?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-20T23:04:00+00:00",
-      "latest_seen": "2026-04-20T23:04:00+00:00",
-      "age_hours": 19.22,
-      "score": 56.97,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 13.47,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "6c7d4e054afdfc05",
-          "title": "UK pushes long-term renewables deals to shield against gas price shocks",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTlBpcl9hMV9IVWthZm5JTktVdzdTSzB1STBKYzBGMWFha09URjJRdVZMcDBlUl9Uei0zU3psUDRTbWd2OUFudDJTaDdjSXQ5dzN2WFVvSUtvQ1JNd2NsazI0ZEtCdm9fak5fcUMtNTRLQk9CVDUzeGtfVkZ5MGcxMUg0UHJ2VlkyNUttRUFkYXdVeTN4VUZhM1F5Z0VaRC1feVJuMm9vVDNCMktRRjlsVWJSZ3U4Vkc5TFExMg?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-20T23:04:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_043d50fed05ccd",
       "topic": "gasoline",
       "lead_title": "Retail Sales Rise, Majority Spent At Gas Pump Amid High Prices",
@@ -370,11 +445,11 @@
       ],
       "earliest_seen": "2026-04-21T13:28:00+00:00",
       "latest_seen": "2026-04-21T13:28:00+00:00",
-      "age_hours": 4.82,
-      "score": 56.11,
+      "age_hours": 6.26,
+      "score": 55.24,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.11,
+        "recency_points": 21.24,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -396,45 +471,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_e5ba508b2ba40c",
-      "topic": "gasoline",
-      "lead_title": "A timeline of how the Iran war shook oil prices — and what comes next",
-      "lead_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBbnpEbzVRZ0w5Vnc5d1MzX3BhNmttLWpqbVQwMzBQWlJRUXdKbU0tZzQ4Q0R2VU8yMll2N0l4TG9UdnVvRUs3VFZjTy01MjRHX3dfcnVyLTFEWkpBWXN6WUJTUTRBLWtaV2xXYnlOQUxZMGZTNFHSAXtBVV95cUxOZmg5TXoybVJhcUdpUldDZ25ldHBYdjN0UFdua3REWnk4SzNRQmlhVVlaNUZLVVlSYlQwRGNYRDNfNUw1UHVHNGZTdUhQY1dCTzdvdXlJdGtFa1QxSXVqcXRNbnFfNDludDF5cE9QelprTGpUcU5qRDZSeUU?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-21T14:34:18+00:00",
-      "latest_seen": "2026-04-21T14:34:18+00:00",
-      "age_hours": 3.71,
-      "score": 54.17,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.77,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "cb094d1ecaf3e4a2",
-          "title": "A timeline of how the Iran war shook oil prices — and what comes next",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBbnpEbzVRZ0w5Vnc5d1MzX3BhNmttLWpqbVQwMzBQWlJRUXdKbU0tZzQ4Q0R2VU8yMll2N0l4TG9UdnVvRUs3VFZjTy01MjRHX3dfcnVyLTFEWkpBWXN6WUJTUTRBLWtaV2xXYnlOQUxZMGZTNFHSAXtBVV95cUxOZmg5TXoybVJhcUdpUldDZ25ldHBYdjN0UFdua3REWnk4SzNRQmlhVVlaNUZLVVlSYlQwRGNYRDNfNUw1UHVHNGZTdUhQY1dCTzdvdXlJdGtFa1QxSXVqcXRNbnFfNDludDF5cE9QelprTGpUcU5qRDZSeUU?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-04-21T14:34:18+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_e57245b0eeb3ce",
       "topic": "gasoline",
       "lead_title": "U.S. retail sales posted a 3-year high in March, but gas did the heavy lifting",
@@ -448,13 +484,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T16:11:25+00:00",
-      "latest_seen": "2026-04-21T16:11:25+00:00",
-      "age_hours": 2.09,
-      "score": 52.24,
+      "earliest_seen": "2026-04-21T15:52:41+00:00",
+      "latest_seen": "2026-04-21T15:52:41+00:00",
+      "age_hours": 3.85,
+      "score": 51.19,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.74,
+        "recency_points": 22.69,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -468,7 +504,7 @@
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lczBObWc5dGhkMG5aby1xUF80MlJZZEVmaFJHa245aGZhdnFfRGtGYXBid21pc2RTSXpNVUxNTV9fQ2V0azBzOW8wTHkzcGZUZ25KbnRJM2kwWW0wWG1SQWpTWThrLXhNSFBmX05NR2hQMnhJaEdF?oc=5",
           "source": "qz.com",
           "source_type": "rss",
-          "published_at": "2026-04-21T16:11:25+00:00",
+          "published_at": "2026-04-21T15:52:41+00:00",
           "confidence": 0.65
         }
       ],
@@ -491,11 +527,11 @@
       ],
       "earliest_seen": "2026-04-21T14:57:00+00:00",
       "latest_seen": "2026-04-21T14:57:00+00:00",
-      "age_hours": 3.33,
-      "score": 51.5,
+      "age_hours": 4.78,
+      "score": 50.63,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.0,
+        "recency_points": 22.13,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -517,45 +553,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_14cd6fc503043f",
-      "topic": "gasoline",
-      "lead_title": "UK moves to weaken link between electricity and gas prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWlR4N0xLeWl2M3hjLTVOYVRFOVJ1N2pUSFhNaldVM3duazNzcU1hWUpFTkRxcHVWLUl3QmNqY2FFemJqb2hTLTYteno3UHUwTEY1VkVHajV3WjlZT2p0cFdza0wyS3JnZXV4YUR3c1J4b3B1M2h5MEcyS3IyeTNGcXJCWmdkS1hvZ01Ha1d0dFA3V2NhVVRYdmg4VzVlRlh2Um5iZVFaWl9rODhFaEVLMXVTNndYNEhUVm9pZHdmVlpPWGpDcHc?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-21T06:34:00+00:00",
-      "latest_seen": "2026-04-21T06:34:00+00:00",
-      "age_hours": 11.72,
-      "score": 51.47,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 17.97,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f6b82925a09650c0",
-          "title": "UK moves to weaken link between electricity and gas prices",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWlR4N0xLeWl2M3hjLTVOYVRFOVJ1N2pUSFhNaldVM3duazNzcU1hWUpFTkRxcHVWLUl3QmNqY2FFemJqb2hTLTYteno3UHUwTEY1VkVHajV3WjlZT2p0cFdza0wyS3JnZXV4YUR3c1J4b3B1M2h5MEcyS3IyeTNGcXJCWmdkS1hvZ01Ha1d0dFA3V2NhVVRYdmg4VzVlRlh2Um5iZVFaWl9rODhFaEVLMXVTNndYNEhUVm9pZHdmVlpPWGpDcHc?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-21T06:34:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_e4f53da51cfc71",
       "topic": "gasoline",
       "lead_title": "Dow Jones Climbs as Gas Prices Boost Retail Sales to Three-Year High",
@@ -571,11 +568,11 @@
       ],
       "earliest_seen": "2026-04-21T14:05:21+00:00",
       "latest_seen": "2026-04-21T14:05:21+00:00",
-      "age_hours": 4.2,
-      "score": 50.98,
+      "age_hours": 5.64,
+      "score": 50.11,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.48,
+        "recency_points": 21.61,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -612,11 +609,11 @@
       ],
       "earliest_seen": "2026-04-21T13:44:09+00:00",
       "latest_seen": "2026-04-21T13:44:09+00:00",
-      "age_hours": 4.55,
-      "score": 50.77,
+      "age_hours": 6.0,
+      "score": 49.9,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.27,
+        "recency_points": 21.4,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -653,11 +650,11 @@
       ],
       "earliest_seen": "2026-04-21T13:00:00+00:00",
       "latest_seen": "2026-04-21T13:00:00+00:00",
-      "age_hours": 5.28,
-      "score": 50.33,
+      "age_hours": 6.73,
+      "score": 49.46,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.83,
+        "recency_points": 20.96,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -672,6 +669,47 @@
           "source": "WXHC.com",
           "source_type": "rss",
           "published_at": "2026-04-21T13:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3bb3c616f389c5",
+      "topic": "gasoline",
+      "lead_title": "Beyond the pump: Gas prices are shaping biofuel demand",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaEpzekNCQnhZTHdYbXZ2a3FnTDl6OWdvblJkcFJyTWhjaGpPMFRrckl4Q0EtZ3k4ajBDWjF0OC1UMnlreG9WaGxYc002enRRX0NyeVVqNlhuSnU3LUVBdlQwdG9qTFI1cmxlbU9URmNPaUFYWG5GLV9taC1ZOG9RUXR1T3dhRnZjNG5KUGpKUnpzRDdIYmF2WFZhTmVLeWFG?oc=5",
+      "lead_source": "American Ag Network",
+      "canonical_entities": [
+        "pump"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T12:37:19+00:00",
+      "latest_seen": "2026-04-21T12:37:19+00:00",
+      "age_hours": 7.11,
+      "score": 49.23,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 20.73,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "55a36ed45a6625e1",
+          "title": "Beyond the pump: Gas prices are shaping biofuel demand",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaEpzekNCQnhZTHdYbXZ2a3FnTDl6OWdvblJkcFJyTWhjaGpPMFRrckl4Q0EtZ3k4ajBDWjF0OC1UMnlreG9WaGxYc002enRRX0NyeVVqNlhuSnU3LUVBdlQwdG9qTFI1cmxlbU9URmNPaUFYWG5GLV9taC1ZOG9RUXR1T3dhRnZjNG5KUGpKUnpzRDdIYmF2WFZhTmVLeWFG?oc=5",
+          "source": "American Ag Network",
+          "source_type": "rss",
+          "published_at": "2026-04-21T12:37:19+00:00",
           "confidence": 0.65
         }
       ],
@@ -694,11 +732,11 @@
       ],
       "earliest_seen": "2026-04-21T12:35:22+00:00",
       "latest_seen": "2026-04-21T12:35:22+00:00",
-      "age_hours": 5.7,
-      "score": 50.08,
+      "age_hours": 7.14,
+      "score": 49.21,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.58,
+        "recency_points": 20.71,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -735,11 +773,11 @@
       ],
       "earliest_seen": "2026-04-21T12:35:00+00:00",
       "latest_seen": "2026-04-21T12:35:00+00:00",
-      "age_hours": 5.7,
-      "score": 50.08,
+      "age_hours": 7.15,
+      "score": 49.21,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.58,
+        "recency_points": 20.71,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -776,11 +814,11 @@
       ],
       "earliest_seen": "2026-04-21T12:33:56+00:00",
       "latest_seen": "2026-04-21T12:33:56+00:00",
-      "age_hours": 5.72,
-      "score": 50.07,
+      "age_hours": 7.17,
+      "score": 49.2,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.57,
+        "recency_points": 20.7,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -802,47 +840,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_3bb3c616f389c5",
-      "topic": "gasoline",
-      "lead_title": "Beyond the pump: Gas prices are shaping biofuel demand",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaEpzekNCQnhZTHdYbXZ2a3FnTDl6OWdvblJkcFJyTWhjaGpPMFRrckl4Q0EtZ3k4ajBDWjF0OC1UMnlreG9WaGxYc002enRRX0NyeVVqNlhuSnU3LUVBdlQwdG9qTFI1cmxlbU9URmNPaUFYWG5GLV9taC1ZOG9RUXR1T3dhRnZjNG5KUGpKUnpzRDdIYmF2WFZhTmVLeWFG?oc=5",
-      "lead_source": "American Ag Network",
-      "canonical_entities": [
-        "pump"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-21T12:22:49+00:00",
-      "latest_seen": "2026-04-21T12:22:49+00:00",
-      "age_hours": 5.9,
-      "score": 49.96,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.46,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "55a36ed45a6625e1",
-          "title": "Beyond the pump: Gas prices are shaping biofuel demand",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaEpzekNCQnhZTHdYbXZ2a3FnTDl6OWdvblJkcFJyTWhjaGpPMFRrckl4Q0EtZ3k4ajBDWjF0OC1UMnlreG9WaGxYc002enRRX0NyeVVqNlhuSnU3LUVBdlQwdG9qTFI1cmxlbU9URmNPaUFYWG5GLV9taC1ZOG9RUXR1T3dhRnZjNG5KUGpKUnpzRDdIYmF2WFZhTmVLeWFG?oc=5",
-          "source": "American Ag Network",
-          "source_type": "rss",
-          "published_at": "2026-04-21T12:22:49+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_f4714af91df7c2",
       "topic": "gasoline",
       "lead_title": "Pain at the Pump",
@@ -856,13 +853,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T11:16:15+00:00",
-      "latest_seen": "2026-04-21T11:16:15+00:00",
-      "age_hours": 7.01,
-      "score": 49.29,
+      "earliest_seen": "2026-04-21T10:50:03+00:00",
+      "latest_seen": "2026-04-21T10:50:03+00:00",
+      "age_hours": 8.9,
+      "score": 48.16,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.79,
+        "recency_points": 19.66,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -876,8 +873,47 @@
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmMHVpamNPNWxPeXhLc3B0dVlWTWJQSlY5VXJxOHRqOURaZkllb0xROG4xREJ1N2h0RGlSU2ZyVTd6aWdkSm5BUDlHTzZiUVZRVGhlbHZNVkFVU1BFcFNWaTBaWmphQk5VVEZmVFVxbjdvMk0?oc=5",
           "source": "The New York Times",
           "source_type": "rss",
-          "published_at": "2026-04-21T11:16:15+00:00",
+          "published_at": "2026-04-21T10:50:03+00:00",
           "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_14cd6fc503043f",
+      "topic": "gasoline",
+      "lead_title": "UK moves to weaken link between electricity and gas prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWlR4N0xLeWl2M3hjLTVOYVRFOVJ1N2pUSFhNaldVM3duazNzcU1hWUpFTkRxcHVWLUl3QmNqY2FFemJqb2hTLTYteno3UHUwTEY1VkVHajV3WjlZT2p0cFdza0wyS3JnZXV4YUR3c1J4b3B1M2h5MEcyS3IyeTNGcXJCWmdkS1hvZ01Ha1d0dFA3V2NhVVRYdmg4VzVlRlh2Um5iZVFaWl9rODhFaEVLMXVTNndYNEhUVm9pZHdmVlpPWGpDcHc?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T06:34:00+00:00",
+      "latest_seen": "2026-04-21T06:34:00+00:00",
+      "age_hours": 13.16,
+      "score": 45.6,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.1,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "f6b82925a09650c0",
+          "title": "UK moves to weaken link between electricity and gas prices",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQWlR4N0xLeWl2M3hjLTVOYVRFOVJ1N2pUSFhNaldVM3duazNzcU1hWUpFTkRxcHVWLUl3QmNqY2FFemJqb2hTLTYteno3UHUwTEY1VkVHajV3WjlZT2p0cFdza0wyS3JnZXV4YUR3c1J4b3B1M2h5MEcyS3IyeTNGcXJCWmdkS1hvZ01Ha1d0dFA3V2NhVVRYdmg4VzVlRlh2Um5iZVFaWl9rODhFaEVLMXVTNndYNEhUVm9pZHdmVlpPWGpDcHc?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-21T06:34:00+00:00",
+          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -899,7 +935,7 @@
       ],
       "earliest_seen": "2026-03-31T07:00:00+00:00",
       "latest_seen": "2026-03-31T07:00:00+00:00",
-      "age_hours": 515.28,
+      "age_hours": 516.73,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -940,7 +976,7 @@
       ],
       "earliest_seen": "2026-04-19T12:00:55+00:00",
       "latest_seen": "2026-04-19T12:00:55+00:00",
-      "age_hours": 54.27,
+      "age_hours": 55.72,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -981,7 +1017,7 @@
       ],
       "earliest_seen": "2026-04-16T12:00:00+00:00",
       "latest_seen": "2026-04-16T12:00:00+00:00",
-      "age_hours": 126.28,
+      "age_hours": 127.73,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1022,7 +1058,7 @@
       ],
       "earliest_seen": "2026-04-09T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 299.28,
+      "age_hours": 300.73,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1063,7 +1099,7 @@
       ],
       "earliest_seen": "2026-04-02T07:00:00+00:00",
       "latest_seen": "2026-04-02T07:00:00+00:00",
-      "age_hours": 467.28,
+      "age_hours": 468.73,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1104,7 +1140,7 @@
       ],
       "earliest_seen": "2026-03-26T07:00:00+00:00",
       "latest_seen": "2026-03-26T07:00:00+00:00",
-      "age_hours": 635.28,
+      "age_hours": 636.73,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
