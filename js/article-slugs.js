@@ -332,7 +332,36 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Iranian Government": "trump-extends-iran-ceasefire-indefinitely-citing-fractured-iranian-government",
+  "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Government": "trump-extends-iran-ceasefire-indefinitely-citing-fractured-iranian-government",
+  "Trump Extends Ceasefire Indefinitely, Citing 'Fractured' Iran": "trump-extends-iran-ceasefire-indefinitely-citing-fractured-iranian-government",
+  "Trump Extends Iran Ceasefire Indefinitely on Truth Social": "trump-extends-iran-ceasefire-indefinitely-citing-fractured-iranian-government",
+  "Brent Spikes Above $100 Intraday Before Retreating on Ceasefire Extension News": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
+  "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
+  "Brent Touches $101 Intraday Before Retreating on Extension News": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
+  "WTI Settles +3% at $92.13, Brent +3% at $98.48 on Peace Talk Uncertainty": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
+  "U.S. Naval Blockade of Iranian Ports Remains in Place Despite Ceasefire Extension": "us-naval-blockade-of-iranian-ports-remains-in-place-despite-ceasefire-extension",
+  "U.S. Navy Blockade Has Turned Back 28 Ships Since Beginning": "us-naval-blockade-of-iranian-ports-remains-in-place-despite-ceasefire-extension",
+  "Strait of Hormuz Remains Functionally Closed Despite Extension": "us-naval-blockade-of-iranian-ports-remains-in-place-despite-ceasefire-extension",
+  "Vance's Islamabad Trip Put on Hold as Iran Fails to Confirm Delegation": "vances-islamabad-trip-put-on-hold-as-iran-fails-to-confirm-delegation",
+  "Vance Holds at White House as Iran Delays Delegation Confirmation": "vances-islamabad-trip-put-on-hold-as-iran-fails-to-confirm-delegation",
+  "Iran Still Hasn't Confirmed Delegation for Islamabad Talks": "vances-islamabad-trip-put-on-hold-as-iran-fails-to-confirm-delegation",
+  "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon, Violating Ceasefire": "hezbollah-fires-rockets-at-israeli-troops-in-southern-lebanon-violating-ceasefire",
+  "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon": "hezbollah-fires-rockets-at-israeli-troops-in-southern-lebanon-violating-ceasefire",
+  "Hezbollah Rocket Fire Breaches 10-Day Ceasefire with Israel": "hezbollah-fires-rockets-at-israeli-troops-in-southern-lebanon-violating-ceasefire",
+  "Iran's IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks": "irgc-threatens-to-target-oil-facilities-in-neighboring-countries-hosting-us-attacks",
+  "IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks": "irgc-threatens-to-target-oil-facilities-in-neighboring-countries-hosting-us-attacks",
+  "IRGC Threatens Oil Facilities in Neighboring Countries": "irgc-threatens-to-target-oil-facilities-in-neighboring-countries-hosting-us-attacks",
+  "IRGC Threatens Oil Facilities in Neighboring Host Countries": "irgc-threatens-to-target-oil-facilities-in-neighboring-countries-hosting-us-attacks",
+  "Iran FM Araghchi Calls U.S. Naval Blockade 'An Act of War' and Ceasefire Violation": "iran-fm-araghchi-calls-us-naval-blockade-an-act-of-war-and-ceasefire-violation",
+  "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays": "energy-stocks-mixed-as-ceasefire-extension-eases-but-blockade-stays",
+  "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty": "maersk-hapag-lloyd-maintain-hormuz-transit-suspension-amid-continued-uncertainty",
+  "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade": "saudi-aramco-east-west-pipeline-continues-at-full-capacity-through-blockade",
+  "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted": "cheniere-energy-venture-global-ride-lng-premium-as-qatar-flows-still-disrupted",
+  "OPEC+ April Output Increase Proceeding Despite Market Volatility": "opec-april-output-increase-proceeding-despite-market-volatility",
+  "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Extension": "us-iran-ceasefire-explained-timeline-terms-and-extension"
+
 };
 
 function slugifyTitle(title) {

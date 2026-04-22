@@ -34,7 +34,7 @@
     <section class="section">
       <div class="container">
         <div class="section-header">
-          <h2 class="section-title" id="sec-context"></h2>
+          <h2 class="section-title" id="sec-context">Current Risk Landscape</h2>
         </div>
         <div style="max-width:860px;color:var(--text-2);font-size:15.5px;line-height:1.75">
           <p style="margin:0 0 14px"><strong style="color:var(--text-1)">The energy-geopolitics landscape entered a new phase Tuesday.</strong> In a Truth Social post, President Trump <a href="../articles/trump-extends-iran-ceasefire-indefinitely-citing-fractured-iranian-government.html" style="color:var(--blue);text-decoration:none">extended the U.S.-Iran ceasefire indefinitely</a>, citing a &ldquo;seriously fractured&rdquo; Iranian government and a request from Pakistan's Field Marshal Asim Munir and Prime Minister Shehbaz Sharif. The extension came hours after Trump told CNBC he didn't plan to extend it. The move removes the immediate deadline risk but also removes the pressure on Iran to submit a proposal quickly. The <a href="../articles/hormuz-closed-again-iran-reverses-course-as-trump-refuses-to-lift-blockade.html" style="color:var(--blue);text-decoration:none">U.S. naval blockade of Iranian ports remains in place</a>, and has forced 28 ships to turn back since it began.</p>
@@ -79,20 +79,26 @@
 
     <!-- RISK DASHBOARD -->
     <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-risk"></h2></div>
-      <div class="grid-4" id="geo-risk-cards"></div>
+      <div class="section-header"><h2 class="section-title" id="sec-risk">Live Risk Dashboard</h2></div>
+      <!-- SSR FALLBACK: visible if JS fails entirely. JS replaces this on load. -->
+      <div class="grid-4" id="geo-risk-cards">
+        <div class="stat-box" style="text-align:left;padding:16px;border-left:3px solid #ef4444"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:12px;font-weight:700;color:var(--text-1);text-transform:uppercase;letter-spacing:0.04em">Strait of Hormuz</span><span style="font-size:9px;font-weight:800;color:#ef4444;background:#ef444415;padding:3px 8px;border-radius:4px;letter-spacing:0.06em">HIGH</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.55">Strait remains functionally closed despite the ceasefire extension. U.S. naval blockade of Iranian ports continues (28 ships turned back). Iran FM Araghchi: blockade is &ldquo;an act of war.&rdquo;</div></div>
+        <div class="stat-box" style="text-align:left;padding:16px;border-left:3px solid #ef4444"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:12px;font-weight:700;color:var(--text-1);text-transform:uppercase;letter-spacing:0.04em">Iran &mdash; U.S. Conflict</span><span style="font-size:9px;font-weight:800;color:#ef4444;background:#ef444415;padding:3px 8px;border-radius:4px;letter-spacing:0.06em">HIGH</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.55">Trump extended ceasefire indefinitely April 21 at Pakistan&rsquo;s request. No new expiration. Blockade stays. Vance&rsquo;s Islamabad trip on hold as Iran hasn&rsquo;t confirmed delegation.</div></div>
+        <div class="stat-box" style="text-align:left;padding:16px;border-left:3px solid #f59e0b"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:12px;font-weight:700;color:var(--text-1);text-transform:uppercase;letter-spacing:0.04em">OPEC+ Policy</span><span style="font-size:9px;font-weight:800;color:#f59e0b;background:#f59e0b15;padding:3px 8px;border-radius:4px;letter-spacing:0.06em">ELEVATED</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.55">206,000 bpd April output increase proceeding. Saudi balancing market share vs. price support. Emergency meeting possible if ceasefire collapses.</div></div>
+        <div class="stat-box" style="text-align:left;padding:16px;border-left:3px solid #ef4444"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:12px;font-weight:700;color:var(--text-1);text-transform:uppercase;letter-spacing:0.04em">LNG Supply Chains</span><span style="font-size:9px;font-weight:800;color:#ef4444;background:#ef444415;padding:3px 8px;border-radius:4px;letter-spacing:0.06em">HIGH</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.55">Qatar LNG flows remain disrupted as Hormuz stays effectively closed. Europe competing with Asia for U.S. cargoes. LNG premium rebuilt.</div></div>
+      </div>
     </div></section>
 
     <!-- ENERGY CHOKEPOINTS -->
     <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-choke"></h2></div>
+      <div class="section-header"><h2 class="section-title" id="sec-choke">Oil Chokepoints</h2></div>
       <p style="color:var(--text-2);font-size:13.5px;line-height:1.65;margin-bottom:20px;max-width:800px">Global energy flows through a handful of narrow waterways and pipelines. Disruption at any single chokepoint can remove millions of barrels from market and send prices surging within hours.</p>
       <div class="grid-3" id="chokepoints"></div>
     </div></section>
 
     <!-- HOW GEOPOLITICS AFFECTS MARKETS -->
     <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-impact"></h2></div>
+      <div class="section-header"><h2 class="section-title" id="sec-impact">How Oil Geopolitics Moves Markets</h2></div>
       <div class="explainer-block">
         <h3>The Geopolitical Risk Premium</h3>
         <p>Oil prices include a “geopolitical risk premium” — an amount above the fundamental supply-demand price that reflects the market’s assessment of potential supply disruptions. This premium can add $5-30+ per barrel depending on the severity and proximity of threats. During the 2026 Hormuz crisis, the risk premium exceeded $25/barrel at its peak. After Hormuz reopened April 17 and WTI crashed 11.45%, Iran re-closed the strait April 18. Risk premium is rebuilding. Market pricing continued uncertainty through Tuesday’s ceasefire expiration.</p>
@@ -108,7 +114,7 @@
 
     <!-- CURRENT FLASHPOINTS -->
     <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-flash"></h2></div>
+      <div class="section-header"><h2 class="section-title" id="sec-flash">Active Flashpoints</h2></div>
       <div class="grid-3" id="flashpoints"></div>
     </div></section>
 
@@ -120,7 +126,7 @@
 
     <!-- FEATURED COVERAGE -->
     <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-articles"></h2></div>
+      <div class="section-header"><h2 class="section-title" id="sec-articles">Featured Coverage</h2></div>
       <div class="grid-auto-280" id="geo-articles"></div>
     </div></section>
 
@@ -179,135 +185,171 @@
   <script src="../js/data.js"></script><script src="../js/article-slugs.js"></script><script src="../js/main.js"></script><script src="../js/live-data.js"></script><script src="../js/news-feed.js"></script>
   <script src="../js/event-state.js"></script>
   <script>
+    // ═══════════════════════════════════════════════════════════════
+    // RESILIENCE LAYER — every section is wrapped in safeRun() so that
+    // a failure in ANY single section cannot blank the whole page.
+    // Fetch-based code is deferred to runtime end so it cannot block
+    // synchronous DOM rendering. This approach was adopted after the
+    // geopolitics page went blank twice from isolated script errors.
+    // ═══════════════════════════════════════════════════════════════
+    function safeRun(label, fn){ try { fn(); } catch (e) { if (window.console) console.error('[geopolitics:'+label+']', e && e.message ? e.message : e); } }
+    function safeIcon(name, size){ try { return (typeof icon === 'function') ? icon(name, size) : ''; } catch (e) { return ''; } }
+
+    // Helper: set innerHTML on an element if it exists (no-op if missing)
+    function setHTML(id, html){ var el = document.getElementById(id); if (el) el.innerHTML = html; }
+
     function SB(l,v,s){return '<div class="stat-box"><div class="stat-box-label">'+l+'</div><div class="stat-box-value">'+v+'</div><div class="stat-box-sub" style="color:var(--text-3)">'+s+'</div></div>';}
-    function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
+    function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+safeIcon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
     function riskCard(region, level, detail, color) {
       var colors = {HIGH:'#ef4444',ELEVATED:'#f59e0b',MODERATE:'#3b82f6',LOW:'#10b981'};
       var c = colors[level] || '#6b7280';
       return '<div class="stat-box" style="text-align:left;padding:16px;border-left:3px solid '+c+'"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:12px;font-weight:700;color:var(--text-1);text-transform:uppercase;letter-spacing:0.04em">'+region+'</span><span style="font-size:9px;font-weight:800;color:'+c+';background:'+c+'15;padding:3px 8px;border-radius:4px;letter-spacing:0.06em">'+level+'</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.55">'+detail+'</div></div>';
     }
 
-    // Section headers
-    document.getElementById('sec-risk').innerHTML = icon('shield',20)+' Live Risk Dashboard — Hormuz, Iran, OPEC';
-    document.getElementById('sec-choke').innerHTML = icon('map',20)+' Oil Chokepoints — Hormuz, Malacca, Suez';
-    document.getElementById('sec-impact').innerHTML = icon('trending-up',20)+' How Oil Geopolitics Moves Markets';
-    document.getElementById('sec-flash').innerHTML = icon('alert-triangle',20)+' Active Flashpoints — Iran, Russia, Middle East';
-    document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live Iran, OPEC & Middle East Headlines';
-    document.getElementById('sec-articles').innerHTML = icon('newspaper',20)+' Featured Coverage';
-    document.getElementById('sec-explore').innerHTML = icon('compass',20)+' Related Oil & Energy Topics';
-    document.getElementById('sec-context').innerHTML = icon('globe',18) + ' Current Risk Landscape';
-
-    // Markets Are Watching section title + pillar network
-    var watchEl = document.getElementById('sec-watching');
-    if (watchEl) watchEl.innerHTML = icon('trending-up',20) + ' Markets Are Watching';
-    var netEl = document.getElementById('sec-network');
-    if (netEl) netEl.innerHTML = icon('layout',20) + ' The EnergyPricesToday Pillars';
-    var pnHome = document.getElementById('pn-home'); if (pnHome) pnHome.innerHTML = icon('activity',16);
-    var pnOil = document.getElementById('pn-oil'); if (pnOil) pnOil.innerHTML = icon('trending-up',16);
-    var pnGas = document.getElementById('pn-gas'); if (pnGas) pnGas.innerHTML = icon('fuel',16);
-    var pnMkt = document.getElementById('pn-mkt'); if (pnMkt) pnMkt.innerHTML = icon('bar-chart',16);
+    // Section headers — all wrapped in safeRun
+    safeRun('section-headers', function(){
+      setHTML('sec-risk',     safeIcon('shield',20)+' Live Risk Dashboard — Hormuz, Iran, OPEC');
+      setHTML('sec-choke',    safeIcon('map',20)+' Oil Chokepoints — Hormuz, Malacca, Suez');
+      setHTML('sec-impact',   safeIcon('trending-up',20)+' How Oil Geopolitics Moves Markets');
+      setHTML('sec-flash',    safeIcon('alert-triangle',20)+' Active Flashpoints — Iran, Russia, Middle East');
+      setHTML('sec-live',     safeIcon('rss',18)+' Live Iran, OPEC & Middle East Headlines');
+      setHTML('sec-articles', safeIcon('newspaper',20)+' Featured Coverage');
+      setHTML('sec-explore',  safeIcon('compass',20)+' Related Oil & Energy Topics');
+      setHTML('sec-context',  safeIcon('globe',18) + ' Current Risk Landscape');
+      setHTML('sec-watching', safeIcon('trending-up',20) + ' Markets Are Watching');
+      setHTML('sec-network',  safeIcon('layout',20) + ' The EnergyPricesToday Pillars');
+      setHTML('pn-home', safeIcon('activity',16));
+      setHTML('pn-oil',  safeIcon('trending-up',16));
+      setHTML('pn-gas',  safeIcon('fuel',16));
+      setHTML('pn-mkt',  safeIcon('bar-chart',16));
+    });
 
     // Markets Are Watching — connects events to market reactions
-    var watchingEl = document.getElementById('watching-cards');
-    if (watchingEl) {
+    safeRun('watching-cards', function(){
+      var watchingEl = document.getElementById('watching-cards');
+      if (!watchingEl) return;
       watchingEl.innerHTML = [
-        TC('trending-up','Oil Prices — Risk Premium Rebuilding','WTI and Brent both bounced from Friday\'s 11%+ crash on Monday\'s Hormuz re-closure news. The Brent-WTI spread is widening as maritime risk returns. <strong>Market says:</strong> ~$15-25/bbl risk premium embedded. <a href="../oil-prices.html" style="color:var(--blue)">Live oil prices →</a>'),
+        TC('trending-up','Oil Prices — Risk Premium Rebuilding','WTI and Brent both bounced sharply from Friday&rsquo;s 11%+ crash on Monday&rsquo;s Hormuz re-closure news. The Brent-WTI spread is widening as maritime risk returns. <strong>Market says:</strong> ~$15-25/bbl risk premium embedded. <a href="../oil-prices.html" style="color:var(--blue)">Live oil prices →</a>'),
         TC('fuel','Gas Prices — Still Easing','Despite the geopolitical reversal, AAA national average has fallen seven consecutive days to $4.058. Crude-to-pump lag is working the earlier downside through. <strong>Market says:</strong> lag is protecting consumers short-term. <a href="gas-prices.html" style="color:var(--blue)">State-by-state gas →</a>'),
         TC('bar-chart','Curve Shape — Tight Prompt','WTI futures in steep backwardation through December 2026. Cushing stocks below 5-year average. EIA reported 9.13M barrel draw last week. <strong>Market says:</strong> physical supply is tight now. <a href="../markets.html" style="color:var(--blue)">Full benchmarks →</a>'),
         TC('zap','LNG & Gas — Qatar Disruption','JKM and Dutch TTF both elevated. Qatari LNG routes through Hormuz; re-closure halts flows again. European buyers return to premium-bidding for U.S. cargoes. <strong>Market says:</strong> LNG arbitrage tightening globally.'),
         TC('users','OPEC+ — Holding the Plan','April 206K bpd output increase proceeding despite Hormuz crisis. No emergency JMMC called. Saudi East-West Pipeline at full capacity. <strong>Market says:</strong> cartel accepting current price while preserving spare capacity.'),
-        TC('trending-up','Currencies — Safe Haven Flows','Dollar index firming on risk-off. Euro under pressure from European energy exposure. Gold near record highs. <strong>Market says:</strong> cross-asset markets pricing in extended uncertainty.'),
+        TC('trending-up','Currencies — Safe Haven Flows','Dollar index firming on risk-off. Euro under pressure from European energy exposure. Gold near record highs. <strong>Market says:</strong> cross-asset markets pricing in extended uncertainty.')
       ].join('');
-    }
+    });
 
     // RISK DASHBOARD
-    document.getElementById('geo-risk-cards').innerHTML = [
-      riskCard('Strait of Hormuz','HIGH','Strait remains functionally closed despite the ceasefire extension. U.S. naval blockade of Iranian ports continues (28 ships turned back). Iran FM Araghchi: blockade is &ldquo;an act of war.&rdquo; IRGC maintains Hormuz under &ldquo;strict management.&rdquo;'),
-      riskCard('Red Sea / Bab el-Mandeb','HIGH','Houthi attacks continue; most commercial traffic routed around Cape of Good Hope. Insurance premiums prohibitive. Iran restrictions on Gulf shipping remain.'),
-      riskCard('Iran — U.S. Conflict','HIGH','Trump extended ceasefire indefinitely April 21 at Pakistan's request, citing &ldquo;seriously fractured&rdquo; Iranian government. No new expiration. Blockade stays. Vance's Islamabad trip on hold as Iran hasn't confirmed delegation.'),
-      riskCard('OPEC+ Policy','ELEVATED','206,000 bpd April output increase proceeding. Saudi balancing market share vs. price support. Emergency meeting possible if ceasefire collapses. Gulf producers monitoring IRGC threats against neighboring oil facilities.'),
-      riskCard('Russia / Ukraine','ELEVATED','European energy independence accelerating. Russian crude redirected to Asia at discount. Ukraine signals Druzhba pipeline ready to resume operations as €90B aid package expected.'),
-      riskCard('Suez Canal','MODERATE','Canal itself operational but Red Sea rerouting has reduced Suez traffic significantly. Revenue impact on Egypt.'),
-      riskCard('Venezuela / Sanctions','MODERATE','U.S. sanctions remain. Venezuelan production ~800,000 bpd, well below 2015 peak of 2.5M bpd. Limited upside without infrastructure investment.'),
-      riskCard('LNG Supply Chains','HIGH','Qatar LNG flows remain disrupted as Hormuz stays effectively closed. Europe competing with Asia for U.S. cargoes. LNG premium rebuilt. U.S. export terminals near capacity. EU preparing jet fuel shortage guidance.'),
-    ].join('');
+    safeRun('geo-risk-cards', function(){
+      setHTML('geo-risk-cards', [
+        riskCard('Strait of Hormuz','HIGH','Strait remains functionally closed despite the ceasefire extension. U.S. naval blockade of Iranian ports continues (28 ships turned back). Iran FM Araghchi: blockade is &ldquo;an act of war.&rdquo; IRGC maintains Hormuz under &ldquo;strict management.&rdquo;'),
+        riskCard('Red Sea / Bab el-Mandeb','HIGH','Houthi attacks continue; most commercial traffic routed around Cape of Good Hope. Insurance premiums prohibitive. Iran restrictions on Gulf shipping remain.'),
+        riskCard('Iran &mdash; U.S. Conflict','HIGH','Trump extended ceasefire indefinitely April 21 at Pakistan&rsquo;s request, citing &ldquo;seriously fractured&rdquo; Iranian government. No new expiration. Blockade stays. Vance&rsquo;s Islamabad trip on hold as Iran hasn&rsquo;t confirmed delegation.'),
+        riskCard('OPEC+ Policy','ELEVATED','206,000 bpd April output increase proceeding. Saudi balancing market share vs. price support. Emergency meeting possible if ceasefire collapses. Gulf producers monitoring IRGC threats against neighboring oil facilities.'),
+        riskCard('Russia / Ukraine','ELEVATED','European energy independence accelerating. Russian crude redirected to Asia at discount. Ukraine signals Druzhba pipeline ready to resume operations as &euro;90B aid package expected.'),
+        riskCard('Suez Canal','MODERATE','Canal itself operational but Red Sea rerouting has reduced Suez traffic significantly. Revenue impact on Egypt.'),
+        riskCard('Venezuela / Sanctions','MODERATE','U.S. sanctions remain. Venezuelan production ~800,000 bpd, well below 2015 peak of 2.5M bpd. Limited upside without infrastructure investment.'),
+        riskCard('LNG Supply Chains','HIGH','Qatar LNG flows remain disrupted as Hormuz stays effectively closed. Europe competing with Asia for U.S. cargoes. LNG premium rebuilt. U.S. export terminals near capacity. EU preparing jet fuel shortage guidance.')
+      ].join(''));
+    });
 
     // CHOKEPOINTS
-    document.getElementById('chokepoints').innerHTML = [
-      TC('anchor','Strait of Hormuz','21-mile wide passage. Handles 21M bpd of oil (21% of global consumption) plus 25% of global LNG. Re-closed April 18 after briefly reopening April 17. IRGC warns approaching vessels will be targeted as enemy cooperation.'),
-      TC('ship','Red Sea / Bab el-Mandeb','Connects the Indian Ocean to the Mediterranean via the Suez Canal. Handles ~10% of global oil trade and 12-14% of European LNG. Houthi attacks and Iranian threats have diverted most commercial shipping around Africa.'),
-      TC('map-pin','Suez Canal','Egyptian waterway connecting Red Sea to Mediterranean. Handles ~12% of global trade and ~5.5M bpd of oil equivalents. Canal itself operational but reduced Red Sea traffic has cut Suez transits significantly.'),
-      TC('git-branch','East-West Pipeline (Saudi)','5M bpd capacity bypassing Hormuz from eastern Saudi fields to Red Sea port of Yanbu. Damaged by drone strikes April 8, restored April 12. Critical Hormuz bypass but vulnerable to attack.'),
-      TC('globe','Turkish Straits (Bosporus)','Connects Black Sea to Mediterranean. Handles ~3M bpd including Russian and Kazakh crude exports. Montreux Convention limits military transit. Traffic congestion growing.'),
-      TC('layers','Malacca Strait','Between Malaysia and Indonesia. Handles ~16M bpd — most of China, Japan, and South Korea’s oil imports. Not currently disrupted but any closure would dwarf Hormuz in Asian impact.'),
-    ].join('');
+    safeRun('chokepoints', function(){
+      setHTML('chokepoints', [
+        TC('anchor','Strait of Hormuz','21-mile wide passage. Handles 21M bpd of oil (21% of global consumption) plus 25% of global LNG. Remains functionally closed. IRGC warns approaching vessels will be targeted as enemy cooperation.'),
+        TC('ship','Red Sea / Bab el-Mandeb','Connects the Indian Ocean to the Mediterranean via the Suez Canal. Handles ~10% of global oil trade and 12-14% of European LNG. Houthi attacks and Iranian threats have diverted most commercial shipping around Africa.'),
+        TC('map-pin','Suez Canal','Egyptian waterway connecting Red Sea to Mediterranean. Handles ~12% of global trade and ~5.5M bpd of oil equivalents. Canal itself operational but reduced Red Sea traffic has cut Suez transits significantly.'),
+        TC('git-branch','East-West Pipeline (Saudi)','5M bpd capacity bypassing Hormuz from eastern Saudi fields to Red Sea port of Yanbu. Damaged by drone strikes April 8, restored April 12. Critical Hormuz bypass but vulnerable to attack.'),
+        TC('globe','Turkish Straits (Bosporus)','Connects Black Sea to Mediterranean. Handles ~3M bpd including Russian and Kazakh crude exports. Montreux Convention limits military transit. Traffic congestion growing.'),
+        TC('layers','Malacca Strait','Between Malaysia and Indonesia. Handles ~16M bpd &mdash; most of China, Japan, and South Korea&rsquo;s oil imports. Not currently disrupted but any closure would dwarf Hormuz in Asian impact.')
+      ].join(''));
+    });
 
     // MARKET IMPACT
-    document.getElementById('impact-cards').innerHTML = [
-      TC('trending-up','Crude Oil Risk Premium','Markets add $5-30/barrel risk premium during active conflicts. The Hormuz crisis peak premium exceeded $25/barrel. Premium rises with uncertainty, falls when diplomatic progress emerges.'),
-      TC('fuel','Gasoline Pass-Through','$10/barrel crude increase = $0.24-0.30/gallon at the pump within 1-2 weeks. Current crisis has added ~$0.80/gallon vs. pre-conflict levels. Refinery margins amplify the effect.'),
-      TC('ship','Shipping & Freight','Rerouting around Africa adds 10-14 days and $1-2/barrel. Insurance premiums of 1-2% of hull value make some routes unviable. 20,000+ vessels stranded or diverted globally.'),
-    ].join('');
+    safeRun('impact-cards', function(){
+      setHTML('impact-cards', [
+        TC('trending-up','Crude Oil Risk Premium','Markets add $5-30/barrel risk premium during active conflicts. The Hormuz crisis peak premium exceeded $25/barrel. Premium rises with uncertainty, falls when diplomatic progress emerges.'),
+        TC('fuel','Gasoline Pass-Through','$10/barrel crude increase = $0.24-0.30/gallon at the pump within 1-2 weeks. Current crisis has added ~$0.80/gallon vs. pre-conflict levels. Refinery margins amplify the effect.'),
+        TC('ship','Shipping & Freight','Rerouting around Africa adds 10-14 days and $1-2/barrel. Insurance premiums of 1-2% of hull value make some routes unviable. 20,000+ vessels stranded or diverted globally.')
+      ].join(''));
+    });
 
     // FLASHPOINTS
-    document.getElementById('flashpoints').innerHTML = [
-      TC('users','Pakistan Mediation','Pakistan PM Shehbaz Sharif and Field Marshal Asim Munir asked Trump to extend the ceasefire, which he did April 21. Pakistan continues as primary mediator and has offered to host the next round of talks in Islamabad. Iranian delegation confirmation still pending.'),
-      TC('anchor','U.S. Naval Blockade','U.S. Navy blockade of Iranian ports remains in place despite the ceasefire extension. 28 ships forced to turn back since the blockade began. Iran FM Araghchi: blockade is &ldquo;an act of war and thus a violation of the ceasefire.&rdquo; Key sticking point in all negotiations.'),
-      TC('map-pin','Lebanon / Hezbollah','10-day Israel-Lebanon ceasefire actively breached Tuesday — Israeli military reports Hezbollah fired rockets at Israeli troops in southern Lebanon. Lebanese PM Salam from Paris: Lebanon &ldquo;won\u2019t be intimidated&rdquo; by Iran-backed militia. U.S.-mediated talks continue this week.'),
-      TC('dollar-sign','OPEC+ Output','April 206K bpd increase proceeding despite standoff. Saudi Arabia restored East-West Pipeline capacity. Iraq, Kuwait, UAE maintaining compliance. Gulf producers monitoring IRGC threats against neighboring oil infrastructure. Emergency session possible if ceasefire collapses.'),
-      TC('globe','Russia Energy Flows','Russian crude finding willing buyers in India and China at $10-15 discount. EU oil embargo holding but enforcement varies. Ukraine says Druzhba pipeline ready to resume operations, signaling expected €90B aid package will be unblocked.'),
-      TC('alert-triangle','IRGC Threats to Neighbors','Iran\u2019s Revolutionary Guard threatened to target oil facilities in any neighboring country that allows the U.S. to launch attacks on Iran from its territory. Gulf producers on heightened alert. Escalation risk if ceasefire fails. Persistent tail risk factor.'),
-    ].join('');
+    safeRun('flashpoints', function(){
+      setHTML('flashpoints', [
+        TC('users','Pakistan Mediation','Pakistan PM Shehbaz Sharif and Field Marshal Asim Munir asked Trump to extend the ceasefire, which he did April 21. Pakistan continues as primary mediator and has offered to host the next round of talks in Islamabad. Iranian delegation confirmation still pending.'),
+        TC('anchor','U.S. Naval Blockade','U.S. Navy blockade of Iranian ports remains in place despite the ceasefire extension. 28 ships forced to turn back since the blockade began. Iran FM Araghchi: blockade is &ldquo;an act of war and thus a violation of the ceasefire.&rdquo; Key sticking point in all negotiations.'),
+        TC('map-pin','Lebanon / Hezbollah','10-day Israel-Lebanon ceasefire actively breached Tuesday &mdash; Israeli military reports Hezbollah fired rockets at Israeli troops in southern Lebanon. Lebanese PM Salam from Paris: Lebanon &ldquo;won&rsquo;t be intimidated&rdquo; by Iran-backed militia. U.S.-mediated talks continue this week.'),
+        TC('dollar-sign','OPEC+ Output','April 206K bpd increase proceeding despite standoff. Saudi Arabia restored East-West Pipeline capacity. Iraq, Kuwait, UAE maintaining compliance. Gulf producers monitoring IRGC threats against neighboring oil infrastructure. Emergency session possible if ceasefire collapses.'),
+        TC('globe','Russia Energy Flows','Russian crude finding willing buyers in India and China at $10-15 discount. EU oil embargo holding but enforcement varies. Ukraine says Druzhba pipeline ready to resume operations, signaling expected &euro;90B aid package will be unblocked.'),
+        TC('alert-triangle','IRGC Threats to Neighbors','Iran&rsquo;s Revolutionary Guard threatened to target oil facilities in any neighboring country that allows the U.S. to launch attacks on Iran from its territory. Gulf producers on heightened alert. Escalation risk if ceasefire fails. Persistent tail risk factor.')
+      ].join(''));
+    });
 
-    // BREAKING TICKER — Path B: cache first, rss2json fallback
-    var tickerEl = document.getElementById('geo-ticker-text');
-    if (tickerEl) {
-      tickerEl.textContent = 'Loading live headlines...';
-
-      var renderTicker = function(stories) {
-        if (!stories || !stories.length) {
-          tickerEl.textContent = (typeof BREAKING_NEWS !== 'undefined') ?
-            BREAKING_NEWS.map(function(b){return '● '+b.title;}).join('    ') : '';
-          return;
-        }
-        tickerEl.textContent = stories.slice(0,8).map(function(s){
-          return '● ' + String(s.title || '').toUpperCase();
-        }).join('     ');
-      };
-
-      fetch('../data/sources/headlines-geopolitics.json', { cache: 'no-store' })
-        .then(function(r){ if(!r.ok) throw new Error('cache '+r.status); return r.json(); })
-        .then(function(data){ renderTicker((data && data.stories) || []); })
-        .catch(function(){
-          // Emergency fallback to rss2json
-          fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent('https://news.google.com/rss/search?q=Hormuz+reopened+OR+Iran+ceasefire+OR+Middle+East+energy&hl=en-US&gl=US&ceid=US:en')+'&count=8')
-            .then(function(r){return r.json();})
-            .then(function(data){
-              if(data && data.items){
-                renderTicker(data.items.map(function(i){return {title: i.title};}));
-              } else renderTicker(null);
-            })
-            .catch(function(){ renderTicker(null); });
-        });
-    }
-
-    // ARTICLES
-    var catG = (typeof CATEGORY_CONTENT !== 'undefined' && CATEGORY_CONTENT['geopolitics']) ? CATEGORY_CONTENT['geopolitics'] : null;
-    document.getElementById('geo-articles').innerHTML = (catG ? catG.articles : []).slice(0,6).map(function(a){
-      return '<a href="'+categoryArticleUrl(a.title)+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+a.author+'</span><span>'+a.date+'</span><span>'+a.readTime+'</span></div></a>';
-    }).join('');
+    // ARTICLES (CATEGORY_CONTENT) — rendered BEFORE ticker so a fetch failure can't hide them
+    safeRun('geo-articles', function(){
+      var catG = (typeof CATEGORY_CONTENT !== 'undefined' && CATEGORY_CONTENT['geopolitics']) ? CATEGORY_CONTENT['geopolitics'] : null;
+      setHTML('geo-articles', (catG ? catG.articles : []).slice(0,6).map(function(a){
+        var url = (typeof categoryArticleUrl === 'function') ? categoryArticleUrl(a.title) : ('../articles/' + (a.title || '').toLowerCase().replace(/[^a-z0-9\s-]/g,'').replace(/\s+/g,'-') + '.html');
+        return '<a href="'+url+'" class="article-card"><h4>'+a.title+'</h4><div class="article-meta-sm"><span>'+(a.author||'Chris')+'</span><span>'+(a.date||'')+'</span><span>'+(a.readTime||'')+'</span></div></a>';
+      }).join(''));
+    });
 
     // EXPLORE
-    document.getElementById('explore-cards').innerHTML = [
-      ['Oil Prices','../oil-prices.html','trending-up','WTI, Brent, global benchmarks'],
-      ['Gas Prices','gas-prices.html','fuel','AAA state-by-state data'],
-      ['Markets Hub','../markets.html','bar-chart','Full commodity dashboard'],
-      ['Rig Count','../rig-count.html','hard-hat','Baker Hughes drilling data'],
-      ['Energy Hub','energy.html','activity','Power, grid, LNG, storage'],
-      ['Company News','company-news.html','building','ExxonMobil, Shell, Aramco'],
-      ['Nuclear','nuclear.html','shield','Reactors, SMRs, baseload'],
-      ['Renewables','renewable-energy.html','leaf','Solar, wind, clean energy'],
-      ['Alt Energy','alternative-energy.html','zap','Batteries, hydrogen, CCUS'],
-    ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
+    safeRun('explore-cards', function(){
+      setHTML('explore-cards', [
+        ['Oil Prices','../oil-prices.html','trending-up','WTI, Brent, global benchmarks'],
+        ['Gas Prices','gas-prices.html','fuel','AAA state-by-state data'],
+        ['Electricity','../electricity-prices.html','zap','Rates by state, residential & commercial'],
+        ['Markets Hub','../markets.html','bar-chart','Full commodity dashboard'],
+        ['Rig Count','../rig-count.html','hard-hat','Baker Hughes drilling data'],
+        ['Energy Hub','energy.html','activity','Power, grid, LNG, storage'],
+        ['Company News','company-news.html','building','ExxonMobil, Shell, Aramco'],
+        ['Nuclear','nuclear.html','shield','Reactors, SMRs, baseload'],
+        ['Renewables','renewable-energy.html','leaf','Solar, wind, clean energy']
+      ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+safeIcon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join(''));
+    });
+
+    // BREAKING TICKER — ABSOLUTE LAST thing we do. Uses fetch, wrapped in safeRun.
+    // Synchronously populates from BREAKING_NEWS so the ticker is NEVER blank.
+    // Then attempts to upgrade to live headlines via fetch; any failure is silent.
+    safeRun('breaking-ticker-sync', function(){
+      var tickerEl = document.getElementById('geo-ticker-text');
+      if (!tickerEl) return;
+      if (typeof BREAKING_NEWS !== 'undefined' && BREAKING_NEWS.length) {
+        tickerEl.textContent = BREAKING_NEWS.map(function(b){return '\u25CF '+(b.title||'');}).join('     ');
+      } else {
+        tickerEl.textContent = 'Latest energy & geopolitics headlines \u2014 visit the news section for full coverage.';
+      }
+    });
+    safeRun('breaking-ticker-upgrade', function(){
+      var tickerEl = document.getElementById('geo-ticker-text');
+      if (!tickerEl || typeof fetch !== 'function') return;
+      fetch('../data/sources/headlines-geopolitics.json', { cache: 'no-store' })
+        .then(function(r){ if(!r.ok) throw new Error('cache '+r.status); return r.json(); })
+        .then(function(data){
+          var stories = (data && data.stories) || [];
+          if (stories.length) {
+            tickerEl.textContent = stories.slice(0,8).map(function(s){
+              return '\u25CF ' + String(s.title || '').toUpperCase();
+            }).join('     ');
+          }
+        })
+        .catch(function(){
+          // Silent fallback — BREAKING_NEWS content already displayed.
+          // Optional rss2json second-tier fallback:
+          try {
+            fetch('https://api.rss2json.com/v1/api.json?rss_url='+encodeURIComponent('https://news.google.com/rss/search?q=Iran+ceasefire+OR+Hormuz+OR+OPEC&hl=en-US&gl=US&ceid=US:en')+'&count=8')
+              .then(function(r){return r.json();})
+              .then(function(data){
+                if (data && data.items && data.items.length) {
+                  tickerEl.textContent = data.items.slice(0,8).map(function(i){
+                    return '\u25CF ' + String(i.title || '').toUpperCase();
+                  }).join('     ');
+                }
+              })
+              .catch(function(){ /* BREAKING_NEWS fallback remains */ });
+          } catch (e) { /* BREAKING_NEWS fallback remains */ }
+        });
+    });
   </script>
 </body></html>
