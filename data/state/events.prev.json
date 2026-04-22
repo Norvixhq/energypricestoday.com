@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-22T16:46:49.582132+00:00",
-  "previous_generated_at": "2026-04-22T15:44:55.517529+00:00",
-  "resolver_run_count": 8,
+  "generated_at": "2026-04-22T17:50:14.316308+00:00",
+  "previous_generated_at": "2026-04-22T16:46:49.582132+00:00",
+  "resolver_run_count": 9,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.861,
-      "last_confirmed": "2026-04-22T15:49:00+00:00",
-      "source_count": 11,
+      "confidence": 0.957,
+      "last_confirmed": "2026-04-22T17:03:13+00:00",
+      "source_count": 14,
       "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Brent Crude Climbs Back Above $100 a Barrel As Tensions Continue At The Strait Of Hormuz",
+      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Oil Trader CFOs Say Hormuz Closure Is Driving a Wave of Disputes",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
-        "c_c98d66dac82e3a",
-        "c_da8e617f44bb56",
+        "c_809d79a58d42cf",
         "c_1a500eb1877a22",
-        "c_e6860459affec1"
+        "c_e6860459affec1",
+        "c_da8e617f44bb56"
       ],
-      "evidence_count": 9,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.75) [OPEN suppressed]",
-        "cluster c_da8e617f44 → CLOSED (kw='closure', weight=0.56) [OPEN suppressed]",
-        "cluster c_7337409c03 → CONTESTED (kw='attack', weight=0.66)",
-        "winning=CLOSED (1.31/1.96), conf=0.861"
+        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.74) [OPEN suppressed]",
+        "cluster c_da8e617f44 → CLOSED (kw='closure', weight=0.45) [OPEN suppressed]",
+        "cluster c_9d16fc52d2 → CLOSED (kw='closure', weight=0.62) [OPEN suppressed]",
+        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.10) [OPEN suppressed]",
+        "winning=CLOSED (1.90/1.90), conf=0.957"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-22T15:49:00+00:00",
-      "source_count": 13,
+      "last_confirmed": "2026-04-22T16:52:00+00:00",
+      "source_count": 16,
       "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait",
+      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. How the Iran war oil and gas supply shock compares with past disruptions",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
-        "c_c98d66dac82e3a",
-        "c_e5c688ea23931e",
+        "c_9589e36e22cee4",
         "c_2699c5782c7d2c",
-        "c_54f2312cf93fba"
+        "c_e5c688ea23931e",
+        "c_e000b774af7483"
       ],
-      "evidence_count": 12,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -157,8 +158,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRXM1Zko0cmQ1Qy1jTzV6ck5NUDRtV1Q4ak1UT0hHUjFpd2x0QkFfbGpsS1JpMGlBdHBpSktfS2FnbE1CUVg5MzdoSUNtWWk1dHRpdUV6eEZnbjZlT1NTeTRRc01SR3ppbmk5cTgzeldkVEp5VmRsaDE5dkdZWEx6Sk9LVnFMVVQ0dVJETTlWY0lLVjl1aEM1MzE2aUVCSFZZWnhLc0otZEN3MTQ?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 95.97,
-      "novelty": "new",
+      "score": 86.08,
+      "novelty": "ongoing",
       "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
@@ -171,7 +172,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.861, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.957, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
