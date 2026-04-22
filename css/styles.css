@@ -1188,7 +1188,14 @@ a.article-featured{pointer-events:auto}
 .market-table-wrap{contain:layout style}
 
 /* Reduce paint on scroll */
-.site-header{will-change:auto;backface-visibility:hidden}
+/* Reduce paint on scroll + hover-flicker mitigation.
+   Forcing the header onto its own compositor layer (via transform:translateZ(0))
+   isolates it from the rest of the page's paint cascade. Without this, hover
+   transitions elsewhere on the page (pillar cards, nav links, buttons) were
+   triggering repaints of the backdrop-blurred sticky header, causing visible
+   flicker. */
+.site-header{will-change:transform;backface-visibility:hidden;transform:translateZ(0);contain:layout paint}
+.logo-img,.logo{will-change:transform;transform:translateZ(0);backface-visibility:hidden}
 
 /* 10-card commodity grid — 5x2 on desktop */
 .grid-10{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
