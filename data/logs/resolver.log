@@ -1,0 +1,15 @@
+[2026-04-22T05:41:43.227224+00:00] resolver: start
+[2026-04-22T05:41:43.231499+00:00] resolver: scanning 274 clusters across 10 topics
+[2026-04-22T05:41:43.231864+00:00]   hormuz_status: CLOSED (conf=0.955, freshness=fresh, clusters=13)
+[2026-04-22T05:41:43.233714+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=45)
+[2026-04-22T05:41:43.233859+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=2)
+[2026-04-22T05:41:43.233903+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-22T05:41:43.234078+00:00]   top_story: 'Technical Analysis Report for April 22: Spot Gold, WTI Crude' (score=92.97)
+[2026-04-22T05:41:43.234172+00:00] resolver: 5 change(s), 5 meaningful, 2 publish-triggering
+[2026-04-22T05:41:43.234204+00:00]   Δ hormuz_status.new_event: 'None' → 'CLOSED' (triggers_publish=True)
+[2026-04-22T05:41:43.234234+00:00]   Δ us_iran_ceasefire.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-04-22T05:41:43.234259+00:00]   Δ opec_plus_policy.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-04-22T05:41:43.234283+00:00]   Δ global_risk_level.new_event: 'None' → 'HIGH' (triggers_publish=False)
+[2026-04-22T05:41:43.234306+00:00]   Δ top_story.new_event: 'None' → '' (triggers_publish=True)
+[2026-04-22T05:41:43.234672+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-22T05:41:43.234705+00:00] ════════════════════════════════════════════════════════════

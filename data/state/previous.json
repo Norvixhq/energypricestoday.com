@@ -1,0 +1,109 @@
+{
+  "commodity-prices": {
+    "meta": {
+      "generated_at": "2026-04-22T05:39:50.941261+00:00",
+      "status": "fresh",
+      "source": "oilpriceapi",
+      "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
+      "last_success": "2026-04-22T05:39:50.941261+00:00"
+    },
+    "prices": {
+      "Brent Crude": {
+        "price": 98.18,
+        "change": 3.8,
+        "pct": 4.03,
+        "unit": "$/bbl",
+        "source_code": "BRENT_CRUDE_USD",
+        "updated_at": "2026-04-22T05:28:36Z"
+      },
+      "Diesel ULSD": {
+        "price": 3.74,
+        "change": 0.24,
+        "pct": 6.86,
+        "unit": "$/gal",
+        "source_code": "DIESEL_USD",
+        "updated_at": "2026-04-22T05:25:05Z"
+      },
+      "Dutch TTF Natural Gas": {
+        "price": 42.06,
+        "change": 3.79,
+        "pct": 9.69,
+        "unit": "EUR/MWh",
+        "source_code": "DUTCH_TTF_EUR",
+        "updated_at": "2026-04-22T05:33:42Z"
+      },
+      "Gasoline RBOB": {
+        "price": 3.19,
+        "change": 0.11,
+        "pct": 3.57,
+        "unit": "$/gal",
+        "source_code": "GASOLINE_USD",
+        "updated_at": "2026-04-22T05:25:05Z"
+      },
+      "Heating Oil": {
+        "price": 3.71,
+        "change": 0.23,
+        "pct": 6.61,
+        "unit": "$/gal",
+        "source_code": "HEATING_OIL_USD",
+        "updated_at": "2026-04-22T05:26:46Z"
+      },
+      "Jet Fuel": {
+        "price": 3.74,
+        "change": 0.0,
+        "pct": 0.0,
+        "unit": "$/gal",
+        "source_code": "JET_FUEL_USD",
+        "updated_at": "2026-04-15T21:00:44Z"
+      },
+      "JKM LNG (Japan/Korea)": {
+        "price": 15.81,
+        "change": 0.0,
+        "pct": 0.0,
+        "unit": "$/MMBtu",
+        "source_code": "JKM_LNG_USD",
+        "updated_at": "2026-04-21T17:09:29Z"
+      },
+      "Natural Gas": {
+        "price": 2.71,
+        "change": 0.05,
+        "pct": 1.88,
+        "unit": "$/MMBtu",
+        "source_code": "NATURAL_GAS_USD",
+        "updated_at": "2026-04-22T05:28:41Z"
+      },
+      "Coal": {
+        "price": 133.75,
+        "change": 0.45,
+        "pct": 0.34,
+        "unit": "$/ton",
+        "source_code": "NEWCASTLE_COAL_USD",
+        "updated_at": "2026-04-22T00:00:34Z"
+      },
+      "WTI Crude": {
+        "price": 88.39,
+        "change": 2.1,
+        "pct": 2.45,
+        "unit": "$/bbl",
+        "source_code": "WTI_USD",
+        "updated_at": "2026-04-22T05:30:57Z"
+      }
+    }
+  },
+  "gas-prices-national": {
+    "meta": {
+      "generated_at": "2026-04-22T05:39:53.807155+00:00",
+      "status": "fresh",
+      "source_label": "EIA Weekly Retail Gasoline Prices",
+      "source_date": "April 22, 2026",
+      "last_success": "2026-04-22T05:39:53.807155+00:00"
+    },
+    "prices": {
+      "regular": 4.044,
+      "mid": 4.655,
+      "premium": 5.024,
+      "diesel": 5.403
+    }
+  },
+  "as_of": "2026-04-22T05:41:43.266680+00:00"
+}
