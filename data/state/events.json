@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-22T22:36:17.102479+00:00",
-  "previous_generated_at": "2026-04-22T21:40:55.113841+00:00",
-  "resolver_run_count": 13,
+  "generated_at": "2026-04-22T23:36:35.123046+00:00",
+  "previous_generated_at": "2026-04-22T22:36:17.102479+00:00",
+  "resolver_run_count": 14,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.809,
-      "last_confirmed": "2026-04-22T20:42:29+00:00",
-      "source_count": 14,
+      "confidence": 0.875,
+      "last_confirmed": "2026-04-22T22:59:00+00:00",
+      "source_count": 12,
       "summary_short": "Brent Crude Climbs Back Above $100 a Barrel As Tensions Continue At The Strait Of Hormuz",
       "summary_long": "Brent Crude Climbs Back Above $100 a Barrel As Tensions Continue At The Strait Of Hormuz. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
+        "c_d5cf8f9446eae0",
         "c_1a500eb1877a22",
-        "c_e983946f749ebc",
         "c_809d79a58d42cf",
-        "c_23ac776a2e6c50"
+        "c_e6860459affec1"
       ],
-      "evidence_count": 11,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,12 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.61) [OPEN suppressed]",
-        "cluster c_bba7b9014a → OPEN (kw='reopen', weight=0.09)",
-        "cluster c_7337409c03 → CONTESTED (kw='attack', weight=0.46)",
-        "cluster c_6d83881ef0 → CONTESTED (kw='attack', weight=0.49)",
-        "cluster c_f9937a3470 → CLOSED (kw='blockade', weight=0.49) [OPEN suppressed]",
-        "winning=CLOSED (1.11/2.15), conf=0.809"
+        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.66) [OPEN suppressed]",
+        "cluster c_7337409c03 → CONTESTED (kw='attack', weight=0.44)",
+        "cluster c_f9937a3470 → CLOSED (kw='blockade', weight=0.53) [OPEN suppressed]",
+        "winning=CLOSED (1.19/1.63), conf=0.875"
       ]
     },
     "us_iran_ceasefire": {
@@ -58,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-22T21:36:50+00:00",
-      "source_count": 15,
-      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Oil prices fluctuate as Trump extends Iran war ceasefire",
+      "last_confirmed": "2026-04-22T22:59:00+00:00",
+      "source_count": 12,
+      "summary_short": "Exclusive: US intercepts three Iranian oil tankers in Asian waters, sources say",
+      "summary_long": "Exclusive: US intercepts three Iranian oil tankers in Asian waters, sources say. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "evidence_cluster_ids": [
-        "c_fe180f1b83a26a",
-        "c_0cc04795acd2e4",
         "c_d42d95cb498be5",
-        "c_e983946f749ebc",
-        "c_82c339cefc2705"
+        "c_fe180f1b83a26a",
+        "c_82c339cefc2705",
+        "c_90435b6413f3aa",
+        "c_0cc04795acd2e4"
       ],
-      "evidence_count": 14,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -154,12 +152,12 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_a67d00adcf2db1",
-      "lead_title": "Inpex will prioritize crude oil sales to Japan refiners, CEO says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdXRfT1R6czVmR1RjYUQzLS02eVllOHNDX2RRM3ZPbkFENXMxSnNzZmo2RXZLZlp0ZFlaaVIxeWxZc3R5TnlSaXFPWUN2LWxKNjZRdVdHV29WQXdzbVJaeGhFUENpa1hhZnRwc3U5Wl9GZGIyQW9XUnhBQ3BGUDkyR2w0b0MwdEZ3LXRHVEhJcFBIbUpVbHZwNXFLSklKNUVMT29TckZqXzd6UmZXSzE2OXdMZw?oc=5",
-      "lead_source": "Nikkei Asia",
+      "cluster_id": "c_a212443b94a4b6",
+      "lead_title": "WTI Crude Oil Surges Back to $92 as Extended Ceasefire Fails to Ease Critical Supply Fears",
+      "lead_url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE16TktheklBSHFvOUoyaU5iRkVGNjdobkZfUHhTZUt0TW5lem14VnJVNTM1T3pvRGZyZmVQZUZ3VGxmRkxVSUFHeA?oc=5",
+      "lead_source": "MEXC",
       "topic": "oil",
-      "score": 83.38,
+      "score": 87.15,
       "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
@@ -173,7 +171,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.809, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.875, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
