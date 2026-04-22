@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-22T19:26:36.091314+00:00",
-  "previous_generated_at": "2026-04-22T17:50:14.316308+00:00",
-  "resolver_run_count": 10,
+  "generated_at": "2026-04-22T20:34:26.378344+00:00",
+  "previous_generated_at": "2026-04-22T19:26:36.091314+00:00",
+  "resolver_run_count": 11,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.843,
-      "last_confirmed": "2026-04-22T19:19:28+00:00",
-      "source_count": 16,
-      "summary_short": "Crude Oil Prices Surge as Closure of Hormuz Threatens Supply Shortages",
-      "summary_long": "Crude Oil Prices Surge as Closure of Hormuz Threatens Supply Shortages. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "confidence": 0.858,
+      "last_confirmed": "2026-04-22T19:44:00+00:00",
+      "source_count": 14,
+      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Crude Oil Prices Surge as Closure of Hormuz Threatens Supply Shortages",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
         "c_1a500eb1877a22",
-        "c_7a5dee999d036e",
         "c_809d79a58d42cf",
-        "c_e6860459affec1"
+        "c_e6860459affec1",
+        "c_5fead126cbde73"
       ],
-      "evidence_count": 11,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -42,11 +42,11 @@
       "stale_after_hours": 24,
       "rationale": [
         "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.69) [OPEN suppressed]",
-        "cluster c_5fead126cb → CLOSED (kw='closure', weight=0.74) [OPEN suppressed]",
-        "cluster c_7337409c03 → CONTESTED (kw='attack', weight=0.60)",
-        "cluster c_6d83881ef0 → CONTESTED (kw='attack', weight=0.64)",
-        "cluster c_9d16fc52d2 → CLOSED (kw='closure', weight=0.50) [OPEN suppressed]",
-        "winning=CLOSED (1.93/3.17), conf=0.843"
+        "cluster c_5fead126cb → CLOSED (kw='closure', weight=0.66) [OPEN suppressed]",
+        "cluster c_f9937a3470 → CLOSED (kw='blockade', weight=0.62) [OPEN suppressed]",
+        "cluster c_7337409c03 → CONTESTED (kw='attack', weight=0.49)",
+        "cluster c_6d83881ef0 → CONTESTED (kw='attack', weight=0.52)",
+        "winning=CLOSED (1.98/3.00), conf=0.858"
       ]
     },
     "us_iran_ceasefire": {
@@ -58,18 +58,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-22T18:24:00+00:00",
-      "source_count": 10,
+      "last_confirmed": "2026-04-22T19:44:00+00:00",
+      "source_count": 12,
       "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. US Withholding Iraq’s Own Oil Money Over Ties to Iran",
+      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Oil futures misrepresenting scale of Iran supply shock for global markets, say leading traders",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
+        "c_cae16c8e224554",
+        "c_de0bb036c39373",
         "c_82c339cefc2705",
-        "c_90435b6413f3aa",
-        "c_e5c688ea23931e",
-        "c_9589e36e22cee4"
+        "c_90435b6413f3aa"
       ],
-      "evidence_count": 8,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -154,14 +154,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_fcc0caba0486fa",
-      "lead_title": "Chevron refinery in Pasadena, Texas reports crude oil spill",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRXM1Zko0cmQ1Qy1jTzV6ck5NUDRtV1Q4ak1UT0hHUjFpd2x0QkFfbGpsS1JpMGlBdHBpSktfS2FnbE1CUVg5MzdoSUNtWWk1dHRpdUV6eEZnbjZlT1NTeTRRc01SR3ppbmk5cTgzeldkVEp5VmRsaDE5dkdZWEx6Sk9LVnFMVVQ0dVJETTlWY0lLVjl1aEM1MzE2aUVCSFZZWnhLc0otZEN3MTQ?oc=5",
-      "lead_source": "Reuters",
-      "topic": "oil",
-      "score": 100.0,
+      "cluster_id": "c_cbaebcc6b7d3fd",
+      "lead_title": "Why are oil prices up today, and will US WTI, Brent crude futures continue to rise or fall again? Analysts",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNd0gtenR5UFh0OXF1UTRVSW1SX01ORXRKZGJKY0doUmIyNnhkcFl0WkVWN2ZrTS1KV19qVFBOeXVNT3BKUlE2WXJETW1MY2R3WHl1TFlUb2lIbkl2SUhCV1J5a2swR3FKTUNxZzNPYlIxME1RU1hmYTBHc3JmdmlPbWlGM2JCYlRKTm80T1RMZnY1cVQxdXp6dnhRdGl1UmFfdWtHazFqdUp1NGkwY0YxUTNsTVlnLVZrMGJBQ0k1d0hKSVdZVHltYkxqcnFNeWN4ZldUckZHY3U1TXhOZ0NCNVJZNG1heVRQNWs2WUR4aEVYUGJMVmpGclBfbFJzWjE3cGJzZUcyd0xGSUROcm5WRi1nNmhyUVkzanpKMVZDUkhFMUkzYWlGRGZoUnhiMzV1R21BeVRLQ0hoRTM1anpuRmpuNjbSAcoCQVVfeXFMT2lDMXhSMzhsT2ZQdnhvNVk4RUFFRngteU5qVTVDU2l5aksyQ0NDTWN3ZnRsWGt6c1NvODl2TUcxSEZzNnJXdzlCdWNwYWlNTGlEYWxSTzB2cGxDZzlGWFdFcU5Ic0c5WHgxVFZqTjl5azcyN2pILXNwQ0lVandJZk5BQWdkeDd3YUNXeDlOb3pNSFp4Wkl0MHI3SDktdHlQNVBRM0ExcHlCRUl3ODVkRFlsMnJ4MVR3WWVvNkxYRFVYSy11RUJpcWRYZGJXVjBvSDUtNmk1Ym9FbE54VW9iSkQtc1lCY24tOEpxdzAyYlJNSWVZZDlzYmszbHhXUGlLQ3otZkQzQnA1MlJLb1hNeVBvbWhXNWZZUkZ1QlVNYjNGMXVkTUdyQ3E1UTNEVDV4OWh2dEdXR2lGOHQ0TG9oNExNMUR6VXp5eDVB?oc=5",
+      "lead_source": "The Economic Times",
+      "topic": "energy",
+      "score": 88.18,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -173,7 +173,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.843, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.858, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
