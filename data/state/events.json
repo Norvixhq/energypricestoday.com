@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-22T14:02:57.784713+00:00",
-  "previous_generated_at": "2026-04-22T11:48:29.871294+00:00",
-  "resolver_run_count": 6,
+  "generated_at": "2026-04-22T15:44:55.517529+00:00",
+  "previous_generated_at": "2026-04-22T14:02:57.784713+00:00",
+  "resolver_run_count": 7,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Oil Trader CFOs Say Hormuz Closure Is Driving a Wave of Disputes",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.812,
-      "last_confirmed": "2026-04-22T12:11:33+00:00",
-      "source_count": 13,
-      "summary_short": "Crude oil spills in the Strait of Hormuz threatens to devastate entire ecosystems",
-      "summary_long": "Crude oil spills in the Strait of Hormuz threatens to devastate entire ecosystems. Iran fires on three ships in the Strait of Hormuz, complicating efforts to resume US-Iran talks",
+      "confidence": 0.811,
+      "last_confirmed": "2026-04-22T15:08:00+00:00",
+      "source_count": 10,
+      "summary_short": "Global oil climbs back to $100 a barrel after Iran flexes its power over oil tankers in Hormuz",
+      "summary_long": "Global oil climbs back to $100 a barrel after Iran flexes its power over oil tankers in Hormuz. Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait",
       "evidence_cluster_ids": [
-        "c_f26996e537ec6b",
-        "c_1a500eb1877a22",
         "c_c98d66dac82e3a",
+        "c_e6860459affec1",
+        "c_1a500eb1877a22",
         "c_bacb3f6280340d",
         "c_2c02a615945b31"
       ],
-      "evidence_count": 10,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_6d83881ef0 → CONTESTED (kw='attack', weight=0.59)",
-        "cluster c_9d16fc52d2 → CLOSED (kw='closure', weight=0.60) [OPEN suppressed]",
-        "winning=CLOSED (0.60/1.19), conf=0.812"
+        "cluster c_9d16fc52d2 → CLOSED (kw='closure', weight=0.57) [OPEN suppressed]",
+        "cluster c_6d83881ef0 → CONTESTED (kw='attack', weight=0.54)",
+        "winning=CLOSED (0.57/1.11), conf=0.811"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,17 +56,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-04-22T13:47:00+00:00",
-      "source_count": 20,
-      "summary_short": "Ukraine is countering the impact of the war in Iran by attacking Russian energy facilities",
-      "summary_long": "Ukraine is countering the impact of the war in Iran by attacking Russian energy facilities. Oil prices fluctuate as Trump extends Iran war ceasefire",
+      "source_count": 15,
+      "summary_short": "Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait of Hormuz Crisis Ex",
+      "summary_long": "Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait of Hormuz Crisis Extends Further With Acts of New War Provocations and Surging Oil Prices Disrupting Global Travel across Saudi Arabia, Jordan, Bahrain, Turk. Ukraine is countering the impact of the war in Iran by attacking Russian energy facilities",
       "evidence_cluster_ids": [
+        "c_c98d66dac82e3a",
         "c_2699c5782c7d2c",
+        "c_5594be118cc796",
         "c_0cc04795acd2e4",
-        "c_f26996e537ec6b",
-        "c_9f31824dd9088b",
-        "c_c98d66dac82e3a"
+        "c_54f2312cf93fba"
       ],
-      "evidence_count": 19,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -151,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_924531fe09fbe8",
-      "lead_title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 22",
-      "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNcFlpWTdHOXU2R0dmZm82eXUzTV9oWG54aGZMd3R4OVJGZzJLSGZVclZ6bHNpZHVScll0Y3pPbTUybnhQb1lxcEpwRTU4bURsSnVLX1FkYXRnMG45c21XZktMX2I1Njc2ZUQzb1I2OVIzczdwdW96ejNsWUZkc09DVnltR3d6QzN4NXZjenA0X091eUs4NGJBUnV6NXZsLVN2bTRuSkxDcW1xMk8zQ1VYTWFlOS12U1dTRnJlSTVtcHNuVV9SOFZGRjQ0Nk00TlM4R2I3ZUtUcWQwamhTYjZHQW84djRuZ3JJbE91U0xua3o0NktiRUZmcHRnZ3paZ0I3MEdPSlFpb3NPR095YjkyVnlaU2ZhdlVNNU9SM2tn?oc=5",
-      "lead_source": "S&P Global",
+      "cluster_id": "c_c5f246199d9796",
+      "lead_title": "U.S. Crude Oil Stockpiles Rise Amid Increase in Imports",
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNFYwM0pNTnNVN0dPRWdGaHg1ekkwVEM2QmNTWjhhQ0xveXU1dTNzcUFYRHVJamdoeFNpZ3ZQUnpHci1XMEd5VkgzdGZzSXZNaFljcE5SUDlhd21ibzJxVFpmR3hYUEVnWkl5Q0o5SmQyQUk5WkxvczdGTFN5b3RSY1RUVFlfdUdmeWgzeUVrZi1PUHRwOW45UnVFcUFHZG9WY21UMG5R?oc=5",
+      "lead_source": "WSJ",
       "topic": "oil",
-      "score": 93.4,
+      "score": 95.87,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,19 +168,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "next_catalyst_date",
-      "from": "2027-03-18",
-      "to": "",
-      "detected_at": "2026-04-22T14:02:57.784666+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.812, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.811, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
