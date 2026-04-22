@@ -58,49 +58,49 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of April 21, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil prices rise after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Prices Today: Trump Expects a ‘Great Deal’ With Iran. What Crude Is Doing.", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil prices jump amid renewed tensions over the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Prices Jump and Stocks Waver on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil prices today: Crude falls as upcoming US-Iran talks offsets supply disruption fears", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Trading Desks Boom While Big Oil Output Stalls", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Iranian Government", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
+  { title: "Brent Spikes Above $100 Intraday Before Retreating on Ceasefire Extension News", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "U.S. Naval Blockade of Iranian Ports Remains in Place Despite Ceasefire Extension", cat: "Geopolitics", slug: "geopolitics", time: "2h" },
+  { title: "Vance's Islamabad Trip Put on Hold as Iran Fails to Confirm Delegation", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
+  { title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon, Violating Ceasefire", cat: "Geopolitics", slug: "geopolitics", time: "4h" },
+  { title: "Iran's IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks", cat: "Geopolitics", slug: "geopolitics", time: "5h" },
+  { title: "Iran FM Araghchi Calls U.S. Naval Blockade 'An Act of War' and Ceasefire Violation", cat: "Geopolitics", slug: "geopolitics", time: "6h" },
+  { title: "WTI Settles +3% at $92.13, Brent +3% at $98.48 on Peace Talk Uncertainty", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
 ];
 
 const MARKET_DRIVERS = [
-  { cat: "Hormuz Re-Closed", icon: "alert-triangle", title: "Iran Reverses Course, Closes Strait Again", desc: "IRGC says Hormuz is under \u201Cstrict control\u201D until U.S. lifts port blockade. Gunboats fired on Indian-flagged tankers Sanmar Herald and MSC Ishyka. Container ship hit by projectile off Oman. Approaching vessels will be treated as \u201Ccooperating with the enemy.\u201D" },
-  { cat: "Ceasefire Risk", icon: "clock", title: "Trump Threatens to Let Ceasefire Expire Tuesday", desc: "Trump aboard Air Force One: \u201CMaybe I won\u2019t extend it, so you\u2019ll have a blockade and unfortunately we\u2019ll have to start dropping bombs again.\u201D Ceasefire expires April 21. Iran says U.S. is violating terms." },
-  { cat: "Crude Oil", icon: "trending-up", title: "Oil Volatile on Hormuz Reversal", desc: "WTI crashed 11% Friday on reopening, now rebounding on re-closure. Market pricing in continued uncertainty through weekend. Brent-WTI spread widening again. Risk premium rebuilding." },
-  { cat: "Gas Prices", icon: "fuel", title: "National Average Drops to $4.058", desc: "Seventh consecutive daily decline brings national average to $4.058. Week-over-week down 7.7 cents. Oklahoma cheapest at $3.41, California highest at $5.83. Further declines expected if Hormuz stays open in coming days." },
-  { cat: "Lebanon Ceasefire", icon: "shield", title: "French UN Peacekeeper Killed, Macron Blames Hezbollah", desc: "Sergeant-Chef Florian Montorio killed in southern Lebanon on Day 2 of ceasefire. Three other French soldiers injured. France demands Lebanese authorities arrest perpetrators. Ceasefire fragile." },
-  { cat: "Diplomacy", icon: "users", title: "Pakistan Mediating as Talks Resume Next Week", desc: "Pakistani FM Ishaq Dar working to \u201Cbridge\u201D U.S.-Iran differences. Second round of negotiations expected early next week in Islamabad. Trump: talks \u201Cgoing very well\u201D but warns of renewed strikes if no deal by Tuesday." },
+  { cat: "Ceasefire Extended", icon: "shield", title: "Trump Extends Ceasefire Indefinitely, Citing 'Fractured' Iran", desc: "Trump posted on Truth Social Tuesday afternoon that the U.S.-Iran ceasefire will be extended until Iran submits a \u201Cunified proposal.\u201D No new expiration date set. At request of Pakistan's Field Marshal Asim Munir and PM Shehbaz Sharif. Naval blockade of Iranian ports remains in place." },
+  { cat: "Oil Markets", icon: "trending-up", title: "Brent Touches $101 Intraday Before Retreating on Extension News", desc: "Brent settled +3% at $98.48 after briefly spiking to $101.15 when reports emerged that Vance had called off his Islamabad trip. WTI settled +3% at $92.13. Prices pared gains after Trump's ceasefire extension post minutes after market close." },
+  { cat: "Blockade", icon: "anchor", title: "U.S. Navy Blockade Has Turned Back 28 Ships Since Beginning", desc: "Naval blockade of Iranian ports continues despite ceasefire extension. Iran's FM Araghchi called blockade \u201Can act of war\u201D and ceasefire violation. Key sticking point in talks alongside Iran's nuclear program and the Strait of Hormuz status." },
+  { cat: "Lebanon", icon: "alert-triangle", title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon", desc: "Israeli military says Hezbollah fired rockets at Israeli troops in southern Lebanon on Tuesday, violating the 10-day ceasefire ahead of U.S.-mediated talks. No immediate Hezbollah response. Lebanese PM Salam: \u201CWe won't be intimidated by Hezbollah.\u201D" },
+  { cat: "Iran Threats", icon: "zap", title: "IRGC Threatens Oil Facilities in Neighboring Countries", desc: "Iran's Revolutionary Guard threatened to target oil facilities in neighboring states that allow the U.S. to launch attacks on Iran from their territory. Escalation risk if ceasefire collapses. Gulf producers monitoring closely." },
+  { cat: "Diplomacy", icon: "users", title: "Iran Still Hasn't Confirmed Delegation for Islamabad Talks", desc: "Pakistan's info minister Tarar says \u201Cformal response from Iranian side about confirmation of delegation\u201D still awaited. Vance remained at White House Tuesday afternoon. Civilian-IRGC split in Tehran complicates unified Iranian position." },
 ];
 
 const FEATURED_ARTICLES = [
-  { id: 101, title: "Hormuz Closed Again: Iran Reverses Course as Trump Refuses to Lift Blockade", excerpt: "Just one day after declaring the Strait of Hormuz \u201Ccompletely open,\u201D Iran has reimposed \u201Cstrict control\u201D over the critical waterway. The IRGC said vessels approaching will be treated as \u201Ccooperating with the enemy.\u201D Iranian gunboats fired on Indian-flagged tankers. Container ship hit off Oman coast.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 18, 2026", readTime: "7 min", featured: true },
-  { id: 102, title: "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge", excerpt: "After crashing 11.45% Friday on the reopening, crude is rebounding on news Iran has re-closed the strait. Market pricing in continued uncertainty ahead of Tuesday\u2019s ceasefire expiration. Brent-WTI spread widening again.", cat: "Oil Markets", slug: "oil-prices", author: "Staff", date: "Apr 18, 2026", readTime: "5 min" },
-  { id: 103, title: "Trump Warns He May Not Extend Ceasefire, Threatens to Resume Bombing", excerpt: "Aboard Air Force One Friday night: \u201CMaybe I won\u2019t extend it, so you\u2019ll have a blockade and unfortunately we\u2019ll have to start dropping bombs again.\u201D The U.S.-Iran ceasefire expires Tuesday, April 21. Iran calls blockade a ceasefire violation.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 18, 2026", readTime: "6 min" },
-  { id: 104, title: "French UN Peacekeeper Killed in Lebanon, Macron Blames Hezbollah", excerpt: "Sergeant-Chef Florian Montorio killed on the second day of the Israel-Lebanon ceasefire. Three other French soldiers injured. Macron demands Lebanese authorities arrest perpetrators. The 10-day truce faces its first major test.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 18, 2026", readTime: "5 min" },
-  { id: 105, title: "Gas Prices Continue Slide to $4.058 \u2014 Seventh Straight Daily Decline", excerpt: "Despite Hormuz re-closure, pump prices continue easing from earlier conflict peaks. AAA national now at $4.058, down 7.7 cents week-over-week. Oklahoma cheapest at $3.41, California highest at $5.83.", cat: "Gas Prices", slug: "gas-prices", author: "Staff", date: "Apr 18, 2026", readTime: "4 min" },
+  { id: 101, title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Government", excerpt: "In a Truth Social post Tuesday afternoon, President Trump announced he would extend the U.S.-Iran ceasefire until Iran's leadership submits a \u201Cunified proposal.\u201D Decision came at the request of Pakistan's Field Marshal Asim Munir and PM Sharif. Naval blockade of Iranian ports remains in place.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "7 min", featured: true },
+  { id: 102, title: "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension", excerpt: "Oil whipsawed Tuesday as Brent briefly spiked to $101.15 on reports Vance had called off his Islamabad trip, then retreated after Trump's extension post. WTI settled +3% at $92.13, Brent +3% at $98.48. Monday closes were +7% and +5%.", cat: "Oil Markets", slug: "oil-prices", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
+  { id: 103, title: "Vance's Islamabad Trip Put on Hold as Iran Fails to Confirm Delegation", excerpt: "Vice President JD Vance remained at the White House Tuesday rather than flying to Pakistan, after Iran declined to respond to American negotiating positions. Talks remain possible \u201Cat a moment's notice\u201D per a U.S. official. Pakistan's information minister says Iranian confirmation still awaited.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
+  { id: 104, title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon", excerpt: "The Israeli military said Hezbollah fired rockets at Israeli troops in southern Lebanon on Tuesday, violating the 10-day ceasefire. Lebanese PM Salam said Lebanon \u201Cwon't be intimidated\u201D by the Iran-backed militia. The breach comes ahead of U.S.-mediated talks between Israel and Lebanon.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "4 min" },
+  { id: 105, title: "IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks", excerpt: "Iran's Revolutionary Guard Corps warned it would strike oil infrastructure in any neighboring country that allowed the U.S. to resume attacks on Iran from its territory. Gulf producers on heightened alert. Threat escalates if ceasefire collapses.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
 ];
 
 const COMPANY_NEWS = [
-  { id: 201, title: "Energy Stocks Rebound as Hormuz Re-Closure Lifts Crude Prices", date: "Apr 18, 2026" },
-  { id: 202, title: "Maersk, Hapag-Lloyd Suspend Hormuz Transits Again After Iran Reversal", date: "Apr 18, 2026" },
-  { id: 203, title: "Saudi Aramco Activates East-West Pipeline Contingency Protocols", date: "Apr 18, 2026" },
-  { id: 204, title: "Cheniere Energy Sees Renewed LNG Premium as Hormuz Closes Again", date: "Apr 18, 2026" },
+  { id: 201, title: "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays", date: "Apr 21, 2026" },
+  { id: 202, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", date: "Apr 21, 2026" },
+  { id: 203, title: "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade", date: "Apr 21, 2026" },
+  { id: 204, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", date: "Apr 21, 2026" },
   { id: 205, title: "Shell Reports Higher Q1 Upstream Earnings, Maintains Dividend", date: "Apr 16, 2026" },
   { id: 206, title: "ConocoPhillips Completes Marathon Oil Integration Synergies", date: "Apr 17, 2026" },
 ];
 
 const GEO_ITEMS = [
-  { id: 301, region: "Persian Gulf", title: "Iran Re-Closes Strait of Hormuz After One-Day Reopening", desc: "IRGC says strait has \u201Creturned to previous state\u201D under \u201Cstrict management and control of the armed forces.\u201D Any approaching vessel will be treated as \u201Ccooperating with the enemy.\u201D Iranian gunboats fired on Indian-flagged Sanmar Herald and MSC Ishyka." },
-  { id: 302, region: "United States", title: "Trump Threatens to Resume Bombing if No Deal by Tuesday", desc: "\u201CMaybe I won\u2019t extend it, so you\u2019ll have a blockade and unfortunately we\u2019ll have to start dropping bombs again,\u201D Trump told reporters aboard Air Force One. Ceasefire expires April 21. Blockade of Iranian ports remains." },
-  { id: 303, region: "Lebanon", title: "French UN Peacekeeper Killed on Day 2 of Ceasefire", desc: "Sergeant-Chef Florian Montorio of the 17th Parachute Engineer Regiment killed in southern Lebanon. Three other soldiers injured. Macron: \u201CEverything suggests responsibility lies with Hezbollah.\u201D Ceasefire now severely tested." },
-  { id: 304, region: "India", title: "India Summons Iranian Ambassador Over Shooting of Indian Ships", desc: "India\u2019s foreign ministry summoned Iran\u2019s ambassador after gunboats fired on two India-flagged merchant vessels. Attack came despite Iran having labeled India a \u201Cfriendly nation\u201D for strait transit." },
-  { id: 305, region: "Diplomacy", title: "Pakistan Mediating Second Round of Talks", desc: "Pakistani Foreign Minister Ishaq Dar said Pakistan is working to \u201Cbridge\u201D U.S.-Iran differences. Islamabad expected to host second round of negotiations early next week. Pakistan continues role as primary mediator." },
-  { id: 306, region: "OPEC+", title: "OPEC+ Unchanged Despite Hormuz Re-Closure", desc: "206,000 bpd April output increase remains on schedule. Saudi Arabia holding at current production. No emergency meeting called. Gulf producers watching Hormuz status closely ahead of May production decisions." },
+  { id: 301, region: "United States", title: "Trump Extends Iran Ceasefire Indefinitely on Truth Social", desc: "Trump posted Tuesday afternoon: \u201CGovernment of Iran is seriously fractured... I have therefore directed our Military to continue the Blockade... and will therefore extend the Ceasefire until such time as their proposal is submitted.\u201D Came hours after he'd said on CNBC he wouldn't extend. No new expiration date." },
+  { id: 302, region: "Persian Gulf", title: "Strait of Hormuz Remains Functionally Closed Despite Extension", desc: "Iran maintains control of the strait after briefly reopening it. U.S. Navy blockade has turned back 28 ships since it began. Iran's FM Araghchi called the blockade \u201Can act of war.\u201D Traffic remains at a trickle. Commercial shipping rerouting continues." },
+  { id: 303, region: "Pakistan", title: "Vance Holds at White House as Iran Delays Delegation Confirmation", desc: "Vice President JD Vance spent Tuesday afternoon at the White House rather than flying to Islamabad, after Iran failed to respond to U.S. negotiating positions. Pakistan's Tarar: \u201Cformal response from Iranian side about confirmation of delegation still awaited.\u201D" },
+  { id: 304, region: "Lebanon", title: "Hezbollah Rocket Fire Breaches 10-Day Ceasefire with Israel", desc: "Israeli military reports Hezbollah fired rockets at Israeli troops in southern Lebanon Tuesday. Lebanese PM Nawaf Salam in Paris: Lebanon \u201Cwon't be intimidated\u201D by Iran-backed militia. Ceasefire tested ahead of U.S.-mediated Israel-Lebanon talks this week." },
+  { id: 305, region: "Iran", title: "IRGC Threatens Oil Facilities in Neighboring Host Countries", desc: "Iran's Revolutionary Guard Corps warned it would target oil facilities in any neighboring country allowing U.S. to launch attacks on Iran from its territory. Gulf producers on heightened alert. Civilian-IRGC split in Tehran reported to complicate unified Iranian negotiating position." },
+  { id: 306, region: "OPEC+", title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", desc: "206,000 bpd April increase on schedule. Saudi Arabia holding current production. No emergency meeting called following ceasefire extension. Gulf producers watching Hormuz status ahead of May production decisions. JMMC meeting preparations continue." },
 ];
 
 const CATEGORIES = {
@@ -187,7 +187,6 @@ const OIL_FUTURES_DATA = [
 const SUPPLY_CHOKEPOINTS = [
   { label: "Chokepoint", title: "Strait of Hormuz", desc: "21M bpd of crude transit daily. Any disruption impacts global benchmarks and insurance premiums.", stat: "21M bpd", region: "Persian Gulf" },
   { label: "Shipping", title: "Red Sea / Bab el-Mandeb", desc: "Houthi attacks reroute tankers around Cape of Good Hope, adding 10-14 days to delivery.", stat: "4.8M bpd", region: "Middle East" },
-  { label: "Infrastructure", title: "Suez Canal", desc: "Critical passage connecting Mediterranean and Asian oil markets via Egypt.", stat: "5.5M bpd", region: "Egypt" },
   { label: "Pipeline", title: "Druzhba Pipeline", desc: "Major crude pipeline from Russia to Central Europe, partially sanctioned since 2022.", stat: "1.2M bpd", region: "Russia → EU" },
   { label: "LNG Terminal", title: "U.S. Gulf Coast LNG", desc: "Record export capacity supporting European and Asian supply diversification.", stat: "14 Bcf/d", region: "United States" },
   { label: "Strait", title: "Strait of Malacca", desc: "Key Asian oil transit route connecting Indian Ocean to South China Sea.", stat: "16M bpd", region: "Southeast Asia" },
@@ -195,202 +194,16 @@ const SUPPLY_CHOKEPOINTS = [
 
 // ─── COMPREHENSIVE OIL PRICE DATA (mirrors OilPrice.com structure) ────
 const OIL_PRICE_SECTIONS = [
-  { title: "Crude Oil Benchmarks", flag: "", subtitle: "LIVE — updated every 5 minutes via API", rows: [
-    { name: "WTI Crude", price: 96.57, change: -1.3, pct: -1.33, apiCode: "WTI_USD" },
-    { name: "Brent Crude", price: 95.2, change: -1.31, pct: -1.36, apiCode: "BRENT_CRUDE_USD" },
-    { name: "Tapis Crude", price: 99.10, change: 0.72, pct: 0.73, apiCode: "TAPIS_CRUDE_USD" },
-    { name: "Murban Crude", price: 96.96, change: -1.31, pct: -1.33 },
-  ]},
-  { title: "Refined Products", flag: "", subtitle: "LIVE — updated every 5 minutes via API", rows: [
-    { name: "Gasoline RBOB", price: 3.018, change: 0.037, pct: 1.22, apiCode: "GASOLINE_USD" },
-    { name: "Heating Oil", price: 3.74, change: -0.198, pct: -5.03, apiCode: "HEATING_OIL_USD" },
-    { name: "Diesel ULSD", price: 3.74, change: -0.17, pct: -4.35, apiCode: "DIESEL_USD" },
-    { name: "Jet Fuel", price: 4.09, change: -0.14, pct: -3.31, apiCode: "JET_FUEL_USD" },
-    { name: "Ethanol", price: 1.925, change: -0.025, pct: -1.28, apiCode: "ETHANOL_USD" },
-  ]},
-  { title: "Natural Gas & LNG", flag: "", subtitle: "LIVE — updated every 5 minutes via API", rows: [
-    { name: "Henry Hub Natural Gas", price: 2.672, change: 0.002, pct: 0.07, apiCode: "NATURAL_GAS_USD" },
-    { name: "UK NBP Natural Gas", price: 2.15, change: -0.03, pct: -1.38, apiCode: "NATURAL_GAS_GBP" },
-    { name: "Dutch TTF Natural Gas", price: 15.56, change: -2.54, pct: -14.02, apiCode: "DUTCH_TTF_EUR" },
-    { name: "JKM LNG (Japan/Korea)", price: 19.49, change: -0.38, pct: -1.89, apiCode: "JKM_LNG_USD" },
-  ]},
-  { title: "Coal Markets", flag: "", subtitle: "LIVE — updated via API", rows: [
-    { name: "Newcastle Coal", price: 107.70, change: -2.10, pct: -1.91, apiCode: "NEWCASTLE_COAL_USD" },
-    { name: "CAPP Coal (Central Appalachia)", price: 72.50, change: 0.35, pct: 0.49, apiCode: "CAPP_COAL_USD" },
-    { name: "Coking Coal", price: 185.20, change: -1.80, pct: -0.96, apiCode: "COKING_COAL_USD" },
-    { name: "NYMEX Appalachian Coal", price: 68.40, change: 0.22, pct: 0.32, apiCode: "NYMEX_APPALACHIAN_USD" },
-  ]},
-  { title: "Marine Fuels / Bunker", flag: "\u2693", subtitle: "LIVE — global bunker fuel prices via API", rows: [
-    { name: "VLSFO (Very Low Sulfur Fuel Oil)", price: 548.00, change: 3.50, pct: 0.64, apiCode: "VLSFO_USD" },
-    { name: "MGO 0.5% Sulfur", price: 712.00, change: -4.20, pct: -0.59, apiCode: "MGO_05S_USD" },
-    { name: "HFO 380 CST", price: 418.00, change: 2.10, pct: 0.50, apiCode: "HFO_380_USD" },
-    { name: "HFO 180 CST", price: 432.00, change: 1.80, pct: 0.42, apiCode: "HFO_180_USD" },
-  ]},
-  { title: "Metals, Carbon & Other", flag: "", subtitle: "LIVE — updated via API", rows: [
-    { name: "Gold", price: 4750.43, change: -83.04, pct: -1.75, apiCode: "GOLD_USD" },
-    { name: "Uranium", price: 89.50, change: 0.75, pct: 0.84, apiCode: "URANIUM_USD" },
-    { name: "EU Carbon (EUA)", price: 68.20, change: -1.15, pct: -1.66, apiCode: "EU_CARBON_EUR" },
-  ]},
-  { title: "Forex", flag: "", subtitle: "LIVE — currency rates via API", rows: [
-    { name: "GBP/USD", price: 1.2650, change: 0.0025, pct: 0.20, apiCode: "GBP_USD" },
-    { name: "EUR/USD", price: 1.0820, change: -0.0015, pct: -0.14, apiCode: "EUR_USD" },
-  ]},
-  { title: "Energy Storage & Inventory", flag: "", subtitle: "LIVE — storage data via API", rows: [
-    { name: "Cushing OK Crude Storage", price: 25.80, change: -1.20, pct: -4.44, apiCode: "CUSHING_STORAGE" },
-    { name: "U.S. Natural Gas Storage", price: 1842.00, change: 28.00, pct: 1.54, apiCode: "NATURAL_GAS_STORAGE" },
-  ]},
-  { title: "Other Futures & Indexes", flag: "", subtitle: "Reference prices — 1-24hr delay", rows: [
-    { name: "WTI Midland", price: 102.55, change: 3.54, pct: 3.58 },
-    { name: "Mars", price: 98.5, change: 4.90, pct: 4.26 },
-    { name: "OPEC Basket", price: 107.00, change: -17.12, pct: -13.79 },
-    { name: "DME Oman", price: 95.15, change: -20.25, pct: -17.07 },
-    { name: "Mexican Basket", price: 106.89, change: -0.13, pct: -0.12 },
-    { name: "Indian Basket", price: 115.52, change: -20.11, pct: -14.83 },
-    { name: "Urals", price: 88.4, change: -4.69, pct: -3.76 },
-    { name: "Western Canadian Select", price: 82.06, change: -18.54, pct: -18.43 },
-    { name: "AECO C Natural Gas", price: 1.030, change: 0.040, pct: 4.04 },
-    { name: "Dubai", price: 94.6, change: -14.90, pct: -12.52 },
-    { name: "Brent Weighted Average", price: 93.91, change: -15.71, pct: -14.33 },
-    { name: "Louisiana Light", price: 122.58, change: 0.57, pct: 0.47 },
-    { name: "Domestic Swt. @ Cushing", price: 90.89, change: -18.54, pct: -16.94 },
-    { name: "Giddings", price: 84.64, change: -18.54, pct: -17.97 },
-    { name: "ANS West Coast", price: 98.2, change: -2.22, pct: -1.85 },
-    { name: "Gulf Coast HSFO", price: 80.86, change: -7.75, pct: -8.75 },
-  ]},
-  { title: "OPEC Members", flag: "", subtitle: "Daily pricing — 24hr delay", rows: [
-    { name: "Arab Light", price: 112.72, change: -0.60, pct: -0.53 },
-    { name: "Kuwait Export Blend", price: 100.63, change: -20.46, pct: -16.90 },
-  ]},
-  { title: "Australia", flag: "\ud83c\udde6\ud83c\uddfa", subtitle: "24hr delay", rows: [
-    { name: "Cossack", price: 109.32, change: 3.83, pct: 3.63 },
-    { name: "NWS Condensate", price: 106.02, change: 3.83, pct: 3.75 },
-    { name: "Ichthys Condensate", price: 114.57, change: 3.83, pct: 3.46 },
-  ]},
-  { title: "Angola", flag: "\ud83c\udde6\ud83c\uddf4", subtitle: "24hr delay", rows: [
-    { name: "Cabinda", price: 111.22, change: 3.83, pct: 3.57 },
-    { name: "Nemba", price: 109.47, change: 3.83, pct: 3.63 },
-    { name: "Dalia", price: 109.87, change: 3.83, pct: 3.61 },
-  ]},
-  { title: "Nigeria", flag: "\ud83c\uddf3\ud83c\uddec", subtitle: "24hr delay", rows: [
-    { name: "Brass River", price: 114.62, change: 7.73, pct: 7.23 },
-    { name: "Qua Iboe", price: 114.52, change: 7.73, pct: 7.24 },
-  ]},
-  { title: "UAE", flag: "\ud83c\udde6\ud83c\uddea", subtitle: "24hr delay", rows: [
-    { name: "Das", price: 99.74, change: 0.57, pct: 0.57 },
-    { name: "Umm Lulu", price: 100.24, change: 0.57, pct: 0.57 },
-    { name: "Upper Zakum", price: 104.77, change: -2.28, pct: -2.13 },
-  ]},
-  { title: "Qatar", flag: "\ud83c\uddf6\ud83c\udde6", subtitle: "24hr delay", rows: [
-    { name: "Qatar Land", price: 99.49, change: 0.57, pct: 0.58 },
-    { name: "Al Shaheen", price: 104.77, change: -2.28, pct: -2.13 },
-    { name: "D.F. Condensate", price: 93.36, change: 4.90, pct: 5.54 },
-    { name: "L.S. Condensate", price: 93.06, change: 4.90, pct: 5.56 },
-  ]},
-  { title: "Iraq", flag: "\ud83c\uddee\ud83c\uddf6", subtitle: "24hr delay", rows: [
-    { name: "Basrah Heavy", price: 111.13, change: -1.31, pct: -1.17 },
-    { name: "Basrah Medium", price: 113.23, change: -1.31, pct: -1.14 },
-  ]},
-  { title: "Saudi Arabia", flag: "\ud83c\uddf8\ud83c\udde6", subtitle: "24hr delay", rows: [
-    { name: "Arab Extra Light", price: 113.22, change: -0.60, pct: -0.53 },
-    { name: "Arab Light", price: 112.72, change: -0.60, pct: -0.53 },
-    { name: "Arab Medium", price: 110.97, change: -0.60, pct: -0.54 },
-    { name: "Arab Heavy", price: 109.62, change: -0.60, pct: -0.54 },
-  ]},
-  { title: "Ecuador", flag: "\ud83c\uddea\ud83c\udde8", subtitle: "3 day delay", rows: [
-    { name: "Oriente Crude", price: 106.45, change: 4.27, pct: 4.18 },
-    { name: "Napo Crude", price: 95.96, change: 4.27, pct: 4.66 },
-  ]},
-  { title: "Mexico", flag: "\ud83c\uddf2\ud83c\uddfd", subtitle: "24hr delay", rows: [
-    { name: "Maya (Gulf Coast)", price: 95.56, change: 0.22, pct: 0.23 },
-    { name: "Isthmus (Gulf Coast)", price: 110.27, change: 0.34, pct: 0.31 },
-    { name: "Olmeca", price: 109.65, change: 0.20, pct: 0.19 },
-    { name: "Maya (West Coast)", price: 95.36, change: 0.22, pct: 0.23 },
-    { name: "Maya (Far East)", price: 94.86, change: -17.58, pct: -15.63 },
-    { name: "Isthmus (Far East)", price: 95.46, change: -17.58, pct: -15.55 },
-  ]},
-  { title: "Iran", flag: "\ud83c\uddee\ud83c\uddf7", subtitle: "24hr delay", rows: [
-    { name: "Iran Light (NW Europe)", price: 91.61, change: -15.71, pct: -14.64 },
-    { name: "Iran Heavy (NW Europe)", price: 89.71, change: -15.71, pct: -14.90 },
-    { name: "Forozan Blend (NW Europe)", price: 89.96, change: -15.71, pct: -14.87 },
-    { name: "Iran Light (Mediterranean)", price: 90.96, change: -15.71, pct: -14.73 },
-    { name: "Iran Heavy (Mediterranean)", price: 88.81, change: -15.71, pct: -15.03 },
-    { name: "Forozan Blend (Med.)", price: 89.06, change: -15.71, pct: -14.99 },
-    { name: "Soroosh", price: 85.81, change: -15.71, pct: -15.47 },
-    { name: "Iran Light (Sidi Kerir)", price: 92.86, change: -15.71, pct: -14.47 },
-    { name: "Iran Heavy (Sidi Kerir)", price: 90.71, change: -15.71, pct: -14.76 },
-    { name: "Iran Light (South Africa)", price: 91.61, change: -15.71, pct: -14.64 },
-    { name: "Iran Heavy (South Africa)", price: 89.71, change: -15.71, pct: -14.90 },
-  ]},
-  { title: "Russia", flag: "\ud83c\uddf7\ud83c\uddfa", subtitle: "24hr delay", rows: [
-    { name: "Sokol", price: 101.78, change: 4.90, pct: 5.06 },
-    { name: "Urals", price: 120.16, change: -4.69, pct: -3.76 },
-  ]},
-  { title: "Azerbaijan", flag: "\ud83c\udde6\ud83c\uddff", subtitle: "24hr delay", rows: [
-    { name: "Azeri Light", price: 117.74, change: 2.72, pct: 2.36 },
-  ]},
-  { title: "Brazil", flag: "\ud83c\udde7\ud83c\uddf7", subtitle: "24hr delay", rows: [
-    { name: "Lula", price: 107.32, change: 4.10, pct: 3.97 },
-  ]},
-  { title: "Kazakhstan", flag: "\ud83c\uddf0\ud83c\uddff", subtitle: "24hr delay", rows: [
-    { name: "CPC Blend", price: 113.74, change: 2.72, pct: 2.45 },
-  ]},
-  { title: "Canada", flag: "\ud83c\udde8\ud83c\udde6", subtitle: "20hr delay", rows: [
-    { name: "Western Canadian Select", price: 82.06, change: -18.54, pct: -18.43 },
-    { name: "Central Alberta", price: 86.26, change: -18.54, pct: -17.69 },
-    { name: "Light Sour Blend", price: 86.66, change: -18.54, pct: -17.62 },
-    { name: "Peace Sour", price: 86.41, change: -18.54, pct: -17.67 },
-    { name: "Syncrude Sweet Premium", price: 90.91, change: -18.54, pct: -16.94 },
-    { name: "Sweet Crude", price: 88.66, change: -18.54, pct: -17.29 },
-    { name: "US High Sweet Clearbrook", price: 92.56, change: -18.54, pct: -16.69 },
-    { name: "Midale", price: 86.91, change: -18.54, pct: -17.58 },
-    { name: "Albian Heavy Synthetic", price: 93.91, change: -18.54, pct: -16.49 },
-    { name: "Access Western Blend", price: 93.51, change: -18.54, pct: -16.55 },
-  ]},
-  { title: "United States — Texas", flag: "\ud83c\uddfa\ud83c\uddf8", subtitle: "24hr delay", rows: [
-    { name: "West Texas Sour", price: 90.29, change: -18.54, pct: -17.04 },
-    { name: "West Texas Intermediate", price: 90.89, change: -18.54, pct: -16.94 },
-    { name: "Eagle Ford", price: 90.89, change: -18.54, pct: -16.94 },
-    { name: "North Texas Sweet", price: 91.50, change: -18.50, pct: -16.82 },
-    { name: "South Texas Sour", price: 78.14, change: -18.54, pct: -19.18 },
-    { name: "South Texas Light", price: 85.25, change: -18.50, pct: -17.83 },
-    { name: "Upper Texas Gulf Coast", price: 84.64, change: -18.54, pct: -17.97 },
-    { name: "Texas Gulf Coast Light", price: 84.64, change: -18.54, pct: -17.97 },
-    { name: "Tx. Upper Gulf Coast", price: 85.25, change: -18.50, pct: -17.83 },
-    { name: "W. Tx./N. Mex. Inter.", price: 91.50, change: -18.50, pct: -16.82 },
-    { name: "W. Cen. Tx. Inter.", price: 91.50, change: -18.50, pct: -16.82 },
-    { name: "East Texas Sweet", price: 88.75, change: -18.50, pct: -17.25 },
-  ]},
-  { title: "United States — Oklahoma", flag: "\ud83c\uddfa\ud83c\uddf8", subtitle: "24hr delay", rows: [
-    { name: "Oklahoma Sweet", price: 91.50, change: -18.50, pct: -16.82 },
-    { name: "Oklahoma Sour", price: 79.50, change: -18.50, pct: -18.88 },
-    { name: "Western Oklahoma Swt.", price: 90.75, change: -18.50, pct: -16.93 },
-    { name: "Oklahoma Intermediate", price: 91.25, change: -18.50, pct: -16.86 },
-  ]},
-  { title: "United States — Other States", flag: "\ud83c\uddfa\ud83c\uddf8", subtitle: "1-9 day delay", rows: [
-    { name: "Wyoming General Sour", price: 87.47, change: -18.54, pct: -17.49 },
-    { name: "Wyoming General Sweet", price: 87.99, change: -18.54, pct: -17.40 },
-    { name: "Colorado South East", price: 81.39, change: -18.54, pct: -18.55 },
-    { name: "Nebraska Sweet", price: 82.19, change: -18.54, pct: -18.41 },
-    { name: "Michigan Sour", price: 83.50, change: -18.50, pct: -18.14 },
-    { name: "Michigan Sweet", price: 88.25, change: -18.50, pct: -17.33 },
-    { name: "Delhi/N. Louisiana", price: 88.50, change: -18.50, pct: -17.29 },
-    { name: "South Louisiana", price: 90.00, change: -18.50, pct: -17.05 },
-    { name: "Kansas Common", price: 81.24, change: -18.54, pct: -18.58 },
-    { name: "NW Kansas Sweet", price: 82.39, change: -18.54, pct: -18.37 },
-    { name: "SW Kansas Sweet", price: 82.89, change: -18.54, pct: -18.28 },
-    { name: "Arkansas Sweet", price: 95.50, change: -1.50, pct: -1.55 },
-    { name: "Arkansas Sour", price: 94.25, change: -1.50, pct: -1.57 },
-    { name: "Arkansas Ex Heavy", price: 89.00, change: -1.50, pct: -1.66 },
-  ]},
+  
 ];
 
-// ─── UNIQUE CONTENT PER CATEGORY PAGE ──────────────────────────────
+// ─── UFutures & IndexesORY PAGE ──────────────────────────────
 const CATEGORY_CONTENT = {
   "oil-prices": {
     articles: [
       { id: 1700, title: "Why Do Oil Prices Change Every Day?", excerpt: "Supply data, demand signals, geopolitics, the U.S. dollar, and trader positioning — the five daily drivers that move WTI and Brent in real time.", date: "Apr 18, 2026", author: "Staff", readTime: "7 min" },
-      { id: 1100, title: "What\u0027s the Oil Price Per Barrel Today? WTI & Brent Explained", excerpt: "A plain-English explainer on how crude oil is priced per barrel, why there are two benchmarks, and the five forces that move the price every day.", date: "Apr 18, 2026", author: "Staff", readTime: "6 min" },
-      { id: 1101, title: "WTI vs Brent: What\u0027s the Difference and Why It Matters", excerpt: "WTI is landlocked in Oklahoma; Brent is seaborne in the North Sea. Why the spread exists, what it signals, and how it affects U.S. gasoline prices.", date: "Apr 18, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1100, title: "What's the Oil Price Per Barrel Today? WTI & Brent Explained", excerpt: "A plain-English explainer on how crude oil is priced per barrel, why there are two benchmarks, and the five forces that move the price every day.", date: "Apr 18, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1101, title: "WTI vs Brent: What's the Difference and Why It Matters", excerpt: "WTI is landlocked in Oklahoma; Brent is seaborne in the North Sea. Why the spread exists, what it signals, and how it affects U.S. gasoline prices.", date: "Apr 18, 2026", author: "Staff", readTime: "6 min" },
       { id: 1001, title: "WTI Crude Climbs Past $71 as U.S. Inventories Post Sharp Drawdown", excerpt: "Commercial crude stocks at Cushing fell 4.2M barrels, well above the 1.8M consensus, signaling strong refinery demand ahead of driving season.", date: "Apr 16, 2026", author: "Staff", readTime: "5 min" },
       { id: 1002, title: "Brent-WTI Spread Widens to $4.44 on Atlantic Basin Tightness", excerpt: "North Sea supply disruptions and strong European refinery margins are pulling Brent higher relative to WTI.", date: "Apr 15, 2026", author: "Staff", readTime: "4 min" },
       { id: 1003, title: "Goldman Sachs Raises Brent Forecast to $82 by Year-End", excerpt: "The bank cites stronger-than-expected emerging market demand growth and disciplined OPEC+ supply management.", date: "Apr 14, 2026", author: "Staff", readTime: "4 min" },
@@ -405,7 +218,7 @@ const CATEGORY_CONTENT = {
   },
   "oil-futures": {
     articles: [
-      { id: 1600, title: "Oil Futures vs Spot Prices: What\u0027s the Difference?", excerpt: "Spot price is oil for immediate delivery; futures is oil for later. Why the two diverge, how contango and backwardation work, and which one the news actually quotes.", date: "Apr 18, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1600, title: "Oil Futures vs Spot Prices: What's the Difference?", excerpt: "Spot price is oil for immediate delivery; futures is oil for later. Why the two diverge, how contango and backwardation work, and which one the news actually quotes.", date: "Apr 18, 2026", author: "Staff", readTime: "7 min" },
       { id: 1101, title: "WTI Futures Curve Flips to Backwardation Through December 2026", excerpt: "Front-month contracts now trade at a premium to deferred months, signaling near-term supply tightness.", date: "Apr 16, 2026", author: "Staff", readTime: "6 min" },
       { id: 1102, title: "Brent Futures Open Interest Hits 3-Month High Ahead of OPEC Meeting", excerpt: "Speculative positioning in Brent crude futures has surged as traders anticipate policy signals from Vienna.", date: "Apr 15, 2026", author: "Staff", readTime: "5 min" },
       { id: 1103, title: "Options Market Pricing Elevated Volatility Through Summer 2026", excerpt: "Implied volatility on WTI calls has risen 18% as geopolitical risk and demand uncertainty drive hedging activity.", date: "Apr 14, 2026", author: "Staff", readTime: "5 min" },
@@ -501,7 +314,7 @@ const CATEGORY_CONTENT = {
   },
   "geopolitics": {
     articles: [
-      { id: 1500, title: "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Expiration", excerpt: "The Pakistan-mediated U.S.-Iran ceasefire: what it covers, what it doesn\u0027t, the April 21 expiration deadline, and what markets expect next.", date: "Apr 18, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1500, title: "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Extension", excerpt: "The Pakistan-mediated U.S.-Iran ceasefire: what it covers, what it doesn\u0027t, Trump\u0027s April 21 indefinite extension, and what markets expect next.", date: "Apr 21, 2026", author: "Staff", readTime: "6 min" },
       { id: 1300, title: "What Happens If the Strait of Hormuz Closes?", excerpt: "Hour-by-hour and week-by-week scenario analysis: oil prices, gasoline, shipping, and the countries most exposed if the world\u0027s most important chokepoint shuts.", date: "Apr 18, 2026", author: "Staff", readTime: "7 min" },
       { id: 1301, title: "What Is OPEC+ and How Does It Affect Oil Prices?", excerpt: "The 23-nation producer alliance that controls roughly 40% of global oil output. Who\u0027s in it, how it sets quotas, and why its decisions move prices within minutes.", date: "Apr 18, 2026", author: "Staff", readTime: "6 min" },
       { id: 1801, title: "Islamabad Talks Collapse After 21-Hour Marathon — No Deal Reached Between U.S. and Iran", excerpt: "The highest-level U.S.-Iran negotiations since 1979 ended without agreement. Vance blamed Iran for refusing nuclear commitments. Trump announces full naval blockade of Hormuz.", date: "Apr 17, 2026", author: "Staff", readTime: "8 min" },
@@ -790,10 +603,10 @@ const GAS_PRICES_BY_STATE = [
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 4.044,
-  mid: 4.655,
-  premium: 5.024,
-  diesel: 5.403,
-  source: "EIA Weekly Retail Gasoline Prices",
-  updated: "As of April 21, 2026"
+  regular: 4.058,
+  mid: 4.569,
+  premium: 4.936,
+  diesel: 5.570,
+  source: "AAA Daily Fuel Gauge Report",
+  updated: "As of April 19, 2026"
 };

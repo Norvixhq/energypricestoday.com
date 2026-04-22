@@ -108,6 +108,7 @@ function renderHeader(activePage) {
   const nav = [
     { label: 'Home', href: 'index.html' },
     { label: 'Gas Prices', href: 'category/gas-prices.html' },
+    { label: 'Electricity', href: 'electricity-prices.html' },
     { label: 'Oil Prices', href: 'oil-prices.html' },
     { label: 'Geopolitics', href: 'category/geopolitics.html' },
     { label: 'Markets', href: 'markets.html', dropdown: [
@@ -313,8 +314,9 @@ function renderFooter() {
             <div class="footer-heading">Markets</div>
             <div class="footer-links">
               <a href="${p}oil-prices.html">Oil Prices</a>
-              <a href="${p}category/natural-gas/">Natural Gas</a>
               <a href="${p}category/gas-prices/">Gas Prices</a>
+              <a href="${p}electricity-prices.html">Electricity Rates by State</a>
+              <a href="${p}category/natural-gas/">Natural Gas</a>
               <a href="${p}category/heating-oil/">Heating Oil</a>
               <a href="${p}oil-futures.html">Oil Futures</a>
               <a href="${p}markets.html">All Markets</a>

@@ -37,17 +37,47 @@ def has_changes() -> bool:
     return bool(result.stdout.strip())
 
 
+def status_summary() -> tuple[str, list[str]]:
+    """Return (summary line, list of changed paths) covering tracked + untracked."""
+    result = run(["git", "status", "--porcelain"], check=False)
+    lines = [ln for ln in result.stdout.strip().split("\n") if ln.strip()]
+    paths = []
+    added = 0
+    modified = 0
+    deleted = 0
+    untracked = 0
+    for ln in lines:
+        # Format: "XY path" where X/Y are status codes
+        code = ln[:2]
+        path = ln[3:].strip() if len(ln) > 3 else ""
+        paths.append(path)
+        if code.strip() == "??":
+            untracked += 1
+        elif "A" in code:
+            added += 1
+        elif "M" in code:
+            modified += 1
+        elif "D" in code:
+            deleted += 1
+    parts = []
+    if untracked: parts.append(f"{untracked} new")
+    if modified: parts.append(f"{modified} modified")
+    if added: parts.append(f"{added} added")
+    if deleted: parts.append(f"{deleted} deleted")
+    summary = ", ".join(parts) if parts else f"{len(lines)} changes"
+    return summary, paths
+
+
 def diff_summary() -> str:
-    """Short summary of what files changed."""
-    result = run(["git", "diff", "--stat", "HEAD"], check=False)
-    # Keep last line (e.g., "5 files changed, 120 insertions(+), 30 deletions(-)")
-    lines = result.stdout.strip().split("\n")
-    return lines[-1] if lines else "changes"
+    """Short summary of what files changed (including untracked)."""
+    summary, _paths = status_summary()
+    return summary
 
 
 def changed_files() -> list[str]:
-    result = run(["git", "diff", "--name-only", "HEAD"], check=False)
-    return [f for f in result.stdout.strip().split("\n") if f]
+    """All files affected in working tree — includes tracked modifications and untracked new files."""
+    _, paths = status_summary()
+    return paths
 
 
 def build_commit_message(reason: str) -> str:
@@ -87,7 +117,42 @@ def main() -> int:
     run(["git", "config", "user.name", actor], check=False)
     run(["git", "config", "user.email", f"{actor}@users.noreply.github.com"], check=False)
 
+    # Log the RAW git status before we touch anything — tells us what git sees
+    pre_status = run(["git", "status", "--porcelain"], check=False)
+    pre_lines = pre_status.stdout.strip().split("\n") if pre_status.stdout.strip() else []
+    print(f"[commit] git status shows {len(pre_lines)} entries before add:")
+    untracked = [ln for ln in pre_lines if ln.startswith("??")]
+    modified = [ln for ln in pre_lines if ln.startswith(" M") or ln.startswith("M ")]
+    print(f"  untracked: {len(untracked)}, modified: {len(modified)}, other: {len(pre_lines) - len(untracked) - len(modified)}")
+    # Explicitly show any data/ paths git sees as untracked
+    data_entries = [ln for ln in pre_lines if "data/" in ln]
+    if data_entries:
+        print(f"  data/ entries git sees:")
+        for entry in data_entries[:30]:
+            print(f"    {entry}")
+
+    # Explicitly add data directories first — belt-and-suspenders in case
+    # something about git's default add-A behavior is excluding them.
+    run(["git", "add", "data/"], check=False)
     run(["git", "add", "-A"])
+
+    # Diagnostic: log exactly what's now staged so runner output shows ground truth
+    staged = run(["git", "diff", "--cached", "--name-only"], check=False)
+    staged_files = [f for f in staged.stdout.strip().split("\n") if f]
+    print(f"[commit] Staged {len(staged_files)} file(s):")
+    # Group by top-level directory for readable output
+    by_dir: dict[str, int] = {}
+    for f in staged_files:
+        top = f.split("/", 1)[0] if "/" in f else "(root)"
+        by_dir[top] = by_dir.get(top, 0) + 1
+    for top, count in sorted(by_dir.items()):
+        print(f"  {top}/ — {count} file(s)")
+    # Also explicitly list any data/ files so autopilot logs show them
+    data_files = [f for f in staged_files if f.startswith("data/")]
+    if data_files:
+        print(f"[commit] data/ files in this commit:")
+        for f in sorted(data_files):
+            print(f"    • {f}")
 
     msg = build_commit_message(reason)
     print(f"[commit] Message: {msg}")
