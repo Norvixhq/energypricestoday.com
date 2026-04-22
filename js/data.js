@@ -59,13 +59,12 @@ const FULL_PRICES = {
 
 const BREAKING_NEWS = [
   { title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Iranian Government", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "Brent Spikes Above $100 Intraday Before Retreating on Ceasefire Extension News", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "U.S. Naval Blockade of Iranian Ports Remains in Place Despite Ceasefire Extension", cat: "Geopolitics", slug: "geopolitics", time: "2h" },
   { title: "Vance's Islamabad Trip Put on Hold as Iran Fails to Confirm Delegation", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
   { title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon, Violating Ceasefire", cat: "Geopolitics", slug: "geopolitics", time: "4h" },
-  { title: "Iran's IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks", cat: "Geopolitics", slug: "geopolitics", time: "5h" },
+  { title: "IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks", cat: "Geopolitics", slug: "geopolitics", time: "5h" },
   { title: "Iran FM Araghchi Calls U.S. Naval Blockade 'An Act of War' and Ceasefire Violation", cat: "Geopolitics", slug: "geopolitics", time: "6h" },
-  { title: "WTI Settles +3% at $92.13, Brent +3% at $98.48 on Peace Talk Uncertainty", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
 ];
 
 const MARKET_DRIVERS = [
@@ -78,10 +77,10 @@ const MARKET_DRIVERS = [
 ];
 
 const FEATURED_ARTICLES = [
-  { id: 101, title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Government", excerpt: "In a Truth Social post Tuesday afternoon, President Trump announced he would extend the U.S.-Iran ceasefire until Iran's leadership submits a \u201Cunified proposal.\u201D Decision came at the request of Pakistan's Field Marshal Asim Munir and PM Sharif. Naval blockade of Iranian ports remains in place.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "7 min", featured: true },
+  { id: 101, title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Iranian Government", excerpt: "In a Truth Social post Tuesday afternoon, President Trump announced he would extend the U.S.-Iran ceasefire until Iran's leadership submits a \u201Cunified proposal.\u201D Decision came at the request of Pakistan's Field Marshal Asim Munir and PM Sharif. Naval blockade of Iranian ports remains in place.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "7 min", featured: true },
   { id: 102, title: "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension", excerpt: "Oil whipsawed Tuesday as Brent briefly spiked to $101.15 on reports Vance had called off his Islamabad trip, then retreated after Trump's extension post. WTI settled +3% at $92.13, Brent +3% at $98.48. Monday closes were +7% and +5%.", cat: "Oil Markets", slug: "oil-prices", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
   { id: 103, title: "Vance's Islamabad Trip Put on Hold as Iran Fails to Confirm Delegation", excerpt: "Vice President JD Vance remained at the White House Tuesday rather than flying to Pakistan, after Iran declined to respond to American negotiating positions. Talks remain possible \u201Cat a moment's notice\u201D per a U.S. official. Pakistan's information minister says Iranian confirmation still awaited.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
-  { id: 104, title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon", excerpt: "The Israeli military said Hezbollah fired rockets at Israeli troops in southern Lebanon on Tuesday, violating the 10-day ceasefire. Lebanese PM Salam said Lebanon \u201Cwon't be intimidated\u201D by the Iran-backed militia. The breach comes ahead of U.S.-mediated talks between Israel and Lebanon.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "4 min" },
+  { id: 104, title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon, Violating Ceasefire", excerpt: "The Israeli military said Hezbollah fired rockets at Israeli troops in southern Lebanon on Tuesday, violating the 10-day ceasefire. Lebanese PM Salam said Lebanon \u201Cwon't be intimidated\u201D by the Iran-backed militia. The breach comes ahead of U.S.-mediated talks between Israel and Lebanon.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "4 min" },
   { id: 105, title: "IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks", excerpt: "Iran's Revolutionary Guard Corps warned it would strike oil infrastructure in any neighboring country that allowed the U.S. to resume attacks on Iran from its territory. Gulf producers on heightened alert. Threat escalates if ceasefire collapses.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
 ];
 
@@ -95,11 +94,7 @@ const COMPANY_NEWS = [
 ];
 
 const GEO_ITEMS = [
-  { id: 301, region: "United States", title: "Trump Extends Iran Ceasefire Indefinitely on Truth Social", desc: "Trump posted Tuesday afternoon: \u201CGovernment of Iran is seriously fractured... I have therefore directed our Military to continue the Blockade... and will therefore extend the Ceasefire until such time as their proposal is submitted.\u201D Came hours after he'd said on CNBC he wouldn't extend. No new expiration date." },
-  { id: 302, region: "Persian Gulf", title: "Strait of Hormuz Remains Functionally Closed Despite Extension", desc: "Iran maintains control of the strait after briefly reopening it. U.S. Navy blockade has turned back 28 ships since it began. Iran's FM Araghchi called the blockade \u201Can act of war.\u201D Traffic remains at a trickle. Commercial shipping rerouting continues." },
-  { id: 303, region: "Pakistan", title: "Vance Holds at White House as Iran Delays Delegation Confirmation", desc: "Vice President JD Vance spent Tuesday afternoon at the White House rather than flying to Islamabad, after Iran failed to respond to U.S. negotiating positions. Pakistan's Tarar: \u201Cformal response from Iranian side about confirmation of delegation still awaited.\u201D" },
-  { id: 304, region: "Lebanon", title: "Hezbollah Rocket Fire Breaches 10-Day Ceasefire with Israel", desc: "Israeli military reports Hezbollah fired rockets at Israeli troops in southern Lebanon Tuesday. Lebanese PM Nawaf Salam in Paris: Lebanon \u201Cwon't be intimidated\u201D by Iran-backed militia. Ceasefire tested ahead of U.S.-mediated Israel-Lebanon talks this week." },
-  { id: 305, region: "Iran", title: "IRGC Threatens Oil Facilities in Neighboring Host Countries", desc: "Iran's Revolutionary Guard Corps warned it would target oil facilities in any neighboring country allowing U.S. to launch attacks on Iran from its territory. Gulf producers on heightened alert. Civilian-IRGC split in Tehran reported to complicate unified Iranian negotiating position." },
+  
   { id: 306, region: "OPEC+", title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", desc: "206,000 bpd April increase on schedule. Saudi Arabia holding current production. No emergency meeting called following ceasefire extension. Gulf producers watching Hormuz status ahead of May production decisions. JMMC meeting preparations continue." },
 ];
 
