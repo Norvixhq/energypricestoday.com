@@ -970,92 +970,96 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 }
 
 /* ═══════════════════════════════════════════════════════════════════
-   MOBILE NAVIGATION — SINGLE AUTHORITATIVE BLOCK
-   Side-drawer overlay design. Hidden off-screen by default via right:-100%.
-   When .open is added, slides in via right:0.
-   Includes full dropdown-group styling so the entire nav tree renders.
+   MOBILE NAVIGATION — SIMPLE INLINE DROP-DOWN MENU
+   Hidden by default. When .open class added, expands below the header
+   as a full-width panel. This is the simplest possible approach —
+   no drawer, no overlay, no side-sliding. Just hide/show.
    ═══════════════════════════════════════════════════════════════════ */
 .mobile-nav{
-  position:fixed;top:0;right:-100%;width:min(320px,85vw);height:100vh;
-  background:var(--bg);border-left:1px solid var(--border);
-  z-index:9999;padding:20px 16px;overflow-y:auto;
-  transition:right .3s cubic-bezier(0.4,0,0.2,1);
-  display:flex;flex-direction:column;gap:2px;
+  display:none;
+  background:var(--bg);
+  border-top:1px solid var(--border);
+  border-bottom:1px solid var(--border);
+  padding:12px 16px 20px;
+  flex-direction:column;
+  gap:2px;
+  max-height:calc(100vh - 80px);
+  overflow-y:auto;
 }
-.mobile-nav.open{right:0}
-.mobile-nav-backdrop{
-  position:fixed;inset:0;background:rgba(0,0,0,0.5);z-index:9998;
-  opacity:0;pointer-events:none;transition:opacity .3s;
+.mobile-nav.open{
+  display:flex;
 }
-.mobile-nav-backdrop.open{opacity:1;pointer-events:all}
 
-/* Close button row at top of drawer */
+/* Backdrop unused in this design — keep rules to avoid layout changes */
+.mobile-nav-backdrop{display:none}
+
+/* Close button row (shown on mobile inside drawer) */
 .mobile-nav-close{
   display:flex;align-items:center;justify-content:space-between;
-  padding-bottom:16px;margin-bottom:8px;border-bottom:1px solid var(--border);
+  padding-bottom:12px;margin-bottom:8px;
+  border-bottom:1px solid var(--border);
 }
 .mobile-nav-close button{
-  width:36px;height:36px;border-radius:50%;border:1px solid var(--border);
+  width:32px;height:32px;border-radius:50%;border:1px solid var(--border);
   display:flex;align-items:center;justify-content:center;background:transparent;
   color:var(--text-2);transition:all .15s;cursor:pointer;
 }
 .mobile-nav-close button:hover{border-color:var(--text-1);color:var(--text-1)}
 
-/* Top-level nav links (non-dropdown) */
+/* Top-level nav links */
 .mobile-nav > a{
-  display:flex;align-items:center;gap:10px;
+  display:block;
   padding:12px 14px;font-size:15px;color:var(--text-2);
   border-radius:var(--radius);font-weight:500;
-  transition:all .15s;border:1px solid transparent;
   text-decoration:none;
+  transition:all .15s;
 }
 .mobile-nav > a:hover,.mobile-nav > a:active{
-  background:var(--surface);border-color:var(--border);color:var(--text-1);
+  background:var(--surface);color:var(--text-1);
 }
 .mobile-nav a.mobile-geo{color:var(--amber) !important;font-weight:600}
 .mobile-nav a.mobile-energy{color:var(--blue) !important;font-weight:600}
 
-/* Dropdown groups — KEY FIX: make them visible in the drawer */
+/* Dropdown groups */
 .mobile-dropdown-group{
-  display:block;margin:2px 0;width:100%;
+  display:block;margin:0;width:100%;
 }
 .mobile-dropdown-header{
-  display:flex;align-items:center;gap:0;width:100%;
+  display:flex;align-items:center;gap:4px;width:100%;
 }
 .mobile-dropdown-header > a{
   flex:1;min-width:0;
-  display:flex;align-items:center;gap:10px;
+  display:block;
   padding:12px 14px;font-size:15px;color:var(--text-2);
   border-radius:var(--radius);font-weight:500;
-  transition:all .15s;border:1px solid transparent;
   text-decoration:none;
+  transition:all .15s;
 }
 .mobile-dropdown-header > a:hover{
-  background:var(--surface);border-color:var(--border);color:var(--text-1);
+  background:var(--surface);color:var(--text-1);
 }
 .mobile-dropdown-header > a.mobile-geo{color:var(--amber) !important;font-weight:600}
 .mobile-dropdown-header > a.mobile-energy{color:var(--blue) !important;font-weight:600}
 .mobile-dropdown-toggle{
   flex-shrink:0;
-  width:40px;height:40px;display:flex;align-items:center;justify-content:center;
+  width:36px;height:36px;display:flex;align-items:center;justify-content:center;
   background:none;border:1px solid var(--border);border-radius:var(--radius-sm);
-  color:var(--text-3);transition:all .2s;cursor:pointer;margin-left:6px;
+  color:var(--text-3);transition:all .2s;cursor:pointer;
 }
 .mobile-dropdown-toggle:hover{color:var(--text-1);border-color:var(--border-h)}
 .mobile-dropdown-group.open .mobile-dropdown-toggle{
-  color:var(--blue);border-color:rgba(61,143,212,0.3);
-  background:var(--blue-mute);transform:rotate(180deg);
+  color:var(--blue);transform:rotate(180deg);
 }
 .mobile-dropdown-items{
   display:none;padding:4px 0 8px;
-  border-left:2px solid var(--border);margin-left:20px;
+  border-left:2px solid var(--border);margin-left:16px;
 }
 .mobile-dropdown-group.open .mobile-dropdown-items{display:block}
 .mobile-dropdown-items a.sub,
 .mobile-nav a.sub{
-  display:flex;align-items:center;
+  display:block;
   padding:10px 14px 10px 16px;font-size:14px;color:var(--text-3);
-  border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+  border-radius:var(--radius-sm);
   text-decoration:none;transition:all .15s;
 }
 .mobile-dropdown-items a.sub:hover,
@@ -1156,7 +1160,6 @@ a.article-featured{pointer-events:auto}
 /* Performance optimizations */
 .ticker-track{will-change:transform}
 .breaking-badge{will-change:opacity}
-.mobile-nav{will-change:right}
 .section{contain:content}
 .market-table-wrap{contain:layout style}
 
