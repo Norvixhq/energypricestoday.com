@@ -1,11 +1,11 @@
 {
   "topic": "energy",
-  "generated_at": "2026-04-22T07:17:02.207010+00:00",
+  "generated_at": "2026-04-22T09:02:40.857653+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 27,
   "clusters": [
     {
       "cluster_id": "c_2b0a5ccf00319d",
@@ -18,24 +18,24 @@
         "crude",
         "oil"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-04-22T00:17:10+00:00",
       "latest_seen": "2026-04-22T06:28:01+00:00",
-      "age_hours": 0.82,
-      "score": 78.26,
+      "age_hours": 2.58,
+      "score": 76.95,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.51,
-        "source_quality_points": 21.75,
+        "source_count_points": 15,
+        "recency_points": 23.45,
+        "source_quality_points": 21.5,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0f8f14da05ece811",
@@ -49,10 +49,19 @@
         {
           "headline_id": "65feb80c045f1e58",
           "title": "Crude oil prices remain unchanged after 9% gains in last two sessions. What's the near-term outlook?",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS2JlUWNnRzVZWUYwMkhsWkVWaTFZYVI1cFFrUkFEWk9PYW5lbklHWHJmRGQyVmRXWWZiVmRLc0E1R0w3NGVhQzNCWVlabkZaMGVJUGc5Wk1rMzZ3ZUxxOWRYd3ZpZ2J2dGg3eWlNX0RhaV9NWk9RZ3VlRDR6cHBwVEZpaWR4RlduR2RvYmZQSWVnRTRyZF9SM091d2JsaVhxOWVrbzhHVDVKVG5yUlA4NzMyeWgzVEhrUVNPckFQSU9paXY3NnZXNE0ydGg5bHdVU0h1aGZuVEVyWXMwaEY1OGFsZnhRaXNGSGR5Z0ctU0loZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS2JlUWNnRzVZWUYwMkhsWkVWaTFZYVI1cFFrUkFEWk9PYW5lbklHWHJmRGQyVmRXWWZiVmRLc0E1R0w3NGVhQzNCWVlabkZaMGVJUGc5Wk1rMzZ3ZUxxOWRYd3ZpZ2J2dGg3eWlNX0RhaV9NWk9RZ3VlRDR6cHBwVEZpaWR4RlduR2RvYmZQSWVnRTRyZF9SM091d2JsaVhxOWVrbzhHVDVKVG5yUlA4NzMyeWgzVEhrUVNPckFQSU9paXY3NnZXNE0ydGg5bHdVU0h1aGZuVEVyWXMwaEY1OGFsZnhRaXNGSGR5Z0ctU0loZ9IB9wFBVV95cUxNUFJWS3M4NFlCTEZUX2syTW1nV1ZTRXRfQk44djhOeWZCbEtrb2JVQXAxWXk1VzdFSXlsRFNUbjByV0V1U3VORF9vUVdvNWtwTlNQczF5VE5oRkxiMXhPaEZ2TDVBZVVNYVpTQzYyMXhkd2xLQXpFbXlHWjByQlFJODk1anVLakhaVGl0NDB6NW1wZmtuRHE5aTF3d3NSYWhld08tSjZnOFlBU1hXMnRkMkxkV1hlTFctOExMNE9mQnNVd0dZU25zUDhYN0FQQzdsZFhGYkVvNnVzbnNyRVdIWXRSS09OUTVGX2Q1MHM5VlBkdFg4RktZ?oc=5",
           "source": "Mint",
           "source_type": "rss",
           "published_at": "2026-04-22T06:28:01+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "65a36d5b82ebcaf5",
+          "title": "Oil prices today: Crude slips as markets weigh US-Iran talks, ceasefire extension",
+          "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPR3FHdHAxQWlPOTAzQXlxMEpleXlzcEVzUXR2TXBEaVNiR0ZkQmlBZHk5WTN4bElidlY2ajdMT0lmMUN3Z0ZfWWJSNFhoSTRuWkxESXlEclZMZHlGcXBMakVRUkhMSmZ2djFDZTA4bzVyMlJtS3lhSnRCdllOaTRpSFM4ZVRrNjJEd3Fub0ZmcUpqYnZKXzZGVnRiNS1VRm00MDYxVFZ2dDJCOV9zdkR2TlJiSXhSeVNFaWtWemxzNjhzaHpWWERQQXhyWlRneXhuaGJ3S2wtVzd5Ty14ZzZZb3ZjUmxuZU1lTmt5NTRtVHJob0RFRFNpNFoyZlVYMjBRMW16SU1MMGl1QjVIYjFVRHhFdE1uUdIBmwJBVV95cUxPN3AtMmZtVm9IRWxlcXRBMUZtZWsxLUk2RzlnbWlvdnVuMXdCNGxRT0JlbFZUY3JweThIbmRpYk9JVUk3TTVLU2FqZDlDV0Q0NzNyaXc5N25YQm1NdGV5UWw5Vkg4WmVfS3FGeE13b0VxU1FwOW04djlHUFJTcnluRE5xWnUtVHdGbFJUcjF5MXR0blNKMm1zeVptU3h1VUJqWS1fS29Ea3RLSjhKRHdoS2IxTXRNSmduT2sxUzAya2pTWjJQZ05qaG0zMkdON3lVRGxmRE1GRWRoV0FMLWJyVmEwX1NST1RWM0pFekJxSjlOWVVyNnVsRjJoQVRVQnViMUs4eWJ1N2h5cm5uSXpUeUwzWjBKNlEzNURN?oc=5",
+          "source": "The Times of India",
+          "source_type": "rss",
+          "published_at": "2026-04-22T03:34:00+00:00",
           "confidence": 0.7
         }
       ],
@@ -60,82 +69,39 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_40e5c17aaaf4aa",
+      "cluster_id": "c_cacedde1a4e218",
       "topic": "energy",
-      "lead_title": "How the Iran war oil and gas supply shock compares with past disruptions",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUUFLYV9DV3E3WmpuNUh0cmtkTTZxTzRHTmUtdkFRSTM1MDBranJKbENTYnlBTnNJZjhxV0RTaWd2SVRBMktTUHNZZ2k2VXlGRzBKWUNiNXdaWFBKQ3VGZVZnb3BqYVJERnprVGtCWEsxcW5nQXI2OWxZVFBSTkFBQmRDNDVZVmZuTjVlYTNNNG9WSzA3NVZyTXJJY0F2YzNjQzJkQ0Jwb0dKeHoybTNXR1k1X2VYb3M?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
+      "lead_title": "European stocks open higher after Trump extends Iran ceasefire deadline",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejNScFh1dnZoeGd1dFV6NTUxNVdxMk8xT1FLTzZIVnZubnZEQXVTVVRaWlJySFYtSy1jaDg2OC10RzRHbXZtLVJLdWt6TzFtOG5SRjN2ZkRkUGhhT2lxd0hycVJLWDlhb3h6ZnY0SFJ3LVdzX2tLWWlPb0F2NFNmZkpOaDlNQV8tNHI4TFJYb0FJaHE0YVFlZVFkY0ZJZDU50gGmAUFVX3lxTE1oV1FYNUh4MDN5Wkl3cUhwblpKbEM5blBPV3RzY0xtdjI4aEdQNXdDRDZpVGhOdFU0LXpPTWs2ekNVVVdtS09xUnlDUF9xX1c1LWp4OGhUU2NNVkE0Rml1bTV6TUtvR1M3U0J1YVNpSDVDSkxsNDctV3VlSVFzUTNIRGxlRTVKRlptZnRqSDZraTFFdmV2S1pzWFJPWFc4ZWtiWGRYNFE?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-22T05:04:00+00:00",
-      "latest_seen": "2026-04-22T05:04:00+00:00",
-      "age_hours": 2.22,
-      "score": 72.67,
+      "earliest_seen": "2026-04-22T05:22:02+00:00",
+      "latest_seen": "2026-04-22T05:22:02+00:00",
+      "age_hours": 3.68,
+      "score": 64.19,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.67,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
+        "recency_points": 22.79,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "2d69413dd29467f0",
-          "title": "How the Iran war oil and gas supply shock compares with past disruptions",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUUFLYV9DV3E3WmpuNUh0cmtkTTZxTzRHTmUtdkFRSTM1MDBranJKbENTYnlBTnNJZjhxV0RTaWd2SVRBMktTUHNZZ2k2VXlGRzBKWUNiNXdaWFBKQ3VGZVZnb3BqYVJERnprVGtCWEsxcW5nQXI2OWxZVFBSTkFBQmRDNDVZVmZuTjVlYTNNNG9WSzA3NVZyTXJJY0F2YzNjQzJkQ0Jwb0dKeHoybTNXR1k1X2VYb3M?oc=5",
-          "source": "Reuters",
+          "headline_id": "bfa87d856a0d0338",
+          "title": "European stocks open higher after Trump extends Iran ceasefire deadline",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejNScFh1dnZoeGd1dFV6NTUxNVdxMk8xT1FLTzZIVnZubnZEQXVTVVRaWlJySFYtSy1jaDg2OC10RzRHbXZtLVJLdWt6TzFtOG5SRjN2ZkRkUGhhT2lxd0hycVJLWDlhb3h6ZnY0SFJ3LVdzX2tLWWlPb0F2NFNmZkpOaDlNQV8tNHI4TFJYb0FJaHE0YVFlZVFkY0ZJZDU50gGmAUFVX3lxTE1oV1FYNUh4MDN5Wkl3cUhwblpKbEM5blBPV3RzY0xtdjI4aEdQNXdDRDZpVGhOdFU0LXpPTWs2ekNVVVdtS09xUnlDUF9xX1c1LWp4OGhUU2NNVkE0Rml1bTV6TUtvR1M3U0J1YVNpSDVDSkxsNDctV3VlSVFzUTNIRGxlRTVKRlptZnRqSDZraTFFdmV2S1pzWFJPWFc4ZWtiWGRYNFE?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-04-22T05:04:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3a488bad398630",
-      "topic": "energy",
-      "lead_title": "Gold rises as oil weakens after US extends ceasefire with Iran",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOTNWZWl3dFF5M2J4RDVibWhuREV1UGI1LVdSQjRDQ1ZadTN4ODJkOEdoVHNVVmhUc2dlQUNnU2x0SUkyM0ZsNHVrNl9HXzRJN0M1d3NhSFZVckJaa2k1SVhSS2c5WWhIbURYc1Q0TVBUNHJSbVRFSEZmVW1UOC1rNGJONS04dHNHemJEWHhxV01oOTJnZE9KODZFUmZ1LTRueGJxZ1pTVk12Rk0?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-22T03:12:00+00:00",
-      "latest_seen": "2026-04-22T03:12:00+00:00",
-      "age_hours": 4.08,
-      "score": 71.55,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.55,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "1674c58bd418e710",
-          "title": "Gold rises as oil weakens after US extends ceasefire with Iran",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOTNWZWl3dFF5M2J4RDVibWhuREV1UGI1LVdSQjRDQ1ZadTN4ODJkOEdoVHNVVmhUc2dlQUNnU2x0SUkyM0ZsNHVrNl9HXzRJN0M1d3NhSFZVckJaa2k1SVhSS2c5WWhIbURYc1Q0TVBUNHJSbVRFSEZmVW1UOC1rNGJONS04dHNHemJEWHhxV01oOTJnZE9KODZFUmZ1LTRueGJxZ1pTVk12Rk0?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-22T03:12:00+00:00",
-          "confidence": 1.0
+          "published_at": "2026-04-22T05:22:02+00:00",
+          "confidence": 0.88
         }
       ],
       "top_tier": true,
@@ -157,16 +123,16 @@
       ],
       "earliest_seen": "2026-04-22T00:47:00+00:00",
       "latest_seen": "2026-04-22T01:18:36+00:00",
-      "age_hours": 5.97,
-      "score": 68.92,
+      "age_hours": 7.73,
+      "score": 62.86,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 21.42,
+        "recency_points": 20.36,
         "source_quality_points": 28.5,
         "entity_relevance_points": 4,
-        "materiality_points": 5.0
+        "materiality_points": 0.0
       },
-      "novelty": "growing",
+      "novelty": "ongoing",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -188,43 +154,127 @@
           "confidence": 0.9
         }
       ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_bd3d423287226e",
+      "cluster_id": "c_40e5c17aaaf4aa",
       "topic": "energy",
-      "lead_title": "US Stock Futures Rise as Trump Extends Iran Truce: Markets Wrap",
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQczczZ25ncGNCQS1qN3JEamVBZlpxZ1dYbVgyeTBXdU95UDlEUnVSR2RzaDZJUFFDdzdfNGhldHpaWTAxcXpXczd4cmY3OTRNRkJMQ3lCVGRHZDQyOG13ZUYtQ2tZOVQ2TU9ZMWtsUEdMb2w3YzVaMFpWclUyeGlMdWdYa2FMakVjMlVHd3hhdzM5b283?oc=5",
-      "lead_source": "Bloomberg.com",
-      "canonical_entities": [],
+      "lead_title": "How the Iran war oil and gas supply shock compares with past disruptions",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUUFLYV9DV3E3WmpuNUh0cmtkTTZxTzRHTmUtdkFRSTM1MDBranJKbENTYnlBTnNJZjhxV0RTaWd2SVRBMktTUHNZZ2k2VXlGRzBKWUNiNXdaWFBKQ3VGZVZnb3BqYVJERnprVGtCWEsxcW5nQXI2OWxZVFBSTkFBQmRDNDVZVmZuTjVlYTNNNG9WSzA3NVZyTXJJY0F2YzNjQzJkQ0Jwb0dKeHoybTNXR1k1X2VYb3M?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T22:13:53+00:00",
-      "latest_seen": "2026-04-21T22:13:53+00:00",
-      "age_hours": 9.05,
-      "score": 63.07,
+      "earliest_seen": "2026-04-22T05:04:00+00:00",
+      "latest_seen": "2026-04-22T05:04:00+00:00",
+      "age_hours": 3.98,
+      "score": 61.61,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.57,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
+        "recency_points": 22.61,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "2d69413dd29467f0",
+          "title": "How the Iran war oil and gas supply shock compares with past disruptions",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUUFLYV9DV3E3WmpuNUh0cmtkTTZxTzRHTmUtdkFRSTM1MDBranJKbENTYnlBTnNJZjhxV0RTaWd2SVRBMktTUHNZZ2k2VXlGRzBKWUNiNXdaWFBKQ3VGZVZnb3BqYVJERnprVGtCWEsxcW5nQXI2OWxZVFBSTkFBQmRDNDVZVmZuTjVlYTNNNG9WSzA3NVZyTXJJY0F2YzNjQzJkQ0Jwb0dKeHoybTNXR1k1X2VYb3M?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-22T05:04:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3a488bad398630",
+      "topic": "energy",
+      "lead_title": "Gold rises as oil weakens after US extends ceasefire with Iran",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOTNWZWl3dFF5M2J4RDVibWhuREV1UGI1LVdSQjRDQ1ZadTN4ODJkOEdoVHNVVmhUc2dlQUNnU2x0SUkyM0ZsNHVrNl9HXzRJN0M1d3NhSFZVckJaa2k1SVhSS2c5WWhIbURYc1Q0TVBUNHJSbVRFSEZmVW1UOC1rNGJONS04dHNHemJEWHhxV01oOTJnZE9KODZFUmZ1LTRueGJxZ1pTVk12Rk0?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-22T03:12:00+00:00",
+      "latest_seen": "2026-04-22T03:12:00+00:00",
+      "age_hours": 5.84,
+      "score": 60.49,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 21.49,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "1674c58bd418e710",
+          "title": "Gold rises as oil weakens after US extends ceasefire with Iran",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOTNWZWl3dFF5M2J4RDVibWhuREV1UGI1LVdSQjRDQ1ZadTN4ODJkOEdoVHNVVmhUc2dlQUNnU2x0SUkyM0ZsNHVrNl9HXzRJN0M1d3NhSFZVckJaa2k1SVhSS2c5WWhIbURYc1Q0TVBUNHJSbVRFSEZmVW1UOC1rNGJONS04dHNHemJEWHhxV01oOTJnZE9KODZFUmZ1LTRueGJxZ1pTVk12Rk0?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-22T03:12:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_16d123b121fea7",
+      "topic": "energy",
+      "lead_title": "US stocks end lower, oil gains as Iran rejects peace talks",
+      "lead_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MXzZvQUd0ODB4YjU2ZXFaVHh6QnFua0ZacEg1RkFSV2V4VGZxazBpR1VNdjB3UjhqQzZGazdfOGNnVl8wU0I2ZFdDVkF6UGlhbXVpSmZjQUZ6alN3NUxSX3JKbEV2LW12TElTT2o5MloyVE9ZZm1SVWZsOA?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T01:45:00+00:00",
+      "latest_seen": "2026-04-21T01:45:00+00:00",
+      "age_hours": 31.29,
+      "score": 55.22,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 6.22,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "9009d019172688af",
-          "title": "US Stock Futures Rise as Trump Extends Iran Truce: Markets Wrap",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQczczZ25ncGNCQS1qN3JEamVBZlpxZ1dYbVgyeTBXdU95UDlEUnVSR2RzaDZJUFFDdzdfNGhldHpaWTAxcXpXczd4cmY3OTRNRkJMQ3lCVGRHZDQyOG13ZUYtQ2tZOVQ2TU9ZMWtsUEdMb2w3YzVaMFpWclUyeGlMdWdYa2FMakVjMlVHd3hhdzM5b283?oc=5",
-          "source": "Bloomberg.com",
+          "headline_id": "8061e3fe8a394a6b",
+          "title": "US stocks end lower, oil gains as Iran rejects peace talks",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9MXzZvQUd0ODB4YjU2ZXFaVHh6QnFua0ZacEg1RkFSV2V4VGZxazBpR1VNdjB3UjhqQzZGazdfOGNnVl8wU0I2ZFdDVkF6UGlhbXVpSmZjQUZ6alN3NUxSX3JKbEV2LW12TElTT2o5MloyVE9ZZm1SVWZsOA?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-21T22:13:53+00:00",
-          "confidence": 0.95
+          "published_at": "2026-04-21T01:45:00+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -246,16 +296,16 @@
       ],
       "earliest_seen": "2026-04-21T19:40:00+00:00",
       "latest_seen": "2026-04-21T19:40:00+00:00",
-      "age_hours": 11.62,
-      "score": 56.13,
+      "age_hours": 13.38,
+      "score": 50.07,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.03,
+        "recency_points": 16.97,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -287,16 +337,16 @@
       ],
       "earliest_seen": "2026-04-21T20:46:14+00:00",
       "latest_seen": "2026-04-21T20:46:14+00:00",
-      "age_hours": 10.51,
-      "score": 55.59,
+      "age_hours": 12.27,
+      "score": 49.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.69,
+        "recency_points": 17.64,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -313,50 +363,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_166ca372e4c54d",
+      "cluster_id": "c_15bd8e64ad524e",
       "topic": "energy",
-      "lead_title": "European stocks set to open lower as Trump refuses to lift Strait of Hormuz blockade",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejNScFh1dnZoeGd1dFV6NTUxNVdxMk8xT1FLTzZIVnZubnZEQXVTVVRaWlJySFYtSy1jaDg2OC10RzRHbXZtLVJLdWt6TzFtOG5SRjN2ZkRkUGhhT2lxd0hycVJLWDlhb3h6ZnY0SFJ3LVdzX2tLWWlPb0F2NFNmZkpOaDlNQV8tNHI4TFJYb0FJaHE0YVFlZVFkY0ZJZDU50gGmAUFVX3lxTE1oV1FYNUh4MDN5Wkl3cUhwblpKbEM5blBPV3RzY0xtdjI4aEdQNXdDRDZpVGhOdFU0LXpPTWs2ekNVVVdtS09xUnlDUF9xX1c1LWp4OGhUU2NNVkE0Rml1bTV6TUtvR1M3U0J1YVNpSDVDSkxsNDctV3VlSVFzUTNIRGxlRTVKRlptZnRqSDZraTFFdmV2S1pzWFJPWFc4ZWtiWGRYNFE?oc=5",
+      "lead_title": "Oil prices edge higher after Trump reiterates threat to bomb every bridge and power plant in Iran",
+      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclZGYUFGNUZLQmVMbGVpMnlmendtSHI2Smc3TkZmM0h6bGlnazZGdVhjeVl1MVlGWGFuSC1lQThRS0YzN0xoZ3FfSklYYzZVeENXYjVKN1B3dDZMbDFkZnNjaG5nVUdIQzJrXzVqaXhuajJpU0FZMjRydGRuNnRaR1R30gGHAUFVX3lxTFBWY2VCRnpIY0dSc0d4bVFEeDd4b1NidC1mU3hIZUlBeWhMR1pOS2NWQ0t0eUxqWVFZZWxDY0VfQWlFZzFSay1HNkRIZ2ZKcVBscGJXTDBhYnhTRFU4Q1BXS2t6ci1mNzlxdXhHRUZEbkFqazV6ejlEcTlOVUxwbnUtRnFPdUlybw?oc=5",
       "lead_source": "CNBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-22T05:22:02+00:00",
-      "latest_seen": "2026-04-22T05:22:02+00:00",
-      "age_hours": 1.92,
-      "score": 55.25,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.85,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "601a4ddc3e928669",
-          "title": "European stocks set to open lower as Trump refuses to lift Strait of Hormuz blockade",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNejNScFh1dnZoeGd1dFV6NTUxNVdxMk8xT1FLTzZIVnZubnZEQXVTVVRaWlJySFYtSy1jaDg2OC10RzRHbXZtLVJLdWt6TzFtOG5SRjN2ZkRkUGhhT2lxd0hycVJLWDlhb3h6ZnY0SFJ3LVdzX2tLWWlPb0F2NFNmZkpOaDlNQV8tNHI4TFJYb0FJaHE0YVFlZVFkY0ZJZDU50gGmAUFVX3lxTE1oV1FYNUh4MDN5Wkl3cUhwblpKbEM5blBPV3RzY0xtdjI4aEdQNXdDRDZpVGhOdFU0LXpPTWs2ekNVVVdtS09xUnlDUF9xX1c1LWp4OGhUU2NNVkE0Rml1bTV6TUtvR1M3U0J1YVNpSDVDSkxsNDctV3VlSVFzUTNIRGxlRTVKRlptZnRqSDZraTFFdmV2S1pzWFJPWFc4ZWtiWGRYNFE?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-04-22T05:22:02+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_93163b70bb40ed",
-      "topic": "energy",
-      "lead_title": "Oil prices rise after Trump says Iranian ship seized",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yR2laSVRwLW45ZkMyS3VXdmFMc1Z4cVBrclZjZkprdEVsYlMxMURWcW1fWUIycGR3QjQtTTRoZVBrUzBRMUdIQXJROVZsTjNzVDVmYlVQMVVidw?oc=5",
-      "lead_source": "BBC",
       "canonical_entities": [
         "oil"
       ],
@@ -365,14 +376,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-20T20:33:01+00:00",
-      "latest_seen": "2026-04-20T20:33:01+00:00",
-      "age_hours": 34.73,
-      "score": 50.16,
+      "earliest_seen": "2026-04-05T07:00:00+00:00",
+      "latest_seen": "2026-04-05T07:00:00+00:00",
+      "age_hours": 410.04,
+      "score": 46.9,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.16,
-        "source_quality_points": 27.0,
+        "recency_points": 0.0,
+        "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -380,13 +391,13 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "79d3a7c43511ce14",
-          "title": "Oil prices rise after Trump says Iranian ship seized",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yR2laSVRwLW45ZkMyS3VXdmFMc1Z4cVBrclZjZkprdEVsYlMxMURWcW1fWUIycGR3QjQtTTRoZVBrUzBRMUdIQXJROVZsTjNzVDVmYlVQMVVidw?oc=5",
-          "source": "BBC",
+          "headline_id": "c9ecf6a99ad43ed5",
+          "title": "Oil prices edge higher after Trump reiterates threat to bomb every bridge and power plant in Iran",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclZGYUFGNUZLQmVMbGVpMnlmendtSHI2Smc3TkZmM0h6bGlnazZGdVhjeVl1MVlGWGFuSC1lQThRS0YzN0xoZ3FfSklYYzZVeENXYjVKN1B3dDZMbDFkZnNjaG5nVUdIQzJrXzVqaXhuajJpU0FZMjRydGRuNnRaR1R30gGHAUFVX3lxTFBWY2VCRnpIY0dSc0d4bVFEeDd4b1NidC1mU3hIZUlBeWhMR1pOS2NWQ0t0eUxqWVFZZWxDY0VfQWlFZzFSay1HNkRIZ2ZKcVBscGJXTDBhYnhTRFU4Q1BXS2t6ci1mNzlxdXhHRUZEbkFqazV6ejlEcTlOVUxwbnUtRnFPdUlybw?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-04-20T20:33:01+00:00",
-          "confidence": 0.9
+          "published_at": "2026-04-05T07:00:00+00:00",
+          "confidence": 0.93
         }
       ],
       "top_tier": false,
@@ -408,11 +419,11 @@
       ],
       "earliest_seen": "2026-04-21T14:07:20+00:00",
       "latest_seen": "2026-04-21T14:07:20+00:00",
-      "age_hours": 17.16,
-      "score": 47.8,
+      "age_hours": 18.92,
+      "score": 46.75,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.7,
+        "recency_points": 13.65,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -449,11 +460,11 @@
       ],
       "earliest_seen": "2026-04-21T14:34:18+00:00",
       "latest_seen": "2026-04-21T14:34:18+00:00",
-      "age_hours": 16.71,
-      "score": 46.87,
+      "age_hours": 18.47,
+      "score": 45.82,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.97,
+        "recency_points": 13.92,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -490,11 +501,11 @@
       ],
       "earliest_seen": "2026-04-21T08:28:52+00:00",
       "latest_seen": "2026-04-21T08:28:52+00:00",
-      "age_hours": 22.8,
-      "score": 45.32,
+      "age_hours": 24.56,
+      "score": 44.26,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.32,
+        "recency_points": 10.26,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -533,7 +544,7 @@
       ],
       "earliest_seen": "2026-03-29T07:00:00+00:00",
       "latest_seen": "2026-03-29T07:00:00+00:00",
-      "age_hours": 576.28,
+      "age_hours": 578.04,
       "score": 42.0,
       "score_components": {
         "source_count_points": 5,
@@ -559,45 +570,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_65eebcf2bc6bb7",
-      "topic": "energy",
-      "lead_title": "Electricity generators threatened with higher windfall taxes in bid to ensure stable prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN2t2TFV0SF80cGlNVldIWGpMT21yT3FFUGY0bmRTRWFXTW9BN2pYS05YcDhfQk9OU0xaNzNsYzJSWG8wQzBCWmRWUE55bFRhcnJCcVZQX3l6aldOZDM2aHZoQlo0cnQtajh5ajlsMDVyanNCTTlORlZ0ZURxMmthRVhrcXRvbVdLekdzZl82T0ZwcVF4aUw4WEJoelJJdFZaekpuRlotVVdXOVJfaHJJZlNPeEgyLWZ1NF9GT2hFaHBkUXhPR2swRHpKYkQ?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-21T16:13:00+00:00",
-      "latest_seen": "2026-04-21T16:13:00+00:00",
-      "age_hours": 15.07,
-      "score": 39.96,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 15.96,
-        "source_quality_points": 24.0,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "5d44c482b420eee7",
-          "title": "Electricity generators threatened with higher windfall taxes in bid to ensure stable prices",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN2t2TFV0SF80cGlNVldIWGpMT21yT3FFUGY0bmRTRWFXTW9BN2pYS05YcDhfQk9OU0xaNzNsYzJSWG8wQzBCWmRWUE55bFRhcnJCcVZQX3l6aldOZDM2aHZoQlo0cnQtajh5ajlsMDVyanNCTTlORlZ0ZURxMmthRVhrcXRvbVdLekdzZl82T0ZwcVF4aUw4WEJoelJJdFZaekpuRlotVVdXOVJfaHJJZlNPeEgyLWZ1NF9GT2hFaHBkUXhPR2swRHpKYkQ?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-04-21T16:13:00+00:00",
-          "confidence": 0.8
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_a43c416f999fab",
       "topic": "energy",
       "lead_title": "Brent futures retreat on Iran ceasefire extension after brief climb above $100",
@@ -613,11 +585,11 @@
       ],
       "earliest_seen": "2026-04-20T22:21:00+00:00",
       "latest_seen": "2026-04-20T22:21:00+00:00",
-      "age_hours": 32.93,
-      "score": 39.24,
+      "age_hours": 34.69,
+      "score": 38.18,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.24,
+        "recency_points": 4.18,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -633,45 +605,6 @@
           "source_type": "rss",
           "published_at": "2026-04-20T22:21:00+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_90ebbd46c1bae9",
-      "topic": "energy",
-      "lead_title": "European stocks lower as U.S.-Iran ceasefire deadline looms",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWtxVlEyOGZwTGxOSmZyS21xdjk3ZGtRZzdUdWZFNDh1ZGZuRnlocF9VT0ZNbWpwTG1LeTVTRU1DRHRzMGNZbFVYWnJFV0ZOdmp1T2ozTmVyejJFWU1UUHV0bWpmdjg1UU9MRE42aHhUd1h4YUxVSnlOSzY1SUc3S1NmMGxfQU5xd19odEdGbU9yQVRtWUp1REh5ZTgtZDAx0gGmAUFVX3lxTE1GN1JDaEk2Q25nUjZNZHFxbDVMNmFGNlAwWEtzSUpvREpZVW5UT0pXM0dZbmVpRWcwR1Q5MVlLTFowazZzeG1uNXFaNWpUOWh1QVNrZlZRT2Q0cGx4cnUya2h0YmVqSEw0NFVGdGZZbGJud2pVVHV6YUFCYnFpaFFoNUdDWFdMcS1TYUJELXdBZ1IwZTBDcGFoN0JOUGtkdTZ5aUwyQmc?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-21T05:22:50+00:00",
-      "latest_seen": "2026-04-21T05:22:50+00:00",
-      "age_hours": 25.9,
-      "score": 35.86,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 9.46,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "09633482a3e373e0",
-          "title": "European stocks lower as U.S.-Iran ceasefire deadline looms",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWtxVlEyOGZwTGxOSmZyS21xdjk3ZGtRZzdUdWZFNDh1ZGZuRnlocF9VT0ZNbWpwTG1LeTVTRU1DRHRzMGNZbFVYWnJFV0ZOdmp1T2ozTmVyejJFWU1UUHV0bWpmdjg1UU9MRE42aHhUd1h4YUxVSnlOSzY1SUc3S1NmMGxfQU5xd19odEdGbU9yQVRtWUp1REh5ZTgtZDAx0gGmAUFVX3lxTE1GN1JDaEk2Q25nUjZNZHFxbDVMNmFGNlAwWEtzSUpvREpZVW5UT0pXM0dZbmVpRWcwR1Q5MVlLTFowazZzeG1uNXFaNWpUOWh1QVNrZlZRT2Q0cGx4cnUya2h0YmVqSEw0NFVGdGZZbGJud2pVVHV6YUFCYnFpaFFoNUdDWFdMcS1TYUJELXdBZ1IwZTBDcGFoN0JOUGtkdTZ5aUwyQmc?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-04-21T05:22:50+00:00",
-          "confidence": 0.88
         }
       ],
       "top_tier": false,
@@ -694,7 +627,7 @@
       ],
       "earliest_seen": "2026-04-05T07:00:00+00:00",
       "latest_seen": "2026-04-05T07:00:00+00:00",
-      "age_hours": 408.28,
+      "age_hours": 410.04,
       "score": 35.0,
       "score_components": {
         "source_count_points": 5,
@@ -720,11 +653,50 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_3b65e1e59828f5",
+      "cluster_id": "c_90ebbd46c1bae9",
       "topic": "energy",
-      "lead_title": "Oil prices set for more turbulence in months ahead, warns Gunvor chief",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSDVjN1VWQzNHcVBqSm5EVkpMdlAzZEZ5SUZaUGxrRzl6VUs2aHpIRlNWNGYzOWdVV2dNVEtHbVY3N1BBZUgtMnc5a01GNERqVy1OSmdFQXZzVUdRYnVzdmNKUzNPdEV3S0lhRm1pZmRNY1NJV09sWGJ3enhPdkdFNmdEQk0?oc=5",
-      "lead_source": "Financial Times",
+      "lead_title": "European stocks lower as U.S.-Iran ceasefire deadline looms",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWtxVlEyOGZwTGxOSmZyS21xdjk3ZGtRZzdUdWZFNDh1ZGZuRnlocF9VT0ZNbWpwTG1LeTVTRU1DRHRzMGNZbFVYWnJFV0ZOdmp1T2ozTmVyejJFWU1UUHV0bWpmdjg1UU9MRE42aHhUd1h4YUxVSnlOSzY1SUc3S1NmMGxfQU5xd19odEdGbU9yQVRtWUp1REh5ZTgtZDAx0gGmAUFVX3lxTE1GN1JDaEk2Q25nUjZNZHFxbDVMNmFGNlAwWEtzSUpvREpZVW5UT0pXM0dZbmVpRWcwR1Q5MVlLTFowazZzeG1uNXFaNWpUOWh1QVNrZlZRT2Q0cGx4cnUya2h0YmVqSEw0NFVGdGZZbGJud2pVVHV6YUFCYnFpaFFoNUdDWFdMcS1TYUJELXdBZ1IwZTBDcGFoN0JOUGtkdTZ5aUwyQmc?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T05:22:50+00:00",
+      "latest_seen": "2026-04-21T05:22:50+00:00",
+      "age_hours": 27.66,
+      "score": 34.8,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 8.4,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "09633482a3e373e0",
+          "title": "European stocks lower as U.S.-Iran ceasefire deadline looms",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNWtxVlEyOGZwTGxOSmZyS21xdjk3ZGtRZzdUdWZFNDh1ZGZuRnlocF9VT0ZNbWpwTG1LeTVTRU1DRHRzMGNZbFVYWnJFV0ZOdmp1T2ozTmVyejJFWU1UUHV0bWpmdjg1UU9MRE42aHhUd1h4YUxVSnlOSzY1SUc3S1NmMGxfQU5xd19odEdGbU9yQVRtWUp1REh5ZTgtZDAx0gGmAUFVX3lxTE1GN1JDaEk2Q25nUjZNZHFxbDVMNmFGNlAwWEtzSUpvREpZVW5UT0pXM0dZbmVpRWcwR1Q5MVlLTFowazZzeG1uNXFaNWpUOWh1QVNrZlZRT2Q0cGx4cnUya2h0YmVqSEw0NFVGdGZZbGJud2pVVHV6YUFCYnFpaFFoNUdDWFdMcS1TYUJELXdBZ1IwZTBDcGFoN0JOUGtkdTZ5aUwyQmc?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-04-21T05:22:50+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_93163b70bb40ed",
+      "topic": "energy",
+      "lead_title": "Oil prices rise after Trump says Iranian ship seized",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yR2laSVRwLW45ZkMyS3VXdmFMc1Z4cVBrclZjZkprdEVsYlMxMURWcW1fWUIycGR3QjQtTTRoZVBrUzBRMUdIQXJROVZsTjNzVDVmYlVQMVVidw?oc=5",
+      "lead_source": "BBC",
       "canonical_entities": [
         "oil"
       ],
@@ -733,14 +705,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-20T04:04:59+00:00",
-      "latest_seen": "2026-04-20T04:04:59+00:00",
-      "age_hours": 51.2,
-      "score": 33.1,
+      "earliest_seen": "2026-04-20T20:33:01+00:00",
+      "latest_seen": "2026-04-20T20:33:01+00:00",
+      "age_hours": 36.49,
+      "score": 34.1,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 29.1,
+        "recency_points": 3.1,
+        "source_quality_points": 27.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
       },
@@ -748,13 +720,13 @@
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "2833fc8912f5a8f9",
-          "title": "Oil prices set for more turbulence in months ahead, warns Gunvor chief",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSDVjN1VWQzNHcVBqSm5EVkpMdlAzZEZ5SUZaUGxrRzl6VUs2aHpIRlNWNGYzOWdVV2dNVEtHbVY3N1BBZUgtMnc5a01GNERqVy1OSmdFQXZzVUdRYnVzdmNKUzNPdEV3S0lhRm1pZmRNY1NJV09sWGJ3enhPdkdFNmdEQk0?oc=5",
-          "source": "Financial Times",
+          "headline_id": "79d3a7c43511ce14",
+          "title": "Oil prices rise after Trump says Iranian ship seized",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yR2laSVRwLW45ZkMyS3VXdmFMc1Z4cVBrclZjZkprdEVsYlMxMURWcW1fWUIycGR3QjQtTTRoZVBrUzBRMUdIQXJROVZsTjNzVDVmYlVQMVVidw?oc=5",
+          "source": "BBC",
           "source_type": "rss",
-          "published_at": "2026-04-20T04:04:59+00:00",
-          "confidence": 0.97
+          "published_at": "2026-04-20T20:33:01+00:00",
+          "confidence": 0.9
         }
       ],
       "top_tier": false,
@@ -776,7 +748,7 @@
       ],
       "earliest_seen": "2026-04-13T07:00:00+00:00",
       "latest_seen": "2026-04-13T07:00:00+00:00",
-      "age_hours": 216.28,
+      "age_hours": 218.04,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -817,7 +789,7 @@
       ],
       "earliest_seen": "2026-04-13T07:00:00+00:00",
       "latest_seen": "2026-04-13T07:00:00+00:00",
-      "age_hours": 216.28,
+      "age_hours": 218.04,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -858,7 +830,7 @@
       ],
       "earliest_seen": "2026-04-12T07:00:00+00:00",
       "latest_seen": "2026-04-12T07:00:00+00:00",
-      "age_hours": 240.28,
+      "age_hours": 242.04,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -899,7 +871,7 @@
       ],
       "earliest_seen": "2026-04-01T07:00:00+00:00",
       "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 504.28,
+      "age_hours": 506.04,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -940,7 +912,7 @@
       ],
       "earliest_seen": "2026-03-28T07:00:00+00:00",
       "latest_seen": "2026-03-28T07:00:00+00:00",
-      "age_hours": 600.28,
+      "age_hours": 602.04,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -981,7 +953,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 336.28,
+      "age_hours": 338.04,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -1022,7 +994,7 @@
       ],
       "earliest_seen": "2026-04-02T07:00:00+00:00",
       "latest_seen": "2026-04-02T07:00:00+00:00",
-      "age_hours": 480.28,
+      "age_hours": 482.04,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -1063,7 +1035,7 @@
       ],
       "earliest_seen": "2026-04-20T08:25:00+00:00",
       "latest_seen": "2026-04-20T08:25:00+00:00",
-      "age_hours": 46.87,
+      "age_hours": 48.63,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -1104,7 +1076,7 @@
       ],
       "earliest_seen": "2026-04-02T07:00:00+00:00",
       "latest_seen": "2026-04-02T07:00:00+00:00",
-      "age_hours": 480.28,
+      "age_hours": 482.04,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -1145,7 +1117,7 @@
       ],
       "earliest_seen": "2026-04-01T07:00:00+00:00",
       "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 504.28,
+      "age_hours": 506.04,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
