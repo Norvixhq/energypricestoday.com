@@ -1,11 +1,11 @@
 {
   "topic": "heating",
-  "generated_at": "2026-04-22T05:41:43.159214+00:00",
+  "generated_at": "2026-04-22T07:17:02.244693+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 27,
   "clusters": [
     {
       "cluster_id": "c_84749b0d6b5348",
@@ -16,24 +16,24 @@
       "canonical_entities": [
         "heating oil"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-22T05:02:51+00:00",
+      "earliest_seen": "2026-04-20T10:43:00+00:00",
       "latest_seen": "2026-04-22T05:02:51+00:00",
-      "age_hours": 0.65,
-      "score": 70.61,
+      "age_hours": 2.24,
+      "score": 65.91,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.61,
-        "source_quality_points": 27.0,
+        "source_count_points": 10,
+        "recency_points": 23.66,
+        "source_quality_points": 23.25,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "76835665b93ec344",
@@ -43,6 +43,54 @@
           "source_type": "rss",
           "published_at": "2026-04-22T05:02:51+00:00",
           "confidence": 0.9
+        },
+        {
+          "headline_id": "520088d13cf6f8fc",
+          "title": "Heating oil costs – help is on the way",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14RnI2dDZiVU1fU1RYT2lldzFERDBEMm80THgzN3l0YzRSdk1Vb2tWdTE1bkN2OXdTeEpZclYzMGhnWmVrVlVWS3hJUjl4aGV1OWRaNndnZlBIdnRteG94WDYtdHhZMGN2bXd0V3VSamZRMG4zY1d5ZA?oc=5",
+          "source": "North Lincolnshire Council",
+          "source_type": "rss",
+          "published_at": "2026-04-20T10:43:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_85dc05ff9a7637",
+      "topic": "heating",
+      "lead_title": "UK inflation jumps to 3.3% in March as fuel prices surge amid Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWGhTX0F4WVRNU2t0bzFHbmw1SW1CVzdSaExNLUtRckVHNlhaYjJoSUhhQnN1WXZObnN3UjNVb2oxbVp0YzVkYlBmX3MxSDUweVFVWU4tVk5XM0IwTEdCZ01ORnFjN0duNDBQUGxyOG45dFNyUXpMX1NJemJZbW5aUGZrc0JyaW5Edk1TSGZYTnllbnhoaTJFUnlUN015MUd0aVZZNkR30gGrAUFVX3lxTE5KN2N1cDh4YWZzdVZsMzdxaVh5Sm05MzI2bFVmakY3TFU5VUZCT1VmbFN1bkxzaVZmMDBuRTREZGFnMDREVGhzNHpRX09MaGlHV05qUjFxazFZQnF4RHJvTGZIbUYwWHhkMVIzc3B5UzAtV0dESkU0U2pEYUhoemxnT3dKTmhHSUhkLWV4SFNYdmozbVloVzhnREdYaTNGRWZSNi1INndLMEVjaw?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-22T06:07:00+00:00",
+      "latest_seen": "2026-04-22T06:07:00+00:00",
+      "age_hours": 1.17,
+      "score": 65.7,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.3,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "81ec6471264db043",
+          "title": "UK inflation jumps to 3.3% in March as fuel prices surge amid Iran war",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWGhTX0F4WVRNU2t0bzFHbmw1SW1CVzdSaExNLUtRckVHNlhaYjJoSUhhQnN1WXZObnN3UjNVb2oxbVp0YzVkYlBmX3MxSDUweVFVWU4tVk5XM0IwTEdCZ01ORnFjN0duNDBQUGxyOG45dFNyUXpMX1NJemJZbW5aUGZrc0JyaW5Edk1TSGZYTnllbnhoaTJFUnlUN015MUd0aVZZNkR30gGrAUFVX3lxTE5KN2N1cDh4YWZzdVZsMzdxaVh5Sm05MzI2bFVmakY3TFU5VUZCT1VmbFN1bkxzaVZmMDBuRTREZGFnMDREVGhzNHpRX09MaGlHV05qUjFxazFZQnF4RHJvTGZIbUYwWHhkMVIzc3B5UzAtV0dESkU0U2pEYUhoemxnT3dKTmhHSUhkLWV4SFNYdmozbVloVzhnREdYaTNGRWZSNi1INndLMEVjaw?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-04-22T06:07:00+00:00",
+          "confidence": 0.88
         }
       ],
       "top_tier": true,
@@ -62,17 +110,17 @@
       ],
       "earliest_seen": "2026-04-22T05:24:32+00:00",
       "latest_seen": "2026-04-22T05:24:32+00:00",
-      "age_hours": 0.29,
-      "score": 65.33,
+      "age_hours": 1.88,
+      "score": 54.37,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.83,
+        "recency_points": 23.87,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7e5be242781f7dfc",
@@ -101,17 +149,17 @@
       ],
       "earliest_seen": "2026-04-22T05:19:19+00:00",
       "latest_seen": "2026-04-22T05:19:19+00:00",
-      "age_hours": 0.37,
-      "score": 65.28,
+      "age_hours": 1.96,
+      "score": 54.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.78,
+        "recency_points": 23.82,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b541327ad518ce37",
@@ -123,7 +171,48 @@
           "confidence": 0.85
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_1ec624ca24bc3a",
+      "topic": "heating",
+      "lead_title": "Heating oil and LPG customers to get additional support to install heat pumps",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXNIZ3RybUFkcVJHN2NnQmRCdHRyRW9JR0NpekVfZ2dVT1pGRFBscm5PajVNS19BMDZJTFc0VjZweXNQZWFucGwwZEdCaU50eDloUHJTV0Z0dkFtQS1sZUFzWG9UeUhFTDhyOUFyNDlhbzRNWWVzOEM5T2UyLTgzWXVEb3FfOUFvbFlMeUlhY3JZMzQ1cThwX2ZPUkQ0Yk5HUGFsbGlJeENxc3NnYlYyWG1B?oc=5",
+      "lead_source": "End Fuel Poverty Coalition",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-21T09:07:39+00:00",
+      "latest_seen": "2026-04-21T09:07:39+00:00",
+      "age_hours": 22.16,
+      "score": 50.21,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 11.71,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "febf59978892788a",
+          "title": "Heating oil and LPG customers to get additional support to install heat pumps",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTXNIZ3RybUFkcVJHN2NnQmRCdHRyRW9JR0NpekVfZ2dVT1pGRFBscm5PajVNS19BMDZJTFc0VjZweXNQZWFucGwwZEdCaU50eDloUHJTV0Z0dkFtQS1sZUFzWG9UeUhFTDhyOUFyNDlhbzRNWWVzOEM5T2UyLTgzWXVEb3FfOUFvbFlMeUlhY3JZMzQ1cThwX2ZPUkQ0Yk5HUGFsbGlJeENxc3NnYlYyWG1B?oc=5",
+          "source": "End Fuel Poverty Coalition",
+          "source_type": "rss",
+          "published_at": "2026-04-21T09:07:39+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -142,17 +231,17 @@
       ],
       "earliest_seen": "2026-04-20T14:51:19+00:00",
       "latest_seen": "2026-04-22T01:14:00+00:00",
-      "age_hours": 4.46,
-      "score": 60.82,
+      "age_hours": 6.05,
+      "score": 49.87,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.32,
+        "recency_points": 21.37,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "540e0721474ed6b2",
@@ -201,17 +290,17 @@
       ],
       "earliest_seen": "2026-04-21T22:24:16+00:00",
       "latest_seen": "2026-04-21T22:24:16+00:00",
-      "age_hours": 7.29,
-      "score": 59.13,
+      "age_hours": 8.88,
+      "score": 48.17,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.63,
+        "recency_points": 19.67,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "88edbdee81ee4bdb",
@@ -242,17 +331,17 @@
       ],
       "earliest_seen": "2026-04-21T19:00:02+00:00",
       "latest_seen": "2026-04-21T19:00:02+00:00",
-      "age_hours": 10.69,
-      "score": 57.08,
+      "age_hours": 12.28,
+      "score": 41.13,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.58,
+        "recency_points": 17.63,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "07108b768acdf11f",
@@ -281,17 +370,17 @@
       ],
       "earliest_seen": "2026-04-21T08:30:56+00:00",
       "latest_seen": "2026-04-21T08:30:56+00:00",
-      "age_hours": 21.18,
-      "score": 55.79,
+      "age_hours": 22.77,
+      "score": 39.84,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.29,
+        "recency_points": 11.34,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "8855c805dbee67f7",
@@ -322,17 +411,17 @@
       ],
       "earliest_seen": "2026-04-21T16:33:32+00:00",
       "latest_seen": "2026-04-21T16:33:32+00:00",
-      "age_hours": 13.14,
-      "score": 55.62,
+      "age_hours": 14.73,
+      "score": 39.66,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.12,
+        "recency_points": 16.16,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "bcb0a68c6d4ac8bd",
@@ -341,6 +430,47 @@
           "source": "TradingView",
           "source_type": "rss",
           "published_at": "2026-04-21T16:33:32+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f6089fcd5c8dc5",
+      "topic": "heating",
+      "lead_title": "CTV National News: Rising heating oil prices hitting cost of living in Atlantic Canada hard",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQjNHa0xSUjBZdnFKSkZfYzlmNTUycDlXSlFQeG9UZndxemhsVy1qSzU3d2tOR2hFdnBzLXAxdzlPc0Z6cExZclRBOExuUVQ2WWhQNkFGbHhLbTRidFFRWlpiY0xsNFluUjA0QzlXa2J2b3JXRVNlUThmMEVGNHJ4dWd2aF9qRC1vRWlMcnZBZlRFWExmaUtSbEdobFBlaE1WQ1lpV2tIZXpKZUFVbGg1N0w4YnVzQW5qYks2X3NYYmp6dTVzOTkyRXdJbw?oc=5",
+      "lead_source": "CTV News",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-17T20:17:51+00:00",
+      "latest_seen": "2026-04-17T20:17:51+00:00",
+      "age_hours": 106.99,
+      "score": 38.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "32fce2213e4856e0",
+          "title": "CTV National News: Rising heating oil prices hitting cost of living in Atlantic Canada hard",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNQjNHa0xSUjBZdnFKSkZfYzlmNTUycDlXSlFQeG9UZndxemhsVy1qSzU3d2tOR2hFdnBzLXAxdzlPc0Z6cExZclRBOExuUVQ2WWhQNkFGbHhLbTRidFFRWlpiY0xsNFluUjA0QzlXa2J2b3JXRVNlUThmMEVGNHJ4dWd2aF9qRC1vRWlMcnZBZlRFWExmaUtSbEdobFBlaE1WQ1lpV2tIZXpKZUFVbGg1N0w4YnVzQW5qYks2X3NYYmp6dTVzOTkyRXdJbw?oc=5",
+          "source": "CTV News",
+          "source_type": "rss",
+          "published_at": "2026-04-17T20:17:51+00:00",
           "confidence": 0.65
         }
       ],
@@ -363,17 +493,17 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 886.7,
-      "score": 49.0,
+      "age_hours": 888.28,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "215437c0754d61ec",
@@ -402,17 +532,17 @@
       ],
       "earliest_seen": "2026-04-20T19:11:43+00:00",
       "latest_seen": "2026-04-20T19:11:43+00:00",
-      "age_hours": 34.5,
-      "score": 47.8,
+      "age_hours": 36.09,
+      "score": 31.85,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.3,
+        "recency_points": 3.35,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "42dd07cdda0cf952",
@@ -443,17 +573,17 @@
       ],
       "earliest_seen": "2026-04-18T12:02:07+00:00",
       "latest_seen": "2026-04-18T12:02:07+00:00",
-      "age_hours": 89.66,
-      "score": 46.0,
+      "age_hours": 91.25,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "fac29accbb73f708",
@@ -484,17 +614,17 @@
       ],
       "earliest_seen": "2026-04-17T08:39:31+00:00",
       "latest_seen": "2026-04-17T08:39:31+00:00",
-      "age_hours": 117.04,
-      "score": 46.0,
+      "age_hours": 118.63,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "42154559d98ee548",
@@ -525,17 +655,17 @@
       ],
       "earliest_seen": "2026-04-04T07:00:00+00:00",
       "latest_seen": "2026-04-04T07:00:00+00:00",
-      "age_hours": 430.7,
-      "score": 46.0,
+      "age_hours": 432.28,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b7a88ccb661d19fa",
@@ -566,17 +696,17 @@
       ],
       "earliest_seen": "2026-04-01T07:00:00+00:00",
       "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 502.7,
-      "score": 46.0,
+      "age_hours": 504.28,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "98466699785aee4e",
@@ -607,17 +737,17 @@
       ],
       "earliest_seen": "2026-03-18T07:00:00+00:00",
       "latest_seen": "2026-03-18T07:00:00+00:00",
-      "age_hours": 838.7,
-      "score": 46.0,
+      "age_hours": 840.28,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b1e269de52245896",
@@ -648,17 +778,17 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 886.7,
-      "score": 46.0,
+      "age_hours": 888.28,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "968157609e129f70",
@@ -689,17 +819,17 @@
       ],
       "earliest_seen": "2026-03-14T07:00:00+00:00",
       "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 934.7,
-      "score": 46.0,
+      "age_hours": 936.28,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "dc94be6978fd0b5f",
@@ -730,17 +860,17 @@
       ],
       "earliest_seen": "2026-03-13T07:00:00+00:00",
       "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 958.7,
-      "score": 46.0,
+      "age_hours": 960.28,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "8e3032a10eeefcec",
@@ -771,17 +901,17 @@
       ],
       "earliest_seen": "2026-03-11T07:00:00+00:00",
       "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 1006.7,
-      "score": 46.0,
+      "age_hours": 1008.28,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "003361b2ac49afbe",
@@ -813,17 +943,17 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 694.7,
-      "score": 44.0,
+      "age_hours": 696.28,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f64b1fc42d1cd561",
@@ -852,17 +982,17 @@
       ],
       "earliest_seen": "2026-04-20T00:00:00+00:00",
       "latest_seen": "2026-04-20T00:00:00+00:00",
-      "age_hours": 53.7,
-      "score": 43.5,
+      "age_hours": 55.28,
+      "score": 28.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "93335aedd2eddcd7",
@@ -891,17 +1021,17 @@
       ],
       "earliest_seen": "2026-04-18T23:01:08+00:00",
       "latest_seen": "2026-04-18T23:01:08+00:00",
-      "age_hours": 78.68,
-      "score": 40.5,
+      "age_hours": 80.27,
+      "score": 25.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1301be2ff300d0f8",
@@ -932,17 +1062,17 @@
       ],
       "earliest_seen": "2026-04-20T11:30:14+00:00",
       "latest_seen": "2026-04-20T11:30:14+00:00",
-      "age_hours": 42.19,
-      "score": 38.5,
+      "age_hours": 43.78,
+      "score": 23.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1272107d3528c51f",
@@ -973,17 +1103,17 @@
       ],
       "earliest_seen": "2026-04-17T20:44:45+00:00",
       "latest_seen": "2026-04-17T20:44:45+00:00",
-      "age_hours": 104.95,
-      "score": 38.5,
+      "age_hours": 106.54,
+      "score": 23.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2f6f2a1c87cb2f68",
@@ -992,170 +1122,6 @@
           "source": "CME Group",
           "source_type": "rss",
           "published_at": "2026-04-17T20:44:45+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_22181d87a3db55",
-      "topic": "heating",
-      "lead_title": "The Northeast Home Heating Oil Reserve",
-      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcU55V25Jc2tHODBVcTNWazlOX214ZFVlMW1sVTJqdDlVZTdzU1lFUjQwSzJZSU5VazJuSGhVV3FBUldlbVhmMzRTWm1EZVRoY2YxaG01YnlrMXcyYVUzQzZqSUF6RWdZV3ZEbERtSjJMdGJY?oc=5",
-      "lead_source": "Department of Energy (.gov)",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-17T19:00:00+00:00",
-      "latest_seen": "2026-04-17T19:00:00+00:00",
-      "age_hours": 106.7,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "4336f54f7b371e91",
-          "title": "The Northeast Home Heating Oil Reserve",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tcU55V25Jc2tHODBVcTNWazlOX214ZFVlMW1sVTJqdDlVZTdzU1lFUjQwSzJZSU5VazJuSGhVV3FBUldlbVhmMzRTWm1EZVRoY2YxaG01YnlrMXcyYVUzQzZqSUF6RWdZV3ZEbERtSjJMdGJY?oc=5",
-          "source": "Department of Energy (.gov)",
-          "source_type": "rss",
-          "published_at": "2026-04-17T19:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c6c5e30fa812e5",
-      "topic": "heating",
-      "lead_title": "Townsend Recommends New England Homeowners to Consider Switching from Heating Oil to Propane",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVBPU1VDcHEwM09pMXZjU0RHc1FIcnNiZE16cFZQQlFUVExOSlFrczZSMHdsSDd1RUI5cUlIb2pCMXV4cFJaSzJYU3AtZlpvdHZmMGktWV90YzFtbDlMb1hYRGwzNlVLanVVbWZMM3cxZ2RxT1YyU0lUX1FabkJzem03VkJfT05iVzg5djdaemw2Q2QwX01fRlBrV21sYjIyY1NJX2ZpMlA3bEpXSUlVanJn?oc=5",
-      "lead_source": "Yahoo Finance",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-17T12:22:00+00:00",
-      "latest_seen": "2026-04-17T12:22:00+00:00",
-      "age_hours": 113.33,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "237985a164859879",
-          "title": "Townsend Recommends New England Homeowners to Consider Switching from Heating Oil to Propane",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVBPU1VDcHEwM09pMXZjU0RHc1FIcnNiZE16cFZQQlFUVExOSlFrczZSMHdsSDd1RUI5cUlIb2pCMXV4cFJaSzJYU3AtZlpvdHZmMGktWV90YzFtbDlMb1hYRGwzNlVLanVVbWZMM3cxZ2RxT1YyU0lUX1FabkJzem03VkJfT05iVzg5djdaemw2Q2QwX01fRlBrV21sYjIyY1NJX2ZpMlA3bEpXSUlVanJn?oc=5",
-          "source": "Yahoo Finance",
-          "source_type": "rss",
-          "published_at": "2026-04-17T12:22:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e3b242eb2e9dab",
-      "topic": "heating",
-      "lead_title": "Heating Oil Extends Advance",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek9oMDdBUHlHOXRLNGhoeWhZVENrcVB3Nng1MElrMGQwdWtzbEY5Um1XNU5FclFhSk0teXFtaHZ2dW9QWm0zbkVlUmpiUkVoS0VEQmhpUkx0Y2JEMWtzZ2FxM1N5QWJOSXZqZGJBc0V1ZldmZE5wdEl0NDNBN3V5eE1TeUM?oc=5",
-      "lead_source": "TradingView",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-05T07:00:00+00:00",
-      "latest_seen": "2026-04-05T07:00:00+00:00",
-      "age_hours": 406.7,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "673e62f2db9d5b9a",
-          "title": "Heating Oil Extends Advance",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNek9oMDdBUHlHOXRLNGhoeWhZVENrcVB3Nng1MElrMGQwdWtzbEY5Um1XNU5FclFhSk0teXFtaHZ2dW9QWm0zbkVlUmpiUkVoS0VEQmhpUkx0Y2JEMWtzZ2FxM1N5QWJOSXZqZGJBc0V1ZldmZE5wdEl0NDNBN3V5eE1TeUM?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-04-05T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_15d38f955d7cc1",
-      "topic": "heating",
-      "lead_title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
-      "lead_source": "Spectrum News",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-03T07:00:00+00:00",
-      "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 454.7,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "21183276f4a1672f",
-          "title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
-          "source": "Spectrum News",
-          "source_type": "rss",
-          "published_at": "2026-04-03T07:00:00+00:00",
           "confidence": 0.65
         }
       ],

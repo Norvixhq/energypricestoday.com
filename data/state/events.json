@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-22T05:41:43.234329+00:00",
-  "previous_generated_at": "",
-  "resolver_run_count": 1,
+  "generated_at": "2026-04-22T07:17:02.317699+00:00",
+  "previous_generated_at": "2026-04-22T05:41:43.234329+00:00",
+  "resolver_run_count": 2,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Strait of Hormuz blockade: India, China’s alternate oil supply cushion fades as Russian crude on water ru",
+      "status_detail": "The Strait of Hormuz closure forces a choice: Ration oil now or pay a steep price later",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.955,
+      "confidence": 0.951,
       "last_confirmed": "2026-04-22T04:55:14+00:00",
-      "source_count": 13,
+      "source_count": 6,
       "summary_short": "Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait of Hormuz Crisis Ex",
-      "summary_long": "Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait of Hormuz Crisis Extends Further With Acts of New War Provocations and Surging Oil Prices Disrupting Global Travel across Saudi Arabia, Jordan, Bahrain, Turk. Alternative routes for Middle East oil and gas due to Hormuz disruption",
+      "summary_long": "Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait of Hormuz Crisis Extends Further With Acts of New War Provocations and Surging Oil Prices Disrupting Global Travel across Saudi Arabia, Jordan, Bahrain, Turk. The Strait of Hormuz closure forces a choice: Ration oil now or pay a steep price later",
       "evidence_cluster_ids": [
         "c_c98d66dac82e3a",
-        "c_1a500eb1877a22",
-        "c_b7c687e2a482f5",
         "c_a0119ab5acf239",
-        "c_78e71d61fc6449"
+        "c_78e71d61fc6449",
+        "c_1a500eb1877a22",
+        "c_b7c687e2a482f5"
       ],
-      "evidence_count": 13,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b7c687e2a4 → CLOSED (kw='blockade', weight=0.44) [OPEN suppressed]",
-        "cluster c_a0119ab5ac → CLOSED (kw='closure', weight=0.50) [OPEN suppressed]",
-        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
-        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.10) [OPEN suppressed]",
-        "winning=CLOSED (1.13/1.13), conf=0.955"
+        "cluster c_a0119ab5ac → CLOSED (kw='closure', weight=0.39) [OPEN suppressed]",
+        "cluster c_b7c687e2a4 → CLOSED (kw='blockade', weight=0.31) [OPEN suppressed]",
+        "winning=CLOSED (0.70/0.70), conf=0.951"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-22T05:34:20+00:00",
-      "source_count": 45,
-      "summary_short": "Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait of Hormuz Crisis Ex",
-      "summary_long": "Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait of Hormuz Crisis Extends Further With Acts of New War Provocations and Surging Oil Prices Disrupting Global Travel across Saudi Arabia, Jordan, Bahrain, Turk. Oil Futures Settle Higher With U.S.-Iran Talks Undecided",
+      "last_confirmed": "2026-04-22T07:04:20+00:00",
+      "source_count": 21,
+      "summary_short": "Stocks rise, oil near $100 as Trump extends Iran ceasefire",
+      "summary_long": "Stocks rise, oil near $100 as Trump extends Iran ceasefire. Iran Joins US, Iraq, Israel, UAE, Qatar, UK, France, India, China, Japan and Australia as the Strait",
       "evidence_cluster_ids": [
+        "c_189075688c4f95",
         "c_c98d66dac82e3a",
+        "c_b03722caea634a",
         "c_5b28debf95108a",
-        "c_8ffcf5436dd539",
-        "c_fafa3712cea935",
-        "c_8b6c4438cc46e3"
+        "c_fafa3712cea935"
       ],
-      "evidence_count": 45,
+      "evidence_count": 21,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -94,19 +92,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-19T20:12:07+00:00",
-      "source_count": 2,
-      "summary_short": "Middle East oil production plunges due to Iran war, OPEC data shows",
-      "summary_long": "Middle East oil production plunges due to Iran war, OPEC data shows. OPEC: Middle East oil production plummets due to Iran war",
-      "evidence_cluster_ids": [
-        "c_48cbc4467bfacd",
-        "c_43fff660d862d7"
-      ],
-      "evidence_count": 2,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -119,7 +114,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -156,13 +151,13 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_31390de575ab9e",
-      "lead_title": "Technical Analysis Report for April 22: Spot Gold, WTI Crude Oil Futures",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcmJpQ0xVaUtvYWpxVktYd1BlN3dkbEEzTTdyRUZoSWFwTXgwLVFMZHl0ejBoU3NlSDRrVWF1cEpEeDdOLUtQdnk2dW1iVjZ3VTFCZXM1Q0Nnc0RyZ082UE9adk1reU9xWmQ2c3VMdmpRMVRuWkV0bGh1dFk1b3pJc0FObTRNdXliS29mOURLdEpxY0hmM2NISUd0a0w5cEhV?oc=5",
-      "lead_source": "富途牛牛",
-      "topic": "oil",
-      "score": 92.97,
-      "novelty": "new",
+      "cluster_id": "c_9970edc2c39c63",
+      "lead_title": "US judge blocks Trump administration actions stymieing wind, solar projects",
+      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMTNrRlNuU0l5LXpzaFN2N216R2hUNlZxM3loUEZpT2JLSzd6TXRCMkMzdzdOaGpHR0FzdjM4SFducndZX0V4YXF2ZXBMSWNGNi03Umw5LUtIUmxrVVdfU1U3STFpQ2lDSFNVS0VSX1NRdmM0OTlsUHJjcE5hV0d4YnhURXRMdWJCMTFJdXQzM19KX284MjlYd1lSY0p2TjR6b19ZQW9xRE42MDdwWVlDalBxZmxPZWVGeGhCY201bkZkMnhnU0E?oc=5",
+      "lead_source": "Reuters",
+      "topic": "renewables",
+      "score": 85.17,
+      "novelty": "growing",
       "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
@@ -173,55 +168,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CLOSED",
-      "detected_at": "2026-04-22T05:41:43.234152+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-04-22T05:41:43.234152+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-04-22T05:41:43.234152+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "new_event",
-      "from": null,
-      "to": "HIGH",
-      "detected_at": "2026-04-22T05:41:43.234152+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "top_story",
-      "field": "new_event",
-      "from": null,
-      "to": "",
-      "detected_at": "2026-04-22T05:41:43.234152+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.951, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
