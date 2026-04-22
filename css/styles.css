@@ -178,17 +178,7 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
   display:none;background:none;border:none;color:var(--text-1);padding:4px;
 }
 
-.mobile-nav{
-  display:none;background:rgba(6,8,15,0.98);
-  border-top:1px solid var(--border);padding:8px 20px 20px;flex-direction:column;gap:1px;
-}
-.mobile-nav.open{display:flex}
-.mobile-nav a{
-  display:block;padding:10px 12px;font-size:14.5px;color:var(--text-2);
-  border-radius:var(--radius-sm);font-weight:500;transition:all .12s;
-}
-.mobile-nav a:hover,.mobile-nav a.active{color:var(--blue)}
-.mobile-nav a.sub{padding-left:28px;font-size:13px;color:var(--text-3)}
+/* .mobile-nav styles consolidated below in the single authoritative block */
 
 /* ─── MARKET TICKER ─────────────────────────────────────────────── */
 .market-ticker-strip{
@@ -778,59 +768,7 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 #latest-news .article-list-item{border-top:none}
 #latest-news .article-list-item+.article-list-item{border-top:1px solid var(--border)}
 
-/* ─── MOBILE NAV REDESIGN ───────────────────────────────────────── */
-.mobile-nav{
-  display:none;background:var(--bg);
-  border-top:1px solid var(--border);
-  padding:12px 16px 24px;flex-direction:column;gap:2px;
-  max-height:calc(100vh - 80px);overflow-y:auto;
-}
-.mobile-nav.open{display:flex}
-.mobile-nav a{
-  display:flex;align-items:center;gap:10px;
-  padding:12px 14px;font-size:15px;color:var(--text-2);
-  border-radius:var(--radius);font-weight:500;
-  transition:all .15s;border:1px solid transparent;
-}
-.mobile-nav a:hover,.mobile-nav a:active{
-  background:var(--surface);border-color:var(--border);color:var(--text-1);
-}
-.mobile-nav a.sub{
-  padding:10px 14px 10px 40px;font-size:13.5px;color:var(--text-3);
-  border-radius:var(--radius-sm);
-}
-.mobile-nav a.sub:hover{color:var(--blue);background:var(--blue-mute)}
-.mobile-nav .mobile-section-label{
-  font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;
-  color:var(--text-3);padding:16px 14px 6px;
-}
-/* Mobile priority nav glow */
-.mobile-nav a.mobile-geo{color:var(--amber) !important;font-weight:600;text-shadow:0 0 8px rgba(212,122,12,0.3)}
-.mobile-nav a.mobile-energy{color:var(--blue) !important;font-weight:600;text-shadow:0 0 8px rgba(61,143,212,0.3)}
-
-/* ─── MOBILE DROPDOWN GROUPS ────────────────────────────────────── */
-.mobile-dropdown-group{margin:2px 0}
-.mobile-dropdown-header{display:flex;align-items:center;gap:0}
-.mobile-dropdown-header a{flex:1}
-.mobile-dropdown-toggle{
-  width:40px;height:40px;display:flex;align-items:center;justify-content:center;
-  background:none;border:1px solid var(--border);border-radius:var(--radius-sm);
-  color:var(--text-3);transition:all .2s;
-}
-.mobile-dropdown-toggle:hover{color:var(--text-1);border-color:var(--border-h)}
-.mobile-dropdown-group.open .mobile-dropdown-toggle{
-  color:var(--blue);border-color:rgba(61,143,212,0.3);
-  background:var(--blue-mute);transform:rotate(180deg);
-}
-.mobile-dropdown-items{
-  display:none;padding:4px 0 8px;
-  border-left:2px solid var(--border);margin-left:20px;
-}
-.mobile-dropdown-group.open .mobile-dropdown-items{display:block}
-.mobile-dropdown-items a.sub{
-  padding:10px 14px 10px 16px;font-size:14px;
-  border-radius:0 var(--radius-sm) var(--radius-sm) 0;
-}
+/* Legacy .mobile-nav block removed — consolidated implementation below. */
 
 /* ─── PREMIUM CONTACT CARDS ─────────────────────────────────────── */
 .contact-cards{display:flex;flex-direction:column;gap:16px}
@@ -1031,11 +969,16 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
   .desktop-nav{display:none}
 }
 
-/* Mobile menu overlay */
+/* ═══════════════════════════════════════════════════════════════════
+   MOBILE NAVIGATION — SINGLE AUTHORITATIVE BLOCK
+   Side-drawer overlay design. Hidden off-screen by default via right:-100%.
+   When .open is added, slides in via right:0.
+   Includes full dropdown-group styling so the entire nav tree renders.
+   ═══════════════════════════════════════════════════════════════════ */
 .mobile-nav{
-  position:fixed;top:0;right:-100%;width:min(300px,82vw);height:100vh;
+  position:fixed;top:0;right:-100%;width:min(320px,85vw);height:100vh;
   background:var(--bg);border-left:1px solid var(--border);
-  z-index:9999;padding:20px;overflow-y:auto;
+  z-index:9999;padding:20px 16px;overflow-y:auto;
   transition:right .3s cubic-bezier(0.4,0,0.2,1);
   display:flex;flex-direction:column;gap:2px;
 }
@@ -1046,49 +989,79 @@ main>section:nth-child(n+4){animation:fadeUp .4s ease-out .14s both}
 }
 .mobile-nav-backdrop.open{opacity:1;pointer-events:all}
 
-/* Mobile nav header */
+/* Close button row at top of drawer */
 .mobile-nav-close{
   display:flex;align-items:center;justify-content:space-between;
   padding-bottom:16px;margin-bottom:8px;border-bottom:1px solid var(--border);
 }
 .mobile-nav-close button{
-  width:32px;height:32px;border-radius:50%;border:1px solid var(--border);
+  width:36px;height:36px;border-radius:50%;border:1px solid var(--border);
   display:flex;align-items:center;justify-content:center;background:transparent;
-  color:var(--text-2);transition:all .15s;
+  color:var(--text-2);transition:all .15s;cursor:pointer;
 }
 .mobile-nav-close button:hover{border-color:var(--text-1);color:var(--text-1)}
 
-/* Mobile nav links */
-.mobile-nav a{
-  display:flex;align-items:center;padding:11px 14px;
-  font-size:15px;color:var(--text-2);font-weight:500;
-  border-radius:var(--radius-sm);transition:all .12s;
+/* Top-level nav links (non-dropdown) */
+.mobile-nav > a{
+  display:flex;align-items:center;gap:10px;
+  padding:12px 14px;font-size:15px;color:var(--text-2);
+  border-radius:var(--radius);font-weight:500;
+  transition:all .15s;border:1px solid transparent;
+  text-decoration:none;
 }
-.mobile-nav a:hover,.mobile-nav a:active{
-  background:var(--surface);color:var(--text-1);
+.mobile-nav > a:hover,.mobile-nav > a:active{
+  background:var(--surface);border-color:var(--border);color:var(--text-1);
 }
-.mobile-nav a.sub{
-  padding:9px 14px 9px 32px;font-size:13.5px;color:var(--text-3);
-}
-.mobile-nav a.sub:hover{color:var(--blue);background:var(--blue-mute)}
+.mobile-nav a.mobile-geo{color:var(--amber) !important;font-weight:600}
+.mobile-nav a.mobile-energy{color:var(--blue) !important;font-weight:600}
 
-/* Mobile dropdown groups */
-.mobile-dropdown-group{border-bottom:1px solid rgba(255,255,255,0.03)}
-.mobile-dropdown-header{display:flex;align-items:center}
-.mobile-dropdown-header a{flex:1}
-.mobile-dropdown-toggle{
-  width:36px;height:36px;display:flex;align-items:center;justify-content:center;
-  background:none;border:none;color:var(--text-3);transition:all .2s;
-  border-radius:var(--radius-sm);
+/* Dropdown groups — KEY FIX: make them visible in the drawer */
+.mobile-dropdown-group{
+  display:block;margin:2px 0;width:100%;
 }
-.mobile-dropdown-toggle:hover{color:var(--text-1);background:var(--surface)}
+.mobile-dropdown-header{
+  display:flex;align-items:center;gap:0;width:100%;
+}
+.mobile-dropdown-header > a{
+  flex:1;min-width:0;
+  display:flex;align-items:center;gap:10px;
+  padding:12px 14px;font-size:15px;color:var(--text-2);
+  border-radius:var(--radius);font-weight:500;
+  transition:all .15s;border:1px solid transparent;
+  text-decoration:none;
+}
+.mobile-dropdown-header > a:hover{
+  background:var(--surface);border-color:var(--border);color:var(--text-1);
+}
+.mobile-dropdown-header > a.mobile-geo{color:var(--amber) !important;font-weight:600}
+.mobile-dropdown-header > a.mobile-energy{color:var(--blue) !important;font-weight:600}
+.mobile-dropdown-toggle{
+  flex-shrink:0;
+  width:40px;height:40px;display:flex;align-items:center;justify-content:center;
+  background:none;border:1px solid var(--border);border-radius:var(--radius-sm);
+  color:var(--text-3);transition:all .2s;cursor:pointer;margin-left:6px;
+}
+.mobile-dropdown-toggle:hover{color:var(--text-1);border-color:var(--border-h)}
 .mobile-dropdown-group.open .mobile-dropdown-toggle{
-  color:var(--blue);transform:rotate(180deg);
+  color:var(--blue);border-color:rgba(61,143,212,0.3);
+  background:var(--blue-mute);transform:rotate(180deg);
 }
 .mobile-dropdown-items{
-  display:none;padding:0 0 8px;
+  display:none;padding:4px 0 8px;
+  border-left:2px solid var(--border);margin-left:20px;
 }
 .mobile-dropdown-group.open .mobile-dropdown-items{display:block}
+.mobile-dropdown-items a.sub,
+.mobile-nav a.sub{
+  display:flex;align-items:center;
+  padding:10px 14px 10px 16px;font-size:14px;color:var(--text-3);
+  border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+  text-decoration:none;transition:all .15s;
+}
+.mobile-dropdown-items a.sub:hover,
+.mobile-nav a.sub:hover{
+  color:var(--blue);background:var(--blue-mute);
+}
 
 /* Dual live headlines grid */
 .live-headlines-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}

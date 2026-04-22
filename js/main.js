@@ -182,7 +182,14 @@ function renderHeader(activePage) {
       </div>
 
     </div>
-    <div class="mobile-nav" id="mobile-nav">${mobileLinks}</div>
+    <div class="mobile-nav-backdrop" id="mobile-backdrop"></div>
+    <div class="mobile-nav" id="mobile-nav">
+      <div class="mobile-nav-close">
+        <span style="font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3)">Menu</span>
+        <button id="mobile-close" aria-label="Close menu">${icon('x', 18)}</button>
+      </div>
+      ${mobileLinks}
+    </div>
     <div class="search-overlay" id="search-overlay">
       <div class="search-overlay-inner">
         <div class="search-box">
