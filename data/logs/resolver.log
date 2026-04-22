@@ -33,3 +33,17 @@
 [2026-04-22T09:02:40.968298+00:00] resolver: no state changes
 [2026-04-22T09:02:40.968869+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-22T09:02:40.968911+00:00] ════════════════════════════════════════════════════════════
+[2026-04-22T10:45:44.716224+00:00] resolver: start
+[2026-04-22T10:45:44.720367+00:00] resolver: scanning 271 clusters across 10 topics
+[2026-04-22T10:45:44.720825+00:00]   hormuz_status: CONTESTED (conf=0.904, freshness=fresh, clusters=9)
+[2026-04-22T10:45:44.722266+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=24)
+[2026-04-22T10:45:44.722397+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-22T10:45:44.722443+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-04-22T10:45:44.722596+00:00]   top_story: 'WTI Crude Oil Futures Rise 0.8% to $90.39 Pre-Bell; Brent Fu' (score=93.47)
+[2026-04-22T10:45:44.722658+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-04-22T10:45:44.722688+00:00]   Δ hormuz_status.status: 'CLOSED' → 'CONTESTED' (triggers_publish=True)
+[2026-04-22T10:45:44.722717+00:00]   Δ hormuz_status.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=True)
+[2026-04-22T10:45:44.722774+00:00]   Δ global_risk_level.status: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-04-22T10:45:44.722805+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-04-22T10:45:44.723467+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-22T10:45:44.723507+00:00] ════════════════════════════════════════════════════════════
