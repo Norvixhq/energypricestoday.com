@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Current price of oil as of April 22, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Prices Today: Brent Falls Back Below $100 on Cease-Fire Extension.", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil prices rise after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil prices today: Crude falls as upcoming US-Iran talks offsets supply disruption fears", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Iran War Has Cost The World $50 Billion of Lost Oil Supply, So Far", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil prices today: Crude edges lower after sharp gains as Iran–US tensions keep markets on edge", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Iran War Has Cost The World $50 Billion of Lost Oil Supply, So Far", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Crude Gains Offset by Draws in Oil Products", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Prices Rally as U.S.-Iran Tensions Escalate", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
