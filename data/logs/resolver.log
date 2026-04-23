@@ -235,3 +235,17 @@
 [2026-04-23T15:21:40.059196+00:00] resolver: no state changes
 [2026-04-23T15:21:40.059777+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-23T15:21:40.059817+00:00] ════════════════════════════════════════════════════════════
+[2026-04-23T17:04:37.714076+00:00] resolver: start
+[2026-04-23T17:04:37.717625+00:00] resolver: scanning 264 clusters across 10 topics
+[2026-04-23T17:04:37.718055+00:00]   hormuz_status: CLOSED (conf=0.961, freshness=fresh, clusters=12)
+[2026-04-23T17:04:37.719231+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=19)
+[2026-04-23T17:04:37.719342+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-23T17:04:37.719376+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-23T17:04:37.719507+00:00]   top_story: 'Mexico to send one million barrels of crude oil to Japan, pr' (score=100.0)
+[2026-04-23T17:04:37.719564+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-04-23T17:04:37.719583+00:00]   Δ us_iran_ceasefire.status: 'FRAGILE' → 'HOLDING' (triggers_publish=False)
+[2026-04-23T17:04:37.719602+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-04-23T17:04:37.719618+00:00]   Δ global_risk_level.status: 'CRITICAL' → 'HIGH' (triggers_publish=False)
+[2026-04-23T17:04:37.719634+00:00]   Δ global_risk_level.risk_level: 'CRITICAL' → 'HIGH' (triggers_publish=False)
+[2026-04-23T17:04:37.720130+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-23T17:04:37.720158+00:00] ════════════════════════════════════════════════════════════
