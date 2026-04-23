@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Current price of oil as of April 21, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil Prices Jump and Stocks Waver on Renewed Iran Conflict", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil prices jump amid renewed tensions over the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil prices spike again following latest standoff in the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil prices rise after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Prices Today: Brent Falls Back Below $100 on Cease-Fire Extension.", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Iran War Has Cost The World $50 Billion of Lost Oil Supply, So Far", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Current price of oil as of April 22, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil Prices Today: Brent Falls Back Below $100 on Cease-Fire Extension.", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil prices rise after Trump says Iranian ship seized", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil prices today: Crude falls as upcoming US-Iran talks offsets supply disruption fears", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Iran War Has Cost The World $50 Billion of Lost Oil Supply, So Far", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [

@@ -261,6 +261,7 @@ const ARTICLE_SLUGS = {
   "Shell Accelerates North Sea Asset Sales Worth 4.5 Billion": "shell-accelerates-north-sea-asset-sales-worth-45-billion",
   "Shell Reports Higher Q1 Upstream Earnings, Maintains Dividend": "shell-reports-higher-q1-upstream-earnings-maintains-dividend",
   "Shell Reports Strong Q1 Upstream Earnings, Raises Dividend": "shell-reports-strong-q1-upstream-earnings-raises-dividend",
+  "StanChart $95 Per Barrel Is The New Oil Price Equilibrium": "stanchart-95-per-barrel-is-the-new-oil-price-equilibrium",
   "Strait Still Blocked": "strait-still-blocked",
   "Strait of Hormuz": "strait-of-hormuz",
   "Strait of Hormuz Remains Closed Despite Ceasefire Framework": "strait-of-hormuz-remains-closed-despite-ceasefire-framework",
