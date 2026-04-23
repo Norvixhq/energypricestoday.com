@@ -191,3 +191,17 @@
 [2026-04-23T08:24:57.758017+00:00] resolver: no state changes
 [2026-04-23T08:24:57.758561+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-23T08:24:57.758606+00:00] ════════════════════════════════════════════════════════════
+[2026-04-23T10:10:23.250627+00:00] resolver: start
+[2026-04-23T10:10:23.254834+00:00] resolver: scanning 261 clusters across 10 topics
+[2026-04-23T10:10:23.255212+00:00]   hormuz_status: CLOSED (conf=0.848, freshness=fresh, clusters=6)
+[2026-04-23T10:10:23.256537+00:00]   us_iran_ceasefire: FRAGILE (conf=0.953, freshness=fresh, clusters=17)
+[2026-04-23T10:10:23.256654+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-23T10:10:23.256696+00:00]   global_risk_level: CRITICAL (score=65)
+[2026-04-23T10:10:23.256870+00:00]   top_story: 'Chevron refinery in Pasadena, Texas reports crude oil spill' (score=94.11)
+[2026-04-23T10:10:23.256928+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-04-23T10:10:23.256955+00:00]   Δ us_iran_ceasefire.status: 'HOLDING' → 'FRAGILE' (triggers_publish=True)
+[2026-04-23T10:10:23.256982+00:00]   Δ us_iran_ceasefire.risk_level: 'ELEVATED' → 'HIGH' (triggers_publish=True)
+[2026-04-23T10:10:23.257005+00:00]   Δ global_risk_level.status: 'HIGH' → 'CRITICAL' (triggers_publish=False)
+[2026-04-23T10:10:23.257028+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'CRITICAL' (triggers_publish=False)
+[2026-04-23T10:10:23.257703+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-23T10:10:23.257757+00:00] ════════════════════════════════════════════════════════════
