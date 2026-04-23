@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T12:49:05.809931+00:00",
-  "previous_generated_at": "2026-04-23T11:36:00.949140+00:00",
-  "resolver_run_count": 21,
+  "generated_at": "2026-04-23T15:21:40.059223+00:00",
+  "previous_generated_at": "2026-04-23T12:49:05.809931+00:00",
+  "resolver_run_count": 22,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
+      "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.846,
-      "last_confirmed": "2026-04-23T10:28:08+00:00",
-      "source_count": 13,
-      "summary_short": "Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
-      "summary_long": "Oil exporters scramble for routes beyond Hormuz — but there are no easy options. Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
+      "confidence": 0.961,
+      "last_confirmed": "2026-04-23T14:47:34+00:00",
+      "source_count": 11,
+      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Oil Futures Gain With Strait of Hormuz at Standstill",
       "evidence_cluster_ids": [
+        "c_fe180f1b83a26a",
+        "c_718c0f7e400ee8",
         "c_63aca739750b91",
-        "c_02098a9531614c",
         "c_42d78548658194",
-        "c_367d6850915284",
-        "c_b4cb395665dc1d"
+        "c_23ac776a2e6c50"
       ],
-      "evidence_count": 11,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.36) [OPEN suppressed]",
-        "cluster c_367d685091 → CLOSED (kw='blockade', weight=0.49) [OPEN suppressed]",
-        "cluster c_b4cb395665 → CONTESTED (kw='attack', weight=0.47)",
-        "winning=CLOSED (0.85/1.31), conf=0.846"
+        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.80) [OPEN suppressed]",
+        "winning=CLOSED (0.80/0.80), conf=0.961"
       ]
     },
     "us_iran_ceasefire": {
@@ -52,22 +50,22 @@
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
       "status": "FRAGILE",
-      "status_detail": "Asia markets mostly end lower as U.S. reportedly intercepts Iranian oil tankers, rattling fragile ceasefire optimism",
+      "status_detail": "U.S. military says it seizes another oil tanker associated with Iran",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.953,
-      "last_confirmed": "2026-04-23T12:35:00+00:00",
+      "confidence": 0.958,
+      "last_confirmed": "2026-04-23T14:47:34+00:00",
       "source_count": 18,
-      "summary_short": "How the Iran war has stoked competition between India and China for Russian oil",
-      "summary_long": "How the Iran war has stoked competition between India and China for Russian oil. Oil surpasses US$ 103 amid tensions in the Middle East and uncertainty between the US and Iran.",
+      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. US Stocks Decline as US-Iran Impasse Continues, Oil Price Jumps",
       "evidence_cluster_ids": [
+        "c_fe180f1b83a26a",
+        "c_bcc34b75eeb982",
         "c_8d9754ea1e1571",
-        "c_8937604475865c",
-        "c_a81d8b31c90270",
-        "c_8004dbadc01c49",
-        "c_090aecf45cec2b"
+        "c_0a7813df9b71f1",
+        "c_aafbf7ff08d77e"
       ],
-      "evidence_count": 16,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -82,8 +80,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_8476c26971 → FRAGILE (kw='fragile', weight=0.36)",
-        "winning=FRAGILE (0.36/0.36), conf=0.953"
+        "cluster c_a81d8b31c9 → FRAGILE (kw='in limbo', weight=0.57)",
+        "winning=FRAGILE (0.57/0.57), conf=0.958"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -98,7 +96,7 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-23T11:16:08+00:00",
+      "last_confirmed": "2026-04-23T11:23:06+00:00",
       "source_count": 1,
       "summary_short": "Russia says it's maintaining oil supplies but has no new OPEC+ initiatives",
       "summary_long": "Russia says it's maintaining oil supplies but has no new OPEC+ initiatives",
@@ -155,14 +153,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_839b88ff64c4d3",
-      "lead_title": "Brent oil rises above $100 after Iran seizes container ships, U.S. maintains naval blockade",
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTENqdl9zMzR6dkctaTdnMFlfQXc0eGJoTkZmVkRwQzRJNjJHdXpQRGV0ZS1NRFcxblI4cHV2cUVXS2c1a2lweUNZdXEzYkduaFlCd3Z2R2xrRkt4TU5JMU9FRGhmOENFVjJYRnRJQ3RCSzdNb1QzeU9JUnp1T25uS3RNdGJJbEdIWHdEN3JfNllWTFlaTnhreHJWZWnSAaIBQVVfeXFMUGRSbWx6Z3FWSDJLb2trVGx5WHZ4TnFWblU2RlM1WWgyRnFNSE96OFRhZ0g2UGpLWkFWZzlHUWo0WW5PcmFLRktvN0Q1ZEUxbDBKYmFjRl85Vk5ONVNxUDJKNk9SelRqcUpENk9Banl4ZGNIX0tUek5qXzVTREZkSkVaNVlsTm9uaWRGdlNrMmx3ZnZlZmVJOV93T2tkeDFBdkxn?oc=5",
-      "lead_source": "CNBC",
+      "cluster_id": "c_9dd5caa27666aa",
+      "lead_title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 23",
+      "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxOUi1xZ0c1Wjk4SWJnYmdySjNBaEtBUGZuQnRjYUVsWHJYak54Y294VnZqdzRxdmgxM0tHX2hzbVkzUEx5TEFjNU8xem9KRWtRa0tPMUpDT2ZHS0JYcS10WEdCYTROa3JycC1CdmdmVGZ2SGwxYmpqa0FibDBnNWNMalg0ZXNHSTZidkQzc1pySTRXYUpNTVlzZG1DVGFJS0lLNGdmWVBrN0l0anB2X3ZncnhrMEUwSGE4YnExV2o0eUNLLWxlUFVWXzVKOUZPaWR1OWc1WVJOMHRCVlBCVmd0WV9YSEdVUThpNno0U2ZENVdBZjVWZE03ZWtOckpDTVBjTUo0OWNPcEprd2RyM1NYNjUtYjktVFhxaWFYbnJ3?oc=5",
+      "lead_source": "S&P Global",
       "topic": "oil",
-      "score": 98.34,
+      "score": 100.0,
       "novelty": "new",
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -174,8 +172,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.846, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.953, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.961, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.958, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }

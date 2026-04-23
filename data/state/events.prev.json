@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T11:36:00.949140+00:00",
-  "previous_generated_at": "2026-04-23T10:10:23.257050+00:00",
-  "resolver_run_count": 20,
+  "generated_at": "2026-04-23T12:49:05.809931+00:00",
+  "previous_generated_at": "2026-04-23T11:36:00.949140+00:00",
+  "resolver_run_count": 21,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,11 +12,11 @@
       "status_detail": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.864,
-      "last_confirmed": "2026-04-23T11:23:46+00:00",
-      "source_count": 14,
-      "summary_short": "WTI crude oil unlikely to hit $160 in April amid Strait of Hormuz tensions",
-      "summary_long": "WTI crude oil unlikely to hit $160 in April amid Strait of Hormuz tensions. Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
+      "confidence": 0.846,
+      "last_confirmed": "2026-04-23T10:28:08+00:00",
+      "source_count": 13,
+      "summary_short": "Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
+      "summary_long": "Oil exporters scramble for routes beyond Hormuz — but there are no easy options. Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
       "evidence_cluster_ids": [
         "c_63aca739750b91",
         "c_02098a9531614c",
@@ -24,7 +24,7 @@
         "c_367d6850915284",
         "c_b4cb395665dc1d"
       ],
-      "evidence_count": 8,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.44) [OPEN suppressed]",
-        "cluster c_367d685091 → CLOSED (kw='blockade', weight=0.51) [OPEN suppressed]",
-        "cluster c_b4cb395665 → CONTESTED (kw='attack', weight=0.48)",
-        "winning=CLOSED (0.95/1.43), conf=0.864"
+        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.36) [OPEN suppressed]",
+        "cluster c_367d685091 → CLOSED (kw='blockade', weight=0.49) [OPEN suppressed]",
+        "cluster c_b4cb395665 → CONTESTED (kw='attack', weight=0.47)",
+        "winning=CLOSED (0.85/1.31), conf=0.846"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,19 +55,19 @@
       "status_detail": "Asia markets mostly end lower as U.S. reportedly intercepts Iranian oil tankers, rattling fragile ceasefire optimism",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.962,
-      "last_confirmed": "2026-04-23T11:27:45+00:00",
-      "source_count": 13,
-      "summary_short": "These charts show how Iran's economy is in freefall",
-      "summary_long": "These charts show how Iran's economy is in freefall. Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
+      "confidence": 0.953,
+      "last_confirmed": "2026-04-23T12:35:00+00:00",
+      "source_count": 18,
+      "summary_short": "How the Iran war has stoked competition between India and China for Russian oil",
+      "summary_long": "How the Iran war has stoked competition between India and China for Russian oil. Oil surpasses US$ 103 amid tensions in the Middle East and uncertainty between the US and Iran.",
       "evidence_cluster_ids": [
-        "c_090aecf45cec2b",
-        "c_02098a9531614c",
-        "c_42d78548658194",
         "c_8d9754ea1e1571",
-        "c_12f5092ce1acb8"
+        "c_8937604475865c",
+        "c_a81d8b31c90270",
+        "c_8004dbadc01c49",
+        "c_090aecf45cec2b"
       ],
-      "evidence_count": 10,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -82,8 +82,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_8476c26971 → FRAGILE (kw='fragile', weight=0.41)",
-        "winning=FRAGILE (0.41/0.41), conf=0.962"
+        "cluster c_8476c26971 → FRAGILE (kw='fragile', weight=0.36)",
+        "winning=FRAGILE (0.36/0.36), conf=0.953"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -94,16 +94,18 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no recent coverage",
+      "status_detail": "no definitive signals",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
+      "last_confirmed": "2026-04-23T11:16:08+00:00",
+      "source_count": 1,
+      "summary_short": "Russia says it's maintaining oil supplies but has no new OPEC+ initiatives",
+      "summary_long": "Russia says it's maintaining oil supplies but has no new OPEC+ initiatives",
+      "evidence_cluster_ids": [
+        "c_20611f76c65dc1"
+      ],
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -116,7 +118,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "no matching clusters"
+        "fell back to default 'HOLDING'"
       ]
     },
     "global_risk_level": {
@@ -153,14 +155,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_390cb9087f0a3c",
-      "lead_title": "Why are oil and gas prices up now, and will US WTI, Brent crude futures, British and Dutch gas rates conti",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuANBVV95cUxPUUZ4WXEwUFVfVTFfTXQ4THB3dGVNQl96Rlk4N05DTFlIVUVyajVmQTc3dVB5NlMwM1JqZGZkNG5CT3puNnViR2NTaEY3U0NPbUJJY2lKdUstb1ZreXdLdWtxekZvamVtV2czUXdmNzVaWTRMcDhUVmRnbzBPWm5MWFJ5UjRvZDFEcGpCX1dBbkNiekFxVV9lemJUNUpfWW9jQlRiU3JkX0xGaVI5dlUzZjNSazZ6bjFtNEZIVGhJMU55dXVTOU9YYU9uZTMzUEtFSTFHMVV1bVpyN3lXcDBqbkpfa3VJRGJublhoS3V2UTkyeV90RU03czMyUjE0WjhyWGpFU2NkNHNzU1VqQ0NVdy05RUdadkdfNXVMMnZPelRNcTB1bjRGdEJuSWd5bHNmTmEyVkhxSTdxeFhXa3J2X0hqYlB1aFFBR21ydXp1N2RHc00wVFdrT3dscERNcWhFdGRYejRqSEZVRVJuSnRKczhMWFBnWktLMEFGM0xsaU41d2w1THQ1N1JjalVWM19nalVUUzdmS1lrNHlZVDc5aTJWaTB6MTFWcXFkY0dTZ3l1TXNrcWIxc9IBvgNBVV95cUxNV2NhT0hnN1pNVkhacnpNQUZwamZ0Vzh3STJIa2ZkMUdXTmpSZzJ6T0swaVIzSkNUSkxBTi1xbWVzT3hIUWczZDJoeFR5NUg5ajI4Qk1PRXI1Y28yNnpoZVF5SlMxNzgtOUc4Uk9aQlVEZmYtbXFPQzgzR0pfcmN1MFFHNzZrQ1BFZmR2Q3E5V2Vsa1JTMzFFbnVkWWVvTlQ4b3kwU0RBelFVN2hxUHpZZkhQeXl0aWMxNngtVFhlRmpFdWdWSWFESndKVGR5VTBDakxnZkhHajJ0NWl5M3VYd3NfQkhwbVlzdml0SFk2ekNSYVEyNTdnT3JlbHhpR0RZVm5iU1NvNlF0X2tfZTRQREtSVWpYTkp3VkVJSFFyV1BUZU1tSjF1YWNQSUp3ZEstWm96a0hNM3g1MG1CeV9hTmFxTXhDYTQ0ODg0c3dzWmhVTUMyVmJ3eUR3UzgwYmhZaEprQ2FSeHV4OUJhc1FOTVl5M2tuVzhfOWlJNF85ZUYzT2FNeUVaaHYzMlFlaGhnQlRuY19oT2x1V0drZU5YQ0hwa3VpV29IUnVTakNhaXJKSlI2VHdXbVR3MTJBQQ?oc=5",
-      "lead_source": "The Economic Times",
-      "topic": "energy",
-      "score": 92.49,
+      "cluster_id": "c_839b88ff64c4d3",
+      "lead_title": "Brent oil rises above $100 after Iran seizes container ships, U.S. maintains naval blockade",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTENqdl9zMzR6dkctaTdnMFlfQXc0eGJoTkZmVkRwQzRJNjJHdXpQRGV0ZS1NRFcxblI4cHV2cUVXS2c1a2lweUNZdXEzYkduaFlCd3Z2R2xrRkt4TU5JMU9FRGhmOENFVjJYRnRJQ3RCSzdNb1QzeU9JUnp1T25uS3RNdGJJbEdIWHdEN3JfNllWTFlaTnhreHJWZWnSAaIBQVVfeXFMUGRSbWx6Z3FWSDJLb2trVGx5WHZ4TnFWblU2RlM1WWgyRnFNSE96OFRhZ0g2UGpLWkFWZzlHUWo0WW5PcmFLRktvN0Q1ZEUxbDBKYmFjRl85Vk5ONVNxUDJKNk9SelRqcUpENk9Banl4ZGNIX0tUek5qXzVTREZkSkVaNVlsTm9uaWRGdlNrMmx3ZnZlZmVJOV93T2tkeDFBdkxn?oc=5",
+      "lead_source": "CNBC",
+      "topic": "oil",
+      "score": 98.34,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -172,8 +174,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.864, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.962, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.846, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.953, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
