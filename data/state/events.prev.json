@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T08:24:57.758045+00:00",
-  "previous_generated_at": "2026-04-23T06:28:40.548213+00:00",
-  "resolver_run_count": 18,
+  "generated_at": "2026-04-23T10:10:23.257050+00:00",
+  "previous_generated_at": "2026-04-23T08:24:57.758045+00:00",
+  "resolver_run_count": 19,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
+      "status_detail": "IEA flags biggest energy security threat in history with 13 million bpd daily oil loss from conflict, Hormuz blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.96,
-      "last_confirmed": "2026-04-23T07:16:45+00:00",
+      "confidence": 0.848,
+      "last_confirmed": "2026-04-23T10:07:10+00:00",
       "source_count": 8,
-      "summary_short": "Brent crude tops $120 as Hormuz closure cuts supply, no path to $160 WTI",
-      "summary_long": "Brent crude tops $120 as Hormuz closure cuts supply, no path to $160 WTI. Oil extends rally as US–Iran standoff chokes Hormuz",
+      "summary_short": "Alternative routes for Middle East oil and gas due to Hormuz disruption",
+      "summary_long": "Alternative routes for Middle East oil and gas due to Hormuz disruption. IEA flags biggest energy security threat in history with 13 million bpd daily oil loss from conflict",
       "evidence_cluster_ids": [
-        "c_2ac07da725c765",
+        "c_1a500eb1877a22",
+        "c_367d6850915284",
+        "c_b4cb395665dc1d",
         "c_02098a9531614c",
-        "c_d34e17b571267e",
-        "c_13e41855013b2e",
-        "c_6c3581db5c2305"
+        "c_d34e17b571267e"
       ],
-      "evidence_count": 7,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,32 +41,33 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.41) [OPEN suppressed]",
-        "cluster c_13e4185501 → CLOSED (kw='closure', weight=0.58) [OPEN suppressed]",
-        "winning=CLOSED (0.99/0.99), conf=0.96"
+        "cluster c_367d685091 → CLOSED (kw='blockade', weight=0.63) [OPEN suppressed]",
+        "cluster c_b4cb395665 → CONTESTED (kw='attack', weight=0.61)",
+        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.38) [OPEN suppressed]",
+        "winning=CLOSED (1.01/1.62), conf=0.848"
       ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "HOLDING",
-      "status_detail": "no definitive signals",
-      "status_tag": "In effect",
-      "risk_level": "ELEVATED",
-      "confidence": 0.5,
-      "last_confirmed": "2026-04-23T08:00:48+00:00",
-      "source_count": 16,
-      "summary_short": "S&P Global cuts 2026 oil demand forecast by 700,000 bpd due to Iran war",
-      "summary_long": "S&P Global cuts 2026 oil demand forecast by 700,000 bpd due to Iran war. ‘Tehran tollbooth’: what is Iran demanding and what would it mean for oil prices?",
+      "status": "FRAGILE",
+      "status_detail": "Asia markets mostly end lower as U.S. reportedly intercepts Iranian oil tankers, rattling fragile ceasefire optimism",
+      "status_tag": "Under strain",
+      "risk_level": "HIGH",
+      "confidence": 0.953,
+      "last_confirmed": "2026-04-23T09:29:01+00:00",
+      "source_count": 21,
+      "summary_short": "How the Iran war has stoked competition between India and China for Russian oil",
+      "summary_long": "How the Iran war has stoked competition between India and China for Russian oil. S&P Global cuts 2026 oil demand forecast by 700,000 bpd due to Iran war",
       "evidence_cluster_ids": [
+        "c_8d9754ea1e1571",
         "c_8004dbadc01c49",
-        "c_ad4afcb354ec30",
-        "c_9898e95b590bbb",
-        "c_2ac07da725c765",
+        "c_6e2f6e9bf56662",
+        "c_8476c26971ee3c",
         "c_d42d95cb498be5"
       ],
-      "evidence_count": 14,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -81,11 +82,14 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "cluster c_8476c26971 → FRAGILE (kw='fragile', weight=0.52)",
+        "winning=FRAGILE (0.52/0.52), conf=0.953"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": ""
+      "next_catalyst_micro": "",
+      "previous_status": "HOLDING",
+      "last_changed": "2026-04-23T10:10:23.256902+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -121,20 +125,20 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "CRITICAL",
+      "risk_level": "CRITICAL",
+      "score": 65,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: critical.",
+      "summary_long": "Risk drivers: Hormuz closed, ceasefire fragile",
+      "summary_micro": "closed + fragile",
       "rationale": [
         "hormuz=CLOSED (+40)",
-        "ceasefire=HOLDING (+10)"
+        "ceasefire=FRAGILE (+25)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -145,7 +149,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-04-23T10:10:23.256902+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -156,9 +162,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRXM1Zko0cmQ1Qy1jTzV6ck5NUDRtV1Q4ak1UT0hHUjFpd2x0QkFfbGpsS1JpMGlBdHBpSktfS2FnbE1CUVg5MzdoSUNtWWk1dHRpdUV6eEZnbjZlT1NTeTRRc01SR3ppbmk5cTgzeldkVEp5VmRsaDE5dkdZWEx6Sk9LVnFMVVQ0dVJETTlWY0lLVjl1aEM1MzE2aUVCSFZZWnhLc0otZEN3MTQ?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 93.9,
+      "score": 94.11,
       "novelty": "growing",
-      "source_count": 6,
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,10 +174,47 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "status",
+      "from": "HOLDING",
+      "to": "FRAGILE",
+      "detected_at": "2026-04-23T10:10:23.256902+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-04-23T10:10:23.256902+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "CRITICAL",
+      "detected_at": "2026-04-23T10:10:23.256902+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "CRITICAL",
+      "detected_at": "2026-04-23T10:10:23.256902+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.96, fresh=fresh",
-    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.848, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.953, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
