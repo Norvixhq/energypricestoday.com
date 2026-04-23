@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T17:04:37.719649+00:00",
-  "previous_generated_at": "2026-04-23T15:21:40.059223+00:00",
-  "resolver_run_count": 23,
+  "generated_at": "2026-04-23T18:18:51.094555+00:00",
+  "previous_generated_at": "2026-04-23T17:04:37.719649+00:00",
+  "resolver_run_count": 24,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "status_detail": "Brent crude futures jump on Trump's threats over Strait of Hormuz",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.961,
-      "last_confirmed": "2026-04-23T15:36:36+00:00",
-      "source_count": 18,
+      "confidence": 0.958,
+      "last_confirmed": "2026-04-23T17:09:36+00:00",
+      "source_count": 16,
       "summary_short": "Brent crude futures jump on Trump's threats over Strait of Hormuz",
-      "summary_long": "Brent crude futures jump on Trump's threats over Strait of Hormuz. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "summary_long": "Brent crude futures jump on Trump's threats over Strait of Hormuz. Pentagon: Clearing Strait of Hormuz mines to take 6 months, oil at $95/barrel",
       "evidence_cluster_ids": [
-        "c_fe180f1b83a26a",
+        "c_e9e771b56c0a78",
         "c_5ec1f4adfc4da6",
-        "c_fd577042b80cfe",
         "c_63aca739750b91",
-        "c_42d78548658194"
+        "c_42d78548658194",
+        "c_fd577042b80cfe"
       ],
       "evidence_count": 12,
       "affected_pages": [
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.66) [OPEN suppressed]",
-        "winning=CLOSED (0.66/0.66), conf=0.961"
+        "cluster c_e8c8b3b9d2 → CLOSED (kw='closure', weight=0.77) [OPEN suppressed]",
+        "winning=CLOSED (0.77/0.77), conf=0.958"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-23T16:14:12+00:00",
-      "source_count": 21,
-      "summary_short": "US Futures Decline as US-Iran Impasse Continues, Oil Price Jumps",
-      "summary_long": "US Futures Decline as US-Iran Impasse Continues, Oil Price Jumps. Asia deepens refining cuts due to Iran war, putting diesel and jet fuel supplies at risk",
+      "last_confirmed": "2026-04-23T17:28:42+00:00",
+      "source_count": 18,
+      "summary_short": "S&P Global cuts 2026 oil demand forecast by 700,000 bpd due to Iran war",
+      "summary_long": "S&P Global cuts 2026 oil demand forecast by 700,000 bpd due to Iran war. The Iran war could drive up costs for petroleum-derived products like clothes and crayons",
       "evidence_cluster_ids": [
-        "c_2429b367983415",
-        "c_9a597b9edb1901",
-        "c_fe180f1b83a26a",
-        "c_c9c95923b167f7",
-        "c_b952d979345a8b"
+        "c_8004dbadc01c49",
+        "c_50279fb3e9bd50",
+        "c_8d9754ea1e1571",
+        "c_260045d88abaee",
+        "c_2429b367983415"
       ],
-      "evidence_count": 19,
+      "evidence_count": 18,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -84,9 +84,7 @@
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": "",
-      "previous_status": "FRAGILE",
-      "last_changed": "2026-04-23T17:04:37.719528+00:00"
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -146,22 +144,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "CRITICAL",
-      "last_changed": "2026-04-23T17:04:37.719528+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_5924436973f5ae",
-      "lead_title": "Mexico to send one million barrels of crude oil to Japan, president says",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFhhWkdnOU9ZRkVIMXlacjlWbFRVVUNTRm9XZFF2TkxpZzM4WUxLRF9GWEVKZW5kcFVxR3VJcmRFWUNqaEVIN0NjWElyTmlqaEhnUTU4RW9rX1JlZndtOWlieDU4U0NMaXY5dGJwT1Jhck0xamk0NzVPQnEtWFdpUnNfWjhBcm1faGJSNzM0WXpaVldRcGRpdTdYeHFmMVVCU1FLUjZFaDBkajhXYWJRWG9WOTk?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_051bc8416e2a04",
+      "lead_title": "Canada’s IEA Oil Promise Adds Little New Crude to Tight Market",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMENPS05qdGxyLUFxN2c0Y19xNW0zUl9JczJuQVVmU1U4SlZBbWxCdkpobFNyS2FoMUdVbGtHZmNkWlNzYUdRaGNJQlJIWk9yaXlxVmJ4VGZ0V0VyaHhvWkVyQmEtNVF4elMzT2dhY2YwMHA4Tk9xakhaeExGVm92ZFdSOXU5S0ZXN3ByOUVHdlJfMDM4MFBTeURNMnFUT0kzUkpJLWFQMWRnM0h4c1lOajJwdw?oc=5",
+      "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 100.0,
+      "score": 95.53,
       "novelty": "new",
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -171,46 +167,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "status",
-      "from": "FRAGILE",
-      "to": "HOLDING",
-      "detected_at": "2026-04-23T17:04:37.719528+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-04-23T17:04:37.719528+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "CRITICAL",
-      "to": "HIGH",
-      "detected_at": "2026-04-23T17:04:37.719528+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "CRITICAL",
-      "to": "HIGH",
-      "detected_at": "2026-04-23T17:04:37.719528+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.961, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.958, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
