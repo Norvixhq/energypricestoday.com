@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T04:27:42.556118+00:00",
-  "previous_generated_at": "2026-04-23T01:17:08.680497+00:00",
-  "resolver_run_count": 16,
+  "generated_at": "2026-04-23T06:28:40.548213+00:00",
+  "previous_generated_at": "2026-04-23T04:27:42.556118+00:00",
+  "resolver_run_count": 17,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.96,
-      "last_confirmed": "2026-04-23T04:07:44+00:00",
-      "source_count": 10,
-      "summary_short": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
-      "summary_long": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked. Escape from Hormuz: the oil tankers running the Iranian gauntlet",
+      "confidence": 0.957,
+      "last_confirmed": "2026-04-23T04:34:22+00:00",
+      "source_count": 13,
+      "summary_short": "Oil gains on lack of progress on US-Iran talks, Hormuz shipping still disrupted",
+      "summary_long": "Oil gains on lack of progress on US-Iran talks, Hormuz shipping still disrupted. Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
       "evidence_cluster_ids": [
         "c_02098a9531614c",
-        "c_b840be061b039e",
+        "c_d34e17b571267e",
         "c_1a500eb1877a22",
-        "c_d5cf8f9446eae0",
-        "c_2a964108478b0a"
+        "c_b7323d8eede900",
+        "c_01929ca3c5eaf3"
       ],
-      "evidence_count": 8,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.74) [OPEN suppressed]",
-        "winning=CLOSED (0.74/0.74), conf=0.96"
+        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.48) [OPEN suppressed]",
+        "cluster c_a9474849d8 → CLOSED (kw='blockade', weight=0.10) [OPEN suppressed]",
+        "winning=CLOSED (0.58/0.58), conf=0.957"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-23T03:30:41+00:00",
+      "last_confirmed": "2026-04-23T05:28:29+00:00",
       "source_count": 19,
-      "summary_short": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
-      "summary_long": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked. Asian shares pull back from record highs as oil gains on Iran risk",
+      "summary_short": "Asia-Pacific markets give up early gains amid reports U.S. intercepted Iranian oil tankers in Asian waters",
+      "summary_long": "Asia-Pacific markets give up early gains amid reports U.S. intercepted Iranian oil tankers in Asian waters. Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
       "evidence_cluster_ids": [
+        "c_1deea786ec945a",
         "c_02098a9531614c",
-        "c_f2ef7a83d26ec5",
-        "c_96f1578b0fd2e3",
-        "c_1bf8f31a0185d2",
-        "c_3fbba19325efc0"
+        "c_11cb8c065ac5d7",
+        "c_d42d95cb498be5",
+        "c_f2ef7a83d26ec5"
       ],
-      "evidence_count": 17,
+      "evidence_count": 18,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -150,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_fcc0caba0486fa",
-      "lead_title": "Chevron refinery in Pasadena, Texas reports crude oil spill",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRXM1Zko0cmQ1Qy1jTzV6ck5NUDRtV1Q4ak1UT0hHUjFpd2x0QkFfbGpsS1JpMGlBdHBpSktfS2FnbE1CUVg5MzdoSUNtWWk1dHRpdUV6eEZnbjZlT1NTeTRRc01SR3ppbmk5cTgzeldkVEp5VmRsaDE5dkdZWEx6Sk9LVnFMVVQ0dVJETTlWY0lLVjl1aEM1MzE2aUVCSFZZWnhLc0otZEN3MTQ?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_7a945d0f9a93fb",
+      "lead_title": "Brent oil rises above $100 after Iran seizes container ships, U.S. maintains naval blockade",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTENqdl9zMzR6dkctaTdnMFlfQXc0eGJoTkZmVkRwQzRJNjJHdXpQRGV0ZS1NRFcxblI4cHV2cUVXS2c1a2lweUNZdXEzYkduaFlCd3Z2R2xrRkt4TU5JMU9FRGhmOENFVjJYRnRJQ3RCSzdNb1QzeU9JUnp1T25uS3RNdGJJbEdIWHdEN3JfNllWTFlaTnhreHJWZWnSAaIBQVVfeXFMUGRSbWx6Z3FWSDJLb2trVGx5WHZ4TnFWblU2RlM1WWgyRnFNSE96OFRhZ0g2UGpLWkFWZzlHUWo0WW5PcmFLRktvN0Q1ZEUxbDBKYmFjRl85Vk5ONVNxUDJKNk9SelRqcUpENk9Banl4ZGNIX0tUek5qXzVTREZkSkVaNVlsTm9uaWRGdlNrMmx3ZnZlZmVJOV93T2tkeDFBdkxn?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 92.67,
-      "novelty": "growing",
-      "source_count": 8,
+      "score": 94.28,
+      "novelty": "new",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,7 +170,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.96, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.957, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

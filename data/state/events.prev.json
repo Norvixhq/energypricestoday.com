@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T01:17:08.680497+00:00",
-  "previous_generated_at": "2026-04-22T23:36:35.123046+00:00",
-  "resolver_run_count": 15,
+  "generated_at": "2026-04-23T04:27:42.556118+00:00",
+  "previous_generated_at": "2026-04-23T01:17:08.680497+00:00",
+  "resolver_run_count": 16,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "status_detail": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.962,
-      "last_confirmed": "2026-04-23T00:58:00+00:00",
-      "source_count": 15,
-      "summary_short": "Brent crude tops $120 as Hormuz closure cuts supply, no path to $160 WTI",
-      "summary_long": "Brent crude tops $120 as Hormuz closure cuts supply, no path to $160 WTI. Oil prices edge lower with no progress on US-Iran talks, Hormuz shipping still disrupted",
+      "confidence": 0.96,
+      "last_confirmed": "2026-04-23T04:07:44+00:00",
+      "source_count": 10,
+      "summary_short": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
+      "summary_long": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked. Escape from Hormuz: the oil tankers running the Iranian gauntlet",
       "evidence_cluster_ids": [
-        "c_fe180f1b83a26a",
-        "c_86aa4bb0226121",
+        "c_02098a9531614c",
+        "c_b840be061b039e",
         "c_1a500eb1877a22",
         "c_d5cf8f9446eae0",
-        "c_809d79a58d42cf"
+        "c_2a964108478b0a"
       ],
-      "evidence_count": 9,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.66) [OPEN suppressed]",
-        "cluster c_f0546d3369 → CLOSED (kw='closure', weight=0.95) [OPEN suppressed]",
-        "cluster c_f9937a3470 → CLOSED (kw='blockade', weight=0.50) [OPEN suppressed]",
-        "winning=CLOSED (2.11/2.11), conf=0.962"
+        "cluster c_02098a9531 → CLOSED (kw='blockade', weight=0.74) [OPEN suppressed]",
+        "winning=CLOSED (0.74/0.74), conf=0.96"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-23T00:41:35+00:00",
-      "source_count": 14,
-      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Report: Mines Deployed by Iran in Hormuz Could Take Up to Six Months to Clear",
+      "last_confirmed": "2026-04-23T03:30:41+00:00",
+      "source_count": 19,
+      "summary_short": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked",
+      "summary_long": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked. Asian shares pull back from record highs as oil gains on Iran risk",
       "evidence_cluster_ids": [
-        "c_fe180f1b83a26a",
-        "c_86aa4bb0226121",
-        "c_d42d95cb498be5",
-        "c_f82357cf441888",
-        "c_82c339cefc2705"
+        "c_02098a9531614c",
+        "c_f2ef7a83d26ec5",
+        "c_96f1578b0fd2e3",
+        "c_1bf8f31a0185d2",
+        "c_3fbba19325efc0"
       ],
-      "evidence_count": 12,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -152,14 +150,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_f0546d33699b51",
-      "lead_title": "Brent crude tops $120 as Hormuz closure cuts supply, no path to $160 WTI",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS1BqbDAzVTVTUXYzNUN2aFBSVHNlOHdqSThDNUVyUC1WbHFESFE1bGpuX1pRZkllanNtZVZ0Z1VhQjZ6MWU1SThkblNpbVptd3B0U1V0U29uV1M1N2pWWWpmODFhNExBejVEUG5WNURpdW42eG5UQ2pmamZ6elJJUGVfUmc3dVJrbDhmUGhYdnRzTUNnbGNKZWQ0dDFrQQ?oc=5",
-      "lead_source": "Crypto Briefing",
+      "cluster_id": "c_fcc0caba0486fa",
+      "lead_title": "Chevron refinery in Pasadena, Texas reports crude oil spill",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRXM1Zko0cmQ1Qy1jTzV6ck5NUDRtV1Q4ak1UT0hHUjFpd2x0QkFfbGpsS1JpMGlBdHBpSktfS2FnbE1CUVg5MzdoSUNtWWk1dHRpdUV6eEZnbjZlT1NTeTRRc01SR3ppbmk5cTgzeldkVEp5VmRsaDE5dkdZWEx6Sk9LVnFMVVQ0dVJETTlWY0lLVjl1aEM1MzE2aUVCSFZZWnhLc0otZEN3MTQ?oc=5",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 96.44,
-      "novelty": "new",
-      "source_count": 5,
+      "score": 92.67,
+      "novelty": "growing",
+      "source_count": 8,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -171,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.962, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.96, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
