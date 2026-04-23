@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T19:54:11.157361+00:00",
-  "previous_generated_at": "2026-04-23T18:18:51.094555+00:00",
-  "resolver_run_count": 25,
+  "generated_at": "2026-04-23T21:03:11.378191+00:00",
+  "previous_generated_at": "2026-04-23T19:54:11.157361+00:00",
+  "resolver_run_count": 26,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -13,18 +13,18 @@
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
       "confidence": 0.958,
-      "last_confirmed": "2026-04-23T19:18:28+00:00",
-      "source_count": 14,
-      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Oil Futures Gain With Strait of Hormuz at Standstill",
+      "last_confirmed": "2026-04-23T20:16:14+00:00",
+      "source_count": 15,
+      "summary_short": "WTI crude oil unlikely to hit $160 in April amid Strait of Hormuz tensions",
+      "summary_long": "WTI crude oil unlikely to hit $160 in April amid Strait of Hormuz tensions. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
-        "c_7cb8ef482c2d72",
+        "c_63aca739750b91",
         "c_2987685c595da1",
         "c_ecb7e26f12721e",
         "c_5ec1f4adfc4da6"
       ],
-      "evidence_count": 12,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.74) [OPEN suppressed]",
-        "cluster c_2987685c59 → CLOSED (kw='closure', weight=0.62) [OPEN suppressed]",
-        "winning=CLOSED (1.36/1.36), conf=0.958"
+        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.67) [OPEN suppressed]",
+        "cluster c_2987685c59 → CLOSED (kw='closure', weight=0.51) [OPEN suppressed]",
+        "winning=CLOSED (1.17/1.17), conf=0.958"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,16 +55,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-23T18:58:47+00:00",
+      "last_confirmed": "2026-04-23T20:24:18+00:00",
       "source_count": 15,
-      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Masked Iranian forces appear to seize ships in staged video",
+      "summary_short": "Iran war impact seeps ever deeper into global economy",
+      "summary_long": "Iran war impact seeps ever deeper into global economy. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "evidence_cluster_ids": [
+        "c_5ae0cfb40ea95d",
         "c_fe180f1b83a26a",
-        "c_c2613bd563dd2f",
-        "c_8d9754ea1e1571",
-        "c_2429b367983415",
-        "c_9a597b9edb1901"
+        "c_0d4d25dfb20ee7",
+        "c_260045d88abaee",
+        "c_c2613bd563dd2f"
       ],
       "evidence_count": 13,
       "affected_pages": [
@@ -92,18 +92,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-23T11:23:06+00:00",
-      "source_count": 1,
-      "summary_short": "Russia says it's maintaining oil supplies but has no new OPEC+ initiatives",
-      "summary_long": "Russia says it's maintaining oil supplies but has no new OPEC+ initiatives",
-      "evidence_cluster_ids": [
-        "c_20611f76c65dc1"
-      ],
-      "evidence_count": 1,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -116,7 +114,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -158,8 +156,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFhhWkdnOU9ZRkVIMXlacjlWbFRVVUNTRm9XZFF2TkxpZzM4WUxLRF9GWEVKZW5kcFVxR3VJcmRFWUNqaEVIN0NjWElyTmlqaEhnUTU4RW9rX1JlZndtOWlieDU4U0NMaXY5dGJwT1Jhck0xamk0NzVPQnEtWFdpUnNfWjhBcm1faGJSNzM0WXpaVldRcGRpdTdYeHFmMVVCU1FLUjZFaDBkajhXYWJRWG9WOTk?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 100.0,
-      "novelty": "new",
+      "score": 86.47,
+      "novelty": "ongoing",
       "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [

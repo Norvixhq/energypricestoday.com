@@ -263,3 +263,13 @@
 [2026-04-23T19:54:11.190471+00:00] [detect] [detect_changes] 0 meaningful changes across 2 sources; 0 page(s) affected
 [2026-04-23T19:54:11.190625+00:00] autopilot: no-op — no meaningful changes (affected=0)
 [2026-04-23T19:54:11.224204+00:00] [health] [write_health] status=healthy — all checks pass
+[2026-04-23T20:59:59.999329+00:00] ════════════════════════════════════════════════════════════
+[2026-04-23T20:59:59.999439+00:00] autopilot: start
+[2026-04-23T21:00:02.691057+00:00] [observers] commodity_prices: OK — OK: fetched 10 commodity prices
+[2026-04-23T21:00:11.155079+00:00] [observers] gas_prices: OK — OK: EIA regular=$4.044 diesel=$5.403
+[2026-04-23T21:03:11.226515+00:00] [observers] headlines: FAIL — TIMEOUT running fetch_headlines.py
+[2026-04-23T21:03:11.336027+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-04-23T21:03:11.384043+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-04-23T21:03:11.416480+00:00] [detect] [detect_changes] 0 meaningful changes across 2 sources; 0 page(s) affected
+[2026-04-23T21:03:11.416661+00:00] autopilot: no-op — no meaningful changes (affected=0)
+[2026-04-23T21:03:11.456993+00:00] [health] [write_health] status=degraded codes=[HEADLINES_STALE]
