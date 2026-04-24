@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-24T16:12:19.331185+00:00",
-  "previous_generated_at": "2026-04-24T14:49:54.621510+00:00",
-  "resolver_run_count": 37,
+  "generated_at": "2026-04-24T17:17:29.140719+00:00",
+  "previous_generated_at": "2026-04-24T16:12:19.331185+00:00",
+  "resolver_run_count": 38,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CLOSED",
+      "status": "OPEN",
       "status_detail": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz",
-      "status_tag": "Strait closed",
-      "risk_level": "HIGH",
-      "confidence": 0.855,
-      "last_confirmed": "2026-04-24T16:01:00+00:00",
-      "source_count": 11,
-      "summary_short": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz",
-      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.955,
+      "last_confirmed": "2026-04-24T16:24:00+00:00",
+      "source_count": 12,
+      "summary_short": "One of world's richest countries turns to Russian fuel oil via Strait of Hormuz, FT says",
+      "summary_long": "One of world's richest countries turns to Russian fuel oil via Strait of Hormuz, FT says. Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz",
       "evidence_cluster_ids": [
+        "c_9c3678a2920e0e",
         "c_516c6135ac6de0",
         "c_230e96dd7cb335",
-        "c_b678c9c67842de",
         "c_48128dac22a1e6",
         "c_2f882fc90c2e2b"
       ],
-      "evidence_count": 7,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,12 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_516c6135ac → CLOSED (kw='blockade', weight=0.63) [OPEN suppressed]",
-        "cluster c_821b509194 → OPEN (kw='reopen', weight=0.34)",
-        "winning=CLOSED (0.63/0.97), conf=0.855"
-      ]
+        "cluster c_516c6135ac → OPEN (kw='reopen', weight=0.62)",
+        "cluster c_821b509194 → OPEN (kw='reopen', weight=0.33)",
+        "winning=OPEN (0.95/0.95), conf=0.955"
+      ],
+      "previous_status": "CLOSED",
+      "last_changed": "2026-04-24T17:17:29.140562+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -55,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-24T14:41:18+00:00",
-      "source_count": 9,
+      "last_confirmed": "2026-04-24T16:37:27+00:00",
+      "source_count": 10,
       "summary_short": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz",
-      "summary_long": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz. Oil prices fall on hopes of fresh Iran peace talks",
+      "summary_long": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz. Oil prices volatile as market weighs supply risks, US-Iran peace talks",
       "evidence_cluster_ids": [
         "c_516c6135ac6de0",
+        "c_d2213ca20245f7",
+        "c_d1a1d318ace21d",
         "c_3ff56aa33db988",
-        "c_a2bb28c9a3d530",
-        "c_a26f84e7d669bf",
-        "c_c749e99cacafae"
+        "c_a2bb28c9a3d530"
       ],
-      "evidence_count": 8,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -121,19 +123,18 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -145,20 +146,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-04-24T17:17:29.140562+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_3fde07a213b1df",
-      "lead_title": "Crude oil futures jump on reports of air attacks, Iran power struggle",
-      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT1IwS3YyMWFQOUNCSTBwNXJ3NGcxMlBKeUYtYWhtYmJZZmNRV0ZkOVllYVhsdkhiN3FUcXNpSzRHV1RNWm5nYW9sWFB4VWc4VWVmU2k3cHVRMFFXQjhyZ2poQ3U4SDZ0dmNKUU5wU3lsT1FRNlEtMy1TYmtaX0NacUUydEcyRkNSaXZmQ251ZElZU2lzUjdtSGE4N01uRjZiUlJDelk3aDZydnRVXzloOEE2WUpWOG1oN01aNWkxT3kzUFJs?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_015546ca28d5ce",
+      "lead_title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 24",
+      "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNQnhVSGRYS3dIMlhRQUswM3BCdWZ2WEs2dWJjdU41WDhrRjJVSi1oWGtMWS1IZlFkOVo4S2hWZXZrZ3R2UmhZbzBaZGVZMTc2NFVrS1AwVWdIMkQ0c1V5dVpKS1o0TEppWXFnUGQxeFo2R1dCY01oeDE4LW5LTXVJRl83bjJVRXVBY3F2QjJVQ0d0RUtVX1lDSjJQOVE2aGhoc0hQbHJhUWhXbXQ5VjMzVW1pZTIyWmFrMkZyeVY3eWN3SXBtSlYyWXE1WHloZVFhRnhMYkZVOEhfcFJNYk9zNk1HQlNKcHhIS0tUbU0zTF9naF9PNDF4eXU3aFJ3cGhMVEhlOUloTlpmTG9kYy1GWUZJV3R1aXZSUnhKRjF3?oc=5",
+      "lead_source": "S&P Global",
       "topic": "oil",
-      "score": 94.49,
+      "score": 88.46,
       "novelty": "new",
-      "source_count": 7,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,9 +171,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CLOSED",
+      "to": "OPEN",
+      "detected_at": "2026-04-24T17:17:29.140562+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-04-24T17:17:29.140562+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-04-24T17:17:29.140562+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-04-24T17:17:29.140562+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.855, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.955, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

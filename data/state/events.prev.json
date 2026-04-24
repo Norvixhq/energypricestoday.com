@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-24T14:49:54.621510+00:00",
-  "previous_generated_at": "2026-04-24T12:48:38.307120+00:00",
-  "resolver_run_count": 36,
+  "generated_at": "2026-04-24T16:12:19.331185+00:00",
+  "previous_generated_at": "2026-04-24T14:49:54.621510+00:00",
+  "resolver_run_count": 37,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.861,
-      "last_confirmed": "2026-04-24T14:09:33+00:00",
-      "source_count": 14,
+      "confidence": 0.855,
+      "last_confirmed": "2026-04-24T16:01:00+00:00",
+      "source_count": 11,
       "summary_short": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz",
       "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz",
       "evidence_cluster_ids": [
         "c_516c6135ac6de0",
+        "c_230e96dd7cb335",
+        "c_b678c9c67842de",
         "c_48128dac22a1e6",
-        "c_2f882fc90c2e2b",
-        "c_01929ca3c5eaf3",
-        "c_39c68540d55378"
+        "c_2f882fc90c2e2b"
       ],
-      "evidence_count": 9,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,12 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_516c6135ac → CLOSED (kw='blockade', weight=0.75) [OPEN suppressed]",
-        "cluster c_821b509194 → OPEN (kw='reopen', weight=0.36)",
-        "winning=CLOSED (0.75/1.12), conf=0.861"
-      ],
-      "previous_status": "OPEN",
-      "last_changed": "2026-04-24T14:49:54.621333+00:00"
+        "cluster c_516c6135ac → CLOSED (kw='blockade', weight=0.63) [OPEN suppressed]",
+        "cluster c_821b509194 → OPEN (kw='reopen', weight=0.34)",
+        "winning=CLOSED (0.63/0.97), conf=0.855"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -57,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-24T14:22:11+00:00",
-      "source_count": 16,
+      "last_confirmed": "2026-04-24T14:41:18+00:00",
+      "source_count": 9,
       "summary_short": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz",
-      "summary_long": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz. Oil volatile as supply worries offset hopes for Iran-US talks",
+      "summary_long": "Israel/US-Iran conflict 2026: Reopening the Strait of Hormuz. Oil prices fall on hopes of fresh Iran peace talks",
       "evidence_cluster_ids": [
         "c_516c6135ac6de0",
-        "c_c6dbb5e35e1c53",
         "c_3ff56aa33db988",
         "c_a2bb28c9a3d530",
+        "c_a26f84e7d669bf",
         "c_c749e99cacafae"
       ],
-      "evidence_count": 15,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -147,21 +145,19 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-04-24T14:49:54.621333+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_91a9db30b36d3d",
-      "lead_title": "US oil executives expect crude output to rise as Iran war continues, survey shows",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjA2eTRucEtFX0FvOXBwUVdzWWZTTTBLMkhpQXlqQUxfYlZ5bi0waTM0ZzRmdGtuVDVIZ1VqZkFaOU4wNWNOSERSdTZCTk55VVQ2OXBXSDJ1bkpFQ3IwQV9PSXl0UmdLdkNxSjNJamxRYjI3MWlCS1o5eU9jNFJnZ0hRQzEwZW9HUG55cmhCQ3Nabnc2YjBwZ05HRnU0V2p4UzF1Zl9EUEJSUEs4UV8xVVdjYV9OYjcxdUo4NTExMGw5LTQybXZPSQ?oc=5",
+      "cluster_id": "c_3fde07a213b1df",
+      "lead_title": "Crude oil futures jump on reports of air attacks, Iran power struggle",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT1IwS3YyMWFQOUNCSTBwNXJ3NGcxMlBKeUYtYWhtYmJZZmNRV0ZkOVllYVhsdkhiN3FUcXNpSzRHV1RNWm5nYW9sWFB4VWc4VWVmU2k3cHVRMFFXQjhyZ2poQ3U4SDZ0dmNKUU5wU3lsT1FRNlEtMy1TYmtaX0NacUUydEcyRkNSaXZmQ251ZElZU2lzUjdtSGE4N01uRjZiUlJDelk3aDZydnRVXzloOEE2WUpWOG1oN01aNWkxT3kzUFJs?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 91.63,
-      "novelty": "growing",
+      "score": 94.49,
+      "novelty": "new",
       "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
@@ -172,46 +168,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "OPEN",
-      "to": "CLOSED",
-      "detected_at": "2026-04-24T14:49:54.621333+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-04-24T14:49:54.621333+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-04-24T14:49:54.621333+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-04-24T14:49:54.621333+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.861, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.855, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
