@@ -58,13 +58,13 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of April 23, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Current price of oil as of April 23, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Oil prices today: Crude edges lower after sharp gains as Iran–US tensions keep markets on edge", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
   { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
   { title: "Crude Gains Offset by Draws in Oil Products", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Prices Rally as U.S.-Iran Tensions Escalate", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices spike again following latest standoff in the Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
   { title: "The Oil Shock Is Worse Than You Think", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
