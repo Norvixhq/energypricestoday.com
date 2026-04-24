@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-04-24T00:00:44.818703+00:00",
-  "previous_generated_at": "2026-04-23T23:01:46.498113+00:00",
-  "resolver_run_count": 29,
+  "generated_at": "2026-04-24T03:44:44.276888+00:00",
+  "previous_generated_at": "2026-04-24T00:00:44.818703+00:00",
+  "resolver_run_count": 30,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CLOSED",
-      "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "status_tag": "Strait closed",
-      "risk_level": "HIGH",
-      "confidence": 0.831,
-      "last_confirmed": "2026-04-23T22:13:28+00:00",
-      "source_count": 13,
+      "status": "CONTESTED",
+      "status_detail": "Oil rises as Iran war worries keep markets on edge as Strait of Hormuz stays shut",
+      "status_tag": "Tankers at risk",
+      "risk_level": "ELEVATED",
+      "confidence": 0.962,
+      "last_confirmed": "2026-04-24T02:03:44+00:00",
+      "source_count": 14,
       "summary_short": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
-      "summary_long": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
+      "summary_long": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks. Oil rises as Iran war worries keep markets on edge as Strait of Hormuz stays shut",
       "evidence_cluster_ids": [
-        "c_fe180f1b83a26a",
-        "c_2987685c595da1",
+        "c_2e93c838831794",
+        "c_d2d790b3da5ee1",
         "c_63aca739750b91",
-        "c_640676b305f006",
-        "c_c782a04be5926a"
+        "c_0e79d717b8da0b",
+        "c_45af22db0285bb"
       ],
       "evidence_count": 8,
       "affected_pages": [
@@ -41,11 +41,12 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.61) [OPEN suppressed]",
-        "cluster c_2987685c59 → CLOSED (kw='closure', weight=0.46) [OPEN suppressed]",
-        "cluster c_640676b305 → CONTESTED (kw='attack', weight=0.76)",
-        "winning=CLOSED (1.07/1.83), conf=0.831"
-      ]
+        "cluster c_2e93c83883 → CONTESTED (kw='attack', weight=0.78)",
+        "cluster c_0e79d717b8 → CONTESTED (kw='attack', weight=0.90)",
+        "winning=CONTESTED (1.67/1.67), conf=0.962"
+      ],
+      "previous_status": "CLOSED",
+      "last_changed": "2026-04-24T03:44:44.276724+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -56,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-23T21:50:16+00:00",
-      "source_count": 13,
-      "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. U.S. Seizes Second Tanker Carrying Iranian Oil",
+      "last_confirmed": "2026-04-24T02:42:07+00:00",
+      "source_count": 24,
+      "summary_short": "Oil rises as Iran war worries keep markets on edge as Strait of Hormuz stays shut",
+      "summary_long": "Oil rises as Iran war worries keep markets on edge as Strait of Hormuz stays shut. Oil prices rise, stocks mostly fall as US-Iran peace talks stall",
       "evidence_cluster_ids": [
-        "c_fe180f1b83a26a",
-        "c_260045d88abaee",
-        "c_1d827d6ffa4af9",
-        "c_c2613bd563dd2f",
-        "c_2429b367983415"
+        "c_2e93c838831794",
+        "c_743e8acf94569c",
+        "c_9a597b9edb1901",
+        "c_c08c588a374976",
+        "c_50d221d78f0f82"
       ],
-      "evidence_count": 11,
+      "evidence_count": 21,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -122,19 +123,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
-        "hormuz=CLOSED (+40)",
+        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -146,20 +147,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-04-24T03:44:44.276724+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_ff0f8d281fa885",
-      "lead_title": "Canada’s IEA Oil Promise Adds Little New Crude to Tight Market",
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb05UU2JiYk0yV0xQNVhDcW9VeXBmeFVjZ2hRQkNQSDBmaHZWQlBqVjcwcWxNeFN2alFlVnMyaVBWZlFESi15cHdTZk5XdzRGRnhHV2dwV1puWm1NRnNqTzctTlJxRC14dlE4dmJ6eDhJVVNSQ0RDT0FrNTBLcEpic3YycVZPLWQwRWZNT0RDbDRDcUFtUktB?oc=5",
-      "lead_source": "EnergyNow.com",
-      "topic": "energy",
-      "score": 83.34,
+      "cluster_id": "c_b80b271c454fc1",
+      "lead_title": "Mexico to send one million barrels of crude oil to Japan, president says",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFhhWkdnOU9ZRkVIMXlacjlWbFRVVUNTRm9XZFF2TkxpZzM4WUxLRF9GWEVKZW5kcFVxR3VJcmRFWUNqaEVIN0NjWElyTmlqaEhnUTU4RW9rX1JlZndtOWlieDU4U0NMaXY5dGJwT1Jhck0xamk0NzVPQnEtWFdpUnNfWjhBcm1faGJSNzM0WXpaVldRcGRpdTdYeHFmMVVCU1FLUjZFaDBkajhXYWJRWG9WOTk?oc=5",
+      "lead_source": "Reuters",
+      "topic": "oil",
+      "score": 95.12,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 8,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,9 +172,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CLOSED",
+      "to": "CONTESTED",
+      "detected_at": "2026-04-24T03:44:44.276724+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-04-24T03:44:44.276724+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-04-24T03:44:44.276724+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-04-24T03:44:44.276724+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.831, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.962, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
