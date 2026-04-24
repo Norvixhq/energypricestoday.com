@@ -1,11 +1,11 @@
 {
   "topic": "oil",
-  "generated_at": "2026-04-24T12:48:38.205644+00:00",
+  "generated_at": "2026-04-24T14:49:54.522216+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 17,
+  "clusters_found": 16,
   "clusters": [
     {
       "cluster_id": "c_91a9db30b36d3d",
@@ -19,23 +19,23 @@
         "crude",
         "oil"
       ],
-      "source_count": 6,
+      "source_count": 7,
       "distinct_publishers": 4,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-04-22T14:41:00+00:00",
-      "latest_seen": "2026-04-24T12:36:20+00:00",
-      "age_hours": 0.21,
-      "score": 87.63,
+      "latest_seen": "2026-04-24T14:19:40+00:00",
+      "age_hours": 0.5,
+      "score": 91.63,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 24.88,
-        "source_quality_points": 26.75,
+        "recency_points": 24.7,
+        "source_quality_points": 25.93,
         "entity_relevance_points": 16,
-        "materiality_points": 0.0
+        "materiality_points": 5.0
       },
-      "novelty": "ongoing",
+      "novelty": "growing",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -84,6 +84,68 @@
           "confidence": 0.8
         },
         {
+          "headline_id": "3e4b064aa77aaf7f",
+          "title": "Oil prices mixed in Asia as Brent, US crude edge higher",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObTd3QTlfWWJydzhSakE5SG05S0ttVVFJWmpDdDlQb3lZcmJfeFhrYldfQ0NrRjhLeldzRndnOFZkc21JQXZ4bXk3dC1YWXFwUFVzVDFZN0FZSmNBUk9JVGZNa2xncDBFSUVGUkJWcENQSmVTVS1lbEx0VVV5ek01RHJIVzNaR19yYi1pOEFrNVJKTHNydm5sSDZGWTZMaWVpQWZuM0pIQdIBVkFVX3lxTE5Od2JkSU5HdXFVeWhJQzFPU1RTc3hyNExPY3NIcjB6clIydVZvMXVEWXRYWHVVSUxSUUw3XzI1VEtWb2pCY3FrZ0M5ZVlCcVBnTk81aU1R?oc=5",
+          "source": "Dunya News",
+          "source_type": "rss",
+          "published_at": "2026-04-24T14:19:40+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "3e47de10d78c02a0",
+          "title": "Crude Oil Price Analysis – Crude Continues to Look for Clarity",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVG9IRGkxYmRrX0J3RWQ2U09fUm9YWFp5R3o5cVBCbjdyclpJTkZuWG1zOUJfcDk5Y2dMQzRsZDRWM1IybFVWRWtMV1pKSUp6b25jZ1dvbnFOOUtxdlMyaW4zYlU4Z0FQdGxJZUpZam1HcVFDT2ZkdU9vYVFRTDhSMzliMGRFSlVMa3J5SFpCOU4tYXQzX3RxdlNyNHg4RUdTclVCV3VMRGpweWNQODdCaA?oc=5",
+          "source": "FXEmpire",
+          "source_type": "rss",
+          "published_at": "2026-04-24T13:56:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_407dc7afa0a9aa",
+      "topic": "oil",
+      "lead_title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 24",
+      "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNQnhVSGRYS3dIMlhRQUswM3BCdWZ2WEs2dWJjdU41WDhrRjJVSi1oWGtMWS1IZlFkOVo4S2hWZXZrZ3R2UmhZbzBaZGVZMTc2NFVrS1AwVWdIMkQ0c1V5dVpKS1o0TEppWXFnUGQxeFo2R1dCY01oeDE4LW5LTXVJRl83bjJVRXVBY3F2QjJVQ0d0RUtVX1lDSjJQOVE2aGhoc0hQbHJhUWhXbXQ5VjMzVW1pZTIyWmFrMkZyeVY3eWN3SXBtSlYyWXE1WHloZVFhRnhMYkZVOEhfcFJNYk9zNk1HQlNKcHhIS0tUbU0zTF9naF9PNDF4eXU3aFJ3cGhMVEhlOUloTlpmTG9kYy1GWUZJV3R1aXZSUnhKRjF3?oc=5",
+      "lead_source": "S&P Global",
+      "canonical_entities": [
+        "Brent",
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-23T17:42:10+00:00",
+      "latest_seen": "2026-04-24T12:36:20+00:00",
+      "age_hours": 2.23,
+      "score": 89.46,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 23.66,
+        "source_quality_points": 24.8,
+        "entity_relevance_points": 16,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "bb6224b5e015b9df",
+          "title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 24",
+          "url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNQnhVSGRYS3dIMlhRQUswM3BCdWZ2WEs2dWJjdU41WDhrRjJVSi1oWGtMWS1IZlFkOVo4S2hWZXZrZ3R2UmhZbzBaZGVZMTc2NFVrS1AwVWdIMkQ0c1V5dVpKS1o0TEppWXFnUGQxeFo2R1dCY01oeDE4LW5LTXVJRl83bjJVRXVBY3F2QjJVQ0d0RUtVX1lDSjJQOVE2aGhoc0hQbHJhUWhXbXQ5VjMzVW1pZTIyWmFrMkZyeVY3eWN3SXBtSlYyWXE1WHloZVFhRnhMYkZVOEhfcFJNYk9zNk1HQlNKcHhIS0tUbU0zTF9naF9PNDF4eXU3aFJ3cGhMVEhlOUloTlpmTG9kYy1GWUZJV3R1aXZSUnhKRjF3?oc=5",
+          "source": "S&P Global",
+          "source_type": "rss",
+          "published_at": "2026-04-24T08:24:32+00:00",
+          "confidence": 0.98
+        },
+        {
           "headline_id": "af7c6247e0411d1d",
           "title": "WTI Crude Oil: Elliott Wave Analysis and Forecast for 24.04.26–01.05.26",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPZEpJMEtxS01tVmd4LXVNTG9DOV83RExqd1NTR1BUMkFFMG14TVZBdDlkSlBsaGgtWl96OGI5d1RELTViTHZMME40elZvaFUwb0d6dVoySHUwTDZRZkYzcTE2TDAyamNDNG9UMV9oQzljZnZIRE1PM1dJcTB1RFREMFpSc2xnM05CVFhSZ3JTcXlyVEFUNG5ZMFprN2JMMEhLdlBIMzRBNnl1RUR2WVlFSkd5blBrM1JDSWhvTTRwNFVDLS1JaEp1UVVhTThjTTJoZjlpMUg1ZTJPei1fQVJwYURB?oc=5",
@@ -91,41 +153,59 @@
           "source_type": "rss",
           "published_at": "2026-04-24T12:36:20+00:00",
           "confidence": 0.75
+        },
+        {
+          "headline_id": "b593bbeef4bebff0",
+          "title": "Brent Crude Oil is up by 5.02%",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcFpsU1l5YjFtcjV0c2ZHRXlnTlFEQWFrd3VaV1RyakZUWWthNENiMTk0Y21XUE1pT1JwTUlBdlNySENmVWxYSTRNLXpERTRYdWlDMElsVDg0Ym9uS1FpdHdPRG5PTHg5YXpnM1dvRFFOcC03ZmdjdVFzRkJaQko5d1FRMmQtdEU?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-04-23T17:42:10+00:00",
+          "confidence": 0.75
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_5757c15a78ade5",
+      "cluster_id": "c_69edd6917c0583",
       "topic": "oil",
-      "lead_title": "Brent crude oil set for 18% weekly surge amid war escalation",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbF91TjVaaHVia25SRF96a2JjbzBsTEt5NVJYMWpOZTV0ci1iRm5lWW1MaURyUGhxZzNtVG8xN2owcUl1X2d0S0ZnT2daNWliLVpnazhlakU0MzhYN2tNeXFfOUtBaENDUXdkeEJ2XzFMaHpCb29KeVJ5dGF1b1RRdzJSbGVoYnpmUEE2MThXZTFHN2NFUUVDVmgxdjY1VmZ5WlNCZEtoR2EyMWRvY1lsOTlvbC0tZWlRcDNqNmI3ZTJ1QQ?oc=5",
-      "lead_source": "Montel News",
+      "lead_title": "Kosmos Energy (KOS) Surged Following Brent Crude Oil Neared $127",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXN3THJVeG1TYmw0N203X3VtS3VIbEljUWU2amhIVzl3SllfVktCZDh6djhQQi1yZUZSWWhTUU0wMFUxR3o3M0hZdDJWeVAxaC16dXJhblN4M2hYR0tMVWFSXy04djlGQThPRlJmaEhyVHBCdHVqV2tCRDdiNWNfdGNpR2cydG5icGwyN0dlclpCZDlRZ2dwcmY1NDJPNE9Z?oc=5",
+      "lead_source": "Yahoo Finance",
       "canonical_entities": [
         "Brent",
         "crude",
         "oil"
       ],
-      "source_count": 4,
-      "distinct_publishers": 4,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-23T17:42:10+00:00",
-      "latest_seen": "2026-04-24T07:01:52+00:00",
-      "age_hours": 5.78,
-      "score": 81.03,
+      "earliest_seen": "2026-04-24T01:38:35+00:00",
+      "latest_seen": "2026-04-24T13:15:10+00:00",
+      "age_hours": 1.58,
+      "score": 83.55,
       "score_components": {
-        "source_count_points": 20,
-        "recency_points": 21.53,
+        "source_count_points": 15,
+        "recency_points": 24.05,
         "source_quality_points": 22.5,
         "entity_relevance_points": 12,
-        "materiality_points": 5.0
+        "materiality_points": 10.0
       },
-      "novelty": "growing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
+        {
+          "headline_id": "5063fdbf6b8ee8fc",
+          "title": "Kosmos Energy (KOS) Surged Following Brent Crude Oil Neared $127",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcXN3THJVeG1TYmw0N203X3VtS3VIbEljUWU2amhIVzl3SllfVktCZDh6djhQQi1yZUZSWWhTUU0wMFUxR3o3M0hZdDJWeVAxaC16dXJhblN4M2hYR0tMVWFSXy04djlGQThPRlJmaEhyVHBCdHVqV2tCRDdiNWNfdGNpR2cydG5icGwyN0dlclpCZDlRZ2dwcmY1NDJPNE9Z?oc=5",
+          "source": "Yahoo Finance",
+          "source_type": "rss",
+          "published_at": "2026-04-24T13:15:10+00:00",
+          "confidence": 0.75
+        },
         {
           "headline_id": "769d44f3c37864cf",
           "title": "Brent crude oil set for 18% weekly surge amid war escalation",
@@ -136,30 +216,12 @@
           "confidence": 0.75
         },
         {
-          "headline_id": "58e6549b59c0b94b",
-          "title": "Brent crude oil is taking a breather - Analysis- 24-04-2026",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZ1MzQjdsMGlaYzgtTjZpUFp2dWpkYWd3N2VMdFdlWWowMXFaN21FbEczc01Cc3NKVTNscVBhTEc3azY0Um1KaG5pbjQ5a0dGMGpPOElVeHZoamdrSVZHdTM4dlladUNpMmNsMld3UmFONUJuQmVnTWE5T2kxWlAxZDd3SlM1VWdtem80cUVpcXNrdlEtZEpEYWJUUkdqX2o1NlcwUzUtOXRfeHhoOGNYcUR2RkpEM3hSVEJBckJhV1c?oc=5",
-          "source": "Economies.com",
-          "source_type": "rss",
-          "published_at": "2026-04-24T02:48:00+00:00",
-          "confidence": 0.75
-        },
-        {
           "headline_id": "7b0a0299385b2522",
           "title": "$Crude Oil Futures (JUN6) (CLmain.US)$ $Brent Last Day Financial Futures (JUN6) (BZmain.US)$",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1ZEYlhqc08yUnpVNWJMNUhsX1NFYm9PVzUzLUxUSDRRYmJfa3RRY1d1VEZpTWd4cDhBcmFFSU1xcW5FVEVDTFF3RUozWWJKdmlTR3dqSnFDM09DSGVYOHFaS2RFYVBFVDlQai1zYzFBRDk4Rm45UG9SdmNZMml4Y09IRDZRUkxNZk1wVDBXOEZkQUZ4M1VmUWdaR1licnRwcllwSjBEbUJfcFlBWXVpdQ?oc=5",
           "source": "Moomoo",
           "source_type": "rss",
           "published_at": "2026-04-24T01:38:35+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "b593bbeef4bebff0",
-          "title": "Brent Crude Oil is up by 5.02%",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcFpsU1l5YjFtcjV0c2ZHRXlnTlFEQWFrd3VaV1RyakZUWWthNENiMTk0Y21XUE1pT1JwTUlBdlNySENmVWxYSTRNLXpERTRYdWlDMElsVDg0Ym9uS1FpdHdPRG5PTHg5YXpnM1dvRFFOcC03ZmdjdVFzRkJaQko5d1FRMmQtdEU?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-04-23T17:42:10+00:00",
           "confidence": 0.75
         }
       ],
@@ -177,19 +239,19 @@
         "crude",
         "oil"
       ],
-      "source_count": 6,
-      "distinct_publishers": 6,
+      "source_count": 5,
+      "distinct_publishers": 5,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-04-23T16:10:09+00:00",
-      "latest_seen": "2026-04-24T08:47:39+00:00",
-      "age_hours": 4.02,
-      "score": 79.59,
+      "latest_seen": "2026-04-24T08:05:21+00:00",
+      "age_hours": 6.74,
+      "score": 78.45,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 22.59,
-        "source_quality_points": 25.0,
+        "recency_points": 20.95,
+        "source_quality_points": 25.5,
         "entity_relevance_points": 12,
         "materiality_points": 0.0
       },
@@ -202,7 +264,7 @@
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOHFuY2puSFAzZW9FTWVLdzg1RENfeno0WXR0R19BSHZmd3I3X3ZOSjFvbVByY0RBT1JxOTRQbFFBUkVaRGZoSWN4X0FoZUU2LWpTWW0xcXpvZmhQSFRadm5MalZNVjZMck43TUl0UjJsNFBZdDJueDlieC1kYjJrRHJJTU1NanF3Y3RxOGNjQnpNQ3VrY1J0NGpVYkN1Zm1Hb2stSW9TTEtIUHM?oc=5",
           "source": "Bloomberg.com",
           "source_type": "rss",
-          "published_at": "2026-04-24T00:00:00+00:00",
+          "published_at": "2026-04-24T07:57:46+00:00",
           "confidence": 1.0
         },
         {
@@ -213,15 +275,6 @@
           "source_type": "rss",
           "published_at": "2026-04-23T16:10:09+00:00",
           "confidence": 1.0
-        },
-        {
-          "headline_id": "12f0706a491b167d",
-          "title": "Japan to Release Over 36 Million Barrels of Crude Oil Reserves -- OPIS",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTzhPN2FtSHMzanlzcjFJTEJPcGJLVVF6d1JIb3UwYWxCZ05aMjdmbXN6YjZwU2pFcW9Bd1kzTUs4SjRQWVg1cUlpdDdxbUtYbWtPTTZDNFFJTHpCS0ZaVVAwT2dPTGFMbEtpTjBMZVp6LVdubEVacEhld3R0VWhjcFhSa2FHbHBEY0VSQTBCLVota2szVkpCUnl3dzhZN19YRnY0dGJKU1FVMUFKaTEyOXQyQ3FjMmFsMzc5MQ?oc=5",
-          "source": "marketscreener.com",
-          "source_type": "rss",
-          "published_at": "2026-04-24T08:47:39+00:00",
-          "confidence": 0.75
         },
         {
           "headline_id": "802e982149ead579",
@@ -251,54 +304,99 @@
           "confidence": 0.75
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_dfd44b4eddf96e",
+      "cluster_id": "c_40d225a2bc380c",
       "topic": "oil",
-      "lead_title": "Only five ships pass through Strait of Hormuz in 24 hours",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVDY0N3lOeDVoY0FHTVd3cGV4VkJRTV9EekNzUWxQdFFlNTdESVFFZGQtaEpUYVUzV0hNOHdfNjdPU01acWxGUnRvVXc0ZXNkclVQR2VJcDM0QU1YQXFibEY0QmFuODhIRU9pWFhuTW40TFM2UHcweXBHYkFtR1BnSngwRHl4aDR5MU5EdzN0bzZJRnVpalRqQUY1YzA3NlZQT3o4bVlmTng?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
+      "lead_title": "The Week in Oil : U.S.-Iran Talks Uncertainty Pushes Brent Back Above $100",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaU5JQ2t1TmxPOFBTczhhUHphMVJ0UHVPXy1Gak4xMHBZb1otbkxlWXJtbm5CWVRPQlRsb0VuRU16VkdkMnVrZWxxLVE0Z1FwMkJEeFFEZmxWWEtuYnU3bVNycWtlR2h0SUFzN2RndGxhNGhuR3Y4Q1BhejFNamZMRjFxZ0VPVVVYNXF2QlctbFRwbjBTSFJ1Ym50dlBjcll0bDdpUXl5N2NuZE90dzFKc1g1Qk9saVpfbk55Yi01ZTg?oc=5",
+      "lead_source": "marketscreener.com",
+      "canonical_entities": [
+        "Brent",
+        "oil"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-24T12:09:44+00:00",
-      "latest_seen": "2026-04-24T12:09:44+00:00",
-      "age_hours": 0.65,
-      "score": 68.11,
+      "earliest_seen": "2026-04-24T14:45:47+00:00",
+      "latest_seen": "2026-04-24T14:45:47+00:00",
+      "age_hours": 0.07,
+      "score": 68.96,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.61,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
+        "recency_points": 24.96,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "95b2e59f8eb92051",
-          "title": "Only five ships pass through Strait of Hormuz in 24 hours",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVDY0N3lOeDVoY0FHTVd3cGV4VkJRTV9EekNzUWxQdFFlNTdESVFFZGQtaEpUYVUzV0hNOHdfNjdPU01acWxGUnRvVXc0ZXNkclVQR2VJcDM0QU1YQXFibEY0QmFuODhIRU9pWFhuTW40TFM2UHcweXBHYkFtR1BnSngwRHl4aDR5MU5EdzN0bzZJRnVpalRqQUY1YzA3NlZQT3o4bVlmTng?oc=5",
-          "source": "Reuters",
+          "headline_id": "b7b44b6e38884552",
+          "title": "The Week in Oil : U.S.-Iran Talks Uncertainty Pushes Brent Back Above $100",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaU5JQ2t1TmxPOFBTczhhUHphMVJ0UHVPXy1Gak4xMHBZb1otbkxlWXJtbm5CWVRPQlRsb0VuRU16VkdkMnVrZWxxLVE0Z1FwMkJEeFFEZmxWWEtuYnU3bVNycWtlR2h0SUFzN2RndGxhNGhuR3Y4Q1BhejFNamZMRjFxZ0VPVVVYNXF2QlctbFRwbjBTSFJ1Ym50dlBjcll0bDdpUXl5N2NuZE90dzFKc1g1Qk9saVpfbk55Yi01ZTg?oc=5",
+          "source": "marketscreener.com",
           "source_type": "rss",
-          "published_at": "2026-04-24T12:09:44+00:00",
-          "confidence": 0.95
+          "published_at": "2026-04-24T14:45:47+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_603c1134e426fe",
+      "cluster_id": "c_5292098c9b8d0b",
       "topic": "oil",
-      "lead_title": "The Oil Futures Market Is Lying to Us",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOEphX3QzSy1uZ2t0V1FUS2xBM1lFTEg2bHFTczYxV2ZVUU1NRTlCYkhLcEJOWDBKbllUaXFmSEt1YWdiLVVuTXRuQ09fSEt4YjlTZHlVakxIcTN2NzVpSXVHTVFTSVNKS2tVUlY5NzRic3B6UWZDM0JoOWtMT2RNaG02MFc3eGZiOVRUUTNRb3dLZGw4YlNHTS0zVnJXMTFTQzJaeUxteHhnUlRCaEVqd1ZUVQ?oc=5",
-      "lead_source": "Bloomberg.com",
+      "lead_title": "Crude oil market doubts US capacity to offset supply disruptions",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTRaNm5kVTdScEVkaENRRUZxRThyX05uQ3d4aVlWVzhrU01kSmtNOVNDLXA5LXhzVDhPNlBqWHF4amsyNFdVS0NNWlhkaW9wSUwtN3ZZOWNGejhFM1FRZGVfSGY0U0d1dld4N3M4UXVBM0FUY2psU2F0Z1phTFJLYnFfUU1XenNZYVNOZlhWTlNYcUZzOUU0?oc=5",
+      "lead_source": "Crypto Briefing",
+      "canonical_entities": [
+        "crude",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T14:26:05+00:00",
+      "latest_seen": "2026-04-24T14:26:05+00:00",
+      "age_hours": 0.4,
+      "score": 68.76,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.76,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "7f3b3744022f03c5",
+          "title": "Crude oil market doubts US capacity to offset supply disruptions",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMTRaNm5kVTdScEVkaENRRUZxRThyX05uQ3d4aVlWVzhrU01kSmtNOVNDLXA5LXhzVDhPNlBqWHF4amsyNFdVS0NNWlhkaW9wSUwtN3ZZOWNGejhFM1FRZGVfSGY0U0d1dld4N3M4UXVBM0FUY2psU2F0Z1phTFJLYnFfUU1XenNZYVNOZlhWTlNYcUZzOUU0?oc=5",
+          "source": "Crypto Briefing",
+          "source_type": "rss",
+          "published_at": "2026-04-24T14:26:05+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6a3bc5d517f5b7",
+      "topic": "oil",
+      "lead_title": "Oil prices fall on report Iran foreign minister to arrive in Pakistan for peace talks",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0xHaGRYbVZtQkhSWW9EUHhFYmk5U1o5NUJ5SGlfYjhQTzRORW1hdlVfaTNsbDJrSUIxZTExUlRLN181SHRqMF9NTHhPRU00Qk41NXl6ZE9CNXJjRVEwUExWUHJmN21nQVhfeUlzR0gwUUJmRjlzUTd3dTgyTjJaVHV6MU5NMHNuQjhES1FVYWlWc2l3MGVfOVYzNEhlUdIBowFBVV95cUxQNVdnYkZPR1AxaTgwQVAwQ1VsRmNTTlI0aGU1amJoeDE0TWM0WGxEYjhTZEtNSlV5UHhGS3pYeThWdkxxdHZRa0xscmNWaWVDQWdUdTlaUEJqWExRaG9Pa18xYklIMWE2clhkaXByUHp5bHlQX1gzWEdtOGdIMld4TllrRGU1aEVVNzBEdTI5U0VySDlwYmVRRnh6RzIwQ2NPVU9n?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
         "oil"
       ],
@@ -307,28 +405,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-24T09:00:18+00:00",
-      "latest_seen": "2026-04-24T09:00:18+00:00",
-      "age_hours": 3.81,
-      "score": 61.72,
+      "earliest_seen": "2026-04-24T01:55:00+00:00",
+      "latest_seen": "2026-04-24T01:55:00+00:00",
+      "age_hours": 12.92,
+      "score": 64.15,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.72,
-        "source_quality_points": 30.0,
+        "recency_points": 17.25,
+        "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "c3bfcc32b0af9076",
-          "title": "The Oil Futures Market Is Lying to Us",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOEphX3QzSy1uZ2t0V1FUS2xBM1lFTEg2bHFTczYxV2ZVUU1NRTlCYkhLcEJOWDBKbllUaXFmSEt1YWdiLVVuTXRuQ09fSEt4YjlTZHlVakxIcTN2NzVpSXVHTVFTSVNKS2tVUlY5NzRic3B6UWZDM0JoOWtMT2RNaG02MFc3eGZiOVRUUTNRb3dLZGw4YlNHTS0zVnJXMTFTQzJaeUxteHhnUlRCaEVqd1ZUVQ?oc=5",
-          "source": "Bloomberg.com",
+          "headline_id": "fe342b98ad9c0b98",
+          "title": "Oil prices fall on report Iran foreign minister to arrive in Pakistan for peace talks",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0xHaGRYbVZtQkhSWW9EUHhFYmk5U1o5NUJ5SGlfYjhQTzRORW1hdlVfaTNsbDJrSUIxZTExUlRLN181SHRqMF9NTHhPRU00Qk41NXl6ZE9CNXJjRVEwUExWUHJmN21nQVhfeUlzR0gwUUJmRjlzUTd3dTgyTjJaVHV6MU5NMHNuQjhES1FVYWlWc2l3MGVfOVYzNEhlUdIBowFBVV95cUxQNVdnYkZPR1AxaTgwQVAwQ1VsRmNTTlI0aGU1amJoeDE0TWM0WGxEYjhTZEtNSlV5UHhGS3pYeThWdkxxdHZRa0xscmNWaWVDQWdUdTlaUEJqWExRaG9Pa18xYklIMWE2clhkaXByUHp5bHlQX1gzWEdtOGdIMld4TllrRGU1aEVVNzBEdTI5U0VySDlwYmVRRnh6RzIwQ2NPVU9n?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-04-24T09:00:18+00:00",
-          "confidence": 1.0
+          "published_at": "2026-04-24T01:55:00+00:00",
+          "confidence": 0.93
         }
       ],
       "top_tier": false,
@@ -348,13 +446,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-24T08:40:46+00:00",
-      "latest_seen": "2026-04-24T08:40:46+00:00",
-      "age_hours": 4.13,
-      "score": 61.52,
+      "earliest_seen": "2026-04-24T13:48:01+00:00",
+      "latest_seen": "2026-04-24T13:48:01+00:00",
+      "age_hours": 1.03,
+      "score": 63.38,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.52,
+        "recency_points": 24.38,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -368,8 +466,131 @@
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb1IwM3FyaXVVYU9nQ1MwU0ZoNE53UjZkMHczaVZ1T0FfMHZTWXRvYnc3YVczemt0bFFGY09ya3E5dnp4YTNiM1FLQ0swUWFwaVoyR2dCTmlrcEFrNFBuTDVpMFBjUmhWU3R1YjlrdjkxRFVseE5VS2JqNlhnOUhNWm40U3NITzZDQkpjOTVuVmtuV1FWWVVrZEpndXJrcEUya2FZcWRRREQ5TFV2QU85QnluWkRzeG8?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-24T08:40:46+00:00",
+          "published_at": "2026-04-24T13:48:01+00:00",
           "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_603c1134e426fe",
+      "topic": "oil",
+      "lead_title": "The Oil Futures Market Is Lying to Us",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUNVeEZRSGtnWHlmX05INGdzVG82dlNCNk50Rm0zUlN0dGt6LWFUdGctaXhUc1JVenVaVWRZaXZRU3F4T2EzeWtuMk4wa0xyQ0VYUnoxbmo3RlRaS3hBS2JNWlBVcnZGb3FtcFdsS3VFOGpTYXJld0FVMV9ZdzlqNmxkazZSS3NnU1h1NVJSMlJYU3IxaXc?oc=5",
+      "lead_source": "Bloomberg.com",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T09:00:18+00:00",
+      "latest_seen": "2026-04-24T09:00:18+00:00",
+      "age_hours": 5.83,
+      "score": 60.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 21.5,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "c3bfcc32b0af9076",
+          "title": "The Oil Futures Market Is Lying to Us",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNUNVeEZRSGtnWHlmX05INGdzVG82dlNCNk50Rm0zUlN0dGt6LWFUdGctaXhUc1JVenVaVWRZaXZRU3F4T2EzeWtuMk4wa0xyQ0VYUnoxbmo3RlRaS3hBS2JNWlBVcnZGb3FtcFdsS3VFOGpTYXJld0FVMV9ZdzlqNmxkazZSS3NnU1h1NVJSMlJYU3IxaXc?oc=5",
+          "source": "Bloomberg.com",
+          "source_type": "rss",
+          "published_at": "2026-04-24T09:00:18+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c782a04be5926a",
+      "topic": "oil",
+      "lead_title": "From Hormuz to Asia: the ripple effects on oil trade, prices and economies",
+      "lead_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUVRSbFF4Y0IzZEd0QlQwRGFyQVZScGp1VG1RU2p3LXA1MG5oV0p0djdYd0o0b0hrejFkTXF5cmJUXzRweS1mdTczMTlhRjE5NW1RNXFRckdMYWxSQ0VqQ3JvM1dlOXphcTRsWFFRdDBwMTZRMzJhU1B5MzVPMUVXeUtGdEZ3b203eHdBTEIyUVBiUVVmNVprWWVkMHVZbDViRnZPX1BMcmdKTkV2ZmRubG5jUHhEZnFUdFNUSE1mSEd0a096Q0VDeE52WDZMcHBaRzR3WTNubFRRejVVTkJzQWhOcw?oc=5",
+      "lead_source": "S&P Global",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-23T16:17:28+00:00",
+      "latest_seen": "2026-04-23T16:17:28+00:00",
+      "age_hours": 22.54,
+      "score": 58.38,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 11.48,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "65e8c8828782e9f9",
+          "title": "From Hormuz to Asia: the ripple effects on oil trade, prices and economies",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUVRSbFF4Y0IzZEd0QlQwRGFyQVZScGp1VG1RU2p3LXA1MG5oV0p0djdYd0o0b0hrejFkTXF5cmJUXzRweS1mdTczMTlhRjE5NW1RNXFRckdMYWxSQ0VqQ3JvM1dlOXphcTRsWFFRdDBwMTZRMzJhU1B5MzVPMUVXeUtGdEZ3b203eHdBTEIyUVBiUVVmNVprWWVkMHVZbDViRnZPX1BMcmdKTkV2ZmRubG5jUHhEZnFUdFNUSE1mSEd0a096Q0VDeE52WDZMcHBaRzR3WTNubFRRejVVTkJzQWhOcw?oc=5",
+          "source": "S&P Global",
+          "source_type": "rss",
+          "published_at": "2026-04-23T16:17:28+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5ea9025de58c9d",
+      "topic": "oil",
+      "lead_title": "Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMzBEaVhqaER0aWxjWXpuVTJiOW1wbjE4THJoaDBOUmpXRURaX3BQbm9sTmpwX21lS3pJcGszMkx4SFVFREQ3THNFaEJabGphbmNvVmNITnViLU1UeWxKV2c2OFctSlBVdHUyZnNpOTBNTElJRjcwRTNWZkpPMVNGZGJsYzNpcFY2dnlPLVI5bW1xYk1EQ0FFYnc3OEdTUk80ZUhzYTBuZXI3SnPSAbABQVVfeXFMTWJsWGhFUXB5QlR2SGNKOEI4NEw4Wk94ckJJVjZITXF1S3huYVVyWVJ2QlRTSGNORTM2YlBLV083VlFOSHJCVHBuNnNlU1FkQU4zT2daSFJ5RGZUWUNkSnh0b1pzWDg1N3dxM2FOb3hYdVB2QVpSWTRuaWhJZUMwc3Y5SVVkR0pZYmdfSkstaWQ0d3ZVY0xxTlZibkVDc1FMOGxxenBOdzRKeGFNem95SmE?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-23T10:28:08+00:00",
+      "latest_seen": "2026-04-23T10:28:08+00:00",
+      "age_hours": 28.36,
+      "score": 54.88,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 7.98,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "cb4ba621b223c44c",
+          "title": "Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMzBEaVhqaER0aWxjWXpuVTJiOW1wbjE4THJoaDBOUmpXRURaX3BQbm9sTmpwX21lS3pJcGszMkx4SFVFREQ3THNFaEJabGphbmNvVmNITnViLU1UeWxKV2c2OFctSlBVdHUyZnNpOTBNTElJRjcwRTNWZkpPMVNGZGJsYzNpcFY2dnlPLVI5bW1xYk1EQ0FFYnc3OEdTUk80ZUhzYTBuZXI3SnPSAbABQVVfeXFMTWJsWGhFUXB5QlR2SGNKOEI4NEw4Wk94ckJJVjZITXF1S3huYVVyWVJ2QlRTSGNORTM2YlBLV083VlFOSHJCVHBuNnNlU1FkQU4zT2daSFJ5RGZUWUNkSnh0b1pzWDg1N3dxM2FOb3hYdVB2QVpSWTRuaWhJZUMwc3Y5SVVkR0pZYmdfSkstaWQ0d3ZVY0xxTlZibkVDc1FMOGxxenBOdzRKeGFNem95SmE?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-04-23T10:28:08+00:00",
+          "confidence": 0.93
         }
       ],
       "top_tier": false,
@@ -391,16 +612,16 @@
       ],
       "earliest_seen": "2026-04-24T01:03:00+00:00",
       "latest_seen": "2026-04-24T01:03:00+00:00",
-      "age_hours": 11.76,
-      "score": 56.94,
+      "age_hours": 13.78,
+      "score": 50.73,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.94,
+        "recency_points": 16.73,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -410,209 +631,6 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-04-24T01:03:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d9d7dc140dbddd",
-      "topic": "oil",
-      "lead_title": "Kenya, Tanzania and neighbours discuss joint refinery as Dangote offers to build it",
-      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYnkzejluS2ZUSzlfOERFQUpKSTBrcTRQWTM0VTR3aklVdDFTaFpEOXRLVTZUWUVvV3diSzJha2xjUGFDZ3ludmM3ZUgxeUZybDhSTGFoN0FLaEFTR1lTalNpazlzcG9YbDR0dFRlTkZBOG5fZ3Q4eEdER1V5X2Nsa3BpZ3I0YkU1MEdWYklWZ29oOWExZG81Rm1BRy1WMWQ0cm1JbkVVeGN4Z2hnMUZBWWNUbG4yeTdyQk5WLW90elJadjBHYm1ydHln?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-23T16:30:11+00:00",
-      "latest_seen": "2026-04-23T16:30:11+00:00",
-      "age_hours": 20.31,
-      "score": 56.32,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 12.82,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "73346bebb76695f3",
-          "title": "Kenya, Tanzania and neighbours discuss joint refinery as Dangote offers to build it",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYnkzejluS2ZUSzlfOERFQUpKSTBrcTRQWTM0VTR3aklVdDFTaFpEOXRLVTZUWUVvV3diSzJha2xjUGFDZ3ludmM3ZUgxeUZybDhSTGFoN0FLaEFTR1lTalNpazlzcG9YbDR0dFRlTkZBOG5fZ3Q4eEdER1V5X2Nsa3BpZ3I0YkU1MEdWYklWZ29oOWExZG81Rm1BRy1WMWQ0cm1JbkVVeGN4Z2hnMUZBWWNUbG4yeTdyQk5WLW90elJadjBHYm1ydHln?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-23T16:30:11+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_504c63e8113bb5",
-      "topic": "oil",
-      "lead_title": "Oil prices rise as U.S. and Iran jockey for control over Strait of Hormuz",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0xHaGRYbVZtQkhSWW9EUHhFYmk5U1o5NUJ5SGlfYjhQTzRORW1hdlVfaTNsbDJrSUIxZTExUlRLN181SHRqMF9NTHhPRU00Qk41NXl6ZE9CNXJjRVEwUExWUHJmN21nQVhfeUlzR0gwUUJmRjlzUTd3dTgyTjJaVHV6MU5NMHNuQjhES1FVYWlWc2l3MGVfOVYzNEhlUQ?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-24T01:55:00+00:00",
-      "latest_seen": "2026-04-24T01:55:00+00:00",
-      "age_hours": 10.89,
-      "score": 55.36,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.46,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "9fa004b66ffc80c6",
-          "title": "Oil prices rise as U.S. and Iran jockey for control over Strait of Hormuz",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOU0xHaGRYbVZtQkhSWW9EUHhFYmk5U1o5NUJ5SGlfYjhQTzRORW1hdlVfaTNsbDJrSUIxZTExUlRLN181SHRqMF9NTHhPRU00Qk41NXl6ZE9CNXJjRVEwUExWUHJmN21nQVhfeUlzR0gwUUJmRjlzUTd3dTgyTjJaVHV6MU5NMHNuQjhES1FVYWlWc2l3MGVfOVYzNEhlUQ?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-04-24T01:55:00+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_07a55870e6d99b",
-      "topic": "oil",
-      "lead_title": "Fire brought under control at Russia's Tuapse oil terminal",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQalRqWGp3QURPcFlOd2tUclUyMVRYUndGS3JYMmxGMjBralF3TU9UcFBHemQwc1Iwb1E1TzdMUm8taVhfOHhiS3FwWFZUeUlrbk9PNTBYT2lSQzYtcllFV3ZNR2RkYTNUb0FlM1VjNHUxVjdTcE5MMEFRNFNCM05UWmhaWEl0QTRGOXFyWFlFdkRFdGFiZXNvTi1rQUplVFpheWpfRGpYdzItZw?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-23T22:24:49+00:00",
-      "latest_seen": "2026-04-23T22:24:49+00:00",
-      "age_hours": 14.4,
-      "score": 50.36,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 16.36,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "a16d6fc2dcd33d0b",
-          "title": "Fire brought under control at Russia's Tuapse oil terminal",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQalRqWGp3QURPcFlOd2tUclUyMVRYUndGS3JYMmxGMjBralF3TU9UcFBHemQwc1Iwb1E1TzdMUm8taVhfOHhiS3FwWFZUeUlrbk9PNTBYT2lSQzYtcllFV3ZNR2RkYTNUb0FlM1VjNHUxVjdTcE5MMEFRNFNCM05UWmhaWEl0QTRGOXFyWFlFdkRFdGFiZXNvTi1rQUplVFpheWpfRGpYdzItZw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-23T22:24:49+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1dd2be0485a8e7",
-      "topic": "oil",
-      "lead_title": "US shale bosses resist boosting oil output over Iran war ‘chaos’",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVzZhQkplZnAwV3Q0Vko0M1hwNjhEcGE4NFVCQy1HZktoanFyOEJTNXlDaEttMlNrcmJKR0tOODZKbmZEalNqaURLbDd2MjNocGtHRVJQcHFBdGtsbWcxOWxib2c5TkM1MFhCS0Jzc1BpY2xxbEEta1o5ZUdSdDV4ckxqSmw?oc=5",
-      "lead_source": "Financial Times",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-23T20:47:14+00:00",
-      "latest_seen": "2026-04-23T20:47:14+00:00",
-      "age_hours": 16.02,
-      "score": 48.49,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 15.39,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "73ab07d576001390",
-          "title": "US shale bosses resist boosting oil output over Iran war ‘chaos’",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVzZhQkplZnAwV3Q0Vko0M1hwNjhEcGE4NFVCQy1HZktoanFyOEJTNXlDaEttMlNrcmJKR0tOODZKbmZEalNqaURLbDd2MjNocGtHRVJQcHFBdGtsbWcxOWxib2c5TkM1MFhCS0Jzc1BpY2xxbEEta1o5ZUdSdDV4ckxqSmw?oc=5",
-          "source": "Financial Times",
-          "source_type": "rss",
-          "published_at": "2026-04-23T20:47:14+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7aaa02e7065a60",
-      "topic": "oil",
-      "lead_title": "Cuba sees short-term relief as Russian oil begins to flow",
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUkNoNzZiX2U2bE9qRTc4MURDM0p1SHMxVE4zYzNzcEhzSVpPX1JMOW9oUExLRHF5TTl4ZUV6UHdObnB3T1E5MTAyOEVPOHNuelFIU2UxYnZFX0tUM3FpU09mUGx3cDEwTi1pMmVxT2tVbnA3V0w3UVpPVTBtOXp0OGdJWVhyUXRFLUk0WnU0MWFTdk83dThwdzZXTS1KTnhqV1pwRXZB?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-23T18:44:41+00:00",
-      "latest_seen": "2026-04-23T18:44:41+00:00",
-      "age_hours": 18.07,
-      "score": 48.16,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.16,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "be622b322bf08faf",
-          "title": "Cuba sees short-term relief as Russian oil begins to flow",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUkNoNzZiX2U2bE9qRTc4MURDM0p1SHMxVE4zYzNzcEhzSVpPX1JMOW9oUExLRHF5TTl4ZUV6UHdObnB3T1E5MTAyOEVPOHNuelFIU2UxYnZFX0tUM3FpU09mUGx3cDEwTi1pMmVxT2tVbnA3V0w3UVpPVTBtOXp0OGdJWVhyUXRFLUk0WnU0MWFTdk83dThwdzZXTS1KTnhqV1pwRXZB?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-23T18:44:41+00:00",
           "confidence": 1.0
         }
       ],
@@ -635,11 +653,11 @@
       ],
       "earliest_seen": "2026-04-23T06:21:00+00:00",
       "latest_seen": "2026-04-23T06:21:00+00:00",
-      "age_hours": 30.46,
-      "score": 40.72,
+      "age_hours": 32.48,
+      "score": 39.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 6.72,
+        "recency_points": 5.51,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -676,11 +694,11 @@
       ],
       "earliest_seen": "2026-04-23T08:53:40+00:00",
       "latest_seen": "2026-04-23T08:53:40+00:00",
-      "age_hours": 27.92,
-      "score": 40.15,
+      "age_hours": 29.94,
+      "score": 38.94,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.25,
+        "recency_points": 7.04,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -702,47 +720,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_211b9b5ae4ecc8",
-      "topic": "oil",
-      "lead_title": "Exclusive: US intercepts three Iranian oil tankers in Asian waters, sources say",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY0dac0FOcTVjR1h4cW5PS0FxVVdkRUlsU3VfMWdZOVRialU3S3cxNl9ZOVZOOWtMekJsdWFnZ21aNENlaFA1Q3E5QlQ3NE5Ea0lYdDVteU5RWGNpNTU2OHhZMzZCZGJiRXZPTnFwWVluT20wUWxVMHA4Q2NfM21IWlB0OWxiblY0cTlzY29KWkpiQUpVcWtkVnNscjBKX2hKTjRESld1b3ZxY0NsOHFYV1RLbVpRdmN4OXc?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-22T20:38:00+00:00",
-      "latest_seen": "2026-04-22T20:38:00+00:00",
-      "age_hours": 40.18,
-      "score": 34.89,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.89,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "7b4e114b1579c5f2",
-          "title": "Exclusive: US intercepts three Iranian oil tankers in Asian waters, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOY0dac0FOcTVjR1h4cW5PS0FxVVdkRUlsU3VfMWdZOVRialU3S3cxNl9ZOVZOOWtMekJsdWFnZ21aNENlaFA1Q3E5QlQ3NE5Ea0lYdDVteU5RWGNpNTU2OHhZMzZCZGJiRXZPTnFwWVluT20wUWxVMHA4Q2NfM21IWlB0OWxiblY0cTlzY29KWkpiQUpVcWtkVnNscjBKX2hKTjRESld1b3ZxY0NsOHFYV1RLbVpRdmN4OXc?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-22T20:38:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_d12207402417d3",
       "topic": "oil",
       "lead_title": "How 50 days of the Iran war led to the loss of $50 billion worth of oil",
@@ -758,7 +735,7 @@
       ],
       "earliest_seen": "2026-04-19T16:45:07+00:00",
       "latest_seen": "2026-04-19T16:45:07+00:00",
-      "age_hours": 116.06,
+      "age_hours": 118.08,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -797,11 +774,11 @@
       ],
       "earliest_seen": "2026-04-23T07:33:39+00:00",
       "latest_seen": "2026-04-23T07:33:39+00:00",
-      "age_hours": 29.25,
-      "score": 33.85,
+      "age_hours": 31.27,
+      "score": 32.64,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.45,
+        "recency_points": 6.24,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
