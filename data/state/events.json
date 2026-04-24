@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-23T23:01:46.498113+00:00",
-  "previous_generated_at": "2026-04-23T22:00:34.588573+00:00",
-  "resolver_run_count": 28,
+  "generated_at": "2026-04-24T00:00:44.818703+00:00",
+  "previous_generated_at": "2026-04-23T23:01:46.498113+00:00",
+  "resolver_run_count": 29,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.828,
+      "confidence": 0.831,
       "last_confirmed": "2026-04-23T22:13:28+00:00",
-      "source_count": 15,
+      "source_count": 13,
       "summary_short": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
       "summary_long": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks. Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
         "c_2987685c595da1",
-        "c_ecb7e26f12721e",
         "c_63aca739750b91",
-        "c_01929ca3c5eaf3"
+        "c_640676b305f006",
+        "c_c782a04be5926a"
       ],
-      "evidence_count": 10,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.63) [OPEN suppressed]",
-        "cluster c_2987685c59 → CLOSED (kw='closure', weight=0.47) [OPEN suppressed]",
-        "cluster c_640676b305 → CONTESTED (kw='attack', weight=0.84)",
-        "winning=CLOSED (1.10/1.94), conf=0.828"
+        "cluster c_fe180f1b83 → CLOSED (kw='blockade', weight=0.61) [OPEN suppressed]",
+        "cluster c_2987685c59 → CLOSED (kw='closure', weight=0.46) [OPEN suppressed]",
+        "cluster c_640676b305 → CONTESTED (kw='attack', weight=0.76)",
+        "winning=CLOSED (1.07/1.83), conf=0.831"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,17 +57,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-04-23T21:50:16+00:00",
-      "source_count": 12,
+      "source_count": 13,
       "summary_short": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade",
-      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. Masked Iranian forces appear to seize ships in staged video",
+      "summary_long": "Strait of Hormuz is hosting gunboat diplomacy as US and Iran vie for most effective blockade. U.S. Seizes Second Tanker Carrying Iranian Oil",
       "evidence_cluster_ids": [
         "c_fe180f1b83a26a",
+        "c_260045d88abaee",
+        "c_1d827d6ffa4af9",
         "c_c2613bd563dd2f",
-        "c_2429b367983415",
-        "c_c9c95923b167f7",
-        "c_8d9754ea1e1571"
+        "c_2429b367983415"
       ],
-      "evidence_count": 10,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -152,14 +152,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_640676b305f006",
-      "lead_title": "Brent oil tops $105 as tensions simmer in Strait of Hormuz, Israel threatens attacks",
-      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9vdWMwejlaaUhEZ0VvZ1Nlc0FocXZfZFlzVTVVQ210ZEQyWUlSbTk2UzdWV0NuTXFDTjUtb0wyVmgtUGtvQng4R0ZXZGM4VFBHc3dSLWN1WXpUODUzajFfRnpMSXhwcmRWTVlxYkxZQTY4ZnZDSG9jatIBfkFVX3lxTFAySGhUd29hbkVJSEwxQ3gtRmsyeXNqdEhvbVdKMDdRanFFS2JoX2UyUVN2MXJkLXBNbnJkR0hIaGFENDlVcUYyYXdqSGt1enVDTUsxQmw2U0dibkVmdU54cHpaYkRhX1FsM043UEI1QUVneVB4VUx0VnZyVWJ0Zw?oc=5",
-      "lead_source": "CNBC",
-      "topic": "oil",
-      "score": 84.99,
-      "novelty": "growing",
-      "source_count": 4,
+      "cluster_id": "c_ff0f8d281fa885",
+      "lead_title": "Canada’s IEA Oil Promise Adds Little New Crude to Tight Market",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOb05UU2JiYk0yV0xQNVhDcW9VeXBmeFVjZ2hRQkNQSDBmaHZWQlBqVjcwcWxNeFN2alFlVnMyaVBWZlFESi15cHdTZk5XdzRGRnhHV2dwV1puWm1NRnNqTzctTlJxRC14dlE4dmJ6eDhJVVNSQ0RDT0FrNTBLcEpic3YycVZPLWQwRWZNT0RDbDRDcUFtUktB?oc=5",
+      "lead_source": "EnergyNow.com",
+      "topic": "energy",
+      "score": 83.34,
+      "novelty": "new",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -171,7 +171,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.828, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.831, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
