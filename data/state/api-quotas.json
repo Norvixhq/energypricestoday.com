@@ -2,58 +2,58 @@
   "date": "2026-04-24",
   "apis": {
     "gdelt": {
-      "calls_today": 92,
-      "succeeded": 60,
-      "failed": 32,
+      "calls_today": 102,
+      "succeeded": 61,
+      "failed": 41,
       "limit_per_day": 500,
-      "pct_of_limit": 18.4,
+      "pct_of_limit": 20.4,
       "endpoints": {},
-      "last_call": "2026-04-24T17:17:28.976603+00:00"
+      "last_call": "2026-04-24T18:05:52.200320+00:00"
     },
     "google_news": {
-      "calls_today": 92,
-      "succeeded": 92,
+      "calls_today": 102,
+      "succeeded": 102,
       "failed": 0,
       "limit_per_day": 5000,
-      "pct_of_limit": 1.8,
+      "pct_of_limit": 2.0,
       "endpoints": {},
-      "last_call": "2026-04-24T17:17:02.733292+00:00"
+      "last_call": "2026-04-24T18:05:44.146409+00:00"
     },
     "oilpriceapi": {
-      "calls_today": 9,
-      "succeeded": 9,
+      "calls_today": 10,
+      "succeeded": 10,
       "failed": 0,
       "limit_per_day": 10000,
       "pct_of_limit": 0.1,
       "endpoints": {
-        "prices/all": 9
+        "prices/all": 10
       },
-      "last_call": "2026-04-24T17:14:38.971118+00:00"
+      "last_call": "2026-04-24T18:03:22.815571+00:00"
     },
     "aaa": {
-      "calls_today": 9,
-      "succeeded": 9,
+      "calls_today": 10,
+      "succeeded": 10,
       "failed": 0,
       "limit_per_day": 500,
-      "pct_of_limit": 1.8,
+      "pct_of_limit": 2.0,
       "endpoints": {
-        "gasprices": 9
+        "gasprices": 10
       },
-      "last_call": "2026-04-24T17:14:39.258244+00:00"
+      "last_call": "2026-04-24T18:03:23.135051+00:00"
     },
     "eia": {
-      "calls_today": 36,
-      "succeeded": 36,
-      "failed": 0,
+      "calls_today": 40,
+      "succeeded": 38,
+      "failed": 2,
       "limit_per_day": 5000,
-      "pct_of_limit": 0.7,
+      "pct_of_limit": 0.8,
       "endpoints": {
-        "gasoline/regular": 9,
-        "gasoline/mid": 9,
-        "gasoline/premium": 9,
-        "gasoline/diesel": 9
+        "gasoline/regular": 10,
+        "gasoline/mid": 10,
+        "gasoline/premium": 10,
+        "gasoline/diesel": 10
       },
-      "last_call": "2026-04-24T17:14:51.092629+00:00"
+      "last_call": "2026-04-24T18:04:21.069565+00:00"
     },
     "anthropic": {
       "calls_today": 5,
