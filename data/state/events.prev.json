@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-24T20:07:44.122766+00:00",
-  "previous_generated_at": "2026-04-24T19:17:02.843741+00:00",
-  "resolver_run_count": 41,
+  "generated_at": "2026-04-24T21:10:34.880516+00:00",
+  "previous_generated_at": "2026-04-24T20:07:44.122766+00:00",
+  "resolver_run_count": 42,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "Gulf oil output likely to rebound within months after Hormuz reopening, Goldman says",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.958,
-      "last_confirmed": "2026-04-24T16:24:00+00:00",
-      "source_count": 11,
+      "status": "CLOSED",
+      "status_detail": "Oil Posts Weekly Gains on Continued Hormuz Closure",
+      "status_tag": "Strait closed",
+      "risk_level": "HIGH",
+      "confidence": 0.961,
+      "last_confirmed": "2026-04-24T19:50:00+00:00",
+      "source_count": 8,
       "summary_short": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz",
-      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Gulf oil output likely to rebound within months after Hormuz reopening, Goldman says",
+      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Oil Posts Weekly Gains on Continued Hormuz Closure",
       "evidence_cluster_ids": [
-        "c_3ab317787245a3",
+        "c_b437922ee9c07e",
         "c_9c3678a2920e0e",
         "c_e6a7fca71372b9",
-        "c_23ac776a2e6c50",
-        "c_93ea859389b413"
+        "c_39c68540d55378",
+        "c_1665abaff84403"
       ],
-      "evidence_count": 8,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,12 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_821b509194 → OPEN (kw='reopen', weight=0.55)",
-        "winning=OPEN (0.55/0.55), conf=0.958"
+        "cluster c_b437922ee9 → CLOSED (kw='closure', weight=0.70) [OPEN suppressed]",
+        "cluster c_39c68540d5 → CLOSED (kw='closure', weight=0.76) [OPEN suppressed]",
+        "winning=CLOSED (1.47/1.47), conf=0.961"
       ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-04-24T20:07:44.122645+00:00"
+      "previous_status": "OPEN",
+      "last_changed": "2026-04-24T21:10:34.880388+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -56,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-24T19:31:27+00:00",
-      "source_count": 7,
-      "summary_short": "EU leaders to boost Middle East ties amid Iran war impact on oil markets",
-      "summary_long": "EU leaders to boost Middle East ties amid Iran war impact on oil markets. SLB, Baker Hughes see oil exploration spending rising as Iran war disrupts supply",
+      "last_confirmed": "2026-04-24T19:50:00+00:00",
+      "source_count": 14,
+      "summary_short": "US sanctions Chinese refinery over Iranian oil purchases",
+      "summary_long": "US sanctions Chinese refinery over Iranian oil purchases. SLB, Baker Hughes see oil exploration spending rising as Iran war disrupts supply",
       "evidence_cluster_ids": [
-        "c_e513aab7e0d5a3",
+        "c_df85f6ee3cd9c6",
         "c_1b80496b56aaeb",
         "c_3a10db85bd5885",
-        "c_e6a7fca71372b9",
-        "c_d42d95cb498be5"
+        "c_8d9754ea1e1571",
+        "c_e6a7fca71372b9"
       ],
-      "evidence_count": 6,
+      "evidence_count": 13,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -122,18 +123,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "HIGH",
+      "risk_level": "HIGH",
+      "score": 50,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: high.",
+      "summary_long": "Risk drivers: Hormuz closed",
+      "summary_micro": "closed",
       "rationale": [
+        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -146,21 +148,21 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-04-24T20:07:44.122645+00:00"
+      "previous_status": "LOW",
+      "last_changed": "2026-04-24T21:10:34.880388+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_3fde07a213b1df",
-      "lead_title": "Crude oil futures jump on reports of air attacks, Iran power struggle",
-      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT1IwS3YyMWFQOUNCSTBwNXJ3NGcxMlBKeUYtYWhtYmJZZmNRV0ZkOVllYVhsdkhiN3FUcXNpSzRHV1RNWm5nYW9sWFB4VWc4VWVmU2k3cHVRMFFXQjhyZ2poQ3U4SDZ0dmNKUU5wU3lsT1FRNlEtMy1TYmtaX0NacUUydEcyRkNSaXZmQ251ZElZU2lzUjdtSGE4N01uRjZiUlJDelk3aDZydnRVXzloOEE2WUpWOG1oN01aNWkxT3kzUFJs?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_acb5d14f16619d",
+      "lead_title": "June WTI Crude Oil Contract Closes Down US$1.45; Settles at US$94.40 per Barrel",
+      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcG5yT3g4SFRKX2htOUV6LW9ET2Rpb1M1T3QxYWExVWxIVF9CdmhxS2NWdmlJTjhmSUhVUmxjSEhaRC1qb0pndzlEZFlZNm8tYU9OUm05YmJhcXR5bkVQXzNRc21hLXFudEMyTDl3Ynd4UGJ4TnduLUhNWjZCMzZwamZBTHA2ZkNoaERJRFI1aXY1SGc?oc=5",
+      "lead_source": "Moomoo",
       "topic": "oil",
-      "score": 89.88,
-      "novelty": "growing",
-      "source_count": 8,
+      "score": 86.68,
+      "novelty": "new",
+      "source_count": 2,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -174,42 +176,42 @@
     {
       "event_key": "hormuz_status",
       "field": "status",
-      "from": "CLOSED",
-      "to": "OPEN",
-      "detected_at": "2026-04-24T20:07:44.122645+00:00",
+      "from": "OPEN",
+      "to": "CLOSED",
+      "detected_at": "2026-04-24T21:10:34.880388+00:00",
       "meaningful": false,
       "triggers_publish": false
     },
     {
       "event_key": "hormuz_status",
       "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-24T20:07:44.122645+00:00",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-24T21:10:34.880388+00:00",
       "meaningful": true,
       "triggers_publish": true
     },
     {
       "event_key": "global_risk_level",
       "field": "status",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-24T20:07:44.122645+00:00",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-24T21:10:34.880388+00:00",
       "meaningful": false,
       "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-24T20:07:44.122645+00:00",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-24T21:10:34.880388+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.958, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.961, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
