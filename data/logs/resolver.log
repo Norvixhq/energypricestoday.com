@@ -459,3 +459,15 @@
 [2026-04-24T20:07:44.122742+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
 [2026-04-24T20:07:44.123333+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-24T20:07:44.123370+00:00] ════════════════════════════════════════════════════════════
+[2026-04-24T21:10:34.874175+00:00] resolver: start
+[2026-04-24T21:10:34.878380+00:00] resolver: scanning 273 clusters across 10 topics
+[2026-04-24T21:10:34.878749+00:00]   hormuz_status: CLOSED (conf=0.961, freshness=fresh, clusters=5)
+[2026-04-24T21:10:34.879980+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=13)
+[2026-04-24T21:10:34.880103+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-24T21:10:34.880151+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-24T21:10:34.880325+00:00]   top_story: 'June WTI Crude Oil Contract Closes Down US$1.45; Settles at ' (score=86.68)
+[2026-04-24T21:10:34.880421+00:00] resolver: 4 change(s), 2 meaningful, 1 publish-triggering
+[2026-04-24T21:10:34.880458+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'HIGH' (triggers_publish=True)
+[2026-04-24T21:10:34.880490+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-24T21:10:34.881088+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-24T21:10:34.881130+00:00] ════════════════════════════════════════════════════════════
