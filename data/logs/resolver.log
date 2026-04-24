@@ -358,3 +358,18 @@
 [2026-04-24T10:11:03.852918+00:00] resolver: no state changes
 [2026-04-24T10:11:03.853492+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-24T10:11:03.853531+00:00] ════════════════════════════════════════════════════════════
+[2026-04-24T11:38:39.399083+00:00] resolver: start
+[2026-04-24T11:38:39.403249+00:00] resolver: scanning 269 clusters across 10 topics
+[2026-04-24T11:38:39.403660+00:00]   hormuz_status: CLOSED (conf=0.815, freshness=fresh, clusters=10)
+[2026-04-24T11:38:39.404828+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=13)
+[2026-04-24T11:38:39.404944+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-24T11:38:39.404989+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-24T11:38:39.405180+00:00]   top_story: 'US oil executives expect crude output to rise as Iran war co' (score=86.78)
+[2026-04-24T11:38:39.405247+00:00] resolver: 5 change(s), 5 meaningful, 2 publish-triggering
+[2026-04-24T11:38:39.405282+00:00]   Δ hormuz_status.status: 'OPEN' → 'CLOSED' (triggers_publish=True)
+[2026-04-24T11:38:39.405311+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'HIGH' (triggers_publish=True)
+[2026-04-24T11:38:39.405337+00:00]   Δ us_iran_ceasefire.next_catalyst_date: '2026-04-24' → '' (triggers_publish=False)
+[2026-04-24T11:38:39.405361+00:00]   Δ global_risk_level.status: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-24T11:38:39.405384+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-24T11:38:39.405965+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-24T11:38:39.406005+00:00] ════════════════════════════════════════════════════════════

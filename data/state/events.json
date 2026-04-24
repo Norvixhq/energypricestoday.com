@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-24T10:11:03.852979+00:00",
-  "previous_generated_at": "2026-04-24T08:20:55.585111+00:00",
-  "resolver_run_count": 33,
+  "generated_at": "2026-04-24T11:38:39.405407+00:00",
+  "previous_generated_at": "2026-04-24T10:11:03.852979+00:00",
+  "resolver_run_count": 34,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "Gulf oil output recovery may take months after Hormuz reopening",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.856,
-      "last_confirmed": "2026-04-24T09:46:23+00:00",
-      "source_count": 17,
+      "status": "CLOSED",
+      "status_detail": "Tanker HELGA arrives at Iraq’s Basra terminal to load crude, second since Hormuz closure",
+      "status_tag": "Strait closed",
+      "risk_level": "HIGH",
+      "confidence": 0.815,
+      "last_confirmed": "2026-04-24T11:06:00+00:00",
+      "source_count": 16,
       "summary_short": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz",
-      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Gulf oil output likely to rebound within months after Hormuz reopening, Goldman says",
+      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Oil prices rise as U.S. and Iran jockey for control over Strait of Hormuz",
       "evidence_cluster_ids": [
+        "c_f3d8c93719daed",
+        "c_20895a54c9ace8",
         "c_1638c365fa6282",
-        "c_2e93c838831794",
         "c_ac746c3e956d79",
-        "c_b8fb9ee42ca2ba",
-        "c_23ac776a2e6c50"
+        "c_5d448101fe1b56"
       ],
-      "evidence_count": 11,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,13 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_2e93c83883 → CONTESTED (kw='attack', weight=0.52)",
-        "cluster c_b8fb9ee42c → OPEN (kw='reopen', weight=0.49)",
-        "cluster c_821b509194 → OPEN (kw='reopen', weight=0.55)",
-        "winning=OPEN (1.04/1.57), conf=0.856"
-      ]
+        "cluster c_20895a54c9 → CLOSED (kw='closure', weight=0.59) [OPEN suppressed]",
+        "cluster c_5d448101fe → CONTESTED (kw='attack', weight=0.09)",
+        "cluster c_821b509194 → OPEN (kw='reopen', weight=0.45)",
+        "winning=CLOSED (0.59/1.13), conf=0.815"
+      ],
+      "previous_status": "OPEN",
+      "last_changed": "2026-04-24T11:38:39.405219+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -56,18 +58,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-24T07:31:03+00:00",
-      "source_count": 10,
-      "summary_short": "Oil rises as Iran war worries keep markets on edge with Hormuz Strait staying shut",
-      "summary_long": "Oil rises as Iran war worries keep markets on edge with Hormuz Strait staying shut. Here's why most Trump options on Iran point to higher crude oil prices",
+      "last_confirmed": "2026-04-24T11:06:00+00:00",
+      "source_count": 14,
+      "summary_short": "Oil prices rise as U.S. and Iran jockey for control over Strait of Hormuz",
+      "summary_long": "Oil prices rise as U.S. and Iran jockey for control over Strait of Hormuz. Dollar set for weekly gain on stalled US-Iran talks and Middle East uncertainty",
       "evidence_cluster_ids": [
-        "c_2e93c838831794",
-        "c_e25b17613a27f7",
-        "c_10a3d22e236bc9",
-        "c_2a215174618f9c",
+        "c_f3d8c93719daed",
+        "c_50d221d78f0f82",
+        "c_61195332752dfc",
+        "c_7ed888103be3c5",
         "c_c2613bd563dd2f"
       ],
-      "evidence_count": 9,
+      "evidence_count": 13,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -84,9 +86,9 @@
       "rationale": [
         "fell back to default 'HOLDING'"
       ],
-      "next_catalyst_date": "2026-04-24",
-      "next_catalyst_description": "Oil Price Today (April 24): Crude oil nears $110, extends 5-day rally as Iran wa",
-      "next_catalyst_micro": "Extension vote"
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -122,18 +124,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "HIGH",
+      "risk_level": "HIGH",
+      "score": 50,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: high.",
+      "summary_long": "Risk drivers: Hormuz closed",
+      "summary_micro": "closed",
       "rationale": [
+        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -145,7 +148,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "LOW",
+      "last_changed": "2026-04-24T11:38:39.405219+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -156,8 +161,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMjA2eTRucEtFX0FvOXBwUVdzWWZTTTBLMkhpQXlqQUxfYlZ5bi0waTM0ZzRmdGtuVDVIZ1VqZkFaOU4wNWNOSERSdTZCTk55VVQ2OXBXSDJ1bkpFQ3IwQV9PSXl0UmdLdkNxSjNJamxRYjI3MWlCS1o5eU9jNFJnZ0hRQzEwZW9HUG55cmhCQ3Nabnc2YjBwZ05HRnU0V2p4UzF1Zl9EUEJSUEs4UV8xVVdjYV9OYjcxdUo4NTExMGw5LTQybXZPSQ?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 92.66,
-      "novelty": "growing",
+      "score": 86.78,
+      "novelty": "ongoing",
       "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
@@ -168,9 +173,55 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "OPEN",
+      "to": "CLOSED",
+      "detected_at": "2026-04-24T11:38:39.405219+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-24T11:38:39.405219+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "next_catalyst_date",
+      "from": "2026-04-24",
+      "to": "",
+      "detected_at": "2026-04-24T11:38:39.405219+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-24T11:38:39.405219+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-24T11:38:39.405219+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.856, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.815, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
