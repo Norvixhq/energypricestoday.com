@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-25T11:09:00.584469+00:00",
-  "previous_generated_at": "2026-04-25T10:11:35.107898+00:00",
-  "resolver_run_count": 52,
+  "generated_at": "2026-04-25T11:58:24.871141+00:00",
+  "previous_generated_at": "2026-04-25T11:09:00.584469+00:00",
+  "resolver_run_count": 53,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,17 @@
       "status_detail": "Oil Posts Weekly Gains on Continued Hormuz Closure",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.957,
+      "confidence": 0.964,
       "last_confirmed": "2026-04-25T07:44:50+00:00",
-      "source_count": 8,
+      "source_count": 7,
       "summary_short": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz",
-      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Iran continuing to lay mines in Strait of Hormuz, US official says",
+      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Map reveals all the alternative routes for Middle East oil and gas to bypass the Strait of Hormuz he",
       "evidence_cluster_ids": [
-        "c_e6a7fca71372b9",
-        "c_23ac776a2e6c50",
+        "c_bd2f9b3f719216",
         "c_b437922ee9c07e",
-        "c_93ea859389b413",
         "c_39c68540d55378"
       ],
-      "evidence_count": 5,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +39,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b437922ee9 → CLOSED (kw='closure', weight=0.33) [OPEN suppressed]",
-        "winning=CLOSED (0.33/0.33), conf=0.957"
+        "cluster c_b437922ee9 → CLOSED (kw='closure', weight=0.32) [OPEN suppressed]",
+        "winning=CLOSED (0.32/0.32), conf=0.964"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +52,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-25T11:00:05+00:00",
-      "source_count": 8,
-      "summary_short": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "summary_long": "Live Updates: Latest from Israel, Iran, and the Middle East. Why the oil market hasn't seen the Iran war doomsday scenario that experts warned about",
+      "last_confirmed": "2026-04-25T08:26:54+00:00",
+      "source_count": 11,
+      "summary_short": "Map reveals all the alternative routes for Middle East oil and gas to bypass the Strait of Hormuz held to ransom by Iran",
+      "summary_long": "Map reveals all the alternative routes for Middle East oil and gas to bypass the Strait of Hormuz held to ransom by Iran. On Iran’s Border, Cooking Oil Trade Is a Snapshot of the Country’s Struggles",
       "evidence_cluster_ids": [
+        "c_bd2f9b3f719216",
+        "c_48690c561c8a12",
         "c_6384513c40ea59",
-        "c_4f1bc1c36f5411",
-        "c_e6a7fca71372b9",
         "c_002a2d053512ab",
-        "c_1b80496b56aaeb"
+        "c_d42d95cb498be5"
       ],
-      "evidence_count": 7,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -155,8 +153,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxNQnhVSGRYS3dIMlhRQUswM3BCdWZ2WEs2dWJjdU41WDhrRjJVSi1oWGtMWS1IZlFkOVo4S2hWZXZrZ3R2UmhZbzBaZGVZMTc2NFVrS1AwVWdIMkQ0c1V5dVpKS1o0TEppWXFnUGQxeFo2R1dCY01oeDE4LW5LTXVJRl83bjJVRXVBY3F2QjJVQ0d0RUtVX1lDSjJQOVE2aGhoc0hQbHJhUWhXbXQ5VjMzVW1pZTIyWmFrMkZyeVY3eWN3SXBtSlYyWXE1WHloZVFhRnhMYkZVOEhfcFJNYk9zNk1HQlNKcHhIS0tUbU0zTF9naF9PNDF4eXU3aFJ3cGhMVEhlOUloTlpmTG9kYy1GWUZJV3R1aXZSUnhKRjF3?oc=5",
       "lead_source": "S&P Global",
       "topic": "oil",
-      "score": 92.75,
-      "novelty": "new",
+      "score": 81.75,
+      "novelty": "ongoing",
       "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
@@ -169,7 +167,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.964, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
