@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of April 24, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Brent crude oil prices top $100 as US awaits Iran's response on peace talks", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil prices today: Crude climbs as US-Iran talks uncertainty keeps markets on edge; Brent tops $106", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Price Today (April 24): Crude oil nears $110, extends 5-day rally as Iran war tensions rise. Here’s wh", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Current price of oil as of April 24, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil prices today: Crude edges lower after sharp gains as Iran–US tensions keep markets on edge", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Crude Gains Offset by Draws in Oil Products", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
