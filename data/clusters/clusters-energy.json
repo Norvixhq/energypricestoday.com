@@ -1,11 +1,11 @@
 {
   "topic": "energy",
-  "generated_at": "2026-04-25T15:13:30.294478+00:00",
+  "generated_at": "2026-04-25T16:00:55.848588+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 25,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_8bc4bb39da7b79",
@@ -26,11 +26,11 @@
       ],
       "earliest_seen": "2026-04-24T02:52:00+00:00",
       "latest_seen": "2026-04-25T12:01:35+00:00",
-      "age_hours": 3.2,
-      "score": 81.21,
+      "age_hours": 3.99,
+      "score": 80.73,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 23.08,
+        "recency_points": 22.61,
         "source_quality_points": 22.12,
         "entity_relevance_points": 16,
         "materiality_points": 0.0
@@ -95,11 +95,11 @@
       ],
       "earliest_seen": "2026-04-25T11:30:01+00:00",
       "latest_seen": "2026-04-25T11:30:01+00:00",
-      "age_hours": 3.72,
-      "score": 65.17,
+      "age_hours": 4.52,
+      "score": 64.69,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.77,
+        "recency_points": 22.29,
         "source_quality_points": 29.4,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -115,6 +115,47 @@
           "source_type": "rss",
           "published_at": "2026-04-25T11:30:01+00:00",
           "confidence": 0.98
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_b59d05cb5bd25c",
+      "topic": "energy",
+      "lead_title": "Markets slump for 3rd day on surging oil prices, massive selling in IT stocks; Sensex drops 1k pts",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZXM4TkxVdXZSakJRZHdtWUxPN3Z5VEFRa0JGY3FuTVM5UXBxeXlOMGp6ZzFMRzVjdkp5WlhWNW56ZU1EQUJ5QnVCYWRmNXFBRk5PS01BYnVZV2JVVk9NT0VGaG1LLXljT1JPNElfNUFZZEFQQ2FrbHNGRFVEQmVlSlFsN0ZEUjZudC1BQnJhanlvWlRjYW5SNkUzVVptWWdESGQ4N2hRVmhYR0tnT294Y0RMOFhGTy1yR2RMT1NVb1FVMlhwZkxDN0ZMM0NqeGRaYzcybzZYandDMUxBdllkV3RvS1VQcUFiY3ExdGFzakcxYklZQmNRNmdmWXZlYko4TUpXSw?oc=5",
+      "lead_source": "MSN",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-25T04:15:15+00:00",
+      "latest_seen": "2026-04-25T04:15:15+00:00",
+      "age_hours": 11.76,
+      "score": 56.44,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.94,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "378736e20ec7ca62",
+          "title": "Markets slump for 3rd day on surging oil prices, massive selling in IT stocks; Sensex drops 1k pts",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOZXM4TkxVdXZSakJRZHdtWUxPN3Z5VEFRa0JGY3FuTVM5UXBxeXlOMGp6ZzFMRzVjdkp5WlhWNW56ZU1EQUJ5QnVCYWRmNXFBRk5PS01BYnVZV2JVVk9NT0VGaG1LLXljT1JPNElfNUFZZEFQQ2FrbHNGRFVEQmVlSlFsN0ZEUjZudC1BQnJhanlvWlRjYW5SNkUzVVptWWdESGQ4N2hRVmhYR0tnT294Y0RMOFhGTy1yR2RMT1NVb1FVMlhwZkxDN0ZMM0NqeGRaYzcybzZYandDMUxBdllkV3RvS1VQcUFiY3ExdGFzakcxYklZQmNRNmdmWXZlYko4TUpXSw?oc=5",
+          "source": "MSN",
+          "source_type": "rss",
+          "published_at": "2026-04-25T04:15:15+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
@@ -137,11 +178,11 @@
       ],
       "earliest_seen": "2026-04-25T11:15:00+00:00",
       "latest_seen": "2026-04-25T11:15:00+00:00",
-      "age_hours": 3.98,
-      "score": 56.61,
+      "age_hours": 4.77,
+      "score": 56.14,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.61,
+        "recency_points": 22.14,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -159,7 +200,90 @@
           "confidence": 0.7
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_1bfa655fb53edf",
+      "topic": "energy",
+      "lead_title": "‘The damage is done’: Why the IEA chief believes the global oil market will never return to normal",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbVRmX21TYzZmU1otbEJSWDJ5ck1rc3VIUFJDc0Z2TkdzdUVVMWxvcmdRNnlYNGtmbG9HSTQ2NzE2S3ZQaWdiSFhSVDBNVWp0djlxN1Z2RlhPV2dJZy1qNGVtb3pBWjV0U2JZRjhXekFkNFp3US1SV2ZfcENHUEw0azdiUUlaOEVNNlczeTYxbzJzcnBuOFJZcnpQbnpPZVRwS0F1R0Vwc3JGUWIzaFpUVEtsTHY2T3drYzJJ0gHCAUFVX3lxTE5xUTJHdU9leG1jUDhYZTZsbExYOWk1MlRIRXZ4UUZnbkRxMTFkUDhnVWhDZE81cTItVk85b2RKeU02THQzd0ludTMxSWcxU0x5dFVjaTZOYnZiYkFQbEhaN0FCcnloX1RSM2prZUNETENILXZDMUxVYzJUNm80cUJ4OGt2SmpaMWxHQVY2TUZLUzg1SjAyb2lxX3lvRHNtZ2VBQXk4TWl5R1NoTDJlOTQ4ZE9EODMyZ3FIeU14UFZmQUVR?oc=5",
+      "lead_source": "The Indian Express",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T23:31:37+00:00",
+      "latest_seen": "2026-04-24T23:31:37+00:00",
+      "age_hours": 16.49,
+      "score": 53.61,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 15.11,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6c712f79384d5128",
+          "title": "‘The damage is done’: Why the IEA chief believes the global oil market will never return to normal",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbVRmX21TYzZmU1otbEJSWDJ5ck1rc3VIUFJDc0Z2TkdzdUVVMWxvcmdRNnlYNGtmbG9HSTQ2NzE2S3ZQaWdiSFhSVDBNVWp0djlxN1Z2RlhPV2dJZy1qNGVtb3pBWjV0U2JZRjhXekFkNFp3US1SV2ZfcENHUEw0azdiUUlaOEVNNlczeTYxbzJzcnBuOFJZcnpQbnpPZVRwS0F1R0Vwc3JGUWIzaFpUVEtsTHY2T3drYzJJ0gHCAUFVX3lxTE5xUTJHdU9leG1jUDhYZTZsbExYOWk1MlRIRXZ4UUZnbkRxMTFkUDhnVWhDZE81cTItVk85b2RKeU02THQzd0ludTMxSWcxU0x5dFVjaTZOYnZiYkFQbEhaN0FCcnloX1RSM2prZUNETENILXZDMUxVYzJUNm80cUJ4OGt2SmpaMWxHQVY2TUZLUzg1SjAyb2lxX3lvRHNtZ2VBQXk4TWl5R1NoTDJlOTQ4ZE9EODMyZ3FIeU14UFZmQUVR?oc=5",
+          "source": "The Indian Express",
+          "source_type": "rss",
+          "published_at": "2026-04-24T23:31:37+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5249d20c498bd9",
+      "topic": "energy",
+      "lead_title": "ANZ expects Brent crude to end 2026 at $88/barrel on Middle East supply losses",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVERjMkhPSEczY3lZLWJ4dWdXb0NRV1YxNWItUkxwbE1tVDJPSHZXWUg1VFhMcU9wbU5Sakh1Qmk1VGYzM1AzOFNhUlZaUXRwRVo3OURfT3kyX3NvZFZ2VHI1ZzZJZk5TdmlDUDM2NE1TZzZZYmV6cWNtTmNlN1pDeEE1cmowOWp4bk9lMXlDQ0R4emZMN0JscWdpY2RyTzlmOHA3a3FHOHNVLTctTng4aHJHSXdHZEp0Tmp5MA?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "Brent",
+        "crude"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-13T07:00:00+00:00",
+      "latest_seen": "2026-04-13T07:00:00+00:00",
+      "age_hours": 297.02,
+      "score": 53.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e0a7a6f92c80bc4f",
+          "title": "ANZ expects Brent crude to end 2026 at $88/barrel on Middle East supply losses",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVERjMkhPSEczY3lZLWJ4dWdXb0NRV1YxNWItUkxwbE1tVDJPSHZXWUg1VFhMcU9wbU5Sakh1Qmk1VGYzM1AzOFNhUlZaUXRwRVo3OURfT3kyX3NvZFZ2VHI1ZzZJZk5TdmlDUDM2NE1TZzZZYmV6cWNtTmNlN1pDeEE1cmowOWp4bk9lMXlDQ0R4emZMN0JscWdpY2RyTzlmOHA3a3FHOHNVLTctTng4aHJHSXdHZEp0Tmp5MA?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-13T07:00:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -178,11 +302,11 @@
       ],
       "earliest_seen": "2026-04-25T09:15:00+00:00",
       "latest_seen": "2026-04-25T09:15:00+00:00",
-      "age_hours": 5.98,
-      "score": 49.91,
+      "age_hours": 6.77,
+      "score": 49.44,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.41,
+        "recency_points": 20.94,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -219,11 +343,11 @@
       ],
       "earliest_seen": "2026-04-24T21:35:41+00:00",
       "latest_seen": "2026-04-24T21:35:41+00:00",
-      "age_hours": 17.63,
-      "score": 48.42,
+      "age_hours": 18.42,
+      "score": 47.95,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.42,
+        "recency_points": 13.95,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -260,11 +384,11 @@
       ],
       "earliest_seen": "2026-04-25T04:35:35+00:00",
       "latest_seen": "2026-04-25T04:35:35+00:00",
-      "age_hours": 10.63,
-      "score": 47.12,
+      "age_hours": 11.42,
+      "score": 46.65,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.62,
+        "recency_points": 18.15,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -286,11 +410,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_15bd8e64ad524e",
+      "cluster_id": "c_55fc9fcdd62977",
       "topic": "energy",
-      "lead_title": "Oil prices edge higher after Trump reiterates threat to bomb every bridge and power plant in Iran",
-      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclZGYUFGNUZLQmVMbGVpMnlmendtSHI2Smc3TkZmM0h6bGlnazZGdVhjeVl1MVlGWGFuSC1lQThRS0YzN0xoZ3FfSklYYzZVeENXYjVKN1B3dDZMbDFkZnNjaG5nVUdIQzJrXzVqaXhuajJpU0FZMjRydGRuNnRaR1R30gGHAUFVX3lxTFBWY2VCRnpIY0dSc0d4bVFEeDd4b1NidC1mU3hIZUlBeWhMR1pOS2NWQ0t0eUxqWVFZZWxDY0VfQWlFZzFSay1HNkRIZ2ZKcVBscGJXTDBhYnhTRFU4Q1BXS2t6ci1mNzlxdXhHRUZEbkFqazV6ejlEcTlOVUxwbnUtRnFPdUlybw?oc=5",
-      "lead_source": "CNBC",
+      "lead_title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pUlQ5V2huWm9sUVk4cGFJQU5NTFBpYlpCaHotZTJuOUp4THFVNHRGMU1ldWI3eGFxRVVkTUNzWktyUlpBUlczZTVtSzBSWXBDbUplWjhFU0Y2Zw?oc=5",
+      "lead_source": "BBC",
       "canonical_entities": [
         "oil"
       ],
@@ -299,14 +423,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-05T07:00:00+00:00",
-      "latest_seen": "2026-04-05T07:00:00+00:00",
-      "age_hours": 488.23,
-      "score": 46.9,
+      "earliest_seen": "2026-04-08T07:00:00+00:00",
+      "latest_seen": "2026-04-08T07:00:00+00:00",
+      "age_hours": 417.02,
+      "score": 46.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.9,
+        "source_quality_points": 27.0,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -314,24 +438,24 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "c9ecf6a99ad43ed5",
-          "title": "Oil prices edge higher after Trump reiterates threat to bomb every bridge and power plant in Iran",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclZGYUFGNUZLQmVMbGVpMnlmendtSHI2Smc3TkZmM0h6bGlnazZGdVhjeVl1MVlGWGFuSC1lQThRS0YzN0xoZ3FfSklYYzZVeENXYjVKN1B3dDZMbDFkZnNjaG5nVUdIQzJrXzVqaXhuajJpU0FZMjRydGRuNnRaR1R30gGHAUFVX3lxTFBWY2VCRnpIY0dSc0d4bVFEeDd4b1NidC1mU3hIZUlBeWhMR1pOS2NWQ0t0eUxqWVFZZWxDY0VfQWlFZzFSay1HNkRIZ2ZKcVBscGJXTDBhYnhTRFU4Q1BXS2t6ci1mNzlxdXhHRUZEbkFqazV6ejlEcTlOVUxwbnUtRnFPdUlybw?oc=5",
-          "source": "CNBC",
+          "headline_id": "f6c0d216e8fce846",
+          "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pUlQ5V2huWm9sUVk4cGFJQU5NTFBpYlpCaHotZTJuOUp4THFVNHRGMU1ldWI3eGFxRVVkTUNzWktyUlpBUlczZTVtSzBSWXBDbUplWjhFU0Y2Zw?oc=5",
+          "source": "BBC",
           "source_type": "rss",
-          "published_at": "2026-04-05T07:00:00+00:00",
-          "confidence": 0.93
+          "published_at": "2026-04-08T07:00:00+00:00",
+          "confidence": 0.9
         }
       ],
       "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_323f1ffbfa3d10",
+      "cluster_id": "c_10bde6d7b280ea",
       "topic": "energy",
-      "lead_title": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
-      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWR6UEhjR3hzODlPZ3gtR2JOR1p1M0tPZHhuYXZiLVhwUjVIS2Q3UlVZRjU0b3NlVTVpMGkzTFFjLU1LcEY5MVd2ZW1fVVVVaWdvMC1TWnZkVVZHcG1HRmNGU3VING5FeGRVQUlMSEtCODhsZUJ4bDNRdy1RbXQxaW51dFI0OUJ1ci1oenFLb9IBlAFBVV95cUxNN1kya1Z3MzAwSVN0eDBYaEVsVW00V3l0ci1aX0RhQjlfYUR3N0syYnFmcXB4S09XNHBiMFM2LUVjcUJqMW5Ec0NPaUFrbnpfWVFHaFpkaGxoQThTbUlNYl9QNVRJOUNuNlU4dV9lWFFvWHdIbHN2WlVIcDQtYVZfSmRyeVVLc28wVWg5VTJmWHhBZkNz?oc=5",
-      "lead_source": "CNBC",
+      "lead_title": "Oil prices jump and shares drop after Trump threatens more Iran strikes",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NbG8wZk0wS0VtVF9FeHNpVlZNdkRfM1RwazJBbDBTM3F3Zy1sRjJNWVVMUFdQUnpJUEtCbFhVczZlTkZLOUNsYm9XejFLcE1nZnZONDlRd0RyUQ?oc=5",
+      "lead_source": "BBC",
       "canonical_entities": [
         "oil"
       ],
@@ -340,14 +464,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-01T07:00:00+00:00",
-      "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 584.23,
-      "score": 46.9,
+      "earliest_seen": "2026-04-02T07:00:00+00:00",
+      "latest_seen": "2026-04-02T07:00:00+00:00",
+      "age_hours": 561.02,
+      "score": 46.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.9,
+        "source_quality_points": 27.0,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -355,55 +479,13 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "ff7cc1fabf5af734",
-          "title": "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWR6UEhjR3hzODlPZ3gtR2JOR1p1M0tPZHhuYXZiLVhwUjVIS2Q3UlVZRjU0b3NlVTVpMGkzTFFjLU1LcEY5MVd2ZW1fVVVVaWdvMC1TWnZkVVZHcG1HRmNGU3VING5FeGRVQUlMSEtCODhsZUJ4bDNRdy1RbXQxaW51dFI0OUJ1ci1oenFLb9IBlAFBVV95cUxNN1kya1Z3MzAwSVN0eDBYaEVsVW00V3l0ci1aX0RhQjlfYUR3N0syYnFmcXB4S09XNHBiMFM2LUVjcUJqMW5Ec0NPaUFrbnpfWVFHaFpkaGxoQThTbUlNYl9QNVRJOUNuNlU4dV9lWFFvWHdIbHN2WlVIcDQtYVZfSmRyeVVLc28wVWg5VTJmWHhBZkNz?oc=5",
-          "source": "CNBC",
+          "headline_id": "a7c227354aba7ab9",
+          "title": "Oil prices jump and shares drop after Trump threatens more Iran strikes",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NbG8wZk0wS0VtVF9FeHNpVlZNdkRfM1RwazJBbDBTM3F3Zy1sRjJNWVVMUFdQUnpJUEtCbFhVczZlTkZLOUNsYm9XejFLcE1nZnZONDlRd0RyUQ?oc=5",
+          "source": "BBC",
           "source_type": "rss",
-          "published_at": "2026-04-01T07:00:00+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6cdba881f35adb",
-      "topic": "energy",
-      "lead_title": "Real-world oil prices just hit a record high, signaling acute stress in the energy market",
-      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTnBUbllKejUtdzAteWx6UmdIa3NMbHh3NzdrTUFmU3FuUW1XMTNqZ1h0MlUtZFVnVi1hbVhqZ2ZxN2JZNzhPQXVoazVYQkphOTAzVVlMZzFTQnhNMGdkVGxDMmV0NVlOMFZYcFA3ai1ZSGYyVUxISUhXS1dxZkk2aWFFRnRpTlFUUzJ1a1JhVFMycnB4Qlpoci1yUXo2a21NYmtacEJIa2NqUkFjWGV4MkZxOUtkalFoUFBGQ3dDN1FVSEJPT1VQak1Fdw?oc=5",
-      "lead_source": "MarketWatch",
-      "canonical_entities": [
-        "energy",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-07T07:00:00+00:00",
-      "latest_seen": "2026-04-07T07:00:00+00:00",
-      "age_hours": 440.23,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a090755e2e07b38d",
-          "title": "Real-world oil prices just hit a record high, signaling acute stress in the energy market",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTnBUbllKejUtdzAteWx6UmdIa3NMbHh3NzdrTUFmU3FuUW1XMTNqZ1h0MlUtZFVnVi1hbVhqZ2ZxN2JZNzhPQXVoazVYQkphOTAzVVlMZzFTQnhNMGdkVGxDMmV0NVlOMFZYcFA3ai1ZSGYyVUxISUhXS1dxZkk2aWFFRnRpTlFUUzJ1a1JhVFMycnB4Qlpoci1yUXo2a21NYmtacEJIa2NqUkFjWGV4MkZxOUtkalFoUFBGQ3dDN1FVSEJPT1VQak1Fdw?oc=5",
-          "source": "MarketWatch",
-          "source_type": "rss",
-          "published_at": "2026-04-07T07:00:00+00:00",
-          "confidence": 0.7
+          "published_at": "2026-04-02T07:00:00+00:00",
+          "confidence": 0.9
         }
       ],
       "top_tier": false,
@@ -425,11 +507,11 @@
       ],
       "earliest_seen": "2026-04-24T11:44:04+00:00",
       "latest_seen": "2026-04-24T11:44:04+00:00",
-      "age_hours": 27.49,
-      "score": 42.51,
+      "age_hours": 28.28,
+      "score": 42.03,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.51,
+        "recency_points": 8.03,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -451,6 +533,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_29f166891a20bb",
+      "topic": "energy",
+      "lead_title": "‘The damage is done’: global oil crisis has changed fossil fuel industry for ever, IEA chief says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONEZpckRHQ3NEc2wyNm50M1NtYUQ1REQ0eHVZV1Y1VU5Ic2c3eWpuZThXc2JCUWNmZnJjelNNSHZRLUhQeGZ3WDVRckdOMUc1OTljb05oZUxzRGlDMXBPdkRfS2Y3Z0h5dWFybzVHMXB3WmFfdldoMUk3bnpXRm1jQ2JhSDJ2czM3RGE4bDFRdXd5WUY0LUNval82RkJRTmltQmZFanBlZ0IzYktjaVBvVWVuLTVjaFA0SVJDMVdBMl82d09zV2dyMw?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T15:35:00+00:00",
+      "latest_seen": "2026-04-24T15:35:00+00:00",
+      "age_hours": 24.43,
+      "score": 39.84,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 10.34,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "f8ef64b8744795ff",
+          "title": "‘The damage is done’: global oil crisis has changed fossil fuel industry for ever, IEA chief says",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONEZpckRHQ3NEc2wyNm50M1NtYUQ1REQ0eHVZV1Y1VU5Ic2c3eWpuZThXc2JCUWNmZnJjelNNSHZRLUhQeGZ3WDVRckdOMUc1OTljb05oZUxzRGlDMXBPdkRfS2Y3Z0h5dWFybzVHMXB3WmFfdldoMUk3bnpXRm1jQ2JhSDJ2czM3RGE4bDFRdXd5WUY0LUNval82RkJRTmltQmZFanBlZ0IzYktjaVBvVWVuLTVjaFA0SVJDMVdBMl82d09zV2dyMw?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-04-24T15:35:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_d203367e6dab33",
       "topic": "energy",
       "lead_title": "European, African crude oil prices hit records on supply disruptions despite ceasefire",
@@ -460,19 +583,19 @@
         "crude",
         "oil"
       ],
-      "source_count": 3,
-      "distinct_publishers": 3,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-07T07:00:00+00:00",
+      "earliest_seen": "2026-04-09T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 392.23,
-      "score": 42.0,
+      "age_hours": 393.02,
+      "score": 38.5,
       "score_components": {
-        "source_count_points": 15,
+        "source_count_points": 10,
         "recency_points": 0.0,
-        "source_quality_points": 24.0,
+        "source_quality_points": 25.5,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
       },
@@ -496,56 +619,6 @@
           "source_type": "rss",
           "published_at": "2026-04-09T07:00:00+00:00",
           "confidence": 0.7
-        },
-        {
-          "headline_id": "0950ccc334bebf76",
-          "title": "Crude oil and petroleum product prices increased sharply in the first quarter of 2026",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MUUtYRngtNFBMNjQ4Zkg0NzFqNXJVVVlnUkc2blhMQ09LdUF4U3hBX3hOWkVKdExMYjBzeVUxdG5UeGFuejVaaHgzRDlXQVdCaWMxVV9nSWZvaE1LaER5WTZnZw?oc=5",
-          "source": "U.S. Energy Information Administration (EIA) (.gov)",
-          "source_type": "rss",
-          "published_at": "2026-04-07T07:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_29f166891a20bb",
-      "topic": "energy",
-      "lead_title": "‘The damage is done’: global oil crisis has changed fossil fuel industry for ever, IEA chief says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONEZpckRHQ3NEc2wyNm50M1NtYUQ1REQ0eHVZV1Y1VU5Ic2c3eWpuZThXc2JCUWNmZnJjelNNSHZRLUhQeGZ3WDVRckdOMUc1OTljb05oZUxzRGlDMXBPdkRfS2Y3Z0h5dWFybzVHMXB3WmFfdldoMUk3bnpXRm1jQ2JhSDJ2czM3RGE4bDFRdXd5WUY0LUNval82RkJRTmltQmZFanBlZ0IzYktjaVBvVWVuLTVjaFA0SVJDMVdBMl82d09zV2dyMw?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-24T15:35:00+00:00",
-      "latest_seen": "2026-04-24T15:35:00+00:00",
-      "age_hours": 23.64,
-      "score": 40.31,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 10.81,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f8ef64b8744795ff",
-          "title": "‘The damage is done’: global oil crisis has changed fossil fuel industry for ever, IEA chief says",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxONEZpckRHQ3NEc2wyNm50M1NtYUQ1REQ0eHVZV1Y1VU5Ic2c3eWpuZThXc2JCUWNmZnJjelNNSHZRLUhQeGZ3WDVRckdOMUc1OTljb05oZUxzRGlDMXBPdkRfS2Y3Z0h5dWFybzVHMXB3WmFfdldoMUk3bnpXRm1jQ2JhSDJ2czM3RGE4bDFRdXd5WUY0LUNval82RkJRTmltQmZFanBlZ0IzYktjaVBvVWVuLTVjaFA0SVJDMVdBMl82d09zV2dyMw?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-04-24T15:35:00+00:00",
-          "confidence": 0.85
         }
       ],
       "top_tier": false,
@@ -567,11 +640,11 @@
       ],
       "earliest_seen": "2026-04-24T05:49:00+00:00",
       "latest_seen": "2026-04-24T05:49:00+00:00",
-      "age_hours": 33.41,
-      "score": 38.95,
+      "age_hours": 34.2,
+      "score": 38.48,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.95,
+        "recency_points": 4.48,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -608,11 +681,11 @@
       ],
       "earliest_seen": "2026-04-24T01:55:00+00:00",
       "latest_seen": "2026-04-24T01:55:00+00:00",
-      "age_hours": 37.31,
-      "score": 34.51,
+      "age_hours": 38.1,
+      "score": 34.04,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.61,
+        "recency_points": 2.14,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -649,7 +722,7 @@
       ],
       "earliest_seen": "2026-04-23T20:29:39+00:00",
       "latest_seen": "2026-04-23T20:29:39+00:00",
-      "age_hours": 42.73,
+      "age_hours": 43.52,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -690,7 +763,7 @@
       ],
       "earliest_seen": "2026-04-14T07:00:00+00:00",
       "latest_seen": "2026-04-14T07:00:00+00:00",
-      "age_hours": 272.23,
+      "age_hours": 273.02,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -731,7 +804,7 @@
       ],
       "earliest_seen": "2026-04-13T07:00:00+00:00",
       "latest_seen": "2026-04-13T07:00:00+00:00",
-      "age_hours": 296.23,
+      "age_hours": 297.02,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -770,11 +843,11 @@
       ],
       "earliest_seen": "2026-04-24T06:33:05+00:00",
       "latest_seen": "2026-04-24T06:33:05+00:00",
-      "age_hours": 32.67,
-      "score": 31.8,
+      "age_hours": 33.46,
+      "score": 31.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.4,
+        "recency_points": 4.92,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -809,11 +882,11 @@
       ],
       "earliest_seen": "2026-04-24T02:53:00+00:00",
       "latest_seen": "2026-04-24T02:53:00+00:00",
-      "age_hours": 36.34,
-      "score": 31.69,
+      "age_hours": 37.13,
+      "score": 31.22,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.19,
+        "recency_points": 2.72,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -850,7 +923,7 @@
       ],
       "earliest_seen": "2026-04-20T20:33:01+00:00",
       "latest_seen": "2026-04-20T20:33:01+00:00",
-      "age_hours": 114.67,
+      "age_hours": 115.47,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -891,7 +964,7 @@
       ],
       "earliest_seen": "2026-04-20T08:25:00+00:00",
       "latest_seen": "2026-04-20T08:25:00+00:00",
-      "age_hours": 126.81,
+      "age_hours": 127.6,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -917,47 +990,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_93ce7722c04091",
-      "topic": "energy",
-      "lead_title": "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmk0akFrN2hlRHk1MlJyQlVIM2t4aW9IV0tBY3hMOENpeUFPMm1mdXlvbWNZZ3lyWmdqeDVNekE1Z1VTaTVFMW10anY2cUNtaXZtUTAyaVF4V25SM2RMOEMzZFZyQ2tlX2FuTFNxeVhBSWRoQUJRVzNJZUJhZ2lfbzNHRFlnUzN5WG1tV1p4VGg0RU8xYldpLWxtOWhvdWdLZ2xzNUpLNW1hak5zcm1r?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-08T07:00:00+00:00",
-      "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 416.23,
-      "score": 29.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "08f9b4498cc93d99",
-          "title": "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSmk0akFrN2hlRHk1MlJyQlVIM2t4aW9IV0tBY3hMOENpeUFPMm1mdXlvbWNZZ3lyWmdqeDVNekE1Z1VTaTVFMW10anY2cUNtaXZtUTAyaVF4V25SM2RMOEMzZFZyQ2tlX2FuTFNxeVhBSWRoQUJRVzNJZUJhZ2lfbzNHRFlnUzN5WG1tV1p4VGg0RU8xYldpLWxtOWhvdWdLZ2xzNUpLNW1hak5zcm1r?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-04-08T07:00:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_c499e164f5b06b",
       "topic": "energy",
       "lead_title": "Oil and gas crisis from Iran war worse than 1973, ​1979 and 2022 together, says IEA",
@@ -973,7 +1005,7 @@
       ],
       "earliest_seen": "2026-04-07T07:00:00+00:00",
       "latest_seen": "2026-04-07T07:00:00+00:00",
-      "age_hours": 440.23,
+      "age_hours": 441.02,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -1015,7 +1047,7 @@
       ],
       "earliest_seen": "2026-04-03T07:00:00+00:00",
       "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 536.23,
+      "age_hours": 537.02,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1054,7 +1086,7 @@
       ],
       "earliest_seen": "2026-04-23T05:23:05+00:00",
       "latest_seen": "2026-04-23T05:23:05+00:00",
-      "age_hours": 57.84,
+      "age_hours": 58.63,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
