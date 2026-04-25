@@ -59,13 +59,13 @@ const FULL_PRICES = {
 
 const BREAKING_NEWS = [
   { title: "Current price of oil as of April 24, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil prices today: Crude edges lower after sharp gains as Iran–US tensions keep markets on edge", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Crude Gains Offset by Draws in Oil Products", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil prices today: Crude edges lower after sharp gains as Iran–US tensions keep markets on edge", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Crude Gains Offset by Draws in Oil Products", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
