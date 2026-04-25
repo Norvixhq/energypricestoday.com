@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-25T03:28:57.121029+00:00",
-  "previous_generated_at": "2026-04-24T23:59:50.114515+00:00",
-  "resolver_run_count": 46,
+  "generated_at": "2026-04-25T05:32:07.306639+00:00",
+  "previous_generated_at": "2026-04-25T03:28:57.121029+00:00",
+  "resolver_run_count": 47,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Oil Posts Weekly Gains on Continued Hormuz Closure",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.957,
-      "last_confirmed": "2026-04-24T21:50:00+00:00",
-      "source_count": 11,
+      "confidence": 0.954,
+      "last_confirmed": "2026-04-25T04:10:58+00:00",
+      "source_count": 12,
       "summary_short": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz",
-      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Oil Posts Weekly Gains on Continued Hormuz Closure",
+      "summary_long": "Watch Sanctioned Tanker Carrying Iranian Crude Oil Attempts to Cross Strait of Hormuz. Strait Of Hormuz May Stay Shut Until Second Half Of 2026 Amid Middle East, Baker Hughes CFO Says",
       "evidence_cluster_ids": [
+        "c_11fd3cac9a6344",
+        "c_e6a7fca71372b9",
         "c_b437922ee9c07e",
-        "c_bd2f9b3f719216",
-        "c_9c3678a2920e0e",
         "c_3ab317787245a3",
-        "c_39c68540d55378"
+        "c_9c3678a2920e0e"
       ],
-      "evidence_count": 7,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b437922ee9 → CLOSED (kw='closure', weight=0.49) [OPEN suppressed]",
-        "winning=CLOSED (0.49/0.49), conf=0.957"
+        "cluster c_b437922ee9 → CLOSED (kw='closure', weight=0.46) [OPEN suppressed]",
+        "winning=CLOSED (0.46/0.46), conf=0.954"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-25T03:00:05+00:00",
-      "source_count": 19,
+      "last_confirmed": "2026-04-25T00:00:05+00:00",
+      "source_count": 16,
       "summary_short": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "summary_long": "Live Updates: Latest from Israel, Iran, and the Middle East. Tech boosts US stocks to record close, oil dips on signs of Iran peace progress",
+      "summary_long": "Live Updates: Latest from Israel, Iran, and the Middle East. Iran continuing to lay mines in Strait of Hormuz, US official says",
       "evidence_cluster_ids": [
         "c_6384513c40ea59",
+        "c_e6a7fca71372b9",
         "c_002a2d053512ab",
-        "c_3ba4302625d84e",
         "c_1b80496b56aaeb",
-        "c_bd2f9b3f719216"
+        "c_7ed888103be3c5"
       ],
-      "evidence_count": 16,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -155,9 +155,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcG5yT3g4SFRKX2htOUV6LW9ET2Rpb1M1T3QxYWExVWxIVF9CdmhxS2NWdmlJTjhmSUhVUmxjSEhaRC1qb0pndzlEZFlZNm8tYU9OUm05YmJhcXR5bkVQXzNRc21hLXFudEMyTDl3Ynd4UGJ4TnduLUhNWjZCMzZwamZBTHA2ZkNoaERJRFI1aXY1SGc?oc=5",
       "lead_source": "Moomoo",
       "topic": "oil",
-      "score": 92.86,
+      "score": 92.46,
       "novelty": "growing",
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.954, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
