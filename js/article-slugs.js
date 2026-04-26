@@ -341,6 +341,7 @@ const ARTICLE_SLUGS = {
   "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Extension": "us-iran-ceasefire-explained-timeline-terms-and-extension",
   "U.S.-Iran Ceasefire Takes Effect After Pakistan-Brokered Deal Halts 40 Days of Conflict": "us-iran-ceasefire-takes-effect-after-pakistan-brokered-deal-halts-40-days-of-con",
   "US Crude Oil, Oil Product Inventories Come Crashing Down": "us-crude-oil-oil-product-inventories-come-crashing-down",
+  "US Oil Drillers Scale Back as Global Supply Crunch Continues": "us-oil-drillers-scale-back-as-global-supply-crunch-continues",
   "United States \u2014 Oklahoma": "united-states-oklahoma",
   "United States \u2014 Other States": "united-states-other-states",
   "United States \u2014 Texas": "united-states-texas",
