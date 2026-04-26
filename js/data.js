@@ -58,7 +58,7 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Current price of oil as of April 24, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Current price of oil as of April 23, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
