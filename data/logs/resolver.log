@@ -785,3 +785,14 @@
 [2026-04-26T11:59:59.854571+00:00] resolver: no state changes
 [2026-04-26T11:59:59.855145+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-26T11:59:59.855187+00:00] ════════════════════════════════════════════════════════════
+[2026-04-26T13:29:46.627576+00:00] resolver: start
+[2026-04-26T13:29:46.631709+00:00] resolver: scanning 264 clusters across 10 topics
+[2026-04-26T13:29:46.632059+00:00]   hormuz_status: RETIRED (stale beyond 2× threshold)
+[2026-04-26T13:29:46.633263+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=15)
+[2026-04-26T13:29:46.633397+00:00]   opec_plus_policy: HOLDING (conf=0.3, freshness=stale, clusters=1)
+[2026-04-26T13:29:46.633440+00:00]   global_risk_level: LOW (score=10)
+[2026-04-26T13:29:46.633609+00:00]   top_story: 'US drilling rig count keeps climbing in Baker Hughes survey' (score=85.1)
+[2026-04-26T13:29:46.633659+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-04-26T13:29:46.633690+00:00]   Δ hormuz_status.retired: 'OPEN' → 'None' (triggers_publish=True)
+[2026-04-26T13:29:46.634276+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-04-26T13:29:46.634317+00:00] ════════════════════════════════════════════════════════════

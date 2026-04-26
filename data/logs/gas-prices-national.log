@@ -152,3 +152,9 @@
 [2026-04-26T11:06:26.826303+00:00] OK: EIA regular=$4.044 diesel=$5.403
 [2026-04-26T11:57:25.491034+00:00] AAA page returned but parsed 0/4 grades
 [2026-04-26T11:57:29.061276+00:00] OK: EIA regular=$4.044 diesel=$5.403
+[2026-04-26T13:26:01.404508+00:00] AAA page returned but parsed 0/4 grades
+[2026-04-26T13:26:31.054996+00:00] EIA mid fetch failed: The read operation timed out
+[2026-04-26T13:26:46.264087+00:00] EIA premium fetch failed: The read operation timed out
+[2026-04-26T13:27:01.475891+00:00] EIA diesel fetch failed: The read operation timed out
+[2026-04-26T13:27:01.476019+00:00] EIA returned 1/4 grades
+[2026-04-26T13:27:01.476300+00:00] Both AAA and EIA failed; kept previous snapshot
