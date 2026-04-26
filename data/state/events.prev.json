@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-26T21:51:21.615038+00:00",
-  "previous_generated_at": "2026-04-26T20:56:20.607591+00:00",
-  "resolver_run_count": 2,
+  "generated_at": "2026-04-26T22:53:10.910774+00:00",
+  "previous_generated_at": "2026-04-26T21:51:21.615038+00:00",
+  "resolver_run_count": 3,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "U.S.-Iran Talks & Strait of Hormuz Closure 2026",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.956,
-      "last_confirmed": "2026-04-26T19:47:41+00:00",
-      "source_count": 9,
+      "confidence": 0.955,
+      "last_confirmed": "2026-04-26T22:29:21+00:00",
+      "source_count": 8,
       "summary_short": "Strait of Hormuz restrictions fail to move WTI Crude Oil $160 market",
       "summary_long": "Strait of Hormuz restrictions fail to move WTI Crude Oil $160 market. U.S.-Iran Talks & Strait of Hormuz Closure 2026",
       "evidence_cluster_ids": [
         "c_d4e7d080fdb119",
+        "c_9b45b1b2264083",
         "c_87658eefc4c88b",
-        "c_e13ab64f06f865",
-        "c_6f2bac04d04520",
+        "c_23ac776a2e6c50",
         "c_99386f78d1af4d"
       ],
-      "evidence_count": 6,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_d4e7d080fd → CLOSED (kw='closure', weight=0.61) [OPEN suppressed]",
-        "cluster c_87658eefc4 → CLOSED (kw='closure', weight=0.46) [OPEN suppressed]",
-        "cluster c_6f2bac04d0 → CLOSED (kw='blockade', weight=0.10) [OPEN suppressed]",
-        "winning=CLOSED (1.17/1.17), conf=0.956"
+        "cluster c_d4e7d080fd → CLOSED (kw='closure', weight=0.50) [OPEN suppressed]",
+        "cluster c_87658eefc4 → CLOSED (kw='closure', weight=0.44) [OPEN suppressed]",
+        "winning=CLOSED (0.94/0.94), conf=0.955"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-26T19:36:00+00:00",
-      "source_count": 20,
-      "summary_short": "U.S.-Iran Talks & Strait of Hormuz Closure 2026",
-      "summary_long": "U.S.-Iran Talks & Strait of Hormuz Closure 2026. Trump says Iran has three days before oil infrastructure ‘explodes’ due to US blockade",
+      "last_confirmed": "2026-04-26T21:25:00+00:00",
+      "source_count": 14,
+      "summary_short": "Tanker carrying U.S. oil arrives in Japan for 1st time since Iran war",
+      "summary_long": "Tanker carrying U.S. oil arrives in Japan for 1st time since Iran war. Trump says Iran has three days before oil infrastructure ‘explodes’ due to US blockade",
       "evidence_cluster_ids": [
-        "c_d4e7d080fdb119",
+        "c_64887170aa52b6",
         "c_0782694b1678d9",
+        "c_d4e7d080fdb119",
         "c_c98eb5317916ef",
-        "c_e13ab64f06f865",
         "c_ae8b4ab6826942"
       ],
-      "evidence_count": 17,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -93,18 +92,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
-      "confidence": 0.3,
-      "last_confirmed": "2026-04-14T07:00:00+00:00",
-      "source_count": 2,
-      "summary_short": "Middle East oil production plunges due to Iran war, OPEC data shows",
-      "summary_long": "Middle East oil production plunges due to Iran war, OPEC data shows",
-      "evidence_cluster_ids": [
-        "c_48cbc4467bfacd"
-      ],
-      "evidence_count": 1,
+      "confidence": 0.5,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -114,10 +111,10 @@
         "markets.drivers.opec"
       ],
       "update_priority": "high",
-      "freshness": "stale",
+      "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -154,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_0987c114ae9515",
-      "lead_title": "Crude Oil Is Not A Fossil Fuel? (w66w86Ljfu)",
-      "lead_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIMTVYV1I1OTZYSE4ycUhQRlhfVmQ1VUlkbndwQ0RuN0puYzhUdm1kaUtzWkcyejFHQTZxTWNGajNmMTMzcDduMXgxU2MtX3Qyb1JPaENDVGFtQk9GbnByTnZkNmlna1gtMXRiZ0NyYkg?oc=5",
-      "lead_source": "fathomjournal.org",
+      "cluster_id": "c_c60a083fc5be31",
+      "lead_title": "US crude oil tanker makes landmark delivery to Japan",
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPak5fSzdjcENLc1dacGR2M2NST3U0VlFWaDJFNXpaOTNTNWtLeW11a0tVUTBGNGNhSFp2MDBEZ1NlQkhTWDlwRW05N19keHR4QnZ2UVF5b0J0YUZsNDBCVkdJbWF5Zm8zNTdfbjhVUDN6bFBWZXVnbWxyZWNHUk5waHpKUEZlMEVGLWFoQmlDV25zNlZyUE9KdVpyQTB1Z2lWSHd3?oc=5",
+      "lead_source": "Gulf News",
       "topic": "oil",
-      "score": 77.16,
-      "novelty": "growing",
-      "source_count": 4,
+      "score": 83.87,
+      "novelty": "new",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -173,8 +170,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.956, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.3, fresh=stale"
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
