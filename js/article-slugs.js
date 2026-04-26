@@ -223,6 +223,7 @@ const ARTICLE_SLUGS = {
   "Oil prices today: Crude climbs as US-Iran talks uncertainty keeps markets on edge; Brent tops $106": "oil-prices-today-crude-climbs-as-us-iran-talks-uncertainty-keeps-markets-on-edge",
   "Oil prices today: Crude edges lower after sharp gains as Iran\u2013US tensions keep markets on edge": "oil-prices-today-crude-edges-lower-after-sharp-gains-as-iranus-tensions-keep-mar",
   "Oil prices today: Crude falls as upcoming US-Iran talks offsets supply disruption fears": "oil-prices-today-crude-falls-as-upcoming-us-iran-talks-offsets-supply-disruption",
+  "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran": "oil-prices-today-crude-falls-below-100-as-trump-announces-two-week-ceasefire-wit",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
   "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration": "pakistan-fm-dar-working-to-bridge-us-iran-differences-before-tuesday-ceasefire-e",
