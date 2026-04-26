@@ -1,6 +1,6 @@
 {
   "topic": "heating",
-  "generated_at": "2026-04-26T06:16:00.578057+00:00",
+  "generated_at": "2026-04-26T07:58:59.415945+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -23,17 +23,17 @@
       ],
       "earliest_seen": "2026-04-26T04:00:00+00:00",
       "latest_seen": "2026-04-26T04:00:00+00:00",
-      "age_hours": 2.27,
-      "score": 62.14,
+      "age_hours": 3.98,
+      "score": 51.11,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.64,
+        "recency_points": 22.61,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "259fa52a64c0eb69",
@@ -43,6 +43,47 @@
           "source_type": "rss",
           "published_at": "2026-04-26T04:00:00+00:00",
           "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_dc14f903b8ed98",
+      "topic": "heating",
+      "lead_title": "'Our heating oil's doubled in price in two weeks'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-18T07:00:00+00:00",
+      "latest_seen": "2026-03-18T07:00:00+00:00",
+      "age_hours": 936.98,
+      "score": 46.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b1e269de52245896",
+          "title": "'Our heating oil's doubled in price in two weeks'",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-18T07:00:00+00:00",
+          "confidence": 0.9
         }
       ],
       "top_tier": true,
@@ -64,16 +105,16 @@
       ],
       "earliest_seen": "2026-04-25T18:47:59+00:00",
       "latest_seen": "2026-04-25T18:47:59+00:00",
-      "age_hours": 11.47,
-      "score": 46.62,
+      "age_hours": 13.18,
+      "score": 40.59,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.12,
+        "recency_points": 17.09,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -90,11 +131,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_84749b0d6b5348",
+      "cluster_id": "c_e9fd294caaf892",
       "topic": "heating",
-      "lead_title": "Heating oil help for households in North Lincolnshire on the way",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6eWRyYTR4Zlg5VDFDUDdjeEdISUZlWmJNMUROWmpPYzdmM0J3RC1sblRLWnhwOUlEdHAwajAyZ3Jka1JCV0tMY0VVa3B0SXJUTXZvaTR2SlNwQQ?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "‘No relief’ for heating oil customers until Middle East war is resolved | ITV News",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYi0ySUlrNzdyMERkUE1hRmxnaGZlRDlZVW10U3VzdEFnTklaNkxDNUN2N0VBa2RYTEVlWDh6aHhqcktvUGhyLThIdk5NTzBEYWg3ekhPNy0xd25NcS1ldTJMaGpoaVlQZjNCb0M3bWVjSkMwdHc2akQ2bjBuQkstNXpkMTAzMVJYQXlWMml1cDA3ZTk2ZjVsMldKSWpxUElqa0FvMEFLb0tTU0tSSkE?oc=5",
+      "lead_source": "ITVX",
       "canonical_entities": [
         "heating oil"
       ],
@@ -103,14 +144,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-22T05:02:51+00:00",
-      "latest_seen": "2026-04-22T05:02:51+00:00",
-      "age_hours": 97.22,
-      "score": 46.0,
+      "earliest_seen": "2026-04-22T17:58:24+00:00",
+      "latest_seen": "2026-04-22T17:58:24+00:00",
+      "age_hours": 86.01,
+      "score": 38.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.0,
+        "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -118,24 +159,24 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "76835665b93ec344",
-          "title": "Heating oil help for households in North Lincolnshire on the way",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6eWRyYTR4Zlg5VDFDUDdjeEdISUZlWmJNMUROWmpPYzdmM0J3RC1sblRLWnhwOUlEdHAwajAyZ3Jka1JCV0tMY0VVa3B0SXJUTXZvaTR2SlNwQQ?oc=5",
-          "source": "BBC",
+          "headline_id": "cb155f49ffaa0640",
+          "title": "‘No relief’ for heating oil customers until Middle East war is resolved | ITV News",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYi0ySUlrNzdyMERkUE1hRmxnaGZlRDlZVW10U3VzdEFnTklaNkxDNUN2N0VBa2RYTEVlWDh6aHhqcktvUGhyLThIdk5NTzBEYWg3ekhPNy0xd25NcS1ldTJMaGpoaVlQZjNCb0M3bWVjSkMwdHc2akQ2bjBuQkstNXpkMTAzMVJYQXlWMml1cDA3ZTk2ZjVsMldKSWpxUElqa0FvMEFLb0tTU0tSSkE?oc=5",
+          "source": "ITVX",
           "source_type": "rss",
-          "published_at": "2026-04-22T05:02:51+00:00",
-          "confidence": 0.9
+          "published_at": "2026-04-22T17:58:24+00:00",
+          "confidence": 0.65
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_a2568005383e4a",
+      "cluster_id": "c_c36adb6cccb0d1",
       "topic": "heating",
-      "lead_title": "Heating oil suppliers cancel orders to 'profiteer' from Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00VTNhd1BLUkZVRHVKNlcxeGRYRWQ2MHZPZGJFM19qZTltbEFzdEo2Sy1JZlB5dU1fV3NMY2dWMlozeHJrYUNjb1VjQ0J4N3VmYkhJZDByaERHUQ?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "Up to £9K for heating oil users to swap to heat pumps",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTNKQmdRRWQ0aDNzdGhWWDdKV2lzX2NFbzZpbjMyMVhqX3FDUnhtck11ekwwdVRLV1Q3ZHJsUUIyamFiOE14RXpjX0NTaGNxc29ZUzhoOVRmSEFOQXFVdFFDMUNKX3dBMVdldFBiR3hzQ09ibHFYLV9TbWd5dExWS3U3MjBJX2ZHM2ZSalZ6b29KdmZQQVNHNkZWNA?oc=5",
+      "lead_source": "Energy Live News",
       "canonical_entities": [
         "heating oil"
       ],
@@ -144,14 +185,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-03-14T07:00:00+00:00",
-      "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 1031.27,
-      "score": 46.0,
+      "earliest_seen": "2026-04-22T15:34:09+00:00",
+      "latest_seen": "2026-04-22T15:34:09+00:00",
+      "age_hours": 88.41,
+      "score": 38.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.0,
+        "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -159,24 +200,24 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "4fe7b7be4ccce274",
-          "title": "Heating oil suppliers cancel orders to 'profiteer' from Iran war",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00VTNhd1BLUkZVRHVKNlcxeGRYRWQ2MHZPZGJFM19qZTltbEFzdEo2Sy1JZlB5dU1fV3NMY2dWMlozeHJrYUNjb1VjQ0J4N3VmYkhJZDByaERHUQ?oc=5",
-          "source": "BBC",
+          "headline_id": "3bd6a59919a393b6",
+          "title": "Up to £9K for heating oil users to swap to heat pumps",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZTNKQmdRRWQ0aDNzdGhWWDdKV2lzX2NFbzZpbjMyMVhqX3FDUnhtck11ekwwdVRLV1Q3ZHJsUUIyamFiOE14RXpjX0NTaGNxc29ZUzhoOVRmSEFOQXFVdFFDMUNKX3dBMVdldFBiR3hzQ09ibHFYLV9TbWd5dExWS3U3MjBJX2ZHM2ZSalZ6b29KdmZQQVNHNkZWNA?oc=5",
+          "source": "Energy Live News",
           "source_type": "rss",
-          "published_at": "2026-03-14T07:00:00+00:00",
-          "confidence": 0.9
+          "published_at": "2026-04-22T15:34:09+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_d89a59b60cd08e",
+      "cluster_id": "c_76ac0a32badee1",
       "topic": "heating",
-      "lead_title": "The homeowners hit by a sudden hike in the cost of heating oil",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zVl9RY3c2d3gxSkVDYTBQSzBNTVZTVFZ6bWlLMHJXZ0k0TzNBd01oNHd3aDEtVlFCb3dRNzFUb1pLSzBFSVhtbEI1YmJSSXktSU5Yb0RIbERNUQ?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "NI’s home heating oil price drop explained",
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdERESXpqX0Q0aUlHNjM1OWd3b3dKZ1NGdFg0ZFdtR19zVjRZWmJmSnFidmFvWTYxbFppQ1MtSzlTNUtQT2ZmV21LdHQ3eW5Icl82NWlLdUlLN0xpWVllTklhc2x2MkI3TVpLaTZIRk81ZDBEeGNjSXhRU3VSaWVKTlN2UmpTM1JsVVM2Rm1EYUt5R2tPVTdhbEhVR25WR2NpRlY0?oc=5",
+      "lead_source": "The Irish News",
       "canonical_entities": [
         "heating oil"
       ],
@@ -185,14 +226,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-03-14T07:00:00+00:00",
-      "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 1031.27,
-      "score": 46.0,
+      "earliest_seen": "2026-04-22T12:56:54+00:00",
+      "latest_seen": "2026-04-22T12:56:54+00:00",
+      "age_hours": 91.03,
+      "score": 38.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.0,
+        "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -200,212 +241,13 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "dc94be6978fd0b5f",
-          "title": "The homeowners hit by a sudden hike in the cost of heating oil",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zVl9RY3c2d3gxSkVDYTBQSzBNTVZTVFZ6bWlLMHJXZ0k0TzNBd01oNHd3aDEtVlFCb3dRNzFUb1pLSzBFSVhtbEI1YmJSSXktSU5Yb0RIbERNUQ?oc=5",
-          "source": "BBC",
+          "headline_id": "e34aaff69df5c4d8",
+          "title": "NI’s home heating oil price drop explained",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdERESXpqX0Q0aUlHNjM1OWd3b3dKZ1NGdFg0ZFdtR19zVjRZWmJmSnFidmFvWTYxbFppQ1MtSzlTNUtQT2ZmV21LdHQ3eW5Icl82NWlLdUlLN0xpWVllTklhc2x2MkI3TVpLaTZIRk81ZDBEeGNjSXhRU3VSaWVKTlN2UmpTM1JsVVM2Rm1EYUt5R2tPVTdhbEhVR25WR2NpRlY0?oc=5",
+          "source": "The Irish News",
           "source_type": "rss",
-          "published_at": "2026-03-14T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f4df46f30a4276",
-      "topic": "heating",
-      "lead_title": "Police warn thieves could target heating oil tanks due to war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11bHcxRjJlcjZPZEJCSWpGTUNickFlUk1RUzZlODAxZjlkTlN3Vk9YTlRJWWNRU3EwdjlQMFpHMjdGTDc0VzNfVnRLbHBablBfemw1NmxVbVNxZw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-13T07:00:00+00:00",
-      "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1055.27,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "da36c7420366b3f4",
-          "title": "Police warn thieves could target heating oil tanks due to war",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11bHcxRjJlcjZPZEJCSWpGTUNickFlUk1RUzZlODAxZjlkTlN3Vk9YTlRJWWNRU3EwdjlQMFpHMjdGTDc0VzNfVnRLbHBablBfemw1NmxVbVNxZw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-13T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_836e7aed6c3849",
-      "topic": "heating",
-      "lead_title": "More support as heating oil costs 'double' amid Iran conflict",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBLXVpeF9qWl9PZmk1Zmp6aWpuV1hmSlFGWHlaR0w4WGNQTVpRWVh5Q01wNFBtdWEwTHUzSGlRZXNiYlBNZXVkWmhyU2dKQV9TX2h6V25mRkNrUQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-11T07:00:00+00:00",
-      "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 1103.27,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "003361b2ac49afbe",
-          "title": "More support as heating oil costs 'double' amid Iran conflict",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBLXVpeF9qWl9PZmk1Zmp6aWpuV1hmSlFGWHlaR0w4WGNQTVpRWVh5Q01wNFBtdWEwTHUzSGlRZXNiYlBNZXVkWmhyU2dKQV9TX2h6V25mRkNrUQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-11T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a364328ff5d835",
-      "topic": "heating",
-      "lead_title": "Southeast Asia's robust Brazilian fuel oil imports ease war-fuelled supply concerns",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWVGMzR6LVN5QWlxUFpCUVowUWpaZnFEWjc5UkxncEwxYU1jTEdBYkdjWmhjbGI5WDU2ZDV1djRwdHdCWm0wYUgxOUtFZUxMdjdDQ1ZuRmdoNlp3YkpMUUdGREVxbVRfdUVLMU1yTFRtcGFjSzUyUnd1Tnl0NENBdGFCRTZndTNES0dTNnVpR0VmckF5OFlvVDVuYWE4Y29yZUxfeFY2QUVDLVNoR0Rzb1RQZEJhWUw5dllCajNRSUFCRmM?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-01T07:00:00+00:00",
-      "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 599.27,
-      "score": 43.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "78def2be4b375bc5",
-          "title": "Southeast Asia's robust Brazilian fuel oil imports ease war-fuelled supply concerns",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWVGMzR6LVN5QWlxUFpCUVowUWpaZnFEWjc5UkxncEwxYU1jTEdBYkdjWmhjbGI5WDU2ZDV1djRwdHdCWm0wYUgxOUtFZUxMdjdDQ1ZuRmdoNlp3YkpMUUdGREVxbVRfdUVLMU1yTFRtcGFjSzUyUnd1Tnl0NENBdGFCRTZndTNES0dTNnVpR0VmckF5OFlvVDVuYWE4Y29yZUxfeFY2QUVDLVNoR0Rzb1RQZEJhWUw5dllCajNRSUFCRmM?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-01T07:00:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e8e0fe69a92397",
-      "topic": "heating",
-      "lead_title": "ASIA FUEL OIL MOC: Loadings reach three-month high of 1.36 million mt in Feb",
-      "lead_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPblZna1pWN2tlQUlXakprZ3pMRFFDVWU5bHVpSXNLV1YyOHpkaTU3Z0pQdkhkc1dZZHdWTFhwd0RsS3N0VXZSZXNEakJaOW1vZHdhQkNPU0dCem1pcER4RHVUbzhEcTZHSFVmSG5fcUN5eGF2QzlzVG5ZWTBMN0FrTkxxaFhsZmFHdm83Z2NtNGk4LU81dXk4VzI3bDd6SGhGWTZBM1JMVWJDMGswZW1qRGd0VUtJM3Iyb2ZYc1VOWG9HLUl2alMxUGRBZ1lxWHJWX2lValFNem9RYXRaUm1zWGs3ZHpwQWtEX2tiVjJvX3g?oc=5",
-      "lead_source": "S&P Global",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-10T11:48:59+00:00",
-      "latest_seen": "2026-04-10T11:48:59+00:00",
-      "age_hours": 378.45,
-      "score": 41.4,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "558df810889716bd",
-          "title": "ASIA FUEL OIL MOC: Loadings reach three-month high of 1.36 million mt in Feb",
-          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPblZna1pWN2tlQUlXakprZ3pMRFFDVWU5bHVpSXNLV1YyOHpkaTU3Z0pQdkhkc1dZZHdWTFhwd0RsS3N0VXZSZXNEakJaOW1vZHdhQkNPU0dCem1pcER4RHVUbzhEcTZHSFVmSG5fcUN5eGF2QzlzVG5ZWTBMN0FrTkxxaFhsZmFHdm83Z2NtNGk4LU81dXk4VzI3bDd6SGhGWTZBM1JMVWJDMGswZW1qRGd0VUtJM3Iyb2ZYc1VOWG9HLUl2alMxUGRBZ1lxWHJWX2lValFNem9RYXRaUm1zWGs3ZHpwQWtEX2tiVjJvX3g?oc=5",
-          "source": "S&P Global",
-          "source_type": "rss",
-          "published_at": "2026-04-10T11:48:59+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_fa00dd088e6748",
-      "topic": "heating",
-      "lead_title": "Home of family with newborn 'a biohazard' after oil theft as prices spiral",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tdmktMlltZ2E1LURTc1NIaF90RzlZYVl5Vy1qNHpPOHBnQ0UwZU02cWRBREpsV1lSWXhERVZjd3VNVVpqYmdzZ3MxZWxUNWR3ZDBJRXZEdXFJUQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-11T07:00:00+00:00",
-      "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 1103.27,
-      "score": 40.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "f80975a547caab11",
-          "title": "Home of family with newborn 'a biohazard' after oil theft as prices spiral",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tdmktMlltZ2E1LURTc1NIaF90RzlZYVl5Vy1qNHpPOHBnQ0UwZU02cWRBREpsV1lSWXhERVZjd3VNVVpqYmdzZ3MxZWxUNWR3ZDBJRXZEdXFJUQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-11T07:00:00+00:00",
-          "confidence": 0.85
+          "published_at": "2026-04-22T12:56:54+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -427,7 +269,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 983.27,
+      "age_hours": 984.98,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -453,48 +295,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_7673b190c2452c",
-      "topic": "heating",
-      "lead_title": "At the pumps: Petrol, diesel and heating oil to become slightly more expensive again",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlk3Y256aTdFRU5CNFRURXp1RUlSV1FtUGxJR0djMk1ZNUhodDhtTzlKN0YyRmZRRjdHU3M0VnctOVhad0xWVGhFYW5Za0Ezc1paUDVOcEQ1NWpHNkVJSFlJc1lua0NCdlpwQ09lN2l4dm9YRXpubTRzdmpHRzM0LU5zVGNhVFdQdXo0MENPemJtcmFkTVJDbkN4LU8wWDZEX0xXcnItTEhJU0tSa1ZtZ2VoUjdDWjdp?oc=5",
-      "lead_source": "RTL Today",
-      "canonical_entities": [
-        "diesel",
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-24T17:26:06+00:00",
-      "latest_seen": "2026-04-24T17:26:06+00:00",
-      "age_hours": 36.83,
-      "score": 31.9,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 2.9,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "fd7f5dcdde195842",
-          "title": "At the pumps: Petrol, diesel and heating oil to become slightly more expensive again",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlk3Y256aTdFRU5CNFRURXp1RUlSV1FtUGxJR0djMk1ZNUhodDhtTzlKN0YyRmZRRjdHU3M0VnctOVhad0xWVGhFYW5Za0Ezc1paUDVOcEQ1NWpHNkVJSFlJc1lua0NCdlpwQ09lN2l4dm9YRXpubTRzdmpHRzM0LU5zVGNhVFdQdXo0MENPemJtcmFkTVJDbkN4LU8wWDZEX0xXcnItTEhJU0tSa1ZtZ2VoUjdDWjdp?oc=5",
-          "source": "RTL Today",
-          "source_type": "rss",
-          "published_at": "2026-04-24T17:26:06+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_2a707c048f948f",
       "topic": "heating",
       "lead_title": "Why will £100 heating oil payments not be paid until the summer?",
@@ -510,7 +310,7 @@
       ],
       "earliest_seen": "2026-04-17T07:00:00+00:00",
       "latest_seen": "2026-04-17T07:00:00+00:00",
-      "age_hours": 215.27,
+      "age_hours": 216.98,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -551,7 +351,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 431.27,
+      "age_hours": 432.98,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -592,7 +392,7 @@
       ],
       "earliest_seen": "2026-04-04T07:00:00+00:00",
       "latest_seen": "2026-04-04T07:00:00+00:00",
-      "age_hours": 527.27,
+      "age_hours": 528.98,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -633,7 +433,7 @@
       ],
       "earliest_seen": "2026-04-01T07:00:00+00:00",
       "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 599.27,
+      "age_hours": 600.98,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -674,7 +474,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 983.27,
+      "age_hours": 984.98,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -715,7 +515,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 983.27,
+      "age_hours": 984.98,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -741,6 +541,88 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_a2568005383e4a",
+      "topic": "heating",
+      "lead_title": "Heating oil suppliers cancel orders to 'profiteer' from Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00VTNhd1BLUkZVRHVKNlcxeGRYRWQ2MHZPZGJFM19qZTltbEFzdEo2Sy1JZlB5dU1fV3NMY2dWMlozeHJrYUNjb1VjQ0J4N3VmYkhJZDByaERHUQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-14T07:00:00+00:00",
+      "latest_seen": "2026-03-14T07:00:00+00:00",
+      "age_hours": 1032.98,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "4fe7b7be4ccce274",
+          "title": "Heating oil suppliers cancel orders to 'profiteer' from Iran war",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00VTNhd1BLUkZVRHVKNlcxeGRYRWQ2MHZPZGJFM19qZTltbEFzdEo2Sy1JZlB5dU1fV3NMY2dWMlozeHJrYUNjb1VjQ0J4N3VmYkhJZDByaERHUQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-14T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d89a59b60cd08e",
+      "topic": "heating",
+      "lead_title": "The homeowners hit by a sudden hike in the cost of heating oil",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zVl9RY3c2d3gxSkVDYTBQSzBNTVZTVFZ6bWlLMHJXZ0k0TzNBd01oNHd3aDEtVlFCb3dRNzFUb1pLSzBFSVhtbEI1YmJSSXktSU5Yb0RIbERNUQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-14T07:00:00+00:00",
+      "latest_seen": "2026-03-14T07:00:00+00:00",
+      "age_hours": 1032.98,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "dc94be6978fd0b5f",
+          "title": "The homeowners hit by a sudden hike in the cost of heating oil",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zVl9RY3c2d3gxSkVDYTBQSzBNTVZTVFZ6bWlLMHJXZ0k0TzNBd01oNHd3aDEtVlFCb3dRNzFUb1pLSzBFSVhtbEI1YmJSSXktSU5Yb0RIbERNUQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-14T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_34c6885c4caf0b",
       "topic": "heating",
       "lead_title": "Chancellor to offer support over rising heating oil costs",
@@ -756,7 +638,7 @@
       ],
       "earliest_seen": "2026-03-13T07:00:00+00:00",
       "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1055.27,
+      "age_hours": 1056.98,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -782,12 +664,13 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_13815aa4934128",
+      "cluster_id": "c_7673b190c2452c",
       "topic": "heating",
-      "lead_title": "Why have Northern Ireland home heating oil prices dropped? Costs now at lowest level since early March",
-      "lead_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ2dza21nRklDa3dXSWhvU0x0a2JjMFc5NmRRMW5ON2psM3RGVU9aYUZYdjJORC13azY5TmdTcGFrVUZLbGE5VURIblo1NnRuSXF0OW1lZ3luejdRUmhKbTJ6MzdCamFOSl90Zm01VGpxMklpREdtNFdxY3lmQWItc1plNFpUaVh5U2Mzc0lPTVlZU0dNZFJzaDFrbS11UGhWY0YtdFNmSW1jUzZ0QmtpR182Qk1kY3Zpb05ZZEdtdmJ2cERrZHhya2lLeXo1cjNYekFfSnkyb1d1aVFLQ1E3S2tDSmFLQQ?oc=5",
-      "lead_source": "MSN",
+      "lead_title": "At the pumps: Petrol, diesel and heating oil to become slightly more expensive again",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlk3Y256aTdFRU5CNFRURXp1RUlSV1FtUGxJR0djMk1ZNUhodDhtTzlKN0YyRmZRRjdHU3M0VnctOVhad0xWVGhFYW5Za0Ezc1paUDVOcEQ1NWpHNkVJSFlJc1lua0NCdlpwQ09lN2l4dm9YRXpubTRzdmpHRzM0LU5zVGNhVFdQdXo0MENPemJtcmFkTVJDbkN4LU8wWDZEX0xXcnItTEhJU0tSa1ZtZ2VoUjdDWjdp?oc=5",
+      "lead_source": "RTL Today",
       "canonical_entities": [
+        "diesel",
         "heating oil"
       ],
       "source_count": 1,
@@ -795,28 +678,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-24T23:14:20+00:00",
-      "latest_seen": "2026-04-24T23:14:20+00:00",
-      "age_hours": 31.03,
-      "score": 29.88,
+      "earliest_seen": "2026-04-24T17:26:06+00:00",
+      "latest_seen": "2026-04-24T17:26:06+00:00",
+      "age_hours": 38.55,
+      "score": 30.87,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 6.38,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
+        "recency_points": 1.87,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
         "materiality_points": -5.0
       },
       "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "1ec8f8c7db16e3ed",
-          "title": "Why have Northern Ireland home heating oil prices dropped? Costs now at lowest level since early March",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ2dza21nRklDa3dXSWhvU0x0a2JjMFc5NmRRMW5ON2psM3RGVU9aYUZYdjJORC13azY5TmdTcGFrVUZLbGE5VURIblo1NnRuSXF0OW1lZ3luejdRUmhKbTJ6MzdCamFOSl90Zm01VGpxMklpREdtNFdxY3lmQWItc1plNFpUaVh5U2Mzc0lPTVlZU0dNZFJzaDFrbS11UGhWY0YtdFNmSW1jUzZ0QmtpR182Qk1kY3Zpb05ZZEdtdmJ2cERrZHhya2lLeXo1cjNYekFfSnkyb1d1aVFLQ1E3S2tDSmFLQQ?oc=5",
-          "source": "MSN",
+          "headline_id": "fd7f5dcdde195842",
+          "title": "At the pumps: Petrol, diesel and heating oil to become slightly more expensive again",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQlk3Y256aTdFRU5CNFRURXp1RUlSV1FtUGxJR0djMk1ZNUhodDhtTzlKN0YyRmZRRjdHU3M0VnctOVhad0xWVGhFYW5Za0Ezc1paUDVOcEQ1NWpHNkVJSFlJc1lua0NCdlpwQ09lN2l4dm9YRXpubTRzdmpHRzM0LU5zVGNhVFdQdXo0MENPemJtcmFkTVJDbkN4LU8wWDZEX0xXcnItTEhJU0tSa1ZtZ2VoUjdDWjdp?oc=5",
+          "source": "RTL Today",
           "source_type": "rss",
-          "published_at": "2026-04-24T23:14:20+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-24T17:26:06+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -839,7 +722,7 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 791.27,
+      "age_hours": 792.98,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -865,6 +748,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_13815aa4934128",
+      "topic": "heating",
+      "lead_title": "Why have Northern Ireland home heating oil prices dropped? Costs now at lowest level since early March",
+      "lead_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ2dza21nRklDa3dXSWhvU0x0a2JjMFc5NmRRMW5ON2psM3RGVU9aYUZYdjJORC13azY5TmdTcGFrVUZLbGE5VURIblo1NnRuSXF0OW1lZ3luejdRUmhKbTJ6MzdCamFOSl90Zm01VGpxMklpREdtNFdxY3lmQWItc1plNFpUaVh5U2Mzc0lPTVlZU0dNZFJzaDFrbS11UGhWY0YtdFNmSW1jUzZ0QmtpR182Qk1kY3Zpb05ZZEdtdmJ2cERrZHhya2lLeXo1cjNYekFfSnkyb1d1aVFLQ1E3S2tDSmFLQQ?oc=5",
+      "lead_source": "MSN",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T23:14:20+00:00",
+      "latest_seen": "2026-04-24T23:14:20+00:00",
+      "age_hours": 32.74,
+      "score": 28.85,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 5.35,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "1ec8f8c7db16e3ed",
+          "title": "Why have Northern Ireland home heating oil prices dropped? Costs now at lowest level since early March",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOZ2dza21nRklDa3dXSWhvU0x0a2JjMFc5NmRRMW5ON2psM3RGVU9aYUZYdjJORC13azY5TmdTcGFrVUZLbGE5VURIblo1NnRuSXF0OW1lZ3luejdRUmhKbTJ6MzdCamFOSl90Zm01VGpxMklpREdtNFdxY3lmQWItc1plNFpUaVh5U2Mzc0lPTVlZU0dNZFJzaDFrbS11UGhWY0YtdFNmSW1jUzZ0QmtpR182Qk1kY3Zpb05ZZEdtdmJ2cERrZHhya2lLeXo1cjNYekFfSnkyb1d1aVFLQ1E3S2tDSmFLQQ?oc=5",
+          "source": "MSN",
+          "source_type": "rss",
+          "published_at": "2026-04-24T23:14:20+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_8d96bc67a29ae2",
       "topic": "heating",
       "lead_title": "Russia ramps up fuel oil exports to Saudi Arabia in March, data shows​",
@@ -878,7 +802,7 @@
       ],
       "earliest_seen": "2026-04-23T08:46:16+00:00",
       "latest_seen": "2026-04-23T08:46:16+00:00",
-      "age_hours": 69.5,
+      "age_hours": 71.21,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -917,7 +841,7 @@
       ],
       "earliest_seen": "2026-04-20T00:00:00+00:00",
       "latest_seen": "2026-04-20T00:00:00+00:00",
-      "age_hours": 150.27,
+      "age_hours": 151.98,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -943,41 +867,39 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_303ef10f57d015",
+      "cluster_id": "c_a364328ff5d835",
       "topic": "heating",
-      "lead_title": "Good Question: Why is diesel more expensive than gas?",
-      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTmpPTnRKaDk0dXBwVko0Mm1IaG41RXp1b0tTV2h6RFlpbVEyVjYydUFsRjdiaVliN0xvMVZUTE5YamtaZWljTWhjb1lFWFhlUW0zQ0tpWURNa09QcHAxQl9ndXk1YkwzMzBJRGJSMUstM0NUbUd3XzZVcEc2eVlHd2p2QU1TdjJjWWVYdtIBoAFBVV95cUxPUE5Dems3UkZBYmktSjBuU1R3WThOYzZYZkNRcUg1TGZaNTFoVlhveHRsbnVITHZJWGVaYjF2SWt6TER2dC1EdGl5TTNOR2pBa1ZJLXlOZ1VzX1ZXMkhRbzdBNnltSEIyaXRwTFlINkladkxYVlpTdWlaSk4tWUlkaDlTaE1jdlZwSXRrWXFpVElMSmZ6Si1JLUwwZHR4Y3ZC?oc=5",
-      "lead_source": "WKYT",
-      "canonical_entities": [
-        "diesel"
-      ],
+      "lead_title": "Southeast Asia's robust Brazilian fuel oil imports ease war-fuelled supply concerns",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWVGMzR6LVN5QWlxUFpCUVowUWpaZnFEWjc5UkxncEwxYU1jTEdBYkdjWmhjbGI5WDU2ZDV1djRwdHdCWm0wYUgxOUtFZUxMdjdDQ1ZuRmdoNlp3YkpMUUdGREVxbVRfdUVLMU1yTFRtcGFjSzUyUnd1Tnl0NENBdGFCRTZndTNES0dTNnVpR0VmckF5OFlvVDVuYWE4Y29yZUxfeFY2QUVDLVNoR0Rzb1RQZEJhWUw5dllCajNRSUFCRmM?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-24T20:46:00+00:00",
-      "latest_seen": "2026-04-24T20:46:00+00:00",
-      "age_hours": 33.5,
-      "score": 28.4,
+      "earliest_seen": "2026-04-01T07:00:00+00:00",
+      "latest_seen": "2026-04-01T07:00:00+00:00",
+      "age_hours": 600.98,
+      "score": 28.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.9,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
+        "recency_points": 0.0,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
         "materiality_points": -5.0
       },
       "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "a20f9be3c8fc48df",
-          "title": "Good Question: Why is diesel more expensive than gas?",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTmpPTnRKaDk0dXBwVko0Mm1IaG41RXp1b0tTV2h6RFlpbVEyVjYydUFsRjdiaVliN0xvMVZUTE5YamtaZWljTWhjb1lFWFhlUW0zQ0tpWURNa09QcHAxQl9ndXk1YkwzMzBJRGJSMUstM0NUbUd3XzZVcEc2eVlHd2p2QU1TdjJjWWVYdtIBoAFBVV95cUxPUE5Dems3UkZBYmktSjBuU1R3WThOYzZYZkNRcUg1TGZaNTFoVlhveHRsbnVITHZJWGVaYjF2SWt6TER2dC1EdGl5TTNOR2pBa1ZJLXlOZ1VzX1ZXMkhRbzdBNnltSEIyaXRwTFlINkladkxYVlpTdWlaSk4tWUlkaDlTaE1jdlZwSXRrWXFpVElMSmZ6Si1JLUwwZHR4Y3ZC?oc=5",
-          "source": "WKYT",
+          "headline_id": "78def2be4b375bc5",
+          "title": "Southeast Asia's robust Brazilian fuel oil imports ease war-fuelled supply concerns",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMWVGMzR6LVN5QWlxUFpCUVowUWpaZnFEWjc5UkxncEwxYU1jTEdBYkdjWmhjbGI5WDU2ZDV1djRwdHdCWm0wYUgxOUtFZUxMdjdDQ1ZuRmdoNlp3YkpMUUdGREVxbVRfdUVLMU1yTFRtcGFjSzUyUnd1Tnl0NENBdGFCRTZndTNES0dTNnVpR0VmckF5OFlvVDVuYWE4Y29yZUxfeFY2QUVDLVNoR0Rzb1RQZEJhWUw5dllCajNRSUFCRmM?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-24T20:46:00+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-01T07:00:00+00:00",
+          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -997,7 +919,7 @@
       ],
       "earliest_seen": "2026-04-24T04:04:25+00:00",
       "latest_seen": "2026-04-24T04:04:25+00:00",
-      "age_hours": 50.19,
+      "age_hours": 51.91,
       "score": 27.6,
       "score_components": {
         "source_count_points": 5,
@@ -1023,6 +945,86 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_303ef10f57d015",
+      "topic": "heating",
+      "lead_title": "Good Question: Why is diesel more expensive than gas?",
+      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTmpPTnRKaDk0dXBwVko0Mm1IaG41RXp1b0tTV2h6RFlpbVEyVjYydUFsRjdiaVliN0xvMVZUTE5YamtaZWljTWhjb1lFWFhlUW0zQ0tpWURNa09QcHAxQl9ndXk1YkwzMzBJRGJSMUstM0NUbUd3XzZVcEc2eVlHd2p2QU1TdjJjWWVYdtIBoAFBVV95cUxPUE5Dems3UkZBYmktSjBuU1R3WThOYzZYZkNRcUg1TGZaNTFoVlhveHRsbnVITHZJWGVaYjF2SWt6TER2dC1EdGl5TTNOR2pBa1ZJLXlOZ1VzX1ZXMkhRbzdBNnltSEIyaXRwTFlINkladkxYVlpTdWlaSk4tWUlkaDlTaE1jdlZwSXRrWXFpVElMSmZ6Si1JLUwwZHR4Y3ZC?oc=5",
+      "lead_source": "WKYT",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T20:46:00+00:00",
+      "latest_seen": "2026-04-24T20:46:00+00:00",
+      "age_hours": 35.22,
+      "score": 27.37,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 3.87,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "a20f9be3c8fc48df",
+          "title": "Good Question: Why is diesel more expensive than gas?",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTmpPTnRKaDk0dXBwVko0Mm1IaG41RXp1b0tTV2h6RFlpbVEyVjYydUFsRjdiaVliN0xvMVZUTE5YamtaZWljTWhjb1lFWFhlUW0zQ0tpWURNa09QcHAxQl9ndXk1YkwzMzBJRGJSMUstM0NUbUd3XzZVcEc2eVlHd2p2QU1TdjJjWWVYdtIBoAFBVV95cUxPUE5Dems3UkZBYmktSjBuU1R3WThOYzZYZkNRcUg1TGZaNTFoVlhveHRsbnVITHZJWGVaYjF2SWt6TER2dC1EdGl5TTNOR2pBa1ZJLXlOZ1VzX1ZXMkhRbzdBNnltSEIyaXRwTFlINkladkxYVlpTdWlaSk4tWUlkaDlTaE1jdlZwSXRrWXFpVElMSmZ6Si1JLUwwZHR4Y3ZC?oc=5",
+          "source": "WKYT",
+          "source_type": "rss",
+          "published_at": "2026-04-24T20:46:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e8e0fe69a92397",
+      "topic": "heating",
+      "lead_title": "ASIA FUEL OIL MOC: Loadings reach three-month high of 1.36 million mt in Feb",
+      "lead_url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPblZna1pWN2tlQUlXakprZ3pMRFFDVWU5bHVpSXNLV1YyOHpkaTU3Z0pQdkhkc1dZZHdWTFhwd0RsS3N0VXZSZXNEakJaOW1vZHdhQkNPU0dCem1pcER4RHVUbzhEcTZHSFVmSG5fcUN5eGF2QzlzVG5ZWTBMN0FrTkxxaFhsZmFHdm83Z2NtNGk4LU81dXk4VzI3bDd6SGhGWTZBM1JMVWJDMGswZW1qRGd0VUtJM3Iyb2ZYc1VOWG9HLUl2alMxUGRBZ1lxWHJWX2lValFNem9RYXRaUm1zWGs3ZHpwQWtEX2tiVjJvX3g?oc=5",
+      "lead_source": "S&P Global",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-10T11:48:59+00:00",
+      "latest_seen": "2026-04-10T11:48:59+00:00",
+      "age_hours": 380.17,
+      "score": 26.4,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "558df810889716bd",
+          "title": "ASIA FUEL OIL MOC: Loadings reach three-month high of 1.36 million mt in Feb",
+          "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPblZna1pWN2tlQUlXakprZ3pMRFFDVWU5bHVpSXNLV1YyOHpkaTU3Z0pQdkhkc1dZZHdWTFhwd0RsS3N0VXZSZXNEakJaOW1vZHdhQkNPU0dCem1pcER4RHVUbzhEcTZHSFVmSG5fcUN5eGF2QzlzVG5ZWTBMN0FrTkxxaFhsZmFHdm83Z2NtNGk4LU81dXk4VzI3bDd6SGhGWTZBM1JMVWJDMGswZW1qRGd0VUtJM3Iyb2ZYc1VOWG9HLUl2alMxUGRBZ1lxWHJWX2lValFNem9RYXRaUm1zWGs3ZHpwQWtEX2tiVjJvX3g?oc=5",
+          "source": "S&P Global",
+          "source_type": "rss",
+          "published_at": "2026-04-10T11:48:59+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_8ac150bfdfd732",
       "topic": "heating",
       "lead_title": "How close is Britain to running out of petrol and diesel?",
@@ -1038,11 +1040,11 @@
       ],
       "earliest_seen": "2026-04-24T19:05:20+00:00",
       "latest_seen": "2026-04-24T19:05:20+00:00",
-      "age_hours": 35.18,
-      "score": 27.39,
+      "age_hours": 36.89,
+      "score": 26.36,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.89,
+        "recency_points": 2.86,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -1077,7 +1079,7 @@
       ],
       "earliest_seen": "2026-04-22T05:19:19+00:00",
       "latest_seen": "2026-04-22T05:19:19+00:00",
-      "age_hours": 96.94,
+      "age_hours": 98.66,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1116,7 +1118,7 @@
       ],
       "earliest_seen": "2026-03-31T07:00:00+00:00",
       "latest_seen": "2026-03-31T07:00:00+00:00",
-      "age_hours": 623.27,
+      "age_hours": 624.98,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1157,7 +1159,7 @@
       ],
       "earliest_seen": "2026-04-23T13:51:53+00:00",
       "latest_seen": "2026-04-23T13:51:53+00:00",
-      "age_hours": 64.4,
+      "age_hours": 66.12,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1198,7 +1200,7 @@
       ],
       "earliest_seen": "2026-04-23T01:29:00+00:00",
       "latest_seen": "2026-04-23T01:29:00+00:00",
-      "age_hours": 76.78,
+      "age_hours": 78.5,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
