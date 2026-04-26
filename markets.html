@@ -19,7 +19,7 @@ fbq('init','957762016897581');fbq('track','PageView');
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=9">
+  <link rel="stylesheet" href="css/styles.css?v=12">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
@@ -143,9 +143,9 @@ fbq('init','957762016897581');fbq('track','PageView');
     <section class="section"><div class="container"><div class="context-block">
       <h3>Frequently Asked Questions</h3>
       <div class="faq-section">
-        <div class="faq-item"><div class="faq-q">What does the Markets page track?</div><div class="faq-a">The Markets dashboard tracks live prices for 30+ global energy benchmarks: crude oil (WTI, Brent, Dubai, OPEC Basket, Azeri Light, Western Canadian Select, Urals, Basrah Medium), refined products (gasoline RBOB, diesel, heating oil, jet fuel, ethanol, naphtha, propane), natural gas (Henry Hub, UK NBP, Dutch TTF), LNG (JKM), coal (Newcastle, Coking, CAPP, PRB, Illinois Basin), metals (gold, silver, platinum, palladium), emissions (EU and UK carbon allowances), and currencies (EUR/USD, GBP/USD, USD/CNY). Everything updates via API every 5 minutes. Marine bunker fuels (VLSFO, MGO, HFO) are tracked at the port level via a separate intelligence feed and aren't included in the cross-asset live grid above.</div></div>
+        <div class="faq-item"><div class="faq-q">What does the Markets page track?</div><div class="faq-a">The Markets dashboard tracks live prices for 30+ global energy benchmarks: crude oil (WTI, Brent, Dubai, OPEC Basket, Azeri Light, Western Canadian Select, Urals, Basrah Medium), refined products (gasoline RBOB, diesel, heating oil, jet fuel, ethanol, naphtha, propane), natural gas (Henry Hub, UK NBP, Dutch TTF), LNG (JKM), coal (Newcastle, Coking, CAPP, PRB, Illinois Basin), metals (gold, silver, platinum, palladium), emissions (EU and UK carbon allowances), and currencies (EUR/USD, GBP/USD, USD/CNY). Everything updates via API every 5 minutes.</div></div>
         <div class="faq-item"><div class="faq-q">How often do prices update?</div><div class="faq-a">The underlying API polls exchanges every 5 minutes during trading hours. Our page re-renders whenever the latest snapshot arrives. Weekends and market holidays show last-session prices until trading resumes. Regional benchmarks like OPEC Basket publish once daily on the afternoon trading close.</div></div>
-        <div class="faq-item"><div class="faq-q">Why do some cards show older timestamps?</div><div class="faq-a">Not every benchmark trades continuously. Regional crude grades (Azeri Light, Urals, OPEC Basket, Basrah Medium) publish one price per trading day. Marine fuel indices update once daily. Carbon allowance auctions run on specific weekly schedules. The price you see is the most recent available — all data flows straight from the source API.</div></div>
+        <div class="faq-item"><div class="faq-q">Why do some cards show older timestamps?</div><div class="faq-a">Not every benchmark trades continuously. Regional crude grades (Azeri Light, Urals, OPEC Basket, Basrah Medium) publish one price per trading day. Carbon allowance auctions run on specific weekly schedules. The price you see is the most recent available — all data flows straight from the source API.</div></div>
         <div class="faq-item"><div class="faq-q">What does "24h change" mean for weekly-published benchmarks?</div><div class="faq-a">For benchmarks that publish once per trading day, "24h change" reflects the change since the previous publication. For real-time benchmarks (WTI, Brent, Natural Gas, Gold, currencies), it's the rolling 24-hour change as computed by the exchange.</div></div>
         <div class="faq-item"><div class="faq-q">Why are energy benchmarks moving right now?</div><div class="faq-a">The Strait of Hormuz re-closure on April 18 is the dominant driver, adding a $15-25/barrel risk premium back to global crude. OPEC+ is proceeding with its 206K bpd April increase despite the crisis. The April 21 U.S.-Iran ceasefire expiration is the next major catalyst. On the gas side, Henry Hub is firming on Qatari LNG disruption; Dutch TTF remains elevated as European buyers return to premium bidding for LNG cargoes.</div></div>
         <div class="faq-item"><div class="faq-q">How do these prices affect gasoline, diesel, and heating costs?</div><div class="faq-a">WTI and Brent moves flow to wholesale gasoline (RBOB) and diesel (ULSD) within days, and to retail pump prices in 1-2 weeks. A $10/barrel crude increase typically adds $0.24-0.30/gallon at the pump. Henry Hub gas prices flow to electricity bills within weeks (gas-fired generation sets marginal power prices in most U.S. grids) and to heating costs the following billing cycle. Dutch TTF primarily affects European industrial and utility bills.</div></div>
@@ -157,8 +157,8 @@ fbq('init','957762016897581');fbq('track','PageView');
     </div></div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=9"></script><script src="js/article-slugs.js?v=9"></script><script src="js/main.js?v=9"></script><script src="js/live-data.js?v=9"></script><script src="js/news-feed.js?v=9"></script>
-  <script src="js/event-state.js?v=9"></script>
+  <script src="js/data.js?v=12"></script><script src="js/article-slugs.js?v=12"></script><script src="js/main.js?v=12"></script><script src="js/live-data.js?v=12"></script><script src="js/news-feed.js?v=12"></script>
+  <script src="js/event-state.js?v=12"></script>
   <script>
     // ─── Reusable card templates ─────────────────────────────────
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.65">'+d+'</div></div>';}
@@ -202,25 +202,15 @@ fbq('init','957762016897581');fbq('track','PageView');
       { g: 'Refined Products',  n: 'Heating Oil',             code: 'HEATING_OIL_USD',               unit: '$/gal' },
       { g: 'Refined Products',  n: 'Diesel (Gulf Coast)',     code: 'DIESEL_USD',                    unit: '$/gal' },
       { g: 'Refined Products',  n: 'ULSD Diesel (NY Harbor)', code: 'ULSD_DIESEL_USD',               unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Jet Fuel (US Gulf)',      code: 'JET_FUEL_USD',                  unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Jet A-1 NW Europe',       code: 'JET_A1_NWE_USD',                unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Singapore Jet Kerosene',  code: 'SINGAPORE_JET_KEROSENE',        unit: '$/gal' },
-      { g: 'Refined Products',  n: 'Singapore Mogas 92',      code: 'SINGAPORE_MOGAS_92',            unit: '$/gal' },
+      { g: 'Refined Products',  n: 'Jet Fuel',                code: 'JET_FUEL_USD',                  unit: '$/gal' },
       { g: 'Refined Products',  n: 'Ethanol',                 code: 'ETHANOL_USD',                   unit: '$/gal' },
       { g: 'Refined Products',  n: 'Naphtha',                 code: 'NAPHTHA_USD',                   unit: '$/MT'  },
       { g: 'Refined Products',  n: 'Propane (Mont Belvieu)',  code: 'PROPANE_MONT_BELVIEU_USD',      unit: '$/gal' },
       // ─── Natural Gas & LNG ───
       { g: 'Natural Gas & LNG', n: 'Natural Gas (Henry Hub)', code: 'NATURAL_GAS_USD',               unit: '$/MMBtu' },
-      { g: 'Natural Gas & LNG', n: 'Waha Natural Gas',        code: 'NATURAL_GAS_WAHA',              unit: '$/MMBtu' },
       { g: 'Natural Gas & LNG', n: 'Natural Gas (UK NBP)',    code: 'NATURAL_GAS_GBP',               unit: 'p/therm' },
       { g: 'Natural Gas & LNG', n: 'Dutch TTF Gas',           code: 'DUTCH_TTF_EUR',                 unit: '€/MWh' },
       { g: 'Natural Gas & LNG', n: 'JKM LNG',                 code: 'JKM_LNG_USD',                   unit: '$/MMBtu' },
-      // ─── Marine Fuels ───
-      { g: 'Marine Fuels',      n: 'VLSFO (Singapore)',       code: 'VLSFO_SGSIN_USD',               unit: '$/MT' },
-      { g: 'Marine Fuels',      n: 'VLSFO (Rotterdam)',       code: 'VLSFO_NLRTM_USD',               unit: '$/MT' },
-      { g: 'Marine Fuels',      n: 'MGO 0.5%S (Singapore)',   code: 'MGO_05S_SGSIN_USD',             unit: '$/MT' },
-      { g: 'Marine Fuels',      n: 'MGO 0.5%S (Rotterdam)',   code: 'MGO_05S_NLRTM_USD',             unit: '$/MT' },
-      { g: 'Marine Fuels',      n: 'HFO 380 (Singapore)',     code: 'HFO_380_SGSIN_USD',             unit: '$/MT' },
       // ─── Coal ───
       { g: 'Coal',              n: 'Newcastle Coal (API6)',   code: 'NEWCASTLE_COAL_USD',            unit: '$/MT' },
       { g: 'Coal',              n: 'Coking Coal',             code: 'COKING_COAL_USD',               unit: '$/MT' },

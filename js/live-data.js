@@ -8,11 +8,11 @@
 var OILPRICE_API_KEY = 'f719bf8a7ff3844d0a5436da144bc985db3acf2431ddf3095702b1c5f4926e5a';
 
 // Map our display names to API codes
-// Most codes here are confirmed available on the /v1/prices/all endpoint.
-// Marine fuels (VLSFO, MGO) are fetched via the separate
-// /v1/prices/marine-fuels/latest endpoint and merged into the same prices object.
-// Jet A-1 NWE, Singapore Jet/Mogas 92, and Waha NG are not exposed on the
-// standard plan — they fall back to static reference data on the markets page.
+// All codes here are confirmed available on /v1/prices/all on the standard plan.
+// Items not exposed on this plan (marine fuels VLSFO/MGO/HFO, Jet A-1 NWE,
+// Singapore Jet, Singapore Mogas 92, Waha NG) are NOT mapped — markets.html
+// handles these via static reference fallback data instead. Marine fuels were
+// confirmed unavailable per OilPriceAPI dashboard inspection.
 var CODE_MAP = {
   // ─── Crude Oil Benchmarks ───
   'WTI Crude':               'WTI_USD',
@@ -48,12 +48,6 @@ var CODE_MAP = {
   'Powder River Basin Coal':       'PRB_COAL_USD',
   'Illinois Basin Coal':           'ILLINOIS_COAL_USD',
   'NYMEX Appalachian Coal':        'NYMEX_APPALACHIAN_USD',
-  // ─── Marine Fuels (fetched via /v1/prices/marine-fuels/latest) ───
-  'VLSFO (Singapore)':       'VLSFO_SGSIN_USD',
-  'VLSFO (Rotterdam)':       'VLSFO_NLRTM_USD',
-  'MGO 0.5%S (Singapore)':   'MGO_05S_SGSIN_USD',
-  'MGO 0.5%S (Rotterdam)':   'MGO_05S_NLRTM_USD',
-  'HFO 380 (Singapore)':     'HFO_380_SGSIN_USD',
   // ─── Metals ───
   'Gold':                    'GOLD_USD',
   'Silver':                  'SILVER_USD',
@@ -74,71 +68,23 @@ var CODE_MAP = {
 };
 var EXTRA_CODES = {};
 
-// Static reference fallback data for items not exposed on the standard plan.
-// These prices are manually maintained — they update on weekly cadence as part
-// of the daily-refresh data update. Each entry mimics the API response shape
-// so applyAll() can treat them like live data.
-var STATIC_REFERENCE_PRICES = {
-  'JET_A1_NWE_USD':          { price: 2.62,  change_24h: 0.04,   change_24h_percent: 1.55, source: 'NW Europe CIF cargo, Argus weekly', updated: '2026-04-25' },
-  'SINGAPORE_JET_KEROSENE':  { price: 2.58,  change_24h: 0.03,   change_24h_percent: 1.18, source: 'Platts MOPS, weekly', updated: '2026-04-25' },
-  'SINGAPORE_MOGAS_92':      { price: 2.48,  change_24h: 0.05,   change_24h_percent: 2.06, source: 'Platts MOPS Mogas 92 RON, weekly', updated: '2026-04-25' },
-  'NATURAL_GAS_WAHA':        { price: 1.82,  change_24h: -0.03,  change_24h_percent: -1.62, source: 'Waha Hub spot (Permian), daily', updated: '2026-04-25' },
-};
-
 function fetchLivePrices() {
-  // 1) Main commodities call — fetches all standard codes in one shot
   fetch('https://api.oilpriceapi.com/v1/prices/all', {
     headers: { 'Authorization': 'Token ' + OILPRICE_API_KEY }
   })
   .then(function(r) { return r.json(); })
   .then(function(resp) {
-    var prices = {};
-    if (resp && resp.status === 'success' && resp.data && resp.data.data && resp.data.data.prices) {
-      prices = resp.data.data.prices;
-      console.log('[EPT] All Prices API: ' + Object.keys(prices).length + ' commodities received');
-    } else {
-      console.log('[EPT] /v1/prices/all returned no data, continuing with fallbacks');
+    if (resp.status !== 'success' || !resp.data || !resp.data.data || !resp.data.data.prices) {
+      console.log('[EPT] API response invalid');
+      return;
     }
-
-    // 2) Merge static reference data (Jet A-1 NWE, Singapore Jet, Singapore Mogas 92, Waha NG)
-    Object.keys(STATIC_REFERENCE_PRICES).forEach(function(code) {
-      if (!prices[code]) prices[code] = STATIC_REFERENCE_PRICES[code];
-    });
-
-    // 3) Marine fuels — separate endpoint
-    fetch('https://api.oilpriceapi.com/v1/prices/marine-fuels/latest', {
-      headers: { 'Authorization': 'Token ' + OILPRICE_API_KEY }
-    })
-    .then(function(r) { return r.ok ? r.json() : null; })
-    .then(function(mResp) {
-      if (mResp && mResp.status === 'success' && mResp.data) {
-        // Marine endpoint returns either an array or a prices object — handle both
-        var marineData = mResp.data.prices || mResp.data;
-        if (Array.isArray(marineData)) {
-          marineData.forEach(function(item) {
-            if (item.code) prices[item.code] = item;
-          });
-        } else if (typeof marineData === 'object') {
-          Object.keys(marineData).forEach(function(k) {
-            prices[k] = marineData[k];
-          });
-        }
-        console.log('[EPT] Marine fuels merged');
-      }
-    })
-    .catch(function(err) { console.log('[EPT] Marine fuels fetch error: ' + err.message); })
-    .finally(function() {
-      window._lastOilPrices = prices;
-      applyAll(prices);
-    });
+    var prices = resp.data.data.prices;
+    console.log('[EPT] All Prices API: ' + Object.keys(prices).length + ' commodities received');
+    window._lastOilPrices = prices;  // expose for other page renderers (e.g. markets.html benchmarks grid)
+    applyAll(prices);
   })
   .catch(function(err) {
     console.log('[EPT] API error: ' + err.message);
-    // Even if main fetch fails, apply static reference data so cards aren't blank
-    var fallback = {};
-    Object.keys(STATIC_REFERENCE_PRICES).forEach(function(c) { fallback[c] = STATIC_REFERENCE_PRICES[c]; });
-    window._lastOilPrices = fallback;
-    applyAll(fallback);
   });
 }
 

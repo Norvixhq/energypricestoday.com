@@ -29,6 +29,7 @@ const ICONS = {
   users: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
   factory: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>',
   layout: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="3" rx="2" ry="2"/><line x1="3" x2="21" y1="9" y2="9"/><line x1="9" x2="9" y1="21" y2="9"/></svg>',
+  "file-text": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" x2="8" y1="13" y2="13"/><line x1="16" x2="8" y1="17" y2="17"/><line x1="10" x2="8" y1="9" y2="9"/></svg>',
   menu: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>',
   x: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>',
   mail: '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>',
@@ -208,18 +209,51 @@ function renderHeader(activePage) {
     <div class="search-overlay" id="search-overlay">
       <div class="search-overlay-inner">
         <div class="search-box">
-          ${icon('search', 20)}
-          <input type="text" id="search-input" placeholder="Search markets, news, and analysis..." autocomplete="off">
-          <button onclick="toggleSearch()" class="search-close-btn">${icon('x', 18)}</button>
+          <span class="search-box-icon">${icon('search', 22)}</span>
+          <input type="text" id="search-input" placeholder="Search articles, markets, prices, geopolitics..." autocomplete="off" spellcheck="false">
+          <kbd class="search-kbd">esc</kbd>
+          <button onclick="toggleSearch()" class="search-close-btn" aria-label="Close search">${icon('x', 18)}</button>
         </div>
         <div id="search-results-list" class="search-results"></div>
-        <div class="search-hints">
-          <span class="search-hint-label">Popular:</span>
-          <a href="${prefix}category/oil-prices/" class="search-hint-tag">Oil Prices</a>
-          <a href="${prefix}category/natural-gas/" class="search-hint-tag">Natural Gas</a>
-          <a href="${prefix}category/geopolitics/" class="search-hint-tag">Geopolitics</a>
-          <a href="${prefix}markets.html" class="search-hint-tag">Markets</a>
-          <a href="${prefix}category/alternative-energy/" class="search-hint-tag">Alt Energy</a>
+        <div class="search-pillar-section">
+          <div class="search-section-label">Browse the Five Pillars</div>
+          <div class="search-pillars">
+            <a href="${prefix}index.html" class="search-pillar">
+              <span class="search-pillar-icon">${icon('activity', 18)}</span>
+              <div class="search-pillar-text">
+                <span class="search-pillar-name">Homepage</span>
+                <span class="search-pillar-desc">Front door</span>
+              </div>
+            </a>
+            <a href="${prefix}category/gas-prices.html" class="search-pillar">
+              <span class="search-pillar-icon">${icon('fuel', 18)}</span>
+              <div class="search-pillar-text">
+                <span class="search-pillar-name">Gas Prices</span>
+                <span class="search-pillar-desc">Pump &amp; consumer</span>
+              </div>
+            </a>
+            <a href="${prefix}category/geopolitics.html" class="search-pillar">
+              <span class="search-pillar-icon">${icon('globe', 18)}</span>
+              <div class="search-pillar-text">
+                <span class="search-pillar-name">Geopolitics</span>
+                <span class="search-pillar-desc">Risk &amp; security</span>
+              </div>
+            </a>
+            <a href="${prefix}markets.html" class="search-pillar">
+              <span class="search-pillar-icon">${icon('bar-chart', 18)}</span>
+              <div class="search-pillar-text">
+                <span class="search-pillar-name">Markets</span>
+                <span class="search-pillar-desc">Benchmark dashboard</span>
+              </div>
+            </a>
+            <a href="${prefix}electricity-prices.html" class="search-pillar">
+              <span class="search-pillar-icon">${icon('zap', 18)}</span>
+              <div class="search-pillar-text">
+                <span class="search-pillar-name">Electricity</span>
+                <span class="search-pillar-desc">Power &amp; grid</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -355,13 +389,18 @@ function performSearch(query) {
   // Cap and render
   hits = hits.slice(0, 12);
   if (!hits.length) {
-    resultsEl.innerHTML = '<div style="padding:14px 16px;color:var(--text-3);font-size:13px;text-align:center">No matches for &ldquo;' + q + '&rdquo;</div>';
+    resultsEl.innerHTML = '<div class="search-results-empty">No matches for &ldquo;' + q.replace(/[<>]/g,'') + '&rdquo;</div>';
     return;
   }
   resultsEl.innerHTML = hits.map(function(h) {
+    var iconName = h.kind === 'Page' ? 'layout' : 'file-text';
+    var iconSvg = (typeof icon === 'function') ? icon(iconName, 14) : '';
     return '<a href="' + h.href + '">'
-      + '<span style="display:block;color:var(--text-1);font-weight:500">' + h.title + '</span>'
-      + '<span style="color:var(--text-3);font-size:11px">' + h.kind + '</span>'
+      + '<span style="color:var(--text-3);margin-top:2px;flex-shrink:0">' + iconSvg + '</span>'
+      + '<span style="flex:1;min-width:0">'
+      +   '<strong>' + h.title + '</strong>'
+      +   '<span style="color:var(--text-3);font-size:11px;display:block;margin-top:2px;text-transform:uppercase;letter-spacing:0.05em;font-weight:600">' + h.kind + '</span>'
+      + '</span>'
       + '</a>';
   }).join('');
 }
