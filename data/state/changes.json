@@ -1,0 +1,68 @@
+{
+  "generated_at": "2026-04-26T20:56:20.637774+00:00",
+  "sources": {
+    "commodity_prices": {
+      "changes": [],
+      "status_flip": "unknown -> fresh",
+      "current_status": "fresh"
+    }
+  },
+  "affected_pages": [
+    {
+      "page": "index.html",
+      "label": "Homepage",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "oil-prices.html",
+      "label": "Oil Prices",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "markets.html",
+      "label": "Markets Dashboard",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/gas-prices.html",
+      "label": "Gas Prices",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/crude-oil.html",
+      "label": "Crude Oil",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/natural-gas.html",
+      "label": "Natural Gas",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/heating-oil.html",
+      "label": "Heating Oil",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "oil-futures.html",
+      "label": "Oil Futures",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    }
+  ]
+}
