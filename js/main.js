@@ -167,7 +167,7 @@ function renderHeader(activePage) {
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
       <a class="logo" href="${prefix}index.html">
-        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img" style="filter:drop-shadow(0 0 6px rgba(61,143,212,0.7)) drop-shadow(0 0 14px rgba(61,143,212,0.4)) drop-shadow(0 0 30px rgba(61,143,212,0.2))">
+        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high" style="filter:drop-shadow(0 0 6px rgba(61,143,212,0.7)) drop-shadow(0 0 14px rgba(61,143,212,0.4)) drop-shadow(0 0 30px rgba(61,143,212,0.2))">
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
@@ -179,8 +179,24 @@ function renderHeader(activePage) {
       <div class="ticker-scroll-area">
         <div class="ticker-track" id="ticker-track"></div>
       </div>
-
     </div>
+  `;
+
+  // Append overlays (mobile nav, backdrop, search) directly to <body>, NOT inside
+  // .site-header. This is critical: the header has transform:translateZ(0) for
+  // compositor-layer isolation, which creates a containing block for descendants
+  // with position:fixed. If these overlays were inside the header, position:fixed
+  // would resolve relative to the header (76px tall) instead of the viewport,
+  // making the search overlay and mobile drawer cover only the header area.
+  // Moving them to body keeps them anchored to the viewport.
+  var existingMobileNav = document.getElementById('mobile-nav');
+  if (existingMobileNav) existingMobileNav.remove();
+  var existingBackdrop = document.getElementById('mobile-backdrop');
+  if (existingBackdrop) existingBackdrop.remove();
+  var existingSearch = document.getElementById('search-overlay');
+  if (existingSearch) existingSearch.remove();
+
+  var overlayHtml = `
     <div class="mobile-nav-backdrop" id="mobile-backdrop"></div>
     <div class="mobile-nav" id="mobile-nav">
       <div class="mobile-nav-close">
@@ -196,6 +212,7 @@ function renderHeader(activePage) {
           <input type="text" id="search-input" placeholder="Search markets, news, and analysis..." autocomplete="off">
           <button onclick="toggleSearch()" class="search-close-btn">${icon('x', 18)}</button>
         </div>
+        <div id="search-results-list" class="search-results"></div>
         <div class="search-hints">
           <span class="search-hint-label">Popular:</span>
           <a href="${prefix}category/oil-prices/" class="search-hint-tag">Oil Prices</a>
@@ -207,6 +224,7 @@ function renderHeader(activePage) {
       </div>
     </div>
   `;
+  document.body.insertAdjacentHTML('afterbegin', overlayHtml);
 
   // Scroll listener
   window.addEventListener('scroll', () => {
@@ -277,8 +295,96 @@ function toggleSearch() {
     }, 150);
   } else {
     document.body.style.overflow = '';
+    // Clear results on close
+    var results = document.getElementById('search-results-list');
+    if (results) results.innerHTML = '';
+    var input = document.getElementById('search-input');
+    if (input) input.value = '';
   }
 }
+
+// Search-as-you-type: filter article titles from ARTICLE_SLUGS map
+function performSearch(query) {
+  var resultsEl = document.getElementById('search-results-list');
+  if (!resultsEl) return;
+  var q = (query || '').trim().toLowerCase();
+  if (q.length < 2) { resultsEl.innerHTML = ''; return; }
+
+  // Determine path prefix for article links (depth from root)
+  var depth = (window.location.pathname.split('/').filter(Boolean).length) - 1;
+  // Subtract 1 because filename itself shouldn't count toward directory depth
+  var pathDepth = window.location.pathname.replace(/\/$/, '').split('/').slice(0, -1).filter(Boolean).length;
+  var prefix = pathDepth > 0 ? '../'.repeat(pathDepth) : '';
+
+  var hits = [];
+  // Article titles from ARTICLE_SLUGS
+  if (typeof ARTICLE_SLUGS === 'object') {
+    Object.keys(ARTICLE_SLUGS).forEach(function(title) {
+      if (title.toLowerCase().indexOf(q) !== -1) {
+        hits.push({ title: title, href: prefix + 'articles/' + ARTICLE_SLUGS[title] + '.html', kind: 'Article' });
+      }
+    });
+  }
+  // Static page titles
+  var pages = [
+    { title: 'Oil Prices Dashboard', href: prefix + 'oil-prices.html' },
+    { title: 'Markets — All Benchmarks', href: prefix + 'markets.html' },
+    { title: 'Electricity Prices by State', href: prefix + 'electricity-prices.html' },
+    { title: 'Rig Count', href: prefix + 'rig-count.html' },
+    { title: 'Oil Futures', href: prefix + 'oil-futures.html' },
+    { title: 'Gas Prices', href: prefix + 'category/gas-prices.html' },
+    { title: 'Geopolitics', href: prefix + 'category/geopolitics.html' },
+    { title: 'Crude Oil', href: prefix + 'category/crude-oil.html' },
+    { title: 'Natural Gas', href: prefix + 'category/natural-gas.html' },
+    { title: 'Heating Oil', href: prefix + 'category/heating-oil.html' },
+    { title: 'Alternative Energy', href: prefix + 'category/alternative-energy.html' },
+    { title: 'Nuclear Energy', href: prefix + 'category/nuclear.html' },
+    { title: 'Solar Energy', href: prefix + 'category/solar.html' },
+    { title: 'Wind Energy', href: prefix + 'category/wind.html' },
+    { title: 'Renewable Energy', href: prefix + 'category/renewable-energy.html' },
+    { title: 'Energy Market Overview', href: prefix + 'category/energy.html' },
+    { title: 'Company News', href: prefix + 'category/company-news.html' },
+    { title: 'About', href: prefix + 'about.html' }
+  ];
+  pages.forEach(function(p) {
+    if (p.title.toLowerCase().indexOf(q) !== -1) {
+      hits.unshift({ title: p.title, href: p.href, kind: 'Page' });
+    }
+  });
+
+  // Cap and render
+  hits = hits.slice(0, 12);
+  if (!hits.length) {
+    resultsEl.innerHTML = '<div style="padding:14px 16px;color:var(--text-3);font-size:13px;text-align:center">No matches for &ldquo;' + q + '&rdquo;</div>';
+    return;
+  }
+  resultsEl.innerHTML = hits.map(function(h) {
+    return '<a href="' + h.href + '">'
+      + '<span style="display:block;color:var(--text-1);font-weight:500">' + h.title + '</span>'
+      + '<span style="color:var(--text-3);font-size:11px">' + h.kind + '</span>'
+      + '</a>';
+  }).join('');
+}
+
+// Close search on Escape, or when clicking the backdrop (not the search box itself)
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') {
+    var ov = document.getElementById('search-overlay');
+    if (ov && ov.classList.contains('open')) toggleSearch();
+  }
+});
+document.addEventListener('click', function(e) {
+  var ov = document.getElementById('search-overlay');
+  if (!ov || !ov.classList.contains('open')) return;
+  // Clicked directly on the overlay backdrop (not on inner content)
+  if (e.target === ov) toggleSearch();
+});
+// Wire up the search input — fires after renderHeader injects the overlay into <body>
+document.addEventListener('input', function(e) {
+  if (e.target && e.target.id === 'search-input') {
+    performSearch(e.target.value);
+  }
+});
 
 // ─── MARKET TICKER STRIP ─────────────────────────────────────────
 function renderTicker() {

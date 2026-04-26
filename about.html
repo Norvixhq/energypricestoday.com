@@ -9,7 +9,10 @@
   <meta property="og:type" content="website"><meta property="og:title" content="About EnergyPricesToday.com">
   <meta property="og:description" content="Modern energy intelligence with no paywall. Live oil and gas prices, curated news, and independent analysis.">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"AboutPage","name":"About EnergyPricesToday","description":"Modern energy intelligence platform covering oil, gas, geopolitics, and energy markets.","publisher":{"@type":"Organization","name":"EnergyPricesToday.com","url":"https://www.energypricestoday.com"}}</script>
-  <link rel="stylesheet" href="css/styles.css?v=6">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
+
+  <link rel="stylesheet" href="css/styles.css?v=9">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
@@ -102,7 +105,7 @@
 
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=6"></script><script src="js/article-slugs.js?v=6"></script><script src="js/main.js?v=6"></script>
+  <script src="js/data.js?v=9"></script><script src="js/article-slugs.js?v=9"></script><script src="js/main.js?v=9"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
     function CoverCard(ic,t,d,url){return '<a href="'+url+'" class="stat-box" style="text-align:left;padding:20px;text-decoration:none;cursor:pointer;transition:all .2s;display:block" onmouseover="this.style.borderColor=\'var(--blue)\'" onmouseout="this.style.borderColor=\'\'"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div><div style="font-size:11px;color:var(--blue);font-weight:600;margin-top:8px">Explore →</div></a>';}
@@ -118,13 +121,14 @@
     document.getElementById('cover-cards').innerHTML = [
       CoverCard('trending-up','Oil Prices','Live WTI, Brent, and 150+ global crude benchmarks updated every 5 minutes via API. OPEC blends, regional U.S. crudes, Canadian heavy, and international grades.','oil-prices.html'),
       CoverCard('fuel','Gas Prices','Daily AAA gas prices for all 50 states plus D.C. National averages for regular, mid-grade, premium, and diesel. Analysis of what moves pump prices.','category/gas-prices.html'),
+      CoverCard('zap','Electricity Prices','Monthly EIA electricity rates for residential and commercial customers in all 50 states. Year-over-year trends, regional comparisons, and what drives bill changes.','electricity-prices.html'),
       CoverCard('globe','Geopolitics','Real-time geopolitical risk dashboard covering the Iran conflict, Strait of Hormuz, sanctions, OPEC+ policy, and energy security.','category/geopolitics.html'),
       CoverCard('building','Company News','Corporate intelligence on ExxonMobil, Shell, Chevron, Aramco, and 30+ major energy companies. Live stock prices, earnings, dividends, M&A.','category/company-news.html'),
       CoverCard('hard-hat','Rig Count','Weekly Baker Hughes rig counts for U.S., Canada, and international regions. Basin-level breakdowns, trajectory data, and production context.','rig-count.html'),
-      CoverCard('activity','Energy Systems','The broader energy system — electricity markets, LNG exports, nuclear, battery storage, utilities, grid infrastructure, and consumer electricity costs.','category/energy.html'),
+      CoverCard('activity','Energy Systems','The broader energy system — LNG exports, grid infrastructure, utilities, and how power markets interact with oil and gas.','category/energy.html'),
       CoverCard('shield','Nuclear Energy','The nuclear renaissance: 93-reactor U.S. fleet, Small Modular Reactors, uranium fuel cycle, and nuclear’s role in grid reliability and energy security.','category/nuclear.html'),
       CoverCard('leaf','Renewables','Solar, wind, hydroelectric, and energy storage — capacity growth, policy drivers, grid integration, and the long-term transition from fossil fuels.','category/renewable-energy.html'),
-      CoverCard('zap','Alternative Energy','Battery storage, hydrogen, carbon capture, EV charging infrastructure, and emerging energy technologies shaping the decarbonization landscape.','category/alternative-energy.html'),
+      CoverCard('battery','Alternative Energy','Battery storage, hydrogen, carbon capture, EV charging infrastructure, and emerging energy technologies shaping the decarbonization landscape.','category/alternative-energy.html'),
     ].join('');
 
     // WHO IT'S FOR
@@ -150,7 +154,8 @@
     // CTA
     document.getElementById('cta-cards').innerHTML = [
       CoverCard('trending-up','Check Oil Prices','Live WTI, Brent, and 150+ global crude benchmarks.','oil-prices.html'),
-      CoverCard('fuel','See Gas Prices','Today’s AAA gas prices for every U.S. state.','category/gas-prices.html'),
+      CoverCard('fuel','See Gas Prices','Today\u2019s AAA gas prices for every U.S. state.','category/gas-prices.html'),
+      CoverCard('zap','See Electricity Prices','Monthly EIA rates by state for residential and commercial.','electricity-prices.html'),
       CoverCard('globe','Follow Geopolitics','Real-time energy security risk dashboard.','category/geopolitics.html'),
     ].join('');
   </script>

@@ -47,7 +47,10 @@ fbq('init','957762016897581');fbq('track','PageView');
     @media(max-width:1100px){.three-pillars{grid-template-columns:repeat(2,1fr)}}
     @media(max-width:640px){.three-pillars{grid-template-columns:1fr}}
   </style>
-  <link rel="stylesheet" href="css/styles.css?v=6">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
+
+  <link rel="stylesheet" href="css/styles.css?v=9">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
@@ -334,7 +337,11 @@ fbq('init','957762016897581');fbq('track','PageView');
             <div class="pillar-network-icon" id="pn-mkt"></div>
             <div><div class="pillar-network-label">Benchmark Dashboard</div><div class="pillar-network-name">Markets</div></div>
           </a>
-        </nav>
+        <a href="electricity-prices.html" class="pillar-network-card">
+          <div class="pillar-network-icon" id="pn-elec"></div>
+          <div><div class="pillar-network-label">Power & Grid</div><div class="pillar-network-name">Electricity</div></div>
+        </a>
+      </nav>
       </div>
     </section>
 
@@ -354,12 +361,12 @@ fbq('init','957762016897581');fbq('track','PageView');
   </main>
 
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=6"></script>
-  <script src="js/article-slugs.js?v=6"></script>
-  <script src="js/main.js?v=6"></script>
-  <script src="js/live-data.js?v=6"></script>
-  <script src="js/news-feed.js?v=6"></script>
-  <script src="js/event-state.js?v=6"></script>
+  <script src="js/data.js?v=9"></script>
+  <script src="js/article-slugs.js?v=9"></script>
+  <script src="js/main.js?v=9"></script>
+  <script src="js/live-data.js?v=9"></script>
+  <script src="js/news-feed.js?v=9"></script>
+  <script src="js/event-state.js?v=9"></script>
   <script>
     document.getElementById('hero-eyebrow').innerHTML = icon('activity',14) + ' Live Energy Markets';
     document.getElementById('sec-drivers').innerHTML = icon('activity',18) + " What’s Moving Markets Today";
@@ -383,6 +390,7 @@ fbq('init','957762016897581');fbq('track','PageView');
     var pnGas = document.getElementById('pn-gas'); if (pnGas) pnGas.innerHTML = icon('fuel',16);
     var pnGeo = document.getElementById('pn-geo'); if (pnGeo) pnGeo.innerHTML = icon('globe',16);
     var pnMkt = document.getElementById('pn-mkt'); if (pnMkt) pnMkt.innerHTML = icon('bar-chart',16);
+    var pnElec = document.getElementById('pn-elec'); if (pnElec) pnElec.innerHTML = icon('zap',16);
 
     // AT-A-GLANCE STRIP — updates whenever live-data.js dispatches a refresh
     function updateGlanceStrip() {
