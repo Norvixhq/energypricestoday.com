@@ -796,3 +796,14 @@
 [2026-04-26T13:29:46.633690+00:00]   Δ hormuz_status.retired: 'OPEN' → 'None' (triggers_publish=True)
 [2026-04-26T13:29:46.634276+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
 [2026-04-26T13:29:46.634317+00:00] ════════════════════════════════════════════════════════════
+[2026-04-26T14:28:00.160323+00:00] resolver: start
+[2026-04-26T14:28:00.164541+00:00] resolver: scanning 262 clusters across 10 topics
+[2026-04-26T14:28:00.164918+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=4)
+[2026-04-26T14:28:00.166203+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=14)
+[2026-04-26T14:28:00.166337+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-04-26T14:28:00.166377+00:00]   global_risk_level: LOW (score=10)
+[2026-04-26T14:28:00.166556+00:00]   top_story: 'Russia Crude Oil Import Data 'Confidential'; CIC Backs Denia' (score=83.64)
+[2026-04-26T14:28:00.166601+00:00] resolver: 1 change(s), 1 meaningful, 0 publish-triggering
+[2026-04-26T14:28:00.166627+00:00]   Δ hormuz_status.new_event: 'None' → 'OPEN' (triggers_publish=False)
+[2026-04-26T14:28:00.167230+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-26T14:28:00.167269+00:00] ════════════════════════════════════════════════════════════
