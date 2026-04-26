@@ -154,10 +154,9 @@ function renderHeader(activePage) {
     else cls = ' mobile-energy';
     if (n.dropdown) {
       const subs = n.dropdown.map(s => `<a class="sub" href="${prefix + s.href}">${s.label}</a>`).join('');
-      return `<div class="mobile-dropdown-group">
+      return `<div class="mobile-dropdown-group open">
         <div class="mobile-dropdown-header">
           <a href="${href}" class="${cls}">${n.label}</a>
-          <button class="mobile-dropdown-toggle" onclick="this.parentElement.parentElement.classList.toggle('open')" aria-label="Expand">${icon('chevron-down', 16)}</button>
         </div>
         <div class="mobile-dropdown-items">${subs}</div>
       </div>`;
@@ -213,6 +212,33 @@ function renderHeader(activePage) {
   window.addEventListener('scroll', () => {
     document.getElementById('site-header').classList.toggle('scrolled', window.scrollY > 20);
   }, { passive: true });
+
+  // Touch-friendly dropdown: first tap opens, second tap navigates.
+  // Pure-mouse users get dropdown on hover (CSS) and click navigates.
+  // Detection via pointer events: if pointerType is 'touch', intercept the click.
+  document.querySelectorAll('.nav-dropdown-wrap > .nav-link').forEach(function(trigger) {
+    var lastPointerType = '';
+    trigger.addEventListener('pointerdown', function(e) {
+      lastPointerType = e.pointerType || '';
+    }, { passive: true });
+    trigger.addEventListener('click', function(e) {
+      if (lastPointerType !== 'touch') return;  // mouse: let nav happen
+      var wrap = trigger.parentElement;
+      if (!wrap.classList.contains('open')) {
+        e.preventDefault();
+        // Close any other open dropdowns
+        document.querySelectorAll('.nav-dropdown-wrap.open').forEach(function(w){ if (w !== wrap) w.classList.remove('open'); });
+        wrap.classList.add('open');
+      }
+      // If already open, let the click navigate to the parent page
+    });
+  });
+  // Tap outside any open dropdown to close it
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.nav-dropdown-wrap')) {
+      document.querySelectorAll('.nav-dropdown-wrap.open').forEach(function(w){ w.classList.remove('open'); });
+    }
+  });
 }
 
 function toggleMobileNav() {

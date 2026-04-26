@@ -4,14 +4,14 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 const COMMODITIES = [
-  { name: "WTI Crude", price: 96.57, change: -1.3, pct: -1.33, unit: "$/bbl", spark: [96,97,97.5,98,98.3,98.5,98.72], loading: false },
-  { name: "Brent Crude", price: 95.2, change: -1.31, pct: -1.36, unit: "$/bbl", spark: [94,95,95.5,96,96.2,96.4,96.51], loading: false },
-  { name: "Natural Gas", price: 2.65, change: -0.022, pct: -0.82, unit: "$/MMBtu", spark: [2.68,2.67,2.67,2.67,2.67,2.67,2.672], loading: false },
-  { name: "Gasoline RBOB", price: 3.018, change: 0.037, pct: 1.22, unit: "$/gal", spark: [2.98,2.99,3.0,3.0,3.01,3.01,3.018], loading: false },
-  { name: "Heating Oil", price: 3.74, change: -0.198, pct: -5.03, unit: "$/gal", spark: [3.92,3.93,3.94,3.95,3.96,3.97,3.975], loading: false },
-  { name: "Murban Crude", price: 96.96, change: -1.31, pct: -1.33, unit: "$/bbl", spark: [97,97.5,98,98.5,99,99.3,99.62], loading: false },
-  { name: "Diesel ULSD", price: 3.74, change: -0.17, pct: -4.35, unit: "$/gal", spark: [3.86,3.87,3.88,3.89,3.90,3.90,3.91], loading: false },
-  { name: "Jet Fuel", price: 4.09, change: -0.14, pct: -3.31, unit: "$/gal", spark: [4.16,4.17,4.18,4.19,4.21,4.22,4.23], loading: false },
+  { name: "WTI Crude", price: 94.70, change: -1.45, pct: -1.51, unit: "$/bbl", spark: [83.5,86.2,89.4,92.1,95.8,96.15,94.70], loading: false },
+  { name: "Brent Crude", price: 104.40, change: -1.62, pct: -1.53, unit: "$/bbl", spark: [88.5,91.3,94.8,98.5,103.2,106.02,104.40], loading: false },
+  { name: "Natural Gas", price: 2.52, change: -0.091, pct: -3.48, unit: "$/MMBtu", spark: [2.78,2.74,2.69,2.65,2.62,2.61,2.52], loading: false },
+  { name: "Gasoline RBOB", price: 3.18, change: -0.007, pct: -0.21, unit: "$/gal", spark: [2.85,2.92,3.05,3.13,3.18,3.19,3.18], loading: false },
+  { name: "Heating Oil", price: 3.86, change: -0.04, pct: -1.03, unit: "$/gal", spark: [3.45,3.58,3.71,3.82,3.89,3.90,3.86], loading: false },
+  { name: "Murban Crude", price: 105.20, change: -1.55, pct: -1.45, unit: "$/bbl", spark: [89,92,96,100,104,106,105.20], loading: false },
+  { name: "Diesel ULSD", price: 3.86, change: -0.04, pct: -1.03, unit: "$/gal", spark: [3.45,3.58,3.71,3.82,3.89,3.90,3.86], loading: false },
+  { name: "Jet Fuel", price: 4.18, change: -0.05, pct: -1.18, unit: "$/gal", spark: [3.78,3.89,4.02,4.15,4.21,4.23,4.18], loading: false },
   { name: "Coal", price: 134.9, change: 2.5, pct: 1.89, unit: "$/ton", spark: [110,109.5,109,108.5,108,107.8,107.7], loading: false },
   { name: "Gold", price: 4750.43, change: -83.04, pct: -1.75, unit: "$/oz", spark: [], loading: false },
 ];
@@ -58,45 +58,49 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "US Oil Drillers Scale Back as Global Supply Crunch Continues", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of April 24, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Is No Longer Trading Like a Market", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", cat: "Geopolitics", slug: "geopolitics", time: "2h" },
+  { title: "Trump Cancels Witkoff-Kushner Pakistan Trip as Iran Talks Stall", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
+  { title: "Israeli Strikes on Lebanon Kill 6 Including Journalist as Ceasefire Strains", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
+  { title: "WTI Surges 13% on Week as Hormuz Stays Closed and Talks Stall", cat: "Oil Markets", slug: "oil-prices", time: "2d" },
+  { title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels in Strait", cat: "Geopolitics", slug: "geopolitics", time: "4d" },
+  { title: "U.S. Boards Supertanker Carrying Iranian Oil in Indian Ocean", cat: "Geopolitics", slug: "geopolitics", time: "4d" },
+  { title: "Israeli Strikes Kill Lebanese Journalist Amal Khalil During Extended Ceasefire", cat: "Geopolitics", slug: "geopolitics", time: "3d" },
+  { title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Iranian Government", cat: "Geopolitics", slug: "geopolitics", time: "5d" },
 ];
 
 const MARKET_DRIVERS = [
-  { cat: "Ceasefire Extended", icon: "shield", title: "Trump Extends Ceasefire Indefinitely, Citing 'Fractured' Iran", desc: "Trump posted on Truth Social Tuesday afternoon that the U.S.-Iran ceasefire will be extended until Iran submits a \u201Cunified proposal.\u201D No new expiration date set. At request of Pakistan's Field Marshal Asim Munir and PM Shehbaz Sharif. Naval blockade of Iranian ports remains in place." },
-  { cat: "Oil Markets", icon: "trending-up", title: "Brent Touches $101 Intraday Before Retreating on Extension News", desc: "Brent settled +3% at $98.48 after briefly spiking to $101.15 when reports emerged that Vance had called off his Islamabad trip. WTI settled +3% at $92.13. Prices pared gains after Trump's ceasefire extension post minutes after market close." },
-  { cat: "Blockade", icon: "anchor", title: "U.S. Navy Blockade Has Turned Back 28 Ships Since Beginning", desc: "Naval blockade of Iranian ports continues despite ceasefire extension. Iran's FM Araghchi called blockade \u201Can act of war\u201D and ceasefire violation. Key sticking point in talks alongside Iran's nuclear program and the Strait of Hormuz status." },
-  { cat: "Lebanon", icon: "alert-triangle", title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon", desc: "Israeli military says Hezbollah fired rockets at Israeli troops in southern Lebanon on Tuesday, violating the 10-day ceasefire ahead of U.S.-mediated talks. No immediate Hezbollah response. Lebanese PM Salam: \u201CWe won't be intimidated by Hezbollah.\u201D" },
-  { cat: "Iran Threats", icon: "zap", title: "IRGC Threatens Oil Facilities in Neighboring Countries", desc: "Iran's Revolutionary Guard threatened to target oil facilities in neighboring states that allow the U.S. to launch attacks on Iran from their territory. Escalation risk if ceasefire collapses. Gulf producers monitoring closely." },
-  { cat: "Diplomacy", icon: "users", title: "Iran Still Hasn't Confirmed Delegation for Islamabad Talks", desc: "Pakistan's info minister Tarar says \u201Cformal response from Iranian side about confirmation of delegation\u201D still awaited. Vance remained at White House Tuesday afternoon. Civilian-IRGC split in Tehran complicates unified Iranian position." },
+  { cat: "Talks Collapse", icon: "users", title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", desc: "Iran's FM Araghchi departed Islamabad Sunday April 26 without any direct meeting with U.S. officials, after Trump cancelled the Witkoff-Kushner trip Saturday. Pakistani PM Sharif and Iranian President Pezeshkian held a 50-minute phone call. Pakistani mediation continues but direct talks remain stalled." },
+  { cat: "Oil Markets", icon: "trending-up", title: "WTI Up 13% on Week, Brent Up 18% on Hormuz Closure and Stalled Talks", desc: "WTI closed Friday at $94.70, Brent at $104.40 — both posting their biggest weekly gains since early March. Geopolitical risk premium fully embedded as Hormuz remains closed and U.S.-Iran diplomacy fails. Markets expected to push higher Monday on weekend talks collapse." },
+  { cat: "Escalation", icon: "zap", title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels", desc: "Trump's April 22 escalation order moved U.S. naval rules of engagement from defensive clearance to active interdiction with lethal force authorized. U.S. forces also boarded a supertanker carrying Iranian oil in the Indian Ocean — interdiction now extends well beyond the Persian Gulf blockade zone." },
+  { cat: "Lebanon", icon: "alert-triangle", title: "Israeli Strikes Kill 6 Including Lebanese Journalist Despite Ceasefire", desc: "Israeli strikes Saturday killed six in south Lebanon, including journalist Amal Khalil on April 22. Netanyahu ordered military to 'forcefully attack Hezbollah targets.' Truce extended three weeks but cycle of breaches threatens collapse. Lebanon front complicates parallel Iran negotiations." },
+  { cat: "Hormuz", icon: "anchor", title: "Strait Remains Closed; Iran Lost Track of Mines It Planted", desc: "Hormuz remains essentially closed as the conflict enters its third month. Iran reportedly lost track of mines it laid in the strait, complicating any reopening even if diplomacy succeeds. Analysts say full normalization could take months even after a deal. Dual blockade continues." },
+  { cat: "Diplomacy", icon: "users", title: "Pakistan Continues Back-Channel Mediation as Direct Talks Fail", desc: "Pakistan's Field Marshal Munir and PM Sharif remain primary mediators after second round of direct U.S.-Iran talks failed. Sharif-Pezeshkian phone call Saturday night lasted 50 minutes. Pakistan still ready to host talks 'at a moment's notice' if both sides agree to engage." },
 ];
 
 const FEATURED_ARTICLES = [
-  { id: 101, title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Iranian Government", excerpt: "In a Truth Social post Tuesday afternoon, President Trump announced he would extend the U.S.-Iran ceasefire until Iran's leadership submits a \u201Cunified proposal.\u201D Decision came at the request of Pakistan's Field Marshal Asim Munir and PM Sharif. Naval blockade of Iranian ports remains in place.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "7 min", featured: true },
-  { id: 102, title: "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension", excerpt: "Oil whipsawed Tuesday as Brent briefly spiked to $101.15 on reports Vance had called off his Islamabad trip, then retreated after Trump's extension post. WTI settled +3% at $92.13, Brent +3% at $98.48. Monday closes were +7% and +5%.", cat: "Oil Markets", slug: "oil-prices", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
-  { id: 103, title: "Vance's Islamabad Trip Put on Hold as Iran Fails to Confirm Delegation", excerpt: "Vice President JD Vance remained at the White House Tuesday rather than flying to Pakistan, after Iran declined to respond to American negotiating positions. Talks remain possible \u201Cat a moment's notice\u201D per a U.S. official. Pakistan's information minister says Iranian confirmation still awaited.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
-  { id: 104, title: "Hezbollah Fires Rockets at Israeli Troops in Southern Lebanon, Violating Ceasefire", excerpt: "The Israeli military said Hezbollah fired rockets at Israeli troops in southern Lebanon on Tuesday, violating the 10-day ceasefire. Lebanese PM Salam said Lebanon \u201Cwon't be intimidated\u201D by the Iran-backed militia. The breach comes ahead of U.S.-mediated talks between Israel and Lebanon.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "4 min" },
-  { id: 105, title: "IRGC Threatens to Target Oil Facilities in Neighboring Countries Hosting U.S. Attacks", excerpt: "Iran's Revolutionary Guard Corps warned it would strike oil infrastructure in any neighboring country that allowed the U.S. to resume attacks on Iran from its territory. Gulf producers on heightened alert. Threat escalates if ceasefire collapses.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 21, 2026", readTime: "5 min" },
+  { id: 101, title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", excerpt: "Iran's Foreign Minister Abbas Araghchi left Islamabad on Sunday without meeting any U.S. officials, ending what had been billed as a potential second round of U.S.-Iran peace talks. Araghchi met only with Pakistani mediators after Trump cancelled the Witkoff-Kushner trip on Saturday. Pakistani back-channel diplomacy continues despite the failed direct meetings.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 26, 2026", readTime: "5 min", featured: true },
+  { id: 102, title: "WTI Surges 13% on Week as Hormuz Stays Closed and Talks Stall", excerpt: "U.S. crude oil benchmarks posted their biggest weekly gain since early March, with WTI up 13% and Brent up roughly 18% on the week. Friday's session ended with WTI at $94.70 and Brent at $104.40 — Friday saw a brief pullback on talk-resumption hopes that collapsed by Saturday when Trump cancelled U.S. envoys' trip.", cat: "Oil Markets", slug: "oil-prices", author: "Staff", date: "Apr 24, 2026", readTime: "6 min" },
+  { id: 103, title: "Trump Cancels Witkoff-Kushner Pakistan Trip as Iran Talks Stall", excerpt: "President Trump cancelled the planned trip of U.S. envoys Steve Witkoff and Jared Kushner to Islamabad on Saturday, halting what was expected to be the second formal round of U.S.-Iran peace talks. The cancellation followed mixed signals from Tehran about whether Iranian officials were prepared to engage substantively with U.S. demands.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 25, 2026", readTime: "6 min" },
+  { id: 104, title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels in Strait", excerpt: "President Trump on Thursday ordered the U.S. Navy to 'shoot and kill' Iranian small boats observed laying mines in the Strait of Hormuz, marking the sharpest escalation in U.S. enforcement posture since the naval blockade began. U.S. forces also boarded a supertanker carrying Iranian oil in the Indian Ocean.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 22, 2026", readTime: "6 min" },
+  { id: 105, title: "Israeli Strikes Kill Lebanese Journalist Amal Khalil During Extended Ceasefire", excerpt: "Lebanese journalist Amal Khalil was killed in an Israeli strike on April 22, sharply straining the extended Israel-Lebanon ceasefire. Multiple new Israeli strikes followed, killing six on Saturday despite the ceasefire's recent extension. Netanyahu ordered the military to 'forcefully attack Hezbollah targets' after the army accused the group of breaching the truce.", cat: "Geopolitics", slug: "geopolitics", author: "Staff", date: "Apr 23, 2026", readTime: "5 min" },
 ];
 
 const COMPANY_NEWS = [
-  { id: 201, title: "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays", date: "Apr 21, 2026" },
-  { id: 202, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", date: "Apr 21, 2026" },
-  { id: 203, title: "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade", date: "Apr 21, 2026" },
-  { id: 204, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", date: "Apr 21, 2026" },
-  { id: 205, title: "Shell Reports Higher Q1 Upstream Earnings, Maintains Dividend", date: "Apr 16, 2026" },
-  { id: 206, title: "ConocoPhillips Completes Marathon Oil Integration Synergies", date: "Apr 17, 2026" },
+  { id: 201, title: "WTI Surges 13% on Week as Hormuz Stays Closed and Talks Stall", date: "Apr 24, 2026" },
+  { id: 202, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", date: "Apr 25, 2026" },
+  { id: 203, title: "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade", date: "Apr 24, 2026" },
+  { id: 204, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", date: "Apr 23, 2026" },
+  { id: 205, title: "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays", date: "Apr 22, 2026" },
+  { id: 206, title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", date: "Apr 22, 2026" },
 ];
 
 const GEO_ITEMS = [
-  
-  { id: 306, region: "OPEC+", title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", desc: "206,000 bpd April increase on schedule. Saudi Arabia holding current production. No emergency meeting called following ceasefire extension. Gulf producers watching Hormuz status ahead of May production decisions. JMMC meeting preparations continue." },
+  { id: 301, region: "Pakistan", title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", desc: "Iran's FM Araghchi departed Islamabad Sunday April 26 without any direct meeting with American counterparts. Met only with Pakistan's Field Marshal Munir and PM Sharif. Trump cancelled the Witkoff-Kushner trip Saturday. Sharif-Pezeshkian phone call Saturday night ran 50 minutes. Direct talks remain stalled." },
+  { id: 302, region: "Persian Gulf", title: "Strait of Hormuz Remains Functionally Closed Despite Extension", desc: "Hormuz remains essentially closed as the conflict enters its third month. Iran reportedly lost track of mines it laid in the strait, complicating any reopening even if diplomacy succeeds. U.S. Navy blockade continues. Dual blockade dynamic persists. Analysts: full normalization could take months even after a deal." },
+  { id: 303, region: "United States", title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels", desc: "Trump's April 22 escalation order moved U.S. naval rules of engagement from defensive clearance to active interdiction. Trump described blockade as 'unbelievably effective.' U.S. forces also boarded a supertanker carrying Iranian oil in the Indian Ocean — interdiction now extends well beyond the Persian Gulf." },
+  { id: 304, region: "Lebanon", title: "Israeli Strikes Kill 6 in South Lebanon Despite Extended Ceasefire", desc: "Israeli strikes Saturday killed six in south Lebanon. Lebanese journalist Amal Khalil killed in earlier strike April 22. Netanyahu ordered military to 'forcefully attack Hezbollah targets' after army accused group of breaching truce. Cycle of breaches threatens to collapse the three-week extension." },
+  { id: 305, region: "Iran", title: "Civilian-IRGC Split in Tehran Deepens; FM Civilian Track vs. Hard-Line Posture", desc: "Iran's leadership reportedly fragmenting under wartime pressure, with real authority shifting from formal institutions toward a collective of IRGC commanders. Civilian foreign ministry continues diplomatic engagement; IRGC opposes concessions while blockade continues. Internal split blocks unified negotiating position." },
+  { id: 306, region: "Oil Markets", title: "WTI Up 13% on Week, Brent Up 18% — Biggest Gains Since Early March", desc: "WTI closed Friday at $94.70, Brent at $104.40 after biggest weekly gains since early March. Geopolitical risk premium fully embedded as Hormuz remains closed. Markets expected to push higher Monday on weekend talks collapse. Options implied volatility at multi-year highs." },
 ];
 
 const CATEGORIES = {
@@ -144,18 +148,18 @@ const CATEGORY_LIST_FOR_SPOTLIGHTS = [
 ];
 
 const RIG_COUNT_DATA = {
-  // U.S. — Baker Hughes North America Rig Count, April 10, 2026
-  us_total: 545, us_total_change: -3, us_oil: 411, us_oil_change: 0, us_gas: 127, us_gas_change: -3, us_misc: 7, us_misc_change: 0,
-  us_land: 530, us_offshore: 14, us_inland: 1,
-  us_directional: 50, us_horizontal: 483, us_vertical: 12,
-  us_yoy: -38, us_yoy_total: 583,
-  us_gom: 13,
-  // Canada — April 10, 2026
-  canada_total: 135, canada_change: -7, canada_oil: 83, canada_gas: 52,
-  canada_yoy: -3, canada_yoy_total: 138,
+  // U.S. — Baker Hughes North America Rig Count, April 24, 2026
+  us_total: 544, us_total_change: 1, us_oil: 407, us_oil_change: -3, us_gas: 129, us_gas_change: 4, us_misc: 8, us_misc_change: 0,
+  us_land: 533, us_offshore: 11, us_inland: 0,
+  us_directional: 48, us_horizontal: 484, us_vertical: 12,
+  us_yoy: -43, us_yoy_total: 587,
+  us_gom: 10,
+  // Canada — April 24, 2026
+  canada_total: 130, canada_change: 0, canada_oil: 80, canada_gas: 50,
+  canada_yoy: -8, canada_yoy_total: 138,
   // North America
-  na_total: 680, na_change: -10, na_yoy: -41, na_yoy_total: 721,
-  // International — March 2026 (monthly report)
+  na_total: 674, na_change: 1, na_yoy: -51, na_yoy_total: 725,
+  // International — March 2026 (monthly report; April report due May 2)
   intl_total: 1058, intl_change: -54, intl_yoy: -37, intl_yoy_total: 1095,
   intl_mideast: 500, intl_mideast_change: -38,
   intl_latam: 143, intl_latam_change: 5,
@@ -163,8 +167,8 @@ const RIG_COUNT_DATA = {
   intl_africa: 101, intl_africa_change: -2,
   intl_asiapac: 190, intl_asiapac_change: -17,
   // Worldwide
-  ww_total: 1791, ww_change: -94,
-  source: "Baker Hughes", updated: "U.S./Canada: April 10, 2026 | International: March 2026"
+  ww_total: 1732, ww_change: -53,
+  source: "Baker Hughes", updated: "U.S./Canada: April 24, 2026 | International: March 2026"
 };
 
 const OIL_FUTURES_DATA = [
@@ -234,9 +238,9 @@ const CATEGORY_CONTENT = {
       { id: 1204, title: "International Rig Count Stable at 958 as Middle East Activity Rises", excerpt: "Saudi Arabia and UAE are adding rigs to maintain production capacity even as OPEC+ quotas limit output.", date: "Apr 13, 2026", author: "Staff", readTime: "4 min" },
     ],
     stats: [
-      { label: "U.S. Total", value: "584", sub: "-5 w/w" },
-      { label: "U.S. Oil Rigs", value: "479", sub: "-3 w/w" },
-      { label: "Permian Basin", value: "302", sub: "Steady" },
+      { label: "U.S. Total", value: "544", sub: "+1 w/w" },
+      { label: "U.S. Oil Rigs", value: "407", sub: "-3 w/w" },
+      { label: "Texas (Top State)", value: "234", sub: "+2 w/w" },
     ]
   },
   "energy": {
@@ -310,6 +314,10 @@ const CATEGORY_CONTENT = {
   },
   "geopolitics": {
     articles: [
+      { id: 1410, title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", excerpt: "Iran's Foreign Minister Abbas Araghchi left Islamabad on Sunday April 26 without meeting any U.S. officials after Trump cancelled the Witkoff-Kushner trip Saturday. Pakistani back-channel mediation continues but direct talks remain stalled.", date: "Apr 26, 2026", author: "Staff", readTime: "5 min" },
+      { id: 1411, title: "Trump Cancels Witkoff-Kushner Pakistan Trip as Iran Talks Stall", excerpt: "President Trump cancelled the planned Saturday trip of U.S. envoys Steve Witkoff and Jared Kushner to Islamabad, halting what was expected to be the second formal round of U.S.-Iran peace talks before it could begin.", date: "Apr 25, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1412, title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels in Strait", excerpt: "Trump's April 22 escalation order moved U.S. naval rules of engagement from defensive clearance to active interdiction with lethal force authorized. U.S. forces also boarded a supertanker carrying Iranian oil in the Indian Ocean.", date: "Apr 22, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1413, title: "Israeli Strikes Kill Lebanese Journalist Amal Khalil During Extended Ceasefire", excerpt: "Lebanese journalist Amal Khalil was killed in an Israeli strike on April 22, sharply straining the extended Israel-Lebanon ceasefire. Multiple new strikes followed, killing six on Saturday despite the truce extension.", date: "Apr 23, 2026", author: "Staff", readTime: "5 min" },
       { id: 1500, title: "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Extension", excerpt: "The Pakistan-mediated U.S.-Iran ceasefire: what it covers, what it doesn\u0027t, Trump\u0027s April 21 indefinite extension, and what markets expect next.", date: "Apr 21, 2026", author: "Staff", readTime: "6 min" },
       { id: 1300, title: "What Happens If the Strait of Hormuz Closes?", excerpt: "Hour-by-hour and week-by-week scenario analysis: oil prices, gasoline, shipping, and the countries most exposed if the world\u0027s most important chokepoint shuts.", date: "Apr 18, 2026", author: "Staff", readTime: "7 min" },
       { id: 1301, title: "What Is OPEC+ and How Does It Affect Oil Prices?", excerpt: "The 23-nation producer alliance that controls roughly 40% of global oil output. Who\u0027s in it, how it sets quotas, and why its decisions move prices within minutes.", date: "Apr 18, 2026", author: "Staff", readTime: "6 min" },
@@ -328,11 +336,12 @@ const CATEGORY_CONTENT = {
   },
   "company-news": {
     articles: [
-      { id: 1901, title: "ExxonMobil Reports $9.2B Q1 Profit, Raises Dividend 4%", excerpt: "Strong upstream earnings from the Permian Basin and Guyana offset weaker downstream margins in the quarter.", date: "Apr 16, 2026", author: "Staff", readTime: "5 min" },
-      { id: 1902, title: "Shell Accelerates North Sea Asset Sales Worth $4.5B", excerpt: "The energy major continues divesting mature UK and Norwegian assets to focus capital on high-return deepwater projects.", date: "Apr 15, 2026", author: "Staff", readTime: "4 min" },
-      { id: 1903, title: "Chevron Completes Hess Merger, Gains Guyana Stabroek Stake", excerpt: "The $53B deal closes after FTC review, giving Chevron a 30% stake in one of the world's fastest-growing oil provinces.", date: "Apr 14, 2026", author: "Staff", readTime: "6 min" },
-      { id: 1904, title: "TotalEnergies Signs 20-Year LNG Supply Agreement with India", excerpt: "The deal secures 3 MTPA of LNG from Mozambique's Area 1 project, supporting India's coal-to-gas transition strategy.", date: "Apr 13, 2026", author: "Staff", readTime: "5 min" },
-      { id: 1905, title: "Saudi Aramco Invests $2B in South Korean Refinery Expansion", excerpt: "The investment strengthens Aramco's downstream integration strategy and secures long-term crude supply placement in Asia.", date: "Apr 13, 2026", author: "Staff", readTime: "4 min" },
+      { id: 1900, title: "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade", excerpt: "Aramco's 5M bpd Hormuz bypass remains the global oil market's most critical piece of working infrastructure as the dual blockade enters its third month.", date: "Apr 24, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1901, title: "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays", excerpt: "Integrated majors traded mixed on the day of the ceasefire extension. Refiners held a more stable bid with crack spreads supported. LNG names benefited from continued Qatari disruption.", date: "Apr 22, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1902, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", excerpt: "Both carriers cited continued threats to commercial shipping. Vessels continue routing around the Cape of Good Hope, adding 10-14 days per voyage and effectively reducing global container capacity.", date: "Apr 25, 2026", author: "Staff", readTime: "6 min" },
+      { id: 1903, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", excerpt: "U.S. LNG terminals operating near 14 Bcf/d combined export capacity. European buyers returning to premium bidding for U.S. cargoes. JKM trading premium to TTF for first time since early 2025.", date: "Apr 23, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1904, title: "ExxonMobil Q1 Earnings Preview: Hormuz Disruption Hits Trading Timing", excerpt: "ExxonMobil's April 8 Q1 considerations supplement flagged $3.5-4.9B in negative timing effects from the Middle East conflict. Earnings call scheduled for April 30 will detail the full impact.", date: "Apr 22, 2026", author: "Staff", readTime: "5 min" },
+      { id: 1905, title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", excerpt: "206,000 bpd April increase on schedule. Saudi Arabia holding current production. No emergency JMMC meeting called following ceasefire extension.", date: "Apr 22, 2026", author: "Staff", readTime: "8 min" },
     ],
     stats: []
   },
@@ -545,66 +554,66 @@ const CATEGORY_FAQS = {
 
 
 const GAS_PRICES_BY_STATE = [
-  { state:"Alabama", abbr:"AL", regular:3.785, mid:4.231, premium:4.640, diesel:5.365 },
-  { state:"Alaska", abbr:"AK", regular:4.608, mid:4.829, premium:5.062, diesel:5.905 },
-  { state:"Arizona", abbr:"AZ", regular:4.603, mid:4.987, premium:5.303, diesel:5.988 },
-  { state:"Arkansas", abbr:"AR", regular:3.607, mid:4.060, premium:4.432, diesel:5.121 },
-  { state:"California", abbr:"CA", regular:5.829, mid:6.073, premium:6.251, diesel:7.590 },
-  { state:"Colorado", abbr:"CO", regular:3.913, mid:4.316, premium:4.640, diesel:5.120 },
-  { state:"Connecticut", abbr:"CT", regular:4.064, mid:4.609, premium:5.000, diesel:5.888 },
-  { state:"Delaware", abbr:"DE", regular:3.926, mid:4.530, premium:4.836, diesel:5.734 },
-  { state:"District of Columbia", abbr:"DC", regular:4.286, mid:4.883, premium:5.262, diesel:5.881 },
-  { state:"Florida", abbr:"FL", regular:4.095, mid:4.562, premium:4.894, diesel:5.570 },
-  { state:"Georgia", abbr:"GA", regular:3.631, mid:4.094, premium:4.517, diesel:5.202 },
-  { state:"Hawaii", abbr:"HI", regular:5.666, mid:5.901, premium:6.143, diesel:7.129 },
-  { state:"Idaho", abbr:"ID", regular:4.301, mid:4.602, premium:4.871, diesel:5.488 },
-  { state:"Illinois", abbr:"IL", regular:4.315, mid:4.896, premium:5.363, diesel:5.392 },
-  { state:"Indiana", abbr:"IN", regular:3.822, mid:4.371, premium:4.867, diesel:5.387 },
-  { state:"Iowa", abbr:"IA", regular:3.597, mid:3.820, premium:4.434, diesel:5.022 },
-  { state:"Kansas", abbr:"KS", regular:3.467, mid:3.794, premium:4.129, diesel:4.722 },
-  { state:"Kentucky", abbr:"KY", regular:3.931, mid:4.491, premium:4.917, diesel:5.316 },
-  { state:"Louisiana", abbr:"LA", regular:3.701, mid:4.140, premium:4.526, diesel:5.200 },
-  { state:"Maine", abbr:"ME", regular:3.974, mid:4.517, premium:5.004, diesel:5.833 },
-  { state:"Maryland", abbr:"MD", regular:4.051, mid:4.664, premium:4.982, diesel:5.781 },
-  { state:"Massachusetts", abbr:"MA", regular:3.953, mid:4.546, premium:4.929, diesel:5.853 },
-  { state:"Michigan", abbr:"MI", regular:3.861, mid:4.460, premium:5.026, diesel:5.221 },
-  { state:"Minnesota", abbr:"MN", regular:3.662, mid:4.095, premium:4.587, diesel:5.053 },
-  { state:"Mississippi", abbr:"MS", regular:3.701, mid:4.129, premium:4.526, diesel:5.194 },
-  { state:"Missouri", abbr:"MO", regular:3.630, mid:4.040, premium:4.352, diesel:4.859 },
-  { state:"Montana", abbr:"MT", regular:3.861, mid:4.167, premium:4.510, diesel:4.971 },
-  { state:"Nebraska", abbr:"NE", regular:3.591, mid:3.761, premium:4.223, diesel:4.861 },
-  { state:"Nevada", abbr:"NV", regular:4.918, mid:5.238, premium:5.525, diesel:6.252 },
-  { state:"New Hampshire", abbr:"NH", regular:3.930, mid:4.484, premium:4.947, diesel:5.790 },
-  { state:"New Jersey", abbr:"NJ", regular:3.962, mid:4.515, premium:4.780, diesel:5.804 },
-  { state:"New Mexico", abbr:"NM", regular:3.892, mid:4.320, premium:4.629, diesel:5.383 },
-  { state:"New York", abbr:"NY", regular:4.118, mid:4.624, premium:5.005, diesel:5.941 },
-  { state:"North Carolina", abbr:"NC", regular:3.806, mid:4.253, premium:4.652, diesel:5.666 },
-  { state:"North Dakota", abbr:"ND", regular:3.577, mid:3.919, premium:4.335, diesel:4.847 },
-  { state:"Ohio", abbr:"OH", regular:3.736, mid:4.271, premium:4.786, diesel:5.350 },
-  { state:"Oklahoma", abbr:"OK", regular:3.413, mid:3.830, premium:4.117, diesel:4.734 },
-  { state:"Oregon", abbr:"OR", regular:4.957, mid:5.183, premium:5.456, diesel:6.276 },
-  { state:"Pennsylvania", abbr:"PA", regular:4.086, mid:4.528, premium:4.905, diesel:6.016 },
-  { state:"Rhode Island", abbr:"RI", regular:3.949, mid:4.619, premium:5.045, diesel:5.761 },
-  { state:"South Carolina", abbr:"SC", regular:3.734, mid:4.180, premium:4.580, diesel:5.545 },
-  { state:"South Dakota", abbr:"SD", regular:3.645, mid:3.821, premium:4.296, diesel:4.808 },
-  { state:"Tennessee", abbr:"TN", regular:3.805, mid:4.270, premium:4.662, diesel:5.385 },
-  { state:"Texas", abbr:"TX", regular:3.708, mid:4.185, premium:4.561, diesel:5.224 },
-  { state:"Utah", abbr:"UT", regular:4.171, mid:4.452, premium:4.700, diesel:5.330 },
-  { state:"Vermont", abbr:"VT", regular:4.069, mid:4.563, premium:5.025, diesel:5.846 },
-  { state:"Virginia", abbr:"VA", regular:3.919, mid:4.394, premium:4.773, diesel:5.695 },
-  { state:"Washington", abbr:"WA", regular:5.353, mid:5.626, premium:5.862, diesel:6.903 },
-  { state:"West Virginia", abbr:"WV", regular:3.887, mid:4.303, premium:4.761, diesel:5.494 },
-  { state:"Wisconsin", abbr:"WI", regular:3.729, mid:4.238, premium:4.828, diesel:4.934 },
-  { state:"Wyoming", abbr:"WY", regular:3.835, mid:4.147, premium:4.440, diesel:5.021 }
+  { state:"Alabama", abbr:"AL", regular:3.76, mid:4.203, premium:4.609, diesel:5.329 },
+  { state:"Alaska", abbr:"AK", regular:4.577, mid:4.797, premium:5.028, diesel:5.866 },
+  { state:"Arizona", abbr:"AZ", regular:4.572, mid:4.954, premium:5.268, diesel:5.948 },
+  { state:"Arkansas", abbr:"AR", regular:3.583, mid:4.033, premium:4.403, diesel:5.087 },
+  { state:"California", abbr:"CA", regular:5.79, mid:6.033, premium:6.209, diesel:7.539 },
+  { state:"Colorado", abbr:"CO", regular:3.887, mid:4.287, premium:4.609, diesel:5.086 },
+  { state:"Connecticut", abbr:"CT", regular:4.037, mid:4.578, premium:4.967, diesel:5.849 },
+  { state:"Delaware", abbr:"DE", regular:3.9, mid:4.5, premium:4.804, diesel:5.696 },
+  { state:"District of Columbia", abbr:"DC", regular:4.257, mid:4.851, premium:5.227, diesel:5.842 },
+  { state:"Florida", abbr:"FL", regular:4.068, mid:4.532, premium:4.861, diesel:5.533 },
+  { state:"Georgia", abbr:"GA", regular:3.607, mid:4.067, premium:4.487, diesel:5.167 },
+  { state:"Hawaii", abbr:"HI", regular:5.628, mid:5.862, premium:6.102, diesel:7.082 },
+  { state:"Idaho", abbr:"ID", regular:4.272, mid:4.571, premium:4.839, diesel:5.451 },
+  { state:"Illinois", abbr:"IL", regular:4.286, mid:4.863, premium:5.327, diesel:5.356 },
+  { state:"Indiana", abbr:"IN", regular:3.797, mid:4.342, premium:4.835, diesel:5.351 },
+  { state:"Iowa", abbr:"IA", regular:3.573, mid:3.795, premium:4.404, diesel:4.989 },
+  { state:"Kansas", abbr:"KS", regular:3.444, mid:3.769, premium:4.102, diesel:4.691 },
+  { state:"Kentucky", abbr:"KY", regular:3.905, mid:4.461, premium:4.884, diesel:5.281 },
+  { state:"Louisiana", abbr:"LA", regular:3.676, mid:4.112, premium:4.496, diesel:5.165 },
+  { state:"Maine", abbr:"ME", regular:3.948, mid:4.487, premium:4.971, diesel:5.794 },
+  { state:"Maryland", abbr:"MD", regular:4.024, mid:4.633, premium:4.949, diesel:5.743 },
+  { state:"Massachusetts", abbr:"MA", regular:3.927, mid:4.516, premium:4.896, diesel:5.814 },
+  { state:"Michigan", abbr:"MI", regular:3.835, mid:4.43, premium:4.993, diesel:5.186 },
+  { state:"Minnesota", abbr:"MN", regular:3.638, mid:4.068, premium:4.556, diesel:5.019 },
+  { state:"Mississippi", abbr:"MS", regular:3.676, mid:4.102, premium:4.496, diesel:5.159 },
+  { state:"Missouri", abbr:"MO", regular:3.606, mid:4.013, premium:4.323, diesel:4.827 },
+  { state:"Montana", abbr:"MT", regular:3.835, mid:4.139, premium:4.48, diesel:4.938 },
+  { state:"Nebraska", abbr:"NE", regular:3.567, mid:3.736, premium:4.195, diesel:4.829 },
+  { state:"Nevada", abbr:"NV", regular:4.885, mid:5.203, premium:5.488, diesel:6.21 },
+  { state:"New Hampshire", abbr:"NH", regular:3.904, mid:4.454, premium:4.914, diesel:5.751 },
+  { state:"New Jersey", abbr:"NJ", regular:3.936, mid:4.485, premium:4.748, diesel:5.765 },
+  { state:"New Mexico", abbr:"NM", regular:3.866, mid:4.291, premium:4.598, diesel:5.347 },
+  { state:"New York", abbr:"NY", regular:4.091, mid:4.593, premium:4.972, diesel:5.901 },
+  { state:"North Carolina", abbr:"NC", regular:3.781, mid:4.225, premium:4.621, diesel:5.628 },
+  { state:"North Dakota", abbr:"ND", regular:3.553, mid:3.893, premium:4.306, diesel:4.815 },
+  { state:"Ohio", abbr:"OH", regular:3.711, mid:4.243, premium:4.754, diesel:5.314 },
+  { state:"Oklahoma", abbr:"OK", regular:3.39, mid:3.805, premium:4.09, diesel:4.703 },
+  { state:"Oregon", abbr:"OR", regular:4.924, mid:5.149, premium:5.42, diesel:6.234 },
+  { state:"Pennsylvania", abbr:"PA", regular:4.059, mid:4.498, premium:4.872, diesel:5.976 },
+  { state:"Rhode Island", abbr:"RI", regular:3.923, mid:4.588, premium:5.011, diesel:5.723 },
+  { state:"South Carolina", abbr:"SC", regular:3.709, mid:4.152, premium:4.55, diesel:5.508 },
+  { state:"South Dakota", abbr:"SD", regular:3.621, mid:3.796, premium:4.267, diesel:4.776 },
+  { state:"Tennessee", abbr:"TN", regular:3.78, mid:4.242, premium:4.631, diesel:5.349 },
+  { state:"Texas", abbr:"TX", regular:3.683, mid:4.157, premium:4.531, diesel:5.189 },
+  { state:"Utah", abbr:"UT", regular:4.143, mid:4.422, premium:4.669, diesel:5.295 },
+  { state:"Vermont", abbr:"VT", regular:4.042, mid:4.533, premium:4.992, diesel:5.807 },
+  { state:"Virginia", abbr:"VA", regular:3.893, mid:4.365, premium:4.741, diesel:5.657 },
+  { state:"Washington", abbr:"WA", regular:5.317, mid:5.589, premium:5.823, diesel:6.857 },
+  { state:"West Virginia", abbr:"WV", regular:3.861, mid:4.274, premium:4.729, diesel:5.457 },
+  { state:"Wisconsin", abbr:"WI", regular:3.704, mid:4.21, premium:4.796, diesel:4.901 },
+  { state:"Wyoming", abbr:"WY", regular:3.809, mid:4.119, premium:4.41, diesel:4.988 }
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 4.044,
-  mid: 4.655,
-  premium: 5.024,
-  diesel: 5.403,
-  source: "EIA Weekly Retail Gasoline Prices",
-  updated: "As of April 22, 2026"
+  regular: 4.031,
+  mid: 4.539,
+  premium: 4.903,
+  diesel: 5.533,
+  source: "AAA Daily Fuel Gauge Report",
+  updated: "As of April 23, 2026"
 };
 const ELECTRICITY_PRICES_BY_STATE = [
   { state:"Alabama", abbr:"AL", region:"Southeast", residential:16.79, commercial:14.46, residential_yoy:4.0, commercial_yoy:3.1 },
