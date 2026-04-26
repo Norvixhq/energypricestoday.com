@@ -713,3 +713,13 @@
 [2026-04-26T09:13:34.415659+00:00] [detect] [detect_changes] 0 meaningful changes across 2 sources; 0 page(s) affected
 [2026-04-26T09:13:34.415862+00:00] autopilot: no-op — no meaningful changes (affected=0)
 [2026-04-26T09:13:34.454217+00:00] [health] [write_health] status=healthy — all checks pass
+[2026-04-26T10:08:50.679934+00:00] ════════════════════════════════════════════════════════════
+[2026-04-26T10:08:50.680031+00:00] autopilot: start
+[2026-04-26T10:08:51.637643+00:00] [observers] commodity_prices: OK — OK: fetched 10 commodity prices
+[2026-04-26T10:08:55.004915+00:00] [observers] gas_prices: OK — OK: EIA regular=$4.044 diesel=$5.403
+[2026-04-26T10:11:35.962379+00:00] [observers] headlines: OK — [fetch_headlines] ✓ cache updated (300 total stories, 0 failed topics)
+[2026-04-26T10:11:36.084030+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-04-26T10:11:36.131326+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-04-26T10:11:36.163445+00:00] [detect] [detect_changes] 0 meaningful changes across 2 sources; 0 page(s) affected
+[2026-04-26T10:11:36.163653+00:00] autopilot: no-op — no meaningful changes (affected=0)
+[2026-04-26T10:11:36.205310+00:00] [health] [write_health] status=healthy — all checks pass
