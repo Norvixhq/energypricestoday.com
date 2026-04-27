@@ -22,6 +22,7 @@ const ARTICLE_SLUGS = {
   "Brent Rises 4% as Doubts Resurface Over Scope of Iran Deal": "brent-rises-4-as-doubts-resurface-over-scope-of-iran-deal",
   "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
   "Brent crude oil spot prices surge past futures price in April": "brent-crude-oil-spot-prices-surge-past-futures-price-in-april",
+  "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022": "brent-oil-heads-for-record-monthly-surge-wti-settles-above-100-for-first-time-si",
   "Brent-WTI Spread Widens to 4.44 on Atlantic Basin Tightness": "brent-wti-spread-widens-to-444-on-atlantic-basin-tightness",
   "California Gas Prices Hit $5.18 as State-Specific Regulations Add Costs": "california-gas-prices-hit-518-as-state-specific-regulations-add-costs",
   "Canadian Blends": "canadian-blends",
