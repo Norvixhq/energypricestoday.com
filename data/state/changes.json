@@ -1,11 +1,63 @@
 {
-  "generated_at": "2026-04-27T03:50:02.352965+00:00",
+  "generated_at": "2026-04-27T06:37:58.305269+00:00",
   "sources": {
     "commodity_prices": {
       "changes": [],
       "status_flip": null,
       "current_status": "fresh"
+    },
+    "gas_prices_aaa": {
+      "changes": [
+        {
+          "grade": "regular",
+          "old": null,
+          "new": 4.044,
+          "diff": null
+        },
+        {
+          "grade": "mid",
+          "old": null,
+          "new": 4.655,
+          "diff": null
+        },
+        {
+          "grade": "premium",
+          "old": null,
+          "new": 5.024,
+          "diff": null
+        },
+        {
+          "grade": "diesel",
+          "old": null,
+          "new": 5.403,
+          "diff": null
+        }
+      ],
+      "status_flip": "failed -> fresh",
+      "current_status": "fresh"
     }
   },
-  "affected_pages": []
+  "affected_pages": [
+    {
+      "page": "index.html",
+      "label": "Homepage",
+      "triggered_by": [
+        "gas_prices_aaa"
+      ]
+    },
+    {
+      "page": "markets.html",
+      "label": "Markets Dashboard",
+      "triggered_by": [
+        "gas_prices_aaa"
+      ]
+    },
+    {
+      "page": "category/gas-prices.html",
+      "label": "Gas Prices",
+      "triggered_by": [
+        "gas_prices_aaa"
+      ]
+    }
+  ]
 }
