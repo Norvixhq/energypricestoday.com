@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-27T15:23:05.418711+00:00",
-  "previous_generated_at": "2026-04-27T13:09:29.518943+00:00",
-  "resolver_run_count": 10,
+  "generated_at": "2026-04-27T17:11:38.905146+00:00",
+  "previous_generated_at": "2026-04-27T15:23:05.418711+00:00",
+  "resolver_run_count": 11,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,18 @@
       "status_detail": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.967,
-      "last_confirmed": "2026-04-27T15:02:00+00:00",
+      "confidence": 0.96,
+      "last_confirmed": "2026-04-27T16:19:26+00:00",
       "source_count": 9,
       "summary_short": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
       "summary_long": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse. Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
       "evidence_cluster_ids": [
         "c_e6c5900cd34e9a",
         "c_e93c59ad7a7ad3",
-        "c_d334ae2e27f6b7",
         "c_81e9d972a96961",
         "c_0d4cdf57e9d19f"
       ],
-      "evidence_count": 5,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,35 +40,33 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e6c5900cd3 → CLOSED (kw='blockade', weight=0.85) [OPEN suppressed]",
-        "cluster c_e93c59ad7a → CLOSED (kw='blockade', weight=0.63) [OPEN suppressed]",
-        "cluster c_81e9d972a9 → CLOSED (kw='blockade', weight=0.73) [OPEN suppressed]",
-        "winning=CLOSED (2.21/2.21), conf=0.967"
-      ],
-      "previous_status": "OPEN",
-      "last_changed": "2026-04-27T15:23:05.418561+00:00"
+        "cluster c_e6c5900cd3 → CLOSED (kw='blockade', weight=0.80) [OPEN suppressed]",
+        "cluster c_e93c59ad7a → CLOSED (kw='blockade', weight=0.50) [OPEN suppressed]",
+        "cluster c_81e9d972a9 → CLOSED (kw='blockade', weight=0.60) [OPEN suppressed]",
+        "winning=CLOSED (1.90/1.90), conf=0.96"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
       "status": "HOLDING",
-      "status_detail": "Brent crude oil price analysis as contentious US-Iran ceasefire continues",
+      "status_detail": "no definitive signals",
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
-      "confidence": 0.955,
-      "last_confirmed": "2026-04-27T15:02:00+00:00",
-      "source_count": 20,
+      "confidence": 0.5,
+      "last_confirmed": "2026-04-27T16:31:36+00:00",
+      "source_count": 14,
       "summary_short": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
-      "summary_long": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse. Oil prices rise as US-Iran peace talks stall",
+      "summary_long": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse. China's clean tech exporters cash in as Iran war hits oil & gas flows",
       "evidence_cluster_ids": [
         "c_e6c5900cd34e9a",
+        "c_4454f1080a5d75",
         "c_b536f3310dedcd",
         "c_718122efe5db94",
-        "c_cc11ef84b14626",
-        "c_baebf0b06d42ed"
+        "c_433c55170e7f7f"
       ],
-      "evidence_count": 15,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -84,8 +81,7 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_baebf0b06d → HOLDING (kw='ceasefire continues', weight=0.62)",
-        "winning=HOLDING (0.62/0.62), conf=0.955"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -151,20 +147,18 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-04-27T15:23:05.418561+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_1614283a422f8e",
-      "lead_title": "Global Insight | Goldman Sachs Raises Oil Price Forecast: Brent Crude Could Reach $120/Barrel in Extreme Scenarios",
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNC1Ib3c5VWV3eEtEVlVuZzNULW1VeWNyaEhHQTJQUHFqdmxwTjFXYVJCdS1iZ3c2em5wdHNQRWt2Ql9IbWY4RVZFVHhoTEpPdHlUNk1XQ2l2NENDUVdXQTRVM3Ytb3MxN1F1ckU4WVhzZ2gzQTFRMWRaZmRVUTJ4ZUdpUUIzcDM3a2VWSGxQX0U2NkhmQUczVFQ0bFhxbmhMa2ZLUEdfNHBNcHFO?oc=5",
-      "lead_source": "Moomoo",
+      "cluster_id": "c_3563a016d182a8",
+      "lead_title": "Crude Oil Prices: Brent Climbs Above $107, WTI Above $96 as US-Iran Talks Stall",
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQclNJdGtCUHExajJDU1BpS01OandBSW1ZT1ZLVHQtR1o1Y0EtcjQtakZmbVphbFR3SGpFY200ZklsbkU1dHhfTjU3MjNKdEVtUDJja0x1VzJMb1AtRjBOZXZURzNFNWtfODEwTVhTYkFDSXB4bGF4MEhPcnRPcXVxX2ZTUVd6azJDVXRuOUhPelpKRkJpRWMtSlpSTjIxaU5hWGVRM1ZB?oc=5",
+      "lead_source": "Coinpaper",
       "topic": "oil",
-      "score": 97.24,
+      "score": 94.1,
       "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
@@ -176,47 +170,10 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "OPEN",
-      "to": "CLOSED",
-      "detected_at": "2026-04-27T15:23:05.418561+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-04-27T15:23:05.418561+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-04-27T15:23:05.418561+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-04-27T15:23:05.418561+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.967, fresh=fresh",
-    "us_iran_ceasefire: resolved=HOLDING, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.96, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }

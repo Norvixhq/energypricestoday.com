@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-27T17:11:38.940709+00:00",
+  "generated_at": "2026-04-27T18:44:38.104269+00:00",
   "sources": {
     "commodity_prices": {
       "changes": [],
@@ -8,31 +8,9 @@
     },
     "gas_prices_aaa": {
       "changes": [],
-      "status_flip": "failed -> fresh",
+      "status_flip": null,
       "current_status": "fresh"
     }
   },
-  "affected_pages": [
-    {
-      "page": "index.html",
-      "label": "Homepage",
-      "triggered_by": [
-        "gas_prices_aaa"
-      ]
-    },
-    {
-      "page": "markets.html",
-      "label": "Markets Dashboard",
-      "triggered_by": [
-        "gas_prices_aaa"
-      ]
-    },
-    {
-      "page": "category/gas-prices.html",
-      "label": "Gas Prices",
-      "triggered_by": [
-        "gas_prices_aaa"
-      ]
-    }
-  ]
+  "affected_pages": []
 }
