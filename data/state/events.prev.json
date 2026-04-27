@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-26T22:53:10.910774+00:00",
-  "previous_generated_at": "2026-04-26T21:51:21.615038+00:00",
-  "resolver_run_count": 3,
+  "generated_at": "2026-04-26T23:52:54.288396+00:00",
+  "previous_generated_at": "2026-04-26T22:53:10.910774+00:00",
+  "resolver_run_count": 4,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "U.S.-Iran Talks & Strait of Hormuz Closure 2026",
+      "status_detail": "Oil climbs as US-Iran peace talks stall and Hormuz remains shut",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.955,
-      "last_confirmed": "2026-04-26T22:29:21+00:00",
-      "source_count": 8,
+      "confidence": 0.966,
+      "last_confirmed": "2026-04-26T23:19:33+00:00",
+      "source_count": 11,
       "summary_short": "Strait of Hormuz restrictions fail to move WTI Crude Oil $160 market",
-      "summary_long": "Strait of Hormuz restrictions fail to move WTI Crude Oil $160 market. U.S.-Iran Talks & Strait of Hormuz Closure 2026",
+      "summary_long": "Strait of Hormuz restrictions fail to move WTI Crude Oil $160 market. Oil climbs as US-Iran peace talks stall and Hormuz remains shut",
       "evidence_cluster_ids": [
-        "c_d4e7d080fdb119",
-        "c_9b45b1b2264083",
-        "c_87658eefc4c88b",
-        "c_23ac776a2e6c50",
-        "c_99386f78d1af4d"
+        "c_dd8f30cf52f6d2",
+        "c_bc831d255190aa",
+        "c_528c85e5047f7f",
+        "c_a3c33aba95231b",
+        "c_87658eefc4c88b"
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_d4e7d080fd → CLOSED (kw='closure', weight=0.50) [OPEN suppressed]",
-        "cluster c_87658eefc4 → CLOSED (kw='closure', weight=0.44) [OPEN suppressed]",
-        "winning=CLOSED (0.94/0.94), conf=0.955"
+        "cluster c_dd8f30cf52 → CLOSED (kw='closure', weight=0.72) [OPEN suppressed]",
+        "cluster c_87658eefc4 → CLOSED (kw='closure', weight=0.42) [OPEN suppressed]",
+        "winning=CLOSED (1.14/1.14), conf=0.966"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-26T21:25:00+00:00",
-      "source_count": 14,
-      "summary_short": "Tanker carrying U.S. oil arrives in Japan for 1st time since Iran war",
-      "summary_long": "Tanker carrying U.S. oil arrives in Japan for 1st time since Iran war. Trump says Iran has three days before oil infrastructure ‘explodes’ due to US blockade",
+      "last_confirmed": "2026-04-26T22:48:41+00:00",
+      "source_count": 10,
+      "summary_short": "Oil climbs as US-Iran peace talks stall and Hormuz remains shut",
+      "summary_long": "Oil climbs as US-Iran peace talks stall and Hormuz remains shut. Trump says Iran has three days before oil infrastructure ‘explodes’ due to US blockade",
       "evidence_cluster_ids": [
-        "c_64887170aa52b6",
+        "c_dd8f30cf52f6d2",
         "c_0782694b1678d9",
-        "c_d4e7d080fdb119",
-        "c_c98eb5317916ef",
+        "c_64887170aa52b6",
+        "c_1f993e2eab2a57",
         "c_ae8b4ab6826942"
       ],
-      "evidence_count": 11,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -151,12 +151,12 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_c60a083fc5be31",
-      "lead_title": "US crude oil tanker makes landmark delivery to Japan",
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPak5fSzdjcENLc1dacGR2M2NST3U0VlFWaDJFNXpaOTNTNWtLeW11a0tVUTBGNGNhSFp2MDBEZ1NlQkhTWDlwRW05N19keHR4QnZ2UVF5b0J0YUZsNDBCVkdJbWF5Zm8zNTdfbjhVUDN6bFBWZXVnbWxyZWNHUk5waHpKUEZlMEVGLWFoQmlDV25zNlZyUE9KdVpyQTB1Z2lWSHd3?oc=5",
-      "lead_source": "Gulf News",
+      "cluster_id": "c_bb4ce6c271b3c1",
+      "lead_title": "Brent oil tops $107 per barrel after Iran peace talks stall",
+      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ca2M5SmJaY0V2MlhBZjJGLUNiblVnSHFXUi1BLXFlQmRUUFdmbTFxTFJkVXFhRUttNDlZR1p3dEJuN1dUcVE5bU1DWGd6UC1uc3gtdndSSVVjd3lNOVo2X0Z5MlNocVRmenJrcUM0VDJuNnZzN0xyWNIBfkFVX3lxTE13djJYdkRIdnFBUjM0NUJEYzFSSG0wSWk4NF9ZNC1aLVA4bTFXWDlPQ1haWVprZ08yR2plSXRoX0xoaUlydm5xeTJ2alZLUW9jajR3YTRrOFdGelNRclVyUHdwd3BSQXRsNUJsSFc1OUFfSGluY1ZyaWphRG1nQQ?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 83.87,
+      "score": 93.0,
       "novelty": "new",
       "source_count": 5,
       "confidence": 0.95,
@@ -170,7 +170,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.966, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

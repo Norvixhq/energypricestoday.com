@@ -1,30 +1,29 @@
 {
   "version": 2,
-  "generated_at": "2026-04-26T23:52:54.288396+00:00",
-  "previous_generated_at": "2026-04-26T22:53:10.910774+00:00",
-  "resolver_run_count": 4,
+  "generated_at": "2026-04-27T03:50:02.323369+00:00",
+  "previous_generated_at": "2026-04-26T23:52:54.288396+00:00",
+  "resolver_run_count": 5,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Oil climbs as US-Iran peace talks stall and Hormuz remains shut",
+      "status_detail": "First US Crude Oil Shipment Arrives in Japan After Iran Conflict, Avoiding Strait of Hormuz",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.966,
-      "last_confirmed": "2026-04-26T23:19:33+00:00",
-      "source_count": 11,
-      "summary_short": "Strait of Hormuz restrictions fail to move WTI Crude Oil $160 market",
-      "summary_long": "Strait of Hormuz restrictions fail to move WTI Crude Oil $160 market. Oil climbs as US-Iran peace talks stall and Hormuz remains shut",
+      "confidence": 0.961,
+      "last_confirmed": "2026-04-27T02:01:00+00:00",
+      "source_count": 8,
+      "summary_short": "First US Crude Oil Shipment Arrives in Japan After Iran Conflict, Avoiding Strait of Hormuz",
+      "summary_long": "First US Crude Oil Shipment Arrives in Japan After Iran Conflict, Avoiding Strait of Hormuz. Oil Rises Amid Rising Strait of Hormuz Tensions",
       "evidence_cluster_ids": [
-        "c_dd8f30cf52f6d2",
-        "c_bc831d255190aa",
-        "c_528c85e5047f7f",
-        "c_a3c33aba95231b",
-        "c_87658eefc4c88b"
+        "c_7b0ea097e7275a",
+        "c_87658eefc4c88b",
+        "c_74f27591959277",
+        "c_85dfc62f736649"
       ],
-      "evidence_count": 6,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +40,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_dd8f30cf52 → CLOSED (kw='closure', weight=0.72) [OPEN suppressed]",
-        "cluster c_87658eefc4 → CLOSED (kw='closure', weight=0.42) [OPEN suppressed]",
-        "winning=CLOSED (1.14/1.14), conf=0.966"
+        "cluster c_7b0ea097e7 → CLOSED (kw='closure', weight=0.80) [OPEN suppressed]",
+        "cluster c_87658eefc4 → CLOSED (kw='closure', weight=0.33) [OPEN suppressed]",
+        "winning=CLOSED (1.12/1.12), conf=0.961"
       ]
     },
     "us_iran_ceasefire": {
@@ -51,22 +50,22 @@
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "Brent crude oil price analysis as contentious US-Iran ceasefire continues",
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
-      "confidence": 0.5,
-      "last_confirmed": "2026-04-26T22:48:41+00:00",
-      "source_count": 10,
-      "summary_short": "Oil climbs as US-Iran peace talks stall and Hormuz remains shut",
-      "summary_long": "Oil climbs as US-Iran peace talks stall and Hormuz remains shut. Trump says Iran has three days before oil infrastructure ‘explodes’ due to US blockade",
+      "confidence": 0.952,
+      "last_confirmed": "2026-04-27T03:22:00+00:00",
+      "source_count": 22,
+      "summary_short": "First US Crude Oil Shipment Arrives in Japan After Iran Conflict, Avoiding Strait of Hormuz",
+      "summary_long": "First US Crude Oil Shipment Arrives in Japan After Iran Conflict, Avoiding Strait of Hormuz. No headway in Middle East peace efforts as US and Iran refuse to yield",
       "evidence_cluster_ids": [
-        "c_dd8f30cf52f6d2",
-        "c_0782694b1678d9",
-        "c_64887170aa52b6",
-        "c_1f993e2eab2a57",
-        "c_ae8b4ab6826942"
+        "c_7b0ea097e7275a",
+        "c_c0cd8879f506e7",
+        "c_6736a03bb71d96",
+        "c_baebf0b06d42ed",
+        "c_6d64bde91aea55"
       ],
-      "evidence_count": 8,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -81,7 +80,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "cluster c_baebf0b06d → HOLDING (kw='ceasefire continues', weight=0.61)",
+        "winning=HOLDING (0.61/0.61), conf=0.952"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -156,9 +156,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ca2M5SmJaY0V2MlhBZjJGLUNiblVnSHFXUi1BLXFlQmRUUFdmbTFxTFJkVXFhRUttNDlZR1p3dEJuN1dUcVE5bU1DWGd6UC1uc3gtdndSSVVjd3lNOVo2X0Z5MlNocVRmenJrcUM0VDJuNnZzN0xyWNIBfkFVX3lxTE13djJYdkRIdnFBUjM0NUJEYzFSSG0wSWk4NF9ZNC1aLVA4bTFXWDlPQ1haWVprZ08yR2plSXRoX0xoaUlydm5xeTJ2alZLUW9jajR3YTRrOFdGelNRclVyUHdwd3BSQXRsNUJsSFc1OUFfSGluY1ZyaWphRG1nQQ?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 93.0,
-      "novelty": "new",
-      "source_count": 5,
+      "score": 92.81,
+      "novelty": "growing",
+      "source_count": 9,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -170,8 +170,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.966, fresh=fresh",
-    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.961, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.952, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
