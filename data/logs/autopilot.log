@@ -73,3 +73,13 @@
 [2026-04-27T06:38:23.889119+00:00] autopilot: render complete, ready to commit
 [2026-04-27T06:38:23.926926+00:00] [health] [write_health] status=degraded codes=[NIGHTLY_AUDIT_MISSING]
 [2026-04-27T06:38:23.926995+00:00] ════════════════════════════════════════════════════════════
+[2026-04-27T09:10:17.216866+00:00] ════════════════════════════════════════════════════════════
+[2026-04-27T09:10:17.216968+00:00] autopilot: start
+[2026-04-27T09:10:18.566396+00:00] [observers] commodity_prices: OK — OK: fetched 10 commodity prices
+[2026-04-27T09:10:37.171323+00:00] [observers] gas_prices: OK — Both AAA and EIA failed; kept previous snapshot
+[2026-04-27T09:13:24.687368+00:00] [observers] headlines: OK — [fetch_headlines] ✓ cache updated (300 total stories, 0 failed topics)
+[2026-04-27T09:13:24.803269+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-04-27T09:13:24.847067+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-04-27T09:13:24.876429+00:00] [detect]   • gas_prices_aaa: status fresh -> failed
+[2026-04-27T09:13:24.876602+00:00] autopilot: no-op — no meaningful changes (affected=3)
+[2026-04-27T09:13:24.913111+00:00] [health] [write_health] status=degraded codes=[OBSERVER_FAILED, NIGHTLY_AUDIT_MISSING]
