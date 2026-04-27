@@ -97,3 +97,17 @@
 [2026-04-27T13:09:29.518916+00:00] resolver: no state changes
 [2026-04-27T13:09:29.519461+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-27T13:09:29.519522+00:00] ════════════════════════════════════════════════════════════
+[2026-04-27T15:23:05.412331+00:00] resolver: start
+[2026-04-27T15:23:05.416581+00:00] resolver: scanning 264 clusters across 10 topics
+[2026-04-27T15:23:05.416957+00:00]   hormuz_status: CLOSED (conf=0.967, freshness=fresh, clusters=5)
+[2026-04-27T15:23:05.418169+00:00]   us_iran_ceasefire: HOLDING (conf=0.955, freshness=fresh, clusters=15)
+[2026-04-27T15:23:05.418306+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=1)
+[2026-04-27T15:23:05.418347+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-27T15:23:05.418513+00:00]   top_story: 'Global Insight | Goldman Sachs Raises Oil Price Forecast: Br' (score=97.24)
+[2026-04-27T15:23:05.418589+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-04-27T15:23:05.418617+00:00]   Δ hormuz_status.status: 'OPEN' → 'CLOSED' (triggers_publish=True)
+[2026-04-27T15:23:05.418643+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'HIGH' (triggers_publish=True)
+[2026-04-27T15:23:05.418666+00:00]   Δ global_risk_level.status: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-27T15:23:05.418689+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-27T15:23:05.419282+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-27T15:23:05.419321+00:00] ════════════════════════════════════════════════════════════

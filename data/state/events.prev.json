@@ -1,29 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-04-27T11:22:25.532215+00:00",
-  "previous_generated_at": "2026-04-27T09:13:24.841802+00:00",
-  "resolver_run_count": 8,
+  "generated_at": "2026-04-27T13:09:29.518943+00:00",
+  "previous_generated_at": "2026-04-27T11:22:25.532215+00:00",
+  "resolver_run_count": 9,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "OPEN",
-      "status_detail": "Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain",
+      "status_detail": "no definitive signals",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.971,
-      "last_confirmed": "2026-04-27T10:15:52+00:00",
-      "source_count": 9,
-      "summary_short": "Hormuz Standoff Drives WTI Crude Oil Above $94.00",
-      "summary_long": "Hormuz Standoff Drives WTI Crude Oil Above $94.00. Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain",
+      "confidence": 0.5,
+      "last_confirmed": "2026-04-27T12:05:00+00:00",
+      "source_count": 8,
+      "summary_short": "Will the Iran war end Strait of Hormuz oil supremacy?",
+      "summary_long": "Will the Iran war end Strait of Hormuz oil supremacy?. Crisis in the Strait of Hormuz accelerates alternative oil routes in the Middle East",
       "evidence_cluster_ids": [
-        "c_4d60c234bc0962",
-        "c_de811b8fe06e7d",
-        "c_7082b05d736e0b",
-        "c_0d4cdf57e9d19f"
+        "c_5cddc7cc614aeb",
+        "c_6350682d7d2967",
+        "c_bd2f9b3f719216",
+        "c_0d4cdf57e9d19f",
+        "c_1665abaff84403"
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +41,7 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_4d60c234bc → OPEN (kw='reopen', weight=0.81)",
-        "winning=OPEN (0.81/0.81), conf=0.971"
+        "fell back to default 'OPEN'"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,18 +53,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-27T10:53:56+00:00",
-      "source_count": 20,
-      "summary_short": "Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain",
-      "summary_long": "Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain. Oil prices rise as US-Iran peace talks stall",
+      "last_confirmed": "2026-04-27T12:16:28+00:00",
+      "source_count": 14,
+      "summary_short": "Will the Iran war end Strait of Hormuz oil supremacy?",
+      "summary_long": "Will the Iran war end Strait of Hormuz oil supremacy?. Optimism Over Iran War Resolution Might Soon Fade as Talks Stall",
       "evidence_cluster_ids": [
-        "c_4d60c234bc0962",
-        "c_ee56953d89ebc0",
-        "c_8f2d7eeca7ae1e",
+        "c_5cddc7cc614aeb",
+        "c_97cae9a63a367e",
+        "c_9317865ee58579",
         "c_4454f1080a5d75",
         "c_433c55170e7f7f"
       ],
-      "evidence_count": 16,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -150,14 +150,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_eb62826fad8033",
-      "lead_title": "WTI Crude Oil Futures Rise 2.3% to $96.54 Pre-Bell; Brent Futures Climb 2.5% to $107.94",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeloyZ3VjZXJVS1k0VWtfcU52ZnNCLWk0cEdHa0thdlQ4bDVSWEJtR0hTWDNrSFJCZnRfY01RbkVnZXRoUDgzWFIxVmw2ZDJBb0dMdFJnWGNCZ21VZWI1UlRZWWM1blhsdlZoek9IQm5KT3psNGJkT2NKenNjWk1yYXUzbVFYblFDSmpVRE1QTEhuNVNYQTNUZWJOY2hrUFd4VXZ0eHlNZXRYaWJ0Q1g0VHJRT01sR3M3b1d1T3ZOY3BCUkMyREN1M1FNS1BxelVh?oc=5",
-      "lead_source": "marketscreener.com",
-      "topic": "oil",
-      "score": 93.11,
+      "cluster_id": "c_cf3901db467e6b",
+      "lead_title": "Shell to buy Canada's ARC in output-boosting $16.4 billion deal",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT1NlV2FORWtiempDVWFOektBTFdrSVFXbk8waFF5SHBDWG4zUlZ4LWFPZm5peUFJX094VE1ZN3NpYnU4SHBMc0RfVTFJLThmb1ZNdmtHYXV0Q3JTSzFQQ2FQdnR6YVBCdWhPNEhENElSREdsZE80U3ViWEFRR2VCT1dpZk0xalpDMFR3REdWMENmdEZtVl9pYg?oc=5",
+      "lead_source": "Reuters",
+      "topic": "companies",
+      "score": 83.92,
       "novelty": "new",
-      "source_count": 8,
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.971, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
