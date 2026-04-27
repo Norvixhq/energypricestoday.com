@@ -58,13 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", cat: "Geopolitics", slug: "geopolitics", time: "2h" },
-  { title: "Trump Cancels Witkoff-Kushner Pakistan Trip as Iran Talks Stall", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
-  { title: "WTI Surges 13% on Week as Hormuz Stays Closed and Talks Stall", cat: "Oil Markets", slug: "oil-prices", time: "2d" },
-  { title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels in Strait", cat: "Geopolitics", slug: "geopolitics", time: "4d" },
-  { title: "U.S. Boards Supertanker Carrying Iranian Oil in Indian Ocean", cat: "Geopolitics", slug: "geopolitics", time: "4d" },
-  { title: "Israeli Strikes Kill Lebanese Journalist Amal Khalil During Extended Ceasefire", cat: "Geopolitics", slug: "geopolitics", time: "3d" },
-  { title: "Trump Extends Iran Ceasefire Indefinitely, Citing 'Seriously Fractured' Iranian Government", cat: "Geopolitics", slug: "geopolitics", time: "5d" },
+  { title: "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Europe Emerges As Key Buyer Of U.S. Strategic Petroleum Reserve Oil", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Current price of oil as of April 24, 2026", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Goldman Sachs Raises Oil Price Forecast Yet Again", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "US Oil Drillers Scale Back as Global Supply Crunch Continues", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
