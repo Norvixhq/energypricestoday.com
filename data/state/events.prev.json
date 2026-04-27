@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "generated_at": "2026-04-27T09:13:24.841802+00:00",
-  "previous_generated_at": "2026-04-27T06:37:58.275210+00:00",
-  "resolver_run_count": 7,
+  "generated_at": "2026-04-27T11:22:25.532215+00:00",
+  "previous_generated_at": "2026-04-27T09:13:24.841802+00:00",
+  "resolver_run_count": 8,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "OPEN",
-      "status_detail": "no definitive signals",
+      "status_detail": "Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-04-27T05:33:55+00:00",
-      "source_count": 6,
-      "summary_short": "Oil prices rise 2 percent to $101.11 as U.S.-Iran peace talks stall, Hormuz shipments stay limited",
-      "summary_long": "Oil prices rise 2 percent to $101.11 as U.S.-Iran peace talks stall, Hormuz shipments stay limited. Iran reportedly proposes Hormuz Strait deal to U.S. Here’s where things stand — and what’s next for ",
+      "confidence": 0.971,
+      "last_confirmed": "2026-04-27T10:15:52+00:00",
+      "source_count": 9,
+      "summary_short": "Hormuz Standoff Drives WTI Crude Oil Above $94.00",
+      "summary_long": "Hormuz Standoff Drives WTI Crude Oil Above $94.00. Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain",
       "evidence_cluster_ids": [
-        "c_c2c7f93f910c0a",
-        "c_74f27591959277",
-        "c_0d4cdf57e9d19f",
-        "c_6319966dd9c484"
+        "c_4d60c234bc0962",
+        "c_de811b8fe06e7d",
+        "c_7082b05d736e0b",
+        "c_0d4cdf57e9d19f"
       ],
       "evidence_count": 4,
       "affected_pages": [
@@ -40,10 +40,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-04-27T09:13:24.841646+00:00"
+        "cluster c_4d60c234bc → OPEN (kw='reopen', weight=0.81)",
+        "winning=OPEN (0.81/0.81), conf=0.971"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -54,16 +53,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-27T08:40:30+00:00",
-      "source_count": 18,
-      "summary_short": "Oil Gains More Than 2% on Stalled Iran Peace Talks",
-      "summary_long": "Oil Gains More Than 2% on Stalled Iran Peace Talks. Japan Joins Forces with Iran, Saudi Arabia, UAE, India, Mexico, Singapore, China and More in Urgent ",
+      "last_confirmed": "2026-04-27T10:53:56+00:00",
+      "source_count": 20,
+      "summary_short": "Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain",
+      "summary_long": "Iran Proposes Hormuz Reopening as Peace Talks Stall, Gold and Oil Gain. Oil prices rise as US-Iran peace talks stall",
       "evidence_cluster_ids": [
-        "c_e8461235615b14",
-        "c_433c55170e7f7f",
-        "c_c79132599ba9d1",
-        "c_c2c7f93f910c0a",
-        "c_dbf87aa531b888"
+        "c_4d60c234bc0962",
+        "c_ee56953d89ebc0",
+        "c_8f2d7eeca7ae1e",
+        "c_4454f1080a5d75",
+        "c_433c55170e7f7f"
       ],
       "evidence_count": 16,
       "affected_pages": [
@@ -96,14 +95,13 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-04-27T06:05:00+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "summary_short": "Iran war hands OPEC's swing producer crown to America",
-      "summary_long": "Iran war hands OPEC's swing producer crown to America. OPEC: Middle East oil production plummets due to Iran war",
+      "summary_long": "Iran war hands OPEC's swing producer crown to America",
       "evidence_cluster_ids": [
-        "c_c78886467c98b8",
-        "c_43fff660d862d7"
+        "c_c78886467c98b8"
       ],
-      "evidence_count": 2,
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -146,22 +144,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-04-27T09:13:24.841646+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_c0e5fd8a270e63",
-      "lead_title": "Brent oil tops $107 per barrel after Iran peace talks stall",
-      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9Ca2M5SmJaY0V2MlhBZjJGLUNiblVnSHFXUi1BLXFlQmRUUFdmbTFxTFJkVXFhRUttNDlZR1p3dEJuN1dUcVE5bU1DWGd6UC1uc3gtdndSSVVjd3lNOVo2X0Z5MlNocVRmenJrcUM0VDJuNnZzN0xyWNIBfkFVX3lxTE13djJYdkRIdnFBUjM0NUJEYzFSSG0wSWk4NF9ZNC1aLVA4bTFXWDlPQ1haWVprZ08yR2plSXRoX0xoaUlydm5xeTJ2alZLUW9jajR3YTRrOFdGelNRclVyUHdwd3BSQXRsNUJsSFc1OUFfSGluY1ZyaWphRG1nQQ?oc=5",
-      "lead_source": "CNBC",
+      "cluster_id": "c_eb62826fad8033",
+      "lead_title": "WTI Crude Oil Futures Rise 2.3% to $96.54 Pre-Bell; Brent Futures Climb 2.5% to $107.94",
+      "lead_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPeloyZ3VjZXJVS1k0VWtfcU52ZnNCLWk0cEdHa0thdlQ4bDVSWEJtR0hTWDNrSFJCZnRfY01RbkVnZXRoUDgzWFIxVmw2ZDJBb0dMdFJnWGNCZ21VZWI1UlRZWWM1blhsdlZoek9IQm5KT3psNGJkT2NKenNjWk1yYXUzbVFYblFDSmpVRE1QTEhuNVNYQTNUZWJOY2hrUFd4VXZ0eHlNZXRYaWJ0Q1g0VHJRT01sR3M3b1d1T3ZOY3BCUkMyREN1M1FNS1BxelVh?oc=5",
+      "lead_source": "marketscreener.com",
       "topic": "oil",
-      "score": 94.03,
+      "score": 93.11,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 8,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -171,46 +167,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CLOSED",
-      "to": "OPEN",
-      "detected_at": "2026-04-27T09:13:24.841646+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-27T09:13:24.841646+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-27T09:13:24.841646+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-27T09:13:24.841646+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.971, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
