@@ -208,6 +208,7 @@ const ARTICLE_SLUGS = {
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
   "Oil prices mixed as U.S. and Iran expected to hold talks in Pakistan": "oil-prices-mixed-as-us-and-iran-expected-to-hold-talks-in-pakistan",
   "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran": "oil-prices-today-crude-falls-below-100-as-trump-announces-two-week-ceasefire-wit",
+  "Oil prices today: Crude jumps nearly 2% as US-Iran talks stall, Hormuz disruptions tighten supply": "oil-prices-today-crude-jumps-nearly-2-as-us-iran-talks-stall-hormuz-disruptions-",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
   "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration": "pakistan-fm-dar-working-to-bridge-us-iran-differences-before-tuesday-ceasefire-e",
