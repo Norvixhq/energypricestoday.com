@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-28T01:25:59.986015+00:00",
-  "previous_generated_at": "2026-04-27T23:32:59.576637+00:00",
-  "resolver_run_count": 17,
+  "generated_at": "2026-04-28T05:03:25.094828+00:00",
+  "previous_generated_at": "2026-04-28T01:25:59.986015+00:00",
+  "resolver_run_count": 18,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,16 +12,18 @@
       "status_detail": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.969,
-      "last_confirmed": "2026-04-28T01:17:10+00:00",
-      "source_count": 6,
+      "confidence": 0.966,
+      "last_confirmed": "2026-04-28T04:41:09+00:00",
+      "source_count": 9,
       "summary_short": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
-      "summary_long": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse. Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
+      "summary_long": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse. Oil edges higher as traders weigh Iran’s Hormuz offer and Trump’s next move",
       "evidence_cluster_ids": [
         "c_e6c5900cd34e9a",
+        "c_87d8fd758ccdbb",
+        "c_f9a2ea881d65ba",
         "c_81e9d972a96961"
       ],
-      "evidence_count": 2,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -39,8 +41,9 @@
       "stale_after_hours": 24,
       "rationale": [
         "cluster c_e6c5900cd3 → CLOSED (kw='blockade', weight=0.80) [OPEN suppressed]",
-        "cluster c_81e9d972a9 → CLOSED (kw='blockade', weight=0.46) [OPEN suppressed]",
-        "winning=CLOSED (1.26/1.26), conf=0.969"
+        "cluster c_f9a2ea881d → CLOSED (kw='blockade', weight=0.64) [OPEN suppressed]",
+        "cluster c_81e9d972a9 → CLOSED (kw='blockade', weight=0.36) [OPEN suppressed]",
+        "winning=CLOSED (1.80/1.80), conf=0.966"
       ]
     },
     "us_iran_ceasefire": {
@@ -52,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-28T01:17:10+00:00",
-      "source_count": 13,
+      "last_confirmed": "2026-04-28T04:41:09+00:00",
+      "source_count": 17,
       "summary_short": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse",
-      "summary_long": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse. Oil prices rise as US-Iran peace talks stall",
+      "summary_long": "Iran oil tankers turned back by US blockade, Hormuz traffic sparse. Oil prices rise 1% as no end to Iran war stand-off seems in sight",
       "evidence_cluster_ids": [
         "c_e6c5900cd34e9a",
+        "c_a78b60c3f95ce6",
+        "c_ecf70dccae49a1",
         "c_b536f3310dedcd",
-        "c_7625e013bf0dab",
-        "c_9fa89b17896c2e",
-        "c_718122efe5db94"
+        "c_9fa89b17896c2e"
       ],
-      "evidence_count": 7,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -89,18 +92,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
-      "confidence": 0.3,
-      "last_confirmed": "2026-04-14T07:00:00+00:00",
-      "source_count": 2,
-      "summary_short": "Middle East oil production plunges due to Iran war, OPEC data shows",
-      "summary_long": "Middle East oil production plunges due to Iran war, OPEC data shows",
-      "evidence_cluster_ids": [
-        "c_48cbc4467bfacd"
-      ],
-      "evidence_count": 1,
+      "confidence": 0.5,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -110,10 +111,10 @@
         "markets.drivers.opec"
       ],
       "update_priority": "high",
-      "freshness": "stale",
+      "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -150,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_0c19d880dd750f",
-      "lead_title": "Platts changes maximum incrementability for Asia crude, fuel oil, bunker MOC bids, offers for April 27",
-      "lead_url": "https://news.google.com/rss/articles/CBMingJBVV95cUxPMDNxN09EbmxsZ0NMWFpJdXZ6V3Z3VWRtVWJ6bHFKQjJmbWhBU3pyOW9NR09Mc1NlWG5rTGNWTDFkclo0ZWRxaDRhVkVKTV9RUmtqaFV1bXp5bDV3MGItbGVvdjFVUTY2NF9ESlJVUWdGY0xrcVAweVI4QUN1YTlWS1YxWE1id1JkeWdEUFgwRFQzYlNDWGV1ZEFKbHNpODZjRF9KX0ktWHc5R2FybkpTaVB1N3dPeFhsSTBFclQyNjBPSmUyUlhFcjFGd0tHenVSVzVUY3dZcGtuZjN5TmViR2JPcnJJMzhfelpCQlFSWnBfUm4waEFhZTQxR01qeU1aQlZETXlFQ2ZyYTdfdzJ3NWNTNWFCajhITlNsWFF3?oc=5",
-      "lead_source": "S&P Global",
+      "cluster_id": "c_13a2a95342d65a",
+      "lead_title": "Oil prices climb towards $110: Brent crude, WTI continue to rise as US-Iran peace talks stall",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNQll2eEdVQ3ZWQlBRcW55a3N4NC10US1YcnR3YjVmcFJjSTZyOVhLbC1aYVdOZFJTSDNOdlNIbEhhN3FmRG44bjlweDgxNU9sZGFOaGVacDdqc0U3Qi1YaEcxOE5CT05LV1BBR3lhRkJqdnFzLUN0T1JpN1ZTRjVtUEt2SU9GR0dWTEMwaXVRR2ppNGFkT0c0SFV6amI2aGtCN3hvNTd3QURMcmVuS0x4ckVVWjhLRHAyRkkwZzJoek81a3NLcWRrclJiWERHcFNRU0NVZ29GTFRONktOV3VWc1JwdFNwSXRCekhKS0xDdUJUU1duVWxsM3dkbkUwbkdocWRzbmdwcFR2cExEeTZ0Rl9VanRJODRzX2xVT2t1R3drbk9a0gGqAkFVX3lxTE9xYmRkZmlyUmJYeTBVYXY5TjZVZ1gwZGQ0d0k5VzBtSk9teGUxZThEbkg5aG5ybkNtM1lYUldDWi0tNTZDdnllZlVLUUF0NU1pbGoyXzFaOHVLZHRiM0t5Uno0eXFrX1Z6X09VMWx3ZGV1Q1JQSjRxSjlONVpmRGROZy1EWmdRVUwzOE1hRVpqT2QyZmZJQ0hXa09RV2sxM1M2NXcwS1FObUg4Nmd6NGRZQ3hScnZaaDExM0pxY3Q0VkxwTERkaW05OUlpdmN2Znc3dWR2VFZleVRpUzNNd0xSMFZFdlhIc0NxM0h1Si01b3dJUVVneFphb1ZNMjAwbjRzSkl5ZjVvRUp1VWdkc3VoaFhFN2oyZndrYk1aTTNqVnBoSVlhcS1MZnc?oc=5",
+      "lead_source": "The Times of India",
       "topic": "oil",
-      "score": 88.29,
-      "novelty": "ongoing",
-      "source_count": 6,
+      "score": 98.0,
+      "novelty": "new",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,8 +170,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.969, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.966, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.3, fresh=stale"
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
