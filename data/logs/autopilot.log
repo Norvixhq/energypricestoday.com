@@ -241,3 +241,13 @@
 [2026-04-28T16:32:14.302457+00:00] autopilot: render complete, ready to commit
 [2026-04-28T16:32:14.340511+00:00] [health] [write_health] status=degraded codes=[COMMODITY_STALE]
 [2026-04-28T16:32:14.340573+00:00] ════════════════════════════════════════════════════════════
+[2026-04-28T18:08:08.648701+00:00] ════════════════════════════════════════════════════════════
+[2026-04-28T18:08:08.649123+00:00] autopilot: start
+[2026-04-28T18:08:09.747699+00:00] [observers] commodity_prices: OK — OK: fetched 10 commodity prices
+[2026-04-28T18:08:13.617644+00:00] [observers] gas_prices: OK — OK: EIA regular=$4.123 diesel=$5.351
+[2026-04-28T18:09:48.045032+00:00] [observers] headlines: OK — [fetch_headlines] ✓ cache updated (300 total stories, 0 failed topics)
+[2026-04-28T18:09:48.187471+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-04-28T18:09:48.233399+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-04-28T18:09:48.272115+00:00] [detect]   • commodity_prices: status failed -> fresh
+[2026-04-28T18:09:48.272312+00:00] autopilot: no-op — no meaningful changes (affected=8)
+[2026-04-28T18:09:48.312398+00:00] [health] [write_health] status=healthy — all checks pass
