@@ -2,7 +2,7 @@
   "commodity-prices": {
     "meta": {
       "generated_at": "2026-04-28T12:03:04.688981+00:00",
-      "status": "fresh",
+      "status": "failed",
       "source": "oilpriceapi",
       "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
       "last_success": "2026-04-28T12:03:04.688981+00:00"
@@ -92,17 +92,18 @@
   },
   "gas-prices-national": {
     "meta": {
-      "generated_at": "2026-04-28T07:42:07.459832+00:00",
-      "status": "failed",
+      "generated_at": "2026-04-28T16:30:20.454196+00:00",
+      "status": "fresh",
       "source_label": "EIA Weekly Retail Gasoline Prices",
-      "last_success": "2026-04-28T07:42:07.459832+00:00"
+      "source_date": "April 28, 2026",
+      "last_success": "2026-04-28T16:30:20.454196+00:00"
     },
     "prices": {
-      "regular": 4.044,
-      "mid": 4.655,
-      "premium": 5.024,
-      "diesel": 5.403
+      "regular": 4.123,
+      "mid": 4.737,
+      "premium": 5.097,
+      "diesel": 5.351
     }
   },
-  "as_of": "2026-04-28T12:05:16.301344+00:00"
+  "as_of": "2026-04-28T16:31:47.364975+00:00"
 }

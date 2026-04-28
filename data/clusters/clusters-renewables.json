@@ -1,59 +1,79 @@
 {
   "topic": "renewables",
-  "generated_at": "2026-04-28T12:05:16.209644+00:00",
+  "generated_at": "2026-04-28T16:31:47.271209+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 29,
+  "clusters_found": 27,
   "clusters": [
     {
-      "cluster_id": "c_fd70d456c47f4d",
+      "cluster_id": "c_7a7a71338106aa",
       "topic": "renewables",
-      "lead_title": "Virgin Media O2 signs 10-year solar PPA in Suffolk, UK",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVVXNFBtSDlTYndVNzIwdzVydkVGREV4MEswUzdkNG1ZLXo4QlhyTHNYS2tOeVc4OHRDdW85VThZS3BLb0gta2xNSU9fc19rSG4xVFBtV3Z3NXRtMXUwOERZVVRJb2N0OXY0TEtvY3NPeGZLWHE3aDhUTk9vWjdDUEVTa1Rhd2dKWTBTV0dTNVdYQUE4RFRjVllEd2lzQQ?oc=5",
-      "lead_source": "Data Center Dynamics",
+      "lead_title": "EIA forecasts US solar, wind and battery storage to grow by over 80 GW in year ahead",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcnlSc1JJVGhBNkxzUVlENFU1dkRHNlpBQVhRMkdpWDdncXFTZ3JCQjZ4c25PcWpIYzB4cm1lM0lSLVlsUW1TS24yX25KQ1ExT2M4eEVWS1pTMzMxOWpkdzk0OFlxckhzaW5SWEIzZFlCWmlSYVd2YXVsUUVMbmxNVnRacFI2VE1rZUFfR3lNUWpibHRhUFZRNV9QXy1VbjNoYnlfVnFWZkMweVJJYzJEeWs4MWpsYzJTcDA3UFVjNDU?oc=5",
+      "lead_source": "Renewables Now",
       "canonical_entities": [
-        "solar"
+        "battery",
+        "solar",
+        "wind"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T11:37:22+00:00",
-      "latest_seen": "2026-04-28T11:37:22+00:00",
-      "age_hours": 0.47,
-      "score": 63.22,
+      "earliest_seen": "2026-04-27T20:50:00+00:00",
+      "latest_seen": "2026-04-28T13:55:22+00:00",
+      "age_hours": 2.61,
+      "score": 81.94,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.72,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
+        "source_count_points": 15,
+        "recency_points": 23.44,
+        "source_quality_points": 21.5,
+        "entity_relevance_points": 12,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "78b1342977da7ff5",
-          "title": "Virgin Media O2 signs 10-year solar PPA in Suffolk, UK",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRVVXNFBtSDlTYndVNzIwdzVydkVGREV4MEswUzdkNG1ZLXo4QlhyTHNYS2tOeVc4OHRDdW85VThZS3BLb0gta2xNSU9fc19rSG4xVFBtV3Z3NXRtMXUwOERZVVRJb2N0OXY0TEtvY3NPeGZLWHE3aDhUTk9vWjdDUEVTa1Rhd2dKWTBTV0dTNVdYQUE4RFRjVllEd2lzQQ?oc=5",
-          "source": "Data Center Dynamics",
+          "headline_id": "b3c61c2c9c5f7bc8",
+          "title": "EIA forecasts US solar, wind and battery storage to grow by over 80 GW in year ahead",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcnlSc1JJVGhBNkxzUVlENFU1dkRHNlpBQVhRMkdpWDdncXFTZ3JCQjZ4c25PcWpIYzB4cm1lM0lSLVlsUW1TS24yX25KQ1ExT2M4eEVWS1pTMzMxOWpkdzk0OFlxckhzaW5SWEIzZFlCWmlSYVd2YXVsUUVMbmxNVnRacFI2VE1rZUFfR3lNUWpibHRhUFZRNV9QXy1VbjNoYnlfVnFWZkMweVJJYzJEeWs4MWpsYzJTcDA3UFVjNDU?oc=5",
+          "source": "Renewables Now",
           "source_type": "rss",
-          "published_at": "2026-04-28T11:37:22+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-28T13:55:22+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "de552101e2a8745b",
+          "title": "Researchers Survey the Challenges of Integrating Wind and Solar Into Power Grids | Newswise",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxSdEMybkJTZlF0elVwTnJpODhUejJyN0xZUzBibGJqT3FHeElNTGFIcHhtWm9hUE1zMHo1aDF0NGZfdkVfSUplbDEwUnZqT0dHQkRSNmhqWWVsMkVYbGxsVWFjcGNjeU9hTjY0SlE3RFdVMkFMRzdWQTB4eGg5Y3VhOVZ1Zm5COEVMWXZSOEg3QkpsQS1oc2lkdS0xdkhBcTQwdmVycGNMNGhTeHdEWGRGRmjSAbQBQVVfeXFMUHFMUnRDMm5CU2ZRdHpVcE5yaTg4VHoycjdMWVMwYmxiak9xR3hJTUxhSHB4bVpvYVBNczB6NWgxdDRmX3ZFX0lKZWwxMFJ2ak9HR0JEUjZoalllbDJFWGxsbFVhY3BjY3lPYU42NEpRN0RXVTJBTEc3VkEweHhoOWN1YTlWdWZuQjhFTFl2UjhIN0JKbEEtaHNpZHUtMXZIQXE0MHZlcnBjTDRoU3h3RFhkRkZo?oc=5",
+          "source": "Newswise",
+          "source_type": "rss",
+          "published_at": "2026-04-27T23:05:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "67afee8bb1672be7",
+          "title": "EIA: 80 GW of new solar, wind + storage capacity coming in 2026",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWTFEYlhJcFl0MTY5a01PTUtOdUhPWXJiU2plMHBiMEFuQTB2NlJ4Uk0tSWNHSC05eVpIQ244TEdUX3VHeVEtVm04UklHaUJ1Q0lnS3JPUXV3R3JfREZ0VFdUbjcwSW1vOU1ZakpEMHhxTHFCVE9iQS1TYXNzbTBJSmVDR2pub2FDQkVuQ0tibGlvSVRaSFE?oc=5",
+          "source": "Electrek",
+          "source_type": "rss",
+          "published_at": "2026-04-27T20:50:00+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_0264753e350bc0",
+      "cluster_id": "c_63dc9bd317ea0d",
       "topic": "renewables",
-      "lead_title": "EJN Brings Together 26 Content Creators and Communicators to Shape Renewable Energy Storytelling in Pune, India",
-      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORGs3Q0tPS0o5cE5SOGRJeVlPWV9obEdVNmhEX0pNWDNEZG1tMTJSeExKUFpqTU9jazY1Mm10NV9PV1NybUlENDI5eWtHTnloODNBYXFlbzBEbjJNbEdfcmFZbndxYk03U21GLXlZVzJVd1lzWmotOEpSTWZPLXN4M3ptb3VYaWRyUHlCeGU0ZHFXUjhIWEpsWExDdW9YQVMxRmJjd3Vsa0JhNklvUnk2Z3pVNHhyY0Zxc0lYajVn?oc=5",
-      "lead_source": "Earth Journalism Network",
+      "lead_title": "Tunisia president sacks energy minister ahead of renewable energy projects vote",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ0JXQ3gxVEc4SlZxRmdYTjJvczZMaERad3p5aHNkV2YwcnAyU1RpamJPbTZ2V25DZW9wVjFXY0JWbEtEaExrMHNUell0Vm1mMEs5YWQxZ3NxV1hfRU8wZUJqekEzSVFZZkhNZmdkTDljWnBObzMwQWo4dlV6bThxUDQzdllzSUdoY0VUQ1RqQ0JubXhOcEQxVExXYTFDSWFCMXNJMDJuOUxSOFZFOE9jakpIRHd6VENsNk5PVHVhU2tZWUE?oc=5",
+      "lead_source": "Reuters",
       "canonical_entities": [
         "renewable"
       ],
@@ -62,14 +82,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T11:35:43+00:00",
-      "latest_seen": "2026-04-28T11:35:43+00:00",
-      "age_hours": 0.49,
-      "score": 63.2,
+      "earliest_seen": "2026-04-28T09:01:54+00:00",
+      "latest_seen": "2026-04-28T09:01:54+00:00",
+      "age_hours": 7.5,
+      "score": 69.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.7,
-        "source_quality_points": 19.5,
+        "recency_points": 20.5,
+        "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -77,24 +97,24 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "1998963ee9d9898f",
-          "title": "EJN Brings Together 26 Content Creators and Communicators to Shape Renewable Energy Storytelling in Pune, India",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORGs3Q0tPS0o5cE5SOGRJeVlPWV9obEdVNmhEX0pNWDNEZG1tMTJSeExKUFpqTU9jazY1Mm10NV9PV1NybUlENDI5eWtHTnloODNBYXFlbzBEbjJNbEdfcmFZbndxYk03U21GLXlZVzJVd1lzWmotOEpSTWZPLXN4M3ptb3VYaWRyUHlCeGU0ZHFXUjhIWEpsWExDdW9YQVMxRmJjd3Vsa0JhNklvUnk2Z3pVNHhyY0Zxc0lYajVn?oc=5",
-          "source": "Earth Journalism Network",
+          "headline_id": "9b6fcd082d5c94f9",
+          "title": "Tunisia president sacks energy minister ahead of renewable energy projects vote",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQ0JXQ3gxVEc4SlZxRmdYTjJvczZMaERad3p5aHNkV2YwcnAyU1RpamJPbTZ2V25DZW9wVjFXY0JWbEtEaExrMHNUell0Vm1mMEs5YWQxZ3NxV1hfRU8wZUJqekEzSVFZZkhNZmdkTDljWnBObzMwQWo4dlV6bThxUDQzdllzSUdoY0VUQ1RqQ0JubXhOcEQxVExXYTFDSWFCMXNJMDJuOUxSOFZFOE9jakpIRHd6VENsNk5PVHVhU2tZWUE?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-28T11:35:43+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-28T09:01:54+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_66248115779466",
+      "cluster_id": "c_50d3eda92d1c67",
       "topic": "renewables",
-      "lead_title": "O’Mara: Public comments on NYS Renewable Energy Program close May 1st",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObTN3Z1d5RFNmTDJoZjR3cDNaZG54bWhtckhsLVZMeXBMTzBrZkxXcXFTNXphdVZTXzgteWxQV0s5dWlhYm9hYk5JbTh6aXl1MmFFa0haOVlydU1NMTNxQVYtYlN0Q05GUzRVUElOQU8tbGlGOWtIQjFaRFl3dnhPYnlCaVNYaWt1Umhoc0hGdlI2ckRNOTFFMkNOR09BbXc2RWFadGQ3aDIwRVhjQmtJ?oc=5",
-      "lead_source": "the wellsville sun",
+      "lead_title": "One year after Spain’s blackout, its shift to renewables and grid evolution power on",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUFzajNjYVZnbkFyWWc5aDBLVDRIRndhSFlWNXFVeWhicG5GaTM0QlZSRHdJY3JIV2lWUjRQMEFoZzg3STNYeVFUSS1tU0JVSVcwMTRHY0VQVGZOVUJUVTJzOENxejhwblBLSmRNLWZGTEdYWkRCaE9JdnZsOWVYZ1ZJV0h1WEVTNUc2YzBzYmtyT2UzcFBGQg?oc=5",
+      "lead_source": "The Guardian",
       "canonical_entities": [
         "renewable"
       ],
@@ -103,14 +123,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T11:29:44+00:00",
-      "latest_seen": "2026-04-28T11:29:44+00:00",
-      "age_hours": 0.59,
-      "score": 63.14,
+      "earliest_seen": "2026-04-28T14:47:00+00:00",
+      "latest_seen": "2026-04-28T14:47:00+00:00",
+      "age_hours": 1.75,
+      "score": 68.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.64,
-        "source_quality_points": 19.5,
+        "recency_points": 23.95,
+        "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -118,66 +138,26 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "b7afa70d79872187",
-          "title": "O’Mara: Public comments on NYS Renewable Energy Program close May 1st",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObTN3Z1d5RFNmTDJoZjR3cDNaZG54bWhtckhsLVZMeXBMTzBrZkxXcXFTNXphdVZTXzgteWxQV0s5dWlhYm9hYk5JbTh6aXl1MmFFa0haOVlydU1NMTNxQVYtYlN0Q05GUzRVUElOQU8tbGlGOWtIQjFaRFl3dnhPYnlCaVNYaWt1Umhoc0hGdlI2ckRNOTFFMkNOR09BbXc2RWFadGQ3aDIwRVhjQmtJ?oc=5",
-          "source": "the wellsville sun",
+          "headline_id": "9598e7da06011efa",
+          "title": "One year after Spain’s blackout, its shift to renewables and grid evolution power on",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOUFzajNjYVZnbkFyWWc5aDBLVDRIRndhSFlWNXFVeWhicG5GaTM0QlZSRHdJY3JIV2lWUjRQMEFoZzg3STNYeVFUSS1tU0JVSVcwMTRHY0VQVGZOVUJUVTJzOENxejhwblBLSmRNLWZGTEdYWkRCaE9JdnZsOWVYZ1ZJV0h1WEVTNUc2YzBzYmtyT2UzcFBGQg?oc=5",
+          "source": "The Guardian",
           "source_type": "rss",
-          "published_at": "2026-04-28T11:29:44+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-28T14:47:00+00:00",
+          "confidence": 0.85
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_dade226939b554",
+      "cluster_id": "c_e194d04a9537cd",
       "topic": "renewables",
-      "lead_title": "War in Iran accelerates clean energy shift, China seizes renewable export gains",
-      "lead_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14VmhEby1GUHlXN1NhMFFRREw0WEVCUWdZWW1GVVlyN1lQOVZEQ2pPYjk5Ull4R1FldHRyNDNRMVM2Z2hnSHR3VGc1cUJqUEVRaHZ0bDhUdHBHWUQ4Ymc?oc=5",
-      "lead_source": "mezha.net",
+      "lead_title": "Maine PUC Votes to Reopen Bid Window for Northern Maine Renewable Energy Generation & Transmission RFP",
+      "lead_url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNRWZnQXZFU1BkSWFkTGdqOXRaOTRhWG44czhfZ3pINzFCZFBoeDdnMHkzMEJfVC1QeEZrUzd3cl9nS1AyaTdzV1pvZ25LcklMR2ZMWFlNWnJRT0ZCeDQyOTZ2X2tWb3ZOT2pFOWpDdkFZM0JjdVV0b0k0U3Myc1RWXzFuYUhnQjNGaGI1aW8wWmhEN01KcVlQRTVuWFVkTjZsRHRTeW9QekNFaW54STJ6ejczT2FxQkNDSmYzZmtZWTduTEtjTTFBVWR0UFpzZHdWaEVadHNlUmk1WGdTX3pna1ZQWnE5MzFqRTItZ01MdEg2R2xlXzd0TldDazE1eUlZX2NkSFVJV0F1VUc2WG9La05XVTRldTNfSXZzS01wMmtTOXJzY2ZUak01S0M?oc=5",
+      "lead_source": "Foley Hoag",
       "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T11:14:10+00:00",
-      "latest_seen": "2026-04-28T11:14:10+00:00",
-      "age_hours": 0.85,
-      "score": 62.99,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.49,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "ca0b413b447ac9ae",
-          "title": "War in Iran accelerates clean energy shift, China seizes renewable export gains",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE14VmhEby1GUHlXN1NhMFFRREw0WEVCUWdZWW1GVVlyN1lQOVZEQ2pPYjk5Ull4R1FldHRyNDNRMVM2Z2hnSHR3VGc1cUJqUEVRaHZ0bDhUdHBHWUQ4Ymc?oc=5",
-          "source": "mezha.net",
-          "source_type": "rss",
-          "published_at": "2026-04-28T11:14:10+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_71d59d26532c7d",
-      "topic": "renewables",
-      "lead_title": "Everyone understands wind is now ‘critical’ for energy security – Nordex CEO",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbEpOZVRXTzNDT0xBOHA3NUxJOF9jY0JnWnZ4bUpaTXFQbVRyTFZsYVZFVFBmcHlGN0JZSldNUkNncG1CRWg5QkFpdE0xNjF5UzI0d2I1ZGk0V2FrWlZ6NjJ2NHM4TzFEX05OR3RQRzVWazctcWVxSzhqMTRCdEVvWGhKT0owZ3dONDNPQWN2c3cweFZZbG9CUEs3U0d2WkR5UzhmNVpaUE5ybXgwYUxETVoxZXhocmh6b0lGSw?oc=5",
-      "lead_source": "Wind Power Monthly",
-      "canonical_entities": [
+        "renewable",
         "wind"
       ],
       "source_count": 1,
@@ -185,327 +165,173 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T11:13:24+00:00",
-      "latest_seen": "2026-04-28T11:13:24+00:00",
-      "age_hours": 0.86,
-      "score": 62.98,
+      "earliest_seen": "2026-04-28T15:23:34+00:00",
+      "latest_seen": "2026-04-28T15:23:34+00:00",
+      "age_hours": 1.14,
+      "score": 68.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.48,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
+        "recency_points": 24.32,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "ac0421259b84aab0",
-          "title": "Everyone understands wind is now ‘critical’ for energy security – Nordex CEO",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQbEpOZVRXTzNDT0xBOHA3NUxJOF9jY0JnWnZ4bUpaTXFQbVRyTFZsYVZFVFBmcHlGN0JZSldNUkNncG1CRWg5QkFpdE0xNjF5UzI0d2I1ZGk0V2FrWlZ6NjJ2NHM4TzFEX05OR3RQRzVWazctcWVxSzhqMTRCdEVvWGhKT0owZ3dONDNPQWN2c3cweFZZbG9CUEs3U0d2WkR5UzhmNVpaUE5ybXgwYUxETVoxZXhocmh6b0lGSw?oc=5",
-          "source": "Wind Power Monthly",
+          "headline_id": "577b390cc06e6835",
+          "title": "Maine PUC Votes to Reopen Bid Window for Northern Maine Renewable Energy Generation & Transmission RFP",
+          "url": "https://news.google.com/rss/articles/CBMirAJBVV95cUxNRWZnQXZFU1BkSWFkTGdqOXRaOTRhWG44czhfZ3pINzFCZFBoeDdnMHkzMEJfVC1QeEZrUzd3cl9nS1AyaTdzV1pvZ25LcklMR2ZMWFlNWnJRT0ZCeDQyOTZ2X2tWb3ZOT2pFOWpDdkFZM0JjdVV0b0k0U3Myc1RWXzFuYUhnQjNGaGI1aW8wWmhEN01KcVlQRTVuWFVkTjZsRHRTeW9QekNFaW54STJ6ejczT2FxQkNDSmYzZmtZWTduTEtjTTFBVWR0UFpzZHdWaEVadHNlUmk1WGdTX3pna1ZQWnE5MzFqRTItZ01MdEg2R2xlXzd0TldDazE1eUlZX2NkSFVJV0F1VUc2WG9La05XVTRldTNfSXZzS01wMmtTOXJzY2ZUak01S0M?oc=5",
+          "source": "Foley Hoag",
           "source_type": "rss",
-          "published_at": "2026-04-28T11:13:24+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-28T15:23:34+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_4ba24efee7cada",
+      "cluster_id": "c_751395fb200c5b",
       "topic": "renewables",
-      "lead_title": "North Carolina’s pause on solar spurred by climate rollback",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcWpHOFlISjBiVnphN1hITzBXekMwUnBVeGZfWVRpSjc0RU5fNkRLVGRMWENnWkdsQUtSaFpUYmR6WEtZMk13ZDlBUHJRLU5VemQzVDhKN3U5YnE4LU9ZbmtfOFFRQ25QdENQdjdQQnhfMGtIb3dDMGl6ZkUxcmhiM29hN21XTzBpQ0NNVHYydllraVZjVlJWag?oc=5",
-      "lead_source": "E&E News by POLITICO",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T11:03:00+00:00",
-      "latest_seen": "2026-04-28T11:03:00+00:00",
-      "age_hours": 1.04,
-      "score": 62.88,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.38,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a532babce3ec2698",
-          "title": "North Carolina’s pause on solar spurred by climate rollback",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcWpHOFlISjBiVnphN1hITzBXekMwUnBVeGZfWVRpSjc0RU5fNkRLVGRMWENnWkdsQUtSaFpUYmR6WEtZMk13ZDlBUHJRLU5VemQzVDhKN3U5YnE4LU9ZbmtfOFFRQ25QdENQdjdQQnhfMGtIb3dDMGl6ZkUxcmhiM29hN21XTzBpQ0NNVHYydllraVZjVlJWag?oc=5",
-          "source": "E&E News by POLITICO",
-          "source_type": "rss",
-          "published_at": "2026-04-28T11:03:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_4ad9f00ee76395",
-      "topic": "renewables",
-      "lead_title": "Trump's disdain for wind power creates political turbulence for Republicans in coastal Virginia",
-      "lead_url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPeXlVbGJaRVRuVzVNdkJFckEtSWh4WFlScUtlS25EQXVkNnJOZXF6NTgtXzE0WWotWklHNVRKSXVmd1A2Wnp1SmRnX1lqeWJlMFNaSTYzbGd3dml2N1otVzMzLTh1YkoxNDZ0My1QZ1E4SEJOU0VYRG5Ld3V2Zi0wRmI3TjNpTnMtekVyS21sV0dDX3A5YUxfWkJTS3gtV1NVN1oyRGhpZzJKcE1sT3FuNEdQa1dlamJXeUg0TVJqS1lXenVmbUpOaTNmZDgwSWtDbGJTTFJWaGtCbHNIcF8yak51QUw4dWZUb21sNnRJTnJ6STBUSTI5Sm5vMjB6WnVmQU1oaWNLeG5MTWMya2JzWmJGZ2YzakNJN1lyYV9hWE5FdFdhN0E?oc=5",
-      "lead_source": "dnronline.com",
-      "canonical_entities": [
-        "wind"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T11:00:00+00:00",
-      "latest_seen": "2026-04-28T11:00:00+00:00",
-      "age_hours": 1.09,
-      "score": 62.85,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.35,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "8553f70640733d2c",
-          "title": "Trump's disdain for wind power creates political turbulence for Republicans in coastal Virginia",
-          "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPeXlVbGJaRVRuVzVNdkJFckEtSWh4WFlScUtlS25EQXVkNnJOZXF6NTgtXzE0WWotWklHNVRKSXVmd1A2Wnp1SmRnX1lqeWJlMFNaSTYzbGd3dml2N1otVzMzLTh1YkoxNDZ0My1QZ1E4SEJOU0VYRG5Ld3V2Zi0wRmI3TjNpTnMtekVyS21sV0dDX3A5YUxfWkJTS3gtV1NVN1oyRGhpZzJKcE1sT3FuNEdQa1dlamJXeUg0TVJqS1lXenVmbUpOaTNmZDgwSWtDbGJTTFJWaGtCbHNIcF8yak51QUw4dWZUb21sNnRJTnJ6STBUSTI5Sm5vMjB6WnVmQU1oaWNLeG5MTWMya2JzWmJGZ2YzakNJN1lyYV9hWE5FdFdhN0E?oc=5",
-          "source": "dnronline.com",
-          "source_type": "rss",
-          "published_at": "2026-04-28T11:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d0f7588b6d61be",
-      "topic": "renewables",
-      "lead_title": "I Squared Capital Acquires Oriden, Commits $300 Million to Expand U.S. Renewable Energy Platform",
-      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWdPUU1YcHRydFpfaGNnUVVrUml5SlhSdU9KQXhaZS1UdzNsZC1kUE1XZ2JfMW5TMldMSFlDbC1Na2ZnTGQxNjREY21sUHctNk5xQjhuQ2VJdjhxZEdhd0h6T09wSVpBZjE0ZjJRQTM2c3UwX0VnSWtmc2VYUS1YdWlDLU1oaUpyUkszNC1zQm1JLXNtSFFKRDZGMl9uclFLcmlhQTk3WmNDbGdaVkhXMEtQOFJ4bnI4N2pfMjFld0VBVE5OSGkzaEJFdko?oc=5",
-      "lead_source": "citybiz",
-      "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T10:54:02+00:00",
-      "latest_seen": "2026-04-28T10:54:02+00:00",
-      "age_hours": 1.19,
-      "score": 62.79,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.29,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "664237b6ad8b24a1",
-          "title": "I Squared Capital Acquires Oriden, Commits $300 Million to Expand U.S. Renewable Energy Platform",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQeWdPUU1YcHRydFpfaGNnUVVrUml5SlhSdU9KQXhaZS1UdzNsZC1kUE1XZ2JfMW5TMldMSFlDbC1Na2ZnTGQxNjREY21sUHctNk5xQjhuQ2VJdjhxZEdhd0h6T09wSVpBZjE0ZjJRQTM2c3UwX0VnSWtmc2VYUS1YdWlDLU1oaUpyUkszNC1zQm1JLXNtSFFKRDZGMl9uclFLcmlhQTk3WmNDbGdaVkhXMEtQOFJ4bnI4N2pfMjFld0VBVE5OSGkzaEJFdko?oc=5",
-          "source": "citybiz",
-          "source_type": "rss",
-          "published_at": "2026-04-28T10:54:02+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5f462c6cdf7209",
-      "topic": "renewables",
-      "lead_title": "Meta: Partnerships With Overview Energy And Noon Energy Target 1 GW Space Solar And 100 GWh Storage To Power AI Infrastructure",
-      "lead_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQzJKZ2oyZm50eC1hZ2I0aTZOMFREWmtIbGw4TklpR0RwMTV5N1VCSkRpOUxCdjhSTm9CaFQwUldJT3pXS2RjdU9ybjNWeFVkcGNPX3I5UDJnQnR3eGlyNHpLcnNRdWtjaG42YTlxT3dnckR6WXRFTDdybnA4aXctRnFSUzNENkt3bVNLaEdYT2RsUmc4NTc5cVJFMDlDMkF2ejVEQzNaeEpLZlFPME93a3I0b1psWXg4LXVxZWxiTmhYTkVqSTNqQ3Q0RjMyMWVqWnRaNWdnTDlwV3hTNHfSAeMBQVVfeXFMUE9pMllQLUhJUVNoOVZQWWMzX0Q0YldxbGV3MVZVai1oT3FlYm5Yb2dpWEN1YURJLTdNMXJlcEg1dV9PcjA4Ym9QRkpYQmJqQ1RvZlhDZkFGblJ1ZTJTSk1ZaU1SaDBtekhWaUsyY2dOYlQ3MEY4VHZSeWhHUHJnTUsxaURTR01OdVduaVozMEZFdFVyanh1R0RYWlZINDBTSW5JSHpHRExLY01OMTJ2a0piUXI2VFFPZTVJN05UenZuRS1vc2NFR2hTQVloeVVFNHd2QzA3R1MxODEyeEJxM0lwT1U?oc=5",
-      "lead_source": "Pulse 2.0",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T10:46:58+00:00",
-      "latest_seen": "2026-04-28T10:46:58+00:00",
-      "age_hours": 1.31,
-      "score": 62.72,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.22,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "53e8eda47b7585d3",
-          "title": "Meta: Partnerships With Overview Energy And Noon Energy Target 1 GW Space Solar And 100 GWh Storage To Power AI Infrastructure",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNQzJKZ2oyZm50eC1hZ2I0aTZOMFREWmtIbGw4TklpR0RwMTV5N1VCSkRpOUxCdjhSTm9CaFQwUldJT3pXS2RjdU9ybjNWeFVkcGNPX3I5UDJnQnR3eGlyNHpLcnNRdWtjaG42YTlxT3dnckR6WXRFTDdybnA4aXctRnFSUzNENkt3bVNLaEdYT2RsUmc4NTc5cVJFMDlDMkF2ejVEQzNaeEpLZlFPME93a3I0b1psWXg4LXVxZWxiTmhYTkVqSTNqQ3Q0RjMyMWVqWnRaNWdnTDlwV3hTNHfSAeMBQVVfeXFMUE9pMllQLUhJUVNoOVZQWWMzX0Q0YldxbGV3MVZVai1oT3FlYm5Yb2dpWEN1YURJLTdNMXJlcEg1dV9PcjA4Ym9QRkpYQmJqQ1RvZlhDZkFGblJ1ZTJTSk1ZaU1SaDBtekhWaUsyY2dOYlQ3MEY4VHZSeWhHUHJnTUsxaURTR01OdVduaVozMEZFdFVyanh1R0RYWlZINDBTSW5JSHpHRExLY01OMTJ2a0piUXI2VFFPZTVJN05UenZuRS1vc2NFR2hTQVloeVVFNHd2QzA3R1MxODEyeEJxM0lwT1U?oc=5",
-          "source": "Pulse 2.0",
-          "source_type": "rss",
-          "published_at": "2026-04-28T10:46:58+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_bcade79bf38ffc",
-      "topic": "renewables",
-      "lead_title": "American Energy Dominance Act: GOP Bill Seeks to Extend Renewable Tax Credits - News and Statistics",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMkQ2NWlvMUZPQVR1NkU4Tl9nMXVsVk1ELXdlMFdDLUdWaFhta2ZLeUVNemZMdjZRRHJ2ZnJBQlRwVEhWeGJZUGJOb3lyZjBDQzIzUWNjR0dWd3BSNHNDWXFxQVNXYldaMnRfeEUzZDdfTEZJeEtsb2RjMTdadl95N3JlNnhPUFlNVFVnV18xX3NMNnl0R0p2OUtmZ2hoUGs?oc=5",
-      "lead_source": "IndexBox",
-      "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T10:40:00+00:00",
-      "latest_seen": "2026-04-28T10:40:00+00:00",
-      "age_hours": 1.42,
-      "score": 62.65,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.15,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "5ac9694fd398f363",
-          "title": "American Energy Dominance Act: GOP Bill Seeks to Extend Renewable Tax Credits - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMkQ2NWlvMUZPQVR1NkU4Tl9nMXVsVk1ELXdlMFdDLUdWaFhta2ZLeUVNemZMdjZRRHJ2ZnJBQlRwVEhWeGJZUGJOb3lyZjBDQzIzUWNjR0dWd3BSNHNDWXFxQVNXYldaMnRfeEUzZDdfTEZJeEtsb2RjMTdadl95N3JlNnhPUFlNVFVnV18xX3NMNnl0R0p2OUtmZ2hoUGs?oc=5",
-          "source": "IndexBox",
-          "source_type": "rss",
-          "published_at": "2026-04-28T10:40:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d018935d81220c",
-      "topic": "renewables",
-      "lead_title": "South32 and Eskom plot Hillside renewable energy plan",
-      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcDJRT2l1eVdfcVlDYndIV0VFMGo3Um9QS2sxVUtybXlkZ0w3TkNwdk8zMFpRc3JoVzBMamNtM3h1NkQ5N08xOHpjV1hENGJITGNCdWcza3JDdTFsQWNjMkFETnpyQy1ESVNXS09SalNGRTJHR3JpSWl5cjZ2VG12Wnpnenh1MzZ6aWhRcnBR?oc=5",
-      "lead_source": "Aluminium International Today",
-      "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T10:39:40+00:00",
-      "latest_seen": "2026-04-28T10:39:40+00:00",
-      "age_hours": 1.43,
-      "score": 62.64,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.14,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "3075c5a2f7c80a75",
-          "title": "South32 and Eskom plot Hillside renewable energy plan",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcDJRT2l1eVdfcVlDYndIV0VFMGo3Um9QS2sxVUtybXlkZ0w3TkNwdk8zMFpRc3JoVzBMamNtM3h1NkQ5N08xOHpjV1hENGJITGNCdWcza3JDdTFsQWNjMkFETnpyQy1ESVNXS09SalNGRTJHR3JpSWl5cjZ2VG12Wnpnenh1MzZ6aWhRcnBR?oc=5",
-          "source": "Aluminium International Today",
-          "source_type": "rss",
-          "published_at": "2026-04-28T10:39:40+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a10d4d9b217c2a",
-      "topic": "renewables",
-      "lead_title": "Danantara Eyes $30 Billion Indonesia–Singapore Solar And Power Link Project",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNFh5M0VDS2xDd0ZocERUSzRNcDl5bHhPZ3RJOU1jU3hJeUdnVmFpQmxUcGpBc3pDUmtGemVodmpTOEszWVJtSzFSWmkxTjNJcjRpWVZYMjhrTldIU3MzVHdWNGV3bGlOc3pCZGRlNU9LSjJXa0hJTUJLSmNISGQ5T001X1J5aHZ2SFpOeFhlUnpFdkRCT3NCZzdxeFA0dUxPY3ZGbnF3UU8yZUk4aDdwRQ?oc=5",
-      "lead_source": "SolarQuarter",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T10:39:23+00:00",
-      "latest_seen": "2026-04-28T10:39:23+00:00",
-      "age_hours": 1.43,
-      "score": 62.64,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.14,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "fcdcbb998dd6e44c",
-          "title": "Danantara Eyes $30 Billion Indonesia–Singapore Solar And Power Link Project",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNFh5M0VDS2xDd0ZocERUSzRNcDl5bHhPZ3RJOU1jU3hJeUdnVmFpQmxUcGpBc3pDUmtGemVodmpTOEszWVJtSzFSWmkxTjNJcjRpWVZYMjhrTldIU3MzVHdWNGV3bGlOc3pCZGRlNU9LSjJXa0hJTUJLSmNISGQ5T001X1J5aHZ2SFpOeFhlUnpFdkRCT3NCZzdxeFA0dUxPY3ZGbnF3UU8yZUk4aDdwRQ?oc=5",
-          "source": "SolarQuarter",
-          "source_type": "rss",
-          "published_at": "2026-04-28T10:39:23+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a97d9408702345",
-      "topic": "renewables",
-      "lead_title": "Cox acquires Iberdrola Mexico, including 12GW renewable energy pipeline, for US$4 billion",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTTJ3MjBnV3JHNmt2WUpwWGpUeEZ4ak9WdlJTTHlLTGRDTmlWc0h6bUNsYmJwaHlVUUVBeWJpbmFzTUZ5RWhQV2ttMmpZd1ZfMWFZS3RxdVVVLURaLTFDemNzQnNnODJjcVk1NDhqRmhFVzdNVjBkTnIzTW9zVXN1aFE2VUFqanZGOHNnZUNvY3d1S3ZIYkdTTXpKTlU2QQ?oc=5",
+      "lead_title": "California greenlights 300MW Soda Mountain solar project",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVpKNkRvdDBzQ0RfSkNRRGlkeHNQMndoVy1BcGY5M3FOY0xjanVVVjdsRmUtZkRJZTAtTm1lLVFLQjJTbVVvVnFOeTZKei1NU0xiYjN5Y2tPdFR0SW9TNi1RTG5lc19lRGRFdU9ROXB5NVBVeHlSMWl3UzIxMXNTNVA2enhkaVFC?oc=5",
       "lead_source": "PV Tech",
       "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T13:00:35+00:00",
+      "latest_seen": "2026-04-28T14:55:01+00:00",
+      "age_hours": 1.61,
+      "score": 67.53,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 24.03,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "ef01bb84e43b9918",
+          "title": "California greenlights 300MW Soda Mountain solar project",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVpKNkRvdDBzQ0RfSkNRRGlkeHNQMndoVy1BcGY5M3FOY0xjanVVVjdsRmUtZkRJZTAtTm1lLVFLQjJTbVVvVnFOeTZKei1NU0xiYjN5Y2tPdFR0SW9TNi1RTG5lc19lRGRFdU9ROXB5NVBVeHlSMWl3UzIxMXNTNVA2enhkaVFC?oc=5",
+          "source": "PV Tech",
+          "source_type": "rss",
+          "published_at": "2026-04-28T14:55:01+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "0a6aeefecf751cba",
+          "title": "Soda Mountain solar + storage project given go-ahead by California Energy Commission",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNWUdqTjdkc09pZ1YtS2hYczF0S2VMcldqRXl1UGtHek95RTBKdzlCcmctQVpUVTFuci1laFdENGFlbmU2SXRsZkRvVTV6UnVXUTFNTXdPOEtpTjF3SVNZZWQ2RzBId0c2eWd5N0FKUldWbS1ldEpfSzhBWFJDdl9TRk1LejR3bVlzTFE5RWpZSHhmWGRJLWJvdjJzUlJHSUFPWW9hZUhYM1ZheThQeXNsUXZqREZMUlZpb3p4VFg1UTVmdTFDbTMzVw?oc=5",
+          "source": "Solar Power World",
+          "source_type": "rss",
+          "published_at": "2026-04-28T13:00:35+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_856b2e55d40286",
+      "topic": "renewables",
+      "lead_title": "Headwater Energy Acquires Arena Renewables: 1 GW Solar and Storage Portfolio Added - News and Statistics",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQczNXQTZCWWtJdzlZRXh1VWcyQkV5SmpZRGFPTDlfS0g0aFFsSk1JZEZyUzVlVVhBRkFKNG0tZVBQOHEwb3ZVMjNyTTdsUWRueVVtZUNuYzc1UzBTM2JFX1Q0ejlzRXdud3FVcTNkZmYtU0stZWNMQ0FmSEExb1J5NklOT1dFcVVHYXRJQUMwN2Y4Z3lqU1FFTVJvZWNvODF2UTZMcTRNZ1lTdmRyY1E?oc=5",
+      "lead_source": "IndexBox",
+      "canonical_entities": [
+        "renewable",
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T11:51:00+00:00",
+      "latest_seen": "2026-04-28T11:51:00+00:00",
+      "age_hours": 4.68,
+      "score": 66.19,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.19,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "c6b23ecf2874dfd1",
+          "title": "Headwater Energy Acquires Arena Renewables: 1 GW Solar and Storage Portfolio Added - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQczNXQTZCWWtJdzlZRXh1VWcyQkV5SmpZRGFPTDlfS0g0aFFsSk1JZEZyUzVlVVhBRkFKNG0tZVBQOHEwb3ZVMjNyTTdsUWRueVVtZUNuYzc1UzBTM2JFX1Q0ejlzRXdud3FVcTNkZmYtU0stZWNMQ0FmSEExb1J5NklOT1dFcVVHYXRJQUMwN2Y4Z3lqU1FFTVJvZWNvODF2UTZMcTRNZ1lTdmRyY1E?oc=5",
+          "source": "IndexBox",
+          "source_type": "rss",
+          "published_at": "2026-04-28T11:51:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f46534d39fdd6b",
+      "topic": "renewables",
+      "lead_title": "Ann Arbor utility deploying solar + storage systems on local homes",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQXgtWDU0eGljdGRlTEpfSWctXzFUemdfNU9QWW1WUHJVSHhROFY5bjdjTkwzMXZKZmlRMGZrQjJDbWVfWGc0VE1YMVQ4VERLajlMbmZTcW42TldYTEdpNHVGVG1pZFFuWFY1RUdRRTlwWmZQR3RmVzhFMzIyaW9kZWdSelhfai1rRFo5OUpnQTVqbV95UmpPN09Mck5fNU5NeEJmeG1BSk1XcUpqaXV0RA?oc=5",
+      "lead_source": "Solar Power World",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T16:20:35+00:00",
+      "latest_seen": "2026-04-28T16:20:35+00:00",
+      "age_hours": 0.19,
+      "score": 63.39,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.89,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "3f59a0b1bfad6535",
+          "title": "Ann Arbor utility deploying solar + storage systems on local homes",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQXgtWDU0eGljdGRlTEpfSWctXzFUemdfNU9QWW1WUHJVSHhROFY5bjdjTkwzMXZKZmlRMGZrQjJDbWVfWGc0VE1YMVQ4VERLajlMbmZTcW42TldYTEdpNHVGVG1pZFFuWFY1RUdRRTlwWmZQR3RmVzhFMzIyaW9kZWdSelhfai1rRFo5OUpnQTVqbV95UmpPN09Mck5fNU5NeEJmeG1BSk1XcUpqaXV0RA?oc=5",
+          "source": "Solar Power World",
+          "source_type": "rss",
+          "published_at": "2026-04-28T16:20:35+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ae8ee1b1aeb1e2",
+      "topic": "renewables",
+      "lead_title": "Mitsubishi Power Americas sells off local renewable energy startup to private equity firm",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFczOWpVLXlOQlM1SHc0VzlUb1RKaDZZZUVxUlVTdElwNFliWXA5LVJXUHNRZlVsaHg1UGI5enVQVl9SM0c1emVDTmFMS2t6U2psQzc3bmZJZElId3pfN2NxODZpNTlXUG8yYXp3S1hNSlBWaHJkOGNVQUxLU2dONDVYNXpETlBGQV9vam9KSXkydHU3REctcw?oc=5",
+      "lead_source": "The Business Journals",
+      "canonical_entities": [
         "renewable"
       ],
       "source_count": 1,
@@ -513,13 +339,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T10:35:01+00:00",
-      "latest_seen": "2026-04-28T10:35:01+00:00",
-      "age_hours": 1.5,
-      "score": 62.6,
+      "earliest_seen": "2026-04-28T15:54:00+00:00",
+      "latest_seen": "2026-04-28T15:54:00+00:00",
+      "age_hours": 0.63,
+      "score": 63.12,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.1,
+        "recency_points": 24.62,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -528,12 +354,256 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "c97dbdb1e05b1178",
-          "title": "Cox acquires Iberdrola Mexico, including 12GW renewable energy pipeline, for US$4 billion",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTTJ3MjBnV3JHNmt2WUpwWGpUeEZ4ak9WdlJTTHlLTGRDTmlWc0h6bUNsYmJwaHlVUUVBeWJpbmFzTUZ5RWhQV2ttMmpZd1ZfMWFZS3RxdVVVLURaLTFDemNzQnNnODJjcVk1NDhqRmhFVzdNVjBkTnIzTW9zVXN1aFE2VUFqanZGOHNnZUNvY3d1S3ZIYkdTTXpKTlU2QQ?oc=5",
+          "headline_id": "6f8f7eccd817940f",
+          "title": "Mitsubishi Power Americas sells off local renewable energy startup to private equity firm",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeFczOWpVLXlOQlM1SHc0VzlUb1RKaDZZZUVxUlVTdElwNFliWXA5LVJXUHNRZlVsaHg1UGI5enVQVl9SM0c1emVDTmFMS2t6U2psQzc3bmZJZElId3pfN2NxODZpNTlXUG8yYXp3S1hNSlBWaHJkOGNVQUxLU2dONDVYNXpETlBGQV9vam9KSXkydHU3REctcw?oc=5",
+          "source": "The Business Journals",
+          "source_type": "rss",
+          "published_at": "2026-04-28T15:54:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_18d715baacc242",
+      "topic": "renewables",
+      "lead_title": "Meta Signs Agreement for Space Solar Power from Overview Energy by 2030 - News and Statistics",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWk05dHJBbmxTSVBiRjhvcEQyRUpFMjlmQ3V3VFozVE04RFZBckhxQkNld1NJejNaTXRkc1dYNUVkc3pvREstZXpPdzhtMGZ6S1JTekhWRUdDR2Rsb2liN3ZVa0VKZXhNMkw2WFBkZld5eG5xVGhSMEdCelhyOTJTeVQ0RmVfNVRCMmZGcDlzemxPZ252UjZLckNzQkdRT2dNdUE?oc=5",
+      "lead_source": "IndexBox",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T15:51:00+00:00",
+      "latest_seen": "2026-04-28T15:51:00+00:00",
+      "age_hours": 0.68,
+      "score": 63.09,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.59,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "0ba526e7cee72bc0",
+          "title": "Meta Signs Agreement for Space Solar Power from Overview Energy by 2030 - News and Statistics",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWk05dHJBbmxTSVBiRjhvcEQyRUpFMjlmQ3V3VFozVE04RFZBckhxQkNld1NJejNaTXRkc1dYNUVkc3pvREstZXpPdzhtMGZ6S1JTekhWRUdDR2Rsb2liN3ZVa0VKZXhNMkw2WFBkZld5eG5xVGhSMEdCelhyOTJTeVQ0RmVfNVRCMmZGcDlzemxPZ252UjZLckNzQkdRT2dNdUE?oc=5",
+          "source": "IndexBox",
+          "source_type": "rss",
+          "published_at": "2026-04-28T15:51:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5b1e2ef980e4fc",
+      "topic": "renewables",
+      "lead_title": "Renewable energy passed a huge milestone in 2025 | The Week's Good News",
+      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ0lIM3JsMm9qdDdGcmMwY21iWUxpbkxPTjdNaHl3MnlpM0lPaDVPZktFN2N2TnR0VXV2dlRKZmhMbURWQ0dGV2V3QU9aai1yZ0ZCV2psd3EzQlVHU1E5RnNqa1FwYnRkNDZIX256eVhPV1Q0NDNmdmJmY2hVckNleU9UbkxOcUhrYVczdmhxRQ?oc=5",
+      "lead_source": "The Week",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T15:23:49+00:00",
+      "latest_seen": "2026-04-28T15:23:49+00:00",
+      "age_hours": 1.13,
+      "score": 62.82,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.32,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b55381f16a15cdc0",
+          "title": "Renewable energy passed a huge milestone in 2025 | The Week's Good News",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZ0lIM3JsMm9qdDdGcmMwY21iWUxpbkxPTjdNaHl3MnlpM0lPaDVPZktFN2N2TnR0VXV2dlRKZmhMbURWQ0dGV2V3QU9aai1yZ0ZCV2psd3EzQlVHU1E5RnNqa1FwYnRkNDZIX256eVhPV1Q0NDNmdmJmY2hVckNleU9UbkxOcUhrYVczdmhxRQ?oc=5",
+          "source": "The Week",
+          "source_type": "rss",
+          "published_at": "2026-04-28T15:23:49+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_a5c896961a4738",
+      "topic": "renewables",
+      "lead_title": "SW Partners in Strategic 10-Year Renewable Energy Agreement",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3pvb0x3Yk92N0dES19TYTFmeWFRWGRRNFdkN1FVZ2Rrb285Nk9tRFgyanc5MDZUQUd5VU4xOGFUS25LZmJudERfQWlMLXM2dUVDMkVYT2RwREtCclJCak5zdWlRMzF5T1FXbHdaeGxSdkVScjRXX3FrQTM0dWphd21XTjkwQm85dUkwSVpRdG9JUHF0RjMyalgxMTJCdw?oc=5",
+      "lead_source": "GuruFocus",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T14:36:35+00:00",
+      "latest_seen": "2026-04-28T14:36:35+00:00",
+      "age_hours": 1.92,
+      "score": 62.35,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.85,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "476bc4e7ba010003",
+          "title": "SW Partners in Strategic 10-Year Renewable Energy Agreement",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX3pvb0x3Yk92N0dES19TYTFmeWFRWGRRNFdkN1FVZ2Rrb285Nk9tRFgyanc5MDZUQUd5VU4xOGFUS25LZmJudERfQWlMLXM2dUVDMkVYT2RwREtCclJCak5zdWlRMzF5T1FXbHdaeGxSdkVScjRXX3FrQTM0dWphd21XTjkwQm85dUkwSVpRdG9JUHF0RjMyalgxMTJCdw?oc=5",
+          "source": "GuruFocus",
+          "source_type": "rss",
+          "published_at": "2026-04-28T14:36:35+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_bca6aee9f0a475",
+      "topic": "renewables",
+      "lead_title": "Proposed CGT changes affecting foreign investors and renewable assets",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNelg5SnRvdmRXLVc4blRZczg5ZWFFWDFwamhKSTNaaUlXY2twNEhISWt1NVBWUTNMMWZ0dEtiLWszQ0pwbTBUZGJqRFlkdTFOdUNjLWctUnJhVkN5Y19NUHB5dmhGVTl1SEdLRHJGa1FKTk92ODF6enlJVy1nY0NPTlkyY1RRMHdPcjc2alhTcnhnSGh4NWowMW9JcktzeEVKLS11TzZfdTgyREQ1TUo4MWVQS19QLUJyVWxTUUlXaVpxU25o?oc=5",
+      "lead_source": "Dentons",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T14:32:05+00:00",
+      "latest_seen": "2026-04-28T14:32:05+00:00",
+      "age_hours": 2.0,
+      "score": 62.3,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.8,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "65c2440d34228962",
+          "title": "Proposed CGT changes affecting foreign investors and renewable assets",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNelg5SnRvdmRXLVc4blRZczg5ZWFFWDFwamhKSTNaaUlXY2twNEhISWt1NVBWUTNMMWZ0dEtiLWszQ0pwbTBUZGJqRFlkdTFOdUNjLWctUnJhVkN5Y19NUHB5dmhGVTl1SEdLRHJGa1FKTk92ODF6enlJVy1nY0NPTlkyY1RRMHdPcjc2alhTcnhnSGh4NWowMW9JcktzeEVKLS11TzZfdTgyREQ1TUo4MWVQS19QLUJyVWxTUUlXaVpxU25o?oc=5",
+          "source": "Dentons",
+          "source_type": "rss",
+          "published_at": "2026-04-28T14:32:05+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_310c179c63a288",
+      "topic": "renewables",
+      "lead_title": "Trump’s attempt to crush clean energy progress not going to plan, experts say",
+      "lead_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ3F4dEtyQTduakNjVUNSRFhTRHZTdy1IZV93NUZEWFBLT2xQczVPUkhTcEZWMzZQNkh6amxQYm10UVQzQmVuLS1xVkQwTTU1akdhQVBPSEJXb0JMTUNhY3JVM3psNnBZSTZFQzVpVnhrUlFCclRuV08wVThnSzFoZQ?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T13:20:00+00:00",
+      "latest_seen": "2026-04-28T13:20:00+00:00",
+      "age_hours": 3.2,
+      "score": 62.08,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.08,
+        "source_quality_points": 24.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "8cf2a597aede0feb",
+          "title": "Trump’s attempt to crush clean energy progress not going to plan, experts say",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZ3F4dEtyQTduakNjVUNSRFhTRHZTdy1IZV93NUZEWFBLT2xQczVPUkhTcEZWMzZQNkh6amxQYm10UVQzQmVuLS1xVkQwTTU1akdhQVBPSEJXb0JMTUNhY3JVM3psNnBZSTZFQzVpVnhrUlFCclRuV08wVThnSzFoZQ?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-04-28T13:20:00+00:00",
+          "confidence": 0.8
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_fb723583837e0a",
+      "topic": "renewables",
+      "lead_title": "Record-breaking solar generation in 2025 points to ‘structural changes’ in global energy mix",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0xCNWJJaVVzT0otUDJKS3JCYXFEV3Y4dVNUbmxLOTk0UldGczRRVlBYTTNJc0IwSm1hN2Z6N050bGt5QnNoQ0xSVkxXYTJVV01YZzZKYU1pVkc1azJJcE1PSWNDWWdwRkE0aVZteUcwOG9oelRWZlRTQlJpWGhmcUtac3F3dzQ5Q2lKOFRCelcydHFwd0RodFJTbm5UUFJoTTQxUw?oc=5",
+      "lead_source": "PV Tech",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T14:04:46+00:00",
+      "latest_seen": "2026-04-28T14:04:46+00:00",
+      "age_hours": 2.45,
+      "score": 62.03,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.53,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6dcbe51ed06c6e30",
+          "title": "Record-breaking solar generation in 2025 points to ‘structural changes’ in global energy mix",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY0xCNWJJaVVzT0otUDJKS3JCYXFEV3Y4dVNUbmxLOTk0UldGczRRVlBYTTNJc0IwSm1hN2Z6N050bGt5QnNoQ0xSVkxXYTJVV01YZzZKYU1pVkc1azJJcE1PSWNDWWdwRkE0aVZteUcwOG9oelRWZlRTQlJpWGhmcUtac3F3dzQ5Q2lKOFRCelcydHFwd0RodFJTbm5UUFJoTTQxUw?oc=5",
           "source": "PV Tech",
           "source_type": "rss",
-          "published_at": "2026-04-28T10:35:01+00:00",
+          "published_at": "2026-04-28T14:04:46+00:00",
           "confidence": 0.65
         }
       ],
@@ -541,11 +611,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_84157e7a0148ec",
+      "cluster_id": "c_678791dc231baa",
       "topic": "renewables",
-      "lead_title": "VMO2 taps Suffolk solar farm for 10 years of clean energy",
-      "lead_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTEdvbExvU2pDdUFJYVlhWGpxb3BudTY0eFFKMG5mQ2lGVW5mSE1EeWxGcHhoMVBwUm5PVURrbS1ZSTBLTGs5RkZYS05EaTh6SUVjajQxN242TlMzaFhPS0t5eEIxcGJCb3RZem5pdlFWMXEzSUtXQ2V6VkpiTUk4bE5hdFIwa0U?oc=5",
-      "lead_source": "Total Telecom",
+      "lead_title": "Solar power from orbit: Meta signs agreement to power AI data centers",
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2xCSHZ1Z29sSWpGc290UVRxWHA5LUJRYlVuQ2pKX0VmcU1RTGlkSnBXNWtZUkVtNWxSaWhuNkRocmVMaXZxdXlPZE1ROTlnYzlmd1pQeGFhSmlnQ2c3bWtXeVIzX0tqXzRwSzBnRXdXQTV2eGxDRWJHZWZCLWZnUlNEM21lN2tXMnlTUnJiVXFNWkp6bUc4bjZRX0JmMmxZRHFN?oc=5",
+      "lead_source": "Universe Space Tech",
       "canonical_entities": [
         "solar"
       ],
@@ -554,13 +624,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T10:26:46+00:00",
-      "latest_seen": "2026-04-28T10:26:46+00:00",
-      "age_hours": 1.64,
-      "score": 62.51,
+      "earliest_seen": "2026-04-28T14:03:03+00:00",
+      "latest_seen": "2026-04-28T14:03:03+00:00",
+      "age_hours": 2.48,
+      "score": 62.01,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.01,
+        "recency_points": 23.51,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -569,12 +639,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "bc2ebf07ae573e69",
-          "title": "VMO2 taps Suffolk solar farm for 10 years of clean energy",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTEdvbExvU2pDdUFJYVlhWGpxb3BudTY0eFFKMG5mQ2lGVW5mSE1EeWxGcHhoMVBwUm5PVURrbS1ZSTBLTGs5RkZYS05EaTh6SUVjajQxN242TlMzaFhPS0t5eEIxcGJCb3RZem5pdlFWMXEzSUtXQ2V6VkpiTUk4bE5hdFIwa0U?oc=5",
-          "source": "Total Telecom",
+          "headline_id": "06a8ed13b7289840",
+          "title": "Solar power from orbit: Meta signs agreement to power AI data centers",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2xCSHZ1Z29sSWpGc290UVRxWHA5LUJRYlVuQ2pKX0VmcU1RTGlkSnBXNWtZUkVtNWxSaWhuNkRocmVMaXZxdXlPZE1ROTlnYzlmd1pQeGFhSmlnQ2c3bWtXeVIzX0tqXzRwSzBnRXdXQTV2eGxDRWJHZWZCLWZnUlNEM21lN2tXMnlTUnJiVXFNWkp6bUc4bjZRX0JmMmxZRHFN?oc=5",
+          "source": "Universe Space Tech",
           "source_type": "rss",
-          "published_at": "2026-04-28T10:26:46+00:00",
+          "published_at": "2026-04-28T14:03:03+00:00",
           "confidence": 0.65
         }
       ],
@@ -582,11 +652,257 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_d090455df4c115",
+      "cluster_id": "c_bf4a64cc63d3df",
       "topic": "renewables",
-      "lead_title": "Blue Elephant concludes financing for 268MWp solar park in Bavaria",
-      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlloLXdqcWtQWGQyeE9sZmhCUVN2ZjZReTQtdVExYV9OS2treXlQSV8xU0MzTnlJLTlHcVg4V1pVQmNkdHFFYUVyY3pvZk95LWxNWEZDM3EwYjN5dVNYWTJKZEkyQk1BczNZZEtFTWhuMzRUbUh5ZEJyNG93NTVLeTNGQkRVcmZNdzc3dE1NbzU?oc=5",
-      "lead_source": "Energy Monitor",
+      "lead_title": "Earnings Preview: Enlight Renewable Energy Ltd. (ENLT) Q1 Earnings Expected to Decline",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdVlBT0VobXN1TkE4NGlmRDEydXlTalRxVHllcl83TzlkSWVBSTVLejdXNG9DQzNLS3JUUHBKRFZaWFpJV0trMVMwMU9XakxfdGJWdDNveUNCR0VsMDFYOXpPeHJMclFzYWotN2JuZFZqMEhJX2RoY09SZ0FzUGp2bUQwd2FuQmNsdEN2akw1OHhVakdkcldSZ25fRDZ0TTIxVzR2eVIzV0doZw?oc=5",
+      "lead_source": "Yahoo Finance",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T14:00:22+00:00",
+      "latest_seen": "2026-04-28T14:00:22+00:00",
+      "age_hours": 2.52,
+      "score": 61.99,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.49,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6ccfaae5e755865c",
+          "title": "Earnings Preview: Enlight Renewable Energy Ltd. (ENLT) Q1 Earnings Expected to Decline",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdVlBT0VobXN1TkE4NGlmRDEydXlTalRxVHllcl83TzlkSWVBSTVLejdXNG9DQzNLS3JUUHBKRFZaWFpJV0trMVMwMU9XakxfdGJWdDNveUNCR0VsMDFYOXpPeHJMclFzYWotN2JuZFZqMEhJX2RoY09SZ0FzUGp2bUQwd2FuQmNsdEN2akw1OHhVakdkcldSZ25fRDZ0TTIxVzR2eVIzV0doZw?oc=5",
+          "source": "Yahoo Finance",
+          "source_type": "rss",
+          "published_at": "2026-04-28T14:00:22+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_1a91f9aa5574f7",
+      "topic": "renewables",
+      "lead_title": "Enlight Renewable Energy Ltd. (NASDAQ:ENLT) Short Interest Update",
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWxCYnFtcnZJcVZhZElpZHVVYVd3ZmZ2WElmMzEyV1dyV2ZZeTBOYnlMUXhBLTZwZk13XzdXWmhyVmpPb2lUa0RZNENQa3FEYmhtdFZrT05MSjk1T1BCNUJjY2h2bHlqWTdjZTNlb3pGeDVodlAzTkdzcHE3dVo3cktuaFh6bDBJemxLTHViSS1hVWpKMGpwOVlyRVZWTXZVYnZIckR4dXpIdEoxSHQtbkpwMjlWZw?oc=5",
+      "lead_source": "MarketBeat",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T13:55:47+00:00",
+      "latest_seen": "2026-04-28T13:55:47+00:00",
+      "age_hours": 2.6,
+      "score": 61.94,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.44,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "3324fa235300faf6",
+          "title": "Enlight Renewable Energy Ltd. (NASDAQ:ENLT) Short Interest Update",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWxCYnFtcnZJcVZhZElpZHVVYVd3ZmZ2WElmMzEyV1dyV2ZZeTBOYnlMUXhBLTZwZk13XzdXWmhyVmpPb2lUa0RZNENQa3FEYmhtdFZrT05MSjk1T1BCNUJjY2h2bHlqWTdjZTNlb3pGeDVodlAzTkdzcHE3dVo3cktuaFh6bDBJemxLTHViSS1hVWpKMGpwOVlyRVZWTXZVYnZIckR4dXpIdEoxSHQtbkpwMjlWZw?oc=5",
+          "source": "MarketBeat",
+          "source_type": "rss",
+          "published_at": "2026-04-28T13:55:47+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_12cc5da8ef1c71",
+      "topic": "renewables",
+      "lead_title": "PepsiCo leads renewable energy pact with suppliers in Spain",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRUZlUlhSYjdiNE1Hb2c0cEF0Ykx2RFBBQ2JKVU9rRE4zQmNabThoX19FRU5wa3R3R2RfQjJvTWlDZzJ2dUFsdXV4VTdxbVYtMG00cDVIOC1EVzhGXzJnVUNMc05hU291YVI2MmtYeFU3cTFZMFpkVHVhOXg3SXJ5YmdJQjdvNW9DaWZZQ0xiQ3NwSC1IVnFEV2xUNlE0WHY2eFpwXzhSZ2FRam1leGE4NmxIZ3pwRW8?oc=5",
+      "lead_source": "Investing.com",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T13:16:37+00:00",
+      "latest_seen": "2026-04-28T13:16:37+00:00",
+      "age_hours": 3.25,
+      "score": 61.55,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.05,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e0755cb4ea8d1bdf",
+          "title": "PepsiCo leads renewable energy pact with suppliers in Spain",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRUZlUlhSYjdiNE1Hb2c0cEF0Ykx2RFBBQ2JKVU9rRE4zQmNabThoX19FRU5wa3R3R2RfQjJvTWlDZzJ2dUFsdXV4VTdxbVYtMG00cDVIOC1EVzhGXzJnVUNMc05hU291YVI2MmtYeFU3cTFZMFpkVHVhOXg3SXJ5YmdJQjdvNW9DaWZZQ0xiQ3NwSC1IVnFEV2xUNlE0WHY2eFpwXzhSZ2FRam1leGE4NmxIZ3pwRW8?oc=5",
+          "source": "Investing.com",
+          "source_type": "rss",
+          "published_at": "2026-04-28T13:16:37+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e0885435f5c7ee",
+      "topic": "renewables",
+      "lead_title": "Panama's renewable energy tender: Which companies hold the main contracts?",
+      "lead_url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcFpHUy1YTWI0YWk4b3FhQVJPMXk1ZEF6NHhiZFpMUk5YTEVKU2x0WnlHMkQwSDk4RWpqbVFHX0lDcVE1aUtzd1YtOFgyUDBCMnJVdXU0aVZFQzlNZ1paTDRDQWh3YTktQmg1b2JoVTdMWkd3MVZxRDRLVEZTMTZFNDJBVzRZV3ppY09id0ctb09CN3lWZGN3QzhxeFloc0Z2TjlMaUJMNU90cnYxRG1wMlNVNmVJNzRwOXV4QmpBdnVQZE8zcFhIalY2OWtQOEVQSFFvbGtjaV95NEc4WW84TW42dUJNM19qeWNCOUFB?oc=5",
+      "lead_source": "Energía Estratégica",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T13:10:45+00:00",
+      "latest_seen": "2026-04-28T13:10:45+00:00",
+      "age_hours": 3.35,
+      "score": 61.49,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.99,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "837ed643abe2309a",
+          "title": "Panama's renewable energy tender: Which companies hold the main contracts?",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNcFpHUy1YTWI0YWk4b3FhQVJPMXk1ZEF6NHhiZFpMUk5YTEVKU2x0WnlHMkQwSDk4RWpqbVFHX0lDcVE1aUtzd1YtOFgyUDBCMnJVdXU0aVZFQzlNZ1paTDRDQWh3YTktQmg1b2JoVTdMWkd3MVZxRDRLVEZTMTZFNDJBVzRZV3ppY09id0ctb09CN3lWZGN3QzhxeFloc0Z2TjlMaUJMNU90cnYxRG1wMlNVNmVJNzRwOXV4QmpBdnVQZE8zcFhIalY2OWtQOEVQSFFvbGtjaV95NEc4WW84TW42dUJNM19qeWNCOUFB?oc=5",
+          "source": "Energía Estratégica",
+          "source_type": "rss",
+          "published_at": "2026-04-28T13:10:45+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3603c859049f9e",
+      "topic": "renewables",
+      "lead_title": "EBB calls for EU Renewable Energy Directive that prioritises…",
+      "lead_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQaHBRZlZ5R1dxR1l5RExRTmlXclUzLXdBbVJfVnJTNXJsYl9BMHZrbWFzNkpUV2FkVGotM0hFb2FlZHFZclFqaEFUVVpyaF9KcjA2Q2htbERXaEtrb2hibFAzR29ZLWtfTUxaOWo1cnZsNE1LRXhiTDVvaWRreFFtR2NNdHY2X05xNEtmSkJtYTNESk1sNU9xTlBFUDJSU3BSVXFteGJ5WGh6SnhBdk1xc3RlTXVDUHJQTF9YTDNBMmg2aElOSFNhUjV6b0U1SzBFS3pWMFgxN2xxc3BxZkZvT0lPMUg4U1hEYlB3SDFiV2oza1BXR3ViYmNBRWp5aDl3Yy1fSFYycFItRWNNMzA4?oc=5",
+      "lead_source": "Oils & Fats International",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T13:06:25+00:00",
+      "latest_seen": "2026-04-28T13:06:25+00:00",
+      "age_hours": 3.42,
+      "score": 61.45,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.95,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "ae290c93d7010d96",
+          "title": "EBB calls for EU Renewable Energy Directive that prioritises…",
+          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQaHBRZlZ5R1dxR1l5RExRTmlXclUzLXdBbVJfVnJTNXJsYl9BMHZrbWFzNkpUV2FkVGotM0hFb2FlZHFZclFqaEFUVVpyaF9KcjA2Q2htbERXaEtrb2hibFAzR29ZLWtfTUxaOWo1cnZsNE1LRXhiTDVvaWRreFFtR2NNdHY2X05xNEtmSkJtYTNESk1sNU9xTlBFUDJSU3BSVXFteGJ5WGh6SnhBdk1xc3RlTXVDUHJQTF9YTDNBMmg2aElOSFNhUjV6b0U1SzBFS3pWMFgxN2xxc3BxZkZvT0lPMUg4U1hEYlB3SDFiV2oza1BXR3ViYmNBRWp5aDl3Yy1fSFYycFItRWNNMzA4?oc=5",
+          "source": "Oils & Fats International",
+          "source_type": "rss",
+          "published_at": "2026-04-28T13:06:25+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_98ac41feb4ffdf",
+      "topic": "renewables",
+      "lead_title": "Large-scale renewable energy project under consideration near Wichita",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMkVKMVNNbkNsMDVKNFZQTktxSkdvTzB1dVNpbC1ZT3VjdFdUaHlHQm5Jb2ZTcEo1ZzBDTVBFVC1KVHhEUFNiMW5ONjl0cWQ4V3lWb2ZnbkZud19lelBkRVhKMVh1MHQ5VlFNUEt0UFFDXzFNMnBSS2dfSmtjMi13NTdWZGRaYnppV3FxT0Q4QkUzUHEyaHZWa0tvdVJlQzRLRXlfUQ?oc=5",
+      "lead_source": "KWCH",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T13:06:00+00:00",
+      "latest_seen": "2026-04-28T13:06:00+00:00",
+      "age_hours": 3.43,
+      "score": 61.44,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.94,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "844c2ae5f62d30c8",
+          "title": "Large-scale renewable energy project under consideration near Wichita",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMkVKMVNNbkNsMDVKNFZQTktxSkdvTzB1dVNpbC1ZT3VjdFdUaHlHQm5Jb2ZTcEo1ZzBDTVBFVC1KVHhEUFNiMW5ONjl0cWQ4V3lWb2ZnbkZud19lelBkRVhKMVh1MHQ5VlFNUEt0UFFDXzFNMnBSS2dfSmtjMi13NTdWZGRaYnppV3FxT0Q4QkUzUHEyaHZWa0tvdVJlQzRLRXlfUQ?oc=5",
+          "source": "KWCH",
+          "source_type": "rss",
+          "published_at": "2026-04-28T13:06:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f8f0c899f4cc36",
+      "topic": "renewables",
+      "lead_title": "Regalo Press acquires new solar industry business memoir",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT1doVUc3SVBfVlpDNDNiUWNsUVpFYjM4djZqYWZmZjF3N051TDNmYVMyUVBiOUlGSVBicFl1U1JsbVlZT0dyVFhFUjBjWWVFYlNDRTRzSTlVSC1ra1p5VnBqQ0luYVAzYWVPSTE3elNEU0IzenhsQkxUNkpPVzl6YW5QRFJUaUN5bkY5T0RxUFAwTE5YZWpN?oc=5",
+      "lead_source": "Solar Builder",
       "canonical_entities": [
         "solar"
       ],
@@ -595,13 +911,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T10:11:52+00:00",
-      "latest_seen": "2026-04-28T10:11:52+00:00",
-      "age_hours": 1.89,
-      "score": 62.37,
+      "earliest_seen": "2026-04-28T13:01:29+00:00",
+      "latest_seen": "2026-04-28T13:01:29+00:00",
+      "age_hours": 3.51,
+      "score": 61.4,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.87,
+        "recency_points": 22.9,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -610,12 +926,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "3d898177de7f3e2e",
-          "title": "Blue Elephant concludes financing for 268MWp solar park in Bavaria",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTlloLXdqcWtQWGQyeE9sZmhCUVN2ZjZReTQtdVExYV9OS2treXlQSV8xU0MzTnlJLTlHcVg4V1pVQmNkdHFFYUVyY3pvZk95LWxNWEZDM3EwYjN5dVNYWTJKZEkyQk1BczNZZEtFTWhuMzRUbUh5ZEJyNG93NTVLeTNGQkRVcmZNdzc3dE1NbzU?oc=5",
-          "source": "Energy Monitor",
+          "headline_id": "cf5009e083aabcf9",
+          "title": "Regalo Press acquires new solar industry business memoir",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQT1doVUc3SVBfVlpDNDNiUWNsUVpFYjM4djZqYWZmZjF3N051TDNmYVMyUVBiOUlGSVBicFl1U1JsbVlZT0dyVFhFUjBjWWVFYlNDRTRzSTlVSC1ra1p5VnBqQ0luYVAzYWVPSTE3elNEU0IzenhsQkxUNkpPVzl6YW5QRFJUaUN5bkY5T0RxUFAwTE5YZWpN?oc=5",
+          "source": "Solar Builder",
           "source_type": "rss",
-          "published_at": "2026-04-28T10:11:52+00:00",
+          "published_at": "2026-04-28T13:01:29+00:00",
           "confidence": 0.65
         }
       ],
@@ -623,26 +939,26 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_eb30930a961ddf",
+      "cluster_id": "c_60b0ccb7e99692",
       "topic": "renewables",
-      "lead_title": "Max Estates Begins Solar Power Integration at Max Square to Drive Sustainable Growth",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2tEMHM4RjhIb2QxRXpTdFRWcUlDOXNBV2tiU2VOZl92Q2l3aWNIVVlzYmlBajdIMTdYcXhXR1lJcjJtcm9zbXEzNG5wTC1ITUlOWXctQ2JvQ0hnX29uLU5uNk00cWF3V3Rfa1NweGRMQ1R6MWl2R09JczVnTzhkajkxRW1IX1R4N0Q0ZDQ2a2FUTzZJUHVnQlllMDZjdXR5azNqa291OHkxajVGTVdBNWVFdXBUd19aejZqUy1IRQ?oc=5",
-      "lead_source": "Energetica India Magazine",
+      "lead_title": "PepsiCo, Givaudan, Smurfit Westrock and Statkraft Sign 10‑Year Renewable Energy Agreement to Advance Value Chain Decarbonization Across Europe",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObWROYVNtWUNnMVFMZk5XYnFYLTgyUkhUX1RjYmpXMXpGdzN1Y3F3TGp0aFA5WVViM0hwRWF1WHd5TkRiZ2F4VDhsbk1pUEdNbU83bWNqUWFWY2FtYkFHTmFtajZTVDh4b2RBbDdQQkJzRWxWT0RBUEVrUVczeU8xNFZOZUsxTU5zazBSTU55Vjg4d3RMM2ZQcHVkQ29GaFByeGxJdEh3VlpLaURYY3ZXSFFzcWhEcExIY2ZxUDBUSGlkWFppZFJCWmlqRnNMd3pLQXJiNmNsY3pQYWJsR19ZdEk3UHk3aG5RM1dZWEZPUTE1UXF3eUprX3NHbmJlRklCMnJXcnBmTFFzWjlIU21lWUN0dzFTeFJxWVFNTHpzcnY?oc=5",
+      "lead_source": "PR Newswire",
       "canonical_entities": [
-        "solar"
+        "renewable"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T10:07:59+00:00",
-      "latest_seen": "2026-04-28T10:07:59+00:00",
-      "age_hours": 1.95,
-      "score": 62.33,
+      "earliest_seen": "2026-04-28T13:00:00+00:00",
+      "latest_seen": "2026-04-28T13:00:00+00:00",
+      "age_hours": 3.53,
+      "score": 61.38,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.83,
+        "recency_points": 22.88,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -651,12 +967,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "dd0d041454c951b7",
-          "title": "Max Estates Begins Solar Power Integration at Max Square to Drive Sustainable Growth",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT2tEMHM4RjhIb2QxRXpTdFRWcUlDOXNBV2tiU2VOZl92Q2l3aWNIVVlzYmlBajdIMTdYcXhXR1lJcjJtcm9zbXEzNG5wTC1ITUlOWXctQ2JvQ0hnX29uLU5uNk00cWF3V3Rfa1NweGRMQ1R6MWl2R09JczVnTzhkajkxRW1IX1R4N0Q0ZDQ2a2FUTzZJUHVnQlllMDZjdXR5azNqa291OHkxajVGTVdBNWVFdXBUd19aejZqUy1IRQ?oc=5",
-          "source": "Energetica India Magazine",
+          "headline_id": "0e0944cc60925a7c",
+          "title": "PepsiCo, Givaudan, Smurfit Westrock and Statkraft Sign 10‑Year Renewable Energy Agreement to Advance Value Chain Decarbonization Across Europe",
+          "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObWROYVNtWUNnMVFMZk5XYnFYLTgyUkhUX1RjYmpXMXpGdzN1Y3F3TGp0aFA5WVViM0hwRWF1WHd5TkRiZ2F4VDhsbk1pUEdNbU83bWNqUWFWY2FtYkFHTmFtajZTVDh4b2RBbDdQQkJzRWxWT0RBUEVrUVczeU8xNFZOZUsxTU5zazBSTU55Vjg4d3RMM2ZQcHVkQ29GaFByeGxJdEh3VlpLaURYY3ZXSFFzcWhEcExIY2ZxUDBUSGlkWFppZFJCWmlqRnNMd3pLQXJiNmNsY3pQYWJsR19ZdEk3UHk3aG5RM1dZWEZPUTE1UXF3eUprX3NHbmJlRklCMnJXcnBmTFFzWjlIU21lWUN0dzFTeFJxWVFNTHpzcnY?oc=5",
+          "source": "PR Newswire",
           "source_type": "rss",
-          "published_at": "2026-04-28T10:07:59+00:00",
+          "published_at": "2026-04-28T13:00:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -677,13 +993,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T08:27:43+00:00",
-      "latest_seen": "2026-04-28T08:27:43+00:00",
-      "age_hours": 3.63,
-      "score": 61.82,
+      "earliest_seen": "2026-04-28T09:52:59+00:00",
+      "latest_seen": "2026-04-28T09:52:59+00:00",
+      "age_hours": 6.65,
+      "score": 60.01,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.82,
+        "recency_points": 21.01,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -697,7 +1013,7 @@
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN2xzbGR5TnJIYllzMGcyOVFPQUtHZnU2MUdyUlFIaWhRT21udmZrNkg3cWQ5R1lSTjZ3SlhYbVhRQ3Qtd2c4czBlUzZucl9WcnhMR2pseVlNeTJRQVFpc0lTcW41dHVZbS1ZTzZiaU53QzhDdFhKdXFyQ1d2S0c3b0RULWpaR2U4NFpDSnpOM29hR2xEVjI2U0ZrcTRIbjBISUFEeGJ2WEI4SGViTUJiSnhyeEFLdWY1N3kw?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-28T08:27:43+00:00",
+          "published_at": "2026-04-28T09:52:59+00:00",
           "confidence": 1.0
         }
       ],
@@ -720,11 +1036,11 @@
       ],
       "earliest_seen": "2026-04-28T05:15:00+00:00",
       "latest_seen": "2026-04-28T05:15:00+00:00",
-      "age_hours": 6.84,
-      "score": 59.9,
+      "age_hours": 11.28,
+      "score": 57.23,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.9,
+        "recency_points": 18.23,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -746,346 +1062,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_3cec95d76e9fdf",
-      "topic": "renewables",
-      "lead_title": "Empower New Energy Begins Construction of Solar and Battery Project for Neo Industry’s Cocoa Processing Facility in Cameroon",
-      "lead_url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWFFMTnE4MmxuNHE3Yl9QbERCSWtnRUhPOVY0WnJpWnVRdEZTdUVLVzNPckJzQjcwTUU0ckd1VjFvNzZrYkxLWExvajdyMllKNjUxeHlfVF9yY3FvSTgtQlVUMGVoMzJqV3gwMzRvT2xzcy1IdFFvVkl2WlBLeGltMVFmUkZHZnVUTnlDbzE5ZWZpam82VXpGQTZhWk40QnhJaHg4dWc4R1VOdTRRcVYtRzk0akZja1llaGJtTUtFSzBJRkRoZHdxTDZweFBOTFBuWkg1TXIwbTRBZWJJTnBWc01uZndyVEFYbHEwNkpZVDJOUQ?oc=5",
-      "lead_source": "SolarQuarter",
-      "canonical_entities": [
-        "battery",
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T09:49:22+00:00",
-      "latest_seen": "2026-04-28T09:49:22+00:00",
-      "age_hours": 2.27,
-      "score": 57.64,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.64,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "1ee97ae0f1940e6c",
-          "title": "Empower New Energy Begins Construction of Solar and Battery Project for Neo Industry’s Cocoa Processing Facility in Cameroon",
-          "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNWFFMTnE4MmxuNHE3Yl9QbERCSWtnRUhPOVY0WnJpWnVRdEZTdUVLVzNPckJzQjcwTUU0ckd1VjFvNzZrYkxLWExvajdyMllKNjUxeHlfVF9yY3FvSTgtQlVUMGVoMzJqV3gwMzRvT2xzcy1IdFFvVkl2WlBLeGltMVFmUkZHZnVUTnlDbzE5ZWZpam82VXpGQTZhWk40QnhJaHg4dWc4R1VOdTRRcVYtRzk0akZja1llaGJtTUtFSzBJRkRoZHdxTDZweFBOTFBuWkg1TXIwbTRBZWJJTnBWc01uZndyVEFYbHEwNkpZVDJOUQ?oc=5",
-          "source": "SolarQuarter",
-          "source_type": "rss",
-          "published_at": "2026-04-28T09:49:22+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_4e6fff3f03f7d5",
-      "topic": "renewables",
-      "lead_title": "Chinese EV battery maker CATL rides green energy wave to raise $5 billion in Hong Kong",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZV9SRlZsT1JCMC1HM0FWUFRQcWlxMzBlUE8wc0JqdHhXaS1Ndl90VnZKSHluQ28zQ21MaWFtZl9MN3JWS0tMaWpGbFROMnpXdkl0LUFLejlfZXMwa0NPMDExZ3gzS0c5SkpXbkdOcThhLUlZdjhHUGNLMWZUTXJiVmNmVXNKenFGQTc4S1VnM2J5aVVIYkkzZTlnOFNUMUxGSGltbi14S2dJTjZpOC1iajdrZ01FR1Q0Nlcxa2V2dw?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "battery"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T01:09:00+00:00",
-      "latest_seen": "2026-04-28T01:09:00+00:00",
-      "age_hours": 10.94,
-      "score": 57.44,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.44,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "813eacd542a3369a",
-          "title": "Chinese EV battery maker CATL rides green energy wave to raise $5 billion in Hong Kong",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZV9SRlZsT1JCMC1HM0FWUFRQcWlxMzBlUE8wc0JqdHhXaS1Ndl90VnZKSHluQ28zQ21MaWFtZl9MN3JWS0tMaWpGbFROMnpXdkl0LUFLejlfZXMwa0NPMDExZ3gzS0c5SkpXbkdOcThhLUlZdjhHUGNLMWZUTXJiVmNmVXNKenFGQTc4S1VnM2J5aVVIYkkzZTlnOFNUMUxGSGltbi14S2dJTjZpOC1iajdrZ01FR1Q0Nlcxa2V2dw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-28T01:09:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_cd712cfa09d8f6",
-      "topic": "renewables",
-      "lead_title": "Wind capacity in the USA set to grow alongside rapid renewable expansion",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU1VtS24ya3ZKSVJIVW9SSWVvb1otNnprVW5jc21raWdPWDM5QV93YVFFTWthNmJQTVF2MHhDYWpMd1RnRmRlRDE3T3BFT0ZoMmR4Vk5pRll3aW9ndWNQQWZFY3l0MC1QSXRCY1RrejVJY2dkY042OU1VT21iZVBpSVFiQzBfX1lfdFhHNnVta012TWtiaVIxZ1NzOHFRQVNfRzlvaFhPLWdfWHlBYjhoWXFscVcydl9fZjBPRDhXVnlzOEk?oc=5",
-      "lead_source": "Windtech International",
-      "canonical_entities": [
-        "renewable",
-        "wind"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T06:20:23+00:00",
-      "latest_seen": "2026-04-28T06:20:23+00:00",
-      "age_hours": 5.75,
-      "score": 55.55,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.55,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "b7b7fb044c8c2b7a",
-          "title": "Wind capacity in the USA set to grow alongside rapid renewable expansion",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU1VtS24ya3ZKSVJIVW9SSWVvb1otNnprVW5jc21raWdPWDM5QV93YVFFTWthNmJQTVF2MHhDYWpMd1RnRmRlRDE3T3BFT0ZoMmR4Vk5pRll3aW9ndWNQQWZFY3l0MC1QSXRCY1RrejVJY2dkY042OU1VT21iZVBpSVFiQzBfX1lfdFhHNnVta012TWtiaVIxZ1NzOHFRQVNfRzlvaFhPLWdfWHlBYjhoWXFscVcydl9fZjBPRDhXVnlzOEk?oc=5",
-          "source": "Windtech International",
-          "source_type": "rss",
-          "published_at": "2026-04-28T06:20:23+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d3cf6ccf584ac4",
-      "topic": "renewables",
-      "lead_title": "Renewable energy just broke a 100-year-old streak",
-      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONEsyV0pkNDJ4UE9sU2ktUkFHbk5GWmNvS2JDOTNLYWVXQUtEc0FvVWRCZmZUZU9nTlNOVDRxUkI5WkpDa1VoWFY3RzBlVmd3bmNtcHpJRFdrOEtqSjNISE81Ujh5a3kyN3BxSFdfeWJGODA3UnBTUWFHXzB3ZTYzRmkwQ3ZoZE1sRGc?oc=5",
-      "lead_source": "vox.com",
-      "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T10:00:00+00:00",
-      "latest_seen": "2026-04-28T10:00:00+00:00",
-      "age_hours": 2.09,
-      "score": 52.25,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.75,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "aa4710688783d668",
-          "title": "Renewable energy just broke a 100-year-old streak",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONEsyV0pkNDJ4UE9sU2ktUkFHbk5GWmNvS2JDOTNLYWVXQUtEc0FvVWRCZmZUZU9nTlNOVDRxUkI5WkpDa1VoWFY3RzBlVmd3bmNtcHpJRFdrOEtqSjNISE81Ujh5a3kyN3BxSFdfeWJGODA3UnBTUWFHXzB3ZTYzRmkwQ3ZoZE1sRGc?oc=5",
-          "source": "vox.com",
-          "source_type": "rss",
-          "published_at": "2026-04-28T10:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_750c45184e4797",
-      "topic": "renewables",
-      "lead_title": "New dawn for solar power at historic hydro site",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZkh0Q1hVbm1NdmdFd0RmTVVuR1BHNTNKOEN1MWYxcDgtNzJDSUdOM2F3UldyekxZZGVDVGx4QWh2ZnNTOENEaUpwMl9OeDc3TWlZSzNGY3RqM2ZGdWNKbGJPb1BYa2FWeDJUeWlNanl6TXZCUENFYnViTnlvSEN4MnEzaktYaW9sQk9v?oc=5",
-      "lead_source": "Drax Global",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T09:59:50+00:00",
-      "latest_seen": "2026-04-28T09:59:50+00:00",
-      "age_hours": 2.09,
-      "score": 52.25,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.75,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "14cd06e989fe6887",
-          "title": "New dawn for solar power at historic hydro site",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZkh0Q1hVbm1NdmdFd0RmTVVuR1BHNTNKOEN1MWYxcDgtNzJDSUdOM2F3UldyekxZZGVDVGx4QWh2ZnNTOENEaUpwMl9OeDc3TWlZSzNGY3RqM2ZGdWNKbGJPb1BYa2FWeDJUeWlNanl6TXZCUENFYnViTnlvSEN4MnEzaktYaW9sQk9v?oc=5",
-          "source": "Drax Global",
-          "source_type": "rss",
-          "published_at": "2026-04-28T09:59:50+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_34c52e2238805c",
-      "topic": "renewables",
-      "lead_title": "TÜV SÜD opens new hydrogen testing laboratory in Garching",
-      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW5zUTlCTjJJSGRDYjRXMEFZLXRnZXNwR2xhY0Y4MjJ6R0xnU3VEU2NBcURyM1l1eXlvcTNsWEVOZEQzejNmc01sSnlGT19ZYnNwWFZCOERMcG9ZSU5WMFVwWHZWMmJHOFNvV1ZNUjhFdnBiOTlXOTlsQUxxRU83RFNhQktPX0kxM3hHMg?oc=5",
-      "lead_source": "renewableenergymagazine.com",
-      "canonical_entities": [
-        "hydrogen"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T09:57:49+00:00",
-      "latest_seen": "2026-04-28T09:57:49+00:00",
-      "age_hours": 2.12,
-      "score": 52.23,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.73,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "42270be477b0ce11",
-          "title": "TÜV SÜD opens new hydrogen testing laboratory in Garching",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObW5zUTlCTjJJSGRDYjRXMEFZLXRnZXNwR2xhY0Y4MjJ6R0xnU3VEU2NBcURyM1l1eXlvcTNsWEVOZEQzejNmc01sSnlGT19ZYnNwWFZCOERMcG9ZSU5WMFVwWHZWMmJHOFNvV1ZNUjhFdnBiOTlXOTlsQUxxRU83RFNhQktPX0kxM3hHMg?oc=5",
-          "source": "renewableenergymagazine.com",
-          "source_type": "rss",
-          "published_at": "2026-04-28T09:57:49+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7d073704747a61",
-      "topic": "renewables",
-      "lead_title": "Toyota Tsusho Commissions 100 MW Solar Projects In Tunisia To Boost Clean Energy Transition",
-      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN2luTDVzeXhhVUhvdV9yRzdYVGowSFM4Nm4tVFNWbzNmVlJlZXQtYUZhMUJZekZPRFE3bF9MSmxXUTRjRGVjbUFJdm5ZTXNqd3EwT21lYmUzSndjaUFHRWIwZkxDR1I0SkhkMGFnaEhsMkh3YzNZckVDUHdRNDgzeHdTWlNMS2R0UUxhNnhzR2xOUzJrZTZndHUzRFZ6bDEtdkhTLUEwYkNNUVZnWmRXRmlORWRDWUQ4N0laT3MtaEhxZmtfZk9R?oc=5",
-      "lead_source": "SolarQuarter",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T09:42:18+00:00",
-      "latest_seen": "2026-04-28T09:42:18+00:00",
-      "age_hours": 2.38,
-      "score": 52.07,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.57,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "04178d66967a66e8",
-          "title": "Toyota Tsusho Commissions 100 MW Solar Projects In Tunisia To Boost Clean Energy Transition",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN2luTDVzeXhhVUhvdV9yRzdYVGowSFM4Nm4tVFNWbzNmVlJlZXQtYUZhMUJZekZPRFE3bF9MSmxXUTRjRGVjbUFJdm5ZTXNqd3EwT21lYmUzSndjaUFHRWIwZkxDR1I0SkhkMGFnaEhsMkh3YzNZckVDUHdRNDgzeHdTWlNMS2R0UUxhNnhzR2xOUzJrZTZndHUzRFZ6bDEtdkhTLUEwYkNNUVZnWmRXRmlORWRDWUQ4N0laT3MtaEhxZmtfZk9R?oc=5",
-          "source": "SolarQuarter",
-          "source_type": "rss",
-          "published_at": "2026-04-28T09:42:18+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5c06e4fc69d927",
-      "topic": "renewables",
-      "lead_title": "Researchers Survey the Challenges of Integrating Wind and Solar Into Power Grids | Newswise",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxSdEMybkJTZlF0elVwTnJpODhUejJyN0xZUzBibGJqT3FHeElNTGFIcHhtWm9hUE1zMHo1aDF0NGZfdkVfSUplbDEwUnZqT0dHQkRSNmhqWWVsMkVYbGxsVWFjcGNjeU9hTjY0SlE3RFdVMkFMRzdWQTB4eGg5Y3VhOVZ1Zm5COEVMWXZSOEg3QkpsQS1oc2lkdS0xdkhBcTQwdmVycGNMNGhTeHdEWGRGRmjSAbQBQVVfeXFMUHFMUnRDMm5CU2ZRdHpVcE5yaTg4VHoycjdMWVMwYmxiak9xR3hJTUxhSHB4bVpvYVBNczB6NWgxdDRmX3ZFX0lKZWwxMFJ2ak9HR0JEUjZoalllbDJFWGxsbFVhY3BjY3lPYU42NEpRN0RXVTJBTEc3VkEweHhoOWN1YTlWdWZuQjhFTFl2UjhIN0JKbEEtaHNpZHUtMXZIQXE0MHZlcnBjTDRoU3h3RFhkRkZo?oc=5",
-      "lead_source": "Newswise",
-      "canonical_entities": [
-        "solar",
-        "wind"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-27T20:50:00+00:00",
-      "latest_seen": "2026-04-27T23:05:00+00:00",
-      "age_hours": 13.0,
-      "score": 51.2,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 17.2,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "de552101e2a8745b",
-          "title": "Researchers Survey the Challenges of Integrating Wind and Solar Into Power Grids | Newswise",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcUxSdEMybkJTZlF0elVwTnJpODhUejJyN0xZUzBibGJqT3FHeElNTGFIcHhtWm9hUE1zMHo1aDF0NGZfdkVfSUplbDEwUnZqT0dHQkRSNmhqWWVsMkVYbGxsVWFjcGNjeU9hTjY0SlE3RFdVMkFMRzdWQTB4eGg5Y3VhOVZ1Zm5COEVMWXZSOEg3QkpsQS1oc2lkdS0xdkhBcTQwdmVycGNMNGhTeHdEWGRGRmjSAbQBQVVfeXFMUHFMUnRDMm5CU2ZRdHpVcE5yaTg4VHoycjdMWVMwYmxiak9xR3hJTUxhSHB4bVpvYVBNczB6NWgxdDRmX3ZFX0lKZWwxMFJ2ak9HR0JEUjZoalllbDJFWGxsbFVhY3BjY3lPYU42NEpRN0RXVTJBTEc3VkEweHhoOWN1YTlWdWZuQjhFTFl2UjhIN0JKbEEtaHNpZHUtMXZIQXE0MHZlcnBjTDRoU3h3RFhkRkZo?oc=5",
-          "source": "Newswise",
-          "source_type": "rss",
-          "published_at": "2026-04-27T23:05:00+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "67afee8bb1672be7",
-          "title": "EIA: 80 GW of new solar, wind + storage capacity coming in 2026",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNWTFEYlhJcFl0MTY5a01PTUtOdUhPWXJiU2plMHBiMEFuQTB2NlJ4Uk0tSWNHSC05eVpIQ244TEdUX3VHeVEtVm04UklHaUJ1Q0lnS3JPUXV3R3JfREZ0VFdUbjcwSW1vOU1ZakpEMHhxTHFCVE9iQS1TYXNzbTBJSmVDR2pub2FDQkVuQ0tibGlvSVRaSFE?oc=5",
-          "source": "Electrek",
-          "source_type": "rss",
-          "published_at": "2026-04-27T20:50:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_1c632390c9fed4",
       "topic": "renewables",
       "lead_title": "Renewables in vogue as Iran war drives up Europe power prices",
@@ -1101,11 +1077,11 @@
       ],
       "earliest_seen": "2026-04-27T20:18:51+00:00",
       "latest_seen": "2026-04-27T20:18:51+00:00",
-      "age_hours": 15.77,
-      "score": 49.54,
+      "age_hours": 20.22,
+      "score": 46.87,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.54,
+        "recency_points": 12.87,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -1127,48 +1103,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_a64c2ff5db0659",
-      "topic": "renewables",
-      "lead_title": "Learning a Better Way To Forecast Wind and Solar Energy Costs",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTHdkTVREYm1yWjFFS3psZTVzQVg5REN1ZWNWZFNXWjdqLVRjOWZpcVF1cTlhLUd3bERWS2kteHBRMXEwdHdpUUl0UUlJcXd3ZTdNS0dUZnI0b0tjMDB0RC1pUERDVUFWYThibk8zcll0V0YtNUNESmxtVHF0WFF2VTZWXzJobWtoQmc2THlWWjdDN3JBbUl1UzhXVVBzbE5f?oc=5",
-      "lead_source": "Department of Energy (.gov)",
-      "canonical_entities": [
-        "solar",
-        "wind"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-23T13:51:53+00:00",
-      "latest_seen": "2026-04-23T13:51:53+00:00",
-      "age_hours": 118.22,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "2c372affc9e2dfec",
-          "title": "Learning a Better Way To Forecast Wind and Solar Energy Costs",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTHdkTVREYm1yWjFFS3psZTVzQVg5REN1ZWNWZFNXWjdqLVRjOWZpcVF1cTlhLUd3bERWS2kteHBRMXEwdHdpUUl0UUlJcXd3ZTdNS0dUZnI0b0tjMDB0RC1pUERDVUFWYThibk8zcll0V0YtNUNESmxtVHF0WFF2VTZWXzJobWtoQmc2THlWWjdDN3JBbUl1UzhXVVBzbE5f?oc=5",
-          "source": "Department of Energy (.gov)",
-          "source_type": "rss",
-          "published_at": "2026-04-23T13:51:53+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_fb9a846f1d16c1",
       "topic": "renewables",
       "lead_title": "Renewable energy will boost national security and protect UK from sabotage, minister says",
@@ -1184,11 +1118,11 @@
       ],
       "earliest_seen": "2026-04-26T23:02:00+00:00",
       "latest_seen": "2026-04-26T23:02:00+00:00",
-      "age_hours": 37.05,
-      "score": 32.27,
+      "age_hours": 41.5,
+      "score": 29.6,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.77,
+        "recency_points": 0.1,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0

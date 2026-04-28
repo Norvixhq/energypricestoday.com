@@ -1,16 +1,101 @@
 {
-  "generated_at": "2026-04-28T12:05:16.300452+00:00",
+  "generated_at": "2026-04-28T16:31:47.363951+00:00",
   "sources": {
     "commodity_prices": {
       "changes": [],
-      "status_flip": null,
-      "current_status": "fresh"
+      "status_flip": "fresh -> failed",
+      "current_status": "failed"
     },
     "gas_prices_aaa": {
-      "changes": [],
-      "status_flip": null,
-      "current_status": "failed"
+      "changes": [
+        {
+          "grade": "regular",
+          "old": 4.044,
+          "new": 4.123,
+          "diff": 0.079
+        },
+        {
+          "grade": "mid",
+          "old": 4.655,
+          "new": 4.737,
+          "diff": 0.082
+        },
+        {
+          "grade": "premium",
+          "old": 5.024,
+          "new": 5.097,
+          "diff": 0.073
+        },
+        {
+          "grade": "diesel",
+          "old": 5.403,
+          "new": 5.351,
+          "diff": -0.052
+        }
+      ],
+      "status_flip": "failed -> fresh",
+      "current_status": "fresh"
     }
   },
-  "affected_pages": []
+  "affected_pages": [
+    {
+      "page": "index.html",
+      "label": "Homepage",
+      "triggered_by": [
+        "gas_prices_aaa",
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "oil-prices.html",
+      "label": "Oil Prices",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "markets.html",
+      "label": "Markets Dashboard",
+      "triggered_by": [
+        "gas_prices_aaa",
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/gas-prices.html",
+      "label": "Gas Prices",
+      "triggered_by": [
+        "gas_prices_aaa",
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/crude-oil.html",
+      "label": "Crude Oil",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/natural-gas.html",
+      "label": "Natural Gas",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "category/heating-oil.html",
+      "label": "Heating Oil",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    },
+    {
+      "page": "oil-futures.html",
+      "label": "Oil Futures",
+      "triggered_by": [
+        "commodity_prices"
+      ]
+    }
+  ]
 }
