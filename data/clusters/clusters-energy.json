@@ -1,12 +1,73 @@
 {
   "topic": "energy",
-  "generated_at": "2026-04-28T01:25:59.878533+00:00",
+  "generated_at": "2026-04-28T05:03:24.983963+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 24,
+  "clusters_found": 21,
   "clusters": [
+    {
+      "cluster_id": "c_b1d4ee983d664f",
+      "topic": "energy",
+      "lead_title": "Oil prices rise as US-Iran peace talks stall",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmUS1zX040Ukx2eU5qRlFTeFE3el9RaFowelY2bUdnVUhPYk1ZWURPdnBNdXQ1X2x0MDVnUjE1S19PMXNSdVZQaGRMTFVvd0pUS3ZjSFhLNEV5QQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "Brent",
+        "crude",
+        "oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-27T20:30:52+00:00",
+      "latest_seen": "2026-04-28T04:06:32+00:00",
+      "age_hours": 0.95,
+      "score": 84.93,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 24.43,
+        "source_quality_points": 23.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "dc9af52df201f6c5",
+          "title": "Oil prices rise as US-Iran peace talks stall",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmUS1zX040Ukx2eU5qRlFTeFE3el9RaFowelY2bUdnVUhPYk1ZWURPdnBNdXQ1X2x0MDVnUjE1S19PMXNSdVZQaGRMTFVvd0pUS3ZjSFhLNEV5QQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-04-27T20:30:52+00:00",
+          "confidence": 0.9
+        },
+        {
+          "headline_id": "7cfb4ef9a3d628f9",
+          "title": "Crude oil prices extend rise to 7th day; Brent near $110 as US-Iran peace talks stall. What's next?",
+          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQmJ1TnpsUDBtQVV1SlFlSGl2Qll3UWRYZzREc0V2ckh0ZHlBbUVXaHR0d0Z0QUotYTJESmxySjZGYWo5bUdSbzJNdXZIdE1LUFUwZXE2WGx4WllwM0NyeFViVGhsd0V0QUR3UjJHcmRwRDNwcHE0a1FMR29VSEZfTjlZVnZtUTYtZlVhbnhZY0dKbFdwMkhObktYRFpBaUhPa3RmYVNEdUQ5RUZWUXNoMXQtUDJnLUxuUDVZRVZQQkgzcEFsSTZVaE9uckE0VGhDWk5kUU1mUHYtR0k1S1pQRHdwVnMzZWsyODItNnpiUdIB9AFBVV95cUxPMWNVRlBmMFBZUGF3OGg4V1dNWm1SQ0NQRjgwcjJpTEJiN1dEVlFKYU9qUjBESzZNTDd6ZV9fSHFQMEtYLWRlQVNDVkdaczI4VmVwYWlaQUhOMlNsYmg3bi1ldHhLVTNQVjNveGp5dnhOdDFXS0RTRVNXR3hYeWxWNVdQcEFPeEo3Ui1Ebk9iZHFBc01vRmktVG1lMWpoZjRHdnJPS1RDQ1BBam5seVk5S3lBb1NidXpNSXpLc0ZXX2ZlTE10MF9YeVVaMWNSNkZoc1d5ZjMzcXgxQUN0SzQzUVlPdEMySGdjXzVySTFqVW9xNTVD?oc=5",
+          "source": "Mint",
+          "source_type": "rss",
+          "published_at": "2026-04-28T04:06:32+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "8c45d1e1843aa282",
+          "title": "Oil Price Today (April 28): Crude oil approaches $110 amid little signs of Iran war peace talks. Will pric",
+          "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNR1l3UjUxa0hwblVLUG91S25MU0ZRdzBRaC1mSWpQb0JhMHdaVjI4a0FnM2Vwdk5LUjN6bXlvREhSaktqcVdCeW1tbDBwbVV5RWZaT2pjbWs2bWdDeEJXdHpaWjNHTnc2bnVjSGx0bG5yU1dkLVNfMW81ZkUwVGxqLTV3cUc2UkZOOGJpS3lkdU94V3dMVHFXLWlNUEVyb0ZWRHRZSXpIUVo2Z3hteEZ6WnNmeGdreU54Y1l5NkVibWpPNmRtN25DNUxuWXF0TlQ3cFBZT0o3dUFVaUdLQTBqOFc5ZGM5c18xUGhySTJJUHpIWFdtNDRYTldHYUQzX3c5YzFkSTVtWTRVTzg5ZjlJTHgwa1F5Q0lTQ2t3S9IBogJBVV95cUxPLWNIakdwc3N2TUpkX0kxT2Joa0VPYzZjWUY0dndsa0R4OFk2bm1vMG1pc3B1TjVROE5nZ2dGa2lQbUhBdGlGcHRZU1lJTXRueFJIVjdmcE95OFpvRnp0UU1iaVBDbHNCQ19kSnpBRFJGc29jdnFZWElCdGxsQ1VPc3o3WXU5SWMyNjBJRkpkbEZVVXkyaHNta0xQOVd4dW51VVk3OHRPMGhDQ2NFNkRJWDFFX3RzWFM3djZ6SXFVYWRKZ2NiZTVmVW5lWjJ1YUNKeUJUVWxndWdiLXNPUGZIY2E0UjgtU1UwVTgyWWVpLUE4U0VJVU43bGVpNHZuV2VTcENIUGxQUG1yckFDekE0b1p1blZlU3JzMnZZVU1lc1VxZw?oc=5",
+          "source": "The Economic Times",
+          "source_type": "rss",
+          "published_at": "2026-04-28T02:04:39+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
     {
       "cluster_id": "c_d752a091548e2c",
       "topic": "energy",
@@ -17,24 +78,24 @@
         "energy",
         "oil"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-04-27T15:13:20+00:00",
-      "latest_seen": "2026-04-27T16:19:26+00:00",
-      "age_hours": 9.11,
-      "score": 73.03,
+      "latest_seen": "2026-04-27T21:57:58+00:00",
+      "age_hours": 7.09,
+      "score": 72.75,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 19.53,
-        "source_quality_points": 25.5,
+        "source_count_points": 15,
+        "recency_points": 20.75,
+        "source_quality_points": 24.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "38b7bf01c1b2c5ed",
@@ -44,6 +105,15 @@
           "source_type": "rss",
           "published_at": "2026-04-27T15:13:20+00:00",
           "confidence": 1.0
+        },
+        {
+          "headline_id": "968d718928bb15eb",
+          "title": "Andy Hoese: Oil, Uranium, Coal — Bullish on Energy as Crisis Builds",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAxSWJpY09hb0p4VnE2NUZLbUt6anB1Q3A2eXN3dW5STDNKaFB4VFpLVURLbmo4WVBWTVRXOTVlSW1fT2RpM3pCSFpGY0NTNV9HOVNWeFhGVnBVUU5NdllRQVBlelVJUE5SMWN0VA?oc=5",
+          "source": "Investing News Network",
+          "source_type": "rss",
+          "published_at": "2026-04-27T21:57:58+00:00",
+          "confidence": 0.7
         },
         {
           "headline_id": "8e244b5b05367dc7",
@@ -59,12 +129,13 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_130c2bcb9a04a1",
+      "cluster_id": "c_57d0b3fdcbd39f",
       "topic": "energy",
-      "lead_title": "Oil prices rise as US-Iran peace talks stall",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmUS1zX040Ukx2eU5qRlFTeFE3el9RaFowelY2bUdnVUhPYk1ZWURPdnBNdXQ1X2x0MDVnUjE1S19PMXNSdVZQaGRMTFVvd0pUS3ZjSFhLNEV5QQ?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "From Gift Nifty, crude oil prices, gold rates to dollar: 8 key things that changed for Indian stock market overnight",
+      "lead_url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZXRiRDRrN0EtU2tWblJyZVhjQmFLSnJWc21LU1kyc0gtcl9jbmZlTTI2Q0JGVERrQTFCMUNGMEhjR0J6eldaYXlUX1pXVlltWC00Sm1LUkYydkJBMGEtX00wSk9mMENxbHljWmFOWWVaMktnMk1oc3pZaDducGhhRUczX1cyQWpHSTNDemlvZGhqSjRLWGNrcjRmeFNzNEVhTEVqRlk3TFR4bzdqQ1dBdGREYUJRakJnNkdTNGM5Nlk3bkhIZElLLW11U1FiTDh1cWNxbmhKYkprSTZWczk4bUg0Sk9Nc2FHU1duTjcwdFd3alRLSDJKZDF3U3hhanFVcU5URTg3WVNORUp3LUlIONIBlgJBVV95cUxNWnZjMmJfcUs1RkdMczVJaGgzLUFsM29EQ3U0dGRKYWVoMkVVTDhYT2lOQTl1WXpxWmtKcVpmRWZVQ0RKV0c2dHZDaHJuTTlPNUdqWlNZS1REZmdGZW9SZ3h5dS1MdWlkOE5xOU9MRzAzTXpzclN4Z1J6RjhpU0I2T3NoQ2tGMmRzRXBRV3RPQ1NmTDhWTW9reVhjQ0h6clFHck5JeDlyLWdFbUhkNURoM0J5bk5zREtTeUlvcl9kOHZfRTI3WFdjd2M2OFppWmJWSmsyaUJDcXpkNGQ3UmFkQ1R3NjlfTVI3TWFhUjZlXzA5LWdwdHpVUzlxZ01ldHE4QkNsSVlrM0NvX08yMDE1N1NkbHptdw?oc=5",
+      "lead_source": "Mint",
       "canonical_entities": [
+        "crude",
         "oil"
       ],
       "source_count": 2,
@@ -72,48 +143,48 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-27T20:30:52+00:00",
-      "latest_seen": "2026-04-28T01:05:32+00:00",
-      "age_hours": 0.34,
-      "score": 67.05,
+      "earliest_seen": "2026-04-27T22:10:38+00:00",
+      "latest_seen": "2026-04-28T01:34:41+00:00",
+      "age_hours": 3.48,
+      "score": 71.91,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 24.8,
-        "source_quality_points": 23.25,
-        "entity_relevance_points": 4,
-        "materiality_points": 5.0
+        "recency_points": 22.91,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
       },
-      "novelty": "growing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "dc9af52df201f6c5",
-          "title": "Oil prices rise as US-Iran peace talks stall",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmUS1zX040Ukx2eU5qRlFTeFE3el9RaFowelY2bUdnVUhPYk1ZWURPdnBNdXQ1X2x0MDVnUjE1S19PMXNSdVZQaGRMTFVvd0pUS3ZjSFhLNEV5QQ?oc=5",
-          "source": "BBC",
+          "headline_id": "fea1e68dda4dc76e",
+          "title": "From Gift Nifty, crude oil prices, gold rates to dollar: 8 key things that changed for Indian stock market overnight",
+          "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOZXRiRDRrN0EtU2tWblJyZVhjQmFLSnJWc21LU1kyc0gtcl9jbmZlTTI2Q0JGVERrQTFCMUNGMEhjR0J6eldaYXlUX1pXVlltWC00Sm1LUkYydkJBMGEtX00wSk9mMENxbHljWmFOWWVaMktnMk1oc3pZaDducGhhRUczX1cyQWpHSTNDemlvZGhqSjRLWGNrcjRmeFNzNEVhTEVqRlk3TFR4bzdqQ1dBdGREYUJRakJnNkdTNGM5Nlk3bkhIZElLLW11U1FiTDh1cWNxbmhKYkprSTZWczk4bUg0Sk9Nc2FHU1duTjcwdFd3alRLSDJKZDF3U3hhanFVcU5URTg3WVNORUp3LUlIONIBlgJBVV95cUxNWnZjMmJfcUs1RkdMczVJaGgzLUFsM29EQ3U0dGRKYWVoMkVVTDhYT2lOQTl1WXpxWmtKcVpmRWZVQ0RKV0c2dHZDaHJuTTlPNUdqWlNZS1REZmdGZW9SZ3h5dS1MdWlkOE5xOU9MRzAzTXpzclN4Z1J6RjhpU0I2T3NoQ2tGMmRzRXBRV3RPQ1NmTDhWTW9reVhjQ0h6clFHck5JeDlyLWdFbUhkNURoM0J5bk5zREtTeUlvcl9kOHZfRTI3WFdjd2M2OFppWmJWSmsyaUJDcXpkNGQ3UmFkQ1R3NjlfTVI3TWFhUjZlXzA5LWdwdHpVUzlxZ01ldHE4QkNsSVlrM0NvX08yMDE1N1NkbHptdw?oc=5",
+          "source": "Mint",
           "source_type": "rss",
-          "published_at": "2026-04-27T20:30:52+00:00",
-          "confidence": 0.9
+          "published_at": "2026-04-28T01:34:41+00:00",
+          "confidence": 0.7
         },
         {
-          "headline_id": "e88f7ccb59d681e4",
-          "title": "Oil prices hit two-week high as Iran talks stall",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVzJhaDdkQ1kwcld5OUlIX3hWQ284cTZrQjJkaWVyRGJ0WU5BRzQ5SmtIck9LUGMzWEhhdzE2UXJyS0xHT1liRGZNcFBGZFFXR25lMllVbWtIOVFCZDV2SU5zeWJjNkx6eUMzbGwyUVd3aENoOHNEZXZlMmctYlZ5WXhoVGtMTVBqaDFaVm9RX0ZtQdIBVkFVX3lxTE5vV2EwN2VKY3BKQ2oyS1lVZVlnVm5JbV9jYllnLTZoU2hITXNmdFFScGdnb3Ixbm9MdkNHYVFMcURUek9TMEFKQ2R5SFhKZEhiSHdGUU9R?oc=5",
-          "source": "Business Recorder",
+          "headline_id": "56c35547586de133",
+          "title": "The U.S. stock market showed mixed performance on the 27th, with concerns over rising crude oil prices offset by expectations for earnings reports from major companies.",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNHZCckFWd2hweTJvZFluQVpUd0lIU2l4M1pva21NcjA0Z2QwZm9VUldzU3VianVUYjBLVkNPcUEyRTQwbzBFVXNsd3J6R3diYlNSR1QyMy00TklZZkZZdzRESE9wN1h4b3pGSkw3S2VYYk5fcGlTSHRMM2tkaU84Rkt2WlZaaG1xTG43QUlOOFVmR0NUaVVFMU94UEI5dw?oc=5",
+          "source": "富途牛牛",
           "source_type": "rss",
-          "published_at": "2026-04-28T01:05:32+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-27T22:10:38+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_dda33bbf9d3dcb",
+      "cluster_id": "c_6de22ed93c0a3a",
       "topic": "energy",
-      "lead_title": "Oil prices rise as no end to Iran war stand-off seems in sight",
-      "lead_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZkM4cjh6MXBBQy1PYmpSd1Nyc0Y2S0IxR01YNklmNVdkU3Z5Yk02eDhreTh3SlRDOTRpdm9JV2gtYjJzNjA3N0NiNlBBUEE5Y3VZa0dDT3RhN1ByNmdwSVBQaWJvakdLLXlCQk9lTE44TUxNWWoyNW81MFVlMjZLRzFwQ094aFd6SmFacUlVZ0cyZ1hmSDR3Q0M1aEozalp5QlQtN2xxSHlhV2FZcXVDLWpZNHliVThlMHJ5blduYzg3VjdKSUlqbWIyTnktUFR2YnQxQjFRbUXSAd4BQVVfeXFMUG8wa1NYX2pOWXFRdWN5Ti1UcDVvY2ZFODBNMlJwMzhHSnozb3MwcGxlamJ4WE9lSmFLRDF2bGNyNEx1N3VDcHJKQmM5R2h0LVFCVFpGV0lsZ3hiTUNfTFVuNE5JWUtvTGNGNTd0TXRkdjZhQ29tTEJjZ3p1dmJQdGZyMU5waVp1OTBkaGgxdDk4WjJuNW1hQjBUN3ZOVGJIaUxJcVpGOEpaUUg4QXRVNjFVTUotWUxGZE5NeEFnWlZGZDRoZjBwM2c4TzQ2OVpfVGduWG9GcHdIRHJpR2h3?oc=5",
-      "lead_source": "The Economic Times",
+      "lead_title": "Oil edges higher as traders weigh Iran’s Hormuz offer and Trump’s next move",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUjQ2T3dCbnVxQS1aeUZhbnJLTXZOeUZTaFR3Y2xZVjBfSzY5TE1sdXBaZk52VFloM1dCbVlkSGVTRVl4UHc5Q21fajNVM2hUV1F3WDdVU0h3TTFJdFZLeDN4NjVwODF0MW1KS3lTajk5WHV5b2FVUEJQYi1fSGRNekc4ckZKbjM2aUtwdm43cVZobFhSakHSAZsBQVVfeXFMUEZhWlJpWGFhNG9WZTRmZTJxaTJ2NjhzdElUUEdTWm5fZ2ZydUlvYnhibEtOTkJoX0FFTXlna3BZWmlUa2xuQWt5X1FoNmpFNEwtc0Eya2pRUVc3ZlZBYU5FQzJWM3BiZXFEOVgydGp1Ujl0WE1ZSGNMaDdhWmFfWmNzeXVnWmNvendhVTBIUFVfaDk3X3lFeVdrRUE?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
         "oil"
       ],
@@ -122,14 +193,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T01:06:57+00:00",
-      "latest_seen": "2026-04-28T01:06:57+00:00",
-      "age_hours": 0.32,
-      "score": 63.31,
+      "earliest_seen": "2026-04-28T01:05:00+00:00",
+      "latest_seen": "2026-04-28T01:05:00+00:00",
+      "age_hours": 3.97,
+      "score": 69.52,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.81,
-        "source_quality_points": 19.5,
+        "recency_points": 22.62,
+        "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -137,24 +208,24 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "25ffed60fe54edf5",
-          "title": "Oil prices rise as no end to Iran war stand-off seems in sight",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZkM4cjh6MXBBQy1PYmpSd1Nyc0Y2S0IxR01YNklmNVdkU3Z5Yk02eDhreTh3SlRDOTRpdm9JV2gtYjJzNjA3N0NiNlBBUEE5Y3VZa0dDT3RhN1ByNmdwSVBQaWJvakdLLXlCQk9lTE44TUxNWWoyNW81MFVlMjZLRzFwQ094aFd6SmFacUlVZ0cyZ1hmSDR3Q0M1aEozalp5QlQtN2xxSHlhV2FZcXVDLWpZNHliVThlMHJ5blduYzg3VjdKSUlqbWIyTnktUFR2YnQxQjFRbUXSAd4BQVVfeXFMUG8wa1NYX2pOWXFRdWN5Ti1UcDVvY2ZFODBNMlJwMzhHSnozb3MwcGxlamJ4WE9lSmFLRDF2bGNyNEx1N3VDcHJKQmM5R2h0LVFCVFpGV0lsZ3hiTUNfTFVuNE5JWUtvTGNGNTd0TXRkdjZhQ29tTEJjZ3p1dmJQdGZyMU5waVp1OTBkaGgxdDk4WjJuNW1hQjBUN3ZOVGJIaUxJcVpGOEpaUUg4QXRVNjFVTUotWUxGZE5NeEFnWlZGZDRoZjBwM2c4TzQ2OVpfVGduWG9GcHdIRHJpR2h3?oc=5",
-          "source": "The Economic Times",
+          "headline_id": "73d67839d1c990a5",
+          "title": "Oil edges higher as traders weigh Iran’s Hormuz offer and Trump’s next move",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUjQ2T3dCbnVxQS1aeUZhbnJLTXZOeUZTaFR3Y2xZVjBfSzY5TE1sdXBaZk52VFloM1dCbVlkSGVTRVl4UHc5Q21fajNVM2hUV1F3WDdVU0h3TTFJdFZLeDN4NjVwODF0MW1KS3lTajk5WHV5b2FVUEJQYi1fSGRNekc4ckZKbjM2aUtwdm43cVZobFhSakHSAZsBQVVfeXFMUEZhWlJpWGFhNG9WZTRmZTJxaTJ2NjhzdElUUEdTWm5fZ2ZydUlvYnhibEtOTkJoX0FFTXlna3BZWmlUa2xuQWt5X1FoNmpFNEwtc0Eya2pRUVc3ZlZBYU5FQzJWM3BiZXFEOVgydGp1Ujl0WE1ZSGNMaDdhWmFfWmNzeXVnWmNvendhVTBIUFVfaDk3X3lFeVdrRUE?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-04-28T01:06:57+00:00",
-          "confidence": 0.65
+          "published_at": "2026-04-28T01:05:00+00:00",
+          "confidence": 0.93
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_8e3b72093cba45",
+      "cluster_id": "c_d2acaffa0c1fa5",
       "topic": "energy",
-      "lead_title": "Global Stocks Surge Despite Soaring Oil Prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjJkMUw5RVNIMThJU0paRHl5Q0JxTWRzSE56WS1nZHhwZjZ0T1lLdmZEdXZLVTg0bnRCZHZnRnlYbTIyamxrS1FzSHJHaTNwbzZmNVA2M2F6MmhuclRIXzFpSGc1TkRUYkppc2IyM2NkNEliMmoxX0R3ZktLeXQ1bk5RQk1PUVRoZGxZOWVn?oc=5",
-      "lead_source": "조선일보",
+      "lead_title": "Shares fall in Asia and oil prices gain as talks stall on ending the Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVXhoY2htb09WcVllNlR3b2M1ZUtSXzBQbDBTSGFmRFlXZ29ZWXNVWUJJbDY3clozdHdDMzFSZmozX1JaZTh5alVZYWZDM3FzTzlvclotb3lsT3BKYjJ5eXpoMS14SU8tYVRXbVppODlqcVlZOW92OGNfOEVDQ1NNb0ZuUkhZd0VONU1OYmV0NGZkbXE5YUg3eDZHOHRLcUk1YmZhWlM0T2R3ZFdQUXFWZjFn?oc=5",
+      "lead_source": "Audacy",
       "canonical_entities": [
         "oil"
       ],
@@ -163,13 +234,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T00:18:50+00:00",
-      "latest_seen": "2026-04-28T00:18:50+00:00",
-      "age_hours": 1.12,
-      "score": 62.83,
+      "earliest_seen": "2026-04-28T04:47:09+00:00",
+      "latest_seen": "2026-04-28T04:47:09+00:00",
+      "age_hours": 0.27,
+      "score": 63.34,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.33,
+        "recency_points": 24.84,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -178,12 +249,53 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "e15ea0e712e82607",
-          "title": "Global Stocks Surge Despite Soaring Oil Prices",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUjJkMUw5RVNIMThJU0paRHl5Q0JxTWRzSE56WS1nZHhwZjZ0T1lLdmZEdXZLVTg0bnRCZHZnRnlYbTIyamxrS1FzSHJHaTNwbzZmNVA2M2F6MmhuclRIXzFpSGc1TkRUYkppc2IyM2NkNEliMmoxX0R3ZktLeXQ1bk5RQk1PUVRoZGxZOWVn?oc=5",
-          "source": "조선일보",
+          "headline_id": "e16feff7fb86e0ad",
+          "title": "Shares fall in Asia and oil prices gain as talks stall on ending the Iran war",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVXhoY2htb09WcVllNlR3b2M1ZUtSXzBQbDBTSGFmRFlXZ29ZWXNVWUJJbDY3clozdHdDMzFSZmozX1JaZTh5alVZYWZDM3FzTzlvclotb3lsT3BKYjJ5eXpoMS14SU8tYVRXbVppODlqcVlZOW92OGNfOEVDQ1NNb0ZuUkhZd0VONU1OYmV0NGZkbXE5YUg3eDZHOHRLcUk1YmZhWlM0T2R3ZFdQUXFWZjFn?oc=5",
+          "source": "Audacy",
           "source_type": "rss",
-          "published_at": "2026-04-28T00:18:50+00:00",
+          "published_at": "2026-04-28T04:47:09+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_20209b594b5fb9",
+      "topic": "energy",
+      "lead_title": "US stocks reach new highs amid rising oil prices and anticipation of major earnings reports",
+      "lead_url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRFNtbWhHa2Vxd2QxeXhjWXp6ZUQ4bmlpNlUzWF9ORTRiMFlqQ0hpcGxEblpOUmhpbjR5MGExdnRJM3V1dE9vcWFNN2IxbHJBck1xN2VvTHZpTGo0Rlk0VUJxRWRlb1ZYUlZ6VEdWRWNKc0g0Y2lvSVZHUURzazNDZE5sQy1lRlhzbUVTbDF1amRTV1ozQXRybEpCcGd5M3FZUEZEelhMN2dJOGlzckJyLXcwQW14UVRpS09COUJfNjdZTk5jZGV5SHI4S1RMYm56aXRrMWRDX0FLN1FZY1g4Y1JXV3F4aDJweGN1Q3RpaHM2VjNQeTJMWFdsdWd6QQ?oc=5",
+      "lead_source": "MSN",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T03:11:15+00:00",
+      "latest_seen": "2026-04-28T03:11:15+00:00",
+      "age_hours": 1.87,
+      "score": 62.38,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.88,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6d4d26c4377bc05a",
+          "title": "US stocks reach new highs amid rising oil prices and anticipation of major earnings reports",
+          "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPRFNtbWhHa2Vxd2QxeXhjWXp6ZUQ4bmlpNlUzWF9ORTRiMFlqQ0hpcGxEblpOUmhpbjR5MGExdnRJM3V1dE9vcWFNN2IxbHJBck1xN2VvTHZpTGo0Rlk0VUJxRWRlb1ZYUlZ6VEdWRWNKc0g0Y2lvSVZHUURzazNDZE5sQy1lRlhzbUVTbDF1amRTV1ozQXRybEpCcGd5M3FZUEZEelhMN2dJOGlzckJyLXcwQW14UVRpS09COUJfNjdZTk5jZGV5SHI4S1RMYm56aXRrMWRDX0FLN1FZY1g4Y1JXV3F4aDJweGN1Q3RpaHM2VjNQeTJMWFdsdWd6QQ?oc=5",
+          "source": "MSN",
+          "source_type": "rss",
+          "published_at": "2026-04-28T03:11:15+00:00",
           "confidence": 0.65
         }
       ],
@@ -207,11 +319,11 @@
       ],
       "earliest_seen": "2026-04-27T14:42:47+00:00",
       "latest_seen": "2026-04-27T21:12:24+00:00",
-      "age_hours": 4.23,
-      "score": 61.46,
+      "age_hours": 7.85,
+      "score": 59.29,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 22.46,
+        "recency_points": 20.29,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -257,11 +369,11 @@
       ],
       "earliest_seen": "2026-04-27T20:56:00+00:00",
       "latest_seen": "2026-04-27T20:56:00+00:00",
-      "age_hours": 4.5,
-      "score": 60.4,
+      "age_hours": 8.12,
+      "score": 58.23,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.3,
+        "recency_points": 20.13,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -283,173 +395,10 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_330ac12137e503",
+      "cluster_id": "c_d3c962b9d5d9ac",
       "topic": "energy",
-      "lead_title": "Deutsche, JPMorgan Favor Energy-Linked Currencies Amid Iran War",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1ZNRWUySG9xOWFFQTlpSXFycEI0b2lrMzBWVFNibmpqNzgtYkUzdWZLOEVkaXhkb2xYMi1lZE94Undhc0RfYlB0NG9lNDBnUEZiS0tBZTdmX2NjMmttcUZhWTViQmpxY01tY3lsU3dpaTJPbEZHWmVxQUowaDJMV2FGZ3JNNW5fRm4tOGJqOGxTbzVTTUtqNGdIYkpnczhaaHFyZF93Zks1ZTJ6a2lYajg3dw?oc=5",
-      "lead_source": "Bloomberg.com",
-      "canonical_entities": [
-        "energy"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-27T15:25:16+00:00",
-      "latest_seen": "2026-04-27T15:25:16+00:00",
-      "age_hours": 10.01,
-      "score": 57.99,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.99,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0bc7d00e94ff20fd",
-          "title": "Deutsche, JPMorgan Favor Energy-Linked Currencies Amid Iran War",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1ZNRWUySG9xOWFFQTlpSXFycEI0b2lrMzBWVFNibmpqNzgtYkUzdWZLOEVkaXhkb2xYMi1lZE94Undhc0RfYlB0NG9lNDBnUEZiS0tBZTdmX2NjMmttcUZhWTViQmpxY01tY3lsU3dpaTJPbEZHWmVxQUowaDJMV2FGZ3JNNW5fRm4tOGJqOGxTbzVTTUtqNGdIYkpnczhaaHFyZF93Zks1ZTJ6a2lYajg3dw?oc=5",
-          "source": "Bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-04-27T15:25:16+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1e3404b07fefda",
-      "topic": "energy",
-      "lead_title": "The U.S. stock market showed mixed performance on the 27th, with concerns over rising crude oil prices offset by expectations for earnings reports from major companies.",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNHZCckFWd2hweTJvZFluQVpUd0lIU2l4M1pva21NcjA0Z2QwZm9VUldzU3VianVUYjBLVkNPcUEyRTQwbzBFVXNsd3J6R3diYlNSR1QyMy00TklZZkZZdzRESE9wN1h4b3pGSkw3S2VYYk5fcGlTSHRMM2tkaU84Rkt2WlZaaG1xTG43QUlOOFVmR0NUaVVFMU94UEI5dw?oc=5",
-      "lead_source": "富途牛牛",
-      "canonical_entities": [
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-27T22:10:38+00:00",
-      "latest_seen": "2026-04-27T22:10:38+00:00",
-      "age_hours": 3.26,
-      "score": 57.05,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.05,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "56c35547586de133",
-          "title": "The U.S. stock market showed mixed performance on the 27th, with concerns over rising crude oil prices offset by expectations for earnings reports from major companies.",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNHZCckFWd2hweTJvZFluQVpUd0lIU2l4M1pva21NcjA0Z2QwZm9VUldzU3VianVUYjBLVkNPcUEyRTQwbzBFVXNsd3J6R3diYlNSR1QyMy00TklZZkZZdzRESE9wN1h4b3pGSkw3S2VYYk5fcGlTSHRMM2tkaU84Rkt2WlZaaG1xTG43QUlOOFVmR0NUaVVFMU94UEI5dw?oc=5",
-          "source": "富途牛牛",
-          "source_type": "rss",
-          "published_at": "2026-04-27T22:10:38+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_02679f62e113bc",
-      "topic": "energy",
-      "lead_title": "Iran war hands OPEC's swing producer crown to America",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVEd1Y3BZM3ZIaGItLWtCbXdVeGctUGx1RGxkcnFpdkhjTWpjaUdFOVpxZjRTZDJ0MkRsblNHeDZwdjN2VDRRT2pYekdHSklodnN2UnRacGJSOHFieFdlbzZ0MFBsX1hHaEpsTml2SG5zUDFMalg0ei1yY2FCMU1oVEkwUTZqeUhPbUVSN0w5SG9aNTdTR0F5UVdscFRhMGNhWWxmby1odVQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-27T06:05:00+00:00",
-      "latest_seen": "2026-04-27T06:05:00+00:00",
-      "age_hours": 19.35,
-      "score": 56.89,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 13.39,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "3f99afba562e93e6",
-          "title": "Iran war hands OPEC's swing producer crown to America",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVEd1Y3BZM3ZIaGItLWtCbXdVeGctUGx1RGxkcnFpdkhjTWpjaUdFOVpxZjRTZDJ0MkRsblNHeDZwdjN2VDRRT2pYekdHSklodnN2UnRacGJSOHFieFdlbzZ0MFBsX1hHaEpsTml2SG5zUDFMalg0ei1yY2FCMU1oVEkwUTZqeUhPbUVSN0w5SG9aNTdTR0F5UVdscFRhMGNhWWxmby1odVQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-27T06:05:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0a1a6680ca9525",
-      "topic": "energy",
-      "lead_title": "Oil Rises, Asian Markets Divided as AI Boom Overshadows Middle East Tensions",
-      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenMteEE2WGhJclY2M3FKQnJpQU95dEJnUWhoTEZ0WEdlaXM0TkluYlB5Z21xSURUUkJnbW80dG00VlJvcWs1X1UybkVMN1dpamxMbUxNWnVKYmVOOW04aUZSX3dsaUQ3S3ZWUmM1MHNpZkhxUTJva0Q2MXV0MGRzd0J6a19fSmdqQXV5TTQyaGpQOEFoLW1RbTUwejhsTnp4V2loRy14SQ?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-27T07:30:00+00:00",
-      "latest_seen": "2026-04-27T07:30:00+00:00",
-      "age_hours": 17.93,
-      "score": 47.34,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.24,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "e76ca36b1b8031b9",
-          "title": "Oil Rises, Asian Markets Divided as AI Boom Overshadows Middle East Tensions",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOenMteEE2WGhJclY2M3FKQnJpQU95dEJnUWhoTEZ0WEdlaXM0TkluYlB5Z21xSURUUkJnbW80dG00VlJvcWs1X1UybkVMN1dpamxMbUxNWnVKYmVOOW04aUZSX3dsaUQ3S3ZWUmM1MHNpZkhxUTJva0Q2MXV0MGRzd0J6a19fSmdqQXV5TTQyaGpQOEFoLW1RbTUwejhsTnp4V2loRy14SQ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-04-27T07:30:00+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_ef691a046fb673",
-      "topic": "energy",
-      "lead_title": "A timeline of how the Iran war shook oil prices — and what comes next",
-      "lead_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBbnpEbzVRZ0w5Vnc5d1MzX3BhNmttLWpqbVQwMzBQWlJRUXdKbU0tZzQ4Q0R2VU8yMll2N0l4TG9UdnVvRUs3VFZjTy01MjRHX3dfcnVyLTFEWkpBWXN6WUJTUTRBLWtaV2xXYnlOQUxZMGZTNFHSAXtBVV95cUxOZmg5TXoybVJhcUdpUldDZ25ldHBYdjN0UFdua3REWnk4SzNRQmlhVVlaNUZLVVlSYlQwRGNYRDNfNUw1UHVHNGZTdUhQY1dCTzdvdXlJdGtFa1QxSXVqcXRNbnFfNDludDF5cE9QelprTGpUcU5qRDZSeUU?oc=5",
+      "lead_title": "U.S. oil price tumbles below $92 as White House considers further talks with Iran",
+      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONWFvdXg2VWhNVG9KVUY4cWswaGIzc2xMUklTa0VEWkZqYWxrdEVXbkRwSVBYLVdTRFlXdXRXWG5KemhBMV90eW1GU1laSXB6RFlTZnkxaVFiUjZMUEp2dFBvVGZtNXNyaG5aVjMwam1pYU00MHFReml5Z20zVXl2eUw1RzJuTFRTWVZVZnlxNGR0dGvSAZgBQVVfeXFMTTRJNzZEejdHbmlrZWJ4TmRNMTV2dWtaWVI5VktqZmVWdmN3ZGhSU3h6MzB2SVNRVGgtdVJRdGFDdmxWaHVIb3RiN2xocm9sOFdIU3ZvMHZHbGVUaHg1U0k5SkUyNl9qQXZTS181YVRiWnJEelpoQWJnWUQwVGM3SWFnTXNOR1V6Nk1KRjVBRWIyRXZXM0tsM1Q?oc=5",
       "lead_source": "CNBC",
       "canonical_entities": [
         "oil"
@@ -459,9 +408,9 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-21T14:34:18+00:00",
-      "latest_seen": "2026-04-21T14:34:18+00:00",
-      "age_hours": 154.86,
+      "earliest_seen": "2026-04-13T07:00:00+00:00",
+      "latest_seen": "2026-04-13T07:00:00+00:00",
+      "age_hours": 358.06,
       "score": 46.9,
       "score_components": {
         "source_count_points": 5,
@@ -474,12 +423,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "cb094d1ecaf3e4a2",
-          "title": "A timeline of how the Iran war shook oil prices — and what comes next",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBbnpEbzVRZ0w5Vnc5d1MzX3BhNmttLWpqbVQwMzBQWlJRUXdKbU0tZzQ4Q0R2VU8yMll2N0l4TG9UdnVvRUs3VFZjTy01MjRHX3dfcnVyLTFEWkpBWXN6WUJTUTRBLWtaV2xXYnlOQUxZMGZTNFHSAXtBVV95cUxOZmg5TXoybVJhcUdpUldDZ25ldHBYdjN0UFdua3REWnk4SzNRQmlhVVlaNUZLVVlSYlQwRGNYRDNfNUw1UHVHNGZTdUhQY1dCTzdvdXlJdGtFa1QxSXVqcXRNbnFfNDludDF5cE9QelprTGpUcU5qRDZSeUU?oc=5",
+          "headline_id": "fedc34b8020f169e",
+          "title": "U.S. oil price tumbles below $92 as White House considers further talks with Iran",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONWFvdXg2VWhNVG9KVUY4cWswaGIzc2xMUklTa0VEWkZqYWxrdEVXbkRwSVBYLVdTRFlXdXRXWG5KemhBMV90eW1GU1laSXB6RFlTZnkxaVFiUjZMUEp2dFBvVGZtNXNyaG5aVjMwam1pYU00MHFReml5Z20zVXl2eUw1RzJuTFRTWVZVZnlxNGR0dGvSAZgBQVVfeXFMTTRJNzZEejdHbmlrZWJ4TmRNMTV2dWtaWVI5VktqZmVWdmN3ZGhSU3h6MzB2SVNRVGgtdVJRdGFDdmxWaHVIb3RiN2xocm9sOFdIU3ZvMHZHbGVUaHg1U0k5SkUyNl9qQXZTS181YVRiWnJEelpoQWJnWUQwVGM3SWFnTXNOR1V6Nk1KRjVBRWIyRXZXM0tsM1Q?oc=5",
           "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-04-21T14:34:18+00:00",
+          "published_at": "2026-04-13T07:00:00+00:00",
           "confidence": 0.93
         }
       ],
@@ -487,11 +436,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_55fc9fcdd62977",
+      "cluster_id": "c_15bd8e64ad524e",
       "topic": "energy",
-      "lead_title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pUlQ5V2huWm9sUVk4cGFJQU5NTFBpYlpCaHotZTJuOUp4THFVNHRGMU1ldWI3eGFxRVVkTUNzWktyUlpBUlczZTVtSzBSWXBDbUplWjhFU0Y2Zw?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "Oil prices edge higher after Trump reiterates threat to bomb every bridge and power plant in Iran",
+      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclZGYUFGNUZLQmVMbGVpMnlmendtSHI2Smc3TkZmM0h6bGlnazZGdVhjeVl1MVlGWGFuSC1lQThRS0YzN0xoZ3FfSklYYzZVeENXYjVKN1B3dDZMbDFkZnNjaG5nVUdIQzJrXzVqaXhuajJpU0FZMjRydGRuNnRaR1R30gGHAUFVX3lxTFBWY2VCRnpIY0dSc0d4bVFEeDd4b1NidC1mU3hIZUlBeWhMR1pOS2NWQ0t0eUxqWVFZZWxDY0VfQWlFZzFSay1HNkRIZ2ZKcVBscGJXTDBhYnhTRFU4Q1BXS2t6ci1mNzlxdXhHRUZEbkFqazV6ejlEcTlOVUxwbnUtRnFPdUlybw?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
         "oil"
       ],
@@ -500,14 +449,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-08T07:00:00+00:00",
-      "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 474.43,
-      "score": 46.0,
+      "earliest_seen": "2026-04-05T07:00:00+00:00",
+      "latest_seen": "2026-04-05T07:00:00+00:00",
+      "age_hours": 550.06,
+      "score": 46.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.0,
+        "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -515,54 +464,13 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "f6c0d216e8fce846",
-          "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pUlQ5V2huWm9sUVk4cGFJQU5NTFBpYlpCaHotZTJuOUp4THFVNHRGMU1ldWI3eGFxRVVkTUNzWktyUlpBUlczZTVtSzBSWXBDbUplWjhFU0Y2Zw?oc=5",
-          "source": "BBC",
+          "headline_id": "c9ecf6a99ad43ed5",
+          "title": "Oil prices edge higher after Trump reiterates threat to bomb every bridge and power plant in Iran",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQclZGYUFGNUZLQmVMbGVpMnlmendtSHI2Smc3TkZmM0h6bGlnazZGdVhjeVl1MVlGWGFuSC1lQThRS0YzN0xoZ3FfSklYYzZVeENXYjVKN1B3dDZMbDFkZnNjaG5nVUdIQzJrXzVqaXhuajJpU0FZMjRydGRuNnRaR1R30gGHAUFVX3lxTFBWY2VCRnpIY0dSc0d4bVFEeDd4b1NidC1mU3hIZUlBeWhMR1pOS2NWQ0t0eUxqWVFZZWxDY0VfQWlFZzFSay1HNkRIZ2ZKcVBscGJXTDBhYnhTRFU4Q1BXS2t6ci1mNzlxdXhHRUZEbkFqazV6ejlEcTlOVUxwbnUtRnFPdUlybw?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-04-08T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_10bde6d7b280ea",
-      "topic": "energy",
-      "lead_title": "Oil prices jump and shares drop after Trump threatens more Iran strikes",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NbG8wZk0wS0VtVF9FeHNpVlZNdkRfM1RwazJBbDBTM3F3Zy1sRjJNWVVMUFdQUnpJUEtCbFhVczZlTkZLOUNsYm9XejFLcE1nZnZONDlRd0RyUQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-02T07:00:00+00:00",
-      "latest_seen": "2026-04-02T07:00:00+00:00",
-      "age_hours": 618.43,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a7c227354aba7ab9",
-          "title": "Oil prices jump and shares drop after Trump threatens more Iran strikes",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NbG8wZk0wS0VtVF9FeHNpVlZNdkRfM1RwazJBbDBTM3F3Zy1sRjJNWVVMUFdQUnpJUEtCbFhVczZlTkZLOUNsYm9XejFLcE1nZnZONDlRd0RyUQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-04-02T07:00:00+00:00",
-          "confidence": 0.9
+          "published_at": "2026-04-05T07:00:00+00:00",
+          "confidence": 0.93
         }
       ],
       "top_tier": false,
@@ -585,7 +493,7 @@
       ],
       "earliest_seen": "2026-04-07T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 450.43,
+      "age_hours": 454.06,
       "score": 42.0,
       "score_components": {
         "source_count_points": 15,
@@ -629,6 +537,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_02679f62e113bc",
+      "topic": "energy",
+      "lead_title": "Iran war hands OPEC's swing producer crown to America",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVEd1Y3BZM3ZIaGItLWtCbXdVeGctUGx1RGxkcnFpdkhjTWpjaUdFOVpxZjRTZDJ0MkRsblNHeDZwdjN2VDRRT2pYekdHSklodnN2UnRacGJSOHFieFdlbzZ0MFBsX1hHaEpsTml2SG5zUDFMalg0ei1yY2FCMU1oVEkwUTZqeUhPbUVSN0w5SG9aNTdTR0F5UVdscFRhMGNhWWxmby1odVQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-27T06:05:00+00:00",
+      "latest_seen": "2026-04-27T06:05:00+00:00",
+      "age_hours": 22.97,
+      "score": 39.72,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 11.22,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "3f99afba562e93e6",
+          "title": "Iran war hands OPEC's swing producer crown to America",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVEd1Y3BZM3ZIaGItLWtCbXdVeGctUGx1RGxkcnFpdkhjTWpjaUdFOVpxZjRTZDJ0MkRsblNHeDZwdjN2VDRRT2pYekdHSklodnN2UnRacGJSOHFieFdlbzZ0MFBsX1hHaEpsTml2SG5zUDFMalg0ei1yY2FCMU1oVEkwUTZqeUhPbUVSN0w5SG9aNTdTR0F5UVdscFRhMGNhWWxmby1odVQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-27T06:05:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_24071269919a5b",
       "topic": "energy",
       "lead_title": "Iran reportedly proposes Hormuz Strait deal to U.S. Here’s where things stand — and what’s next for markets",
@@ -642,11 +589,11 @@
       ],
       "earliest_seen": "2026-04-27T05:10:29+00:00",
       "latest_seen": "2026-04-27T05:10:29+00:00",
-      "age_hours": 20.26,
-      "score": 39.24,
+      "age_hours": 23.88,
+      "score": 37.07,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.84,
+        "recency_points": 10.67,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -681,11 +628,11 @@
       ],
       "earliest_seen": "2026-04-27T05:09:17+00:00",
       "latest_seen": "2026-04-27T05:09:17+00:00",
-      "age_hours": 20.28,
-      "score": 39.23,
+      "age_hours": 23.9,
+      "score": 37.06,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.83,
+        "recency_points": 10.66,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -723,7 +670,7 @@
       ],
       "earliest_seen": "2026-04-03T07:00:00+00:00",
       "latest_seen": "2026-04-05T07:00:00+00:00",
-      "age_hours": 546.43,
+      "age_hours": 550.06,
       "score": 37.0,
       "score_components": {
         "source_count_points": 10,
@@ -773,7 +720,7 @@
       ],
       "earliest_seen": "2026-04-14T07:00:00+00:00",
       "latest_seen": "2026-04-14T07:00:00+00:00",
-      "age_hours": 330.43,
+      "age_hours": 334.06,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -814,7 +761,7 @@
       ],
       "earliest_seen": "2026-04-24T01:55:00+00:00",
       "latest_seen": "2026-04-24T01:55:00+00:00",
-      "age_hours": 95.52,
+      "age_hours": 99.14,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -855,7 +802,7 @@
       ],
       "earliest_seen": "2026-04-13T07:00:00+00:00",
       "latest_seen": "2026-04-13T07:00:00+00:00",
-      "age_hours": 354.43,
+      "age_hours": 358.06,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -896,7 +843,7 @@
       ],
       "earliest_seen": "2026-04-20T20:33:01+00:00",
       "latest_seen": "2026-04-20T20:33:01+00:00",
-      "age_hours": 172.88,
+      "age_hours": 176.51,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -937,7 +884,7 @@
       ],
       "earliest_seen": "2026-04-20T08:25:00+00:00",
       "latest_seen": "2026-04-20T08:25:00+00:00",
-      "age_hours": 185.02,
+      "age_hours": 188.64,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -963,47 +910,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_c499e164f5b06b",
-      "topic": "energy",
-      "lead_title": "Oil and gas crisis from Iran war worse than 1973, ​1979 and 2022 together, says IEA",
-      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGJXMlZQcHdUUERQc0o4TjhWYjJ0WGNDaFlQU1VJZVJfVnRnWXdHcnlsOTI4UDhvM0pIMlBlQmE0YmVzWHpxWUdHV1NRRDV2UVF1QnhBU1V5em9qbXA4SWctQVpVNmpZTzJjS2RuMVlnaVFMMjRwbXFzTDBwSlU1VmptR3BIVy1MMnpiZEU4TlhwVlRlNEluc2hfdUlUbUstcEJKWEhXaw?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-07T07:00:00+00:00",
-      "latest_seen": "2026-04-07T07:00:00+00:00",
-      "age_hours": 498.43,
-      "score": 29.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "efef2dd608562eb6",
-          "title": "Oil and gas crisis from Iran war worse than 1973, ​1979 and 2022 together, says IEA",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOGJXMlZQcHdUUERQc0o4TjhWYjJ0WGNDaFlQU1VJZVJfVnRnWXdHcnlsOTI4UDhvM0pIMlBlQmE0YmVzWHpxWUdHV1NRRDV2UVF1QnhBU1V5em9qbXA4SWctQVpVNmpZTzJjS2RuMVlnaVFMMjRwbXFzTDBwSlU1VmptR3BIVy1MMnpiZEU4TlhwVlRlNEluc2hfdUlUbUstcEJKWEhXaw?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-04-07T07:00:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_6cdba881f35adb",
       "topic": "energy",
       "lead_title": "Real-world oil prices just hit a record high, signaling acute stress in the energy market",
@@ -1020,7 +926,7 @@
       ],
       "earliest_seen": "2026-04-07T07:00:00+00:00",
       "latest_seen": "2026-04-07T07:00:00+00:00",
-      "age_hours": 498.43,
+      "age_hours": 502.06,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
