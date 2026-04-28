@@ -353,6 +353,7 @@ const ARTICLE_SLUGS = {
   "WTI Up 3.7% on Inventory Shock": "wti-up-37-on-inventory-shock",
   "WTI vs Brent Crude Oil Key Differences Explained": "wti-vs-brent-crude-oil-key-differences-explained",
   "WTI vs Brent: What's the Difference and Why It Matters": "wti-vs-brent-difference-why-it-matters",
+  "Warnings on Permanent Oil Demand Destruction Begin Pouring In": "warnings-on-permanent-oil-demand-destruction-begin-pouring-in",
   "What Happens If the Strait of Hormuz Closes?": "what-happens-if-strait-of-hormuz-closes",
   "What Is Brent Crude Oil and Why Does It Matter": "what-is-brent-crude-oil-and-why-does-it-matter",
   "What Is OPEC+ and How Does It Affect Oil Prices?": "what-is-opec-plus-how-it-affects-oil-prices",
