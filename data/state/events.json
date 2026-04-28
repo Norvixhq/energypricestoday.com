@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-28T21:16:18.837948+00:00",
-  "previous_generated_at": "2026-04-28T20:00:07.175399+00:00",
-  "resolver_run_count": 25,
+  "generated_at": "2026-04-28T22:17:37.967527+00:00",
+  "previous_generated_at": "2026-04-28T21:16:18.837948+00:00",
+  "resolver_run_count": 26,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,17 @@
       "status_detail": "Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.959,
-      "last_confirmed": "2026-04-28T21:09:30+00:00",
+      "confidence": 0.961,
+      "last_confirmed": "2026-04-28T21:43:44+00:00",
       "source_count": 9,
       "summary_short": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
-      "summary_long": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit. Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens",
+      "summary_long": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit. Oil lifeline: First tankers clear Strait of Hormuz amid easing tensions",
       "evidence_cluster_ids": [
         "c_b9f8188b4163bb",
+        "c_ce48b2aa3542b3",
         "c_71fb31ac6e6197",
         "c_5271ca2841b1c2",
-        "c_b813d9301ff082",
-        "c_1665abaff84403"
+        "c_b813d9301ff082"
       ],
       "evidence_count": 5,
       "affected_pages": [
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_71fb31ac6e → CLOSED (kw='blockade', weight=0.52) [OPEN suppressed]",
-        "winning=CLOSED (0.52/0.52), conf=0.959"
+        "cluster c_71fb31ac6e → CLOSED (kw='blockade', weight=0.50) [OPEN suppressed]",
+        "winning=CLOSED (0.50/0.50), conf=0.961"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-28T16:24:45+00:00",
-      "source_count": 15,
+      "last_confirmed": "2026-04-28T21:34:36+00:00",
+      "source_count": 21,
       "summary_short": "BP Profits Double as Iran War Boosts Oil Traders",
-      "summary_long": "BP Profits Double as Iran War Boosts Oil Traders. United Arab Emirates to quit oil cartel Opec",
+      "summary_long": "BP Profits Double as Iran War Boosts Oil Traders. Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens",
       "evidence_cluster_ids": [
         "c_1e25a61f76afc4",
-        "c_1f76627cf1a861",
         "c_71fb31ac6e6197",
-        "c_79b85eb60e7147",
-        "c_ecf70dccae49a1"
+        "c_004ac564efd9c7",
+        "c_8beaa42815386d",
+        "c_7668ceb0d29ebd"
       ],
-      "evidence_count": 10,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -82,9 +82,9 @@
       "rationale": [
         "fell back to default 'HOLDING'"
       ],
-      "next_catalyst_date": "2026-05-01",
-      "next_catalyst_description": "United Arab Emirates to quit oil cartel Opec United Arab Emirates to quit oil ca",
-      "next_catalyst_micro": "OPEC meeting"
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -95,18 +95,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-28T21:09:30+00:00",
-      "source_count": 26,
-      "summary_short": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
-      "summary_long": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit. The UAE’s OPEC Exit Is Existential for the Oil Cartel",
+      "last_confirmed": "2026-04-28T21:17:20+00:00",
+      "source_count": 27,
+      "summary_short": "The UAE’s OPEC Exit Is Existential for the Oil Cartel",
+      "summary_long": "The UAE’s OPEC Exit Is Existential for the Oil Cartel. Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
       "evidence_cluster_ids": [
         "c_d5ec285b05b69b",
         "c_2986bb14755486",
-        "c_a2422a8277e08c",
         "c_27ab3444d8e9e8",
-        "c_ee73e4572bf6cf"
+        "c_ee73e4572bf6cf",
+        "c_a2422a8277e08c"
       ],
-      "evidence_count": 18,
+      "evidence_count": 17,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -156,14 +156,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_b9f8188b4163bb",
-      "lead_title": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSWdEcWtxT1pxaGxwMmc3bHE1elRLZlNOZHlvNWQtWG94NTZ0RzB3STJ3NmQxT0ZMUVhKYWYwWVZjbGhyMkdLaDZ1VEZHT3ZGdTB6cTFXdlV3MzRUT0s0N0JFZV9OUk9sRGNiS2NNeDlGa1czbGgxeGhhOV9BT09qcURMcDNRb3Q2SnE4Y1NSU2JzOXNyX0Q4eFl4My1SNVU1NWJITm43aUc?oc=5",
-      "lead_source": "Reuters",
-      "topic": "geopolitics",
-      "score": 86.43,
-      "novelty": "new",
-      "source_count": 3,
+      "cluster_id": "c_d5ec285b05b69b",
+      "lead_title": "The UAE’s OPEC Exit Is Existential for the Oil Cartel",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBKVmtURzhaVzR1UWxXQThwLUNwLVRsUlp4eUtHMUJxd0IxbnJzVGtTOTFpR1cxblBWdG40ektBTUFYVjVOLTQ3ckVvX25QRUViYzFuZHEtY2E2ZmtIc29zN1FVYWZZRGRhd09wTmJqVnZ5UF9ITnYxV2JvR3o3eWZYUS1LM2EydDdudVY3ck1hdUxPQWhPNEcyMWl3SlA1bjhPMVhiMFFNckhtU2c?oc=5",
+      "lead_source": "Bloomberg",
+      "topic": "oil",
+      "score": 88.89,
+      "novelty": "growing",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -173,9 +173,19 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "next_catalyst_date",
+      "from": "2026-05-01",
+      "to": "",
+      "detected_at": "2026-04-28T22:17:37.967457+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.959, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.961, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
