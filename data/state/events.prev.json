@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-28T18:09:48.227627+00:00",
-  "previous_generated_at": "2026-04-28T16:31:47.333204+00:00",
-  "resolver_run_count": 23,
+  "generated_at": "2026-04-28T20:00:07.175399+00:00",
+  "previous_generated_at": "2026-04-28T18:09:48.227627+00:00",
+  "resolver_run_count": 24,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,18 +12,19 @@
       "status_detail": "Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.964,
-      "last_confirmed": "2026-04-28T16:52:48+00:00",
-      "source_count": 7,
-      "summary_short": "Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens",
-      "summary_long": "Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens. UAE to leave OPEC amid Hormuz oil crisis, a blow to Saudi Arabia",
+      "confidence": 0.956,
+      "last_confirmed": "2026-04-28T19:48:23+00:00",
+      "source_count": 11,
+      "summary_short": "UAE to leave OPEC amid Hormuz oil crisis, a blow to Saudi Arabia",
+      "summary_long": "UAE to leave OPEC amid Hormuz oil crisis, a blow to Saudi Arabia. Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens",
       "evidence_cluster_ids": [
-        "c_71fb31ac6e6197",
         "c_44c12449dc0be1",
-        "c_5271ca2841b1c2",
-        "c_b813d9301ff082"
+        "c_71fb31ac6e6197",
+        "c_cc30a47f95f999",
+        "c_1a500eb1877a22",
+        "c_5271ca2841b1c2"
       ],
-      "evidence_count": 4,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_71fb31ac6e → CLOSED (kw='blockade', weight=0.67) [OPEN suppressed]",
-        "winning=CLOSED (0.67/0.67), conf=0.964"
+        "cluster c_71fb31ac6e → CLOSED (kw='blockade', weight=0.54) [OPEN suppressed]",
+        "winning=CLOSED (0.54/0.54), conf=0.956"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-28T15:25:17+00:00",
-      "source_count": 19,
-      "summary_short": "Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens",
-      "summary_long": "Iranian Tankers Pile Up Outside Hormuz as U.S. Blockade Tightens. BP Profits Double as Iran War Boosts Oil Traders",
+      "last_confirmed": "2026-04-28T16:24:45+00:00",
+      "source_count": 26,
+      "summary_short": "BP Profits Double as Iran War Boosts Oil Traders",
+      "summary_long": "BP Profits Double as Iran War Boosts Oil Traders. United Arab Emirates to quit oil cartel Opec",
       "evidence_cluster_ids": [
-        "c_71fb31ac6e6197",
         "c_1e25a61f76afc4",
         "c_1f76627cf1a861",
-        "c_79b85eb60e7147",
-        "c_ae20629dc8a042"
+        "c_71fb31ac6e6197",
+        "c_ecf70dccae49a1",
+        "c_79b85eb60e7147"
       ],
-      "evidence_count": 14,
+      "evidence_count": 21,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -94,18 +95,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-28T17:44:00+00:00",
-      "source_count": 24,
-      "summary_short": "UAE leaves OPEC in blow to global oil producers' group",
-      "summary_long": "UAE leaves OPEC in blow to global oil producers' group. UAE leaves OPEC in blow to global oil producers' group",
+      "last_confirmed": "2026-04-28T19:48:23+00:00",
+      "source_count": 25,
+      "summary_short": "The UAE’s OPEC Exit Is Existential for the Oil Cartel",
+      "summary_long": "The UAE’s OPEC Exit Is Existential for the Oil Cartel. UAE to leave OPEC amid Hormuz oil crisis, a blow to Saudi Arabia",
       "evidence_cluster_ids": [
+        "c_d5ec285b05b69b",
         "c_27ab3444d8e9e8",
+        "c_21c2c3e2ea1c29",
         "c_ee73e4572bf6cf",
-        "c_83fac0a7fad20f",
-        "c_584fdad12fac6a",
         "c_5115cb22c76e2b"
       ],
-      "evidence_count": 19,
+      "evidence_count": 15,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -155,14 +156,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_4a8682da9186a5",
-      "lead_title": "WTI Crude Oil Futures Jump 3.5% to $99.72 Pre-Bell; Brent Futures Rise 2.9% to $111.39",
-      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMkplTlVuZ2JOczNDejdjRGQ3U05aTTN5ZVFxSDBHTmJGVl91Z1Y3Zk5CVnhGQ21fa0JQNjVwZERPcUpNMmg3NldUbFA2c2RuQmRrVDBGamZ4QTRpZ3hYUFhOczJxcUhJSVh3S08yb0o0LVpqelBQWUNST0VZOHp4d1NhTzIwbzJBOW9CZzI2d3liVy1qaEdFeEFEaU0xZHZlQWxxaWI5MnoyN2kyLTgxUXVpbnNvQUxEVlpZV2lGMWt1dUFJVExFeVhaQ3NaM2s?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_d5ec285b05b69b",
+      "lead_title": "The UAE’s OPEC Exit Is Existential for the Oil Cartel",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBKVmtURzhaVzR1UWxXQThwLUNwLVRsUlp4eUtHMUJxd0IxbnJzVGtTOTFpR1cxblBWdG40ektBTUFYVjVOLTQ3ckVvX25QRUViYzFuZHEtY2E2ZmtIc29zN1FVYWZZRGRhd09wTmJqVnZ5UF9ITnYxV2JvR3o3eWZYUS1LM2EydDdudVY3ck1hdUxPQWhPNEcyMWl3SlA1bjhPMVhiMFFNckhtU2c?oc=5",
+      "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 87.12,
-      "novelty": "ongoing",
-      "source_count": 6,
+      "score": 95.35,
+      "novelty": "new",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -174,7 +175,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.964, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.956, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
