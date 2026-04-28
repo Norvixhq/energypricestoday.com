@@ -1,24 +1,24 @@
 {
   "status": "healthy",
-  "generated_at": "2026-04-28T18:09:48.307171+00:00",
+  "generated_at": "2026-04-28T20:00:07.243345+00:00",
   "checks": {
     "commodity_prices": {
       "status": "fresh",
-      "last_success": "2026-04-28T18:08:09.730749+00:00",
-      "age_minutes": 1,
+      "last_success": "2026-04-28T19:57:42.996120+00:00",
+      "age_minutes": 2,
       "threshold_minutes": 60,
       "observer_reported_status": "fresh"
     },
     "gas_prices": {
       "status": "fresh",
-      "last_success": "2026-04-28T18:08:13.607526+00:00",
-      "age_minutes": 1,
+      "last_success": "2026-04-28T19:57:46.178215+00:00",
+      "age_minutes": 2,
       "threshold_minutes": 1440,
       "observer_reported_status": "fresh"
     },
     "headlines": {
       "status": "fresh",
-      "last_success": "2026-04-28T18:09:48.033806+00:00",
+      "last_success": "2026-04-28T20:00:07.001210+00:00",
       "age_minutes": 0,
       "threshold_minutes": 60,
       "total_stories": 300,
@@ -26,36 +26,36 @@
     },
     "clusters": {
       "status": "fresh",
-      "last_success": "2026-04-28T18:09:48.180412+00:00",
+      "last_success": "2026-04-28T20:00:07.130278+00:00",
       "age_minutes": 0,
       "threshold_minutes": 60,
       "top_cluster_count": 15
     },
     "events": {
       "status": "fresh",
-      "last_success": "2026-04-28T18:09:48.227627+00:00",
+      "last_success": "2026-04-28T20:00:07.175399+00:00",
       "age_minutes": 0,
       "threshold_minutes": 60,
       "event_count": 5
     },
     "autopilot": {
       "status": "ok",
-      "last_success": "2026-04-28T18:09:48.272312+00:00",
+      "last_success": "2026-04-28T20:00:07.210214+00:00",
       "minutes_since": 0,
       "delayed_threshold_minutes": 45,
       "failing_threshold_minutes": 120
     },
     "news_update": {
       "status": "ok",
-      "last_success": "2026-04-28T18:08:03.977429+00:00",
-      "minutes_since": 1,
+      "last_success": "2026-04-28T19:57:38.383970+00:00",
+      "minutes_since": 2,
       "threshold_minutes": 480,
       "total_articles": 366
     },
     "nightly_audit": {
       "status": "ok",
       "last_success": "2026-04-28T09:14:38.117256+00:00",
-      "minutes_since": 535,
+      "minutes_since": 645,
       "threshold_minutes": 2880
     }
   },
@@ -63,58 +63,58 @@
     "date": "2026-04-28",
     "apis": {
       "oilpriceapi": {
-        "calls_today": 7,
-        "succeeded": 6,
+        "calls_today": 8,
+        "succeeded": 7,
         "failed": 1,
         "limit_per_day": 10000,
         "pct_of_limit": 0.1,
         "endpoints": {
-          "prices/all": 7
+          "prices/all": 8
         },
-        "last_call": "2026-04-28T18:08:09.729463+00:00"
+        "last_call": "2026-04-28T19:57:42.994941+00:00"
       },
       "aaa": {
-        "calls_today": 7,
-        "succeeded": 7,
+        "calls_today": 8,
+        "succeeded": 8,
         "failed": 0,
         "limit_per_day": 500,
-        "pct_of_limit": 1.4,
+        "pct_of_limit": 1.6,
         "endpoints": {
-          "gasprices": 7
+          "gasprices": 8
         },
-        "last_call": "2026-04-28T18:08:09.980234+00:00"
+        "last_call": "2026-04-28T19:57:43.349120+00:00"
       },
       "eia": {
-        "calls_today": 28,
-        "succeeded": 22,
+        "calls_today": 32,
+        "succeeded": 26,
         "failed": 6,
         "limit_per_day": 5000,
         "pct_of_limit": 0.6,
         "endpoints": {
-          "gasoline/regular": 7,
-          "gasoline/mid": 7,
-          "gasoline/premium": 7,
-          "gasoline/diesel": 7
+          "gasoline/regular": 8,
+          "gasoline/mid": 8,
+          "gasoline/premium": 8,
+          "gasoline/diesel": 8
         },
-        "last_call": "2026-04-28T18:08:13.607111+00:00"
+        "last_call": "2026-04-28T19:57:46.177816+00:00"
       },
       "google_news": {
-        "calls_today": 70,
-        "succeeded": 70,
+        "calls_today": 80,
+        "succeeded": 80,
         "failed": 0,
         "limit_per_day": 5000,
-        "pct_of_limit": 1.4,
+        "pct_of_limit": 1.6,
         "endpoints": {},
-        "last_call": "2026-04-28T18:09:43.959470+00:00"
+        "last_call": "2026-04-28T19:59:55.845365+00:00"
       },
       "gdelt": {
-        "calls_today": 70,
-        "succeeded": 39,
-        "failed": 31,
+        "calls_today": 80,
+        "succeeded": 48,
+        "failed": 32,
         "limit_per_day": 500,
-        "pct_of_limit": 14.0,
+        "pct_of_limit": 16.0,
         "endpoints": {},
-        "last_call": "2026-04-28T18:09:48.029651+00:00"
+        "last_call": "2026-04-28T20:00:06.997385+00:00"
       },
       "anthropic": {
         "calls_today": 4,
@@ -130,8 +130,8 @@
     }
   },
   "recent_activity": {
-    "last_successful_autopilot": "2026-04-28T18:09:48.272312+00:00",
-    "last_successful_news_update": "2026-04-28T18:08:03.977429+00:00",
+    "last_successful_autopilot": "2026-04-28T20:00:07.210214+00:00",
+    "last_successful_news_update": "2026-04-28T19:57:38.383970+00:00",
     "last_successful_nightly_audit": "2026-04-28T09:14:38.117256+00:00",
     "meaningful_changes_last_24h": 4,
     "articles_created_last_24h": 366
