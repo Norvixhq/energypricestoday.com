@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Current price of oil as of April 27, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Warnings on Permanent Oil Demand Destruction Begin Pouring In", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil prices today: Crude jumps nearly 2% as US-Iran talks stall, Hormuz disruptions tighten supply", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Goldman Sachs Raises Oil Price Forecast Yet Again", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Europe Emerges As Key Buyer Of U.S. Strategic Petroleum Reserve Oil", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Gas Prices Climb to Highest Level since the Start of the Iran Conflict", cat: "Gas Prices", slug: "gas-prices", time: "1h" },
+  { title: "Drivers See Small Break as Gas Prices Tick Lower", cat: "Gas Prices", slug: "gas-prices", time: "2h" },
+  { title: "Pump Prices Keep Climbing as Crude Oil Remains High", cat: "Gas Prices", slug: "gas-prices", time: "3h" },
+  { title: "For the First Time in Four Years, National Average Exceeds $4/Gallon", cat: "Gas Prices", slug: "gas-prices", time: "4h" },
+  { title: "Wobbly Gas Prices Following Major Winter Storm", cat: "Gas Prices", slug: "gas-prices", time: "5h" },
+  { title: "National Gas Average Jumps One Dollar in One Month", cat: "Gas Prices", slug: "gas-prices", time: "6h" },
+  { title: "Rising Pump Prices, Higher Gas Demand as Spring Break Begins", cat: "Gas Prices", slug: "gas-prices", time: "7h" },
+  { title: "Seasonal Shift Toward Rising Gas Prices", cat: "Gas Prices", slug: "gas-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
