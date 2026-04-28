@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Warnings on Permanent Oil Demand Destruction Begin Pouring In", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of April 27, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Current price of oil as of April 27, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Warnings on Permanent Oil Demand Destruction Begin Pouring In", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Oil prices today: Crude jumps nearly 2% as US-Iran talks stall, Hormuz disruptions tighten supply", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Europe Emerges As Key Buyer Of U.S. Strategic Petroleum Reserve Oil", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Goldman Sachs Raises Oil Price Forecast Yet Again", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Goldman Sachs Raises Oil Price Forecast Yet Again", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Europe Emerges As Key Buyer Of U.S. Strategic Petroleum Reserve Oil", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
   { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Brent oil heads for record monthly surge, WTI settles above $100 for first time since 2022", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
