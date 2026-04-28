@@ -63,9 +63,9 @@ const BREAKING_NEWS = [
   { title: "Oil prices today: Crude jumps nearly 2% as US-Iran talks stall, Hormuz disruptions tighten supply", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Europe Emerges As Key Buyer Of U.S. Strategic Petroleum Reserve Oil", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
   { title: "Goldman Sachs Raises Oil Price Forecast Yet Again", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "US Oil Drillers Scale Back as Global Supply Crunch Continues", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Brent crude oil spot prices surge past futures price in April", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "The Oil Shock Is Worse Than You Think", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [

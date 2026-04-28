@@ -276,6 +276,7 @@ const ARTICLE_SLUGS = {
   "Surprise 9.13 Million Barrel Crude Draw Sends WTI Above $94": "surprise-913-million-barrel-crude-draw-sends-wti-above-94",
   "Texas Wind Generation Sets New Record at 35 GW During March Storm": "texas-wind-generation-sets-new-record-at-35-gw-during-march-storm",
   "The New Oil Order: How OPEC+ Strategy Is Reshaping Global Crude Markets in 2026": "the-new-oil-order-how-opec-strategy-is-reshaping-global-crude-markets-in-2026",
+  "The Oil Shock Is Worse Than You Think": "the-oil-shock-is-worse-than-you-think",
   "TotalEnergies Signs 20-Year LNG Supply Agreement with India": "totalenergies-signs-20-year-lng-supply-agreement-with-india",
   "TotalEnergies Signs Major LNG Supply Deal with India": "totalenergies-signs-major-lng-supply-deal-with-india",
   "Trump Announces Full Naval Blockade of Strait of Hormuz": "trump-announces-full-naval-blockade-of-strait-of-hormuz",
