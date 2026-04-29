@@ -1,27 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-04-29T15:31:39.875278+00:00",
-  "previous_generated_at": "2026-04-29T13:12:38.310421+00:00",
-  "resolver_run_count": 6,
+  "generated_at": "2026-04-29T17:11:21.361765+00:00",
+  "previous_generated_at": "2026-04-29T15:31:39.875278+00:00",
+  "resolver_run_count": 7,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "no definitive signals",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-04-29T08:48:08+00:00",
-      "source_count": 2,
-      "summary_short": "Japan-Linked Tanker Carrying Saudi Oil Passes Strait of Hormuz",
-      "summary_long": "Japan-Linked Tanker Carrying Saudi Oil Passes Strait of Hormuz. Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
+      "status": "CLOSED",
+      "status_detail": "Japanese Oil Tanker Passes Hormuz Amid Iran Blockade",
+      "status_tag": "Strait closed",
+      "risk_level": "HIGH",
+      "confidence": 0.956,
+      "last_confirmed": "2026-04-29T15:53:26+00:00",
+      "source_count": 4,
+      "summary_short": "Japanese Oil Tanker Passes Hormuz Amid Iran Blockade",
+      "summary_long": "Japanese Oil Tanker Passes Hormuz Amid Iran Blockade. Japan-Linked Tanker Carrying Saudi Oil Passes Strait of Hormuz",
       "evidence_cluster_ids": [
+        "c_d12deb2e145c84",
         "c_7db6f42db30323",
-        "c_587d137f6a579f"
+        "c_1665abaff84403"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,8 +39,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
-      ]
+        "cluster c_d12deb2e14 → CLOSED (kw='blockade', weight=0.71) [OPEN suppressed]",
+        "winning=CLOSED (0.71/0.71), conf=0.956"
+      ],
+      "previous_status": "OPEN",
+      "last_changed": "2026-04-29T17:11:21.361598+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -50,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-29T14:51:46+00:00",
-      "source_count": 7,
-      "summary_short": "Oil price jumps to $117 after reports of 'extended' Iran blockade",
-      "summary_long": "Oil price jumps to $117 after reports of 'extended' Iran blockade. U.S. warns banks of sanctions risk over China ‘teapot’ refineries handling Iranian oil",
+      "last_confirmed": "2026-04-29T16:17:12+00:00",
+      "source_count": 15,
+      "summary_short": "Japanese Oil Tanker Passes Hormuz Amid Iran Blockade",
+      "summary_long": "Japanese Oil Tanker Passes Hormuz Amid Iran Blockade. Oil price soars to $119 after reports of 'extended' Iran blockade",
       "evidence_cluster_ids": [
-        "c_4882c5df06c40d",
-        "c_d2f0d4becfba07",
-        "c_c3a699ba7fa8e3",
+        "c_d12deb2e145c84",
+        "c_fa19c3adab9e34",
+        "c_57b02ca894e60a",
         "c_8ae28bf8e697b0",
-        "c_dbe3949fc73f0b"
+        "c_96bc8a8c503851"
       ],
-      "evidence_count": 7,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -91,18 +95,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-29T11:46:07+00:00",
-      "source_count": 13,
-      "summary_short": "Adidas shares pop 8% after earnings beat; European stocks fall as UAE OPEC exit complicates oil outlook",
-      "summary_long": "Adidas shares pop 8% after earnings beat; European stocks fall as UAE OPEC exit complicates oil outlook. UAE’s OPEC Split Reflects Twilight of the Oil Age",
+      "last_confirmed": "2026-04-29T16:11:01+00:00",
+      "source_count": 17,
+      "summary_short": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices",
+      "summary_long": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices. Russia says UAE's exit from OPEC will increase global production, bring down oil prices in future",
       "evidence_cluster_ids": [
-        "c_d906a62d9a35e6",
-        "c_97937dc436f891",
-        "c_ae14cc44a81e7a",
-        "c_7e6b7abefc2ac2",
-        "c_aeb6cc900df393"
+        "c_ad652810c89cbf",
+        "c_9bf35bdb7ae1c6",
+        "c_dbc06b21f79840",
+        "c_6eec491a2e2840",
+        "c_97937dc436f891"
       ],
-      "evidence_count": 13,
+      "evidence_count": 14,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -122,18 +126,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "HIGH",
+      "risk_level": "HIGH",
+      "score": 50,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: high.",
+      "summary_long": "Risk drivers: Hormuz closed",
+      "summary_micro": "closed",
       "rationale": [
+        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -145,18 +150,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "LOW",
+      "last_changed": "2026-04-29T17:11:21.361598+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_ce1b61b4b5ee32",
-      "lead_title": "U.S. Crude Oil Stockpiles Fall on Record Weekly Exports",
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNLWx4cm9FeTdoakN1aF93NlBXN0wxTTdVYTEyYXNhYTZ2NEVvVEV0U0dMR21KMjhta3lFV2VpanA3YkNvZ2Z2N3VnT093NFFpNkFrSXFFcGNvQ1JpajVYaUs4eHhSNWJRNUVyMDhqVXE5cUdqQ2MycDFrZkI5WjZPdDFiaktmS0dxclBHd2xGYlVqUF9pMHEyYUtNa1c5REs0UVJKTVpn?oc=5",
-      "lead_source": "WSJ",
+      "cluster_id": "c_ad652810c89cbf",
+      "lead_title": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YYWFLSFlHSk1QWGxCZVNtWnVqcTZQdk9jb3RGYnJuRTV3NDh1S1VzNEVKSzBmWDN2cDlNZ2k5bS1oSjNRdWozeXVjMllsQnlUQTFpaE9jMmdMU0FGTWxKdzg3SUVBOTVpeXExWjVtWdIBdEFVX3lxTE5zV3NmcXZLRGMwQjQ3VzBfYW9YeFNZd0NiZEE3cW5tQUdBNU1GLWxKSU16WF9OaTNEa1Y1Y0NnbXNmRzcyWDJOdUQtV1JPekhRcXQtRW9faUZGMEpSMnAxNnRIajRBaXh0bDZkSXg3YVJ1aDFE?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 92.57,
+      "score": 95.0,
       "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
@@ -168,9 +175,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "OPEN",
+      "to": "CLOSED",
+      "detected_at": "2026-04-29T17:11:21.361598+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-29T17:11:21.361598+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-29T17:11:21.361598+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-04-29T17:11:21.361598+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.956, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
