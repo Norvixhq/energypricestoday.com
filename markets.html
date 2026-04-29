@@ -19,7 +19,7 @@ fbq('init','957762016897581');fbq('track','PageView');
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=12">
+  <link rel="stylesheet" href="css/styles.css?v=13">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
@@ -157,8 +157,8 @@ fbq('init','957762016897581');fbq('track','PageView');
     </div></div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=12"></script><script src="js/article-slugs.js?v=12"></script><script src="js/main.js?v=12"></script><script src="js/live-data.js?v=12"></script><script src="js/news-feed.js?v=12"></script>
-  <script src="js/event-state.js?v=12"></script>
+  <script src="js/data.js?v=13"></script><script src="js/article-slugs.js?v=13"></script><script src="js/main.js?v=13"></script><script src="js/live-data.js?v=13"></script><script src="js/news-feed.js?v=13"></script>
+  <script src="js/event-state.js?v=13"></script>
   <script>
     // ─── Reusable card templates ─────────────────────────────────
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.65">'+d+'</div></div>';}
@@ -379,19 +379,19 @@ fbq('init','957762016897581');fbq('track','PageView');
     // ─── Driver cards (expanded to 9) ────────────────────────────
     // Hormuz / Ceasefire / OPEC driver cards bind to events.json via data-event-bind.
     // Everything else is static explanatory content.
-    var mktHormuzFb   = 'Strait remains essentially closed as conflict enters its third month. Iran reportedly lost track of mines it laid; full normalization could take months even after a deal. Trump ordered Navy to &ldquo;shoot and kill&rdquo; mine-laying boats April 22. U.S. dual-blockade continues. Risk premium fully embedded in tape.';
-    var mktCeasefireFb= 'Talks collapsed again over the weekend. Araghchi left Pakistan Sunday April 26 without meeting any U.S. officials. Trump cancelled the Witkoff-Kushner trip Saturday. Sharif-Pezeshkian held a 50-minute phone call. Pakistani back-channel mediation continues but direct talks remain stalled.';
-    var mktOpecFb     = 'The 206K bpd April output increase is proceeding despite the standoff. Saudi East-West Pipeline at full 5M bpd capacity &mdash; the primary Hormuz bypass. No emergency JMMC meeting called. Gulf producers on heightened alert after IRGC threats. May ministerial in early May.';
+    var mktHormuzFb   = 'Strait remains essentially closed in ninth week. Iran reportedly lost track of mines; full normalization could take months even after a deal. Iran proposed Apr 27 to reopen if U.S. lifts blockade. Trump skeptical, posted Tuesday Iran in &ldquo;State of Collapse.&rdquo; Risk premium fully embedded in tape.';
+    var mktCeasefireFb= 'Iran formally proposed Apr 27 a Hormuz-for-blockade swap with nuclear talks deferred. Trump and security team met Monday; Rubio dismissed framing on Fox. CNN reports Trump &ldquo;does not love&rdquo; the proposal. Pakistani back-channel mediation continues; European allies pushing for comprehensive framework.';
+    var mktOpecFb     = 'The 206K bpd April output increase is proceeding despite the standoff. Saudi East-West Pipeline at full 5M bpd capacity &mdash; the primary Hormuz bypass. No emergency JMMC meeting called. Gulf producers on heightened alert as conflict enters ninth week. May ministerial in early May.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz Crisis — Ongoing','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+mktHormuzFb.replace(/"/g,'&quot;')+'">'+mktHormuzFb+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics dashboard →</a>'),
-      TC('chevron-right','U.S.-Iran Talks — Collapsed','<span data-event-bind="us_iran_ceasefire.summary_long|truncate:240" data-event-fallback="'+mktCeasefireFb.replace(/"/g,'&quot;')+'">'+mktCeasefireFb+'</span> <a href="articles/araghchi-leaves-pakistan-without-meeting-us-officials-as-talks-collapse.html" style="color:var(--blue)">Full coverage →</a>'),
+      TC('chevron-right','Iran Proposal — Trump Skeptical','<span data-event-bind="us_iran_ceasefire.summary_long|truncate:240" data-event-fallback="'+mktCeasefireFb.replace(/"/g,'&quot;')+'">'+mktCeasefireFb+'</span> <a href="articles/iran-proposes-hormuz-reopening-if-us-lifts-naval-blockade.html" style="color:var(--blue)">Full coverage →</a>'),
       TC('users','OPEC+ — Holding the Plan','<span data-event-bind="opec_plus_policy.summary_long|truncate:240" data-event-fallback="'+mktOpecFb.replace(/"/g,'&quot;')+'">'+mktOpecFb+'</span> <a href="articles/what-is-opec-plus-how-it-affects-oil-prices.html" style="color:var(--blue)">OPEC+ explainer →</a>'),
-      TC('factory','Refining Season — Peak Turnaround','Spring maintenance has pulled U.S. refining utilization to ~87%. Summer gasoline blend transition is adding $0.10-0.25/gal to RBOB. Gulf Coast refiners ramping aggressively for peak driving demand through Memorial Day.'),
+      TC('factory','Refining Season — Peak Turnaround','Spring maintenance has pulled U.S. refining utilization to ~87%. Summer gasoline blend transition is adding $0.10-0.25/gal to RBOB. Gulf Coast refiners ramping aggressively for peak driving demand through Memorial Day. Crack spreads at multi-year highs.'),
       TC('bar-chart','EIA Inventory Data — Bullish','EIA inventory reports continue to show draws as U.S. dual-blockade keeps Middle East cargoes stranded. Cushing stocks below the 5-year average. Next report Wednesday 10:30 a.m. ET. Inventory dynamics reinforce the supply-tight regime.'),
-      TC('bar-chart','Refined Product Cracks — Stabilizing','RBOB gasoline and ULSD diesel firming alongside crude. Crack spreads (the refiner margin over crude) holding $27-30/bbl. Refiner profitability intact. Summer blend transition supports RBOB premium over winter grade.'),
-      TC('trending-up','Natural Gas — Firming','Henry Hub near $2.60/MMBtu, firming as the Qatari LNG disruption bites again. Mild spring demand softens the shoulder, but LNG exports near capacity at 14 Bcf/d as European buyers return to premium bidding. Dutch TTF elevated.'),
+      TC('bar-chart','Refined Product Cracks — Firming','RBOB gasoline +5% Tuesday, ULSD +4.7% as crude rallied. Crack spreads (the refiner margin over crude) at multi-year highs near $30+/bbl. Summer blend transition supports RBOB premium. Pump-level: AAA national $4.144/gal, highest since summer 2022.'),
+      TC('trending-up','Natural Gas — Firming','Henry Hub near $2.61/MMBtu, firming as the Qatari LNG disruption bites again. Mild spring demand softens the shoulder, but LNG exports near capacity at 14 Bcf/d as European buyers return to premium bidding. Dutch TTF elevated.'),
       TC('anchor','LNG Trade — Tight','JKM and TTF both elevated on Qatari export disruption. Europe cannot easily pivot back to Russian pipeline gas; Asian importers are outbidding European utility buyers. EU transport chief preparing airline guidance on potential jet fuel shortages.'),
-      TC('activity','Trading Desks — Weekly Surge','WTI up 13% on the week, Brent up 18% &mdash; biggest weekly gains since early March. Friday closes: WTI $94.70, Brent $104.40. Markets expected to push higher Monday on weekend talks collapse. Options implied volatility at multi-year highs.'),
+      TC('activity','Trading Desks — Tuesday Surge','WTI settled $99.93 (+3.94%), Brent $111.26 (+2.83%) — seventh consecutive session of gains. Both at multi-week highs. Refined products tracked higher across the board. Options implied volatility at multi-year highs as markets weigh Iran proposal.'),
     ].join('');
 
     // Re-apply event-state bindings after innerHTML injection.
