@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil prices rise as US-Iran peace talks stall", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil price soars to $119 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Current price of oil as of April 28, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil price climbs above $110 for first time in three weeks", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Warnings on Permanent Oil Demand Destruction Begin Pouring In", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil price climbs above $110 for first time in three weeks", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "EIA US Crude Oil Inventories Crashing, But Holding Above Average", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Here's what's behind oil's 8-day climb back near Iran-war highs", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Crude oil price jumps to $115, highest level since June 2022 amid stalled Iran war talks. Brace for $150?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
