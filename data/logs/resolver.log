@@ -1,0 +1,15 @@
+[2026-04-29T04:58:47.409108+00:00] resolver: start
+[2026-04-29T04:58:47.413270+00:00] resolver: scanning 275 clusters across 10 topics
+[2026-04-29T04:58:47.413578+00:00]   hormuz_status: CLOSED (conf=0.965, freshness=fresh, clusters=7)
+[2026-04-29T04:58:47.415051+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=29)
+[2026-04-29T04:58:47.415327+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=21)
+[2026-04-29T04:58:47.415372+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-29T04:58:47.415575+00:00]   top_story: 'UAE's shock OPEC exit: What it means for the oil cartel's fu' (score=97.33)
+[2026-04-29T04:58:47.415634+00:00] resolver: 5 change(s), 5 meaningful, 2 publish-triggering
+[2026-04-29T04:58:47.415664+00:00]   Δ hormuz_status.new_event: 'None' → 'CLOSED' (triggers_publish=True)
+[2026-04-29T04:58:47.415704+00:00]   Δ us_iran_ceasefire.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-04-29T04:58:47.415730+00:00]   Δ opec_plus_policy.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-04-29T04:58:47.415753+00:00]   Δ global_risk_level.new_event: 'None' → 'HIGH' (triggers_publish=False)
+[2026-04-29T04:58:47.415776+00:00]   Δ top_story.new_event: 'None' → '' (triggers_publish=True)
+[2026-04-29T04:58:47.416138+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-29T04:58:47.416173+00:00] ════════════════════════════════════════════════════════════
