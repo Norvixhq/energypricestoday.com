@@ -23,3 +23,17 @@
 [2026-04-29T07:32:09.255263+00:00] resolver: no state changes
 [2026-04-29T07:32:09.255781+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-29T07:32:09.255822+00:00] ════════════════════════════════════════════════════════════
+[2026-04-29T09:53:18.024083+00:00] resolver: start
+[2026-04-29T09:53:18.028280+00:00] resolver: scanning 275 clusters across 10 topics
+[2026-04-29T09:53:18.028614+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=2)
+[2026-04-29T09:53:18.029695+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=9)
+[2026-04-29T09:53:18.029973+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=19)
+[2026-04-29T09:53:18.030018+00:00]   global_risk_level: LOW (score=10)
+[2026-04-29T09:53:18.030231+00:00]   top_story: 'Oil prices extend multi-day rally as Trump issues new threat' (score=90.88)
+[2026-04-29T09:53:18.030295+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-04-29T09:53:18.030327+00:00]   Δ hormuz_status.status: 'CLOSED' → 'OPEN' (triggers_publish=False)
+[2026-04-29T09:53:18.030357+00:00]   Δ hormuz_status.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-04-29T09:53:18.030384+00:00]   Δ global_risk_level.status: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-04-29T09:53:18.030408+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-04-29T09:53:18.031006+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-29T09:53:18.031068+00:00] ════════════════════════════════════════════════════════════

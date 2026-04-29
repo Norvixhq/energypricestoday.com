@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-29T04:58:47.415798+00:00",
-  "previous_generated_at": "",
-  "resolver_run_count": 1,
+  "generated_at": "2026-04-29T07:32:09.255290+00:00",
+  "previous_generated_at": "2026-04-29T04:58:47.415798+00:00",
+  "resolver_run_count": 2,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.965,
+      "confidence": 0.954,
       "last_confirmed": "2026-04-29T04:45:07+00:00",
-      "source_count": 12,
+      "source_count": 8,
       "summary_short": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
       "summary_long": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit. Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory",
       "evidence_cluster_ids": [
         "c_b9f8188b4163bb",
         "c_115d38d79745e7",
-        "c_b98940ea0aae2c",
-        "c_1a500eb1877a22",
-        "c_729e4d4879f7bb"
+        "c_5271ca2841b1c2",
+        "c_6319966dd9c484",
+        "c_1665abaff84403"
       ],
-      "evidence_count": 7,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_115d38d797 → CLOSED (kw='blockade', weight=0.78) [OPEN suppressed]",
-        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
-        "winning=CLOSED (0.87/0.87), conf=0.965"
+        "cluster c_115d38d797 → CLOSED (kw='blockade', weight=0.58) [OPEN suppressed]",
+        "winning=CLOSED (0.58/0.58), conf=0.954"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-29T04:18:45+00:00",
-      "source_count": 34,
-      "summary_short": "Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory",
-      "summary_long": "Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory. BP Profits Double as Iran War Boosts Oil Traders",
+      "last_confirmed": "2026-04-29T05:00:01+00:00",
+      "source_count": 12,
+      "summary_short": "Major data center company pauses investment decisions in Middle East amid Iran war, CEO tells CNBC",
+      "summary_long": "Major data center company pauses investment decisions in Middle East amid Iran war, CEO tells CNBC. Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory",
       "evidence_cluster_ids": [
+        "c_2aec96b12a6fc5",
         "c_115d38d79745e7",
-        "c_1e25a61f76afc4",
         "c_d2f0d4becfba07",
-        "c_7668ceb0d29ebd",
+        "c_1e25a61f76afc4",
         "c_fb12eb775b14b1"
       ],
-      "evidence_count": 29,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -96,14 +95,14 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-29T04:45:07+00:00",
-      "source_count": 28,
-      "summary_short": "The UAE’s OPEC Exit Is Existential for the Oil Cartel",
-      "summary_long": "The UAE’s OPEC Exit Is Existential for the Oil Cartel. Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
+      "last_confirmed": "2026-04-29T05:26:49+00:00",
+      "source_count": 24,
+      "summary_short": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit",
+      "summary_long": "Oil ends up nearly 3% as Hormuz disruption outweighs UAE OPEC exit. Oil slips as market digests UAE exit from OPEC, supply concerns linger",
       "evidence_cluster_ids": [
-        "c_3367b50d90a0b4",
+        "c_8026feae4f16d3",
+        "c_8b1ffb06f34bbb",
         "c_7e6b7abefc2ac2",
-        "c_30eecade46512e",
         "c_2986bb14755486",
         "c_ee73e4572bf6cf"
       ],
@@ -162,9 +161,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YYWFLSFlHSk1QWGxCZVNtWnVqcTZQdk9jb3RGYnJuRTV3NDh1S1VzNEVKSzBmWDN2cDlNZ2k5bS1oSjNRdWozeXVjMllsQnlUQTFpaE9jMmdMU0FGTWxKdzg3SUVBOTVpeXExWjVtWdIBdEFVX3lxTE5zV3NmcXZLRGMwQjQ3VzBfYW9YeFNZd0NiZEE3cW5tQUdBNU1GLWxKSU16WF9OaTNEa1Y1Y0NnbXNmRzcyWDJOdUQtV1JPekhRcXQtRW9faUZGMEpSMnAxNnRIajRBaXh0bDZkSXg3YVJ1aDFE?oc=5",
       "lead_source": "CNBC",
       "topic": "energy",
-      "score": 97.33,
-      "novelty": "new",
-      "source_count": 4,
+      "score": 92.52,
+      "novelty": "growing",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -174,55 +173,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CLOSED",
-      "detected_at": "2026-04-29T04:58:47.415615+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-04-29T04:58:47.415615+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-04-29T04:58:47.415615+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "new_event",
-      "from": null,
-      "to": "HIGH",
-      "detected_at": "2026-04-29T04:58:47.415615+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "top_story",
-      "field": "new_event",
-      "from": null,
-      "to": "",
-      "detected_at": "2026-04-29T04:58:47.415615+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.965, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.954, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
