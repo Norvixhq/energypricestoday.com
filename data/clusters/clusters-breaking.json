@@ -1,6 +1,6 @@
 {
   "topic": "breaking",
-  "generated_at": "2026-04-29T21:41:39.780207+00:00",
+  "generated_at": "2026-04-29T22:41:51.361359+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -23,17 +23,17 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 494.69,
-      "score": 55.2,
+      "age_hours": 495.7,
+      "score": 40.2,
       "score_components": {
         "source_count_points": 15,
         "recency_points": 0.0,
         "source_quality_points": 26.2,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "765b9cad13ab7928",
@@ -82,16 +82,16 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 974.69,
-      "score": 46.75,
+      "age_hours": 975.7,
+      "score": 36.75,
       "score_components": {
         "source_count_points": 10,
         "recency_points": 0.0,
         "source_quality_points": 27.75,
         "entity_relevance_points": 4,
-        "materiality_points": 5.0
+        "materiality_points": -5.0
       },
-      "novelty": "growing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -117,125 +117,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_6319966dd9c484",
-      "topic": "breaking",
-      "lead_title": "Oil settles up 9% as Iran vows to keep Strait of Hormuz closed",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-12T07:00:00+00:00",
-      "latest_seen": "2026-03-12T07:00:00+00:00",
-      "age_hours": 1166.69,
-      "score": 43.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "f4169fa23d14fff5",
-          "title": "Oil settles up 9% as Iran vows to keep Strait of Hormuz closed",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-03-12T07:00:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1665abaff84403",
-      "topic": "breaking",
-      "lead_title": "Oil soars amid Strait of Hormuz shipping fears as Iran war drives prices to nearly $80",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb2VCUW8zQklDMWdPTFJycThnRDd1MkpTXzl5aDJvdWlma2F0UGlSQ2RPam50bkVsOVVYQnVjUWdIVF9SRklrdE5DNGJBTnJRQkF2NlhrS1U0OXZkUld1VWNkaXNieDVMdXVNN3QzNDFxYjM3MENlZ2hjVW1LbWZDLTBUNUl6ZHJUOXBrTnFyTnJfMVQwck02NFF3cXhWV0V4OTdVZTd5RnliMTVUeDNZ0gG0AUFVX3lxTE9oeUFWNEg3alZzZXJYYms1bjVmTFcwT0VMcG4tQzJLQVRsNkwyN3Jhbm9FbWtMYkcxRGY0TXpjaDU1Q0x1bFBCX29SeDFQNVd3VlhkcnoyQ0lQcEk4cEU3WS13a1dkenJUMDhJZzdiTTZMUEU4NkpZT2lmX09aX0htWHZHSnZtQ09yMV9jOWtuUWF3MUFsTC12LTI4c3ZDYWQ1MlpFblpNU194MUcwSjdQXzlMVQ?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-02T08:00:00+00:00",
-      "latest_seen": "2026-03-02T08:00:00+00:00",
-      "age_hours": 1405.69,
-      "score": 41.4,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "428d97ca79aa2e7e",
-          "title": "Oil soars amid Strait of Hormuz shipping fears as Iran war drives prices to nearly $80",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb2VCUW8zQklDMWdPTFJycThnRDd1MkpTXzl5aDJvdWlma2F0UGlSQ2RPam50bkVsOVVYQnVjUWdIVF9SRklrdE5DNGJBTnJRQkF2NlhrS1U0OXZkUld1VWNkaXNieDVMdXVNN3QzNDFxYjM3MENlZ2hjVW1LbWZDLTBUNUl6ZHJUOXBrTnFyTnJfMVQwck02NFF3cXhWV0V4OTdVZTd5RnliMTVUeDNZ0gG0AUFVX3lxTE9oeUFWNEg3alZzZXJYYms1bjVmTFcwT0VMcG4tQzJLQVRsNkwyN3Jhbm9FbWtMYkcxRGY0TXpjaDU1Q0x1bFBCX29SeDFQNVd3VlhkcnoyQ0lQcEk4cEU3WS13a1dkenJUMDhJZzdiTTZMUEU4NkpZT2lmX09aX0htWHZHSnZtQ09yMV9jOWtuUWF3MUFsTC12LTI4c3ZDYWQ1MlpFblpNU194MUcwSjdQXzlMVQ?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-03-02T08:00:00+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f2684e6e2ee678",
-      "topic": "breaking",
-      "lead_title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFVCX2djRl9zQWlmMl81bVd6b3pqbFlOdkl3V0dFaGFKS21DX0FDMXB4cVVWRDljcl9zTkdvUk5CU2V5elliVENtMmNMaHRxS3hqSmJXQk5qMmsyT0NocUNTQnRialNoZ1czaHJTZlhfRXd2Z1djazQ0a0JQTlpjMFBPRjdvOFVJT1ItenBfUlJhbnpoY2ZpMWVsc2ViVUVpU0pNMTAwdWk4REVoZWtTTXdud1daU3FmWnfSAb8BQVVfeXFMT3pKRTZ1dUREa2dOdTMxS1Q1TWg2MWUwSjloRUJlcFpFZHZ1SHh3QlhfYXdDa05OUDMtSTk1d2xWOXFTVENxSWZXcjFvaUp1V2JxaTRlNC1ucFZwYnVyZ1NpWm01ZWwtTEt2QmlBZHF5V2dfbEhHU01xRkQyd21vNW9xbGFBZm52bnlLbzNsUjNGajVQb1ZJY1hnbEtGbjVFRkRKQ1YxSEhXTC12M3pBXzEtZ2xPZXRuX194c0Zpb1E?oc=5",
-      "lead_source": "PBS",
-      "canonical_entities": [
-        "attack"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-19T07:00:00+00:00",
-      "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 998.69,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "633d7efb9611fe58",
-          "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFVCX2djRl9zQWlmMl81bVd6b3pqbFlOdkl3V0dFaGFKS21DX0FDMXB4cVVWRDljcl9zTkdvUk5CU2V5elliVENtMmNMaHRxS3hqSmJXQk5qMmsyT0NocUNTQnRialNoZ1czaHJTZlhfRXd2Z1djazQ0a0JQTlpjMFBPRjdvOFVJT1ItenBfUlJhbnpoY2ZpMWVsc2ViVUVpU0pNMTAwdWk4REVoZWtTTXdud1daU3FmWnfSAb8BQVVfeXFMT3pKRTZ1dUREa2dOdTMxS1Q1TWg2MWUwSjloRUJlcFpFZHZ1SHh3QlhfYXdDa05OUDMtSTk1d2xWOXFTVENxSWZXcjFvaUp1V2JxaTRlNC1ucFZwYnVyZ1NpWm01ZWwtTEt2QmlBZHF5V2dfbEhHU01xRkQyd21vNW9xbGFBZm52bnlLbzNsUjNGajVQb1ZJY1hnbEtGbjVFRkRKQ1YxSEhXTC12M3pBXzEtZ2xPZXRuX194c0Zpb1E?oc=5",
-          "source": "PBS",
-          "source_type": "rss",
-          "published_at": "2026-03-19T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_f5747c9e7e1c90",
       "topic": "breaking",
       "lead_title": "Oil extends gains to rise 5.6% after Iran attacks Gulf energy facilities",
@@ -251,7 +132,7 @@
       ],
       "earliest_seen": "2026-03-18T07:00:00+00:00",
       "latest_seen": "2026-03-18T07:00:00+00:00",
-      "age_hours": 1022.69,
+      "age_hours": 1023.7,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -273,7 +154,7 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
@@ -292,7 +173,7 @@
       ],
       "earliest_seen": "2026-03-14T07:00:00+00:00",
       "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 1118.69,
+      "age_hours": 1119.7,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -333,7 +214,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 998.69,
+      "age_hours": 999.7,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -374,7 +255,7 @@
       ],
       "earliest_seen": "2026-04-09T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 494.69,
+      "age_hours": 495.7,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -415,7 +296,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 518.69,
+      "age_hours": 519.7,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -456,7 +337,7 @@
       ],
       "earliest_seen": "2026-03-22T07:00:00+00:00",
       "latest_seen": "2026-03-22T07:00:00+00:00",
-      "age_hours": 926.69,
+      "age_hours": 927.7,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -495,7 +376,7 @@
       ],
       "earliest_seen": "2026-04-01T07:00:00+00:00",
       "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 686.69,
+      "age_hours": 687.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -534,7 +415,7 @@
       ],
       "earliest_seen": "2026-03-31T07:00:00+00:00",
       "latest_seen": "2026-03-31T07:00:00+00:00",
-      "age_hours": 710.69,
+      "age_hours": 711.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -573,7 +454,7 @@
       ],
       "earliest_seen": "2026-03-23T07:00:00+00:00",
       "latest_seen": "2026-03-23T07:00:00+00:00",
-      "age_hours": 902.69,
+      "age_hours": 903.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -612,7 +493,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 998.69,
+      "age_hours": 999.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -651,7 +532,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 998.69,
+      "age_hours": 999.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -690,7 +571,7 @@
       ],
       "earliest_seen": "2026-03-13T07:00:00+00:00",
       "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1142.69,
+      "age_hours": 1143.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -716,6 +597,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_6319966dd9c484",
+      "topic": "breaking",
+      "lead_title": "Oil settles up 9% as Iran vows to keep Strait of Hormuz closed",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-12T07:00:00+00:00",
+      "latest_seen": "2026-03-12T07:00:00+00:00",
+      "age_hours": 1167.7,
+      "score": 28.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "f4169fa23d14fff5",
+          "title": "Oil settles up 9% as Iran vows to keep Strait of Hormuz closed",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObUlmTHZTREdweklZWFUzeEp0dzFUbk56bWVQQ3hWY0IzWDlZN0JzUllPUmJyd3U2RVZVUHQ3SE5DcFBSZmVNYlljWEJYTVpRTlVISVFKTWoyR2Z2aEVrQ0dVU3RKc1lhay1QWG5TVlltdHB1YVFRNHFpemRxalFyRk56andqamRBVHBJVmwwZTFkcDh4c1NuNFloakZRX2xHSnlyRTgxbkVycVVTUjBWS0pyV0pmMjVW?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-03-12T07:00:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_766c2e5cc9841a",
       "topic": "breaking",
       "lead_title": "Surveying the Middle East’s energy infrastructure damage",
@@ -729,7 +649,7 @@
       ],
       "earliest_seen": "2026-04-10T07:00:00+00:00",
       "latest_seen": "2026-04-10T07:00:00+00:00",
-      "age_hours": 470.69,
+      "age_hours": 471.7,
       "score": 27.6,
       "score_components": {
         "source_count_points": 5,
@@ -768,7 +688,7 @@
       ],
       "earliest_seen": "2026-03-29T07:00:00+00:00",
       "latest_seen": "2026-03-29T07:00:00+00:00",
-      "age_hours": 758.69,
+      "age_hours": 759.7,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
@@ -794,6 +714,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_1665abaff84403",
+      "topic": "breaking",
+      "lead_title": "Oil soars amid Strait of Hormuz shipping fears as Iran war drives prices to nearly $80",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb2VCUW8zQklDMWdPTFJycThnRDd1MkpTXzl5aDJvdWlma2F0UGlSQ2RPam50bkVsOVVYQnVjUWdIVF9SRklrdE5DNGJBTnJRQkF2NlhrS1U0OXZkUld1VWNkaXNieDVMdXVNN3QzNDFxYjM3MENlZ2hjVW1LbWZDLTBUNUl6ZHJUOXBrTnFyTnJfMVQwck02NFF3cXhWV0V4OTdVZTd5RnliMTVUeDNZ0gG0AUFVX3lxTE9oeUFWNEg3alZzZXJYYms1bjVmTFcwT0VMcG4tQzJLQVRsNkwyN3Jhbm9FbWtMYkcxRGY0TXpjaDU1Q0x1bFBCX29SeDFQNVd3VlhkcnoyQ0lQcEk4cEU3WS13a1dkenJUMDhJZzdiTTZMUEU4NkpZT2lmX09aX0htWHZHSnZtQ09yMV9jOWtuUWF3MUFsTC12LTI4c3ZDYWQ1MlpFblpNU194MUcwSjdQXzlMVQ?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-02T08:00:00+00:00",
+      "latest_seen": "2026-03-02T08:00:00+00:00",
+      "age_hours": 1406.7,
+      "score": 26.4,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "428d97ca79aa2e7e",
+          "title": "Oil soars amid Strait of Hormuz shipping fears as Iran war drives prices to nearly $80",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQb2VCUW8zQklDMWdPTFJycThnRDd1MkpTXzl5aDJvdWlma2F0UGlSQ2RPam50bkVsOVVYQnVjUWdIVF9SRklrdE5DNGJBTnJRQkF2NlhrS1U0OXZkUld1VWNkaXNieDVMdXVNN3QzNDFxYjM3MENlZ2hjVW1LbWZDLTBUNUl6ZHJUOXBrTnFyTnJfMVQwck02NFF3cXhWV0V4OTdVZTd5RnliMTVUeDNZ0gG0AUFVX3lxTE9oeUFWNEg3alZzZXJYYms1bjVmTFcwT0VMcG4tQzJLQVRsNkwyN3Jhbm9FbWtMYkcxRGY0TXpjaDU1Q0x1bFBCX29SeDFQNVd3VlhkcnoyQ0lQcEk4cEU3WS13a1dkenJUMDhJZzdiTTZMUEU4NkpZT2lmX09aX0htWHZHSnZtQ09yMV9jOWtuUWF3MUFsTC12LTI4c3ZDYWQ1MlpFblpNU194MUcwSjdQXzlMVQ?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-03-02T08:00:00+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_1c1a4f9e28703a",
       "topic": "breaking",
       "lead_title": "Stock markets rattled and energy prices soar after strikes on Qatar gas hub",
@@ -807,7 +766,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 998.69,
+      "age_hours": 999.7,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -848,7 +807,7 @@
       ],
       "earliest_seen": "2026-04-15T07:00:00+00:00",
       "latest_seen": "2026-04-15T07:00:00+00:00",
-      "age_hours": 350.69,
+      "age_hours": 351.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -889,7 +848,7 @@
       ],
       "earliest_seen": "2026-04-09T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 494.69,
+      "age_hours": 495.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -930,7 +889,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 518.69,
+      "age_hours": 519.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -971,7 +930,7 @@
       ],
       "earliest_seen": "2026-04-03T07:00:00+00:00",
       "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 638.69,
+      "age_hours": 639.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1012,7 +971,7 @@
       ],
       "earliest_seen": "2026-04-03T07:00:00+00:00",
       "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 638.69,
+      "age_hours": 639.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1053,7 +1012,7 @@
       ],
       "earliest_seen": "2026-03-27T07:00:00+00:00",
       "latest_seen": "2026-03-27T07:00:00+00:00",
-      "age_hours": 806.69,
+      "age_hours": 807.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1094,7 +1053,7 @@
       ],
       "earliest_seen": "2026-03-23T07:00:00+00:00",
       "latest_seen": "2026-03-23T07:00:00+00:00",
-      "age_hours": 902.69,
+      "age_hours": 903.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1113,6 +1072,47 @@
           "source": "The New York Times",
           "source_type": "rss",
           "published_at": "2026-03-23T07:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f2684e6e2ee678",
+      "topic": "breaking",
+      "lead_title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFVCX2djRl9zQWlmMl81bVd6b3pqbFlOdkl3V0dFaGFKS21DX0FDMXB4cVVWRDljcl9zTkdvUk5CU2V5elliVENtMmNMaHRxS3hqSmJXQk5qMmsyT0NocUNTQnRialNoZ1czaHJTZlhfRXd2Z1djazQ0a0JQTlpjMFBPRjdvOFVJT1ItenBfUlJhbnpoY2ZpMWVsc2ViVUVpU0pNMTAwdWk4REVoZWtTTXdud1daU3FmWnfSAb8BQVVfeXFMT3pKRTZ1dUREa2dOdTMxS1Q1TWg2MWUwSjloRUJlcFpFZHZ1SHh3QlhfYXdDa05OUDMtSTk1d2xWOXFTVENxSWZXcjFvaUp1V2JxaTRlNC1ucFZwYnVyZ1NpWm01ZWwtTEt2QmlBZHF5V2dfbEhHU01xRkQyd21vNW9xbGFBZm52bnlLbzNsUjNGajVQb1ZJY1hnbEtGbjVFRkRKQ1YxSEhXTC12M3pBXzEtZ2xPZXRuX194c0Zpb1E?oc=5",
+      "lead_source": "PBS",
+      "canonical_entities": [
+        "attack"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-19T07:00:00+00:00",
+      "latest_seen": "2026-03-19T07:00:00+00:00",
+      "age_hours": 999.7,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "633d7efb9611fe58",
+          "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFVCX2djRl9zQWlmMl81bVd6b3pqbFlOdkl3V0dFaGFKS21DX0FDMXB4cVVWRDljcl9zTkdvUk5CU2V5elliVENtMmNMaHRxS3hqSmJXQk5qMmsyT0NocUNTQnRialNoZ1czaHJTZlhfRXd2Z1djazQ0a0JQTlpjMFBPRjdvOFVJT1ItenBfUlJhbnpoY2ZpMWVsc2ViVUVpU0pNMTAwdWk4REVoZWtTTXdud1daU3FmWnfSAb8BQVVfeXFMT3pKRTZ1dUREa2dOdTMxS1Q1TWg2MWUwSjloRUJlcFpFZHZ1SHh3QlhfYXdDa05OUDMtSTk1d2xWOXFTVENxSWZXcjFvaUp1V2JxaTRlNC1ucFZwYnVyZ1NpWm01ZWwtTEt2QmlBZHF5V2dfbEhHU01xRkQyd21vNW9xbGFBZm52bnlLbzNsUjNGajVQb1ZJY1hnbEtGbjVFRkRKQ1YxSEhXTC12M3pBXzEtZ2xPZXRuX194c0Zpb1E?oc=5",
+          "source": "PBS",
+          "source_type": "rss",
+          "published_at": "2026-03-19T07:00:00+00:00",
           "confidence": 0.65
         }
       ],

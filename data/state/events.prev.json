@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-29T20:17:43.953241+00:00",
-  "previous_generated_at": "2026-04-29T18:52:52.176209+00:00",
-  "resolver_run_count": 9,
+  "generated_at": "2026-04-29T21:41:39.827321+00:00",
+  "previous_generated_at": "2026-04-29T20:17:43.953241+00:00",
+  "resolver_run_count": 10,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -14,14 +14,16 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-04-29T14:30:17+00:00",
-      "source_count": 3,
-      "summary_short": "Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory",
-      "summary_long": "Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory. Oil jumps to almost $120 as Trump signals extended Hormuz stand-off",
+      "source_count": 4,
+      "summary_short": "Oil tops $120 as Trump signals extended Hormuz stand-off",
+      "summary_long": "Oil tops $120 as Trump signals extended Hormuz stand-off. Alternative routes for Middle East oil and gas due to Hormuz disruption",
       "evidence_cluster_ids": [
-        "c_115d38d79745e7",
-        "c_23fc81a11dcc18"
+        "c_1a500eb1877a22",
+        "c_04d3f2d8fd2874",
+        "c_6319966dd9c484",
+        "c_1665abaff84403"
       ],
-      "evidence_count": 2,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -39,31 +41,29 @@
       "stale_after_hours": 24,
       "rationale": [
         "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-04-29T20:17:43.953097+00:00"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "FRAGILE",
-      "status_detail": "Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory",
-      "status_tag": "Under strain",
-      "risk_level": "HIGH",
-      "confidence": 0.952,
-      "last_confirmed": "2026-04-29T19:42:09+00:00",
-      "source_count": 15,
-      "summary_short": "Trump holds talks on prolonged Iran blockade, urges Tehran to reach a deal",
-      "summary_long": "Trump holds talks on prolonged Iran blockade, urges Tehran to reach a deal. Crude Oil Gains As Iran War Keeps Hormuz Shut And Middle East Flows Stay Tight By Kedia Advisory",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-04-29T20:24:29+00:00",
+      "source_count": 8,
+      "summary_short": "Oil price briefly hits $120 after reports of 'extended' Iran blockade",
+      "summary_long": "Oil price briefly hits $120 after reports of 'extended' Iran blockade. From Jakarta to Manila, south-east Asia turns to Russia to plug fuel, fertiliser gaps caused by Iran",
       "evidence_cluster_ids": [
-        "c_697dcb08f4f4bd",
-        "c_115d38d79745e7",
-        "c_96bc8a8c503851",
-        "c_fa19c3adab9e34",
-        "c_17b52ea7ed7746"
+        "c_01ccfda7600e26",
+        "c_8ae28bf8e697b0",
+        "c_17b52ea7ed7746",
+        "c_2aec96b12a6fc5",
+        "c_c3a699ba7fa8e3"
       ],
-      "evidence_count": 13,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -78,14 +78,13 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_115d38d797 → FRAGILE (kw='in limbo', weight=0.43)",
-        "winning=FRAGILE (0.43/0.43), conf=0.952"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": "",
-      "previous_status": "HOLDING",
-      "last_changed": "2026-04-29T20:17:43.953097+00:00"
+      "previous_status": "FRAGILE",
+      "last_changed": "2026-04-29T21:41:39.827180+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -96,18 +95,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-29T16:37:08+00:00",
-      "source_count": 9,
-      "summary_short": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices",
-      "summary_long": "UAE's shock OPEC exit: What it means for the oil cartel's future and for crude prices. Oil prices rise despite UAE exit from OPEC amid Iran ceasefire impasse",
+      "last_confirmed": "2026-04-29T20:37:30+00:00",
+      "source_count": 11,
+      "summary_short": "Exclusive: OPEC+ likely to agree another oil output hike without UAE, sources say",
+      "summary_long": "Exclusive: OPEC+ likely to agree another oil output hike without UAE, sources say. Shocking UAE exit rocks OPEC, but group will still hold significant sway over the oil market",
       "evidence_cluster_ids": [
-        "c_9809bab2824050",
+        "c_08ec46632b9dc5",
+        "c_3ef230241a0e0f",
+        "c_ae14cc44a81e7a",
         "c_97937dc436f891",
-        "c_d5adedf6896fb5",
-        "c_dbc06b21f79840",
-        "c_96bc8a8c503851"
+        "c_d5adedf6896fb5"
       ],
-      "evidence_count": 8,
+      "evidence_count": 11,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -127,19 +126,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "ELEVATED",
-      "risk_level": "ELEVATED",
-      "score": 25,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: elevated.",
-      "summary_long": "Risk drivers: ceasefire fragile",
-      "summary_micro": "fragile",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "ceasefire=FRAGILE (+25)"
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -151,8 +150,8 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-04-29T20:17:43.953097+00:00"
+      "previous_status": "ELEVATED",
+      "last_changed": "2026-04-29T21:41:39.827180+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -163,8 +162,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObm9rdEFhZmdTWlJGVjg0dk1kRWM2YmU3Q29ueG02N19rcFdNelpuRmJqQlJCaVlMR3JqNjVVMWxCVk5nSERzTXR5eWhjWGdOQ01oa0VUTkF2emg3Z3BuajZmTkZHTzRMS1NoaURObkk4Rm5RSExfcVpVQnZlOEZMeVNVWDlJUGFoMzdPOERSU0JuR2JnTmJjYmdzTmRNeFMwaVozVXBDN1ZHM2RzQUZlSlE2VQ?oc=5",
       "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 99.48,
-      "novelty": "new",
+      "score": 88.64,
+      "novelty": "ongoing",
       "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
@@ -177,63 +176,45 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "hormuz_status",
+      "event_key": "us_iran_ceasefire",
       "field": "status",
-      "from": "CLOSED",
-      "to": "OPEN",
-      "detected_at": "2026-04-29T20:17:43.953097+00:00",
-      "meaningful": true,
+      "from": "FRAGILE",
+      "to": "HOLDING",
+      "detected_at": "2026-04-29T21:41:39.827180+00:00",
+      "meaningful": false,
       "triggers_publish": false
     },
     {
-      "event_key": "hormuz_status",
+      "event_key": "us_iran_ceasefire",
       "field": "risk_level",
       "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-29T20:17:43.953097+00:00",
+      "to": "ELEVATED",
+      "detected_at": "2026-04-29T21:41:39.827180+00:00",
       "meaningful": true,
       "triggers_publish": false
     },
     {
-      "event_key": "us_iran_ceasefire",
+      "event_key": "global_risk_level",
       "field": "status",
-      "from": "HOLDING",
-      "to": "FRAGILE",
-      "detected_at": "2026-04-29T20:17:43.953097+00:00",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-04-29T21:41:39.827180+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     },
     {
-      "event_key": "us_iran_ceasefire",
+      "event_key": "global_risk_level",
       "field": "risk_level",
       "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-04-29T20:17:43.953097+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-04-29T20:17:43.953097+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-04-29T20:17:43.953097+00:00",
+      "to": "LOW",
+      "detected_at": "2026-04-29T21:41:39.827180+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.952, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
