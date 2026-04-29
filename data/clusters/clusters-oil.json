@@ -1,6 +1,6 @@
 {
   "topic": "oil",
-  "generated_at": "2026-04-29T04:58:47.322724+00:00",
+  "generated_at": "2026-04-29T07:32:09.156745+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -8,29 +8,91 @@
   "clusters_found": 27,
   "clusters": [
     {
-      "cluster_id": "c_3367b50d90a0b4",
+      "cluster_id": "c_8bfddf02d24e56",
       "topic": "oil",
-      "lead_title": "The UAE’s OPEC Exit Is Existential for the Oil Cartel",
-      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBKVmtURzhaVzR1UWxXQThwLUNwLVRsUlp4eUtHMUJxd0IxbnJzVGtTOTFpR1cxblBWdG40ektBTUFYVjVOLTQ3ckVvX25QRUViYzFuZHEtY2E2ZmtIc29zN1FVYWZZRGRhd09wTmJqVnZ5UF9ITnYxV2JvR3o3eWZYUS1LM2EydDdudVY3ck1hdUxPQWhPNEcyMWl3SlA1bjhPMVhiMFFNckhtU2c?oc=5",
-      "lead_source": "Bloomberg.com",
+      "lead_title": "Technical Analysis Report on April 29: Spot Gold, WTI Crude Oil Futures",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPenNGc1JtUnFMWlhvYVNwN3BvRjNwMFVMNVJvdW14bGl1NURfU1dySm5NWmVCalhIM3EyZEpQS0RMN2dfcmRuR2EwVVBQRmdvYVZnSTVMMnNselRFRFZlVzZGWGJlTEFrbVVZNTNHTzJEWGRIQ1NLTDM0dDZJSGZXZFhxbGtSMUlXeV9MdE44V0JBZ1ZIcV81NzJjblR1RDg?oc=5",
+      "lead_source": "富途牛牛",
       "canonical_entities": [
+        "Brent",
         "WTI",
         "crude",
         "oil"
       ],
-      "source_count": 4,
-      "distinct_publishers": 4,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T12:14:00+00:00",
-      "latest_seen": "2026-04-29T02:49:35+00:00",
-      "age_hours": 2.15,
-      "score": 91.81,
+      "earliest_seen": "2026-04-29T02:49:35+00:00",
+      "latest_seen": "2026-04-29T04:50:42+00:00",
+      "age_hours": 2.69,
+      "score": 86.89,
       "score_components": {
-        "source_count_points": 20,
-        "recency_points": 23.71,
-        "source_quality_points": 26.1,
+        "source_count_points": 15,
+        "recency_points": 23.39,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 16,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "4d65ea40bac895df",
+          "title": "Technical Analysis Report on April 29: Spot Gold, WTI Crude Oil Futures",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPenNGc1JtUnFMWlhvYVNwN3BvRjNwMFVMNVJvdW14bGl1NURfU1dySm5NWmVCalhIM3EyZEpQS0RMN2dfcmRuR2EwVVBQRmdvYVZnSTVMMnNselRFRFZlVzZGWGJlTEFrbVVZNTNHTzJEWGRIQ1NLTDM0dDZJSGZXZFhxbGtSMUlXeV9MdE44V0JBZ1ZIcV81NzJjblR1RDg?oc=5",
+          "source": "富途牛牛",
+          "source_type": "rss",
+          "published_at": "2026-04-29T04:50:42+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "07bbbcb635e4f6c6",
+          "title": "Brent crude oil forecast as Trump considers prolonged blockade",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeWR3WW1VZmZnRV85MnQ1VE0tc2dCVVFwX2syTEVpOVV2WllMa2FhMjdLeTZoY2FvNkIyNndDWkdXSkdmT084T0dMdGJlMk41U2lNaWg5cThia0VqaWZLQW0xM2xZd09vbmcyZ2RDWlA3Y3R6dmNNdDFSa0MzOFFqVDc1ZEZmaW00UHo4RVNLbVhSdGNEUnlaeUdsRVN0dk0?oc=5",
+          "source": "Invezz",
+          "source_type": "rss",
+          "published_at": "2026-04-29T04:34:27+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "2d5935c5c21bfd82",
+          "title": "WTI Crude Oil Rebound Approaches Crucial Zone, Breakout Or Pullback?",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQkd0STAwN1JaY1JsejZLMjBlTF9rZm10VHRkZTlnNndVRTdnZ3lXU3VQa2V5Y1JPQTl5ZWJ3MGVlRnV5VTd1ek9KSjNvUTJhVVYwNHYtUVFTQU03ZTVhUkNvTFg2RWx6SDNGakMtNzdpeUdjVEJUU2hBYUdNTGN4SjdXanQ5X19Wcms0TEZ2ZmNPdW1VUWZMX2dVTzVpM0JJSl9sNElpa3MyUmQyMzN3WkFkSmdxdVZGVnRZNkRoTUtZeHI3QzlmVDg2RUt1X1E?oc=5",
+          "source": "Action Forex",
+          "source_type": "rss",
+          "published_at": "2026-04-29T02:49:35+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_9fc77949afce11",
+      "topic": "oil",
+      "lead_title": "Turkish BOTAS investment to raise Ceyhan crude oil capacity to 45 mln barrels, paper says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNlVURld5amVjNVlzbEd2S2djaHNfTllSZ3c3TzRRc19hWVJSMWFhc2JGN1ZsaHE3MThkWVFKbU14VkdBd3pMOXFTWVNsYzctOFVya283UVFoajFnQTFBYlhoc2ZBQmlPWFNDY2xxSFpjVnJHdjNqdHlRU1c3bnVUWkxMbWV3cy16bEdDWFhKY1BKUDlRTU5ucTE5X0hsVkdFdG4zZGEzZEgtZ3NSUlBBcVZDMDM2OTNWcjdWVnpZWDlIckJBUEU4Tw?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "barrel",
+        "crude",
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-27T08:48:36+00:00",
+      "latest_seen": "2026-04-28T19:17:44+00:00",
+      "age_hours": 12.24,
+      "score": 79.36,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 17.66,
+        "source_quality_points": 29.7,
         "entity_relevance_points": 12,
         "materiality_points": 10.0
       },
@@ -38,12 +100,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "0eab3471ae9b937a",
-          "title": "The UAE’s OPEC Exit Is Existential for the Oil Cartel",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVVBKVmtURzhaVzR1UWxXQThwLUNwLVRsUlp4eUtHMUJxd0IxbnJzVGtTOTFpR1cxblBWdG40ektBTUFYVjVOLTQ3ckVvX25QRUViYzFuZHEtY2E2ZmtIc29zN1FVYWZZRGRhd09wTmJqVnZ5UF9ITnYxV2JvR3o3eWZYUS1LM2EydDdudVY3ck1hdUxPQWhPNEcyMWl3SlA1bjhPMVhiMFFNckhtU2c?oc=5",
-          "source": "Bloomberg.com",
+          "headline_id": "8914e1d098c9214a",
+          "title": "Turkish BOTAS investment to raise Ceyhan crude oil capacity to 45 mln barrels, paper says",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNlVURld5amVjNVlzbEd2S2djaHNfTllSZ3c3TzRRc19hWVJSMWFhc2JGN1ZsaHE3MThkWVFKbU14VkdBd3pMOXFTWVNsYzctOFVya283UVFoajFnQTFBYlhoc2ZBQmlPWFNDY2xxSFpjVnJHdjNqdHlRU1c3bnVUWkxMbWV3cy16bEdDWFhKY1BKUDlRTU5ucTE5X0hsVkdFdG4zZGEzZEgtZ3NSUlBBcVZDMDM2OTNWcjdWVnpZWDlIckJBUEU4Tw?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-28T14:44:06+00:00",
+          "published_at": "2026-04-27T08:48:36+00:00",
           "confidence": 1.0
         },
         {
@@ -54,27 +116,171 @@
           "source_type": "rss",
           "published_at": "2026-04-28T19:17:44+00:00",
           "confidence": 0.98
-        },
-        {
-          "headline_id": "2d5935c5c21bfd82",
-          "title": "WTI Crude Oil Rebound Approaches Crucial Zone, Breakout Or Pullback?",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQkd0STAwN1JaY1JsejZLMjBlTF9rZm10VHRkZTlnNndVRTdnZ3lXU3VQa2V5Y1JPQTl5ZWJ3MGVlRnV5VTd1ek9KSjNvUTJhVVYwNHYtUVFTQU03ZTVhUkNvTFg2RWx6SDNGakMtNzdpeUdjVEJUU2hBYUdNTGN4SjdXanQ5X19Wcms0TEZ2ZmNPdW1VUWZMX2dVTzVpM0JJSl9sNElpa3MyUmQyMzN3WkFkSmdxdVZGVnRZNkRoTUtZeHI3QzlmVDg2RUt1X1E?oc=5",
-          "source": "Action Forex",
-          "source_type": "rss",
-          "published_at": "2026-04-29T02:49:35+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "a10f10fe0fb0c615",
-          "title": "Oil News: WTI Crude Oil Punches Through $100 as Iran Deadlock Chokes Supply",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVzkyVzJHNjZwR1NpZEFnS0ZBV1FNcUROLWhYZmJGRmhlZnZQbWRjZUpPeXhQTjJrSDlrblQ0UlVDbmUxdFJqVlJKN2hnSjg2RzYtUFFyLWxvZ3I1YXVZRmY5TWdaVXRUSkZxQ3NkZjZEQWFfR3BaMUZ0Y1A2MTdMQ0RBZUpDQ1RxUy1rWlJLcm51SlJyVWZEMHd5LVEtaUdTV19GX0pPWlVvWFIySHBTUnd4a2xBNm0wMmdaaFV0cDUyYWFCOG9UTHFQYVo?oc=5",
-          "source": "FXEmpire",
-          "source_type": "rss",
-          "published_at": "2026-04-28T12:14:00+00:00",
-          "confidence": 0.75
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_50edd64ab9d99d",
+      "topic": "oil",
+      "lead_title": "Total profits jump 29% as war drives oil price surge and trading gains",
+      "lead_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzcW1YWHJ3eU9xalVJUWQ2NEZ6UGZyYnlQbTRNZHRPdENnZ00yS3EzeEptcUNRNlNGZHBQSWZGM3dQWUg4V2JwZ2FDNnJxUkRZNXpVeTZzNFptdTM2cXp0Qm54T1djSTFHLWszUTN1Ykk?oc=5",
+      "lead_source": "Financial Times",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T07:12:39+00:00",
+      "latest_seen": "2026-04-29T07:12:39+00:00",
+      "age_hours": 0.33,
+      "score": 72.9,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.8,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e2a97a1df0de753f",
+          "title": "Total profits jump 29% as war drives oil price surge and trading gains",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzcW1YWHJ3eU9xalVJUWQ2NEZ6UGZyYnlQbTRNZHRPdENnZ00yS3EzeEptcUNRNlNGZHBQSWZGM3dQWUg4V2JwZ2FDNnJxUkRZNXpVeTZzNFptdTM2cXp0Qm54T1djSTFHLWszUTN1Ykk?oc=5",
+          "source": "Financial Times",
+          "source_type": "rss",
+          "published_at": "2026-04-29T07:12:39+00:00",
+          "confidence": 0.97
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8026feae4f16d3",
+      "topic": "oil",
+      "lead_title": "Oil slips as market digests UAE exit from OPEC, supply concerns linger",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQXlrVUs5UEQxV1pTNkRzOTBVdWtaSW1ONTlkQmRmUHdld1BpVnlzWnRhYXZzeHRCXzhPTHpWTmpvbGN6dDlYaTd0WTBfMUZ0U1ZQX3g2M3ptbFNFUGhtQ3Q0NHg4SnFOeVozeTNQSXJ6dTFiZlkyd3ZhTmpzZDU2X2xjYWFrMDdkenJNbTNaQl9fVHliclZjazYxLVFLY2VEc3A0UC1mLTlzcl9LdW1IT3h6bko1b19aNzNkWVBwUzhQdw?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T02:06:00+00:00",
+      "latest_seen": "2026-04-29T02:06:00+00:00",
+      "age_hours": 5.44,
+      "score": 70.74,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 21.74,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "32038819119434b9",
+          "title": "Oil slips as market digests UAE exit from OPEC, supply concerns linger",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOQXlrVUs5UEQxV1pTNkRzOTBVdWtaSW1ONTlkQmRmUHdld1BpVnlzWnRhYXZzeHRCXzhPTHpWTmpvbGN6dDlYaTd0WTBfMUZ0U1ZQX3g2M3ptbFNFUGhtQ3Q0NHg4SnFOeVozeTNQSXJ6dTFiZlkyd3ZhTmpzZDU2X2xjYWFrMDdkenJNbTNaQl9fVHliclZjazYxLVFLY2VEc3A0UC1mLTlzcl9LdW1IT3h6bko1b19aNzNkWVBwUzhQdw?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-29T02:06:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8b1ffb06f34bbb",
+      "topic": "oil",
+      "lead_title": "European stocks to open lower as UAE OPEC exit complicates oil supply outlook",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMmRmT0JZSWRzbWFxLVpfS1kyeklqXzFSNmZ1RElfeTBZT2VYVDB4RFJPR21tVl9WVHBlTFpjUFBjVFk2R29JeS1HV3V2NnJPNnFHVExseFRVaElVbzBnUXktSThLQVRoY0p1SlpMVGlpSWZ4d2Yzb0p1RzUzWS1HU1c3WjAwbkNuSEJVSl9aQkFnZTZRZTRwYkhRSTNTWFhBdWFFZ3BpVdIBrAFBVV95cUxPc0RxTTdHeTZQQm5mMVI1cHBydGhzd0xHTWlsRGdDcXVZX1RpMmhYYW5yXzBJYUtCZld1anZqbzZLcF82OGJlSktWUm1UQVE2bHNrczVaNGNoVEJlX1lCS1hkUUdURE9FWTdJU2RLVTB1LWg4TW02czdiTkxDOVVpLUlqbFRKMmR5Z29jT2MxeERyNEVXRHVGVmxHT1hZVHhkSlRjWldzbUJZWUxT?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T05:26:49+00:00",
+      "latest_seen": "2026-04-29T05:26:49+00:00",
+      "age_hours": 2.09,
+      "score": 70.65,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.75,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "4d7ee388dcadd36f",
+          "title": "European stocks to open lower as UAE OPEC exit complicates oil supply outlook",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMmRmT0JZSWRzbWFxLVpfS1kyeklqXzFSNmZ1RElfeTBZT2VYVDB4RFJPR21tVl9WVHBlTFpjUFBjVFk2R29JeS1HV3V2NnJPNnFHVExseFRVaElVbzBnUXktSThLQVRoY0p1SlpMVGlpSWZ4d2Yzb0p1RzUzWS1HU1c3WjAwbkNuSEJVSl9aQkFnZTZRZTRwYkhRSTNTWFhBdWFFZ3BpVdIBrAFBVV95cUxPc0RxTTdHeTZQQm5mMVI1cHBydGhzd0xHTWlsRGdDcXVZX1RpMmhYYW5yXzBJYUtCZld1anZqbzZLcF82OGJlSktWUm1UQVE2bHNrczVaNGNoVEJlX1lCS1hkUUdURE9FWTdJU2RLVTB1LWg4TW02czdiTkxDOVVpLUlqbFRKMmR5Z29jT2MxeERyNEVXRHVGVmxHT1hZVHhkSlRjWldzbUJZWUxT?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-04-29T05:26:49+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3a2e9bf3c557ce",
+      "topic": "oil",
+      "lead_title": "China's May fuel exports to rise over April, but curbs remain, sources say",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSFZLSGhNQ1Mwc1FxelVZYVM0alZSMjgxUno4YmJxRUE2bWhlMnJwdGc0MDNNVjFBMVg4TGFMMFgxaW9zbjVENzFxQTZ0aDhONDdBTmZkdVNObDI2WFZGWGRnLVNsaXo0NFBvdkpiZEl2UkpRbmJZQ1VZQU9QU0JxT0JFbHVqUFA3MXhrdWFMcmVPb3ZONlAtenVSU0xqMUlSaFFTMm1lRERqaUtKQjNhSGFBLUpMWEltdHZCU3dFUlg?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T04:07:00+00:00",
+      "latest_seen": "2026-04-29T04:07:00+00:00",
+      "age_hours": 3.42,
+      "score": 66.45,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.95,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "c4445f2919581611",
+          "title": "China's May fuel exports to rise over April, but curbs remain, sources say",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSFZLSGhNQ1Mwc1FxelVZYVM0alZSMjgxUno4YmJxRUE2bWhlMnJwdGc0MDNNVjFBMVg4TGFMMFgxaW9zbjVENzFxQTZ0aDhONDdBTmZkdVNObDI2WFZGWGRnLVNsaXo0NFBvdkpiZEl2UkpRbmJZQ1VZQU9QU0JxT0JFbHVqUFA3MXhrdWFMcmVPb3ZONlAtenVSU0xqMUlSaFFTMm1lRERqaUtKQjNhSGFBLUpMWEltdHZCU3dFUlg?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-29T04:07:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -93,17 +299,17 @@
       ],
       "earliest_seen": "2026-04-29T04:15:40+00:00",
       "latest_seen": "2026-04-29T04:15:40+00:00",
-      "age_hours": 0.72,
-      "score": 71.47,
+      "age_hours": 3.27,
+      "score": 59.94,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.57,
+        "recency_points": 23.04,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7a5e884dad28a679",
@@ -115,7 +321,7 @@
           "confidence": 0.93
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -134,17 +340,17 @@
       ],
       "earliest_seen": "2026-04-29T03:28:00+00:00",
       "latest_seen": "2026-04-29T03:28:00+00:00",
-      "age_hours": 1.51,
-      "score": 70.99,
+      "age_hours": 4.07,
+      "score": 59.46,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.09,
+        "recency_points": 22.56,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "ff8f85f2e63dcfbc",
@@ -154,47 +360,6 @@
           "source_type": "rss",
           "published_at": "2026-04-29T03:28:00+00:00",
           "confidence": 0.93
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_30eecade46512e",
-      "topic": "oil",
-      "lead_title": "UAE Quits OPEC as War Upends Oil Markets",
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbENtck16Qk1NX0szaUo1NkplX0JUQjhXanUtSURHenVhZGNhOGVnRzdfWWI2dEhmSXdGemczMXE3SjVpcE5RX0dud09iREJMX1M4UWszNkw1bDZPMFRCTTNVMjVnVnU5QjN5THEwWm41Z3EtM1Y5ZEJReW1MN3ZzRnlxVXVUU2htVlU5MUgxZEZtbEdPWWZneXJR?oc=5",
-      "lead_source": "Bloomberg.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T22:55:08+00:00",
-      "latest_seen": "2026-04-28T22:55:08+00:00",
-      "age_hours": 6.06,
-      "score": 70.36,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.36,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "7046c3b2a61a8ff0",
-          "title": "UAE Quits OPEC as War Upends Oil Markets",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQbENtck16Qk1NX0szaUo1NkplX0JUQjhXanUtSURHenVhZGNhOGVnRzdfWWI2dEhmSXdGemczMXE3SjVpcE5RX0dud09iREJMX1M4UWszNkw1bDZPMFRCTTNVMjVnVnU5QjN5THEwWm41Z3EtM1Y5ZEJReW1MN3ZzRnlxVXVUU2htVlU5MUgxZEZtbEdPWWZneXJR?oc=5",
-          "source": "Bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-04-28T22:55:08+00:00",
-          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -216,17 +381,17 @@
       ],
       "earliest_seen": "2026-04-29T01:11:00+00:00",
       "latest_seen": "2026-04-29T01:11:00+00:00",
-      "age_hours": 3.8,
-      "score": 69.62,
+      "age_hours": 6.35,
+      "score": 58.09,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.72,
+        "recency_points": 21.19,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2fb0ec41f43b8787",
@@ -257,17 +422,17 @@
       ],
       "earliest_seen": "2026-04-28T20:58:45+00:00",
       "latest_seen": "2026-04-28T20:58:45+00:00",
-      "age_hours": 8.0,
-      "score": 69.2,
+      "age_hours": 10.56,
+      "score": 57.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.2,
+        "recency_points": 18.67,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "08c1e862e868b511",
@@ -298,17 +463,17 @@
       ],
       "earliest_seen": "2026-04-29T00:30:44+00:00",
       "latest_seen": "2026-04-29T00:30:44+00:00",
-      "age_hours": 4.47,
-      "score": 68.32,
+      "age_hours": 7.02,
+      "score": 56.79,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.32,
+        "recency_points": 20.79,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "319a2f48489ddb8a",
@@ -324,53 +489,12 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_051ec7e3bf5bce",
+      "cluster_id": "c_d45d8716e7cda5",
       "topic": "oil",
-      "lead_title": "China approves higher May fuel exports though down from a year ago, sources say",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSFZLSGhNQ1Mwc1FxelVZYVM0alZSMjgxUno4YmJxRUE2bWhlMnJwdGc0MDNNVjFBMVg4TGFMMFgxaW9zbjVENzFxQTZ0aDhONDdBTmZkdVNObDI2WFZGWGRnLVNsaXo0NFBvdkpiZEl2UkpRbmJZQ1VZQU9QU0JxT0JFbHVqUFA3MXhrdWFMcmVPb3ZONlAtenVSU0xqMUlSaFFTMm1lRERqaUtKQjNhSGFBLUpMWEltdHZCU3dFUlg?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-29T04:07:00+00:00",
-      "latest_seen": "2026-04-29T04:07:00+00:00",
-      "age_hours": 0.86,
-      "score": 67.98,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.48,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "7941e9075c8442bb",
-          "title": "China approves higher May fuel exports though down from a year ago, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSFZLSGhNQ1Mwc1FxelVZYVM0alZSMjgxUno4YmJxRUE2bWhlMnJwdGc0MDNNVjFBMVg4TGFMMFgxaW9zbjVENzFxQTZ0aDhONDdBTmZkdVNObDI2WFZGWGRnLVNsaXo0NFBvdkpiZEl2UkpRbmJZQ1VZQU9QU0JxT0JFbHVqUFA3MXhrdWFMcmVPb3ZONlAtenVSU0xqMUlSaFFTMm1lRERqaUtKQjNhSGFBLUpMWEltdHZCU3dFUlg?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-29T04:07:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_ce524d65e614d3",
-      "topic": "oil",
-      "lead_title": "Gold and crude oil forecast: XAU/USD takes a drop as Brent pushes higher",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV0Y3VW1JZnBuOC03elFNQ0loMmJBaDBPSmtFSk5FYkRaYlRpUTc5enVwdTg4NXNfU0Jta0l5eEhxQjdHc2ZLTU95SnVUTWlpQ1lNYWk0bno1eTVfYndOMzVTUjJSdDJMUEVpcmw2dTFFWjE5R1hzZ0xSdWFhMHNQUHE3emQ0RGxvVXRBaTFiek1NWXU5bHRmZ0hlR1RxYU42VUFTcHlScWl1QlhIZU81ang1Y3R0SjJOZ2fSAcYBQVVfeXFMUEFwRUtzbXh0R0JRRkJGT3ZNbDJqY3BLRnprLU42eTNPcXBqOUwtRzZnTnVrSGZ6aEowbjRFT3hGMXJVNUwxUEpuTVNodzBxZmlzd3JoSU96elJWc0ItamhoOGhuNTJVM1RvWmp0QjJwakJpc1NRTzN5M2hLWHJ4bEtlSDBhTDB5elZ0eG1XUVdiNTEtNEQySHJPdVB1bnVyS21Vai1ZdDYxZVJYdFpEMERzdTlEYVZJbGZ4WTVibzA1RVcwcVRB?oc=5",
-      "lead_source": "FOREX.com",
+      "lead_title": "Oil price climbs above $110 for first time in three weeks",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1h5OGI5My1Ndl80VGZvOEhIdGpuUzJxaW9UM3d0Wm1DU0hPbkF2S1A0dkVTNmlsSHF1Vmp5Q21jQVhrRW4xV1FSeVllUm1nb0p6X3BhTTg2V2I4S19PeFpUd1NSeEZuUWdwaFFxVW51YTVhY3ZCYnZNeGNCUHZrbTg5RkQ?oc=5",
+      "lead_source": "Financial Times",
       "canonical_entities": [
-        "Brent",
-        "crude",
         "oil"
       ],
       "source_count": 1,
@@ -378,28 +502,69 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T16:41:19+00:00",
-      "latest_seen": "2026-04-28T16:41:19+00:00",
-      "age_hours": 12.29,
-      "score": 67.13,
+      "earliest_seen": "2026-04-28T19:57:18+00:00",
+      "latest_seen": "2026-04-28T19:57:18+00:00",
+      "age_hours": 11.58,
+      "score": 56.15,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.63,
-        "source_quality_points": 22.5,
-        "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "recency_points": 18.05,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "23f0532a778bdffd",
-          "title": "Gold and crude oil forecast: XAU/USD takes a drop as Brent pushes higher",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV0Y3VW1JZnBuOC03elFNQ0loMmJBaDBPSmtFSk5FYkRaYlRpUTc5enVwdTg4NXNfU0Jta0l5eEhxQjdHc2ZLTU95SnVUTWlpQ1lNYWk0bno1eTVfYndOMzVTUjJSdDJMUEVpcmw2dTFFWjE5R1hzZ0xSdWFhMHNQUHE3emQ0RGxvVXRBaTFiek1NWXU5bHRmZ0hlR1RxYU42VUFTcHlScWl1QlhIZU81ang1Y3R0SjJOZ2fSAcYBQVVfeXFMUEFwRUtzbXh0R0JRRkJGT3ZNbDJqY3BLRnprLU42eTNPcXBqOUwtRzZnTnVrSGZ6aEowbjRFT3hGMXJVNUwxUEpuTVNodzBxZmlzd3JoSU96elJWc0ItamhoOGhuNTJVM1RvWmp0QjJwakJpc1NRTzN5M2hLWHJ4bEtlSDBhTDB5elZ0eG1XUVdiNTEtNEQySHJPdVB1bnVyS21Vai1ZdDYxZVJYdFpEMERzdTlEYVZJbGZ4WTVibzA1RVcwcVRB?oc=5",
-          "source": "FOREX.com",
+          "headline_id": "965cd7f077c98c90",
+          "title": "Oil price climbs above $110 for first time in three weeks",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1h5OGI5My1Ndl80VGZvOEhIdGpuUzJxaW9UM3d0Wm1DU0hPbkF2S1A0dkVTNmlsSHF1Vmp5Q21jQVhrRW4xV1FSeVllUm1nb0p6X3BhTTg2V2I4S19PeFpUd1NSeEZuUWdwaFFxVW51YTVhY3ZCYnZNeGNCUHZrbTg5RkQ?oc=5",
+          "source": "Financial Times",
           "source_type": "rss",
-          "published_at": "2026-04-28T16:41:19+00:00",
-          "confidence": 0.75
+          "published_at": "2026-04-28T19:57:18+00:00",
+          "confidence": 0.97
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_0d5322f5344949",
+      "topic": "oil",
+      "lead_title": "Trump administration blocks US wind energy projects in switch to oil and gas",
+      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclFvQ0pLakZ2U3pkTEhrOTN1V3pHVkVyVUNrQldWN0tkbWdqQ2VRWjBQRG1aTUhGSkFUVVJpVmwyV1NXUENRNUtvNmhaRGNva1dRT19oa01HNlppWjFrYzV3NTVHNnhWdU5SUHNQUUtPOGFUYVZtZ0gzUmd5UDNvQkxlX2tFczk2Y0E?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T21:37:00+00:00",
+      "latest_seen": "2026-04-28T21:37:00+00:00",
+      "age_hours": 9.92,
+      "score": 53.55,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 19.05,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "dae5d50000bb337a",
+          "title": "Trump administration blocks US wind energy projects in switch to oil and gas",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclFvQ0pLakZ2U3pkTEhrOTN1V3pHVkVyVUNrQldWN0tkbWdqQ2VRWjBQRG1aTUhGSkFUVVJpVmwyV1NXUENRNUtvNmhaRGNva1dRT19oa01HNlppWjFrYzV3NTVHNnhWdU5SUHNQUUtPOGFUYVZtZ0gzUmd5UDNvQkxlX2tFczk2Y0E?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-04-28T21:37:00+00:00",
+          "confidence": 0.85
         }
       ],
       "top_tier": false,
@@ -421,17 +586,17 @@
       ],
       "earliest_seen": "2026-04-28T18:38:00+00:00",
       "latest_seen": "2026-04-28T18:38:00+00:00",
-      "age_hours": 10.35,
-      "score": 66.89,
+      "age_hours": 12.9,
+      "score": 50.36,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.79,
+        "recency_points": 17.26,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e649b360aed4e417",
@@ -462,17 +627,17 @@
       ],
       "earliest_seen": "2026-04-28T16:58:25+00:00",
       "latest_seen": "2026-04-28T16:58:25+00:00",
-      "age_hours": 12.01,
-      "score": 66.8,
+      "age_hours": 14.56,
+      "score": 50.26,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.8,
+        "recency_points": 16.26,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "02e07513375e1355",
@@ -503,17 +668,17 @@
       ],
       "earliest_seen": "2026-04-28T15:13:43+00:00",
       "latest_seen": "2026-04-28T15:13:43+00:00",
-      "age_hours": 13.75,
-      "score": 65.75,
+      "age_hours": 16.31,
+      "score": 49.22,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.75,
+        "recency_points": 15.22,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c87de152d0a1c172",
@@ -544,17 +709,17 @@
       ],
       "earliest_seen": "2026-04-28T14:18:22+00:00",
       "latest_seen": "2026-04-28T14:18:22+00:00",
-      "age_hours": 14.67,
-      "score": 65.2,
+      "age_hours": 17.23,
+      "score": 48.66,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.2,
+        "recency_points": 14.66,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "32e6762eed09b5c0",
@@ -564,47 +729,6 @@
           "source_type": "rss",
           "published_at": "2026-04-28T14:18:22+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0d5322f5344949",
-      "topic": "oil",
-      "lead_title": "Trump administration blocks US wind energy projects in switch to oil and gas",
-      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclFvQ0pLakZ2U3pkTEhrOTN1V3pHVkVyVUNrQldWN0tkbWdqQ2VRWjBQRG1aTUhGSkFUVVJpVmwyV1NXUENRNUtvNmhaRGNva1dRT19oa01HNlppWjFrYzV3NTVHNnhWdU5SUHNQUUtPOGFUYVZtZ0gzUmd5UDNvQkxlX2tFczk2Y0E?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T21:37:00+00:00",
-      "latest_seen": "2026-04-28T21:37:00+00:00",
-      "age_hours": 7.36,
-      "score": 65.08,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.58,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "dae5d50000bb337a",
-          "title": "Trump administration blocks US wind energy projects in switch to oil and gas",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQclFvQ0pLakZ2U3pkTEhrOTN1V3pHVkVyVUNrQldWN0tkbWdqQ2VRWjBQRG1aTUhGSkFUVVJpVmwyV1NXUENRNUtvNmhaRGNva1dRT19oa01HNlppWjFrYzV3NTVHNnhWdU5SUHNQUUtPOGFUYVZtZ0gzUmd5UDNvQkxlX2tFczk2Y0E?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-04-28T21:37:00+00:00",
-          "confidence": 0.85
         }
       ],
       "top_tier": false,
@@ -626,17 +750,17 @@
       ],
       "earliest_seen": "2026-04-28T14:03:31+00:00",
       "latest_seen": "2026-04-28T14:03:31+00:00",
-      "age_hours": 14.92,
-      "score": 65.05,
+      "age_hours": 17.48,
+      "score": 48.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.05,
+        "recency_points": 14.51,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f4832201d50f4716",
@@ -645,47 +769,6 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-04-28T14:03:31+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_ae8cb1fdd529b8",
-      "topic": "oil",
-      "lead_title": "Sinopec first-quarter net income up 28% on higher oil prices, stable fuel sales",
-      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUlMLWtlVEdPMXBMak5tTUdqOU9vMnd2U0YyWWJiSnM0UVlmZk92UFJFSkdWSW8yaWZQT0pKZFYzM1NCM2x2NWhqY3RKWUFicWZLOWoxSDlvSFE5TE5zSDVWOHF0QWRsZzhDX0d4ZEt2bUhQbmJWbEREN29MRkk4MWJJSnJRRFRWbVJCWjlaY3JzT0lWWkdQV1psYUZuNnJyMjU2eXJsc2FYZ0Jfcl8tYnp1VDlQemVzWG9VaHFiUXl4bmFKX2hoNnpBMkd5U3F3RkFHZlU3TQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T12:45:44+00:00",
-      "latest_seen": "2026-04-28T12:45:44+00:00",
-      "age_hours": 16.22,
-      "score": 64.27,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 15.27,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "914fc26ab26210c3",
-          "title": "Sinopec first-quarter net income up 28% on higher oil prices, stable fuel sales",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZUlMLWtlVEdPMXBMak5tTUdqOU9vMnd2U0YyWWJiSnM0UVlmZk92UFJFSkdWSW8yaWZQT0pKZFYzM1NCM2x2NWhqY3RKWUFicWZLOWoxSDlvSFE5TE5zSDVWOHF0QWRsZzhDX0d4ZEt2bUhQbmJWbEREN29MRkk4MWJJSnJRRFRWbVJCWjlaY3JzT0lWWkdQV1psYUZuNnJyMjU2eXJsc2FYZ0Jfcl8tYnp1VDlQemVzWG9VaHFiUXl4bmFKX2hoNnpBMkd5U3F3RkFHZlU3TQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-28T12:45:44+00:00",
           "confidence": 1.0
         }
       ],
@@ -708,17 +791,17 @@
       ],
       "earliest_seen": "2026-04-28T12:23:00+00:00",
       "latest_seen": "2026-04-28T12:23:00+00:00",
-      "age_hours": 16.6,
-      "score": 64.04,
+      "age_hours": 19.15,
+      "score": 47.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.04,
+        "recency_points": 13.51,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "281b2042a80591fd",
@@ -728,47 +811,6 @@
           "source_type": "rss",
           "published_at": "2026-04-28T12:23:00+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f5c14195c59dac",
-      "topic": "oil",
-      "lead_title": "What is the windfall tax on oil and gas companies and how much do they pay?",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Ea0Y2MzJRYXdSODYxd3ZXZFZObFhoamRjUlp1SW5Pc0JvZ3Q3S0RnNW5fbWZyWjRsY0NLMElQbjdodkVlTEdGclpsVHRoVjlwcGdfb1NDWmZrdw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T16:55:18+00:00",
-      "latest_seen": "2026-04-28T16:55:18+00:00",
-      "age_hours": 12.06,
-      "score": 63.77,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 17.77,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "9931c5675e7fc90e",
-          "title": "What is the windfall tax on oil and gas companies and how much do they pay?",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Ea0Y2MzJRYXdSODYxd3ZXZFZObFhoamRjUlp1SW5Pc0JvZ3Q3S0RnNW5fbWZyWjRsY0NLMElQbjdodkVlTEdGclpsVHRoVjlwcGdfb1NDWmZrdw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-04-28T16:55:18+00:00",
-          "confidence": 0.9
         }
       ],
       "top_tier": false,
@@ -790,17 +832,17 @@
       ],
       "earliest_seen": "2026-04-28T16:24:45+00:00",
       "latest_seen": "2026-04-28T16:24:45+00:00",
-      "age_hours": 12.57,
-      "score": 63.46,
+      "age_hours": 15.12,
+      "score": 46.93,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.46,
+        "recency_points": 15.93,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "49eb03063eb958aa",
@@ -829,17 +871,17 @@
       ],
       "earliest_seen": "2026-04-28T18:00:00+00:00",
       "latest_seen": "2026-04-28T18:00:00+00:00",
-      "age_hours": 10.98,
-      "score": 61.91,
+      "age_hours": 13.54,
+      "score": 45.38,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.41,
+        "recency_points": 16.88,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e3c5a3c733e356bf",
@@ -870,17 +912,17 @@
       ],
       "earliest_seen": "2026-04-28T12:50:10+00:00",
       "latest_seen": "2026-04-28T12:50:10+00:00",
-      "age_hours": 16.14,
-      "score": 61.31,
+      "age_hours": 18.7,
+      "score": 44.78,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.31,
+        "recency_points": 13.78,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "202120328cff3285",
@@ -911,17 +953,17 @@
       ],
       "earliest_seen": "2026-04-28T12:59:00+00:00",
       "latest_seen": "2026-04-28T12:59:00+00:00",
-      "age_hours": 16.0,
-      "score": 59.9,
+      "age_hours": 18.55,
+      "score": 43.37,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.4,
+        "recency_points": 13.87,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c426660823c995f9",
@@ -931,47 +973,6 @@
           "source_type": "rss",
           "published_at": "2026-04-28T12:59:00+00:00",
           "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d45d8716e7cda5",
-      "topic": "oil",
-      "lead_title": "Oil price climbs above $110 for first time in three weeks",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1h5OGI5My1Ndl80VGZvOEhIdGpuUzJxaW9UM3d0Wm1DU0hPbkF2S1A0dkVTNmlsSHF1Vmp5Q21jQVhrRW4xV1FSeVllUm1nb0p6X3BhTTg2V2I4S19PeFpUd1NSeEZuUWdwaFFxVW51YTVhY3ZCYnZNeGNCUHZrbTg5RkQ?oc=5",
-      "lead_source": "Financial Times",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T06:14:10+00:00",
-      "latest_seen": "2026-04-28T06:14:10+00:00",
-      "age_hours": 22.74,
-      "score": 59.45,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 11.35,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "965cd7f077c98c90",
-          "title": "Oil price climbs above $110 for first time in three weeks",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPY1h5OGI5My1Ndl80VGZvOEhIdGpuUzJxaW9UM3d0Wm1DU0hPbkF2S1A0dkVTNmlsSHF1Vmp5Q21jQVhrRW4xV1FSeVllUm1nb0p6X3BhTTg2V2I4S19PeFpUd1NSeEZuUWdwaFFxVW51YTVhY3ZCYnZNeGNCUHZrbTg5RkQ?oc=5",
-          "source": "Financial Times",
-          "source_type": "rss",
-          "published_at": "2026-04-28T06:14:10+00:00",
-          "confidence": 0.97
         }
       ],
       "top_tier": false,
@@ -993,17 +994,17 @@
       ],
       "earliest_seen": "2026-04-28T11:02:00+00:00",
       "latest_seen": "2026-04-28T11:02:00+00:00",
-      "age_hours": 17.95,
-      "score": 58.73,
+      "age_hours": 20.5,
+      "score": 42.2,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.23,
+        "recency_points": 12.7,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0ae26527ed43755e",
@@ -1032,17 +1033,17 @@
       ],
       "earliest_seen": "2026-04-28T15:55:46+00:00",
       "latest_seen": "2026-04-28T15:55:46+00:00",
-      "age_hours": 13.05,
-      "score": 57.67,
+      "age_hours": 15.61,
+      "score": 41.14,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.17,
+        "recency_points": 15.64,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "db2d711260daf603",
@@ -1073,17 +1074,17 @@
       ],
       "earliest_seen": "2026-04-27T23:03:36+00:00",
       "latest_seen": "2026-04-27T23:03:36+00:00",
-      "age_hours": 29.92,
-      "score": 56.05,
+      "age_hours": 32.48,
+      "score": 39.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.05,
+        "recency_points": 5.51,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "57dbd081523c0366",
@@ -1114,17 +1115,17 @@
       ],
       "earliest_seen": "2026-04-28T01:05:00+00:00",
       "latest_seen": "2026-04-28T01:05:00+00:00",
-      "age_hours": 27.9,
-      "score": 55.16,
+      "age_hours": 30.45,
+      "score": 38.63,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.26,
+        "recency_points": 6.73,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c808788e57393973",
