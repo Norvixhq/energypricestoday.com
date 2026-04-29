@@ -1,11 +1,11 @@
 {
   "topic": "geopolitics",
-  "generated_at": "2026-04-29T09:53:17.925746+00:00",
+  "generated_at": "2026-04-29T11:46:09.035749+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 25,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_b9f8188b4163bb",
@@ -18,23 +18,23 @@
         "OPEC",
         "Saudi"
       ],
-      "source_count": 4,
-      "distinct_publishers": 4,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T16:48:31+00:00",
+      "earliest_seen": "2026-04-28T21:44:19+00:00",
       "latest_seen": "2026-04-29T08:48:08+00:00",
-      "age_hours": 1.09,
-      "score": 84.97,
+      "age_hours": 2.97,
+      "score": 74.72,
       "score_components": {
-        "source_count_points": 20,
-        "recency_points": 24.35,
-        "source_quality_points": 23.62,
+        "source_count_points": 15,
+        "recency_points": 23.22,
+        "source_quality_points": 24.5,
         "entity_relevance_points": 12,
-        "materiality_points": 5.0
+        "materiality_points": 0.0
       },
-      "novelty": "growing",
+      "novelty": "ongoing",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -63,24 +63,221 @@
           "source_type": "rss",
           "published_at": "2026-04-29T08:48:08+00:00",
           "confidence": 0.7
-        },
-        {
-          "headline_id": "ba532d1a862ac986",
-          "title": "UAE leaves OPEC: what it means for the US, oil markets & Saudi",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zUkVuZU9Hbk1sc3d5V2xzc1NhZDhkOGExNkFGaG1MSmY4cFNQWGp1b2JRU0hRNU1xM1ExY0tfcktQMHRiNlpYZ0dUYTJhNWEtRjVsbHd3?oc=5",
-          "source": "Responsible Statecraft",
-          "source_type": "rss",
-          "published_at": "2026-04-28T16:48:31+00:00",
-          "confidence": 0.7
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
+      "cluster_id": "c_44cdbec912808d",
+      "topic": "geopolitics",
+      "lead_title": "Oil price jumps to $115 after reports of 'extended' Iran blockade",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53aEJrRTBraHBRbGY5MndDTUxWc1JJWnVKQnlWYmdKUmpCZ2JjbW9wNWxGeHlNTHhTM2d6cG5fbnJ4eTJCSTBVVllCMEJET1c4LWpld2lBZmFiQQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "Iran"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T11:04:25+00:00",
+      "latest_seen": "2026-04-29T11:04:25+00:00",
+      "age_hours": 0.7,
+      "score": 70.58,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.58,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "5c1cf42121c8a380",
+          "title": "Oil price jumps to $115 after reports of 'extended' Iran blockade",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53aEJrRTBraHBRbGY5MndDTUxWc1JJWnVKQnlWYmdKUmpCZ2JjbW9wNWxGeHlNTHhTM2d6cG5fbnJ4eTJCSTBVVllCMEJET1c4LWpld2lBZmFiQQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-04-29T11:04:25+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_53aa21e467d951",
+      "topic": "geopolitics",
+      "lead_title": "Watch: Why has the UAE left Opec - and why does this matter?",
+      "lead_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oOVQ5WnJ0V284TVlaRWI1Y0RkQ3VMY0NuTG5oeVVZRmMtMFZMRVZwMmRNNGo1ZnBsN0lVczZMZ0FhOF9SbGI3X0piY01MeWlud1BucG9qNA?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "OPEC"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T10:24:54+00:00",
+      "latest_seen": "2026-04-29T10:24:54+00:00",
+      "age_hours": 1.35,
+      "score": 70.19,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.19,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "2ab3fea6b7bf75ad",
+          "title": "Watch: Why has the UAE left Opec - and why does this matter?",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oOVQ5WnJ0V284TVlaRWI1Y0RkQ3VMY0NuTG5oeVVZRmMtMFZMRVZwMmRNNGo1ZnBsN0lVczZMZ0FhOF9SbGI3X0piY01MeWlud1BucG9qNA?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-04-29T10:24:54+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_241142d466b31c",
+      "topic": "geopolitics",
+      "lead_title": "United Arab Emirates to quit oil cartel Opec",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wQW1nWS03VlBQWFNQRWpSX0U2QnZqLTZnWkdLN1Vta0ZjRndpc29XcTBEVHZFWEF6TG9abmQ0dU1VYkc3YmJISXAxX1R0RWJTNzAtbjBheDdxUQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "OPEC"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T08:05:11+00:00",
+      "latest_seen": "2026-04-29T08:05:11+00:00",
+      "age_hours": 3.68,
+      "score": 68.79,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.79,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "51397f3fcdbb3279",
+          "title": "United Arab Emirates to quit oil cartel Opec",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wQW1nWS03VlBQWFNQRWpSX0U2QnZqLTZnWkdLN1Vta0ZjRndpc29XcTBEVHZFWEF6TG9abmQ0dU1VYkc3YmJISXAxX1R0RWJTNzAtbjBheDdxUQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-04-29T08:05:11+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_96bc8a8c503851",
+      "topic": "geopolitics",
+      "lead_title": "Oil prices rise despite UAE exit from OPEC amid Iran ceasefire impasse",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNm9EYXFjbnhWVXAwdDktcDItTm1xOTdNU1YydUVjS0hTNHdveGJrcDVjU2NNbmc0UEtaT0xNaEgzZjNHVzJWZmJWVkVMSlhZdWdJc3kxRjZZV1d1azk0Q2ZGOFFxQnlyQjBBak1mU185ZkdYdmlUSUMtbWxlakdmNzNfTjlzVjVjZGY4UFRyaHFERWl4bEdRMjVEX3pUeDVwTER0dnJuSDU4SVZPNmJSa3Bua1N6V1V1dHV0ZGRYdy1WajZt?oc=5",
+      "lead_source": "Euronews.com",
+      "canonical_entities": [
+        "Iran",
+        "OPEC"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T08:50:11+00:00",
+      "latest_seen": "2026-04-29T08:50:11+00:00",
+      "age_hours": 2.93,
+      "score": 67.24,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.24,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "f3202fed3846535a",
+          "title": "Oil prices rise despite UAE exit from OPEC amid Iran ceasefire impasse",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNm9EYXFjbnhWVXAwdDktcDItTm1xOTdNU1YydUVjS0hTNHdveGJrcDVjU2NNbmc0UEtaT0xNaEgzZjNHVzJWZmJWVkVMSlhZdWdJc3kxRjZZV1d1azk0Q2ZGOFFxQnlyQjBBak1mU185ZkdYdmlUSUMtbWxlakdmNzNfTjlzVjVjZGY4UFRyaHFERWl4bEdRMjVEX3pUeDVwTER0dnJuSDU4SVZPNmJSa3Bua1N6V1V1dHV0ZGRYdy1WajZt?oc=5",
+          "source": "Euronews.com",
+          "source_type": "rss",
+          "published_at": "2026-04-29T08:50:11+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e12e70905504b5",
+      "topic": "geopolitics",
+      "lead_title": "The UAE’s departure from OPEC may not break the cartel",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdV9pY3NaSUFHQ2h0Q0xMbUhpUWpIQ1ZRVWo3UlhrYnpIZ2hYRFEwMFN1azJzUjMySDVJaUR3MWNOQzgwSi15djRYZ1p1eDhhbTJNX3JfRGd2ekZfc21IZEh0Q1hpRkplTTdvNllSV3M2VFI1Nl9LdUZoUUVaZkZZYjlUc0lUYU9BSFRBVVFRdTdoVU8wMWQxSmxRTTJIN29icFFHZWZObHJQY0JmNGVlZUZ2Yw?oc=5",
+      "lead_source": "The Economist",
+      "canonical_entities": [
+        "OPEC"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T20:09:06+00:00",
+      "latest_seen": "2026-04-28T20:09:06+00:00",
+      "age_hours": 15.62,
+      "score": 62.53,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 15.63,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "288e93cd4d5f0380",
+          "title": "The UAE’s departure from OPEC may not break the cartel",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdV9pY3NaSUFHQ2h0Q0xMbUhpUWpIQ1ZRVWo3UlhrYnpIZ2hYRFEwMFN1azJzUjMySDVJaUR3MWNOQzgwSi15djRYZ1p1eDhhbTJNX3JfRGd2ekZfc21IZEh0Q1hpRkplTTdvNllSV3M2VFI1Nl9LdUZoUUVaZkZZYjlUc0lUYU9BSFRBVVFRdTdoVU8wMWQxSmxRTTJIN29icFFHZWZObHJQY0JmNGVlZUZ2Yw?oc=5",
+          "source": "The Economist",
+          "source_type": "rss",
+          "published_at": "2026-04-28T20:09:06+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_dbe3949fc73f0b",
       "topic": "geopolitics",
-      "lead_title": "Oil prices extend multi-day rally as Trump issues new threat to Iran; Brent tops $115 per barrel",
+      "lead_title": "Oil prices extend multi-day rally as Trump issues new threat to Iran; Brent tops $114 per barrel",
       "lead_url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tdlIyb2xObS1YbXRpanVvbnV6MS1VbXpPQkFsT0g2UEFoYW11S0tHVHdHRGwxbjB0QkpOY3pFSlVoZHFMWEZuaGRYTlNVMG0tVXozM3RKTEFfYVdxMHVDYm5PU3lSbWYySjF6dVplSUNUR3BBNDBR0gF8QVVfeXFMTUNfeFpKNW5ocEhROUVFUDJibUZiZWV2UTY0T0dSa3JseGN2Nmk0MnlpUko3VXVaZC1Ta3JySzhBaE51U05IUk5iczdHYnI1SnpScG50RXRBWFZsU1RBOXhHaUcyU0ZCT3h0Y0FyV0JIRjFsRnVVdl9MRi13Zg?oc=5",
       "lead_source": "CNBC",
       "canonical_entities": [
@@ -93,21 +290,21 @@
       ],
       "earliest_seen": "2026-04-29T09:29:20+00:00",
       "latest_seen": "2026-04-29T09:29:20+00:00",
-      "age_hours": 0.4,
-      "score": 71.66,
+      "age_hours": 2.28,
+      "score": 60.53,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.76,
+        "recency_points": 23.63,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0774f85206c6e2cc",
-          "title": "Oil prices extend multi-day rally as Trump issues new threat to Iran; Brent tops $115 per barrel",
+          "title": "Oil prices extend multi-day rally as Trump issues new threat to Iran; Brent tops $114 per barrel",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tdlIyb2xObS1YbXRpanVvbnV6MS1VbXpPQkFsT0g2UEFoYW11S0tHVHdHRGwxbjB0QkpOY3pFSlVoZHFMWEZuaGRYTlNVMG0tVXozM3RKTEFfYVdxMHVDYm5PU3lSbWYySjF6dVplSUNUR3BBNDBR0gF8QVVfeXFMTUNfeFpKNW5ocEhROUVFUDJibUZiZWV2UTY0T0dSa3JseGN2Nmk0MnlpUko3VXVaZC1Ta3JySzhBaE51U05IUk5iczdHYnI1SnpScG50RXRBWFZsU1RBOXhHaUcyU0ZCT3h0Y0FyV0JIRjFsRnVVdl9MRi13Zg?oc=5",
           "source": "CNBC",
           "source_type": "rss",
@@ -115,7 +312,7 @@
           "confidence": 0.93
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -135,17 +332,17 @@
       ],
       "earliest_seen": "2026-04-29T03:51:00+00:00",
       "latest_seen": "2026-04-29T03:51:00+00:00",
-      "age_hours": 6.04,
-      "score": 71.38,
+      "age_hours": 7.92,
+      "score": 60.25,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.38,
+        "recency_points": 20.25,
         "source_quality_points": 27.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f3828f2d340e68b4",
@@ -155,45 +352,6 @@
           "source_type": "rss",
           "published_at": "2026-04-29T03:51:00+00:00",
           "confidence": 0.9
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_057dabf43d3a53",
-      "topic": "geopolitics",
-      "lead_title": "India's AWL flags 20% rise in oil-linked costs amid Middle East conflict",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1dtRVVOX2JmV0g0YU9NeHplYXFnTk1haDYxRkRjd1k3WmxMd25lNjl2ZlNVRXR4cWxfRnZ0UlU5cnNnQU5VT2QtR1pQWTY4RFpUTF9xVGsxSW4wZ2N2a1pVeG4tZy1aSGxRM1EwdnFobWs4ZTNWbU1PNk5QZVBvVks4MS1Lam9ZZHB4V09fVGNlTzhpSlBTT1prM1JCRUlhYml1ZnM5S05Qcmw3SmRHVE9MVnY4OWs3OENj?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-29T08:03:00+00:00",
-      "latest_seen": "2026-04-29T08:03:00+00:00",
-      "age_hours": 1.84,
-      "score": 67.4,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.9,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "3030d87d9df693a2",
-          "title": "India's AWL flags 20% rise in oil-linked costs amid Middle East conflict",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1dtRVVOX2JmV0g0YU9NeHplYXFnTk1haDYxRkRjd1k3WmxMd25lNjl2ZlNVRXR4cWxfRnZ0UlU5cnNnQU5VT2QtR1pQWTY4RFpUTF9xVGsxSW4wZ2N2a1pVeG4tZy1aSGxRM1EwdnFobWs4ZTNWbU1PNk5QZVBvVks4MS1Lam9ZZHB4V09fVGNlTzhpSlBTT1prM1JCRUlhYml1ZnM5S05Qcmw3SmRHVE9MVnY4OWs3OENj?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-29T08:03:00+00:00",
-          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -215,11 +373,11 @@
       ],
       "earliest_seen": "2026-04-29T05:00:01+00:00",
       "latest_seen": "2026-04-29T05:00:01+00:00",
-      "age_hours": 4.89,
-      "score": 58.97,
+      "age_hours": 6.77,
+      "score": 57.84,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.07,
+        "recency_points": 20.94,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -241,48 +399,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_858d5f0d004433",
-      "topic": "geopolitics",
-      "lead_title": "UAE Says It Will Leave OPEC as Iran War Strains Oil Markets",
-      "lead_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yQzVCOGlNUFlhVWJRVUVkeEprQ1p6ZmtENnI0SnBPMTFOVnFYT2RJTy1LSkNYYjVVb1RwZWJfOXZGT1ltdHNWQ0plSDFfeGwzUVZhczRiLXJ0RE9YWDFjRDlQT1locnZLcHM5ZTlIYWpFWUk?oc=5",
-      "lead_source": "The New York Times",
-      "canonical_entities": [
-        "Iran",
-        "OPEC"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T16:51:51+00:00",
-      "latest_seen": "2026-04-28T16:51:51+00:00",
-      "age_hours": 17.02,
-      "score": 58.79,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.79,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "3c3abeec7c0a6bce",
-          "title": "UAE Says It Will Leave OPEC as Iran War Strains Oil Markets",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4yQzVCOGlNUFlhVWJRVUVkeEprQ1p6ZmtENnI0SnBPMTFOVnFYT2RJTy1LSkNYYjVVb1RwZWJfOXZGT1ltdHNWQ0plSDFfeGwzUVZhczRiLXJ0RE9YWDFjRDlQT1locnZLcHM5ZTlIYWpFWUk?oc=5",
-          "source": "The New York Times",
-          "source_type": "rss",
-          "published_at": "2026-04-28T16:51:51+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_d2f0d4becfba07",
       "topic": "geopolitics",
       "lead_title": "U.S. warns banks of sanctions risk over China ‘teapot’ refineries handling Iranian oil",
@@ -298,11 +414,11 @@
       ],
       "earliest_seen": "2026-04-29T03:28:00+00:00",
       "latest_seen": "2026-04-29T03:28:00+00:00",
-      "age_hours": 6.42,
-      "score": 58.05,
+      "age_hours": 8.3,
+      "score": 56.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.15,
+        "recency_points": 20.02,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -318,6 +434,45 @@
           "source_type": "rss",
           "published_at": "2026-04-29T03:28:00+00:00",
           "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_057dabf43d3a53",
+      "topic": "geopolitics",
+      "lead_title": "India's AWL flags 20% rise in oil-linked costs amid Middle East conflict",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1dtRVVOX2JmV0g0YU9NeHplYXFnTk1haDYxRkRjd1k3WmxMd25lNjl2ZlNVRXR4cWxfRnZ0UlU5cnNnQU5VT2QtR1pQWTY4RFpUTF9xVGsxSW4wZ2N2a1pVeG4tZy1aSGxRM1EwdnFobWs4ZTNWbU1PNk5QZVBvVks4MS1Lam9ZZHB4V09fVGNlTzhpSlBTT1prM1JCRUlhYml1ZnM5S05Qcmw3SmRHVE9MVnY4OWs3OENj?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T08:03:00+00:00",
+      "latest_seen": "2026-04-29T08:03:00+00:00",
+      "age_hours": 3.72,
+      "score": 56.27,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.77,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "3030d87d9df693a2",
+          "title": "India's AWL flags 20% rise in oil-linked costs amid Middle East conflict",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOX1dtRVVOX2JmV0g0YU9NeHplYXFnTk1haDYxRkRjd1k3WmxMd25lNjl2ZlNVRXR4cWxfRnZ0UlU5cnNnQU5VT2QtR1pQWTY4RFpUTF9xVGsxSW4wZ2N2a1pVeG4tZy1aSGxRM1EwdnFobWs4ZTNWbU1PNk5QZVBvVks4MS1Lam9ZZHB4V09fVGNlTzhpSlBTT1prM1JCRUlhYml1ZnM5S05Qcmw3SmRHVE9MVnY4OWs3OENj?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-29T08:03:00+00:00",
+          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -340,11 +495,11 @@
       ],
       "earliest_seen": "2026-04-29T04:18:45+00:00",
       "latest_seen": "2026-04-29T04:18:45+00:00",
-      "age_hours": 5.58,
-      "score": 55.65,
+      "age_hours": 7.46,
+      "score": 54.53,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.65,
+        "recency_points": 20.53,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -366,88 +521,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_b28a4a63833e42",
-      "topic": "geopolitics",
-      "lead_title": "How the UAE’s decision to leave Opec could recast the Middle East",
-      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenFralNWTldvTjFXLXBlR09LTFdRRVVkSm5yTm03X1gwTlhrZlpncGgxanRxb3E0Y3pzb1ZTd3AwV2FVR0hKd0RYUkhqYVdyb3g2UkFrVWUyLVZxX0hfUlkyU2JuWkltWkdlZ1FCQWpyUW1QaGxxUFF0THBPMExaaUJyVDlVc0E1R1VHX1duREN2SEJkQU8xNnowanRzUG1qcjhTSw?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "OPEC"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T22:18:00+00:00",
-      "latest_seen": "2026-04-28T22:18:00+00:00",
-      "age_hours": 11.59,
-      "score": 52.55,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.05,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f8c043a34fbd866e",
-          "title": "How the UAE’s decision to leave Opec could recast the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenFralNWTldvTjFXLXBlR09LTFdRRVVkSm5yTm03X1gwTlhrZlpncGgxanRxb3E0Y3pzb1ZTd3AwV2FVR0hKd0RYUkhqYVdyb3g2UkFrVWUyLVZxX0hfUlkyU2JuWkltWkdlZ1FCQWpyUW1QaGxxUFF0THBPMExaaUJyVDlVc0E1R1VHX1duREN2SEJkQU8xNnowanRzUG1qcjhTSw?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-04-28T22:18:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d4a0671a10695c",
-      "topic": "geopolitics",
-      "lead_title": "UAE exit weakens OPEC+ power over oil market but group to stay together, sources say",
-      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcmZKRVltdFUzMFBld3oyR2R6dHQxQXRUSWctSW96c1VQSW5Xc0JPbTZrTkZxMWkwUXR0NEhEWEFYazhUc1NMcERRc2IxaUtQeklxR0tYanEwc1EzQ05ialFnUjhYNDA1cldjYks1aHh3SG5ydVM2Yk8tVjRqV0lpcExNNEhmVjVNcGJOUFl6TGdWSGUzeG41X0IzTjUzTk5xcjFQc0hqenp2dVZVWWNqV1lLUHhIUU9fSDR5UzFCRTdlMnJhSVE?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "OPEC"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T20:58:45+00:00",
-      "latest_seen": "2026-04-28T20:58:45+00:00",
-      "age_hours": 12.91,
-      "score": 51.25,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 17.25,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "08c1e862e868b511",
-          "title": "UAE exit weakens OPEC+ power over oil market but group to stay together, sources say",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcmZKRVltdFUzMFBld3oyR2R6dHQxQXRUSWctSW96c1VQSW5Xc0JPbTZrTkZxMWkwUXR0NEhEWEFYazhUc1NMcERRc2IxaUtQeklxR0tYanEwc1EzQ05ialFnUjhYNDA1cldjYks1aHh3SG5ydVM2Yk8tVjRqV0lpcExNNEhmVjVNcGJOUFl6TGdWSGUzeG41X0IzTjUzTk5xcjFQc0hqenp2dVZVWWNqV1lLUHhIUU9fSDR5UzFCRTdlMnJhSVE?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-28T20:58:45+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_1e25a61f76afc4",
       "topic": "geopolitics",
       "lead_title": "BP Profits Double as Iran War Boosts Oil Traders",
@@ -463,11 +536,11 @@
       ],
       "earliest_seen": "2026-04-28T06:45:00+00:00",
       "latest_seen": "2026-04-28T12:50:10+00:00",
-      "age_hours": 21.05,
-      "score": 49.42,
+      "age_hours": 22.93,
+      "score": 48.29,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 12.37,
+        "recency_points": 11.24,
         "source_quality_points": 28.05,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -498,54 +571,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_6442116b7f32b8",
-      "topic": "geopolitics",
-      "lead_title": "Gold falls as Middle East tensions keep oil soaring, Fed meeting in focus",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGNpbTBCYzQ2NWNmX3k1azB3TGczbV9nb3hsM1lQR2l5dTlxUkxQdjZjZks2T0xZM1Q4MEtSX3psV3lRT3ZIbU41VS1fSUF5MTBtV1liTUl3QW5HUGhHZ2ZKWi1GVHlTOC1zMW1obTFOamZ0OGdRRFlTNDA0SFZtQkZ6VUg3U1Z6R1Zvemw4RGhYRmhVLXBQWUM1c1AwMl9qaHFISEJ2RTI2NTA?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T10:27:22+00:00",
-      "latest_seen": "2026-04-28T17:55:09+00:00",
-      "age_hours": 15.97,
-      "score": 47.87,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 15.42,
-        "source_quality_points": 27.45,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "4f57c2185692eb47",
-          "title": "Gold falls as Middle East tensions keep oil soaring, Fed meeting in focus",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGNpbTBCYzQ2NWNmX3k1azB3TGczbV9nb3hsM1lQR2l5dTlxUkxQdjZjZks2T0xZM1Q4MEtSX3psV3lRT3ZIbU41VS1fSUF5MTBtV1liTUl3QW5HUGhHZ2ZKWi1GVHlTOC1zMW1obTFOamZ0OGdRRFlTNDA0SFZtQkZ6VUg3U1Z6R1Zvemw4RGhYRmhVLXBQWUM1c1AwMl9qaHFISEJ2RTI2NTA?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-28T17:55:09+00:00",
-          "confidence": 0.95
-        },
-        {
-          "headline_id": "82fcbdf44daad7a4",
-          "title": "Gold falls 2% as Middle East tensions keep oil soaring, Fed meeting in focus",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPczh2RV9PbndlQnBIMk8taDNtdWN6NUctOTNGMEVGc0lqWHZwbU5yWndaZjA2RmxYSk94SVVMVy1tR29rRno3NE11MXB3YjhCY09rSVZHM1A3OHJ1Vk9qR29kZEpUWnpnWDlscGFmRGpWNHhEVWlBTUtqbFBicEtjZnJDaExMdVBkZjQxMXI0aTVzOF9TbEQtRU40U3JQMEl6WlliZnprOGEyOE3SAbABQVVfeXFMTXRxWkh0MnFpTFh1Q0FzS3N3V0FJbTh4SHNIZXhKSVllTl9iWUJ4X1dYZUtMckhzcnk5LWVaTVdycVhhYWRoMWExZHlRLVgzM0t4V05RN1BQVXh2UHpjQXBZbHozTEdWalVsblAyLWQzbW1KclJoSTdFTHZfdG5fWTU2SHc1UU9tSWdWTk1nWW9mM2RWa0J0OXdrS0xLdkNuaEd1Qzh3aldvdDlKOUV0bjM?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-04-28T10:27:22+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_e2958b1e3c0ee3",
       "topic": "geopolitics",
       "lead_title": "U.A.E.’s OPEC Exit Deals Major Blow to Cartel Amid Middle East Oil Squeeze",
@@ -561,11 +586,11 @@
       ],
       "earliest_seen": "2026-04-28T16:36:00+00:00",
       "latest_seen": "2026-04-28T16:36:00+00:00",
-      "age_hours": 17.29,
-      "score": 47.73,
+      "age_hours": 19.17,
+      "score": 46.6,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.63,
+        "recency_points": 13.5,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -602,11 +627,11 @@
       ],
       "earliest_seen": "2026-04-28T12:23:00+00:00",
       "latest_seen": "2026-04-28T12:23:00+00:00",
-      "age_hours": 21.5,
-      "score": 46.1,
+      "age_hours": 23.39,
+      "score": 44.97,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.1,
+        "recency_points": 10.97,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -628,11 +653,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_b1cd6828a57638",
+      "cluster_id": "c_b28a4a63833e42",
       "topic": "geopolitics",
-      "lead_title": "United Arab Emirates to quit oil cartel Opec",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wQW1nWS03VlBQWFNQRWpSX0U2QnZqLTZnWkdLN1Vta0ZjRndpc29XcTBEVHZFWEF6TG9abmQ0dU1VYkc3YmJISXAxX1R0RWJTNzAtbjBheDdxUQ?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "How the UAE’s decision to leave Opec could recast the Middle East",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenFralNWTldvTjFXLXBlR09LTFdRRVVkSm5yTm03X1gwTlhrZlpncGgxanRxb3E0Y3pzb1ZTd3AwV2FVR0hKd0RYUkhqYVdyb3g2UkFrVWUyLVZxX0hfUlkyU2JuWkltWkdlZ1FCQWpyUW1QaGxxUFF0THBPMExaaUJyVDlVc0E1R1VHX1duREN2SEJkQU8xNnowanRzUG1qcjhTSw?oc=5",
+      "lead_source": "The Guardian",
       "canonical_entities": [
         "OPEC"
       ],
@@ -641,14 +666,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T16:24:45+00:00",
-      "latest_seen": "2026-04-28T16:24:45+00:00",
-      "age_hours": 17.48,
-      "score": 45.51,
+      "earliest_seen": "2026-04-28T18:58:00+00:00",
+      "latest_seen": "2026-04-28T18:58:00+00:00",
+      "age_hours": 16.8,
+      "score": 44.42,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.51,
-        "source_quality_points": 27.0,
+        "recency_points": 14.92,
+        "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
       },
@@ -656,13 +681,13 @@
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "49eb03063eb958aa",
-          "title": "United Arab Emirates to quit oil cartel Opec",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wQW1nWS03VlBQWFNQRWpSX0U2QnZqLTZnWkdLN1Vta0ZjRndpc29XcTBEVHZFWEF6TG9abmQ0dU1VYkc3YmJISXAxX1R0RWJTNzAtbjBheDdxUQ?oc=5",
-          "source": "BBC",
+          "headline_id": "f8c043a34fbd866e",
+          "title": "How the UAE’s decision to leave Opec could recast the Middle East",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQenFralNWTldvTjFXLXBlR09LTFdRRVVkSm5yTm03X1gwTlhrZlpncGgxanRxb3E0Y3pzb1ZTd3AwV2FVR0hKd0RYUkhqYVdyb3g2UkFrVWUyLVZxX0hfUlkyU2JuWkltWkdlZ1FCQWpyUW1QaGxxUFF0THBPMExaaUJyVDlVc0E1R1VHX1duREN2SEJkQU8xNnowanRzUG1qcjhTSw?oc=5",
+          "source": "The Guardian",
           "source_type": "rss",
-          "published_at": "2026-04-28T16:24:45+00:00",
-          "confidence": 0.9
+          "published_at": "2026-04-28T18:58:00+00:00",
+          "confidence": 0.85
         }
       ],
       "top_tier": false,
@@ -684,11 +709,11 @@
       ],
       "earliest_seen": "2026-04-28T12:31:57+00:00",
       "latest_seen": "2026-04-28T12:31:57+00:00",
-      "age_hours": 21.36,
-      "score": 44.09,
+      "age_hours": 23.24,
+      "score": 42.96,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.19,
+        "recency_points": 11.06,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -710,39 +735,48 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_bcfe0f126a7045",
+      "cluster_id": "c_6442116b7f32b8",
       "topic": "geopolitics",
-      "lead_title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
+      "lead_title": "Gold falls as Middle East tensions keep oil soaring, Fed meeting in focus",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGNpbTBCYzQ2NWNmX3k1azB3TGczbV9nb3hsM1lQR2l5dTlxUkxQdjZjZks2T0xZM1Q4MEtSX3psV3lRT3ZIbU41VS1fSUF5MTBtV1liTUl3QW5HUGhHZ2ZKWi1GVHlTOC1zMW1obTFOamZ0OGdRRFlTNDA0SFZtQkZ6VUg3U1Z6R1Zvemw4RGhYRmhVLXBQWUM1c1AwMl9qaHFISEJ2RTI2NTA?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-27T07:00:00+00:00",
-      "latest_seen": "2026-04-27T07:00:00+00:00",
-      "age_hours": 50.89,
-      "score": 43.5,
+      "earliest_seen": "2026-04-28T01:32:00+00:00",
+      "latest_seen": "2026-04-28T10:27:22+00:00",
+      "age_hours": 25.31,
+      "score": 42.26,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 28.5,
+        "source_count_points": 10,
+        "recency_points": 9.81,
+        "source_quality_points": 27.45,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "6cd6066a7f0dabcc",
-          "title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
+          "headline_id": "4f57c2185692eb47",
+          "title": "Gold falls as Middle East tensions keep oil soaring, Fed meeting in focus",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZGNpbTBCYzQ2NWNmX3k1azB3TGczbV9nb3hsM1lQR2l5dTlxUkxQdjZjZks2T0xZM1Q4MEtSX3psV3lRT3ZIbU41VS1fSUF5MTBtV1liTUl3QW5HUGhHZ2ZKWi1GVHlTOC1zMW1obTFOamZ0OGdRRFlTNDA0SFZtQkZ6VUg3U1Z6R1Zvemw4RGhYRmhVLXBQWUM1c1AwMl9qaHFISEJ2RTI2NTA?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-27T07:00:00+00:00",
+          "published_at": "2026-04-28T01:32:00+00:00",
           "confidence": 0.95
+        },
+        {
+          "headline_id": "82fcbdf44daad7a4",
+          "title": "Gold falls 2% as Middle East tensions keep oil soaring, Fed meeting in focus",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPczh2RV9PbndlQnBIMk8taDNtdWN6NUctOTNGMEVGc0lqWHZwbU5yWndaZjA2RmxYSk94SVVMVy1tR29rRno3NE11MXB3YjhCY09rSVZHM1A3OHJ1Vk9qR29kZEpUWnpnWDlscGFmRGpWNHhEVWlBTUtqbFBicEtjZnJDaExMdVBkZjQxMXI0aTVzOF9TbEQtRU40U3JQMEl6WlliZnprOGEyOE3SAbABQVVfeXFMTXRxWkh0MnFpTFh1Q0FzS3N3V0FJbTh4SHNIZXhKSVllTl9iWUJ4X1dYZUtMckhzcnk5LWVaTVdycVhhYWRoMWExZHlRLVgzM0t4V05RN1BQVXh2UHpjQXBZbHozTEdWalVsblAyLWQzbW1KclJoSTdFTHZfdG5fWTU2SHc1UU9tSWdWTk1nWW9mM2RWa0J0OXdrS0xLdkNuaEd1Qzh3aldvdDlKOUV0bjM?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-04-28T10:27:22+00:00",
+          "confidence": 0.88
         }
       ],
       "top_tier": false,
@@ -764,11 +798,11 @@
       ],
       "earliest_seen": "2026-04-28T12:59:00+00:00",
       "latest_seen": "2026-04-28T12:59:00+00:00",
-      "age_hours": 20.9,
-      "score": 41.96,
+      "age_hours": 22.79,
+      "score": 40.83,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.46,
+        "recency_points": 11.33,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -805,11 +839,11 @@
       ],
       "earliest_seen": "2026-04-28T01:09:00+00:00",
       "latest_seen": "2026-04-28T01:09:00+00:00",
-      "age_hours": 32.74,
-      "score": 39.36,
+      "age_hours": 34.62,
+      "score": 38.23,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.36,
+        "recency_points": 4.23,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -846,11 +880,11 @@
       ],
       "earliest_seen": "2026-04-28T02:00:00+00:00",
       "latest_seen": "2026-04-28T02:00:00+00:00",
-      "age_hours": 31.89,
-      "score": 38.97,
+      "age_hours": 33.77,
+      "score": 37.84,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.87,
+        "recency_points": 4.74,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -888,7 +922,7 @@
       ],
       "earliest_seen": "2026-04-13T07:00:00+00:00",
       "latest_seen": "2026-04-13T07:00:00+00:00",
-      "age_hours": 386.89,
+      "age_hours": 388.77,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -927,11 +961,11 @@
       ],
       "earliest_seen": "2026-04-28T11:02:00+00:00",
       "latest_seen": "2026-04-28T11:02:00+00:00",
-      "age_hours": 22.85,
-      "score": 35.29,
+      "age_hours": 24.74,
+      "score": 34.16,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.29,
+        "recency_points": 10.16,
         "source_quality_points": 24.0,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -968,7 +1002,7 @@
       ],
       "earliest_seen": "2026-04-21T12:30:17+00:00",
       "latest_seen": "2026-04-21T12:30:17+00:00",
-      "age_hours": 189.38,
+      "age_hours": 191.26,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -1007,7 +1041,7 @@
       ],
       "earliest_seen": "2026-04-27T12:09:23+00:00",
       "latest_seen": "2026-04-27T12:09:23+00:00",
-      "age_hours": 45.73,
+      "age_hours": 47.61,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -1033,25 +1067,25 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_481af54fdbf858",
+      "cluster_id": "c_bcfe0f126a7045",
       "topic": "geopolitics",
-      "lead_title": "Shell Buys a Gas Producer Far From the Middle East Turmoil",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWnp1NWYyX0dSbENqMWgwMjFhQ0tnT3J3YWVaeVBnc3p4M09mS1ZpZHZyNWRmRW5ZaTd6UWlRQ0M0bFFMWllaWHlEUjZaQkFZWlZXV2tKalBqU3A3aEtZZ2lmeUpoVjlvZTBSbmdRQkhSWnRvWEJfOUNEaWFkNG5zRjNBSWxPdkNXdTNTQnJUWDVRTV9NT09UZGtseHB0UC1QQlE?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
+      "lead_source": "Reuters",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-27T15:21:00+00:00",
-      "latest_seen": "2026-04-27T15:21:00+00:00",
-      "age_hours": 42.54,
-      "score": 27.6,
+      "earliest_seen": "2026-04-27T07:00:00+00:00",
+      "latest_seen": "2026-04-27T07:00:00+00:00",
+      "age_hours": 52.77,
+      "score": 28.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.6,
+        "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
       },
@@ -1059,13 +1093,13 @@
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "bebc62929a2cfa7c",
-          "title": "Shell Buys a Gas Producer Far From the Middle East Turmoil",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPWnp1NWYyX0dSbENqMWgwMjFhQ0tnT3J3YWVaeVBnc3p4M09mS1ZpZHZyNWRmRW5ZaTd6UWlRQ0M0bFFMWllaWHlEUjZaQkFZWlZXV2tKalBqU3A3aEtZZ2lmeUpoVjlvZTBSbmdRQkhSWnRvWEJfOUNEaWFkNG5zRjNBSWxPdkNXdTNTQnJUWDVRTV9NT09UZGtseHB0UC1QQlE?oc=5",
-          "source": "WSJ",
+          "headline_id": "6cd6066a7f0dabcc",
+          "title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-27T15:21:00+00:00",
-          "confidence": 0.92
+          "published_at": "2026-04-27T07:00:00+00:00",
+          "confidence": 0.95
         }
       ],
       "top_tier": false,
