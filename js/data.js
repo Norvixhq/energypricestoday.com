@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Gas Prices Climb to Highest Level since the Start of the Iran Conflict", cat: "Gas Prices", slug: "gas-prices", time: "1h" },
-  { title: "Drivers See Small Break as Gas Prices Tick Lower", cat: "Gas Prices", slug: "gas-prices", time: "2h" },
-  { title: "Pump Prices Keep Climbing as Crude Oil Remains High", cat: "Gas Prices", slug: "gas-prices", time: "3h" },
-  { title: "For the First Time in Four Years, National Average Exceeds $4/Gallon", cat: "Gas Prices", slug: "gas-prices", time: "4h" },
-  { title: "Wobbly Gas Prices Following Major Winter Storm", cat: "Gas Prices", slug: "gas-prices", time: "5h" },
-  { title: "National Gas Average Jumps One Dollar in One Month", cat: "Gas Prices", slug: "gas-prices", time: "6h" },
-  { title: "Rising Pump Prices, Higher Gas Demand as Spring Break Begins", cat: "Gas Prices", slug: "gas-prices", time: "7h" },
-  { title: "Seasonal Shift Toward Rising Gas Prices", cat: "Gas Prices", slug: "gas-prices", time: "8h" },
+  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices rise as US-Iran peace talks stall", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Current price of oil as of April 28, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil price climbs above $110 for first time in three weeks", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Warnings on Permanent Oil Demand Destruction Begin Pouring In", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Europe Emerges As Key Buyer Of U.S. Strategic Petroleum Reserve Oil", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Goldman Sachs Raises Oil Price Forecast Yet Again", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
