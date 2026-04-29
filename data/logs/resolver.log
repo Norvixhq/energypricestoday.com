@@ -107,3 +107,16 @@
 [2026-04-29T20:17:43.953226+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
 [2026-04-29T20:17:43.953707+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-29T20:17:43.953736+00:00] ════════════════════════════════════════════════════════════
+[2026-04-29T21:41:39.821145+00:00] resolver: start
+[2026-04-29T21:41:39.825277+00:00] resolver: scanning 268 clusters across 10 topics
+[2026-04-29T21:41:39.825673+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=4)
+[2026-04-29T21:41:39.826689+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=8)
+[2026-04-29T21:41:39.826916+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=11)
+[2026-04-29T21:41:39.826965+00:00]   global_risk_level: LOW (score=10)
+[2026-04-29T21:41:39.827144+00:00]   top_story: 'US Crude Exports Surge to Record Above 6 Million Barrels a D' (score=88.64)
+[2026-04-29T21:41:39.827212+00:00] resolver: 4 change(s), 3 meaningful, 0 publish-triggering
+[2026-04-29T21:41:39.827242+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-04-29T21:41:39.827272+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-04-29T21:41:39.827297+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-04-29T21:41:39.827899+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-29T21:41:39.827939+00:00] ════════════════════════════════════════════════════════════
