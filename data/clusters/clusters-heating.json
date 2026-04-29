@@ -1,6 +1,6 @@
 {
   "topic": "heating",
-  "generated_at": "2026-04-29T22:41:51.335293+00:00",
+  "generated_at": "2026-04-29T23:41:40.312140+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -21,11 +21,11 @@
       ],
       "earliest_seen": "2026-04-29T16:37:08+00:00",
       "latest_seen": "2026-04-29T16:37:08+00:00",
-      "age_hours": 6.08,
-      "score": 51.85,
+      "age_hours": 7.08,
+      "score": 51.25,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.35,
+        "recency_points": 20.75,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -47,42 +47,167 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_0d06c67615291b",
+      "cluster_id": "c_2a707c048f948f",
       "topic": "heating",
-      "lead_title": "Irish government announces further fuel supports after protests",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80UWJERElEeEYwa3VXRUswN0pkYW1qcTNOUlFWVHI0RDVZajloaVBCTjkzaHJ3TWdtaFp3SVd0Q042MXcydXl0ZDlueDV4dkFtd1pla0RBc3Y0dw?oc=5",
+      "lead_title": "Why will £100 heating oil payments not be paid until the summer?",
+      "lead_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwS0piMkNBaVNNVFU1RTVPWWdiTWp0S2o5aTd1RV82ZDd2ek5jT1RvanBuRmxzWTM2Q0tmNy10UWQ2dkdaNDNSTXJocDl0eXhuZllYRkhGOTM4LXpJ?oc=5",
       "lead_source": "BBC",
-      "canonical_entities": [],
+      "canonical_entities": [
+        "heating oil"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-29T12:48:45+00:00",
-      "latest_seen": "2026-04-29T12:48:45+00:00",
-      "age_hours": 9.89,
-      "score": 49.57,
+      "earliest_seen": "2026-04-17T07:00:00+00:00",
+      "latest_seen": "2026-04-17T07:00:00+00:00",
+      "age_hours": 304.69,
+      "score": 46.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.07,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "5162260b2cd57df4",
-          "title": "Irish government announces further fuel supports after protests",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE80UWJERElEeEYwa3VXRUswN0pkYW1qcTNOUlFWVHI0RDVZajloaVBCTjkzaHJ3TWdtaFp3SVd0Q042MXcydXl0ZDlueDV4dkFtd1pla0RBc3Y0dw?oc=5",
+          "headline_id": "42154559d98ee548",
+          "title": "Why will £100 heating oil payments not be paid until the summer?",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwS0piMkNBaVNNVFU1RTVPWWdiTWp0S2o5aTd1RV82ZDd2ek5jT1RvanBuRmxzWTM2Q0tmNy10UWQ2dkdaNDNSTXJocDl0eXhuZllYRkhGOTM4LXpJ?oc=5",
           "source": "BBC",
           "source_type": "rss",
-          "published_at": "2026-04-29T12:48:45+00:00",
-          "confidence": 0.85
+          "published_at": "2026-04-17T07:00:00+00:00",
+          "confidence": 0.9
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f2765f072f7528",
+      "topic": "heating",
+      "lead_title": "'Our heating oil's doubled in price in two weeks'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-19T07:00:00+00:00",
+      "latest_seen": "2026-03-19T07:00:00+00:00",
+      "age_hours": 1000.69,
+      "score": 46.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "5466091c33ce263e",
+          "title": "'Our heating oil's doubled in price in two weeks'",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-19T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_b164f0a64594b6",
+      "topic": "heating",
+      "lead_title": "Cumbria households struggling with heating oil prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QN0FOSDE5QzRSeTdWMHVqYTEySng2RHdGYmhLUFJISlJxZmkwS2dxWGpvZnlRcENJc2stWmlGLTMyRGJ0Xzl0dVlpV2dTVnJLV3I5X3lwZWttQQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-13T07:00:00+00:00",
+      "latest_seen": "2026-03-13T07:00:00+00:00",
+      "age_hours": 1144.69,
+      "score": 46.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "833d864b17c492d4",
+          "title": "Cumbria households struggling with heating oil prices",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QN0FOSDE5QzRSeTdWMHVqYTEySng2RHdGYmhLUFJISlJxZmkwS2dxWGpvZnlRcENJc2stWmlGLTMyRGJ0Xzl0dVlpV2dTVnJLV3I5X3lwZWttQQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-13T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7648d31055c708",
+      "topic": "heating",
+      "lead_title": "Heating oil costs soar in Kent, Sussex and Surrey as Iran war continues",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56d01kWUFQcU1iOUwycnowN092THlSY3pvNG1GeklLZDZoSlZLcmVUS0ZrNl92UkE0Q1d3em12YXJCeElmVFJPSXl6QUpuckZkS1BSVXRScW1LZw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-11T07:00:00+00:00",
+      "latest_seen": "2026-03-11T07:00:00+00:00",
+      "age_hours": 1192.69,
+      "score": 46.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b5679ec7204cb13d",
+          "title": "Heating oil costs soar in Kent, Sussex and Surrey as Iran war continues",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56d01kWUFQcU1iOUwycnowN092THlSY3pvNG1GeklLZDZoSlZLcmVUS0ZrNl92UkE0Q1d3em12YXJCeElmVFJPSXl6QUpuckZkS1BSVXRScW1LZw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-11T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -101,11 +226,11 @@
       ],
       "earliest_seen": "2026-04-29T05:49:14+00:00",
       "latest_seen": "2026-04-29T05:49:14+00:00",
-      "age_hours": 16.88,
-      "score": 45.87,
+      "age_hours": 17.87,
+      "score": 45.28,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.87,
+        "recency_points": 14.28,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -123,7 +248,87 @@
           "confidence": 0.9
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e2acf67e2d5534",
+      "topic": "heating",
+      "lead_title": "Asia's high sulfur fuel oil cash differentials surge to highest since IMO 2020",
+      "lead_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQ25SdHZvcWRNOGlGQlpDODU2SnlWRkJKTk5wY3BLQ2lPeDIzNlBoVzRDbFBrcV9SRElOcU9tSFBEWUp4S2ZIX1JuU0hMZkhwekdHVlcwTWE4ZFBWbDQwRWlkcG50cTR3WjJnMFRVQ090bEJiaFluRzBEakZiVmtKcHBMMU1SMEtOUkRnREk4VmV1cnowc2dnUGFZZHU4X0RCV01VLTF0QlJhV3ZEYW0yaWJvRWZiRjF3SmJ5aTZkVkRPTm5fZ0NBQnZyQWNvSml3dlJXYnBoaUpuX2lOT3ZyOUR6LXg4ZEt2SWt0c3hnN1dQZU51?oc=5",
+      "lead_source": "S&P Global",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-11T07:00:00+00:00",
+      "latest_seen": "2026-03-11T07:00:00+00:00",
+      "age_hours": 1192.69,
+      "score": 41.4,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "2e691056bc261df0",
+          "title": "Asia's high sulfur fuel oil cash differentials surge to highest since IMO 2020",
+          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQQ25SdHZvcWRNOGlGQlpDODU2SnlWRkJKTk5wY3BLQ2lPeDIzNlBoVzRDbFBrcV9SRElOcU9tSFBEWUp4S2ZIX1JuU0hMZkhwekdHVlcwTWE4ZFBWbDQwRWlkcG50cTR3WjJnMFRVQ090bEJiaFluRzBEakZiVmtKcHBMMU1SMEtOUkRnREk4VmV1cnowc2dnUGFZZHU4X0RCV01VLTF0QlJhV3ZEYW0yaWJvRWZiRjF3SmJ5aTZkVkRPTm5fZ0NBQnZyQWNvSml3dlJXYnBoaUpuX2lOT3ZyOUR6LXg4ZEt2SWt0c3hnN1dQZU51?oc=5",
+          "source": "S&P Global",
+          "source_type": "rss",
+          "published_at": "2026-03-11T07:00:00+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d98be89450aadb",
+      "topic": "heating",
+      "lead_title": "Heating oil costs – help is on the way",
+      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14RnI2dDZiVU1fU1RYT2lldzFERDBEMm80THgzN3l0YzRSdk1Vb2tWdTE1bkN2OXdTeEpZclYzMGhnWmVrVlVWS3hJUjl4aGV1OWRaNndnZlBIdnRteG94WDYtdHhZMGN2bXd0V3VSamZRMG4zY1d5ZA?oc=5",
+      "lead_source": "North Lincolnshire Council",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-20T10:43:00+00:00",
+      "latest_seen": "2026-04-20T10:43:00+00:00",
+      "age_hours": 228.98,
+      "score": 38.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "520088d13cf6f8fc",
+          "title": "Heating oil costs – help is on the way",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE14RnI2dDZiVU1fU1RYT2lldzFERDBEMm80THgzN3l0YzRSdk1Vb2tWdTE1bkN2OXdTeEpZclYzMGhnWmVrVlVWS3hJUjl4aGV1OWRaNndnZlBIdnRteG94WDYtdHhZMGN2bXd0V3VSamZRMG4zY1d5ZA?oc=5",
+          "source": "North Lincolnshire Council",
+          "source_type": "rss",
+          "published_at": "2026-04-20T10:43:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -142,11 +347,11 @@
       ],
       "earliest_seen": "2026-04-28T14:47:41+00:00",
       "latest_seen": "2026-04-28T14:47:41+00:00",
-      "age_hours": 31.9,
-      "score": 38.96,
+      "age_hours": 32.9,
+      "score": 38.36,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.86,
+        "recency_points": 5.26,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -183,7 +388,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1071.7,
+      "age_hours": 1072.69,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -224,7 +429,7 @@
       ],
       "earliest_seen": "2026-04-20T07:00:00+00:00",
       "latest_seen": "2026-04-20T07:00:00+00:00",
-      "age_hours": 231.7,
+      "age_hours": 232.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -265,7 +470,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 519.7,
+      "age_hours": 520.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -306,7 +511,7 @@
       ],
       "earliest_seen": "2026-04-05T07:00:00+00:00",
       "latest_seen": "2026-04-05T07:00:00+00:00",
-      "age_hours": 591.7,
+      "age_hours": 592.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -347,7 +552,7 @@
       ],
       "earliest_seen": "2026-04-01T07:00:00+00:00",
       "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 687.7,
+      "age_hours": 688.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -388,7 +593,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1071.7,
+      "age_hours": 1072.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -429,7 +634,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1071.7,
+      "age_hours": 1072.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -470,7 +675,7 @@
       ],
       "earliest_seen": "2026-03-13T07:00:00+00:00",
       "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1143.7,
+      "age_hours": 1144.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -511,7 +716,7 @@
       ],
       "earliest_seen": "2026-03-11T07:00:00+00:00",
       "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 1191.7,
+      "age_hours": 1192.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -552,7 +757,7 @@
       ],
       "earliest_seen": "2026-03-09T07:00:00+00:00",
       "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1239.7,
+      "age_hours": 1240.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -593,7 +798,7 @@
       ],
       "earliest_seen": "2026-03-09T07:00:00+00:00",
       "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1239.7,
+      "age_hours": 1240.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -634,7 +839,7 @@
       ],
       "earliest_seen": "2026-03-09T07:00:00+00:00",
       "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1239.7,
+      "age_hours": 1240.69,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -675,7 +880,7 @@
       ],
       "earliest_seen": "2026-03-11T07:00:00+00:00",
       "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 1191.7,
+      "age_hours": 1192.69,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -717,7 +922,7 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 879.7,
+      "age_hours": 880.69,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -756,7 +961,7 @@
       ],
       "earliest_seen": "2026-04-24T04:04:25+00:00",
       "latest_seen": "2026-04-24T04:04:25+00:00",
-      "age_hours": 138.62,
+      "age_hours": 139.62,
       "score": 27.6,
       "score_components": {
         "source_count_points": 5,
@@ -795,7 +1000,7 @@
       ],
       "earliest_seen": "2026-03-31T07:00:00+00:00",
       "latest_seen": "2026-03-31T07:00:00+00:00",
-      "age_hours": 711.7,
+      "age_hours": 712.69,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -834,7 +1039,7 @@
       ],
       "earliest_seen": "2026-03-10T07:00:00+00:00",
       "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 1215.7,
+      "age_hours": 1216.69,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -873,7 +1078,7 @@
       ],
       "earliest_seen": "2026-03-06T08:00:00+00:00",
       "latest_seen": "2026-03-06T08:00:00+00:00",
-      "age_hours": 1310.7,
+      "age_hours": 1311.69,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -914,7 +1119,7 @@
       ],
       "earliest_seen": "2026-04-25T21:59:28+00:00",
       "latest_seen": "2026-04-25T21:59:28+00:00",
-      "age_hours": 96.71,
+      "age_hours": 97.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -955,7 +1160,7 @@
       ],
       "earliest_seen": "2026-04-24T20:44:45+00:00",
       "latest_seen": "2026-04-24T20:44:45+00:00",
-      "age_hours": 121.95,
+      "age_hours": 122.95,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -996,7 +1201,7 @@
       ],
       "earliest_seen": "2026-04-23T13:51:53+00:00",
       "latest_seen": "2026-04-23T13:51:53+00:00",
-      "age_hours": 152.83,
+      "age_hours": 153.83,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1015,211 +1220,6 @@
           "source": "Department of Energy (.gov)",
           "source_type": "rss",
           "published_at": "2026-04-23T13:51:53+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c6c5e30fa812e5",
-      "topic": "heating",
-      "lead_title": "Townsend Recommends New England Homeowners to Consider Switching from Heating Oil to Propane",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVBPU1VDcHEwM09pMXZjU0RHc1FIcnNiZE16cFZQQlFUVExOSlFrczZSMHdsSDd1RUI5cUlIb2pCMXV4cFJaSzJYU3AtZlpvdHZmMGktWV90YzFtbDlMb1hYRGwzNlVLanVVbWZMM3cxZ2RxT1YyU0lUX1FabkJzem03VkJfT05iVzg5djdaemw2Q2QwX01fRlBrV21sYjIyY1NJX2ZpMlA3bEpXSUlVanJn?oc=5",
-      "lead_source": "Yahoo Finance",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-17T07:00:00+00:00",
-      "latest_seen": "2026-04-17T07:00:00+00:00",
-      "age_hours": 303.7,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "237985a164859879",
-          "title": "Townsend Recommends New England Homeowners to Consider Switching from Heating Oil to Propane",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVBPU1VDcHEwM09pMXZjU0RHc1FIcnNiZE16cFZQQlFUVExOSlFrczZSMHdsSDd1RUI5cUlIb2pCMXV4cFJaSzJYU3AtZlpvdHZmMGktWV90YzFtbDlMb1hYRGwzNlVLanVVbWZMM3cxZ2RxT1YyU0lUX1FabkJzem03VkJfT05iVzg5djdaemw2Q2QwX01fRlBrV21sYjIyY1NJX2ZpMlA3bEpXSUlVanJn?oc=5",
-          "source": "Yahoo Finance",
-          "source_type": "rss",
-          "published_at": "2026-04-17T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_15d38f955d7cc1",
-      "topic": "heating",
-      "lead_title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
-      "lead_source": "Spectrum News",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-03T07:00:00+00:00",
-      "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 639.7,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "21183276f4a1672f",
-          "title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
-          "source": "Spectrum News",
-          "source_type": "rss",
-          "published_at": "2026-04-03T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_bb7b8d98eb3bcd",
-      "topic": "heating",
-      "lead_title": "UK heating oil: the CMA's market review and market study",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWJHSTBlaXZ2WFhzcGl6c0Qtb0Npd25VTmU4QnRZZEZ5aVZ1TWphNkp0bkxRY0taWXNTN2lWM3ZJYkdTTy1Ta3JCNGJYdnRkSGpyZWx6ZlZNcDBGenB0czNQZFBUaVVrYWc4SkF5dzdfWlRKLVAxUThyOWhLQWQwS3dXbGs5eENIb1FzaVNLWnVoOTA1STNoSmhWWDlKdWdwYlFIM2NDQnRsZksyV2N2dFFB?oc=5",
-      "lead_source": "Dentons",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-01T07:00:00+00:00",
-      "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 687.7,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f14d682876530b50",
-          "title": "UK heating oil: the CMA's market review and market study",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWJHSTBlaXZ2WFhzcGl6c0Qtb0Npd25VTmU4QnRZZEZ5aVZ1TWphNkp0bkxRY0taWXNTN2lWM3ZJYkdTTy1Ta3JCNGJYdnRkSGpyZWx6ZlZNcDBGenB0czNQZFBUaVVrYWc4SkF5dzdfWlRKLVAxUThyOWhLQWQwS3dXbGs5eENIb1FzaVNLWnVoOTA1STNoSmhWWDlKdWdwYlFIM2NDQnRsZksyV2N2dFFB?oc=5",
-          "source": "Dentons",
-          "source_type": "rss",
-          "published_at": "2026-04-01T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d004757a6bb5b3",
-      "topic": "heating",
-      "lead_title": "Maine heating oil prices up to highest point in years",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDVrYkVCZVBnOE9BRDJzZ2o4RzI0ZV9HVXpSTzU0Sy1xWVExcXk2LTZZcUJWSS1CTnVKdVViaWJrMmtXY1FUQ3hNVm52eXJGUTBHVE52ZzZWaEE5VnM2VHBoZDNiV0VyMzl5UzJ4cnBlR2ctN185VjZpNWsycTdRQVpzMk1qWFhZSWNLSTVEWGl5Y0dzREJ5aA?oc=5",
-      "lead_source": "The Portland Press Herald",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-26T07:00:00+00:00",
-      "latest_seen": "2026-03-26T07:00:00+00:00",
-      "age_hours": 831.7,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "7349d3810630cf0d",
-          "title": "Maine heating oil prices up to highest point in years",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDVrYkVCZVBnOE9BRDJzZ2o4RzI0ZV9HVXpSTzU0Sy1xWVExcXk2LTZZcUJWSS1CTnVKdVViaWJrMmtXY1FUQ3hNVm52eXJGUTBHVE52ZzZWaEE5VnM2VHBoZDNiV0VyMzl5UzJ4cnBlR2ctN185VjZpNWsycTdRQVpzMk1qWFhZSWNLSTVEWGl5Y0dzREJ5aA?oc=5",
-          "source": "The Portland Press Herald",
-          "source_type": "rss",
-          "published_at": "2026-03-26T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5cb383a2142840",
-      "topic": "heating",
-      "lead_title": "RI sees biggest increase in heating oil prices nationwide",
-      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNERoV3Y1ZE1YdUxTblBDb2FTdG5CX29LSnBNMEdzVDlrY1ZTN1pLU0RKUVB1TG4xVS1uRmFUSmxzaUZTYWpXTG1uUU9xX3ozYkpQRkpEVm9WMG1IU2pYQUstdnRRZ0FpSkpPREZ1VXBId2lLcTZ1T29tZF82MFF2M0hka3N6R3VScFg2N0Zn0gGTAUFVX3lxTE5UV2NqZ2wxS1JWNmZ1T3ltbF9kb2VsX01wZ1RSa2s4S2ZxQmQ2RktYZ3R0elc5TmpRdTRUbWdfNU1BbEhNbEg1RmJDcGo4bnNsUzhuV1VQc2o4TE9hWWR4RkttRXVHNmdRRlpvTEFkb3BzX3hSNV9YV3RSQXB5S3BSdmxsakhaX3k3ZThSV056X2gzOA?oc=5",
-      "lead_source": "WPRI.com",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-24T07:00:00+00:00",
-      "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 879.7,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "437c9fd963814a4b",
-          "title": "RI sees biggest increase in heating oil prices nationwide",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNERoV3Y1ZE1YdUxTblBDb2FTdG5CX29LSnBNMEdzVDlrY1ZTN1pLU0RKUVB1TG4xVS1uRmFUSmxzaUZTYWpXTG1uUU9xX3ozYkpQRkpEVm9WMG1IU2pYQUstdnRRZ0FpSkpPREZ1VXBId2lLcTZ1T29tZF82MFF2M0hka3N6R3VScFg2N0Zn0gGTAUFVX3lxTE5UV2NqZ2wxS1JWNmZ1T3ltbF9kb2VsX01wZ1RSa2s4S2ZxQmQ2RktYZ3R0elc5TmpRdTRUbWdfNU1BbEhNbEg1RmJDcGo4bnNsUzhuV1VQc2o4TE9hWWR4RkttRXVHNmdRRlpvTEFkb3BzX3hSNV9YV3RSQXB5S3BSdmxsakhaX3k3ZThSV056X2gzOA?oc=5",
-          "source": "WPRI.com",
-          "source_type": "rss",
-          "published_at": "2026-03-24T07:00:00+00:00",
           "confidence": 0.65
         }
       ],
