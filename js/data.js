@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Warnings on Permanent Oil Demand Destruction Begin Pouring In", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices rise as US-Iran peace talks stall", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Current price of oil as of April 28, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Oil price climbs above $110 for first time in three weeks", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil prices rise as US-Iran peace talks stall", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil Prices On April 29: Brent Crude Prices Pause Near $111 Amid Fragile US-Iran Ceasefire Talks", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Warnings on Permanent Oil Demand Destruction Begin Pouring In", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "U.S. oil prices soar 11% as Trump's Iran war speech stokes fears of further escalation", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
