@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "WTI Tops $100, Brent $111 on Iran Hormuz Proposal Uncertainty", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Trump Says Iran in 'State of Collapse' as Hormuz Standoff Drags Into Ninth Week", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
-  { title: "U.S. Gas Average Hits $4.14, Highest in Nearly Four Years", cat: "Gas Prices", slug: "gas-prices", time: "5h" },
-  { title: "Iran Proposes Hormuz Reopening if U.S. Lifts Naval Blockade", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
-  { title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", cat: "Geopolitics", slug: "geopolitics", time: "2d" },
-  { title: "Trump Cancels Witkoff-Kushner Pakistan Trip as Iran Talks Stall", cat: "Geopolitics", slug: "geopolitics", time: "3d" },
-  { title: "WTI Surges 13% on Week as Hormuz Stays Closed and Talks Stall", cat: "Oil Markets", slug: "oil-prices", time: "4d" },
-  { title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels in Strait", cat: "Geopolitics", slug: "geopolitics", time: "6d" },
+  { title: "Oil jumps to highest price since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "U.S. Gas Prices Climb Further as Effects of Iran War Reverberate", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Brent pares gains after hitting 4-year highs as report stokes worries of U.S. military action against Iran", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Current price of oil as of April 29, 2026", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil Prices Rise After Trump Warns ‘No More Mr Nice Guy’ in Iran War, OPEC Fractures", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil price rises above $120 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Higher oil prices set to give feds a 'windfall' in next budget", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
