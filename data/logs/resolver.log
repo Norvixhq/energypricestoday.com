@@ -111,3 +111,13 @@
 [2026-04-30T19:58:21.118883+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
 [2026-04-30T19:58:21.119439+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-30T19:58:21.119478+00:00] ════════════════════════════════════════════════════════════
+[2026-04-30T21:12:53.050218+00:00] resolver: start
+[2026-04-30T21:12:53.054363+00:00] resolver: scanning 276 clusters across 10 topics
+[2026-04-30T21:12:53.054697+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=1)
+[2026-04-30T21:12:53.056001+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=15)
+[2026-04-30T21:12:53.056192+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=6)
+[2026-04-30T21:12:53.056232+00:00]   global_risk_level: LOW (score=10)
+[2026-04-30T21:12:53.056411+00:00]   top_story: 'Brent oil pulls back after climbing to $126 per barrel on U.' (score=94.45)
+[2026-04-30T21:12:53.056451+00:00] resolver: no state changes
+[2026-04-30T21:12:53.057005+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-30T21:12:53.057043+00:00] ════════════════════════════════════════════════════════════
