@@ -1,11 +1,11 @@
 {
   "topic": "energy",
-  "generated_at": "2026-04-29T23:41:40.274025+00:00",
+  "generated_at": "2026-04-30T01:25:33.714589+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 21,
+  "clusters_found": 22,
   "clusters": [
     {
       "cluster_id": "c_68f82aaa473fb7",
@@ -26,11 +26,11 @@
       ],
       "earliest_seen": "2026-04-28T19:17:44+00:00",
       "latest_seen": "2026-04-29T17:07:52+00:00",
-      "age_hours": 6.56,
-      "score": 76.86,
+      "age_hours": 8.29,
+      "score": 75.82,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 21.06,
+        "recency_points": 20.02,
         "source_quality_points": 24.8,
         "entity_relevance_points": 16,
         "materiality_points": 0.0
@@ -59,11 +59,93 @@
         {
           "headline_id": "742cf0cb10d6fc85",
           "title": "Tenn. gas prices hold steady amid continued volatility in crude oil market",
-          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPS2gyS01SZjlGVlB0ck50UWlDekc4WFlodVN3T0c2RXB6QlRrLU1jUHd2M2RqNE9TbWQ2UjN6RzJVaUZCSHZxY09PenVPSWtndzNmc3NaSlV2NHRPaVV3aWt2MjNldmduVzltYnhFU0d1WFlIdmxhNU1SbmdibGxXNzNKSG9xSUhDamtVNU1WQVVvd05VckxpMzFkTWNiSHFvTEZFQjZQTlRUU1dwRE43Y1hJWEN2LVJMZUpuSWEyZ3dfMzlfY2VaVmJLcHNzdDB0Y2NBSmZBU3BSRV9icGtvS2lnajBTdnZLLW8ycTRBdGN4czNXWko1WFlyT0VGVEJPMEE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMUFoWmROTV9xRjY5VXZpRzRyOW83Um9FSW1VeWJTT29lU1ZUcnY2SlNiTjQ1OGR6R19US3R3bEF5cTltaUN5WGhSdV9vdEFGUlhjQnZqaGpteldlOEtsY0ZPRlJnczh6Rm4yN0xLRVRuZXFPekRRanFwTFo2S1BjZGlsNEJod2QwUGhyZ1dkMl85ZUlxc0RfdENBSlpOVzdrSzRNR1BQTlBXSjFmU2ZV?oc=5",
           "source": "Elizabethton Star",
           "source_type": "rss",
           "published_at": "2026-04-29T17:07:52+00:00",
           "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_9cd059d304751e",
+      "topic": "energy",
+      "lead_title": "Oil prices extend gains as US-Iran war deadlock keeps supply off market",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenNidWVwSUNlZUxVRDFaR3N2NVdjRXdmTmJNZGk2T2prVmh6bTJndHR1bm1PUmhmbjN2dkpMYTN5NG5IZlFNUExLclNlcWJMVzFrd1VjTXoxRlFEWmtPbDlGZ055WlJVbEhESGRob0hPVFVKemt2aDNhaGpDR1RzZmRORVM3M0RmbjhuY0ctSGlYaEJXYkVtbmZtZnZZNnZHX3FVcXNIQm4wOXJ1Mk83dXFILXdmQi0xcFYzMw?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-30T01:07:00+00:00",
+      "latest_seen": "2026-04-30T01:07:00+00:00",
+      "age_hours": 0.31,
+      "score": 73.81,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.81,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "44f11a54cb0c9b9a",
+          "title": "Oil prices extend gains as US-Iran war deadlock keeps supply off market",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenNidWVwSUNlZUxVRDFaR3N2NVdjRXdmTmJNZGk2T2prVmh6bTJndHR1bm1PUmhmbjN2dkpMYTN5NG5IZlFNUExLclNlcWJMVzFrd1VjTXoxRlFEWmtPbDlGZ055WlJVbEhESGRob0hPVFVKemt2aDNhaGpDR1RzZmRORVM3M0RmbjhuY0ctSGlYaEJXYkVtbmZtZnZZNnZHX3FVcXNIQm4wOXJ1Mk83dXFILXdmQi0xcFYzMw?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-30T01:07:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_fbdb368119c8be",
+      "topic": "energy",
+      "lead_title": "Asia-Pacific markets open lower as oil climbs on Iran tensions, Fed holds rates",
+      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMUNud1Q2SlMzVnJJNHNydDRKTkgzUndsZ0lSSHV0VlVadVZMMG1DemptTy1QVUpYem4ybVh2SkNrbmFqdEdqYmdMbDJESU1kMW4yeFhnN2thYkxJRjhUQjJjRjJlbTJGNFZMVGlhOWxCdXJlaHNYXzRCallMUVFmemNRMXlWWV9HSElDZnJycktnMkxD?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T23:47:21+00:00",
+      "latest_seen": "2026-04-29T23:47:21+00:00",
+      "age_hours": 1.64,
+      "score": 70.92,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.02,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6bdbc2dd109632d5",
+          "title": "Asia-Pacific markets open lower as oil climbs on Iran tensions, Fed holds rates",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQMUNud1Q2SlMzVnJJNHNydDRKTkgzUndsZ0lSSHV0VlVadVZMMG1DemptTy1QVUpYem4ybVh2SkNrbmFqdEdqYmdMbDJESU1kMW4yeFhnN2thYkxJRjhUQjJjRjJlbTJGNFZMVGlhOWxCdXJlaHNYXzRCallMUVFmemNRMXlWWV9HSElDZnJycktnMkxD?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-04-29T23:47:21+00:00",
+          "confidence": 0.93
         }
       ],
       "top_tier": true,
@@ -79,18 +161,18 @@
         "energy",
         "oil"
       ],
-      "source_count": 4,
-      "distinct_publishers": 4,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-29T13:32:47+00:00",
+      "earliest_seen": "2026-04-29T16:44:59+00:00",
       "latest_seen": "2026-04-29T18:42:35+00:00",
-      "age_hours": 4.98,
-      "score": 71.01,
+      "age_hours": 6.72,
+      "score": 64.97,
       "score_components": {
-        "source_count_points": 20,
-        "recency_points": 22.01,
+        "source_count_points": 15,
+        "recency_points": 20.97,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -124,69 +206,50 @@
           "source_type": "rss",
           "published_at": "2026-04-29T16:44:59+00:00",
           "confidence": 0.7
-        },
-        {
-          "headline_id": "eb9a1ec08e5101e8",
-          "title": "Trump Meets with Chevron, Energy Executives on Oil, Gas Markets",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaVpzQW8xVWxYc2htdnBKX2NTWldjSVM5dGR4bGNKbjZjRDRPR2RZREJWekpFdFJhRnZrd3UxakJfeWhqTmJDNFpJb3lSLXFYRENZOWdHUzhkTWdNcDV1cXRURE5iZmVweVI2dk50N3o4ODdyYTc4N1ZvalZicFJESVhvTXAyN29GYTRvNk1kQTllb3pXWWdLajdlVUw5Q1Jq?oc=5",
-          "source": "Pipeline and Gas Journal",
-          "source_type": "rss",
-          "published_at": "2026-04-29T13:32:47+00:00",
-          "confidence": 0.7
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_1781752e0d697d",
+      "cluster_id": "c_9cf05d52f95041",
       "topic": "energy",
-      "lead_title": "Dow Jones Futures: Seagate, Bloom Energy, Teradyne Lead Earnings Movers As Oil Prices Jump",
-      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVDcycVBHdjZ1SXFzbGxBNzlkODY2MGJ5aElUaVdldkNUR3lhS0hYQlBDV1FRRnhxdEdabVVQYmkxUWdYWm0xSUliZFVsSzZiSENwRURDMzlwY2VJZVhJUlhoUUtxVGN5VnhSWFM1LWNCNVphcnh6TWd6b3FyTnhsWldvRkE4TGxiQWsyc2Z1Y2RaMi1UREo1THpnU1JxU0N4aE8xdUxIT2hZLTJwN1pfVkxKZzRDZDhQdFI2eE9rWm8zWjE4VE1TZTB2MzE?oc=5",
-      "lead_source": "Investor's Business Daily",
+      "lead_title": "Oil surges to four-year high as traders rethink Hormuz timeline",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWmZlMV9FV1RrcHAwQzRjUUc1cl9mVHRNMVA0S1pzSkh6VVZCT2gtclV4TzM5SkUzNFZiWVZvS1BKWDcyR3A3bVVVQVF4MXdDMk44enFuRnFDOWswUkJ3MU02OEtmZEhjNGE3UXVSNW9Cd3FVSW1BUENzQm1jS1l1NUZwOHlLSjY4WVVmM25CeE1kUkx1UnFvYUQ2dzM2bDYyck10aW02VW5xNUQzaXgtOU5nT0p1RzFRVTlZY1IxRmM3dw?oc=5",
+      "lead_source": "AFR",
       "canonical_entities": [
-        "energy",
         "oil"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T12:17:19+00:00",
-      "latest_seen": "2026-04-29T12:07:00+00:00",
-      "age_hours": 11.58,
-      "score": 67.05,
+      "earliest_seen": "2026-04-30T00:44:00+00:00",
+      "latest_seen": "2026-04-30T00:44:00+00:00",
+      "age_hours": 0.69,
+      "score": 63.08,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 18.05,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
+        "source_count_points": 5,
+        "recency_points": 24.58,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "714458c979ffa253",
-          "title": "Dow Jones Futures: Seagate, Bloom Energy, Teradyne Lead Earnings Movers As Oil Prices Jump",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVDcycVBHdjZ1SXFzbGxBNzlkODY2MGJ5aElUaVdldkNUR3lhS0hYQlBDV1FRRnhxdEdabVVQYmkxUWdYWm0xSUliZFVsSzZiSENwRURDMzlwY2VJZVhJUlhoUUtxVGN5VnhSWFM1LWNCNVphcnh6TWd6b3FyTnhsWldvRkE4TGxiQWsyc2Z1Y2RaMi1UREo1THpnU1JxU0N4aE8xdUxIT2hZLTJwN1pfVkxKZzRDZDhQdFI2eE9rWm8zWjE4VE1TZTB2MzE?oc=5",
-          "source": "Investor's Business Daily",
+          "headline_id": "095c59cd23136366",
+          "title": "Oil surges to four-year high as traders rethink Hormuz timeline",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWmZlMV9FV1RrcHAwQzRjUUc1cl9mVHRNMVA0S1pzSkh6VVZCT2gtclV4TzM5SkUzNFZiWVZvS1BKWDcyR3A3bVVVQVF4MXdDMk44enFuRnFDOWswUkJ3MU02OEtmZEhjNGE3UXVSNW9Cd3FVSW1BUENzQm1jS1l1NUZwOHlLSjY4WVVmM25CeE1kUkx1UnFvYUQ2dzM2bDYyck10aW02VW5xNUQzaXgtOU5nT0p1RzFRVTlZY1IxRmM3dw?oc=5",
+          "source": "AFR",
           "source_type": "rss",
-          "published_at": "2026-04-29T12:07:00+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "7f84bde9466e8c95",
-          "title": "Markets on Wall Street are mixed as oil prices soar, lifting energy company stocks",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNakFjTFRDZTBPRjVrWHhNd1Z6YmxYcER2UW5EWmhLdFFJem95anZrYkNkN0tlbk5qQnJZaUNsVWlTM0RiQ3JsZjVVbTBrWDB2LVdvbm1pTnZiMGxDaHVVNVNGQVZoVm8wRjJTbUI5QTlGaWlNM3BCTU5ERm9EYW5BN2t0VGxjcDVWZFdSYjEwcTRRam9QNmVnSWFoTjRtcmx3dnRua1B4YjVVdm96OXFEeUNFZnNpYTNNUkwwd0NxeElVZ3o4M3dRbm9heW1aQXZPNEVZdHM1OFd5SHNOajVuMjgyUXdSaXVNbVRGMU4wdUFoWEMzd0VDZElCZl9EVUJwdWRj?oc=5",
-          "source": "Journal-News.com",
-          "source_type": "rss",
-          "published_at": "2026-04-28T12:17:19+00:00",
-          "confidence": 0.7
+          "published_at": "2026-04-30T00:44:00+00:00",
+          "confidence": 0.65
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -206,11 +269,11 @@
       ],
       "earliest_seen": "2026-04-29T14:50:20+00:00",
       "latest_seen": "2026-04-29T15:22:37+00:00",
-      "age_hours": 8.32,
-      "score": 64.01,
+      "age_hours": 10.05,
+      "score": 62.97,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 20.01,
+        "recency_points": 18.97,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -250,11 +313,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_8a760657251f98",
+      "cluster_id": "c_32f5907c45fa5b",
       "topic": "energy",
-      "lead_title": "Oil Remains Higher as Markets Await Fed Decision, Big Tech Earnings",
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaW5LTk81d01Ccm4wWHZSOUVxOTFKdHJpXzRyWnQ4WXIxLUNyVENQRXNVMzh1Q0JBbFJVdzRfV3ozR3Uydno0cTBKNDVqWG4ta2pHU1hxZ1lsZ3FfTTMzaDY5dTFUTmJRa2d4UnZ0QjloWG9uVkdENVFiVXFYMmRKOTJRMkFSWHpFSzNkVk9BbjNjaTlGbS1ZUFpCYUxxdHFrcVFFRnN3?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "Gas prices surge across Pa., N.J., Del. as oil market tightens",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ0xGcmJpQy1sWVRILWlfOXNEWG93RUstMm5HaEduQ3VXREhVcjdRVlBpcm5HT1RvZkpsVDRsbkpCcTNWUjNVb2hPZHpZQUFWWjI3aVFzZkZLOVdYc3RHWGg2T1NZMU9xTXZjNF9neWw2SzdfWEhEVVdwUTBrdFN3UFZsTFUtSmN20gGOAUFVX3lxTE8tQWtZOFM5Z0F1REFlTnhqYW9BcXB1NWpNM1FmbzlEa2pvcERIRXVkRm5QZjFTQzdJclZRT0JhRmk4VklaMzRHQmtua0JKWXNMV0NWWmp1enByODdhQ3R5VU5rUUtjNWQ2Y09iaVRwbHJ4X2cyeVdkLVB6RHNUQ1lYUXdqc1pJNTNGLWVtMVE?oc=5",
+      "lead_source": "FOX 29 Philadelphia",
       "canonical_entities": [
         "oil"
       ],
@@ -263,54 +326,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-29T08:30:00+00:00",
-      "latest_seen": "2026-04-29T08:30:00+00:00",
-      "age_hours": 15.19,
-      "score": 63.98,
+      "earliest_seen": "2026-04-30T00:06:25+00:00",
+      "latest_seen": "2026-04-30T00:06:25+00:00",
+      "age_hours": 1.32,
+      "score": 62.71,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.88,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "b261efcdd637a57c",
-          "title": "Oil Remains Higher as Markets Await Fed Decision, Big Tech Earnings",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaW5LTk81d01Ccm4wWHZSOUVxOTFKdHJpXzRyWnQ4WXIxLUNyVENQRXNVMzh1Q0JBbFJVdzRfV3ozR3Uydno0cTBKNDVqWG4ta2pHU1hxZ1lsZ3FfTTMzaDY5dTFUTmJRa2d4UnZ0QjloWG9uVkdENVFiVXFYMmRKOTJRMkFSWHpFSzNkVk9BbjNjaTlGbS1ZUFpCYUxxdHFrcVFFRnN3?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-04-29T08:30:00+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a5a7fec7164621",
-      "topic": "energy",
-      "lead_title": "Trump claimed that the UAE's exit from OPEC would crash oil prices, but the market is reacting differently",
-      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlBILUU4eHhXdVJVNFJ0Vm9vVW5OZ0JSb0Jvc2NQSXdONzRrekFhSTladmxqZ2RiSGFOLU1sUllkQk9rczA0N1BTMy0xdUd4QnZFRm9ZaWNQUVlpVEtyRUdTSXZBWmZoeUxQWDU3eS1XS0pnTFhlek4taUI2T3N0ZmJzUU90UmhUemhSZU9FVFcySlhCU3VoWDl3MmxSdl9BTE1YZ0RVcDlHbWZiVkx5Sm40OU9ZQm5YOW44RzE3YTRWV1QyTEHSAcQBQVVfeXFMTnVkeC13dktJSGpNTWhEWlRHakttSjl6MWltdDdrYlRIS0k0dVdVMXQtLWpvMFNObERVa0ptVFJReEtLVkpYZGpXMnJCNXJIRm9IbTkyZUxmYUpxVXFlNUtaSUF4REltQTZXQl9oMHVZelVCbDhuOWFLVzJjdy13VW1PTXIwSG8tZWZ2TUdKUjh4d2pSMjB5SHpvbkVUZUVETUxYYXYwbFllcWk3MFdPZ1Rkc2M2Z2lCNUh0LUZPTExRa3ZRdQ?oc=5",
-      "lead_source": "Українські Національні Новини (УНН)",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-29T23:17:36+00:00",
-      "latest_seen": "2026-04-29T23:17:36+00:00",
-      "age_hours": 0.4,
-      "score": 63.26,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.76,
+        "recency_points": 24.21,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -319,94 +341,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "4c2df93a74611465",
-          "title": "Trump claimed that the UAE's exit from OPEC would crash oil prices, but the market is reacting differently",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNlBILUU4eHhXdVJVNFJ0Vm9vVW5OZ0JSb0Jvc2NQSXdONzRrekFhSTladmxqZ2RiSGFOLU1sUllkQk9rczA0N1BTMy0xdUd4QnZFRm9ZaWNQUVlpVEtyRUdTSXZBWmZoeUxQWDU3eS1XS0pnTFhlek4taUI2T3N0ZmJzUU90UmhUemhSZU9FVFcySlhCU3VoWDl3MmxSdl9BTE1YZ0RVcDlHbWZiVkx5Sm40OU9ZQm5YOW44RzE3YTRWV1QyTEHSAcQBQVVfeXFMTnVkeC13dktJSGpNTWhEWlRHakttSjl6MWltdDdrYlRIS0k0dVdVMXQtLWpvMFNObERVa0ptVFJReEtLVkpYZGpXMnJCNXJIRm9IbTkyZUxmYUpxVXFlNUtaSUF4REltQTZXQl9oMHVZelVCbDhuOWFLVzJjdy13VW1PTXIwSG8tZWZ2TUdKUjh4d2pSMjB5SHpvbkVUZUVETUxYYXYwbFllcWk3MFdPZ1Rkc2M2Z2lCNUh0LUZPTExRa3ZRdQ?oc=5",
-          "source": "Українські Національні Новини (УНН)",
+          "headline_id": "b95999447e81babd",
+          "title": "Gas prices surge across Pa., N.J., Del. as oil market tightens",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQ0xGcmJpQy1sWVRILWlfOXNEWG93RUstMm5HaEduQ3VXREhVcjdRVlBpcm5HT1RvZkpsVDRsbkpCcTNWUjNVb2hPZHpZQUFWWjI3aVFzZkZLOVdYc3RHWGg2T1NZMU9xTXZjNF9neWw2SzdfWEhEVVdwUTBrdFN3UFZsTFUtSmN20gGOAUFVX3lxTE8tQWtZOFM5Z0F1REFlTnhqYW9BcXB1NWpNM1FmbzlEa2pvcERIRXVkRm5QZjFTQzdJclZRT0JhRmk4VklaMzRHQmtua0JKWXNMV0NWWmp1enByODdhQ3R5VU5rUUtjNWQ2Y09iaVRwbHJ4X2cyeVdkLVB6RHNUQ1lYUXdqc1pJNTNGLWVtMVE?oc=5",
+          "source": "FOX 29 Philadelphia",
           "source_type": "rss",
-          "published_at": "2026-04-29T23:17:36+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_53e6232e9cd9ea",
-      "topic": "energy",
-      "lead_title": "Oil Prices Jump As Iran War Risks Hit Markets",
-      "lead_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zNkpRd2pIOWZqdlRNNU1LV08tOWk2cVhWdF81bGQwYl9uRXdWX2kzMVJ5QmJYY25UZHh4ZDBXbnVSUUFmZVVOT2tTWXo3emxTWVdRS1FiUF9SY3JZNmNobEhKM0JIS3FWNGRfVDlOU0QyQnQ1a0RmOWQyS19lUHM?oc=5",
-      "lead_source": "Finimize",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-29T23:03:27+00:00",
-      "latest_seen": "2026-04-29T23:03:27+00:00",
-      "age_hours": 0.64,
-      "score": 63.12,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.62,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "08dbf45ece743b8a",
-          "title": "Oil Prices Jump As Iran War Risks Hit Markets",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0zNkpRd2pIOWZqdlRNNU1LV08tOWk2cVhWdF81bGQwYl9uRXdWX2kzMVJ5QmJYY25UZHh4ZDBXbnVSUUFmZVVOT2tTWXo3emxTWVdRS1FiUF9SY3JZNmNobEhKM0JIS3FWNGRfVDlOU0QyQnQ1a0RmOWQyS19lUHM?oc=5",
-          "source": "Finimize",
-          "source_type": "rss",
-          "published_at": "2026-04-29T23:03:27+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_9210e467d62225",
-      "topic": "energy",
-      "lead_title": "U.S. Stock Market Close | The Fed’s biggest divergence in 34 years, coupled with surging oil prices, led to a marginal increase in the Nasdaq while the Dow fell for the fifth consecutive day; post-earnings declines were seen across cryptocurrency-related",
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1pqcHo5bjBkdHZFWVU2Ri13TmZWMnY3S0JDNjNkYWNNTm1oNUNDZ29tcS1qSkkwS3BYYXBqWmNUeFI0ZkJfVWFTS0h0U2swd3lQZ0hNNWRFeHZFdzV0cUc1d0tFalhpN0dOS3VCZDNIQ0VfYWtMbHpHSlFoalF5UzROREE3NHppNTNLZVhFVDZaSFFmS19BUmZ3?oc=5",
-      "lead_source": "富途牛牛",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-29T22:52:47+00:00",
-      "latest_seen": "2026-04-29T22:52:47+00:00",
-      "age_hours": 0.81,
-      "score": 63.01,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.51,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "9b7bec573a00e9a2",
-          "title": "U.S. Stock Market Close | The Fed’s biggest divergence in 34 years, coupled with surging oil prices, led to a marginal increase in the Nasdaq while the Dow fell for the fifth consecutive day; post-earnings declines were seen across cryptocurrency-related",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc1pqcHo5bjBkdHZFWVU2Ri13TmZWMnY3S0JDNjNkYWNNTm1oNUNDZ29tcS1qSkkwS3BYYXBqWmNUeFI0ZkJfVWFTS0h0U2swd3lQZ0hNNWRFeHZFdzV0cUc1d0tFalhpN0dOS3VCZDNIQ0VfYWtMbHpHSlFoalF5UzROREE3NHppNTNLZVhFVDZaSFFmS19BUmZ3?oc=5",
-          "source": "富途牛牛",
-          "source_type": "rss",
-          "published_at": "2026-04-29T22:52:47+00:00",
+          "published_at": "2026-04-30T00:06:25+00:00",
           "confidence": 0.65
         }
       ],
@@ -429,11 +369,11 @@
       ],
       "earliest_seen": "2026-04-29T21:30:00+00:00",
       "latest_seen": "2026-04-29T21:30:00+00:00",
-      "age_hours": 2.19,
-      "score": 61.78,
+      "age_hours": 3.93,
+      "score": 60.74,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.68,
+        "recency_points": 22.64,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -470,11 +410,11 @@
       ],
       "earliest_seen": "2026-04-29T20:23:26+00:00",
       "latest_seen": "2026-04-29T20:23:26+00:00",
-      "age_hours": 3.3,
-      "score": 59.92,
+      "age_hours": 5.04,
+      "score": 58.88,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.02,
+        "recency_points": 21.98,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -511,11 +451,11 @@
       ],
       "earliest_seen": "2026-04-29T15:01:53+00:00",
       "latest_seen": "2026-04-29T15:01:53+00:00",
-      "age_hours": 8.66,
-      "score": 58.8,
+      "age_hours": 10.39,
+      "score": 57.76,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.8,
+        "recency_points": 18.76,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -553,11 +493,11 @@
       ],
       "earliest_seen": "2026-04-29T09:29:20+00:00",
       "latest_seen": "2026-04-29T10:13:04+00:00",
-      "age_hours": 13.48,
-      "score": 55.11,
+      "age_hours": 15.21,
+      "score": 54.08,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 16.91,
+        "recency_points": 15.88,
         "source_quality_points": 25.2,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
@@ -588,6 +528,139 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_1781752e0d697d",
+      "topic": "energy",
+      "lead_title": "Dow Jones Futures: Seagate, Bloom Energy, Teradyne Lead Earnings Movers As Oil Prices Jump",
+      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVDcycVBHdjZ1SXFzbGxBNzlkODY2MGJ5aElUaVdldkNUR3lhS0hYQlBDV1FRRnhxdEdabVVQYmkxUWdYWm0xSUliZFVsSzZiSENwRURDMzlwY2VJZVhJUlhoUUtxVGN5VnhSWFM1LWNCNVphcnh6TWd6b3FyTnhsWldvRkE4TGxiQWsyc2Z1Y2RaMi1UREo1THpnU1JxU0N4aE8xdUxIT2hZLTJwN1pfVkxKZzRDZDhQdFI2eE9rWm8zWjE4VE1TZTB2MzE?oc=5",
+      "lead_source": "Investor's Business Daily",
+      "canonical_entities": [
+        "energy",
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-28T12:17:19+00:00",
+      "latest_seen": "2026-04-29T12:07:00+00:00",
+      "age_hours": 13.31,
+      "score": 51.01,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 17.01,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "714458c979ffa253",
+          "title": "Dow Jones Futures: Seagate, Bloom Energy, Teradyne Lead Earnings Movers As Oil Prices Jump",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQVDcycVBHdjZ1SXFzbGxBNzlkODY2MGJ5aElUaVdldkNUR3lhS0hYQlBDV1FRRnhxdEdabVVQYmkxUWdYWm0xSUliZFVsSzZiSENwRURDMzlwY2VJZVhJUlhoUUtxVGN5VnhSWFM1LWNCNVphcnh6TWd6b3FyTnhsWldvRkE4TGxiQWsyc2Z1Y2RaMi1UREo1THpnU1JxU0N4aE8xdUxIT2hZLTJwN1pfVkxKZzRDZDhQdFI2eE9rWm8zWjE4VE1TZTB2MzE?oc=5",
+          "source": "Investor's Business Daily",
+          "source_type": "rss",
+          "published_at": "2026-04-29T12:07:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "7f84bde9466e8c95",
+          "title": "Markets on Wall Street are mixed as oil prices soar, lifting energy company stocks",
+          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNakFjTFRDZTBPRjVrWHhNd1Z6YmxYcER2UW5EWmhLdFFJem95anZrYkNkN0tlbk5qQnJZaUNsVWlTM0RiQ3JsZjVVbTBrWDB2LVdvbm1pTnZiMGxDaHVVNVNGQVZoVm8wRjJTbUI5QTlGaWlNM3BCTU5ERm9EYW5BN2t0VGxjcDVWZFdSYjEwcTRRam9QNmVnSWFoTjRtcmx3dnRua1B4YjVVdm96OXFEeUNFZnNpYTNNUkwwd0NxeElVZ3o4M3dRbm9heW1aQXZPNEVZdHM1OFd5SHNOajVuMjgyUXdSaXVNbVRGMU4wdUFoWEMzd0VDZElCZl9EVUJwdWRj?oc=5",
+          "source": "Journal-News.com",
+          "source_type": "rss",
+          "published_at": "2026-04-28T12:17:19+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5ef6fff32e090a",
+      "topic": "energy",
+      "lead_title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-26T07:00:00+00:00",
+      "latest_seen": "2026-04-26T07:00:00+00:00",
+      "age_hours": 90.43,
+      "score": 49.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "3fa7108e205e2875",
+          "title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-04-26T07:00:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8a760657251f98",
+      "topic": "energy",
+      "lead_title": "Oil Remains Higher as Markets Await Fed Decision, Big Tech Earnings",
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaW5LTk81d01Ccm4wWHZSOUVxOTFKdHJpXzRyWnQ4WXIxLUNyVENQRXNVMzh1Q0JBbFJVdzRfV3ozR3Uydno0cTBKNDVqWG4ta2pHU1hxZ1lsZ3FfTTMzaDY5dTFUTmJRa2d4UnZ0QjloWG9uVkdENVFiVXFYMmRKOTJRMkFSWHpFSzNkVk9BbjNjaTlGbS1ZUFpCYUxxdHFrcVFFRnN3?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T08:30:00+00:00",
+      "latest_seen": "2026-04-29T08:30:00+00:00",
+      "age_hours": 16.93,
+      "score": 47.94,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 14.84,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "b261efcdd637a57c",
+          "title": "Oil Remains Higher as Markets Await Fed Decision, Big Tech Earnings",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaW5LTk81d01Ccm4wWHZSOUVxOTFKdHJpXzRyWnQ4WXIxLUNyVENQRXNVMzh1Q0JBbFJVdzRfV3ozR3Uydno0cTBKNDVqWG4ta2pHU1hxZ1lsZ3FfTTMzaDY5dTFUTmJRa2d4UnZ0QjloWG9uVkdENVFiVXFYMmRKOTJRMkFSWHpFSzNkVk9BbjNjaTlGbS1ZUFpCYUxxdHFrcVFFRnN3?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-04-29T08:30:00+00:00",
+          "confidence": 0.97
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_be6b18249c138e",
       "topic": "energy",
       "lead_title": "Oil prices settle at multi-week highs as global supply worries mount",
@@ -603,11 +676,11 @@
       ],
       "earliest_seen": "2026-04-29T02:06:00+00:00",
       "latest_seen": "2026-04-29T02:06:00+00:00",
-      "age_hours": 21.59,
-      "score": 46.04,
+      "age_hours": 23.33,
+      "score": 45.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.04,
+        "recency_points": 11.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -644,11 +717,11 @@
       ],
       "earliest_seen": "2026-04-29T04:15:40+00:00",
       "latest_seen": "2026-04-29T04:15:40+00:00",
-      "age_hours": 19.43,
-      "score": 45.24,
+      "age_hours": 21.16,
+      "score": 44.2,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.34,
+        "recency_points": 12.3,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -685,11 +758,11 @@
       ],
       "earliest_seen": "2026-04-28T20:17:00+00:00",
       "latest_seen": "2026-04-28T20:17:00+00:00",
-      "age_hours": 27.41,
-      "score": 42.55,
+      "age_hours": 29.14,
+      "score": 41.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.55,
+        "recency_points": 7.51,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -726,11 +799,11 @@
       ],
       "earliest_seen": "2026-04-28T12:23:00+00:00",
       "latest_seen": "2026-04-28T12:23:00+00:00",
-      "age_hours": 35.31,
-      "score": 37.81,
+      "age_hours": 37.04,
+      "score": 36.77,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.81,
+        "recency_points": 2.77,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -745,47 +818,6 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-04-28T12:23:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_af874a12401735",
-      "topic": "energy",
-      "lead_title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-27T07:00:00+00:00",
-      "latest_seen": "2026-04-27T07:00:00+00:00",
-      "age_hours": 64.69,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "6cd6066a7f0dabcc",
-          "title": "Goldman Sachs lifts oil price forecasts on weaker Middle East output",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSVh1ajI2ajN4VkdyOW1IYWRDR09YZVVieUU0WTNVOVhFS0Fxcy0wVmFmTk9qMzhURldqV2RrX18xTmo3ZDhiNGY3dG9YWkRuR2o2YzRsN2xiNDBxT0J1ZDRzNXBwajVCTzRmNFNFTlZoUzJxWXlDOFJfTDJBVk0zV2dlY1l4bUJCVlpyQlFQVVlKR3JIVlNDSnU4VU90MTQxM01NWHhiUkFpN1BUV1JtRkdCNk9xamNBWTd5Yg?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-27T07:00:00+00:00",
           "confidence": 1.0
         }
       ],
@@ -808,7 +840,7 @@
       ],
       "earliest_seen": "2026-04-28T05:30:44+00:00",
       "latest_seen": "2026-04-28T05:30:44+00:00",
-      "age_hours": 42.18,
+      "age_hours": 43.91,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -849,7 +881,7 @@
       ],
       "earliest_seen": "2026-04-24T01:55:00+00:00",
       "latest_seen": "2026-04-24T01:55:00+00:00",
-      "age_hours": 141.78,
+      "age_hours": 143.51,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -890,7 +922,7 @@
       ],
       "earliest_seen": "2026-04-20T07:00:00+00:00",
       "latest_seen": "2026-04-20T07:00:00+00:00",
-      "age_hours": 232.69,
+      "age_hours": 234.43,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -929,7 +961,7 @@
       ],
       "earliest_seen": "2026-04-27T05:09:17+00:00",
       "latest_seen": "2026-04-27T05:09:17+00:00",
-      "age_hours": 66.54,
+      "age_hours": 68.27,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
