@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil jumps to highest price since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "U.S. Gas Prices Climb Further as Effects of Iran War Reverberate", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Brent pares gains after hitting 4-year highs as report stokes worries of U.S. military action against Iran", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Current price of oil as of April 29, 2026", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Prices Rise After Trump Warns ‘No More Mr Nice Guy’ in Iran War, OPEC Fractures", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil price rises above $120 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Higher oil prices set to give feds a 'windfall' in next budget", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Brent oil pares gains after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil jumps to highest price since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Live Updates: Iran war pushes oil prices to 4-year high as Hegseth set to face fresh round of questioning", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Current price of oil as of April 30, 2026", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "U.S. Gas Prices Climb Further as Effects of Iran War Reverberate", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Venezuelan Crude Will Eventually Lower US Gas Prices Chevron Exec", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil price briefly hits $120 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
