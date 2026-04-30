@@ -85,3 +85,17 @@
 [2026-04-30T16:59:33.440251+00:00] resolver: no state changes
 [2026-04-30T16:59:33.440801+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-04-30T16:59:33.440844+00:00] ════════════════════════════════════════════════════════════
+[2026-04-30T18:21:32.466353+00:00] resolver: start
+[2026-04-30T18:21:32.470804+00:00] resolver: scanning 282 clusters across 10 topics
+[2026-04-30T18:21:32.471199+00:00]   hormuz_status: CLOSED (conf=0.951, freshness=fresh, clusters=3)
+[2026-04-30T18:21:32.472551+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=19)
+[2026-04-30T18:21:32.472750+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=6)
+[2026-04-30T18:21:32.472812+00:00]   global_risk_level: HIGH (score=50)
+[2026-04-30T18:21:32.472981+00:00]   top_story: 'Iran War Hastens Rush of Clean Fuel Tankers Turning to Crude' (score=98.06)
+[2026-04-30T18:21:32.473040+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-04-30T18:21:32.473067+00:00]   Δ hormuz_status.status: 'OPEN' → 'CLOSED' (triggers_publish=True)
+[2026-04-30T18:21:32.473094+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'HIGH' (triggers_publish=True)
+[2026-04-30T18:21:32.473117+00:00]   Δ global_risk_level.status: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-30T18:21:32.473140+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-04-30T18:21:32.473780+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-04-30T18:21:32.473838+00:00] ════════════════════════════════════════════════════════════
