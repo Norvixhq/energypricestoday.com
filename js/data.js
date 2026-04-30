@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Brent oil pares gains after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil jumps to highest price since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Live Updates: Iran war pushes oil prices to 4-year high as Hegseth set to face fresh round of questioning", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Current price of oil as of April 30, 2026", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "U.S. Gas Prices Climb Further as Effects of Iran War Reverberate", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil Price Hits Wartime High Above $120 a Barrel as Iran War Standoff Continues", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Current price of oil as of April 30, 2026", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
   { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Venezuelan Crude Will Eventually Lower US Gas Prices Chevron Exec", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil price briefly hits $120 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil prices hit new wartime high before easing, as few signs of breaking stalemate with Iran", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Venezuelan Crude Will Eventually Lower US Gas Prices Chevron Exec", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
