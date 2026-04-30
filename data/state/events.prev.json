@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-04-30T07:39:28.465831+00:00",
-  "previous_generated_at": "2026-04-30T05:02:12.988059+00:00",
-  "resolver_run_count": 2,
+  "generated_at": "2026-04-30T09:53:59.397249+00:00",
+  "previous_generated_at": "2026-04-30T07:39:28.465831+00:00",
+  "resolver_run_count": 3,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -14,15 +14,17 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-04-30T05:26:15+00:00",
-      "source_count": 3,
+      "source_count": 5,
       "summary_short": "Saudi Arabia Joins Venezuela, UAE, United States, Iran, Kuwait, Libya, Algeria & Other Nations in a Furious Energy Frenz",
       "summary_long": "Saudi Arabia Joins Venezuela, UAE, United States, Iran, Kuwait, Libya, Algeria & Other Nations in a Furious Energy Frenzy as Middle East Supply Disruptions and Strait of Hormuz Chaos Ignite Jaw‑Dropping Oil Price Spikes While Gas Futures Plummet. Oil Traders Lawyer Up as Hormuz Disruptions Trigger Billions of Dollars in Disputes",
       "evidence_cluster_ids": [
         "c_8d306f71442f75",
-        "c_cc30a47f95f999",
-        "c_fec7bbabd6878f"
+        "c_22fb64aaf89cf4",
+        "c_fec7bbabd6878f",
+        "c_6319966dd9c484",
+        "c_1665abaff84403"
       ],
-      "evidence_count": 3,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,31 +42,29 @@
       "stale_after_hours": 24,
       "rationale": [
         "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-04-30T07:39:28.465641+00:00"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "HOLDING",
-      "status_detail": "no definitive signals",
-      "status_tag": "In effect",
-      "risk_level": "ELEVATED",
-      "confidence": 0.5,
-      "last_confirmed": "2026-04-30T06:55:42+00:00",
-      "source_count": 17,
-      "summary_short": "Saudi Arabia Joins Venezuela, UAE, United States, Iran, Kuwait, Libya, Algeria & Other Nations in a Furious Energy Frenz",
-      "summary_long": "Saudi Arabia Joins Venezuela, UAE, United States, Iran, Kuwait, Libya, Algeria & Other Nations in a Furious Energy Frenzy as Middle East Supply Disruptions and Strait of Hormuz Chaos Ignite Jaw‑Dropping Oil Price Spikes While Gas Futures Plummet. Why the Iran war is making everyday shopping more expensive",
+      "status": "FRAGILE",
+      "status_detail": "Iran war and Strait of Hormuz stuck in limbo as Trump mulls latest Iranian offer",
+      "status_tag": "Under strain",
+      "risk_level": "HIGH",
+      "confidence": 0.955,
+      "last_confirmed": "2026-04-30T09:42:53+00:00",
+      "source_count": 15,
+      "summary_short": "Brent jumps to four-year high on concerns of US-Iran war escalation",
+      "summary_long": "Brent jumps to four-year high on concerns of US-Iran war escalation. Why Iran's Oil Industry Is Being Squeezed By US Blockade",
       "evidence_cluster_ids": [
-        "c_8d306f71442f75",
-        "c_2d66c9fbba6416",
-        "c_e93d4a9172ac02",
-        "c_547877298c9985",
-        "c_e98d5b98e87844"
+        "c_dea03fd39e7cf3",
+        "c_706fd3db60f387",
+        "c_e9bc6b584363cb",
+        "c_d3ee6d2e8f803b",
+        "c_52961daa31f1a5"
       ],
-      "evidence_count": 17,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -79,13 +79,14 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "cluster c_22fb64aaf8 → FRAGILE (kw='in limbo', weight=0.09)",
+        "winning=FRAGILE (0.09/0.09), conf=0.955"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": "",
-      "previous_status": "FRAGILE",
-      "last_changed": "2026-04-30T07:39:28.465641+00:00"
+      "previous_status": "HOLDING",
+      "last_changed": "2026-04-30T09:53:59.397122+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -96,18 +97,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-29T18:12:14+00:00",
-      "source_count": 11,
-      "summary_short": "UAE's departure from the OPEC oil cartel is not without precedent. Who could be next?",
-      "summary_long": "UAE's departure from the OPEC oil cartel is not without precedent. Who could be next?. UAE exit weakens OPEC+ power over oil market but group to stay together, sources say",
+      "last_confirmed": "2026-04-29T16:37:08+00:00",
+      "source_count": 5,
+      "summary_short": "UAE exit weakens OPEC+ power over oil market but group to stay together, sources say",
+      "summary_long": "UAE exit weakens OPEC+ power over oil market but group to stay together, sources say. In five charts - How UAE's exit could affect Opec's influence over the oil price",
       "evidence_cluster_ids": [
-        "c_7e6b7abefc2ac2",
-        "c_08ec46632b9dc5",
-        "c_27ab3444d8e9e8",
+        "c_2986bb14755486",
         "c_d5adedf6896fb5",
-        "c_21c2c3e2ea1c29"
+        "c_7933efaa4d7a81",
+        "c_858d5f0d004433",
+        "c_53aa21e467d951"
       ],
-      "evidence_count": 11,
+      "evidence_count": 5,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -127,19 +128,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 25,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: ceasefire fragile",
+      "summary_micro": "fragile",
       "rationale": [
-        "ceasefire=HOLDING (+10)"
+        "ceasefire=FRAGILE (+25)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -151,21 +152,21 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "CRITICAL",
-      "last_changed": "2026-04-30T07:39:28.465641+00:00"
+      "previous_status": "LOW",
+      "last_changed": "2026-04-30T09:53:59.397122+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_1a1cff5043e5f1",
-      "lead_title": "Japan oil refiner Idemitsu to supply 4 million barrels of crude to Vietnam",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rblRNemtnbUFyVzNld0dTbHJEVjdoaFpiaXRkbzJtdkc1dEFVNHZtRUNZZndRdmRBQWpmSmdRd0N3b1dNNUFwTUJEd3NtU1dfN3d1aXBCblpwQQ?oc=5",
-      "lead_source": "Japan Wire by Kyodo News",
+      "cluster_id": "c_99eec70cc4852c",
+      "lead_title": "Oil price tops $126 a barrel after Trump warns Iran blockade could last ‘months’",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdW5OMHhKMTZRcWVCZ2NNQWJmWWl6d2VvSkhoOEZWeXFNQTRFSkN5MHNaV3BXV0ZEempTdW9LUEtSWE5PVm5PNVIwbWw3V2JqSjJiUG9fMXB5NmRRellNcXZYdFpKblMtNWxfUlU2My1ZcmtkNEdodV8wdmdNdGtpak5EU2JOSlJoTzFPd3l2cTg1ZTBmTkRYQkpscmpsOUdWNmNOZ2dnQUZoM2VDREpxak1QY0k?oc=5",
+      "lead_source": "The Guardian",
       "topic": "oil",
-      "score": 97.07,
+      "score": 90.37,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -177,63 +178,45 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CLOSED",
-      "to": "OPEN",
-      "detected_at": "2026-04-30T07:39:28.465641+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-04-30T07:39:28.465641+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
       "event_key": "us_iran_ceasefire",
       "field": "status",
-      "from": "FRAGILE",
-      "to": "HOLDING",
-      "detected_at": "2026-04-30T07:39:28.465641+00:00",
+      "from": "HOLDING",
+      "to": "FRAGILE",
+      "detected_at": "2026-04-30T09:53:59.397122+00:00",
       "meaningful": true,
-      "triggers_publish": false
+      "triggers_publish": true
     },
     {
       "event_key": "us_iran_ceasefire",
       "field": "risk_level",
-      "from": "HIGH",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-04-30T09:53:59.397122+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "LOW",
       "to": "ELEVATED",
-      "detected_at": "2026-04-30T07:39:28.465641+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "CRITICAL",
-      "to": "LOW",
-      "detected_at": "2026-04-30T07:39:28.465641+00:00",
+      "detected_at": "2026-04-30T09:53:59.397122+00:00",
       "meaningful": true,
       "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "risk_level",
-      "from": "CRITICAL",
-      "to": "LOW",
-      "detected_at": "2026-04-30T07:39:28.465641+00:00",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-04-30T09:53:59.397122+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.955, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }

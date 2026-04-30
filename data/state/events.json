@@ -1,30 +1,29 @@
 {
   "version": 2,
-  "generated_at": "2026-04-30T09:53:59.397249+00:00",
-  "previous_generated_at": "2026-04-30T07:39:28.465831+00:00",
-  "resolver_run_count": 3,
+  "generated_at": "2026-04-30T11:44:40.004051+00:00",
+  "previous_generated_at": "2026-04-30T09:53:59.397249+00:00",
+  "resolver_run_count": 4,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "OPEN",
-      "status_detail": "no definitive signals",
+      "status_detail": "U.S. seeks help from allies to reopen Strait of Hormuz as crude prices surge",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-04-30T05:26:15+00:00",
-      "source_count": 5,
-      "summary_short": "Saudi Arabia Joins Venezuela, UAE, United States, Iran, Kuwait, Libya, Algeria & Other Nations in a Furious Energy Frenz",
-      "summary_long": "Saudi Arabia Joins Venezuela, UAE, United States, Iran, Kuwait, Libya, Algeria & Other Nations in a Furious Energy Frenzy as Middle East Supply Disruptions and Strait of Hormuz Chaos Ignite Jaw‑Dropping Oil Price Spikes While Gas Futures Plummet. Oil Traders Lawyer Up as Hormuz Disruptions Trigger Billions of Dollars in Disputes",
+      "confidence": 0.914,
+      "last_confirmed": "2026-04-30T10:43:12+00:00",
+      "source_count": 4,
+      "summary_short": "U.S. seeks help from allies to reopen Strait of Hormuz as crude prices surge",
+      "summary_long": "U.S. seeks help from allies to reopen Strait of Hormuz as crude prices surge. Saudi Arabia Joins Venezuela, UAE, United States, Iran, Kuwait, Libya, Algeria & Other Nations in a ",
       "evidence_cluster_ids": [
+        "c_845e9afe885559",
         "c_8d306f71442f75",
-        "c_22fb64aaf89cf4",
-        "c_fec7bbabd6878f",
-        "c_6319966dd9c484",
-        "c_1665abaff84403"
+        "c_729e4d4879f7bb",
+        "c_fec7bbabd6878f"
       ],
-      "evidence_count": 5,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,30 +40,32 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
+        "cluster c_845e9afe88 → OPEN (kw='reopen', weight=0.62)",
+        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
+        "winning=OPEN (0.62/0.71), conf=0.914"
       ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "FRAGILE",
-      "status_detail": "Iran war and Strait of Hormuz stuck in limbo as Trump mulls latest Iranian offer",
-      "status_tag": "Under strain",
-      "risk_level": "HIGH",
-      "confidence": 0.955,
-      "last_confirmed": "2026-04-30T09:42:53+00:00",
-      "source_count": 15,
-      "summary_short": "Brent jumps to four-year high on concerns of US-Iran war escalation",
-      "summary_long": "Brent jumps to four-year high on concerns of US-Iran war escalation. Why Iran's Oil Industry Is Being Squeezed By US Blockade",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-04-30T11:34:16+00:00",
+      "source_count": 16,
+      "summary_short": "Trump discusses prolonged Iran blockade as oil hits one-month high",
+      "summary_long": "Trump discusses prolonged Iran blockade as oil hits one-month high. Global oil price retreats after hitting 4-year high on concern of US-Iran war escalation",
       "evidence_cluster_ids": [
-        "c_dea03fd39e7cf3",
-        "c_706fd3db60f387",
-        "c_e9bc6b584363cb",
-        "c_d3ee6d2e8f803b",
-        "c_52961daa31f1a5"
+        "c_e7d2c840021432",
+        "c_504ca235d573e1",
+        "c_9be2450cd22b6e",
+        "c_9d39b2f6cb7b0e",
+        "c_de29f139898f4f"
       ],
-      "evidence_count": 15,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -79,14 +80,13 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_22fb64aaf8 → FRAGILE (kw='in limbo', weight=0.09)",
-        "winning=FRAGILE (0.09/0.09), conf=0.955"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": "",
-      "previous_status": "HOLDING",
-      "last_changed": "2026-04-30T09:53:59.397122+00:00"
+      "previous_status": "FRAGILE",
+      "last_changed": "2026-04-30T11:44:40.003949+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -97,18 +97,16 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-04-29T16:37:08+00:00",
-      "source_count": 5,
-      "summary_short": "UAE exit weakens OPEC+ power over oil market but group to stay together, sources say",
-      "summary_long": "UAE exit weakens OPEC+ power over oil market but group to stay together, sources say. In five charts - How UAE's exit could affect Opec's influence over the oil price",
+      "last_confirmed": "2026-04-30T10:53:00+00:00",
+      "source_count": 3,
+      "summary_short": "Saudi expert says UAE exit from OPEC to have limited impact on oil markets",
+      "summary_long": "Saudi expert says UAE exit from OPEC to have limited impact on oil markets. UAE’s Opec exit will drive down oil prices in future, warns Moscow",
       "evidence_cluster_ids": [
-        "c_2986bb14755486",
         "c_d5adedf6896fb5",
-        "c_7933efaa4d7a81",
-        "c_858d5f0d004433",
-        "c_53aa21e467d951"
+        "c_1a440dff1d1ff1",
+        "c_0f7a72006dac10"
       ],
-      "evidence_count": 5,
+      "evidence_count": 3,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -128,19 +126,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "ELEVATED",
-      "risk_level": "ELEVATED",
-      "score": 25,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: elevated.",
-      "summary_long": "Risk drivers: ceasefire fragile",
-      "summary_micro": "fragile",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "ceasefire=FRAGILE (+25)"
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -152,8 +150,8 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "LOW",
-      "last_changed": "2026-04-30T09:53:59.397122+00:00"
+      "previous_status": "ELEVATED",
+      "last_changed": "2026-04-30T11:44:40.003949+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -164,9 +162,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdW5OMHhKMTZRcWVCZ2NNQWJmWWl6d2VvSkhoOEZWeXFNQTRFSkN5MHNaV3BXV0ZEempTdW9LUEtSWE5PVm5PNVIwbWw3V2JqSjJiUG9fMXB5NmRRellNcXZYdFpKblMtNWxfUlU2My1ZcmtkNEdodV8wdmdNdGtpak5EU2JOSlJoTzFPd3l2cTg1ZTBmTkRYQkpscmpsOUdWNmNOZ2dnQUZoM2VDREpxak1QY0k?oc=5",
       "lead_source": "The Guardian",
       "topic": "oil",
-      "score": 90.37,
-      "novelty": "new",
-      "source_count": 3,
+      "score": 89.65,
+      "novelty": "growing",
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -180,43 +178,43 @@
     {
       "event_key": "us_iran_ceasefire",
       "field": "status",
-      "from": "HOLDING",
-      "to": "FRAGILE",
-      "detected_at": "2026-04-30T09:53:59.397122+00:00",
-      "meaningful": true,
-      "triggers_publish": true
+      "from": "FRAGILE",
+      "to": "HOLDING",
+      "detected_at": "2026-04-30T11:44:40.003949+00:00",
+      "meaningful": false,
+      "triggers_publish": false
     },
     {
       "event_key": "us_iran_ceasefire",
       "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-04-30T09:53:59.397122+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
+      "from": "HIGH",
       "to": "ELEVATED",
-      "detected_at": "2026-04-30T09:53:59.397122+00:00",
+      "detected_at": "2026-04-30T11:44:40.003949+00:00",
       "meaningful": true,
       "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
+      "field": "status",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-04-30T11:44:40.003949+00:00",
+      "meaningful": false,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
       "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-04-30T09:53:59.397122+00:00",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-04-30T11:44:40.003949+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.914, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
