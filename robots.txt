@@ -1,7 +1,16 @@
 User-agent: *
 Allow: /
 
+# Disallow runtime data files (not user-facing)
+Disallow: /data/state/
+Disallow: /data/clusters/
+Disallow: /data/sources/headlines-
+
 Sitemap: https://www.energypricestoday.com/sitemap.xml
+Sitemap: https://www.energypricestoday.com/news-sitemap.xml
+
+# RSS feed for syndication / aggregators
+# https://www.energypricestoday.com/feed.xml
 
 # IndexNow for instant Bing indexing
 # Key: 8bae1ce94dbc46ac956758150132d943

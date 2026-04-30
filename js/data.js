@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil price rises above $120 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Current price of oil as of April 29, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "U.S. Gas Prices Climb Further as Effects of Iran War Reverberate", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil Prices Rise After Trump Warns ‘No More Mr Nice Guy’ in Iran War, OPEC Fractures", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Higher oil prices set to give feds a 'windfall' in next budget", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Venezuelan Crude Will Eventually Lower US Gas Prices Chevron Exec", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "WTI Tops $100, Brent $111 on Iran Hormuz Proposal Uncertainty", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Trump Says Iran in 'State of Collapse' as Hormuz Standoff Drags Into Ninth Week", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
+  { title: "U.S. Gas Average Hits $4.14, Highest in Nearly Four Years", cat: "Gas Prices", slug: "gas-prices", time: "5h" },
+  { title: "Iran Proposes Hormuz Reopening if U.S. Lifts Naval Blockade", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
+  { title: "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse", cat: "Geopolitics", slug: "geopolitics", time: "2d" },
+  { title: "Trump Cancels Witkoff-Kushner Pakistan Trip as Iran Talks Stall", cat: "Geopolitics", slug: "geopolitics", time: "3d" },
+  { title: "WTI Surges 13% on Week as Hormuz Stays Closed and Talks Stall", cat: "Oil Markets", slug: "oil-prices", time: "4d" },
+  { title: "Trump Orders Navy to 'Shoot and Kill' Iranian Mine-Laying Vessels in Strait", cat: "Geopolitics", slug: "geopolitics", time: "6d" },
 ];
 
 const MARKET_DRIVERS = [
@@ -90,11 +90,17 @@ const COMPANY_NEWS = [
   { id: 202, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", date: "Apr 27, 2026" },
   { id: 203, title: "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade", date: "Apr 26, 2026" },
   { id: 204, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", date: "Apr 25, 2026" },
+  { id: 205, title: "ExxonMobil Q1 Earnings Preview: Hormuz Disruption Hits Trading Timing", date: "Apr 24, 2026" },
   { id: 206, title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", date: "Apr 23, 2026" },
 ];
 
 const GEO_ITEMS = [
   { id: 301, region: "Iran", title: "Iran Proposes Hormuz Reopening if U.S. Lifts Naval Blockade", desc: "Iran on Monday April 27 submitted a formal proposal to reopen the Strait of Hormuz if the U.S. ends its naval blockade and military operations, with nuclear talks deferred. Trump and security team discussed; Rubio dismissed the framing on Fox News. CNN: Trump 'does not love' the proposal as currently structured." },
+  { id: 302, region: "Persian Gulf", title: "Strait of Hormuz Remains Functionally Closed in Ninth Week", desc: "Hormuz remains essentially closed as the conflict enters its ninth week. Iran reportedly lost track of mines it laid in the strait, complicating any technical reopening even after a political deal. U.S. Navy blockade continues. Dual blockade dynamic persists. Analysts: full normalization could take months." },
+  { id: 303, region: "United States", title: "Trump Says Iran in 'State of Collapse' as Negotiations Continue", desc: "Trump posted on Truth Social Tuesday April 28 that Iran 'informed us' it was in a 'State of Collapse' and wanted Hormuz reopened. White House Press Sec. Leavitt declined to characterize the proposal as actively under consideration, citing the President's 'red lines' on Iran's nuclear program." },
+  { id: 304, region: "Pakistan", title: "Pakistan Continues Back-Channel Mediation as Direct Talks Fail", desc: "Pakistan's Field Marshal Munir and PM Sharif remain primary mediators after second round of direct U.S.-Iran talks failed last weekend. Sharif-Pezeshkian phone call Saturday night ran 50 minutes. Pakistan still ready to host talks 'at a moment's notice' if both sides agree to engage." },
+  { id: 305, region: "Lebanon", title: "Israeli Strikes Kill 6 in South Lebanon Despite Extended Ceasefire", desc: "Israeli strikes the prior weekend killed six in south Lebanon. Lebanese journalist Amal Khalil killed in earlier strike April 22. Netanyahu ordered military to 'forcefully attack Hezbollah targets' after army accused group of breaching truce. Cycle of breaches threatens to collapse the three-week extension." },
+  { id: 306, region: "Oil Markets", title: "WTI Tops $100, Brent $111 — Seventh Consecutive Session of Gains", desc: "WTI settled Tuesday April 28 at $99.93/bbl (+3.94%), Brent at $111.26 (+2.83%). Both benchmarks at multi-week highs. Refined products tracked higher: gasoline RBOB +5%, ULSD +4.7%. AAA U.S. retail gasoline national average rose to $4.144 — highest since summer 2022." },
 ];
 
 const CATEGORIES = {
@@ -337,6 +343,7 @@ const CATEGORY_CONTENT = {
       { id: 1901, title: "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays", excerpt: "Integrated majors traded mixed on the day of the ceasefire extension. Refiners held a more stable bid with crack spreads supported. LNG names benefited from continued Qatari disruption.", date: "Apr 22, 2026", author: "Staff", readTime: "7 min" },
       { id: 1902, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", excerpt: "Both carriers cited continued threats to commercial shipping. Vessels continue routing around the Cape of Good Hope, adding 10-14 days per voyage and effectively reducing global container capacity.", date: "Apr 25, 2026", author: "Staff", readTime: "6 min" },
       { id: 1903, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", excerpt: "U.S. LNG terminals operating near 14 Bcf/d combined export capacity. European buyers returning to premium bidding for U.S. cargoes. JKM trading premium to TTF for first time since early 2025.", date: "Apr 23, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1904, title: "ExxonMobil Q1 Earnings Preview: Hormuz Disruption Hits Trading Timing", excerpt: "ExxonMobil's April 8 Q1 considerations supplement flagged $3.5-4.9B in negative timing effects from the Middle East conflict. Earnings call scheduled for April 30 will detail the full impact.", date: "Apr 22, 2026", author: "Staff", readTime: "5 min" },
       { id: 1905, title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", excerpt: "206,000 bpd April increase on schedule. Saudi Arabia holding current production. No emergency JMMC meeting called following ceasefire extension.", date: "Apr 22, 2026", author: "Staff", readTime: "8 min" },
     ],
     stats: []
@@ -604,12 +611,12 @@ const GAS_PRICES_BY_STATE = [
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 4.123,
-  mid: 4.737,
-  premium: 5.097,
-  diesel: 5.351,
-  source: "EIA Weekly Retail Gasoline Prices",
-  updated: "As of April 29, 2026"
+  regular: 4.144,
+  mid: 4.667,
+  premium: 5.040,
+  diesel: 5.689,
+  source: "AAA Daily Fuel Gauge Report",
+  updated: "As of April 28, 2026"
 };
 const ELECTRICITY_PRICES_BY_STATE = [
   { state:"Alabama", abbr:"AL", region:"Southeast", residential:16.79, commercial:14.46, residential_yoy:4.0, commercial_yoy:3.1 },
