@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="../css/styles.css?v=15">
+  <link rel="stylesheet" href="../css/styles.css?v=16">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico?v=2">
@@ -134,6 +134,27 @@
       <div class="grid-auto-280" id="geo-articles"></div>
     </div></section>
 
+    <!-- COUNTRY & TOPIC HUBS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-hubs"></h2></div>
+      <div class="topic-hub-grid">
+        <a href="../articles/iran.html" class="topic-hub-card"><span class="topic-hub-flag">🇮🇷</span><div class="topic-hub-name">Iran</div><div class="topic-hub-desc">Hormuz, sanctions, IRGC</div></a>
+        <a href="../articles/saudi-arabia.html" class="topic-hub-card"><span class="topic-hub-flag">🇸🇦</span><div class="topic-hub-name">Saudi Arabia</div><div class="topic-hub-desc">Aramco, OPEC+ leadership</div></a>
+        <a href="../articles/russia.html" class="topic-hub-card"><span class="topic-hub-flag">🇷🇺</span><div class="topic-hub-name">Russia</div><div class="topic-hub-desc">Urals, sanctions, Druzhba</div></a>
+        <a href="../articles/iraq.html" class="topic-hub-card"><span class="topic-hub-flag">🇮🇶</span><div class="topic-hub-name">Iraq</div><div class="topic-hub-desc">Basrah, OPEC quotas</div></a>
+        <a href="../articles/uae.html" class="topic-hub-card"><span class="topic-hub-flag">🇦🇪</span><div class="topic-hub-name">UAE</div><div class="topic-hub-desc">ADNOC, Murban, Dubai crude</div></a>
+        <a href="../articles/qatar.html" class="topic-hub-card"><span class="topic-hub-flag">🇶🇦</span><div class="topic-hub-name">Qatar</div><div class="topic-hub-desc">LNG, North Field</div></a>
+        <a href="../articles/venezuela.html" class="topic-hub-card"><span class="topic-hub-flag">🇻🇪</span><div class="topic-hub-name">Venezuela</div><div class="topic-hub-desc">PDVSA, sanctions, heavy crude</div></a>
+        <a href="../articles/canada.html" class="topic-hub-card"><span class="topic-hub-flag">🇨🇦</span><div class="topic-hub-name">Canada</div><div class="topic-hub-desc">WCS, Trans Mountain, oil sands</div></a>
+        <a href="../articles/mexico.html" class="topic-hub-card"><span class="topic-hub-flag">🇲🇽</span><div class="topic-hub-name">Mexico</div><div class="topic-hub-desc">Pemex, Maya crude</div></a>
+        <a href="../articles/brazil.html" class="topic-hub-card"><span class="topic-hub-flag">🇧🇷</span><div class="topic-hub-name">Brazil</div><div class="topic-hub-desc">Petrobras, pre-salt</div></a>
+        <a href="../articles/nigeria.html" class="topic-hub-card"><span class="topic-hub-flag">🇳🇬</span><div class="topic-hub-name">Nigeria</div><div class="topic-hub-desc">Bonny Light, NNPC</div></a>
+        <a href="../articles/kazakhstan.html" class="topic-hub-card"><span class="topic-hub-flag">🇰🇿</span><div class="topic-hub-name">Kazakhstan</div><div class="topic-hub-desc">CPC Blend, Tengiz</div></a>
+        <a href="../articles/opec-members.html" class="topic-hub-card"><span class="topic-hub-flag">🌐</span><div class="topic-hub-name">OPEC+ Members</div><div class="topic-hub-desc">Production, quotas, compliance</div></a>
+        <a href="../articles/suez-canal.html" class="topic-hub-card"><span class="topic-hub-flag">🚢</span><div class="topic-hub-name">Suez Canal</div><div class="topic-hub-desc">Bab el-Mandeb, Houthi risk</div></a>
+      </div>
+    </div></section>
+
     <!-- EXPLORE -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-explore"></h2></div>
@@ -190,8 +211,8 @@
     </div></div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="../js/data.js?v=15"></script><script src="../js/article-slugs.js?v=15"></script><script src="../js/main.js?v=15"></script><script src="../js/live-data.js?v=15"></script><script src="../js/news-feed.js?v=15"></script>
-  <script src="../js/event-state.js?v=15"></script>
+  <script src="../js/data.js?v=16"></script><script src="../js/article-slugs.js?v=16"></script><script src="../js/main.js?v=16"></script><script src="../js/live-data.js?v=16"></script><script src="../js/news-feed.js?v=16"></script>
+  <script src="../js/event-state.js?v=16"></script>
   <script>
     // ═══════════════════════════════════════════════════════════════
     // RESILIENCE LAYER — every section is wrapped in safeRun() so that
@@ -222,6 +243,7 @@
       setHTML('sec-flash',    safeIcon('alert-triangle',20)+' Active Flashpoints — Iran, Russia, Middle East');
       setHTML('sec-live',     safeIcon('rss',18)+' Live Iran, OPEC & Middle East Headlines');
       setHTML('sec-articles', safeIcon('newspaper',20)+' Featured Coverage');
+      setHTML('sec-hubs',     safeIcon('map',20)+' Country &amp; Topic Hubs');
       setHTML('sec-explore',  safeIcon('compass',20)+' Related Oil & Energy Topics');
       setHTML('sec-context',  safeIcon('globe',18) + ' Current Risk Landscape');
       setHTML('sec-watching', safeIcon('trending-up',20) + ' Markets Are Watching');

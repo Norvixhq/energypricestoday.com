@@ -711,6 +711,26 @@ textarea.form-input{resize:vertical;min-height:110px}
 /* ─── NEWSLETTER ────────────────────────────────────────────────── */
 .newsletter-section{position:relative;padding:44px 20px;border-top:1px solid var(--border);overflow:hidden}
 
+/* Country/topic hub grid (linked from geopolitics + footer) */
+.topic-hub-grid{
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px;
+}
+.topic-hub-card{
+  display:flex;flex-direction:column;align-items:flex-start;gap:6px;
+  padding:14px 16px;
+  background:linear-gradient(180deg,rgba(13,16,25,0.85),rgba(8,10,15,0.85));
+  border:1px solid var(--border);border-radius:10px;
+  text-decoration:none;color:inherit;
+  transition:all .18s ease;
+}
+.topic-hub-card:hover{
+  border-color:rgba(61,143,212,0.4);transform:translateY(-1px);
+  background:linear-gradient(180deg,rgba(20,30,52,0.85),rgba(10,14,22,0.85));
+}
+.topic-hub-flag{font-size:22px;line-height:1}
+.topic-hub-name{color:var(--text-1);font-size:14px;font-weight:600;letter-spacing:-0.01em}
+.topic-hub-desc{color:var(--text-3);font-size:11.5px;line-height:1.35}
+
 /* Inline newsletter strip — above-the-fold conversion-focused capture */
 .newsletter-strip-section{padding:28px 20px;background:linear-gradient(135deg,rgba(61,143,212,0.06) 0%,rgba(212,122,12,0.04) 100%);border-top:1px solid rgba(61,143,212,0.18);border-bottom:1px solid rgba(61,143,212,0.18)}
 .newsletter-strip{
