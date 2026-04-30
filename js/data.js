@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil price briefly hits $120 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of April 28, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Prices Rise After Trump Warns ‘No More Mr Nice Guy’ in Iran War, OPEC Fractures", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Here's what's behind oil's 8-day climb back to Iran-war highs", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Venezuelan Crude Will Eventually Lower US Gas Prices Chevron Exec", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil price rises above $120 after reports of 'extended' Iran blockade", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "America barely uses OPEC oil. Why are gas prices so high?", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Current price of oil as of April 29, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "U.S. Gas Prices Climb Further as Effects of Iran War Reverberate", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil Prices Rise After Trump Warns ‘No More Mr Nice Guy’ in Iran War, OPEC Fractures", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Higher oil prices set to give feds a 'windfall' in next budget", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
   { title: "U.S. oil hovers near $100 on report Trump dissatisfied with Iran's proposal to open Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil price climbs above $110 for first time in three weeks", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Venezuelan Crude Will Eventually Lower US Gas Prices Chevron Exec", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
