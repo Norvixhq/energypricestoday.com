@@ -224,6 +224,7 @@ const ARTICLE_SLUGS = {
   "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options": "oil-price-hits-highest-since-2022-after-report-trump-to-be-briefed-on-new-iran-o",
   "Oil price rises above $120 after reports of 'extended' Iran blockade": "oil-price-rises-above-120-after-reports-of-extended-iran-blockade",
   "Oil prices hit new wartime high before easing, as few signs of breaking stalemate with Iran": "oil-prices-hit-new-wartime-high-before-easing-as-few-signs-of-breaking-stalemate",
+  "Oil prices hit new wartime high before easing, as gas prices expected to go up": "oil-prices-hit-new-wartime-high-before-easing-as-gas-prices-expected-to-go-up",
   "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022": "oil-prices-hit-wartime-peak-pushing-us-gas-costs-to-highest-since-level-july-202",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
