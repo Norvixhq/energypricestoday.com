@@ -51,6 +51,7 @@ const ARTICLE_SLUGS = {
   "Crude Braces for Turmoil": "crude-braces-for-turmoil",
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
+  "Current price of oil as of April 28, 2026": "current-price-of-oil-as-of-april-28-2026",
   "Current price of oil as of April 29, 2026": "current-price-of-oil-as-of-april-29-2026",
   "Current price of oil as of April 30, 2026": "current-price-of-oil-as-of-april-30-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
