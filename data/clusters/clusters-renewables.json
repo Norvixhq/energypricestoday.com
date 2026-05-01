@@ -1,46 +1,58 @@
 {
   "topic": "renewables",
-  "generated_at": "2026-05-01T15:08:58.313984+00:00",
+  "generated_at": "2026-05-01T16:12:32.481377+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 27,
   "clusters": [
     {
-      "cluster_id": "c_407b69d53fe0c3",
+      "cluster_id": "c_03d3a5f3cf72d7",
       "topic": "renewables",
-      "lead_title": "Australia Doubles Down on Energy Shift as Middle East Tensions Simmer",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT21CVFg5R01uSExETFVlWmVlVkRXUktLdndzRzc0SWM4YTNSWC1uamNMNVFpTVlXZ3BlbXpRcUFkVHdEU3RZaUZCQnNrODRlYlp1eW5Sc1BfWlpRN0lvaFNTOGM1eExoWUpYblVmbTdZbFBPT2tFd0hNSHNnSF9IMEY2S0swaUMyYTY4OFZXMFV1V1dXbV8xZ2Vjc1NzdkRncy02ZE9OeEphNlNEaHlaYjlWUmlvd3JiTVE?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "lead_title": "Poor Battery Recycling Drives Lead Poisoning Risks in Africa’s Solar Energy Boom",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON1gwUlJfTGdfTFFJcXllR2VxQXUzdGxmWVhMYlVjMEtRRTdYVzNxV0FNbVpCOGZxVXBBTGNMTno1VXI3MGZLa3l3VEhVMUpobVFBLXZsYThhQjJralljSVJRZlZGd01fMW5fbWhMeDlmQTdTTEdSUTdXbTUtSm1JMEFLOE1ZZ08xR1ZMeDdtSzdzdEhYVjN3UFRqYWI1YnVlQ2wwVUJQREtWLWEtUGc?oc=5",
+      "lead_source": "nextbillion.net",
+      "canonical_entities": [
+        "battery",
+        "solar"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-01T10:58:00+00:00",
-      "latest_seen": "2026-05-01T10:58:00+00:00",
-      "age_hours": 4.18,
-      "score": 65.09,
+      "earliest_seen": "2026-05-01T13:29:15+00:00",
+      "latest_seen": "2026-05-01T15:49:40+00:00",
+      "age_hours": 0.38,
+      "score": 73.02,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.49,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
+        "source_count_points": 10,
+        "recency_points": 24.77,
+        "source_quality_points": 20.25,
+        "entity_relevance_points": 8,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "9038f3f53bb605cc",
-          "title": "Australia Doubles Down on Energy Shift as Middle East Tensions Simmer",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT21CVFg5R01uSExETFVlWmVlVkRXUktLdndzRzc0SWM4YTNSWC1uamNMNVFpTVlXZ3BlbXpRcUFkVHdEU3RZaUZCQnNrODRlYlp1eW5Sc1BfWlpRN0lvaFNTOGM1eExoWUpYblVmbTdZbFBPT2tFd0hNSHNnSF9IMEY2S0swaUMyYTY4OFZXMFV1V1dXbV8xZ2Vjc1NzdkRncy02ZE9OeEphNlNEaHlaYjlWUmlvd3JiTVE?oc=5",
-          "source": "WSJ",
+          "headline_id": "69876fe431503964",
+          "title": "Poor Battery Recycling Drives Lead Poisoning Risks in Africa’s Solar Energy Boom",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxON1gwUlJfTGdfTFFJcXllR2VxQXUzdGxmWVhMYlVjMEtRRTdYVzNxV0FNbVpCOGZxVXBBTGNMTno1VXI3MGZLa3l3VEhVMUpobVFBLXZsYThhQjJralljSVJRZlZGd01fMW5fbWhMeDlmQTdTTEdSUTdXbTUtSm1JMEFLOE1ZZ08xR1ZMeDdtSzdzdEhYVjN3UFRqYWI1YnVlQ2wwVUJQREtWLWEtUGc?oc=5",
+          "source": "nextbillion.net",
           "source_type": "rss",
-          "published_at": "2026-05-01T10:58:00+00:00",
-          "confidence": 0.92
+          "published_at": "2026-05-01T15:49:40+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "ac94a0fa754ef495",
+          "title": "Experts warn of rising lead risks in Africa’s solar energy boom",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYVotd29XdEx3Mms1MXNYcm56Q2hWZVpYemtocGZwby0wR19GZktzRjZxTHNDQ2pnZ2xXNGd1UHdsTnZwVHBDVHB1cjhDdTVsUEl0eUxPclV4d1R0eG85dlJPd3dMZEtoX1Z6T2ZQMmMzdXVYU05XSHRRT0pqR1Zqc1drVWNXbVRKVklsSnFtdjBfLVJKTGJBaU9teWpSdmk1?oc=5",
+          "source": "WRAL",
+          "source_type": "rss",
+          "published_at": "2026-05-01T13:29:15+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
@@ -63,11 +75,11 @@
       ],
       "earliest_seen": "2026-05-01T09:30:00+00:00",
       "latest_seen": "2026-05-01T09:30:00+00:00",
-      "age_hours": 5.65,
-      "score": 64.61,
+      "age_hours": 6.71,
+      "score": 63.97,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.61,
+        "recency_points": 20.97,
         "source_quality_points": 30.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -89,42 +101,165 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_803172f8209655",
+      "cluster_id": "c_662086de15697e",
       "topic": "renewables",
-      "lead_title": "Octopus Energy boss: some people would accept occasional blackouts if bills cut",
-      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWhPcGdQbHpvX0hXbnNTbGs2NzY4cVdFd3pUSW1FRVUtSGg1N3RtaDYtMUFyX21WN0VxUHB6U1lINHh5NkY2LXZyaGxxZ1ZkaDB6WVJnSjZLc1d5aGVKS281dTI2M19pWEtoSng0blk5UzVjcFhDMXFSNGNic2ZIVXo5ZlM4YzlBU0dEdw?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [],
+      "lead_title": "Solar and Agriculture Energy Workshop",
+      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1odk5WXzNNTWVvRmVGMFVaVG9KcURBODZQM0g5dzZDcmxMazgxZUxSZ1BYUWVxY2hEeFlQeFRFSjVSWndVa0xoNFlvQS0xRVp2dFpuRjhlbVpvUW5KZWVXd3FYZGltaXlPNGJ4RXRVY2txSTVocWw2Zg?oc=5",
+      "lead_source": "Morning Ag Clips",
+      "canonical_entities": [
+        "solar"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-01T14:44:00+00:00",
-      "latest_seen": "2026-05-01T14:44:00+00:00",
-      "age_hours": 0.42,
-      "score": 63.75,
+      "earliest_seen": "2026-05-01T15:30:18+00:00",
+      "latest_seen": "2026-05-01T15:30:18+00:00",
+      "age_hours": 0.7,
+      "score": 63.08,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.75,
-        "source_quality_points": 24.0,
-        "entity_relevance_points": 0,
+        "recency_points": 24.58,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "c037f87b495fdef3",
-          "title": "Octopus Energy boss: some people would accept occasional blackouts if bills cut",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNaWhPcGdQbHpvX0hXbnNTbGs2NzY4cVdFd3pUSW1FRVUtSGg1N3RtaDYtMUFyX21WN0VxUHB6U1lINHh5NkY2LXZyaGxxZ1ZkaDB6WVJnSjZLc1d5aGVKS281dTI2M19pWEtoSng0blk5UzVjcFhDMXFSNGNic2ZIVXo5ZlM4YzlBU0dEdw?oc=5",
-          "source": "The Guardian",
+          "headline_id": "6e6ed76397aa3545",
+          "title": "Solar and Agriculture Energy Workshop",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1odk5WXzNNTWVvRmVGMFVaVG9KcURBODZQM0g5dzZDcmxMazgxZUxSZ1BYUWVxY2hEeFlQeFRFSjVSWndVa0xoNFlvQS0xRVp2dFpuRjhlbVpvUW5KZWVXd3FYZGltaXlPNGJ4RXRVY2txSTVocWw2Zg?oc=5",
+          "source": "Morning Ag Clips",
           "source_type": "rss",
-          "published_at": "2026-05-01T14:44:00+00:00",
-          "confidence": 0.8
+          "published_at": "2026-05-01T15:30:18+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_31969c947a40e9",
+      "topic": "renewables",
+      "lead_title": "Why Bangladesh Cannot Afford To Delay Its Renewable Energy Transition",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ3NYRkowX2RCUXhOSVdKZll0dFY5UEo1cW9FMWpnTG9iYml5RWxVNGFjZHkxdWtneHVCMUNwa2dzVEdkdmQyMnphSVR1WXlsczk5cWhhaWVrYVRqdVJ4dzRGNXhxOVNqVG03X3YyOVV1MjJ0TjlLeHlBZFY0bjNYQ1lHTGhBbGNnXzlqbXNpV3ZJZU5zbTE5WmtNUVlFTGgya0VJMEU0U1JCcXFVVEE?oc=5",
+      "lead_source": "Eurasia Review",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-01T15:29:21+00:00",
+      "latest_seen": "2026-05-01T15:29:21+00:00",
+      "age_hours": 0.72,
+      "score": 63.07,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.57,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "d75d9dcb05ec34a4",
+          "title": "Why Bangladesh Cannot Afford To Delay Its Renewable Energy Transition",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQ3NYRkowX2RCUXhOSVdKZll0dFY5UEo1cW9FMWpnTG9iYml5RWxVNGFjZHkxdWtneHVCMUNwa2dzVEdkdmQyMnphSVR1WXlsczk5cWhhaWVrYVRqdVJ4dzRGNXhxOVNqVG03X3YyOVV1MjJ0TjlLeHlBZFY0bjNYQ1lHTGhBbGNnXzlqbXNpV3ZJZU5zbTE5WmtNUVlFTGgya0VJMEU0U1JCcXFVVEE?oc=5",
+          "source": "Eurasia Review",
+          "source_type": "rss",
+          "published_at": "2026-05-01T15:29:21+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_cceed9d2a218b1",
+      "topic": "renewables",
+      "lead_title": "Lincolnshire Leoda Solar Farm plan 'paused' for review",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TN1BsbTQ4aGZRZlJwWFp4SkMzRmtsUXdvb0c4V185MnF5ZnphbTlkcElDaFJxc2FZUHFQRldOZ3J5TVBMcnRXOTl5UXZOWVdwY1lSUndQN0VGQQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-01T05:29:32+00:00",
+      "latest_seen": "2026-05-01T05:29:32+00:00",
+      "age_hours": 10.72,
+      "score": 54.57,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 18.57,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "62c2e7ed4bcc5a6f",
+          "title": "Lincolnshire Leoda Solar Farm plan 'paused' for review",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TN1BsbTQ4aGZRZlJwWFp4SkMzRmtsUXdvb0c4V185MnF5ZnphbTlkcElDaFJxc2FZUHFQRldOZ3J5TVBMcnRXOTl5UXZOWVdwY1lSUndQN0VGQQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-05-01T05:29:32+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_407b69d53fe0c3",
+      "topic": "renewables",
+      "lead_title": "Australia Doubles Down on Energy Shift as Middle East Tensions Simmer",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT21CVFg5R01uSExETFVlWmVlVkRXUktLdndzRzc0SWM4YTNSWC1uamNMNVFpTVlXZ3BlbXpRcUFkVHdEU3RZaUZCQnNrODRlYlp1eW5Sc1BfWlpRN0lvaFNTOGM1eExoWUpYblVmbTdZbFBPT2tFd0hNSHNnSF9IMEY2S0swaUMyYTY4OFZXMFV1V1dXbV8xZ2Vjc1NzdkRncy02ZE9OeEphNlNEaHlaYjlWUmlvd3JiTVE?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-01T10:58:00+00:00",
+      "latest_seen": "2026-05-01T10:58:00+00:00",
+      "age_hours": 5.24,
+      "score": 54.45,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 21.85,
+        "source_quality_points": 27.6,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "9038f3f53bb605cc",
+          "title": "Australia Doubles Down on Energy Shift as Middle East Tensions Simmer",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQT21CVFg5R01uSExETFVlWmVlVkRXUktLdndzRzc0SWM4YTNSWC1uamNMNVFpTVlXZ3BlbXpRcUFkVHdEU3RZaUZCQnNrODRlYlp1eW5Sc1BfWlpRN0lvaFNTOGM1eExoWUpYblVmbTdZbFBPT2tFd0hNSHNnSF9IMEY2S0swaUMyYTY4OFZXMFV1V1dXbV8xZ2Vjc1NzdkRncy02ZE9OeEphNlNEaHlaYjlWUmlvd3JiTVE?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-05-01T10:58:00+00:00",
+          "confidence": 0.92
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -143,17 +278,17 @@
       ],
       "earliest_seen": "2026-05-01T14:39:37+00:00",
       "latest_seen": "2026-05-01T14:39:37+00:00",
-      "age_hours": 0.49,
-      "score": 63.21,
+      "age_hours": 1.55,
+      "score": 52.57,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.71,
+        "recency_points": 24.07,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "6763b25208b1b07b",
@@ -184,17 +319,17 @@
       ],
       "earliest_seen": "2026-05-01T14:07:38+00:00",
       "latest_seen": "2026-05-01T14:07:38+00:00",
-      "age_hours": 1.02,
-      "score": 62.89,
+      "age_hours": 2.08,
+      "score": 52.25,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.39,
+        "recency_points": 23.75,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "ad2f3e0291b5c504",
@@ -225,17 +360,17 @@
       ],
       "earliest_seen": "2026-05-01T13:47:50+00:00",
       "latest_seen": "2026-05-01T13:47:50+00:00",
-      "age_hours": 1.35,
-      "score": 62.69,
+      "age_hours": 2.41,
+      "score": 52.05,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.19,
+        "recency_points": 23.55,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2483a63cc38e44f1",
@@ -244,180 +379,6 @@
           "source": "Türkiye Today",
           "source_type": "rss",
           "published_at": "2026-05-01T13:47:50+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c8693af5b35489",
-      "topic": "renewables",
-      "lead_title": "Blackstone Bets €2B on Eurowind as Europe’s Renewable Energy Boom Meets AI-Driven Power Surge",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTjlMU3dOYWhXOWhWbHRwOVBVY2t2UEJ0MXNaNUU3bjJtdmJINUZqUVd5MFRkdk9URzBqYnJOSXZYZUlzXzc2WEtyZlNzZlNuZjZaa3hMeUo1NEhxa0tmMUlyNEs4WE0yZUtDZmRNS2wtQ1hrci1Sb2hBMzhVejhMangwZWxYOWtIUGU4YjRXcnRicWFnNWZXYm8zNENhY2JEWmZkb2RwRHhSYWZKdTFYMnVzOFh3UFBsNDZR?oc=5",
-      "lead_source": "CarbonCredits.com",
-      "canonical_entities": [
-        "renewable",
-        "wind"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-29T08:56:03+00:00",
-      "latest_seen": "2026-04-30T07:51:06+00:00",
-      "age_hours": 31.3,
-      "score": 55.22,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 6.22,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a641abbe5eea6918",
-          "title": "Blackstone Bets €2B on Eurowind as Europe’s Renewable Energy Boom Meets AI-Driven Power Surge",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTjlMU3dOYWhXOWhWbHRwOVBVY2t2UEJ0MXNaNUU3bjJtdmJINUZqUVd5MFRkdk9URzBqYnJOSXZYZUlzXzc2WEtyZlNzZlNuZjZaa3hMeUo1NEhxa0tmMUlyNEs4WE0yZUtDZmRNS2wtQ1hrci1Sb2hBMzhVejhMangwZWxYOWtIUGU4YjRXcnRicWFnNWZXYm8zNENhY2JEWmZkb2RwRHhSYWZKdTFYMnVzOFh3UFBsNDZR?oc=5",
-          "source": "CarbonCredits.com",
-          "source_type": "rss",
-          "published_at": "2026-04-30T07:51:06+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "71d683500807e0cf",
-          "title": "Mars: Acquiring a Renewable Energy Wind Farm in Lithuania",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOajB2MGM0M1ZaR0FBOGxnYl96dm4xem1YWjJGQWx1U084bm4wdlpMVmF4emV6cXNocDBjaXJGOEptSlNVRzFWZGNuZnJGVVBlZll3dnhMbEs0ckVDbW94SXRUb2RlV01GT041N3BCbS1fVVpMYVFJYzBvM1prN1IxTA?oc=5",
-          "source": "Sustainability Magazine",
-          "source_type": "rss",
-          "published_at": "2026-04-29T08:56:03+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_cceed9d2a218b1",
-      "topic": "renewables",
-      "lead_title": "Lincolnshire Leoda Solar Farm plan 'paused' for review",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TN1BsbTQ4aGZRZlJwWFp4SkMzRmtsUXdvb0c4V185MnF5ZnphbTlkcElDaFJxc2FZUHFQRldOZ3J5TVBMcnRXOTl5UXZOWVdwY1lSUndQN0VGQQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-01T05:29:32+00:00",
-      "latest_seen": "2026-05-01T05:29:32+00:00",
-      "age_hours": 9.66,
-      "score": 55.21,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.21,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "62c2e7ed4bcc5a6f",
-          "title": "Lincolnshire Leoda Solar Farm plan 'paused' for review",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5TN1BsbTQ4aGZRZlJwWFp4SkMzRmtsUXdvb0c4V185MnF5ZnphbTlkcElDaFJxc2FZUHFQRldOZ3J5TVBMcnRXOTl5UXZOWVdwY1lSUndQN0VGQQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-05-01T05:29:32+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_ab2c7c3caaaf8b",
-      "topic": "renewables",
-      "lead_title": "Wind power deal accelerates low-carbon construction transition",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRDBiRmpkRTJoS2ZRdXN1a05OcWdpUmpMWmpnbGZsdDhGZjg4T1J0WmJvNzJ6TUxQcEZYajVTVXNreUJObldOX01pSEtBeHpqTVYzMEczWnIzS2FaeV9UM0I3cVZvaFp2dUY3ZDhMMzlhcVRxWG5yVzZibXRzU0V6bmltZGpUblh6X0lVWW5BRldmOGFTRUc0V2hTUEZpclRNcUp6aXNmWVo?oc=5",
-      "lead_source": "Energy Live News",
-      "canonical_entities": [
-        "wind"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-01T13:32:31+00:00",
-      "latest_seen": "2026-05-01T13:32:31+00:00",
-      "age_hours": 1.61,
-      "score": 52.54,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.04,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "d10a334920b81480",
-          "title": "Wind power deal accelerates low-carbon construction transition",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRDBiRmpkRTJoS2ZRdXN1a05OcWdpUmpMWmpnbGZsdDhGZjg4T1J0WmJvNzJ6TUxQcEZYajVTVXNreUJObldOX01pSEtBeHpqTVYzMEczWnIzS2FaeV9UM0I3cVZvaFp2dUY3ZDhMMzlhcVRxWG5yVzZibXRzU0V6bmltZGpUblh6X0lVWW5BRldmOGFTRUc0V2hTUEZpclRNcUp6aXNmWVo?oc=5",
-          "source": "Energy Live News",
-          "source_type": "rss",
-          "published_at": "2026-05-01T13:32:31+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_23795f8b2631bc",
-      "topic": "renewables",
-      "lead_title": "Experts warn of rising lead risks in Africa’s solar energy boom",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYVotd29XdEx3Mms1MXNYcm56Q2hWZVpYemtocGZwby0wR19GZktzRjZxTHNDQ2pnZ2xXNGd1UHdsTnZwVHBDVHB1cjhDdTVsUEl0eUxPclV4d1R0eG85dlJPd3dMZEtoX1Z6T2ZQMmMzdXVYU05XSHRRT0pqR1Zqc1drVWNXbVRKVklsSnFtdjBfLVJKTGJBaU9teWpSdmk1?oc=5",
-      "lead_source": "WRAL",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-01T13:29:15+00:00",
-      "latest_seen": "2026-05-01T13:29:15+00:00",
-      "age_hours": 1.66,
-      "score": 52.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "ac94a0fa754ef495",
-          "title": "Experts warn of rising lead risks in Africa’s solar energy boom",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYVotd29XdEx3Mms1MXNYcm56Q2hWZVpYemtocGZwby0wR19GZktzRjZxTHNDQ2pnZ2xXNGd1UHdsTnZwVHBDVHB1cjhDdTVsUEl0eUxPclV4d1R0eG85dlJPd3dMZEtoX1Z6T2ZQMmMzdXVYU05XSHRRT0pqR1Zqc1drVWNXbVRKVklsSnFtdjBfLVJKTGJBaU9teWpSdmk1?oc=5",
-          "source": "WRAL",
-          "source_type": "rss",
-          "published_at": "2026-05-01T13:29:15+00:00",
           "confidence": 0.65
         }
       ],
@@ -440,11 +401,11 @@
       ],
       "earliest_seen": "2026-05-01T09:46:05+00:00",
       "latest_seen": "2026-05-01T13:16:05+00:00",
-      "age_hours": 1.88,
-      "score": 52.37,
+      "age_hours": 2.94,
+      "score": 51.74,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.87,
+        "recency_points": 23.24,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -490,11 +451,11 @@
       ],
       "earliest_seen": "2026-05-01T13:13:36+00:00",
       "latest_seen": "2026-05-01T13:13:36+00:00",
-      "age_hours": 1.92,
-      "score": 52.35,
+      "age_hours": 2.98,
+      "score": 51.71,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.85,
+        "recency_points": 23.21,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -531,11 +492,11 @@
       ],
       "earliest_seen": "2026-05-01T13:01:05+00:00",
       "latest_seen": "2026-05-01T13:01:05+00:00",
-      "age_hours": 2.13,
-      "score": 52.22,
+      "age_hours": 3.19,
+      "score": 51.59,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.72,
+        "recency_points": 23.09,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -572,11 +533,11 @@
       ],
       "earliest_seen": "2026-05-01T12:22:30+00:00",
       "latest_seen": "2026-05-01T12:22:30+00:00",
-      "age_hours": 2.77,
-      "score": 51.84,
+      "age_hours": 3.83,
+      "score": 51.2,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.34,
+        "recency_points": 22.7,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -613,11 +574,11 @@
       ],
       "earliest_seen": "2026-05-01T12:00:59+00:00",
       "latest_seen": "2026-05-01T12:00:59+00:00",
-      "age_hours": 3.13,
-      "score": 51.62,
+      "age_hours": 4.19,
+      "score": 50.98,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.12,
+        "recency_points": 22.48,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -654,11 +615,11 @@
       ],
       "earliest_seen": "2026-05-01T11:44:24+00:00",
       "latest_seen": "2026-05-01T11:44:24+00:00",
-      "age_hours": 3.41,
-      "score": 51.45,
+      "age_hours": 4.47,
+      "score": 50.82,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.95,
+        "recency_points": 22.32,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -695,11 +656,11 @@
       ],
       "earliest_seen": "2026-05-01T11:16:55+00:00",
       "latest_seen": "2026-05-01T11:16:55+00:00",
-      "age_hours": 3.87,
-      "score": 51.18,
+      "age_hours": 4.93,
+      "score": 50.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.68,
+        "recency_points": 22.04,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -736,11 +697,11 @@
       ],
       "earliest_seen": "2026-05-01T11:13:02+00:00",
       "latest_seen": "2026-05-01T11:13:02+00:00",
-      "age_hours": 3.93,
-      "score": 51.14,
+      "age_hours": 4.99,
+      "score": 50.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.64,
+        "recency_points": 22.0,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -777,11 +738,11 @@
       ],
       "earliest_seen": "2026-05-01T10:46:40+00:00",
       "latest_seen": "2026-05-01T10:46:40+00:00",
-      "age_hours": 4.37,
-      "score": 50.88,
+      "age_hours": 5.43,
+      "score": 50.24,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.38,
+        "recency_points": 21.74,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -818,11 +779,11 @@
       ],
       "earliest_seen": "2026-05-01T10:25:00+00:00",
       "latest_seen": "2026-05-01T10:25:00+00:00",
-      "age_hours": 4.73,
-      "score": 50.66,
+      "age_hours": 5.79,
+      "score": 50.02,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.16,
+        "recency_points": 21.52,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -859,11 +820,11 @@
       ],
       "earliest_seen": "2026-05-01T08:34:43+00:00",
       "latest_seen": "2026-05-01T08:34:43+00:00",
-      "age_hours": 6.57,
-      "score": 49.56,
+      "age_hours": 7.63,
+      "score": 48.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.06,
+        "recency_points": 20.42,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -900,11 +861,11 @@
       ],
       "earliest_seen": "2026-05-01T08:09:18+00:00",
       "latest_seen": "2026-05-01T08:09:18+00:00",
-      "age_hours": 6.99,
-      "score": 49.3,
+      "age_hours": 8.05,
+      "score": 48.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.8,
+        "recency_points": 20.17,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -941,11 +902,11 @@
       ],
       "earliest_seen": "2026-05-01T08:05:58+00:00",
       "latest_seen": "2026-05-01T08:05:58+00:00",
-      "age_hours": 7.05,
-      "score": 49.27,
+      "age_hours": 8.11,
+      "score": 48.63,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.77,
+        "recency_points": 20.13,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -960,47 +921,6 @@
           "source": "Libya Herald",
           "source_type": "rss",
           "published_at": "2026-05-01T08:05:58+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f7b40d6560d7b0",
-      "topic": "renewables",
-      "lead_title": "Equinor exec who led oil giant's UK wind power push departs",
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWsyVWFlb3ZoVU1iUUNUSGUxN1MyYVhyR3JTXzFoMXhqOXctMno0SkpaUkVUYWJVY3N2dDZJM1RmMHFlU1BLSjQxbG91Y1JaaW5HRk12WGF4OHpfVVh5NWxHQVF0Wk12X0VUWGRCRUpJbEZWb2dyaHlMajFFaU9fb09qZmEtMll0YTNNdW1KSXRjejA0dDh4X0ZOdU02NWE4MGRrYVVVZHZLYTdm?oc=5",
-      "lead_source": "Upstream Online",
-      "canonical_entities": [
-        "wind"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-01T07:50:59+00:00",
-      "latest_seen": "2026-05-01T07:50:59+00:00",
-      "age_hours": 7.3,
-      "score": 49.12,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.62,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0dedb477da33f177",
-          "title": "Equinor exec who led oil giant's UK wind power push departs",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNWsyVWFlb3ZoVU1iUUNUSGUxN1MyYVhyR3JTXzFoMXhqOXctMno0SkpaUkVUYWJVY3N2dDZJM1RmMHFlU1BLSjQxbG91Y1JaaW5HRk12WGF4OHpfVVh5NWxHQVF0Wk12X0VUWGRCRUpJbEZWb2dyaHlMajFFaU9fb09qZmEtMll0YTNNdW1KSXRjejA0dDh4X0ZOdU02NWE4MGRrYVVVZHZLYTdm?oc=5",
-          "source": "Upstream Online",
-          "source_type": "rss",
-          "published_at": "2026-05-01T07:50:59+00:00",
           "confidence": 0.65
         }
       ],
@@ -1023,11 +943,11 @@
       ],
       "earliest_seen": "2026-05-01T05:13:06+00:00",
       "latest_seen": "2026-05-01T05:13:06+00:00",
-      "age_hours": 9.93,
-      "score": 47.54,
+      "age_hours": 10.99,
+      "score": 46.91,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.04,
+        "recency_points": 18.41,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -1049,41 +969,50 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_f11bfda3ce0411",
+      "cluster_id": "c_c8693af5b35489",
       "topic": "renewables",
-      "lead_title": "Gov. Evers visits community solar garden in Superior to talk renewable energy",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUXNBYmZkbUVsZ29yNTVzajhVY1Z0M3A3UUhaTnF2UFkxbjhDcGRXYWZvVVBwUTF6Rk5jRFR4Q2hyNFZlOXBmQms4eXdKaXlhdDBJWW1NcEUzV0YyeW5la3V3U2g3LVRJVUxuamw4cWJPQVZabjJKMEtTWkFvMHBENm5oTFFqdGZqUTdEUTExYUtaRWM2SDRHMlNHM2RlZHRJaXpXZ2pEQW5sS2dtUmoxa3hVSHI5YXZkd3c?oc=5",
-      "lead_source": "WDIO.com",
+      "lead_title": "Blackstone Bets €2B on Eurowind as Europe’s Renewable Energy Boom Meets AI-Driven Power Surge",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTjlMU3dOYWhXOWhWbHRwOVBVY2t2UEJ0MXNaNUU3bjJtdmJINUZqUVd5MFRkdk9URzBqYnJOSXZYZUlzXzc2WEtyZlNzZlNuZjZaa3hMeUo1NEhxa0tmMUlyNEs4WE0yZUtDZmRNS2wtQ1hrci1Sb2hBMzhVejhMangwZWxYOWtIUGU4YjRXcnRicWFnNWZXYm8zNENhY2JEWmZkb2RwRHhSYWZKdTFYMnVzOFh3UFBsNDZR?oc=5",
+      "lead_source": "CarbonCredits.com",
       "canonical_entities": [
         "renewable",
-        "solar"
+        "wind"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-29T02:36:45+00:00",
-      "latest_seen": "2026-04-29T02:36:45+00:00",
-      "age_hours": 60.54,
-      "score": 44.0,
+      "earliest_seen": "2026-04-29T08:56:03+00:00",
+      "latest_seen": "2026-04-30T07:51:06+00:00",
+      "age_hours": 32.36,
+      "score": 39.59,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
+        "source_count_points": 10,
+        "recency_points": 5.59,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "8942034c61d82fa4",
-          "title": "Gov. Evers visits community solar garden in Superior to talk renewable energy",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUXNBYmZkbUVsZ29yNTVzajhVY1Z0M3A3UUhaTnF2UFkxbjhDcGRXYWZvVVBwUTF6Rk5jRFR4Q2hyNFZlOXBmQms4eXdKaXlhdDBJWW1NcEUzV0YyeW5la3V3U2g3LVRJVUxuamw4cWJPQVZabjJKMEtTWkFvMHBENm5oTFFqdGZqUTdEUTExYUtaRWM2SDRHMlNHM2RlZHRJaXpXZ2pEQW5sS2dtUmoxa3hVSHI5YXZkd3c?oc=5",
-          "source": "WDIO.com",
+          "headline_id": "a641abbe5eea6918",
+          "title": "Blackstone Bets €2B on Eurowind as Europe’s Renewable Energy Boom Meets AI-Driven Power Surge",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTjlMU3dOYWhXOWhWbHRwOVBVY2t2UEJ0MXNaNUU3bjJtdmJINUZqUVd5MFRkdk9URzBqYnJOSXZYZUlzXzc2WEtyZlNzZlNuZjZaa3hMeUo1NEhxa0tmMUlyNEs4WE0yZUtDZmRNS2wtQ1hrci1Sb2hBMzhVejhMangwZWxYOWtIUGU4YjRXcnRicWFnNWZXYm8zNENhY2JEWmZkb2RwRHhSYWZKdTFYMnVzOFh3UFBsNDZR?oc=5",
+          "source": "CarbonCredits.com",
           "source_type": "rss",
-          "published_at": "2026-04-29T02:36:45+00:00",
+          "published_at": "2026-04-30T07:51:06+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "71d683500807e0cf",
+          "title": "Mars: Acquiring a Renewable Energy Wind Farm in Lithuania",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOajB2MGM0M1ZaR0FBOGxnYl96dm4xem1YWjJGQWx1U084bm4wdlpMVmF4emV6cXNocDBjaXJGOEptSlNVRzFWZGNuZnJGVVBlZll3dnhMbEs0ckVDbW94SXRUb2RlV01GT041N3BCbS1fVVpMYVFJYzBvM1prN1IxTA?oc=5",
+          "source": "Sustainability Magazine",
+          "source_type": "rss",
+          "published_at": "2026-04-29T08:56:03+00:00",
           "confidence": 0.7
         }
       ],
@@ -1104,11 +1033,11 @@
       ],
       "earliest_seen": "2026-04-30T15:42:52+00:00",
       "latest_seen": "2026-04-30T15:42:52+00:00",
-      "age_hours": 23.44,
-      "score": 39.44,
+      "age_hours": 24.49,
+      "score": 38.8,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.94,
+        "recency_points": 10.3,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -1145,7 +1074,7 @@
       ],
       "earliest_seen": "2026-04-28T21:37:00+00:00",
       "latest_seen": "2026-04-28T21:37:00+00:00",
-      "age_hours": 65.53,
+      "age_hours": 66.59,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -1165,6 +1094,48 @@
           "source_type": "rss",
           "published_at": "2026-04-28T21:37:00+00:00",
           "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f11bfda3ce0411",
+      "topic": "renewables",
+      "lead_title": "Gov. Evers visits community solar garden in Superior to talk renewable energy",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUXNBYmZkbUVsZ29yNTVzajhVY1Z0M3A3UUhaTnF2UFkxbjhDcGRXYWZvVVBwUTF6Rk5jRFR4Q2hyNFZlOXBmQms4eXdKaXlhdDBJWW1NcEUzV0YyeW5la3V3U2g3LVRJVUxuamw4cWJPQVZabjJKMEtTWkFvMHBENm5oTFFqdGZqUTdEUTExYUtaRWM2SDRHMlNHM2RlZHRJaXpXZ2pEQW5sS2dtUmoxa3hVSHI5YXZkd3c?oc=5",
+      "lead_source": "WDIO.com",
+      "canonical_entities": [
+        "renewable",
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-29T02:36:45+00:00",
+      "latest_seen": "2026-04-29T02:36:45+00:00",
+      "age_hours": 61.6,
+      "score": 29.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "8942034c61d82fa4",
+          "title": "Gov. Evers visits community solar garden in Superior to talk renewable energy",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUXNBYmZkbUVsZ29yNTVzajhVY1Z0M3A3UUhaTnF2UFkxbjhDcGRXYWZvVVBwUTF6Rk5jRFR4Q2hyNFZlOXBmQms4eXdKaXlhdDBJWW1NcEUzV0YyeW5la3V3U2g3LVRJVUxuamw4cWJPQVZabjJKMEtTWkFvMHBENm5oTFFqdGZqUTdEUTExYUtaRWM2SDRHMlNHM2RlZHRJaXpXZ2pEQW5sS2dtUmoxa3hVSHI5YXZkd3c?oc=5",
+          "source": "WDIO.com",
+          "source_type": "rss",
+          "published_at": "2026-04-29T02:36:45+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
