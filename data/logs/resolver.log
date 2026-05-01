@@ -297,3 +297,15 @@
 [2026-05-01T22:08:22.637376+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
 [2026-05-01T22:08:22.637891+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-01T22:08:22.637921+00:00] ════════════════════════════════════════════════════════════
+[2026-05-01T23:10:16.601326+00:00] resolver: start
+[2026-05-01T23:10:16.605403+00:00] resolver: scanning 266 clusters across 10 topics
+[2026-05-01T23:10:16.605774+00:00]   hormuz_status: OPEN (conf=0.959, freshness=fresh, clusters=5)
+[2026-05-01T23:10:16.606995+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=17)
+[2026-05-01T23:10:16.607155+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=3)
+[2026-05-01T23:10:16.607199+00:00]   global_risk_level: LOW (score=10)
+[2026-05-01T23:10:16.607368+00:00]   top_story: 'Crude Oil Prices Ease: Brent at $108, WTI Near $101 on Iran ' (score=96.66)
+[2026-05-01T23:10:16.607444+00:00] resolver: 4 change(s), 2 meaningful, 1 publish-triggering
+[2026-05-01T23:10:16.607475+00:00]   Δ hormuz_status.risk_level: 'HIGH' → 'LOW' (triggers_publish=True)
+[2026-05-01T23:10:16.607503+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-05-01T23:10:16.608096+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-01T23:10:16.608136+00:00] ════════════════════════════════════════════════════════════

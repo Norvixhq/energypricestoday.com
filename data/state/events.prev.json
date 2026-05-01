@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "generated_at": "2026-05-01T21:02:31.416697+00:00",
-  "previous_generated_at": "2026-05-01T19:54:34.384219+00:00",
-  "resolver_run_count": 25,
+  "generated_at": "2026-05-01T22:08:22.637393+00:00",
+  "previous_generated_at": "2026-05-01T21:02:31.416697+00:00",
+  "resolver_run_count": 26,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "Exxon CEO: Middle East oil production could resume quickly after Hormuz reopening",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.811,
-      "last_confirmed": "2026-05-01T16:23:50+00:00",
+      "status": "CLOSED",
+      "status_detail": "Hormuz closure divides the fortunes of Middle Eastern oil states",
+      "status_tag": "Strait closed",
+      "risk_level": "HIGH",
+      "confidence": 0.952,
+      "last_confirmed": "2026-05-01T21:29:43+00:00",
       "source_count": 5,
-      "summary_short": "Iran war: Khamenei pledges new Strait of Hormuz 'management'",
-      "summary_long": "Iran war: Khamenei pledges new Strait of Hormuz 'management'. Exxon CEO: Middle East oil production could resume quickly after Hormuz reopening",
+      "summary_short": "Barclays lifts 2026 Brent forecast to $100 on prolonged Hormuz disruption",
+      "summary_long": "Barclays lifts 2026 Brent forecast to $100 on prolonged Hormuz disruption. Iran war: What is the Strait of Hormuz and why does it matter?",
       "evidence_cluster_ids": [
+        "c_cc30a47f95f999",
+        "c_729e4d4879f7bb",
         "c_43f02ebc03c535",
-        "c_c57988a3c7750f",
-        "c_1a500eb1877a22",
-        "c_be0d0ecedaca32",
+        "c_067be4650000b3",
         "c_3eae9df421aefc"
       ],
       "evidence_count": 5,
@@ -41,12 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_c57988a3c7 → OPEN (kw='reopen', weight=0.46)",
-        "cluster c_be0d0eceda → CLOSED (kw='blockade', weight=0.40) [OPEN suppressed]",
-        "winning=OPEN (0.46/0.86), conf=0.811"
+        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
+        "winning=CLOSED (0.10/0.10), conf=0.952"
       ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-05-01T21:02:31.416550+00:00"
+      "previous_status": "OPEN",
+      "last_changed": "2026-05-01T22:08:22.637309+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -58,17 +57,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-01T20:56:00+00:00",
-      "source_count": 16,
-      "summary_short": "Exxon CEO sees “more to come” on price spikes from Iran war as Exxon, Chevron beat on earnings",
-      "summary_long": "Exxon CEO sees “more to come” on price spikes from Iran war as Exxon, Chevron beat on earnings. Economic impact of Iran war will get worse, top US oil execs warn",
+      "source_count": 12,
+      "summary_short": "Exxon net income falls, output hit by Iran war",
+      "summary_long": "Exxon net income falls, output hit by Iran war. Exxon Mobil CEO expects higher oil prices due to Iran war: ‘The market hasn’t seen the full impact’",
       "evidence_cluster_ids": [
-        "c_e2876a35a3c64f",
-        "c_5c9abb79583368",
         "c_e90d2bb401aaf0",
         "c_3b3514edb215f9",
-        "c_43f02ebc03c535"
+        "c_07ec5187a8fddf",
+        "c_e2876a35a3c64f",
+        "c_5c9abb79583368"
       ],
-      "evidence_count": 16,
+      "evidence_count": 12,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -98,16 +97,17 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-01T20:10:38+00:00",
-      "source_count": 3,
-      "summary_short": "Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit",
-      "summary_long": "Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit. The UAE dumping OPEC may not affect crude as anticipated",
+      "last_confirmed": "2026-05-01T22:00:30+00:00",
+      "source_count": 4,
+      "summary_short": "OPEC After the UAE Exit: The End of Oil Unity",
+      "summary_long": "OPEC After the UAE Exit: The End of Oil Unity. The UAE dumping OPEC may not affect crude as anticipated",
       "evidence_cluster_ids": [
-        "c_76e59aa02d0e60",
         "c_4efc6b06c8f622",
-        "c_4e803aeb1bd205"
+        "c_cd161511dbbea2",
+        "c_4e803aeb1bd205",
+        "c_43fff660d862d7"
       ],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -127,18 +127,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "HIGH",
+      "risk_level": "HIGH",
+      "score": 50,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: high.",
+      "summary_long": "Risk drivers: Hormuz closed",
+      "summary_micro": "closed",
       "rationale": [
+        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -151,19 +152,19 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-05-01T21:02:31.416550+00:00"
+      "previous_status": "LOW",
+      "last_changed": "2026-05-01T22:08:22.637309+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_026ce7a354e605",
-      "lead_title": "June WTI Crude Oil Contract Closes Down US$3.13; Settles at US$101.94 per Barrel",
-      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYmN6SlFEYjY3TWNfU3F0WVZQaVRkb2h1R3g3cGpvc29vVElmTk1reFY4LS0zaDZRLXo4Y2E0YTNLQUZvLUdfZTNCcGpadzZUcWNSRmdpX04tbEstNE94ck5ka2ZDN1NUdkR5MmFtSXlNMmQwTnEwRWxhWnM0cDVJdl9Oc1JkeW02azAzdl9OUkVzUXhrMlpScldVMFAyOEV4VkQzdU1Hdm4zR29tcE8xU1h3aFR5d0d3dTNIV1Z5ejN1TDJ3TGU4dnFWYWE?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_f8937979cfe38c",
+      "lead_title": "Platts revises May 2026 Kirkuk Crude Oil OSP",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNlFyN1pDcmZpMm4wbHJxLVZ1dmJ2YTJxem1oNTh2QmZMMHdfZTFuWEs1TnBSSnFwdk51c04yWmdEQl9fMl9nTGhVbXhUOVR1VG9ob0ZtcTNWejVxQTI5c1dZdXFHWW55dWplQ0Y3U2ZmTXRBTTFxSXRKZVU2YWpHVmlQMk0tUkxsNnhObExJdDN6dm9KY3FPd3pucE1jcldWX2tiUWZNV1R0Xzg4bDhjNTZXblhYWkJDc1JMVGhNYkRYYmt5UG5DeVNKTE0zVzhTOGFOWA?oc=5",
+      "lead_source": "S&P Global",
       "topic": "oil",
-      "score": 93.31,
+      "score": 94.03,
       "novelty": "new",
       "source_count": 5,
       "confidence": 0.95,
@@ -179,42 +180,42 @@
     {
       "event_key": "hormuz_status",
       "field": "status",
-      "from": "CLOSED",
-      "to": "OPEN",
-      "detected_at": "2026-05-01T21:02:31.416550+00:00",
-      "meaningful": true,
-      "triggers_publish": true
+      "from": "OPEN",
+      "to": "CLOSED",
+      "detected_at": "2026-05-01T22:08:22.637309+00:00",
+      "meaningful": false,
+      "triggers_publish": false
     },
     {
       "event_key": "hormuz_status",
       "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-01T21:02:31.416550+00:00",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-05-01T22:08:22.637309+00:00",
       "meaningful": true,
       "triggers_publish": true
     },
     {
       "event_key": "global_risk_level",
       "field": "status",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-01T21:02:31.416550+00:00",
-      "meaningful": true,
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-05-01T22:08:22.637309+00:00",
+      "meaningful": false,
       "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-01T21:02:31.416550+00:00",
+      "from": "LOW",
+      "to": "HIGH",
+      "detected_at": "2026-05-01T22:08:22.637309+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.811, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.952, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
