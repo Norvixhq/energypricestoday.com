@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-01T09:17:32.086252+00:00",
-  "previous_generated_at": "2026-05-01T07:17:43.566358+00:00",
-  "resolver_run_count": 16,
+  "generated_at": "2026-05-01T10:54:10.496765+00:00",
+  "previous_generated_at": "2026-05-01T09:17:32.086252+00:00",
+  "resolver_run_count": 17,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,18 +12,17 @@
       "status_detail": "Oil holds near $111 as Hormuz closure keeps fuel cost risks high",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.957,
+      "confidence": 0.952,
       "last_confirmed": "2026-05-01T09:01:56+00:00",
-      "source_count": 4,
+      "source_count": 3,
       "summary_short": "Engine trouble ahead? How the Strait of Hormuz standoff threatens luxury auto giants",
       "summary_long": "Engine trouble ahead? How the Strait of Hormuz standoff threatens luxury auto giants. Oil holds near $111 as Hormuz closure keeps fuel cost risks high",
       "evidence_cluster_ids": [
         "c_5d4f94ba1d04c5",
-        "c_de7bc4e2155ee3",
-        "c_74492f62875114",
+        "c_1a500eb1877a22",
         "c_3eae9df421aefc"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,9 +39,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_5d4f94ba1d → CLOSED (kw='closure', weight=0.61) [OPEN suppressed]",
-        "cluster c_de7bc4e215 → CLOSED (kw='blockade', weight=0.46) [OPEN suppressed]",
-        "winning=CLOSED (1.06/1.06), conf=0.957"
+        "cluster c_5d4f94ba1d → CLOSED (kw='closure', weight=0.48) [OPEN suppressed]",
+        "winning=CLOSED (0.48/0.48), conf=0.952"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +52,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-01T07:59:36+00:00",
+      "last_confirmed": "2026-05-01T10:42:05+00:00",
       "source_count": 16,
-      "summary_short": "Oil Futures Pull Back Amid U.S.-Iran Standstill",
-      "summary_long": "Oil Futures Pull Back Amid U.S.-Iran Standstill. Oil Prices Soar Due to Iran War; Japan Takes Emergency Action to Support the Yen",
+      "summary_short": "Exxon beats first-quarter earnings estimate despite hit from Iran conflict",
+      "summary_long": "Exxon beats first-quarter earnings estimate despite hit from Iran conflict. Oil Remains Elevated as U.S.-Iran Talks Impasse Continues",
       "evidence_cluster_ids": [
-        "c_3b8c0fe939a2fe",
-        "c_c89f5a3ab4105b",
-        "c_04eaa4e1e6fe69",
-        "c_a07f009b0007d1",
-        "c_6fda3d0b64f161"
+        "c_a6d8404b6a2f0a",
+        "c_9a964d71344658",
+        "c_09eb3db8f5f121",
+        "c_fd2e6c8e3a4aa3",
+        "c_504ca235d573e1"
       ],
-      "evidence_count": 15,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -95,13 +93,13 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-01T07:49:12+00:00",
+      "last_confirmed": "2026-05-01T09:48:42+00:00",
       "source_count": 3,
-      "summary_short": "The UAE dumping OPEC may not affect crude as anticipated",
-      "summary_long": "The UAE dumping OPEC may not affect crude as anticipated. UAE oil exit from OPEC signals focus on domestic priorities",
+      "summary_short": "UAE OPEC Exit Puts Fujairah Pipeline at Centre of Global Oil Shift",
+      "summary_long": "UAE OPEC Exit Puts Fujairah Pipeline at Centre of Global Oil Shift. The UAE dumping OPEC may not affect crude as anticipated",
       "evidence_cluster_ids": [
         "c_4efc6b06c8f622",
-        "c_29f37640594e23",
+        "c_53e5f01965c0bb",
         "c_f463b01b6f9282"
       ],
       "evidence_count": 3,
@@ -154,12 +152,12 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_b9a9a92caf1f22",
+      "cluster_id": "c_3901cbf79c1d67",
       "lead_title": "Iran War Hastens Rush of Clean Fuel Tankers Turning to Crude Oil",
       "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWFCZl9OSmdUUk95a3A3d0IxUHN4VjE0UDZlYWt4Um5ERnFUTGg1cG1RMGk0MTRKT0Y0WXJPUktORndkMVdaM3o1aW9LRGhaYldGZ0hLODZQSmprNWdSTkY2NE02Y2VLM3h5b3QtdFRaZXZKdGgyVl9YaFNYeVJYWUhSN1B5N19LWk0xX01hQXpCVVNJVHBweWJ4RjdlbGhyVHZvbVVKajE3czRndjByM3pSR2xUdw?oc=5",
       "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 100.0,
+      "score": 92.97,
       "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
@@ -173,7 +171,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.952, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
