@@ -235,3 +235,17 @@
 [2026-05-01T16:12:32.540268+00:00] resolver: no state changes
 [2026-05-01T16:12:32.540839+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-01T16:12:32.540879+00:00] ════════════════════════════════════════════════════════════
+[2026-05-01T17:17:38.444889+00:00] resolver: start
+[2026-05-01T17:17:38.448520+00:00] resolver: scanning 271 clusters across 10 topics
+[2026-05-01T17:17:38.448910+00:00]   hormuz_status: OPEN (conf=0.955, freshness=fresh, clusters=4)
+[2026-05-01T17:17:38.450056+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=19)
+[2026-05-01T17:17:38.450193+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=1)
+[2026-05-01T17:17:38.450225+00:00]   global_risk_level: LOW (score=10)
+[2026-05-01T17:17:38.450375+00:00]   top_story: 'Platts revises May 2026 Kirkuk Crude Oil OSP' (score=88.66)
+[2026-05-01T17:17:38.450420+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-05-01T17:17:38.450439+00:00]   Δ hormuz_status.status: 'CLOSED' → 'OPEN' (triggers_publish=True)
+[2026-05-01T17:17:38.450458+00:00]   Δ hormuz_status.risk_level: 'HIGH' → 'LOW' (triggers_publish=True)
+[2026-05-01T17:17:38.450473+00:00]   Δ global_risk_level.status: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-05-01T17:17:38.450488+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-05-01T17:17:38.451008+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-01T17:17:38.451039+00:00] ════════════════════════════════════════════════════════════
