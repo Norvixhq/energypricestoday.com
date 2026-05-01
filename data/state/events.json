@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-01T18:42:02.332682+00:00",
-  "previous_generated_at": "2026-05-01T17:17:38.450502+00:00",
-  "resolver_run_count": 23,
+  "generated_at": "2026-05-01T19:54:34.384219+00:00",
+  "previous_generated_at": "2026-05-01T18:42:02.332682+00:00",
+  "resolver_run_count": 24,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "'Tsunami effect': Hormuz blockade impacts global supply chains, developing countries curtail imports",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.806,
-      "last_confirmed": "2026-05-01T17:19:00+00:00",
-      "source_count": 5,
-      "summary_short": "'Tsunami effect': Hormuz blockade impacts global supply chains, developing countries curtail imports",
-      "summary_long": "'Tsunami effect': Hormuz blockade impacts global supply chains, developing countries curtail imports. Strait of Hormuz standoff puts Iran at critical breaking point as oil gets stuck",
+      "confidence": 0.809,
+      "last_confirmed": "2026-05-01T16:23:50+00:00",
+      "source_count": 6,
+      "summary_short": "US Treasury warns shippers not to pay Hormuz tolls, even in form of charity",
+      "summary_long": "US Treasury warns shippers not to pay Hormuz tolls, even in form of charity. Iran war: What is the Strait of Hormuz and why does it matter?",
       "evidence_cluster_ids": [
-        "c_be0d0ecedaca32",
-        "c_6145ed302bb1d5",
+        "c_cc30a47f95f999",
         "c_c57988a3c7750f",
-        "c_3eae9df421aefc",
-        "c_1665abaff84403"
+        "c_be0d0ecedaca32",
+        "c_729e4d4879f7bb",
+        "c_3ce36842afb807"
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,12 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_be0d0eceda → CLOSED (kw='blockade', weight=0.52) [OPEN suppressed]",
-        "cluster c_c57988a3c7 → OPEN (kw='reopen', weight=0.50)",
-        "winning=CLOSED (0.52/1.02), conf=0.806"
-      ],
-      "previous_status": "OPEN",
-      "last_changed": "2026-05-01T18:42:02.332561+00:00"
+        "cluster c_c57988a3c7 → OPEN (kw='reopen', weight=0.48)",
+        "cluster c_be0d0eceda → CLOSED (kw='blockade', weight=0.42) [OPEN suppressed]",
+        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
+        "winning=CLOSED (0.51/0.99), conf=0.809"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -57,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-01T17:19:00+00:00",
-      "source_count": 16,
-      "summary_short": "Exxon Mobil CEO expects higher oil prices due to Iran war: ‘The market hasn’t seen the full impact’",
-      "summary_long": "Exxon Mobil CEO expects higher oil prices due to Iran war: ‘The market hasn’t seen the full impact’. Exxon net income falls, output hit by Iran war",
+      "last_confirmed": "2026-05-01T19:04:58+00:00",
+      "source_count": 17,
+      "summary_short": "Exxon net income falls, output hit by Iran war",
+      "summary_long": "Exxon net income falls, output hit by Iran war. Donald Trump's 'wishful thinking' over his blockade of Iranian oil",
       "evidence_cluster_ids": [
-        "c_3b3514edb215f9",
         "c_e90d2bb401aaf0",
-        "c_8a99b85a49b361",
-        "c_6145ed302bb1d5",
-        "c_07ec5187a8fddf"
+        "c_f0543acbebd92f",
+        "c_3b3514edb215f9",
+        "c_07ec5187a8fddf",
+        "c_cc30a47f95f999"
       ],
-      "evidence_count": 16,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -98,15 +97,17 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-01T17:32:55+00:00",
-      "source_count": 2,
-      "summary_short": "The silent treatment: Saudi Arabia’s long game for managing Opec",
-      "summary_long": "The silent treatment: Saudi Arabia’s long game for managing Opec. The UAE dumping OPEC may not affect crude as anticipated",
+      "last_confirmed": "2026-05-01T18:52:05+00:00",
+      "source_count": 4,
+      "summary_short": "NEWSMAKER Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit",
+      "summary_long": "NEWSMAKER Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit. UAE exit from OPEC signals closer alignment with US interests, experts say",
       "evidence_cluster_ids": [
-        "c_e7672221b7060d",
-        "c_4efc6b06c8f622"
+        "c_97fc5d830573a5",
+        "c_4efc6b06c8f622",
+        "c_4e803aeb1bd205",
+        "c_43fff660d862d7"
       ],
-      "evidence_count": 2,
+      "evidence_count": 4,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -150,9 +151,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-05-01T18:42:02.332561+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -163,8 +162,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNlFyN1pDcmZpMm4wbHJxLVZ1dmJ2YTJxem1oNTh2QmZMMHdfZTFuWEs1TnBSSnFwdk51c04yWmdEQl9fMl9nTGhVbXhUOVR1VG9ob0ZtcTNWejVxQTI5c1dZdXFHWW55dWplQ0Y3U2ZmTXRBTTFxSXRKZVU2YWpHVmlQMk0tUkxsNnhObExJdDN6dm9KY3FPd3pucE1jcldWX2tiUWZNV1R0Xzg4bDhjNTZXblhYWkJDc1JMVGhNYkRYYmt5UG5DeVNKTE0zVzhTOGFOWA?oc=5",
       "lead_source": "S&P Global",
       "topic": "oil",
-      "score": 94.8,
-      "novelty": "new",
+      "score": 84.73,
+      "novelty": "ongoing",
       "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
@@ -175,46 +174,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "OPEN",
-      "to": "CLOSED",
-      "detected_at": "2026-05-01T18:42:02.332561+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-05-01T18:42:02.332561+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-05-01T18:42:02.332561+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-05-01T18:42:02.332561+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.806, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.809, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
