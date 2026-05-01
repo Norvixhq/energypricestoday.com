@@ -88,6 +88,7 @@ const ARTICLE_SLUGS = {
   "Gas Prices Fall to $4.058 \u2014 Seventh Consecutive Daily Decline": "gas-prices-fall-to-4058-seventh-consecutive-daily-decline",
   "Gas Prices Fall to $4.076 \u2014 Lowest Level Since Late March": "gas-prices-fall-to-4076-lowest-level-since-late-march",
   "Gas Prices Today U.S. National and State Averages April 2026": "gas-prices-today-us-national-and-state-averages-april-2026",
+  "Gas prices: Oil briefly touches $126, its highest price in four years": "gas-prices-oil-briefly-touches-126-its-highest-price-in-four-years",
   "Gasoline Futures Up 3.1%, Cracks Widen": "gasoline-futures-up-31-cracks-widen",
   "Global Energy Crisis Deepens as Diplomatic Off-Ramp Narrows": "global-energy-crisis-deepens-as-diplomatic-off-ramp-narrows",
   "Global Energy Demand Growth Slows to 1.2 Percent in 2026": "global-energy-demand-growth-slows-to-12-percent-in-2026",
@@ -388,7 +389,8 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Why oil prices predicted by financial markets are missing the mark": "why-oil-prices-predicted-by-financial-markets-are-missing-the-mark"
 };
 
 function slugifyTitle(title) {
