@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=16">
+  <link rel="stylesheet" href="css/styles.css?v=17">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
@@ -104,7 +104,7 @@
 
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=16"></script><script src="js/article-slugs.js?v=16"></script><script src="js/main.js?v=16"></script>
+  <script src="js/data.js?v=17"></script><script src="js/article-slugs.js?v=17"></script><script src="js/main.js?v=17"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
     function ContactCard(ic,t,email,d,detail){
@@ -129,22 +129,22 @@
 
     // CONTACT CATEGORIES
     document.getElementById('contact-cards').innerHTML = [
-      ['mail','General Inquiries','hello@energypricestoday.com',
-        'Questions about the site, suggestions, feedback, or anything that doesn’t fit the other categories.',
-        'Best for non-urgent general questions. Response typically within 2-3 business days.'],
-      ['edit-3','Editorial Corrections','corrections@energypricestoday.com',
+      ['mail','General Inquiries','editorial@energypricestoday.com',
+        'Questions about the site, suggestions, feedback, or anything that does not fit the other categories.',
+        'Best for non-urgent general questions. Response typically within 2 business days.'],
+      ['edit-3','Editorial Corrections','editorial@energypricestoday.com',
         'Report factual errors in articles, prices, data points, or other published content.',
         'See correction guidance below. Data corrections typically verified within 24 hours.'],
-      ['zap','News Tips','tips@energypricestoday.com',
+      ['zap','News Tips','editorial@energypricestoday.com',
         'Share tips about energy market events, company developments, policy changes, or breaking stories.',
         'Confidential tips welcome. Include timing, sources, and any documentation you can share.'],
-      ['briefcase','Partnerships & Business','business@energypricestoday.com',
+      ['briefcase','Partnerships &amp; Business','editorial@energypricestoday.com',
         'Syndication, data licensing, content partnerships, or business development inquiries.',
         'We do not accept paid editorial placements, sponsored analysis, or guest posts.'],
-      ['tool','Technical Issues','support@energypricestoday.com',
-        'Broken pages, data display errors, login issues, mobile bugs, or other website problems.',
+      ['tool','Technical Issues','editorial@energypricestoday.com',
+        'Broken pages, data display errors, mobile bugs, or other website problems.',
         'Include browser, device, and a screenshot if possible for fastest resolution.'],
-      ['shield','Legal & Privacy','legal@energypricestoday.com',
+      ['shield','Legal &amp; Privacy','editorial@energypricestoday.com',
         'Privacy concerns, data requests (GDPR/CCPA), takedown notices, or legal matters.',
         'For formal legal notices, please include contact information for a written response.'],
     ].map(function(c){return ContactCard(c[0],c[1],c[2],c[3],c[4]);}).join('');
