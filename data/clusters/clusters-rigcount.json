@@ -1,6 +1,6 @@
 {
   "topic": "rigcount",
-  "generated_at": "2026-05-02T17:08:50.318290+00:00",
+  "generated_at": "2026-05-02T18:05:00.408312+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -18,24 +18,24 @@
         "drilling",
         "rig count"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-01T21:02:58+00:00",
+      "earliest_seen": "2026-05-01T17:23:17+00:00",
       "latest_seen": "2026-05-02T05:08:27+00:00",
-      "age_hours": 12.01,
-      "score": 71.55,
+      "age_hours": 12.94,
+      "score": 70.73,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 17.8,
-        "source_quality_points": 21.75,
+        "source_count_points": 15,
+        "recency_points": 17.23,
+        "source_quality_points": 21.5,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "81b14065d271f1ee",
@@ -54,30 +54,39 @@
           "source_type": "rss",
           "published_at": "2026-05-02T05:08:27+00:00",
           "confidence": 0.7
+        },
+        {
+          "headline_id": "874641a46eef7eae",
+          "title": "Baker Hughes reports U.S. rig count up 3 to 547 rigs",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPX0NHTmRLaERRWnYtcEhFdEplUTlLWlF2U0VFTWw4Wnp3YTRrXzZ4TnJCeWdzdnJFZHBISmlpc1FKMHlZM2JkNUV2ZE9hQ2NveUozTWxrcmpIaTU3ZEJ6R1Y1VkFUNzFMeDA0aUV1cF9feEF2dXBBLWQwLVNjMWR4OUJycmMxbGdsWTdXMk9iLTNacVJhdnZvUUVqcDdmZktQbEFj?oc=5",
+          "source": "TipRanks",
+          "source_type": "rss",
+          "published_at": "2026-05-01T17:23:17+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_b610157b2d91a3",
+      "cluster_id": "c_9bb87e47109061",
       "topic": "rigcount",
-      "lead_title": "U.S. drilling rig count ticks lower to resume string of declines, Baker Hughes says",
-      "lead_url": "https://news.google.com/rss/articles/CBMipANBVV95cUxPekhkSkpuY3BTTjF6VUVJSGNWQk9STEZDVmFpRUtUMEx3RFFFUWNzQ2h1cGlfOU1OY3RnTkh4QlZTa3ZEYzFvclVvajdqZTRpUHlJVmF2cmdiOVpSOS1QWlI1c2NOUW1vWEJWamdmVWNRa1J6dXpWb3c2REZfWDNMQW1vT20xVTRhak10OFFMa3I3bUxHcG01Rk5Kb2xyeTZMZjFVb3g4RU5iNU1XMWQ2WXZxNF9OanBzVmVQbFZhSHJ4aXNIYkRVY3dmUkl4S295UzM2Vzd3VG0yRWp0MGtKenE4RlVwUDhJREN0MzQ5bnFzRFFMSGd5dzdYVk9mQy0xWFN5LVlyRTZQMjdSWUZzVHVQWmh1NzQ2a0R4bmFwTm5GM3JYRWpQeDE0VGdzbmctOE53cnNkQy02Z0dIZTZaMF94dEhiczU1Yms4dEtXQTFtVml0N01vWGljYWgzcFpTOEdlcTVMNFgyMS1NU1ZZeFczRXctM1g3eUxCSEpZdkRKNDhMbS0tVmhqM2ZQWlRYdnQtaHBMVEVSRnlBR0gtdTRpcl8?oc=5",
+      "lead_title": "US drilling rig count drops for second straight week, Baker Hughes reports",
+      "lead_url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOZGVmWWdRNGJSNENvd3ZpOGlBN0o3R29mWnVUWjlGZmJDaUFtUnhTajcwdVRGMUJqSVk3cEhkTG03Z29VYmJySTRKbXh5WjF4dlhQb19QbzcwQ2ZFeUkwWTluWU5uMkFGTHdpaDFUZVU5V3oxcWNpcUJXeEVsemtNcElqVXFKQzc1c3lEN3ItYS1aVURPNkR1TkZvRmQ1NU4wbUxKcDlmbzlFVE1fZWtGYjdfMDVSa0ZHRmlkdmxnSDVVT3daLW8tbV9xa0dETmo2bjRHSzA4ZUJJVnY0bVlsOWFKeHhoTi1aT0ZGM0pJWTVmajNqaEpIaU1vN3lVZlhfYXBnSDBHZWFKbmRnVHM0WFBoazZlOURtdkZ4di1tUE0yWmpCXzZpVE5HX0xUN1I4aFVxN2RXZ1duODRnVmhLS0lhdEY3b00tRS1aOGNrcUFqbVRTM3B2bXV4RllxZ2hkeVFiQnJuTUE3UGgwMU5ENFUwUXNvVkU?oc=5",
       "lead_source": "MSN",
       "canonical_entities": [
         "Baker Hughes",
         "drilling",
         "rig count"
       ],
-      "source_count": 2,
+      "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-04-26T08:53:16+00:00",
-      "latest_seen": "2026-04-26T08:55:23+00:00",
-      "age_hours": 152.22,
+      "latest_seen": "2026-04-26T08:53:16+00:00",
+      "age_hours": 153.2,
       "score": 49.5,
       "score_components": {
         "source_count_points": 5,
@@ -90,15 +99,6 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "283a0be1de40c0e4",
-          "title": "U.S. drilling rig count ticks lower to resume string of declines, Baker Hughes says",
-          "url": "https://news.google.com/rss/articles/CBMipANBVV95cUxPekhkSkpuY3BTTjF6VUVJSGNWQk9STEZDVmFpRUtUMEx3RFFFUWNzQ2h1cGlfOU1OY3RnTkh4QlZTa3ZEYzFvclVvajdqZTRpUHlJVmF2cmdiOVpSOS1QWlI1c2NOUW1vWEJWamdmVWNRa1J6dXpWb3c2REZfWDNMQW1vT20xVTRhak10OFFMa3I3bUxHcG01Rk5Kb2xyeTZMZjFVb3g4RU5iNU1XMWQ2WXZxNF9OanBzVmVQbFZhSHJ4aXNIYkRVY3dmUkl4S295UzM2Vzd3VG0yRWp0MGtKenE4RlVwUDhJREN0MzQ5bnFzRFFMSGd5dzdYVk9mQy0xWFN5LVlyRTZQMjdSWUZzVHVQWmh1NzQ2a0R4bmFwTm5GM3JYRWpQeDE0VGdzbmctOE53cnNkQy02Z0dIZTZaMF94dEhiczU1Yms4dEtXQTFtVml0N01vWGljYWgzcFpTOEdlcTVMNFgyMS1NU1ZZeFczRXctM1g3eUxCSEpZdkRKNDhMbS0tVmhqM2ZQWlRYdnQtaHBMVEVSRnlBR0gtdTRpcl8?oc=5",
-          "source": "MSN",
-          "source_type": "rss",
-          "published_at": "2026-04-26T08:55:23+00:00",
-          "confidence": 0.75
-        },
-        {
           "headline_id": "bf3e4a6eb38be88f",
           "title": "US drilling rig count drops for second straight week, Baker Hughes reports",
           "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOZGVmWWdRNGJSNENvd3ZpOGlBN0o3R29mWnVUWjlGZmJDaUFtUnhTajcwdVRGMUJqSVk3cEhkTG03Z29VYmJySTRKbXh5WjF4dlhQb19QbzcwQ2ZFeUkwWTluWU5uMkFGTHdpaDFUZVU5V3oxcWNpcUJXeEVsemtNcElqVXFKQzc1c3lEN3ItYS1aVURPNkR1TkZvRmQ1NU4wbUxKcDlmbzlFVE1fZWtGYjdfMDVSa0ZHRmlkdmxnSDVVT3daLW8tbV9xa0dETmo2bjRHSzA4ZUJJVnY0bVlsOWFKeHhoTi1aT0ZGM0pJWTVmajNqaEpIaU1vN3lVZlhfYXBnSDBHZWFKbmRnVHM0WFBoazZlOURtdkZ4di1tUE0yWmpCXzZpVE5HX0xUN1I4aFVxN2RXZ1duODRnVmhLS0lhdEY3b00tRS1aOGNrcUFqbVRTM3B2bXV4RllxZ2hkeVFiQnJuTUE3UGgwMU5ENFUwUXNvVkU?oc=5",
@@ -109,6 +109,209 @@
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c14f58d2770224",
+      "topic": "rigcount",
+      "lead_title": "US drilling rig count keeps climbing in Baker Hughes survey",
+      "lead_url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQYlU3dDB6cTkxSWxRZEJWOTBUN2tBUUVfVG9HOTRWVnFZY21JbGx2ZzZYQVJlRWx1Z1BhR2s3UjFsNnJpRFd2c2ZoUllWd0o0Qmk3cDRjeWplcU1CS1FhcEZ2QjlhTlQwZmNkeVVYRUQ0S09OSUtSdDFBaEdhRi12cndUcmpvVnBFS3RMOVcxOWE4U0x4YUg0X0ZNdEgwZGUyRjIza05Pek9wMUlWYU1GblRtSm1qU3hrQ2lwaDZ4M1I0ZGpsVlV5ZUczZ3pYcUVxYzUxaVAzaEkxenVhWWpSVnBYdkp3bUhndFc4RkNJZzRYQVRHQUVVc2pVUWtsNDFvbXJCNzNtUmNqM2QxeThTcVFYci1MRXloa21hdk5qYWE2aE44QmlVazZXckxWaXlTeWtsTXM3aU04Zy13UUZ6U01STkpMOUV2UUxpS2kzYTU3QUZ3UnJwUlo4Xy1FREtRWWhrV2pDV3RORkhUU25jNVBWeTk4WjBrMTdiak1aT3dtQkZLWHMw?oc=5",
+      "lead_source": "MSN",
+      "canonical_entities": [
+        "Baker Hughes",
+        "drilling",
+        "rig count"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T08:15:23+00:00",
+      "latest_seen": "2026-04-24T08:15:23+00:00",
+      "age_hours": 201.83,
+      "score": 49.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e6970e308a4e098e",
+          "title": "US drilling rig count keeps climbing in Baker Hughes survey",
+          "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxQYlU3dDB6cTkxSWxRZEJWOTBUN2tBUUVfVG9HOTRWVnFZY21JbGx2ZzZYQVJlRWx1Z1BhR2s3UjFsNnJpRFd2c2ZoUllWd0o0Qmk3cDRjeWplcU1CS1FhcEZ2QjlhTlQwZmNkeVVYRUQ0S09OSUtSdDFBaEdhRi12cndUcmpvVnBFS3RMOVcxOWE4U0x4YUg0X0ZNdEgwZGUyRjIza05Pek9wMUlWYU1GblRtSm1qU3hrQ2lwaDZ4M1I0ZGpsVlV5ZUczZ3pYcUVxYzUxaVAzaEkxenVhWWpSVnBYdkp3bUhndFc4RkNJZzRYQVRHQUVVc2pVUWtsNDFvbXJCNzNtUmNqM2QxeThTcVFYci1MRXloa21hdk5qYWE2aE44QmlVazZXckxWaXlTeWtsTXM3aU04Zy13UUZ6U01STkpMOUV2UUxpS2kzYTU3QUZ3UnJwUlo4Xy1FREtRWWhrV2pDV3RORkhUU25jNVBWeTk4WjBrMTdiak1aT3dtQkZLWHMw?oc=5",
+          "source": "MSN",
+          "source_type": "rss",
+          "published_at": "2026-04-24T08:15:23+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_63269e3e877e09",
+      "topic": "rigcount",
+      "lead_title": "US oil drilling rig count down one to 410 in week to April 17 - Baker Hughes",
+      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbkdHcW9ieURwRHNnZF9NOXRxV2dnYUttNlVNRUNvNWlXWmxHNU9VbjRiNTFNRTJ2QTNuT3dTM1ZOeE16ZTQ4WGxWVzg3MFl4TXdnUFJIVC13R3BNWVJHV0RTazdVbXZQZUxKQUVzdFEwZHA4Z3Z6TVVlbGZGYTdyLUxWc3B3WFhNUU1SV1VhVXBLZVpFcWMtTFhtSzNPb004YnF4c1BibTQzazZEdVg3cjNRY2NsWjZCbFhySGlZclE3Z1otOGc?oc=5",
+      "lead_source": "marketscreener.com",
+      "canonical_entities": [
+        "Baker Hughes",
+        "drilling",
+        "rig count"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-17T07:00:00+00:00",
+      "latest_seen": "2026-04-17T07:00:00+00:00",
+      "age_hours": 371.08,
+      "score": 49.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "73f581bb78cc09c5",
+          "title": "US oil drilling rig count down one to 410 in week to April 17 - Baker Hughes",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbkdHcW9ieURwRHNnZF9NOXRxV2dnYUttNlVNRUNvNWlXWmxHNU9VbjRiNTFNRTJ2QTNuT3dTM1ZOeE16ZTQ4WGxWVzg3MFl4TXdnUFJIVC13R3BNWVJHV0RTazdVbXZQZUxKQUVzdFEwZHA4Z3Z6TVVlbGZGYTdyLUxWc3B3WFhNUU1SV1VhVXBLZVpFcWMtTFhtSzNPb004YnF4c1BibTQzazZEdVg3cjNRY2NsWjZCbFhySGlZclE3Z1otOGc?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-04-17T07:00:00+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_12a2293053e95f",
+      "topic": "rigcount",
+      "lead_title": "North America Drops 33 Rigs Week on Week",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjdNVFoyNW13bXQ4b0pkR0MyeW5XVnNSWk1XRUgxWS1OdDZpeHVjMXkySXF4STFGZG81WWFabUdPWjA2c0k1X1lCU29pcEVTeWZnbnNoUTI5UnktNkcxOGFZTXNhZGZqbE1yRmpmNS1KUFFXNE9wdERvc2ZCNkpsZ1BTZmVTR29jdnJHY2xVbE9QQ2hLYnlmemIwd1ZTZw?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-30T07:00:00+00:00",
+      "latest_seen": "2026-03-30T07:00:00+00:00",
+      "age_hours": 803.08,
+      "score": 39.6,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 24.6,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6291b62704b2f91c",
+          "title": "North America Drops 33 Rigs Week on Week",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZjdNVFoyNW13bXQ4b0pkR0MyeW5XVnNSWk1XRUgxWS1OdDZpeHVjMXkySXF4STFGZG81WWFabUdPWjA2c0k1X1lCU29pcEVTeWZnbnNoUTI5UnktNkcxOGFZTXNhZGZqbE1yRmpmNS1KUFFXNE9wdERvc2ZCNkpsZ1BTZmVTR29jdnJHY2xVbE9QQ2hLYnlmemIwd1ZTZw?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2026-03-30T07:00:00+00:00",
+          "confidence": 0.82
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_aae33650edea41",
+      "topic": "rigcount",
+      "lead_title": "North America Adds Rigs Week on Week",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGYwY3VtVWlZOEp1bW44Z1BWSUhZWEh1enhVVU1NVUp1dldoSGU3bHZ4amJHVnNqUE5nVmZsTEg5TDVqako2dTE5QVRIOGdYVmNqSHQ4Z0xGRjI2dUVHMjZxRjN5OVM2V3ZRRUlwcjB3NG5CUkhvUDduOTRqZFp0VXZsUXJBeHlBclBIeWg1dW9iazhpZXlvMw?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-02-23T08:00:00+00:00",
+      "latest_seen": "2026-02-23T08:00:00+00:00",
+      "age_hours": 1642.08,
+      "score": 39.6,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 24.6,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "aa2d73c6e9dcfab2",
+          "title": "North America Adds Rigs Week on Week",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGYwY3VtVWlZOEp1bW44Z1BWSUhZWEh1enhVVU1NVUp1dldoSGU3bHZ4amJHVnNqUE5nVmZsTEg5TDVqako2dTE5QVRIOGdYVmNqSHQ4Z0xGRjI2dUVHMjZxRjN5OVM2V3ZRRUlwcjB3NG5CUkhvUDduOTRqZFp0VXZsUXJBeHlBclBIeWg1dW9iazhpZXlvMw?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2026-02-23T08:00:00+00:00",
+          "confidence": 0.82
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_26dce518c0e82f",
+      "topic": "rigcount",
+      "lead_title": "North America Adds 3 Rigs WoW",
+      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU3A5dVA3Uy1OdlNiSHItVFNUaUNFdGdYQUNXYUE5ek55UDdCNDFxM19vYzI0Z2dYQjhLcEdmTklET0U3Nk1UZFlyV21hQWdCb2J1dV84V0VtSFRxbWY2SWNjZmpMeVE1Z2N4ZkNndVdrWV9MLXh2Ulh4dE01aGYwaVRoZXd1Q0F2enRfdnA3Yw?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-02-03T08:00:00+00:00",
+      "latest_seen": "2026-02-03T08:00:00+00:00",
+      "age_hours": 2122.08,
+      "score": 39.6,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 24.6,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "cb902d842f62b863",
+          "title": "North America Adds 3 Rigs WoW",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPU3A5dVA3Uy1OdlNiSHItVFNUaUNFdGdYQUNXYUE5ek55UDdCNDFxM19vYzI0Z2dYQjhLcEdmTklET0U3Nk1UZFlyV21hQWdCb2J1dV84V0VtSFRxbWY2SWNjZmpMeVE1Z2N4ZkNndVdrWV9MLXh2Ulh4dE01aGYwaVRoZXd1Q0F2enRfdnA3Yw?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2026-02-03T08:00:00+00:00",
+          "confidence": 0.82
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -129,17 +332,17 @@
       ],
       "earliest_seen": "2026-03-27T07:00:00+00:00",
       "latest_seen": "2026-03-27T07:00:00+00:00",
-      "age_hours": 874.15,
-      "score": 49.5,
+      "age_hours": 875.08,
+      "score": 34.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 22.5,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b720b61bc468c806",
@@ -151,7 +354,7 @@
           "confidence": 0.75
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -172,17 +375,17 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 1042.15,
-      "score": 49.5,
+      "age_hours": 1043.08,
+      "score": 34.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 22.5,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "60d0ef503d5a9074",
@@ -215,17 +418,17 @@
       ],
       "earliest_seen": "2026-02-27T08:00:00+00:00",
       "latest_seen": "2026-02-27T08:00:00+00:00",
-      "age_hours": 1545.15,
-      "score": 49.5,
+      "age_hours": 1546.08,
+      "score": 34.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 22.5,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2fa64b5c19dca608",
@@ -234,49 +437,6 @@
           "source": "Seeking Alpha",
           "source_type": "rss",
           "published_at": "2026-02-27T08:00:00+00:00",
-          "confidence": 0.75
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5da7bdb1fe745c",
-      "topic": "rigcount",
-      "lead_title": "U.S. drilling rig count flat for second straight week, Baker Hughes says (USO:NYSEARCA)",
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQThKMWtkY0hXVFJ4UEdIMHNVVlg5WFRzLVB4V1dhWHBwRWFUaDlqbW9UY0Z4VU10MUpaQk5UbzdRSUJnbWY0cVpxUmdZNzdxX2Fld1FVMXlRbm4wZHBTc0VJMGsyWEFJV0paNTAwTGJ2S1A2MG1jVExNR3RJTFBGMjVtYmgyMTlqQWktMlhmNFY4ZFBWd3R3Yjd3S3JPdU5Gb3JRQnliSVhCYUNj?oc=5",
-      "lead_source": "Seeking Alpha",
-      "canonical_entities": [
-        "Baker Hughes",
-        "drilling",
-        "rig count"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-02-20T08:00:00+00:00",
-      "latest_seen": "2026-02-20T08:00:00+00:00",
-      "age_hours": 1713.15,
-      "score": 49.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 22.5,
-        "entity_relevance_points": 12,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "86ee3792eb6a765b",
-          "title": "U.S. drilling rig count flat for second straight week, Baker Hughes says (USO:NYSEARCA)",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQThKMWtkY0hXVFJ4UEdIMHNVVlg5WFRzLVB4V1dhWHBwRWFUaDlqbW9UY0Z4VU10MUpaQk5UbzdRSUJnbWY0cVpxUmdZNzdxX2Fld1FVMXlRbm4wZHBTc0VJMGsyWEFJV0paNTAwTGJ2S1A2MG1jVExNR3RJTFBGMjVtYmgyMTlqQWktMlhmNFY4ZFBWd3R3Yjd3S3JPdU5Gb3JRQnliSVhCYUNj?oc=5",
-          "source": "Seeking Alpha",
-          "source_type": "rss",
-          "published_at": "2026-02-20T08:00:00+00:00",
           "confidence": 0.75
         }
       ],
@@ -301,17 +461,17 @@
       ],
       "earliest_seen": "2026-02-13T08:00:00+00:00",
       "latest_seen": "2026-02-13T08:00:00+00:00",
-      "age_hours": 1881.15,
-      "score": 49.5,
+      "age_hours": 1882.08,
+      "score": 34.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 22.5,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "83593a4518f8c229",
@@ -342,17 +502,17 @@
       ],
       "earliest_seen": "2026-04-02T07:00:00+00:00",
       "latest_seen": "2026-04-02T07:00:00+00:00",
-      "age_hours": 730.15,
-      "score": 49.0,
+      "age_hours": 731.08,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "420117ca329af980",
@@ -383,17 +543,17 @@
       ],
       "earliest_seen": "2026-03-27T07:00:00+00:00",
       "latest_seen": "2026-03-27T07:00:00+00:00",
-      "age_hours": 874.15,
-      "score": 49.0,
+      "age_hours": 875.08,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "425790ecc85bb49d",
@@ -424,17 +584,17 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 1042.15,
-      "score": 49.0,
+      "age_hours": 1043.08,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f4d169800ba738a9",
@@ -465,17 +625,17 @@
       ],
       "earliest_seen": "2026-03-13T07:00:00+00:00",
       "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1210.15,
-      "score": 49.0,
+      "age_hours": 1211.08,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "754c1ebb36174b52",
@@ -506,17 +666,17 @@
       ],
       "earliest_seen": "2026-03-06T08:00:00+00:00",
       "latest_seen": "2026-03-06T08:00:00+00:00",
-      "age_hours": 1377.15,
-      "score": 49.0,
+      "age_hours": 1378.08,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1c04d972436811a1",
@@ -525,47 +685,6 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-03-06T08:00:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d71f42b6b4c960",
-      "topic": "rigcount",
-      "lead_title": "US drillers add oil and gas rigs for first time in three weeks, Baker Hughes says",
-      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWnZJUHdTTlNlNVFqNXNXTVIxMDFlb0ktdzZ0RjdITGhLYVhFSWNNeVNIZElxNlBkNzlIYTBfMTlQejgteUt5MjVkMk40d1FFT2haYWdleTBlSElPdFFvRGFXRlpPcUFJRTNrYUpERjNSdHdEemhzZzFNekFpQW9zbU9fekE5bVFjSGJIN3RzN3E4N3RULWtQNVdFVTRTbW9EWnRKTEUwSlNNRVp2VkhHY0FzbEdZZVVObmRsb05B?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "Baker Hughes"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-01-23T08:00:00+00:00",
-      "latest_seen": "2026-01-23T08:00:00+00:00",
-      "age_hours": 2385.15,
-      "score": 49.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "b3f6406472f98a5d",
-          "title": "US drillers add oil and gas rigs for first time in three weeks, Baker Hughes says",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWnZJUHdTTlNlNVFqNXNXTVIxMDFlb0ktdzZ0RjdITGhLYVhFSWNNeVNIZElxNlBkNzlIYTBfMTlQejgteUt5MjVkMk40d1FFT2haYWdleTBlSElPdFFvRGFXRlpPcUFJRTNrYUpERjNSdHdEemhzZzFNekFpQW9zbU9fekE5bVFjSGJIN3RzN3E4N3RULWtQNVdFVTRTbW9EWnRKTEUwSlNNRVp2VkhHY0FzbEdZZVVObmRsb05B?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-01-23T08:00:00+00:00",
           "confidence": 1.0
         }
       ],
@@ -588,17 +707,17 @@
       ],
       "earliest_seen": "2025-12-23T08:00:00+00:00",
       "latest_seen": "2025-12-23T08:00:00+00:00",
-      "age_hours": 3129.15,
-      "score": 49.0,
+      "age_hours": 3130.08,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "38bf7b0c2f4e64b4",
@@ -629,17 +748,17 @@
       ],
       "earliest_seen": "2025-11-26T08:00:00+00:00",
       "latest_seen": "2025-11-26T08:00:00+00:00",
-      "age_hours": 3777.15,
-      "score": 49.0,
+      "age_hours": 3778.08,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "6abdf75428b1260d",
@@ -670,17 +789,17 @@
       ],
       "earliest_seen": "2026-02-09T08:00:00+00:00",
       "latest_seen": "2026-02-09T08:00:00+00:00",
-      "age_hours": 1977.15,
-      "score": 45.1,
+      "age_hours": 1978.08,
+      "score": 30.1,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 26.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f0d5719b0ea6eec3",
@@ -711,17 +830,17 @@
       ],
       "earliest_seen": "2025-12-16T08:00:00+00:00",
       "latest_seen": "2025-12-16T08:00:00+00:00",
-      "age_hours": 3297.15,
-      "score": 45.1,
+      "age_hours": 3298.08,
+      "score": 30.1,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 26.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "6a5c3a55e638f28b",
@@ -731,48 +850,6 @@
           "source_type": "rss",
           "published_at": "2025-12-16T08:00:00+00:00",
           "confidence": 0.87
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_87817059d2683a",
-      "topic": "rigcount",
-      "lead_title": "Total US drilling rigs add 1 but oil rigs fall, Baker Hughes reports",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNTlhOOVhCVkd3ckhCWVZVQTdrRUxIV1JoTlhpaHQ2YjZtNFgxaWNBMWwySG9EWklsb3lPWnptMEJTdWkzTUY4QmVCS29fT09xeEwwaE9SVWhHWWprQmllUDRVdlFYanpiVmdkSEVaaDFyaW1vS3hWVTgyamZKWnc2cmxISFdWV0hpX0lEaG9Nek0yTkNablBCc0gwRGI4dmJ2X3E0M2kxOU4zNXN6SWVEcllsYzVudS1uSVpsb2VmYkpuSTZKSG9ZVG9VRmRKbFVqSUFKM25ZbU1ESTBIQWxiZUp0LU1FdDYxTjVYYlphRzZlUFBtMGZxUXgxTmo5WXNDOFNLOTVDZ2FLMlVoWnk1dWRaXzI5dE1oSWpuZFJFMHNQTVBzVkhLRmVZZ3JyNnQzZ1QxSG9ZY1l3aHJaRlVfaXZ1LTNHSTVBaXJoUlJxbTNLdw?oc=5",
-      "lead_source": "MSN",
-      "canonical_entities": [
-        "Baker Hughes",
-        "drilling"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T11:31:19+00:00",
-      "latest_seen": "2026-04-28T11:31:19+00:00",
-      "age_hours": 101.63,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "ccc6c983f2224275",
-          "title": "Total US drilling rigs add 1 but oil rigs fall, Baker Hughes reports",
-          "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNTlhOOVhCVkd3ckhCWVZVQTdrRUxIV1JoTlhpaHQ2YjZtNFgxaWNBMWwySG9EWklsb3lPWnptMEJTdWkzTUY4QmVCS29fT09xeEwwaE9SVWhHWWprQmllUDRVdlFYanpiVmdkSEVaaDFyaW1vS3hWVTgyamZKWnc2cmxISFdWV0hpX0lEaG9Nek0yTkNablBCc0gwRGI4dmJ2X3E0M2kxOU4zNXN6SWVEcllsYzVudS1uSVpsb2VmYkpuSTZKSG9ZVG9VRmRKbFVqSUFKM25ZbU1ESTBIQWxiZUp0LU1FdDYxTjVYYlphRzZlUFBtMGZxUXgxTmo5WXNDOFNLOTVDZ2FLMlVoWnk1dWRaXzI5dE1oSWpuZFJFMHNQTVBzVkhLRmVZZ3JyNnQzZ1QxSG9ZY1l3aHJaRlVfaXZ1LTNHSTVBaXJoUlJxbTNLdw?oc=5",
-          "source": "MSN",
-          "source_type": "rss",
-          "published_at": "2026-04-28T11:31:19+00:00",
-          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -792,17 +869,17 @@
       ],
       "earliest_seen": "2026-04-27T15:03:00+00:00",
       "latest_seen": "2026-04-27T15:03:00+00:00",
-      "age_hours": 122.1,
-      "score": 39.6,
+      "age_hours": 123.03,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b466407140490947",
@@ -831,17 +908,17 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 946.15,
-      "score": 39.6,
+      "age_hours": 947.08,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "07998c7e6392cda0",
@@ -850,45 +927,6 @@
           "source": "Rigzone",
           "source_type": "rss",
           "published_at": "2026-03-24T07:00:00+00:00",
-          "confidence": 0.82
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_ab099fff3d485d",
-      "topic": "rigcount",
-      "lead_title": "North America Drops 6 Rigs WoW",
-      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSVotMUFTeXJUZmd3d2xfeU4tdmNwVkJzQTlZOEtUVTl3dDlRYTNtQVRaWmpYdEEycFR6d2wtVjA4T2YwODEzVzJoYVIwTDU1dlpYQWt1R0s2SWVWTm9VR3pVVU5zLWlqWFczLXF3c3U3bVUzZlN6MmFlTFF2dDBTZ2NEOUx1ak9ROVh2MkpLbEg?oc=5",
-      "lead_source": "Rigzone",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-16T07:00:00+00:00",
-      "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1138.15,
-      "score": 39.6,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 24.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "96035480607d52a6",
-          "title": "North America Drops 6 Rigs WoW",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSVotMUFTeXJUZmd3d2xfeU4tdmNwVkJzQTlZOEtUVTl3dDlRYTNtQVRaWmpYdEEycFR6d2wtVjA4T2YwODEzVzJoYVIwTDU1dlpYQWt1R0s2SWVWTm9VR3pVVU5zLWlqWFczLXF3c3U3bVUzZlN6MmFlTFF2dDBTZ2NEOUx1ak9ROVh2MkpLbEg?oc=5",
-          "source": "Rigzone",
-          "source_type": "rss",
-          "published_at": "2026-03-16T07:00:00+00:00",
           "confidence": 0.82
         }
       ],
@@ -909,17 +947,17 @@
       ],
       "earliest_seen": "2026-03-04T08:00:00+00:00",
       "latest_seen": "2026-03-04T08:00:00+00:00",
-      "age_hours": 1425.15,
-      "score": 39.6,
+      "age_hours": 1426.08,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f1457e50c5f20019",
@@ -948,17 +986,17 @@
       ],
       "earliest_seen": "2026-02-16T08:00:00+00:00",
       "latest_seen": "2026-02-16T08:00:00+00:00",
-      "age_hours": 1809.15,
-      "score": 39.6,
+      "age_hours": 1810.08,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "272deceeaae2d81f",
@@ -987,17 +1025,17 @@
       ],
       "earliest_seen": "2026-01-20T08:00:00+00:00",
       "latest_seen": "2026-01-20T08:00:00+00:00",
-      "age_hours": 2457.15,
-      "score": 39.6,
+      "age_hours": 2458.08,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7d59707c239a636d",
@@ -1026,17 +1064,17 @@
       ],
       "earliest_seen": "2026-01-12T08:00:00+00:00",
       "latest_seen": "2026-01-12T08:00:00+00:00",
-      "age_hours": 2649.15,
-      "score": 39.6,
+      "age_hours": 2650.08,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2d21ca6878c22568",
@@ -1065,17 +1103,17 @@
       ],
       "earliest_seen": "2026-01-06T08:00:00+00:00",
       "latest_seen": "2026-01-06T08:00:00+00:00",
-      "age_hours": 2793.15,
-      "score": 39.6,
+      "age_hours": 2794.08,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "25fdc5f8504e3112",
@@ -1104,17 +1142,17 @@
       ],
       "earliest_seen": "2025-12-29T08:00:00+00:00",
       "latest_seen": "2025-12-29T08:00:00+00:00",
-      "age_hours": 2985.15,
-      "score": 39.6,
+      "age_hours": 2986.08,
+      "score": 24.6,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 24.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2f8b9eca36c3c102",
@@ -1123,45 +1161,6 @@
           "source": "Rigzone",
           "source_type": "rss",
           "published_at": "2025-12-29T08:00:00+00:00",
-          "confidence": 0.82
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_629338bfa6023f",
-      "topic": "rigcount",
-      "lead_title": "North America Drops Rigs Week on Week",
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXAyS1lKLUItYTJLQVp6WmMyRUx5RjB5QTlQZE52X1F5WHNPckt5ekJ6VF9rN2dfOVVrNFNFdkVlcnlqeEhTWXZyOFBtZGlwSlhtS0pISFhrRHhCRnpSYVBRWmdXMWRrTVdzU01paVpvb2RRbjJhd3NIaUJxR3RvclZOY05oMUZJRnpScDYzR2YwbUhyN2hXVEVR?oc=5",
-      "lead_source": "Rigzone",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2025-12-22T08:00:00+00:00",
-      "latest_seen": "2025-12-22T08:00:00+00:00",
-      "age_hours": 3153.15,
-      "score": 39.6,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 24.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "78ddd2b4ecdb4408",
-          "title": "North America Drops Rigs Week on Week",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWXAyS1lKLUItYTJLQVp6WmMyRUx5RjB5QTlQZE52X1F5WHNPckt5ekJ6VF9rN2dfOVVrNFNFdkVlcnlqeEhTWXZyOFBtZGlwSlhtS0pISFhrRHhCRnpSYVBRWmdXMWRrTVdzU01paVpvb2RRbjJhd3NIaUJxR3RvclZOY05oMUZJRnpScDYzR2YwbUhyN2hXVEVR?oc=5",
-          "source": "Rigzone",
-          "source_type": "rss",
-          "published_at": "2025-12-22T08:00:00+00:00",
           "confidence": 0.82
         }
       ],

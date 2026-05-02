@@ -1,11 +1,11 @@
 {
   "topic": "energy",
-  "generated_at": "2026-05-02T17:08:50.277429+00:00",
+  "generated_at": "2026-05-02T18:05:00.362889+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_40505a39433aed",
@@ -17,24 +17,24 @@
         "energy",
         "oil"
       ],
-      "source_count": 3,
-      "distinct_publishers": 3,
+      "source_count": 4,
+      "distinct_publishers": 4,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-01T20:18:46+00:00",
       "latest_seen": "2026-05-02T10:35:24+00:00",
-      "age_hours": 6.56,
-      "score": 81.07,
+      "age_hours": 7.49,
+      "score": 79.0,
       "score_components": {
-        "source_count_points": 15,
-        "recency_points": 21.07,
-        "source_quality_points": 27.0,
+        "source_count_points": 20,
+        "recency_points": 20.5,
+        "source_quality_points": 25.5,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "74ee5cb1c6685b26",
@@ -62,6 +62,107 @@
           "source_type": "rss",
           "published_at": "2026-05-02T10:35:24+00:00",
           "confidence": 0.7
+        },
+        {
+          "headline_id": "aa1a19042c97bb70",
+          "title": "BT explainer: Are shrinking oil inventories quietly increasing risks for global energy markets?",
+          "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNVWo5ZENhTzFsUDJsZDl0UGxXeG0wWjVCU0kzNWs3U1o2TE1TN2t5UkhiZkd5bnFYNlRwSVJNM3BPODIyMnR1aXg5MGhoQzd0SzJFUzhUbTFRLW1QXzM3RXRTeEFkdV9qWG1PUl9GZTJUX19tTWsxUFJnYzYxQllQY0tEd19ZNWtuMTNhOFVYMGRwcVZBeENxSGdZV2NVeElvUENvMGtXTDB6MHlSWnRjWl9BcnRmMzJzbFljc1NnTnpyT0FNRFVsRjdjWW5IUUFLeWIwMkRJWEk5NElDaWQwcXFJVmlkV1BSNzBZdDgwU2JOVThkNjNNOUc5R1RCZW50V09RcA?oc=5",
+          "source": "MSN",
+          "source_type": "rss",
+          "published_at": "2026-05-02T05:53:38+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_2e12b70686caa1",
+      "topic": "energy",
+      "lead_title": "US Fuel Price Hike | Oil Prices Rise | Energy Market Update | News Headlines 08 PM",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb1pQeUJ6US1iNGd2YmFObGJQZlpwazZqZTB6XzhYYlhRVkxucDRfNDRoXzFTMlhDNzJ3QWxLOVJmVHMxUGd0SzRGRjM3dWhDVV9WcVZTdTl1WDlaTktZR1g3YkZXSFgwMS1wUGVneEpYdUtBOHpjbTl1RWR1d2NWeEdoRjVHLUxZMXBXckpmeGNadWhQSVVvbkJDcjI1OVhLU25wOHdfM3lsbUxPSkdiQkJISXk?oc=5",
+      "lead_source": "Aaj English TV",
+      "canonical_entities": [
+        "energy",
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-02T01:20:00+00:00",
+      "latest_seen": "2026-05-02T15:30:12+00:00",
+      "age_hours": 2.58,
+      "score": 72.45,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 23.45,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "aa2255e894e34a9e",
+          "title": "US Fuel Price Hike | Oil Prices Rise | Energy Market Update | News Headlines 08 PM",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb1pQeUJ6US1iNGd2YmFObGJQZlpwazZqZTB6XzhYYlhRVkxucDRfNDRoXzFTMlhDNzJ3QWxLOVJmVHMxUGd0SzRGRjM3dWhDVV9WcVZTdTl1WDlaTktZR1g3YkZXSFgwMS1wUGVneEpYdUtBOHpjbTl1RWR1d2NWeEdoRjVHLUxZMXBXckpmeGNadWhQSVVvbkJDcjI1OVhLU25wOHdfM3lsbUxPSkdiQkJISXk?oc=5",
+          "source": "Aaj English TV",
+          "source_type": "rss",
+          "published_at": "2026-05-02T15:30:12+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "228115b093bec28e",
+          "title": "Thailand says oil reserves cover 108 days amid energy volatility",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MVHNWMmlfdDJRRFNyMkpUYzhVMDYzcFl4N19BQWpZMHh1cEl2b1VpZVRyWHJyVGhLNWxRZzk1c0szbkF0bUthX0JWcGRBVHR4QXZiV2tlMGtLeGtwWVdZSGp3?oc=5",
+          "source": "Nation Thailand",
+          "source_type": "rss",
+          "published_at": "2026-05-02T01:20:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ef67ca6ad835ec",
+      "topic": "energy",
+      "lead_title": "US fast-tracks $8.6B arms deals amid Iran tensions, impacting oil markets",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeXc1QUR1bUxyc0ZzTHRqSVl6ZkctX1gyN2x2Mzk3TDFBRU10OGpCX1dLTGtUbVZ3RXA2NUhJUjliVjY5ekMtSVY2ck5EWUw1Y1hRa1owSF9rM0p4VS1pN0NtdEdYaDN6WFNQVy1PSEp6MnRINkJyd0xOXzhMazdWUWcxcW5BcWEyVXNYXzVjOWY1Q242SzkwZkJqb0ZHY0U?oc=5",
+      "lead_source": "Crypto Briefing",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-02T17:12:40+00:00",
+      "latest_seen": "2026-05-02T17:12:40+00:00",
+      "age_hours": 0.87,
+      "score": 62.98,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.48,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "eff88e1a8f7dc269",
+          "title": "US fast-tracks $8.6B arms deals amid Iran tensions, impacting oil markets",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQeXc1QUR1bUxyc0ZzTHRqSVl6ZkctX1gyN2x2Mzk3TDFBRU10OGpCX1dLTGtUbVZ3RXA2NUhJUjliVjY5ekMtSVY2ck5EWUw1Y1hRa1owSF9rM0p4VS1pN0NtdEdYaDN6WFNQVy1PSEp6MnRINkJyd0xOXzhMazdWUWcxcW5BcWEyVXNYXzVjOWY1Q242SzkwZkJqb0ZHY0U?oc=5",
+          "source": "Crypto Briefing",
+          "source_type": "rss",
+          "published_at": "2026-05-02T17:12:40+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
@@ -83,17 +184,17 @@
       ],
       "earliest_seen": "2026-05-02T13:18:38+00:00",
       "latest_seen": "2026-05-02T13:18:38+00:00",
-      "age_hours": 3.84,
-      "score": 61.2,
+      "age_hours": 4.77,
+      "score": 50.64,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.7,
+        "recency_points": 22.14,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e3b71e6a5de39e5b",
@@ -105,7 +206,7 @@
           "confidence": 0.65
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -124,17 +225,17 @@
       ],
       "earliest_seen": "2026-05-02T13:00:00+00:00",
       "latest_seen": "2026-05-02T13:00:00+00:00",
-      "age_hours": 4.15,
-      "score": 61.01,
+      "age_hours": 5.08,
+      "score": 50.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.51,
+        "recency_points": 21.95,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1741584e49106af2",
@@ -143,130 +244,6 @@
           "source": "MarketWatch",
           "source_type": "rss",
           "published_at": "2026-05-02T13:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_370f01f3b430dd",
-      "topic": "energy",
-      "lead_title": "Japan just put a ‘Band-Aid’ on the yen. Why high oil prices could soon rip it off.",
-      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQWtIdFV1a3BSVDJLUnlEMXhWSzI5UlhMRUliWGhpS0lTeU90c1FZTlRkeWI1eFl6SFViTk15TWkwWmNZSjJSQkdraU5BRlk3LWo0YUlrNEZvSUozY1RxdzVfVWtNSFRkaUZpRWxUWE5KRTZWR1JNcXFoS0xLeHBtdXpCR2s0SWNDa1J4TThEb1p4VjBnV2VxOWRwaFFLb09OTGJoVVJkbXpCVDRfT05yTmhCODV6WTRubktoRVhn?oc=5",
-      "lead_source": "MarketWatch",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-02T11:30:00+00:00",
-      "latest_seen": "2026-05-02T11:30:00+00:00",
-      "age_hours": 5.65,
-      "score": 60.11,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.61,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "08e3ce91832cb746",
-          "title": "Japan just put a ‘Band-Aid’ on the yen. Why high oil prices could soon rip it off.",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQWtIdFV1a3BSVDJLUnlEMXhWSzI5UlhMRUliWGhpS0lTeU90c1FZTlRkeWI1eFl6SFViTk15TWkwWmNZSjJSQkdraU5BRlk3LWo0YUlrNEZvSUozY1RxdzVfVWtNSFRkaUZpRWxUWE5KRTZWR1JNcXFoS0xLeHBtdXpCR2s0SWNDa1J4TThEb1p4VjBnV2VxOWRwaFFLb09OTGJoVVJkbXpCVDRfT05yTmhCODV6WTRubktoRVhn?oc=5",
-          "source": "MarketWatch",
-          "source_type": "rss",
-          "published_at": "2026-05-02T11:30:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2a55e057a1d54b",
-      "topic": "energy",
-      "lead_title": "Thailand says oil reserves cover 108 days amid energy volatility",
-      "lead_url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MVHNWMmlfdDJRRFNyMkpUYzhVMDYzcFl4N19BQWpZMHh1cEl2b1VpZVRyWHJyVGhLNWxRZzk1c0szbkF0bUthX0JWcGRBVHR4QXZiV2tlMGtLeGtwWVdZSGp3?oc=5",
-      "lead_source": "Nation Thailand",
-      "canonical_entities": [
-        "energy",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-02T01:20:00+00:00",
-      "latest_seen": "2026-05-02T01:20:00+00:00",
-      "age_hours": 15.81,
-      "score": 59.51,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 15.51,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "228115b093bec28e",
-          "title": "Thailand says oil reserves cover 108 days amid energy volatility",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9MVHNWMmlfdDJRRFNyMkpUYzhVMDYzcFl4N19BQWpZMHh1cEl2b1VpZVRyWHJyVGhLNWxRZzk1c0szbkF0bUthX0JWcGRBVHR4QXZiV2tlMGtLeGtwWVdZSGp3?oc=5",
-          "source": "Nation Thailand",
-          "source_type": "rss",
-          "published_at": "2026-05-02T01:20:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_b5a4ec2ff2b738",
-      "topic": "energy",
-      "lead_title": "One economist’s ‘radical idea’ to solve the biggest energy crisis in history: a reverse OPEC",
-      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcFF1WW5mTk9YS2gzcXB6TUY4bWw0dzk1Z1pPZTlUSGhOcFRXTGg2UzNRbWxKc3NQaU1sWHBhS01BMzAyUi1BU1YzdVZfVGY4cVVpMFNBSDV1eUhQYVQwNkt3TFdOSWM3cFpBc2JFMWI1OTNoNWVaMldYNVpDbUcxVV9R?oc=5",
-      "lead_source": "Fortune",
-      "canonical_entities": [
-        "energy"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-02T09:46:00+00:00",
-      "latest_seen": "2026-05-02T09:46:00+00:00",
-      "age_hours": 7.38,
-      "score": 59.07,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.57,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "92fac4db2929cd2c",
-          "title": "One economist’s ‘radical idea’ to solve the biggest energy crisis in history: a reverse OPEC",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcFF1WW5mTk9YS2gzcXB6TUY4bWw0dzk1Z1pPZTlUSGhOcFRXTGg2UzNRbWxKc3NQaU1sWHBhS01BMzAyUi1BU1YzdVZfVGY4cVVpMFNBSDV1eUhQYVQwNkt3TFdOSWM3cFpBc2JFMWI1OTNoNWVaMldYNVpDbUcxVV9R?oc=5",
-          "source": "Fortune",
-          "source_type": "rss",
-          "published_at": "2026-05-02T09:46:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -289,17 +266,17 @@
       ],
       "earliest_seen": "2026-05-01T14:49:49+00:00",
       "latest_seen": "2026-05-01T14:49:49+00:00",
-      "age_hours": 26.32,
-      "score": 58.21,
+      "age_hours": 27.25,
+      "score": 42.65,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.21,
+        "recency_points": 8.65,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "31cbd6a670df3de0",
@@ -330,17 +307,17 @@
       ],
       "earliest_seen": "2026-05-01T18:12:52+00:00",
       "latest_seen": "2026-05-01T18:12:52+00:00",
-      "age_hours": 22.93,
-      "score": 58.14,
+      "age_hours": 23.87,
+      "score": 42.58,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.24,
+        "recency_points": 10.68,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b153870f1cd84c99",
@@ -371,17 +348,17 @@
       ],
       "earliest_seen": "2026-05-01T15:52:58+00:00",
       "latest_seen": "2026-05-01T15:52:58+00:00",
-      "age_hours": 25.26,
-      "score": 57.94,
+      "age_hours": 26.2,
+      "score": 42.38,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.84,
+        "recency_points": 9.28,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b3aee6fe752985ec",
@@ -412,17 +389,17 @@
       ],
       "earliest_seen": "2026-05-01T17:06:58+00:00",
       "latest_seen": "2026-05-01T17:06:58+00:00",
-      "age_hours": 24.03,
-      "score": 57.48,
+      "age_hours": 24.97,
+      "score": 41.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.58,
+        "recency_points": 10.02,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "daa213b97f91c87a",
@@ -454,17 +431,17 @@
       ],
       "earliest_seen": "2026-05-01T20:44:25+00:00",
       "latest_seen": "2026-05-01T20:44:25+00:00",
-      "age_hours": 20.41,
-      "score": 56.76,
+      "age_hours": 21.34,
+      "score": 41.19,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.76,
+        "recency_points": 12.19,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7a15f4b61f919014",
@@ -495,17 +472,17 @@
       ],
       "earliest_seen": "2026-05-01T11:46:48+00:00",
       "latest_seen": "2026-05-01T11:46:48+00:00",
-      "age_hours": 29.37,
-      "score": 56.38,
+      "age_hours": 30.3,
+      "score": 40.82,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.38,
+        "recency_points": 6.82,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "75df50d908f3b49e",
@@ -536,17 +513,17 @@
       ],
       "earliest_seen": "2026-05-01T10:02:00+00:00",
       "latest_seen": "2026-05-01T10:02:00+00:00",
-      "age_hours": 31.11,
-      "score": 55.33,
+      "age_hours": 32.05,
+      "score": 39.77,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 6.33,
+        "recency_points": 5.77,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "6e97dd1403818c83",
@@ -577,17 +554,17 @@
       ],
       "earliest_seen": "2026-04-30T07:12:28+00:00",
       "latest_seen": "2026-04-30T07:12:28+00:00",
-      "age_hours": 57.94,
-      "score": 49.0,
+      "age_hours": 58.88,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "a790a9dcab31a3fe",
@@ -618,17 +595,17 @@
       ],
       "earliest_seen": "2026-04-30T10:18:05+00:00",
       "latest_seen": "2026-04-30T10:18:05+00:00",
-      "age_hours": 54.85,
-      "score": 46.9,
+      "age_hours": 55.78,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "821a7003733cffe0",
@@ -659,17 +636,17 @@
       ],
       "earliest_seen": "2026-04-30T10:00:01+00:00",
       "latest_seen": "2026-04-30T10:00:01+00:00",
-      "age_hours": 55.15,
-      "score": 46.9,
+      "age_hours": 56.08,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "277b6fe72bbbd318",
@@ -700,17 +677,17 @@
       ],
       "earliest_seen": "2026-04-30T08:18:08+00:00",
       "latest_seen": "2026-04-30T08:18:08+00:00",
-      "age_hours": 56.85,
-      "score": 46.9,
+      "age_hours": 57.78,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "79e0f2787da17b9b",
@@ -741,17 +718,17 @@
       ],
       "earliest_seen": "2026-04-30T05:07:21+00:00",
       "latest_seen": "2026-04-30T05:07:21+00:00",
-      "age_hours": 60.02,
-      "score": 46.9,
+      "age_hours": 60.96,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "6ede6bedb46aa5ec",
@@ -782,17 +759,17 @@
       ],
       "earliest_seen": "2026-04-23T07:00:00+00:00",
       "latest_seen": "2026-04-23T07:00:00+00:00",
-      "age_hours": 226.15,
-      "score": 46.9,
+      "age_hours": 227.08,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e522d74638e6e5e8",
@@ -823,17 +800,17 @@
       ],
       "earliest_seen": "2026-04-30T17:00:00+00:00",
       "latest_seen": "2026-04-30T17:00:00+00:00",
-      "age_hours": 48.15,
-      "score": 46.0,
+      "age_hours": 49.08,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0150b72d25f6c95e",
@@ -864,17 +841,17 @@
       ],
       "earliest_seen": "2026-04-20T07:00:00+00:00",
       "latest_seen": "2026-04-20T07:00:00+00:00",
-      "age_hours": 298.15,
-      "score": 46.0,
+      "age_hours": 299.08,
+      "score": 31.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "a5a6312b26d55309",
@@ -905,17 +882,17 @@
       ],
       "earliest_seen": "2026-04-30T16:36:00+00:00",
       "latest_seen": "2026-04-30T16:36:00+00:00",
-      "age_hours": 48.55,
-      "score": 44.5,
+      "age_hours": 49.48,
+      "score": 29.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c2efa2559ab67aaf",
@@ -946,17 +923,17 @@
       ],
       "earliest_seen": "2026-04-30T02:55:00+00:00",
       "latest_seen": "2026-04-30T02:55:00+00:00",
-      "age_hours": 62.23,
-      "score": 44.5,
+      "age_hours": 63.17,
+      "score": 29.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "ad96c0925053ef37",
@@ -987,17 +964,17 @@
       ],
       "earliest_seen": "2026-04-20T07:00:00+00:00",
       "latest_seen": "2026-04-20T07:00:00+00:00",
-      "age_hours": 298.15,
-      "score": 44.5,
+      "age_hours": 299.08,
+      "score": 29.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "834a9d719d6bc02e",
@@ -1028,17 +1005,17 @@
       ],
       "earliest_seen": "2026-04-17T07:00:00+00:00",
       "latest_seen": "2026-04-17T07:00:00+00:00",
-      "age_hours": 370.15,
-      "score": 44.5,
+      "age_hours": 371.08,
+      "score": 29.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "5339169539a853ba",
@@ -1070,17 +1047,17 @@
       ],
       "earliest_seen": "2026-04-30T07:00:00+00:00",
       "latest_seen": "2026-04-30T07:00:00+00:00",
-      "age_hours": 58.15,
-      "score": 44.0,
+      "age_hours": 59.08,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "afbfd1f4c9773fbf",
@@ -1112,17 +1089,17 @@
       ],
       "earliest_seen": "2026-04-09T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 562.15,
-      "score": 44.0,
+      "age_hours": 563.08,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "472447a4eaa9113d",
@@ -1131,48 +1108,6 @@
           "source": "AAA Gas Prices",
           "source_type": "rss",
           "published_at": "2026-04-09T07:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_ed52a243d73329",
-      "topic": "energy",
-      "lead_title": "Energy markets are having a Wile E. Coyote moment as oil supplies go off a cliff, expert says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmJDZ19GbWtuNVdsaWRxRTVvRWE5cHdzTlpmVXUzRnZaczZvaDlaMkVkTkd3bkRKRmtwelpOREE0RWFjZWpqQVczaVRzLVBrSkVXaDdXRHd6bndWSDFnR0tPb1RuLW9EUUY5MXJnenp6amMxcGkxdTcwX09sN2Rod256MjJWeVI1WW5yLWtqMlVMdUp3Q1AyNDBzRDhLcjFwTG9QVE9sUEt1X3RBbGJIeGVlWQ?oc=5",
-      "lead_source": "Fortune",
-      "canonical_entities": [
-        "energy",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-03T07:00:00+00:00",
-      "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 706.15,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a624198747063ff9",
-          "title": "Energy markets are having a Wile E. Coyote moment as oil supplies go off a cliff, expert says",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmJDZ19GbWtuNVdsaWRxRTVvRWE5cHdzTlpmVXUzRnZaczZvaDlaMkVkTkd3bkRKRmtwelpOREE0RWFjZWpqQVczaVRzLVBrSkVXaDdXRHd6bndWSDFnR0tPb1RuLW9EUUY5MXJnenp6amMxcGkxdTcwX09sN2Rod256MjJWeVI1WW5yLWtqMlVMdUp3Q1AyNDBzRDhLcjFwTG9QVE9sUEt1X3RBbGJIeGVlWQ?oc=5",
-          "source": "Fortune",
-          "source_type": "rss",
-          "published_at": "2026-04-03T07:00:00+00:00",
           "confidence": 0.7
         }
       ],
