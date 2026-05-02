@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-02T20:07:36.118250+00:00",
-  "previous_generated_at": "2026-05-02T19:21:08.234754+00:00",
-  "resolver_run_count": 4,
+  "generated_at": "2026-05-02T21:02:43.128938+00:00",
+  "previous_generated_at": "2026-05-02T20:07:36.118250+00:00",
+  "resolver_run_count": 5,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,16 +12,16 @@
       "status_detail": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.896,
+      "confidence": 0.887,
       "last_confirmed": "2026-05-02T18:41:44+00:00",
-      "source_count": 10,
-      "summary_short": "OPEC+ set for another oil output quota hike despite Hormuz closure, sources say",
-      "summary_long": "OPEC+ set for another oil output quota hike despite Hormuz closure, sources say. CME : Strait of Hormuz deadlock keeps WTI Crude Oil futures on edge.",
+      "source_count": 8,
+      "summary_short": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
+      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. OPEC+ set for another oil output quota hike despite Hormuz closure, sources say",
       "evidence_cluster_ids": [
         "c_a4429435e17611",
-        "c_c8158df29294ec",
         "c_87f73982f1febb",
         "c_2fa099693344c0",
+        "c_c8158df29294ec",
         "c_4ffdd6a1dddbbb"
       ],
       "evidence_count": 7,
@@ -41,11 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a4429435e1 → CLOSED (kw='blockade', weight=0.63) [OPEN suppressed]",
-        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.44) [OPEN suppressed]",
-        "cluster c_2fa0996933 → OPEN (kw='reopen', weight=0.48)",
-        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.71) [OPEN suppressed]",
-        "winning=CLOSED (1.78/2.27), conf=0.896"
+        "cluster c_a4429435e1 → CLOSED (kw='blockade', weight=0.61) [OPEN suppressed]",
+        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.43) [OPEN suppressed]",
+        "cluster c_2fa0996933 → OPEN (kw='reopen', weight=0.47)",
+        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.60) [OPEN suppressed]",
+        "winning=CLOSED (1.64/2.11), conf=0.887"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-02T19:49:37+00:00",
-      "source_count": 18,
+      "last_confirmed": "2026-05-02T20:13:51+00:00",
+      "source_count": 12,
       "summary_short": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
-      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. US fast-tracks arms sales to Middle East allies amid rising Iran tensions",
+      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. Trump fast-tracks $8.6B arms deal to Middle East amid Iran tensions: FT",
       "evidence_cluster_ids": [
         "c_a4429435e17611",
-        "c_b128a35b0855eb",
-        "c_448c20b61d0bcd",
-        "c_5ac164b4f48d22",
-        "c_1bbe5c278eec0d"
+        "c_75dfa9c4935b5a",
+        "c_a64beaacbdd399",
+        "c_1bbe5c278eec0d",
+        "c_5b0191b3cfb2e3"
       ],
-      "evidence_count": 16,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -99,13 +99,14 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-02T18:41:44+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "summary_short": "OPEC+ set for another oil output quota hike despite Hormuz closure, sources say",
-      "summary_long": "OPEC+ set for another oil output quota hike despite Hormuz closure, sources say",
+      "summary_long": "OPEC+ set for another oil output quota hike despite Hormuz closure, sources say. Middle East oil production plunges due to Iran war, OPEC data shows",
       "evidence_cluster_ids": [
-        "c_4ffdd6a1dddbbb"
+        "c_4ffdd6a1dddbbb",
+        "c_716d6afc441113"
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -155,13 +156,13 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_25e9ebd239c455",
-      "lead_title": "Gas prices spike as crude oil stays above $100 per barrel – KWKT",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWdfZktBVFhYTTJIaEdVQ0RRdzdxYk1OVlZ0QTlKRnAwT1JsTFl4VTNvUi1HOGRVbXM3T1R0MWhOaldveWJsYk4zT2NyVmxjMFczM24tcHdiNzJKRTlLeFZ0eW80ZjVweWg2VDM4eEVRRzZQMmRwTEF6ZTY4LV93TldqbGszcWI2TGFSRFV2TjlZQURQNmUxQTctVFk4OFU?oc=5",
-      "lead_source": "FOX 44",
+      "cluster_id": "c_992537e40291ac",
+      "lead_title": "Iran’s oil strategy may prevent WTI crude from hitting $150 in May 2026",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWGZRQnYzbFJwV1VsRFJURzNGYXc4bjZRM2pibnBQVGVGYVNRS2FuTjBoaHB3TndWaHFnSkVMUlBVZy1jZTZRWGgyWmp1OU1GS3Z1T1hvOFRBY3ZhQk1CbURCR0VhQjZWck9LZDFHRmpEdGlzWXB4R1hLYzFxQ29od044TWhBOGRFTnhPLU04WG52UWNYYWlzRENEX2Rzdw?oc=5",
+      "lead_source": "Crypto Briefing",
       "topic": "oil",
-      "score": 73.95,
-      "novelty": "decaying",
+      "score": 92.93,
+      "novelty": "new",
       "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
@@ -174,7 +175,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.896, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.887, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
