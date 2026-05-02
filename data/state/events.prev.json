@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-02T17:08:50.381099+00:00",
-  "previous_generated_at": "",
-  "resolver_run_count": 1,
+  "generated_at": "2026-05-02T18:05:00.472941+00:00",
+  "previous_generated_at": "2026-05-02T17:08:50.381099+00:00",
+  "resolver_run_count": 2,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.964,
-      "last_confirmed": "2026-05-02T16:28:23+00:00",
-      "source_count": 6,
-      "summary_short": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
-      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. Japan Buys Russian Oil for the First Time Since Hormuz Closure",
+      "confidence": 0.854,
+      "last_confirmed": "2026-05-02T17:17:43+00:00",
+      "source_count": 12,
+      "summary_short": "CME : Strait of Hormuz deadlock keeps WTI Crude Oil futures on edge.",
+      "summary_long": "CME : Strait of Hormuz deadlock keeps WTI Crude Oil futures on edge.. US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output",
       "evidence_cluster_ids": [
         "c_a4429435e17611",
+        "c_2fa099693344c0",
         "c_87f73982f1febb",
         "c_c8158df29294ec",
-        "c_729e4d4879f7bb",
-        "c_067be4650000b3"
+        "c_cc30a47f95f999"
       ],
-      "evidence_count": 5,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a4429435e1 → CLOSED (kw='blockade', weight=0.77) [OPEN suppressed]",
-        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.58) [OPEN suppressed]",
-        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
-        "winning=CLOSED (1.45/1.45), conf=0.964"
+        "cluster c_a4429435e1 → CLOSED (kw='blockade', weight=0.67) [OPEN suppressed]",
+        "cluster c_2fa0996933 → OPEN (kw='reopen', weight=0.61)",
+        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.48) [OPEN suppressed]",
+        "winning=CLOSED (1.15/1.76), conf=0.854"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-02T16:35:43+00:00",
-      "source_count": 39,
+      "last_confirmed": "2026-05-02T17:17:43+00:00",
+      "source_count": 15,
       "summary_short": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
-      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks",
+      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. US fast-tracks $8.6B arms deals amid Iran tensions, impacting oil markets",
       "evidence_cluster_ids": [
         "c_a4429435e17611",
+        "c_a64beaacbdd399",
         "c_1bbe5c278eec0d",
-        "c_8cfde09d4a3c7b",
         "c_5b0191b3cfb2e3",
         "c_13b37e03c4f8ac"
       ],
-      "evidence_count": 37,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -98,17 +98,13 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-01T20:10:38+00:00",
-      "source_count": 6,
+      "source_count": 1,
       "summary_short": "Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit",
-      "summary_long": "Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit. Middle East oil production plunges due to Iran war, OPEC data shows",
+      "summary_long": "Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit",
       "evidence_cluster_ids": [
-        "c_76e59aa02d0e60",
-        "c_d5adedf6896fb5",
-        "c_ae14cc44a81e7a",
-        "c_48cbc4467bfacd",
-        "c_e2958b1e3c0ee3"
+        "c_76e59aa02d0e60"
       ],
-      "evidence_count": 6,
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -158,12 +154,12 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_2d256761f033ae",
-      "lead_title": "Crude Oil Prices Ease: Brent at $108, WTI Near $101 on Iran News",
-      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUGhJZnBGTnJSeXdteWIxMDNGOEJPd0F6Q0NqWXZsbGVRd1ptb1lfQ0trZFZOc0paeW5zQkR2andIVkpuN1dLS3BNWnBCVTExWTNuRDktTndDc2N1a0cyTmFDcnNaazljbWpQR2RDQl8zUTlRUzF3OU8tZUtJdUdpVGV1d0VyZWhWSENuem14VV9iZw?oc=5",
-      "lead_source": "Coinpaper",
+      "cluster_id": "c_25e9ebd239c455",
+      "lead_title": "Gas prices spike as crude oil stays above $100 per barrel – KWKT",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWdfZktBVFhYTTJIaEdVQ0RRdzdxYk1OVlZ0QTlKRnAwT1JsTFl4VTNvUi1HOGRVbXM3T1R0MWhOaldveWJsYk4zT2NyVmxjMFczM24tcHdiNzJKRTlLeFZ0eW80ZjVweWg2VDM4eEVRRzZQMmRwTEF6ZTY4LV93TldqbGszcWI2TGFSRFV2TjlZQURQNmUxQTctVFk4OFU?oc=5",
+      "lead_source": "FOX 44",
       "topic": "oil",
-      "score": 90.99,
+      "score": 90.18,
       "novelty": "new",
       "source_count": 6,
       "confidence": 0.95,
@@ -175,55 +171,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CLOSED",
-      "detected_at": "2026-05-02T17:08:50.380929+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-05-02T17:08:50.380929+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-05-02T17:08:50.380929+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "new_event",
-      "from": null,
-      "to": "HIGH",
-      "detected_at": "2026-05-02T17:08:50.380929+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "top_story",
-      "field": "new_event",
-      "from": null,
-      "to": "",
-      "detected_at": "2026-05-02T17:08:50.380929+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.964, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.854, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
