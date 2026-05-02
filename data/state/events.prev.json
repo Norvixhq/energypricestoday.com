@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-02T14:02:22.577610+00:00",
-  "previous_generated_at": "2026-05-02T12:39:00.560261+00:00",
-  "resolver_run_count": 8,
+  "generated_at": "2026-05-02T15:08:34.260833+00:00",
+  "previous_generated_at": "2026-05-02T14:02:22.577610+00:00",
+  "resolver_run_count": 9,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,16 +12,17 @@
       "status_detail": "Japan Buys Russian Oil for the First Time Since Hormuz Closure",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.953,
+      "confidence": 0.951,
       "last_confirmed": "2026-05-02T11:41:06+00:00",
-      "source_count": 2,
+      "source_count": 3,
       "summary_short": "Japan Buys Russian Oil for the First Time Since Hormuz Closure",
-      "summary_long": "Japan Buys Russian Oil for the First Time Since Hormuz Closure. Barclays lifts 2026 Brent forecast to $100 on prolonged Hormuz disruption",
+      "summary_long": "Japan Buys Russian Oil for the First Time Since Hormuz Closure. Hormuz closure divides the fortunes of Middle Eastern oil states",
       "evidence_cluster_ids": [
         "c_87f73982f1febb",
+        "c_729e4d4879f7bb",
         "c_067be4650000b3"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,8 +39,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.55) [OPEN suppressed]",
-        "winning=CLOSED (0.55/0.55), conf=0.953"
+        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.53) [OPEN suppressed]",
+        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
+        "winning=CLOSED (0.63/0.63), conf=0.951"
       ]
     },
     "us_iran_ceasefire": {
@@ -51,16 +53,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-02T13:48:00+00:00",
-      "source_count": 11,
-      "summary_short": "UK Joins Germany, Saudi Arabia, UAE, Qatar, Japan, India, China and Others as Iran Signals Possible Middle East Crisis R",
-      "summary_long": "UK Joins Germany, Saudi Arabia, UAE, Qatar, Japan, India, China and Others as Iran Signals Possible Middle East Crisis Resumption Amid US Rejecting Peace Proposal Triggering Sustained Oil Price Volatility, Flight Rerouting, Gulf Airspace Restrictions and. Live Updates: Latest from Israel, Iran, and Middle East",
+      "last_confirmed": "2026-05-02T14:38:00+00:00",
+      "source_count": 12,
+      "summary_short": "Live Updates: Latest from Israel, Iran, and Middle East",
+      "summary_long": "Live Updates: Latest from Israel, Iran, and Middle East. China issues injunction to block US sanctions on companies buying Iranian oil",
       "evidence_cluster_ids": [
-        "c_5b0191b3cfb2e3",
         "c_49a10d4c57b6dd",
-        "c_c80e1ec69498e4",
-        "c_7eb8dd56c2f69e",
-        "c_f065b8f59cb226"
+        "c_5ac164b4f48d22",
+        "c_5b0191b3cfb2e3",
+        "c_13b37e03c4f8ac",
+        "c_c80e1ec69498e4"
       ],
       "evidence_count": 11,
       "affected_pages": [
@@ -93,14 +95,15 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-02T11:20:44+00:00",
-      "source_count": 2,
+      "source_count": 3,
       "summary_short": "OPEC+ agrees in principle on small oil output quota hike without UAE, sources say",
       "summary_long": "OPEC+ agrees in principle on small oil output quota hike without UAE, sources say. Saudi oil prince's iron grip faces ultimate test with UAE's shock OPEC exit",
       "evidence_cluster_ids": [
         "c_fab10bcfff6f46",
-        "c_76e59aa02d0e60"
+        "c_76e59aa02d0e60",
+        "c_43fff660d862d7"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -155,7 +158,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUGhJZnBGTnJSeXdteWIxMDNGOEJPd0F6Q0NqWXZsbGVRd1ptb1lfQ0trZFZOc0paeW5zQkR2andIVkpuN1dLS3BNWnBCVTExWTNuRDktTndDc2N1a0cyTmFDcnNaazljbWpQR2RDQl8zUTlRUzF3OU8tZUtJdUdpVGV1d0VyZWhWSENuem14VV9iZw?oc=5",
       "lead_source": "Coinpaper",
       "topic": "oil",
-      "score": 83.1,
+      "score": 82.44,
       "novelty": "ongoing",
       "source_count": 6,
       "confidence": 0.95,
@@ -169,7 +172,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.953, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.951, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
