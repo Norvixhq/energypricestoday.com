@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Oil Price Hits Wartime High Above $120 a Barrel as Iran War Standoff Continues", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Why oil prices predicted by financial markets are missing the mark", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Rally Stalls as Iran Proposal Triggers Profit-Taking", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Brent crude oil price spikes overnight as gas prices climb", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Venezuelan Crude Will Eventually Lower US Gas Prices Chevron Exec", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "EIA US Crude Oil Inventories Crashing, But Holding Above Average", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
