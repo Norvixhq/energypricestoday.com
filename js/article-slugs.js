@@ -466,7 +466,13 @@ const ARTICLE_SLUGS = {
   "Strait Closed for 10th Week; Mojtaba Khamenei Refuses to Cede Nuclear Program": "mojtaba-khamenei-vows-to-retain-nuclear-and-missile-capabilities",
   "Iran Sends Updated Peace Proposal Through Pakistan; Trump Rejects": "iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied",
   "Strait of Hormuz Closed for Tenth Consecutive Week": "iran-proposes-hormuz-reopening-if-us-lifts-naval-blockade",
-  "Islamabad Continues as Primary Mediator on Updated Iran Proposal": "iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied"
+  "Islamabad Continues as Primary Mediator on Updated Iran Proposal": "iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied",
+
+  // ─── Strait of Hormuz cornerstone explainer ────────────────────────
+  "Strait of Hormuz Explained: Why This 21-Mile Waterway Controls Global Oil": "strait-of-hormuz-explained",
+  "Strait of Hormuz Explained": "strait-of-hormuz-explained",
+  "What Is the Strait of Hormuz?": "strait-of-hormuz-explained",
+  "Why the Strait of Hormuz Matters": "strait-of-hormuz-explained"
 
 };
 
