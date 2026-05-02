@@ -21,6 +21,7 @@ const ARTICLE_SLUGS = {
   "Brent Futures Open Interest Hits 3-Month High Ahead of OPEC Meeting": "brent-futures-open-interest-hits-3-month-high-ahead-of-opec-meeting",
   "Brent Rises 4% as Doubts Resurface Over Scope of Iran Deal": "brent-rises-4-as-doubts-resurface-over-scope-of-iran-deal",
   "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
+  "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears": "brent-oil-pulls-back-after-climbing-to-126-per-barrel-on-us-iran-escalation-fear",
   "Brent-WTI Spread Widens to 4.44 on Atlantic Basin Tightness": "brent-wti-spread-widens-to-444-on-atlantic-basin-tightness",
   "California Gas Prices Hit $5.18 as State-Specific Regulations Add Costs": "california-gas-prices-hit-518-as-state-specific-regulations-add-costs",
   "Canada \u2014 Oil Sands, WCS, Trans Mountain": "canada",
@@ -48,6 +49,7 @@ const ARTICLE_SLUGS = {
   "Crude Braces for Turmoil": "crude-braces-for-turmoil",
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
+  "Current price of oil as of May 1, 2026": "current-price-of-oil-as-of-may-1-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
   "Diesel and Heating Oil Margins Diverge as Trucking Demand Holds": "diesel-and-heating-oil-margins-diverge-as-trucking-demand-holds",
   "Druzhba Pipeline": "druzhba-pipeline",
@@ -84,6 +86,7 @@ const ARTICLE_SLUGS = {
   "Gas Prices Fall to $4.058 \u2014 Seventh Consecutive Daily Decline": "gas-prices-fall-to-4058-seventh-consecutive-daily-decline",
   "Gas Prices Fall to $4.076 \u2014 Lowest Level Since Late March": "gas-prices-fall-to-4076-lowest-level-since-late-march",
   "Gas Prices Today U.S. National and State Averages April 2026": "gas-prices-today-us-national-and-state-averages-april-2026",
+  "Gas prices: Oil briefly touches $126, its highest price in four years": "gas-prices-oil-briefly-touches-126-its-highest-price-in-four-years",
   "Gasoline Futures Up 3.1%, Cracks Widen": "gasoline-futures-up-31-cracks-widen",
   "Global Energy Crisis Deepens as Diplomatic Off-Ramp Narrows": "global-energy-crisis-deepens-as-diplomatic-off-ramp-narrows",
   "Global Energy Demand Growth Slows to 1.2 Percent in 2026": "global-energy-demand-growth-slows-to-12-percent-in-2026",
@@ -209,10 +212,14 @@ const ARTICLE_SLUGS = {
   "Oil Plunges 11% as Hormuz Reopens \u2014 WTI Closes at $83.85": "oil-plunges-11-as-hormuz-reopens-wti-closes-at-8385",
   "Oil Plunges Most Since April 2020 on Hormuz Reopening News": "oil-plunges-most-since-april-2020-on-hormuz-reopening-news",
   "Oil Price Forecast 2026 What Analysts Predict for Crude": "oil-price-forecast-2026-what-analysts-predict-for-crude",
+  "Oil Price Hits Wartime High Above $120 a Barrel as Iran War Standoff Continues": "oil-price-hits-wartime-high-above-120-a-barrel-as-iran-war-standoff-continues",
   "Oil Prices Climb Near $100 as Energy Secretary Warns Prices Will Keep Rising": "oil-prices-climb-near-100-as-energy-secretary-warns-prices-will-keep-rising",
   "Oil Prices Ease on Ceasefire Extension Hopes \u2014 WTI Pulls Back Below $95": "oil-prices-ease-on-ceasefire-extension-hopes-wti-pulls-back-below-95",
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
+  "Oil Rally Stalls as Iran Proposal Triggers Profit-Taking": "oil-rally-stalls-as-iran-proposal-triggers-profit-taking",
+  "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options": "oil-price-hits-highest-since-2022-after-report-trump-to-be-briefed-on-new-iran-o",
+  "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022": "oil-prices-hit-wartime-peak-pushing-us-gas-costs-to-highest-since-level-july-202",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
   "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration": "pakistan-fm-dar-working-to-bridge-us-iran-differences-before-tuesday-ceasefire-e",
@@ -376,7 +383,8 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Why oil prices predicted by financial markets are missing the mark": "why-oil-prices-predicted-by-financial-markets-are-missing-the-mark"
 };
 
 function slugifyTitle(title) {
