@@ -33,7 +33,7 @@
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="../feed.xml">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
-  <link rel="stylesheet" href="../css/styles.css?v=18">
+  <link rel="stylesheet" href="../css/styles.css?v=19">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico?v=2">
@@ -141,11 +141,28 @@
             </div>
           </div>
 
-          <!-- DETAILED SVG MAP — geographic context -->
+          <!-- REAL MAP — OpenStreetMap embed of the Strait of Hormuz -->
+          <figure style="margin:36px 0">
+            <div style="position:relative;width:100%;padding-bottom:62%;border-radius:14px;overflow:hidden;border:1px solid var(--border);box-shadow:0 8px 28px -12px rgba(0,0,0,0.4)">
+              <iframe
+                src="https://www.openstreetmap.org/export/embed.html?bbox=54.5%2C24.8%2C58.5%2C27.5&amp;layer=mapnik&amp;marker=26.566%2C56.250"
+                style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;filter:saturate(0.85) brightness(0.95)"
+                loading="lazy"
+                title="Map of the Strait of Hormuz"
+                aria-label="Interactive OpenStreetMap view of the Strait of Hormuz between Iran and Oman"></iframe>
+              <!-- Subtle gradient overlay at edges to blend with site theme -->
+              <div style="position:absolute;inset:0;pointer-events:none;box-shadow:inset 0 0 0 1px rgba(61,143,212,0.15)"></div>
+            </div>
+            <figcaption style="text-align:center;color:var(--text-3);font-size:13px;margin-top:12px;font-style:italic;line-height:1.5">
+              The Strait of Hormuz, with the Musandam Peninsula (Oman) jutting north toward Iran. Map data &copy; <a href="https://www.openstreetmap.org/copyright" style="color:var(--blue);text-decoration:none" rel="noopener">OpenStreetMap contributors</a>. Click the map to explore in detail.
+            </figcaption>
+          </figure>
+
+          <!-- DETAILED SVG MAP — annotated overlay version -->
           <figure style="margin:36px 0">
             <svg viewBox="0 0 800 540" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;background:radial-gradient(ellipse at top right, #0e1b30 0%, #060a14 70%, #050811 100%);border-radius:14px;border:1px solid var(--border);box-shadow:inset 0 1px 0 rgba(255,255,255,0.04)" role="img" aria-labelledby="hormuz-map-title hormuz-map-desc">
-              <title id="hormuz-map-title">Detailed Map of the Strait of Hormuz</title>
-              <desc id="hormuz-map-desc">A detailed map showing the Strait of Hormuz between Iran in the north and Oman, the UAE, and Saudi Arabia to the south. Shows shipping lanes, depth contours, key oil ports including Bandar Abbas, Kharg Island, Ras Tanura, Khasab, and Fujairah, and pipeline bypass routes to Yanbu (Saudi Arabia) and Fujairah (UAE).</desc>
+              <title id="hormuz-map-title">Annotated diagram of the Strait of Hormuz</title>
+              <desc id="hormuz-map-desc">An annotated schematic showing the Strait of Hormuz between Iran in the north and Oman, the UAE, and Saudi Arabia to the south. Highlights shipping lanes (TSS), key oil ports including Bandar Abbas, Kharg Island, Ras Tanura, Khasab, and Fujairah, and pipeline bypass routes to Yanbu (Saudi Arabia) and Fujairah (UAE).</desc>
 
               <defs>
                 <!-- Land texture gradient -->
@@ -319,7 +336,7 @@
               </g>
 
             </svg>
-            <figcaption style="text-align:center;color:var(--text-3);font-size:13px;margin-top:12px;font-style:italic;line-height:1.5">Detailed map of the Strait of Hormuz showing shipping lanes (IMO Traffic Separation Scheme), key oil ports including Iran&rsquo;s main export terminal at Kharg Island, and the two operational pipeline bypasses &mdash; Saudi Arabia&rsquo;s East-West Pipeline to Yanbu (5M bpd) and the UAE&rsquo;s ADCOP to Fujairah (1.8M bpd).</figcaption>
+            <figcaption style="text-align:center;color:var(--text-3);font-size:13px;margin-top:12px;font-style:italic;line-height:1.5">Annotated diagram of the strait, highlighting shipping lanes (IMO Traffic Separation Scheme), key oil ports including Iran&rsquo;s main export terminal at Kharg Island, and the two operational pipeline bypasses &mdash; Saudi Arabia&rsquo;s East-West Pipeline to Yanbu (5M bpd) and the UAE&rsquo;s ADCOP to Fujairah (1.8M bpd).</figcaption>
           </figure>
 
           <h2>The Geography</h2>
@@ -700,8 +717,8 @@
     </article>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="../js/data.js?v=18"></script>
-  <script src="../js/article-slugs.js?v=18"></script>
-  <script src="../js/main.js?v=18"></script>
+  <script src="../js/data.js?v=19"></script>
+  <script src="../js/article-slugs.js?v=19"></script>
+  <script src="../js/main.js?v=19"></script>
 </body>
 </html>

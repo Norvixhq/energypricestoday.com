@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="../css/styles.css?v=18">
+  <link rel="stylesheet" href="../css/styles.css?v=19">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="../images/favicon.ico?v=2">
@@ -61,8 +61,8 @@
             <path d="M 0,220 L 0,180 Q 80,175 150,185 Q 200,195 280,200 Q 340,200 360,195 L 360,220 Z" fill="rgba(212,122,12,0.18)" stroke="rgba(212,122,12,0.35)" stroke-width="0.6"/>
             <path d="M 340,160 Q 280,150 230,140 Q 200,130 175,115 Q 150,100 100,90" stroke="rgba(61,143,212,0.7)" stroke-width="1.6" fill="none" stroke-dasharray="5,3"/>
             <circle cx="208" cy="120" r="22" fill="none" stroke="rgba(239,68,68,0.5)" stroke-width="1.2" stroke-dasharray="2,2"/>
-            <text x="180" y="48" fill="rgba(220,232,250,0.72)" font-family="system-ui,sans-serif" font-size="12" font-weight="700" letter-spacing="2.5" text-anchor="middle">IRAN</text>
-            <text x="100" y="212" fill="rgba(220,232,250,0.55)" font-family="system-ui,sans-serif" font-size="9" font-weight="600" letter-spacing="1.5">UAE / OMAN</text>
+            
+            
           </svg>
 
           <div class="hormuz-hero-content">
@@ -103,40 +103,167 @@
 
 
 
-    <!-- BREAKING TICKER (live RSS) -->
+    <!-- GEOPOLITICAL INTELLIGENCE BAR — unified risk meter + breaking ticker -->
     <section class="section" style="padding-top:16px;padding-bottom:0"><div class="container">
-      <!-- GLOBAL RISK METER — top-line risk verdict -->
-      <div class="risk-meter-bar">
-        <div class="risk-meter-level">
-          <span class="risk-meter-dot"></span>
-          <span class="risk-meter-label">Global Risk: <span
-              data-event-bind="global_risk_level.status|sentence"
-              data-event-fallback="Elevated">Elevated</span></span>
+      <div class="geo-intel-bar">
+        <!-- Header strip: Global Risk status + verdict -->
+        <div class="geo-intel-header">
+          <div class="geo-intel-status">
+            <div class="geo-intel-status-line">
+              <span class="geo-intel-pulse"></span>
+              <span class="geo-intel-eyebrow">GLOBAL RISK</span>
+              <span class="geo-intel-level"
+                    data-event-bind="global_risk_level.status|sentence"
+                    data-event-fallback="Elevated">Elevated</span>
+            </div>
+          </div>
+          <div class="geo-intel-verdict"
+               data-event-bind="global_risk_level.summary_long|truncate:240"
+               data-event-fallback="Strait of Hormuz closed for tenth week. Iran sent updated peace proposal May 1; Trump not satisfied. WTI $101.94, Brent $108.17. Gas average $4.392, highest since July 2022.">
+            <strong>Strait of Hormuz closed for tenth week.</strong> Iran sent updated peace proposal May 1; Trump &ldquo;not satisfied.&rdquo; <strong>WTI $101.94, Brent $108.17.</strong> Gas average $4.392, highest since July 2022.
+          </div>
         </div>
-        <div class="risk-meter-text"
-             data-event-bind="global_risk_level.summary_long|truncate:220"
-             data-event-fallback="Strait of Hormuz closed for tenth week. Iran sent updated peace proposal May 1; Trump not satisfied. WTI $101.94, Brent $108.17 after pulling back from Thursday 4-year highs. Gas average $4.392, highest since July 2022."><strong>Strait of Hormuz closed for tenth week.</strong> Iran sent updated peace proposal May 1; Trump &ldquo;not satisfied.&rdquo; <strong>WTI $101.94, Brent $108.17.</strong> Pulled back from Thursday 4-year highs. Gas average $4.392, highest since July 2022.</div>
-      </div>
-      <div id="geo-breaking-ticker" style="background:linear-gradient(135deg,#0f0a1a 0%,#1a0a0f 30%,#1f0a0a 60%,#0f0a1a 100%);border:1px solid rgba(239,68,68,0.2);border-radius:8px;overflow:hidden;box-shadow:0 4px 20px rgba(0,0,0,0.3)">
-        <div style="display:flex;align-items:center;gap:0">
-          <div style="background:linear-gradient(180deg,#ef4444,#dc2626);color:#fff;font-size:10px;font-weight:800;letter-spacing:0.12em;padding:14px 16px;white-space:nowrap;border-right:1px solid rgba(0,0,0,0.3);display:flex;align-items:center;gap:6px"><span style="display:inline-block;width:7px;height:7px;background:#fff;border-radius:50%;animation:pulse-dot 1.5s ease-in-out infinite"></span>BREAKING</div>
-          <div style="flex:1;overflow:hidden;padding:0 20px;position:relative">
-            <div style="position:absolute;left:0;top:0;bottom:0;width:30px;background:linear-gradient(90deg,rgba(15,10,26,0.9),transparent);z-index:1;pointer-events:none"></div>
-            <div id="geo-ticker-text" style="white-space:nowrap;animation:ticker-scroll 45s linear infinite;color:#fca5a5;font-size:12.5px;font-weight:500"></div>
-            <div style="position:absolute;right:0;top:0;bottom:0;width:30px;background:linear-gradient(270deg,rgba(15,10,26,0.9),transparent);z-index:1;pointer-events:none"></div>
+
+        <!-- Divider -->
+        <div class="geo-intel-divider"></div>
+
+        <!-- Breaking ticker strip -->
+        <div class="geo-intel-ticker">
+          <div class="geo-intel-ticker-badge">
+            <span class="geo-intel-ticker-dot"></span>
+            BREAKING
+          </div>
+          <div class="geo-intel-ticker-track">
+            <div class="geo-intel-ticker-fade-left"></div>
+            <div id="geo-ticker-text" class="geo-intel-ticker-text"></div>
+            <div class="geo-intel-ticker-fade-right"></div>
           </div>
         </div>
       </div>
-      <style>
-        @keyframes ticker-scroll{0%{transform:translateX(60%)}100%{transform:translateX(-160%)}}
-        @media(max-width:768px){#geo-ticker-text{animation-duration:20s !important}}
-        @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:0.4;transform:scale(0.7)}}
-      </style>
     </div></section>
 
-    <!-- RISK DASHBOARD -->
+    <style>
+      /* GEOPOLITICAL INTELLIGENCE BAR — unified premium control panel */
+      .geo-intel-bar{
+        background:
+          radial-gradient(ellipse at top right, rgba(239,68,68,0.10) 0%, transparent 55%),
+          radial-gradient(ellipse at bottom left, rgba(245,158,11,0.06) 0%, transparent 50%),
+          linear-gradient(165deg, rgba(13,16,28,0.96) 0%, rgba(8,10,20,0.99) 100%);
+        border:1px solid rgba(239,68,68,0.25);
+        border-radius:14px;
+        overflow:hidden;
+        box-shadow:
+          0 12px 32px -16px rgba(0,0,0,0.6),
+          inset 0 1px 0 rgba(255,255,255,0.04);
+        isolation:isolate;
+      }
+      .geo-intel-header{
+        display:flex;align-items:flex-start;gap:24px;
+        padding:18px 22px 16px;
+        flex-wrap:wrap;
+      }
+      .geo-intel-status{ flex-shrink:0; min-width:200px; }
+      .geo-intel-status-line{
+        display:flex;align-items:center;gap:9px;
+      }
+      .geo-intel-pulse{
+        display:inline-block;width:9px;height:9px;border-radius:50%;
+        background:#f59e0b;
+        box-shadow:0 0 0 0 rgba(245,158,11,0.6);
+        animation:geo-intel-pulse 2s ease-in-out infinite;
+      }
+      @keyframes geo-intel-pulse{
+        0%,100%{ box-shadow:0 0 0 0 rgba(245,158,11,0.55); }
+        70%{ box-shadow:0 0 0 11px rgba(245,158,11,0); }
+      }
+      .geo-intel-eyebrow{
+        font-size:10.5px;font-weight:700;letter-spacing:0.18em;
+        color:var(--text-3);text-transform:uppercase;
+      }
+      .geo-intel-level{
+        font-family:var(--font-display);
+        font-size:18px;font-weight:700;letter-spacing:-0.005em;
+        color:#fbbf24;
+        margin-left:4px;
+      }
+      .geo-intel-verdict{
+        flex:1;min-width:280px;
+        font-size:14px;line-height:1.65;color:var(--text-2);
+      }
+      .geo-intel-verdict strong{ color:var(--text-1); font-weight:600; }
+
+      .geo-intel-divider{
+        height:1px;
+        background:linear-gradient(90deg,
+          transparent 0%,
+          rgba(239,68,68,0.18) 20%,
+          rgba(239,68,68,0.32) 50%,
+          rgba(239,68,68,0.18) 80%,
+          transparent 100%);
+      }
+
+      .geo-intel-ticker{
+        display:flex;align-items:stretch;gap:0;
+        background:rgba(0,0,0,0.25);
+      }
+      .geo-intel-ticker-badge{
+        display:flex;align-items:center;gap:7px;
+        padding:12px 18px;
+        background:linear-gradient(180deg,#ef4444,#b91c1c);
+        color:#fff;
+        font-size:10px;font-weight:800;letter-spacing:0.14em;
+        white-space:nowrap;
+        box-shadow:inset -1px 0 0 rgba(0,0,0,0.4);
+      }
+      .geo-intel-ticker-dot{
+        display:inline-block;width:7px;height:7px;border-radius:50%;
+        background:#fff;
+        animation:geo-intel-ticker-dot 1.5s ease-in-out infinite;
+      }
+      @keyframes geo-intel-ticker-dot{
+        0%,100%{ opacity:1;transform:scale(1); }
+        50%{ opacity:0.4;transform:scale(0.7); }
+      }
+      .geo-intel-ticker-track{
+        flex:1;overflow:hidden;
+        position:relative;
+        padding:12px 0;
+      }
+      .geo-intel-ticker-fade-left,
+      .geo-intel-ticker-fade-right{
+        position:absolute;top:0;bottom:0;width:36px;z-index:2;pointer-events:none;
+      }
+      .geo-intel-ticker-fade-left{
+        left:0;background:linear-gradient(90deg,rgba(13,16,28,0.95),transparent);
+      }
+      .geo-intel-ticker-fade-right{
+        right:0;background:linear-gradient(270deg,rgba(13,16,28,0.95),transparent);
+      }
+      .geo-intel-ticker-text{
+        white-space:nowrap;
+        font-size:13px;font-weight:500;
+        color:#fca5a5;
+        animation:geo-intel-ticker-scroll 50s linear infinite;
+        padding:0 22px;
+      }
+      @keyframes geo-intel-ticker-scroll{
+        0%{ transform:translateX(60%); }
+        100%{ transform:translateX(-160%); }
+      }
+      @media(max-width:768px){
+        .geo-intel-header{ padding:16px 18px 14px; gap:14px; }
+        .geo-intel-level{ font-size:16px; }
+        .geo-intel-verdict{ font-size:13px; }
+        .geo-intel-ticker-text{ animation-duration:22s !important; font-size:12px; }
+        .geo-intel-ticker-badge{ padding:10px 14px; font-size:9.5px; }
+      }
+    </style>
+
+
+    <!-- ACTIVE RISK VECTORS -->
     <section class="section"><div class="container">
-      <div class="section-header"><h2 class="section-title" id="sec-risk">Live Risk Dashboard</h2></div>
+      <div class="section-header"><h2 class="section-title" id="sec-risk">Active Risk Vectors</h2></div>
+      <p style="color:var(--text-2);font-size:13.5px;line-height:1.65;margin-bottom:20px;max-width:800px">The four most consequential geopolitical situations currently driving global oil markets. Status indicators reflect current threat level to physical supply, not market sentiment.</p>
       <!-- SSR FALLBACK: visible if JS fails entirely. JS replaces this on load. -->
       <div class="grid-4" id="geo-risk-cards">
         <div class="stat-box" style="text-align:left;padding:16px;border-left:3px solid #ef4444"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px"><span style="font-size:12px;font-weight:700;color:var(--text-1);text-transform:uppercase;letter-spacing:0.04em">Strait of Hormuz</span><span style="font-size:9px;font-weight:800;color:#ef4444;background:#ef444415;padding:3px 8px;border-radius:4px;letter-spacing:0.06em">HIGH</span></div><div style="font-size:12px;color:var(--text-2);line-height:1.55">Strait closed for tenth week. Iran reportedly lost track of mines. Final pre-blockade Persian Gulf cargoes have reached destinations; analysts warn of acute oil shortages in coming weeks. WTI $101.94, Brent $108.17 Friday after Thursday 4-year highs.</div></div>
@@ -158,14 +285,14 @@
       <div class="section-header"><h2 class="section-title" id="sec-impact">How Oil Geopolitics Moves Markets</h2></div>
       <div class="explainer-block">
         <h3>The Geopolitical Risk Premium</h3>
-        <p>Oil prices include a “geopolitical risk premium” — an amount above the fundamental supply-demand price that reflects the market’s assessment of potential supply disruptions. This premium can add $5-30+ per barrel depending on the severity and proximity of threats. During the 2026 Hormuz crisis, the risk premium exceeded $25/barrel at its peak. After Hormuz reopened April 17 and WTI crashed 11.45%, Iran re-closed the strait April 18. Risk premium is rebuilding. Market pricing continued uncertainty through Tuesday’s ceasefire expiration.</p>
-        <p style="margin-top:10px">The premium transmits through the entire energy chain: crude prices affect refinery economics, which affect wholesale gasoline and diesel prices, which affect pump prices within 1-2 weeks. A $10/barrel crude increase typically translates to $0.24-0.30/gallon at the pump. This is why geopolitical events in the Persian Gulf directly affect American consumers.</p>
+        <p>Oil prices include a &ldquo;geopolitical risk premium&rdquo; &mdash; an amount above the fundamental supply-demand price that reflects the market&rsquo;s assessment of potential supply disruptions. This premium can add $5&ndash;30+ per barrel depending on the severity and proximity of threats. During the current Hormuz crisis, the risk premium has fluctuated between $20 and $40 per barrel; on April 30 the premium briefly approached its highest point of the conflict as WTI hit a 4-year intraday high of $111 on reports Trump was being briefed on expanded military options.</p>
+        <p style="margin-top:10px">The premium transmits through the entire energy chain: crude prices affect refinery economics, which affect wholesale gasoline and diesel prices, which affect pump prices within 1&ndash;2 weeks. A $10/barrel crude increase typically translates to $0.24&ndash;0.30/gallon at the pump. This is why geopolitical events in the Persian Gulf directly affect American consumers &mdash; AAA national gas average reached $4.392 May 1, the highest since July 2022.</p>
       </div>
       <div class="grid-3" id="impact-cards" style="margin-top:20px"></div>
       <div class="explainer-block" style="margin-top:20px">
         <h3>Sanctions &amp; Production Policy</h3>
-        <p>Economic sanctions are a primary tool of energy geopolitics. U.S. sanctions on Iran have removed approximately 1.5 million bpd from legal markets (though some flows continue through gray channels). Russian sanctions post-Ukraine have restructured global oil flows, redirecting Russian crude to India and China while Europe sources from the Middle East, Africa, and the Americas.</p>
-        <p style="margin-top:10px">OPEC+ production quotas directly control approximately 40% of global oil supply. Saudi Arabia’s ability to add or cut 2-3 million bpd of spare capacity makes it the world’s swing producer. OPEC+ decisions on output levels are among the most market-moving events in energy, often causing 5-10% price swings within days of announcements.</p>
+        <p>Economic sanctions are a primary tool of energy geopolitics. U.S. sanctions on Iran have removed approximately 1.5 million bpd from legal markets, though some flows continue through gray channels &mdash; and during the current conflict, U.S. interdiction has expanded to include physical seizure of Iranian crude in international waters. Russian sanctions post-Ukraine restructured global oil flows, redirecting Russian crude to India and China while Europe sources from the Middle East, Africa, and the Americas.</p>
+        <p style="margin-top:10px">OPEC+ production quotas directly control approximately 40% of global oil supply. Saudi Arabia&rsquo;s ability to add or cut 2&ndash;3 million bpd of spare capacity makes it the world&rsquo;s swing producer &mdash; but in the current Hormuz crisis, the bulk of that spare capacity is effectively trapped behind the chokepoint, reachable only via the East-West Pipeline to Yanbu. OPEC+ decisions on output levels are among the most market-moving events in energy, often causing 5&ndash;10% price swings within days of announcements.</p>
       </div>
     </div></section>
 
@@ -264,8 +391,8 @@
     </div></div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="../js/data.js?v=18"></script><script src="../js/article-slugs.js?v=18"></script><script src="../js/main.js?v=18"></script><script src="../js/live-data.js?v=18"></script><script src="../js/news-feed.js?v=18"></script>
-  <script src="../js/event-state.js?v=18"></script>
+  <script src="../js/data.js?v=19"></script><script src="../js/article-slugs.js?v=19"></script><script src="../js/main.js?v=19"></script><script src="../js/live-data.js?v=19"></script><script src="../js/news-feed.js?v=19"></script>
+  <script src="../js/event-state.js?v=19"></script>
   <script>
     // ═══════════════════════════════════════════════════════════════
     // RESILIENCE LAYER — every section is wrapped in safeRun() so that
@@ -290,7 +417,7 @@
 
     // Section headers — all wrapped in safeRun
     safeRun('section-headers', function(){
-      setHTML('sec-risk',     safeIcon('shield',20)+' Live Risk Dashboard — Hormuz, Iran, OPEC');
+      setHTML('sec-risk',     safeIcon('shield',20)+' Active Risk Vectors');
       setHTML('sec-choke',    safeIcon('map',20)+' Oil Chokepoints — Hormuz, Malacca, Suez');
       setHTML('sec-impact',   safeIcon('trending-up',20)+' How Oil Geopolitics Moves Markets');
       setHTML('sec-flash',    safeIcon('alert-triangle',20)+' Active Flashpoints — Iran, Russia, Middle East');
