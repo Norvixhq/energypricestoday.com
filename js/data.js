@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Iran Warns of $140 Oil as Trump Holds Hormuz Blockade", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Stocks End April on a High, Even as Oil Prices Touch New Peak", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Why oil prices predicted by financial markets are missing the mark", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Why are gas prices so high? Brent crude oil price spikes overnight", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Gas prices: Oil briefly touches $126, its highest price in four years", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil Rally Stalls as Iran Proposal Triggers Profit-Taking", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Why oil prices predicted by financial markets are missing the mark", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Why are gas prices so high? Brent crude oil price spikes overnight", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Gas prices: Oil briefly touches $126, its highest price in four years", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Iran Warns of $140 Oil as Trump Holds Hormuz Blockade", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
