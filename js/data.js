@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil Rally Stalls as Iran Proposal Triggers Profit-Taking", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Why oil prices predicted by financial markets are missing the mark", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Why are gas prices so high? Brent crude oil price spikes overnight", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Gas prices: Oil briefly touches $126, its highest price in four years", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Iran Warns of $140 Oil as Trump Holds Hormuz Blockade", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Iran Sends Updated Peace Proposal Through Pakistan; Trump 'Not Satisfied'", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
+  { title: "ExxonMobil Q1 Profit Falls to 5-Year Low at $4.2B Despite Beating Estimates", cat: "Company News", slug: "company-news", time: "3h" },
+  { title: "Chevron Posts Biggest Earnings Beat Since 2020 on Record Production", cat: "Company News", slug: "company-news", time: "4h" },
+  { title: "U.S. Gas Average Surges to $4.39, Up 25 Cents in Three Days", cat: "Gas Prices", slug: "gas-prices", time: "6h" },
+  { title: "Trump Briefed on Expanded Iran Military Options as Crude Hit 4-Year High", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
+  { title: "Oil Tops $111 WTI, $114 Brent Intraday Before Profit-Taking Trims Gains", cat: "Oil Markets", slug: "oil-prices", time: "1d" },
+  { title: "Iran's Mojtaba Khamenei Vows to Retain Nuclear and Missile Capabilities", cat: "Geopolitics", slug: "geopolitics", time: "2d" },
+  { title: "U.S. Crude Exports Surge to Record as Buyers Pivot from Persian Gulf", cat: "Oil Markets", slug: "oil-prices", time: "2d" },
 ];
 
 const MARKET_DRIVERS = [
@@ -88,14 +88,19 @@ const FEATURED_ARTICLES = [
 const COMPANY_NEWS = [
   { id: 201, title: "ExxonMobil Q1 Profit Falls to 5-Year Low at $4.2B Despite Beating Estimates", date: "May 1, 2026" },
   { id: 202, title: "Chevron Posts Biggest Earnings Beat Since 2020 on Record Production", date: "May 1, 2026" },
+  { id: 203, title: "ConocoPhillips Q1 Earnings Slip as Output Falls, Permian Holds", date: "Apr 30, 2026" },
+  { id: 204, title: "U.S. Crude Exports Surge to Record as Buyers Pivot from Persian Gulf", date: "Apr 30, 2026" },
   { id: 205, title: "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade", date: "Apr 29, 2026" },
   { id: 206, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", date: "Apr 28, 2026" },
 ];
 
 const GEO_ITEMS = [
-  
+  { id: 301, region: "Iran", title: "Iran Sends Updated Peace Proposal Through Pakistan; Trump Rejects", desc: "Pakistani officials confirmed Friday May 1 they delivered an updated Iranian peace proposal to the U.S. President Trump told reporters: 'Iran wants to make a deal, but I'm not satisfied with it. They have no military left.' Markets pulled back from Thursday's 4-year highs; WTI fell 3% to $101.94, Brent 2% to $108.17 on the proposal news." },
   { id: 302, region: "United States", title: "Trump Briefed on Expanded Iran Military Options as Crude Hit 4-Year High", desc: "Reports Thursday April 30 that CENTCOM Adm. Brad Cooper briefed Trump on expanded military options against Iran, including a planned short-and-intense wave of strikes reportedly under consideration. WTI hit 4-year intraday high of $111, Brent $114. Trump faces 60-day War Powers deadline; admin says April 10 ceasefire 'terminated' hostilities." },
+  { id: 303, region: "Persian Gulf", title: "Strait of Hormuz Closed for Tenth Consecutive Week", desc: "The Strait remains essentially closed in the conflict's tenth week. Iran reportedly lost track of mines it laid in the strait. Final pre-blockade Persian Gulf cargoes have now reached destinations; analysts warn several countries face acute oil shortages. The IEA has called this an 'unprecedented supply shock.' U.S. crude exports surged to record levels." },
   { id: 304, region: "Iran", title: "Mojtaba Khamenei Vows to Retain Nuclear and Missile Capabilities", desc: "Iran's Supreme Leader Mojtaba Khamenei pledged not to relinquish the country's nuclear or missile capabilities and indicated Tehran would retain control over the strait. The hardline posture from Tehran's new leadership complicates the path to a comprehensive deal even as the latest proposal is reviewed in Washington." },
+  { id: 305, region: "Pakistan", title: "Islamabad Continues as Primary Mediator on Updated Iran Proposal", desc: "Pakistan's Field Marshal Munir and PM Sharif remain primary mediators after second round of direct U.S.-Iran talks failed last week. Friday's updated Iranian proposal traveled through Islamabad to the U.S. side. Pakistan continues to push both sides toward continued diplomacy despite the rejection." },
+  { id: 306, region: "Lebanon", title: "Israeli Strikes Kill 6 in South Lebanon Despite Extended Ceasefire", desc: "Israeli strikes the prior weekend killed six in south Lebanon. Lebanese journalist Amal Khalil killed in earlier strike April 22. Netanyahu ordered military to 'forcefully attack Hezbollah targets' after army accused group of breaching truce. Cycle of breaches threatens to collapse the three-week extension." },
 ];
 
 const CATEGORIES = {
@@ -341,6 +346,7 @@ const CATEGORY_CONTENT = {
       { id: 1901, title: "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays", excerpt: "Integrated majors traded mixed on the day of the ceasefire extension. Refiners held a more stable bid with crack spreads supported. LNG names benefited from continued Qatari disruption.", date: "Apr 22, 2026", author: "Staff", readTime: "7 min" },
       { id: 1902, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", excerpt: "Both carriers cited continued threats to commercial shipping. Vessels continue routing around the Cape of Good Hope, adding 10-14 days per voyage and effectively reducing global container capacity.", date: "Apr 25, 2026", author: "Staff", readTime: "6 min" },
       { id: 1903, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", excerpt: "U.S. LNG terminals operating near 14 Bcf/d combined export capacity. European buyers returning to premium bidding for U.S. cargoes. JKM trading premium to TTF for first time since early 2025.", date: "Apr 23, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1904, title: "ExxonMobil Q1 Earnings Preview: Hormuz Disruption Hits Trading Timing", excerpt: "ExxonMobil's April 8 Q1 considerations supplement flagged $3.5-4.9B in negative timing effects from the Middle East conflict. Earnings call scheduled for April 30 will detail the full impact.", date: "Apr 22, 2026", author: "Staff", readTime: "5 min" },
       { id: 1905, title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", excerpt: "206,000 bpd April increase on schedule. Saudi Arabia holding current production. No emergency JMMC meeting called following ceasefire extension.", date: "Apr 22, 2026", author: "Staff", readTime: "8 min" },
     ],
     stats: []
@@ -608,12 +614,12 @@ const GAS_PRICES_BY_STATE = [
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 4.123,
-  mid: 4.737,
-  premium: 5.097,
-  diesel: 5.351,
-  source: "EIA Weekly Retail Gasoline Prices",
-  updated: "As of May 03, 2026"
+  regular: 4.392,
+  mid: 4.948,
+  premium: 5.342,
+  diesel: 6.029,
+  source: "AAA Daily Fuel Gauge Report",
+  updated: "As of May 1, 2026"
 };
 const ELECTRICITY_PRICES_BY_STATE = [
   { state:"Alabama", abbr:"AL", region:"Southeast", residential:16.79, commercial:14.46, residential_yoy:4.0, commercial_yoy:3.1 },
