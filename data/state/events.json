@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-02T23:05:30.393071+00:00",
-  "previous_generated_at": "2026-05-02T22:02:24.069795+00:00",
-  "resolver_run_count": 7,
+  "generated_at": "2026-05-03T00:03:31.631563+00:00",
+  "previous_generated_at": "2026-05-02T23:05:30.393071+00:00",
+  "resolver_run_count": 8,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.887,
-      "last_confirmed": "2026-05-02T18:41:44+00:00",
-      "source_count": 7,
-      "summary_short": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
-      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. OPEC+ set for another oil output quota hike despite Hormuz closure, sources say",
+      "confidence": 0.894,
+      "last_confirmed": "2026-05-02T19:15:02+00:00",
+      "source_count": 11,
+      "summary_short": "CME : Strait of Hormuz deadlock keeps WTI Crude Oil futures on edge.",
+      "summary_long": "CME : Strait of Hormuz deadlock keeps WTI Crude Oil futures on edge.. Saudi Arabia Set For Oil Windfall After Hormuz Boosts Prices",
       "evidence_cluster_ids": [
+        "c_be76ea9514ab77",
         "c_a4429435e17611",
-        "c_87f73982f1febb",
         "c_2fa099693344c0",
-        "c_c8158df29294ec",
-        "c_4ffdd6a1dddbbb"
+        "c_729e4d4879f7bb",
+        "c_c8158df29294ec"
       ],
-      "evidence_count": 6,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,12 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a4429435e1 → CLOSED (kw='blockade', weight=0.57) [OPEN suppressed]",
-        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.40) [OPEN suppressed]",
-        "cluster c_2fa0996933 → OPEN (kw='reopen', weight=0.44)",
-        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.56) [OPEN suppressed]",
-        "winning=CLOSED (1.53/1.96), conf=0.887"
+        "cluster c_a4429435e1 → CLOSED (kw='blockade', weight=0.56) [OPEN suppressed]",
+        "cluster c_2fa0996933 → OPEN (kw='reopen', weight=0.42)",
+        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
+        "cluster c_87f73982f1 → CLOSED (kw='closure', weight=0.35) [OPEN suppressed]",
+        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.54) [OPEN suppressed]",
+        "winning=CLOSED (1.54/1.96), conf=0.894"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +58,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-02T20:13:51+00:00",
-      "source_count": 14,
-      "summary_short": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Horm",
-      "summary_long": "US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output Amid Strait of Hormuz Blockade. Airfare amid Iran war: Buy now or wait out the conflict? Experts weigh the risks",
+      "last_confirmed": "2026-05-02T23:45:00+00:00",
+      "source_count": 16,
+      "summary_short": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+      "summary_long": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?. US-Israel-Iran War Latest Update: Israel Orders Southern Lebanon Evacuations as Iran Cuts Oil Output",
       "evidence_cluster_ids": [
+        "c_0d87361bc65275",
         "c_a4429435e17611",
+        "c_7eb8dd56c2f69e",
         "c_1bbe5c278eec0d",
-        "c_8cfde09d4a3c7b",
-        "c_75dfa9c4935b5a",
-        "c_0e03fc4f27ef8b"
+        "c_75dfa9c4935b5a"
       ],
-      "evidence_count": 11,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -155,14 +156,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_992537e40291ac",
-      "lead_title": "Iran’s oil strategy may prevent WTI crude from hitting $150 in May 2026",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWGZRQnYzbFJwV1VsRFJURzNGYXc4bjZRM2pibnBQVGVGYVNRS2FuTjBoaHB3TndWaHFnSkVMUlBVZy1jZTZRWGgyWmp1OU1GS3Z1T1hvOFRBY3ZhQk1CbURCR0VhQjZWck9LZDFHRmpEdGlzWXB4R1hLYzFxQ29od044TWhBOGRFTnhPLU04WG52UWNYYWlzRENEX2Rzdw?oc=5",
-      "lead_source": "Crypto Briefing",
+      "cluster_id": "c_70fc965bbd1919",
+      "lead_title": "CME : Strait of Hormuz deadlock keeps WTI Crude Oil futures on edge.",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa3lwTjB0aUVxNkJCWHpjUkI2NUpadFV3VG9EV29ndUd1RW1TcmVYN3dEOGFQU0I5Q2k3ZGJlMmlsQmVHNTNLNUFfQUZrcFFqZWZZZExuZXlLeTlFN0piZV9SaFB2Z3gzV0NGQURrRGpHampwM05vMjdGTWFIMUVMbkMtZGdEMDF0emliRGtELU1uOG5rTk5EWTF1TnJlUVNKZVgtclZlMzgxdGJzSVBCNEl2TWxJMFQyaGc?oc=5",
+      "lead_source": "marketscreener.com",
       "topic": "oil",
-      "score": 81.71,
-      "novelty": "ongoing",
-      "source_count": 6,
+      "score": 82.24,
+      "novelty": "new",
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -174,7 +175,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.887, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.894, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
