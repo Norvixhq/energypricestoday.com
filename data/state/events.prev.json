@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-05-03T10:59:13.847965+00:00",
-  "previous_generated_at": "2026-05-03T09:52:30.083275+00:00",
-  "resolver_run_count": 4,
+  "generated_at": "2026-05-03T11:54:53.955296+00:00",
+  "previous_generated_at": "2026-05-03T10:59:13.847965+00:00",
+  "resolver_run_count": 5,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Tanker carrying Russian oil to arrive in Japan amid Hormuz closure",
+      "status_detail": "US-Iran War Latest News: For the First time Since 1991 Kuwait Reports $0 in Oil Exports due to Strait of Hormuz Blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.953,
-      "last_confirmed": "2026-05-03T09:01:57+00:00",
+      "confidence": 0.959,
+      "last_confirmed": "2026-05-03T11:34:45+00:00",
       "source_count": 7,
-      "summary_short": "OPEC+ set to agree third oil output quota hike since Hormuz closure, sources say",
-      "summary_long": "OPEC+ set to agree third oil output quota hike since Hormuz closure, sources say. Tanker carrying Russian oil to arrive in Japan amid Hormuz closure",
+      "summary_short": "OPEC+ agrees third oil output quota hike since Hormuz closure",
+      "summary_long": "OPEC+ agrees third oil output quota hike since Hormuz closure. US-Iran War Latest News: For the First time Since 1991 Kuwait Reports $0 in Oil Exports due to Strai",
       "evidence_cluster_ids": [
+        "c_9b3dc67cb718a3",
         "c_e1d0793a6c08fe",
         "c_505744b2ead4ab",
-        "c_729e4d4879f7bb",
         "c_be76ea9514ab77",
-        "c_6881a8047a8215"
+        "c_fd6b1fdac14eeb"
       ],
       "evidence_count": 5,
       "affected_pages": [
@@ -41,11 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.55) [OPEN suppressed]",
-        "cluster c_505744b2ea → CLOSED (kw='blockade', weight=0.43) [OPEN suppressed]",
-        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
-        "cluster c_6881a8047a → CLOSED (kw='closure', weight=0.60) [OPEN suppressed]",
-        "winning=CLOSED (1.68/1.68), conf=0.953"
+        "cluster c_9b3dc67cb7 → CLOSED (kw='blockade', weight=0.68) [OPEN suppressed]",
+        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.54) [OPEN suppressed]",
+        "cluster c_505744b2ea → CLOSED (kw='blockade', weight=0.41) [OPEN suppressed]",
+        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.73) [OPEN suppressed]",
+        "winning=CLOSED (2.37/2.37), conf=0.959"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T09:04:35+00:00",
-      "source_count": 17,
-      "summary_short": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
-      "summary_long": "The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?. UAE Joins India, Qatar, Japan, Saudi Arabia, China, Thailand, And More Nations In Urgent Measures As",
+      "last_confirmed": "2026-05-03T11:32:19+00:00",
+      "source_count": 13,
+      "summary_short": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "summary_long": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war. US-Iran War Latest News: For the First time Since 1991 Kuwait Reports $0 in Oil Exports due to Strai",
       "evidence_cluster_ids": [
+        "c_58727078c24f94",
+        "c_9b3dc67cb718a3",
         "c_0d87361bc65275",
         "c_4a985f009fcd7c",
-        "c_81a8ae85666c31",
-        "c_1f9e4e719e6ffb",
-        "c_e5da297cac12e9"
+        "c_81a8ae85666c31"
       ],
-      "evidence_count": 16,
+      "evidence_count": 13,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -98,15 +98,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T09:01:57+00:00",
-      "source_count": 3,
-      "summary_short": "OPEC+ set to agree third oil output quota hike since Hormuz closure, sources say",
-      "summary_long": "OPEC+ set to agree third oil output quota hike since Hormuz closure, sources say. TRENDING READS | What does a post-OPEC+ world look like?",
+      "last_confirmed": "2026-05-03T11:34:45+00:00",
+      "source_count": 7,
+      "summary_short": "OPEC+ agrees third oil output quota hike since Hormuz closure",
+      "summary_long": "OPEC+ agrees third oil output quota hike since Hormuz closure. OPEC+ raises crude oil's June output quotas, group signals continuity after UAE exit",
       "evidence_cluster_ids": [
-        "c_6881a8047a8215",
+        "c_fd6b1fdac14eeb",
+        "c_c5b8b139d8f5b3",
+        "c_eacf0c4400a122",
+        "c_bfdf9246000a55",
         "c_bcf9fcdc8f28a7"
       ],
-      "evidence_count": 2,
+      "evidence_count": 5,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -156,14 +159,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_78e9022757058b",
-      "lead_title": "Brent crude oil price forecast as Trump threatens to attack Iran",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTWVvWmo0RHV0V0RTa0IzOXAxZkp2LXI1Q2RJaEIyRG15c1RXTG5hZzRSbktEOEZlMkZreDJXdUxfc3ljck5Dbk9QTEV1M09tbGVzVEh1c0djUzdwUmlNVUdwX3YyU0lKZ19uM0I1bjJ5QlNKbVJlbzZlUU01VU5oeGt4ZWd2cWctQjZ0cG52WHdCTmpBam43YTRuWGg2bTFMa1E?oc=5",
-      "lead_source": "Invezz",
+      "cluster_id": "c_5c74b08c965f29",
+      "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 80.52,
-      "novelty": "ongoing",
-      "source_count": 4,
+      "score": 98.12,
+      "novelty": "new",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -175,7 +178,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.953, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.959, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
