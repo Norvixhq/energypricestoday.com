@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-03T20:27:13.597773+00:00",
-  "previous_generated_at": "2026-05-03T19:42:34.777638+00:00",
-  "resolver_run_count": 4,
+  "generated_at": "2026-05-03T21:23:26.252231+00:00",
+  "previous_generated_at": "2026-05-03T20:27:13.597773+00:00",
+  "resolver_run_count": 5,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,17 @@
       "status_detail": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.955,
+      "confidence": 0.951,
       "last_confirmed": "2026-05-03T18:43:59+00:00",
       "source_count": 7,
       "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
-      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. OPEC+ set for another oil output quota hike despite Hormuz closure, sources say",
+      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. Middle East tensions raise concerns over Strait of Hormuz oil supply",
       "evidence_cluster_ids": [
         "c_85c3ed29ea5031",
         "c_795ede6ecc3ea1",
         "c_8584ecd4f1807f",
         "c_e1d0793a6c08fe",
-        "c_4ffdd6a1dddbbb"
+        "c_1665abaff84403"
       ],
       "evidence_count": 5,
       "affected_pages": [
@@ -41,10 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.55) [OPEN suppressed]",
-        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.36) [OPEN suppressed]",
-        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.27) [OPEN suppressed]",
-        "winning=CLOSED (1.18/1.18), conf=0.955"
+        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.54) [OPEN suppressed]",
+        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.34) [OPEN suppressed]",
+        "winning=CLOSED (0.88/0.88), conf=0.951"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T15:52:50+00:00",
-      "source_count": 7,
-      "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
-      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "last_confirmed": "2026-05-03T17:52:00+00:00",
+      "source_count": 15,
+      "summary_short": "Iran oil shipments continue despite US seizures and diversions",
+      "summary_long": "Iran oil shipments continue despite US seizures and diversions. US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
       "evidence_cluster_ids": [
+        "c_8ba448eac9045d",
         "c_85c3ed29ea5031",
         "c_58727078c24f94",
         "c_0d87361bc65275",
-        "c_4a985f009fcd7c",
-        "c_e5da297cac12e9"
+        "c_4a985f009fcd7c"
       ],
-      "evidence_count": 5,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -98,17 +97,16 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-03T17:07:01+00:00",
-      "source_count": 8,
+      "source_count": 5,
       "summary_short": "The silent treatment: Saudi Arabia’s long game for managing Opec",
-      "summary_long": "The silent treatment: Saudi Arabia’s long game for managing Opec. OPEC+ agrees to increase crude oil production",
+      "summary_long": "The silent treatment: Saudi Arabia’s long game for managing Opec. OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output",
       "evidence_cluster_ids": [
-        "c_f42b4783998aa1",
-        "c_4ffdd6a1dddbbb",
         "c_eacf0c4400a122",
         "c_bb95611a600c8e",
-        "c_80088ae52045b4"
+        "c_80088ae52045b4",
+        "c_5b6f0c02af2b90"
       ],
-      "evidence_count": 6,
+      "evidence_count": 4,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -158,14 +156,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_29a732ba8c38b9",
+      "cluster_id": "c_0897337c949723",
       "lead_title": "US blockade strands 1.8m barrels a day of Iranian crude oil",
       "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNG0xYmszQjM4QldTTEpyZkpEand2UHluT3JrR2FuSVJ6VjlHYkNJMXdPLTZDRnZreGNBQlRITjAxV2hQQ2NqTjBORFVvLWh2OUtYWnRlU3dOV2ZaR0tDUjRrcEpNcmRKYS1ZVnpzaG13R0RIQW1lVjVmYnE3cGlkdTdkVW1maUYwQ0lOOGlvb1hSVnpoYWtjcURuem1DOE5SLTNGV0t6MmtHUUp2NUxCRmhKVGlSRHc?oc=5",
       "lead_source": "Nikkei Asia",
       "topic": "oil",
-      "score": 81.33,
-      "novelty": "ongoing",
-      "source_count": 4,
+      "score": 88.05,
+      "novelty": "new",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -175,19 +173,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "next_catalyst_date",
-      "from": "2027-03-18",
-      "to": "",
-      "detected_at": "2026-05-03T20:27:13.597674+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.951, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

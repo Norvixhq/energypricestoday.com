@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-03T19:42:34.777638+00:00",
-  "previous_generated_at": "2026-05-03T18:37:15.874972+00:00",
-  "resolver_run_count": 3,
+  "generated_at": "2026-05-03T20:27:13.597773+00:00",
+  "previous_generated_at": "2026-05-03T19:42:34.777638+00:00",
+  "resolver_run_count": 4,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.959,
+      "confidence": 0.955,
       "last_confirmed": "2026-05-03T18:43:59+00:00",
-      "source_count": 10,
-      "summary_short": "OPEC+ agrees third oil output quota hike since Hormuz closure",
-      "summary_long": "OPEC+ agrees third oil output quota hike since Hormuz closure. Middle East tensions raise concerns over Strait of Hormuz oil supply",
+      "source_count": 7,
+      "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
+      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. OPEC+ set for another oil output quota hike despite Hormuz closure, sources say",
       "evidence_cluster_ids": [
+        "c_85c3ed29ea5031",
         "c_795ede6ecc3ea1",
         "c_8584ecd4f1807f",
-        "c_85c3ed29ea5031",
-        "c_cd9d01244655f8",
-        "c_4d6b335bacc81b"
+        "c_e1d0793a6c08fe",
+        "c_4ffdd6a1dddbbb"
       ],
-      "evidence_count": 7,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.57) [OPEN suppressed]",
-        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.37) [OPEN suppressed]",
-        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.57) [OPEN suppressed]",
-        "winning=CLOSED (1.51/1.51), conf=0.959"
+        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.55) [OPEN suppressed]",
+        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.36) [OPEN suppressed]",
+        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.27) [OPEN suppressed]",
+        "winning=CLOSED (1.18/1.18), conf=0.955"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,17 +57,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-03T15:52:50+00:00",
-      "source_count": 20,
+      "source_count": 7,
       "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
-      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. Japan to procure Russian oil for 1st time since U.S.-Israeli strikes on Iran",
+      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
       "evidence_cluster_ids": [
         "c_85c3ed29ea5031",
-        "c_e5da297cac12e9",
         "c_58727078c24f94",
         "c_0d87361bc65275",
-        "c_4a985f009fcd7c"
+        "c_4a985f009fcd7c",
+        "c_e5da297cac12e9"
       ],
-      "evidence_count": 18,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -84,9 +84,9 @@
       "rationale": [
         "fell back to default 'HOLDING'"
       ],
-      "next_catalyst_date": "2027-03-18",
-      "next_catalyst_description": "Oil prices jump 5% after Iran threatens to attack Middle East energy facilities ",
-      "next_catalyst_micro": "Oil prices jump 5%"
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -98,12 +98,12 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-03T17:07:01+00:00",
-      "source_count": 9,
+      "source_count": 8,
       "summary_short": "The silent treatment: Saudi Arabia’s long game for managing Opec",
-      "summary_long": "The silent treatment: Saudi Arabia’s long game for managing Opec. OPEC+ agrees third oil output quota hike since Hormuz closure",
+      "summary_long": "The silent treatment: Saudi Arabia’s long game for managing Opec. OPEC+ agrees to increase crude oil production",
       "evidence_cluster_ids": [
-        "c_fd6b1fdac14eeb",
         "c_f42b4783998aa1",
+        "c_4ffdd6a1dddbbb",
         "c_eacf0c4400a122",
         "c_bb95611a600c8e",
         "c_80088ae52045b4"
@@ -163,8 +163,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNG0xYmszQjM4QldTTEpyZkpEand2UHluT3JrR2FuSVJ6VjlHYkNJMXdPLTZDRnZreGNBQlRITjAxV2hQQ2NqTjBORFVvLWh2OUtYWnRlU3dOV2ZaR0tDUjRrcEpNcmRKYS1ZVnpzaG13R0RIQW1lVjVmYnE3cGlkdTdkVW1maUYwQ0lOOGlvb1hSVnpoYWtjcURuem1DOE5SLTNGV0t6MmtHUUp2NUxCRmhKVGlSRHc?oc=5",
       "lead_source": "Nikkei Asia",
       "topic": "oil",
-      "score": 86.77,
-      "novelty": "growing",
+      "score": 81.33,
+      "novelty": "ongoing",
       "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
@@ -179,15 +179,15 @@
     {
       "event_key": "us_iran_ceasefire",
       "field": "next_catalyst_date",
-      "from": "",
-      "to": "2027-03-18",
-      "detected_at": "2026-05-03T19:42:34.777567+00:00",
+      "from": "2027-03-18",
+      "to": "",
+      "detected_at": "2026-05-03T20:27:13.597674+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.959, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
