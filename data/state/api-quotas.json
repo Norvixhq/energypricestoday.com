@@ -1,0 +1,59 @@
+{
+  "date": "2026-05-03",
+  "apis": {
+    "oilpriceapi": {
+      "calls_today": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "limit_per_day": 10000,
+      "pct_of_limit": 0.0,
+      "endpoints": {
+        "prices/all": 1
+      },
+      "last_call": "2026-05-03T04:12:54.820858+00:00"
+    },
+    "aaa": {
+      "calls_today": 1,
+      "succeeded": 1,
+      "failed": 0,
+      "limit_per_day": 500,
+      "pct_of_limit": 0.2,
+      "endpoints": {
+        "gasprices": 1
+      },
+      "last_call": "2026-05-03T04:12:55.059918+00:00"
+    },
+    "eia": {
+      "calls_today": 4,
+      "succeeded": 4,
+      "failed": 0,
+      "limit_per_day": 5000,
+      "pct_of_limit": 0.1,
+      "endpoints": {
+        "gasoline/regular": 1,
+        "gasoline/mid": 1,
+        "gasoline/premium": 1,
+        "gasoline/diesel": 1
+      },
+      "last_call": "2026-05-03T04:12:58.410286+00:00"
+    },
+    "google_news": {
+      "calls_today": 10,
+      "succeeded": 10,
+      "failed": 0,
+      "limit_per_day": 5000,
+      "pct_of_limit": 0.2,
+      "endpoints": {},
+      "last_call": "2026-05-03T04:13:40.376789+00:00"
+    },
+    "gdelt": {
+      "calls_today": 10,
+      "succeeded": 5,
+      "failed": 5,
+      "limit_per_day": 500,
+      "pct_of_limit": 2.0,
+      "endpoints": {},
+      "last_call": "2026-05-03T04:13:43.198856+00:00"
+    }
+  }
+}
