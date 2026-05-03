@@ -1,6 +1,6 @@
 {
   "topic": "heating",
-  "generated_at": "2026-05-03T08:28:12.489771+00:00",
+  "generated_at": "2026-05-03T09:52:30.014470+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -8,27 +8,27 @@
   "clusters_found": 29,
   "clusters": [
     {
-      "cluster_id": "c_dc14f903b8ed98",
+      "cluster_id": "c_d60cd3ffa9f2a5",
       "topic": "heating",
-      "lead_title": "'Our heating oil's doubled in price in two weeks'",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "Police issue warning after heating oil thefts reported in Aberdeenshire",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTmFKMWY3NU1BUXFTVEZWTFpMbXJPZVFBd3M1T1kxaG5OOTJHbm1NNmcxS0g5RXNzRlJWOHlWS3lOY2YyLW5QR3NOcGJsMzZxU0hmVGd4dWJvVVBEY0h4ZC1FWHVLRFZ0Mm5aVEJQSnN0X1JfOElVSXZNU3RaekQxQWw2ckRYQld6STE4LWFoVm9fZ2dQSWlv0gGcAUFVX3lxTE9GXzBodzV1TVRCLUVGVUx1c1pTRUdLamY4QU1NUmhaTUJfRURHS3REMDVvbG9NWG41ek5aQ0dldVFZOFFDS0hIbWhfV2RoZDhVT3Q5ZDZJVUtDUHNtSkpJOGhmY2lfelVpQnJ1bkhuUkp3aWJ0akk0aS03WEpfcmljMjYwTEJaRmlMSHZpU3lYUHhCeVlxMnF5Y0FhTw?oc=5",
+      "lead_source": "Aberdeen Live",
       "canonical_entities": [
         "heating oil"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-03-18T07:00:00+00:00",
-      "latest_seen": "2026-03-18T07:00:00+00:00",
-      "age_hours": 1105.47,
-      "score": 46.0,
+      "earliest_seen": "2026-05-01T09:22:59+00:00",
+      "latest_seen": "2026-05-01T14:12:10+00:00",
+      "age_hours": 43.67,
+      "score": 43.5,
       "score_components": {
-        "source_count_points": 5,
+        "source_count_points": 10,
         "recency_points": 0.0,
-        "source_quality_points": 27.0,
+        "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -36,40 +36,49 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "b1e269de52245896",
-          "title": "'Our heating oil's doubled in price in two weeks'",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
-          "source": "BBC",
+          "headline_id": "36d616bbaa0c43fa",
+          "title": "Police issue warning after heating oil thefts reported in Aberdeenshire",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTmFKMWY3NU1BUXFTVEZWTFpMbXJPZVFBd3M1T1kxaG5OOTJHbm1NNmcxS0g5RXNzRlJWOHlWS3lOY2YyLW5QR3NOcGJsMzZxU0hmVGd4dWJvVVBEY0h4ZC1FWHVLRFZ0Mm5aVEJQSnN0X1JfOElVSXZNU3RaekQxQWw2ckRYQld6STE4LWFoVm9fZ2dQSWlv0gGcAUFVX3lxTE9GXzBodzV1TVRCLUVGVUx1c1pTRUdLamY4QU1NUmhaTUJfRURHS3REMDVvbG9NWG41ek5aQ0dldVFZOFFDS0hIbWhfV2RoZDhVT3Q5ZDZJVUtDUHNtSkpJOGhmY2lfelVpQnJ1bkhuUkp3aWJ0akk0aS03WEpfcmljMjYwTEJaRmlMSHZpU3lYUHhCeVlxMnF5Y0FhTw?oc=5",
+          "source": "Aberdeen Live",
           "source_type": "rss",
-          "published_at": "2026-03-18T07:00:00+00:00",
-          "confidence": 0.9
+          "published_at": "2026-05-01T14:12:10+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "5bac73b92b3a7539",
+          "title": "Police investigate heating oil thefts in Aberdeenshire",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM3R3MGFOR2IzSHo2NjF0Mm5xcHB3dVZqd3JoQm1Da3puUzJQaG84blRVZkpsOGpyQ3BrcGtiWGxOYThaTzd1Qkg4VGp4dFpnSV9WVGdvT29JNTBfUWFSaW44VWp2bWR5elI1T0stQnVBWS1hZlpuVUpFczNsMW9QTERKeEY?oc=5",
+          "source": "Yahoo News Canada",
+          "source_type": "rss",
+          "published_at": "2026-05-01T09:22:59+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_0d20043f78fb70",
+      "cluster_id": "c_f9695fcbf8e870",
       "topic": "heating",
-      "lead_title": "£17m support for heating oil costs in NI is 'not enough', local woman says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GVGpfcFE0NGw4UGlLVE11NUYtRU1aamQ4X0VrZ19CR0RrS2FHeVF0WTQybnp3V3M2bGhVd1BpOVRON216d29udU5tUEpsbTNRS0lPdGowMmF4QQ?oc=5",
-      "lead_source": "BBC",
+      "lead_title": "Australia secures new shipments of jet fuel, diesel supplies amid Middle East tensions",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdGMybGRJNVVFNTQxYVBpN2VKcWstekVSNlJKSF9IZlZqR3pVVE1YaEtyVzFFRDNzbU0wLUVrcWk1cVJrRFlJUDliQmY5S3Z6RjQ0ek1Jci0xVldiclVjQXFNRUQyMjdZc21NUjhXclhUQ0NrNVktMFA3aVFTeWR3QUdtSWE2NmV6QVA5SkNieElYNDZ5RnpTWlV1alctXzhNWFZxOGRmUkNVRTBXM2M0TDFhakZtNV9fREwxcF9qVnlKNzBwQXdWUzBMRQ?oc=5",
+      "lead_source": "Anadolu Ajansı",
       "canonical_entities": [
-        "heating oil"
+        "diesel"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-03-16T07:00:00+00:00",
-      "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1153.47,
-      "score": 46.0,
+      "earliest_seen": "2026-05-01T08:23:19+00:00",
+      "latest_seen": "2026-05-01T08:23:19+00:00",
+      "age_hours": 49.49,
+      "score": 38.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 27.0,
+        "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -77,508 +86,16 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "be3a6254dae4114a",
-          "title": "£17m support for heating oil costs in NI is 'not enough', local woman says",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GVGpfcFE0NGw4UGlLVE11NUYtRU1aamQ4X0VrZ19CR0RrS2FHeVF0WTQybnp3V3M2bGhVd1BpOVRON216d29udU5tUEpsbTNRS0lPdGowMmF4QQ?oc=5",
-          "source": "BBC",
+          "headline_id": "04a8d5c31c04a85e",
+          "title": "Australia secures new shipments of jet fuel, diesel supplies amid Middle East tensions",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdGMybGRJNVVFNTQxYVBpN2VKcWstekVSNlJKSF9IZlZqR3pVVE1YaEtyVzFFRDNzbU0wLUVrcWk1cVJrRFlJUDliQmY5S3Z6RjQ0ek1Jci0xVldiclVjQXFNRUQyMjdZc21NUjhXclhUQ0NrNVktMFA3aVFTeWR3QUdtSWE2NmV6QVA5SkNieElYNDZ5RnpTWlV1alctXzhNWFZxOGRmUkNVRTBXM2M0TDFhakZtNV9fREwxcF9qVnlKNzBwQXdWUzBMRQ?oc=5",
+          "source": "Anadolu Ajansı",
           "source_type": "rss",
-          "published_at": "2026-03-16T07:00:00+00:00",
-          "confidence": 0.9
+          "published_at": "2026-05-01T08:23:19+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5bf36a1dac0e7c",
-      "topic": "heating",
-      "lead_title": "Starmer announces £53m support to help with heating oil costs",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xUi1lUFhvSmtzYU5ISXllX2w4WmlFRDN0bVdPTWRXdzBMY1ZERE45S09aR3djMmZKX3RPZWVBdTliN1VYdnBIUC1fTUFyUWlaWl9OTWNLcm44Zw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-16T07:00:00+00:00",
-      "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1153.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "968157609e129f70",
-          "title": "Starmer announces £53m support to help with heating oil costs",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xUi1lUFhvSmtzYU5ISXllX2w4WmlFRDN0bVdPTWRXdzBMY1ZERE45S09aR3djMmZKX3RPZWVBdTliN1VYdnBIUC1fTUFyUWlaWl9OTWNLcm44Zw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-16T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7abf194b980569",
-      "topic": "heating",
-      "lead_title": "South West heating oil spikes put pressure on finances",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMUlhnbW43ZEJhTUxCb01mdlVxVTR0RGJRN2FqZ2JkWHRpYjQ4Q01kM2xESWoxa1RMR0x4OEZfeEpZZ1UtWHRsOVczSDhVOE11bEt0LVhjQ0l4QQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-16T07:00:00+00:00",
-      "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1153.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "9cd1b40a8c467edc",
-          "title": "South West heating oil spikes put pressure on finances",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMUlhnbW43ZEJhTUxCb01mdlVxVTR0RGJRN2FqZ2JkWHRpYjQ4Q01kM2xESWoxa1RMR0x4OEZfeEpZZ1UtWHRsOVczSDhVOE11bEt0LVhjQ0l4QQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-16T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_34c6885c4caf0b",
-      "topic": "heating",
-      "lead_title": "Chancellor to offer support over rising heating oil costs",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-13T07:00:00+00:00",
-      "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1225.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "8e3032a10eeefcec",
-          "title": "Chancellor to offer support over rising heating oil costs",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-13T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f4df46f30a4276",
-      "topic": "heating",
-      "lead_title": "Police warn thieves could target heating oil tanks due to war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11bHcxRjJlcjZPZEJCSWpGTUNickFlUk1RUzZlODAxZjlkTlN3Vk9YTlRJWWNRU3EwdjlQMFpHMjdGTDc0VzNfVnRLbHBablBfemw1NmxVbVNxZw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-13T07:00:00+00:00",
-      "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1225.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "da36c7420366b3f4",
-          "title": "Police warn thieves could target heating oil tanks due to war",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11bHcxRjJlcjZPZEJCSWpGTUNickFlUk1RUzZlODAxZjlkTlN3Vk9YTlRJWWNRU3EwdjlQMFpHMjdGTDc0VzNfVnRLbHBablBfemw1NmxVbVNxZw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-13T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_494acbbd0dadf1",
-      "topic": "heating",
-      "lead_title": "Heating oil protection calls after 'shock' price rises",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-11T07:00:00+00:00",
-      "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 1273.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "534d2b1011bb7fdc",
-          "title": "Heating oil protection calls after 'shock' price rises",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-11T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2619ef071c2eb0",
-      "topic": "heating",
-      "lead_title": "NI MPs to meet with Treasury over 'unique' home heating oil 'challenges'",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mSEF6allFZFg3UF93RWtfUXByU1libnhzLTlXVkdtdHZMUXF4ZmQ0MDNoU2lCdVFrM0FJRzNsbDZncTNNZ2ZPNTFnckw5cTBsN0tOTjZLeW9GZw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-09T07:00:00+00:00",
-      "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1321.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "22e09021a6be43cc",
-          "title": "NI MPs to meet with Treasury over 'unique' home heating oil 'challenges'",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mSEF6allFZFg3UF93RWtfUXByU1libnhzLTlXVkdtdHZMUXF4ZmQ0MDNoU2lCdVFrM0FJRzNsbDZncTNNZ2ZPNTFnckw5cTBsN0tOTjZLeW9GZw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-09T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_cd5aa11ed4a2e0",
-      "topic": "heating",
-      "lead_title": "Cornish homeowners see heating oil bills affected by Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5laTFuRm9FaHhocjQ1RWVpcHZKWmRicXdrOU5HXzJJblNqcWxieWhnRXBKeFRDSVBJdFpxLWhtTXpHQXpFd2hmSm0tUmVkMzlJZHcyMEJseUd2dw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-09T07:00:00+00:00",
-      "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1321.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "43834ca028924b5f",
-          "title": "Cornish homeowners see heating oil bills affected by Iran war",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5laTFuRm9FaHhocjQ1RWVpcHZKWmRicXdrOU5HXzJJblNqcWxieWhnRXBKeFRDSVBJdFpxLWhtTXpHQXpFd2hmSm0tUmVkMzlJZHcyMEJseUd2dw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-09T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f1af40c4f87e52",
-      "topic": "heating",
-      "lead_title": "'Most of my pension has gone on home heating oil'",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRmlLMEw5TzUtVmJ2Y0JDcGtWWHoyajFGZHJ5ZlpPWnVXSzVMaXFudUZhNjg0WnVXeHJxeUVYYTZ1Q1FQQ1VUdzRpSWFqLXBLMG1YczQ2YmxYQQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-06T08:00:00+00:00",
-      "latest_seen": "2026-03-06T08:00:00+00:00",
-      "age_hours": 1392.47,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "bb4c51ef137282fc",
-          "title": "'Most of my pension has gone on home heating oil'",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRmlLMEw5TzUtVmJ2Y0JDcGtWWHoyajFGZHJ5ZlpPWnVXSzVMaXFudUZhNjg0WnVXeHJxeUVYYTZ1Q1FQQ1VUdzRpSWFqLXBLMG1YczQ2YmxYQQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-06T08:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_15d38f955d7cc1",
-      "topic": "heating",
-      "lead_title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
-      "lead_source": "Spectrum News",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-03T07:00:00+00:00",
-      "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 721.47,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "21183276f4a1672f",
-          "title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
-          "source": "Spectrum News",
-          "source_type": "rss",
-          "published_at": "2026-04-03T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_bb7b8d98eb3bcd",
-      "topic": "heating",
-      "lead_title": "UK heating oil: the CMA's market review and market study",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWJHSTBlaXZ2WFhzcGl6c0Qtb0Npd25VTmU4QnRZZEZ5aVZ1TWphNkp0bkxRY0taWXNTN2lWM3ZJYkdTTy1Ta3JCNGJYdnRkSGpyZWx6ZlZNcDBGenB0czNQZFBUaVVrYWc4SkF5dzdfWlRKLVAxUThyOWhLQWQwS3dXbGs5eENIb1FzaVNLWnVoOTA1STNoSmhWWDlKdWdwYlFIM2NDQnRsZksyV2N2dFFB?oc=5",
-      "lead_source": "Dentons",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-01T07:00:00+00:00",
-      "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 769.47,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "f14d682876530b50",
-          "title": "UK heating oil: the CMA's market review and market study",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWJHSTBlaXZ2WFhzcGl6c0Qtb0Npd25VTmU4QnRZZEZ5aVZ1TWphNkp0bkxRY0taWXNTN2lWM3ZJYkdTTy1Ta3JCNGJYdnRkSGpyZWx6ZlZNcDBGenB0czNQZFBUaVVrYWc4SkF5dzdfWlRKLVAxUThyOWhLQWQwS3dXbGs5eENIb1FzaVNLWnVoOTA1STNoSmhWWDlKdWdwYlFIM2NDQnRsZksyV2N2dFFB?oc=5",
-          "source": "Dentons",
-          "source_type": "rss",
-          "published_at": "2026-04-01T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d004757a6bb5b3",
-      "topic": "heating",
-      "lead_title": "Maine heating oil prices up to highest point in years",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDVrYkVCZVBnOE9BRDJzZ2o4RzI0ZV9HVXpSTzU0Sy1xWVExcXk2LTZZcUJWSS1CTnVKdVViaWJrMmtXY1FUQ3hNVm52eXJGUTBHVE52ZzZWaEE5VnM2VHBoZDNiV0VyMzl5UzJ4cnBlR2ctN185VjZpNWsycTdRQVpzMk1qWFhZSWNLSTVEWGl5Y0dzREJ5aA?oc=5",
-      "lead_source": "The Portland Press Herald",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-26T07:00:00+00:00",
-      "latest_seen": "2026-03-26T07:00:00+00:00",
-      "age_hours": 913.47,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "7349d3810630cf0d",
-          "title": "Maine heating oil prices up to highest point in years",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDVrYkVCZVBnOE9BRDJzZ2o4RzI0ZV9HVXpSTzU0Sy1xWVExcXk2LTZZcUJWSS1CTnVKdVViaWJrMmtXY1FUQ3hNVm52eXJGUTBHVE52ZzZWaEE5VnM2VHBoZDNiV0VyMzl5UzJ4cnBlR2ctN185VjZpNWsycTdRQVpzMk1qWFhZSWNLSTVEWGl5Y0dzREJ5aA?oc=5",
-          "source": "The Portland Press Herald",
-          "source_type": "rss",
-          "published_at": "2026-03-26T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5cb383a2142840",
-      "topic": "heating",
-      "lead_title": "RI sees biggest increase in heating oil prices nationwide",
-      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNERoV3Y1ZE1YdUxTblBDb2FTdG5CX29LSnBNMEdzVDlrY1ZTN1pLU0RKUVB1TG4xVS1uRmFUSmxzaUZTYWpXTG1uUU9xX3ozYkpQRkpEVm9WMG1IU2pYQUstdnRRZ0FpSkpPREZ1VXBId2lLcTZ1T29tZF82MFF2M0hka3N6R3VScFg2N0Zn0gGTAUFVX3lxTE5UV2NqZ2wxS1JWNmZ1T3ltbF9kb2VsX01wZ1RSa2s4S2ZxQmQ2RktYZ3R0elc5TmpRdTRUbWdfNU1BbEhNbEg1RmJDcGo4bnNsUzhuV1VQc2o4TE9hWWR4RkttRXVHNmdRRlpvTEFkb3BzX3hSNV9YV3RSQXB5S3BSdmxsakhaX3k3ZThSV056X2gzOA?oc=5",
-      "lead_source": "WPRI.com",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-24T07:00:00+00:00",
-      "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 961.47,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "437c9fd963814a4b",
-          "title": "RI sees biggest increase in heating oil prices nationwide",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNERoV3Y1ZE1YdUxTblBDb2FTdG5CX29LSnBNMEdzVDlrY1ZTN1pLU0RKUVB1TG4xVS1uRmFUSmxzaUZTYWpXTG1uUU9xX3ozYkpQRkpEVm9WMG1IU2pYQUstdnRRZ0FpSkpPREZ1VXBId2lLcTZ1T29tZF82MFF2M0hka3N6R3VScFg2N0Zn0gGTAUFVX3lxTE5UV2NqZ2wxS1JWNmZ1T3ltbF9kb2VsX01wZ1RSa2s4S2ZxQmQ2RktYZ3R0elc5TmpRdTRUbWdfNU1BbEhNbEg1RmJDcGo4bnNsUzhuV1VQc2o4TE9hWWR4RkttRXVHNmdRRlpvTEFkb3BzX3hSNV9YV3RSQXB5S3BSdmxsakhaX3k3ZThSV056X2gzOA?oc=5",
-          "source": "WPRI.com",
-          "source_type": "rss",
-          "published_at": "2026-03-24T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
       "low_priority": false
     },
     {
@@ -597,7 +114,7 @@
       ],
       "earliest_seen": "2026-04-30T19:01:12+00:00",
       "latest_seen": "2026-04-30T19:01:12+00:00",
-      "age_hours": 61.45,
+      "age_hours": 62.86,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -619,7 +136,7 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
@@ -638,7 +155,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1153.47,
+      "age_hours": 1154.88,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -679,7 +196,7 @@
       ],
       "earliest_seen": "2026-04-30T23:03:08+00:00",
       "latest_seen": "2026-04-30T23:03:08+00:00",
-      "age_hours": 57.42,
+      "age_hours": 58.82,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -720,7 +237,7 @@
       ],
       "earliest_seen": "2026-04-29T05:49:14+00:00",
       "latest_seen": "2026-04-29T05:49:14+00:00",
-      "age_hours": 98.65,
+      "age_hours": 100.05,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -761,7 +278,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 601.47,
+      "age_hours": 602.88,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -787,6 +304,170 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_dc14f903b8ed98",
+      "topic": "heating",
+      "lead_title": "'Our heating oil's doubled in price in two weeks'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-18T07:00:00+00:00",
+      "latest_seen": "2026-03-18T07:00:00+00:00",
+      "age_hours": 1106.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "b1e269de52245896",
+          "title": "'Our heating oil's doubled in price in two weeks'",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43VHl0ZlRkMmN3azFvV2pVcmhndkhqa3dLTmRZWU1ITE80UFRxYXluR1hfbjdjbnBpV1hXcmNjbVJZVzJSam9uLVAyV0pQenJGcG1HT1RVb1FpUQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-18T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_0d20043f78fb70",
+      "topic": "heating",
+      "lead_title": "£17m support for heating oil costs in NI is 'not enough', local woman says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GVGpfcFE0NGw4UGlLVE11NUYtRU1aamQ4X0VrZ19CR0RrS2FHeVF0WTQybnp3V3M2bGhVd1BpOVRON216d29udU5tUEpsbTNRS0lPdGowMmF4QQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-16T07:00:00+00:00",
+      "latest_seen": "2026-03-16T07:00:00+00:00",
+      "age_hours": 1154.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "be3a6254dae4114a",
+          "title": "£17m support for heating oil costs in NI is 'not enough', local woman says",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GVGpfcFE0NGw4UGlLVE11NUYtRU1aamQ4X0VrZ19CR0RrS2FHeVF0WTQybnp3V3M2bGhVd1BpOVRON216d29udU5tUEpsbTNRS0lPdGowMmF4QQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-16T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5bf36a1dac0e7c",
+      "topic": "heating",
+      "lead_title": "Starmer announces £53m support to help with heating oil costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xUi1lUFhvSmtzYU5ISXllX2w4WmlFRDN0bVdPTWRXdzBMY1ZERE45S09aR3djMmZKX3RPZWVBdTliN1VYdnBIUC1fTUFyUWlaWl9OTWNLcm44Zw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-16T07:00:00+00:00",
+      "latest_seen": "2026-03-16T07:00:00+00:00",
+      "age_hours": 1154.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "968157609e129f70",
+          "title": "Starmer announces £53m support to help with heating oil costs",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xUi1lUFhvSmtzYU5ISXllX2w4WmlFRDN0bVdPTWRXdzBMY1ZERE45S09aR3djMmZKX3RPZWVBdTliN1VYdnBIUC1fTUFyUWlaWl9OTWNLcm44Zw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-16T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7abf194b980569",
+      "topic": "heating",
+      "lead_title": "South West heating oil spikes put pressure on finances",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMUlhnbW43ZEJhTUxCb01mdlVxVTR0RGJRN2FqZ2JkWHRpYjQ4Q01kM2xESWoxa1RMR0x4OEZfeEpZZ1UtWHRsOVczSDhVOE11bEt0LVhjQ0l4QQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-16T07:00:00+00:00",
+      "latest_seen": "2026-03-16T07:00:00+00:00",
+      "age_hours": 1154.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "9cd1b40a8c467edc",
+          "title": "South West heating oil spikes put pressure on finances",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMUlhnbW43ZEJhTUxCb01mdlVxVTR0RGJRN2FqZ2JkWHRpYjQ4Q01kM2xESWoxa1RMR0x4OEZfeEpZZ1UtWHRsOVczSDhVOE11bEt0LVhjQ0l4QQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-16T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_a2568005383e4a",
       "topic": "heating",
       "lead_title": "Heating oil suppliers cancel orders to 'profiteer' from Iran war",
@@ -802,7 +483,7 @@
       ],
       "earliest_seen": "2026-03-14T07:00:00+00:00",
       "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 1201.47,
+      "age_hours": 1202.88,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -828,6 +509,252 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_34c6885c4caf0b",
+      "topic": "heating",
+      "lead_title": "Chancellor to offer support over rising heating oil costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-13T07:00:00+00:00",
+      "latest_seen": "2026-03-13T07:00:00+00:00",
+      "age_hours": 1226.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "8e3032a10eeefcec",
+          "title": "Chancellor to offer support over rising heating oil costs",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-13T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f4df46f30a4276",
+      "topic": "heating",
+      "lead_title": "Police warn thieves could target heating oil tanks due to war",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11bHcxRjJlcjZPZEJCSWpGTUNickFlUk1RUzZlODAxZjlkTlN3Vk9YTlRJWWNRU3EwdjlQMFpHMjdGTDc0VzNfVnRLbHBablBfemw1NmxVbVNxZw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-13T07:00:00+00:00",
+      "latest_seen": "2026-03-13T07:00:00+00:00",
+      "age_hours": 1226.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "da36c7420366b3f4",
+          "title": "Police warn thieves could target heating oil tanks due to war",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE11bHcxRjJlcjZPZEJCSWpGTUNickFlUk1RUzZlODAxZjlkTlN3Vk9YTlRJWWNRU3EwdjlQMFpHMjdGTDc0VzNfVnRLbHBablBfemw1NmxVbVNxZw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-13T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_494acbbd0dadf1",
+      "topic": "heating",
+      "lead_title": "Heating oil protection calls after 'shock' price rises",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-11T07:00:00+00:00",
+      "latest_seen": "2026-03-11T07:00:00+00:00",
+      "age_hours": 1274.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "534d2b1011bb7fdc",
+          "title": "Heating oil protection calls after 'shock' price rises",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-11T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_2619ef071c2eb0",
+      "topic": "heating",
+      "lead_title": "NI MPs to meet with Treasury over 'unique' home heating oil 'challenges'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mSEF6allFZFg3UF93RWtfUXByU1libnhzLTlXVkdtdHZMUXF4ZmQ0MDNoU2lCdVFrM0FJRzNsbDZncTNNZ2ZPNTFnckw5cTBsN0tOTjZLeW9GZw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-09T07:00:00+00:00",
+      "latest_seen": "2026-03-09T07:00:00+00:00",
+      "age_hours": 1322.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "22e09021a6be43cc",
+          "title": "NI MPs to meet with Treasury over 'unique' home heating oil 'challenges'",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mSEF6allFZFg3UF93RWtfUXByU1libnhzLTlXVkdtdHZMUXF4ZmQ0MDNoU2lCdVFrM0FJRzNsbDZncTNNZ2ZPNTFnckw5cTBsN0tOTjZLeW9GZw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-09T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_cd5aa11ed4a2e0",
+      "topic": "heating",
+      "lead_title": "Cornish homeowners see heating oil bills affected by Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5laTFuRm9FaHhocjQ1RWVpcHZKWmRicXdrOU5HXzJJblNqcWxieWhnRXBKeFRDSVBJdFpxLWhtTXpHQXpFd2hmSm0tUmVkMzlJZHcyMEJseUd2dw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-09T07:00:00+00:00",
+      "latest_seen": "2026-03-09T07:00:00+00:00",
+      "age_hours": 1322.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "43834ca028924b5f",
+          "title": "Cornish homeowners see heating oil bills affected by Iran war",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5laTFuRm9FaHhocjQ1RWVpcHZKWmRicXdrOU5HXzJJblNqcWxieWhnRXBKeFRDSVBJdFpxLWhtTXpHQXpFd2hmSm0tUmVkMzlJZHcyMEJseUd2dw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-09T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f1af40c4f87e52",
+      "topic": "heating",
+      "lead_title": "'Most of my pension has gone on home heating oil'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRmlLMEw5TzUtVmJ2Y0JDcGtWWHoyajFGZHJ5ZlpPWnVXSzVMaXFudUZhNjg0WnVXeHJxeUVYYTZ1Q1FQQ1VUdzRpSWFqLXBLMG1YczQ2YmxYQQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-06T08:00:00+00:00",
+      "latest_seen": "2026-03-06T08:00:00+00:00",
+      "age_hours": 1393.88,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "bb4c51ef137282fc",
+          "title": "'Most of my pension has gone on home heating oil'",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9sRmlLMEw5TzUtVmJ2Y0JDcGtWWHoyajFGZHJ5ZlpPWnVXSzVMaXFudUZhNjg0WnVXeHJxeUVYYTZ1Q1FQQ1VUdzRpSWFqLXBLMG1YczQ2YmxYQQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-06T08:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_1402b28f094dad",
       "topic": "heating",
       "lead_title": "Home heating oil firms squeezed as diesel, crude prices surge amid Middle East tensions",
@@ -844,7 +771,7 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 961.47,
+      "age_hours": 962.88,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -870,56 +797,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_852504590c31ce",
-      "topic": "heating",
-      "lead_title": "Australia stockpiles jet fuel, diesel over Middle East supply risks",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWlM2bFhRTVA3Y2EwcU5RZHVMS3Z2bGdNQTdOQktSRWlELXpTdDZ0LVNmWTAtcWtSLVVBcFpEZDhRUEZGUUVhRm9tWDc1WkI5dGR6bFN3TEZaTS1hNjJ5OGtSTmNMc0pPUW5zenZkZ2Q1UHhNTi1CSnVTWUwtbW15Q2NrdnhhQTR2VHdHREFOYm5vLVQwN2tDcFVSVjhJa083NmhlY2E1V2N0azA?oc=5",
-      "lead_source": "Yeni Safak English",
-      "canonical_entities": [
-        "diesel"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-01T08:23:19+00:00",
-      "latest_seen": "2026-05-01T12:35:01+00:00",
-      "age_hours": 43.89,
-      "score": 28.5,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "d1fa2bf32c63e9af",
-          "title": "Australia stockpiles jet fuel, diesel over Middle East supply risks",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWlM2bFhRTVA3Y2EwcU5RZHVMS3Z2bGdNQTdOQktSRWlELXpTdDZ0LVNmWTAtcWtSLVVBcFpEZDhRUEZGUUVhRm9tWDc1WkI5dGR6bFN3TEZaTS1hNjJ5OGtSTmNMc0pPUW5zenZkZ2Q1UHhNTi1CSnVTWUwtbW15Q2NrdnhhQTR2VHdHREFOYm5vLVQwN2tDcFVSVjhJa083NmhlY2E1V2N0azA?oc=5",
-          "source": "Yeni Safak English",
-          "source_type": "rss",
-          "published_at": "2026-05-01T12:35:01+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "04a8d5c31c04a85e",
-          "title": "Australia secures new shipments of jet fuel, diesel supplies amid Middle East tensions",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdGMybGRJNVVFNTQxYVBpN2VKcWstekVSNlJKSF9IZlZqR3pVVE1YaEtyVzFFRDNzbU0wLUVrcWk1cVJrRFlJUDliQmY5S3Z6RjQ0ek1Jci0xVldiclVjQXFNRUQyMjdZc21NUjhXclhUQ0NrNVktMFA3aVFTeWR3QUdtSWE2NmV6QVA5SkNieElYNDZ5RnpTWlV1alctXzhNWFZxOGRmUkNVRTBXM2M0TDFhakZtNV9fREwxcF9qVnlKNzBwQXdWUzBMRQ?oc=5",
-          "source": "Anadolu Ajansı",
-          "source_type": "rss",
-          "published_at": "2026-05-01T08:23:19+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_0a486980caf310",
       "topic": "heating",
       "lead_title": "Imperial Oil churning out more diesel, jet fuel as Mideast war drives up prices",
@@ -935,11 +812,11 @@
       ],
       "earliest_seen": "2026-05-01T19:33:27+00:00",
       "latest_seen": "2026-05-01T19:33:27+00:00",
-      "age_hours": 36.91,
-      "score": 26.35,
+      "age_hours": 38.32,
+      "score": 25.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.85,
+        "recency_points": 2.01,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -974,11 +851,11 @@
       ],
       "earliest_seen": "2026-05-01T15:12:16+00:00",
       "latest_seen": "2026-05-01T15:12:16+00:00",
-      "age_hours": 41.27,
-      "score": 25.74,
+      "age_hours": 42.67,
+      "score": 25.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 0.24,
+        "recency_points": 0.0,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -1013,7 +890,7 @@
       ],
       "earliest_seen": "2026-03-31T07:00:00+00:00",
       "latest_seen": "2026-03-31T07:00:00+00:00",
-      "age_hours": 793.47,
+      "age_hours": 794.88,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1052,7 +929,7 @@
       ],
       "earliest_seen": "2026-03-11T07:00:00+00:00",
       "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 1273.47,
+      "age_hours": 1274.88,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1093,7 +970,7 @@
       ],
       "earliest_seen": "2026-04-28T14:14:35+00:00",
       "latest_seen": "2026-04-28T14:14:35+00:00",
-      "age_hours": 114.23,
+      "age_hours": 115.63,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1134,7 +1011,7 @@
       ],
       "earliest_seen": "2026-04-21T22:24:16+00:00",
       "latest_seen": "2026-04-21T22:24:16+00:00",
-      "age_hours": 274.07,
+      "age_hours": 275.47,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1175,7 +1052,7 @@
       ],
       "earliest_seen": "2026-04-17T07:00:00+00:00",
       "latest_seen": "2026-04-17T07:00:00+00:00",
-      "age_hours": 385.47,
+      "age_hours": 386.88,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1194,6 +1071,129 @@
           "source": "Yahoo Finance",
           "source_type": "rss",
           "published_at": "2026-04-17T07:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_15d38f955d7cc1",
+      "topic": "heating",
+      "lead_title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
+      "lead_source": "Spectrum News",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-03T07:00:00+00:00",
+      "latest_seen": "2026-04-03T07:00:00+00:00",
+      "age_hours": 722.88,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "21183276f4a1672f",
+          "title": "Northern Maine feels pinch of heating oil price spikes from Iran war",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOR1ZxR2hvWDFxZ1E0dHRqUzFKUElMSHhTZEpsX0JrM1NyOVFUVDlHZ0dSWHJ5Rk5UWmtQV1g1T01SUmdtX1BUMkZrR216c1plWHhHQU5WdFVtalhsejdPbzNoYjBHSlphTFZsWmxPRnJ0VHVfMEdiS3dKRU5LaklVMk9FYXFpUHV6eFZQUndTa3JXaHFoLXd4Mi1HLUZsSEpjdDJyY2FDeXBwUDFiQ1doVFkwbk1nVlk2dVhLRU1nRDI?oc=5",
+          "source": "Spectrum News",
+          "source_type": "rss",
+          "published_at": "2026-04-03T07:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_bb7b8d98eb3bcd",
+      "topic": "heating",
+      "lead_title": "UK heating oil: the CMA's market review and market study",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWJHSTBlaXZ2WFhzcGl6c0Qtb0Npd25VTmU4QnRZZEZ5aVZ1TWphNkp0bkxRY0taWXNTN2lWM3ZJYkdTTy1Ta3JCNGJYdnRkSGpyZWx6ZlZNcDBGenB0czNQZFBUaVVrYWc4SkF5dzdfWlRKLVAxUThyOWhLQWQwS3dXbGs5eENIb1FzaVNLWnVoOTA1STNoSmhWWDlKdWdwYlFIM2NDQnRsZksyV2N2dFFB?oc=5",
+      "lead_source": "Dentons",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-01T07:00:00+00:00",
+      "latest_seen": "2026-04-01T07:00:00+00:00",
+      "age_hours": 770.88,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "f14d682876530b50",
+          "title": "UK heating oil: the CMA's market review and market study",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSWJHSTBlaXZ2WFhzcGl6c0Qtb0Npd25VTmU4QnRZZEZ5aVZ1TWphNkp0bkxRY0taWXNTN2lWM3ZJYkdTTy1Ta3JCNGJYdnRkSGpyZWx6ZlZNcDBGenB0czNQZFBUaVVrYWc4SkF5dzdfWlRKLVAxUThyOWhLQWQwS3dXbGs5eENIb1FzaVNLWnVoOTA1STNoSmhWWDlKdWdwYlFIM2NDQnRsZksyV2N2dFFB?oc=5",
+          "source": "Dentons",
+          "source_type": "rss",
+          "published_at": "2026-04-01T07:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d004757a6bb5b3",
+      "topic": "heating",
+      "lead_title": "Maine heating oil prices up to highest point in years",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDVrYkVCZVBnOE9BRDJzZ2o4RzI0ZV9HVXpSTzU0Sy1xWVExcXk2LTZZcUJWSS1CTnVKdVViaWJrMmtXY1FUQ3hNVm52eXJGUTBHVE52ZzZWaEE5VnM2VHBoZDNiV0VyMzl5UzJ4cnBlR2ctN185VjZpNWsycTdRQVpzMk1qWFhZSWNLSTVEWGl5Y0dzREJ5aA?oc=5",
+      "lead_source": "The Portland Press Herald",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-26T07:00:00+00:00",
+      "latest_seen": "2026-03-26T07:00:00+00:00",
+      "age_hours": 914.88,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "7349d3810630cf0d",
+          "title": "Maine heating oil prices up to highest point in years",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaDVrYkVCZVBnOE9BRDJzZ2o4RzI0ZV9HVXpSTzU0Sy1xWVExcXk2LTZZcUJWSS1CTnVKdVViaWJrMmtXY1FUQ3hNVm52eXJGUTBHVE52ZzZWaEE5VnM2VHBoZDNiV0VyMzl5UzJ4cnBlR2ctN185VjZpNWsycTdRQVpzMk1qWFhZSWNLSTVEWGl5Y0dzREJ5aA?oc=5",
+          "source": "The Portland Press Herald",
+          "source_type": "rss",
+          "published_at": "2026-03-26T07:00:00+00:00",
           "confidence": 0.65
         }
       ],
