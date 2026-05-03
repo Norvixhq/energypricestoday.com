@@ -58,12 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Iran Sends Updated Peace Proposal Through Pakistan; Trump 'Not Satisfied'", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "ExxonMobil Q1 Profit Falls to 5-Year Low at $4.2B Despite Beating Estimates", cat: "Company News", slug: "company-news", time: "3h" },
-  { title: "Chevron Posts Biggest Earnings Beat Since 2020 on Record Production", cat: "Company News", slug: "company-news", time: "4h" },
-  { title: "U.S. Gas Average Surges to $4.39, Up 25 Cents in Three Days", cat: "Gas Prices", slug: "gas-prices", time: "6h" },
-  { title: "Trump Briefed on Expanded Iran Military Options as Crude Hit 4-Year High", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
-  { title: "Mojtaba Khamenei Vows to Retain Nuclear and Missile Capabilities", cat: "Geopolitics", slug: "geopolitics", time: "2d" },
+  { title: "Oil prices hit wartime peak, pushing U.S. gas costs to highest since level July 2022", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil price hits highest since 2022 after report Trump to be briefed on new Iran options", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil Rally Stalls as Iran Proposal Triggers Profit-Taking", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Why oil prices predicted by financial markets are missing the mark", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Iran Warns of $140 Oil as Trump Holds Hormuz Blockade", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Stocks End April on a High, Even as Oil Prices Touch New Peak", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
