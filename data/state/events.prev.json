@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-03T17:34:25.382943+00:00",
-  "previous_generated_at": "",
-  "resolver_run_count": 1,
+  "generated_at": "2026-05-03T18:37:15.874972+00:00",
+  "previous_generated_at": "2026-05-03T17:34:25.382943+00:00",
+  "resolver_run_count": 2,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,17 @@
       "status_detail": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.961,
-      "last_confirmed": "2026-05-03T15:52:50+00:00",
+      "confidence": 0.954,
+      "last_confirmed": "2026-05-03T18:10:00+00:00",
       "source_count": 8,
-      "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
-      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. Tanker carrying Russian oil to arrive in Japan amid Hormuz closure",
+      "summary_short": "Oil prices may stay high into 2027 amid Hormuz disruptions",
+      "summary_long": "Oil prices may stay high into 2027 amid Hormuz disruptions. US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
       "evidence_cluster_ids": [
+        "c_cd9d01244655f8",
         "c_85c3ed29ea5031",
-        "c_e1d0793a6c08fe",
         "c_3f830367e4878f",
-        "c_be76ea9514ab77",
-        "c_729e4d4879f7bb"
+        "c_e1d0793a6c08fe",
+        "c_cc30a47f95f999"
       ],
       "evidence_count": 6,
       "affected_pages": [
@@ -41,11 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.70) [OPEN suppressed]",
-        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.51) [OPEN suppressed]",
-        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
-        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.32) [OPEN suppressed]",
-        "winning=CLOSED (1.63/1.63), conf=0.961"
+        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.59) [OPEN suppressed]",
+        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.38) [OPEN suppressed]",
+        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.22) [OPEN suppressed]",
+        "winning=CLOSED (1.20/1.20), conf=0.954"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T15:52:50+00:00",
-      "source_count": 35,
-      "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
-      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. The Iran war has strengthened Ukraine in surprising ways. Could a ceasefire with Russia be closer?",
+      "last_confirmed": "2026-05-03T17:52:00+00:00",
+      "source_count": 9,
+      "summary_short": "Iran oil shipments continue despite US seizures and diversions",
+      "summary_long": "Iran oil shipments continue despite US seizures and diversions. US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
       "evidence_cluster_ids": [
+        "c_8ba448eac9045d",
         "c_85c3ed29ea5031",
-        "c_0d87361bc65275",
         "c_58727078c24f94",
-        "c_4a985f009fcd7c",
-        "c_715e5ad5e1ab36"
+        "c_0d87361bc65275",
+        "c_4a985f009fcd7c"
       ],
-      "evidence_count": 34,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -99,17 +98,17 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-03T17:07:01+00:00",
-      "source_count": 14,
+      "source_count": 9,
       "summary_short": "The silent treatment: Saudi Arabia’s long game for managing Opec",
-      "summary_long": "The silent treatment: Saudi Arabia’s long game for managing Opec. OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output",
+      "summary_long": "The silent treatment: Saudi Arabia’s long game for managing Opec. OPEC+ agrees to increase crude oil production",
       "evidence_cluster_ids": [
+        "c_f42b4783998aa1",
         "c_eacf0c4400a122",
         "c_bb95611a600c8e",
         "c_4ffdd6a1dddbbb",
-        "c_76e59aa02d0e60",
-        "c_ae14cc44a81e7a"
+        "c_80088ae52045b4"
       ],
-      "evidence_count": 13,
+      "evidence_count": 7,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -159,12 +158,12 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_dbccf1789f5860",
-      "lead_title": "Crude Oil WTI Futures Chart",
-      "lead_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QVUZmbEFLek45c2FDcW5MdnIwVUE5c2p4Q21nUVU4a0NOZzd2QTdxSGRQS3A1QTk2M1cwVFNfd0JVUFZYMnVBa01IeWJzNy1HZmR3cFJXZk1zdVNSRGJONkI3MEJ4RDQ3VjlocXhYdHc?oc=5",
-      "lead_source": "Investing.com",
+      "cluster_id": "c_f674a4a05cb0e9",
+      "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 91.06,
+      "score": 90.72,
       "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
@@ -176,55 +175,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CLOSED",
-      "detected_at": "2026-05-03T17:34:25.382781+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-05-03T17:34:25.382781+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-05-03T17:34:25.382781+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "new_event",
-      "from": null,
-      "to": "HIGH",
-      "detected_at": "2026-05-03T17:34:25.382781+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "top_story",
-      "field": "new_event",
-      "from": null,
-      "to": "",
-      "detected_at": "2026-05-03T17:34:25.382781+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.961, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.954, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
