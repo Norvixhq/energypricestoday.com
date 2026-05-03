@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-05-03T15:33:38.632922+00:00",
-  "previous_generated_at": "2026-05-03T14:33:03.209828+00:00",
-  "resolver_run_count": 8,
+  "generated_at": "2026-05-03T16:33:23.818864+00:00",
+  "previous_generated_at": "2026-05-03T15:33:38.632922+00:00",
+  "resolver_run_count": 9,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Tanker carrying Russian oil to arrive in Japan amid Hormuz closure",
+      "status_detail": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.951,
-      "last_confirmed": "2026-05-03T12:00:00+00:00",
-      "source_count": 7,
-      "summary_short": "Tanker carrying Russian oil to arrive in Japan amid Hormuz closure",
-      "summary_long": "Tanker carrying Russian oil to arrive in Japan amid Hormuz closure. US-Iran War Latest News: For the First time Since 1991 Kuwait Reports $0 in Oil Exports due to Strai",
+      "confidence": 0.956,
+      "last_confirmed": "2026-05-03T15:52:50+00:00",
+      "source_count": 8,
+      "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
+      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. US is oil supplier of last resort as Hormuz disruptions worsen",
       "evidence_cluster_ids": [
+        "c_85c3ed29ea5031",
+        "c_3f830367e4878f",
         "c_e1d0793a6c08fe",
-        "c_9b3dc67cb718a3",
-        "c_1a3579121da88a",
-        "c_be76ea9514ab77",
-        "c_cb186ee18e4620"
+        "c_cc30a47f95f999",
+        "c_be76ea9514ab77"
       ],
       "evidence_count": 6,
       "affected_pages": [
@@ -41,12 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.47) [OPEN suppressed]",
-        "cluster c_9b3dc67cb7 → CLOSED (kw='blockade', weight=0.52) [OPEN suppressed]",
-        "cluster c_1a3579121d → CLOSED (kw='closure', weight=0.48) [OPEN suppressed]",
-        "cluster c_cb186ee18e → CLOSED (kw='blockade', weight=0.10) [OPEN suppressed]",
-        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.26) [OPEN suppressed]",
-        "winning=CLOSED (1.83/1.83), conf=0.951"
+        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.73) [OPEN suppressed]",
+        "cluster c_e1d0793a6c → CLOSED (kw='closure', weight=0.46) [OPEN suppressed]",
+        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.25) [OPEN suppressed]",
+        "winning=CLOSED (1.43/1.43), conf=0.956"
       ]
     },
     "us_iran_ceasefire": {
@@ -58,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T15:22:00+00:00",
-      "source_count": 7,
-      "summary_short": "Iranian supertanker carrying $220M of oil evades US blockade, says tracker",
-      "summary_long": "Iranian supertanker carrying $220M of oil evades US blockade, says tracker. U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "last_confirmed": "2026-05-03T15:52:50+00:00",
+      "source_count": 16,
+      "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
+      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. Japan to procure Russian oil for 1st time since U.S.-Israeli strikes on Iran",
       "evidence_cluster_ids": [
-        "c_715e5ad5e1ab36",
+        "c_85c3ed29ea5031",
+        "c_e5da297cac12e9",
         "c_58727078c24f94",
-        "c_81a8ae85666c31",
         "c_0d87361bc65275",
-        "c_9b3dc67cb718a3"
+        "c_715e5ad5e1ab36"
       ],
-      "evidence_count": 7,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -100,17 +98,17 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-03T14:45:35+00:00",
-      "source_count": 9,
+      "source_count": 7,
       "summary_short": "OPEC+ agrees to increase crude oil production",
-      "summary_long": "OPEC+ agrees to increase crude oil production. OPEC Plus, in Symbolic Gesture, to Increase Oil Production",
+      "summary_long": "OPEC+ agrees to increase crude oil production. OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output",
       "evidence_cluster_ids": [
         "c_f42b4783998aa1",
         "c_eacf0c4400a122",
         "c_bb95611a600c8e",
         "c_4ffdd6a1dddbbb",
-        "c_5a6f27c892d9e5"
+        "c_5b6f0c02af2b90"
       ],
-      "evidence_count": 8,
+      "evidence_count": 6,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -160,13 +158,13 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_5c74b08c965f29",
+      "cluster_id": "c_90a27f06b45bb8",
       "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
       "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 86.58,
-      "novelty": "ongoing",
+      "score": 91.6,
+      "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
@@ -179,7 +177,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.951, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.956, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
