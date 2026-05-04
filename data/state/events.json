@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-04T15:27:38.525708+00:00",
-  "previous_generated_at": "2026-05-04T13:13:26.957836+00:00",
-  "resolver_run_count": 14,
+  "generated_at": "2026-05-04T17:13:53.095684+00:00",
+  "previous_generated_at": "2026-05-04T15:27:38.525708+00:00",
+  "resolver_run_count": 15,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.847,
+      "confidence": 0.846,
       "last_confirmed": "2026-05-04T14:54:59+00:00",
-      "source_count": 20,
-      "summary_short": "Iran Threatens Ships Over Trump Plan to Break Strait of Hormuz Blockade",
-      "summary_long": "Iran Threatens Ships Over Trump Plan to Break Strait of Hormuz Blockade. Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks",
+      "source_count": 16,
+      "summary_short": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.",
+      "summary_long": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.. Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks",
       "evidence_cluster_ids": [
-        "c_7ac3a8fb919be0",
-        "c_96539688f71202",
+        "c_5e3736df2379e0",
         "c_453587151f5365",
-        "c_0aa3bddfb443bc",
-        "c_d08694355dda1f"
+        "c_d08694355dda1f",
+        "c_96539688f71202",
+        "c_5498eb12958f6b"
       ],
-      "evidence_count": 11,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_7ac3a8fb91 → CLOSED (kw='blockade', weight=0.82) [OPEN suppressed]",
-        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
-        "cluster c_5498eb1295 → CONTESTED (kw='attack', weight=0.82)",
-        "cluster c_3963ae978b → CONTESTED (kw='attack', weight=0.64)",
-        "winning=CONTESTED (1.47/2.39), conf=0.847"
+        "cluster c_5e3736df23 → CLOSED (kw='blockade', weight=0.71) [OPEN suppressed]",
+        "cluster c_5498eb1295 → CONTESTED (kw='attack', weight=0.70)",
+        "cluster c_3963ae978b → CONTESTED (kw='attack', weight=0.52)",
+        "winning=CONTESTED (1.22/1.93), conf=0.846"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-04T14:46:26+00:00",
-      "source_count": 17,
-      "summary_short": "Iran Threatens Ships Over Trump Plan to Break Strait of Hormuz Blockade",
-      "summary_long": "Iran Threatens Ships Over Trump Plan to Break Strait of Hormuz Blockade. Oil Rises After Iran Warns US Against Escorting Ships Out of Strait",
+      "last_confirmed": "2026-05-04T16:35:00+00:00",
+      "source_count": 19,
+      "summary_short": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.",
+      "summary_long": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.. Korean ship on fire in strait, Iran hits UAE oil port after Trump says Navy will help ships cross",
       "evidence_cluster_ids": [
-        "c_7ac3a8fb919be0",
-        "c_f9e2bcc54d465e",
-        "c_1ac2be653437d9",
-        "c_8a7d5b41fa6312",
-        "c_d805420d2de6b8"
+        "c_5e3736df2379e0",
+        "c_d0e9b25e7bde52",
+        "c_ec0f8d5190ca8d",
+        "c_0b5ae1504cd87a",
+        "c_c930afd68ee154"
       ],
-      "evidence_count": 13,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -97,13 +96,13 @@
       "status_detail": "no definitive signals",
       "status_tag": "No change",
       "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-05-04T12:06:12+00:00",
+      "confidence": 0.425,
+      "last_confirmed": "2026-04-29T16:47:49+00:00",
       "source_count": 1,
-      "summary_short": "OPEC Report Shows Oil Demand Reached Over 105MMBpd in 2025",
-      "summary_long": "OPEC Report Shows Oil Demand Reached Over 105MMBpd in 2025",
+      "summary_short": "Middle East oil production plunges due to Iran war, OPEC data shows",
+      "summary_long": "Middle East oil production plunges due to Iran war, OPEC data shows",
       "evidence_cluster_ids": [
-        "c_b1dd616917df39"
+        "c_716d6afc441113"
       ],
       "evidence_count": 1,
       "affected_pages": [
@@ -115,7 +114,7 @@
         "markets.drivers.opec"
       ],
       "update_priority": "high",
-      "freshness": "fresh",
+      "freshness": "aging",
       "stale_after_hours": 168,
       "rationale": [
         "fell back to default 'HOLDING'"
@@ -160,9 +159,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 94.19,
-      "novelty": "new",
-      "source_count": 7,
+      "score": 83.38,
+      "novelty": "ongoing",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -174,8 +173,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.847, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.846, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: resolved=HOLDING, confidence=0.425, fresh=aging"
   ]
 }
