@@ -1,11 +1,11 @@
 {
   "topic": "breaking",
-  "generated_at": "2026-05-04T21:40:41.486315+00:00",
+  "generated_at": "2026-05-04T22:42:15.635954+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 27,
   "clusters": [
     {
       "cluster_id": "c_88a3c367b261ac",
@@ -23,17 +23,17 @@
       ],
       "earliest_seen": "2026-05-04T20:12:37+00:00",
       "latest_seen": "2026-05-04T20:12:37+00:00",
-      "age_hours": 1.47,
-      "score": 62.62,
+      "age_hours": 2.49,
+      "score": 52.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.12,
+        "recency_points": 23.5,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "6ab694f98a2a9a27",
@@ -46,6 +46,136 @@
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_51e02f2f26053b",
+      "topic": "breaking",
+      "lead_title": "Attacks on major oil, gas sites in the Middle East",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOG4tcXhwUlRtUFFoNk80Z0c3dVpfMDdGR2lqTU9iT29CTW0xYmM1Y05MeEVaUmdTSVZjbUxDRE5pRW5ucHlCNnRVbGdKMTdNVGpQQ3E1Zk9lZDFfdGFnbGtodTFuOFNvY0hVSnQ0UEdmQWVScGR6WG8yYktsSVQwSEFySTZyQUtkaVBZVTRXS214RTJ1U0lrLVBEeVFoalllSFVsNWdCQWg5RWxaeGF6eWlxMVhoMG90WF9NX05VNmQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "attack"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-19T07:00:00+00:00",
+      "latest_seen": "2026-03-20T07:00:00+00:00",
+      "age_hours": 1095.7,
+      "score": 46.75,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 0.0,
+        "source_quality_points": 27.75,
+        "entity_relevance_points": 4,
+        "materiality_points": 5.0
+      },
+      "novelty": "growing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "0eb2a96713ad7c9a",
+          "title": "Attacks on major oil, gas sites in the Middle East",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOG4tcXhwUlRtUFFoNk80Z0c3dVpfMDdGR2lqTU9iT29CTW0xYmM1Y05MeEVaUmdTSVZjbUxDRE5pRW5ucHlCNnRVbGdKMTdNVGpQQ3E1Zk9lZDFfdGFnbGtodTFuOFNvY0hVSnQ0UEdmQWVScGR6WG8yYktsSVQwSEFySTZyQUtkaVBZVTRXS214RTJ1U0lrLVBEeVFoalllSFVsNWdCQWg5RWxaeGF6eWlxMVhoMG90WF9NX05VNmQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-03-20T07:00:00+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "b368a5ea89411a1b",
+          "title": "‘Doomsday scenario’: a visual guide to the oil and gas site attacks in the Middle East",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRW9LdTB2emFJNzZmY2VSR3VtMUhDTFZpd2xlX3duNnNyZWt3NnE5cnJjX2ZTT3RBdERXLWxUQXFLM2hhby1MSGdJUVl2d2hXZzc2RDh6U1JSUmhPU05CTkVSQ3Y3V3R1LWFrMHlKeVFjWHpiTU92a1NTRnQxNUdsaFRhYlJKa1VhQzZkTl9wMW43N1lfOHB0d1dVVlRKOTNIdXI3QmxtSFBTMDdBcVkw?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-03-19T07:00:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e26bcef8208ce1",
+      "topic": "breaking",
+      "lead_title": "Oil and gas prices jump after Iran and Israel attack gasfields",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZjVzcmlCSXp3UHBTMGdpSEpSZm5QakdLVS1vZFYwbkNRRDlTNmJkeGt3VjZEMXVXdGxUX2pIbFJwNlpnWEQ2SW5vR2lUb1dIOXdaV0lvOW0xTzZZNmtKM2k1dDFjbHh0dm95TDBMZTd3U1dLd3VEcTl2RWdrc1htaTlpblVTM0hucm8wWGJ2akUtS3pEaWlVcDAwVDIxNUw4WXc?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [
+        "attack"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-19T07:00:00+00:00",
+      "latest_seen": "2026-03-19T07:00:00+00:00",
+      "age_hours": 1119.7,
+      "score": 44.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "536563a1ff5c051d",
+          "title": "Oil and gas prices jump after Iran and Israel attack gasfields",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZjVzcmlCSXp3UHBTMGdpSEpSZm5QakdLVS1vZFYwbkNRRDlTNmJkeGt3VjZEMXVXdGxUX2pIbFJwNlpnWEQ2SW5vR2lUb1dIOXdaV0lvOW0xTzZZNmtKM2k1dDFjbHh0dm95TDBMZTd3U1dLd3VEcTl2RWdrc1htaTlpblVTM0hucm8wWGJ2akUtS3pEaWlVcDAwVDIxNUw4WXc?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-03-19T07:00:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_fb44efb588025f",
+      "topic": "breaking",
+      "lead_title": "Heaviest day of strikes yet on Iran despite market bets that war will end soon",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeE03RDlQd01JMVpEZjlxODJDNW1EbHBPSnVUMEdqaFFLN0hrYzRGTzdTT3piWVROaVV5NGtOWEhzY1BiRGNITDB1M3hkbzAzejMtUUsyUHpHSi1JbkVOTDBNMG1FSlN5VENNMDBMeVFrSXMyYU1iNENqalFqUTZ3aWVXejF5NEFRQnNOS0dtbjFaa0U3bmJKVGk4VGNYTU1TTU10Um1OOFRvRjgycEVvR1YtWGJyVWRITFFtS3JPM0dsZERmSXB4Mg?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-10T07:00:00+00:00",
+      "latest_seen": "2026-03-10T07:00:00+00:00",
+      "age_hours": 1335.7,
+      "score": 43.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b4f815a13c57a812",
+          "title": "Heaviest day of strikes yet on Iran despite market bets that war will end soon",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeE03RDlQd01JMVpEZjlxODJDNW1EbHBPSnVUMEdqaFFLN0hrYzRGTzdTT3piWVROaVV5NGtOWEhzY1BiRGNITDB1M3hkbzAzejMtUUsyUHpHSi1JbkVOTDBNMG1FSlN5VENNMDBMeVFrSXMyYU1iNENqalFqUTZ3aWVXejF5NEFRQnNOS0dtbjFaa0U3bmJKVGk4VGNYTU1TTU10Um1OOFRvRjgycEVvR1YtWGJyVWRITFFtS3JPM0dsZERmSXB4Mg?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-03-10T07:00:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -64,7 +194,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 614.68,
+      "age_hours": 615.7,
       "score": 40.2,
       "score_components": {
         "source_count_points": 15,
@@ -104,7 +234,7 @@
           "confidence": 0.65
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -121,11 +251,11 @@
       ],
       "earliest_seen": "2026-05-03T22:01:43+00:00",
       "latest_seen": "2026-05-03T22:01:43+00:00",
-      "age_hours": 23.65,
-      "score": 39.31,
+      "age_hours": 24.68,
+      "score": 38.69,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.81,
+        "recency_points": 10.19,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -141,88 +271,6 @@
           "source_type": "rss",
           "published_at": "2026-05-03T22:01:43+00:00",
           "confidence": 0.95
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f2684e6e2ee678",
-      "topic": "breaking",
-      "lead_title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFVCX2djRl9zQWlmMl81bVd6b3pqbFlOdkl3V0dFaGFKS21DX0FDMXB4cVVWRDljcl9zTkdvUk5CU2V5elliVENtMmNMaHRxS3hqSmJXQk5qMmsyT0NocUNTQnRialNoZ1czaHJTZlhfRXd2Z1djazQ0a0JQTlpjMFBPRjdvOFVJT1ItenBfUlJhbnpoY2ZpMWVsc2ViVUVpU0pNMTAwdWk4REVoZWtTTXdud1daU3FmWnfSAb8BQVVfeXFMT3pKRTZ1dUREa2dOdTMxS1Q1TWg2MWUwSjloRUJlcFpFZHZ1SHh3QlhfYXdDa05OUDMtSTk1d2xWOXFTVENxSWZXcjFvaUp1V2JxaTRlNC1ucFZwYnVyZ1NpWm01ZWwtTEt2QmlBZHF5V2dfbEhHU01xRkQyd21vNW9xbGFBZm52bnlLbzNsUjNGajVQb1ZJY1hnbEtGbjVFRkRKQ1YxSEhXTC12M3pBXzEtZ2xPZXRuX194c0Zpb1E?oc=5",
-      "lead_source": "PBS",
-      "canonical_entities": [
-        "attack"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-19T07:00:00+00:00",
-      "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 1118.68,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "633d7efb9611fe58",
-          "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNaFVCX2djRl9zQWlmMl81bVd6b3pqbFlOdkl3V0dFaGFKS21DX0FDMXB4cVVWRDljcl9zTkdvUk5CU2V5elliVENtMmNMaHRxS3hqSmJXQk5qMmsyT0NocUNTQnRialNoZ1czaHJTZlhfRXd2Z1djazQ0a0JQTlpjMFBPRjdvOFVJT1ItenBfUlJhbnpoY2ZpMWVsc2ViVUVpU0pNMTAwdWk4REVoZWtTTXdud1daU3FmWnfSAb8BQVVfeXFMT3pKRTZ1dUREa2dOdTMxS1Q1TWg2MWUwSjloRUJlcFpFZHZ1SHh3QlhfYXdDa05OUDMtSTk1d2xWOXFTVENxSWZXcjFvaUp1V2JxaTRlNC1ucFZwYnVyZ1NpWm01ZWwtTEt2QmlBZHF5V2dfbEhHU01xRkQyd21vNW9xbGFBZm52bnlLbzNsUjNGajVQb1ZJY1hnbEtGbjVFRkRKQ1YxSEhXTC12M3pBXzEtZ2xPZXRuX194c0Zpb1E?oc=5",
-          "source": "PBS",
-          "source_type": "rss",
-          "published_at": "2026-03-19T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_51e02f2f26053b",
-      "topic": "breaking",
-      "lead_title": "Attacks on major oil, gas sites in the Middle East",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOG4tcXhwUlRtUFFoNk80Z0c3dVpfMDdGR2lqTU9iT29CTW0xYmM1Y05MeEVaUmdTSVZjbUxDRE5pRW5ucHlCNnRVbGdKMTdNVGpQQ3E1Zk9lZDFfdGFnbGtodTFuOFNvY0hVSnQ0UEdmQWVScGR6WG8yYktsSVQwSEFySTZyQUtkaVBZVTRXS214RTJ1U0lrLVBEeVFoalllSFVsNWdCQWg5RWxaeGF6eWlxMVhoMG90WF9NX05VNmQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "attack"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-20T07:00:00+00:00",
-      "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 1094.68,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0eb2a96713ad7c9a",
-          "title": "Attacks on major oil, gas sites in the Middle East",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOG4tcXhwUlRtUFFoNk80Z0c3dVpfMDdGR2lqTU9iT29CTW0xYmM1Y05MeEVaUmdTSVZjbUxDRE5pRW5ucHlCNnRVbGdKMTdNVGpQQ3E1Zk9lZDFfdGFnbGtodTFuOFNvY0hVSnQ0UEdmQWVScGR6WG8yYktsSVQwSEFySTZyQUtkaVBZVTRXS214RTJ1U0lrLVBEeVFoalllSFVsNWdCQWg5RWxaeGF6eWlxMVhoMG90WF9NX05VNmQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-03-20T07:00:00+00:00",
-          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -244,7 +292,7 @@
       ],
       "earliest_seen": "2026-03-18T07:00:00+00:00",
       "latest_seen": "2026-03-18T07:00:00+00:00",
-      "age_hours": 1142.68,
+      "age_hours": 1143.7,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -285,7 +333,7 @@
       ],
       "earliest_seen": "2026-03-14T07:00:00+00:00",
       "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 1238.68,
+      "age_hours": 1239.7,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -326,7 +374,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 1118.68,
+      "age_hours": 1119.7,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -367,7 +415,7 @@
       ],
       "earliest_seen": "2026-04-09T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 614.68,
+      "age_hours": 615.7,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -408,7 +456,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 638.68,
+      "age_hours": 639.7,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -449,7 +497,7 @@
       ],
       "earliest_seen": "2026-03-22T07:00:00+00:00",
       "latest_seen": "2026-03-22T07:00:00+00:00",
-      "age_hours": 1046.68,
+      "age_hours": 1047.7,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -488,7 +536,7 @@
       ],
       "earliest_seen": "2026-03-31T07:00:00+00:00",
       "latest_seen": "2026-03-31T07:00:00+00:00",
-      "age_hours": 830.68,
+      "age_hours": 831.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -527,7 +575,7 @@
       ],
       "earliest_seen": "2026-03-23T07:00:00+00:00",
       "latest_seen": "2026-03-23T07:00:00+00:00",
-      "age_hours": 1022.68,
+      "age_hours": 1023.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -566,7 +614,7 @@
       ],
       "earliest_seen": "2026-03-22T07:00:00+00:00",
       "latest_seen": "2026-03-22T07:00:00+00:00",
-      "age_hours": 1046.68,
+      "age_hours": 1047.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -605,7 +653,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 1118.68,
+      "age_hours": 1119.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -644,7 +692,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 1118.68,
+      "age_hours": 1119.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -683,7 +731,7 @@
       ],
       "earliest_seen": "2026-03-13T07:00:00+00:00",
       "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 1262.68,
+      "age_hours": 1263.7,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -722,7 +770,7 @@
       ],
       "earliest_seen": "2026-03-29T07:00:00+00:00",
       "latest_seen": "2026-03-29T07:00:00+00:00",
-      "age_hours": 878.68,
+      "age_hours": 879.7,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
@@ -761,7 +809,7 @@
       ],
       "earliest_seen": "2026-03-23T07:00:00+00:00",
       "latest_seen": "2026-03-23T07:00:00+00:00",
-      "age_hours": 1022.68,
+      "age_hours": 1023.7,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
@@ -800,7 +848,7 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 1118.68,
+      "age_hours": 1119.7,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -841,7 +889,7 @@
       ],
       "earliest_seen": "2026-04-09T07:00:00+00:00",
       "latest_seen": "2026-04-09T07:00:00+00:00",
-      "age_hours": 614.68,
+      "age_hours": 615.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -882,7 +930,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 638.68,
+      "age_hours": 639.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -923,7 +971,7 @@
       ],
       "earliest_seen": "2026-04-03T07:00:00+00:00",
       "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 758.68,
+      "age_hours": 759.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -964,7 +1012,7 @@
       ],
       "earliest_seen": "2026-04-03T07:00:00+00:00",
       "latest_seen": "2026-04-03T07:00:00+00:00",
-      "age_hours": 758.68,
+      "age_hours": 759.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1005,7 +1053,7 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 998.68,
+      "age_hours": 999.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1046,7 +1094,7 @@
       ],
       "earliest_seen": "2026-03-23T07:00:00+00:00",
       "latest_seen": "2026-03-23T07:00:00+00:00",
-      "age_hours": 1022.68,
+      "age_hours": 1023.7,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1065,88 +1113,6 @@
           "source": "The New York Times",
           "source_type": "rss",
           "published_at": "2026-03-23T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d86785152bbb10",
-      "topic": "breaking",
-      "lead_title": "Attacks on Middle East energy sites deepen threat to US economy, analysts say",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMU5ncGo1ZVNqcFRTaVJzZWVMV2FWek9TLXhvZkRPZGxwUVJPUXdwWGdlN1h0azdBTUNYZ25fMmpkNkVWallWb1Vjb1RPN1J4eWlxMlVueUI5S0xpOF8zSkF3MlphUWFqNFk0cVFIZlM5Y2V0TmNjUEZ2RDNQdnJJbmRWTG9aOTNJNUN0UUk4a1FkWkU3NW84Sml4OVdjZ9IBowFBVV95cUxOSC1SWFZKckVGa01WTkgyM2FDaFJCTVpibWpCY2RlYkdXTHlUb0M4ZDBfaDcyRzVJV1NhR09oT3JvR1dZbmlRSkdnWGQ2aGFueGpGTUFVelNIa0ZrbkdXeUVnSHlTdTFrM05Yb0J6Vk9weUF4YzMwYzRzSndJZkowRENiYzhSTWZXS3AxZHNteEZraDk1MlFsNVJxQmlTN3l0ODNV?oc=5",
-      "lead_source": "ABC News - Breaking News, Latest News and Videos",
-      "canonical_entities": [
-        "attack"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-20T07:00:00+00:00",
-      "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 1094.68,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0681d9f306b0fdbe",
-          "title": "Attacks on Middle East energy sites deepen threat to US economy, analysts say",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMU5ncGo1ZVNqcFRTaVJzZWVMV2FWek9TLXhvZkRPZGxwUVJPUXdwWGdlN1h0azdBTUNYZ25fMmpkNkVWallWb1Vjb1RPN1J4eWlxMlVueUI5S0xpOF8zSkF3MlphUWFqNFk0cVFIZlM5Y2V0TmNjUEZ2RDNQdnJJbmRWTG9aOTNJNUN0UUk4a1FkWkU3NW84Sml4OVdjZ9IBowFBVV95cUxOSC1SWFZKckVGa01WTkgyM2FDaFJCTVpibWpCY2RlYkdXTHlUb0M4ZDBfaDcyRzVJV1NhR09oT3JvR1dZbmlRSkdnWGQ2aGFueGpGTUFVelNIa0ZrbkdXeUVnSHlTdTFrM05Yb0J6Vk9weUF4YzMwYzRzSndJZkowRENiYzhSTWZXS3AxZHNteEZraDk1MlFsNVJxQmlTN3l0ODNV?oc=5",
-          "source": "ABC News - Breaking News, Latest News and Videos",
-          "source_type": "rss",
-          "published_at": "2026-03-20T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f96821c01e91f8",
-      "topic": "breaking",
-      "lead_title": "Trump rules out Iran ceasefire, missile debris hits Jerusalem's Old City",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd1psNkdZeGRJY3B4WTBzeDhtRHpmOGY1dVhIWE52TEREY0h1QVF1d0xpNkg3aVR5eGM5bnV6MjZ2Y0hOemJWMmF0MV9kSHZ2MjNPVmpVRGwxV2FpYUdNTHFsOU9vYUdTRkh3YjlWd0NkU0dIcWtOODdaaExKRHV3aTA5c0VyNjZmY0xoZW5yZE9kS3pycFpYUEllZUxwNm5fb1lJV0xyWS0tV3EwblozTnNhSjVmUEplX0hxNHRYaUE?oc=5",
-      "lead_source": "France 24",
-      "canonical_entities": [
-        "ceasefire"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-20T07:00:00+00:00",
-      "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 1094.68,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "825fb336983f4856",
-          "title": "Trump rules out Iran ceasefire, missile debris hits Jerusalem's Old City",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOd1psNkdZeGRJY3B4WTBzeDhtRHpmOGY1dVhIWE52TEREY0h1QVF1d0xpNkg3aVR5eGM5bnV6MjZ2Y0hOemJWMmF0MV9kSHZ2MjNPVmpVRGwxV2FpYUdNTHFsOU9vYUdTRkh3YjlWd0NkU0dIcWtOODdaaExKRHV3aTA5c0VyNjZmY0xoZW5yZE9kS3pycFpYUEllZUxwNm5fb1lJV0xyWS0tV3EwblozTnNhSjVmUEplX0hxNHRYaUE?oc=5",
-          "source": "France 24",
-          "source_type": "rss",
-          "published_at": "2026-03-20T07:00:00+00:00",
           "confidence": 0.65
         }
       ],
