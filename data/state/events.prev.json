@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-04T21:40:41.531309+00:00",
-  "previous_generated_at": "2026-05-04T20:24:42.052430+00:00",
-  "resolver_run_count": 18,
+  "generated_at": "2026-05-04T22:42:15.685136+00:00",
+  "previous_generated_at": "2026-05-04T21:40:41.531309+00:00",
+  "resolver_run_count": 19,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,17 @@
       "status_detail": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.861,
-      "last_confirmed": "2026-05-04T20:33:00+00:00",
+      "confidence": 0.865,
+      "last_confirmed": "2026-05-04T21:28:00+00:00",
       "source_count": 10,
       "summary_short": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz",
-      "summary_long": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz. OPEC+ set raises output as Strait of Hormuz blockade disrupt oil flows",
+      "summary_long": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz. Oil prices jump on Hormuz tensions as US indices retreat from records",
       "evidence_cluster_ids": [
         "c_917a312b96a556",
+        "c_746d56cfef9f19",
         "c_e78a364f734300",
         "c_d08694355dda1f",
-        "c_88a3c367b261ac",
-        "c_35fa2d97c99f4d"
+        "c_88a3c367b261ac"
       ],
       "evidence_count": 5,
       "affected_pages": [
@@ -41,10 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_917a312b96 → CONTESTED (kw='attack', weight=0.76)",
-        "cluster c_e78a364f73 → CLOSED (kw='blockade', weight=0.67) [OPEN suppressed]",
-        "cluster c_88a3c367b2 → CONTESTED (kw='attack', weight=0.61)",
-        "winning=CONTESTED (1.36/2.03), conf=0.861"
+        "cluster c_917a312b96 → CONTESTED (kw='attack', weight=0.73)",
+        "cluster c_e78a364f73 → CLOSED (kw='blockade', weight=0.55) [OPEN suppressed]",
+        "cluster c_88a3c367b2 → CONTESTED (kw='attack', weight=0.49)",
+        "winning=CONTESTED (1.22/1.77), conf=0.865"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-04T21:18:07+00:00",
-      "source_count": 16,
+      "last_confirmed": "2026-05-04T21:22:00+00:00",
+      "source_count": 19,
       "summary_short": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz",
-      "summary_long": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz. U.A.E. says Iran has resumed attacks as U.S. moves to reopen Strait of Hormuz",
+      "summary_long": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz. Oil prices jump as uncertainty rises about Iran war",
       "evidence_cluster_ids": [
         "c_917a312b96a556",
-        "c_b45d1334aa20e3",
-        "c_8a7d5b41fa6312",
         "c_825db268398dab",
-        "c_0c17ce30ea5d85"
+        "c_8ab9d7af31f51c",
+        "c_af974c6ef3fbe3",
+        "c_a7634cad4e9e93"
       ],
-      "evidence_count": 11,
+      "evidence_count": 13,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -96,7 +96,7 @@
       "status_detail": "OPEC+ set raises output as Strait of Hormuz blockade disrupt oil flows",
       "status_tag": "Output rising",
       "risk_level": "LOW",
-      "confidence": 0.968,
+      "confidence": 0.958,
       "last_confirmed": "2026-05-04T20:33:00+00:00",
       "source_count": 1,
       "summary_short": "OPEC+ set raises output as Strait of Hormuz blockade disrupt oil flows",
@@ -117,11 +117,9 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "cluster c_e78a364f73 → INCREASING (kw='raises output', weight=0.67)",
-        "winning=INCREASING (0.67/0.67), conf=0.968"
-      ],
-      "previous_status": "HOLDING",
-      "last_changed": "2026-05-04T21:40:41.531209+00:00"
+        "cluster c_e78a364f73 → INCREASING (kw='raises output', weight=0.55)",
+        "winning=INCREASING (0.55/0.55), conf=0.958"
+      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -157,13 +155,13 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_269478850d6c02",
-      "lead_title": "WTI and Brent crude oil prices trended higher with volatility, as WTI crude oil surged over 2%.",
-      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQNm5GdEdoTUdnbkh6cUYzc3pGOVljV2xyd3U1Zl9XTENodEVUWV9iQjhVWWh4bXM1ZU9pRXB0cXYxdkE3d3ZRbVFDQWp4ekduU01VeVZ6cjVUVVllXzVlTlRsbU4xUFdReUg3UVJGeVFkLU5aNDhYYlI5OVJqclppRU5XM2tHTE5KTFhaRFlva0hrLWw5aFNKdnlaVHdDVndhZWNacQ?oc=5",
-      "lead_source": "富途牛牛",
+      "cluster_id": "c_5c74b08c965f29",
+      "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 88.32,
-      "novelty": "growing",
+      "score": 87.19,
+      "novelty": "ongoing",
       "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
@@ -174,20 +172,10 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "opec_plus_policy",
-      "field": "status",
-      "from": "HOLDING",
-      "to": "INCREASING",
-      "detected_at": "2026-05-04T21:40:41.531209+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.861, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.865, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=INCREASING, confidence=0.968, fresh=fresh"
+    "opec_plus_policy: resolved=INCREASING, confidence=0.958, fresh=fresh"
   ]
 }
