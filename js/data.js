@@ -58,12 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Iran Sends Updated Peace Proposal Through Pakistan; Trump 'Not Satisfied'", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "ExxonMobil Q1 Profit Falls to 5-Year Low at $4.2B Despite Beating Estimates", cat: "Company News", slug: "company-news", time: "3h" },
-  { title: "Chevron Posts Biggest Earnings Beat Since 2020 on Record Production", cat: "Company News", slug: "company-news", time: "4h" },
-  { title: "U.S. Gas Average Surges to $4.39, Up 25 Cents in Three Days", cat: "Gas Prices", slug: "gas-prices", time: "6h" },
-  { title: "Trump Briefed on Expanded Iran Military Options as Crude Hit 4-Year High", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
-  { title: "Mojtaba Khamenei Vows to Retain Nuclear and Missile Capabilities", cat: "Geopolitics", slug: "geopolitics", time: "2d" },
+  { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil Rally Stalls as Iran Proposal Triggers Profit-Taking", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Crude beyond $120: Oil prices touch four-year peak, here's what analysts are saying", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
