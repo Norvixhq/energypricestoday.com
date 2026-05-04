@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-03T23:05:54.822719+00:00",
-  "previous_generated_at": "2026-05-03T22:08:39.085377+00:00",
-  "resolver_run_count": 7,
+  "generated_at": "2026-05-04T00:06:07.089309+00:00",
+  "previous_generated_at": "2026-05-03T23:05:54.822719+00:00",
+  "resolver_run_count": 8,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,11 +12,11 @@
       "status_detail": "Japan imports Russian oil after Hormuz disruption",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.96,
+      "confidence": 0.952,
       "last_confirmed": "2026-05-03T22:45:35+00:00",
-      "source_count": 12,
-      "summary_short": "In early Asia-Pacific trading on Monday, Brent crude oil futures fell by 2.4%, WTI crude oil futures dropped by 1.6%, an",
-      "summary_long": "In early Asia-Pacific trading on Monday, Brent crude oil futures fell by 2.4%, WTI crude oil futures dropped by 1.6%, and the United States plans to guide ships through the Strait of Hormuz.. Japan imports Russian oil after Hormuz disruption",
+      "source_count": 8,
+      "summary_short": "Japan imports Russian oil after Hormuz disruption",
+      "summary_long": "Japan imports Russian oil after Hormuz disruption. In early Asia-Pacific trading on Monday, Brent crude oil futures fell by 2.4%, WTI crude oil futures",
       "evidence_cluster_ids": [
         "c_6501a3aec9a342",
         "c_85c3ed29ea5031",
@@ -24,7 +24,7 @@
         "c_8584ecd4f1807f",
         "c_287da0e3aacafb"
       ],
-      "evidence_count": 8,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_6501a3aec9 → CLOSED (kw='closure', weight=0.73) [OPEN suppressed]",
-        "cluster c_85c3ed29ea → CLOSED (kw='blockade', weight=0.52) [OPEN suppressed]",
-        "cluster c_4ffdd6a1dd → CLOSED (kw='closure', weight=0.23) [OPEN suppressed]",
-        "winning=CLOSED (1.48/1.48), conf=0.96"
+        "cluster c_6501a3aec9 → CLOSED (kw='closure', weight=0.61) [OPEN suppressed]",
+        "winning=CLOSED (0.61/0.61), conf=0.952"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,17 +55,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-03T17:52:00+00:00",
-      "source_count": 8,
+      "source_count": 9,
       "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
-      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. Iran oil shipments continue despite US seizures and diversions",
       "evidence_cluster_ids": [
         "c_85c3ed29ea5031",
-        "c_58727078c24f94",
-        "c_0d87361bc65275",
         "c_8ba448eac9045d",
-        "c_4a985f009fcd7c"
+        "c_58727078c24f94",
+        "c_4a985f009fcd7c",
+        "c_efbfe0ca9f3472"
       ],
-      "evidence_count": 7,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -98,17 +96,17 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-03T22:36:32+00:00",
-      "source_count": 7,
-      "summary_short": "Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'",
-      "summary_long": "Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'. Crude Oil Prices Dip Below $100 after OPEC Hike, Hawkish FED and Middle East Comments",
+      "source_count": 5,
+      "summary_short": "OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output",
+      "summary_long": "OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output. Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'",
       "evidence_cluster_ids": [
-        "c_4ffdd6a1dddbbb",
         "c_bb95611a600c8e",
         "c_eacf0c4400a122",
-        "c_76e59aa02d0e60",
-        "c_a1366377569467"
+        "c_5b6f0c02af2b90",
+        "c_a1366377569467",
+        "c_1e569b39d15458"
       ],
-      "evidence_count": 7,
+      "evidence_count": 5,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -158,14 +156,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_33d1c51deac1df",
+      "cluster_id": "c_f674a4a05cb0e9",
       "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
       "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 88.19,
+      "score": 88.18,
       "novelty": "new",
-      "source_count": 7,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -177,7 +175,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.96, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.952, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
