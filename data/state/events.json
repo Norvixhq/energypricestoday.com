@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-04T00:06:07.089309+00:00",
-  "previous_generated_at": "2026-05-03T23:05:54.822719+00:00",
-  "resolver_run_count": 8,
+  "generated_at": "2026-05-04T04:12:21.660945+00:00",
+  "previous_generated_at": "2026-05-04T00:06:07.089309+00:00",
+  "resolver_run_count": 9,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Japan imports Russian oil after Hormuz disruption",
+      "status_detail": "Ulsan Crude Oil Imports Plunge 40% as Hormuz Blockade Bites",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.952,
-      "last_confirmed": "2026-05-03T22:45:35+00:00",
-      "source_count": 8,
-      "summary_short": "Japan imports Russian oil after Hormuz disruption",
-      "summary_long": "Japan imports Russian oil after Hormuz disruption. In early Asia-Pacific trading on Monday, Brent crude oil futures fell by 2.4%, WTI crude oil futures",
+      "confidence": 0.963,
+      "last_confirmed": "2026-05-04T03:53:11+00:00",
+      "source_count": 13,
+      "summary_short": "In early Asia-Pacific trading on Monday, Brent crude oil futures fell by 2.4%, WTI crude oil futures dropped by 1.6%, an",
+      "summary_long": "In early Asia-Pacific trading on Monday, Brent crude oil futures fell by 2.4%, WTI crude oil futures dropped by 1.6%, and the United States plans to guide ships through the Strait of Hormuz.. Oil slips after Trump says US will help free ships stranded in Strait of Hormuz",
       "evidence_cluster_ids": [
+        "c_67587291efdacf",
+        "c_0de5dff72fb491",
+        "c_bbd918ac8e1b63",
         "c_6501a3aec9a342",
-        "c_85c3ed29ea5031",
-        "c_795ede6ecc3ea1",
-        "c_8584ecd4f1807f",
-        "c_287da0e3aacafb"
+        "c_85c3ed29ea5031"
       ],
-      "evidence_count": 7,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_6501a3aec9 → CLOSED (kw='closure', weight=0.61) [OPEN suppressed]",
-        "winning=CLOSED (0.61/0.61), conf=0.952"
+        "cluster c_0de5dff72f → CLOSED (kw='blockade', weight=0.59) [OPEN suppressed]",
+        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.42) [OPEN suppressed]",
+        "winning=CLOSED (1.00/1.00), conf=0.963"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T17:52:00+00:00",
-      "source_count": 9,
-      "summary_short": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran",
-      "summary_long": "US oil port sees record-high traffic while Strait of Hormuz suffocated by Iran. Iran oil shipments continue despite US seizures and diversions",
+      "last_confirmed": "2026-05-04T03:09:01+00:00",
+      "source_count": 12,
+      "summary_short": "iran us peace talks oil price impact middle east crisis",
+      "summary_long": "iran us peace talks oil price impact middle east crisis. America’s Iran war for oil signals environmental disaster",
       "evidence_cluster_ids": [
+        "c_81d25659cd3171",
+        "c_860c85b55cc69d",
         "c_85c3ed29ea5031",
-        "c_8ba448eac9045d",
         "c_58727078c24f94",
-        "c_4a985f009fcd7c",
-        "c_efbfe0ca9f3472"
+        "c_716d6afc441113"
       ],
-      "evidence_count": 9,
+      "evidence_count": 12,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -95,18 +96,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T22:36:32+00:00",
-      "source_count": 5,
-      "summary_short": "OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output",
-      "summary_long": "OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output. Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'",
+      "last_confirmed": "2026-05-04T02:36:57+00:00",
+      "source_count": 10,
+      "summary_short": "OPEC+ Agrees to Raise Crude Oil Output Target by 188,000 Barrels Per Day Starting Next Month",
+      "summary_long": "OPEC+ Agrees to Raise Crude Oil Output Target by 188,000 Barrels Per Day Starting Next Month. OPEC+ agrees third oil output quota hike since Hormuz closure",
       "evidence_cluster_ids": [
-        "c_bb95611a600c8e",
+        "c_10de7deda0c7b5",
+        "c_fd6b1fdac14eeb",
         "c_eacf0c4400a122",
-        "c_5b6f0c02af2b90",
-        "c_a1366377569467",
-        "c_1e569b39d15458"
+        "c_bb95611a600c8e",
+        "c_7b4d6093b98efd"
       ],
-      "evidence_count": 5,
+      "evidence_count": 8,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -156,14 +157,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_f674a4a05cb0e9",
+      "cluster_id": "c_65c36d8a92b97e",
       "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
       "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 88.18,
+      "score": 90.42,
       "novelty": "new",
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -175,7 +176,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.952, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.963, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
