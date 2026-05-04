@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil Rally Stalls as Iran Proposal Triggers Profit-Taking", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Crude beyond $120: Oil prices touch four-year peak, here's what analysts are saying", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil Jumps as Iran Resists Trump’s Offer to Help Ships Through Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices flat as Trump’s plan for Strait of Hormuz fails to calm market", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Current price of oil as of May 1, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Crude beyond $120: Oil prices touch four-year peak, here's what analysts are saying", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
   { title: "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "US Crude Oil, Oil Product Inventories Come Crashing Down", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "StanChart $95 Per Barrel Is The New Oil Price Equilibrium", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
