@@ -179,3 +179,14 @@
 [2026-05-04T20:24:42.052408+00:00] resolver: no state changes
 [2026-05-04T20:24:42.053015+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-04T20:24:42.053053+00:00] ════════════════════════════════════════════════════════════
+[2026-05-04T21:40:41.525342+00:00] resolver: start
+[2026-05-04T21:40:41.529296+00:00] resolver: scanning 261 clusters across 10 topics
+[2026-05-04T21:40:41.529659+00:00]   hormuz_status: CONTESTED (conf=0.861, freshness=fresh, clusters=5)
+[2026-05-04T21:40:41.530813+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=11)
+[2026-05-04T21:40:41.530960+00:00]   opec_plus_policy: INCREASING (conf=0.968, freshness=fresh, clusters=1)
+[2026-05-04T21:40:41.531004+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-05-04T21:40:41.531174+00:00]   top_story: 'WTI and Brent crude oil prices trended higher with volatilit' (score=88.32)
+[2026-05-04T21:40:41.531227+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-05-04T21:40:41.531256+00:00]   Δ opec_plus_policy.status: 'HOLDING' → 'INCREASING' (triggers_publish=True)
+[2026-05-04T21:40:41.531791+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-04T21:40:41.531835+00:00] ════════════════════════════════════════════════════════════

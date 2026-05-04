@@ -1,30 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-05-04T18:59:03.853883+00:00",
-  "previous_generated_at": "2026-05-04T17:13:53.095684+00:00",
-  "resolver_run_count": 16,
+  "generated_at": "2026-05-04T20:24:42.052430+00:00",
+  "previous_generated_at": "2026-05-04T18:59:03.853883+00:00",
+  "resolver_run_count": 17,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz",
+      "status_detail": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.902,
-      "last_confirmed": "2026-05-04T18:32:54+00:00",
-      "source_count": 9,
-      "summary_short": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz",
-      "summary_long": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz. Oil surges as Strait of Hormuz tensions escalate after UAE drone strike",
+      "confidence": 0.957,
+      "last_confirmed": "2026-05-04T19:32:00+00:00",
+      "source_count": 7,
+      "summary_short": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz",
+      "summary_long": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz. Watch US to Guide Trapped Ships Through Hormuz; Oil Steadies | Horizons Middle East & Africa 4/5/202",
       "evidence_cluster_ids": [
-        "c_b6dff64c58c869",
-        "c_cabffa420c477a",
+        "c_917a312b96a556",
         "c_d08694355dda1f",
-        "c_fd6b1fdac14eeb",
         "c_35fa2d97c99f4d"
       ],
-      "evidence_count": 5,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +39,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b6dff64c58 → CONTESTED (kw='attack', weight=0.83)",
-        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.19) [OPEN suppressed]",
-        "winning=CONTESTED (0.83/1.02), conf=0.902"
+        "cluster c_917a312b96 → CONTESTED (kw='attack', weight=0.84)",
+        "winning=CONTESTED (0.84/0.84), conf=0.957"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,18 +52,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-04T18:46:52+00:00",
-      "source_count": 21,
-      "summary_short": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz",
-      "summary_long": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz. UAE's Fujairah says fire breaks out at petroleum complex after Iranian drone attack",
+      "last_confirmed": "2026-05-04T19:57:25+00:00",
+      "source_count": 22,
+      "summary_short": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz",
+      "summary_long": "Oil jumps, stocks drop as Iran tightens grip on Strait of Hormuz. Oil prices jump as uncertainty rises about Iran war",
       "evidence_cluster_ids": [
-        "c_b6dff64c58c869",
-        "c_b45d1334aa20e3",
-        "c_af974c6ef3fbe3",
-        "c_40489cbdc6ac4f",
-        "c_a7634cad4e9e93"
+        "c_917a312b96a556",
+        "c_825db268398dab",
+        "c_0c17ce30ea5d85",
+        "c_2426cff570e028",
+        "c_b45d1334aa20e3"
       ],
-      "evidence_count": 16,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -96,15 +93,16 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-03T11:34:45+00:00",
-      "source_count": 2,
-      "summary_short": "OPEC+ agrees third oil output quota hike since Hormuz closure",
-      "summary_long": "OPEC+ agrees third oil output quota hike since Hormuz closure. U.A.E.’s OPEC Exit Deals Major Blow to Cartel Amid Middle East Oil Squeeze",
+      "last_confirmed": "2026-05-03T12:54:00+00:00",
+      "source_count": 3,
+      "summary_short": "OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output",
+      "summary_long": "OPEC Signals Unity After U.A.E. Exit With Pledge to Boost Oil Output. UAE quits Opec in win for Trump as oil cartel weakened",
       "evidence_cluster_ids": [
-        "c_fd6b1fdac14eeb",
-        "c_e2958b1e3c0ee3"
+        "c_256f4c7ff7f7af",
+        "c_9f578ac0f7a5ba",
+        "c_43fff660d862d7"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -159,8 +157,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 99.12,
-      "novelty": "new",
+      "score": 88.26,
+      "novelty": "ongoing",
       "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
@@ -173,7 +171,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.902, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
