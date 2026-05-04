@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-04T17:13:53.095684+00:00",
-  "previous_generated_at": "2026-05-04T15:27:38.525708+00:00",
-  "resolver_run_count": 15,
+  "generated_at": "2026-05-04T18:59:03.853883+00:00",
+  "previous_generated_at": "2026-05-04T17:13:53.095684+00:00",
+  "resolver_run_count": 16,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks",
+      "status_detail": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.846,
-      "last_confirmed": "2026-05-04T14:54:59+00:00",
-      "source_count": 16,
-      "summary_short": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.",
-      "summary_long": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.. Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks",
+      "confidence": 0.902,
+      "last_confirmed": "2026-05-04T18:32:54+00:00",
+      "source_count": 9,
+      "summary_short": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz",
+      "summary_long": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz. Oil surges as Strait of Hormuz tensions escalate after UAE drone strike",
       "evidence_cluster_ids": [
-        "c_5e3736df2379e0",
-        "c_453587151f5365",
+        "c_b6dff64c58c869",
+        "c_cabffa420c477a",
         "c_d08694355dda1f",
-        "c_96539688f71202",
-        "c_5498eb12958f6b"
+        "c_fd6b1fdac14eeb",
+        "c_35fa2d97c99f4d"
       ],
-      "evidence_count": 9,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_5e3736df23 → CLOSED (kw='blockade', weight=0.71) [OPEN suppressed]",
-        "cluster c_5498eb1295 → CONTESTED (kw='attack', weight=0.70)",
-        "cluster c_3963ae978b → CONTESTED (kw='attack', weight=0.52)",
-        "winning=CONTESTED (1.22/1.93), conf=0.846"
+        "cluster c_b6dff64c58 → CONTESTED (kw='attack', weight=0.83)",
+        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.19) [OPEN suppressed]",
+        "winning=CONTESTED (0.83/1.02), conf=0.902"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,16 +55,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-04T16:35:00+00:00",
-      "source_count": 19,
-      "summary_short": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.",
-      "summary_long": "The UAE Says Their Oil Tanker Was Attacked By Two Iranian Drones In The Strait Of Hormuz.. Korean ship on fire in strait, Iran hits UAE oil port after Trump says Navy will help ships cross",
+      "last_confirmed": "2026-05-04T18:46:52+00:00",
+      "source_count": 21,
+      "summary_short": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz",
+      "summary_long": "Oil prices jump 6% as Iran sets UAE oil port ablaze, strikes vessels in Strait of Hormuz. UAE's Fujairah says fire breaks out at petroleum complex after Iranian drone attack",
       "evidence_cluster_ids": [
-        "c_5e3736df2379e0",
-        "c_d0e9b25e7bde52",
-        "c_ec0f8d5190ca8d",
-        "c_0b5ae1504cd87a",
-        "c_c930afd68ee154"
+        "c_b6dff64c58c869",
+        "c_b45d1334aa20e3",
+        "c_af974c6ef3fbe3",
+        "c_40489cbdc6ac4f",
+        "c_a7634cad4e9e93"
       ],
       "evidence_count": 16,
       "affected_pages": [
@@ -96,15 +95,16 @@
       "status_detail": "no definitive signals",
       "status_tag": "No change",
       "risk_level": "LOW",
-      "confidence": 0.425,
-      "last_confirmed": "2026-04-29T16:47:49+00:00",
-      "source_count": 1,
-      "summary_short": "Middle East oil production plunges due to Iran war, OPEC data shows",
-      "summary_long": "Middle East oil production plunges due to Iran war, OPEC data shows",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-03T11:34:45+00:00",
+      "source_count": 2,
+      "summary_short": "OPEC+ agrees third oil output quota hike since Hormuz closure",
+      "summary_long": "OPEC+ agrees third oil output quota hike since Hormuz closure. U.A.E.’s OPEC Exit Deals Major Blow to Cartel Amid Middle East Oil Squeeze",
       "evidence_cluster_ids": [
-        "c_716d6afc441113"
+        "c_fd6b1fdac14eeb",
+        "c_e2958b1e3c0ee3"
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -114,7 +114,7 @@
         "markets.drivers.opec"
       ],
       "update_priority": "high",
-      "freshness": "aging",
+      "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
         "fell back to default 'HOLDING'"
@@ -154,14 +154,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_e7ba4c6e16afb7",
+      "cluster_id": "c_5c74b08c965f29",
       "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
       "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 83.38,
-      "novelty": "ongoing",
-      "source_count": 6,
+      "score": 99.12,
+      "novelty": "new",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -173,8 +173,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.846, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.902, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.425, fresh=aging"
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
