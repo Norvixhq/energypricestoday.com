@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-04T09:38:46.586018+00:00",
-  "previous_generated_at": "2026-05-04T07:27:18.572865+00:00",
-  "resolver_run_count": 11,
+  "generated_at": "2026-05-04T11:28:12.939607+00:00",
+  "previous_generated_at": "2026-05-04T09:38:46.586018+00:00",
+  "resolver_run_count": 12,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CLOSED",
-      "status_detail": "OPEC+ agrees third oil output quota hike since Hormuz closure",
-      "status_tag": "Strait closed",
-      "risk_level": "HIGH",
-      "confidence": 0.957,
-      "last_confirmed": "2026-05-04T08:14:05+00:00",
-      "source_count": 12,
-      "summary_short": "Oil Markets on Edge: Iran Labels US Involvement in Hormuz a Ceasefire Breach",
-      "summary_long": "Oil Markets on Edge: Iran Labels US Involvement in Hormuz a Ceasefire Breach. Watch US to Guide Trapped Ships Through Hormuz; Oil Steadies | Horizons Middle East & Africa 4/5/202",
+      "status": "CONTESTED",
+      "status_detail": "US stock futures fall, crude oil jumps over 5% after reports of attack on US warship in Strait of Hormuz",
+      "status_tag": "Tankers at risk",
+      "risk_level": "ELEVATED",
+      "confidence": 0.869,
+      "last_confirmed": "2026-05-04T10:49:37+00:00",
+      "source_count": 13,
+      "summary_short": "Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks",
+      "summary_long": "Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks. Oil Slips After Trump Says U.S. Will Assist Stranded Ships in Hormuz",
       "evidence_cluster_ids": [
-        "c_38f2cb97ce935a",
+        "c_85eaace2c9b6e6",
+        "c_143afcd8ce7739",
+        "c_fcf2ea969f0210",
         "c_d08694355dda1f",
-        "c_61d1647d28126f",
-        "c_dfbfe2904bc951",
-        "c_6501a3aec9a342"
+        "c_af63a86b9c37b1"
       ],
-      "evidence_count": 11,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,14 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.25) [OPEN suppressed]",
-        "winning=CLOSED (0.25/0.25), conf=0.957"
-      ]
+        "cluster c_143afcd8ce → CONTESTED (kw='attack', weight=0.62)",
+        "cluster c_fcf2ea969f → CLOSED (kw='closure', weight=0.41) [OPEN suppressed]",
+        "cluster c_5498eb1295 → CONTESTED (kw='attack', weight=0.82)",
+        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.22) [OPEN suppressed]",
+        "winning=CONTESTED (1.44/2.08), conf=0.869"
+      ],
+      "previous_status": "CLOSED",
+      "last_changed": "2026-05-04T11:28:12.939447+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -55,14 +60,14 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-04T08:54:35+00:00",
-      "source_count": 5,
-      "summary_short": "Oil Markets on Edge: Iran Labels US Involvement in Hormuz a Ceasefire Breach",
-      "summary_long": "Oil Markets on Edge: Iran Labels US Involvement in Hormuz a Ceasefire Breach. Oil Prices Climb as Iran Threatens U.S. Forces",
+      "source_count": 4,
+      "summary_short": "Oil prices rising: Iran and Hormuz push up Brent, WTI and fuels",
+      "summary_long": "Oil prices rising: Iran and Hormuz push up Brent, WTI and fuels. Iranian oil tankers reach Indonesian waters despite blockade",
       "evidence_cluster_ids": [
-        "c_38f2cb97ce935a",
-        "c_dea9168f2d8a50",
-        "c_7825314d7a5afb",
-        "c_58727078c24f94"
+        "c_85eaace2c9b6e6",
+        "c_52f013c98ff256",
+        "c_81d25659cd3171",
+        "c_dea9168f2d8a50"
       ],
       "evidence_count": 4,
       "affected_pages": [
@@ -94,18 +99,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-04T06:48:00+00:00",
-      "source_count": 10,
-      "summary_short": "UAE exit from OPEC fuels crude oil price surge expectations",
-      "summary_long": "UAE exit from OPEC fuels crude oil price surge expectations. Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'",
+      "last_confirmed": "2026-05-04T10:50:56+00:00",
+      "source_count": 8,
+      "summary_short": "Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'",
+      "summary_long": "Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'. OPEC+ countries release third batch of oil supplies since Hormuz closure",
       "evidence_cluster_ids": [
-        "c_ecf0a15145b5fb",
         "c_fd6b1fdac14eeb",
-        "c_eacf0c4400a122",
         "c_bb95611a600c8e",
-        "c_a1366377569467"
+        "c_a1366377569467",
+        "c_fcf2ea969f0210",
+        "c_8ab9967f4b7eaf"
       ],
-      "evidence_count": 8,
+      "evidence_count": 7,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -125,19 +130,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
-        "hormuz=CLOSED (+40)",
+        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -149,20 +154,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-05-04T11:28:12.939447+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_88d7b7769e65eb",
-      "lead_title": "Gold Builds Momentum While WTI Crude Oil Faces Renewed Selling Pressure",
-      "lead_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNam9zQlB6b1p2c3FfcVBESTY0MVBQajlWRS1zMkQ3ckVUeDhlNlc1aHlhdXdPWk9yTy1uZ0VvLUVSdzg3RlhEajNHaklwSEVScGNUbnRPb04wQkdnX19qZy1MTUZMYUc5b1M5Q3ZqS3YwMzRmUWdjZG52d283VVBiZFJyc2lfRmd2bVVDMjdRZlIxTW9ITWFCMUJjZ0wtNHFTY0p2TktnQ2Z3dXZ4LXFMWmZRVWZjUi04b0R5emI4cjUtM2Q0V19QMTZiRmNMc2FoLTNZb0Nn?oc=5",
-      "lead_source": "Action Forex",
+      "cluster_id": "c_617019d530cfde",
+      "lead_title": "Stocks Waver as Carmakers Fall; Crude Oil Rises: Markets Wrap",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjNZVHRDOHZTNURSYlVYSkljTUNPNDhtX2xfU2JwTzFqUWl2N0F0bUkzRzlUUk52YmJPVndHMFJOMjBqbkF5LXplS2RwUnFfRE1HaHdtRFlDQ0REUXZMTGx6S0d3ek5uVHg3Yld3MndTUllOc1NIclZJQy1jcnNyM1d1QnJZcjlWM2Uyckc4UjBza2FZdFhvamFSVGluek1JblI4YzhWd0o4S0haVk1ab29n?oc=5",
+      "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 92.09,
+      "score": 94.36,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 9,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -172,9 +179,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CLOSED",
+      "to": "CONTESTED",
+      "detected_at": "2026-05-04T11:28:12.939447+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-04T11:28:12.939447+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-04T11:28:12.939447+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-04T11:28:12.939447+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.869, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

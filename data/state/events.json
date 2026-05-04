@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-04T11:28:12.939607+00:00",
-  "previous_generated_at": "2026-05-04T09:38:46.586018+00:00",
-  "resolver_run_count": 12,
+  "generated_at": "2026-05-04T13:13:26.957836+00:00",
+  "previous_generated_at": "2026-05-04T11:28:12.939607+00:00",
+  "resolver_run_count": 13,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "US stock futures fall, crude oil jumps over 5% after reports of attack on US warship in Strait of Hormuz",
+      "status_detail": "UAE accuses Iran of attacking empty ADNOC oil tanker in Strait of Hormuz",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.869,
-      "last_confirmed": "2026-05-04T10:49:37+00:00",
-      "source_count": 13,
+      "confidence": 0.859,
+      "last_confirmed": "2026-05-04T12:13:14+00:00",
+      "source_count": 19,
       "summary_short": "Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks",
-      "summary_long": "Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks. Oil Slips After Trump Says U.S. Will Assist Stranded Ships in Hormuz",
+      "summary_long": "Crude Oil Weekly Outlook: WTI Holds $100 on Persistent Hormuz Risks. UAE accuses Iran of attacking empty ADNOC oil tanker in Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_85eaace2c9b6e6",
+        "c_7e76c9b52b9e51",
+        "c_514d577629a49a",
+        "c_0aa3bddfb443bc",
         "c_143afcd8ce7739",
-        "c_fcf2ea969f0210",
-        "c_d08694355dda1f",
-        "c_af63a86b9c37b1"
+        "c_4d6b335bacc81b"
       ],
-      "evidence_count": 10,
+      "evidence_count": 13,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,14 +41,13 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_143afcd8ce → CONTESTED (kw='attack', weight=0.62)",
-        "cluster c_fcf2ea969f → CLOSED (kw='closure', weight=0.41) [OPEN suppressed]",
-        "cluster c_5498eb1295 → CONTESTED (kw='attack', weight=0.82)",
-        "cluster c_fd6b1fdac1 → CLOSED (kw='closure', weight=0.22) [OPEN suppressed]",
-        "winning=CONTESTED (1.44/2.08), conf=0.869"
-      ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-05-04T11:28:12.939447+00:00"
+        "cluster c_7e76c9b52b → CONTESTED (kw='attack', weight=0.77)",
+        "cluster c_143afcd8ce → CONTESTED (kw='attack', weight=0.49)",
+        "cluster c_fcf2ea969f → CLOSED (kw='closure', weight=0.29) [OPEN suppressed]",
+        "cluster c_5498eb1295 → CONTESTED (kw='attack', weight=0.73)",
+        "cluster c_8851f58253 → CLOSED (kw='closure', weight=0.69) [OPEN suppressed]",
+        "winning=CONTESTED (2.00/2.98), conf=0.859"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -59,17 +58,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-04T08:54:35+00:00",
-      "source_count": 4,
-      "summary_short": "Oil prices rising: Iran and Hormuz push up Brent, WTI and fuels",
-      "summary_long": "Oil prices rising: Iran and Hormuz push up Brent, WTI and fuels. Iranian oil tankers reach Indonesian waters despite blockade",
+      "last_confirmed": "2026-05-04T12:50:34+00:00",
+      "source_count": 16,
+      "summary_short": "UAE accuses Iran of attacking empty ADNOC oil tanker in Strait of Hormuz",
+      "summary_long": "UAE accuses Iran of attacking empty ADNOC oil tanker in Strait of Hormuz. ‘Misplaced euphoria’: Markets are sleepwalking into a recession amid Iran war oil price shock",
       "evidence_cluster_ids": [
-        "c_85eaace2c9b6e6",
-        "c_52f013c98ff256",
-        "c_81d25659cd3171",
-        "c_dea9168f2d8a50"
+        "c_7e76c9b52b9e51",
+        "c_8a7d5b41fa6312",
+        "c_d805420d2de6b8",
+        "c_4039b7e44b82f9",
+        "c_10dbfe6914e77c"
       ],
-      "evidence_count": 4,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -99,18 +99,18 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-04T10:50:56+00:00",
-      "source_count": 8,
-      "summary_short": "Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'",
-      "summary_long": "Russia, Saudi Arabia, other OPEC+ countries raising oil production for 'market stability'. OPEC+ countries release third batch of oil supplies since Hormuz closure",
+      "last_confirmed": "2026-05-04T12:06:12+00:00",
+      "source_count": 5,
+      "summary_short": "OPEC Report Shows Oil Demand Reached Over 105MMBpd in 2025",
+      "summary_long": "OPEC Report Shows Oil Demand Reached Over 105MMBpd in 2025. Saudi oil prince’s iron grip faces ultimate test with UAE’s shock OPEC exit",
       "evidence_cluster_ids": [
-        "c_fd6b1fdac14eeb",
-        "c_bb95611a600c8e",
-        "c_a1366377569467",
-        "c_fcf2ea969f0210",
-        "c_8ab9967f4b7eaf"
+        "c_b1dd616917df39",
+        "c_92b7cc4219b24f",
+        "c_7e073e60822284",
+        "c_8ab9967f4b7eaf",
+        "c_fcf2ea969f0210"
       ],
-      "evidence_count": 7,
+      "evidence_count": 5,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -154,9 +154,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-05-04T11:28:12.939447+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -167,9 +165,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjNZVHRDOHZTNURSYlVYSkljTUNPNDhtX2xfU2JwTzFqUWl2N0F0bUkzRzlUUk52YmJPVndHMFJOMjBqbkF5LXplS2RwUnFfRE1HaHdtRFlDQ0REUXZMTGx6S0d3ek5uVHg3Yld3MndTUllOc1NIclZJQy1jcnNyM1d1QnJZcjlWM2Uyckc4UjBza2FZdFhvamFSVGluek1JblI4YzhWd0o4S0haVk1ab29n?oc=5",
       "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 94.36,
-      "novelty": "new",
-      "source_count": 9,
+      "score": 84.31,
+      "novelty": "ongoing",
+      "source_count": 8,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -179,46 +177,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CLOSED",
-      "to": "CONTESTED",
-      "detected_at": "2026-05-04T11:28:12.939447+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-04T11:28:12.939447+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-04T11:28:12.939447+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-04T11:28:12.939447+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.869, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.859, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
