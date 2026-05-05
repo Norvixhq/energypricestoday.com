@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-05T11:06:02.526552+00:00",
-  "previous_generated_at": "2026-05-05T09:29:28.758356+00:00",
-  "resolver_run_count": 2,
+  "generated_at": "2026-05-05T12:14:46.649645+00:00",
+  "previous_generated_at": "2026-05-05T11:06:02.526552+00:00",
+  "resolver_run_count": 3,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,18 @@
       "status_detail": "Oil prices slide as new attacks in Strait of Hormuz threaten fragile U.S.-Iran ceasefire",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.967,
+      "confidence": 0.961,
       "last_confirmed": "2026-05-05T10:57:57+00:00",
       "source_count": 11,
       "summary_short": "Oil prices slide as new attacks in Strait of Hormuz threaten fragile U.S.-Iran ceasefire",
-      "summary_long": "Oil prices slide as new attacks in Strait of Hormuz threaten fragile U.S.-Iran ceasefire. What we know about Trump's 'Project Freedom' in Strait of Hormuz",
+      "summary_long": "Oil prices slide as new attacks in Strait of Hormuz threaten fragile U.S.-Iran ceasefire. Oil Edges Lower Following Spike With Hormuz Stalemate in Focus",
       "evidence_cluster_ids": [
         "c_df12794c6a61d2",
-        "c_7cc69204fa0f6e",
-        "c_aefc80619e40f5",
         "c_14ed17ea82f69d",
+        "c_aefc80619e40f5",
         "c_143940f4faa3d7"
       ],
-      "evidence_count": 5,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +40,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_df12794c6a → CONTESTED (kw='attack', weight=0.85)",
-        "cluster c_aefc80619e → CONTESTED (kw='missile', weight=0.61)",
-        "cluster c_143940f4fa → CONTESTED (kw='attack', weight=0.39)",
-        "winning=CONTESTED (1.85/1.85), conf=0.967"
+        "cluster c_df12794c6a → CONTESTED (kw='attack', weight=0.77)",
+        "cluster c_aefc80619e → CONTESTED (kw='missile', weight=0.50)",
+        "cluster c_143940f4fa → CONTESTED (kw='attack', weight=0.34)",
+        "winning=CONTESTED (1.61/1.61), conf=0.961"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,9 +54,9 @@
       "status_detail": "Oil prices slide as new attacks in Strait of Hormuz threaten fragile U.S.-Iran ceasefire",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.96,
+      "confidence": 0.954,
       "last_confirmed": "2026-05-05T10:57:57+00:00",
-      "source_count": 15,
+      "source_count": 17,
       "summary_short": "Oil prices slide as new attacks in Strait of Hormuz threaten fragile U.S.-Iran ceasefire",
       "summary_long": "Oil prices slide as new attacks in Strait of Hormuz threaten fragile U.S.-Iran ceasefire. First Russian Oil Arrives in Japan Since Iran War: Media",
       "evidence_cluster_ids": [
@@ -67,7 +66,7 @@
         "c_616d681fe382c6",
         "c_4715ee8d5e8298"
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -82,8 +81,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_df12794c6a → FRAGILE (kw='fragile', weight=0.85)",
-        "winning=FRAGILE (0.85/0.85), conf=0.96"
+        "cluster c_df12794c6a → FRAGILE (kw='fragile', weight=0.77)",
+        "winning=FRAGILE (0.77/0.77), conf=0.954"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -153,14 +152,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_86ab464290fa25",
+      "cluster_id": "c_dc487aa5f64957",
       "lead_title": "WTI Crude Oil Futures Drop 2.4% to $103.84 Early Tuesday; Brent Futures Decline 1.6% to $112.60",
       "lead_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNb25OeW95NElyS1R2WjVoaG5pYVJCQ0V4VnNKSHlwY2R2cUp2RkNjaXlqcGFsZzJpRXhNNVJpcXpyX2Zwb0hVYnBnYW9WaVBnaUVoUFBmVWhRTW0xbE1VM2RGTWRfdDRmOWVmOURjTTNaYVFIZGUwbjdza3RzMHd1Z3Q3Zko4TVpFOThmOERRTXRncHF1MGZEY1hOajBHVzJKTGhhcF9nWE90WERjWFNKRTZIZDF3cnFOQzZzY0lHNTBMRHNaM3o4VDZhdWNtT2NWVXdDaWtZeWVSck0?oc=5",
       "lead_source": "marketscreener.com",
       "topic": "oil",
-      "score": 92.64,
+      "score": 92.91,
       "novelty": "new",
-      "source_count": 6,
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -172,8 +171,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.967, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.96, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.961, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.954, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
