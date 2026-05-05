@@ -1,12 +1,53 @@
 {
   "topic": "companies",
-  "generated_at": "2026-05-05T14:29:25.343590+00:00",
+  "generated_at": "2026-05-05T16:14:16.634268+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 25,
+  "clusters_found": 27,
   "clusters": [
+    {
+      "cluster_id": "c_718796acc637c5",
+      "topic": "companies",
+      "lead_title": "IBM and Aramco Explore Collaboration to Accelerate AI and Innovation Across Saudi Arabia – Company Announcement",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZE1iUU9KSktNOWxFNXNwNzJFc1ZnVW1nY1pMMGFGdDVINnIwVUlCY3B5VkxyazVJaXRFM3VMOWxPdjBwUnJxcHZXWFNSbFZGX2gxZ3RMSERiMGZyZkFDYzN5LXdhVmh3aU9tVkhMYkdKSlYwX0hncXVFalExbl9oa1hRTloyanl3OWpSRXB0MVFFWEpDR0E?oc=5",
+      "lead_source": "Financial Times",
+      "canonical_entities": [
+        "Aramco"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T16:01:00+00:00",
+      "latest_seen": "2026-05-05T16:01:00+00:00",
+      "age_hours": 0.22,
+      "score": 72.97,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.87,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "1b89f1f95b1b38fc",
+          "title": "IBM and Aramco Explore Collaboration to Accelerate AI and Innovation Across Saudi Arabia – Company Announcement",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZE1iUU9KSktNOWxFNXNwNzJFc1ZnVW1nY1pMMGFGdDVINnIwVUlCY3B5VkxyazVJaXRFM3VMOWxPdjBwUnJxcHZXWFNSbFZGX2gxZ3RMSERiMGZyZkFDYzN5LXdhVmh3aU9tVkhMYkdKSlYwX0hncXVFalExbl9oa1hRTloyanl3OWpSRXB0MVFFWEpDR0E?oc=5",
+          "source": "Financial Times",
+          "source_type": "rss",
+          "published_at": "2026-05-05T16:01:00+00:00",
+          "confidence": 0.97
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
     {
       "cluster_id": "c_b5170697a3f4c7",
       "topic": "companies",
@@ -16,24 +57,24 @@
       "canonical_entities": [
         "Shell"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-05T08:14:49+00:00",
-      "latest_seen": "2026-05-05T14:08:58+00:00",
-      "age_hours": 0.34,
-      "score": 73.55,
+      "latest_seen": "2026-05-05T14:33:53+00:00",
+      "age_hours": 1.67,
+      "score": 71.0,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.8,
-        "source_quality_points": 24.75,
+        "source_count_points": 15,
+        "recency_points": 24.0,
+        "source_quality_points": 23.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0030f7dcdb63bcfa",
@@ -45,16 +86,230 @@
           "confidence": 1.0
         },
         {
+          "headline_id": "dcdde204ba71120e",
+          "title": "INEOS/Shell explore oil and gas opportunities in Gulf of Mexico",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRjFYdndIMmVBSXhLczZ6RzdDYlNHXzlZNG0xRzY4YW1yb2pBZmItM3A2bGlQUDdlZWFTQV80NW42c0tVeFk3NG1taEZVRFJ4SG1qZEdodmwzZ3ltREIzWmtCX2NocVU0SDQ3d21nRTI0NS1CVWZNUktCbG9JVmlMd2RVc1NZSGl4TXpNd0lPQURHdVFaRng2MDhsSDgtS3NzNGZCbGtrNEpKMXJhaGc?oc=5",
+          "source": "Ocean Energy Resources",
+          "source_type": "rss",
+          "published_at": "2026-05-05T14:33:53+00:00",
+          "confidence": 0.65
+        },
+        {
           "headline_id": "855b756e5d883cbf",
           "title": "INEOS, Shell to develop Gulf of Mexico oil and gas prospects",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeUR6UGNlTjB0cGk2NjBaSDVuV3Qtd1NhNW9sbU4ySDBkcnBJZWZWQWRSRjhGVmNKZnpCR0J1T2l6bFozeWZWNVVFcjY1WVVxcVBqbV8yUWdST0pLcHhUSS1TeTlxckQyQk9FLV9uMWpXWUxManNncDVjWm10MU9kbnVLZVhtXzhZaXhiQm1WTy1GQkRu?oc=5",
           "source": "Offshore Technology",
           "source_type": "rss",
-          "published_at": "2026-05-05T14:08:58+00:00",
+          "published_at": "2026-05-05T14:10:01+00:00",
           "confidence": 0.65
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ea84cfa186a144",
+      "topic": "companies",
+      "lead_title": "Saudi industrial AI push: IBM and Aramco explore an alliance",
+      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN3llOFVBQnBjU2NyQ29IaUZMSEZ3ZDN2TGRlVkZCNGRSLTRqendXc1BjU3gzTzNKYVRtOE5uTUhWWlNtVVFweTBfVFp0UkpfTEVQd1pQY09SMTd1N21yb3VzZzBqX25XSEJyYm5Ta0ttNDBmLUlNY0h3emh3QXZTVmFjaWZzRUNhZ20wTTV0aVJsS3lFWWpYdGRjWjF5ZC1PZlYyREZ2VzVwYXdSZW1ldEdZVjNlX2xIb3lPdGtpNA?oc=5",
+      "lead_source": "Stock Titan",
+      "canonical_entities": [
+        "Aramco"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T16:05:42+00:00",
+      "latest_seen": "2026-05-05T16:05:42+00:00",
+      "age_hours": 0.14,
+      "score": 63.41,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.91,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "555a43a4a0cf78aa",
+          "title": "Saudi industrial AI push: IBM and Aramco explore an alliance",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN3llOFVBQnBjU2NyQ29IaUZMSEZ3ZDN2TGRlVkZCNGRSLTRqendXc1BjU3gzTzNKYVRtOE5uTUhWWlNtVVFweTBfVFp0UkpfTEVQd1pQY09SMTd1N21yb3VzZzBqX25XSEJyYm5Ta0ttNDBmLUlNY0h3emh3QXZTVmFjaWZzRUNhZ20wTTV0aVJsS3lFWWpYdGRjWjF5ZC1PZlYyREZ2VzVwYXdSZW1ldEdZVjNlX2xIb3lPdGtpNA?oc=5",
+          "source": "Stock Titan",
+          "source_type": "rss",
+          "published_at": "2026-05-05T16:05:42+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_249cca7fbda603",
+      "topic": "companies",
+      "lead_title": "IBM and Aramco plan collaboration on AI and industrial innovation",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWUpqTEpkVnJVd1h3SEhkOVNaVWF4WXNwaEFxcUZtSF9yWlRGeDdtQTZXUzVsUlZMbWM5aUNTcFNoaXZBR215bVhwb083TE9LSGVjVE9wdTNaZjFRbHdMVk1YMkpNNEVKenRKR1dVSlBvMzZ5ZDRVZFJ4eXVGOXVlTFV5NGdpZjhDMzkyZ1hPLXR1WUswWnFjS2ExeUVsVVBjVl82TU90a0FueS13bDMyS0Q0V3BqbG5wdXgyd01oVl85QQ?oc=5",
+      "lead_source": "StreetInsider",
+      "canonical_entities": [
+        "Aramco"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T16:03:37+00:00",
+      "latest_seen": "2026-05-05T16:03:37+00:00",
+      "age_hours": 0.18,
+      "score": 63.39,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.89,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b74bc7b70d3522b6",
+          "title": "IBM and Aramco plan collaboration on AI and industrial innovation",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWUpqTEpkVnJVd1h3SEhkOVNaVWF4WXNwaEFxcUZtSF9yWlRGeDdtQTZXUzVsUlZMbWM5aUNTcFNoaXZBR215bVhwb083TE9LSGVjVE9wdTNaZjFRbHdMVk1YMkpNNEVKenRKR1dVSlBvMzZ5ZDRVZFJ4eXVGOXVlTFV5NGdpZjhDMzkyZ1hPLXR1WUswWnFjS2ExeUVsVVBjVl82TU90a0FueS13bDMyS0Q0V3BqbG5wdXgyd01oVl85QQ?oc=5",
+          "source": "StreetInsider",
+          "source_type": "rss",
+          "published_at": "2026-05-05T16:03:37+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7e83334bb40840",
+      "topic": "companies",
+      "lead_title": "BP Considers Retreat From North Sea Amid Mounting Tax Pressures",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNanFBTEFzMUZLd1lING5fb3BVU19KZDlnQnZBOVROQ3NjQVhYRWZrOGI5MjUzejNzZjVvQXVVSWJjU0JHSURES3IwMkZxV3VRRWJ1TDlZanhhbnFxRzQ2cXRpY1c2TzFaZnFGSW1YUmllbGNWT0VDNHIwQmNDQ0x4NE9rSGxZT1F2OUN3SWFrNUVBTS02NVJKaWp5Vmx2N2dWajRieXBqTFV5LUxtTUF4ctIBtgFBVV95cUxNRVZfeGJKWmVwbWxOdXBPUXpnUmpWbUpNcUdzcmJsR3hmb2VTQzJJdmFRcmxJYU13UGhjU2wySjl5Unh4VU1xVUo2RWd1bTZVVXJ2b1ZVeU5Ec0JrZUZTZmEzdTZfNDBwOE5lbmZOdURpSnpVTmxkczdrT0djODdnWmdyT0w2ck16bUlpNkJwNEl0WWlIblVMc283SHZlb1VzcmVRaTh0c0RrSHAyZGFxTXlxQktJQQ?oc=5",
+      "lead_source": "Crude Oil Prices Today | OilPrice.com",
+      "canonical_entities": [
+        "BP"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T16:00:00+00:00",
+      "latest_seen": "2026-05-05T16:00:00+00:00",
+      "age_hours": 0.24,
+      "score": 63.36,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.86,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "52a48e916648fb01",
+          "title": "BP Considers Retreat From North Sea Amid Mounting Tax Pressures",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNanFBTEFzMUZLd1lING5fb3BVU19KZDlnQnZBOVROQ3NjQVhYRWZrOGI5MjUzejNzZjVvQXVVSWJjU0JHSURES3IwMkZxV3VRRWJ1TDlZanhhbnFxRzQ2cXRpY1c2TzFaZnFGSW1YUmllbGNWT0VDNHIwQmNDQ0x4NE9rSGxZT1F2OUN3SWFrNUVBTS02NVJKaWp5Vmx2N2dWajRieXBqTFV5LUxtTUF4ctIBtgFBVV95cUxNRVZfeGJKWmVwbWxOdXBPUXpnUmpWbUpNcUdzcmJsR3hmb2VTQzJJdmFRcmxJYU13UGhjU2wySjl5Unh4VU1xVUo2RWd1bTZVVXJ2b1ZVeU5Ec0JrZUZTZmEzdTZfNDBwOE5lbmZOdURpSnpVTmxkczdrT0djODdnWmdyT0w2ck16bUlpNkJwNEl0WWlIblVMc283SHZlb1VzcmVRaTh0c0RrSHAyZGFxTXlxQktJQQ?oc=5",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "source_type": "rss",
+          "published_at": "2026-05-05T16:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7e8ba85a2a2daa",
+      "topic": "companies",
+      "lead_title": "Chevron Enters Malta Offshore",
+      "lead_url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FTEFEMkdhdmFTMGRlcWdtNW9IVTF1c2dEWmpSeUJaazRDNFVfaFQxTzdkRUduazI5TkZOS1RTMVlma2tQSmZMRTU3T1YtajFQUDV1dXF0dTdxakI2cENxN1FRLWVyQjZHYS1wR1p6aXQ1dw?oc=5",
+      "lead_source": "Energy Intelligence",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T15:58:09+00:00",
+      "latest_seen": "2026-05-05T15:58:09+00:00",
+      "age_hours": 0.27,
+      "score": 63.34,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.84,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "5ddae8ded4693ec6",
+          "title": "Chevron Enters Malta Offshore",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5FTEFEMkdhdmFTMGRlcWdtNW9IVTF1c2dEWmpSeUJaazRDNFVfaFQxTzdkRUduazI5TkZOS1RTMVlma2tQSmZMRTU3T1YtajFQUDV1dXF0dTdxakI2cENxN1FRLWVyQjZHYS1wR1p6aXQ1dw?oc=5",
+          "source": "Energy Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-05-05T15:58:09+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_67fca5375c4184",
+      "topic": "companies",
+      "lead_title": "Chevron CEO raises alarm of crude oil shortages as energy prices spike worldwide",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY01TR1QtOVVHemgwd2pMelZELWdycVUydkhTc0tUeDgyOVZIUWliMjFNSjRUVUhycTJINlc3VW0tTnNUbmtNZ2tvNnlFNHFxY3A4ZERPZDFTcmhhSzFyRFp5THdyUUlGVlNSckZ6ZDNxM2xkUkRTLXNMUTlzZEZXd1lBc0NjbnlUTjgyVVlnN3dhcjVzWDB2VzNHN21FNm5mMy1PQW9VSW84R2FVLXVJ?oc=5",
+      "lead_source": "thecradle.co",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T15:56:37+00:00",
+      "latest_seen": "2026-05-05T15:56:37+00:00",
+      "age_hours": 0.29,
+      "score": 63.32,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.82,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "722b258becbb6e16",
+          "title": "Chevron CEO raises alarm of crude oil shortages as energy prices spike worldwide",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY01TR1QtOVVHemgwd2pMelZELWdycVUydkhTc0tUeDgyOVZIUWliMjFNSjRUVUhycTJINlc3VW0tTnNUbmtNZ2tvNnlFNHFxY3A4ZERPZDFTcmhhSzFyRFp5THdyUUlGVlNSckZ6ZDNxM2xkUkRTLXNMUTlzZEZXd1lBc0NjbnlUTjgyVVlnN3dhcjVzWDB2VzNHN21FNm5mMy1PQW9VSW84R2FVLXVJ?oc=5",
+          "source": "thecradle.co",
+          "source_type": "rss",
+          "published_at": "2026-05-05T15:56:37+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -72,18 +327,18 @@
         "rss"
       ],
       "earliest_seen": "2026-05-05T12:55:43+00:00",
-      "latest_seen": "2026-05-05T13:02:14+00:00",
-      "age_hours": 1.45,
-      "score": 72.88,
+      "latest_seen": "2026-05-05T15:10:55+00:00",
+      "age_hours": 1.06,
+      "score": 63.12,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 24.13,
+        "recency_points": 24.37,
         "source_quality_points": 24.75,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "53613f59946f05ec",
@@ -95,16 +350,262 @@
           "confidence": 1.0
         },
         {
-          "headline_id": "28e90c7752ccd980",
-          "title": "Chevron Expands Offshore Malta Oil & Gas Exploration in Mediterranean",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeTlFRzh3UHNRZTJGTUZtMXc3ckFoUnU4cFNaWnZKaUV0UllLSVJSMWRxTWp3UkREWVZxYXB1bjlhcjJPLVRaUllVeTFEREEwNkJ1cUpVSDBLTjljVkY2RU5TVzVQdzRoQ3ViQ2FCVV9yWWJYZzVQNmFmd2dFb2h1bU50eGhQMWI5WGVBT25ZeHpZbmtTWVg3ag?oc=5",
-          "source": "Global Banking & Finance Review",
+          "headline_id": "9d223364c1a983dc",
+          "title": "Chevron expands Mediterranean footprint with Malta oil and gas exploration",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOREZXbmJUVGhiRXFGTW9ub2ItRkxTS3RfSzgtOHMxTzFPWTNILWhMcVBwNDdKalJVc2I2V1l6X28weVlxQ0ZvcHBualV4SVktYU9xV3ZCVHVOdHNVR21reHVIZGw5bFlIVG5tNVY2bUJfc1k0Y0NfdWRnOFZJc3ktOWhmUzh6TkxvMGJaNXRTNmZxR0ViZVFHdWpqWkZ1bGdpUnRxTW9yYlZaVnJ5X3Vv?oc=5",
+          "source": "Yahoo Finance",
           "source_type": "rss",
-          "published_at": "2026-05-05T13:02:14+00:00",
+          "published_at": "2026-05-05T15:10:55+00:00",
           "confidence": 0.65
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_582c71294eab0f",
+      "topic": "companies",
+      "lead_title": "ExxonMobil's (XOM) Sector Perform Rating Reiterated at Royal Bank Of Canada",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1dPLXlxbzN3bi1xY3YtRVdwTlVvQjNERVYya0RvZm9HaFZiT2M4T1BKanRrOXpOUU12eFpRU0c0NmU1UUpJY0RDUGZvWmtpZFMxX25iTkI3NFQxcl92aVJtdEtSNDRmeEpsemhjY05EVDc0aFFGeGhabFUwMDY1emVVM011cjloc09oY2d1eXh1dXJlbVpOZ19DYUI3Q3Utdzhna1VMRUxwYm1pMFlLUWFLaUhDd3NBVGhJNGtBbVZqbHlT?oc=5",
+      "lead_source": "MarketBeat",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T15:31:29+00:00",
+      "latest_seen": "2026-05-05T15:31:29+00:00",
+      "age_hours": 0.71,
+      "score": 63.07,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.57,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "d43db2f29ce1eb8e",
+          "title": "ExxonMobil's (XOM) Sector Perform Rating Reiterated at Royal Bank Of Canada",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN1dPLXlxbzN3bi1xY3YtRVdwTlVvQjNERVYya0RvZm9HaFZiT2M4T1BKanRrOXpOUU12eFpRU0c0NmU1UUpJY0RDUGZvWmtpZFMxX25iTkI3NFQxcl92aVJtdEtSNDRmeEpsemhjY05EVDc0aFFGeGhabFUwMDY1emVVM011cjloc09oY2d1eXh1dXJlbVpOZ19DYUI3Q3Utdzhna1VMRUxwYm1pMFlLUWFLaUhDd3NBVGhJNGtBbVZqbHlT?oc=5",
+          "source": "MarketBeat",
+          "source_type": "rss",
+          "published_at": "2026-05-05T15:31:29+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ffbef1bbcf278c",
+      "topic": "companies",
+      "lead_title": "Royal Bank Of Canada Reiterates Outperform Rating for Chevron (NYSE:CVX)",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSG41d0RDc19tajdyVWZpWUwxVGFicm5aekxVaFdJUElBUXFRZ2JOYXQtSTVid1BhNU5rTUZpXy1PTXdEeF9Tbmh3c2UwVm9icW14Y1dHSXdSaVM5emtBQjJDNnJZT3pyR3pUb3JEMGxPNjV3bWlsT0hObTF6akM2SGlwRGxXWHdnVUJ2eGh3cFd5c1VwcGpYdDdHeEpZLXZYMlM3a3U4bGEyU1pUZnRpUFRXYk91WmsyZ1V2ZTE5NTU?oc=5",
+      "lead_source": "MarketBeat",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T15:31:28+00:00",
+      "latest_seen": "2026-05-05T15:31:28+00:00",
+      "age_hours": 0.71,
+      "score": 63.07,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.57,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "f254a01a4a78e587",
+          "title": "Royal Bank Of Canada Reiterates Outperform Rating for Chevron (NYSE:CVX)",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSG41d0RDc19tajdyVWZpWUwxVGFicm5aekxVaFdJUElBUXFRZ2JOYXQtSTVid1BhNU5rTUZpXy1PTXdEeF9Tbmh3c2UwVm9icW14Y1dHSXdSaVM5emtBQjJDNnJZT3pyR3pUb3JEMGxPNjV3bWlsT0hObTF6akM2SGlwRGxXWHdnVUJ2eGh3cFd5c1VwcGpYdDdHeEpZLXZYMlM3a3U4bGEyU1pUZnRpUFRXYk91WmsyZ1V2ZTE5NTU?oc=5",
+          "source": "MarketBeat",
+          "source_type": "rss",
+          "published_at": "2026-05-05T15:31:28+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e253410dcd7ebd",
+      "topic": "companies",
+      "lead_title": "Shell and INEOS Strike Gulf of Mexico Exploration Deal",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZkVrMXUzRGVEc19wbW5SbkVBdTlzNzM5eU9ySkFCWmZSbFk1Z0JtemNaamM0ZXE2M3d6OEhxX3UtVUlZT19QZFJPUnFybVl1NTNnelltRFlsVkVMemF2VkRwX2xVRGNEdWJYLTR3MkVWaTZiVDJ2YVZveHhOdXVSZnkzUnBqYzdKaS1qOHZERVN0WTlidi1ESEdVVEw0RjhJZHprVENRU0F5c1dPSGZv0gG0AUFVX3lxTFBZZm5HMGZueUpNQU5uLW1aY18xMDhXN3R3QzR6TWhQMXV3MDJua2o1dm1PazZ1QWZBUDZ4c3hpSHFDbVpGbUUxMHBzakJqOVhvQV96enZfdGdHN3pjQWl6R0dodDFnV044WWhQckREY3lod2g1UFJ6WjhpNXRuTEt0V2ZmZ1dZSVZQeU9tLXhveWRMTWxtRHNHb2d3TC1iTHZCc0psX3ZtN3hPMnl1U1JkY1NzTA?oc=5",
+      "lead_source": "Crude Oil Prices Today | OilPrice.com",
+      "canonical_entities": [
+        "Shell"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T15:30:00+00:00",
+      "latest_seen": "2026-05-05T15:30:00+00:00",
+      "age_hours": 0.74,
+      "score": 63.06,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.56,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "24e4f1ef38644a79",
+          "title": "Shell and INEOS Strike Gulf of Mexico Exploration Deal",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZkVrMXUzRGVEc19wbW5SbkVBdTlzNzM5eU9ySkFCWmZSbFk1Z0JtemNaamM0ZXE2M3d6OEhxX3UtVUlZT19QZFJPUnFybVl1NTNnelltRFlsVkVMemF2VkRwX2xVRGNEdWJYLTR3MkVWaTZiVDJ2YVZveHhOdXVSZnkzUnBqYzdKaS1qOHZERVN0WTlidi1ESEdVVEw0RjhJZHprVENRU0F5c1dPSGZv0gG0AUFVX3lxTFBZZm5HMGZueUpNQU5uLW1aY18xMDhXN3R3QzR6TWhQMXV3MDJua2o1dm1PazZ1QWZBUDZ4c3hpSHFDbVpGbUUxMHBzakJqOVhvQV96enZfdGdHN3pjQWl6R0dodDFnV044WWhQckREY3lod2g1UFJ6WjhpNXRuTEt0V2ZmZ1dZSVZQeU9tLXhveWRMTWxtRHNHb2d3TC1iTHZCc0psX3ZtN3hPMnl1U1JkY1NzTA?oc=5",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "source_type": "rss",
+          "published_at": "2026-05-05T15:30:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_44e7d95d4de0eb",
+      "topic": "companies",
+      "lead_title": "Android Zero-Click RCE Vulnerability Enables Remote Shell Access",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTHVaOFVnRk0wNlpfaFRIYUNmN1JPNE1STzl0VV9ZNFdxYV9Va3h2QVFwMG82WE1OcGhDYWZGZDFZdFA5ZU9LeWpRbHpYUlR6MmMwMjBHNjFqdXU2a1VmUTZVbzRNTjNxc3I4a0dGUUdwcEdGZW5JRlFhTFJZR1RiYzA3X0M4d3BNTndXLVpQa0d0S0traVNLWjAwa0Zic0V6N3ZvMTRvem0?oc=5",
+      "lead_source": "eSecurity Planet",
+      "canonical_entities": [
+        "Shell"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T15:02:35+00:00",
+      "latest_seen": "2026-05-05T15:02:35+00:00",
+      "age_hours": 1.19,
+      "score": 62.78,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.28,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "30d4a2ee69d04ae7",
+          "title": "Android Zero-Click RCE Vulnerability Enables Remote Shell Access",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTHVaOFVnRk0wNlpfaFRIYUNmN1JPNE1STzl0VV9ZNFdxYV9Va3h2QVFwMG82WE1OcGhDYWZGZDFZdFA5ZU9LeWpRbHpYUlR6MmMwMjBHNjFqdXU2a1VmUTZVbzRNTjNxc3I4a0dGUUdwcEdGZW5JRlFhTFJZR1RiYzA3X0M4d3BNTndXLVpQa0d0S0traVNLWjAwa0Zic0V6N3ZvMTRvem0?oc=5",
+          "source": "eSecurity Planet",
+          "source_type": "rss",
+          "published_at": "2026-05-05T15:02:35+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_64a478d1845225",
+      "topic": "companies",
+      "lead_title": "Aramco's archival footage shows first ever Saudi oil shipment",
+      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSEs5UXFsd0ttMEg1cnpDbDVZX0tBMHVfRW1vNTNFVDdnV0hlQnZvb0c5Mk9vcEcxWFJiZjNILUY4NDVWS2c4dXVJMGt3SGNkNjJqZ3hzTFhuQnI3eE9oSUxYY3Fqb1BHc09lQUFreUg5djh6YXo2bnE0aVBSNnZXdGRpN1B1b3JCRUhrMENlOE4?oc=5",
+      "lead_source": "Yahoo",
+      "canonical_entities": [
+        "Aramco"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T14:33:53+00:00",
+      "latest_seen": "2026-05-05T14:33:53+00:00",
+      "age_hours": 1.67,
+      "score": 62.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9dbb503a161a420c",
+          "title": "Aramco's archival footage shows first ever Saudi oil shipment",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSEs5UXFsd0ttMEg1cnpDbDVZX0tBMHVfRW1vNTNFVDdnV0hlQnZvb0c5Mk9vcEcxWFJiZjNILUY4NDVWS2c4dXVJMGt3SGNkNjJqZ3hzTFhuQnI3eE9oSUxYY3Fqb1BHc09lQUFreUg5djh6YXo2bnE0aVBSNnZXdGRpN1B1b3JCRUhrMENlOE4?oc=5",
+          "source": "Yahoo",
+          "source_type": "rss",
+          "published_at": "2026-05-05T14:33:53+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_722659eca381ea",
+      "topic": "companies",
+      "lead_title": "Chevron stock consolidates as Hess assets integration boosts production",
+      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMFcxVHZBY0MzZ0twZnRJcENnVHlCekp0UnZPcmZXa3pFSGYxR2Q4c1ZranZqeVFMLUhaVktjemFQdXVpcGhPLTJkYVM4bVRtQzNwcDR1OTY3UG5BNUQ0QlBaMm1lS1RSQ2dKNDRZbF9wNFI3a0ZPTWd2dlVmaG0xMjNVYi1iN3hiT19YY0pNdG1oME1IOG1Ncw?oc=5",
+      "lead_source": "Traders Union",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T14:27:08+00:00",
+      "latest_seen": "2026-05-05T14:27:08+00:00",
+      "age_hours": 1.79,
+      "score": 62.43,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.93,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e51ea1e576654a0b",
+          "title": "Chevron stock consolidates as Hess assets integration boosts production",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMFcxVHZBY0MzZ0twZnRJcENnVHlCekp0UnZPcmZXa3pFSGYxR2Q4c1ZranZqeVFMLUhaVktjemFQdXVpcGhPLTJkYVM4bVRtQzNwcDR1OTY3UG5BNUQ0QlBaMm1lS1RSQ2dKNDRZbF9wNFI3a0ZPTWd2dlVmaG0xMjNVYi1iN3hiT19YY0pNdG1oME1IOG1Ncw?oc=5",
+          "source": "Traders Union",
+          "source_type": "rss",
+          "published_at": "2026-05-05T14:27:08+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -124,17 +625,17 @@
       ],
       "earliest_seen": "2026-05-05T13:07:57+00:00",
       "latest_seen": "2026-05-05T13:07:57+00:00",
-      "age_hours": 1.36,
-      "score": 68.19,
+      "age_hours": 3.11,
+      "score": 57.14,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.19,
+        "recency_points": 23.14,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "d0a974da3ffca11d",
@@ -144,526 +645,6 @@
           "source_type": "rss",
           "published_at": "2026-05-05T13:07:57+00:00",
           "confidence": 0.7
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_fae7171c05793b",
-      "topic": "companies",
-      "lead_title": "Chevron Can See Significant Upside From Spot And Oil-Linked LNG Sales (NYSE:CVX)",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0R3OUU3WTRrcTJFOXVaRUlGdDJ2ODhqMWk2N2dlT0p6QnljZVJ3SkIwZDNMUWJsUkZHSlpXeDFzUVZxekFDZFp4VXBNSlZkUTNrV3UwNlVjODItX01DbWVLdTNCZEJLaURoVlF3UXJWSHJhVS0wcVp4aHNrVEJkQkViTHVHOHBZVVIyU3FQYmVfaWpJWDJiQWRwSmd1R28?oc=5",
-      "lead_source": "Seeking Alpha",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T14:11:35+00:00",
-      "latest_seen": "2026-05-05T14:11:35+00:00",
-      "age_hours": 0.3,
-      "score": 63.32,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.82,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "4baa765d27466580",
-          "title": "Chevron Can See Significant Upside From Spot And Oil-Linked LNG Sales (NYSE:CVX)",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0R3OUU3WTRrcTJFOXVaRUlGdDJ2ODhqMWk2N2dlT0p6QnljZVJ3SkIwZDNMUWJsUkZHSlpXeDFzUVZxekFDZFp4VXBNSlZkUTNrV3UwNlVjODItX01DbWVLdTNCZEJLaURoVlF3UXJWSHJhVS0wcVp4aHNrVEJkQkViTHVHOHBZVVIyU3FQYmVfaWpJWDJiQWRwSmd1R28?oc=5",
-          "source": "Seeking Alpha",
-          "source_type": "rss",
-          "published_at": "2026-05-05T14:11:35+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0afccf3b19e2b0",
-      "topic": "companies",
-      "lead_title": "BP to complete three-well appraisal plan for Brazil’s Bumerangue in H1 2027",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQakZlMmd0ckVCbG5xdzdqRFowSVZCLXhFR1dfc1dHa0N5TFdEZkNOeFM5UEt0SHFyMFFHZXJ3TUVzblBycThQNHlPLVlWYzF0QU5QTTNkVk9qSXFfQy1ZeEt6WlgwNXNyYUZkbm91UXpWT2NBSkVmdjNJMmJocTc2TG9RZTBDZDRGZmxHSm1IcFVOYTlfdzZqT2FCTzVRUHVBYlgxTW4wRlduTDhDVDZuUDczWTF1Z1dpZ2c?oc=5",
-      "lead_source": "Brazil Energy Insight",
-      "canonical_entities": [
-        "BP"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T14:11:15+00:00",
-      "latest_seen": "2026-05-05T14:11:15+00:00",
-      "age_hours": 0.3,
-      "score": 63.32,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.82,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "370a1109bfd86959",
-          "title": "BP to complete three-well appraisal plan for Brazil’s Bumerangue in H1 2027",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQakZlMmd0ckVCbG5xdzdqRFowSVZCLXhFR1dfc1dHa0N5TFdEZkNOeFM5UEt0SHFyMFFHZXJ3TUVzblBycThQNHlPLVlWYzF0QU5QTTNkVk9qSXFfQy1ZeEt6WlgwNXNyYUZkbm91UXpWT2NBSkVmdjNJMmJocTc2TG9RZTBDZDRGZmxHSm1IcFVOYTlfdzZqT2FCTzVRUHVBYlgxTW4wRlduTDhDVDZuUDczWTF1Z1dpZ2c?oc=5",
-          "source": "Brazil Energy Insight",
-          "source_type": "rss",
-          "published_at": "2026-05-05T14:11:15+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_283c06e6f0c572",
-      "topic": "companies",
-      "lead_title": "ExxonMobil Post Q1 Earnings: Is the Stock Worth Buying Now?",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzFZYUl4bnhiM2VZTllRRmdDT1VqTk1RUy1lbk9NUlFtdUY5VFpNYjZoM09qQU1vVWVUaEdYZ0Y0bW5ULW5ET3lSc3ZCU3ZuX19jQzZ0a2RaSHhKUktoc2pfZU13OG5LVXM5cDBGZ3dzZVpDWE1RMF9rdWFxem1FbXUxam9aNW85bV9lNlROVHJtMXU4Xy1vZm83Qy1pVEE?oc=5",
-      "lead_source": "Zacks Investment Research",
-      "canonical_entities": [
-        "Exxon"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T14:02:24+00:00",
-      "latest_seen": "2026-05-05T14:02:24+00:00",
-      "age_hours": 0.45,
-      "score": 63.23,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.73,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "2a56127330646683",
-          "title": "ExxonMobil Post Q1 Earnings: Is the Stock Worth Buying Now?",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzFZYUl4bnhiM2VZTllRRmdDT1VqTk1RUy1lbk9NUlFtdUY5VFpNYjZoM09qQU1vVWVUaEdYZ0Y0bW5ULW5ET3lSc3ZCU3ZuX19jQzZ0a2RaSHhKUktoc2pfZU13OG5LVXM5cDBGZ3dzZVpDWE1RMF9rdWFxem1FbXUxam9aNW85bV9lNlROVHJtMXU4Xy1vZm83Qy1pVEE?oc=5",
-          "source": "Zacks Investment Research",
-          "source_type": "rss",
-          "published_at": "2026-05-05T14:02:24+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7c23117b47a65e",
-      "topic": "companies",
-      "lead_title": "Daily National Shell Egg Index Report – May 4, 2026 | USDA AMS MyMarketNews - News and Statistics",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX2F5WFA3SHFnVWkyOV9LaDlfd1QzNVFIVEs4NnVkZUNMdFZmdlZOYUx0RzNDM204TVVHSms5QktpUjBIckdmTVNLLTdLdzdHUHhjMUVEMDZCOTVjMUhxdFdzZWFvYjV1ejExd05wd2pPYTcxX0FjZjJsWE9QcDJRMlRBSEVQWmd6aVQ3al9IVldOSFBqTXQwT0poeklVZw?oc=5",
-      "lead_source": "IndexBox",
-      "canonical_entities": [
-        "Shell"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T13:30:00+00:00",
-      "latest_seen": "2026-05-05T13:30:00+00:00",
-      "age_hours": 0.99,
-      "score": 62.91,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.41,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "2f509844fe72d15c",
-          "title": "Daily National Shell Egg Index Report – May 4, 2026 | USDA AMS MyMarketNews - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOX2F5WFA3SHFnVWkyOV9LaDlfd1QzNVFIVEs4NnVkZUNMdFZmdlZOYUx0RzNDM204TVVHSms5QktpUjBIckdmTVNLLTdLdzdHUHhjMUVEMDZCOTVjMUhxdFdzZWFvYjV1ejExd05wd2pPYTcxX0FjZjJsWE9QcDJRMlRBSEVQWmd6aVQ3al9IVldOSFBqTXQwT0poeklVZw?oc=5",
-          "source": "IndexBox",
-          "source_type": "rss",
-          "published_at": "2026-05-05T13:30:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_876bde95aceea8",
-      "topic": "companies",
-      "lead_title": "Trafalgar Property Wins Backing for Restructuring and Shift to AIM Cash Shell",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUGljZEZJQ3FVQU5RcTJiMFZXeUJuV2ItVGdRUnpWbjgtR0xSTFJBS25NckZwdjBobUVTNjdENmt4aGllTl9weVlKMW9wZTJBX0RNWm5XNEpyQWtTcnhJODJNN2dQUzhvdDBtWXBiNXBXakFKOWxOdGNVeTloSnJycjJKUnQ1cEdfcHhtd0xmQWFCbDQ1NnFUbEt4bkIzS1FURjl2Ui1QZm1LWU13VzA1M1Q4ZlJkT2gyVnU3Vk84Y3lNUEFOWEZfQQ?oc=5",
-      "lead_source": "TipRanks",
-      "canonical_entities": [
-        "Shell"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T13:23:42+00:00",
-      "latest_seen": "2026-05-05T13:23:42+00:00",
-      "age_hours": 1.1,
-      "score": 62.84,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.34,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "666119311e72060e",
-          "title": "Trafalgar Property Wins Backing for Restructuring and Shift to AIM Cash Shell",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUGljZEZJQ3FVQU5RcTJiMFZXeUJuV2ItVGdRUnpWbjgtR0xSTFJBS25NckZwdjBobUVTNjdENmt4aGllTl9weVlKMW9wZTJBX0RNWm5XNEpyQWtTcnhJODJNN2dQUzhvdDBtWXBiNXBXakFKOWxOdGNVeTloSnJycjJKUnQ1cEdfcHhtd0xmQWFCbDQ1NnFUbEt4bkIzS1FURjl2Ui1QZm1LWU13VzA1M1Q4ZlJkT2gyVnU3Vk84Y3lNUEFOWEZfQQ?oc=5",
-          "source": "TipRanks",
-          "source_type": "rss",
-          "published_at": "2026-05-05T13:23:42+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_08ba8508b6ac9a",
-      "topic": "companies",
-      "lead_title": "Shell (LON:SHEL) Earns Neutral Rating from UBS Group",
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb0ZyRldCcTZvd0swNWVMTDVHek9SV2Fjd1owckQ4dW5ETWVfUlk0eUlXTWRlTGhRYkxlS0tQWXBuOExuLW9PX3JvNnE4aW9xeUhUQVVFQWx4eEhYYnloWG5ScFNCQ25EYlFzcnd5clh4d3lnMExabVZUMGFtZ18xdkZfMGU2eGo2U2Z1VmJXbDhYUnNORV9IMVktYkc0VmNKNFFDcVNB?oc=5",
-      "lead_source": "MarketBeat",
-      "canonical_entities": [
-        "Shell"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T13:12:28+00:00",
-      "latest_seen": "2026-05-05T13:12:28+00:00",
-      "age_hours": 1.28,
-      "score": 62.73,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.23,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "adac25b8336a4e29",
-          "title": "Shell (LON:SHEL) Earns Neutral Rating from UBS Group",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQb0ZyRldCcTZvd0swNWVMTDVHek9SV2Fjd1owckQ4dW5ETWVfUlk0eUlXTWRlTGhRYkxlS0tQWXBuOExuLW9PX3JvNnE4aW9xeUhUQVVFQWx4eEhYYnloWG5ScFNCQ25EYlFzcnd5clh4d3lnMExabVZUMGFtZ18xdkZfMGU2eGo2U2Z1VmJXbDhYUnNORV9IMVktYkc0VmNKNFFDcVNB?oc=5",
-          "source": "MarketBeat",
-          "source_type": "rss",
-          "published_at": "2026-05-05T13:12:28+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_22485604e1b12d",
-      "topic": "companies",
-      "lead_title": "Chevron to explore for oil and gas south of Malta",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDJKYTQwWEVRLUpYTGs3VnlxSkRqYjdXcTVZUTJPN3NSVDJQY3JDTWg4M21TQXdveVY5WE1lTDFiNmgxby1CN2o3UUxydnlkNnNRZkFZYks1Tlk2dXNkaG5jdlhnd1ktSXEtMkJHXy03WU53aEp0Z0JKSUJPNnc3SnFycFU4TkJXS3VGaXZfbkwyOXR3VGNkaEg3b2ZURFVHaC1nanhNVEItRTJWNmRPUw?oc=5",
-      "lead_source": "Investing.com",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T13:00:53+00:00",
-      "latest_seen": "2026-05-05T13:00:53+00:00",
-      "age_hours": 1.48,
-      "score": 62.61,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.11,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "0fc64fcdee6a2c46",
-          "title": "Chevron to explore for oil and gas south of Malta",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcDJKYTQwWEVRLUpYTGs3VnlxSkRqYjdXcTVZUTJPN3NSVDJQY3JDTWg4M21TQXdveVY5WE1lTDFiNmgxby1CN2o3UUxydnlkNnNRZkFZYks1Tlk2dXNkaG5jdlhnd1ktSXEtMkJHXy03WU53aEp0Z0JKSUJPNnc3SnFycFU4TkJXS3VGaXZfbkwyOXR3VGNkaEg3b2ZURFVHaC1nanhNVEItRTJWNmRPUw?oc=5",
-          "source": "Investing.com",
-          "source_type": "rss",
-          "published_at": "2026-05-05T13:00:53+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d2e6d7cb71e2b7",
-      "topic": "companies",
-      "lead_title": "Chevron CEO warns of oil shortages from Strait of Hormuz closure",
-      "lead_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NMTZmQWlkcGNUNnBqajFGOXlwZm1EbzJFU2pGamozOExqd1hQRWZ4dndLU3RWbEtDY0FidjBmVTRkWWJBYUxWWWxrNXNNLUNrUUFwXzdvM2ZJemxTNzFWMWwyd0VEdDY1NU16SUF3?oc=5",
-      "lead_source": "qz.com",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T13:00:52+00:00",
-      "latest_seen": "2026-05-05T13:00:52+00:00",
-      "age_hours": 1.48,
-      "score": 62.61,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.11,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "c96b834aa8c4c8b1",
-          "title": "Chevron CEO warns of oil shortages from Strait of Hormuz closure",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NMTZmQWlkcGNUNnBqajFGOXlwZm1EbzJFU2pGamozOExqd1hQRWZ4dndLU3RWbEtDY0FidjBmVTRkWWJBYUxWWWxrNXNNLUNrUUFwXzdvM2ZJemxTNzFWMWwyd0VEdDY1NU16SUF3?oc=5",
-          "source": "qz.com",
-          "source_type": "rss",
-          "published_at": "2026-05-05T13:00:52+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2f0567c398f06e",
-      "topic": "companies",
-      "lead_title": "Chevron Corporation (CVX) is Attracting Investor Attention: Here is What You Should Know",
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTEtBUENfRHh0UGMxY0hvRUJGMnFteVFBUmFVUUhiMmpCcXVjbGpYR2J2SzdTQ2kxckVzbGsyOFREVGFQemo4ejdXV1BiOGFBbUY2OGRzUHJDRVVWSlFJdzJUVHdPeVBlQ3RaNVdtcTRhbEMtcTRjSnU0SEhvNGpobU5fOG4tczA1VU5Dam5DWE9CX2NJTERJRXBKTHU1R3hZVUFvaWFNNThvd0dO?oc=5",
-      "lead_source": "Yahoo Finance",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T13:00:05+00:00",
-      "latest_seen": "2026-05-05T13:00:05+00:00",
-      "age_hours": 1.49,
-      "score": 62.61,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.11,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "643005cbb05d6650",
-          "title": "Chevron Corporation (CVX) is Attracting Investor Attention: Here is What You Should Know",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTEtBUENfRHh0UGMxY0hvRUJGMnFteVFBUmFVUUhiMmpCcXVjbGpYR2J2SzdTQ2kxckVzbGsyOFREVGFQemo4ejdXV1BiOGFBbUY2OGRzUHJDRVVWSlFJdzJUVHdPeVBlQ3RaNVdtcTRhbEMtcTRjSnU0SEhvNGpobU5fOG4tczA1VU5Dam5DWE9CX2NJTERJRXBKTHU1R3hZVUFvaWFNNThvd0dO?oc=5",
-          "source": "Yahoo Finance",
-          "source_type": "rss",
-          "published_at": "2026-05-05T13:00:05+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_724a2c7e24f05c",
-      "topic": "companies",
-      "lead_title": "A Quick Look at Today's Ratings for Chevron(CVX.US), With a Forecast Between $192 to $225",
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3MzX2M2SU55djBja3AxVl9lMkJyX05SWmlRT1p3Y1JhOUFKVFNXS0JLVWhQTHdaOFE4cVhVbURKNlpEWlhZY3pjWmhCMDVWZnhIVmhEZFZXT25MU2hHb2l4UXc4VWpvUFlYSC1qUFdXdllFNzZHcWpQellkaUZ5Z2VZVXIyYTBLQm10dFN2a2w4ZGFD?oc=5",
-      "lead_source": "富途牛牛",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T13:00:01+00:00",
-      "latest_seen": "2026-05-05T13:00:01+00:00",
-      "age_hours": 1.49,
-      "score": 62.61,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.11,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "2ad5600461e022c8",
-          "title": "A Quick Look at Today's Ratings for Chevron(CVX.US), With a Forecast Between $192 to $225",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPN3MzX2M2SU55djBja3AxVl9lMkJyX05SWmlRT1p3Y1JhOUFKVFNXS0JLVWhQTHdaOFE4cVhVbURKNlpEWlhZY3pjWmhCMDVWZnhIVmhEZFZXT25MU2hHb2l4UXc4VWpvUFlYSC1qUFdXdllFNzZHcWpQellkaUZ5Z2VZVXIyYTBLQm10dFN2a2w4ZGFD?oc=5",
-          "source": "富途牛牛",
-          "source_type": "rss",
-          "published_at": "2026-05-05T13:00:01+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e494650dcfecff",
-      "topic": "companies",
-      "lead_title": "Exxon Mobil and Chevron earnings fall as Iran war disrupts oil shipments",
-      "lead_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOXBXZjhCci1fVWFEbXNpdnRBbGhkLWdablQ1d19fTkF4WDN0WEgycDQ5Y1pXZFBpeFhscURqYUVrNDVvdDdHRXF3MXM1QXNCd3RFWHVmMDh1WHdVdmt5TUJ3LTJvRkJiLXVnWmlBX1hLeGVmLXdDMWszb190Y2lxatIBhgFBVV95cUxNSC1fVHE0N2VzMVd6TzJRUWUwRGYtLTdER0I4RlNwMjlkNG94aUs4aWdiQXZTd1VJc1NfOTBFdXN2ZmdneWNBM2JvT0hiUzJsZlpfRGFXQkx0Q3l0ZGJLTVhyaGQzY2l3WU12czZuOFMxb0RSaGwyWUlpNVRCMTJkZFBTeGNTUQ?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "Chevron",
-        "Exxon"
-      ],
-      "source_count": 4,
-      "distinct_publishers": 4,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-01T10:40:24+00:00",
-      "latest_seen": "2026-05-01T20:29:00+00:00",
-      "age_hours": 90.01,
-      "score": 62.6,
-      "score_components": {
-        "source_count_points": 20,
-        "recency_points": 0.0,
-        "source_quality_points": 24.6,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "7fe78a3e3e66030e",
-          "title": "Exxon Mobil and Chevron earnings fall as Iran war disrupts oil shipments",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOXBXZjhCci1fVWFEbXNpdnRBbGhkLWdablQ1d19fTkF4WDN0WEgycDQ5Y1pXZFBpeFhscURqYUVrNDVvdDdHRXF3MXM1QXNCd3RFWHVmMDh1WHdVdmt5TUJ3LTJvRkJiLXVnWmlBX1hLeGVmLXdDMWszb190Y2lxatIBhgFBVV95cUxNSC1fVHE0N2VzMVd6TzJRUWUwRGYtLTdER0I4RlNwMjlkNG94aUs4aWdiQXZTd1VJc1NfOTBFdXN2ZmdneWNBM2JvT0hiUzJsZlpfRGFXQkx0Q3l0ZGJLTVhyaGQzY2l3WU12czZuOFMxb0RSaGwyWUlpNVRCMTJkZFBTeGNTUQ?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-05-01T10:40:24+00:00",
-          "confidence": 0.98
-        },
-        {
-          "headline_id": "44025ffbcf94ed1d",
-          "title": "Exxon and Chevron quarterly earnings fall despite soaring oil prices",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTnpvRG9ZT1FoRTgzaEs5SGQwVHlnV3JlQzBPZmlLSzhDZ0RHb0JRdWJOQ3ZqX0lrTDVhbkhSLVFmNEZ1cmNTcXBoOUs2dTJZYkF6WFpVbnZrMDU1ZE5WQlByR21lUUVYalFMelRtcmRnaUY0Wmt6NzVkVUNPekExUE5mTDU4TjF6?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-05-01T20:29:00+00:00",
-          "confidence": 0.9
-        },
-        {
-          "headline_id": "e9b5192d693558da",
-          "title": "Chevron, Exxon Show Earnings Resilience But Stocks Fail Key Test",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPalR4bHI0ZVl2UTJ1Qm5nQ2dYUnNOWGg2MVdTekpqRVhmQzlPM09jZmVtbE9yXzdNM2dOeEVFaEw0S0MyRmsybUVoaTk0VndZLTdVbXlFbnp5bmdDRy1LRGhXNXl0N3QwbTM1TFNPVGJNTW1uR1gwWjd3bVVTclVCTHZuUk1iMjdQbzdZ?oc=5",
-          "source": "Investor's Business Daily",
-          "source_type": "rss",
-          "published_at": "2026-05-01T20:13:00+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "8c77409b2e4adaab",
-          "title": "ExxonMobil and Chevron earnings fall, but bigger profits are on their way because of soaring oil prices | CNN Business",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBORm9JUDJ6N1JhNlVqZjFNYWdJS255ZmY1WlpQc2k4YVExOVd3MEhGXzFVOWNNdGtfZmdGREdraldzSTFiNmFDM1U3TmhtRmljUXFxMFFfQmoyUmYzZHlHUTV0ZEdtTTg?oc=5",
-          "source": "CNN",
-          "source_type": "rss",
-          "published_at": "2026-05-01T11:55:11+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f76c9d4be8111e",
-      "topic": "companies",
-      "lead_title": "Shell lobbying EU over rules on how green its green hydrogen must be",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlo2cmcwYXd2QTkyZnBNREU2OXJ6SV9wQzZDSG9sdjVPSm1aSUF5MFpocm95Ti1MNkMwNXNJb0YzNzlFMnhlZ3duNUdWcEJaRmNRRWE2UE95M203TTg0YU1DZzlickxvNHBkM1hWVFNQMXdMMk15VFJHMTQ3c2dCRmg5ems?oc=5",
-      "lead_source": "Financial Times",
-      "canonical_entities": [
-        "Shell"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-05T04:00:20+00:00",
-      "latest_seen": "2026-05-05T04:00:20+00:00",
-      "age_hours": 10.48,
-      "score": 56.81,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.71,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0dbb9d5d5ccb130e",
-          "title": "Shell lobbying EU over rules on how green its green hydrogen must be",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlo2cmcwYXd2QTkyZnBNREU2OXJ6SV9wQzZDSG9sdjVPSm1aSUF5MFpocm95Ti1MNkMwNXNJb0YzNzlFMnhlZ3duNUdWcEJaRmNRRWE2UE95M203TTg0YU1DZzlickxvNHBkM1hWVFNQMXdMMk15VFJHMTQ3c2dCRmg5ems?oc=5",
-          "source": "Financial Times",
-          "source_type": "rss",
-          "published_at": "2026-05-05T04:00:20+00:00",
-          "confidence": 0.97
         }
       ],
       "top_tier": false,
@@ -686,11 +667,11 @@
       ],
       "earliest_seen": "2026-05-05T10:35:31+00:00",
       "latest_seen": "2026-05-05T10:35:31+00:00",
-      "age_hours": 3.9,
-      "score": 56.66,
+      "age_hours": 5.65,
+      "score": 55.61,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.66,
+        "recency_points": 21.61,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -728,11 +709,11 @@
       ],
       "earliest_seen": "2026-05-05T07:22:02+00:00",
       "latest_seen": "2026-05-05T07:22:02+00:00",
-      "age_hours": 7.12,
-      "score": 54.73,
+      "age_hours": 8.87,
+      "score": 53.68,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.73,
+        "recency_points": 19.68,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -754,6 +735,211 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_fae7171c05793b",
+      "topic": "companies",
+      "lead_title": "Chevron Can See Significant Upside From Spot And Oil-Linked LNG Sales (NYSE:CVX)",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0R3OUU3WTRrcTJFOXVaRUlGdDJ2ODhqMWk2N2dlT0p6QnljZVJ3SkIwZDNMUWJsUkZHSlpXeDFzUVZxekFDZFp4VXBNSlZkUTNrV3UwNlVjODItX01DbWVLdTNCZEJLaURoVlF3UXJWSHJhVS0wcVp4aHNrVEJkQkViTHVHOHBZVVIyU3FQYmVfaWpJWDJiQWRwSmd1R28?oc=5",
+      "lead_source": "Seeking Alpha",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T14:11:35+00:00",
+      "latest_seen": "2026-05-05T14:11:35+00:00",
+      "age_hours": 2.04,
+      "score": 52.27,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.77,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "4baa765d27466580",
+          "title": "Chevron Can See Significant Upside From Spot And Oil-Linked LNG Sales (NYSE:CVX)",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ0R3OUU3WTRrcTJFOXVaRUlGdDJ2ODhqMWk2N2dlT0p6QnljZVJ3SkIwZDNMUWJsUkZHSlpXeDFzUVZxekFDZFp4VXBNSlZkUTNrV3UwNlVjODItX01DbWVLdTNCZEJLaURoVlF3UXJWSHJhVS0wcVp4aHNrVEJkQkViTHVHOHBZVVIyU3FQYmVfaWpJWDJiQWRwSmd1R28?oc=5",
+          "source": "Seeking Alpha",
+          "source_type": "rss",
+          "published_at": "2026-05-05T14:11:35+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_0afccf3b19e2b0",
+      "topic": "companies",
+      "lead_title": "BP to complete three-well appraisal plan for Brazil’s Bumerangue in H1 2027",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQakZlMmd0ckVCbG5xdzdqRFowSVZCLXhFR1dfc1dHa0N5TFdEZkNOeFM5UEt0SHFyMFFHZXJ3TUVzblBycThQNHlPLVlWYzF0QU5QTTNkVk9qSXFfQy1ZeEt6WlgwNXNyYUZkbm91UXpWT2NBSkVmdjNJMmJocTc2TG9RZTBDZDRGZmxHSm1IcFVOYTlfdzZqT2FCTzVRUHVBYlgxTW4wRlduTDhDVDZuUDczWTF1Z1dpZ2c?oc=5",
+      "lead_source": "Brazil Energy Insight",
+      "canonical_entities": [
+        "BP"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T14:11:15+00:00",
+      "latest_seen": "2026-05-05T14:11:15+00:00",
+      "age_hours": 2.05,
+      "score": 52.27,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.77,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "370a1109bfd86959",
+          "title": "BP to complete three-well appraisal plan for Brazil’s Bumerangue in H1 2027",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQakZlMmd0ckVCbG5xdzdqRFowSVZCLXhFR1dfc1dHa0N5TFdEZkNOeFM5UEt0SHFyMFFHZXJ3TUVzblBycThQNHlPLVlWYzF0QU5QTTNkVk9qSXFfQy1ZeEt6WlgwNXNyYUZkbm91UXpWT2NBSkVmdjNJMmJocTc2TG9RZTBDZDRGZmxHSm1IcFVOYTlfdzZqT2FCTzVRUHVBYlgxTW4wRlduTDhDVDZuUDczWTF1Z1dpZ2c?oc=5",
+          "source": "Brazil Energy Insight",
+          "source_type": "rss",
+          "published_at": "2026-05-05T14:11:15+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_283c06e6f0c572",
+      "topic": "companies",
+      "lead_title": "ExxonMobil Post Q1 Earnings: Is the Stock Worth Buying Now?",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzFZYUl4bnhiM2VZTllRRmdDT1VqTk1RUy1lbk9NUlFtdUY5VFpNYjZoM09qQU1vVWVUaEdYZ0Y0bW5ULW5ET3lSc3ZCU3ZuX19jQzZ0a2RaSHhKUktoc2pfZU13OG5LVXM5cDBGZ3dzZVpDWE1RMF9rdWFxem1FbXUxam9aNW85bV9lNlROVHJtMXU4Xy1vZm83Qy1pVEE?oc=5",
+      "lead_source": "Zacks Investment Research",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T14:02:24+00:00",
+      "latest_seen": "2026-05-05T14:02:24+00:00",
+      "age_hours": 2.2,
+      "score": 52.18,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.68,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "2a56127330646683",
+          "title": "ExxonMobil Post Q1 Earnings: Is the Stock Worth Buying Now?",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzFZYUl4bnhiM2VZTllRRmdDT1VqTk1RUy1lbk9NUlFtdUY5VFpNYjZoM09qQU1vVWVUaEdYZ0Y0bW5ULW5ET3lSc3ZCU3ZuX19jQzZ0a2RaSHhKUktoc2pfZU13OG5LVXM5cDBGZ3dzZVpDWE1RMF9rdWFxem1FbXUxam9aNW85bV9lNlROVHJtMXU4Xy1vZm83Qy1pVEE?oc=5",
+          "source": "Zacks Investment Research",
+          "source_type": "rss",
+          "published_at": "2026-05-05T14:02:24+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d2e6d7cb71e2b7",
+      "topic": "companies",
+      "lead_title": "Chevron CEO warns of oil shortages from Strait of Hormuz closure",
+      "lead_url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NMTZmQWlkcGNUNnBqajFGOXlwZm1EbzJFU2pGamozOExqd1hQRWZ4dndLU3RWbEtDY0FidjBmVTRkWWJBYUxWWWxrNXNNLUNrUUFwXzdvM2ZJemxTNzFWMWwyd0VEdDY1NU16SUF3?oc=5",
+      "lead_source": "qz.com",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T13:39:09+00:00",
+      "latest_seen": "2026-05-05T13:39:09+00:00",
+      "age_hours": 2.59,
+      "score": 51.95,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.45,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "c96b834aa8c4c8b1",
+          "title": "Chevron CEO warns of oil shortages from Strait of Hormuz closure",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NMTZmQWlkcGNUNnBqajFGOXlwZm1EbzJFU2pGamozOExqd1hQRWZ4dndLU3RWbEtDY0FidjBmVTRkWWJBYUxWWWxrNXNNLUNrUUFwXzdvM2ZJemxTNzFWMWwyd0VEdDY1NU16SUF3?oc=5",
+          "source": "qz.com",
+          "source_type": "rss",
+          "published_at": "2026-05-05T13:39:09+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f76c9d4be8111e",
+      "topic": "companies",
+      "lead_title": "Shell lobbying EU over rules on how green its green hydrogen must be",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlo2cmcwYXd2QTkyZnBNREU2OXJ6SV9wQzZDSG9sdjVPSm1aSUF5MFpocm95Ti1MNkMwNXNJb0YzNzlFMnhlZ3duNUdWcEJaRmNRRWE2UE95M203TTg0YU1DZzlickxvNHBkM1hWVFNQMXdMMk15VFJHMTQ3c2dCRmg5ems?oc=5",
+      "lead_source": "Financial Times",
+      "canonical_entities": [
+        "Shell"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-05T04:00:20+00:00",
+      "latest_seen": "2026-05-05T04:00:20+00:00",
+      "age_hours": 12.23,
+      "score": 50.76,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.66,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "0dbb9d5d5ccb130e",
+          "title": "Shell lobbying EU over rules on how green its green hydrogen must be",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWlo2cmcwYXd2QTkyZnBNREU2OXJ6SV9wQzZDSG9sdjVPSm1aSUF5MFpocm95Ti1MNkMwNXNJb0YzNzlFMnhlZ3duNUdWcEJaRmNRRWE2UE95M203TTg0YU1DZzlickxvNHBkM1hWVFNQMXdMMk15VFJHMTQ3c2dCRmg5ems?oc=5",
+          "source": "Financial Times",
+          "source_type": "rss",
+          "published_at": "2026-05-05T04:00:20+00:00",
+          "confidence": 0.97
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_db07be19c2e2c4",
       "topic": "companies",
       "lead_title": "Chevron CEO says shortages in oil supply will begin appearing",
@@ -769,11 +955,11 @@
       ],
       "earliest_seen": "2026-05-04T20:32:00+00:00",
       "latest_seen": "2026-05-04T20:32:00+00:00",
-      "age_hours": 17.96,
-      "score": 48.23,
+      "age_hours": 19.7,
+      "score": 47.18,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.23,
+        "recency_points": 13.18,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -810,11 +996,11 @@
       ],
       "earliest_seen": "2026-05-04T19:06:04+00:00",
       "latest_seen": "2026-05-04T19:06:04+00:00",
-      "age_hours": 19.39,
-      "score": 47.37,
+      "age_hours": 21.14,
+      "score": 46.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.37,
+        "recency_points": 12.32,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -829,89 +1015,6 @@
           "source": "Bloomberg.com",
           "source_type": "rss",
           "published_at": "2026-05-04T19:06:04+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a7ed4675e4f9ae",
-      "topic": "companies",
-      "lead_title": "ExxonMobil vs. Chevron: One of These Energy Stocks Is a Much Better Dividend Buy",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0dPZDMyaEZ1enExQmo1STFha1hXdEduQ28xdUJBWkQ5TmRTZEkyZU1qVXZnT0hSYnpUdlhrUGxUTzQwMUpQMThWdnNJbFgyWU1kRzNINzZXZTFXQUtBanJad3VUVUFFdVlCVHlPcVZLX0dkeHY3NFlIN2c4bkljQ19GTUVzd2U1cTYtdXlmSDBPTnlxaUhYWQ?oc=5",
-      "lead_source": "The Motley Fool",
-      "canonical_entities": [
-        "Chevron",
-        "Exxon"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-03T12:15:00+00:00",
-      "latest_seen": "2026-05-03T12:15:00+00:00",
-      "age_hours": 50.24,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "5c3b348cd2ebf453",
-          "title": "ExxonMobil vs. Chevron: One of These Energy Stocks Is a Much Better Dividend Buy",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0dPZDMyaEZ1enExQmo1STFha1hXdEduQ28xdUJBWkQ5TmRTZEkyZU1qVXZnT0hSYnpUdlhrUGxUTzQwMUpQMThWdnNJbFgyWU1kRzNINzZXZTFXQUtBanJad3VUVUFFdVlCVHlPcVZLX0dkeHY3NFlIN2c4bkljQ19GTUVzd2U1cTYtdXlmSDBPTnlxaUhYWQ?oc=5",
-          "source": "The Motley Fool",
-          "source_type": "rss",
-          "published_at": "2026-05-03T12:15:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3b5a8d8cf92007",
-      "topic": "companies",
-      "lead_title": "BP quarterly profit beats expectations at $3.2 billion, driven by Iran war trading boon",
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSllpY284Nm5nTk5hN0dGZ1RKXzFCLVg5UkQ5TjNsLUtEbzlmMFJzUWF2VlpCaFpNM0RZSXYyZ1lQQVdwU2gxYUVXLVdZbzRKVW5ndm05dFhHeHRwSGNnWlRVVWQwY0tlWXlMQm16R2dJNFY2dGl5cWhFenVHOUJRRU1YTDdkd2RjOGZBRUdnUXhFNkE5eVE?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "BP"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T14:46:02+00:00",
-      "latest_seen": "2026-04-28T14:46:02+00:00",
-      "age_hours": 167.72,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "a5ee6fe835bb709f",
-          "title": "BP quarterly profit beats expectations at $3.2 billion, driven by Iran war trading boon",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSllpY284Nm5nTk5hN0dGZ1RKXzFCLVg5UkQ5TjNsLUtEbzlmMFJzUWF2VlpCaFpNM0RZSXYyZ1lQQVdwU2gxYUVXLVdZbzRKVW5ndm05dFhHeHRwSGNnWlRVVWQwY0tlWXlMQm16R2dJNFY2dGl5cWhFenVHOUJRRU1YTDdkd2RjOGZBRUdnUXhFNkE5eVE?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-04-28T14:46:02+00:00",
           "confidence": 1.0
         }
       ],
@@ -934,7 +1037,7 @@
       ],
       "earliest_seen": "2026-04-27T20:06:16+00:00",
       "latest_seen": "2026-04-27T20:06:16+00:00",
-      "age_hours": 186.39,
+      "age_hours": 188.13,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -960,52 +1063,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_8309a8f39d4045",
+      "cluster_id": "c_a7ed4675e4f9ae",
       "topic": "companies",
-      "lead_title": "BP profits more than double as Iran war sends oil prices higher",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aldycGt4a0FLVUpsaWpBZ1NVUGNkM0dncEwxTVJLUEgyRmtQY2YyZ0g3c21ydVMzbzFRZkV3NTh1a1ROMWhoNmtCTUtBdnQtWmhOaEcwaGIzUQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "BP"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-28T12:50:10+00:00",
-      "latest_seen": "2026-04-28T12:50:10+00:00",
-      "age_hours": 169.65,
-      "score": 31.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "202120328cff3285",
-          "title": "BP profits more than double as Iran war sends oil prices higher",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42aldycGt4a0FLVUpsaWpBZ1NVUGNkM0dncEwxTVJLUEgyRmtQY2YyZ0g3c21ydVMzbzFRZkV3NTh1a1ROMWhoNmtCTUtBdnQtWmhOaEcwaGIzUQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-04-28T12:50:10+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0aa588d91aa38c",
-      "topic": "companies",
-      "lead_title": "Exxon, Chevron, big oil send signals ahead of earnings",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2JwYy1UUHAwQWwzOTl3R0dKSjNIRGx6bTQ1SWJXVl8wUjNybC1Qdi13aWREQlIzQldUSml2blBzXy1EUTJHWDZXNjliZF9oSEdwTmdvTmstZjJ4SlFCSUNFbDhDb09MRUZWVzZ4TnBYTE42UGsxQXJhZDAyOFhxQkxlbkFKSTN5alVKN2tNU2ZBeVpZdUxDYXgycUFKQQ?oc=5",
-      "lead_source": "thestreet.com",
+      "lead_title": "ExxonMobil vs. Chevron: One of These Energy Stocks Is a Much Better Dividend Buy",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcGpzbnA1SDJDRl9nZGUyVmk4ZGJzZXV5d2I0X05Qdm9QOFZfTjdmZzF5SFRsc015MzFSb2dRV1N6LUtjZ0pvWTMtR2NLcmlzb2JoV1hBVllsWlk1MWUzN3VJcENpRjVfdHRfak4tbWE0TVo2U29SeWlHcTVlVGswU0c0VDU2RUVEb1Y2VmJhNDV5akEtMUFyMW5OSFVkdw?oc=5",
+      "lead_source": "Yahoo Finance",
       "canonical_entities": [
         "Chevron",
         "Exxon"
@@ -1015,9 +1077,9 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-28T13:47:00+00:00",
-      "latest_seen": "2026-04-28T13:47:00+00:00",
-      "age_hours": 168.71,
+      "earliest_seen": "2026-05-03T11:35:00+00:00",
+      "latest_seen": "2026-05-03T11:35:00+00:00",
+      "age_hours": 52.65,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1030,12 +1092,12 @@
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "3f943ea9ff222efb",
-          "title": "Exxon, Chevron, big oil send signals ahead of earnings",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2JwYy1UUHAwQWwzOTl3R0dKSjNIRGx6bTQ1SWJXVl8wUjNybC1Qdi13aWREQlIzQldUSml2blBzXy1EUTJHWDZXNjliZF9oSEdwTmdvTmstZjJ4SlFCSUNFbDhDb09MRUZWVzZ4TnBYTE42UGsxQXJhZDAyOFhxQkxlbkFKSTN5alVKN2tNU2ZBeVpZdUxDYXgycUFKQQ?oc=5",
-          "source": "thestreet.com",
+          "headline_id": "5c3b348cd2ebf453",
+          "title": "ExxonMobil vs. Chevron: One of These Energy Stocks Is a Much Better Dividend Buy",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcGpzbnA1SDJDRl9nZGUyVmk4ZGJzZXV5d2I0X05Qdm9QOFZfTjdmZzF5SFRsc015MzFSb2dRV1N6LUtjZ0pvWTMtR2NLcmlzb2JoV1hBVllsWlk1MWUzN3VJcENpRjVfdHRfak4tbWE0TVo2U29SeWlHcTVlVGswU0c0VDU2RUVEb1Y2VmJhNDV5akEtMUFyMW5OSFVkdw?oc=5",
+          "source": "Yahoo Finance",
           "source_type": "rss",
-          "published_at": "2026-04-28T13:47:00+00:00",
+          "published_at": "2026-05-03T11:35:00+00:00",
           "confidence": 0.7
         }
       ],
@@ -1059,7 +1121,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 655.49,
+      "age_hours": 657.24,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
