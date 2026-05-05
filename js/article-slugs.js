@@ -49,6 +49,7 @@ const ARTICLE_SLUGS = {
   "Crude Braces for Turmoil": "crude-braces-for-turmoil",
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
+  "Crude oil and petroleum product prices increased sharply in the first quarter of 2026": "crude-oil-and-petroleum-product-prices-increased-sharply-in-the-first-quarter-of",
   "Crude oil prices retreat after gaining 6% amid ongoing US-Iran war. What's next?": "crude-oil-prices-retreat-after-gaining-6-amid-ongoing-us-iran-war-whats-next",
   "Current price of oil as of May 4, 2026": "current-price-of-oil-as-of-may-4-2026",
   "Current price of oil as of May 5, 2026": "current-price-of-oil-as-of-may-5-2026",
