@@ -58,10 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Iran Strikes UAE Fujairah Oil Hub; First Major Bypass Infrastructure Hit", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "U.S. Sinks Seven Iranian Boats as Project Freedom Launches Hormuz Convoys", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
-  { title: "WTI Surges to $105, Brent Tops $114 on Hormuz Exchange of Fire", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "U.S. Gas Average Climbs to $4.46, Up Another 6 Cents Over Weekend", cat: "Gas Prices", slug: "gas-prices", time: "8h" },
+  { title: "Oil Jumps as Violence Flares After Trump’s Offer to Help Ships Through Strait", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Current price of oil as of May 4, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Gas prices rise to $4.46 per gallon and oil jumps as shippers stay out of Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil Futures Rise As Iran Fires At Ships, U.A.E.", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil prices flat as Trump’s plan for Strait of Hormuz fails to calm market", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil Prices Climb as Iran Threatens U.S. Forces", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil price today (May 4, 2026): Crude drops as Trump signals help for ships stuck in Strait of Hormuz; sta", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Crude oil prices retreat after gaining 6% amid ongoing US-Iran war. What's next?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
