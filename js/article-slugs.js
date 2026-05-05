@@ -381,18 +381,7 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
-  "Iran Launches 19 Missiles and Drones at UAE; Air Defenses Intercept 15+": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "Trump's 'Project Freedom' Begins Reopening Hormuz Despite Iranian Fire": "us-sinks-seven-iranian-boats-as-project-freedom-launches-hormuz-convoys",
-  "South Korean HMM Namu Hit by Explosion and Fire Off UAE Coast": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "ADNOC Tanker Barakah Struck by Drones North of Fujairah": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "ADNOC Tanker Barakah Struck by Drones; HMM Namu Hit by Explosion Off UAE": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "U.S. Gas Average Climbs to $4.46, Up 6 More Cents Over Weekend": "us-gas-average-climbs-to-446-up-another-6-cents-over-weekend",
-  "Trump Declines to Confirm Ceasefire as Both Sides Trade Fire": "trump-declines-to-confirm-ceasefire-as-both-sides-trade-fire-in-strait",
-  "Iran Threatens 'Aggressive' Foreign Military Forces Approaching Strait": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Disrupted": "cheniere-energy-venture-global-ride-lng-premium-as-qatar-flows-still-disrupted",
-  "Hezbollah-IDF Firefight Wounds Two Israeli Soldiers Amid Lebanon Ceasefire": "israeli-strikes-kill-lebanese-journalist-amal-khalil-during-extended-ceasefire",
-  "ADNOC Tanker Barakah Struck by Drones; HMM Namu Hit by Explosion": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
 };
 
 function slugifyTitle(title) {
