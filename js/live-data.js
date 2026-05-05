@@ -169,7 +169,12 @@ function renderAll() {
       var chgColor = c.change >= 0 ? '#10b981' : '#ef4444';
       var chgArrow = c.change >= 0 ? '\u25B2' : '\u25BC';
       var chgSign = c.change >= 0 ? '+' : '';
-      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">'+c.name+' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value">$'+c.price.toFixed(c.price>100?2:c.price>10?2:3)+'</div><div class="price-card-footer"><span style="color:'+chgColor+';font-size:11px;font-weight:600">'+chgArrow+' '+chgSign+c.pct.toFixed(2)+'%</span><span class="price-card-unit" style="margin-left:auto">'+c.unit+'</span></div><div style="color:var(--text-3);font-size:8px;text-align:center;margin-top:3px">Updated every 5 min via API</div></div>';
+      var sparkHtml = '';
+      if (c.spark && c.spark.length >= 2) {
+        var sparkColor = (c.spark[c.spark.length-1] >= c.spark[0]) ? '#10b981' : '#ef4444';
+        sparkHtml = '<div style="display:flex;align-items:center;justify-content:space-between;margin-top:6px;padding-top:6px;border-top:1px solid var(--border)"><span style="color:var(--text-3);font-size:9px;letter-spacing:0.04em;text-transform:uppercase">7-day</span>'+sparkline(c.spark, sparkColor)+'</div>';
+      }
+      return '<div class="price-card"><div class="price-card-header"><span class="price-card-label">'+c.name+' <span style="color:#10b981;font-size:8px;font-weight:700;vertical-align:super">LIVE</span></span></div><div class="price-card-value">$'+c.price.toFixed(c.price>100?2:c.price>10?2:3)+'</div><div class="price-card-footer"><span style="color:'+chgColor+';font-size:11px;font-weight:600">'+chgArrow+' '+chgSign+c.pct.toFixed(2)+'%</span><span class="price-card-unit" style="margin-left:auto">'+c.unit+'</span></div>'+sparkHtml+'<div style="color:var(--text-3);font-size:8px;text-align:center;margin-top:3px">Updated every 5 min via API</div></div>';
     }).join('');
   }
 
