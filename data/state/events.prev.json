@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-05T23:13:50.405356+00:00",
-  "previous_generated_at": "2026-05-05T22:07:07.492818+00:00",
-  "resolver_run_count": 10,
+  "generated_at": "2026-05-06T00:09:10.857689+00:00",
+  "previous_generated_at": "2026-05-05T23:13:50.405356+00:00",
+  "resolver_run_count": 11,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,17 @@
       "status_detail": "Oil prices fall 4% as fragile US-Iran ceasefire holds, two ships pass through Strait of Hormuz",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.955,
+      "confidence": 0.96,
       "last_confirmed": "2026-05-05T18:12:32+00:00",
-      "source_count": 11,
+      "source_count": 7,
       "summary_short": "Oil prices fall 4% as fragile US-Iran ceasefire holds, two ships pass through Strait of Hormuz",
       "summary_long": "Oil prices fall 4% as fragile US-Iran ceasefire holds, two ships pass through Strait of Hormuz. Map of dominance: Why Iran can’t afford to give up Hormuz control",
       "evidence_cluster_ids": [
         "c_c764f3e8c73369",
         "c_d1ebcc4dfc12a0",
-        "c_c7f8d7dbe2f9ac",
-        "c_6319966dd9c484",
-        "c_143940f4faa3d7"
+        "c_c7f8d7dbe2f9ac"
       ],
-      "evidence_count": 5,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,10 +39,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_c764f3e8c7 → CONTESTED (kw='attack', weight=0.60)",
-        "cluster c_d1ebcc4dfc → CONTESTED (kw='missile', weight=0.56)",
-        "cluster c_143940f4fa → CONTESTED (kw='attack', weight=0.20)",
-        "winning=CONTESTED (1.36/1.36), conf=0.955"
+        "cluster c_c764f3e8c7 → CONTESTED (kw='attack', weight=0.59)",
+        "cluster c_d1ebcc4dfc → CONTESTED (kw='missile', weight=0.46)",
+        "winning=CONTESTED (1.05/1.05), conf=0.96"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,19 +52,19 @@
       "status_detail": "Oil prices fall 4% as fragile US-Iran ceasefire holds, two ships pass through Strait of Hormuz",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.952,
-      "last_confirmed": "2026-05-05T22:48:00+00:00",
-      "source_count": 19,
+      "confidence": 0.956,
+      "last_confirmed": "2026-05-05T23:03:02+00:00",
+      "source_count": 13,
       "summary_short": "Oil prices fall 4% as fragile US-Iran ceasefire holds, two ships pass through Strait of Hormuz",
-      "summary_long": "Oil prices fall 4% as fragile US-Iran ceasefire holds, two ships pass through Strait of Hormuz. Map of dominance: Why Iran can’t afford to give up Hormuz control",
+      "summary_long": "Oil prices fall 4% as fragile US-Iran ceasefire holds, two ships pass through Strait of Hormuz. The desperate reason that Iran keeps attacking the UAE’s oil facilities",
       "evidence_cluster_ids": [
         "c_c764f3e8c73369",
-        "c_d1ebcc4dfc12a0",
-        "c_c1882781715293",
-        "c_0d8ebdeff76574",
-        "c_60861f1e151e01"
+        "c_082a7d1d5cff47",
+        "c_41a6963f1a9e50",
+        "c_cf47bc5d868d0c",
+        "c_d1ebcc4dfc12a0"
       ],
-      "evidence_count": 13,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -82,8 +79,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_c764f3e8c7 → FRAGILE (kw='fragile', weight=0.60)",
-        "winning=FRAGILE (0.60/0.60), conf=0.952"
+        "cluster c_c764f3e8c7 → FRAGILE (kw='fragile', weight=0.59)",
+        "winning=FRAGILE (0.59/0.59), conf=0.956"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -155,14 +152,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_47ce560014a38f",
-      "lead_title": "June WTI Crude Oil Contract Closes Down US$4.15; Settles at US$102.27 per Barrel",
-      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOWdfd0ZhanhlbnNHZjMxTUlkVmh3N1BFMUg1cGlUa1VYSGlQZzVwRWpBdVdIbzdIV2J3M1VsNnhZOGwwdWd3bm5HQXc1TGlaTmlPNlktYi1iUFpwVmc4anBnbXBUdGlXZzB5VEhkdGhqR3pXYnRFUndJMDlPNjRjN0NEN0VlMVlmUXRLNFVmY3ktb2hLaG1IMGFTLW5mN2NYdXg0Wk0wSzcxNzFkNnVKR3EzTHp1X292RU5YUTNUbGllTDZ4SVY1aXdzN1M?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_e7ba4c6e16afb7",
+      "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNkFyRFU3b1BGWnE5WkxWbm0xUkc4QkZrUHR1VUFfa0hoclJmTGhkM1NpLU4xRy01SVpzVFJybkpqWWJVQ2ZSUXpweE1hN2d4bjVqXzczQnlWZjE1VmdqYnpUb1pKMHZVM3VuQXd5STEwSlVEd3ZVQmVtRVNpb0x2Y01KQUotRlB6dEtLODBmVHRTZkR3eXh6a3RQQVo2LWZxR29pZ0l4a9IBrAFBVV95cUxNaTVacS02cGwwYWhGdkg1NHo4RkJtdXBTMTF3SUg0c0xHRU95enBTRUFLYU5vT25mYnJuaGlIWURRNGhsck9vTzdSaUVFeEVjc1FaSWpENHZrNkl6c3phcmZCbW13NnZBemdSU3JjYUtocnNYQ1NIVDFlVGtyZWR2LVI3SUV4QmVGM3V4di1GVk14TGgwSWFFR3RqQVQyLVlrWnZxaTJOODAzbzVV?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 87.02,
-      "novelty": "growing",
-      "source_count": 5,
+      "score": 92.76,
+      "novelty": "new",
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -174,8 +171,8 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.955, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.952, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.96, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.956, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
