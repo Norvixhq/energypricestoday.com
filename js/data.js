@@ -61,11 +61,11 @@ const BREAKING_NEWS = [
   { title: "Current price of oil as of May 5, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Oil Jumps as Violence Flares After Trump’s Offer to Help Ships Through Strait", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Gas prices rise to $4.46 per gallon and oil jumps as shippers stay out of Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil price today (May 4, 2026): Crude drops as Trump signals help for ships stuck in Strait of Hormuz; sta", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil Prices Climb as Iran Threatens U.S. Forces", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "U.S. crude oil posts biggest one-day drop since 2020 on U.S.-Iran ceasefire agreement", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil Surges to $114 Following Iranian Strikes on UAE Port", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil Price Today (May 6): Crude oil falls below $110, down 6% in just two sessions. What’s behind the dip?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil price today (May 4, 2026): Crude drops as Trump signals help for ships stuck in Strait of Hormuz; sta", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Futures Markets Still Too Complacent About Supply Shock", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Prices Climb as Iran Threatens U.S. Forces", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
