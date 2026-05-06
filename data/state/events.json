@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-05-06T15:43:13.511171+00:00",
-  "previous_generated_at": "2026-05-06T13:21:13.900532+00:00",
-  "resolver_run_count": 17,
+  "generated_at": "2026-05-06T17:17:01.022834+00:00",
+  "previous_generated_at": "2026-05-06T15:43:13.511171+00:00",
+  "resolver_run_count": 18,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Japan to buy another 20m barrels of UAE oil to bypass Hormuz blockade",
+      "status_detail": "Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.956,
-      "last_confirmed": "2026-05-06T15:34:00+00:00",
+      "confidence": 0.955,
+      "last_confirmed": "2026-05-06T15:49:00+00:00",
       "source_count": 7,
-      "summary_short": "SC gas prices fluctuate as fight over Straight of Hormuz continues",
-      "summary_long": "SC gas prices fluctuate as fight over Straight of Hormuz continues. Japan to buy another 20m barrels of UAE oil to bypass Hormuz blockade",
+      "summary_short": "Oil prices fall as Trump says strait of Hormuz ‘open to all’ if Iran accepts deal",
+      "summary_long": "Oil prices fall as Trump says strait of Hormuz ‘open to all’ if Iran accepts deal. Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure",
       "evidence_cluster_ids": [
-        "c_19b7757c62f5dd",
-        "c_7be4d396a3cbf5",
+        "c_a9e29bbc595124",
         "c_6f84db7fd99eb7",
-        "c_2b2c5e9a20134f",
-        "c_894cd1317393c7"
+        "c_894cd1317393c7",
+        "c_19b7757c62f5dd",
+        "c_7be4d396a3cbf5"
       ],
       "evidence_count": 7,
       "affected_pages": [
@@ -41,11 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_7be4d396a3 → CLOSED (kw='blockade', weight=0.61) [OPEN suppressed]",
-        "winning=CLOSED (0.61/0.61), conf=0.956"
-      ],
-      "previous_status": "OPEN",
-      "last_changed": "2026-05-06T15:43:13.510951+00:00"
+        "cluster c_a9e29bbc59 → CLOSED (kw='closure', weight=0.61) [OPEN suppressed]",
+        "cluster c_7be4d396a3 → CLOSED (kw='blockade', weight=0.49) [OPEN suppressed]",
+        "winning=CLOSED (1.10/1.10), conf=0.955"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -56,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-06T13:22:44+00:00",
-      "source_count": 12,
-      "summary_short": "Markets soar, oil prices plummet as hopes rise for U.S.-Iran peace",
-      "summary_long": "Markets soar, oil prices plummet as hopes rise for U.S.-Iran peace. New Iran Deal Report Sends Oil Price Plunging—as US Gas Tops $4.50",
+      "last_confirmed": "2026-05-06T16:25:36+00:00",
+      "source_count": 15,
+      "summary_short": "Oil prices slide as US and Iran close in on agreement",
+      "summary_long": "Oil prices slide as US and Iran close in on agreement. Iran’s Oil Sector and Economy Are Under Pressure as U.S. Blockade Bites",
       "evidence_cluster_ids": [
-        "c_7905c7ad1d9b69",
-        "c_631a5d3b4acfdd",
-        "c_894cd1317393c7",
+        "c_e3d712010bc095",
+        "c_791c14016f0b56",
         "c_796dd1b32737d6",
-        "c_73233b6e5e8972"
+        "c_6f2749ae4b4c0a",
+        "c_894cd1317393c7"
       ],
-      "evidence_count": 12,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -86,9 +85,7 @@
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": "",
-      "previous_status": "FRAGILE",
-      "last_changed": "2026-05-06T15:43:13.510951+00:00"
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -100,15 +97,13 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-06T15:38:03+00:00",
-      "source_count": 3,
+      "source_count": 1,
       "summary_short": "OPEC April Oil Output Falls to Lowest Level in 36 Years",
-      "summary_long": "OPEC April Oil Output Falls to Lowest Level in 36 Years. In five charts: How UAE's exit could affect Opec's influence over the oil price",
+      "summary_long": "OPEC April Oil Output Falls to Lowest Level in 36 Years",
       "evidence_cluster_ids": [
-        "c_bb95611a600c8e",
-        "c_eda74ad83cfc12",
-        "c_716d6afc441113"
+        "c_eda74ad83cfc12"
       ],
-      "evidence_count": 3,
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -152,22 +147,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-05-06T15:43:13.510951+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_aea43ea9d16aa7",
+      "cluster_id": "c_1d7b347de1536c",
       "lead_title": "US crude and fuel inventories fall as Iran war roils energy markets, EIA says",
       "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHJVVFFReUlRMjN5bUFIcGcteHRVRHViRG9xZ25ZRUMyQktMWEtmSjlwb2pCd2NmQVRfZVFZZzloQkNaV19OU3NVd1RCZFB5ZW4zN3FscVNhcTdLMXFvQ3dyTFNleDFqNzNWbGlDd3AzQXlxaEpZMHBGWDYzVjQyamQ0TC1fZlZoRXZUYW9VNXlVZFc1Tm5ReUpKdk5GNXJxamphVlFHQm1lM1lnOC1QcFNIOA?oc=5",
       "lead_source": "Reuters",
-      "topic": "oil",
-      "score": 89.78,
+      "topic": "energy",
+      "score": 100.0,
       "novelty": "new",
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -177,64 +170,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "OPEN",
-      "to": "CLOSED",
-      "detected_at": "2026-05-06T15:43:13.510951+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-05-06T15:43:13.510951+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "status",
-      "from": "FRAGILE",
-      "to": "HOLDING",
-      "detected_at": "2026-05-06T15:43:13.510951+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-06T15:43:13.510951+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-05-06T15:43:13.510951+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-05-06T15:43:13.510951+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.956, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
