@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-06T17:17:01.022834+00:00",
-  "previous_generated_at": "2026-05-06T15:43:13.511171+00:00",
-  "resolver_run_count": 18,
+  "generated_at": "2026-05-06T19:13:13.440855+00:00",
+  "previous_generated_at": "2026-05-06T17:17:01.022834+00:00",
+  "resolver_run_count": 19,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -14,9 +14,9 @@
       "risk_level": "HIGH",
       "confidence": 0.955,
       "last_confirmed": "2026-05-06T15:49:00+00:00",
-      "source_count": 7,
-      "summary_short": "Oil prices fall as Trump says strait of Hormuz ‘open to all’ if Iran accepts deal",
-      "summary_long": "Oil prices fall as Trump says strait of Hormuz ‘open to all’ if Iran accepts deal. Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure",
+      "source_count": 6,
+      "summary_short": "Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure",
+      "summary_long": "Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure. Soy Oil Falls from Three-Year High After Trump’s Hormuz Pause",
       "evidence_cluster_ids": [
         "c_a9e29bbc595124",
         "c_6f84db7fd99eb7",
@@ -24,7 +24,7 @@
         "c_19b7757c62f5dd",
         "c_7be4d396a3cbf5"
       ],
-      "evidence_count": 7,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a9e29bbc59 → CLOSED (kw='closure', weight=0.61) [OPEN suppressed]",
-        "cluster c_7be4d396a3 → CLOSED (kw='blockade', weight=0.49) [OPEN suppressed]",
-        "winning=CLOSED (1.10/1.10), conf=0.955"
+        "cluster c_a9e29bbc59 → CLOSED (kw='closure', weight=0.58) [OPEN suppressed]",
+        "cluster c_7be4d396a3 → CLOSED (kw='blockade', weight=0.47) [OPEN suppressed]",
+        "winning=CLOSED (1.05/1.05), conf=0.955"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,7 +56,7 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-06T16:25:36+00:00",
-      "source_count": 15,
+      "source_count": 8,
       "summary_short": "Oil prices slide as US and Iran close in on agreement",
       "summary_long": "Oil prices slide as US and Iran close in on agreement. Iran’s Oil Sector and Economy Are Under Pressure as U.S. Blockade Bites",
       "evidence_cluster_ids": [
@@ -66,7 +66,7 @@
         "c_6f2749ae4b4c0a",
         "c_894cd1317393c7"
       ],
-      "evidence_count": 14,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -153,14 +153,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_1d7b347de1536c",
-      "lead_title": "US crude and fuel inventories fall as Iran war roils energy markets, EIA says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHJVVFFReUlRMjN5bUFIcGcteHRVRHViRG9xZ25ZRUMyQktMWEtmSjlwb2pCd2NmQVRfZVFZZzloQkNaV19OU3NVd1RCZFB5ZW4zN3FscVNhcTdLMXFvQ3dyTFNleDFqNzNWbGlDd3AzQXlxaEpZMHBGWDYzVjQyamQ0TC1fZlZoRXZUYW9VNXlVZFc1Tm5ReUpKdk5GNXJxamphVlFHQm1lM1lnOC1QcFNIOA?oc=5",
-      "lead_source": "Reuters",
-      "topic": "energy",
-      "score": 100.0,
+      "cluster_id": "c_3c3b818273592c",
+      "lead_title": "June WTI Crude Oil Contract Closes Down US$7.19; Settles at US$95.08 per Barrel",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM200RXU4TWRPSFRVdzZ5bEwyZmV0VC1nVzFKcC1Ya0VRR29GSGhnX1RIaTFpcko5R1VoOXhtLXlwTlVlWURabWdWaExSVEUtdVRVMzVvSm1pX1lubDZhbU5SWDI5TnppSWpNOUpkZF9QdmdwaG13SkhzMzZHc2VnbWRncDFpaXVnVEZlaFFBNll6a0xOYTN1Q3pLZFY3UGJkYjdwZ3gtbEp3VHZZYnFTNnhtamxQRm1iU1JSVk5lRUxuSExPLWdFdVdvMA?oc=5",
+      "lead_source": "marketscreener.com",
+      "topic": "oil",
+      "score": 97.63,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"

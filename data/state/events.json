@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-05-06T19:13:13.440855+00:00",
-  "previous_generated_at": "2026-05-06T17:17:01.022834+00:00",
-  "resolver_run_count": 19,
+  "generated_at": "2026-05-06T20:48:53.053925+00:00",
+  "previous_generated_at": "2026-05-06T19:13:13.440855+00:00",
+  "resolver_run_count": 20,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CLOSED",
-      "status_detail": "Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure",
-      "status_tag": "Strait closed",
-      "risk_level": "HIGH",
-      "confidence": 0.955,
-      "last_confirmed": "2026-05-06T15:49:00+00:00",
+      "status": "OPEN",
+      "status_detail": "no definitive signals",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-06T20:00:00+00:00",
       "source_count": 6,
-      "summary_short": "Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure",
-      "summary_long": "Japan secures UAE pledge to expand oil stockpiles amid Hormuz closure. Soy Oil Falls from Three-Year High After Trump’s Hormuz Pause",
+      "summary_short": "Fujairah in Focus as Oil Flows Reroute Around Hormuz Crisis",
+      "summary_long": "Fujairah in Focus as Oil Flows Reroute Around Hormuz Crisis. China's 'key priorities': Open Hormuz, get oil flowing, avoid 'getting dragged into conflicts'",
       "evidence_cluster_ids": [
-        "c_a9e29bbc595124",
+        "c_56b8aad33f267c",
+        "c_1019306d7488f4",
         "c_6f84db7fd99eb7",
         "c_894cd1317393c7",
-        "c_19b7757c62f5dd",
-        "c_7be4d396a3cbf5"
+        "c_00760ccaccb9ad"
       ],
       "evidence_count": 6,
       "affected_pages": [
@@ -41,10 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a9e29bbc59 → CLOSED (kw='closure', weight=0.58) [OPEN suppressed]",
-        "cluster c_7be4d396a3 → CLOSED (kw='blockade', weight=0.47) [OPEN suppressed]",
-        "winning=CLOSED (1.05/1.05), conf=0.955"
-      ]
+        "fell back to default 'OPEN'"
+      ],
+      "previous_status": "CLOSED",
+      "last_changed": "2026-05-06T20:48:53.053768+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -55,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-06T16:25:36+00:00",
-      "source_count": 8,
-      "summary_short": "Oil prices slide as US and Iran close in on agreement",
-      "summary_long": "Oil prices slide as US and Iran close in on agreement. Iran’s Oil Sector and Economy Are Under Pressure as U.S. Blockade Bites",
+      "last_confirmed": "2026-05-06T20:27:20+00:00",
+      "source_count": 17,
+      "summary_short": "Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe",
+      "summary_long": "Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe. Oil plunges on Iran deal hopes, Wall St hits record highs",
       "evidence_cluster_ids": [
-        "c_e3d712010bc095",
-        "c_791c14016f0b56",
-        "c_796dd1b32737d6",
-        "c_6f2749ae4b4c0a",
-        "c_894cd1317393c7"
+        "c_035cd28b23604e",
+        "c_257d917758d673",
+        "c_7d1afac8508370",
+        "c_133e7d002a5bf7",
+        "c_7cf2c127aa2747"
       ],
-      "evidence_count": 7,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -92,18 +92,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-06T15:38:03+00:00",
-      "source_count": 1,
-      "summary_short": "OPEC April Oil Output Falls to Lowest Level in 36 Years",
-      "summary_long": "OPEC April Oil Output Falls to Lowest Level in 36 Years",
-      "evidence_cluster_ids": [
-        "c_eda74ad83cfc12"
-      ],
-      "evidence_count": 1,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -116,26 +114,25 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -147,18 +144,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-05-06T20:48:53.053768+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_3c3b818273592c",
-      "lead_title": "June WTI Crude Oil Contract Closes Down US$7.19; Settles at US$95.08 per Barrel",
-      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM200RXU4TWRPSFRVdzZ5bEwyZmV0VC1nVzFKcC1Ya0VRR29GSGhnX1RIaTFpcko5R1VoOXhtLXlwTlVlWURabWdWaExSVEUtdVRVMzVvSm1pX1lubDZhbU5SWDI5TnppSWpNOUpkZF9QdmdwaG13SkhzMzZHc2VnbWRncDFpaXVnVEZlaFFBNll6a0xOYTN1Q3pLZFY3UGJkYjdwZ3gtbEp3VHZZYnFTNnhtamxQRm1iU1JSVk5lRUxuSExPLWdFdVdvMA?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_60fef58e06e289",
+      "lead_title": "Vitol Is Turning to Mexico for Oil as War Disrupts Crude Market",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM2tfYzBXeGNkZVNNOGcxRGw3RVNJZ2xtUWN6NjA2LTFmZzJCRjc2bFY4RUV6NUR0Y0poVjlGWUdvSDBOemNNZlFVdkVmMTRjV2dOeHlsZkVVNVI0T2Iyc0FGSUZBZDVFY3B6VFpPWS05NEJJdFlQYmlOSTRuUDBvX1JMT2xWZHNqS25iWW9zLThkMHlOVTc2dUV3OHQzTjludEUwdmdqT1RUdHI5cXJiakhhMmI?oc=5",
+      "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 97.63,
+      "score": 96.49,
       "novelty": "new",
       "source_count": 5,
       "confidence": 0.95,
@@ -170,9 +169,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CLOSED",
+      "to": "OPEN",
+      "detected_at": "2026-05-06T20:48:53.053768+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-06T20:48:53.053768+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-06T20:48:53.053768+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-06T20:48:53.053768+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
