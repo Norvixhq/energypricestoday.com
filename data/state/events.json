@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-06T20:48:53.053925+00:00",
-  "previous_generated_at": "2026-05-06T19:13:13.440855+00:00",
-  "resolver_run_count": 20,
+  "generated_at": "2026-05-06T22:04:42.635113+00:00",
+  "previous_generated_at": "2026-05-06T20:48:53.053925+00:00",
+  "resolver_run_count": 21,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -13,16 +13,16 @@
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-06T20:00:00+00:00",
+      "last_confirmed": "2026-05-06T21:23:00+00:00",
       "source_count": 6,
-      "summary_short": "Fujairah in Focus as Oil Flows Reroute Around Hormuz Crisis",
-      "summary_long": "Fujairah in Focus as Oil Flows Reroute Around Hormuz Crisis. China's 'key priorities': Open Hormuz, get oil flowing, avoid 'getting dragged into conflicts'",
+      "summary_short": "Oil prices fall as markets react to possible Hormuz agreement",
+      "summary_long": "Oil prices fall as markets react to possible Hormuz agreement. Soy Oil Falls from Three-Year High After Trump’s Hormuz Pause",
       "evidence_cluster_ids": [
-        "c_56b8aad33f267c",
-        "c_1019306d7488f4",
+        "c_040813cb5beddc",
         "c_6f84db7fd99eb7",
-        "c_894cd1317393c7",
-        "c_00760ccaccb9ad"
+        "c_56b8aad33f267c",
+        "c_173d884167aecd",
+        "c_894cd1317393c7"
       ],
       "evidence_count": 6,
       "affected_pages": [
@@ -42,9 +42,7 @@
       "stale_after_hours": 24,
       "rationale": [
         "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-05-06T20:48:53.053768+00:00"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -56,17 +54,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-06T20:27:20+00:00",
-      "source_count": 17,
-      "summary_short": "Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe",
-      "summary_long": "Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe. Oil plunges on Iran deal hopes, Wall St hits record highs",
+      "source_count": 16,
+      "summary_short": "US fires on Iranian-flagged oil tanker as Trump gives Tehran fresh ultimatum",
+      "summary_long": "US fires on Iranian-flagged oil tanker as Trump gives Tehran fresh ultimatum. Iran war threatens jet fuel shortage that could disrupt summer travel in Asia and Europe",
       "evidence_cluster_ids": [
+        "c_3d4b843ee270b1",
         "c_035cd28b23604e",
+        "c_ccd95edd34f245",
         "c_257d917758d673",
-        "c_7d1afac8508370",
-        "c_133e7d002a5bf7",
-        "c_7cf2c127aa2747"
+        "c_a5df067ef88a36"
       ],
-      "evidence_count": 17,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -144,22 +142,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-05-06T20:48:53.053768+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_60fef58e06e289",
-      "lead_title": "Vitol Is Turning to Mexico for Oil as War Disrupts Crude Market",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM2tfYzBXeGNkZVNNOGcxRGw3RVNJZ2xtUWN6NjA2LTFmZzJCRjc2bFY4RUV6NUR0Y0poVjlGWUdvSDBOemNNZlFVdkVmMTRjV2dOeHlsZkVVNVI0T2Iyc0FGSUZBZDVFY3B6VFpPWS05NEJJdFlQYmlOSTRuUDBvX1JMT2xWZHNqS25iWW9zLThkMHlOVTc2dUV3OHQzTjludEUwdmdqT1RUdHI5cXJiakhhMmI?oc=5",
-      "lead_source": "Bloomberg.com",
+      "cluster_id": "c_4ada33b256188f",
+      "lead_title": "U.S. Crude Oil Stockpiles Fall for Second Straight Week",
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaFdkbTdDNGtRVmxvZ2hKZEl1VTNuM1FkX0Q2WkJZcUJKWENUZ054VEpvZWFZRTBLVWZfWnRZb3RneW5haWJ2VWtlMXBoZ3FOSkJYeFdTN2RENEZhaTZ6VVRqMHVGNjhMcWZJVUp1eTgtckQzRWljUXIxbVdHUGtJWUpaaDNmZG9vYXVJbHlWNFNYSFVVR3JUZGdKZ05zelMxS0thX3pR?oc=5",
+      "lead_source": "WSJ",
       "topic": "oil",
-      "score": 96.49,
+      "score": 98.46,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,44 +165,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CLOSED",
-      "to": "OPEN",
-      "detected_at": "2026-05-06T20:48:53.053768+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-06T20:48:53.053768+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-06T20:48:53.053768+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-06T20:48:53.053768+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
