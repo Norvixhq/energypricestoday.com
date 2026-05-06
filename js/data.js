@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Current price of oil as of May 5, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil Jumps as Violence Flares After Trump’s Offer to Help Ships Through Strait", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Gas prices rise to $4.46 per gallon and oil jumps as shippers stay out of Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Surges to $114 Following Iranian Strikes on UAE Port", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil Price Today (May 6): Crude oil falls below $110, down 6% in just two sessions. What’s behind the dip?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil price today (May 4, 2026): Crude drops as Trump signals help for ships stuck in Strait of Hormuz; sta", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Futures Markets Still Too Complacent About Supply Shock", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil Prices Climb as Iran Threatens U.S. Forces", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil plunges, markets surge on report U.S. and Iran near deal to end war as gas prices jump past $4.50", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – business live", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil Price Today (May 6): Crude oil falls below $100, dives nearly 10%. What's behind the plunge?", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil prices plunge 10% after reports that the US and Iran are close to a deal to end the war", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Current price of oil as of May 5, 2026", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Jumps as Violence Flares After Trump’s Offer to Help Ships Through Strait", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Prices Fall Below $100 After Trump Pauses Hormuz Escort Plan", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
