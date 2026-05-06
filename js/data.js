@@ -59,13 +59,13 @@ const FULL_PRICES = {
 
 const BREAKING_NEWS = [
   { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil plunges, markets surge on report U.S. and Iran near deal to end war as gas prices jump past $4.50", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil Tumbles as Investors Grow Hopeful Turmoil in Gulf May Be Easing", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Live: Oil Prices Fall Below $100 as Trump Say Iran War May Be Coming To End", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Price Today (May 6): Crude oil falls below $100, dives nearly 10%. What's behind the plunge?", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil prices plunge on reports that the US and Iran are close to a peace deal", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Current price of oil as of May 6, 2026", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Crude oil prices fall over Iran deal optimism as gas prices continue to rise", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Current price of oil as of May 6, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil Prices Fall Below $100 After Trump Pauses Hormuz Escort Plan", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "WTI crude oil price sharp fall today reason: Why are oil prices suddenly crashing now as Brent crude tumbl", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "SC gas prices fluctuate as fight over Straight of Hormuz continues", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Plummets 9% on Reports of Deal to End Iran War", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Online sleuths are raising more red flags around suspiciously timed Iran-war oil trades", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
