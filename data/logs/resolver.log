@@ -169,3 +169,17 @@
 [2026-05-06T11:32:44.287639+00:00] resolver: no state changes
 [2026-05-06T11:32:44.288163+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-06T11:32:44.288204+00:00] ════════════════════════════════════════════════════════════
+[2026-05-06T13:21:13.894426+00:00] resolver: start
+[2026-05-06T13:21:13.898513+00:00] resolver: scanning 270 clusters across 10 topics
+[2026-05-06T13:21:13.898865+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=6)
+[2026-05-06T13:21:13.899972+00:00]   us_iran_ceasefire: FRAGILE (conf=0.958, freshness=fresh, clusters=11)
+[2026-05-06T13:21:13.900087+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-05-06T13:21:13.900131+00:00]   global_risk_level: ELEVATED (score=25)
+[2026-05-06T13:21:13.900328+00:00]   top_story: 'Solar and wind with battery storage become more cost competi' (score=89.92)
+[2026-05-06T13:21:13.900398+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-05-06T13:21:13.900429+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=False)
+[2026-05-06T13:21:13.900459+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-05-06T13:21:13.900485+00:00]   Δ global_risk_level.status: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-05-06T13:21:13.900509+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-05-06T13:21:13.901035+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-06T13:21:13.901075+00:00] ════════════════════════════════════════════════════════════
