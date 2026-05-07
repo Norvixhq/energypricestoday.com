@@ -231,6 +231,7 @@ const ARTICLE_SLUGS = {
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
   "Oil Prices Fall Below $100 After Trump Pauses Hormuz Escort Plan": "oil-prices-fall-below-100-after-trump-pauses-hormuz-escort-plan",
   "Oil Prices Fall on Hope U.S.-Iran War Turmoil in the Gulf May Be Easing": "oil-prices-fall-on-hope-us-iran-war-turmoil-in-the-gulf-may-be-easing",
+  "Oil Prices Slide on Hopes for Renewed Peace Talks": "oil-prices-slide-on-hopes-for-renewed-peace-talks",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
   "Oil Surges to $114 Following Iranian Strikes on UAE Port": "oil-surges-to-114-following-iranian-strikes-on-uae-port",
   "Oil Tumbles as Investors Grow Hopeful Turmoil in Gulf May Be Easing": "oil-tumbles-as-investors-grow-hopeful-turmoil-in-gulf-may-be-easing",
