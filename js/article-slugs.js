@@ -240,6 +240,7 @@ const ARTICLE_SLUGS = {
   "Oil plunges, markets surge on report U.S. and Iran near deal to end war as gas prices jump past $4.50": "oil-plunges-markets-surge-on-report-us-and-iran-near-deal-to-end-war-as-gas-pric",
   "Oil price today (May 4, 2026): Crude drops as Trump signals help for ships stuck in Strait of Hormuz; sta": "oil-price-today-may-4-2026-crude-drops-as-trump-signals-help-for-ships-stuck-in-",
   "Oil prices drop and stock markets rise after reports of deal to end Iran war": "oil-prices-drop-and-stock-markets-rise-after-reports-of-deal-to-end-iran-war",
+  "Oil prices fall below $100 as U.S.-Iran tensions keep traders focused on Strait of Hormuz risks": "oil-prices-fall-below-100-as-us-iran-tensions-keep-traders-focused-on-strait-of-",
   "Oil prices flat as Trump\u2019s plan for Strait of Hormuz fails to calm market": "oil-prices-flat-as-trumps-plan-for-strait-of-hormuz-fails-to-calm-market",
   "Oil prices plunge 10% after reports that the US and Iran are close to a deal to end the war": "oil-prices-plunge-10-after-reports-that-the-us-and-iran-are-close-to-a-deal-to-e",
   "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran": "oil-prices-plunge-and-stocks-jump-after-trump-announces-conditional-ceasefire-wi",
