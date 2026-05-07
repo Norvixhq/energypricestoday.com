@@ -244,6 +244,7 @@ const ARTICLE_SLUGS = {
   "Oil prices plunge 10% after reports that the US and Iran are close to a deal to end the war": "oil-prices-plunge-10-after-reports-that-the-us-and-iran-are-close-to-a-deal-to-e",
   "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran": "oil-prices-plunge-and-stocks-jump-after-trump-announces-conditional-ceasefire-wi",
   "Oil prices plunge on reports that the US and Iran are close to a peace deal": "oil-prices-plunge-on-reports-that-the-us-and-iran-are-close-to-a-peace-deal",
+  "Oil rises as U.S.-Iran tensions keep traders focused on Strait of Hormuz risks": "oil-rises-as-us-iran-tensions-keep-traders-focused-on-strait-of-hormuz-risks",
   "Online sleuths are raising more red flags around suspiciously timed Iran-war oil trades": "online-sleuths-are-raising-more-red-flags-around-suspiciously-timed-iran-war-oil",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
