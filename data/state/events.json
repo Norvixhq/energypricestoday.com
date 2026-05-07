@@ -1,27 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-07T17:08:21.575098+00:00",
-  "previous_generated_at": "2026-05-07T15:09:18.917851+00:00",
-  "resolver_run_count": 29,
+  "generated_at": "2026-05-07T19:03:39.175811+00:00",
+  "previous_generated_at": "2026-05-07T17:08:21.575098+00:00",
+  "resolver_run_count": 30,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "no definitive signals",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-05-07T12:55:49+00:00",
-      "source_count": 3,
-      "summary_short": "US, Iran near draft Hormuz and nuclear agreement, report says",
-      "summary_long": "US, Iran near draft Hormuz and nuclear agreement, report says. Exclusive: Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz",
+      "status": "CONTESTED",
+      "status_detail": "Chinese oil tanker attacked near Hormuz, first since US-Iran war began",
+      "status_tag": "Tankers at risk",
+      "risk_level": "ELEVATED",
+      "confidence": 0.96,
+      "last_confirmed": "2026-05-07T17:08:41+00:00",
+      "source_count": 6,
+      "summary_short": "Chinese oil tanker attacked near Hormuz, first since US-Iran war began",
+      "summary_long": "Chinese oil tanker attacked near Hormuz, first since US-Iran war began. Exclusive: Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_39c709388fde75",
-        "c_aa25e0861d8d7a"
+        "c_d590951ea0c04b",
+        "c_aa25e0861d8d7a",
+        "c_1fc38cc9d2e4ab",
+        "c_3c13ae6566e040",
+        "c_1665abaff84403"
       ],
-      "evidence_count": 2,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,8 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
-      ]
+        "cluster c_d590951ea0 → CONTESTED (kw='attack', weight=0.70)",
+        "winning=CONTESTED (0.70/0.70), conf=0.96"
+      ],
+      "previous_status": "OPEN",
+      "last_changed": "2026-05-07T19:03:39.175659+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -50,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-07T16:50:31+00:00",
-      "source_count": 17,
-      "summary_short": "U.S. Sanctions Iraqi Official Over Allegedly Aiding Iranian Oil Sales",
-      "summary_long": "U.S. Sanctions Iraqi Official Over Allegedly Aiding Iranian Oil Sales. US, Iran near draft Hormuz and nuclear agreement, report says",
+      "last_confirmed": "2026-05-07T18:30:14+00:00",
+      "source_count": 18,
+      "summary_short": "Chinese oil tanker attacked near Hormuz, first since US-Iran war began",
+      "summary_long": "Chinese oil tanker attacked near Hormuz, first since US-Iran war began. Stocks dip as oil prices continue pullback on hopes of US-Iran peace deal",
       "evidence_cluster_ids": [
+        "c_d590951ea0c04b",
+        "c_cb693a205c5bdb",
+        "c_3b085862c59f9b",
         "c_a411225971c9d0",
-        "c_39c709388fde75",
-        "c_d7056caafcc9e9",
-        "c_d6bfd3463cd77b",
         "c_0aadd6ba0cab4e"
       ],
-      "evidence_count": 15,
+      "evidence_count": 17,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -116,18 +122,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
+        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -139,20 +146,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "LOW",
+      "last_changed": "2026-05-07T19:03:39.175659+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_4ada33b256188f",
-      "lead_title": "U.S. Crude Oil Stockpiles Fall for Second Straight Week",
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaFdkbTdDNGtRVmxvZ2hKZEl1VTNuM1FkX0Q2WkJZcUJKWENUZ054VEpvZWFZRTBLVWZfWnRZb3RneW5haWJ2VWtlMXBoZ3FOSkJYeFdTN2RENEZhaTZ6VVRqMHVGNjhMcWZJVUp1eTgtckQzRWljUXIxbVdHUGtJWUpaaDNmZG9vYXVJbHlWNFNYSFVVR3JUZGdKZ05zelMxS0thX3pR?oc=5",
-      "lead_source": "WSJ",
-      "topic": "oil",
-      "score": 93.51,
-      "novelty": "growing",
-      "source_count": 8,
+      "cluster_id": "c_8469714efb6045",
+      "lead_title": "US crude and fuel inventories fall as Iran war roils energy markets, EIA says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHJVVFFReUlRMjN5bUFIcGcteHRVRHViRG9xZ25ZRUMyQktMWEtmSjlwb2pCd2NmQVRfZVFZZzloQkNaV19OU3NVd1RCZFB5ZW4zN3FscVNhcTdLMXFvQ3dyTFNleDFqNzNWbGlDd3AzQXlxaEpZMHBGWDYzVjQyamQ0TC1fZlZoRXZUYW9VNXlVZFc1Tm5ReUpKdk5GNXJxamphVlFHQm1lM1lnOC1QcFNIOA?oc=5",
+      "lead_source": "Reuters",
+      "topic": "energy",
+      "score": 90.98,
+      "novelty": "new",
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -162,9 +171,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "OPEN",
+      "to": "CONTESTED",
+      "detected_at": "2026-05-07T19:03:39.175659+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-07T19:03:39.175659+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-07T19:03:39.175659+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-07T19:03:39.175659+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.96, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
