@@ -230,11 +230,13 @@ const ARTICLE_SLUGS = {
   "Oil Prices Ease on Ceasefire Extension Hopes \u2014 WTI Pulls Back Below $95": "oil-prices-ease-on-ceasefire-extension-hopes-wti-pulls-back-below-95",
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
   "Oil Prices Fall Below $100 After Trump Pauses Hormuz Escort Plan": "oil-prices-fall-below-100-after-trump-pauses-hormuz-escort-plan",
+  "Oil Prices Fall on Hope U.S.-Iran War Turmoil in the Gulf May Be Easing": "oil-prices-fall-on-hope-us-iran-war-turmoil-in-the-gulf-may-be-easing",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
   "Oil Surges to $114 Following Iranian Strikes on UAE Port": "oil-surges-to-114-following-iranian-strikes-on-uae-port",
   "Oil Tumbles as Investors Grow Hopeful Turmoil in Gulf May Be Easing": "oil-tumbles-as-investors-grow-hopeful-turmoil-in-gulf-may-be-easing",
   "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening \u2013 as it happened": "oil-and-gas-prices-fall-sharply-driven-by-hopes-of-strait-of-hormuz-reopening-as",
   "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening \u2013 business live": "oil-and-gas-prices-fall-sharply-driven-by-hopes-of-strait-of-hormuz-reopening-bu",
+  "Oil plunges, markets surge on report U.S. and Iran are near deal to end war as gas prices jump past $4.50": "oil-plunges-markets-surge-on-report-us-and-iran-are-near-deal-to-end-war-as-gas-",
   "Oil plunges, markets surge on report U.S. and Iran near deal to end war as gas prices jump past $4.50": "oil-plunges-markets-surge-on-report-us-and-iran-near-deal-to-end-war-as-gas-pric",
   "Oil price today (May 4, 2026): Crude drops as Trump signals help for ships stuck in Strait of Hormuz; sta": "oil-price-today-may-4-2026-crude-drops-as-trump-signals-help-for-ships-stuck-in-",
   "Oil prices drop and stock markets rise after reports of deal to end Iran war": "oil-prices-drop-and-stock-markets-rise-after-reports-of-deal-to-end-iran-war",
@@ -413,7 +415,8 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea": "why-did-oil-prices-crash-today-920-million-crude-oil-short-placed-70-minutes-bef"
 };
 
 function slugifyTitle(title) {
