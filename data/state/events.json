@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-07T22:44:52.935222+00:00",
-  "previous_generated_at": "2026-05-07T21:42:05.336734+00:00",
-  "resolver_run_count": 33,
+  "generated_at": "2026-05-07T23:41:01.116831+00:00",
+  "previous_generated_at": "2026-05-07T22:44:52.935222+00:00",
+  "resolver_run_count": 34,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -14,16 +14,15 @@
       "risk_level": "HIGH",
       "confidence": 0.959,
       "last_confirmed": "2026-05-07T18:37:39+00:00",
-      "source_count": 5,
+      "source_count": 4,
       "summary_short": "Iran can last for months under US Strait of Hormuz blockade, US officials say - report",
       "summary_long": "Iran can last for months under US Strait of Hormuz blockade, US officials say - report. Exclusive: Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz",
       "evidence_cluster_ids": [
         "c_6c30552548c117",
         "c_aa25e0861d8d7a",
-        "c_173d884167aecd",
         "c_3c13ae6566e040"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +39,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_6c30552548 → CLOSED (kw='blockade', weight=0.65) [OPEN suppressed]",
-        "winning=CLOSED (0.65/0.65), conf=0.959"
+        "cluster c_6c30552548 → CLOSED (kw='blockade', weight=0.55) [OPEN suppressed]",
+        "winning=CLOSED (0.55/0.55), conf=0.959"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,17 +53,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-07T20:49:37+00:00",
-      "source_count": 18,
-      "summary_short": "Iran can last for months under US Strait of Hormuz blockade, US officials say - report",
-      "summary_long": "Iran can last for months under US Strait of Hormuz blockade, US officials say - report. What’s Going On In Iran?",
+      "source_count": 9,
+      "summary_short": "Iran War Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations",
+      "summary_long": "Iran War Updates: Tehran and U.S. Offer Conflicting Messages on State of Negotiations. Iran can last for months under US Strait of Hormuz blockade, US officials say - report",
       "evidence_cluster_ids": [
+        "c_ebf29cd3879f52",
         "c_6c30552548c117",
-        "c_bf61f2763cd793",
         "c_477bd6b8c62bfd",
         "c_a411225971c9d0",
-        "c_0aadd6ba0cab4e"
+        "c_f9b4c7fca94cb1"
       ],
-      "evidence_count": 17,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -149,14 +148,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_f96018ecbd556d",
-      "lead_title": "Shell CEO says oil market is short nearly 1 billion barrels due to Iran war, and the hole deepens every day",
-      "lead_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wVi1FNWxOb2ZuY0ExRk1qd3ZVbXVUbm8ySUhtNWIzUGZyUFZ6Y0JRcURUNWk4YW5SUjFaZHF5Y3BlaldJcGdQZ2k2aS1jUFNqUXFzRnlSdFducU1xTm9XV3RfaWE0ajZsSUhiZk9hdzlyVzlGRHJXTVhkYlZFZ9IBgwFBVV95cUxOVDVURE85R3R3cVEzTllHQWhCYTRHVm1yTFRnYzJHeFRLdGtvdU9OOC1NS0wyWnFPcURMb01YTzdpTTZMQldDLVZSU3dOVHp3X19zOFFSNDdQcDZ2NF91eGNpaloxWW9QR0RCZjlKRkgydF9Oc0hrQnVrV29aY0VXai1POA?oc=5",
+      "cluster_id": "c_e0fa9506757f0b",
+      "lead_title": "Treasury yields move higher as crude oil pares losses amid U.S.-Iran developments",
+      "lead_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYmdJMmN1c3lIRGpEdE1hT2dBRUJ1MG9Hc0h3V0p4M3lmNm12bnFKamlMeTZ4UUdXTEdjSUN2LTd1bEl3Nkx1N0dLZWRHdGtXMjUyR0kycmw1RVdBMEtzSm95VmoxWlBoeEZVRXNrcFRnVE9VOU42Ump1UTRpeU3SAYQBQVVfeXFMT2JINTFpd19lYUhsa2d0Rld3a0dVUmFXbHpDY0IzOWMtUmFBSFF0cnFULXVHai1YY09veUh1N1RRYV8tSzMxSFNfdDhjZkZXV3NGUFQwSFJBN2xHZ21fR09ycnpoNks0WllxRkxJQ2lGNlhrRE1kb1psZWxLZXVOMGszZ21n?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 80.98,
+      "score": 88.4,
       "novelty": "growing",
-      "source_count": 3,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
