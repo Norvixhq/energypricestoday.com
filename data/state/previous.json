@@ -1,20 +1,20 @@
 {
   "commodity-prices": {
     "meta": {
-      "generated_at": "2026-05-07T21:39:58.512664+00:00",
+      "generated_at": "2026-05-07T22:44:26.579421+00:00",
       "status": "fresh",
       "source": "oilpriceapi",
       "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
-      "last_success": "2026-05-07T21:39:58.512664+00:00"
+      "last_success": "2026-05-07T22:44:26.579421+00:00"
     },
     "prices": {
       "Brent Crude": {
-        "price": 103.48,
-        "change": 1.76,
-        "pct": 1.73,
+        "price": 100.06,
+        "change": -1.21,
+        "pct": -1.19,
         "unit": "$/bbl",
         "source_code": "BRENT_CRUDE_USD",
-        "updated_at": "2026-05-07T21:36:47Z"
+        "updated_at": "2026-05-07T22:40:45Z"
       },
       "Diesel ULSD": {
         "price": 4.02,
@@ -41,12 +41,12 @@
         "updated_at": "2026-05-06T21:00:35Z"
       },
       "Heating Oil": {
-        "price": 3.93,
-        "change": 0.14,
-        "pct": 3.69,
+        "price": 3.9,
+        "change": 0.13,
+        "pct": 3.43,
         "unit": "$/gal",
         "source_code": "HEATING_OIL_USD",
-        "updated_at": "2026-05-07T21:08:33Z"
+        "updated_at": "2026-05-07T22:38:08Z"
       },
       "Jet Fuel": {
         "price": 4.16,
@@ -70,7 +70,7 @@
         "pct": 2.21,
         "unit": "$/MMBtu",
         "source_code": "NATURAL_GAS_USD",
-        "updated_at": "2026-05-07T21:28:28Z"
+        "updated_at": "2026-05-07T22:40:50Z"
       },
       "Coal": {
         "price": 132.0,
@@ -78,25 +78,25 @@
         "pct": 0.0,
         "unit": "$/ton",
         "source_code": "NEWCASTLE_COAL_USD",
-        "updated_at": "2026-05-06T14:22:01Z"
+        "updated_at": "2026-05-07T22:00:20Z"
       },
       "WTI Crude": {
-        "price": 97.66,
-        "change": 1.41,
-        "pct": 1.46,
+        "price": 97.32,
+        "change": 0.73,
+        "pct": 0.76,
         "unit": "$/bbl",
         "source_code": "WTI_USD",
-        "updated_at": "2026-05-07T21:28:20Z"
+        "updated_at": "2026-05-07T22:40:42Z"
       }
     }
   },
   "gas-prices-national": {
     "meta": {
-      "generated_at": "2026-05-07T21:40:02.264069+00:00",
+      "generated_at": "2026-05-07T22:44:30.271794+00:00",
       "status": "fresh",
       "source_label": "EIA Weekly Retail Gasoline Prices",
       "source_date": "May 07, 2026",
-      "last_success": "2026-05-07T21:40:02.264069+00:00"
+      "last_success": "2026-05-07T22:44:30.271794+00:00"
     },
     "prices": {
       "regular": 4.452,
@@ -105,5 +105,5 @@
       "diesel": 5.64
     }
   },
-  "as_of": "2026-05-07T21:42:05.363429+00:00"
+  "as_of": "2026-05-07T22:44:52.965871+00:00"
 }
