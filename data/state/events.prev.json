@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-08T15:01:13.169609+00:00",
-  "previous_generated_at": "2026-05-08T12:56:51.393599+00:00",
-  "resolver_run_count": 42,
+  "generated_at": "2026-05-08T16:26:22.057863+00:00",
+  "previous_generated_at": "2026-05-08T15:01:13.169609+00:00",
+  "resolver_run_count": 43,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CONTESTED",
-      "status_detail": "Iran accuses US of breaching ceasefire with Strait of Hormuz attacks",
-      "status_tag": "Tankers at risk",
-      "risk_level": "ELEVATED",
-      "confidence": 0.957,
-      "last_confirmed": "2026-05-08T13:28:30+00:00",
-      "source_count": 6,
-      "summary_short": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-      "summary_long": "Oil prices rise after US and Iran exchange fire in Hormuz strait. US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped i",
+      "status": "CLOSED",
+      "status_detail": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
+      "status_tag": "Strait closed",
+      "risk_level": "HIGH",
+      "confidence": 0.853,
+      "last_confirmed": "2026-05-08T16:03:13+00:00",
+      "source_count": 8,
+      "summary_short": "Oil Tanker ODESSA Arrives With 1 Million Barrels via Strait of Hormuz",
+      "summary_long": "Oil Tanker ODESSA Arrives With 1 Million Barrels via Strait of Hormuz. Oil prices rise after US and Iran exchange fire in Hormuz strait",
       "evidence_cluster_ids": [
+        "c_467fd4e5cdec26",
         "c_8fb679b043cfd1",
-        "c_77ddd22fa1d5dd",
-        "c_7d8c73b4fb6562",
+        "c_cb9682dd87f55b",
         "c_b28a3b00187179",
         "c_576866af76a252"
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,12 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_7d8c73b4fb → CONTESTED (kw='attack', weight=0.11)",
-        "winning=CONTESTED (0.11/0.11), conf=0.957"
-      ]
+        "cluster c_467fd4e5cd → CONTESTED (kw='attack', weight=0.21)",
+        "cluster c_8fb679b043 → CLOSED (kw='blockade', weight=0.41) [OPEN suppressed]",
+        "winning=CLOSED (0.41/0.63), conf=0.853"
+      ],
+      "previous_status": "CONTESTED",
+      "last_changed": "2026-05-08T16:26:22.057711+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -54,18 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-08T13:48:00+00:00",
-      "source_count": 9,
-      "summary_short": "Suspected oil spill seen on satellite images near Iran’s Kharg Island export hub",
-      "summary_long": "Suspected oil spill seen on satellite images near Iran’s Kharg Island export hub. Iran launches missiles, drones at UAE, FM Araghchi disputes US intelligence",
+      "last_confirmed": "2026-05-08T15:37:13+00:00",
+      "source_count": 16,
+      "summary_short": "US expects Iranian response to peace proposal on Friday, fighting flares in Gulf",
+      "summary_long": "US expects Iranian response to peace proposal on Friday, fighting flares in Gulf. Iran Says It Seized Oil Tanker That Was Sanctioned by U.S.",
       "evidence_cluster_ids": [
-        "c_b5345b40914bb0",
-        "c_c6ddc4a33ce91f",
-        "c_8fb679b043cfd1",
-        "c_0f2e4932079fe5",
-        "c_9ddee8e9934b1a"
+        "c_ecb8a4fcfbfab0",
+        "c_a3b8d61d05c3a2",
+        "c_0a34df9cd57b17",
+        "c_467fd4e5cdec26",
+        "c_8fb679b043cfd1"
       ],
-      "evidence_count": 8,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -120,19 +123,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "ELEVATED",
-      "risk_level": "ELEVATED",
-      "score": 35,
+      "status": "HIGH",
+      "risk_level": "HIGH",
+      "score": 50,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: elevated.",
-      "summary_long": "Risk drivers: Hormuz contested",
-      "summary_micro": "contested",
+      "summary_short": "Global energy risk: high.",
+      "summary_long": "Risk drivers: Hormuz closed",
+      "summary_micro": "closed",
       "rationale": [
-        "hormuz=CONTESTED (+25)",
+        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -144,20 +147,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "ELEVATED",
+      "last_changed": "2026-05-08T16:26:22.057711+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_0cdc1a4d793b38",
-      "lead_title": "Brent Oil Price Futures Understating Physical Market Stress",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQXZnZnIzWlhFRHFQc2hKNUwwbno3MEVkS1Fjd0pRa3M5cWIyUmpMV1o2ejJjWmI0TlZJeWlVX3d1TUMzeDZfS2I0LU40aVVYaWFZWFl4QlNlLVVFMzVPeFZUakZrT3VfRmhwU01ILXhrZlEzRU9fcVMteVJRMk9OTjZnWTF4ZlNFaXk5dTE3ejRNUlAxblViczhXbEJBME1MejRGRFBmdWpTWVlzdnkwNGFhX2o3VVU?oc=5",
-      "lead_source": "Rigzone",
-      "topic": "energy",
-      "score": 82.2,
-      "novelty": "ongoing",
-      "source_count": 4,
+      "cluster_id": "c_37eff2b1b4c7f2",
+      "lead_title": "Permian to US Gulf Coast crude pipeline operational after oil spill",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUR3NmZFTFJfM3F0VGtINFhpa1NXT0YyWERuTi1mRXdpeGJ4Q01jaVZJWHZlZnhKTEZHRlk1ZHFZc0h3cURTekNXbTZiZElLS05jaU5MamNRQkFIa3Q2SVN6OVpoYXppV3VuSjA3aTRhUnZiUlQ5b29HbFRnMkp3RGZIcG5LOWxKRTY0cXZ5XzFWT20yTklWenQzNmtvbkdielJXaV9LcWRndlpabU81YkdZUHRESzg?oc=5",
+      "lead_source": "Reuters",
+      "topic": "oil",
+      "score": 85.71,
+      "novelty": "growing",
+      "source_count": 8,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,9 +172,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CONTESTED",
+      "to": "CLOSED",
+      "detected_at": "2026-05-08T16:26:22.057711+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-05-08T16:26:22.057711+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-05-08T16:26:22.057711+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-05-08T16:26:22.057711+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.853, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
