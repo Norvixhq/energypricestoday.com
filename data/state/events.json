@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-08T11:26:52.345878+00:00",
-  "previous_generated_at": "2026-05-08T09:58:40.045722+00:00",
-  "resolver_run_count": 40,
+  "generated_at": "2026-05-08T12:56:51.393599+00:00",
+  "previous_generated_at": "2026-05-08T11:26:52.345878+00:00",
+  "resolver_run_count": 41,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,18 @@
       "status_detail": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.961,
-      "last_confirmed": "2026-05-08T08:43:55+00:00",
-      "source_count": 4,
+      "confidence": 0.964,
+      "last_confirmed": "2026-05-08T11:50:12+00:00",
+      "source_count": 6,
       "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
-      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. Oil prices rise after US and Iran exchange fire in Hormuz strait",
+      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. Oil tanker arrives in South Korea after passing through the Strait of Hormuz in mid-April",
       "evidence_cluster_ids": [
         "c_8fb679b043cfd1",
-        "c_b28a3b00187179",
+        "c_77ddd22fa1d5dd",
+        "c_cb757261050a83",
         "c_576866af76a252"
       ],
-      "evidence_count": 3,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -39,8 +40,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_8fb679b043 → CONTESTED (kw='attack', weight=0.54)",
-        "winning=CONTESTED (0.54/0.54), conf=0.961"
+        "cluster c_8fb679b043 → CONTESTED (kw='attack', weight=0.59)",
+        "winning=CONTESTED (0.59/0.59), conf=0.964"
       ]
     },
     "us_iran_ceasefire": {
@@ -52,16 +53,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-08T10:49:24+00:00",
+      "last_confirmed": "2026-05-08T12:02:00+00:00",
       "source_count": 13,
-      "summary_short": "Iran says navy seized ‘violating’ oil tanker",
-      "summary_long": "Iran says navy seized ‘violating’ oil tanker. US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped i",
+      "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
+      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. Oil futures: Crude edges up as US-Iran peace deal hopes dampened",
       "evidence_cluster_ids": [
-        "c_0d8a7ca676a393",
         "c_8fb679b043cfd1",
-        "c_b92cbaf32cfa2f",
-        "c_f5d309f668d8e6",
-        "c_0f2e4932079fe5"
+        "c_daa853dc37c889",
+        "c_e5b6cc714e1405",
+        "c_0f2e4932079fe5",
+        "c_477bd6b8c62bfd"
       ],
       "evidence_count": 11,
       "affected_pages": [
@@ -148,14 +149,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_e0fa9506757f0b",
-      "lead_title": "Treasury yields move higher as crude oil pares losses amid U.S.-Iran developments",
-      "lead_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYmdJMmN1c3lIRGpEdE1hT2dBRUJ1MG9Hc0h3V0p4M3lmNm12bnFKamlMeTZ4UUdXTEdjSUN2LTd1bEl3Nkx1N0dLZWRHdGtXMjUyR0kycmw1RVdBMEtzSm95VmoxWlBoeEZVRXNrcFRnVE9VOU42Ump1UTRpeU3SAYQBQVVfeXFMT2JINTFpd19lYUhsa2d0Rld3a0dVUmFXbHpDY0IzOWMtUmFBSFF0cnFULXVHai1YY09veUh1N1RRYV8tSzMxSFNfdDhjZkZXV3NGUFQwSFJBN2xHZ21fR09ycnpoNks0WllxRkxJQ2lGNlhrRE1kb1psZWxLZXVOMGszZ21n?oc=5",
-      "lead_source": "CNBC",
-      "topic": "oil",
-      "score": 93.86,
+      "cluster_id": "c_0cdc1a4d793b38",
+      "lead_title": "Brent Oil Price Futures Understating Physical Market Stress",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQXZnZnIzWlhFRHFQc2hKNUwwbno3MEVkS1Fjd0pRa3M5cWIyUmpMV1o2ejJjWmI0TlZJeWlVX3d1TUMzeDZfS2I0LU40aVVYaWFZWFl4QlNlLVVFMzVPeFZUakZrT3VfRmhwU01ILXhrZlEzRU9fcVMteVJRMk9OTjZnWTF4ZlNFaXk5dTE3ejRNUlAxblViczhXbEJBME1MejRGRFBmdWpTWVlzdnkwNGFhX2o3VVU?oc=5",
+      "lead_source": "Rigzone",
+      "topic": "energy",
+      "score": 93.44,
       "novelty": "new",
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -165,19 +166,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-05-08T11:26:52.345791+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.961, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.964, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
