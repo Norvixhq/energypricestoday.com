@@ -60,12 +60,12 @@ const FULL_PRICES = {
 const BREAKING_NEWS = [
   { title: "Oil prices edge lower as U.S. waits for Iran response to deal proposal", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Current price of oil as of May 7, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "US oil exports hit record high. What does this mean for gas prices?", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Crude oil prices fall over Iran deal optimism as gas prices continue to rise", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Crude oil prices fall over Iran deal optimism as gas prices continue to rise", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
   { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
   { title: "Oil prices rise after U.S. fires on empty Iranian tankers, UAE attacked by missiles", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil prices rise after US and Iran exchange fire in Hormuz strait", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "US oil exports hit record high. What does this mean for gas prices?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
