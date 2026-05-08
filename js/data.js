@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Oil plunges, markets surge on report U.S. and Iran are near deal to end war as gas prices jump past $4.50", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil plunges, markets surge on report U.S. and Iran are near deal to end war as gas prices jump past $4.50", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Current price of oil as of May 7, 2026", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Oil prices edge lower as U.S. waits for Iran response to deal proposal", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "US oil exports hit record high. What does this mean for gas prices?", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Prices Slide on Hopes for Renewed U.S.-Iran Peace Talks", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil Prices Waver Amid Mixed Signals on Renewed U.S.-Iran Peace Talks", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil and gas prices fall sharply, driven by hopes of strait of Hormuz reopening – as it happened", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Prices Fall Below $100 After Trump Pauses Hormuz Escort Plan", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
