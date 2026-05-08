@@ -254,6 +254,7 @@ const ARTICLE_SLUGS = {
   "Oil prices plunge 10% after reports that the US and Iran are close to a deal to end the war": "oil-prices-plunge-10-after-reports-that-the-us-and-iran-are-close-to-a-deal-to-e",
   "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran": "oil-prices-plunge-and-stocks-jump-after-trump-announces-conditional-ceasefire-wi",
   "Oil prices plunge on reports that the US and Iran are close to a peace deal": "oil-prices-plunge-on-reports-that-the-us-and-iran-are-close-to-a-peace-deal",
+  "Oil prices rise after U.S. fires on empty Iranian tankers, UAE attacked by missiles": "oil-prices-rise-after-us-fires-on-empty-iranian-tankers-uae-attacked-by-missiles",
   "Oil prices rise after US and Iran exchange fire in Hormuz strait": "oil-prices-rise-after-us-and-iran-exchange-fire-in-hormuz-strait",
   "Oil prices stable as Trump insists ceasefire still intact after U.S.-Iran exchange fire": "oil-prices-stable-as-trump-insists-ceasefire-still-intact-after-us-iran-exchange",
   "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran": "oil-prices-today-crude-falls-below-100-as-trump-announces-two-week-ceasefire-wit",
