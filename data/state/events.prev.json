@@ -1,29 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-08T12:56:51.393599+00:00",
-  "previous_generated_at": "2026-05-08T11:26:52.345878+00:00",
-  "resolver_run_count": 41,
+  "generated_at": "2026-05-08T15:01:13.169609+00:00",
+  "previous_generated_at": "2026-05-08T12:56:51.393599+00:00",
+  "resolver_run_count": 42,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
+      "status_detail": "Iran accuses US of breaching ceasefire with Strait of Hormuz attacks",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.964,
-      "last_confirmed": "2026-05-08T11:50:12+00:00",
+      "confidence": 0.957,
+      "last_confirmed": "2026-05-08T13:28:30+00:00",
       "source_count": 6,
-      "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
-      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. Oil tanker arrives in South Korea after passing through the Strait of Hormuz in mid-April",
+      "summary_short": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
+      "summary_long": "Oil prices rise after US and Iran exchange fire in Hormuz strait. US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped i",
       "evidence_cluster_ids": [
         "c_8fb679b043cfd1",
         "c_77ddd22fa1d5dd",
-        "c_cb757261050a83",
+        "c_7d8c73b4fb6562",
+        "c_b28a3b00187179",
         "c_576866af76a252"
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_8fb679b043 → CONTESTED (kw='attack', weight=0.59)",
-        "winning=CONTESTED (0.59/0.59), conf=0.964"
+        "cluster c_7d8c73b4fb → CONTESTED (kw='attack', weight=0.11)",
+        "winning=CONTESTED (0.11/0.11), conf=0.957"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-08T12:02:00+00:00",
-      "source_count": 13,
-      "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
-      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. Oil futures: Crude edges up as US-Iran peace deal hopes dampened",
+      "last_confirmed": "2026-05-08T13:48:00+00:00",
+      "source_count": 9,
+      "summary_short": "Suspected oil spill seen on satellite images near Iran’s Kharg Island export hub",
+      "summary_long": "Suspected oil spill seen on satellite images near Iran’s Kharg Island export hub. Iran launches missiles, drones at UAE, FM Araghchi disputes US intelligence",
       "evidence_cluster_ids": [
+        "c_b5345b40914bb0",
+        "c_c6ddc4a33ce91f",
         "c_8fb679b043cfd1",
-        "c_daa853dc37c889",
-        "c_e5b6cc714e1405",
         "c_0f2e4932079fe5",
-        "c_477bd6b8c62bfd"
+        "c_9ddee8e9934b1a"
       ],
-      "evidence_count": 11,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -154,8 +155,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQXZnZnIzWlhFRHFQc2hKNUwwbno3MEVkS1Fjd0pRa3M5cWIyUmpMV1o2ejJjWmI0TlZJeWlVX3d1TUMzeDZfS2I0LU40aVVYaWFZWFl4QlNlLVVFMzVPeFZUakZrT3VfRmhwU01ILXhrZlEzRU9fcVMteVJRMk9OTjZnWTF4ZlNFaXk5dTE3ejRNUlAxblViczhXbEJBME1MejRGRFBmdWpTWVlzdnkwNGFhX2o3VVU?oc=5",
       "lead_source": "Rigzone",
       "topic": "energy",
-      "score": 93.44,
-      "novelty": "new",
+      "score": 82.2,
+      "novelty": "ongoing",
       "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
@@ -168,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.964, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

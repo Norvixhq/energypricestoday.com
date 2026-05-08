@@ -483,3 +483,17 @@
 [2026-05-08T15:01:13.169585+00:00] resolver: no state changes
 [2026-05-08T15:01:13.170175+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-08T15:01:13.170215+00:00] ════════════════════════════════════════════════════════════
+[2026-05-08T16:26:22.051080+00:00] resolver: start
+[2026-05-08T16:26:22.055576+00:00] resolver: scanning 276 clusters across 10 topics
+[2026-05-08T16:26:22.056044+00:00]   hormuz_status: CLOSED (conf=0.853, freshness=fresh, clusters=6)
+[2026-05-08T16:26:22.057335+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=14)
+[2026-05-08T16:26:22.057460+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-05-08T16:26:22.057503+00:00]   global_risk_level: HIGH (score=50)
+[2026-05-08T16:26:22.057670+00:00]   top_story: 'Permian to US Gulf Coast crude pipeline operational after oi' (score=85.71)
+[2026-05-08T16:26:22.057738+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-05-08T16:26:22.057772+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'CLOSED' (triggers_publish=True)
+[2026-05-08T16:26:22.057798+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'HIGH' (triggers_publish=True)
+[2026-05-08T16:26:22.057821+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'HIGH' (triggers_publish=False)
+[2026-05-08T16:26:22.057843+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'HIGH' (triggers_publish=False)
+[2026-05-08T16:26:22.058520+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-08T16:26:22.058572+00:00] ════════════════════════════════════════════════════════════
