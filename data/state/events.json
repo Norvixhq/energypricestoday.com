@@ -1,29 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-08T01:28:41.212911+00:00",
-  "previous_generated_at": "2026-05-07T23:41:01.116831+00:00",
-  "resolver_run_count": 35,
+  "generated_at": "2026-05-08T04:43:21.314734+00:00",
+  "previous_generated_at": "2026-05-08T01:28:41.212911+00:00",
+  "resolver_run_count": 36,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Iran can last for months under US Strait of Hormuz blockade, US officials say - report",
+      "status_detail": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.954,
-      "last_confirmed": "2026-05-07T18:37:39+00:00",
-      "source_count": 6,
-      "summary_short": "Iran can last for months under US Strait of Hormuz blockade, US officials say - report",
-      "summary_long": "Iran can last for months under US Strait of Hormuz blockade, US officials say - report. Exclusive: Hungry to sell, UAE slips hidden oil tankers through Strait of Hormuz",
+      "confidence": 0.793,
+      "last_confirmed": "2026-05-08T03:47:38+00:00",
+      "source_count": 11,
+      "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
+      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. CNBC Daily Open: Who shot first? Hormuz heats again as ceasefire and oil markets in peril",
       "evidence_cluster_ids": [
-        "c_6c30552548c117",
+        "c_8fb679b043cfd1",
+        "c_fcce324cfe2e36",
+        "c_39c709388fde75",
         "c_aa25e0861d8d7a",
-        "c_3c13ae6566e040",
-        "c_1665abaff84403"
+        "c_65200a665f3d37"
       ],
-      "evidence_count": 4,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_6c30552548 → CLOSED (kw='blockade', weight=0.60) [OPEN suppressed]",
-        "winning=CLOSED (0.60/0.60), conf=0.954"
+        "cluster c_8fb679b043 → CLOSED (kw='blockade', weight=0.77) [OPEN suppressed]",
+        "cluster c_39c709388f → CONTESTED (kw='attack', weight=0.33)",
+        "cluster c_a01b8e30e2 → OPEN (kw='reopen', weight=0.65)",
+        "winning=CLOSED (0.77/1.74), conf=0.793"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-08T00:24:41+00:00",
-      "source_count": 16,
-      "summary_short": "US Stock Futures Fall, Oil Climbs on Iran Tensions: Markets Wrap",
-      "summary_long": "US Stock Futures Fall, Oil Climbs on Iran Tensions: Markets Wrap. Iran can last for months under US Strait of Hormuz blockade, US officials say - report",
+      "last_confirmed": "2026-05-08T03:47:38+00:00",
+      "source_count": 17,
+      "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
+      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. Oil prices jump as US-Iran tensions intensify; Brent crude stays beyond $100, WTI up 3%",
       "evidence_cluster_ids": [
-        "c_a4302a6793307a",
-        "c_6c30552548c117",
-        "c_2e3af0a45832a6",
-        "c_455a51d2fdd255",
-        "c_477bd6b8c62bfd"
+        "c_8fb679b043cfd1",
+        "c_52b14cda957aa6",
+        "c_39c709388fde75",
+        "c_a411225971c9d0",
+        "c_a4302a6793307a"
       ],
-      "evidence_count": 14,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -149,14 +152,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_6da23ffac09fd2",
-      "lead_title": "Treasury yields move higher as crude oil pares losses amid U.S.-Iran developments",
-      "lead_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYmdJMmN1c3lIRGpEdE1hT2dBRUJ1MG9Hc0h3V0p4M3lmNm12bnFKamlMeTZ4UUdXTEdjSUN2LTd1bEl3Nkx1N0dLZWRHdGtXMjUyR0kycmw1RVdBMEtzSm95VmoxWlBoeEZVRXNrcFRnVE9VOU42Ump1UTRpeU3SAYQBQVVfeXFMT2JINTFpd19lYUhsa2d0Rld3a0dVUmFXbHpDY0IzOWMtUmFBSFF0cnFULXVHai1YY09veUh1N1RRYV8tSzMxSFNfdDhjZkZXV3NGUFQwSFJBN2xHZ21fR09ycnpoNks0WllxRkxJQ2lGNlhrRE1kb1psZWxLZXVOMGszZ21n?oc=5",
-      "lead_source": "CNBC",
-      "topic": "oil",
-      "score": 92.06,
+      "cluster_id": "c_1d7b347de1536c",
+      "lead_title": "US crude and fuel inventories fall as Iran war roils energy markets, EIA says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeHJVVFFReUlRMjN5bUFIcGcteHRVRHViRG9xZ25ZRUMyQktMWEtmSjlwb2pCd2NmQVRfZVFZZzloQkNaV19OU3NVd1RCZFB5ZW4zN3FscVNhcTdLMXFvQ3dyTFNleDFqNzNWbGlDd3AzQXlxaEpZMHBGWDYzVjQyamQ0TC1fZlZoRXZUYW9VNXlVZFc1Tm5ReUpKdk5GNXJxamphVlFHQm1lM1lnOC1QcFNIOA?oc=5",
+      "lead_source": "Reuters",
+      "topic": "energy",
+      "score": 98.49,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,7 +171,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.954, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.793, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
