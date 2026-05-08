@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-08T08:13:19.321978+00:00",
-  "previous_generated_at": "2026-05-08T06:24:59.842279+00:00",
-  "resolver_run_count": 38,
+  "generated_at": "2026-05-08T09:58:40.045722+00:00",
+  "previous_generated_at": "2026-05-08T08:13:19.321978+00:00",
+  "resolver_run_count": 39,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.807,
-      "last_confirmed": "2026-05-08T07:36:03+00:00",
-      "source_count": 10,
+      "confidence": 0.879,
+      "last_confirmed": "2026-05-08T09:30:45+00:00",
+      "source_count": 11,
       "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
-      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. Hopes for reopening the Strait of Hormuz push world shares higher, as Brent crude holds above $100",
+      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. China confirms attack on oil tanker in Strait of Hormuz, no casualties reported",
       "evidence_cluster_ids": [
         "c_8fb679b043cfd1",
-        "c_ad494f644793ef",
-        "c_63aca739750b91",
+        "c_6a02a56bf7ae6f",
         "c_aa25e0861d8d7a",
-        "c_a01b8e30e2f85b"
+        "c_b28a3b00187179",
+        "c_576866af76a252"
       ],
-      "evidence_count": 9,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_8fb679b043 → CONTESTED (kw='attack', weight=0.60)",
-        "cluster c_a01b8e30e2 → OPEN (kw='reopen', weight=0.58)",
-        "winning=CONTESTED (0.60/1.18), conf=0.807"
+        "cluster c_8fb679b043 → CONTESTED (kw='attack', weight=0.65)",
+        "cluster c_6a02a56bf7 → CONTESTED (kw='attack', weight=0.68)",
+        "cluster c_a01b8e30e2 → OPEN (kw='reopen', weight=0.46)",
+        "winning=CONTESTED (1.33/1.79), conf=0.879"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-08T08:03:16+00:00",
-      "source_count": 13,
-      "summary_short": "US Stock Futures Fall, Oil Climbs on Iran Tensions: Markets Wrap",
-      "summary_long": "US Stock Futures Fall, Oil Climbs on Iran Tensions: Markets Wrap. From oil giants to banks - these companies are making billions from Iran war",
+      "last_confirmed": "2026-05-08T08:05:00+00:00",
+      "source_count": 12,
+      "summary_short": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
+      "summary_long": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz Amid Middle East Crisis. The companies making billions from the Iran war",
       "evidence_cluster_ids": [
-        "c_f93e4aed25827e",
-        "c_678f42c1a81a21",
         "c_8fb679b043cfd1",
-        "c_80e5e323df15a5",
-        "c_3c4bc5482a29fc"
+        "c_0f2e4932079fe5",
+        "c_927c12875fafdd",
+        "c_477bd6b8c62bfd",
+        "c_a411225971c9d0"
       ],
-      "evidence_count": 12,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -86,36 +87,6 @@
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
-    },
-    "opec_plus_policy": {
-      "key": "opec_plus_policy",
-      "display_name": "OPEC+ Policy",
-      "category": "policy_state",
-      "status": "HOLDING",
-      "status_detail": "no recent coverage",
-      "status_tag": "No change",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
-      "affected_pages": [
-        "oil-prices.html",
-        "markets.html"
-      ],
-      "dependent_modules": [
-        "oil-prices.drivers.opec",
-        "markets.drivers.opec"
-      ],
-      "update_priority": "high",
-      "freshness": "fresh",
-      "stale_after_hours": 168,
-      "rationale": [
-        "no matching clusters"
-      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -151,14 +122,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_37eff2b1b4c7f2",
-      "lead_title": "Permian to US Gulf Coast crude pipeline operational after oil spill",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUR3NmZFTFJfM3F0VGtINFhpa1NXT0YyWERuTi1mRXdpeGJ4Q01jaVZJWHZlZnhKTEZHRlk1ZHFZc0h3cURTekNXbTZiZElLS05jaU5MamNRQkFIa3Q2SVN6OVpoYXppV3VuSjA3aTRhUnZiUlQ5b29HbFRnMkp3RGZIcG5LOWxKRTY0cXZ5XzFWT20yTklWenQzNmtvbkdielJXaV9LcWRndlpabU81YkdZUHRESzg?oc=5",
-      "lead_source": "Reuters",
-      "topic": "oil",
-      "score": 86.4,
-      "novelty": "growing",
-      "source_count": 6,
+      "cluster_id": "c_57e2679d2dae8e",
+      "lead_title": "Oil prices jump as US-Iran tensions intensify; Brent crude stays beyond $100, WTI up 3%",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQMVk3cjdRSFg0Vll6NmtwcFpDdHdtZ2g4QVpJV0Q2SGQxYnVpSzJFMGJtaGRMcDUzU1AwYmRxandYaGlnY1lYQTFsbHVlOFZZQy1TWTVnQ2FlQWZEUDBRRkZaY3RZS2hiYkRSSHlGcjR6M3R5Q2ZYcnMtbVVnVE9vbnVTVi04a3FiNkVfRHFXMm9Zc3dIaE5oaG1mOFNBQ1JlSm9ScjlSbVNiWklrbHdwaTZuMHZHcHZod1h0V0YxNGg4Y1R4eG9xQTB5R1RhMEJqM1FmaXNGNGtZUkNvZWZqZEh2M1duRzNrVVdVMGFqaXJWRE9sMktCZEpsMXRySm5zRmptcWl2Tmg5UUVkZmpRNnM2a183b2fSAZwCQVVfeXFMT1Rld21TaUxJTi1mTXdrWk92bkh1bHRGbWN3NDNMYUt0WVR3NjIybnB0RTI2dnYxWnBlY2NvOUNmTG9YZUdMWW83TjVBVzRoYk1SMlBpX0plMXVpd2dZTW8tQ0FMazh3bGI5OGZ0b0J3NVBEeF9lX0pBN19tbEFaWU5CY1pJbHdfMmRITXBKT05GT1RtYklDakZmQ1QwYmFmOVc5UFJPd0JmQzhwMFkzeWNzVG9Oc1RlMmxXTE1vY3JzaUQxQTZIYk5ESHZHUzdjZnBjU1lWZUlRcjV3eGZVZDdFU0djT2lvUTFaS3RaTy1SeGd0YURUbl81a2Q4Wl84OXFpT01VWXRBQkF3VEVLbzgxRm91dGdmeDBNelQ?oc=5",
+      "lead_source": "The Times of India",
+      "topic": "energy",
+      "score": 88.0,
+      "novelty": "new",
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,10 +139,20 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "opec_plus_policy",
+      "field": "retired",
+      "from": "HOLDING",
+      "to": null,
+      "detected_at": "2026-05-08T09:58:40.045645+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.807, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.879, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: retired — last_confirmed too old"
   ]
 }
