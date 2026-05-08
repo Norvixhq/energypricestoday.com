@@ -251,6 +251,7 @@ const ARTICLE_SLUGS = {
   "Oil prices plunge 10% after reports that the US and Iran are close to a deal to end the war": "oil-prices-plunge-10-after-reports-that-the-us-and-iran-are-close-to-a-deal-to-e",
   "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran": "oil-prices-plunge-and-stocks-jump-after-trump-announces-conditional-ceasefire-wi",
   "Oil prices plunge on reports that the US and Iran are close to a peace deal": "oil-prices-plunge-on-reports-that-the-us-and-iran-are-close-to-a-peace-deal",
+  "Oil prices today: Crude falls below $100 as Trump announces two-week ceasefire with Iran": "oil-prices-today-crude-falls-below-100-as-trump-announces-two-week-ceasefire-wit",
   "Oil rises as U.S.-Iran tensions keep traders focused on Strait of Hormuz risks": "oil-rises-as-us-iran-tensions-keep-traders-focused-on-strait-of-hormuz-risks",
   "Online sleuths are raising more red flags around suspiciously timed Iran-war oil trades": "online-sleuths-are-raising-more-red-flags-around-suspiciously-timed-iran-war-oil",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
@@ -425,7 +426,8 @@ const ARTICLE_SLUGS = {
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
   "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
-  "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea": "why-did-oil-prices-crash-today-920-million-crude-oil-short-placed-70-minutes-bef"
+  "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea": "why-did-oil-prices-crash-today-920-million-crude-oil-short-placed-70-minutes-bef",
+  "Why high oil prices are good for oil companies \u2014 until they aren\u2019t": "why-high-oil-prices-are-good-for-oil-companies-until-they-arent"
 };
 
 function slugifyTitle(title) {
