@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-08T17:56:03.165679+00:00",
-  "previous_generated_at": "2026-05-08T16:26:22.057863+00:00",
-  "resolver_run_count": 44,
+  "generated_at": "2026-05-08T19:40:19.253730+00:00",
+  "previous_generated_at": "2026-05-08T17:56:03.165679+00:00",
+  "resolver_run_count": 45,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,18 +12,19 @@
       "status_detail": "US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped in Strait of Hormuz A",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.951,
-      "last_confirmed": "2026-05-08T08:43:55+00:00",
-      "source_count": 5,
-      "summary_short": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
-      "summary_long": "Oil prices rise after US and Iran exchange fire in Hormuz strait. US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped i",
+      "confidence": 0.955,
+      "last_confirmed": "2026-05-08T19:15:26+00:00",
+      "source_count": 6,
+      "summary_short": "Oil Tanker ODESSA Arrives With 1 Million Barrels via Strait of Hormuz",
+      "summary_long": "Oil Tanker ODESSA Arrives With 1 Million Barrels via Strait of Hormuz. Oil tanker arrives in South Korea after passing through the Strait of Hormuz in mid-April",
       "evidence_cluster_ids": [
+        "c_77ddd22fa1d5dd",
         "c_8fb679b043cfd1",
-        "c_b28a3b00187179",
+        "c_cb9682dd87f55b",
         "c_576866af76a252",
-        "c_6319966dd9c484"
+        "c_3a585a600544c1"
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_8fb679b043 → CLOSED (kw='blockade', weight=0.39) [OPEN suppressed]",
-        "winning=CLOSED (0.39/0.39), conf=0.951"
+        "cluster c_8fb679b043 → CLOSED (kw='blockade', weight=0.36) [OPEN suppressed]",
+        "winning=CLOSED (0.36/0.36), conf=0.955"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,16 +54,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-08T16:54:58+00:00",
+      "last_confirmed": "2026-05-08T17:32:03+00:00",
       "source_count": 13,
-      "summary_short": "Suspected oil spill hits waters near Iran’s Kharg export hub",
-      "summary_long": "Suspected oil spill hits waters near Iran’s Kharg export hub. China’s Legal Shield Against U.S. Sanctions on Iranian Oil",
+      "summary_short": "A Large Oil Slick Is Detected Off a Key Iranian Oil Depot",
+      "summary_long": "A Large Oil Slick Is Detected Off a Key Iranian Oil Depot. US-Israel-Iran War Latest Update: Oil Prices Slip on Peace Deal Rise as 1,500 Ships Remain Trapped i",
       "evidence_cluster_ids": [
+        "c_09db09fe7da7a1",
+        "c_8fb679b043cfd1",
+        "c_0f2e4932079fe5",
         "c_2855f828af068d",
-        "c_3599985c393541",
-        "c_ecb8a4fcfbfab0",
-        "c_979109a4dfb646",
-        "c_8fb679b043cfd1"
+        "c_3599985c393541"
       ],
       "evidence_count": 12,
       "affected_pages": [
@@ -149,14 +150,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_f96018ecbd556d",
-      "lead_title": "Shell CEO says oil market is short nearly 1 billion barrels due to Iran war, and the hole deepens every day",
-      "lead_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wVi1FNWxOb2ZuY0ExRk1qd3ZVbXVUbm8ySUhtNWIzUGZyUFZ6Y0JRcURUNWk4YW5SUjFaZHF5Y3BlaldJcGdQZ2k2aS1jUFNqUXFzRnlSdFducU1xTm9XV3RfaWE0ajZsSUhiZk9hdzlyVzlGRHJXTVhkYlZFZ9IBgwFBVV95cUxOVDVURE85R3R3cVEzTllHQWhCYTRHVm1yTFRnYzJHeFRLdGtvdU9OOC1NS0wyWnFPcURMb01YTzdpTTZMQldDLVZSU3dOVHp3X19zOFFSNDdQcDZ2NF91eGNpaloxWW9QR0RCZjlKRkgydF9Oc0hrQnVrV29aY0VXai1POA?oc=5",
-      "lead_source": "CNBC",
+      "cluster_id": "c_8624a1cca00c94",
+      "lead_title": "Diamondback bets on wider WTI-Brent gap amid US export ban concerns",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNzE4YjdvOWc0MmZsVlhyTW1KeGxiZ3RaZTU1STZVQUtnSUpVUU11NDcwd3pDQnVwSERrTUhPclNpOGxOOEVwaUF0YW4tckRDTHpGQTFlV2FnWEoxUG5MODFnVGtoS0dGbkw0RTIyWXlyUFREQVU0VkJpRldlc0UySl9CS0RYVHlVNlFPTkFlYWlhMTJBaVU3b2VsWnNKSC1PYVNvamU3YUpuTWZwX19JY1FhbzFRSXM?oc=5",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 86.06,
+      "score": 98.31,
       "novelty": "new",
-      "source_count": 3,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.951, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
