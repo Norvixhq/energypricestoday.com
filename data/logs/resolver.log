@@ -635,3 +635,18 @@
 [2026-05-09T12:05:56.712914+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
 [2026-05-09T12:05:56.713574+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-09T12:05:56.713616+00:00] ════════════════════════════════════════════════════════════
+[2026-05-09T13:56:54.198328+00:00] resolver: start
+[2026-05-09T13:56:54.202559+00:00] resolver: scanning 273 clusters across 10 topics
+[2026-05-09T13:56:54.202950+00:00]   hormuz_status: CONTESTED (conf=0.804, freshness=aging, clusters=4)
+[2026-05-09T13:56:54.203950+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=7)
+[2026-05-09T13:56:54.204082+00:00]   opec_plus_policy: RETIRED (stale beyond 2× threshold)
+[2026-05-09T13:56:54.204134+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-05-09T13:56:54.204325+00:00]   top_story: 'Diamondback bets on wider WTI-Brent gap amid US export ban c' (score=83.99)
+[2026-05-09T13:56:54.204403+00:00] resolver: 5 change(s), 5 meaningful, 3 publish-triggering
+[2026-05-09T13:56:54.204431+00:00]   Δ hormuz_status.status: 'OPEN' → 'CONTESTED' (triggers_publish=True)
+[2026-05-09T13:56:54.204456+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=True)
+[2026-05-09T13:56:54.204478+00:00]   Δ global_risk_level.status: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-05-09T13:56:54.204500+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-05-09T13:56:54.204522+00:00]   Δ opec_plus_policy.retired: 'HOLDING' → 'None' (triggers_publish=True)
+[2026-05-09T13:56:54.205105+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-05-09T13:56:54.205143+00:00] ════════════════════════════════════════════════════════════
