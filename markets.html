@@ -19,7 +19,7 @@ fbq('init','957762016897581');fbq('track','PageView');
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=23">
+  <link rel="stylesheet" href="css/styles.css?v=24">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
@@ -158,8 +158,8 @@ fbq('init','957762016897581');fbq('track','PageView');
     </div></div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=23"></script><script src="js/article-slugs.js?v=23"></script><script src="js/main.js?v=23"></script><script src="js/live-data.js?v=23"></script><script src="js/news-feed.js?v=23"></script>
-  <script src="js/event-state.js?v=23"></script>
+  <script src="js/data.js?v=24"></script><script src="js/article-slugs.js?v=24"></script><script src="js/main.js?v=24"></script><script src="js/live-data.js?v=24"></script><script src="js/news-feed.js?v=24"></script>
+  <script src="js/event-state.js?v=24"></script>
   <script>
     // ─── Reusable card templates ─────────────────────────────────
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.65">'+d+'</div></div>';}
@@ -380,19 +380,19 @@ fbq('init','957762016897581');fbq('track','PageView');
     // ─── Driver cards (expanded to 9) ────────────────────────────
     // Hormuz / Ceasefire / OPEC driver cards bind to events.json via data-event-bind.
     // Everything else is static explanatory content.
-    var mktHormuzFb   = 'Hormuz exchange of fire May 4 shatters April 8 ceasefire. U.S. sank seven Iranian boats; two U.S.-flagged ships transited under Project Freedom. Iran disputed both. Fujairah Oil Industry Zone hit by Iranian drone, wounding three Indian nationals. First major hit on Hormuz bypass infrastructure.';
-    var mktCeasefireFb= 'Trump declined Monday to confirm whether the ceasefire still applies after both sides exchanged fire in the strait. Treasury Sec. Bessent said the U.S. has absolute control of Hormuz and called Iran navy a band of pirates. Trump April 30 letter to Congress declaring hostilities terminated under War Powers Resolution now obviously false.';
-    var mktOpecFb     = 'The 206K bpd April output increase is proceeding despite the standoff. Saudi East-West Pipeline at full 5M bpd capacity &mdash; the primary Hormuz bypass. No emergency JMMC meeting called. Gulf producers on heightened alert as conflict enters eleventh week. May ministerial mid-month.';
+    var mktHormuzFb   = 'Strait in twelfth week of disruption. U.S. and Iran reportedly close to 14-point memorandum that would reopen Hormuz. Iran response expected via Pakistan within 2 days. Trump paused Project Freedom Tuesday to allow space for the deal. U.S. Navy disabled two Iranian tankers Friday in love tap strike. Risk premium partially unwinding.';
+    var mktCeasefireFb= '14-point memorandum being finalized. Iran would commit to uranium enrichment moratorium; U.S. would lift sanctions and release frozen funds. Sec. of State Rubio expected Iran formal response Friday. Hardliner Mohsen Rezaei publicly demands U.S. reparations before any deal. Trump Beijing visit next week functions as hard deadline.';
+    var mktOpecFb     = 'The 206K bpd April output increase is proceeding despite the standoff. Saudi East-West Pipeline at full 5M bpd capacity &mdash; the primary Hormuz bypass. No emergency JMMC meeting called. Gulf producers on heightened alert as conflict enters twelfth week. May ministerial mid-month.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz Crisis — Ongoing','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+mktHormuzFb.replace(/"/g,'&quot;')+'">'+mktHormuzFb+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics dashboard →</a>'),
       TC('chevron-right','Iran Proposal — Trump Rejects','<span data-event-bind="us_iran_ceasefire.summary_long|truncate:240" data-event-fallback="'+mktCeasefireFb.replace(/"/g,'&quot;')+'">'+mktCeasefireFb+'</span> <a href="articles/iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied.html" style="color:var(--blue)">Full coverage →</a>'),
       TC('users','OPEC+ — Holding the Plan','<span data-event-bind="opec_plus_policy.summary_long|truncate:240" data-event-fallback="'+mktOpecFb.replace(/"/g,'&quot;')+'">'+mktOpecFb+'</span> <a href="articles/what-is-opec-plus-how-it-affects-oil-prices.html" style="color:var(--blue)">OPEC+ explainer →</a>'),
       TC('factory','Refining Season — Peak Turnaround','Spring maintenance has pulled U.S. refining utilization to ~87%. Summer gasoline blend transition is adding $0.10-0.25/gal to RBOB. Gulf Coast refiners ramping aggressively for peak driving demand through Memorial Day. Crack spreads at multi-year highs.'),
       TC('bar-chart','EIA Inventory Data — Bullish','EIA inventory reports continue to show draws as U.S. dual-blockade keeps Middle East cargoes stranded. Cushing stocks below the 5-year average. U.S. crude exports surged to record levels last week. Next report Wednesday May 6.'),
-      TC('bar-chart','Refined Product Cracks &mdash; Firming','Gasoline RBOB at $3.51, ULSD/diesel at $4.24, jet fuel $4.62. Crack spreads (the refiner margin over crude) at multi-year highs. Summer blend transition supports RBOB premium. Pump-level: AAA national $4.457/gal Monday May 4, up another 6 cents over the weekend.'),
+      TC('bar-chart','Refined Product Cracks &mdash; Firming','Gasoline RBOB at $3.28, ULSD/diesel at $3.96, jet fuel $4.31. Crack spreads (the refiner margin over crude) at multi-year highs. Summer blend transition supports RBOB premium. Pump-level: AAA national $4.546/gal Friday May 8, up 25 cents for the second straight week.'),
       TC('trending-up','Natural Gas — Firming','Henry Hub near $2.68/MMBtu, firming as the Qatari LNG disruption bites again. Mild spring demand softens the shoulder, but LNG exports near capacity at 14 Bcf/d as European buyers return to premium bidding. Dutch TTF elevated.'),
       TC('anchor','LNG Trade — Tight','JKM and TTF both elevated on Qatari export disruption. Europe cannot easily pivot back to Russian pipeline gas; Asian importers are outbidding European utility buyers. EU transport chief preparing airline guidance on potential jet fuel shortages.'),
-      TC('activity','Trading Desks &mdash; Monday Rally','WTI settled $105.09 (+3.1%), Brent $114.44 (+5.8%) Monday after Hormuz exchange of fire. Brent at highest settle since May 2022. Both benchmarks briefly spiked higher intraday on Iranian state media reports of U.S. frigate strike, before pulling back when CENTCOM denied. Implied volatility remains at multi-year highs.'),
+      TC('activity','Trading Desks &mdash; Weekly Loss','WTI settled $95.42 (+0.6% Friday), Brent $101.29 (+1.2%). Both still down more than 6% on the week as panic premium unwound on U.S.-Iran 14-point memorandum talks. WTI hit $88.71 intraday low Tuesday, Brent $96.77 low. Goldman raised Q4 Brent forecast to $90; Barclays sees $100. Implied volatility remains elevated.'),
     ].join('');
 
     // Re-apply event-state bindings after innerHTML injection.

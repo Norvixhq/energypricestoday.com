@@ -4,16 +4,16 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 const COMMODITIES = [
-  { name: "WTI Crude", price: 105.09, change: 3.15, pct: 3.09, unit: "$/bbl", spark: [99.93,103.40,105.80,108.20,111.05,101.94,105.09], loading: false },
-  { name: "Brent Crude", price: 114.44, change: 6.27, pct: 5.80, unit: "$/bbl", spark: [111.26,112.50,113.40,114.10,114.05,108.17,114.44], loading: false },
-  { name: "Natural Gas", price: 2.74, change: 0.06, pct: 2.24, unit: "$/MMBtu", spark: [2.61,2.63,2.65,2.66,2.69,2.68,2.74], loading: false },
-  { name: "Gasoline RBOB", price: 3.51, change: 0.09, pct: 2.63, unit: "$/gal", spark: [3.34,3.36,3.39,3.42,3.46,3.42,3.51], loading: false },
-  { name: "Heating Oil", price: 4.24, change: 0.12, pct: 2.91, unit: "$/gal", spark: [4.04,4.06,4.09,4.12,4.16,4.12,4.24], loading: false },
-  { name: "Murban Crude", price: 116.50, change: 6.00, pct: 5.43, unit: "$/bbl", spark: [112.05,112.80,113.20,113.50,113.10,110.50,116.50], loading: false },
-  { name: "Diesel ULSD", price: 4.24, change: 0.12, pct: 2.91, unit: "$/gal", spark: [4.04,4.06,4.09,4.12,4.16,4.12,4.24], loading: false },
-  { name: "Jet Fuel", price: 4.62, change: 0.16, pct: 3.59, unit: "$/gal", spark: [4.38,4.40,4.42,4.44,4.50,4.46,4.62], loading: false },
-  { name: "Coal", price: 140.2, change: 1.7, pct: 1.23, unit: "$/ton", spark: [137.4,137.6,137.8,138.0,138.2,138.5,140.2], loading: false },
-  { name: "Gold", price: 4742.10, change: 31.25, pct: 0.66, unit: "$/oz", spark: [], loading: false },
+  { name: "WTI Crude", price: 95.42, change: 0.61, pct: 0.64, unit: "$/bbl", spark: [111.05,101.94,105.09,102.27,94.81,94.81,95.42], loading: false },
+  { name: "Brent Crude", price: 101.29, change: 1.23, pct: 1.23, unit: "$/bbl", spark: [114.05,108.17,114.44,109.87,100.06,100.06,101.29], loading: false },
+  { name: "Natural Gas", price: 2.71, change: -0.03, pct: -1.10, unit: "$/MMBtu", spark: [2.69,2.68,2.74,2.76,2.74,2.72,2.71], loading: false },
+  { name: "Gasoline RBOB", price: 3.28, change: -0.04, pct: -1.20, unit: "$/gal", spark: [3.46,3.42,3.51,3.42,3.30,3.32,3.28], loading: false },
+  { name: "Heating Oil", price: 3.96, change: -0.05, pct: -1.25, unit: "$/gal", spark: [4.16,4.12,4.24,4.10,3.98,4.01,3.96], loading: false },
+  { name: "Murban Crude", price: 103.10, change: 1.20, pct: 1.18, unit: "$/bbl", spark: [113.10,110.50,116.50,108.50,100.40,101.90,103.10], loading: false },
+  { name: "Diesel ULSD", price: 3.96, change: -0.05, pct: -1.25, unit: "$/gal", spark: [4.16,4.12,4.24,4.10,3.98,4.01,3.96], loading: false },
+  { name: "Jet Fuel", price: 4.31, change: -0.06, pct: -1.37, unit: "$/gal", spark: [4.50,4.46,4.62,4.48,4.32,4.37,4.31], loading: false },
+  { name: "Coal", price: 138.4, change: -0.7, pct: -0.50, unit: "$/ton", spark: [138.2,138.5,140.2,139.8,138.9,139.1,138.4], loading: false },
+  { name: "Gold", price: 4815.20, change: 24.10, pct: 0.50, unit: "$/oz", spark: [], loading: false },
 ];
 
 const FULL_PRICES = {
@@ -58,45 +58,49 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Oil plunges, markets surge on report U.S. and Iran are near deal to end war as gas prices jump past $4.50", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Current price of oil as of May 8, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Oil prices edge lower as U.S. waits for Iran response to deal proposal", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "US oil exports hit record high. What does this mean for gas prices?", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "US stocks fall from their records as oil prices yo-yo", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Prices Whipsaw as U.S.-Iran Conflict Shakes Markets", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Price Today (May 7): Crude oil reclaims $100, snaps two-day losing streak. Here’s why", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Crude oil prices tumble, but gas prices offer major caveat", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "U.S. Awaits Iran Response to 14-Point Memorandum to End Hormuz War", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
+  { title: "Oil Posts Weekly Loss of 6%+ as Diplomacy Hopes Outweigh Friday Clashes", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "AAA Gas Average Hits $4.55, Up 25 Cents for Second Straight Week", cat: "Gas Prices", slug: "gas-prices", time: "5h" },
+  { title: "U.S. Navy Disables Two Iranian Tankers; Trump Calls Strike a 'Love Tap'", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
+  { title: "Brent Settles at $101.29, WTI $95.42 as Memorandum Talks Cap Rally", cat: "Oil Markets", slug: "oil-prices", time: "1d" },
+  { title: "Iran's Mohsen Rezaei Demands U.S. Reparations Before Any Deal", cat: "Geopolitics", slug: "geopolitics", time: "2d" },
+  { title: "Iranian FM Araghchi Travels to Beijing as China Mediates Hormuz Talks", cat: "Geopolitics", slug: "geopolitics", time: "3d" },
+  { title: "U.S. Rig Count Climbs to 548 as Permian Adds Rigs Despite Volatility", cat: "Oil Markets", slug: "oil-prices", time: "1d" },
 ];
 
 const MARKET_DRIVERS = [
-  { cat: "Hormuz Escalation", icon: "alert-triangle", title: "Iran Strikes UAE Fujairah Oil Hub; First Major Bypass Infrastructure Hit", desc: "Iran launched 19 missiles and drones at the UAE on Monday May 4. Most were intercepted by Emirati air defenses, but a drone struck the Fujairah Oil Industry Zone, sparking a major fire and wounding three Indian nationals. Fujairah is the terminus of the UAE's ADCOP pipeline that bypasses the strait. First major hit on bypass infrastructure since the conflict began." },
-  { cat: "Oil Markets", icon: "trending-up", title: "WTI Surges to $105, Brent Tops $114 on Hormuz Exchange of Fire", desc: "WTI jumped 3% Monday to settle at $105.09 after intraday peak near $107. Brent rallied 5% to $114.44, highest settle since May 2022. Markets responding to weekend escalation: ADNOC tanker hit, HMM Namu fire, Iranian missile salvo at UAE, U.S. military sinking 7 small Iranian boats during Project Freedom convoy." },
-  { cat: "U.S. Action", icon: "shield", title: "U.S. Sinks Seven Iranian Boats as Project Freedom Launches Hormuz Convoys", desc: "CENTCOM commander Adm. Brad Cooper said American forces opened a passage through the strait free of Iranian mines and sank seven small Iranian boats targeting civilian ships. Two U.S.-flagged merchant vessels successfully transited Hormuz under Project Freedom on Monday — first major U.S. action since the April 8 ceasefire." },
-  { cat: "Pump Prices", icon: "fuel", title: "U.S. Gas Average Climbs to $4.46, Up 6 More Cents Over Weekend", desc: "AAA reported Monday the U.S. national average for regular gasoline reached $4.457 per gallon, up from $4.392 Friday. Tennessee crossed $4 for the first time since July 2022. California averaging above $6.11. Gas prices now $1.29 higher than year-ago. Pump-level pass-through from rolling crude rally continues with multi-day lag." },
-  { cat: "Ceasefire Status", icon: "users", title: "Trump Declines to Confirm Ceasefire as Both Sides Trade Fire", desc: "President Trump on Monday declined to say whether the April 8 ceasefire remains in place after both sides exchanged fire in the strait. Trump told Congress Friday that 'hostilities have terminated' under the War Powers Resolution, citing no exchange of fire since April 7 — a claim now obviously false. Treasury Sec. Bessent said the U.S. has 'absolute control' of Hormuz and called Iran's navy 'a band of pirates.'" },
-  { cat: "Hormuz", icon: "anchor", title: "Iran Threatens 'Aggressive' Foreign Military Forces Approaching Strait", desc: "Iranian Maj. Gen. Ali Abdollahi warned via state TV: 'Any foreign military force — especially the aggressive U.S. military — that intends to approach or enter the Strait of Hormuz will be targeted.' Iran has reportedly told vessels they need to coordinate with its armed forces, and signaled it will allow only Chinese vessels through. Conflict now in its eleventh week." },
+  { cat: "Diplomacy", icon: "users", title: "U.S. Awaits Iran Response to 14-Point Memorandum to End Hormuz War", desc: "U.S. officials told Axios Wednesday that the U.S. and Iran are close to a one-page, 14-point memorandum of understanding that would end the war and reopen the Strait of Hormuz. Iran would commit to a uranium enrichment moratorium; the U.S. would lift sanctions and release frozen funds. Sec. of State Rubio expected Iran's formal response Friday; reports indicate it will travel through Pakistan within two days. Iranian FM Araghchi traveled to Beijing to coordinate." },
+  { cat: "Oil Markets", icon: "trending-down", title: "Oil Posts Weekly Loss of 6%+ as Diplomacy Hopes Cap Rally", desc: "WTI settled Friday at $95.42 (+0.6%) and Brent at $101.29 (+1.2%) — both still down more than 6% on the week as the panic premium unwound on memorandum news. WTI hit a $88.71 intraday low Tuesday May 5 (-13%), the lowest since April 21. Goldman raised Q4 Brent forecast to $90; Barclays now sees $100. The structural supply deficit limits any deeper pullback." },
+  { cat: "U.S. Action", icon: "shield", title: "U.S. Navy Disables Two Iranian Tankers; Trump Calls Strike a 'Love Tap'", desc: "U.S. forces fired Friday on two empty Iranian oil tankers (M/T Sea Star III and M/T Sevda) attempting to evade the naval blockade. CENTCOM said a Navy warplane fired into the ships' smokestacks and disabled them. President Trump told ABC News the strikes were 'just a love tap' and insisted the ceasefire remains in effect. UAE air defenses also engaged 2 ballistic missiles and 3 drones from Iran the same day." },
+  { cat: "Pump Prices", icon: "fuel", title: "AAA Gas Average Hits $4.55, Up 25 Cents for Second Straight Week", desc: "AAA reported the U.S. national average for regular gasoline reached $4.546 per gallon Friday May 8 — up 25 cents from $4.30 a week earlier and from $4.05 two weeks ago. Pump prices are now $1.40 higher than a year ago and at their highest level since 2022. Despite crude pulling back below $100, retail prices continue to climb on multi-day pass-through lag and 12 consecutive weeks of gasoline inventory drawdown." },
+  { cat: "Iran Stance", icon: "alert-triangle", title: "Iran's Mohsen Rezaei Demands U.S. Reparations Before Any Deal", desc: "Mohsen Rezaei, member of Iran's Expediency Council, said via state news agency PressTV that the U.S. must pay reparations for damage done to Iran before any settlement. Tehran said it will not allow the U.S. to dictate terms unilaterally. The hardline framing complicates the 14-point memorandum even as Iranian negotiators continue Pakistan-mediated talks. Conflict now in its twelfth week." },
+  { cat: "Rig Count", icon: "hard-hat", title: "U.S. Rig Count Climbs to 548 as Permian Adds Rigs Despite Volatility", desc: "Baker Hughes reported Friday May 8 the U.S. rig count rose by 1 to 548 — third consecutive weekly increase, narrowest year-over-year gap since late January. Oil rigs +2 to 410, gas rigs -1 to 129. Permian Basin gained 1 rig to 242, accounting for ~75% of all U.S. drilling activity. Producers continue to favor capital discipline over aggressive expansion despite recent crude volatility." },
 ];
 
 const FEATURED_ARTICLES = [
-  { id: 101, title: "Iran Strikes UAE Fujairah Oil Hub; First Major Bypass Infrastructure Hit", excerpt: "Iran launched 19 missiles and drones at the UAE on Monday May 4. Most were intercepted by Emirati air defenses, but a drone struck the Fujairah Oil Industry Zone, sparking a major fire and wounding three Indian nationals. Fujairah is the terminus of the UAE's ADCOP pipeline that bypasses the strait — the first major hit on bypass infrastructure since the conflict began.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "May 4, 2026", readTime: "6 min", featured: true },
-  { id: 102, title: "U.S. Sinks Seven Iranian Boats as Project Freedom Launches Hormuz Convoys", excerpt: "CENTCOM commander Adm. Brad Cooper said Monday that U.S. forces opened a passage through the strait free of Iranian mines and sank seven small Iranian boats targeting civilian ships. Two U.S.-flagged merchant vessels successfully transited Hormuz under Project Freedom — the first major U.S. military action against Iranian targets since the April 8 ceasefire.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "May 4, 2026", readTime: "5 min" },
-  { id: 103, title: "WTI Surges to $105, Brent Tops $114 on Hormuz Exchange of Fire", excerpt: "WTI jumped 3% Monday to settle at $105.09, Brent rallied 5% to $114.44 — its highest settle since May 2022. Both benchmarks briefly spiked higher intraday on Iranian state media reports of a U.S. frigate strike, before pulling back when CENTCOM denied any U.S. Navy ships had been hit. Markets responding to the weekend escalation.", cat: "Oil Markets", slug: "oil-prices", author: "EnergyPricesToday Editorial", date: "May 4, 2026", readTime: "5 min" },
-  { id: 104, title: "Trump Declines to Confirm Ceasefire as Both Sides Trade Fire in Strait", excerpt: "President Trump on Monday declined to say whether the April 8 ceasefire with Iran remains in place after both sides exchanged fire in the strait. The hostilities directly contradict Trump's letter to Congress on Friday claiming 'no exchange of fire' since April 7 and that 'hostilities have terminated' under the War Powers Resolution.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "May 4, 2026", readTime: "5 min" },
-  { id: 105, title: "U.S. Gas Average Climbs to $4.46, Up Another 6 Cents Over Weekend", excerpt: "AAA reported Monday the U.S. national average for regular gasoline reached $4.457 per gallon, up from $4.392 on Friday. Tennessee crossed $4 for the first time since July 2022. California is averaging above $6.11. Gas prices now $1.29 higher than this time last year, as ongoing crude rally continues passing through to retail with a multi-day lag.", cat: "Gas Prices", slug: "gas-prices", author: "EnergyPricesToday Editorial", date: "May 4, 2026", readTime: "4 min" },
+  { id: 101, title: "U.S. Awaits Iran Response to 14-Point Memorandum to End Hormuz War", excerpt: "U.S. officials told Axios this week the U.S. and Iran are close to a 14-point memorandum of understanding that would end the war and reopen the Strait of Hormuz. Iran would commit to a uranium enrichment moratorium; the U.S. would lift sanctions and release frozen funds. Sec. of State Rubio expected Iran's formal response Friday; reports indicate it will travel through Pakistan within two days. Iranian FM Araghchi traveled to Beijing to coordinate.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "May 8, 2026", readTime: "7 min", featured: true },
+  { id: 102, title: "Oil Posts Weekly Loss of 6%+ as Diplomacy Hopes Outweigh Friday Clashes", excerpt: "WTI settled Friday May 8 at $95.42 (+0.6%) and Brent at $101.29 (+1.2%) — both still down more than 6% on the week as the panic premium unwound on memorandum news. WTI hit a $88.71 intraday low Tuesday, lowest since April 21. Goldman raised Q4 Brent forecast to $90; Barclays now sees $100. The structural supply deficit limits any deeper pullback.", cat: "Oil Markets", slug: "oil-prices", author: "EnergyPricesToday Editorial", date: "May 8, 2026", readTime: "5 min" },
+  { id: 103, title: "U.S. Navy Disables Two Iranian Tankers; Trump Calls Strike a 'Love Tap'", excerpt: "U.S. forces fired Friday on two empty Iranian oil tankers attempting to evade the naval blockade. CENTCOM said a Navy warplane fired into the smokestacks of M/T Sea Star III and M/T Sevda. President Trump told ABC News the strikes were 'just a love tap' and insisted the ceasefire remains in effect. UAE air defenses engaged 2 ballistic missiles and 3 drones the same day.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "May 8, 2026", readTime: "5 min" },
+  { id: 104, title: "AAA Gas Average Hits $4.55, Up 25 Cents for Second Straight Week", excerpt: "AAA reported the U.S. national average for regular gasoline reached $4.546 per gallon Friday May 8 — up 25 cents from a week earlier. Pump prices are now $1.40 higher than a year ago and at their highest level since 2022. Despite crude pulling back below $100, retail prices continue to climb on multi-day pass-through lag and 12 consecutive weeks of gasoline inventory drawdown.", cat: "Gas Prices", slug: "gas-prices", author: "EnergyPricesToday Editorial", date: "May 8, 2026", readTime: "4 min" },
+  { id: 105, title: "Iran's Mohsen Rezaei Demands U.S. Reparations Before Any Deal", excerpt: "Mohsen Rezaei, member of Iran's Expediency Council, said the U.S. must pay reparations for damage done to Iran before any settlement. Tehran said it will not allow the U.S. to dictate terms unilaterally. The hardline framing complicates the 14-point memorandum even as Iranian negotiators continue Pakistan-mediated talks. Conflict now in its twelfth week.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "May 7, 2026", readTime: "5 min" },
 ];
 
 const COMPANY_NEWS = [
-  
-  { id: 203, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", date: "May 3, 2026" },
+  { id: 201, title: "U.S. Navy Disables Two Iranian Tankers; Trump Calls Strike a 'Love Tap'", date: "May 8, 2026" },
+  { id: 202, title: "Cenovus CEO Warns Canada Risks Losing Oil Investment After 83% Q1 Profit Jump", date: "May 7, 2026" },
+  { id: 203, title: "Canadian Oil Producers Push for New Pipelines Amid Rising Output", date: "May 7, 2026" },
   { id: 204, title: "ExxonMobil Q1 Profit Falls to 5-Year Low at $4.2B Despite Beating Estimates", date: "May 1, 2026" },
   { id: 205, title: "Chevron Posts Biggest Earnings Beat Since 2020 on Record Production", date: "May 1, 2026" },
   { id: 206, title: "Saudi Aramco East-West Pipeline Continues at Full Capacity Through Blockade", date: "Apr 30, 2026" },
 ];
 
 const GEO_ITEMS = [
-  { id: 301, region: "United Arab Emirates", title: "Iran Strikes UAE Fujairah Oil Hub; First Major Bypass Infrastructure Hit", desc: "Iran launched 19 missiles and drones at the UAE on Monday May 4 — the first major attack since the April 8 ceasefire. Most were intercepted, but a drone struck the Fujairah Oil Industry Zone, sparking a major fire and wounding three Indian nationals. Fujairah is the terminus of the UAE's ADCOP pipeline that bypasses the strait. The Emirati Foreign Ministry called the attack 'a dangerous escalation and an unacceptable violation.'" },
-  { id: 302, region: "Persian Gulf", title: "U.S. Sinks Seven Iranian Boats as Project Freedom Launches Hormuz Convoys", desc: "CENTCOM commander Adm. Brad Cooper said Monday May 4 that American forces opened a passage through the strait free of Iranian mines and sank seven small Iranian boats targeting civilian ships. Two U.S.-flagged merchant vessels successfully transited Hormuz under the new Project Freedom initiative. Iran's Fars news agency claimed a U.S. frigate had been hit; CENTCOM denied any U.S. Navy ships were struck." },
-  { id: 303, region: "United States", title: "Trump Declines to Confirm Ceasefire as Both Sides Trade Fire in Strait", desc: "President Trump on Monday declined to say whether the April 8 ceasefire remains in place. Treasury Sec. Bessent said the U.S. has 'absolute control' of Hormuz and dismissed Iran's navy as 'a band of pirates.' Trump's letter to Congress on Friday April 30 — claiming 'no exchange of fire since April 7' and that 'hostilities have terminated' — was directly contradicted by Monday's exchange of fire." },
+  { id: 301, region: "United States", title: "U.S. Awaits Iran Response to 14-Point Memorandum to End Hormuz War", desc: "U.S. officials told Axios Wednesday that the U.S. and Iran are close to a one-page, 14-point memorandum of understanding that would end the war. Iran would commit to a uranium enrichment moratorium; the U.S. would lift sanctions, release frozen funds, and ease Strait of Hormuz restrictions. Sec. of State Rubio said Friday he expected Iran's formal response that day; reports indicate the response will travel through Pakistan within two days. Defense Sec. Hegseth said the ceasefire is 'currently effective.' Rubio earlier said the offensive phase has 'ended.'" },
+  { id: 302, region: "Persian Gulf", title: "U.S. Navy Disables Two Iranian Tankers; Trump Calls Strike a 'Love Tap'", desc: "U.S. forces fired Friday May 8 on two empty Iranian oil tankers — M/T Sea Star III and M/T Sevda — that attempted to evade the naval blockade. CENTCOM said a Navy warplane fired into the smokestacks and disabled both vessels. President Trump told ABC News the strikes were 'just a love tap' and insisted the ceasefire remains in effect. UAE air defenses also engaged 2 ballistic missiles and 3 drones launched from Iran the same day — at least the second UAE strike this week." },
+  { id: 303, region: "Iran", title: "Mohsen Rezaei Demands U.S. Reparations Before Any Deal", desc: "Mohsen Rezaei, member of Iran's Expediency Council, said via state news agency PressTV that the U.S. must pay reparations for damage done to Iran before any settlement. Tehran said it will not allow the U.S. to dictate terms unilaterally. The hardline framing complicates the 14-point memorandum even as Iranian negotiators continue Pakistan-mediated talks. Iranian FM Abbas Araghchi traveled to Beijing earlier this week as China continues to mediate U.S.-Iran negotiations." },
+  { id: 304, region: "China", title: "Iranian FM Araghchi Travels to Beijing as China Mediates Hormuz Talks", desc: "Iranian Foreign Minister Abbas Araghchi traveled to Beijing on Tuesday May 5 as China continues to mediate U.S.-Iran negotiations. China has called for the Strait of Hormuz to be reopened given how much of its energy supply transits the waterway. President Trump's Beijing visit, originally scheduled for late April, remains on the calendar; the unresolved conflict could complicate his talks with Xi Jinping. Trump on Tuesday paused Project Freedom shipping operations to allow space for the deal to be reached." },
+  { id: 305, region: "Persian Gulf", title: "Strait of Hormuz: Conflict Enters 12th Week as Diplomacy Picks Up", desc: "The Strait of Hormuz is in its twelfth week of disruption with the conflict on day 71+. The IEA estimates the war is removing roughly 14 million barrels per day from global supply. Goldman Sachs raised its Q4 Brent forecast to $90 per barrel; Barclays now sees $100. The structural supply deficit limits any deeper crude pullback even if a deal is reached, since GCC production capacity has sustained damage and insurers remain reluctant to service tankers crossing the strait. U.S. gasoline inventories have fallen for 12 consecutive weeks." },
+  { id: 306, region: "Lebanon", title: "Israel-Lebanon Ceasefire Extended Three Weeks Amid Deepening Hormuz Standoff", desc: "The Israel-Lebanon ceasefire was extended three weeks last week as the Hormuz standoff deepens. Lebanese authorities continue to report Israeli strikes despite the truce extension. Preparatory talks for further Israel-Lebanon negotiations expected in Washington. Lebanese authorities say Israeli operations have killed more than 2,600 people and displaced more than 1 million since hostilities began." },
 ];
 
 const CATEGORIES = {
@@ -144,26 +148,26 @@ const CATEGORY_LIST_FOR_SPOTLIGHTS = [
 ];
 
 const RIG_COUNT_DATA = {
-  // U.S. — Baker Hughes North America Rig Count, May 1, 2026
-  us_total: 545, us_total_change: 1, us_oil: 408, us_oil_change: 1, us_gas: 129, us_gas_change: 0, us_misc: 8, us_misc_change: 0,
-  us_land: 534, us_offshore: 11, us_inland: 0,
-  us_directional: 48, us_horizontal: 485, us_vertical: 12,
-  us_yoy: -42, us_yoy_total: 587,
+  // U.S. — Baker Hughes North America Rig Count, May 8, 2026
+  us_total: 548, us_total_change: 1, us_oil: 410, us_oil_change: 2, us_gas: 129, us_gas_change: -1, us_misc: 9, us_misc_change: 0,
+  us_land: 537, us_offshore: 11, us_inland: 0,
+  us_directional: 48, us_horizontal: 488, us_vertical: 12,
+  us_yoy: -30, us_yoy_total: 578,
   us_gom: 10,
-  // Canada — May 1, 2026 (spring breakup continues)
-  canada_total: 122, canada_change: -8, canada_oil: 74, canada_gas: 48,
-  canada_yoy: -10, canada_yoy_total: 132,
+  // Canada — May 8, 2026
+  canada_total: 124, canada_change: 1, canada_oil: 76, canada_gas: 48,
+  canada_yoy: -8, canada_yoy_total: 132,
   // North America
-  na_total: 667, na_change: -7, na_yoy: -52, na_yoy_total: 719,
-  // International — March 2026 (monthly report; April report due May 4)
-  intl_total: 1058, intl_change: -54, intl_yoy: -37, intl_yoy_total: 1095,
-  intl_mideast: 500, intl_mideast_change: -38,
-  intl_latam: 143, intl_latam_change: 5,
-  intl_europe: 124, intl_europe_change: -2,
-  intl_africa: 101, intl_africa_change: -2,
-  intl_asiapac: 190, intl_asiapac_change: -17,
+  na_total: 672, na_change: 2, na_yoy: -38, na_yoy_total: 710,
+  // International — April 2026 (monthly report released early May)
+  intl_total: 1042, intl_change: -16, intl_yoy: -53, intl_yoy_total: 1095,
+  intl_mideast: 488, intl_mideast_change: -12,
+  intl_latam: 145, intl_latam_change: 2,
+  intl_europe: 122, intl_europe_change: -2,
+  intl_africa: 100, intl_africa_change: -1,
+  intl_asiapac: 187, intl_asiapac_change: -3,
   // Worldwide
-  ww_total: 1732, ww_change: -53,
+  ww_total: 1714, ww_change: -14,
   source: "Baker Hughes", updated: "U.S./Canada: April 24, 2026 | International: March 2026"
 };
 
@@ -234,9 +238,9 @@ const CATEGORY_CONTENT = {
       { id: 1204, title: "International Rig Count Stable at 958 as Middle East Activity Rises", excerpt: "Saudi Arabia and UAE are adding rigs to maintain production capacity even as OPEC+ quotas limit output.", date: "Apr 13, 2026", author: "Staff", readTime: "4 min" },
     ],
     stats: [
-      { label: "U.S. Total", value: "544", sub: "+1 w/w" },
-      { label: "U.S. Oil Rigs", value: "407", sub: "-3 w/w" },
-      { label: "Texas (Top State)", value: "234", sub: "+2 w/w" },
+      { label: "U.S. Total", value: "548", sub: "+1 w/w" },
+      { label: "U.S. Oil Rigs", value: "410", sub: "+2 w/w" },
+      { label: "Texas (Top State)", value: "240", sub: "+2 w/w" },
     ]
   },
   "energy": {
@@ -310,9 +314,15 @@ const CATEGORY_CONTENT = {
   },
   "geopolitics": {
     articles: [
+      { id: 1395, title: "U.S. Awaits Iran Response to 14-Point Memorandum to End Hormuz War", excerpt: "U.S. officials told Axios this week the U.S. and Iran are close to a 14-point memorandum of understanding that would end the war and reopen the Strait of Hormuz. Iran would commit to a uranium enrichment moratorium; the U.S. would lift sanctions and release frozen funds. Sec. of State Rubio said Friday he expected Iran's formal response that day; reports indicate it will travel through Pakistan within two days.", date: "May 8, 2026", author: "EnergyPricesToday Editorial", readTime: "7 min" },
+      { id: 1396, title: "Oil Crashes 13% Intraday as U.S.-Iran MOU Talks Emerge", excerpt: "WTI crude crashed as much as 13.2% intraday Tuesday May 5 to a low of $88.71 — the first time below $90 since April 21. Brent plummeted as much as 12% to a low of $96.77. The crash came on news that the U.S. and Iran were close to a one-page, 14-point memorandum of understanding. Trump paused Project Freedom shipping operations to allow space for the deal.", date: "May 5, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
+      { id: 1397, title: "U.S. Navy Disables Two Iranian Tankers; Trump Calls Strike a 'Love Tap'", excerpt: "U.S. forces fired Friday May 8 on two empty Iranian oil tankers — M/T Sea Star III and M/T Sevda — that attempted to evade the naval blockade. CENTCOM said a Navy warplane fired into the smokestacks and disabled both vessels. President Trump told ABC News the strikes were 'just a love tap' and insisted the ceasefire remains in effect.", date: "May 8, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
+      { id: 1398, title: "AAA Gas Average Hits $4.55, Up 25 Cents for Second Straight Week", excerpt: "AAA reported the U.S. national average for regular gasoline reached $4.546 per gallon Friday May 8 — up 25 cents from a week earlier and from $4.05 two weeks ago. Pump prices are now $1.40 higher than a year ago and at their highest level since 2022. Despite crude pulling back below $100, retail prices continue to climb on multi-day pass-through lag.", date: "May 8, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
+      { id: 1399, title: "Iran's Mohsen Rezaei Demands U.S. Reparations Before Any Deal", excerpt: "Mohsen Rezaei, member of Iran's Expediency Council, said via state news agency PressTV that the U.S. must pay reparations for damage done to Iran before any settlement. Tehran said it will not allow the U.S. to dictate terms unilaterally. The hardline framing complicates the 14-point memorandum even as Iranian negotiators continue Pakistan-mediated talks.", date: "May 7, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
       { id: 1400, title: "Iran Strikes UAE Fujairah Oil Hub; First Major Bypass Infrastructure Hit", excerpt: "Iran launched 19 missiles and drones at the UAE on Monday May 4. Most were intercepted by Emirati air defenses, but a drone struck the Fujairah Oil Industry Zone, sparking a major fire and wounding three Indian nationals. Fujairah is the terminus of the UAE's ADCOP pipeline that bypasses the strait — the first major hit on bypass infrastructure since the conflict began.", date: "May 4, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
       { id: 1401, title: "U.S. Sinks Seven Iranian Boats as Project Freedom Launches Hormuz Convoys", excerpt: "CENTCOM commander Adm. Brad Cooper said Monday May 4 that American forces opened a passage through the strait free of Iranian mines and sank seven small Iranian boats targeting civilian ships. Two U.S.-flagged merchant vessels successfully transited Hormuz under Project Freedom — the first major U.S. military action against Iranian targets since the April 8 ceasefire.", date: "May 4, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
       { id: 1402, title: "Trump Declines to Confirm Ceasefire as Both Sides Trade Fire in Strait", excerpt: "President Trump on Monday May 4 declined to say whether the April 8 ceasefire with Iran remains in place after both sides exchanged fire in the strait. The hostilities directly contradict Trump's letter to Congress on Friday claiming 'no exchange of fire' since April 7 and that 'hostilities have terminated' under the War Powers Resolution.", date: "May 4, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
+      { id: 1403, title: "ADNOC Tanker Barakah Struck by Drones; HMM Namu Hit by Explosion Off UAE", excerpt: "Two major maritime incidents over the weekend: ADNOC's empty tanker Barakah was hit by two drones north of Fujairah on Sunday May 3 with no injuries reported. On Monday May 4, an explosion caused a fire aboard the South Korean-operated HMM Namu while it was anchored off the UAE coast.", date: "May 4, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
       { id: 1404, title: "Iran Sends Updated Peace Proposal Through Pakistan; Trump 'Not Satisfied'", excerpt: "Pakistani officials confirmed Friday May 1 that Iranian mediators delivered an updated peace proposal to the U.S. through Islamabad. President Trump told reporters: 'Iran wants to make a deal, but I'm not satisfied with it.' WTI fell 3% to $101.94, Brent down 2% to $108.17 on the proposal news.", date: "May 1, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
       { id: 1405, title: "Trump Briefed on Expanded Iran Military Options as Crude Hit 4-Year High", excerpt: "Reports Thursday April 30 that CENTCOM Adm. Brad Cooper briefed Trump on expanded military options against Iran, including a planned short-and-intense wave of strikes reportedly under review. WTI hit a 4-year intraday high of $111, Brent reached $114.", date: "Apr 30, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
       { id: 1406, title: "Mojtaba Khamenei Vows to Retain Nuclear and Missile Capabilities", excerpt: "Iran's Supreme Leader Mojtaba Khamenei pledged not to relinquish the country's nuclear or missile capabilities and indicated Tehran would retain control over the strait. The hardline posture from Tehran's leadership complicates any path to a comprehensive deal.", date: "Apr 30, 2026", author: "EnergyPricesToday Editorial", readTime: "4 min" },
@@ -345,6 +355,7 @@ const CATEGORY_CONTENT = {
       { id: 1901, title: "Energy Stocks Mixed as Ceasefire Extension Eases but Blockade Stays", excerpt: "Integrated majors traded mixed on the day of the ceasefire extension. Refiners held a more stable bid with crack spreads supported. LNG names benefited from continued Qatari disruption.", date: "Apr 22, 2026", author: "Staff", readTime: "7 min" },
       { id: 1902, title: "Maersk, Hapag-Lloyd Maintain Hormuz Transit Suspension Amid Continued Uncertainty", excerpt: "Both carriers cited continued threats to commercial shipping. Vessels continue routing around the Cape of Good Hope, adding 10-14 days per voyage and effectively reducing global container capacity.", date: "Apr 25, 2026", author: "Staff", readTime: "6 min" },
       { id: 1903, title: "Cheniere Energy, Venture Global Ride LNG Premium as Qatar Flows Still Disrupted", excerpt: "U.S. LNG terminals operating near 14 Bcf/d combined export capacity. European buyers returning to premium bidding for U.S. cargoes. JKM trading premium to TTF for first time since early 2025.", date: "Apr 23, 2026", author: "Staff", readTime: "7 min" },
+      { id: 1904, title: "ExxonMobil Q1 Earnings Preview: Hormuz Disruption Hits Trading Timing", excerpt: "ExxonMobil's April 8 Q1 considerations supplement flagged $3.5-4.9B in negative timing effects from the Middle East conflict. Earnings call scheduled for April 30 will detail the full impact.", date: "Apr 22, 2026", author: "Staff", readTime: "5 min" },
       { id: 1905, title: "OPEC+ April Output Increase Proceeding Despite Market Volatility", excerpt: "206,000 bpd April increase on schedule. Saudi Arabia holding current production. No emergency JMMC meeting called following ceasefire extension.", date: "Apr 22, 2026", author: "Staff", readTime: "8 min" },
     ],
     stats: []
@@ -558,66 +569,66 @@ const CATEGORY_FAQS = {
 
 
 const GAS_PRICES_BY_STATE = [
-  { state:"Alabama", abbr:"AL", regular:4.157, mid:4.648, premium:5.096, diesel:5.892 },
-  { state:"Alaska", abbr:"AK", regular:5.061, mid:5.303, premium:5.559, diesel:6.486 },
-  { state:"Arizona", abbr:"AZ", regular:5.055, mid:5.478, premium:5.825, diesel:6.577 },
-  { state:"Arkansas", abbr:"AR", regular:3.961, mid:4.459, premium:4.868, diesel:5.625 },
-  { state:"California", abbr:"CA", regular:6.401, mid:6.67, premium:6.865, diesel:8.336 },
-  { state:"Colorado", abbr:"CO", regular:4.298, mid:4.74, premium:5.096, diesel:5.624 },
-  { state:"Connecticut", abbr:"CT", regular:4.463, mid:5.062, premium:5.492, diesel:6.467 },
-  { state:"Delaware", abbr:"DE", regular:4.312, mid:4.976, premium:5.312, diesel:6.298 },
-  { state:"District of Columbia", abbr:"DC", regular:4.707, mid:5.363, premium:5.78, diesel:6.459 },
-  { state:"Florida", abbr:"FL", regular:4.498, mid:5.011, premium:5.374, diesel:6.117 },
-  { state:"Georgia", abbr:"GA", regular:3.988, mid:4.497, premium:4.961, diesel:5.713 },
-  { state:"Hawaii", abbr:"HI", regular:6.223, mid:6.482, premium:6.746, diesel:7.831 },
-  { state:"Idaho", abbr:"ID", regular:4.724, mid:5.054, premium:5.351, diesel:6.027 },
-  { state:"Illinois", abbr:"IL", regular:4.739, mid:5.376, premium:5.89, diesel:5.922 },
-  { state:"Indiana", abbr:"IN", regular:4.198, mid:4.801, premium:5.346, diesel:5.916 },
-  { state:"Iowa", abbr:"IA", regular:3.951, mid:4.195, premium:4.869, diesel:5.516 },
-  { state:"Kansas", abbr:"KS", regular:3.809, mid:4.168, premium:4.535, diesel:5.188 },
-  { state:"Kentucky", abbr:"KY", regular:4.317, mid:4.932, premium:5.4, diesel:5.839 },
-  { state:"Louisiana", abbr:"LA", regular:4.064, mid:4.546, premium:4.972, diesel:5.711 },
-  { state:"Maine", abbr:"ME", regular:4.366, mid:4.961, premium:5.496, diesel:6.405 },
-  { state:"Maryland", abbr:"MD", regular:4.45, mid:5.123, premium:5.472, diesel:6.35 },
-  { state:"Massachusetts", abbr:"MA", regular:4.342, mid:4.994, premium:5.413, diesel:6.429 },
-  { state:"Michigan", abbr:"MI", regular:4.241, mid:4.898, premium:5.521, diesel:5.734 },
-  { state:"Minnesota", abbr:"MN", regular:4.023, mid:4.498, premium:5.037, diesel:5.55 },
-  { state:"Mississippi", abbr:"MS", regular:4.064, mid:4.535, premium:4.972, diesel:5.704 },
-  { state:"Missouri", abbr:"MO", regular:3.987, mid:4.437, premium:4.78, diesel:5.337 },
-  { state:"Montana", abbr:"MT", regular:4.241, mid:4.577, premium:4.954, diesel:5.46 },
-  { state:"Nebraska", abbr:"NE", regular:3.944, mid:4.131, premium:4.639, diesel:5.339 },
-  { state:"Nevada", abbr:"NV", regular:5.402, mid:5.753, premium:6.069, diesel:6.866 },
-  { state:"New Hampshire", abbr:"NH", regular:4.316, mid:4.925, premium:5.433, diesel:6.359 },
-  { state:"New Jersey", abbr:"NJ", regular:4.351, mid:4.959, premium:5.25, diesel:6.375 },
-  { state:"New Mexico", abbr:"NM", regular:4.274, mid:4.744, premium:5.084, diesel:5.912 },
-  { state:"New York", abbr:"NY", regular:4.524, mid:5.079, premium:5.497, diesel:6.524 },
-  { state:"North Carolina", abbr:"NC", regular:4.181, mid:4.671, premium:5.11, diesel:6.223 },
-  { state:"North Dakota", abbr:"ND", regular:3.929, mid:4.305, premium:4.761, diesel:5.324 },
-  { state:"Ohio", abbr:"OH", regular:4.103, mid:4.691, premium:5.256, diesel:5.876 },
-  { state:"Oklahoma", abbr:"OK", regular:3.749, mid:4.207, premium:4.523, diesel:5.2 },
-  { state:"Oregon", abbr:"OR", regular:5.444, mid:5.693, premium:5.992, diesel:6.894 },
-  { state:"Pennsylvania", abbr:"PA", regular:4.488, mid:4.974, premium:5.388, diesel:6.608 },
-  { state:"Rhode Island", abbr:"RI", regular:4.337, mid:5.073, premium:5.54, diesel:6.327 },
-  { state:"South Carolina", abbr:"SC", regular:4.101, mid:4.59, premium:5.031, diesel:6.09 },
-  { state:"South Dakota", abbr:"SD", regular:4.004, mid:4.197, premium:4.719, diesel:5.281 },
-  { state:"Tennessee", abbr:"TN", regular:4.18, mid:4.69, premium:5.121, diesel:5.914 },
-  { state:"Texas", abbr:"TX", regular:4.072, mid:4.597, premium:5.01, diesel:5.737 },
-  { state:"Utah", abbr:"UT", regular:4.581, mid:4.889, premium:5.162, diesel:5.854 },
-  { state:"Vermont", abbr:"VT", regular:4.469, mid:5.012, premium:5.519, diesel:6.421 },
-  { state:"Virginia", abbr:"VA", regular:4.305, mid:4.826, premium:5.242, diesel:6.255 },
-  { state:"Washington", abbr:"WA", regular:5.879, mid:6.18, premium:6.438, diesel:7.582 },
-  { state:"West Virginia", abbr:"WV", regular:4.269, mid:4.726, premium:5.229, diesel:6.034 },
-  { state:"Wisconsin", abbr:"WI", regular:4.096, mid:4.655, premium:5.302, diesel:5.419 },
-  { state:"Wyoming", abbr:"WY", regular:4.211, mid:4.553, premium:4.876, diesel:5.515 }
+  { state:"Alabama", abbr:"AL", regular:4.24, mid:4.741, premium:5.198, diesel:6.01 },
+  { state:"Alaska", abbr:"AK", regular:5.162, mid:5.409, premium:5.67, diesel:6.616 },
+  { state:"Arizona", abbr:"AZ", regular:5.156, mid:5.587, premium:5.941, diesel:6.708 },
+  { state:"Arkansas", abbr:"AR", regular:4.04, mid:4.548, premium:4.965, diesel:5.737 },
+  { state:"California", abbr:"CA", regular:6.529, mid:6.803, premium:7.002, diesel:8.502 },
+  { state:"Colorado", abbr:"CO", regular:4.384, mid:4.835, premium:5.198, diesel:5.736 },
+  { state:"Connecticut", abbr:"CT", regular:4.552, mid:5.163, premium:5.602, diesel:6.596 },
+  { state:"Delaware", abbr:"DE", regular:4.398, mid:5.075, premium:5.418, diesel:6.424 },
+  { state:"District of Columbia", abbr:"DC", regular:4.801, mid:5.47, premium:5.895, diesel:6.588 },
+  { state:"Florida", abbr:"FL", regular:4.588, mid:5.111, premium:5.481, diesel:6.239 },
+  { state:"Georgia", abbr:"GA", regular:4.068, mid:4.587, premium:5.06, diesel:5.827 },
+  { state:"Hawaii", abbr:"HI", regular:6.347, mid:6.611, premium:6.881, diesel:7.987 },
+  { state:"Idaho", abbr:"ID", regular:4.818, mid:5.155, premium:5.458, diesel:6.147 },
+  { state:"Illinois", abbr:"IL", regular:4.834, mid:5.483, premium:6.008, diesel:6.04 },
+  { state:"Indiana", abbr:"IN", regular:4.282, mid:4.897, premium:5.453, diesel:6.034 },
+  { state:"Iowa", abbr:"IA", regular:4.03, mid:4.279, premium:4.966, diesel:5.626 },
+  { state:"Kansas", abbr:"KS", regular:3.885, mid:4.251, premium:4.626, diesel:5.292 },
+  { state:"Kentucky", abbr:"KY", regular:4.403, mid:5.03, premium:5.508, diesel:5.956 },
+  { state:"Louisiana", abbr:"LA", regular:4.145, mid:4.637, premium:5.071, diesel:5.825 },
+  { state:"Maine", abbr:"ME", regular:4.453, mid:5.06, premium:5.606, diesel:6.533 },
+  { state:"Maryland", abbr:"MD", regular:4.539, mid:5.225, premium:5.581, diesel:6.477 },
+  { state:"Massachusetts", abbr:"MA", regular:4.429, mid:5.094, premium:5.521, diesel:6.557 },
+  { state:"Michigan", abbr:"MI", regular:4.326, mid:4.996, premium:5.631, diesel:5.848 },
+  { state:"Minnesota", abbr:"MN", regular:4.103, mid:4.588, premium:5.138, diesel:5.661 },
+  { state:"Mississippi", abbr:"MS", regular:4.145, mid:4.626, premium:5.071, diesel:5.818 },
+  { state:"Missouri", abbr:"MO", regular:4.067, mid:4.526, premium:4.875, diesel:5.444 },
+  { state:"Montana", abbr:"MT", regular:4.326, mid:4.668, premium:5.053, diesel:5.569 },
+  { state:"Nebraska", abbr:"NE", regular:4.023, mid:4.213, premium:4.732, diesel:5.446 },
+  { state:"Nevada", abbr:"NV", regular:5.51, mid:5.868, premium:6.19, diesel:7.003 },
+  { state:"New Hampshire", abbr:"NH", regular:4.402, mid:5.023, premium:5.541, diesel:6.486 },
+  { state:"New Jersey", abbr:"NJ", regular:4.438, mid:5.058, premium:5.355, diesel:6.502 },
+  { state:"New Mexico", abbr:"NM", regular:4.359, mid:4.839, premium:5.186, diesel:6.03 },
+  { state:"New York", abbr:"NY", regular:4.614, mid:5.18, premium:5.607, diesel:6.654 },
+  { state:"North Carolina", abbr:"NC", regular:4.264, mid:4.764, premium:5.212, diesel:6.347 },
+  { state:"North Dakota", abbr:"ND", regular:4.007, mid:4.391, premium:4.856, diesel:5.43 },
+  { state:"Ohio", abbr:"OH", regular:4.185, mid:4.785, premium:5.361, diesel:5.993 },
+  { state:"Oklahoma", abbr:"OK", regular:3.824, mid:4.291, premium:4.613, diesel:5.304 },
+  { state:"Oregon", abbr:"OR", regular:5.553, mid:5.807, premium:6.112, diesel:7.032 },
+  { state:"Pennsylvania", abbr:"PA", regular:4.578, mid:5.073, premium:5.496, diesel:6.74 },
+  { state:"Rhode Island", abbr:"RI", regular:4.424, mid:5.174, premium:5.651, diesel:6.453 },
+  { state:"South Carolina", abbr:"SC", regular:4.183, mid:4.682, premium:5.131, diesel:6.212 },
+  { state:"South Dakota", abbr:"SD", regular:4.084, mid:4.281, premium:4.813, diesel:5.386 },
+  { state:"Tennessee", abbr:"TN", regular:4.263, mid:4.784, premium:5.223, diesel:6.032 },
+  { state:"Texas", abbr:"TX", regular:4.153, mid:4.689, premium:5.11, diesel:5.852 },
+  { state:"Utah", abbr:"UT", regular:4.672, mid:4.987, premium:5.265, diesel:5.971 },
+  { state:"Vermont", abbr:"VT", regular:4.558, mid:5.112, premium:5.629, diesel:6.549 },
+  { state:"Virginia", abbr:"VA", regular:4.391, mid:4.922, premium:5.347, diesel:6.38 },
+  { state:"Washington", abbr:"WA", regular:5.996, mid:6.303, premium:6.567, diesel:7.733 },
+  { state:"West Virginia", abbr:"WV", regular:4.354, mid:4.82, premium:5.333, diesel:6.154 },
+  { state:"Wisconsin", abbr:"WI", regular:4.178, mid:4.748, premium:5.408, diesel:5.527 },
+  { state:"Wyoming", abbr:"WY", regular:4.295, mid:4.644, premium:4.973, diesel:5.625 }
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 4.452,
-  mid: 5.025,
-  premium: 5.402,
-  diesel: 5.640,
-  source: "EIA Weekly Retail Gasoline Prices",
-  updated: "As of May 05, 2026"
+  regular: 4.546,
+  mid: 5.121,
+  premium: 5.530,
+  diesel: 6.240,
+  source: "AAA Daily Fuel Gauge Report",
+  updated: "As of May 8, 2026"
 };
 const ELECTRICITY_PRICES_BY_STATE = [
   { state:"Alabama", abbr:"AL", region:"Southeast", residential:16.79, commercial:14.46, residential_yoy:4.0, commercial_yoy:3.1 },
