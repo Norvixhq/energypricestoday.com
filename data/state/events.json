@@ -1,28 +1,26 @@
 {
   "version": 2,
-  "generated_at": "2026-05-09T16:04:50.428624+00:00",
-  "previous_generated_at": "2026-05-09T14:59:40.033532+00:00",
-  "resolver_run_count": 59,
+  "generated_at": "2026-05-09T17:16:02.697309+00:00",
+  "previous_generated_at": "2026-05-09T16:04:50.428624+00:00",
+  "resolver_run_count": 60,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CONTESTED",
-      "status_detail": "U.S. launches \"self-defense strikes\" on Iran, says warships came under fire in Strait of Hormuz",
-      "status_tag": "Tankers at risk",
-      "risk_level": "ELEVATED",
-      "confidence": 0.803,
+      "status": "OPEN",
+      "status_detail": "no definitive signals",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.425,
       "last_confirmed": "2026-05-08T23:03:37+00:00",
-      "source_count": 4,
-      "summary_short": "U.S. launches \"self-defense strikes\" on Iran, says warships came under fire in Strait of Hormuz",
-      "summary_long": "U.S. launches \"self-defense strikes\" on Iran, says warships came under fire in Strait of Hormuz. Japan expands emergency use of Russian Sakhalin oil amid Hormuz risks",
+      "source_count": 1,
+      "summary_short": "Japan expands emergency use of Russian Sakhalin oil amid Hormuz risks",
+      "summary_long": "Japan expands emergency use of Russian Sakhalin oil amid Hormuz risks",
       "evidence_cluster_ids": [
-        "c_467fd4e5cdec26",
-        "c_623fd93dd5585b",
-        "c_1665abaff84403"
+        "c_623fd93dd5585b"
       ],
-      "evidence_count": 3,
+      "evidence_count": 1,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -39,9 +37,10 @@
       "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_467fd4e5cd → CONTESTED (kw='attack', weight=0.10)",
-        "winning=CONTESTED (0.10/0.10), conf=0.945"
-      ]
+        "fell back to default 'OPEN'"
+      ],
+      "previous_status": "CONTESTED",
+      "last_changed": "2026-05-09T17:16:02.697116+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -53,17 +52,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-09T10:42:41+00:00",
-      "source_count": 9,
-      "summary_short": "Massive oil slick spotted near Iran’s Kharg Island: Report",
-      "summary_long": "Massive oil slick spotted near Iran’s Kharg Island: Report. China energy imports drop in April amid Iran war as fuel exports hit decade low",
+      "source_count": 7,
+      "summary_short": "Latest on the Iran War: U.S. Fires on Tankers as Tehran Accuses Washington of ‘Reckless’ Attacks",
+      "summary_long": "Latest on the Iran War: U.S. Fires on Tankers as Tehran Accuses Washington of ‘Reckless’ Attacks. China energy imports drop in April amid Iran war as fuel exports hit decade low",
       "evidence_cluster_ids": [
-        "c_8b137f457090e6",
+        "c_5594aebf37f40a",
         "c_65672fd6023e8a",
         "c_6c7ea89fae405a",
-        "c_467fd4e5cdec26",
-        "c_9fa89b17896c2e"
+        "c_3d4b843ee270b1",
+        "c_43fff660d862d7"
       ],
-      "evidence_count": 8,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -84,53 +83,22 @@
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
     },
-    "opec_plus_policy": {
-      "key": "opec_plus_policy",
-      "display_name": "OPEC+ Policy",
-      "category": "policy_state",
-      "status": "HOLDING",
-      "status_detail": "no recent coverage",
-      "status_tag": "No change",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
-      "affected_pages": [
-        "oil-prices.html",
-        "markets.html"
-      ],
-      "dependent_modules": [
-        "oil-prices.drivers.opec",
-        "markets.drivers.opec"
-      ],
-      "update_priority": "high",
-      "freshness": "fresh",
-      "stale_after_hours": 168,
-      "rationale": [
-        "no matching clusters"
-      ]
-    },
     "global_risk_level": {
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "ELEVATED",
-      "risk_level": "ELEVATED",
-      "score": 35,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: elevated.",
-      "summary_long": "Risk drivers: Hormuz contested",
-      "summary_micro": "contested",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -142,7 +110,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "ELEVATED",
+      "last_changed": "2026-05-09T17:16:02.697116+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -153,9 +123,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYmdJMmN1c3lIRGpEdE1hT2dBRUJ1MG9Hc0h3V0p4M3lmNm12bnFKamlMeTZ4UUdXTEdjSUN2LTd1bEl3Nkx1N0dLZWRHdGtXMjUyR0kycmw1RVdBMEtzSm95VmoxWlBoeEZVRXNrcFRnVE9VOU42Ump1UTRpeU3SAYQBQVVfeXFMT2JINTFpd19lYUhsa2d0Rld3a0dVUmFXbHpDY0IzOWMtUmFBSFF0cnFULXVHai1YY09veUh1N1RRYV8tSzMxSFNfdDhjZkZXV3NGUFQwSFJBN2xHZ21fR09ycnpoNks0WllxRkxJQ2lGNlhrRE1kb1psZWxLZXVOMGszZ21n?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 92.03,
-      "novelty": "growing",
-      "source_count": 10,
+      "score": 87.75,
+      "novelty": "ongoing",
+      "source_count": 8,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -165,10 +135,56 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CONTESTED",
+      "to": "OPEN",
+      "detected_at": "2026-05-09T17:16:02.697116+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-05-09T17:16:02.697116+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-05-09T17:16:02.697116+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-05-09T17:16:02.697116+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "opec_plus_policy",
+      "field": "retired",
+      "from": "HOLDING",
+      "to": null,
+      "detected_at": "2026-05-09T17:16:02.697116+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.803, fresh=aging",
+    "hormuz_status: resolved=OPEN, confidence=0.425, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: retired — last_confirmed too old"
   ]
 }
