@@ -318,6 +318,7 @@ const ARTICLE_SLUGS = {
   "Shell Accelerates North Sea Asset Sales Worth 4.5 Billion": "shell-accelerates-north-sea-asset-sales-worth-45-billion",
   "Shell Reports Higher Q1 Upstream Earnings, Maintains Dividend": "shell-reports-higher-q1-upstream-earnings-maintains-dividend",
   "Shell Reports Strong Q1 Upstream Earnings, Raises Dividend": "shell-reports-strong-q1-upstream-earnings-raises-dividend",
+  "Stocks Rise For Sixth Consecutive Week, Buoyed by Strong Jobs Data and Earnings": "stocks-rise-for-sixth-consecutive-week-buoyed-by-strong-jobs-data-and-earnings",
   "Strait Still Blocked": "strait-still-blocked",
   "Strait of Hormuz": "strait-of-hormuz",
   "Strait of Hormuz Explained: Why This 21-Mile Waterway Controls Global Oil": "strait-of-hormuz-explained",
