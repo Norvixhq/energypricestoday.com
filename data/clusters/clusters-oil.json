@@ -1,84 +1,12 @@
 {
   "topic": "oil",
-  "generated_at": "2026-05-09T07:13:28.406079+00:00",
+  "generated_at": "2026-05-09T08:55:49.986104+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 22,
+  "clusters_found": 21,
   "clusters": [
-    {
-      "cluster_id": "c_3deac1bce3c5bf",
-      "topic": "oil",
-      "lead_title": "Permian to US Gulf Coast crude pipeline operational after oil spill",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUR3NmZFTFJfM3F0VGtINFhpa1NXT0YyWERuTi1mRXdpeGJ4Q01jaVZJWHZlZnhKTEZHRlk1ZHFZc0h3cURTekNXbTZiZElLS05jaU5MamNRQkFIa3Q2SVN6OVpoYXppV3VuSjA3aTRhUnZiUlQ5b29HbFRnMkp3RGZIcG5LOWxKRTY0cXZ5XzFWT20yTklWenQzNmtvbkdielJXaV9LcWRndlpabU81YkdZUHRESzg?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "Brent",
-        "WTI",
-        "barrel",
-        "crude",
-        "oil"
-      ],
-      "source_count": 4,
-      "distinct_publishers": 4,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-07T19:29:43+00:00",
-      "latest_seen": "2026-05-08T18:52:58+00:00",
-      "age_hours": 12.34,
-      "score": 92.34,
-      "score_components": {
-        "source_count_points": 20,
-        "recency_points": 17.59,
-        "source_quality_points": 24.75,
-        "entity_relevance_points": 20,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "22aa5b16657943f0",
-          "title": "Permian to US Gulf Coast crude pipeline operational after oil spill",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUR3NmZFTFJfM3F0VGtINFhpa1NXT0YyWERuTi1mRXdpeGJ4Q01jaVZJWHZlZnhKTEZHRlk1ZHFZc0h3cURTekNXbTZiZElLS05jaU5MamNRQkFIa3Q2SVN6OVpoYXppV3VuSjA3aTRhUnZiUlQ5b29HbFRnMkp3RGZIcG5LOWxKRTY0cXZ5XzFWT20yTklWenQzNmtvbkdielJXaV9LcWRndlpabU81YkdZUHRESzg?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-07T19:29:43+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "a99de8e6e8c2b450",
-          "title": "WTI crude oil settles up 61 cents to $95.42 per barrel",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmVMZzBCbzNtbnREU0JmZEFTTjhCTjVjRHZmR1poOHV6dWdIckkyV2NMb0VmQ1B3VEF4bHgwWFNCVWgtdGxhekw1SXZuV0JGXzVGRU1Pbnl4cGw4QkRnQkRQZ1ZSUmxaN2E2SUladVZjWUItM2JRWGJYX1JCUkcwcGM4Nk9wV3ozRktaTjZKQ0Z3dmJlUkRVS1k2NFZhck80YVE?oc=5",
-          "source": "investingLive",
-          "source_type": "rss",
-          "published_at": "2026-05-08T18:52:58+00:00",
-          "confidence": 0.8
-        },
-        {
-          "headline_id": "6ba814b1a39c2803",
-          "title": "WTI and Brent Crude Oil Price Hold Support as Peace Talks Ease Iran War Premium",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa1JwLTFyT3JsSl9VQkh0ZV92YkxGYkxhal9FeUdJb2NlQ21obmJ1QVo4QUhpcU90a05ITEFwMkhpbTZXaWthUHBROU44LUxnMzZfd1V1NnRzd2NrS0hFR2t6bjUyc3J6ZkpoSGxmMkZNVWgwaTFtWkpTWHlUTEk1N1hBUWdMQ3Z5VmVwZmR3OVQtaFM3aVF2TWFFeV93OGxPRzQyekVSaUZ5T3NFY0NDbUczUkp6aHpjbXJzMm5xSFd4dk10R1Y0?oc=5",
-          "source": "foreignpolicyjournal.com",
-          "source_type": "rss",
-          "published_at": "2026-05-08T18:07:40+00:00",
-          "confidence": 0.8
-        },
-        {
-          "headline_id": "883887b15a01fa90",
-          "title": "Oil News: Crude Oil Futures Hold 50-Day MA as Iran Peace Talks Hang in Balance",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVmRwVW5vX3VrLXJ4OXZhaHJOMVRaVWZNYWJ5OXhOZ1k0ZzV4a3RURHFBdElXX0NteWVqQ0MzcF9aN3p6c3B0SEZLbTRkNHFQUDAwN2dfQm9QMlQ5a3lwTDhXZ0x4a09acWJJMkxJYWRpUWZHd0xnZlBBMzU1QzBYTGkwMU9yTlpybFdGMjI0cjVMang0ZmIyWXpEcDVOVk82ZnVPYy1zaS16ZDh0cms1ZEhDRkUzaWJXS3I0REhDQzUwWEdnYkMxcHV1ckpoNXVKaUE?oc=5",
-          "source": "FXEmpire",
-          "source_type": "rss",
-          "published_at": "2026-05-08T13:45:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
     {
       "cluster_id": "c_3b19190757b56a",
       "topic": "oil",
@@ -98,11 +26,11 @@
       ],
       "earliest_seen": "2026-05-08T10:58:00+00:00",
       "latest_seen": "2026-05-09T04:21:21+00:00",
-      "age_hours": 2.87,
-      "score": 84.03,
+      "age_hours": 4.57,
+      "score": 83.01,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 23.28,
+        "recency_points": 22.26,
         "source_quality_points": 24.75,
         "entity_relevance_points": 16,
         "materiality_points": 0.0
@@ -151,39 +79,113 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_e6ceb2489bf452",
+      "cluster_id": "c_3deac1bce3c5bf",
       "topic": "oil",
-      "lead_title": "China energy imports drop in April amid Iran war as fuel exports hit decade low",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU2JYY1ZDVE81Um9XWU43bnhUOEsxRy1UdGtscWsydnZrOEkyZ3h1SFltS252eHVNV2h2NGVKUmZHc1VXWmJOc2hxMXBQa1lieFhWdUc3UFgzOEg1VE1jbUhDbmRXTF9IT2t3RHJiYTZ0UTBuVXBxTGY3ZzB6b0hLa0c3V00xS2tHLXA3VUdpd2VlSnBMbVlqVUxGOVU5eFJUWXpyQ3VLXzRlQTUyWE5qVEg3X3U4SzhkOWFHV1RyV09RZnc?oc=5",
+      "lead_title": "Permian to US Gulf Coast crude pipeline operational after oil spill",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUR3NmZFTFJfM3F0VGtINFhpa1NXT0YyWERuTi1mRXdpeGJ4Q01jaVZJWHZlZnhKTEZHRlk1ZHFZc0h3cURTekNXbTZiZElLS05jaU5MamNRQkFIa3Q2SVN6OVpoYXppV3VuSjA3aTRhUnZiUlQ5b29HbFRnMkp3RGZIcG5LOWxKRTY0cXZ5XzFWT20yTklWenQzNmtvbkdielJXaV9LcWRndlpabU81YkdZUHRESzg?oc=5",
       "lead_source": "Reuters",
-      "canonical_entities": [],
+      "canonical_entities": [
+        "Brent",
+        "WTI",
+        "barrel",
+        "crude",
+        "oil"
+      ],
+      "source_count": 4,
+      "distinct_publishers": 4,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-07T19:29:43+00:00",
+      "latest_seen": "2026-05-08T18:52:58+00:00",
+      "age_hours": 14.05,
+      "score": 76.32,
+      "score_components": {
+        "source_count_points": 20,
+        "recency_points": 16.57,
+        "source_quality_points": 24.75,
+        "entity_relevance_points": 20,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "22aa5b16657943f0",
+          "title": "Permian to US Gulf Coast crude pipeline operational after oil spill",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUR3NmZFTFJfM3F0VGtINFhpa1NXT0YyWERuTi1mRXdpeGJ4Q01jaVZJWHZlZnhKTEZHRlk1ZHFZc0h3cURTekNXbTZiZElLS05jaU5MamNRQkFIa3Q2SVN6OVpoYXppV3VuSjA3aTRhUnZiUlQ5b29HbFRnMkp3RGZIcG5LOWxKRTY0cXZ5XzFWT20yTklWenQzNmtvbkdielJXaV9LcWRndlpabU81YkdZUHRESzg?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-07T19:29:43+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "a99de8e6e8c2b450",
+          "title": "WTI crude oil settles up 61 cents to $95.42 per barrel",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmVMZzBCbzNtbnREU0JmZEFTTjhCTjVjRHZmR1poOHV6dWdIckkyV2NMb0VmQ1B3VEF4bHgwWFNCVWgtdGxhekw1SXZuV0JGXzVGRU1Pbnl4cGw4QkRnQkRQZ1ZSUmxaN2E2SUladVZjWUItM2JRWGJYX1JCUkcwcGM4Nk9wV3ozRktaTjZKQ0Z3dmJlUkRVS1k2NFZhck80YVE?oc=5",
+          "source": "investingLive",
+          "source_type": "rss",
+          "published_at": "2026-05-08T18:52:58+00:00",
+          "confidence": 0.8
+        },
+        {
+          "headline_id": "6ba814b1a39c2803",
+          "title": "WTI and Brent Crude Oil Price Hold Support as Peace Talks Ease Iran War Premium",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQa1JwLTFyT3JsSl9VQkh0ZV92YkxGYkxhal9FeUdJb2NlQ21obmJ1QVo4QUhpcU90a05ITEFwMkhpbTZXaWthUHBROU44LUxnMzZfd1V1NnRzd2NrS0hFR2t6bjUyc3J6ZkpoSGxmMkZNVWgwaTFtWkpTWHlUTEk1N1hBUWdMQ3Z5VmVwZmR3OVQtaFM3aVF2TWFFeV93OGxPRzQyekVSaUZ5T3NFY0NDbUczUkp6aHpjbXJzMm5xSFd4dk10R1Y0?oc=5",
+          "source": "foreignpolicyjournal.com",
+          "source_type": "rss",
+          "published_at": "2026-05-08T18:07:40+00:00",
+          "confidence": 0.8
+        },
+        {
+          "headline_id": "883887b15a01fa90",
+          "title": "Oil News: Crude Oil Futures Hold 50-Day MA as Iran Peace Talks Hang in Balance",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVmRwVW5vX3VrLXJ4OXZhaHJOMVRaVWZNYWJ5OXhOZ1k0ZzV4a3RURHFBdElXX0NteWVqQ0MzcF9aN3p6c3B0SEZLbTRkNHFQUDAwN2dfQm9QMlQ5a3lwTDhXZ0x4a09acWJJMkxJYWRpUWZHd0xnZlBBMzU1QzBYTGkwMU9yTlpybFdGMjI0cjVMang0ZmIyWXpEcDVOVk82ZnVPYy1zaS16ZDh0cms1ZEhDRkUzaWJXS3I0REhDQzUwWEdnYkMxcHV1ckpoNXVKaUE?oc=5",
+          "source": "FXEmpire",
+          "source_type": "rss",
+          "published_at": "2026-05-08T13:45:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_64dbec4e561296",
+      "topic": "oil",
+      "lead_title": "‘We are talking about energy security for Europe’: Norway doubles down on oil and gas production",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcF9QN0w5WjZNMkFMbFo5aFg4SVkwTlFZdW9wemFlZGRGUXc1a05EN2hUeUtYWGZtMjVmRXNHMFJQM040eFZxQTdXeXJ6dDN1TnRMc2p6akxrXzQwUTBTX0ZsUGZnNm1oUkVRVDNQSml5UTUzQnplTGJDeGxFSmR0MWpKY084LWVYd1NoUUc0aGhzZUI5Q21GYVBoWFA2QkJic2xyQ204Q3M?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [
+        "oil"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-09T06:58:00+00:00",
-      "latest_seen": "2026-05-09T06:58:00+00:00",
-      "age_hours": 0.26,
-      "score": 68.35,
+      "earliest_seen": "2026-05-09T06:02:00+00:00",
+      "latest_seen": "2026-05-09T06:02:00+00:00",
+      "age_hours": 2.9,
+      "score": 67.76,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.85,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
+        "recency_points": 23.26,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "ae3a4cbead378b60",
-          "title": "China energy imports drop in April amid Iran war as fuel exports hit decade low",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU2JYY1ZDVE81Um9XWU43bnhUOEsxRy1UdGtscWsydnZrOEkyZ3h1SFltS252eHVNV2h2NGVKUmZHc1VXWmJOc2hxMXBQa1lieFhWdUc3UFgzOEg1VE1jbUhDbmRXTF9IT2t3RHJiYTZ0UTBuVXBxTGY3ZzB6b0hLa0c3V00xS2tHLXA3VUdpd2VlSnBMbVlqVUxGOVU5eFJUWXpyQ3VLXzRlQTUyWE5qVEg3X3U4SzhkOWFHV1RyV09RZnc?oc=5",
-          "source": "Reuters",
+          "headline_id": "a5627ff58b5cc4c5",
+          "title": "‘We are talking about energy security for Europe’: Norway doubles down on oil and gas production",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcF9QN0w5WjZNMkFMbFo5aFg4SVkwTlFZdW9wemFlZGRGUXc1a05EN2hUeUtYWGZtMjVmRXNHMFJQM040eFZxQTdXeXJ6dDN1TnRMc2p6akxrXzQwUTBTX0ZsUGZnNm1oUkVRVDNQSml5UTUzQnplTGJDeGxFSmR0MWpKY084LWVYd1NoUUc0aGhzZUI5Q21GYVBoWFA2QkJic2xyQ204Q3M?oc=5",
+          "source": "The Guardian",
           "source_type": "rss",
-          "published_at": "2026-05-09T06:58:00+00:00",
-          "confidence": 0.95
+          "published_at": "2026-05-09T06:02:00+00:00",
+          "confidence": 0.85
         }
       ],
       "top_tier": true,
@@ -199,24 +201,24 @@
         "crude",
         "oil"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-08T11:27:58+00:00",
       "latest_seen": "2026-05-08T19:59:50+00:00",
-      "age_hours": 11.23,
-      "score": 67.26,
+      "age_hours": 12.93,
+      "score": 61.24,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 18.26,
+        "recency_points": 17.24,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "69e9dd053f704260",
@@ -228,6 +230,15 @@
           "confidence": 0.7
         },
         {
+          "headline_id": "d377bdec91b746cd",
+          "title": "Crude oil’s crucible: waiting for a break in the blockade or the economy",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcUhyZDlqVThJb19XMlE5YlNhX2tib084QTZEaEtlYlVKUlA0OFJ4bVZoU2dvUlVtTldtTm9zTnlVdmhoSkNlRWd1R1hIZmVMRVF4dHZsNS0wRUh6SHc5ZW0ycEZUX05vSmpwaGhMZlkzYXdxVlpuX2MyQlNLN0dhaVRlaDMyeEZ0a29MQjUxdmFiaTR4cFBFMEZLWUlRelFhTU9PbUl6T04tM3l1OVV3SDRqRUJvTllR?oc=5",
+          "source": "ig.com",
+          "source_type": "rss",
+          "published_at": "2026-05-08T12:27:43+00:00",
+          "confidence": 0.7
+        },
+        {
           "headline_id": "c2b14e718d8c01c5",
           "title": "US 500 rises, crude oil dives on ceasefire announcement and Fed pivot",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb0NPUTctTVRrOEZkMmdDXzBFQ0RvOHpWYXJ3NjlCaERvODdVbTV4QU1Pbm96Y09FMEZuQWwtRGJBaXZZbk1pNkYwbEJsbnpheGE5LVhvZEtjZFUyNnNsVXdXTUxZdEpDeUt1U25kRHpvQVg5TGhvVWo4SzJvaTdnQm5Fby1QWkpkQ0NqM2tkb3lQMVVLVS1BUnB5Vnp3VTN0TlpCZzJRRjZiUHk5?oc=5",
@@ -235,6 +246,86 @@
           "source_type": "rss",
           "published_at": "2026-05-08T11:27:58+00:00",
           "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_1b78322ebcdc62",
+      "topic": "oil",
+      "lead_title": "Suspected oil spill seen on satellite images near Iran's Kharg Island export hub",
+      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeFpHNXpHcWFYR3d6eTczRXVLekdoWWptdmNNczRrZnc2MDhhUnFneF9paGY3YzZkbnE2ZGprMXY3d0VJRU83RERrU1JKYi1Jend3ZkpieS1rcG5tUzQ1MENnMHNnc1IwSnlyc2FqSEhHeWIxN1Y2eHU0enE3QnRxZTRySUZxLUl3ekJ2UFNsUG9CTnNDbml2NzBMUWpvWEZTTy1aQmFlNEVKbFQ2YWFIRGd1clNaakZHVl9RUlBRbDBfSzBmSGRsY0Fn?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-08T22:09:40+00:00",
+      "latest_seen": "2026-05-08T22:09:40+00:00",
+      "age_hours": 10.77,
+      "score": 57.54,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 18.54,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "b1f91f18e2804fdc",
+          "title": "Suspected oil spill seen on satellite images near Iran's Kharg Island export hub",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeFpHNXpHcWFYR3d6eTczRXVLekdoWWptdmNNczRrZnc2MDhhUnFneF9paGY3YzZkbnE2ZGprMXY3d0VJRU83RERrU1JKYi1Jend3ZkpieS1rcG5tUzQ1MENnMHNnc1IwSnlyc2FqSEhHeWIxN1Y2eHU0enE3QnRxZTRySUZxLUl3ekJ2UFNsUG9CTnNDbml2NzBMUWpvWEZTTy1aQmFlNEVKbFQ2YWFIRGd1clNaakZHVl9RUlBRbDBfSzBmSGRsY0Fn?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-08T22:09:40+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e6ceb2489bf452",
+      "topic": "oil",
+      "lead_title": "China energy imports drop in April amid Iran war as fuel exports hit decade low",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU2JYY1ZDVE81Um9XWU43bnhUOEsxRy1UdGtscWsydnZrOEkyZ3h1SFltS252eHVNV2h2NGVKUmZHc1VXWmJOc2hxMXBQa1lieFhWdUc3UFgzOEg1VE1jbUhDbmRXTF9IT2t3RHJiYTZ0UTBuVXBxTGY3ZzB6b0hLa0c3V00xS2tHLXA3VUdpd2VlSnBMbVlqVUxGOVU5eFJUWXpyQ3VLXzRlQTUyWE5qVEg3X3U4SzhkOWFHV1RyV09RZnc?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-09T06:58:00+00:00",
+      "latest_seen": "2026-05-09T06:58:00+00:00",
+      "age_hours": 1.96,
+      "score": 57.32,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.82,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "ae3a4cbead378b60",
+          "title": "China energy imports drop in April amid Iran war as fuel exports hit decade low",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPU2JYY1ZDVE81Um9XWU43bnhUOEsxRy1UdGtscWsydnZrOEkyZ3h1SFltS252eHVNV2h2NGVKUmZHc1VXWmJOc2hxMXBQa1lieFhWdUc3UFgzOEg1VE1jbUhDbmRXTF9IT2t3RHJiYTZ0UTBuVXBxTGY3ZzB6b0hLa0c3V00xS2tHLXA3VUdpd2VlSnBMbVlqVUxGOVU5eFJUWXpyQ3VLXzRlQTUyWE5qVEg3X3U4SzhkOWFHV1RyV09RZnc?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-09T06:58:00+00:00",
+          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -257,16 +348,16 @@
       ],
       "earliest_seen": "2026-05-07T19:16:04+00:00",
       "latest_seen": "2026-05-08T20:30:00+00:00",
-      "age_hours": 10.72,
-      "score": 61.77,
+      "age_hours": 12.43,
+      "score": 55.74,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 18.57,
+        "recency_points": 17.54,
         "source_quality_points": 25.2,
         "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -292,88 +383,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_1b78322ebcdc62",
-      "topic": "oil",
-      "lead_title": "Suspected oil spill seen on satellite images near Iran's Kharg Island export hub",
-      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeFpHNXpHcWFYR3d6eTczRXVLekdoWWptdmNNczRrZnc2MDhhUnFneF9paGY3YzZkbnE2ZGprMXY3d0VJRU83RERrU1JKYi1Jend3ZkpieS1rcG5tUzQ1MENnMHNnc1IwSnlyc2FqSEhHeWIxN1Y2eHU0enE3QnRxZTRySUZxLUl3ekJ2UFNsUG9CTnNDbml2NzBMUWpvWEZTTy1aQmFlNEVKbFQ2YWFIRGd1clNaakZHVl9RUlBRbDBfSzBmSGRsY0Fn?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-08T22:09:40+00:00",
-      "latest_seen": "2026-05-08T22:09:40+00:00",
-      "age_hours": 9.06,
-      "score": 58.56,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.56,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "b1f91f18e2804fdc",
-          "title": "Suspected oil spill seen on satellite images near Iran's Kharg Island export hub",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNeFpHNXpHcWFYR3d6eTczRXVLekdoWWptdmNNczRrZnc2MDhhUnFneF9paGY3YzZkbnE2ZGprMXY3d0VJRU83RERrU1JKYi1Jend3ZkpieS1rcG5tUzQ1MENnMHNnc1IwSnlyc2FqSEhHeWIxN1Y2eHU0enE3QnRxZTRySUZxLUl3ekJ2UFNsUG9CTnNDbml2NzBMUWpvWEZTTy1aQmFlNEVKbFQ2YWFIRGd1clNaakZHVl9RUlBRbDBfSzBmSGRsY0Fn?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-08T22:09:40+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_b985e9214bf041",
-      "topic": "oil",
-      "lead_title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
-      "lead_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeEhjSnZRWFlVdHBTUU9DOUFMTldtUjZmemExb2VhN0kzbktIVkRvOWRKR0hkeTN1WTJkZWdJZ3NhM2Zld3FKNHVMOUp0LV84Um9Hc2R6cHNENzFOLWR6ZHhvSmpPSlhnSDEtY2g2MmFZZHdfbHV1WTM1VHA3RV9rbGo2MjRQNGNqbnFNbjJ3aVdHWVdWeEZtNnlSYmMxOFFSS05rS2l6S0xtOFowNWF0R2ppWDR6eGhsRG1ERjNZMkg5RnF6MU5EeXJ6ci1WTDJYN3NUUUpad1RuVFAtTjBiZHp0ZzBxTjlf?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-08T20:06:00+00:00",
-      "latest_seen": "2026-05-08T20:06:00+00:00",
-      "age_hours": 11.12,
-      "score": 57.33,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.33,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "449847ea2c5e14f7",
-          "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeEhjSnZRWFlVdHBTUU9DOUFMTldtUjZmemExb2VhN0kzbktIVkRvOWRKR0hkeTN1WTJkZWdJZ3NhM2Zld3FKNHVMOUp0LV84Um9Hc2R6cHNENzFOLWR6ZHhvSmpPSlhnSDEtY2g2MmFZZHdfbHV1WTM1VHA3RV9rbGo2MjRQNGNqbnFNbjJ3aVdHWVdWeEZtNnlSYmMxOFFSS05rS2l6S0xtOFowNWF0R2ppWDR6eGhsRG1ERjNZMkg5RnF6MU5EeXJ6ci1WTDJYN3NUUUpad1RuVFAtTjBiZHp0ZzBxTjlf?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-08T20:06:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_4bfe3ebec6f419",
       "topic": "oil",
       "lead_title": "Reformer heater explodes at PBF Louisiana refinery, sources say",
@@ -387,11 +396,11 @@
       ],
       "earliest_seen": "2026-05-08T21:58:00+00:00",
       "latest_seen": "2026-05-08T21:58:00+00:00",
-      "age_hours": 9.26,
-      "score": 52.95,
+      "age_hours": 10.96,
+      "score": 51.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.45,
+        "recency_points": 18.42,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -413,53 +422,12 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_b23061157a169e",
+      "cluster_id": "c_b985e9214bf041",
       "topic": "oil",
-      "lead_title": "US revises UN resolution on Iran but China, Russia still expected to veto",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZkw2aVVLZUxWTVBVMUtXV2xfOWk4eTVUMVlXajVtSzVQcERTckdRS1RIMUpzUFVvbTZ4NEZOZW85bWVrT3hEb3dSbmxVSE1yUlhOV0V4c2Z5V1JVdjh3RzFCVjk0UURDU2wta19PRk1RVlJoc3l2X1hONTJiaEwzeEhGal9xVVNXQnZCajJnUUJBSkVMTHAwRk1CaFpndWY1aHZhNWhIeHFzaVo1azNF?oc=5",
+      "lead_title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
+      "lead_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeEhjSnZRWFlVdHBTUU9DOUFMTldtUjZmemExb2VhN0kzbktIVkRvOWRKR0hkeTN1WTJkZWdJZ3NhM2Zld3FKNHVMOUp0LV84Um9Hc2R6cHNENzFOLWR6ZHhvSmpPSlhnSDEtY2g2MmFZZHdfbHV1WTM1VHA3RV9rbGo2MjRQNGNqbnFNbjJ3aVdHWVdWeEZtNnlSYmMxOFFSS05rS2l6S0xtOFowNWF0R2ppWDR6eGhsRG1ERjNZMkg5RnF6MU5EeXJ6ci1WTDJYN3NUUUpad1RuVFAtTjBiZHp0ZzBxTjlf?oc=5",
       "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-08T20:44:12+00:00",
-      "latest_seen": "2026-05-08T20:44:12+00:00",
-      "age_hours": 10.49,
-      "score": 52.21,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.71,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "dcc3f176d0a72a21",
-          "title": "US revises UN resolution on Iran but China, Russia still expected to veto",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZkw2aVVLZUxWTVBVMUtXV2xfOWk4eTVUMVlXajVtSzVQcERTckdRS1RIMUpzUFVvbTZ4NEZOZW85bWVrT3hEb3dSbmxVSE1yUlhOV0V4c2Z5V1JVdjh3RzFCVjk0UURDU2wta19PRk1RVlJoc3l2X1hONTJiaEwzeEhGal9xVVNXQnZCajJnUUJBSkVMTHAwRk1CaFpndWY1aHZhNWhIeHFzaVo1azNF?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-08T20:44:12+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_8f74972adeda5e",
-      "topic": "oil",
-      "lead_title": "Why are gas prices so high? Brent crude oil price spikes overnight",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFVPTGZtOGxYZEVpOU1xVWRQQ3pnRkdIRkdHOFpCWHZtUHI4Y0JLcHBYMkJmT0lsRGdsMks2amZiT3lCbkRJSzRYYzUzbDZoTVdMdGNWa2JrcjlIUmhoOHdJRENGdzR5STV4ejI1c0NaNW10WGk1enE2MlBVcXoxa2haMHBtTkc2RGhXWmpDemp6R1lYcTAzOXJDamswdmxEdVI1MlNScUVkc1Y2MFdmc0J1emluN3Z4eW1OcFdqak5KNVFqSGpSRA?oc=5",
-      "lead_source": "El Paso Times",
       "canonical_entities": [
-        "Brent",
-        "crude",
         "oil"
       ],
       "source_count": 1,
@@ -467,28 +435,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-30T07:00:00+00:00",
-      "latest_seen": "2026-04-30T07:00:00+00:00",
-      "age_hours": 216.22,
-      "score": 49.5,
+      "earliest_seen": "2026-05-08T20:06:00+00:00",
+      "latest_seen": "2026-05-08T20:06:00+00:00",
+      "age_hours": 12.83,
+      "score": 51.3,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 22.5,
-        "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "recency_points": 17.3,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "d3fa3172d056b517",
-          "title": "Why are gas prices so high? Brent crude oil price spikes overnight",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFVPTGZtOGxYZEVpOU1xVWRQQ3pnRkdIRkdHOFpCWHZtUHI4Y0JLcHBYMkJmT0lsRGdsMks2amZiT3lCbkRJSzRYYzUzbDZoTVdMdGNWa2JrcjlIUmhoOHdJRENGdzR5STV4ejI1c0NaNW10WGk1enE2MlBVcXoxa2haMHBtTkc2RGhXWmpDemp6R1lYcTAzOXJDamswdmxEdVI1MlNScUVkc1Y2MFdmc0J1emluN3Z4eW1OcFdqak5KNVFqSGpSRA?oc=5",
-          "source": "El Paso Times",
+          "headline_id": "449847ea2c5e14f7",
+          "title": "Geopolitical risks, oil shock cited as top worries in Fed financial stability report",
+          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOeEhjSnZRWFlVdHBTUU9DOUFMTldtUjZmemExb2VhN0kzbktIVkRvOWRKR0hkeTN1WTJkZWdJZ3NhM2Zld3FKNHVMOUp0LV84Um9Hc2R6cHNENzFOLWR6ZHhvSmpPSlhnSDEtY2g2MmFZZHdfbHV1WTM1VHA3RV9rbGo2MjRQNGNqbnFNbjJ3aVdHWVdWeEZtNnlSYmMxOFFSS05rS2l6S0xtOFowNWF0R2ppWDR6eGhsRG1ERjNZMkg5RnF6MU5EeXJ6ci1WTDJYN3NUUUpad1RuVFAtTjBiZHp0ZzBxTjlf?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-04-30T07:00:00+00:00",
-          "confidence": 0.75
+          "published_at": "2026-05-08T20:06:00+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -510,11 +478,11 @@
       ],
       "earliest_seen": "2026-05-08T15:10:35+00:00",
       "latest_seen": "2026-05-08T15:10:35+00:00",
-      "age_hours": 16.05,
-      "score": 49.37,
+      "age_hours": 17.75,
+      "score": 48.35,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.37,
+        "recency_points": 14.35,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -536,89 +504,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_362cf6d5072688",
-      "topic": "oil",
-      "lead_title": "Libya's Zawiya oil refinery shut due to nearby clashes",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUG9BVkxhTE9EUTE1ZTcxOEF5ejhSbTUxcGtjdXlmWlVvdVdpZUxZOFBVX2xRS1pPZ0pFemdHTDF2amZYLXVHTVQ0NzNxWUNOZlpGZUZweHp4VTlsNHFFdmVYckZwY18xcjRRelJqSmxEN0pIMlJpOEFNTEpfVnRnclNjQVRTbE5pcVAzaXpBWjVZUU5vT0VsOGdybXpSMkhwdXh1ZkZzeTc1alJ5VUxMWDh6a1E1d2Q3UWdMUG1IQUIwQQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-08T15:09:31+00:00",
-      "latest_seen": "2026-05-08T15:09:31+00:00",
-      "age_hours": 16.07,
-      "score": 49.36,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 15.36,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "ecb9a6be5ef81d4a",
-          "title": "Libya's Zawiya oil refinery shut due to nearby clashes",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUG9BVkxhTE9EUTE1ZTcxOEF5ejhSbTUxcGtjdXlmWlVvdVdpZUxZOFBVX2xRS1pPZ0pFemdHTDF2amZYLXVHTVQ0NzNxWUNOZlpGZUZweHp4VTlsNHFFdmVYckZwY18xcjRRelJqSmxEN0pIMlJpOEFNTEpfVnRnclNjQVRTbE5pcVAzaXpBWjVZUU5vT0VsOGdybXpSMkhwdXh1ZkZzeTc1alJ5VUxMWDh6a1E1d2Q3UWdMUG1IQUIwQQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-08T15:09:31+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_95408032099921",
-      "topic": "oil",
-      "lead_title": "Soybeans, corn down, but above day’s lows, watching weather, crude oil",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkctMElvNEsxNE5zdDc0bDlWci1zS3hVSDRBU3BFSGNvLTJCTkk0cXZfQ2tmUW9zQTNRUnhUcTB2TTRfN1NGMGVpaFRNQUNSejU4WUdmQy1KOTdpaUVxeFY0ODBVVDFyMUVDX2pNbl9NdjNISUNTZGZZUmlSUF8wUlBJR1piSDczUXp0dVJVNFh3WHVudzhKYU1vRFk2M2w2dGdNLUxqTEtEOG04ZlZWQw?oc=5",
-      "lead_source": "Brownfield Ag News",
-      "canonical_entities": [
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-07T22:26:12+00:00",
-      "latest_seen": "2026-05-07T22:26:12+00:00",
-      "age_hours": 32.79,
-      "score": 49.33,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 5.33,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a5f9e5a09a89bdd9",
-          "title": "Soybeans, corn down, but above day’s lows, watching weather, crude oil",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkctMElvNEsxNE5zdDc0bDlWci1zS3hVSDRBU3BFSGNvLTJCTkk0cXZfQ2tmUW9zQTNRUnhUcTB2TTRfN1NGMGVpaFRNQUNSejU4WUdmQy1KOTdpaUVxeFY0ODBVVDFyMUVDX2pNbl9NdjNISUNTZGZZUmlSUF8wUlBJR1piSDczUXp0dVJVNFh3WHVudzhKYU1vRFk2M2w2dGdNLUxqTEtEOG04ZlZWQw?oc=5",
-          "source": "Brownfield Ag News",
-          "source_type": "rss",
-          "published_at": "2026-05-07T22:26:12+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_b28a3b00187179",
       "topic": "oil",
       "lead_title": "Oil prices rise after US and Iran exchange fire in Hormuz strait",
@@ -634,11 +519,11 @@
       ],
       "earliest_seen": "2026-05-08T08:43:55+00:00",
       "latest_seen": "2026-05-08T08:43:55+00:00",
-      "age_hours": 22.49,
-      "score": 42.5,
+      "age_hours": 24.2,
+      "score": 41.48,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.5,
+        "recency_points": 10.48,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -675,11 +560,11 @@
       ],
       "earliest_seen": "2026-05-08T03:00:00+00:00",
       "latest_seen": "2026-05-08T03:00:00+00:00",
-      "age_hours": 28.22,
-      "score": 42.07,
+      "age_hours": 29.93,
+      "score": 41.04,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.07,
+        "recency_points": 7.04,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -716,11 +601,11 @@
       ],
       "earliest_seen": "2026-05-08T05:38:24+00:00",
       "latest_seen": "2026-05-08T05:38:24+00:00",
-      "age_hours": 25.58,
-      "score": 41.55,
+      "age_hours": 27.29,
+      "score": 40.53,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.65,
+        "recency_points": 8.63,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -758,7 +643,7 @@
       ],
       "earliest_seen": "2026-05-03T11:08:46+00:00",
       "latest_seen": "2026-05-03T11:08:46+00:00",
-      "age_hours": 140.08,
+      "age_hours": 141.78,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -784,6 +669,49 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_8f74972adeda5e",
+      "topic": "oil",
+      "lead_title": "Why are gas prices so high? Brent crude oil price spikes overnight",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFVPTGZtOGxYZEVpOU1xVWRQQ3pnRkdIRkdHOFpCWHZtUHI4Y0JLcHBYMkJmT0lsRGdsMks2amZiT3lCbkRJSzRYYzUzbDZoTVdMdGNWa2JrcjlIUmhoOHdJRENGdzR5STV4ejI1c0NaNW10WGk1enE2MlBVcXoxa2haMHBtTkc2RGhXWmpDemp6R1lYcTAzOXJDamswdmxEdVI1MlNScUVkc1Y2MFdmc0J1emluN3Z4eW1OcFdqak5KNVFqSGpSRA?oc=5",
+      "lead_source": "El Paso Times",
+      "canonical_entities": [
+        "Brent",
+        "crude",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-30T07:00:00+00:00",
+      "latest_seen": "2026-04-30T07:00:00+00:00",
+      "age_hours": 217.93,
+      "score": 34.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "d3fa3172d056b517",
+          "title": "Why are gas prices so high? Brent crude oil price spikes overnight",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFVPTGZtOGxYZEVpOU1xVWRQQ3pnRkdIRkdHOFpCWHZtUHI4Y0JLcHBYMkJmT0lsRGdsMks2amZiT3lCbkRJSzRYYzUzbDZoTVdMdGNWa2JrcjlIUmhoOHdJRENGdzR5STV4ejI1c0NaNW10WGk1enE2MlBVcXoxa2haMHBtTkc2RGhXWmpDemp6R1lYcTAzOXJDamswdmxEdVI1MlNScUVkc1Y2MFdmc0J1emluN3Z4eW1OcFdqak5KNVFqSGpSRA?oc=5",
+          "source": "El Paso Times",
+          "source_type": "rss",
+          "published_at": "2026-04-30T07:00:00+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_12f65f355cb1c6",
       "topic": "oil",
       "lead_title": "Brent crude oil spot prices surge past futures price in April",
@@ -801,7 +729,7 @@
       ],
       "earliest_seen": "2026-04-24T07:00:00+00:00",
       "latest_seen": "2026-04-24T07:00:00+00:00",
-      "age_hours": 360.22,
+      "age_hours": 361.93,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -842,7 +770,7 @@
       ],
       "earliest_seen": "2026-05-07T10:46:00+00:00",
       "latest_seen": "2026-05-07T10:46:00+00:00",
-      "age_hours": 44.46,
+      "age_hours": 46.16,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -868,6 +796,48 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_95408032099921",
+      "topic": "oil",
+      "lead_title": "Soybeans, corn down, but above day’s lows, watching weather, crude oil",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkctMElvNEsxNE5zdDc0bDlWci1zS3hVSDRBU3BFSGNvLTJCTkk0cXZfQ2tmUW9zQTNRUnhUcTB2TTRfN1NGMGVpaFRNQUNSejU4WUdmQy1KOTdpaUVxeFY0ODBVVDFyMUVDX2pNbl9NdjNISUNTZGZZUmlSUF8wUlBJR1piSDczUXp0dVJVNFh3WHVudzhKYU1vRFk2M2w2dGdNLUxqTEtEOG04ZlZWQw?oc=5",
+      "lead_source": "Brownfield Ag News",
+      "canonical_entities": [
+        "crude",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-07T22:26:12+00:00",
+      "latest_seen": "2026-05-07T22:26:12+00:00",
+      "age_hours": 34.49,
+      "score": 33.3,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 4.3,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "a5f9e5a09a89bdd9",
+          "title": "Soybeans, corn down, but above day’s lows, watching weather, crude oil",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONkctMElvNEsxNE5zdDc0bDlWci1zS3hVSDRBU3BFSGNvLTJCTkk0cXZfQ2tmUW9zQTNRUnhUcTB2TTRfN1NGMGVpaFRNQUNSejU4WUdmQy1KOTdpaUVxeFY0ODBVVDFyMUVDX2pNbl9NdjNISUNTZGZZUmlSUF8wUlBJR1piSDczUXp0dVJVNFh3WHVudzhKYU1vRFk2M2w2dGdNLUxqTEtEOG04ZlZWQw?oc=5",
+          "source": "Brownfield Ag News",
+          "source_type": "rss",
+          "published_at": "2026-05-07T22:26:12+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_e0afca5901ea76",
       "topic": "oil",
       "lead_title": "Oil prices edge lower as U.S. waits for Iran response to deal proposal",
@@ -883,7 +853,7 @@
       ],
       "earliest_seen": "2026-05-07T00:55:00+00:00",
       "latest_seen": "2026-05-07T00:55:00+00:00",
-      "age_hours": 54.31,
+      "age_hours": 56.01,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -924,7 +894,7 @@
       ],
       "earliest_seen": "2026-05-06T19:02:00+00:00",
       "latest_seen": "2026-05-06T19:02:00+00:00",
-      "age_hours": 60.19,
+      "age_hours": 61.9,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -963,7 +933,7 @@
       ],
       "earliest_seen": "2026-05-07T10:29:11+00:00",
       "latest_seen": "2026-05-07T10:29:11+00:00",
-      "age_hours": 44.74,
+      "age_hours": 46.44,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
