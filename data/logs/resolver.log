@@ -609,3 +609,14 @@
 [2026-05-09T10:12:47.537207+00:00] resolver: no state changes
 [2026-05-09T10:12:47.537758+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-09T10:12:47.537797+00:00] ════════════════════════════════════════════════════════════
+[2026-05-09T11:13:37.491122+00:00] resolver: start
+[2026-05-09T11:13:37.495338+00:00] resolver: scanning 276 clusters across 10 topics
+[2026-05-09T11:13:37.495703+00:00]   hormuz_status: CLOSED (conf=0.703, freshness=aging, clusters=3)
+[2026-05-09T11:13:37.496817+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=13)
+[2026-05-09T11:13:37.496949+00:00]   opec_plus_policy: RETIRED (stale beyond 2× threshold)
+[2026-05-09T11:13:37.496992+00:00]   global_risk_level: HIGH (score=50)
+[2026-05-09T11:13:37.497151+00:00]   top_story: 'Permian to US Gulf Coast crude pipeline operational after oi' (score=86.84)
+[2026-05-09T11:13:37.497222+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-05-09T11:13:37.497252+00:00]   Δ opec_plus_policy.retired: 'HOLDING' → 'None' (triggers_publish=True)
+[2026-05-09T11:13:37.497753+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-05-09T11:13:37.497794+00:00] ════════════════════════════════════════════════════════════
