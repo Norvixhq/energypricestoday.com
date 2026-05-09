@@ -61,11 +61,11 @@ const BREAKING_NEWS = [
   { title: "Oil prices edge lower as U.S. waits for Iran response to deal proposal", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Current price of oil as of May 8, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "US oil exports hit record high. What does this mean for gas prices?", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Crude oil prices fall over Iran deal optimism as gas prices continue to rise", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Stocks Rise For Sixth Consecutive Week, Buoyed by Strong Jobs Data and Earnings", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Why did oil prices crash today? $920 million crude oil short placed 70 minutes before US-Iran 14-point dea", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Crude oil prices fall over Iran deal optimism as gas prices continue to rise", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Tumbles as Investors Grow Hopeful Turmoil in Gulf May Be Easing", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Price Today (May 6): Crude oil falls below $100, dives nearly 10%. What's behind the plunge?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
