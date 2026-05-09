@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "generated_at": "2026-05-09T13:56:54.204542+00:00",
-  "previous_generated_at": "2026-05-09T12:05:56.712937+00:00",
-  "resolver_run_count": 57,
+  "generated_at": "2026-05-09T14:59:40.033532+00:00",
+  "previous_generated_at": "2026-05-09T13:56:54.204542+00:00",
+  "resolver_run_count": 58,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Sporadic clashes erupt between ‌Iranian and US forces ‌in Hormuz strait",
+      "status_detail": "US and UAE report Iran attacks as military pushes to reopen Strait of Hormuz",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
       "confidence": 0.804,
       "last_confirmed": "2026-05-08T23:03:37+00:00",
-      "source_count": 6,
-      "summary_short": "Oil prices settle 1% lower in volatile trading after US mulls resuming Strait of Hormuz military escorts",
-      "summary_long": "Oil prices settle 1% lower in volatile trading after US mulls resuming Strait of Hormuz military escorts. Sporadic clashes erupt between ‌Iranian and US forces ‌in Hormuz strait",
+      "source_count": 4,
+      "summary_short": "‘Not a Chance Hormuz Opens’: How Wall Street’s new NACHO trade bets on a prolonged oil shock",
+      "summary_long": "‘Not a Chance Hormuz Opens’: How Wall Street’s new NACHO trade bets on a prolonged oil shock. Explainer: What is the Strait of Hormuz and why is it so critical to the world?",
       "evidence_cluster_ids": [
-        "c_619c9a86dac940",
-        "c_3293b687079ebc",
+        "c_23ac776a2e6c50",
         "c_623fd93dd5585b",
-        "c_3a585a600544c1"
+        "c_576866af76a252",
+        "c_143940f4faa3d7"
       ],
       "evidence_count": 4,
       "affected_pages": [
@@ -40,11 +40,9 @@
       "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_3293b68707 → CONTESTED (kw='attack', weight=0.09)",
-        "winning=CONTESTED (0.09/0.09), conf=0.946"
-      ],
-      "previous_status": "OPEN",
-      "last_changed": "2026-05-09T13:56:54.204367+00:00"
+        "cluster c_143940f4fa → CONTESTED (kw='attack', weight=0.08)",
+        "winning=CONTESTED (0.08/0.08), conf=0.946"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -56,17 +54,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-09T10:42:41+00:00",
-      "source_count": 9,
-      "summary_short": "China energy imports drop in April amid Iran war as fuel exports hit decade low",
-      "summary_long": "China energy imports drop in April amid Iran war as fuel exports hit decade low. Iran Caught in Oil-Money Cash Trap as War Drags On, Facing Do-or-Die Choice",
+      "source_count": 6,
+      "summary_short": "Latest on the Iran War: U.S. Fires on Tankers as Tehran Accuses Washington of ‘Reckless’ Attacks",
+      "summary_long": "Latest on the Iran War: U.S. Fires on Tankers as Tehran Accuses Washington of ‘Reckless’ Attacks. China energy imports drop in April amid Iran war as fuel exports hit decade low",
       "evidence_cluster_ids": [
+        "c_5594aebf37f40a",
         "c_65672fd6023e8a",
         "c_6c7ea89fae405a",
-        "c_3293b687079ebc",
-        "c_43fff660d862d7",
-        "c_53c9b0077bd56f"
+        "c_f956b070b56bc8",
+        "c_143940f4faa3d7"
       ],
-      "evidence_count": 7,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -86,6 +84,36 @@
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
+    },
+    "opec_plus_policy": {
+      "key": "opec_plus_policy",
+      "display_name": "OPEC+ Policy",
+      "category": "policy_state",
+      "status": "HOLDING",
+      "status_detail": "no recent coverage",
+      "status_tag": "No change",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
+      "affected_pages": [
+        "oil-prices.html",
+        "markets.html"
+      ],
+      "dependent_modules": [
+        "oil-prices.drivers.opec",
+        "markets.drivers.opec"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 168,
+      "rationale": [
+        "no matching clusters"
+      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -115,22 +143,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-05-09T13:56:54.204367+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_3b19190757b56a",
-      "lead_title": "Diamondback bets on wider WTI-Brent gap amid US export ban concerns",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNzE4YjdvOWc0MmZsVlhyTW1KeGxiZ3RaZTU1STZVQUtnSUpVUU11NDcwd3pDQnVwSERrTUhPclNpOGxOOEVwaUF0YW4tckRDTHpGQTFlV2FnWEoxUG5MODFnVGtoS0dGbkw0RTIyWXlyUFREQVU0VkJpRldlc0UySl9CS0RYVHlVNlFPTkFlYWlhMTJBaVU3b2VsWnNKSC1PYVNvamU3YUpuTWZwX19JY1FhbzFRSXM?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_35dae5005b7047",
+      "lead_title": "Treasury yields move higher as crude oil pares losses amid U.S.-Iran developments",
+      "lead_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pYmdJMmN1c3lIRGpEdE1hT2dBRUJ1MG9Hc0h3V0p4M3lmNm12bnFKamlMeTZ4UUdXTEdjSUN2LTd1bEl3Nkx1N0dLZWRHdGtXMjUyR0kycmw1RVdBMEtzSm95VmoxWlBoeEZVRXNrcFRnVE9VOU42Ump1UTRpeU3SAYQBQVVfeXFMT2JINTFpd19lYUhsa2d0Rld3a0dVUmFXbHpDY0IzOWMtUmFBSFF0cnFULXVHai1YY09veUh1N1RRYV8tSzMxSFNfdDhjZkZXV3NGUFQwSFJBN2xHZ21fR09ycnpoNks0WllxRkxJQ2lGNlhrRE1kb1psZWxLZXVOMGszZ21n?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 83.99,
+      "score": 92.51,
       "novelty": "growing",
-      "source_count": 6,
+      "source_count": 9,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -142,54 +168,18 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "OPEN",
-      "to": "CONTESTED",
-      "detected_at": "2026-05-09T13:56:54.204367+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-09T13:56:54.204367+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-09T13:56:54.204367+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-09T13:56:54.204367+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
       "event_key": "opec_plus_policy",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-05-09T13:56:54.204367+00:00",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-05-09T14:59:40.033450+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
     "hormuz_status: resolved=CONTESTED, confidence=0.804, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: retired — last_confirmed too old"
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
