@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-09T07:13:28.506526+00:00",
-  "previous_generated_at": "2026-05-09T04:54:15.778754+00:00",
-  "resolver_run_count": 52,
+  "generated_at": "2026-05-09T08:55:50.085513+00:00",
+  "previous_generated_at": "2026-05-09T07:13:28.506526+00:00",
+  "resolver_run_count": 53,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,18 +12,17 @@
       "status_detail": "Iran's Hormuz Strait blockade threatens Korea’s oil, plastics, and food supplies",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.952,
+      "confidence": 0.953,
       "last_confirmed": "2026-05-08T23:03:37+00:00",
-      "source_count": 7,
+      "source_count": 5,
       "summary_short": "Iran's Hormuz Strait blockade threatens Korea’s oil, plastics, and food supplies",
       "summary_long": "Iran's Hormuz Strait blockade threatens Korea’s oil, plastics, and food supplies. Japan expands emergency use of Russian Sakhalin oil amid Hormuz risks",
       "evidence_cluster_ids": [
         "c_03722468bfcef4",
         "c_623fd93dd5585b",
-        "c_23ac776a2e6c50",
-        "c_b28a3b00187179"
+        "c_3a585a600544c1"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +39,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_03722468bf → CLOSED (kw='blockade', weight=0.53) [OPEN suppressed]",
-        "winning=CLOSED (0.53/0.53), conf=0.952"
+        "cluster c_03722468bf → CLOSED (kw='blockade', weight=0.50) [OPEN suppressed]",
+        "winning=CLOSED (0.50/0.50), conf=0.953"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,17 +53,16 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-09T06:58:00+00:00",
-      "source_count": 9,
-      "summary_short": "China energy imports drop in April amid Iran war as fuel exports hit decade low",
-      "summary_long": "China energy imports drop in April amid Iran war as fuel exports hit decade low. Iran's Hormuz Strait blockade threatens Korea’s oil, plastics, and food supplies",
+      "source_count": 6,
+      "summary_short": "Iran's Hormuz Strait blockade threatens Korea’s oil, plastics, and food supplies",
+      "summary_long": "Iran's Hormuz Strait blockade threatens Korea’s oil, plastics, and food supplies. China energy imports drop in April amid Iran war as fuel exports hit decade low",
       "evidence_cluster_ids": [
-        "c_65672fd6023e8a",
         "c_03722468bfcef4",
-        "c_3d4b843ee270b1",
-        "c_43fff660d862d7",
-        "c_0f2e4932079fe5"
+        "c_65672fd6023e8a",
+        "c_efbfe0ca9f3472",
+        "c_3c236123c9a91a"
       ],
-      "evidence_count": 6,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -84,6 +82,36 @@
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
+    },
+    "opec_plus_policy": {
+      "key": "opec_plus_policy",
+      "display_name": "OPEC+ Policy",
+      "category": "policy_state",
+      "status": "HOLDING",
+      "status_detail": "no recent coverage",
+      "status_tag": "No change",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
+      "affected_pages": [
+        "oil-prices.html",
+        "markets.html"
+      ],
+      "dependent_modules": [
+        "oil-prices.drivers.opec",
+        "markets.drivers.opec"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 168,
+      "rationale": [
+        "no matching clusters"
+      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -119,13 +147,13 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_3deac1bce3c5bf",
-      "lead_title": "Permian to US Gulf Coast crude pipeline operational after oil spill",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeUR3NmZFTFJfM3F0VGtINFhpa1NXT0YyWERuTi1mRXdpeGJ4Q01jaVZJWHZlZnhKTEZHRlk1ZHFZc0h3cURTekNXbTZiZElLS05jaU5MamNRQkFIa3Q2SVN6OVpoYXppV3VuSjA3aTRhUnZiUlQ5b29HbFRnMkp3RGZIcG5LOWxKRTY0cXZ5XzFWT20yTklWenQzNmtvbkdielJXaV9LcWRndlpabU81YkdZUHRESzg?oc=5",
+      "cluster_id": "c_3b19190757b56a",
+      "lead_title": "Diamondback bets on wider WTI-Brent gap amid US export ban concerns",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNzE4YjdvOWc0MmZsVlhyTW1KeGxiZ3RaZTU1STZVQUtnSUpVUU11NDcwd3pDQnVwSERrTUhPclNpOGxOOEVwaUF0YW4tckRDTHpGQTFlV2FnWEoxUG5MODFnVGtoS0dGbkw0RTIyWXlyUFREQVU0VkJpRldlc0UySl9CS0RYVHlVNlFPTkFlYWlhMTJBaVU3b2VsWnNKSC1PYVNvamU3YUpuTWZwX19JY1FhbzFRSXM?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 92.34,
-      "novelty": "new",
+      "score": 83.01,
+      "novelty": "ongoing",
       "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
@@ -139,17 +167,17 @@
   "changes_since_last_run": [
     {
       "event_key": "opec_plus_policy",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-05-09T07:13:28.506458+00:00",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-05-09T08:55:50.085437+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.952, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.953, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: retired — last_confirmed too old"
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
