@@ -1,30 +1,29 @@
 {
   "version": 2,
-  "generated_at": "2026-05-10T20:59:26.518440+00:00",
-  "previous_generated_at": "2026-05-10T19:47:52.272832+00:00",
-  "resolver_run_count": 11,
+  "generated_at": "2026-05-10T21:57:39.679390+00:00",
+  "previous_generated_at": "2026-05-10T20:59:26.518440+00:00",
+  "resolver_run_count": 12,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CLOSED",
-      "status_detail": "World’s largest oil company reports 25% profit jump as exports bypass Strait of Hormuz closure",
-      "status_tag": "Strait closed",
-      "risk_level": "HIGH",
-      "confidence": 0.955,
-      "last_confirmed": "2026-05-10T20:07:28+00:00",
+      "status": "OPEN",
+      "status_detail": "no definitive signals",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-10T20:35:20+00:00",
       "source_count": 7,
       "summary_short": "Saudi oil giant Aramco sees 25% jump in Q1 profit after shifting exports from Strait of Hormuz",
       "summary_long": "Saudi oil giant Aramco sees 25% jump in Q1 profit after shifting exports from Strait of Hormuz. US-Israel-Iran War Latest Update: Global Oil Supplies Tighten as Strait of Hormuz Disruption Sparks ",
       "evidence_cluster_ids": [
         "c_ef2324da69ccc0",
         "c_91da30f28f7c9c",
-        "c_07507694b482f7",
         "c_d9f0b4c915945e",
         "c_98ce0985ae2592"
       ],
-      "evidence_count": 5,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +40,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_07507694b4 → CLOSED (kw='closure', weight=0.49) [OPEN suppressed]",
-        "winning=CLOSED (0.49/0.49), conf=0.955"
-      ]
+        "fell back to default 'OPEN'"
+      ],
+      "previous_status": "CLOSED",
+      "last_changed": "2026-05-10T21:57:39.679268+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -62,10 +62,10 @@
         "c_f8e05f1d1d4dd4",
         "c_c094dbe8953f5e",
         "c_91da30f28f7c9c",
-        "c_668e91ac8a83a6",
+        "c_48cbc4467bfacd",
         "c_b4137d0ec8faf6"
       ],
-      "evidence_count": 6,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -86,53 +86,22 @@
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
     },
-    "opec_plus_policy": {
-      "key": "opec_plus_policy",
-      "display_name": "OPEC+ Policy",
-      "category": "policy_state",
-      "status": "HOLDING",
-      "status_detail": "no recent coverage",
-      "status_tag": "No change",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
-      "affected_pages": [
-        "oil-prices.html",
-        "markets.html"
-      ],
-      "dependent_modules": [
-        "oil-prices.drivers.opec",
-        "markets.drivers.opec"
-      ],
-      "update_priority": "high",
-      "freshness": "fresh",
-      "stale_after_hours": 168,
-      "rationale": [
-        "no matching clusters"
-      ]
-    },
     "global_risk_level": {
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -144,7 +113,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-05-10T21:57:39.679268+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -155,9 +126,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmVMZzBCbzNtbnREU0JmZEFTTjhCTjVjRHZmR1poOHV6dWdIckkyV2NMb0VmQ1B3VEF4bHgwWFNCVWgtdGxhekw1SXZuV0JGXzVGRU1Pbnl4cGw4QkRnQkRQZ1ZSUmxaN2E2SUladVZjWUItM2JRWGJYX1JCUkcwcGM4Nk9wV3ozRktaTjZKQ0Z3dmJlUkRVS1k2NFZhck80YVE?oc=5",
       "lead_source": "investingLive",
       "topic": "oil",
-      "score": 73.88,
-      "novelty": "decaying",
-      "source_count": 4,
+      "score": 83.15,
+      "novelty": "growing",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,10 +138,56 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CLOSED",
+      "to": "OPEN",
+      "detected_at": "2026-05-10T21:57:39.679268+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-10T21:57:39.679268+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-10T21:57:39.679268+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-10T21:57:39.679268+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "opec_plus_policy",
+      "field": "retired",
+      "from": "HOLDING",
+      "to": null,
+      "detected_at": "2026-05-10T21:57:39.679268+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: retired — last_confirmed too old"
   ]
 }
