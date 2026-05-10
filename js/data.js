@@ -58,10 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "U.S. Awaits Iran Response to 14-Point Memorandum to End Hormuz War", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "AAA Gas Average Hits $4.55, Up 25 Cents for Second Straight Week", cat: "Gas Prices", slug: "gas-prices", time: "5h" },
-  { title: "U.S. Navy Disables Two Iranian Tankers; Trump Calls Strike a 'Love Tap'", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
-  { title: "Iran's Mohsen Rezaei Demands U.S. Reparations Before Any Deal", cat: "Geopolitics", slug: "geopolitics", time: "2d" },
+  { title: "Current price of oil as of May 8, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil prices edge lower as U.S. waits for Iran response to deal proposal", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil Prices Whipsaw as U.S.-Iran Conflict Shakes Markets", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Crude oil prices tumble, but gas prices offer major caveat", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil Prices Jump After U.S. and Iran Exchange Fire in Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil Prices Waver as Market Weighs Chances of U.S.-Iran Deal", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Prices Waver Amid Mixed Signals on Renewed U.S.-Iran Peace Talks", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
