@@ -386,21 +386,7 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
-  "Oil Posts Weekly Loss of 6%+ as Diplomacy Hopes Outweigh Friday Clashes": "oil-crashes-13-percent-intraday-as-us-iran-mou-talks-emerge",
-  "Oil Posts Weekly Loss of 6%+ as Diplomacy Hopes Cap Rally": "oil-crashes-13-percent-intraday-as-us-iran-mou-talks-emerge",
-  "Brent Settles at $101.29, WTI $95.42 as Memorandum Talks Cap Rally": "oil-crashes-13-percent-intraday-as-us-iran-mou-talks-emerge",
-  "Iranian FM Araghchi Travels to Beijing as China Mediates Hormuz Talks": "us-iran-near-14-point-memorandum-to-end-hormuz-war",
-  "U.S. Rig Count Climbs to 548 as Permian Adds Rigs Despite Volatility": "oil-crashes-13-percent-intraday-as-us-iran-mou-talks-emerge",
-  "Mohsen Rezaei Demands U.S. Reparations Before Any Deal": "iran-mohsen-rezaei-demands-us-reparations-before-any-deal",
-  "Strait of Hormuz: Conflict Enters 12th Week as Diplomacy Picks Up": "us-iran-near-14-point-memorandum-to-end-hormuz-war",
-  "Israel-Lebanon Ceasefire Extended Three Weeks Amid Deepening Hormuz Standoff": "us-iran-near-14-point-memorandum-to-end-hormuz-war",
-  "Cenovus CEO Warns Canada Risks Losing Oil Investment After 83% Q1 Profit Jump": "canadian-rig-count-rebounds-to-118-as-spring-drilling-season-begins",
-  "Canadian Oil Producers Push for New Pipelines Amid Rising Output": "canadian-rig-count-rebounds-to-118-as-spring-drilling-season-begins",
-  "ADNOC Tanker Barakah Struck by Drones; HMM Namu Hit by Explosion Off UAE": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "Iran Sends Updated Peace Proposal Through Pakistan; Trump 'Not Satisfied'": "iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied",
-  "Trump Says Iran in 'State of Collapse' as Hormuz Standoff Drags Into Ninth Week": "trump-says-iran-in-state-of-collapse-as-hormuz-standoff-drags-into-ninth-week",
-  "Islamabad Talks Collapse After 21-Hour Marathon — No Deal Reached Between U.S. and Iran": "islamabad-talks-collapse-after-21-hour-marathon-no-deal-reached-between-us-and-i"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
 };
 
 function slugifyTitle(title) {
