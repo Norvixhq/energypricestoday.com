@@ -41,3 +41,15 @@
 [2026-05-10T11:37:13.080390+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
 [2026-05-10T11:37:13.080958+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-10T11:37:13.080996+00:00] ════════════════════════════════════════════════════════════
+[2026-05-10T12:43:34.141373+00:00] resolver: start
+[2026-05-10T12:43:34.145560+00:00] resolver: scanning 276 clusters across 10 topics
+[2026-05-10T12:43:34.145966+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=6)
+[2026-05-10T12:43:34.146980+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=7)
+[2026-05-10T12:43:34.147101+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-05-10T12:43:34.147143+00:00]   global_risk_level: LOW (score=10)
+[2026-05-10T12:43:34.147292+00:00]   top_story: 'WTI crude oil settles up 61 cents to $95.42 per barrel' (score=83.84)
+[2026-05-10T12:43:34.147357+00:00] resolver: 4 change(s), 2 meaningful, 0 publish-triggering
+[2026-05-10T12:43:34.147386+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-05-10T12:43:34.147414+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-05-10T12:43:34.148013+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-10T12:43:34.148054+00:00] ════════════════════════════════════════════════════════════
