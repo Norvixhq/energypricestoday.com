@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-10T12:43:34.147437+00:00",
-  "previous_generated_at": "2026-05-10T11:37:13.080413+00:00",
-  "resolver_run_count": 4,
+  "generated_at": "2026-05-10T14:11:46.742827+00:00",
+  "previous_generated_at": "2026-05-10T12:43:34.147437+00:00",
+  "resolver_run_count": 5,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -16,12 +16,12 @@
       "last_confirmed": "2026-05-10T11:54:17+00:00",
       "source_count": 8,
       "summary_short": "Saudi Aramco profit jumps 25% as Hormuz tensions strain global oil supply",
-      "summary_long": "Saudi Aramco profit jumps 25% as Hormuz tensions strain global oil supply. Aramco CEO warns oil market disruption could last into 2027 amid Hormuz crisis",
+      "summary_long": "Saudi Aramco profit jumps 25% as Hormuz tensions strain global oil supply. US-Israel-Iran War Latest Update: Global Oil Supplies Tighten as Strait of Hormuz Disruption Sparks ",
       "evidence_cluster_ids": [
         "c_04561ee9fa7c4a",
-        "c_b331c141fafb31",
         "c_91da30f28f7c9c",
         "c_d9f0b4c915945e",
+        "c_9991d9f1028d7a",
         "c_98ce0985ae2592"
       ],
       "evidence_count": 6,
@@ -48,21 +48,21 @@
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "HOLDING",
-      "status_detail": "no definitive signals",
-      "status_tag": "In effect",
-      "risk_level": "ELEVATED",
-      "confidence": 0.5,
-      "last_confirmed": "2026-05-10T12:39:15+00:00",
-      "source_count": 8,
-      "summary_short": "Saudi Aramco profits rise as oil price surge and pipeline offset Iran war hit",
-      "summary_long": "Saudi Aramco profits rise as oil price surge and pipeline offset Iran war hit. US-Israel-Iran War Latest Update: Global Oil Supplies Tighten as Strait of Hormuz Disruption Sparks ",
+      "status": "FRAGILE",
+      "status_detail": "Iran war and Strait of Hormuz stuck in limbo as Trump mulls latest Iranian offer",
+      "status_tag": "Under strain",
+      "risk_level": "HIGH",
+      "confidence": 0.955,
+      "last_confirmed": "2026-05-10T13:32:21+00:00",
+      "source_count": 9,
+      "summary_short": "Suspected oil spill seen on satellite images near Iran's Kharg Island export hub",
+      "summary_long": "Suspected oil spill seen on satellite images near Iran's Kharg Island export hub. Saudi Aramco profits rise as oil price surge and pipeline offset Iran war hit",
       "evidence_cluster_ids": [
+        "c_b5345b40914bb0",
         "c_f8e05f1d1d4dd4",
         "c_91da30f28f7c9c",
         "c_b4137d0ec8faf6",
-        "c_c3d69fa4a43cd0",
-        "c_8d8f640ca3b3f6"
+        "c_c3d69fa4a43cd0"
       ],
       "evidence_count": 7,
       "affected_pages": [
@@ -79,13 +79,14 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "cluster c_9991d9f102 → FRAGILE (kw='in limbo', weight=0.09)",
+        "winning=FRAGILE (0.09/0.09), conf=0.955"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": "",
-      "previous_status": "FRAGILE",
-      "last_changed": "2026-05-10T12:43:34.147326+00:00"
+      "previous_status": "HOLDING",
+      "last_changed": "2026-05-10T14:11:46.742746+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -121,19 +122,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 25,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: ceasefire fragile",
+      "summary_micro": "fragile",
       "rationale": [
-        "ceasefire=HOLDING (+10)"
+        "ceasefire=FRAGILE (+25)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -145,20 +146,20 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-05-10T12:43:34.147326+00:00"
+      "previous_status": "LOW",
+      "last_changed": "2026-05-10T14:11:46.742746+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_dbf42aece3a936",
-      "lead_title": "WTI crude oil settles up 61 cents to $95.42 per barrel",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZmVMZzBCbzNtbnREU0JmZEFTTjhCTjVjRHZmR1poOHV6dWdIckkyV2NMb0VmQ1B3VEF4bHgwWFNCVWgtdGxhekw1SXZuV0JGXzVGRU1Pbnl4cGw4QkRnQkRQZ1ZSUmxaN2E2SUladVZjWUItM2JRWGJYX1JCUkcwcGM4Nk9wV3ozRktaTjZKQ0Z3dmJlUkRVS1k2NFZhck80YVE?oc=5",
-      "lead_source": "investingLive",
-      "topic": "oil",
-      "score": 83.84,
-      "novelty": "ongoing",
+      "cluster_id": "c_831d6941874f8e",
+      "lead_title": "Why are oil prices up today, and will Brent, US WTI crude futures continue to rise or fall in next few day",
+      "lead_url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxNS2lNdVdKR2lvR2NLdzlRalNTaGswb3I2S0RUQU0xN1FBWE1RQzR2OVNSVjdVckN0dkpLUDhkR3JFRUxIVFBYVnRTc3NQQUJsRVdYUzVweS1nakZIQTJydzA0ck9rU3g1VmhVV1hQNVdjYkJlREtmd3dBREJ2WjRzUG5hbDE1U1U4RnV1UFo1cWlCcnZvZWZCX3BwM2RuYldGaEQwaEJSNWFQUkUwQWJ3MHdkNThsZDlfU0oySkRaSkExYkk4M0NuMmR1NHRLU1FLb09fSkVxRzlvQW9TV2FJODRqNHEzOTBDbmJZVWoxMUNTdVVVR25IaU9qbXphcWVFcHN1amhzb2hYY04taG9NamE4d2ZaVmZUVndpYjE0TVM1TlZmWWFWYlNQelpaaTlSeXljX2RNTWk5a3BCUzN0ZURXVUhTdlNDOW9yUWxJSzllYlJsS0pPT0dLa3RDNFpEb3FPSEEweDZLYnFLb1M4QdIB9gJBVV95cUxPSjA0eEthSmxiUzZZTzNjbjJ5Qlh1Yk5MV0dEUEJkVnlROUFDNGtVMGNoVkJIeGlFWGoyZW1NUi1CcVFydzdZLXRZNk5CODZyZk1iZklNOWFfeFlaTUp2WkJkTFcweG1BOWtWQm9nVUxNTXA1UTM2OURMYUc5SUF0ZHBEQ2h1b0pOYXFuaDgwMnN1OENDU1A5RndJRWJPeF9DcEt4cTV4LXlHR1RkNnVaOE5FU2RMMnQ4Z2Jqb2RJc1dVVUdISVloWWNxeHdSVkZJc3piVmY3QXlabTBwLTBZTmRGT2lXYnp3dF9udkItdkIydGxCZzBwelo0ZXJLbXVzZUFnTFo0MTdUVXBJTG12ejFGdV9qSGtSY1JRYlFaX3FvSkZmSmpmNlVLcmVXV3Q0c2d5ZFY5RUZvZjJIZEpjR1F1WkFWNFVHWTVYMEVpbWpjbEtsbUw2czVMU0lGeGxab2l3ZFNfZGpwQ3dnbEhoaVd1bE5rQQ?oc=5",
+      "lead_source": "The Economic Times",
+      "topic": "energy",
+      "score": 88.82,
+      "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
@@ -173,43 +174,43 @@
     {
       "event_key": "us_iran_ceasefire",
       "field": "status",
-      "from": "FRAGILE",
-      "to": "HOLDING",
-      "detected_at": "2026-05-10T12:43:34.147326+00:00",
+      "from": "HOLDING",
+      "to": "FRAGILE",
+      "detected_at": "2026-05-10T14:11:46.742746+00:00",
       "meaningful": false,
       "triggers_publish": false
     },
     {
       "event_key": "us_iran_ceasefire",
       "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-05-10T12:43:34.147326+00:00",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-05-10T14:11:46.742746+00:00",
       "meaningful": true,
-      "triggers_publish": false
+      "triggers_publish": true
     },
     {
       "event_key": "global_risk_level",
       "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-05-10T12:43:34.147326+00:00",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-10T14:11:46.742746+00:00",
       "meaningful": false,
       "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-05-10T12:43:34.147326+00:00",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-10T14:11:46.742746+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.955, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
