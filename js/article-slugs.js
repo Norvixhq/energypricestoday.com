@@ -1,6 +1,7 @@
 // Auto-generated article slug map — do not edit manually.
 // Rebuild with: python3 scripts/rebuild_slug_map.py
 const ARTICLE_SLUGS = {
+  "$7 Billion in Oil Bets Under Investigation": "7-billion-in-oil-bets-under-investigation",
   "10-Day Ceasefire Begins Thursday 5 P.M.": "10-day-ceasefire-begins-thursday-5-pm",
   "20,000 Vessels Stranded": "20000-vessels-stranded",
   "20,000 Vessels Stranded Globally as Hormuz Shipping Collapses Over 90%": "20000-vessels-stranded-globally-as-hormuz-shipping-collapses-over-90",
@@ -51,6 +52,7 @@ const ARTICLE_SLUGS = {
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
   "Crude oil and petroleum product prices increased sharply in the first quarter of 2026": "crude-oil-and-petroleum-product-prices-increased-sharply-in-the-first-quarter-of",
   "Crude oil prices tumble, but gas prices offer major caveat": "crude-oil-prices-tumble-but-gas-prices-offer-major-caveat",
+  "Current price of oil as of May 7, 2026": "current-price-of-oil-as-of-may-7-2026",
   "Current price of oil as of May 8, 2026": "current-price-of-oil-as-of-may-8-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
   "Diesel and Heating Oil Margins Diverge as Trucking Demand Holds": "diesel-and-heating-oil-margins-diverge-as-trucking-demand-holds",
