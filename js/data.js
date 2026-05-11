@@ -62,10 +62,10 @@ const BREAKING_NEWS = [
   { title: "Current price of oil as of May 8, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Oil prices today: Crude jumps after Trump rejects Iran’s latest offer; Strait of Hormuz remains shut", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Why are oil prices up today, and will Brent and US WTI crude futures rise sharply or fall again? Global oi", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil Prices Whipsaw as U.S.-Iran Conflict Shakes Markets", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil prices jump after Trump dismisses Iran proposal to end war", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil prices jump after Trump dismisses Iran proposal to end war", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [

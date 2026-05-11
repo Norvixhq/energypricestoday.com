@@ -223,6 +223,7 @@ const ARTICLE_SLUGS = {
   "Oil Prices Ease on Ceasefire Extension Hopes \u2014 WTI Pulls Back Below $95": "oil-prices-ease-on-ceasefire-extension-hopes-wti-pulls-back-below-95",
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
   "Oil Prices Jump After U.S. and Iran Exchange Fire in Strait of Hormuz": "oil-prices-jump-after-us-and-iran-exchange-fire-in-strait-of-hormuz",
+  "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle": "oil-prices-rise-as-prospects-for-us-iran-peace-deal-fizzle",
   "Oil Prices Surge After Trump Rejects Iran Peace Offer": "oil-prices-surge-after-trump-rejects-iran-peace-offer",
   "Oil Prices Waver Amid Mixed Signals on Renewed U.S.-Iran Peace Talks": "oil-prices-waver-amid-mixed-signals-on-renewed-us-iran-peace-talks",
   "Oil Prices Waver as Market Weighs Chances of U.S.-Iran Deal": "oil-prices-waver-as-market-weighs-chances-of-us-iran-deal",
