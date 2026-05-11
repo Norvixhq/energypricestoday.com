@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-11T20:57:39.060981+00:00",
-  "previous_generated_at": "2026-05-11T19:13:46.224218+00:00",
-  "resolver_run_count": 21,
+  "generated_at": "2026-05-11T22:14:51.861211+00:00",
+  "previous_generated_at": "2026-05-11T20:57:39.060981+00:00",
+  "resolver_run_count": 22,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "OPINION | Hormuz closure extends well beyond oil to threaten Chinese EVs",
+      "status_detail": "Hormuz closure extends well beyond oil to threaten Chinese EVs",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
       "confidence": 0.961,
-      "last_confirmed": "2026-05-11T19:24:04+00:00",
-      "source_count": 17,
+      "last_confirmed": "2026-05-11T22:12:05+00:00",
+      "source_count": 14,
       "summary_short": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds",
+      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says",
       "evidence_cluster_ids": [
-        "c_47f19b42639eb4",
         "c_49a181f97f809c",
-        "c_c292a92612208c",
+        "c_47f19b42639eb4",
         "c_ae730db00e5cf5",
-        "c_090052e9caf43f"
+        "c_090052e9caf43f",
+        "c_039d4d8109b6ee"
       ],
-      "evidence_count": 10,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_c292a92612 → CLOSED (kw='closure', weight=0.52) [OPEN suppressed]",
-        "cluster c_e53727cc8b → CLOSED (kw='closure', weight=0.48) [OPEN suppressed]",
-        "winning=CLOSED (1.00/1.00), conf=0.961"
+        "cluster c_e53727cc8b → CLOSED (kw='closure', weight=0.46) [OPEN suppressed]",
+        "winning=CLOSED (0.46/0.46), conf=0.961"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,16 +54,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-11T20:40:00+00:00",
-      "source_count": 18,
-      "summary_short": "Brent oil tops $104 after Trump says ceasefire with Iran is on 'life support'",
-      "summary_long": "Brent oil tops $104 after Trump says ceasefire with Iran is on 'life support'. 5 Must-Read Books That Help You Understand the Strait of Hormuz Tension, Iran–US Geopolitics & Why T",
+      "last_confirmed": "2026-05-11T22:04:02+00:00",
+      "source_count": 19,
+      "summary_short": "Oil Gains As Trump Rejects Iran’s Response to U.S. Plan",
+      "summary_long": "Oil Gains As Trump Rejects Iran’s Response to U.S. Plan. Asia Stocks to Gain, Oil Rises on US-Iran Deadlock: Markets Wrap",
       "evidence_cluster_ids": [
+        "c_da945aa7ee7887",
+        "c_12d75e3f5573d5",
         "c_4a71161f7162d2",
-        "c_47f19b42639eb4",
-        "c_f4cf3d5837c026",
-        "c_ab72ef1b37c2bc",
-        "c_caff238a5129ab"
+        "c_e788acf3707b44",
+        "c_47f19b42639eb4"
       ],
       "evidence_count": 17,
       "affected_pages": [
@@ -92,18 +91,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-11T14:03:44+00:00",
-      "source_count": 1,
-      "summary_short": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds",
-      "summary_long": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds",
-      "evidence_cluster_ids": [
-        "c_b1681e00585e67"
-      ],
-      "evidence_count": 1,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -116,7 +113,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -153,14 +150,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_90c9e0ead40c36",
-      "lead_title": "Oil prices settle higher after Trump says Iran ceasefire \"on life support\"",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZnd6N0Zkang0NXYwR1c5V1M5ZDNWcjRaM1k5RDVidlU0UlpqRUVZcXdLSVMtd3VqYVY3RkVGa0piQVc4eERTRV94TjVIQXlUTE85Z1pwQ055cDZQNy13bmZiOC12ODJhclBzUkJiZXN0TlRXMHpOcTdlUGVrc1BUNkZfTUpSMHN0OWlrZ2ZPQjBKREtSeXZjUE1lRDdlX1JOMDU4SDZwdy0?oc=5",
+      "cluster_id": "c_090052e9caf43f",
+      "lead_title": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?oc=5",
       "lead_source": "Reuters",
-      "topic": "energy",
-      "score": 92.21,
-      "novelty": "new",
-      "source_count": 5,
+      "topic": "oil",
+      "score": 88.97,
+      "novelty": "ongoing",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
