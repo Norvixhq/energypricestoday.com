@@ -53,6 +53,7 @@ const ARTICLE_SLUGS = {
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
   "Crude oil and petroleum product prices increased sharply in the first quarter of 2026": "crude-oil-and-petroleum-product-prices-increased-sharply-in-the-first-quarter-of",
   "Crude oil prices tumble, but gas prices offer major caveat": "crude-oil-prices-tumble-but-gas-prices-offer-major-caveat",
+  "Current price of oil as of May 11, 2026": "current-price-of-oil-as-of-may-11-2026",
   "Current price of oil as of May 7, 2026": "current-price-of-oil-as-of-may-7-2026",
   "Current price of oil as of May 8, 2026": "current-price-of-oil-as-of-may-8-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
