@@ -23,6 +23,7 @@ const ARTICLE_SLUGS = {
   "Brent Futures Open Interest Hits 3-Month High Ahead of OPEC Meeting": "brent-futures-open-interest-hits-3-month-high-ahead-of-opec-meeting",
   "Brent Rises 4% as Doubts Resurface Over Scope of Iran Deal": "brent-rises-4-as-doubts-resurface-over-scope-of-iran-deal",
   "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
+  "Brent oil tops $103 after Trump dismisses Iran\u2019s peace proposal response": "brent-oil-tops-103-after-trump-dismisses-irans-peace-proposal-response",
   "Brent-WTI Spread Widens to 4.44 on Atlantic Basin Tightness": "brent-wti-spread-widens-to-444-on-atlantic-basin-tightness",
   "California Gas Prices Hit $5.18 as State-Specific Regulations Add Costs": "california-gas-prices-hit-518-as-state-specific-regulations-add-costs",
   "Canada \u2014 Oil Sands, WCS, Trans Mountain": "canada",
@@ -403,7 +404,8 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Why are oil prices up today, and will Brent and US WTI crude futures rise sharply or fall again? Global oi": "why-are-oil-prices-up-today-and-will-brent-and-us-wti-crude-futures-rise-sharply"
 };
 
 function slugifyTitle(title) {
