@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-11T11:44:13.325083+00:00",
-  "previous_generated_at": "2026-05-11T08:19:46.197594+00:00",
-  "resolver_run_count": 17,
+  "generated_at": "2026-05-11T14:14:00.112541+00:00",
+  "previous_generated_at": "2026-05-11T11:44:13.325083+00:00",
+  "resolver_run_count": 18,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Hormuz closure extends well beyond oil to threaten Chinese EVs",
+      "status_detail": "Trump dismisses Iran's offer, oil rises as Hormuz closure persists",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.963,
-      "last_confirmed": "2026-05-11T10:36:08+00:00",
-      "source_count": 13,
+      "confidence": 0.881,
+      "last_confirmed": "2026-05-11T13:32:46+00:00",
+      "source_count": 15,
       "summary_short": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. Tankers dodge Iran threat as 2 more oil carriers cross Hormuz with trackers off",
+      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. Oil market will lose around 100 million barrels every week, if Strait of Hormuz remains closed, Aram",
       "evidence_cluster_ids": [
-        "c_2e3dd5eea8fd11",
-        "c_b34d7f9852fa9e",
-        "c_93904a9027b70d",
+        "c_47f19b42639eb4",
         "c_ae730db00e5cf5",
-        "c_090052e9caf43f"
+        "c_93904a9027b70d",
+        "c_090052e9caf43f",
+        "c_f5acc35c2d8964"
       ],
-      "evidence_count": 8,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e53727cc8b → CLOSED (kw='closure', weight=0.52) [OPEN suppressed]",
-        "winning=CLOSED (0.52/0.52), conf=0.963"
+        "cluster c_00723df3e2 → CLOSED (kw='closure', weight=0.69) [OPEN suppressed]",
+        "cluster c_e53727cc8b → CLOSED (kw='closure', weight=0.60) [OPEN suppressed]",
+        "cluster c_1e8051cbdd → CONTESTED (kw='attack', weight=0.50)",
+        "winning=CLOSED (1.29/1.79), conf=0.881"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-11T10:49:40+00:00",
-      "source_count": 20,
-      "summary_short": "Discounts on Russian Oil Widened for First Time Since Iran War",
-      "summary_long": "Discounts on Russian Oil Widened for First Time Since Iran War. Brent oil tops $103 after Trump dismisses Iran’s peace proposal response",
+      "last_confirmed": "2026-05-11T13:32:46+00:00",
+      "source_count": 23,
+      "summary_short": "Oil Climbs as Trump Rejects Iran’s Response to U.S. Peace Proposal",
+      "summary_long": "Oil Climbs as Trump Rejects Iran’s Response to U.S. Peace Proposal. 5 Must-Read Books That Help You Understand the Strait of Hormuz Tension, Iran–US Geopolitics & Why T",
       "evidence_cluster_ids": [
-        "c_5963ed5fe483de",
-        "c_9a9d6acdeb937a",
-        "c_0c7a669d3dced7",
-        "c_7a8f4682ded013",
-        "c_2e3dd5eea8fd11"
+        "c_f394fe37e83845",
+        "c_47f19b42639eb4",
+        "c_f9230f417c92ce",
+        "c_adc34e239bc356",
+        "c_350904226f8453"
       ],
-      "evidence_count": 16,
+      "evidence_count": 20,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -85,36 +87,6 @@
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
-    },
-    "opec_plus_policy": {
-      "key": "opec_plus_policy",
-      "display_name": "OPEC+ Policy",
-      "category": "policy_state",
-      "status": "HOLDING",
-      "status_detail": "no recent coverage",
-      "status_tag": "No change",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
-      "affected_pages": [
-        "oil-prices.html",
-        "markets.html"
-      ],
-      "dependent_modules": [
-        "oil-prices.drivers.opec",
-        "markets.drivers.opec"
-      ],
-      "update_priority": "high",
-      "freshness": "fresh",
-      "stale_after_hours": 168,
-      "rationale": [
-        "no matching clusters"
-      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -150,14 +122,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_090052e9caf43f",
-      "lead_title": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_121c9eeb406ef4",
+      "lead_title": "Brent oil tops $103 after Trump dismisses Iran’s peace proposal response",
+      "lead_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTF9PT3huRzZTdWdfdHhnTzM0V0p4bThpeHBSN2JpTURzZkYyWXlxOENfd3VaVlVFSnhDVVh4T0VHNUVvMmhBQlNVWjg3X2NqZnliYkpNbFY1Y0NFZmxNX1h0VkdOU3dSaFN1ZzRzbkZUTmhqWWhySmlCYk92OXlxVkt0b9IBiAFBVV95cUxOZDhjOWlxd1RUNzdLaDlxRDhtenFpUS1LNnQ3OUNGMnZJUF9zSnUzV0xWdHBUZHZnUU9GdUJDXzRjQ0N0T0Z0UkpPYVkwU1J3c1JDem9pOVBpeHowZlNzZ3ZVQWphUDJ1eGFkMVA4ZDRZdldWbTUzaW9Xb0RZVVRGNmQ1RTJVR01k?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 98.62,
+      "score": 95.47,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,10 +139,20 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "opec_plus_policy",
+      "field": "retired",
+      "from": "HOLDING",
+      "to": null,
+      "detected_at": "2026-05-11T14:14:00.112471+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.963, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.881, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: retired — last_confirmed too old"
   ]
 }
