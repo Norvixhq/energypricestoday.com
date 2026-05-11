@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Current price of oil as of May 7, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "$7 Billion in Oil Bets Under Investigation", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Crude oil prices tumble, but gas prices offer major caveat", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Prices Whipsaw as U.S.-Iran Conflict Shakes Markets", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil climbs as Netanyahu warns Iran conflict is ‘not over,’ Trump rejects Tehran's proposal to end war", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Current price of oil as of May 8, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil Prices Whipsaw as U.S.-Iran Conflict Shakes Markets", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Crude oil prices tumble, but gas prices offer major caveat", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
   { title: "Oil Prices Jump After U.S. and Iran Exchange Fire in Strait of Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Prices Waver Amid Mixed Signals on Renewed U.S.-Iran Peace Talks", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil prices edge higher after U.S. fires on Iranian tankers, UAE attacked by missiles", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Prices Waver Amid Mixed Signals on Renewed U.S.-Iran Peace Talks", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Crude oil and petroleum product prices increased sharply in the first quarter of 2026", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [

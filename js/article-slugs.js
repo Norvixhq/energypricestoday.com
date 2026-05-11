@@ -226,6 +226,8 @@ const ARTICLE_SLUGS = {
   "Oil Prices Waver as Market Weighs Chances of U.S.-Iran Deal": "oil-prices-waver-as-market-weighs-chances-of-us-iran-deal",
   "Oil Prices Whipsaw as U.S.-Iran Conflict Shakes Markets": "oil-prices-whipsaw-as-us-iran-conflict-shakes-markets",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
+  "Oil climbs as Netanyahu warns Iran conflict is \u2018not over,\u2019 Trump rejects Tehran's proposal to end war": "oil-climbs-as-netanyahu-warns-iran-conflict-is-not-over-trump-rejects-tehrans-pr",
+  "Oil prices drop and stock markets rise after reports of deal to end Iran war": "oil-prices-drop-and-stock-markets-rise-after-reports-of-deal-to-end-iran-war",
   "Oil prices edge higher after U.S. fires on Iranian tankers, UAE attacked by missiles": "oil-prices-edge-higher-after-us-fires-on-iranian-tankers-uae-attacked-by-missile",
   "Oil prices edge lower as U.S. waits for Iran response to deal proposal": "oil-prices-edge-lower-as-us-waits-for-iran-response-to-deal-proposal",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
