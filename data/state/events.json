@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-12T19:24:34.581040+00:00",
-  "previous_generated_at": "2026-05-12T17:37:26.238768+00:00",
-  "resolver_run_count": 5,
+  "generated_at": "2026-05-12T21:07:25.970808+00:00",
+  "previous_generated_at": "2026-05-12T19:24:34.581040+00:00",
+  "resolver_run_count": 6,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CLOSED",
-      "status_detail": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "status_tag": "Strait closed",
-      "risk_level": "HIGH",
-      "confidence": 0.966,
-      "last_confirmed": "2026-05-12T18:35:37+00:00",
-      "source_count": 11,
+      "status": "OPEN",
+      "status_detail": "no definitive signals",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-12T19:05:26+00:00",
+      "source_count": 8,
       "summary_short": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. Vietnam's state oil company urges US navy to allow tanker through Hormuz, document shows",
+      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. Vietnam's state-owned oil firm appeals to US Navy: let tanker through Strait of Hormuz",
       "evidence_cluster_ids": [
+        "c_f24a438bbb98de",
         "c_ecd53cb6806385",
-        "c_c510bdc34a80cd",
         "c_090052e9caf43f",
         "c_325d457bcaea27",
         "c_3870b7e74ad25e"
       ],
-      "evidence_count": 6,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,9 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_090052e9ca → CLOSED (kw='closure', weight=0.98) [OPEN suppressed]",
-        "winning=CLOSED (0.98/0.98), conf=0.966"
-      ]
+        "fell back to default 'OPEN'"
+      ],
+      "previous_status": "CLOSED",
+      "last_changed": "2026-05-12T21:07:25.970601+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -54,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-12T17:52:00+00:00",
-      "source_count": 16,
-      "summary_short": "EIA Sees Prolonged War in Iran Draining Global Oil Stocks Faster Than Expected",
-      "summary_long": "EIA Sees Prolonged War in Iran Draining Global Oil Stocks Faster Than Expected. It's not just Iran and oil raising inflation. Prices also are reaccelerating in these other areas",
+      "last_confirmed": "2026-05-12T19:12:04+00:00",
+      "source_count": 12,
+      "summary_short": "Oil prices shoot up as US-Iran friction derails peace hopes",
+      "summary_long": "Oil prices shoot up as US-Iran friction derails peace hopes. EIA Sees Prolonged War in Iran Draining Global Oil Stocks Faster Than Expected",
       "evidence_cluster_ids": [
+        "c_87e99c6ab66cc7",
         "c_560da8ea92b7a4",
         "c_34ce57e2f3f103",
         "c_9ccbfa368c6469",
-        "c_2ae4705fb599eb",
-        "c_da945aa7ee7887"
+        "c_2ae4705fb599eb"
       ],
-      "evidence_count": 14,
+      "evidence_count": 11,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -120,19 +121,18 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -144,18 +144,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-05-12T21:07:25.970601+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_090052e9caf43f",
-      "lead_title": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?oc=5",
+      "cluster_id": "c_a384eb9ce6f183",
+      "lead_title": "Japan to receive first Central Asian crude oil since Iran war started",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOWRzd1Z6Wk5FM215ZGVuNWdkNDFZT1dWSjVLVG54WExhR1VGSkhJcWdkdVFqa2lyeGFYQzJxOFk2WjlLUG5mZzQteU9oMjdfOGptS1pBblA2d2x4amstdTNlYm9xR3NUTkVYbFp1VGlJLVg2Ry01T043UGZtdE45MTRuTVd2cXVmc0FZRDc0ZG1YUG1BN1FkZXk4OGx6bEE0RHBaNWhxTlE3alBJRVo1LWpZT3RTVUNvSU1seTVycVFvTWl6?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 99.41,
+      "score": 95.88,
       "novelty": "new",
       "source_count": 5,
       "confidence": 0.95,
@@ -167,9 +169,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CLOSED",
+      "to": "OPEN",
+      "detected_at": "2026-05-12T21:07:25.970601+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-12T21:07:25.970601+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-12T21:07:25.970601+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-05-12T21:07:25.970601+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.966, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
