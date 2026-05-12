@@ -85,7 +85,7 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
 
 /* ─── LAYOUT ────────────────────────────────────────────────────── */
 .container{max-width:1280px;margin:0 auto;padding:0 20px}
-.section{padding:48px 0;border-top:1px solid var(--border)}
+.section{padding:48px 0;border-top:1px solid rgba(255,255,255,0.045)}
 .section:first-child{border-top:none}
 
 .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
@@ -617,8 +617,36 @@ a.cat-pill:hover{opacity:.8}
   display:flex;align-items:center;gap:6px;
 }
 .hero h1{margin-bottom:10px;max-width:640px}
-.hero-sub{color:var(--text-2);font-size:14.5px;max-width:560px;line-height:1.6}
+.hero-sub{color:var(--text-2);font-size:15px;max-width:620px;line-height:1.6;margin-bottom:18px}
+.hero-today{
+  display:block;
+  position:relative;
+  margin:0;
+  padding:14px 18px 14px 18px;
+  background:linear-gradient(180deg, rgba(245,158,11,0.04) 0%, rgba(245,158,11,0.015) 100%);
+  border:1px solid rgba(245,158,11,0.18);
+  border-left:3px solid var(--amber);
+  border-radius:8px;
+  font-size:13.5px;
+  line-height:1.65;
+  color:var(--text-2);
+  max-width:720px;
+}
+.hero-today-label{
+  display:inline-block;
+  font-size:10.5px;
+  font-weight:800;
+  letter-spacing:0.12em;
+  text-transform:uppercase;
+  color:var(--amber);
+  margin-right:10px;
+  vertical-align:1px;
+}
 .hero-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}
+@media(max-width:640px){
+  .hero-today{ padding:12px 14px; font-size:13px; }
+  .hero-today-label{ display:block; margin:0 0 4px 0; }
+}
 
 .page-hero-large{position:relative;padding:40px 0 32px;overflow:hidden}
 .page-hero-large .hero-bg{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 30% 10%,rgba(61,143,212,0.05) 0%,transparent 50%)}
@@ -1818,12 +1846,18 @@ a.article-featured{pointer-events:auto}
 .glance-item-sub{font-size:10.5px;color:var(--text-3);font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 .glance-item.risk-high .glance-item-value{color:#ef4444}
 .glance-item.risk-elevated .glance-item-value{color:#f59e0b}
-@media(max-width:768px){
-  .glance-strip{grid-template-columns:repeat(2,1fr);gap:8px;padding:12px}
-  .glance-item{border-right:none;border-bottom:1px solid var(--border);padding-bottom:8px}
-  .glance-item:nth-last-child(-n+2){border-bottom:none}
+@media(max-width:900px){
+  .glance-strip{grid-template-columns:repeat(3,1fr);gap:10px;padding:12px}
+  .glance-item{border-right:none;padding:4px 8px}
 }
-@media(max-width:400px){.glance-strip{grid-template-columns:1fr}.glance-item{border-bottom:1px solid var(--border)}.glance-item:last-child{border-bottom:none}}
+@media(max-width:600px){
+  .glance-strip{grid-template-columns:1fr 1fr;gap:8px;padding:12px}
+  .glance-item{border-bottom:1px solid var(--border);padding:6px 8px}
+  .glance-item:nth-last-child(-n+2){border-bottom:none}
+  /* If exactly 5 items, the 5th would orphan — span it across both columns */
+  .glance-item:nth-child(5):last-child{grid-column:span 2;border-bottom:none}
+}
+@media(max-width:400px){.glance-strip{grid-template-columns:1fr}.glance-item{border-bottom:1px solid var(--border)}.glance-item:last-child{border-bottom:none}.glance-item:nth-child(5):last-child{grid-column:auto}}
 
 /* GAS HIGHLIGHTS CARDS — cheapest/most-expensive columns */
 .gas-rank-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:8px}
