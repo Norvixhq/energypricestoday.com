@@ -77,3 +77,17 @@
 [2026-05-12T22:38:27.894864+00:00] resolver: no state changes
 [2026-05-12T22:38:27.895454+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-12T22:38:27.895498+00:00] ════════════════════════════════════════════════════════════
+[2026-05-12T23:44:05.979805+00:00] resolver: start
+[2026-05-12T23:44:05.983924+00:00] resolver: scanning 276 clusters across 10 topics
+[2026-05-12T23:44:05.984283+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=6)
+[2026-05-12T23:44:05.985439+00:00]   us_iran_ceasefire: FRAGILE (conf=0.951, freshness=fresh, clusters=10)
+[2026-05-12T23:44:05.985555+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-05-12T23:44:05.985600+00:00]   global_risk_level: ELEVATED (score=25)
+[2026-05-12T23:44:05.985769+00:00]   top_story: 'Japan to receive first Central Asian crude oil since Iran wa' (score=90.64)
+[2026-05-12T23:44:05.985833+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-05-12T23:44:05.985863+00:00]   Δ us_iran_ceasefire.status: 'HOLDING' → 'FRAGILE' (triggers_publish=True)
+[2026-05-12T23:44:05.985893+00:00]   Δ us_iran_ceasefire.risk_level: 'ELEVATED' → 'HIGH' (triggers_publish=True)
+[2026-05-12T23:44:05.985919+00:00]   Δ global_risk_level.status: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-05-12T23:44:05.985944+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-05-12T23:44:05.986514+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-12T23:44:05.986554+00:00] ════════════════════════════════════════════════════════════

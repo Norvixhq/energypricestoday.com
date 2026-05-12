@@ -1,11 +1,11 @@
 {
   "topic": "oil",
-  "generated_at": "2026-05-12T22:38:27.794645+00:00",
+  "generated_at": "2026-05-12T23:44:05.890829+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 22,
+  "clusters_found": 20,
   "clusters": [
     {
       "cluster_id": "c_a384eb9ce6f183",
@@ -19,23 +19,23 @@
         "crude",
         "oil"
       ],
-      "source_count": 5,
-      "distinct_publishers": 5,
+      "source_count": 6,
+      "distinct_publishers": 6,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-11T05:21:00+00:00",
-      "latest_seen": "2026-05-12T21:15:11+00:00",
-      "age_hours": 1.39,
-      "score": 85.55,
+      "latest_seen": "2026-05-12T23:17:47+00:00",
+      "age_hours": 0.44,
+      "score": 90.64,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 24.17,
-        "source_quality_points": 25.38,
+        "recency_points": 24.74,
+        "source_quality_points": 24.9,
         "entity_relevance_points": 16,
-        "materiality_points": 0.0
+        "materiality_points": 5.0
       },
-      "novelty": "ongoing",
+      "novelty": "growing",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -55,6 +55,15 @@
           "source_type": "rss",
           "published_at": "2026-05-12T00:21:00+00:00",
           "confidence": 0.98
+        },
+        {
+          "headline_id": "9b47b266e93f73b2",
+          "title": "WTI Crude Oil rallies (again) as Trump rejects Iran peace proposal",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOU5WMEctRHhHUDdPdEtIQnhVUVBlZ0VZMERMOUZzNVNLTTU4aDhyLWJuYWVUbEZTQVp6VDdNRzJSYi1RNGxEZjRNXzRkaWExbk1vTXRmckd2WG1ycTlSZUNYenY2LXBTWVpwZFhnRWRfc19RZVVQQzJzbXdfNFhtVUgtQnI3dUdZdklucVRSM21HeExodnMyS25SaU82NlpVVnc4WUNuRUFIUGc?oc=5",
+          "source": "FXStreet",
+          "source_type": "rss",
+          "published_at": "2026-05-12T23:17:47+00:00",
+          "confidence": 0.75
         },
         {
           "headline_id": "87920bb7b8028ab6",
@@ -107,11 +116,11 @@
       ],
       "earliest_seen": "2026-05-10T23:18:00+00:00",
       "latest_seen": "2026-05-12T18:35:37+00:00",
-      "age_hours": 4.05,
-      "score": 83.07,
+      "age_hours": 5.14,
+      "score": 82.42,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 22.57,
+        "recency_points": 21.92,
         "source_quality_points": 25.5,
         "entity_relevance_points": 20,
         "materiality_points": 0.0
@@ -160,6 +169,57 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_0f3dbb2d6bd272",
+      "topic": "oil",
+      "lead_title": "Crude oil is settling at $102.18 up $4.11 or 4.19%",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0RmUDVJa09BRG1Pc1Y3Rm90a2JCS0NNTnVTRm1pNTJYVWIxRmwxUXloYUdSeHJadUJ2bjRUQ01XZjhXcTJybW5leFJUMkEtSkdDRzhZMmlDbzFRdkFEcEZKVmxpR0dYVjMyVnBCTzVQUTlnMFdPQlNPR1l1akh2QTREeW8zRVJZS0NTSXU0WGIxMWlPUWc?oc=5",
+      "lead_source": "investingLive",
+      "canonical_entities": [
+        "crude",
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T21:10:00+00:00",
+      "latest_seen": "2026-05-12T22:39:00+00:00",
+      "age_hours": 1.08,
+      "score": 73.35,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 24.35,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "779e418b01c75ee9",
+          "title": "Crude oil is settling at $102.18 up $4.11 or 4.19%",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPc0RmUDVJa09BRG1Pc1Y3Rm90a2JCS0NNTnVTRm1pNTJYVWIxRmwxUXloYUdSeHJadUJ2bjRUQ01XZjhXcTJybW5leFJUMkEtSkdDRzhZMmlDbzFRdkFEcEZKVmxpR0dYVjMyVnBCTzVQUTlnMFdPQlNPR1l1akh2QTREeW8zRVJZS0NTSXU0WGIxMWlPUWc?oc=5",
+          "source": "investingLive",
+          "source_type": "rss",
+          "published_at": "2026-05-12T22:39:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "36b72de574dc4729",
+          "title": "Crude Oil Price Forecast: Triangle Phase Builds Pressure",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkk4Q2xIQ0JZWkx1LTREWkc1clFPNi1CNnBPM0ZKUWZoWWRaZUpHODE1RUgyUUZkcUhSSGw0NW5RU2JST3I1UXo3ZFAzYl9TUVY5eXpDc2ZaTkFHVngyYm5Cd0hkN0xobjJLMU9BYXhKS1dLSHZOQ09vMHNOLW1JLXBPbWR4VEVVTTVqLUJYMWJocmNYSV8tWVZsTVVVNk5jZllHVVdrVHo1dw?oc=5",
+          "source": "FXEmpire",
+          "source_type": "rss",
+          "published_at": "2026-05-12T21:10:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_a5afb4f893f6cf",
       "topic": "oil",
       "lead_title": "API shows another weekly fall in US crude stocks but gasoline inventories rise, sources say",
@@ -175,17 +235,17 @@
       ],
       "earliest_seen": "2026-05-12T21:09:33+00:00",
       "latest_seen": "2026-05-12T21:09:33+00:00",
-      "age_hours": 1.48,
-      "score": 73.11,
+      "age_hours": 2.58,
+      "score": 62.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.11,
+        "recency_points": 23.45,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "dcbe29dbb0ea702d",
@@ -197,7 +257,48 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_325d457bcaea27",
+      "topic": "oil",
+      "lead_title": "Vietnam's state oil company urges US navy to allow tanker through Hormuz, document shows",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLS1Na054WG9YNmN5ZExKOU5vckxsUHZVUGRZemU1TXRmTGpsYmlTak1IWHV0WVU2S2RBU3VFOUZYbGNMTFFDazNNb2t0bVkxSDJrVFNPQ0tmaDFjUFh1enRQMmI0MGZXZ2JYcjY1Z25hZFpUMERwMmQxOGRSS0o0ZmpzLVlpU3BQeC1sT1JxdzB6SlJFVlUtSklqal82Q2Nqa1V2WTdnT1lHc1QxaGJtNDdsd1JwMEp1akFTS0NMOVdWOU9FXy0wdw?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T17:51:43+00:00",
+      "latest_seen": "2026-05-12T17:51:43+00:00",
+      "age_hours": 5.87,
+      "score": 60.48,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 21.48,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "af28f89ae4a9a340",
+          "title": "Vietnam's state oil company urges US navy to allow tanker through Hormuz, document shows",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLS1Na054WG9YNmN5ZExKOU5vckxsUHZVUGRZemU1TXRmTGpsYmlTak1IWHV0WVU2S2RBU3VFOUZYbGNMTFFDazNNb2t0bVkxSDJrVFNPQ0tmaDFjUFh1enRQMmI0MGZXZ2JYcjY1Z25hZFpUMERwMmQxOGRSS0o0ZmpzLVlpU3BQeC1sT1JxdzB6SlJFVlUtSklqal82Q2Nqa1V2WTdnT1lHc1QxaGJtNDdsd1JwMEp1akFTS0NMOVdWOU9FXy0wdw?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-12T17:51:43+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -216,17 +317,17 @@
       ],
       "earliest_seen": "2026-05-12T21:15:08+00:00",
       "latest_seen": "2026-05-12T21:15:08+00:00",
-      "age_hours": 1.39,
-      "score": 71.07,
+      "age_hours": 2.48,
+      "score": 60.41,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.17,
+        "recency_points": 23.51,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "eb5aa4bcc9544679",
@@ -257,17 +358,17 @@
       ],
       "earliest_seen": "2026-05-12T21:16:00+00:00",
       "latest_seen": "2026-05-12T21:16:00+00:00",
-      "age_hours": 1.37,
-      "score": 68.68,
+      "age_hours": 2.47,
+      "score": 58.02,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.18,
+        "recency_points": 23.52,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7312f0d33d507dc4",
@@ -277,6 +378,47 @@
           "source_type": "rss",
           "published_at": "2026-05-12T21:16:00+00:00",
           "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7a45301df37e8e",
+      "topic": "oil",
+      "lead_title": "Five reasons why oil prices haven’t surged higher despite the Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFZZy01bDN2VmdYbkc5bVNiSnVBcFlTWm42V21UQ1o3MHBOU0U1bFgxb3VJQ01QdUpBNDh0bVNqQmNfeEVqdGhhcGhEYmhrSFJiOTAxU0Z6R1Jpb1I0VjNYMHZxaDlJbDAwN1FKTmRaTy1ZTU9vZllrdVVyaU5LeU5SV2w5LXFNby05cEZNVmZxUjhIRjVEcU9DZTNtbDJmalk1MUc4MFFZdw?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T16:29:57+00:00",
+      "latest_seen": "2026-05-12T16:29:57+00:00",
+      "age_hours": 7.24,
+      "score": 57.56,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 20.66,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "fb9507ccbee356cd",
+          "title": "Five reasons why oil prices haven’t surged higher despite the Iran war",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFZZy01bDN2VmdYbkc5bVNiSnVBcFlTWm42V21UQ1o3MHBOU0U1bFgxb3VJQ01QdUpBNDh0bVNqQmNfeEVqdGhhcGhEYmhrSFJiOTAxU0Z6R1Jpb1I0VjNYMHZxaDlJbDAwN1FKTmRaTy1ZTU9vZllrdVVyaU5LeU5SV2w5LXFNby05cEZNVmZxUjhIRjVEcU9DZTNtbDJmalk1MUc4MFFZdw?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-05-12T16:29:57+00:00",
+          "confidence": 0.93
         }
       ],
       "top_tier": false,
@@ -299,17 +441,17 @@
       ],
       "earliest_seen": "2026-05-12T21:18:30+00:00",
       "latest_seen": "2026-05-12T21:18:30+00:00",
-      "age_hours": 1.33,
-      "score": 68.2,
+      "age_hours": 2.43,
+      "score": 57.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.2,
+        "recency_points": 23.54,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7931b1cbd81d3591",
@@ -319,210 +461,6 @@
           "source_type": "rss",
           "published_at": "2026-05-12T21:18:30+00:00",
           "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2d517535ade81e",
-      "topic": "oil",
-      "lead_title": "Crude Oil Price Forecast: Triangle Phase Builds Pressure",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkk4Q2xIQ0JZWkx1LTREWkc1clFPNi1CNnBPM0ZKUWZoWWRaZUpHODE1RUgyUUZkcUhSSGw0NW5RU2JST3I1UXo3ZFAzYl9TUVY5eXpDc2ZaTkFHVngyYm5Cd0hkN0xobjJLMU9BYXhKS1dLSHZOQ09vMHNOLW1JLXBPbWR4VEVVTTVqLUJYMWJocmNYSV8tWVZsTVVVNk5jZllHVVdrVHo1dw?oc=5",
-      "lead_source": "FXEmpire",
-      "canonical_entities": [
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-12T21:10:00+00:00",
-      "latest_seen": "2026-05-12T21:10:00+00:00",
-      "age_hours": 1.47,
-      "score": 68.12,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.12,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "36b72de574dc4729",
-          "title": "Crude Oil Price Forecast: Triangle Phase Builds Pressure",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdkk4Q2xIQ0JZWkx1LTREWkc1clFPNi1CNnBPM0ZKUWZoWWRaZUpHODE1RUgyUUZkcUhSSGw0NW5RU2JST3I1UXo3ZFAzYl9TUVY5eXpDc2ZaTkFHVngyYm5Cd0hkN0xobjJLMU9BYXhKS1dLSHZOQ09vMHNOLW1JLXBPbWR4VEVVTTVqLUJYMWJocmNYSV8tWVZsTVVVNk5jZllHVVdrVHo1dw?oc=5",
-          "source": "FXEmpire",
-          "source_type": "rss",
-          "published_at": "2026-05-12T21:10:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a2b1b18b9d5e25",
-      "topic": "oil",
-      "lead_title": "TotalEnergies, QatarEnergy and ConocoPhillips sign deal to review offshore block in Syria",
-      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeDVmZ3RxRk8xRTUydlBMdGJCZkh4V1BVQ0RYWkdvMVNkaXAxcEF4YXRYWkNfdVNxdVpBY0VpeUFucHZNVm1fLTctbzZMcEhrMmM0MHBmbWZkU3pGX1Jwd0N1UVozaDljbUR2Uzg2VUxvU3c2NTR1SGtaNnlSamtEQ0ZyU2ZNUnNVaTNGT3J1bmJKTk5RclAzUjF3N0tuV1YxUzk2T1NHRlJBZ2ZNcks3MW0wclNyaFNmQzdqaXE3ek1yTTFuZ1lIZlBn?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-12T12:56:30+00:00",
-      "latest_seen": "2026-05-12T12:56:30+00:00",
-      "age_hours": 9.7,
-      "score": 62.68,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.18,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "160409ed61866f83",
-          "title": "TotalEnergies, QatarEnergy and ConocoPhillips sign deal to review offshore block in Syria",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeDVmZ3RxRk8xRTUydlBMdGJCZkh4V1BVQ0RYWkdvMVNkaXAxcEF4YXRYWkNfdVNxdVpBY0VpeUFucHZNVm1fLTctbzZMcEhrMmM0MHBmbWZkU3pGX1Jwd0N1UVozaDljbUR2Uzg2VUxvU3c2NTR1SGtaNnlSamtEQ0ZyU2ZNUnNVaTNGT3J1bmJKTk5RclAzUjF3N0tuV1YxUzk2T1NHRlJBZ2ZNcks3MW0wclNyaFNmQzdqaXE3ek1yTTFuZ1lIZlBn?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-12T12:56:30+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_325d457bcaea27",
-      "topic": "oil",
-      "lead_title": "Vietnam's state oil company urges US navy to allow tanker through Hormuz, document shows",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLS1Na054WG9YNmN5ZExKOU5vckxsUHZVUGRZemU1TXRmTGpsYmlTak1IWHV0WVU2S2RBU3VFOUZYbGNMTFFDazNNb2t0bVkxSDJrVFNPQ0tmaDFjUFh1enRQMmI0MGZXZ2JYcjY1Z25hZFpUMERwMmQxOGRSS0o0ZmpzLVlpU3BQeC1sT1JxdzB6SlJFVlUtSklqal82Q2Nqa1V2WTdnT1lHc1QxaGJtNDdsd1JwMEp1akFTS0NMOVdWOU9FXy0wdw?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-12T17:51:43+00:00",
-      "latest_seen": "2026-05-12T17:51:43+00:00",
-      "age_hours": 4.78,
-      "score": 61.13,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.13,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "af28f89ae4a9a340",
-          "title": "Vietnam's state oil company urges US navy to allow tanker through Hormuz, document shows",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLS1Na054WG9YNmN5ZExKOU5vckxsUHZVUGRZemU1TXRmTGpsYmlTak1IWHV0WVU2S2RBU3VFOUZYbGNMTFFDazNNb2t0bVkxSDJrVFNPQ0tmaDFjUFh1enRQMmI0MGZXZ2JYcjY1Z25hZFpUMERwMmQxOGRSS0o0ZmpzLVlpU3BQeC1sT1JxdzB6SlJFVlUtSklqal82Q2Nqa1V2WTdnT1lHc1QxaGJtNDdsd1JwMEp1akFTS0NMOVdWOU9FXy0wdw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-12T17:51:43+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7a45301df37e8e",
-      "topic": "oil",
-      "lead_title": "Five reasons why oil prices haven’t surged higher despite the Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFZZy01bDN2VmdYbkc5bVNiSnVBcFlTWm42V21UQ1o3MHBOU0U1bFgxb3VJQ01QdUpBNDh0bVNqQmNfeEVqdGhhcGhEYmhrSFJiOTAxU0Z6R1Jpb1I0VjNYMHZxaDlJbDAwN1FKTmRaTy1ZTU9vZllrdVVyaU5LeU5SV2w5LXFNby05cEZNVmZxUjhIRjVEcU9DZTNtbDJmalk1MUc4MFFZdw?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-12T16:29:57+00:00",
-      "latest_seen": "2026-05-12T16:29:57+00:00",
-      "age_hours": 6.14,
-      "score": 58.21,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.31,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "fb9507ccbee356cd",
-          "title": "Five reasons why oil prices haven’t surged higher despite the Iran war",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMDFZZy01bDN2VmdYbkc5bVNiSnVBcFlTWm42V21UQ1o3MHBOU0U1bFgxb3VJQ01QdUpBNDh0bVNqQmNfeEVqdGhhcGhEYmhrSFJiOTAxU0Z6R1Jpb1I0VjNYMHZxaDlJbDAwN1FKTmRaTy1ZTU9vZllrdVVyaU5LeU5SV2w5LXFNby05cEZNVmZxUjhIRjVEcU9DZTNtbDJmalk1MUc4MFFZdw?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-05-12T16:29:57+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_732c5706462087",
-      "topic": "oil",
-      "lead_title": "Stock Futures Retreat From Highs as CPI Data Looms, Oil Climbs",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSE50Q1ZEVG9wdDdJcW16UGo3U0RGWlNJQVAxZTJRQkhkMHdUUlFZUFVfUW9ZekRqNTl0SHF3VTdYSENPd3Zkam5Fd1ZMLWJ4QTVOT2VKUERrYkJENzJZNHlRcVk5Ny1YdGR6TzVKbWQ0YWZCTFpsbjg0N0VCTWpzci1sRmpfU3cyRGItVmFNRkxRTWpjcWUwRVVQeEkzeHJ3THNQb3NfWko3aTY3SVlPYXRn?oc=5",
-      "lead_source": "Bloomberg.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-12T12:15:12+00:00",
-      "latest_seen": "2026-05-12T12:15:12+00:00",
-      "age_hours": 10.39,
-      "score": 57.77,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.77,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "8d78b9a32653f93b",
-          "title": "Stock Futures Retreat From Highs as CPI Data Looms, Oil Climbs",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSE50Q1ZEVG9wdDdJcW16UGo3U0RGWlNJQVAxZTJRQkhkMHdUUlFZUFVfUW9ZekRqNTl0SHF3VTdYSENPd3Zkam5Fd1ZMLWJ4QTVOT2VKUERrYkJENzJZNHlRcVk5Ny1YdGR6TzVKbWQ0YWZCTFpsbjg0N0VCTWpzci1sRmpfU3cyRGItVmFNRkxRTWpjcWUwRVVQeEkzeHJ3THNQb3NfWko3aTY3SVlPYXRn?oc=5",
-          "source": "Bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-05-12T12:15:12+00:00",
-          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -542,11 +480,11 @@
       ],
       "earliest_seen": "2026-05-12T21:06:22+00:00",
       "latest_seen": "2026-05-12T21:06:22+00:00",
-      "age_hours": 1.53,
-      "score": 57.58,
+      "age_hours": 2.63,
+      "score": 56.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.08,
+        "recency_points": 23.42,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -581,11 +519,11 @@
       ],
       "earliest_seen": "2026-05-12T18:07:38+00:00",
       "latest_seen": "2026-05-12T18:07:38+00:00",
-      "age_hours": 4.51,
-      "score": 55.79,
+      "age_hours": 5.61,
+      "score": 55.14,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.29,
+        "recency_points": 21.64,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -600,6 +538,45 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-05-12T18:07:38+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_a2b1b18b9d5e25",
+      "topic": "oil",
+      "lead_title": "TotalEnergies, QatarEnergy and ConocoPhillips sign deal to review offshore block in Syria",
+      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeDVmZ3RxRk8xRTUydlBMdGJCZkh4V1BVQ0RYWkdvMVNkaXAxcEF4YXRYWkNfdVNxdVpBY0VpeUFucHZNVm1fLTctbzZMcEhrMmM0MHBmbWZkU3pGX1Jwd0N1UVozaDljbUR2Uzg2VUxvU3c2NTR1SGtaNnlSamtEQ0ZyU2ZNUnNVaTNGT3J1bmJKTk5RclAzUjF3N0tuV1YxUzk2T1NHRlJBZ2ZNcks3MW0wclNyaFNmQzdqaXE3ek1yTTFuZ1lIZlBn?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T12:56:30+00:00",
+      "latest_seen": "2026-05-12T12:56:30+00:00",
+      "age_hours": 10.79,
+      "score": 52.02,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 18.52,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "160409ed61866f83",
+          "title": "TotalEnergies, QatarEnergy and ConocoPhillips sign deal to review offshore block in Syria",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPeDVmZ3RxRk8xRTUydlBMdGJCZkh4V1BVQ0RYWkdvMVNkaXAxcEF4YXRYWkNfdVNxdVpBY0VpeUFucHZNVm1fLTctbzZMcEhrMmM0MHBmbWZkU3pGX1Jwd0N1UVozaDljbUR2Uzg2VUxvU3c2NTR1SGtaNnlSamtEQ0ZyU2ZNUnNVaTNGT3J1bmJKTk5RclAzUjF3N0tuV1YxUzk2T1NHRlJBZ2ZNcks3MW0wclNyaFNmQzdqaXE3ek1yTTFuZ1lIZlBn?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-12T12:56:30+00:00",
           "confidence": 0.95
         }
       ],
@@ -622,11 +599,11 @@
       ],
       "earliest_seen": "2026-05-12T10:22:47+00:00",
       "latest_seen": "2026-05-12T10:22:47+00:00",
-      "age_hours": 12.26,
-      "score": 51.64,
+      "age_hours": 13.36,
+      "score": 50.99,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.64,
+        "recency_points": 16.99,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -663,11 +640,11 @@
       ],
       "earliest_seen": "2026-05-12T08:06:01+00:00",
       "latest_seen": "2026-05-12T08:06:01+00:00",
-      "age_hours": 14.54,
-      "score": 50.28,
+      "age_hours": 15.63,
+      "score": 49.62,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.28,
+        "recency_points": 15.62,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -682,48 +659,6 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-05-12T08:06:01+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6f87fb047beaff",
-      "topic": "oil",
-      "lead_title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "barrel",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-11T20:33:52+00:00",
-      "latest_seen": "2026-05-11T20:33:52+00:00",
-      "age_hours": 26.08,
-      "score": 47.35,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 9.35,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "7c0cb504ef155f1c",
-          "title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-11T20:33:52+00:00",
           "confidence": 1.0
         }
       ],
@@ -749,7 +684,7 @@
       ],
       "earliest_seen": "2026-04-29T07:00:00+00:00",
       "latest_seen": "2026-04-30T07:00:00+00:00",
-      "age_hours": 303.64,
+      "age_hours": 304.73,
       "score": 47.25,
       "score_components": {
         "source_count_points": 10,
@@ -784,6 +719,48 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_6f87fb047beaff",
+      "topic": "oil",
+      "lead_title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "barrel",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-11T20:33:52+00:00",
+      "latest_seen": "2026-05-11T20:33:52+00:00",
+      "age_hours": 27.17,
+      "score": 46.7,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 8.7,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "7c0cb504ef155f1c",
+          "title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-11T20:33:52+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_e4b7a12eaf8e4e",
       "topic": "oil",
       "lead_title": "Turkey set to receive its first shipment from US emergency oil stash",
@@ -799,11 +776,11 @@
       ],
       "earliest_seen": "2026-05-11T19:27:21+00:00",
       "latest_seen": "2026-05-11T19:27:21+00:00",
-      "age_hours": 27.19,
-      "score": 42.69,
+      "age_hours": 28.28,
+      "score": 42.03,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.69,
+        "recency_points": 8.03,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -841,7 +818,7 @@
       ],
       "earliest_seen": "2026-05-03T07:00:00+00:00",
       "latest_seen": "2026-05-03T07:00:00+00:00",
-      "age_hours": 231.64,
+      "age_hours": 232.73,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -884,7 +861,7 @@
       ],
       "earliest_seen": "2026-04-24T07:00:00+00:00",
       "latest_seen": "2026-04-24T07:00:00+00:00",
-      "age_hours": 447.64,
+      "age_hours": 448.73,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -925,11 +902,11 @@
       ],
       "earliest_seen": "2026-05-11T08:49:00+00:00",
       "latest_seen": "2026-05-11T08:49:00+00:00",
-      "age_hours": 37.82,
-      "score": 31.81,
+      "age_hours": 38.92,
+      "score": 31.15,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.31,
+        "recency_points": 1.65,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -945,45 +922,6 @@
           "source_type": "rss",
           "published_at": "2026-05-11T08:49:00+00:00",
           "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_35c5fadcf01f03",
-      "topic": "oil",
-      "lead_title": "Think $6 Gas Is Bad? It’s About to Get Even Worse in California",
-      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTHhKY3JDQkM4ZkNJZjFtS2FYaFFIYUwxMVo0X3lUUGNndHlhdjdERGhGU1VTMWRmbFlDQzZ1Wkxsb1M2a25va2ZuN0d5VnZjano4Q2NKRGRoZkZNeEZob2pRVnI0cHNRMjFiMzdreGY1R2NUU2J6NkRydjBPbDZqai16cmRJdUpsZXNTVFBkWFRFQ1ltUWhERzZoUXV2d1hfX3RWZy0xaWNvUlBFeEE?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-11T09:30:00+00:00",
-      "latest_seen": "2026-05-11T09:30:00+00:00",
-      "age_hours": 37.14,
-      "score": 30.32,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 2.72,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "a615279343536668",
-          "title": "Think $6 Gas Is Bad? It’s About to Get Even Worse in California",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTHhKY3JDQkM4ZkNJZjFtS2FYaFFIYUwxMVo0X3lUUGNndHlhdjdERGhGU1VTMWRmbFlDQzZ1Wkxsb1M2a25va2ZuN0d5VnZjano4Q2NKRGRoZkZNeEZob2pRVnI0cHNRMjFiMzdreGY1R2NUU2J6NkRydjBPbDZqai16cmRJdUpsZXNTVFBkWFRFQ1ltUWhERzZoUXV2d1hfX3RWZy0xaWNvUlBFeEE?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-05-11T09:30:00+00:00",
-          "confidence": 0.92
         }
       ],
       "top_tier": false,

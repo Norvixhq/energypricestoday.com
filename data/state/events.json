@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-12T22:38:27.894888+00:00",
-  "previous_generated_at": "2026-05-12T21:07:25.970808+00:00",
-  "resolver_run_count": 7,
+  "generated_at": "2026-05-12T23:44:05.985968+00:00",
+  "previous_generated_at": "2026-05-12T22:38:27.894888+00:00",
+  "resolver_run_count": 8,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -13,18 +13,18 @@
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-12T19:05:26+00:00",
-      "source_count": 8,
+      "last_confirmed": "2026-05-12T18:35:37+00:00",
+      "source_count": 9,
       "summary_short": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. Vietnam's state oil company urges US navy to allow tanker through Hormuz, document shows",
+      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. With ceasefire talks stalled, Trump and Hegseth claim 'control' over Iran and Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_f24a438bbb98de",
+        "c_10f62b9edad56b",
         "c_ecd53cb6806385",
         "c_090052e9caf43f",
         "c_325d457bcaea27",
         "c_3870b7e74ad25e"
       ],
-      "evidence_count": 5,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -48,23 +48,23 @@
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "HOLDING",
-      "status_detail": "no definitive signals",
-      "status_tag": "In effect",
-      "risk_level": "ELEVATED",
-      "confidence": 0.5,
+      "status": "FRAGILE",
+      "status_detail": "With ceasefire talks stalled, Trump and Hegseth claim 'control' over Iran and Strait of Hormuz",
+      "status_tag": "Under strain",
+      "risk_level": "HIGH",
+      "confidence": 0.951,
       "last_confirmed": "2026-05-12T21:16:00+00:00",
-      "source_count": 13,
-      "summary_short": "Stocks wilt as oil forges higher; Iran ceasefire 'on life support'",
-      "summary_long": "Stocks wilt as oil forges higher; Iran ceasefire 'on life support'. Snack giant switches to black and white packaging as Iran war hits ink supplies",
+      "source_count": 11,
+      "summary_short": "Snack giant switches to black and white packaging as Iran war hits ink supplies",
+      "summary_long": "Snack giant switches to black and white packaging as Iran war hits ink supplies. With ceasefire talks stalled, Trump and Hegseth claim 'control' over Iran and Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_2ae4705fb599eb",
         "c_9ccbfa368c6469",
-        "c_27e87211a3d699",
+        "c_10f62b9edad56b",
         "c_560da8ea92b7a4",
-        "c_34ce57e2f3f103"
+        "c_34ce57e2f3f103",
+        "c_87e99c6ab66cc7"
       ],
-      "evidence_count": 11,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -79,11 +79,14 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "cluster c_10f62b9eda → FRAGILE (kw='talks stalled', weight=0.46)",
+        "winning=FRAGILE (0.46/0.46), conf=0.951"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": ""
+      "next_catalyst_micro": "",
+      "previous_status": "HOLDING",
+      "last_changed": "2026-05-12T23:44:05.985806+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -119,19 +122,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 25,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: ceasefire fragile",
+      "summary_micro": "fragile",
       "rationale": [
-        "ceasefire=HOLDING (+10)"
+        "ceasefire=FRAGILE (+25)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -142,7 +145,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "LOW",
+      "last_changed": "2026-05-12T23:44:05.985806+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -153,9 +158,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOWRzd1Z6Wk5FM215ZGVuNWdkNDFZT1dWSjVLVG54WExhR1VGSkhJcWdkdVFqa2lyeGFYQzJxOFk2WjlLUG5mZzQteU9oMjdfOGptS1pBblA2d2x4amstdTNlYm9xR3NUTkVYbFp1VGlJLVg2Ry01T043UGZtdE45MTRuTVd2cXVmc0FZRDc0ZG1YUG1BN1FkZXk4OGx6bEE0RHBaNWhxTlE3alBJRVo1LWpZT3RTVUNvSU1seTVycVFvTWl6?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 85.55,
-      "novelty": "ongoing",
-      "source_count": 5,
+      "score": 90.64,
+      "novelty": "growing",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -165,10 +170,47 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "status",
+      "from": "HOLDING",
+      "to": "FRAGILE",
+      "detected_at": "2026-05-12T23:44:05.985806+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "HIGH",
+      "detected_at": "2026-05-12T23:44:05.985806+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-12T23:44:05.985806+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-12T23:44:05.985806+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.951, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
