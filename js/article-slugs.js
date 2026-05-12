@@ -355,6 +355,7 @@ const ARTICLE_SLUGS = {
   "U.S. Tightens Sanctions on Russian Oil Price Cap Violators": "us-tightens-sanctions-on-russian-oil-price-cap-violators",
   "U.S. Utility-Scale Solar Pipeline Exceeds 300 GW as IRA Credits Flow": "us-utility-scale-solar-pipeline-exceeds-300-gw-as-ira-credits-flow",
   "U.S. and Iran Considering Two-Week Ceasefire Extension \u2014 Bloomberg Reports": "us-and-iran-considering-two-week-ceasefire-extension-bloomberg-reports",
+  "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal": "us-crude-oil-tops-100-again-as-hope-fades-for-a-us-iran-peace-deal",
   "U.S.-China Trade Tensions": "us-china-trade-tensions",
   "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Expiration": "us-iran-ceasefire-explained-timeline-terms-expiration",
   "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Extension": "us-iran-ceasefire-explained-timeline-terms-and-extension",

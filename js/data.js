@@ -63,9 +63,9 @@ const BREAKING_NEWS = [
   { title: "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
   { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
   { title: "Why are oil prices up today, and will Brent and US WTI crude futures rise sharply or fall again? Global oi", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil prices today: Crude jumps after Trump rejects Iran’s latest offer; Strait of Hormuz remains shut", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil Price Today (May 12): Crude oil at $105 as Donald Trump says peace talks on ‘life support’. What are e", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil prices today: Crude jumps after Trump rejects Iran’s latest offer; Strait of Hormuz remains shut", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Price Today (May 12): Crude oil at $105 as Donald Trump says peace talks on ‘life support’. What are e", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
