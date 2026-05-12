@@ -613,12 +613,12 @@ const GAS_PRICES_BY_STATE = [
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 4.520,
-  mid: 5.092,
-  premium: 5.498,
-  diesel: 6.204,
-  source: "AAA Daily Fuel Gauge Report",
-  updated: "As of May 11, 2026"
+  regular: 4.452,
+  mid: 5.025,
+  premium: 5.402,
+  diesel: 5.640,
+  source: "EIA Weekly Retail Gasoline Prices",
+  updated: "As of May 12, 2026"
 };
 const ELECTRICITY_PRICES_BY_STATE = [
   { state:"Alabama", abbr:"AL", region:"Southeast", residential:16.79, commercial:14.46, residential_yoy:4.0, commercial_yoy:3.1 },
