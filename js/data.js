@@ -58,10 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Trump Rejects Iran's Counterproposal as 'Totally Unacceptable'; Threatens to Resume Bombing", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "Oil Rallies 5% as Hormuz Deal Collapses; WTI $100, Brent $106", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Drones Strike Qatari Waters; UAE and Kuwait Intercept Iranian Drones", cat: "Geopolitics", slug: "geopolitics", time: "4h" },
-  { title: "Aramco CEO: Hormuz Normalization Could Slip Into 2027 as 100M Barrels Lost Weekly", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Brent oil tops $104 after Trump says ceasefire with Iran is on 'life support'", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Current price of oil as of May 11, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Why are oil prices up today, and will Brent and US WTI crude futures rise sharply or fall again? Global oi", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil prices today: Crude jumps after Trump rejects Iran’s latest offer; Strait of Hormuz remains shut", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Oil Price Today (May 12): Crude oil at $105 as Donald Trump says peace talks on ‘life support’. What are e", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [

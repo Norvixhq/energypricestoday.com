@@ -23,6 +23,7 @@ const ARTICLE_SLUGS = {
   "Brent Futures Open Interest Hits 3-Month High Ahead of OPEC Meeting": "brent-futures-open-interest-hits-3-month-high-ahead-of-opec-meeting",
   "Brent Rises 4% as Doubts Resurface Over Scope of Iran Deal": "brent-rises-4-as-doubts-resurface-over-scope-of-iran-deal",
   "Brent Touches $101 Intraday Before Retreating on Ceasefire Extension": "brent-touches-101-intraday-before-retreating-on-ceasefire-extension",
+  "Brent oil tops $104 after Trump says ceasefire with Iran is on 'life support'": "brent-oil-tops-104-after-trump-says-ceasefire-with-iran-is-on-life-support",
   "Brent-WTI Spread Widens to 4.44 on Atlantic Basin Tightness": "brent-wti-spread-widens-to-444-on-atlantic-basin-tightness",
   "California Gas Prices Hit $5.18 as State-Specific Regulations Add Costs": "california-gas-prices-hit-518-as-state-specific-regulations-add-costs",
   "Canada \u2014 Oil Sands, WCS, Trans Mountain": "canada",
@@ -50,6 +51,7 @@ const ARTICLE_SLUGS = {
   "Crude Braces for Turmoil": "crude-braces-for-turmoil",
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
+  "Current price of oil as of May 11, 2026": "current-price-of-oil-as-of-may-11-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
   "Diesel and Heating Oil Margins Diverge as Trucking Demand Holds": "diesel-and-heating-oil-margins-diverge-as-trucking-demand-holds",
   "Drones Strike Qatari Waters; UAE and Kuwait Intercept Iranian Drones": "drones-strike-qatari-waters-uae-and-kuwait-intercept-iranian-drones",
@@ -215,11 +217,16 @@ const ARTICLE_SLUGS = {
   "Oil Plunges 11% as Hormuz Reopens \u2014 WTI Closes at $83.85": "oil-plunges-11-as-hormuz-reopens-wti-closes-at-8385",
   "Oil Plunges Most Since April 2020 on Hormuz Reopening News": "oil-plunges-most-since-april-2020-on-hormuz-reopening-news",
   "Oil Price Forecast 2026 What Analysts Predict for Crude": "oil-price-forecast-2026-what-analysts-predict-for-crude",
+  "Oil Price Today (May 12): Crude oil at $105 as Donald Trump says peace talks on \u2018life support\u2019. What are e": "oil-price-today-may-12-crude-oil-at-105-as-donald-trump-says-peace-talks-on-life",
   "Oil Prices Climb Near $100 as Energy Secretary Warns Prices Will Keep Rising": "oil-prices-climb-near-100-as-energy-secretary-warns-prices-will-keep-rising",
   "Oil Prices Ease on Ceasefire Extension Hopes \u2014 WTI Pulls Back Below $95": "oil-prices-ease-on-ceasefire-extension-hopes-wti-pulls-back-below-95",
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
+  "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle": "oil-prices-rise-as-prospects-for-us-iran-peace-deal-fizzle",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
   "Oil Rallies 5% as Hormuz Deal Collapses; WTI $100, Brent $106": "oil-rallies-5-percent-as-hormuz-deal-collapses-wti-100-brent-106",
+  "Oil prices drop and stock markets rise after reports of deal to end Iran war": "oil-prices-drop-and-stock-markets-rise-after-reports-of-deal-to-end-iran-war",
+  "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on \u2018life support\u2019": "oil-prices-today-brent-crude-jumps-to-105-per-barrel-as-us-iran-ceasefire-hangs-",
+  "Oil prices today: Crude jumps after Trump rejects Iran\u2019s latest offer; Strait of Hormuz remains shut": "oil-prices-today-crude-jumps-after-trump-rejects-irans-latest-offer-strait-of-ho",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
   "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration": "pakistan-fm-dar-working-to-bridge-us-iran-differences-before-tuesday-ceasefire-e",
@@ -390,7 +397,8 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Why are oil prices up today, and will Brent and US WTI crude futures rise sharply or fall again? Global oi": "why-are-oil-prices-up-today-and-will-brent-and-us-wti-crude-futures-rise-sharply"
 };
 
 function slugifyTitle(title) {
