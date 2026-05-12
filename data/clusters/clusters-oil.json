@@ -1,11 +1,11 @@
 {
   "topic": "oil",
-  "generated_at": "2026-05-12T10:08:01.425889+00:00",
+  "generated_at": "2026-05-12T12:21:01.829743+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 21,
+  "clusters_found": 24,
   "clusters": [
     {
       "cluster_id": "c_7b59de2ce23cae",
@@ -21,23 +21,23 @@
         "oil"
       ],
       "source_count": 5,
-      "distinct_publishers": 4,
+      "distinct_publishers": 5,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-11T11:16:12+00:00",
-      "latest_seen": "2026-05-12T09:56:26+00:00",
-      "age_hours": 0.19,
-      "score": 99.78,
+      "latest_seen": "2026-05-12T11:19:29+00:00",
+      "age_hours": 1.03,
+      "score": 89.58,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 24.88,
-        "source_quality_points": 24.9,
+        "recency_points": 24.38,
+        "source_quality_points": 25.2,
         "entity_relevance_points": 20,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "852d13b9e505d7c8",
@@ -47,6 +47,15 @@
           "source_type": "rss",
           "published_at": "2026-05-11T11:16:12+00:00",
           "confidence": 1.0
+        },
+        {
+          "headline_id": "869a2ec913aa778f",
+          "title": "Crude oil futures climb over 3 pc to Rs 9,707/barrel; Brent breach USD 107",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNkN6YXM3MDlFVnoxTlVySk93OFdnUzI5YzRPeDVzcEoxZHc4cFMzMmpBclJNVlYwZmhfNDI4bDRWUDByNzl5UTNhUUh6UHB4bGFGTmlWWm1ocnU4cUR6UmN1dU5hQkFhdlBIaVZfZS1IX2dKeHVvZUJWblJtLVd3TmVUUzFlM25NN3hYTEtMUWpfMzA5cHVOTUVMTmtPWnVaemlaLWhMUzYyS3N4Z1htSWpCYS14dC1qVmE1Z1hHbjB5YkM5ajZRNmVxcXo1TW9NMk1aMHNxWHdyRDV1Rm1TVmRYSlJZZw?oc=5",
+          "source": "MSN",
+          "source_type": "rss",
+          "published_at": "2026-05-12T11:19:29+00:00",
+          "confidence": 0.8
         },
         {
           "headline_id": "39f87b7153f82fde",
@@ -74,15 +83,47 @@
           "source_type": "rss",
           "published_at": "2026-05-12T02:25:00+00:00",
           "confidence": 0.8
-        },
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6a2c57f74b996f",
+      "topic": "oil",
+      "lead_title": "Urals crude premiums ease in India as weak margins curb buying",
+      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWEFieFhKWkQtVjltNHNWWndGS1EwWFlHOHFXdC10bE9tVmU2RXdzdXd6Zk1DOGIwUWtZcnNhcTJPLW5MZ1JLd0huQmhGVnZUNUo2YllCOTF5SC1wcmpaYl9nRjFWUGFOWGdaY1lXam9zQTRYRlVlZVRhQ3AyRzZreWJsamg4YzBnSzA3My0zN3M5dDdHUnVTNkdiOW1RdEdpSWJ3Yk1meW5HRWdX?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "crude"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T11:46:48+00:00",
+      "latest_seen": "2026-05-12T11:46:48+00:00",
+      "age_hours": 0.57,
+      "score": 73.66,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.66,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
         {
-          "headline_id": "1b610014634894b2",
-          "title": "CME : WTI Crude Oil futures test $100 as U.S.-Iran diplomacy drives volatility.",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMVdSOVJMV2hKY1pnQ050UGZZeUtacUhPekJCNnJEelZzeGxEZS1ia19iYlBZMHFRaHlibVVNdzc5T3NsbUJKTE0waWxpb0x1MDl0V2Zmc0ZENTFYTWlZbkF6SE51UUpleWRUc05QeF9aMFJMemQ3SWJBblpDX0xnZUpPdUFaQThMa3o0dU5FdExtSFNpYnZuYjVmTmRnb3dxZnZCNWlmWkdMcmh6blFPUW9jTU5vd2hKSXB0TjJTOXNFYlB3Wnc?oc=5",
-          "source": "marketscreener.com",
+          "headline_id": "7a42b2466f7d8b9a",
+          "title": "Urals crude premiums ease in India as weak margins curb buying",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWEFieFhKWkQtVjltNHNWWndGS1EwWFlHOHFXdC10bE9tVmU2RXdzdXd6Zk1DOGIwUWtZcnNhcTJPLW5MZ1JLd0huQmhGVnZUNUo2YllCOTF5SC1wcmpaYl9nRjFWUGFOWGdaY1lXam9zQTRYRlVlZVRhQ3AyRzZreWJsamg4YzBnSzA3My0zN3M5dDdHUnVTNkdiOW1RdEdpSWJ3Yk1meW5HRWdX?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-05-11T21:42:13+00:00",
-          "confidence": 0.75
+          "published_at": "2026-05-12T11:46:48+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": true,
@@ -105,18 +146,18 @@
         "rss"
       ],
       "earliest_seen": "2026-05-10T23:18:00+00:00",
-      "latest_seen": "2026-05-12T00:46:05+00:00",
-      "age_hours": 9.37,
-      "score": 77.63,
+      "latest_seen": "2026-05-12T10:44:12+00:00",
+      "age_hours": 1.61,
+      "score": 72.28,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 19.38,
+        "recency_points": 24.03,
         "source_quality_points": 26.25,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "fb5a2326f847f6c8",
@@ -128,12 +169,12 @@
           "confidence": 1.0
         },
         {
-          "headline_id": "ad5af96674322a43",
-          "title": "Strait of Hormuz closure pressures WTI Crude Oil towards $110",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUjdLQk1BRlRGQ0w5RlN5UUFlbi0zd0Vxc1QtbkZ0R3BTbFNLX3h6VFNaeDUybjNIa1NjcUFjVUZtb19HN0hMeGVIdkJYajdBblBXZ1gzdENudC1CQ1lKellVR1VvVVVRU3BQMm5hTVEtVC14RkQtZjczbTJKSDVfckFZNm1sQlV2MXBveHpjYTRHQQ?oc=5",
+          "headline_id": "59a42bbd923220e0",
+          "title": "US-Iran tensions drive WTI Crude Oil price expectations to $110",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWF9tWDlDY2Eydm84UktXM1VYNnE5UTlYMjVHTTlCaUR2Ujh1MFFSWmJ0b3BhZkhIZ1c0TE5LRlQwMlVGYm40OEVMWU9mcy1UWlZpUkVHelprTmhQd2EtSnhWdnNTSXVvZ2toWHdwN3BYTWxQY1BsSURMWktkMzZ0UmZaa2VtZ2UwUnNrTDkzVy1VS2U2?oc=5",
           "source": "Crypto Briefing",
           "source_type": "rss",
-          "published_at": "2026-05-12T00:46:05+00:00",
+          "published_at": "2026-05-12T10:44:12+00:00",
           "confidence": 0.75
         }
       ],
@@ -141,63 +182,163 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_6f87fb047beaff",
+      "cluster_id": "c_69ea7dac76b5d6",
       "topic": "oil",
-      "lead_title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+      "lead_title": "Gold falls as fading Middle East peace hopes lift dollar and oil",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQnhPNWJVbm1JU1pqZExkQ05UcWxobXdCbVlUOFZNWGJxU1VkNU5tS3hXTVVfT0dzei00c0FPNUp4cDZuY0JOYmNpMjM4RkZlSENrRmZEWVhPeG1sMVRUXzMtT1l1YkRNSkxjNXVBZkRiWnJCXzFxUTZsTWxFUVI1LVk0WW9jSG5sVnpnai1VY09lNDkyeGlDOWZTV0NVMUpOd0E?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [
-        "barrel",
         "oil"
       ],
-      "source_count": 3,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-11T12:40:55+00:00",
-      "latest_seen": "2026-05-11T20:33:52+00:00",
-      "age_hours": 13.57,
-      "score": 74.86,
+      "earliest_seen": "2026-05-12T01:17:00+00:00",
+      "latest_seen": "2026-05-12T01:17:00+00:00",
+      "age_hours": 11.07,
+      "score": 67.36,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 16.86,
+        "source_count_points": 5,
+        "recency_points": 18.36,
         "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "7c0cb504ef155f1c",
-          "title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+          "headline_id": "aeef56e2166ea6a6",
+          "title": "Gold falls as fading Middle East peace hopes lift dollar and oil",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQnhPNWJVbm1JU1pqZExkQ05UcWxobXdCbVlUOFZNWGJxU1VkNU5tS3hXTVVfT0dzei00c0FPNUp4cDZuY0JOYmNpMjM4RkZlSENrRmZEWVhPeG1sMVRUXzMtT1l1YkRNSkxjNXVBZkRiWnJCXzFxUTZsTWxFUVI1LVk0WW9jSG5sVnpnai1VY09lNDkyeGlDOWZTV0NVMUpOd0E?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-05-11T20:33:52+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "d72e087b3088a96b",
-          "title": "Aramco Sees Oil Market Losing 100 Million Barrels a Week if Hormuz Remains Closed",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPU2JRdWlBZXNNbWttVWF5NS1ONmY2U240Zjc1d3JCaVoxQUxXR0ZTbDJtMU9YeVJvaVI1TGNRdkFtcUZFZnlDQWFKeTg1SGhZdi15X1cwY0JyU2xVRTNEdXZIai1WZTd4NWZxb1B3dlFzMkgxS2N4aUlyd0RKdVpNLWNqdUpkTW9XNzJVa1M4ZUlvUFdpd0tvSENjMFRjTkpYZGpWdGxjLV9nYUd6cDZZb3JJUkZmckJDY292N0R0b1BxQkUwTy1WR2pR?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-05-11T13:56:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "2a4f0246bccc48ff",
-          "title": "Oil market will lose around 100 million barrels every week, if Strait of Hormuz remains closed, Aramco CEO says",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMVJlbkFwVWNVVVZzdm5adjFLMHZsdUxVaVBtRFlVb3NKYXpFSFVWajg3VUdxMVEyVko1aGJNTEVnT3JVQ05OMVV2LWtIeEJ6aDF0SExMS1lwYVRnbVZISjhpdy15WVctR0FpR3RGSDFlWFpSNG9JRUE0VWxfeW5IbUItNElQYUloWUNSclVaZ3dEWC1vUjlkUGxhLVZtRGhRbXhsUWEwM0hKNFZvS1BvMHJOR0NJcEdlMXMtb0ptckZNSENTUVE?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-11T12:40:55+00:00",
+          "published_at": "2026-05-12T01:17:00+00:00",
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5fd43bb7a85019",
+      "topic": "oil",
+      "lead_title": "Mapping the Market: Energy shares may be in for a fall if warning is confirmed",
+      "lead_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ET2pvT3BCNDVIc3VTWUVmZ3ZJeUhQeUpsNGVHR1drc3J3WFRIMHFnUU41SXB4clh5RHpJNXJ6MTJfa3RFNFhsUFg5WnJKZDAwMTdvdXRGZTA2aUxzZE5tb1M1dWJRdk9uQU1iRnJ2VldmSW5CdS1vT1BpdFY?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T10:09:27+00:00",
+      "latest_seen": "2026-05-12T10:09:27+00:00",
+      "age_hours": 2.19,
+      "score": 67.18,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.68,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6a3e1dbc5fbecaba",
+          "title": "Mapping the Market: Energy shares may be in for a fall if warning is confirmed",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ET2pvT3BCNDVIc3VTWUVmZ3ZJeUhQeUpsNGVHR1drc3J3WFRIMHFnUU41SXB4clh5RHpJNXJ6MTJfa3RFNFhsUFg5WnJKZDAwMTdvdXRGZTA2aUxzZE5tb1M1dWJRdk9uQU1iRnJ2VldmSW5CdS1vT1BpdFY?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-12T10:09:27+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d21c0bd35b52d4",
+      "topic": "oil",
+      "lead_title": "Oil prices jump on latest US-Iran peace process impasse",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHhwaGkxMUwtRTJmcFhZU2puNzFud0M2WkJlNTFYeHRReFRFb0ZJMUdTLUhxTXBJMGxyOEc0MXJzX2pHWDdQMGZjNmhxc19yOVRWMHlPTXVzQS1VdmNsSTNraGlTMzZQanMzOGd3S2pVb2lGUElxUXNXQWd6MGpvMVh1SHFZYnh3TmJiSm1MSlU2eUxWWU05Zld4SmRfekh4WmNXOEVxUUJUUThqMnY2NVdn?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T00:34:00+00:00",
+      "latest_seen": "2026-05-12T00:34:00+00:00",
+      "age_hours": 11.78,
+      "score": 66.93,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.93,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "87bc84576282d3c7",
+          "title": "Oil prices jump on latest US-Iran peace process impasse",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHhwaGkxMUwtRTJmcFhZU2puNzFud0M2WkJlNTFYeHRReFRFb0ZJMUdTLUhxTXBJMGxyOEc0MXJzX2pHWDdQMGZjNmhxc19yOVRWMHlPTXVzQS1VdmNsSTNraGlTMzZQanMzOGd3S2pVb2lGUElxUXNXQWd6MGpvMVh1SHFZYnh3TmJiSm1MSlU2eUxWWU05Zld4SmRfekh4WmNXOEVxUUJUUThqMnY2NVdn?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-12T00:34:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_75b468e3572140",
+      "topic": "oil",
+      "lead_title": "Bulgargaz selects Shell as winner of LNG cargo tender",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOUVLM1ZpckUzWjRDNGQ1WnJiMGhJMjdSWEhIQUk5T0tfTk5ydzl6a2Q2UnJtbjgzUnIza3VITTdtVXVlcUI0aTdTOEVzVVQteDdUWGZKWHExdFFDR2prV1V2R2c5bDVJOWJQQk9QVF8tWmFJbmdZZWNHUF9xOFVXVnQwQjRGeG9XQmtrSGF4V0ZxcHFaY2ptYUh3R3RUdmFU?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T09:43:43+00:00",
+      "latest_seen": "2026-05-12T09:43:43+00:00",
+      "age_hours": 2.62,
+      "score": 66.93,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.43,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "dc917de5e35c4998",
+          "title": "Bulgargaz selects Shell as winner of LNG cargo tender",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOUVLM1ZpckUzWjRDNGQ1WnJiMGhJMjdSWEhIQUk5T0tfTk5ydzl6a2Q2UnJtbjgzUnIza3VITTdtVXVlcUI0aTdTOEVzVVQteDdUWGZKWHExdFFDR2prV1V2R2c5bDVJOWJQQk9QVF8tWmFJbmdZZWNHUF9xOFVXVnQwQjRGeG9XQmtrSGF4V0ZxcHFaY2ptYUh3R3RUdmFU?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-12T09:43:43+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -214,19 +355,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-12T10:04:40+00:00",
-      "latest_seen": "2026-05-12T10:04:40+00:00",
-      "age_hours": 0.06,
-      "score": 73.97,
+      "earliest_seen": "2026-05-12T10:22:47+00:00",
+      "latest_seen": "2026-05-12T10:22:47+00:00",
+      "age_hours": 1.97,
+      "score": 62.82,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.97,
+        "recency_points": 23.82,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "eb35187c2ebef17b",
@@ -234,8 +375,47 @@
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMzVFX2dRV0M5a3ZPWEJBOVhtc1VnTXpxYzk0MndaeUw0UmVuM3RPSnY1UWhhSUZ1a05WRHNJUlhGY1J1dHBsMFdxLVVLdENjZGxidjhkbjJYTU5CVWE3VndwMVo2VWtDSU4xaEJLWW9sSTlxbUwtc3JlSERMQi1LQlhrbmdKYTRQdTFwdHl3OTlsTDJfaG9jWHRwYVZPMGlV?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-05-12T10:04:40+00:00",
+          "published_at": "2026-05-12T10:22:47+00:00",
           "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_03491bcfcfdd3d",
+      "topic": "oil",
+      "lead_title": "Indian shares post worst drop in six weeks; $115 bln wiped out as Mideast hopes fade",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMV8xdXh1d1g2cWJUY3NfcmxFYzZRR2lXSTc1cE1xeWNPZ2lNcVRReXZzU2Q5RnFPQnEzT0lXaFBOaWlDNFZoUWszNFd1bjRLUEtCdVF0M2pmUW5ra3c2V0tXanVVRjd5eUE4QjYyVWFWSEFfTkhnZU51THgwOXhsV3VUeEszaVlqdy1sUkl2TURWZm1xcmNrVnlsMHBwdUdXa2x5RWtpZS1Rc0xGejMtanVlNG0?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T02:29:00+00:00",
+      "latest_seen": "2026-05-12T02:29:00+00:00",
+      "age_hours": 9.87,
+      "score": 62.58,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 19.08,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9c9a866dedd82e50",
+          "title": "Indian shares post worst drop in six weeks; $115 bln wiped out as Mideast hopes fade",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMV8xdXh1d1g2cWJUY3NfcmxFYzZRR2lXSTc1cE1xeWNPZ2lNcVRReXZzU2Q5RnFPQnEzT0lXaFBOaWlDNFZoUWszNFd1bjRLUEtCdVF0M2pmUW5ra3c2V0tXanVVRjd5eUE4QjYyVWFWSEFfTkhnZU51THgwOXhsV3VUeEszaVlqdy1sUkl2TURWZm1xcmNrVnlsMHBwdUdXa2x5RWtpZS1Rc0xGejMtanVlNG0?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-12T02:29:00+00:00",
+          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -257,17 +437,17 @@
       ],
       "earliest_seen": "2026-05-12T08:06:01+00:00",
       "latest_seen": "2026-05-12T08:06:01+00:00",
-      "age_hours": 2.03,
-      "score": 72.78,
+      "age_hours": 4.25,
+      "score": 61.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.78,
+        "recency_points": 22.45,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "481bc039ea379c97",
@@ -283,10 +463,10 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_0ed90d34092abe",
+      "cluster_id": "c_b1681e00585e67",
       "topic": "oil",
-      "lead_title": "Oil rises as fading hopes of quick end to Iran war reignite supply worries",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHhwaGkxMUwtRTJmcFhZU2puNzFud0M2WkJlNTFYeHRReFRFb0ZJMUdTLUhxTXBJMGxyOEc0MXJzX2pHWDdQMGZjNmhxc19yOVRWMHlPTXVzQS1VdmNsSTNraGlTMzZQanMzOGd3S2pVb2lGUElxUXNXQWd6MGpvMVh1SHFZYnh3TmJiSm1MSlU2eUxWWU05Zld4SmRfekh4WmNXOEVxUUJUUThqMnY2NVdn?oc=5",
+      "lead_title": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds",
+      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFkyWS1GOUpEZ2ZONlZDWXJJVjV0QWg4N1hzYU5Vc1oxQld5dnRQeWlOY0hTS0pvQkFnQldPN3FBM3VsN1hfTGttM3g5WU1YbFY4bXhWbGFCRGxMYThQZDgwTG9oWXBlRmRBa1RNb1BkRWZCX3FVMldPbHkwTmtmcTVPNml0N1VpVG4zUFExaHlnT1JIZVo1WmVsbHItMU9WcnlnUzdtVS1KSHV2dThrb1hCTFNnd2taVmNsMzNJaGk0ci1iQTlzVllVbHM?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [
         "oil"
@@ -296,13 +476,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-12T00:34:00+00:00",
-      "latest_seen": "2026-05-12T00:34:00+00:00",
-      "age_hours": 9.57,
-      "score": 68.26,
+      "earliest_seen": "2026-05-11T14:03:44+00:00",
+      "latest_seen": "2026-05-11T14:03:44+00:00",
+      "age_hours": 22.29,
+      "score": 60.63,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.26,
+        "recency_points": 11.63,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -311,12 +491,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "0c48933c6a0ed919",
-          "title": "Oil rises as fading hopes of quick end to Iran war reignite supply worries",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHhwaGkxMUwtRTJmcFhZU2puNzFud0M2WkJlNTFYeHRReFRFb0ZJMUdTLUhxTXBJMGxyOEc0MXJzX2pHWDdQMGZjNmhxc19yOVRWMHlPTXVzQS1VdmNsSTNraGlTMzZQanMzOGd3S2pVb2lGUElxUXNXQWd6MGpvMVh1SHFZYnh3TmJiSm1MSlU2eUxWWU05Zld4SmRfekh4WmNXOEVxUUJUUThqMnY2NVdn?oc=5",
+          "headline_id": "9eaf46b290378745",
+          "title": "OPEC oil output hits new low in April on Hormuz export disruption, Reuters survey finds",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbFkyWS1GOUpEZ2ZONlZDWXJJVjV0QWg4N1hzYU5Vc1oxQld5dnRQeWlOY0hTS0pvQkFnQldPN3FBM3VsN1hfTGttM3g5WU1YbFY4bXhWbGFCRGxMYThQZDgwTG9oWXBlRmRBa1RNb1BkRWZCX3FVMldPbHkwTmtmcTVPNml0N1VpVG4zUFExaHlnT1JIZVo1WmVsbHItMU9WcnlnUzdtVS1KSHV2dThrb1hCTFNnd2taVmNsMzNJaGk0ci1iQTlzVllVbHM?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-05-12T00:34:00+00:00",
+          "published_at": "2026-05-11T14:03:44+00:00",
           "confidence": 1.0
         }
       ],
@@ -324,12 +504,14 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_e53727cc8b8dc6",
+      "cluster_id": "c_547ecd574d625d",
       "topic": "oil",
-      "lead_title": "Hormuz closure extends well beyond oil to threaten Chinese EVs",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWJIdEtOdm1kVmQxMG51YXBoTTZKQ3FSSVgxbkI2ZGxjMDdSQlNKMm90MmtieVRCVzYtRnU0VXlIbWY4RF9NVzR0dHl2SUNSUjlza1lpMDgtQlBQUjNIM0dwVlZMX2k3NUdLREZ3NjR4NEdzdXgxdFpLUHd3VTFyQlBNdUtxVGhBbjRmdWlhMHVmMy1hbVZZb2FLUzAwWmo3R2dEWlJsZmpHUQ?oc=5",
-      "lead_source": "Reuters",
+      "lead_title": "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3pUb240VWdZU2pFXzNDRVpfNGloVkJab0M3RDh4anVCYzFzX01JZEJSREd5Ry1ab0lBOGUxTUh6WkYtMHBzUllsQ01pWHUtZlBwcEZDbDNXMW1fa0haRUpVLTR5dGsxaG1yMmhfTjhkb0JZMDltMFlBWXB3eXNfdzU5b1BfbzBz0gGOAUFVX3lxTFBXWjl6VXdoaU83SDNTM2pfRTZKMV9xeUdJUDQ4TTFhcFY4T0dyM0pvSzE1QmJoQlY0OGJ1eTUtVWgtLXJrejJtZ0hCb05xRFlpRzhWYUlNUnF1bDM2SUtDVndwdHhKR2hiRWhGNkp2eXlIU2Vkb184SnY5SlctY2hmam10cURFOWNyeFJ5WlE?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
+        "Brent",
+        "barrel",
         "oil"
       ],
       "source_count": 1,
@@ -337,78 +519,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-11T23:55:24+00:00",
-      "latest_seen": "2026-05-11T23:55:24+00:00",
-      "age_hours": 10.21,
-      "score": 67.87,
+      "earliest_seen": "2026-04-29T07:00:00+00:00",
+      "latest_seen": "2026-04-29T07:00:00+00:00",
+      "age_hours": 317.35,
+      "score": 57.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.87,
+        "recency_points": 0.0,
         "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
+        "entity_relevance_points": 12,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "63b307b0b562780d",
-          "title": "Hormuz closure extends well beyond oil to threaten Chinese EVs",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWJIdEtOdm1kVmQxMG51YXBoTTZKQ3FSSVgxbkI2ZGxjMDdSQlNKMm90MmtieVRCVzYtRnU0VXlIbWY4RF9NVzR0dHl2SUNSUjlza1lpMDgtQlBQUjNIM0dwVlZMX2k3NUdLREZ3NjR4NEdzdXgxdFpLUHd3VTFyQlBNdUtxVGhBbjRmdWlhMHVmMy1hbVZZb2FLUzAwWmo3R2dEWlJsZmpHUQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-11T23:55:24+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_039d4d8109b6ee",
-      "topic": "oil",
-      "lead_title": "Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says",
-      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQXR5c1g0TUk5NDlLTl8yN2h4ZUNrMXdPM2JfcW9kcTUwdXRCT2ZxSjk2cDFMd1Fld202dVFQR25GM25MNDM4WEFoU2plZ2J4bjdYMVFDTDNFLXQ5MzJwTkQ0Z0lRUGg4MmpORmxXR0dCeXRMLXN3XzF3blFfWk1aeHJuNmFaQmZwN29SaktqREZHWThUOURrTGQ3dVJvZ1NTMkUxLUMzWHJVbHUzMGJZcy1FOFZEM3pnb3JGcmIwM2ZPLXdoVTI0?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-11T15:51:00+00:00",
-      "latest_seen": "2026-05-11T16:49:43+00:00",
-      "age_hours": 17.31,
-      "score": 67.57,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 14.62,
-        "source_quality_points": 28.95,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "4fe812cb03fa7d3b",
-          "title": "Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQXR5c1g0TUk5NDlLTl8yN2h4ZUNrMXdPM2JfcW9kcTUwdXRCT2ZxSjk2cDFMd1Fld202dVFQR25GM25MNDM4WEFoU2plZ2J4bjdYMVFDTDNFLXQ5MzJwTkQ0Z0lRUGg4MmpORmxXR0dCeXRMLXN3XzF3blFfWk1aeHJuNmFaQmZwN29SaktqREZHWThUOURrTGQ3dVJvZ1NTMkUxLUMzWHJVbHUzMGJZcy1FOFZEM3pnb3JGcmIwM2ZPLXdoVTI0?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-11T15:51:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "39aaa9fec9ee7d81",
-          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTkpVYWpfcE4xYnRiVTk2MzNIYTF3dWJjUHQwNWFGcVlTSGZQWllMMWhLS0hwV1hydjAzaWc1dXFHaFlUa19yTTdRc3J4M3dQTC10VHBfekt1YjNNUUgxbzZOMEVYMkFSYUtBWUhFT3prX3B0MzktNC1KalRzNUp3YkZB0gGHAUFVX3lxTE9NYmxwMkFjV1E5dHZvVnpFR1piOERpb19SR3VLaHkwdDN6MVZEc3hBRU5NazZNcFV2dGdweFBCZTBad3M2MkE2VmFpU0N2OUN5b21zeVVkYUpCaDFvOTc2UnFUYkZLSUthdzF4eGRHTlZkcDE4OHA3ckNYQmNxSUpzNU8zaDU3WQ?oc=5",
+          "headline_id": "7644fa5aed44834d",
+          "title": "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3pUb240VWdZU2pFXzNDRVpfNGloVkJab0M3RDh4anVCYzFzX01JZEJSREd5Ry1ab0lBOGUxTUh6WkYtMHBzUllsQ01pWHUtZlBwcEZDbDNXMW1fa0haRUpVLTR5dGsxaG1yMmhfTjhkb0JZMDltMFlBWXB3eXNfdzU5b1BfbzBz0gGOAUFVX3lxTFBXWjl6VXdoaU83SDNTM2pfRTZKMV9xeUdJUDQ4TTFhcFY4T0dyM0pvSzE1QmJoQlY0OGJ1eTUtVWgtLXJrejJtZ0hCb05xRFlpRzhWYUlNUnF1bDM2SUtDVndwdHhKR2hiRWhGNkp2eXlIU2Vkb184SnY5SlctY2hmam10cURFOWNyeFJ5WlE?oc=5",
           "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-05-11T16:49:43+00:00",
-          "confidence": 0.93
+          "published_at": "2026-04-29T07:00:00+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -430,17 +562,17 @@
       ],
       "earliest_seen": "2026-05-12T06:36:00+00:00",
       "latest_seen": "2026-05-12T06:36:00+00:00",
-      "age_hours": 3.53,
-      "score": 67.38,
+      "age_hours": 5.75,
+      "score": 56.05,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.88,
+        "recency_points": 21.55,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7312f0d33d507dc4",
@@ -469,17 +601,17 @@
       ],
       "earliest_seen": "2026-05-12T09:30:00+00:00",
       "latest_seen": "2026-05-12T09:30:00+00:00",
-      "age_hours": 0.63,
-      "score": 67.22,
+      "age_hours": 2.85,
+      "score": 55.89,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.62,
+        "recency_points": 23.29,
         "source_quality_points": 27.6,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c927c9ffd0a290b4",
@@ -489,6 +621,178 @@
           "source_type": "rss",
           "published_at": "2026-05-12T09:30:00+00:00",
           "confidence": 0.92
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c89e2027444558",
+      "topic": "oil",
+      "lead_title": "Dollar rises but still not far from pre-war levels, await data",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbVIxd2lFUjZiUnBJbWdHNHA4dmU2Qll0NEY1UGR3VnVub2Q0WF95SWhhN1dvUmVKS1hzTEFhT21ab2cyS0ZvOHZRRmxxbXdMdUdINnMtV0c4S0lnNUdlbWdZU1k4X2x4LUdqWEd6NmdldU5pM3pWekVYYzFiR2c1YWZUa3Y0XzRaQWlQR0dFSFA2cHdyNWNkalk5dzBMcGPSAaQBQVVfeXFMT1lvWmNlZ05UU0tLd1c0NWtDdzk5dGlSbTlkSjUzVjBLSEQwSXBFeWl4Q3RlSGFxRk94Z0JzTDh4dlhJTW9SZGdiR2ZLYS0wOTluWFE2aDdIOVlBQ29rLW1ocVNLMW5BVk11blo0emxwal9xV1NzMEF2RmxoQnU2QUJnWEtUVXBlV2NtVXFaaFQ1VXhWUnlDQ1hsTV9fMHpfV2tmOFQ?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T11:07:14+00:00",
+      "latest_seen": "2026-05-12T11:07:14+00:00",
+      "age_hours": 1.23,
+      "score": 55.66,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.26,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "a3c4febc3c99ac13",
+          "title": "Dollar rises but still not far from pre-war levels, await data",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbVIxd2lFUjZiUnBJbWdHNHA4dmU2Qll0NEY1UGR3VnVub2Q0WF95SWhhN1dvUmVKS1hzTEFhT21ab2cyS0ZvOHZRRmxxbXdMdUdINnMtV0c4S0lnNUdlbWdZU1k4X2x4LUdqWEd6NmdldU5pM3pWekVYYzFiR2c1YWZUa3Y0XzRaQWlQR0dFSFA2cHdyNWNkalk5dzBMcGPSAaQBQVVfeXFMT1lvWmNlZ05UU0tLd1c0NWtDdzk5dGlSbTlkSjUzVjBLSEQwSXBFeWl4Q3RlSGFxRk94Z0JzTDh4dlhJTW9SZGdiR2ZLYS0wOTluWFE2aDdIOVlBQ29rLW1ocVNLMW5BVk11blo0emxwal9xV1NzMEF2RmxoQnU2QUJnWEtUVXBlV2NtVXFaaFQ1VXhWUnlDQ1hsTV9fMHpfV2tmOFQ?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-05-12T11:07:14+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6f87fb047beaff",
+      "topic": "oil",
+      "lead_title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "barrel",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-11T20:33:52+00:00",
+      "latest_seen": "2026-05-11T20:33:52+00:00",
+      "age_hours": 15.79,
+      "score": 53.53,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 15.53,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "7c0cb504ef155f1c",
+          "title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-11T20:33:52+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_039d4d8109b6ee",
+      "topic": "oil",
+      "lead_title": "Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says",
+      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQXR5c1g0TUk5NDlLTl8yN2h4ZUNrMXdPM2JfcW9kcTUwdXRCT2ZxSjk2cDFMd1Fld202dVFQR25GM25MNDM4WEFoU2plZ2J4bjdYMVFDTDNFLXQ5MzJwTkQ0Z0lRUGg4MmpORmxXR0dCeXRMLXN3XzF3blFfWk1aeHJuNmFaQmZwN29SaktqREZHWThUOURrTGQ3dVJvZ1NTMkUxLUMzWHJVbHUzMGJZcy1FOFZEM3pnb3JGcmIwM2ZPLXdoVTI0?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-11T15:51:00+00:00",
+      "latest_seen": "2026-05-11T16:49:43+00:00",
+      "age_hours": 19.52,
+      "score": 51.24,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 13.29,
+        "source_quality_points": 28.95,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "4fe812cb03fa7d3b",
+          "title": "Strait of Hormuz disruption could push oil market recovery into 2027, Aramco CEO says",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQXR5c1g0TUk5NDlLTl8yN2h4ZUNrMXdPM2JfcW9kcTUwdXRCT2ZxSjk2cDFMd1Fld202dVFQR25GM25MNDM4WEFoU2plZ2J4bjdYMVFDTDNFLXQ5MzJwTkQ0Z0lRUGg4MmpORmxXR0dCeXRMLXN3XzF3blFfWk1aeHJuNmFaQmZwN29SaktqREZHWThUOURrTGQ3dVJvZ1NTMkUxLUMzWHJVbHUzMGJZcy1FOFZEM3pnb3JGcmIwM2ZPLXdoVTI0?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-11T15:51:00+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "39aaa9fec9ee7d81",
+          "title": "Saudi Aramco CEO says oil market won't normalize until 2027 if Hormuz disruption persists",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTkpVYWpfcE4xYnRiVTk2MzNIYTF3dWJjUHQwNWFGcVlTSGZQWllMMWhLS0hwV1hydjAzaWc1dXFHaFlUa19yTTdRc3J4M3dQTC10VHBfekt1YjNNUUgxbzZOMEVYMkFSYUtBWUhFT3prX3B0MzktNC1KalRzNUp3YkZB0gGHAUFVX3lxTE9NYmxwMkFjV1E5dHZvVnpFR1piOERpb19SR3VLaHkwdDN6MVZEc3hBRU5NazZNcFV2dGdweFBCZTBad3M2MkE2VmFpU0N2OUN5b21zeVVkYUpCaDFvOTc2UnFUYkZLSUthdzF4eGRHTlZkcDE4OHA3ckNYQmNxSUpzNU8zaDU3WQ?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-05-11T16:49:43+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e53727cc8b8dc6",
+      "topic": "oil",
+      "lead_title": "Hormuz closure extends well beyond oil to threaten Chinese EVs",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWJIdEtOdm1kVmQxMG51YXBoTTZKQ3FSSVgxbkI2ZGxjMDdSQlNKMm90MmtieVRCVzYtRnU0VXlIbWY4RF9NVzR0dHl2SUNSUjlza1lpMDgtQlBQUjNIM0dwVlZMX2k3NUdLREZ3NjR4NEdzdXgxdFpLUHd3VTFyQlBNdUtxVGhBbjRmdWlhMHVmMy1hbVZZb2FLUzAwWmo3R2dEWlJsZmpHUQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-11T22:46:48+00:00",
+      "latest_seen": "2026-05-11T22:46:48+00:00",
+      "age_hours": 13.57,
+      "score": 50.86,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 16.86,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "63b307b0b562780d",
+          "title": "Hormuz closure extends well beyond oil to threaten Chinese EVs",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZWJIdEtOdm1kVmQxMG51YXBoTTZKQ3FSSVgxbkI2ZGxjMDdSQlNKMm90MmtieVRCVzYtRnU0VXlIbWY4RF9NVzR0dHl2SUNSUjlza1lpMDgtQlBQUjNIM0dwVlZMX2k3NUdLREZ3NjR4NEdzdXgxdFpLUHd3VTFyQlBNdUtxVGhBbjRmdWlhMHVmMy1hbVZZb2FLUzAwWmo3R2dEWlJsZmpHUQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-11T22:46:48+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -510,17 +814,17 @@
       ],
       "earliest_seen": "2026-05-12T00:21:00+00:00",
       "latest_seen": "2026-05-12T00:21:00+00:00",
-      "age_hours": 9.78,
-      "score": 66.03,
+      "age_hours": 12.0,
+      "score": 49.7,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.13,
+        "recency_points": 17.8,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "20b0f79c0e72919d",
@@ -551,17 +855,17 @@
       ],
       "earliest_seen": "2026-05-11T19:44:00+00:00",
       "latest_seen": "2026-05-11T19:44:00+00:00",
-      "age_hours": 14.4,
-      "score": 65.36,
+      "age_hours": 16.62,
+      "score": 49.03,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.36,
+        "recency_points": 15.03,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "9411e9cadebde305",
@@ -592,17 +896,17 @@
       ],
       "earliest_seen": "2026-05-11T19:27:21+00:00",
       "latest_seen": "2026-05-11T19:27:21+00:00",
-      "age_hours": 14.68,
-      "score": 65.19,
+      "age_hours": 16.89,
+      "score": 48.86,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.19,
+        "recency_points": 14.86,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "483ae399d4ef4ef0",
@@ -612,137 +916,6 @@
           "source_type": "rss",
           "published_at": "2026-05-11T19:27:21+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a3065ffcfb3aa9",
-      "topic": "oil",
-      "lead_title": "Iran war takes colour out of Japanese snack maker Calbee's chips packaging",
-      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmxJRXB6OXRtN1NRdmlFQVZ0OUg1WXRPM2FIc1VBN1J5RjQwVmNJNEg5aWw0ZVh0cWRSankxY2JBUFZ0RmNKaFQzejh0SmxQSGI4WVhVQkVyQ2tnXy1pNmZPa1g0emJaMGhQemxTSHhnaV9tUVZlbzluZmY4UnNiaU9QclB6UFhuUGpHcDhkakdER1NNQ2ZxUlJOZFVrZ0RiTS00MV9oUHBvN0c5NWVLQmJYcV9JQ05OOVlobzZtUFY3cXBlOXE1NU1B?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-12T03:46:00+00:00",
-      "latest_seen": "2026-05-12T03:46:00+00:00",
-      "age_hours": 6.37,
-      "score": 64.68,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.18,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "f7acbd68f1554066",
-          "title": "Iran war takes colour out of Japanese snack maker Calbee's chips packaging",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmxJRXB6OXRtN1NRdmlFQVZ0OUg1WXRPM2FIc1VBN1J5RjQwVmNJNEg5aWw0ZVh0cWRSankxY2JBUFZ0RmNKaFQzejh0SmxQSGI4WVhVQkVyQ2tnXy1pNmZPa1g0emJaMGhQemxTSHhnaV9tUVZlbzluZmY4UnNiaU9QclB6UFhuUGpHcDhkakdER1NNQ2ZxUlJOZFVrZ0RiTS00MV9oUHBvN0c5NWVLQmJYcV9JQ05OOVlobzZtUFY3cXBlOXE1NU1B?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-12T03:46:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c89e2027444558",
-      "topic": "oil",
-      "lead_title": "Dollar rises but still not far from pre-war levels, await data",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUUdfQ29oZEtWVGNSMEtlc0dQX1lDUTJsbEMxWk5iYlppWE1WcDRzWWF3SWhCQ1k4d3ZvY1V5bDc0RE9OM1pCSGJNYlptM2o4d2wtUkFOTUM5WFRXQVJwcUVKenNJNWszUElINmxiRDFSV1laaHNlclp2cDg2d09ERlMyWmZNT1BSS2lRVl9hU2hVaXVvcFZpQ290Unl1LUpD?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-12T01:36:00+00:00",
-      "latest_seen": "2026-05-12T01:36:00+00:00",
-      "age_hours": 8.53,
-      "score": 63.38,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.88,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a3c4febc3c99ac13",
-          "title": "Dollar rises but still not far from pre-war levels, await data",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUUdfQ29oZEtWVGNSMEtlc0dQX1lDUTJsbEMxWk5iYlppWE1WcDRzWWF3SWhCQ1k4d3ZvY1V5bDc0RE9OM1pCSGJNYlptM2o4d2wtUkFOTUM5WFRXQVJwcUVKenNJNWszUElINmxiRDFSV1laaHNlclp2cDg2d09ERlMyWmZNT1BSS2lRVl9hU2hVaXVvcFZpQ290Unl1LUpD?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-12T01:36:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_52cbaae6c2faa0",
-      "topic": "oil",
-      "lead_title": "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3pUb240VWdZU2pFXzNDRVpfNGloVkJab0M3RDh4anVCYzFzX01JZEJSREd5Ry1ab0lBOGUxTUh6WkYtMHBzUllsQ01pWHUtZlBwcEZDbDNXMW1fa0haRUpVLTR5dGsxaG1yMmhfTjhkb0JZMDltMFlBWXB3eXNfdzU5b1BfbzBz0gGOAUFVX3lxTFBXWjl6VXdoaU83SDNTM2pfRTZKMV9xeUdJUDQ4TTFhcFY4T0dyM0pvSzE1QmJoQlY0OGJ1eTUtVWgtLXJrejJtZ0hCb05xRFlpRzhWYUlNUnF1bDM2SUtDVndwdHhKR2hiRWhGNkp2eXlIU2Vkb184SnY5SlctY2hmam10cURFOWNyeFJ5WlE?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "Brent",
-        "barrel",
-        "crude",
-        "oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-29T07:00:00+00:00",
-      "latest_seen": "2026-04-30T07:00:00+00:00",
-      "age_hours": 291.13,
-      "score": 62.25,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 26.25,
-        "entity_relevance_points": 16,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "7644fa5aed44834d",
-          "title": "Brent oil pulls back after climbing to $126 per barrel on U.S.-Iran escalation fears",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3pUb240VWdZU2pFXzNDRVpfNGloVkJab0M3RDh4anVCYzFzX01JZEJSREd5Ry1ab0lBOGUxTUh6WkYtMHBzUllsQ01pWHUtZlBwcEZDbDNXMW1fa0haRUpVLTR5dGsxaG1yMmhfTjhkb0JZMDltMFlBWXB3eXNfdzU5b1BfbzBz0gGOAUFVX3lxTFBXWjl6VXdoaU83SDNTM2pfRTZKMV9xeUdJUDQ4TTFhcFY4T0dyM0pvSzE1QmJoQlY0OGJ1eTUtVWgtLXJrejJtZ0hCb05xRFlpRzhWYUlNUnF1bDM2SUtDVndwdHhKR2hiRWhGNkp2eXlIU2Vkb184SnY5SlctY2hmam10cURFOWNyeFJ5WlE?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-04-29T07:00:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "d3fa3172d056b517",
-          "title": "Why are gas prices so high? Brent crude oil price spikes overnight",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFVPTGZtOGxYZEVpOU1xVWRQQ3pnRkdIRkdHOFpCWHZtUHI4Y0JLcHBYMkJmT0lsRGdsMks2amZiT3lCbkRJSzRYYzUzbDZoTVdMdGNWa2JrcjlIUmhoOHdJRENGdzR5STV4ejI1c0NaNW10WGk1enE2MlBVcXoxa2haMHBtTkc2RGhXWmpDemp6R1lYcTAzOXJDamswdmxEdVI1MlNScUVkc1Y2MFdmc0J1emluN3Z4eW1OcFdqak5KNVFqSGpSRA?oc=5",
-          "source": "El Paso Times",
-          "source_type": "rss",
-          "published_at": "2026-04-30T07:00:00+00:00",
-          "confidence": 0.75
         }
       ],
       "top_tier": false,
@@ -765,17 +938,17 @@
       ],
       "earliest_seen": "2026-05-10T23:51:01+00:00",
       "latest_seen": "2026-05-10T23:51:01+00:00",
-      "age_hours": 34.28,
-      "score": 56.83,
+      "age_hours": 36.5,
+      "score": 40.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.43,
+        "recency_points": 3.1,
         "source_quality_points": 29.4,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1d3fe1bdaac6431d",
@@ -804,17 +977,17 @@
       ],
       "earliest_seen": "2026-05-11T14:28:00+00:00",
       "latest_seen": "2026-05-11T14:28:00+00:00",
-      "age_hours": 19.67,
-      "score": 56.7,
+      "age_hours": 21.88,
+      "score": 40.37,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.2,
+        "recency_points": 11.87,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0b4e57bfd142f91c",
@@ -824,86 +997,6 @@
           "source_type": "rss",
           "published_at": "2026-05-11T14:28:00+00:00",
           "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e7ccbb0dd0be40",
-      "topic": "oil",
-      "lead_title": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
-      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU2k0MS1kUG1yY0Q1N2VnU0d2R182VWRkWjRwT0twTGpwQ2dnM1JDV1pZcVhfSF84WGJac3lRQXB4a1Q1SWJ0Y2RkNGozZy1sNTgyLU5lWEdNS2FqcGhXS09BUUVYenNWNk9aNVI5MjNhbUNaMExQcC1lcS01N3JFc2NUUXJMdVFSUUNaRW5wcDNNWlR2YjNPOUlHV1NtNVdLN1JpNWFlMEVvdHZPQnc?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-11T08:49:00+00:00",
-      "latest_seen": "2026-05-11T08:49:00+00:00",
-      "age_hours": 25.32,
-      "score": 54.31,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 9.81,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "af2983998623e6a1",
-          "title": "Oil prices climb after Trump dismisses Iran’s response to peace plan",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNU2k0MS1kUG1yY0Q1N2VnU0d2R182VWRkWjRwT0twTGpwQ2dnM1JDV1pZcVhfSF84WGJac3lRQXB4a1Q1SWJ0Y2RkNGozZy1sNTgyLU5lWEdNS2FqcGhXS09BUUVYenNWNk9aNVI5MjNhbUNaMExQcC1lcS01N3JFc2NUUXJMdVFSUUNaRW5wcDNNWlR2YjNPOUlHV1NtNVdLN1JpNWFlMEVvdHZPQnc?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-05-11T08:49:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_35c5fadcf01f03",
-      "topic": "oil",
-      "lead_title": "Think $6 Gas Is Bad? It’s About to Get Even Worse in California",
-      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTHhKY3JDQkM4ZkNJZjFtS2FYaFFIYUwxMVo0X3lUUGNndHlhdjdERGhGU1VTMWRmbFlDQzZ1Wkxsb1M2a25va2ZuN0d5VnZjano4Q2NKRGRoZkZNeEZob2pRVnI0cHNRMjFiMzdreGY1R2NUU2J6NkRydjBPbDZqai16cmRJdUpsZXNTVFBkWFRFQ1ltUWhERzZoUXV2d1hfX3RWZy0xaWNvUlBFeEE?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-11T09:30:00+00:00",
-      "latest_seen": "2026-05-11T09:30:00+00:00",
-      "age_hours": 24.63,
-      "score": 52.82,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 10.22,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a615279343536668",
-          "title": "Think $6 Gas Is Bad? It’s About to Get Even Worse in California",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTHhKY3JDQkM4ZkNJZjFtS2FYaFFIYUwxMVo0X3lUUGNndHlhdjdERGhGU1VTMWRmbFlDQzZ1Wkxsb1M2a25va2ZuN0d5VnZjano4Q2NKRGRoZkZNeEZob2pRVnI0cHNRMjFiMzdreGY1R2NUU2J6NkRydjBPbDZqai16cmRJdUpsZXNTVFBkWFRFQ1ltUWhERzZoUXV2d1hfX3RWZy0xaWNvUlBFeEE?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-05-11T09:30:00+00:00",
-          "confidence": 0.92
         }
       ],
       "top_tier": false,
@@ -926,17 +1019,17 @@
       ],
       "earliest_seen": "2026-05-03T07:00:00+00:00",
       "latest_seen": "2026-05-03T07:00:00+00:00",
-      "age_hours": 219.13,
-      "score": 52.4,
+      "age_hours": 221.35,
+      "score": 37.4,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 29.4,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "aee0c0061595dc51",
