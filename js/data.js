@@ -617,10 +617,10 @@ const GAS_PRICES_BY_STATE = [
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 4.452,
-  mid: 5.025,
-  premium: 5.402,
-  diesel: 5.640,
+  regular: 4.500,
+  mid: 5.068,
+  premium: 5.453,
+  diesel: 5.639,
   source: "EIA Weekly Retail Gasoline Prices",
   updated: "As of May 12, 2026"
 };
