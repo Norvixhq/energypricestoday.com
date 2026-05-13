@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-13T21:54:56.575130+00:00",
-  "previous_generated_at": "2026-05-13T20:21:19.033982+00:00",
-  "resolver_run_count": 6,
+  "generated_at": "2026-05-13T23:13:10.819848+00:00",
+  "previous_generated_at": "2026-05-13T21:54:56.575130+00:00",
+  "resolver_run_count": 7,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,17 @@
       "status_detail": "Middle East conflict closes Strait of Hormuz, spikes crude oil prices",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.851,
+      "confidence": 0.84,
       "last_confirmed": "2026-05-13T20:33:59+00:00",
-      "source_count": 7,
-      "summary_short": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Tr",
-      "summary_long": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Trade Corridors Beyond Strait of Hormuz to Recover Middle East Tourism and Prevent Travel Demand and Hospitality Collapse in 2026. Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
+      "source_count": 8,
+      "summary_short": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
+      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build",
       "evidence_cluster_ids": [
         "c_cf4a0a6db80d70",
-        "c_a4bd8520b24b83",
         "c_64834f6601d2eb",
+        "c_a4bd8520b24b83",
         "c_907598c1c111f4",
-        "c_52c4ebfd1c7e08"
+        "c_c0dceaaefa618e"
       ],
       "evidence_count": 5,
       "affected_pages": [
@@ -41,12 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a4bd8520b2 → CLOSED (kw='closes strait', weight=0.61)",
-        "cluster c_907598c1c1 → OPEN (kw='reopen', weight=0.35)",
-        "winning=CLOSED (0.61/0.96), conf=0.851"
-      ],
-      "previous_status": "OPEN",
-      "last_changed": "2026-05-13T21:54:56.574970+00:00"
+        "cluster c_a4bd8520b2 → CLOSED (kw='closes strait', weight=0.49)",
+        "cluster c_907598c1c1 → OPEN (kw='reopen', weight=0.33)",
+        "winning=CLOSED (0.49/0.82), conf=0.84"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -57,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-13T20:03:45+00:00",
-      "source_count": 14,
-      "summary_short": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Tr",
-      "summary_long": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Trade Corridors Beyond Strait of Hormuz to Recover Middle East Tourism and Prevent Travel Demand and Hospitality Collapse in 2026. OPEC cuts 2026 global oil demand growth forecast",
+      "last_confirmed": "2026-05-13T22:04:58+00:00",
+      "source_count": 10,
+      "summary_short": "UAE-owned tanker leaks some fuel off Oman following Iranian strike",
+      "summary_long": "UAE-owned tanker leaks some fuel off Oman following Iranian strike. OPEC cuts 2026 global oil demand growth forecast",
       "evidence_cluster_ids": [
-        "c_cf4a0a6db80d70",
+        "c_d02484cb7acf86",
         "c_9a67ede4a8514c",
-        "c_a97648f793143f",
         "c_94c5f690e46b77",
-        "c_6f9ace4355087b"
+        "c_d0f1b2de0fcfbc",
+        "c_ed83efc3b0c77c"
       ],
-      "evidence_count": 12,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -98,7 +96,7 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-13T16:35:41+00:00",
+      "last_confirmed": "2026-05-13T16:37:29+00:00",
       "source_count": 3,
       "summary_short": "OPEC cuts 2026 global oil demand growth forecast",
       "summary_long": "OPEC cuts 2026 global oil demand growth forecast. OPEC cuts 2026 global oil demand growth forecast",
@@ -150,22 +148,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-05-13T21:54:56.574970+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_d6f6846b981c27",
-      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-      "lead_source": "WSJ",
+      "cluster_id": "c_c0dceaaefa618e",
+      "lead_title": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTzRScmctdkN4Ulc1ZC1Xc0pRRHVOYjFWSVdnNWY1RF82dFFxanh3LU91ajRMV3ZCcXMyaVlrSXh0YVk5TkdDMFdZZENka2xscERsTUZqSDhmOVVLd0pCU1hXQ3pvSU1nVGJVa1dUelZBaFJnMlhWLTZBVm9SUWl1bXlpdGI1SnE2V2Jnb1VjOUhuU0pMX1R3eExucUtfMUhvejlvWWk4dzNMcTJSbEpCZXFCM0pkTTZOT2pZTHM4dndXWWxNYzdETA?oc=5",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 93.36,
+      "score": 94.07,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -175,46 +171,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "OPEN",
-      "to": "CLOSED",
-      "detected_at": "2026-05-13T21:54:56.574970+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-05-13T21:54:56.574970+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-05-13T21:54:56.574970+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "HIGH",
-      "detected_at": "2026-05-13T21:54:56.574970+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.851, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.84, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
