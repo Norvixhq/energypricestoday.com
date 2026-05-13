@@ -67,3 +67,17 @@
 [2026-05-13T20:21:19.033955+00:00] resolver: no state changes
 [2026-05-13T20:21:19.034599+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-13T20:21:19.034641+00:00] ════════════════════════════════════════════════════════════
+[2026-05-13T21:54:56.569006+00:00] resolver: start
+[2026-05-13T21:54:56.573061+00:00] resolver: scanning 269 clusters across 10 topics
+[2026-05-13T21:54:56.573440+00:00]   hormuz_status: CLOSED (conf=0.851, freshness=fresh, clusters=5)
+[2026-05-13T21:54:56.574579+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=12)
+[2026-05-13T21:54:56.574720+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=2)
+[2026-05-13T21:54:56.574780+00:00]   global_risk_level: HIGH (score=50)
+[2026-05-13T21:54:56.574930+00:00]   top_story: 'U.S. Crude Oil Inventories Post Third Straight Weekly Drop' (score=93.36)
+[2026-05-13T21:54:56.574997+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-05-13T21:54:56.575029+00:00]   Δ hormuz_status.status: 'OPEN' → 'CLOSED' (triggers_publish=True)
+[2026-05-13T21:54:56.575058+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'HIGH' (triggers_publish=True)
+[2026-05-13T21:54:56.575083+00:00]   Δ global_risk_level.status: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-05-13T21:54:56.575107+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
+[2026-05-13T21:54:56.575697+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-13T21:54:56.575737+00:00] ════════════════════════════════════════════════════════════
