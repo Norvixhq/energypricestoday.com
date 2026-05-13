@@ -10,7 +10,7 @@ document,'script','https://connect.facebook.net/en_US/fbevents.js');
 fbq('init','957762016897581');fbq('track','PageView');
 </script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Energy Markets Dashboard — Live Oil, Gas, LNG, Coal, Metals | EnergyPricesToday</title>
+  <title>Energy Markets — Live Oil, Gas, LNG & Coal | EnergyPricesToday</title>
   <meta name="description" content="Live energy markets dashboard: WTI, Brent, Dubai, 40+ global benchmarks across crude oil, refined products, natural gas, LNG, coal, marine fuels, metals, and currencies. Updated every 5 minutes.">
   <link rel="canonical" href="https://www.energypricestoday.com/markets.html">
   <meta property="og:type" content="website"><meta property="og:title" content="Energy Markets Dashboard — Live Oil, Gas, LNG, Coal, Metals">
@@ -19,7 +19,7 @@ fbq('init','957762016897581');fbq('track','PageView');
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=26">
+  <link rel="stylesheet" href="css/styles.css?v=27">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
   <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=2">
@@ -158,8 +158,8 @@ fbq('init','957762016897581');fbq('track','PageView');
     </div></div></section>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=26"></script><script src="js/article-slugs.js?v=26"></script><script src="js/main.js?v=26"></script><script src="js/live-data.js?v=26"></script><script src="js/news-feed.js?v=26"></script>
-  <script src="js/event-state.js?v=26"></script>
+  <script src="js/data.js?v=27"></script><script src="js/article-slugs.js?v=27"></script><script src="js/main.js?v=27"></script><script src="js/live-data.js?v=27"></script><script src="js/news-feed.js?v=27"></script>
+  <script src="js/event-state.js?v=27"></script>
   <script>
     // ─── Reusable card templates ─────────────────────────────────
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.65">'+d+'</div></div>';}
@@ -380,19 +380,19 @@ fbq('init','957762016897581');fbq('track','PageView');
     // ─── Driver cards (expanded to 9) ────────────────────────────
     // Hormuz / Ceasefire / OPEC driver cards bind to events.json via data-event-bind.
     // Everything else is static explanatory content.
-    var mktHormuzFb   = 'Strait in twelfth week of disruption. Trump rejected Iran counterproposal Sunday May 10 as totally unacceptable. Ceasefire on massive life support per Trump Monday. Trump threatened bombing at much higher level if Iran does not agree. Aramco CEO warned Hormuz normalization could last into 2027 with 100M barrels lost weekly.';
-    var mktCeasefireFb= 'Trump publicly rejected Iran counterproposal Sunday as TOTALLY UNACCEPTABLE. Iran demanded U.S. lift OFAC sanctions on Iranian oil for 30 days and end naval blockade; refused to dismantle nuclear infrastructure. Iran vowed to never bow. Iranian Army spokesperson warned of surprising options. Trump Beijing visit later this week functions as hard deadline.';
-    var mktOpecFb     = 'The 206K bpd April output increase is proceeding despite the standoff. Saudi East-West Pipeline at full 5M bpd capacity &mdash; the primary Hormuz bypass. Aramco CEO Nasser warned Monday normalization could last into 2027. Gulf producers on heightened alert as deal collapse re-embeds risk premium. May ministerial mid-month.';
+    var mktHormuzFb   = 'Strait in twelfth week of disruption, day 79. Trump weighing return to military action; national security team meeting on Hormuz. Renewed discussions of restarting commercial vessel escorts. Aramco CEO warned Hormuz normalization could slip into 2027 if blocked past mid-June. WTI $102.18, Brent $107.77 Tuesday.';
+    var mktCeasefireFb= 'Stalemate hardening into frozen conflict per former Biden energy advisor Hochstein. Iran demanded 30-day OFAC sanctions suspension and end to blockade; refused to dismantle nuclear infrastructure. Trump heads to Beijing later this week to meet Xi and may press China to lean on Tehran. Citi: prices can rise further if dealmaking remains thorny.';
+    var mktOpecFb     = 'The 206K bpd April output increase is proceeding despite the standoff. Saudi East-West Pipeline at full 5M bpd capacity; UAE ADCOP at full 1.8M bpd &mdash; combined bypass well below the 20M+ bpd that normally transits Hormuz. Aramco CEO Nasser warned Monday normalization could slip into 2027. May ministerial mid-month; no emergency JMMC.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz Crisis — Ongoing','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+mktHormuzFb.replace(/"/g,'&quot;')+'">'+mktHormuzFb+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics dashboard →</a>'),
-      TC('chevron-right','Iran Proposal — Trump Rejects','<span data-event-bind="us_iran_ceasefire.summary_long|truncate:240" data-event-fallback="'+mktCeasefireFb.replace(/"/g,'&quot;')+'">'+mktCeasefireFb+'</span> <a href="articles/iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied.html" style="color:var(--blue)">Full coverage →</a>'),
+      TC('chevron-right','U.S.-Iran — Frozen Conflict','<span data-event-bind="us_iran_ceasefire.summary_long|truncate:240" data-event-fallback="'+mktCeasefireFb.replace(/"/g,'&quot;')+'">'+mktCeasefireFb+'</span> <a href="articles/hochstein-frozen-conflict-no-war-no-oil-no-straits-90-100-through-2027.html" style="color:var(--blue)">Full coverage →</a>'),
       TC('users','OPEC+ — Holding the Plan','<span data-event-bind="opec_plus_policy.summary_long|truncate:240" data-event-fallback="'+mktOpecFb.replace(/"/g,'&quot;')+'">'+mktOpecFb+'</span> <a href="articles/what-is-opec-plus-how-it-affects-oil-prices.html" style="color:var(--blue)">OPEC+ explainer →</a>'),
       TC('factory','Refining Season — Peak Turnaround','Spring maintenance has pulled U.S. refining utilization to ~87%. Summer gasoline blend transition is adding $0.10-0.25/gal to RBOB. Gulf Coast refiners ramping aggressively for peak driving demand through Memorial Day. Crack spreads at multi-year highs.'),
-      TC('bar-chart','EIA Inventory Data — Bullish','EIA inventory reports continue to show draws as U.S. dual-blockade keeps Middle East cargoes stranded. Cushing stocks below the 5-year average. U.S. crude exports surged to record levels last week. Next report Wednesday May 6.'),
-      TC('bar-chart','Refined Product Cracks &mdash; Firming','Gasoline RBOB at $3.42, ULSD/diesel at $4.12, jet fuel $4.49 after Monday 4% rally. Crack spreads (refiner margin over crude) at multi-year highs. Summer blend transition supports RBOB premium. Pump-level: AAA national $4.520/gal Monday May 11, down 3 cents from May 8 peak; Monday rally will reverse decline.'),
-      TC('trending-up','Natural Gas — Firming','Henry Hub near $2.68/MMBtu, firming as the Qatari LNG disruption bites again. Mild spring demand softens the shoulder, but LNG exports near capacity at 14 Bcf/d as European buyers return to premium bidding. Dutch TTF elevated.'),
-      TC('anchor','LNG Trade — Tight','JKM and TTF both elevated on Qatari export disruption. Europe cannot easily pivot back to Russian pipeline gas; Asian importers are outbidding European utility buyers. EU transport chief preparing airline guidance on potential jet fuel shortages.'),
-      TC('activity','Trading Desks &mdash; Monday Rally','WTI settled $100.30 (+4.96%), Brent $105.76 (+4.92%) Monday after Trump rejected Iran counterproposal Sunday. The rally undoes most of last week relief move and re-embeds the geopolitical risk premium. Kalshi traders moved odds of WTI reaching $127 in 2026 above 65%. Implied volatility climbed across the curve.'),
+      TC('bar-chart','EIA Inventory Data — Bullish','EIA inventory reports continue to show draws as the dual-blockade keeps Middle East cargoes stranded. Cushing stocks below the 5-year average. U.S. crude exports near record levels. Next report Wednesday May 13.'),
+      TC('bar-chart','Refined Product Cracks &mdash; Firming','Gasoline RBOB at $3.53, ULSD/diesel at $4.25, jet fuel $4.63 after Tuesday\'s rally. Crack spreads (refiner margin over crude) at multi-year highs. Summer blend transition supports RBOB premium. Pump-level: AAA national $4.504 Tuesday, down 4 cents from May 8 peak on pass-through lag; Tuesday rally will reverse decline within 1-2 weeks.'),
+      TC('trending-up','Natural Gas — Firming','Henry Hub near $2.79/MMBtu, firming as the Qatari LNG disruption bites again. Mild spring demand softens the shoulder, but LNG exports near capacity at 14 Bcf/d as European buyers return to premium bidding. Dutch TTF elevated.'),
+      TC('anchor','LNG Trade — Tight','JKM and TTF both elevated on Qatari export disruption. Europe cannot easily pivot back to Russian pipeline gas; Asian importers outbidding European utility buyers. EU transport chief preparing airline guidance on potential jet fuel shortages.'),
+      TC('activity','Trading Desks &mdash; Tuesday Rally','WTI settled $102.18 (+4.2%), Brent $107.77 (+3.4%) Tuesday after reports Trump is weighing a return to military action. Both benchmarks up 45%+ since the war began Feb 28. Kalshi odds of WTI reaching $127 in 2026 moved above 70%. Implied volatility climbed across the curve.'),
     ].join('');
 
     // Re-apply event-state bindings after innerHTML injection.
