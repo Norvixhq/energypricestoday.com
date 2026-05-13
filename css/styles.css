@@ -60,6 +60,27 @@ main{overflow-x:hidden}
   --radius-sm: 6px;
   --radius: 10px;
   --radius-lg: 14px;
+
+  /* ─── TYPE SCALE (7-step) ────────────────────────────────────────
+     Tight, deliberate scale to replace ad-hoc font-sizes accumulated
+     across pages. New code should reference these tokens.
+     ─────────────────────────────────────────────────────────────── */
+  --t-eyebrow:  10.5px;   /* uppercase labels, freshness pills */
+  --t-caption:  12px;     /* meta, captions, source lines */
+  --t-meta:     13px;     /* card meta rows, secondary UI */
+  --t-body:     14.5px;   /* default UI body */
+  --t-lead:     16px;     /* editorial intro paragraphs */
+  --t-h3:       19px;     /* sub-section heads */
+  --t-h2:       22px;     /* section titles */
+
+  /* ─── TRACKING & LEADING ─────────────────────────────────────────
+     Single source of truth for letter-spacing on uppercase labels
+     and line-height for prose. ─────────────────────────────────── */
+  --track-eyebrow: 0.08em;
+  --track-label:   0.04em;
+  --track-headline: -0.012em;
+  --lead-tight:    1.45;
+  --lead-prose:    1.72;
 }
 
 /* ─── RESET ─────────────────────────────────────────────────────── */
@@ -392,16 +413,34 @@ h4{font-size:14.5px;font-weight:600;font-family:var(--font-body)}
 .footer-bottom p{color:var(--text-3);font-size:11px}
 
 /* ─── SECTION HEADER ────────────────────────────────────────────── */
-.section-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}
+.section-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:22px;gap:16px;flex-wrap:wrap}
 .section-title{
-  font-size:19px;font-weight:600;color:var(--text-1);
-  display:flex;align-items:center;gap:8px;margin:0;
+  font-family:var(--font-head);
+  font-size:var(--t-h2);
+  font-weight:600;
+  letter-spacing:var(--track-headline);
+  color:var(--text-1);
+  display:flex;align-items:center;gap:10px;margin:0;
+  line-height:1.25;
 }
 .section-title svg{color:var(--amber);width:18px;height:18px}
+/* Optional short descriptive deck under a section title */
+.section-deck{
+  display:block;
+  font-family:var(--font-body);
+  font-size:var(--t-meta);
+  font-weight:400;
+  color:var(--text-3);
+  margin:6px 0 0;
+  max-width:720px;
+  line-height:1.55;
+  letter-spacing:0;
+}
 .section-action{
   background:none;border:1px solid var(--border);color:var(--text-3);
   font-size:12px;font-weight:500;padding:5px 14px;border-radius:var(--radius-sm);
   display:flex;align-items:center;gap:5px;transition:all .15s;
+  align-self:center;
 }
 .section-action:hover{border-color:var(--blue);color:var(--blue)}
 
@@ -484,9 +523,9 @@ a.cat-pill:hover{opacity:.8}
   display:flex;align-items:center;justify-content:center;
 }
 .driver-icon svg{color:var(--amber)}
-.driver-cat{color:var(--text-3);font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em}
-.driver-title{color:var(--text-1);font-size:14px;font-weight:600;margin-bottom:4px;line-height:1.35}
-.driver-desc{color:var(--text-2);font-size:12.5px;line-height:1.6}
+.driver-cat{color:var(--text-3);font-size:var(--t-eyebrow);font-weight:700;text-transform:uppercase;letter-spacing:var(--track-eyebrow)}
+.driver-title{font-family:var(--font-head);color:var(--text-1);font-size:16px;font-weight:600;margin-bottom:6px;line-height:1.32;letter-spacing:var(--track-headline)}
+.driver-desc{color:var(--text-2);font-size:13px;line-height:1.62}
 
 /* ─── ARTICLE CARDS ─────────────────────────────────────────────── */
 .article-featured{
@@ -1928,3 +1967,177 @@ a.article-featured{pointer-events:auto}
 .freshness--reference{ color:var(--text-3); background:rgba(255,255,255,0.04); }
 .freshness--reference::before{ background:var(--text-3); }
 @keyframes freshness-pulse{ 0%,100%{ opacity:1; } 50%{ opacity:0.35; } }
+
+/* ─── GEO SECTION SUB-HEADERS ───────────────────────────────────────
+   Visually separate Regional Stories from Strategic Chokepoints so
+   the two .grid-4 rows in the Geopolitics & Global Supply section
+   read as two distinct surfaces, not one undifferentiated block.
+*/
+.geo-subhead{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin:0 0 16px;
+}
+.geo-subhead-label{
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:0.10em;
+  text-transform:uppercase;
+  color:var(--text-3);
+  white-space:nowrap;
+}
+.geo-subhead-rule{
+  flex:1;
+  height:1px;
+  background:linear-gradient(90deg, var(--border) 0%, transparent 100%);
+}
+/* Visual rhythm: ensure geo-cards and chokepoint-cards have consistent height */
+.geo-card{ min-height:130px; display:flex; flex-direction:column; }
+.geo-card .geo-desc{ flex:1; }
+.chokepoint-card{ min-height:130px; display:flex; flex-direction:column; }
+.chokepoint-card .chokepoint-desc{ flex:1; }
+@media(max-width:640px){
+  .geo-card, .chokepoint-card{ min-height:auto; }
+}
+
+/* ═══════════════════════════════════════════════════════════════════
+   PREMIUM AUTHORITY PASS — May 2026
+   Editorial typography utilities, authority signals, visual rhythm.
+   Additive only. Existing component CSS unchanged.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─── .prose — editorial body for pillar narratives ──────────────────
+   Switches long-form intro paragraphs to serif (Newsreader) for a
+   more publication-like feel. Apply to <div> wrapping 2–3 paragraphs
+   of pillar narrative. Body text in cards/UI stays in sans (Outfit).
+   ──────────────────────────────────────────────────────────────── */
+.prose{
+  font-family:var(--font-head);
+  font-size:var(--t-lead);
+  line-height:var(--lead-prose);
+  color:var(--text-2);
+  letter-spacing:0;
+  max-width:780px;
+}
+.prose p{ margin:0 0 18px; }
+.prose p:last-child{ margin-bottom:0; }
+.prose strong{ color:var(--text-1); font-weight:600; }
+.prose a{ color:var(--blue); text-decoration:none; border-bottom:1px solid rgba(61,143,212,0.28); transition:border-color .15s; }
+.prose a:hover{ border-bottom-color:var(--blue); }
+@media(max-width:640px){
+  .prose{ font-size:15px; line-height:1.68; }
+  .prose p{ margin-bottom:14px; }
+}
+
+/* ─── .source-line — small authority footnote under data modules ──
+   Use BELOW data-heavy modules (Conflict Snapshot, Top Movers,
+   Outlook). Tiny grey text. Reads as "Source · Updated · How we
+   calculate this". Strengthens perceived rigor without clutter. */
+.source-line{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  gap:0 14px;
+  margin-top:14px;
+  padding-top:12px;
+  border-top:1px solid var(--border);
+  font-family:var(--font-body);
+  font-size:var(--t-caption);
+  color:var(--text-3);
+  line-height:1.6;
+}
+.source-line > span{ white-space:nowrap; }
+.source-line > span + span::before{
+  content:'·'; margin-right:12px; color:var(--text-3); opacity:0.45;
+}
+.source-line a{ color:var(--text-2); text-decoration:none; border-bottom:1px dotted var(--text-3); }
+.source-line a:hover{ color:var(--blue); border-bottom-color:var(--blue); }
+.source-line strong{ color:var(--text-2); font-weight:500; }
+
+/* ─── .editor-note — short editorial card ────────────────────────
+   For "Editor's Note" / "What we're watching" modules. Slightly
+   warmer than surrounding cards via a left-rule and serif body. */
+.editor-note{
+  display:block;
+  border-left:3px solid var(--gold);
+  padding:16px 20px 18px;
+  background:linear-gradient(180deg, rgba(224,173,40,0.025) 0%, rgba(224,173,40,0.005) 100%);
+  border-radius:0 8px 8px 0;
+}
+.editor-note-label{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-family:var(--font-body);
+  font-size:var(--t-eyebrow);
+  font-weight:700;
+  letter-spacing:var(--track-eyebrow);
+  text-transform:uppercase;
+  color:var(--gold);
+  margin-bottom:8px;
+}
+.editor-note-label::before{
+  content:'';
+  width:18px; height:1px;
+  background:var(--gold);
+  display:inline-block;
+}
+.editor-note-body{
+  font-family:var(--font-head);
+  font-size:15.5px;
+  line-height:1.68;
+  color:var(--text-2);
+  margin:0;
+}
+.editor-note-body strong{ color:var(--text-1); font-weight:600; }
+.editor-note-byline{
+  display:block;
+  font-family:var(--font-body);
+  font-size:var(--t-caption);
+  color:var(--text-3);
+  margin-top:10px;
+  letter-spacing:0;
+}
+
+/* ─── .masthead-line — publication footer line on pillar pages ───
+   Single thin line ABOVE the site footer that reads:
+   "Edited by EnergyPricesToday Editorial · Independent · Ad-free"
+   ──────────────────────────────────────────────────────────────── */
+.masthead-line{
+  border-top:1px solid var(--border);
+  padding:20px 0 8px;
+  margin-top:32px;
+  text-align:center;
+  font-family:var(--font-body);
+  font-size:var(--t-caption);
+  color:var(--text-3);
+  letter-spacing:0.02em;
+}
+.masthead-line strong{ color:var(--text-2); font-weight:500; }
+.masthead-line > span + span::before{
+  content:'·'; margin:0 10px; opacity:0.45;
+}
+
+/* ─── Section padding rhythm modifiers ───────────────────────────
+   Default .section is 48px vertical. Use modifiers for variable
+   pacing without changing base.
+   ──────────────────────────────────────────────────────────────── */
+.section--lg{ padding:64px 0; }
+.section--sm{ padding:36px 0; }
+.section--tight{ padding:24px 0; border-top:none; }
+@media(max-width:640px){
+  .section--lg{ padding:48px 0; }
+  .section--sm{ padding:28px 0; }
+}
+
+/* ─── Soften UI labels that previously used hard ALL CAPS ────────
+   Targeted: secondary captions only. Eyebrow labels stay uppercase
+   as intended; this just calms middle-level UI. */
+.price-card-label{ letter-spacing:var(--track-label); }
+.section-deck{ text-transform:none; }
+
+/* ─── Tighten breadcrumb breathing room on category pages ────────
+   Was: margin-bottom:16px sitting next to large H1.
+   Now: a touch more space below for editorial feel. */
+.page-hero-large .breadcrumbs{ margin-bottom:22px; opacity:0.85; }
