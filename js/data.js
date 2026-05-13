@@ -61,11 +61,11 @@ const BREAKING_NEWS = [
   { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
   { title: "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump’s China visit. What are experts saying", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil prices today: Crude jumps after Trump rejects Iran’s latest offer; Strait of Hormuz remains shut", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Why are oil prices up today, and will Brent and US WTI crude futures rise sharply or fall again? Global oi", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Current price of oil as of May 12, 2026", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "Oil price predicted to remain above $100 for rest of year", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Current price of oil as of May 12, 2026", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Why Physical Crude Premiums Collapse Despite the Hormuz Crisis", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil price predicted to remain above $100 for rest of year", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Brent oil tops $104 after Trump says ceasefire with Iran is on 'life support'", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
