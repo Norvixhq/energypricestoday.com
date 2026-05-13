@@ -53,6 +53,7 @@ const ARTICLE_SLUGS = {
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
   "Current price of oil as of May 12, 2026": "current-price-of-oil-as-of-may-12-2026",
+  "Current price of oil as of May 13, 2026": "current-price-of-oil-as-of-may-13-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
   "Diesel and Heating Oil Margins Diverge as Trucking Demand Holds": "diesel-and-heating-oil-margins-diverge-as-trucking-demand-holds",
   "Drones Strike Qatari Waters; UAE and Kuwait Intercept Iranian Drones": "drones-strike-qatari-waters-uae-and-kuwait-intercept-iranian-drones",
