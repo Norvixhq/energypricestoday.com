@@ -63,6 +63,12 @@
       <p style="color:var(--text-2);font-size:14px;line-height:1.65;margin-bottom:20px;max-width:780px">What you pay at the pump is the wholesale futures price plus taxes, distribution costs, and retailer margin. The spread below shows how many cents per gallon are added to the underlying benchmark before fuel reaches your tank.</p>
       <div class="grid-2" id="spread-cards"></div>
       <p style="color:var(--text-3);font-size:11px;margin-top:14px;line-height:1.55">Federal gasoline tax is $0.184/gal; federal diesel tax is $0.244/gal. State taxes range from $0.09 (Alaska) to $0.68 (California) for gasoline. The remainder of the spread covers refining-to-station logistics, terminal/rack fees, and retailer margin. Wholesale benchmarks are NYMEX front-month futures.</p>
+
+      <!-- QUICK COMPARISONS — small comparison strip beneath the main spread cards -->
+      <div style="margin-top:28px;padding-top:24px;border-top:1px solid var(--border)">
+        <h3 style="font-size:13px;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-2);font-weight:700;margin:0 0 14px">Quick Comparisons <span class="freshness freshness--daily" style="margin-left:6px">Daily</span></h3>
+        <div class="grid-3" id="quick-comparisons"></div>
+      </div>
     </div></section>
 
     <!-- HIGHLIGHTS -->
@@ -174,7 +180,7 @@
     function SB(l,v,s){return '<div class="stat-box"><div class="stat-box-label">'+l+'</div><div class="stat-box-value" style="font-size:26px">'+v+'</div><div class="stat-box-sub" style="color:var(--text-3)">'+s+'</div></div>';}
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
-    document.getElementById('sec-national').innerHTML = icon('fuel',20)+' AAA National Gas Price Averages';
+    document.getElementById('sec-national').innerHTML = icon('fuel',20)+' AAA National Gas Price Averages <span class="freshness freshness--daily" style="margin-left:8px;vertical-align:3px">Daily</span>';
     document.getElementById('sec-spread').innerHTML = icon('bar-chart',20)+' Retail vs Wholesale Spread';
     document.getElementById('sec-highlights').innerHTML = icon('bar-chart',20)+' Price Highlights';
     document.getElementById('sec-states').innerHTML = icon('map',20)+' Gas Prices by State — All 50 States + DC';
@@ -245,6 +251,47 @@
     }
     renderSpreads();
     window.addEventListener('livePricesUpdated', renderSpreads);
+
+    // ─── QUICK COMPARISONS ──────────────────────────────────────────
+    // Compact comparison strip: California vs US, highest state vs US, lowest state vs US.
+    // Updates whenever the daily refresh changes US_GAS_NATIONAL / GAS_PRICES_BY_STATE.
+    function renderQuickComparisons() {
+      try {
+        var natl = US_GAS_NATIONAL.regular;
+        var ca = GAS_PRICES_BY_STATE.find(function(s){return s.abbr==='CA';});
+        var sorted = GAS_PRICES_BY_STATE.slice().sort(function(a,b){return a.regular-b.regular;});
+        var lowest  = sorted[0];
+        // If California is the highest state (typical), step one down so we show a different state
+        var highest = sorted[sorted.length-1];
+        if (highest.abbr === 'CA') highest = sorted[sorted.length-2];
+
+        function comparisonCard(label, statePx, stateName, color) {
+          var diff = statePx - natl;
+          var pct = (diff / natl) * 100;
+          var sign = diff >= 0 ? '+' : '−';
+          var arrow = diff >= 0 ? '▲' : '▼';
+          return '<div class="stat-box" style="text-align:left;padding:18px;border-left:3px solid '+color+'">'
+            + '<div style="font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.06em;font-weight:600;margin-bottom:8px">'+label+'</div>'
+            + '<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:8px">'
+              + '<span style="font-size:14.5px;font-weight:700;color:var(--text-1)">'+stateName+'</span>'
+              + '<span style="font-size:18px;font-weight:800;color:var(--text-1)">$'+statePx.toFixed(3)+'</span>'
+            + '</div>'
+            + '<div style="display:flex;justify-content:space-between;align-items:center;font-size:12px">'
+              + '<span style="color:var(--text-3)">vs U.S. avg $'+natl.toFixed(3)+'</span>'
+              + '<span style="color:'+color+';font-weight:700">'+arrow+' '+sign+'$'+Math.abs(diff).toFixed(3)+' ('+sign+Math.abs(pct).toFixed(1)+'%)</span>'
+            + '</div>'
+          + '</div>';
+        }
+
+        document.getElementById('quick-comparisons').innerHTML =
+          comparisonCard('California vs U.S.',          ca.regular,      'California',     '#f59e0b') +
+          comparisonCard('Highest non-CA vs U.S.',       highest.regular, highest.state,    '#ef4444') +
+          comparisonCard('Lowest state vs U.S.',         lowest.regular,  lowest.state,     '#10b981');
+      } catch(e) {
+        document.getElementById('quick-comparisons').innerHTML = '<div class="stat-box" style="padding:18px;color:var(--text-3)">Comparisons updating\u2026</div>';
+      }
+    }
+    renderQuickComparisons();
 
     // Highlights: top 5 cheapest + top 5 most expensive states
     var sorted = GAS_PRICES_BY_STATE.slice().sort(function(a,b){return a.regular-b.regular;});

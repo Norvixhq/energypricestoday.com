@@ -1887,3 +1887,44 @@ a.article-featured{pointer-events:auto}
 .trust-hub-card.current svg{color:var(--blue)}
 @media(max-width:900px){.trust-hub{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:500px){.trust-hub{grid-template-columns:1fr}}
+
+/* ─── FRESHNESS PILLS ───────────────────────────────────────────────
+   Tiny reusable label that communicates data update cadence:
+   .freshness--live      green   updates every 5 min via API
+   .freshness--daily     blue    updates once per day (AAA, daily refresh)
+   .freshness--weekly    amber   updates weekly (Baker Hughes, EIA)
+   .freshness--monthly   amber   updates monthly (EIA electricity)
+   .freshness--reference grey    static reference data (taxes, capacities)
+*/
+.freshness{
+  display:inline-flex;
+  align-items:center;
+  gap:4px;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:0.08em;
+  text-transform:uppercase;
+  padding:2px 6px;
+  border-radius:3px;
+  vertical-align:middle;
+  line-height:1.2;
+  white-space:nowrap;
+}
+.freshness::before{
+  content:'';
+  width:5px;
+  height:5px;
+  border-radius:50%;
+  display:inline-block;
+}
+.freshness--live{ color:#10b981; background:rgba(16,185,129,0.10); }
+.freshness--live::before{ background:#10b981; animation:freshness-pulse 2s ease-in-out infinite; }
+.freshness--daily{ color:#3d8fd4; background:rgba(61,143,212,0.12); }
+.freshness--daily::before{ background:#3d8fd4; }
+.freshness--weekly{ color:#f59e0b; background:rgba(245,158,11,0.12); }
+.freshness--weekly::before{ background:#f59e0b; }
+.freshness--monthly{ color:#f59e0b; background:rgba(245,158,11,0.12); }
+.freshness--monthly::before{ background:#f59e0b; }
+.freshness--reference{ color:var(--text-3); background:rgba(255,255,255,0.04); }
+.freshness--reference::before{ background:var(--text-3); }
+@keyframes freshness-pulse{ 0%,100%{ opacity:1; } 50%{ opacity:0.35; } }

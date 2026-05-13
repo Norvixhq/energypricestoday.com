@@ -174,12 +174,12 @@ fbq('init','957762016897581');fbq('track','PageView');
         <!-- AT-A-GLANCE MARKET STRIP — complements the hero price cards above with derived + risk info -->
         <div class="glance-strip" id="glance-strip">
           <div class="glance-item">
-            <div class="glance-item-label">Brent-WTI Spread</div>
+            <div class="glance-item-label">Brent-WTI Spread <span class="freshness freshness--live">Live</span></div>
             <div class="glance-item-value" data-glance="spread">+$4.62</div>
             <div class="glance-item-sub">global vs U.S.</div>
           </div>
           <div class="glance-item risk-high">
-            <div class="glance-item-label">Hormuz Status</div>
+            <div class="glance-item-label">Hormuz Status <span class="freshness freshness--daily">Daily</span></div>
             <div class="glance-item-value" style="font-size:14px"
                  data-event-bind="hormuz_status.status"
                  data-event-fallback="CLOSED">CLOSED</div>
@@ -188,12 +188,12 @@ fbq('init','957762016897581');fbq('track','PageView');
                  data-event-fallback="Strait closed">Strait closed</div>
           </div>
           <div class="glance-item">
-            <div class="glance-item-label">U.S. Gas Avg</div>
+            <div class="glance-item-label">U.S. Gas Avg <span class="freshness freshness--daily">Daily</span></div>
             <div class="glance-item-value" data-glance="gas">$4.504</div>
             <div class="glance-item-sub">AAA regular</div>
           </div>
           <div class="glance-item risk-high">
-            <div class="glance-item-label">Risk Level</div>
+            <div class="glance-item-label">Risk Level <span class="freshness freshness--daily">Daily</span></div>
             <div class="glance-item-value"
                  data-event-bind="global_risk_level.status"
                  data-event-fallback="HIGH">HIGH</div>
@@ -202,7 +202,7 @@ fbq('init','957762016897581');fbq('track','PageView');
                  data-event-fallback="Hormuz + ceasefire">Hormuz + ceasefire</div>
           </div>
           <div class="glance-item">
-            <div class="glance-item-label">Next Catalyst</div>
+            <div class="glance-item-label">Next Catalyst <span class="freshness freshness--reference">Editorial</span></div>
             <div class="glance-item-value" style="font-size:14px"
                  data-event-bind="us_iran_ceasefire.next_catalyst_date|date_short"
                  data-event-fallback="May 14">May 14</div>
@@ -229,7 +229,16 @@ fbq('init','957762016897581');fbq('track','PageView');
       </div>
     </section>
 
-
+    <!-- TOP MOVERS — quick scan of biggest 24h moves across tracked benchmarks -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="sec-top-movers"></h2>
+          <a href="markets.html" class="section-action" id="sec-top-movers-action"></a>
+        </div>
+        <div class="grid-3" id="top-movers"></div>
+      </div>
+    </section>
 
     <!-- WHAT'S MOVING MARKETS -->
     <section class="section">
@@ -434,6 +443,8 @@ fbq('init','957762016897581');fbq('track','PageView');
   <script>
     document.getElementById('hero-eyebrow').innerHTML = icon('activity',14) + ' Live Energy Markets';
     document.getElementById('sec-drivers').innerHTML = icon('activity',18) + " What’s Moving Markets Today";
+    var stmEl = document.getElementById('sec-top-movers'); if (stmEl) stmEl.innerHTML = icon('trending-up',18)+' Top Movers <span class="freshness freshness--live" style="margin-left:8px;vertical-align:2px">Live · 24h</span>';
+    var stmAct = document.getElementById('sec-top-movers-action'); if (stmAct) stmAct.innerHTML = 'All Markets ' + icon('arrow-right',14);
     document.getElementById('sec-pillars').innerHTML = icon('layout',18) + ' Gas, Electricity, Oil & Geopolitics';
     document.getElementById('sec-live').innerHTML = icon('zap',18) + ' Live Energy Headlines';
     document.getElementById('sec-breaking').innerHTML = icon('zap',18) + ' Breaking News';
@@ -501,6 +512,37 @@ fbq('init','957762016897581');fbq('track','PageView');
       }).join('');
     }
     renderHeroPrices();
+
+    // TOP MOVERS — three biggest 24h moves across tracked commodities.
+    // Re-renders on every live data refresh.
+    function renderTopMovers() {
+      var target = document.getElementById('top-movers');
+      if (!target) return;
+      var ranked = COMMODITIES
+        .filter(function(c){ return c.price !== null && c.pct !== null && c.pct !== undefined; })
+        .slice() // don't mutate original
+        .sort(function(a,b){ return Math.abs(b.pct) - Math.abs(a.pct); })
+        .slice(0, 3);
+      target.innerHTML = ranked.map(function(c) {
+        var up = c.change >= 0;
+        var color = up ? '#10b981' : '#ef4444';
+        var arrow = up ? '▲' : '▼';
+        var sign  = up ? '+' : '−';
+        return '<div class="stat-box" style="text-align:left;padding:18px 20px;border-left:3px solid '+color+'">'
+          + '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">'
+            + '<span style="font-size:11.5px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.06em;font-weight:600">'+c.name+'</span>'
+            + '<span style="font-size:9.5px;font-weight:700;color:'+color+';background:'+color+'18;padding:2px 6px;border-radius:3px;letter-spacing:0.06em">'+arrow+' 24H</span>'
+          + '</div>'
+          + '<div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px">'
+            + '<span style="font-size:24px;font-weight:800;color:var(--text-1)">$'+c.price.toFixed(2)+'</span>'
+            + '<span style="font-size:15px;font-weight:700;color:'+color+'">'+sign+'$'+Math.abs(c.change).toFixed(2)+' <span style="opacity:0.85;font-size:12px">('+sign+Math.abs(c.pct).toFixed(2)+'%)</span></span>'
+          + '</div>'
+          + '<div style="font-size:11px;color:var(--text-3);margin-top:6px">'+c.unit+'</div>'
+        + '</div>';
+      }).join('');
+    }
+    renderTopMovers();
+    window.addEventListener('livePricesUpdated', renderTopMovers);
 
     // MARKET DRIVERS
     document.getElementById('market-drivers').innerHTML = MARKET_DRIVERS.map(function(d) {

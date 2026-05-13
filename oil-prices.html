@@ -89,6 +89,13 @@
       <div class="grid-3" id="driver-cards"></div>
     </section></div>
 
+    <!-- NEAR-TERM OUTLOOK — editorial bias frame tied to current MARKET_DRIVERS -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-outlook"></h2></div>
+      <div id="outlook-card"></div>
+      <p style="color:var(--text-3);font-size:10.5px;line-height:1.55;margin-top:14px;max-width:780px">Editorial assessment for informational purposes only. Not investment advice. Outlook is a qualitative read of near-term price drivers as reported in the day's news cycle &mdash; not a quantitative forecast model, target price, or trading recommendation. Prices can and do move against the prevailing read.</p>
+    </div></section>
+
     <!-- QUICK NAV -->
     <section class="section" style="padding-top:0;padding-bottom:0"><div class="container">
       <div style="display:flex;flex-wrap:wrap;gap:6px;padding:8px 0" id="section-nav"></div>
@@ -181,6 +188,7 @@
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
     document.getElementById('sec-drivers').innerHTML = icon('activity',20)+" What's Moving Oil Prices Today";
+    document.getElementById('sec-outlook').innerHTML = icon('compass',20)+' Near-term Outlook <span class="freshness freshness--daily" style="margin-left:8px;vertical-align:3px">Editorial · Daily</span>';
     document.getElementById('sec-explain').innerHTML = icon('info',20)+' WTI, Brent & OPEC: Oil Benchmark Guide';
     document.getElementById('sec-live').innerHTML = icon('rss',18)+' Live WTI, Brent & OPEC Headlines';
     document.getElementById('sec-articles').innerHTML = icon('newspaper',20)+' Featured Coverage';
@@ -249,6 +257,63 @@
     if (window.EventState && window.EventState.refresh) {
       window.EventState.refresh();
     }
+
+    // NEAR-TERM OUTLOOK — editorial read on near-term oil price bias.
+    // Refreshed during each daily editorial pass. The four lines below
+    // are the canonical source of truth for the outlook block; update
+    // these in the daily refresh, not via JS automation.
+    (function renderOutlook() {
+      var target = document.getElementById('outlook-card');
+      if (!target) return;
+      // ─── BEGIN EDITORIAL: refresh during daily pass ───
+      var bias = 'Bullish';          // Bullish | Bearish | Mixed
+      var conviction = 'Moderate';   // Low | Moderate | High
+      var summary = 'Stalemate hardening into a frozen conflict per Hochstein, with Trump weighing a return to military action and renewed discussions of restarting commercial vessel escorts through Hormuz. WTI back above $100 and Brent above $107. Citi sees prices rising further if dealmaking remains thorny. Trump heads to Beijing this week, which functions as a forcing function on the next phase of negotiations.';
+      var drivers = [
+        { label: 'Hormuz Stalemate',  weight: 'Strong bullish', note: 'Strait in its twelfth week. Aramco warns normalization could slip into 2027 if blocked past mid-June.' },
+        { label: 'Military Posture',  weight: 'Bullish',         note: 'Trump weighing return to military action; vessel-escort restart talks resumed.' },
+        { label: 'Diplomacy',          weight: 'Neutral',         note: 'Trump-Xi summit later this week could either accelerate or stall the negotiating track.' },
+        { label: 'OPEC+ Policy',       weight: 'Mildly bullish',  note: 'April 206K bpd output increase proceeding. No emergency JMMC. Bypass capacity below normal Hormuz throughput.' },
+        { label: 'U.S. Inventories',   weight: 'Bullish',         note: 'EIA crude draws continuing. Distillate stocks down 9 consecutive weeks. Next report Wed May 13.' },
+        { label: 'Refined Demand',     weight: 'Bullish',         note: 'Refinery utilization near 87%. Summer blend transition supporting RBOB. Crack spreads at multi-year highs.' },
+      ];
+      // ─── END EDITORIAL ───
+
+      var biasColor = bias === 'Bullish' ? '#10b981' : (bias === 'Bearish' ? '#ef4444' : '#f59e0b');
+      var biasArrow = bias === 'Bullish' ? '▲' : (bias === 'Bearish' ? '▼' : '◆');
+
+      function weightColor(w) {
+        if (w.indexOf('bullish') > -1 || w.indexOf('Bullish') > -1) return '#10b981';
+        if (w.indexOf('bearish') > -1 || w.indexOf('Bearish') > -1) return '#ef4444';
+        return '#f59e0b';
+      }
+
+      var driverRows = drivers.map(function(d){
+        var c = weightColor(d.weight);
+        return '<div style="display:grid;grid-template-columns:200px 140px 1fr;gap:14px;padding:12px 0;border-top:1px solid var(--border);align-items:start">'
+          + '<div style="font-size:13px;font-weight:700;color:var(--text-1)">'+d.label+'</div>'
+          + '<div><span style="font-size:11px;font-weight:700;color:'+c+';background:'+c+'15;padding:3px 8px;border-radius:4px;letter-spacing:0.04em;text-transform:uppercase">'+d.weight+'</span></div>'
+          + '<div style="font-size:13px;color:var(--text-2);line-height:1.55">'+d.note+'</div>'
+        + '</div>';
+      }).join('');
+
+      target.innerHTML =
+        '<div class="stat-box" style="text-align:left;padding:24px;border-left:4px solid '+biasColor+'">'
+          + '<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap;margin-bottom:16px">'
+            + '<div>'
+              + '<div style="font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.08em;font-weight:600;margin-bottom:4px">Near-term price bias</div>'
+              + '<div style="font-size:28px;font-weight:800;color:'+biasColor+';line-height:1.1">'+biasArrow+' '+bias+'</div>'
+            + '</div>'
+            + '<div style="text-align:right">'
+              + '<div style="font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.08em;font-weight:600;margin-bottom:4px">Conviction</div>'
+              + '<div style="font-size:18px;font-weight:700;color:var(--text-1)">'+conviction+'</div>'
+            + '</div>'
+          + '</div>'
+          + '<p style="font-size:14px;line-height:1.65;color:var(--text-2);margin:0 0 18px">'+summary+'</p>'
+          + '<div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);margin-top:8px;margin-bottom:4px;padding-top:12px;border-top:1px solid var(--border)">Near-term drivers</div>'
+          + driverRows
+        + '</div>';
+    })();
 
     // SECTION QUICK NAV
     document.getElementById('section-nav').innerHTML = OIL_PRICE_SECTIONS.map(function(s, i) {
