@@ -58,12 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Trump Weighs Return to Military Action; National Security Team Meeting on Hormuz", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "WTI Tops $102, Brent $108 as Hormuz Stalemate Deepens", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Hochstein: 'Frozen Conflict, No War, No Oil, No Straits'; Sees $90-100 Through 2027", cat: "Geopolitics", slug: "geopolitics", time: "4h" },
-  { title: "Trump Heads to Beijing This Week; Set to Press Xi to Lean on Iran", cat: "Geopolitics", slug: "geopolitics", time: "6h" },
-  { title: "Trump Rejects Iran's Counterproposal as 'Totally Unacceptable'; Threatens to Resume Bombing", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
-  { title: "Aramco CEO: Hormuz Normalization Could Slip Into 2027 as 100M Barrels Lost Weekly", cat: "Oil Markets", slug: "oil-prices", time: "1d" },
+  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Current price of oil as of May 12, 2026", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil price predicted to remain above $100 for rest of year", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil Prices Rise as Prospects for U.S.-Iran Peace Deal Fizzle", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump’s China visit. What are experts saying", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Brent oil tops $104 after Trump says ceasefire with Iran is on 'life support'", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices today: Crude jumps after Trump rejects Iran’s latest offer; Strait of Hormuz remains shut", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
