@@ -394,19 +394,7 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
-  "U.S. Considers Restart of Commercial Vessel Escorts Through Strait of Hormuz": "trump-weighs-return-to-military-action-national-security-team-hormuz",
-  "AAA Gas Eases to $4.50 as Retail Pass-Through Lag Holds for Now": "aaa-gas-average-hits-455-up-25-cents-for-second-straight-week",
-  "Aramco: Normalization Slips Into 2027 if Hormuz Blocked Past Mid-June": "aramco-ceo-hormuz-normalization-could-slip-into-2027",
-  "Aramco: Hormuz Normalization Slips Into 2027 if Strait Blocked Past Mid-June": "aramco-ceo-hormuz-normalization-could-slip-into-2027",
-  "Iran Vows to 'Never Bow' as Frozen Conflict Hardens Into Twelfth Week": "trump-rejects-iran-counterproposal-as-totally-unacceptable-threatens-bombing",
-  "Netanyahu: Conflict With Iran 'Not Over'; Israeli Strikes Continue in Lebanon": "trump-rejects-iran-counterproposal-as-totally-unacceptable-threatens-bombing",
-  "Iran Seized U.S.-Sanctioned Ocean Koi Tanker in Gulf of Oman May 8": "us-navy-disables-two-iranian-tankers-trump-calls-strike-a-love-tap",
-  "Cenovus CEO Warns Canada Risks Losing Oil Investment After 83% Q1 Profit Jump": "canadian-rig-count-rebounds-to-118-as-spring-drilling-season-begins",
-  "ADNOC Tanker Barakah Struck by Drones; HMM Namu Hit by Explosion Off UAE": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "Iran Sends Updated Peace Proposal Through Pakistan; Trump 'Not Satisfied'": "iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied",
-  "Trump Says Iran in 'State of Collapse' as Hormuz Standoff Drags Into Ninth Week": "trump-says-iran-in-state-of-collapse-as-hormuz-standoff-drags-into-ninth-week",
-  "Islamabad Talks Collapse After 21-Hour Marathon — No Deal Reached Between U.S. and Iran": "islamabad-talks-collapse-after-21-hour-marathon-no-deal-reached-between-us-and-i"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
 };
 
 function slugifyTitle(title) {
