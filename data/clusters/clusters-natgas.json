@@ -1,11 +1,11 @@
 {
   "topic": "natgas",
-  "generated_at": "2026-05-13T11:13:01.926758+00:00",
+  "generated_at": "2026-05-13T13:34:14.219925+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 29,
+  "clusters_found": 30,
   "clusters": [
     {
       "cluster_id": "c_513ab13a439e3a",
@@ -21,17 +21,17 @@
       ],
       "earliest_seen": "2026-05-13T05:00:00+00:00",
       "latest_seen": "2026-05-13T05:00:00+00:00",
-      "age_hours": 6.22,
-      "score": 64.77,
+      "age_hours": 8.57,
+      "score": 53.36,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.27,
+        "recency_points": 19.86,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7b8b88064e552f58",
@@ -41,6 +41,47 @@
           "source_type": "rss",
           "published_at": "2026-05-13T05:00:00+00:00",
           "confidence": 0.95
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_a7765997e3f584",
+      "topic": "natgas",
+      "lead_title": "EIA Cuts 2027 Natural Gas Price Forecast 11% on Permian Associated Gas Growth",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeXJJNndlMXZvdlFTRTlRRl9rekZoQkxZNXVqS1NFMUFQOU9kZGljUWRGbWt1aTU1YXk1SzFYam4tMHJwY2tCcUJpUWNZaHp6SVNuV2NKWEtoSUxlQ3doek9lZlItQ2FaMVhhYWtGYXM2QlNUamQ4a3FVeGFMZ3ZqdmlXU2t5WnRtWXhfSkZJM2QzSWN1YldtbmdsTWhFbGF5cHY5RkJGRlV0cWF2QWpF?oc=5",
+      "lead_source": "Natural Gas Intelligence",
+      "canonical_entities": [
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T17:38:22+00:00",
+      "latest_seen": "2026-05-12T17:38:22+00:00",
+      "age_hours": 19.93,
+      "score": 51.54,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 13.04,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "81b70879fa3e7d4b",
+          "title": "EIA Cuts 2027 Natural Gas Price Forecast 11% on Permian Associated Gas Growth",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeXJJNndlMXZvdlFTRTlRRl9rekZoQkxZNXVqS1NFMUFQOU9kZGljUWRGbWt1aTU1YXk1SzFYam4tMHJwY2tCcUJpUWNZaHp6SVNuV2NKWEtoSUxlQ3doek9lZlItQ2FaMVhhYWtGYXM2QlNUamQ4a3FVeGFMZ3ZqdmlXU2t5WnRtWXhfSkZJM2QzSWN1YldtbmdsTWhFbGF5cHY5RkJGRlV0cWF2QWpF?oc=5",
+          "source": "Natural Gas Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-05-12T17:38:22+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": true,
@@ -62,17 +103,17 @@
       ],
       "earliest_seen": "2026-05-13T08:42:07+00:00",
       "latest_seen": "2026-05-13T08:42:07+00:00",
-      "age_hours": 2.52,
-      "score": 61.99,
+      "age_hours": 4.87,
+      "score": 50.58,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.49,
+        "recency_points": 22.08,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "16af5965aa6d32b0",
@@ -85,6 +126,88 @@
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c7887a5804a30d",
+      "topic": "natgas",
+      "lead_title": "West, Southeast Natural Gas Prices Gaining Ground as Summer Heat Beckons",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1l6RkdJcm90SGRHZ255elU3bkVmNHBmUlJMbTQ2UGs2cVN0NTJpMlpmSGEzYi1DYjVySGZjOER3MDZpbmJoTmVRR2QzT0s0QUNIc2IyaTV6dEFqWXp6MGpPYWlrWl83UVhZZGE4UXhGcEZzTGRuclNIVURsTm14djFkYkxLLVZULUNnSy1uTWhSUmZOWVJ3T1RwX3dzdkNJczBQRzBPUlY?oc=5",
+      "lead_source": "Natural Gas Intelligence",
+      "canonical_entities": [
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-12T14:32:55+00:00",
+      "latest_seen": "2026-05-12T14:32:55+00:00",
+      "age_hours": 23.02,
+      "score": 49.69,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 11.19,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e78676214307f3be",
+          "title": "West, Southeast Natural Gas Prices Gaining Ground as Summer Heat Beckons",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR1l6RkdJcm90SGRHZ255elU3bkVmNHBmUlJMbTQ2UGs2cVN0NTJpMlpmSGEzYi1DYjVySGZjOER3MDZpbmJoTmVRR2QzT0s0QUNIc2IyaTV6dEFqWXp6MGpPYWlrWl83UVhZZGE4UXhGcEZzTGRuclNIVURsTm14djFkYkxLLVZULUNnSy1uTWhSUmZOWVJ3T1RwX3dzdkNJczBQRzBPUlY?oc=5",
+          "source": "Natural Gas Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-05-12T14:32:55+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e9a1d6c4bf3585",
+      "topic": "natgas",
+      "lead_title": "Why Is the USA Natural Gas Price Rising Today?",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDhzanFGVzBHazd1Q190MXNmZktEWE5jdUtkTGEtUnFVZEVzLTQzUzZfS21EbmRPLUR4Yms4NzhrLUVqWk5oSWpYRGJJdG9pUzZKT3ZXdEtMTGFMYi1DVEZnYUp2SVFLb3NLaGlkWGNBSWNsM2R6R01kc3UyVHluRUl4YnFaTGRFV0s1RzZZVzdZazZjYWE0N2NtUFVwbnJ3MjE5bg?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-01-19T08:00:00+00:00",
+      "latest_seen": "2026-01-19T08:00:00+00:00",
+      "age_hours": 2741.57,
+      "score": 45.1,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 26.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "8eb4bf3ed0119efa",
+          "title": "Why Is the USA Natural Gas Price Rising Today?",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDhzanFGVzBHazd1Q190MXNmZktEWE5jdUtkTGEtUnFVZEVzLTQzUzZfS21EbmRPLUR4Yms4NzhrLUVqWk5oSWpYRGJJdG9pUzZKT3ZXdEtMTGFMYi1DVEZnYUp2SVFLb3NLaGlkWGNBSWNsM2R6R01kc3UyVHluRUl4YnFaTGRFV0s1RzZZVzdZazZjYWE0N2NtUFVwbnJ3MjE5bg?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2026-01-19T08:00:00+00:00",
+          "confidence": 0.87
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -103,17 +226,17 @@
       ],
       "earliest_seen": "2026-05-12T10:02:13+00:00",
       "latest_seen": "2026-05-12T10:02:13+00:00",
-      "age_hours": 25.18,
-      "score": 58.89,
+      "age_hours": 27.53,
+      "score": 42.48,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.89,
+        "recency_points": 8.48,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7f4f80426e68abd9",
@@ -125,7 +248,48 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f00e41c737e84c",
+      "topic": "natgas",
+      "lead_title": "Natural Gas Cash Markets Heat Up",
+      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zYTg1UDJBV1BRbXBkanp4VkNDZDFPUXM3Z2JqZklxUXVhb2w3M2FvTThjck00WEtFVzExUkNsV182Qmh6VTlJSlJ0VkRBU1paX0ZpdjkzeUtDTGFUYVdCMDZyNWVSVEVBYWplaHY3VzZNMFJ4?oc=5",
+      "lead_source": "Natural Gas Intelligence",
+      "canonical_entities": [
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-11T21:21:19+00:00",
+      "latest_seen": "2026-05-11T21:21:19+00:00",
+      "age_hours": 40.22,
+      "score": 39.37,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.87,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "d63af8e594e9ca80",
+          "title": "Natural Gas Cash Markets Heat Up",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zYTg1UDJBV1BRbXBkanp4VkNDZDFPUXM3Z2JqZklxUXVhb2w3M2FvTThjck00WEtFVzExUkNsV182Qmh6VTlJSlJ0VkRBU1paX0ZpdjkzeUtDTGFUYVdCMDZyNWVSVEVBYWplaHY3VzZNMFJ4?oc=5",
+          "source": "Natural Gas Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-05-11T21:21:19+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -144,17 +308,17 @@
       ],
       "earliest_seen": "2026-05-12T19:13:12+00:00",
       "latest_seen": "2026-05-12T19:13:12+00:00",
-      "age_hours": 16.0,
-      "score": 53.9,
+      "age_hours": 18.35,
+      "score": 37.49,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.4,
+        "recency_points": 13.99,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "4c8970d9bf0d5e21",
@@ -185,17 +349,17 @@
       ],
       "earliest_seen": "2026-03-27T07:00:00+00:00",
       "latest_seen": "2026-03-27T07:00:00+00:00",
-      "age_hours": 1132.22,
-      "score": 49.0,
+      "age_hours": 1134.57,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "fabc2d7fc18e2a27",
@@ -205,57 +369,6 @@
           "source_type": "rss",
           "published_at": "2026-03-27T07:00:00+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_44b1bc01d116a3",
-      "topic": "natgas",
-      "lead_title": "Natural Gas Price Forecast: Storage Surprise Keeps Henry Hub Near $2.80 Before Summer Demand Test",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXRfTURoQi1OWTQ1MzdZLVlzaV9KckMxSmoyLTMzVFpxdE1YeW84SlRhd1ZGRG8zNHZSX3E0R25uUUpoQTZ6aGRiWlZzWnpLZHZkMlVqbUpBRWotbkk2Y2RaeDJrU2lXVkc1bkxkbjM0QkxRUUlMeXN2WTFFNFFPNVJMd2o2YmhfSndDZFpPbUpxX3pXWHlheEtwMmx6ZHlqb3o1MGNnQzBJUG5NdEVzQUJqb1E3QU0?oc=5",
-      "lead_source": "TechStock²",
-      "canonical_entities": [
-        "Henry Hub",
-        "natural gas"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-08T07:00:00+00:00",
-      "latest_seen": "2026-05-09T10:02:25+00:00",
-      "age_hours": 97.18,
-      "score": 49.0,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "63b572621b15f5ee",
-          "title": "Natural Gas Price Forecast: Storage Surprise Keeps Henry Hub Near $2.80 Before Summer Demand Test",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXRfTURoQi1OWTQ1MzdZLVlzaV9KckMxSmoyLTMzVFpxdE1YeW84SlRhd1ZGRG8zNHZSX3E0R25uUUpoQTZ6aGRiWlZzWnpLZHZkMlVqbUpBRWotbkk2Y2RaeDJrU2lXVkc1bkxkbjM0QkxRUUlMeXN2WTFFNFFPNVJMd2o2YmhfSndDZFpPbUpxX3pXWHlheEtwMmx6ZHlqb3o1MGNnQzBJUG5NdEVzQUJqb1E3QU0?oc=5",
-          "source": "TechStock²",
-          "source_type": "rss",
-          "published_at": "2026-05-09T10:02:25+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "e2dc15515f191de7",
-          "title": "Henry Hub Natural Gas Swap Jun '26 Futures Price History",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tckFHNTZGcW1GRGQzY2QyQXlfMld2aUdGdkw1UThOSGpKVzE3NERNMjRlVlNmZVR3Vk82V2lmYWFPX2tXYW1QdGRYa2dkRDVsZU1CSkhYNmtCdWdDS24tUldfMXpUMUxXbFp0bQ?oc=5",
-          "source": "Barchart.com",
-          "source_type": "rss",
-          "published_at": "2026-05-08T07:00:00+00:00",
-          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -277,17 +390,17 @@
       ],
       "earliest_seen": "2026-05-06T23:26:46+00:00",
       "latest_seen": "2026-05-06T23:26:46+00:00",
-      "age_hours": 155.77,
-      "score": 46.9,
+      "age_hours": 158.12,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "3e77dea21226f418",
@@ -318,17 +431,17 @@
       ],
       "earliest_seen": "2026-01-22T08:00:00+00:00",
       "latest_seen": "2026-01-22T08:00:00+00:00",
-      "age_hours": 2667.22,
-      "score": 46.9,
+      "age_hours": 2669.57,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "9885c51912335974",
@@ -338,6 +451,48 @@
           "source_type": "rss",
           "published_at": "2026-01-22T08:00:00+00:00",
           "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_44b1bc01d116a3",
+      "topic": "natgas",
+      "lead_title": "Natural Gas Price Forecast: Storage Surprise Keeps Henry Hub Near $2.80 Before Summer Demand Test",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXRfTURoQi1OWTQ1MzdZLVlzaV9KckMxSmoyLTMzVFpxdE1YeW84SlRhd1ZGRG8zNHZSX3E0R25uUUpoQTZ6aGRiWlZzWnpLZHZkMlVqbUpBRWotbkk2Y2RaeDJrU2lXVkc1bkxkbjM0QkxRUUlMeXN2WTFFNFFPNVJMd2o2YmhfSndDZFpPbUpxX3pXWHlheEtwMmx6ZHlqb3o1MGNnQzBJUG5NdEVzQUJqb1E3QU0?oc=5",
+      "lead_source": "TechStock²",
+      "canonical_entities": [
+        "Henry Hub",
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-09T10:02:25+00:00",
+      "latest_seen": "2026-05-09T10:02:25+00:00",
+      "age_hours": 99.53,
+      "score": 29.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "63b572621b15f5ee",
+          "title": "Natural Gas Price Forecast: Storage Surprise Keeps Henry Hub Near $2.80 Before Summer Demand Test",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdXRfTURoQi1OWTQ1MzdZLVlzaV9KckMxSmoyLTMzVFpxdE1YeW84SlRhd1ZGRG8zNHZSX3E0R25uUUpoQTZ6aGRiWlZzWnpLZHZkMlVqbUpBRWotbkk2Y2RaeDJrU2lXVkc1bkxkbjM0QkxRUUlMeXN2WTFFNFFPNVJMd2o2YmhfSndDZFpPbUpxX3pXWHlheEtwMmx6ZHlqb3o1MGNnQzBJUG5NdEVzQUJqb1E3QU0?oc=5",
+          "source": "TechStock²",
+          "source_type": "rss",
+          "published_at": "2026-05-09T10:02:25+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -360,17 +515,17 @@
       ],
       "earliest_seen": "2026-04-20T10:00:12+00:00",
       "latest_seen": "2026-04-20T10:00:12+00:00",
-      "age_hours": 553.21,
-      "score": 44.0,
+      "age_hours": 555.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "52312a692ec6b229",
@@ -379,48 +534,6 @@
           "source": "TradingView",
           "source_type": "rss",
           "published_at": "2026-04-20T10:00:12+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_07f4b6ce6523cc",
-      "topic": "natgas",
-      "lead_title": "Chile Weighs LNG Export Hub Role for Argentine Natural Gas",
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX3p3Yk1DSDJNWU4xWnFUX2FWeU9rQnpmWjYtdlRUWVplVUc4OVJxOVN6U2NMQmZiVUhaMW9VLWZmYVppcTdIVFF6NzF1bVhlVmZpUWVPSUVZbVktekdRSk8xZmtOT2JlZ3loZmtJbi03RkxtQkM0NllleVFhWWFScVp1RmxGaUdpYkJkOFpqUFBOM1Y1OGpr?oc=5",
-      "lead_source": "Natural Gas Intelligence",
-      "canonical_entities": [
-        "LNG",
-        "natural gas"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-16T07:00:00+00:00",
-      "latest_seen": "2026-04-16T07:00:00+00:00",
-      "age_hours": 652.22,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "1858cf41b4ff7ffa",
-          "title": "Chile Weighs LNG Export Hub Role for Argentine Natural Gas",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX3p3Yk1DSDJNWU4xWnFUX2FWeU9rQnpmWjYtdlRUWVplVUc4OVJxOVN6U2NMQmZiVUhaMW9VLWZmYVppcTdIVFF6NzF1bVhlVmZpUWVPSUVZbVktekdRSk8xZmtOT2JlZ3loZmtJbi03RkxtQkM0NllleVFhWWFScVp1RmxGaUdpYkJkOFpqUFBOM1Y1OGpr?oc=5",
-          "source": "Natural Gas Intelligence",
-          "source_type": "rss",
-          "published_at": "2026-04-16T07:00:00+00:00",
           "confidence": 0.7
         }
       ],
@@ -444,17 +557,17 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 844.22,
-      "score": 44.0,
+      "age_hours": 846.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f3eccddbc6fa326d",
@@ -486,65 +599,23 @@
       ],
       "earliest_seen": "2026-04-01T07:00:00+00:00",
       "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 1012.22,
-      "score": 44.0,
+      "age_hours": 1014.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c4ecb420409fb25f",
           "title": "Midmorning Markets: Henry Hub Cash Slipping on LNG Hiccups",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGhUbENSbi1leXJMc1RoTm5NRWhaMFZOTy03bWxZLXNBVTVuMGhSMkZRTTlkNTA1ZDlPVGFBcXBjS3RuNWluUXpkVHRZbk1sSFpGNF9xdTB3a1FMZkRkQ3JCUmNKYUx0RjhkenNaZW5GNjJXSjZDaU1wVXVGRFRFNUtfOEFGQ2RYZTVJYUZOaUg5cGthaEE?oc=5",
           "source": "Natural Gas Intelligence",
-          "source_type": "rss",
-          "published_at": "2026-04-01T07:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a8b388167275e9",
-      "topic": "natgas",
-      "lead_title": "Save Room – More Natural Gas Storage Capacity Planned to Serve Gulf Coast LNG and Power Facilities",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDhpT0ozUHpBU0xUQjg4M0pVdllQaElpSU9CbVZtQzZCM0RHSjFjTExsY1BRRlBxNlU3OWNRWEtoMDZZZU9US3dMWDlpUU9hR2JVU2lkeE9pNklYMjdOTDZWZ01COFE0dWdLaHI1ZGFjeDI5WFExdFNQM0pIVGgxX1FxdEJBcUxYN0Z2X0pWZ3FGeVNUd3k4UmZ4QTZhb3dzWFJjTElfSS1yeTVNNmthZA?oc=5",
-      "lead_source": "RBN Energy",
-      "canonical_entities": [
-        "LNG",
-        "natural gas"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-01T07:00:00+00:00",
-      "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 1012.22,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "e740ab097c46572d",
-          "title": "Save Room – More Natural Gas Storage Capacity Planned to Serve Gulf Coast LNG and Power Facilities",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDhpT0ozUHpBU0xUQjg4M0pVdllQaElpSU9CbVZtQzZCM0RHSjFjTExsY1BRRlBxNlU3OWNRWEtoMDZZZU9US3dMWDlpUU9hR2JVU2lkeE9pNklYMjdOTDZWZ01COFE0dWdLaHI1ZGFjeDI5WFExdFNQM0pIVGgxX1FxdEJBcUxYN0Z2X0pWZ3FGeVNUd3k4UmZ4QTZhb3dzWFJjTElfSS1yeTVNNmthZA?oc=5",
-          "source": "RBN Energy",
           "source_type": "rss",
           "published_at": "2026-04-01T07:00:00+00:00",
           "confidence": 0.7
@@ -570,17 +641,17 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 1300.22,
-      "score": 44.0,
+      "age_hours": 1302.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "acb43d68d0f087af",
@@ -612,17 +683,17 @@
       ],
       "earliest_seen": "2026-03-19T07:00:00+00:00",
       "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 1324.22,
-      "score": 44.0,
+      "age_hours": 1326.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "76b1d50a119f7ada",
@@ -654,17 +725,17 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 1396.22,
-      "score": 44.0,
+      "age_hours": 1398.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "5f5184ccd0ba42f0",
@@ -696,17 +767,17 @@
       ],
       "earliest_seen": "2026-03-12T07:00:00+00:00",
       "latest_seen": "2026-03-12T07:00:00+00:00",
-      "age_hours": 1492.22,
-      "score": 44.0,
+      "age_hours": 1494.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c7a9f85a9732dcf5",
@@ -738,17 +809,17 @@
       ],
       "earliest_seen": "2026-03-10T07:00:00+00:00",
       "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 1540.22,
-      "score": 44.0,
+      "age_hours": 1542.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "494e285ce7755bd1",
@@ -780,17 +851,17 @@
       ],
       "earliest_seen": "2026-03-09T07:00:00+00:00",
       "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 1564.22,
-      "score": 44.0,
+      "age_hours": 1566.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b5b0fa32355b51ae",
@@ -822,17 +893,17 @@
       ],
       "earliest_seen": "2026-02-18T08:00:00+00:00",
       "latest_seen": "2026-02-18T08:00:00+00:00",
-      "age_hours": 2019.22,
-      "score": 44.0,
+      "age_hours": 2021.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "9ae7a16a8eb52cbb",
@@ -864,17 +935,17 @@
       ],
       "earliest_seen": "2026-02-04T08:00:00+00:00",
       "latest_seen": "2026-02-04T08:00:00+00:00",
-      "age_hours": 2355.22,
-      "score": 44.0,
+      "age_hours": 2357.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "de45eea22461204b",
@@ -906,17 +977,17 @@
       ],
       "earliest_seen": "2026-02-04T08:00:00+00:00",
       "latest_seen": "2026-02-04T08:00:00+00:00",
-      "age_hours": 2355.22,
-      "score": 44.0,
+      "age_hours": 2357.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0ad1f61aaccd573a",
@@ -948,17 +1019,17 @@
       ],
       "earliest_seen": "2026-01-28T08:00:00+00:00",
       "latest_seen": "2026-01-28T08:00:00+00:00",
-      "age_hours": 2523.22,
-      "score": 44.0,
+      "age_hours": 2525.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "357f1e748fb7fa0d",
@@ -990,17 +1061,17 @@
       ],
       "earliest_seen": "2026-01-28T08:00:00+00:00",
       "latest_seen": "2026-01-28T08:00:00+00:00",
-      "age_hours": 2523.22,
-      "score": 44.0,
+      "age_hours": 2525.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0fccc43943279227",
@@ -1032,17 +1103,17 @@
       ],
       "earliest_seen": "2026-01-21T08:00:00+00:00",
       "latest_seen": "2026-01-21T08:00:00+00:00",
-      "age_hours": 2691.22,
-      "score": 44.0,
+      "age_hours": 2693.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2846f2eca40e09db",
@@ -1074,17 +1145,17 @@
       ],
       "earliest_seen": "2026-01-14T08:00:00+00:00",
       "latest_seen": "2026-01-14T08:00:00+00:00",
-      "age_hours": 2859.22,
-      "score": 44.0,
+      "age_hours": 2861.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "3df3d65a280a3136",
@@ -1116,17 +1187,17 @@
       ],
       "earliest_seen": "2026-01-08T08:00:00+00:00",
       "latest_seen": "2026-01-08T08:00:00+00:00",
-      "age_hours": 3003.22,
-      "score": 44.0,
+      "age_hours": 3005.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "23dd6cf4e5bc250e",
@@ -1158,17 +1229,17 @@
       ],
       "earliest_seen": "2026-01-07T08:00:00+00:00",
       "latest_seen": "2026-01-07T08:00:00+00:00",
-      "age_hours": 3027.22,
-      "score": 44.0,
+      "age_hours": 3029.57,
+      "score": 29.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "99e16c31a7c3ac29",
@@ -1178,45 +1249,6 @@
           "source_type": "rss",
           "published_at": "2026-01-07T08:00:00+00:00",
           "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_dd6eaaedb95785",
-      "topic": "natgas",
-      "lead_title": "US EIA trims 2026 US spot gas price forecasts on near-average storage expectation",
-      "lead_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRHlSbzJORFFzdl9aaXg5WUFIZEhBaDJVbVk1MUpoTVBpMXJRTzl5YkdBaG9Qbi1lOGNOTGo1RFZZVHFBcmZzLVRWcDMyWlowXzdKaGJlZVNaMFVCdmhHZTIzTWFXTnRGbDZTV0x3dE8yd01hb3NDUmVkU05wTEhxQ1RjeDhHWHg2YnRVQk80MjFlYVY5UWRObnJaTzRCSU9jdXZGTjNJU1FqeFVQeFRiTVNwTWVaWTlYbjljWGNzdGdEUkJwVUZxalFMb1VuQ1FCZUlTbTNkLV80WVBVRVpISVp4Z2NqaFZMeWhvYnRJWDFfck9nMWNF?oc=5",
-      "lead_source": "S&P Global",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-07T07:00:00+00:00",
-      "latest_seen": "2026-04-07T07:00:00+00:00",
-      "age_hours": 868.22,
-      "score": 41.4,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "eda33233047dd962",
-          "title": "US EIA trims 2026 US spot gas price forecasts on near-average storage expectation",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRHlSbzJORFFzdl9aaXg5WUFIZEhBaDJVbVk1MUpoTVBpMXJRTzl5YkdBaG9Qbi1lOGNOTGo1RFZZVHFBcmZzLVRWcDMyWlowXzdKaGJlZVNaMFVCdmhHZTIzTWFXTnRGbDZTV0x3dE8yd01hb3NDUmVkU05wTEhxQ1RjeDhHWHg2YnRVQk80MjFlYVY5UWRObnJaTzRCSU9jdXZGTjNJU1FqeFVQeFRiTVNwTWVaWTlYbjljWGNzdGdEUkJwVUZxalFMb1VuQ1FCZUlTbTNkLV80WVBVRVpISVp4Z2NqaFZMeWhvYnRJWDFfck9nMWNF?oc=5",
-          "source": "S&P Global",
-          "source_type": "rss",
-          "published_at": "2026-04-07T07:00:00+00:00",
-          "confidence": 0.88
         }
       ],
       "top_tier": false,

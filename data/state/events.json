@@ -1,30 +1,29 @@
 {
   "version": 2,
-  "generated_at": "2026-05-13T11:13:02.007270+00:00",
-  "previous_generated_at": "",
-  "resolver_run_count": 1,
+  "generated_at": "2026-05-13T13:34:14.303772+00:00",
+  "previous_generated_at": "2026-05-13T11:13:02.007270+00:00",
+  "resolver_run_count": 2,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "War latest news. Oil: IEA, unprecedented supply shock with Hormuz blockade. Record drop in stocks",
+      "status_detail": "Chinese Supertanker Carrying Iraqi Oil Crosses Hormuz Amid Growing Challenge to U.S. Naval Blockade",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.952,
-      "last_confirmed": "2026-05-13T11:04:12+00:00",
-      "source_count": 9,
-      "summary_short": "Trump says he does not need China's help to end Iran war, Tehran tightens grip on Hormuz",
-      "summary_long": "Trump says he does not need China's help to end Iran war, Tehran tightens grip on Hormuz. War latest news. Oil: IEA, unprecedented supply shock with Hormuz blockade. Record drop in stocks",
+      "confidence": 0.82,
+      "last_confirmed": "2026-05-13T12:39:00+00:00",
+      "source_count": 4,
+      "summary_short": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Tr",
+      "summary_long": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Trade Corridors Beyond Strait of Hormuz to Recover Middle East Tourism and Prevent Travel Demand and Hospitality Collapse in 2026. Chinese oil tanker exits Strait of Hormuz, stops at Gulf of Oman, data shows",
       "evidence_cluster_ids": [
-        "c_e5dc3769d959d9",
-        "c_44bbaa41fbb7d4",
-        "c_3df802245a75ca",
-        "c_1a500eb1877a22",
-        "c_63aca739750b91"
+        "c_cf4a0a6db80d70",
+        "c_907598c1c111f4",
+        "c_03e0a06979bd2d",
+        "c_235cdf1c595387"
       ],
-      "evidence_count": 8,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,31 +40,32 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_44bbaa41fb → CLOSED (kw='blockade', weight=0.63) [OPEN suppressed]",
-        "winning=CLOSED (0.63/0.63), conf=0.952"
+        "cluster c_907598c1c1 → OPEN (kw='reopen', weight=0.61)",
+        "cluster c_03e0a06979 → CLOSED (kw='blockade', weight=0.62) [OPEN suppressed]",
+        "winning=CLOSED (0.62/1.23), conf=0.82"
       ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "FRAGILE",
-      "status_detail": "Trump says he does not need China's help to end Iran war, Tehran tightens grip on Hormuz",
-      "status_tag": "Under strain",
-      "risk_level": "HIGH",
-      "confidence": 0.949,
-      "last_confirmed": "2026-05-13T09:27:00+00:00",
-      "source_count": 35,
-      "summary_short": "Oil eases on teetering Iran ceasefire as Trump heads to China",
-      "summary_long": "Oil eases on teetering Iran ceasefire as Trump heads to China. Global oil supply to plunge below demand this year due to Iran war, IEA says",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-13T12:22:30+00:00",
+      "source_count": 9,
+      "summary_short": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Tr",
+      "summary_long": "Iran Joins Qatar, UAE, Saudi Arabia, Oman, Kuwait, Bahrain, Iraq and Others in Massive Race to Build New Oil, LNG and Trade Corridors Beyond Strait of Hormuz to Recover Middle East Tourism and Prevent Travel Demand and Hospitality Collapse in 2026. Global oil supply to plunge below demand this year due to Iran war, IEA says",
       "evidence_cluster_ids": [
-        "c_fc10cf321f830a",
+        "c_cf4a0a6db80d70",
         "c_ed83efc3b0c77c",
+        "c_fc10cf321f830a",
         "c_9ccbfa368c6469",
-        "c_073e18ae742199",
-        "c_e5dc3769d959d9"
+        "c_b54c9311715107"
       ],
-      "evidence_count": 33,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -80,31 +80,66 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_e5dc3769d9 → FRAGILE (kw='talks stalled', weight=0.32)",
-        "winning=FRAGILE (0.32/0.32), conf=0.949"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": ""
+      "next_catalyst_micro": "",
+      "previous_status": "FRAGILE",
+      "last_changed": "2026-05-13T13:34:14.303588+00:00"
+    },
+    "opec_plus_policy": {
+      "key": "opec_plus_policy",
+      "display_name": "OPEC+ Policy",
+      "category": "policy_state",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "No change",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-13T13:13:00+00:00",
+      "source_count": 3,
+      "summary_short": "OPEC cuts 2026 global oil demand growth forecast",
+      "summary_long": "OPEC cuts 2026 global oil demand growth forecast. OPEC Adjusts Oil Demand Forecast Amid Middle East Conflict",
+      "evidence_cluster_ids": [
+        "c_e7e2b62261e840",
+        "c_d7b5834f194f1c",
+        "c_24e398f8dbadda"
+      ],
+      "evidence_count": 3,
+      "affected_pages": [
+        "oil-prices.html",
+        "markets.html"
+      ],
+      "dependent_modules": [
+        "oil-prices.drivers.opec",
+        "markets.drivers.opec"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 168,
+      "rationale": [
+        "fell back to default 'HOLDING'"
+      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "CRITICAL",
-      "risk_level": "CRITICAL",
-      "score": 65,
+      "status": "HIGH",
+      "risk_level": "HIGH",
+      "score": 50,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: critical.",
-      "summary_long": "Risk drivers: Hormuz closed, ceasefire fragile",
-      "summary_micro": "closed + fragile",
+      "summary_short": "Global energy risk: high.",
+      "summary_long": "Risk drivers: Hormuz closed",
+      "summary_micro": "closed",
       "rationale": [
         "hormuz=CLOSED (+40)",
-        "ceasefire=FRAGILE (+25)"
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -115,20 +150,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "CRITICAL",
+      "last_changed": "2026-05-13T13:34:14.303588+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_910c942d1eeb39",
-      "lead_title": "Russia's oil output down 460,000 bpd year-on-year in April, IEA says",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSmhrMWxEMDRmVXVpNThKZENhU1VkMFg4YWRqb2NjYV9Sc2V6Zml2c0szU1VWZi11aTRvcU10WFpLZ0JqV1oxT0o0NXR3cEd3UGJsRGpjS3ZBTUYxZHU4U0Q2bmcwTllyUkRqc2RoeDdfS2FVYlp4OXlUamhsZi01NlNNckhaZTlfRnVINGdVWDNMNk1WWmg0cFpUMk9fblNZdy15QlNKR3I4TnZ2UWRqRERsOUg?oc=5",
+      "cluster_id": "c_4c35962aa8a847",
+      "lead_title": "Vietnam's supplies of crude, refined oil amid Iran war",
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORERTWkdieWR2Z2pFUmp4dEVCdXpEWGphVDVyOFFDd0lDamtKTEYxVWRMUmZIVkJTOWZSZ1g0UVNuMjFRdS00SjhrNFJRdTRucF9QenFRZlU4QmJXMHZZZ3BwZ2Z1RlhnbnZGS0NNTzZaeDV6aGNaLVFIbEFSSzZtdXIwenEwdlVrb05ySE5lMnZjY3RkUnNneTdkcjl4SUZIVnFF?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 94.65,
+      "score": 95.93,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -140,45 +177,54 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CLOSED",
-      "detected_at": "2026-05-13T11:13:02.007124+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
       "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "FRAGILE",
-      "detected_at": "2026-05-13T11:13:02.007124+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "new_event",
-      "from": null,
-      "to": "CRITICAL",
-      "detected_at": "2026-05-13T11:13:02.007124+00:00",
+      "field": "status",
+      "from": "FRAGILE",
+      "to": "HOLDING",
+      "detected_at": "2026-05-13T13:34:14.303588+00:00",
       "meaningful": true,
       "triggers_publish": false
     },
     {
-      "event_key": "top_story",
+      "event_key": "us_iran_ceasefire",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-05-13T13:34:14.303588+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "opec_plus_policy",
       "field": "new_event",
       "from": null,
-      "to": "",
-      "detected_at": "2026-05-13T11:13:02.007124+00:00",
+      "to": "HOLDING",
+      "detected_at": "2026-05-13T13:34:14.303588+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "CRITICAL",
+      "to": "HIGH",
+      "detected_at": "2026-05-13T13:34:14.303588+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "CRITICAL",
+      "to": "HIGH",
+      "detected_at": "2026-05-13T13:34:14.303588+00:00",
+      "meaningful": true,
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.952, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.949, fresh=fresh",
-    "opec_plus_policy: retired — last_confirmed too old"
+    "hormuz_status: resolved=CLOSED, confidence=0.82, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
