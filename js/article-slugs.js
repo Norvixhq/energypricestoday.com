@@ -402,7 +402,8 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Why are oil prices up today, and will Brent and US WTI crude futures rise sharply or fall again? Global oi": "why-are-oil-prices-up-today-and-will-brent-and-us-wti-crude-futures-rise-sharply"
 };
 
 function slugifyTitle(title) {
