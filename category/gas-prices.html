@@ -57,6 +57,14 @@
       <p style="color:var(--text-3);font-size:10px;margin-top:8px" id="gas-source"></p>
     </div></section>
 
+    <!-- RETAIL vs WHOLESALE SPREAD -->
+    <section class="section"><div class="container">
+      <div class="section-header"><h2 class="section-title" id="sec-spread"></h2></div>
+      <p style="color:var(--text-2);font-size:14px;line-height:1.65;margin-bottom:20px;max-width:780px">What you pay at the pump is the wholesale futures price plus taxes, distribution costs, and retailer margin. The spread below shows how many cents per gallon are added to the underlying benchmark before fuel reaches your tank.</p>
+      <div class="grid-2" id="spread-cards"></div>
+      <p style="color:var(--text-3);font-size:11px;margin-top:14px;line-height:1.55">Federal gasoline tax is $0.184/gal; federal diesel tax is $0.244/gal. State taxes range from $0.09 (Alaska) to $0.68 (California) for gasoline. The remainder of the spread covers refining-to-station logistics, terminal/rack fees, and retailer margin. Wholesale benchmarks are NYMEX front-month futures.</p>
+    </div></section>
+
     <!-- HIGHLIGHTS -->
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-highlights"></h2></div>
@@ -167,6 +175,7 @@
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
     document.getElementById('sec-national').innerHTML = icon('fuel',20)+' AAA National Gas Price Averages';
+    document.getElementById('sec-spread').innerHTML = icon('bar-chart',20)+' Retail vs Wholesale Spread';
     document.getElementById('sec-highlights').innerHTML = icon('bar-chart',20)+' Price Highlights';
     document.getElementById('sec-states').innerHTML = icon('map',20)+' Gas Prices by State — All 50 States + DC';
     document.getElementById('sec-drivers').innerHTML = icon('trending-up',20)+' Why Gas Prices Are Changing Today';
@@ -191,6 +200,51 @@
       SB('Diesel','$'+g.diesel.toFixed(3),'national average'),
     ].join('');
     document.getElementById('gas-source').textContent = g.source + ' — ' + g.updated;
+
+    // ─── RETAIL vs WHOLESALE SPREAD ─────────────────────────────────
+    // Shows pump-price markup over the underlying futures benchmark.
+    // Updates whenever live-data.js dispatches a refresh, since COMMODITIES
+    // (RBOB / ULSD) are live-fetched but US_GAS_NATIONAL is static daily.
+    function renderSpreads() {
+      try {
+        var retailGas = US_GAS_NATIONAL.regular;
+        var retailDsl = US_GAS_NATIONAL.diesel;
+        var rbob = COMMODITIES.find(function(c){return c.name==='Gasoline RBOB';});
+        var ulsd = COMMODITIES.find(function(c){return c.name==='Diesel ULSD';});
+        var rbobPx = rbob && rbob.price ? rbob.price : null;
+        var ulsdPx = ulsd && ulsd.price ? ulsd.price : null;
+
+        function spreadCard(label, retail, wholesale, wholesaleLabel, taxRange, cls) {
+          if (wholesale === null) return '';
+          var spread = retail - wholesale;
+          var pct = (spread / wholesale) * 100;
+          var color = cls === 'gas' ? '#10b981' : '#f59e0b';
+          return '<div class="stat-box" style="text-align:left;padding:22px;border-left:3px solid '+color+'">'
+            + '<div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:14px">'
+              + '<span style="font-size:13px;font-weight:700;color:var(--text-1);text-transform:uppercase;letter-spacing:0.05em">'+label+'</span>'
+              + '<span style="font-size:11px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.04em">per gallon</span>'
+            + '</div>'
+            + '<div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px">'
+              + '<div><div style="font-size:10px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">RETAIL (AAA)</div><div style="font-size:22px;font-weight:800;color:var(--text-1)">$'+retail.toFixed(3)+'</div></div>'
+              + '<div><div style="font-size:10px;color:var(--text-3);text-transform:uppercase;letter-spacing:0.05em;margin-bottom:4px">WHOLESALE</div><div style="font-size:22px;font-weight:800;color:var(--text-2)">$'+wholesale.toFixed(3)+'</div><div style="font-size:10px;color:var(--text-3);margin-top:2px">'+wholesaleLabel+'</div></div>'
+            + '</div>'
+            + '<div style="padding:12px 14px;background:'+color+'14;border-radius:6px;display:flex;justify-content:space-between;align-items:center">'
+              + '<span style="font-size:11px;font-weight:700;color:'+color+';text-transform:uppercase;letter-spacing:0.06em">Spread</span>'
+              + '<span style="font-size:18px;font-weight:800;color:'+color+'">+$'+spread.toFixed(3)+' <span style="font-size:12px;opacity:0.85">(+'+pct.toFixed(1)+'%)</span></span>'
+            + '</div>'
+            + '<div style="font-size:11.5px;color:var(--text-3);line-height:1.55;margin-top:12px">Of that spread, roughly '+taxRange+' is federal + state taxes; the rest covers refining-to-pump logistics and retailer margin.</div>'
+          + '</div>';
+        }
+
+        document.getElementById('spread-cards').innerHTML =
+          spreadCard('Gasoline', retailGas, rbobPx, 'RBOB futures', '$0.27\u2013$0.86', 'gas') +
+          spreadCard('Diesel',   retailDsl, ulsdPx, 'ULSD futures', '$0.44\u2013$0.94', 'dsl');
+      } catch(e) {
+        document.getElementById('spread-cards').innerHTML = '<div class="stat-box" style="padding:18px;color:var(--text-3)">Spread calculator updating\u2026</div>';
+      }
+    }
+    renderSpreads();
+    window.addEventListener('livePricesUpdated', renderSpreads);
 
     // Highlights: top 5 cheapest + top 5 most expensive states
     var sorted = GAS_PRICES_BY_STATE.slice().sort(function(a,b){return a.regular-b.regular;});
