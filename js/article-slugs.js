@@ -10,6 +10,7 @@ const ARTICLE_SLUGS = {
   "AAA National Falls 7 Cents to $4.09": "aaa-national-falls-7-cents-to-409",
   "AAA National Gas Average Falls 7 Cents to $4.09 \u2014 First Decline in Weeks": "aaa-national-gas-average-falls-7-cents-to-409-first-decline-in-weeks",
   "Abqaiq Facility Hit": "abqaiq-facility-hit",
+  "America barely uses Middle East oil. So why did gas prices rise?": "america-barely-uses-middle-east-oil-so-why-did-gas-prices-rise",
   "April 206K bpd Increase Proceeds": "april-206k-bpd-increase-proceeds",
   "Araghchi Leaves Pakistan Without Meeting U.S. Officials as Talks Collapse": "araghchi-leaves-pakistan-without-meeting-us-officials-as-talks-collapse",
   "Aramco CEO: Hormuz Normalization Could Slip Into 2027 as 100M Barrels Lost Weekly": "aramco-ceo-hormuz-normalization-could-slip-into-2027",
