@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-14T16:54:59.042659+00:00",
-  "previous_generated_at": "2026-05-14T14:45:25.158989+00:00",
-  "resolver_run_count": 4,
+  "generated_at": "2026-05-14T18:59:54.867890+00:00",
+  "previous_generated_at": "2026-05-14T16:54:59.042659+00:00",
+  "resolver_run_count": 5,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.913,
-      "last_confirmed": "2026-05-14T15:28:03+00:00",
-      "source_count": 10,
-      "summary_short": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
-      "summary_long": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says. China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
+      "confidence": 0.933,
+      "last_confirmed": "2026-05-14T18:04:01+00:00",
+      "source_count": 11,
+      "summary_short": "Hormuz Oil Flows Creep Higher as More Supertankers Exit",
+      "summary_long": "Hormuz Oil Flows Creep Higher as More Supertankers Exit. China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
       "evidence_cluster_ids": [
+        "c_1b9efa64cdb629",
         "c_fbc9a4377fd43a",
+        "c_8e26c102dcddcc",
         "c_70427871e215c6",
-        "c_71aba4ccd26757",
-        "c_7bcdeddcbad06b",
-        "c_8e26c102dcddcc"
+        "c_47ab84c7fe2897"
       ],
-      "evidence_count": 10,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,13 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fbc9a4377f → OPEN (kw='reopen', weight=0.69)",
-        "cluster c_ea94b76564 → OPEN (kw='reopen', weight=0.64)",
-        "cluster c_9d47c4a38c → CLOSED (kw='closure', weight=0.24) [OPEN suppressed]",
-        "winning=OPEN (1.32/1.56), conf=0.913"
-      ],
-      "previous_status": "CLOSED",
-      "last_changed": "2026-05-14T16:54:59.042509+00:00"
+        "cluster c_fbc9a4377f → OPEN (kw='reopen', weight=0.55)",
+        "cluster c_ea94b76564 → OPEN (kw='reopen', weight=0.50)",
+        "cluster c_963a38d4a8 → CONTESTED (kw='attack', weight=0.08)",
+        "winning=OPEN (1.06/1.13), conf=0.933"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -59,7 +57,7 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-14T15:55:00+00:00",
-      "source_count": 10,
+      "source_count": 11,
       "summary_short": "Dollar’s Link to Oil Most Positive Ever as Iran Crisis Drags On",
       "summary_long": "Dollar’s Link to Oil Most Positive Ever as Iran Crisis Drags On. Global oil supply to plunge below demand this year due to Iran war, IEA says",
       "evidence_cluster_ids": [
@@ -67,9 +65,9 @@
         "c_ed83efc3b0c77c",
         "c_70427871e215c6",
         "c_4c527c2ff7f1da",
-        "c_e28fb700321595"
+        "c_0ae7621cb96f9f"
       ],
-      "evidence_count": 9,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -89,38 +87,6 @@
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
-    },
-    "opec_plus_policy": {
-      "key": "opec_plus_policy",
-      "display_name": "OPEC+ Policy",
-      "category": "policy_state",
-      "status": "HOLDING",
-      "status_detail": "no definitive signals",
-      "status_tag": "No change",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-05-13T13:34:08+00:00",
-      "source_count": 1,
-      "summary_short": "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says",
-      "summary_long": "Hormuz closure cuts OPEC oil production by 30% and threatens demand growth this year, cartel says",
-      "evidence_cluster_ids": [
-        "c_9d47c4a38c487c"
-      ],
-      "evidence_count": 1,
-      "affected_pages": [
-        "oil-prices.html",
-        "markets.html"
-      ],
-      "dependent_modules": [
-        "oil-prices.drivers.opec",
-        "markets.drivers.opec"
-      ],
-      "update_priority": "high",
-      "freshness": "fresh",
-      "stale_after_hours": 168,
-      "rationale": [
-        "fell back to default 'HOLDING'"
-      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -149,22 +115,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-05-14T16:54:59.042509+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_07b7e0e0cec19a",
-      "lead_title": "WTI Crude Oil Futures Edge 0.1% Higher to $101.12, Brent Futures Climb 0.4% to $106.10 Pre-Bell",
-      "lead_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVEhiMGQ5YlNPZDk3X2Joc3JKOU1yT2F2SGF1dG40SExsQW5VSFNIZWc3MUNBam1jYmphT0RyNXoyOU5PQ3hFc0VpU3R0Wmg4LUxxQWFvVENmbzA0c21hNkNzTV9DZXhBOU1Zb3R3a1Z3ZF8ydTB0UU44TkpFb3JPTWFKZzdubVZzS3pSTUpYdFdMT3BHTndGMlpoOHlZX0NETXdVb1hza2RrejlMd3hqX09sYzRSTm9pTUwwRHBIQW44cmxXTXBSRnd4N0dnSUtmb3FzZ21PUF9pRVE?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_b243cf71411d1e",
+      "lead_title": "Carney says Canada, Alberta will advance a potential crude oil pipeline",
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM05xZU1zNnpUekVMLWdsekF6V0Qza3RZeWhSTnVVLWpVdUhONF9PTU82LVJybmVEUTZlT0ZqdkxTQ3VfUTRoN2VNbTRuWmtXWEtJYjdtbWNLUFkyMlV2RW1CVFUySmV6QVUyX3p2eFJjMFVtSHhiYmdjWkxNT1d4Uk1aMmhDVk5nOVlhNTJobEZjQW1sdkVPUnlNLWc4MjJvdkNwUmVndTRVbFBwYjdKS2pDZjJaMVU3bHhSOUxtaTJFelRGOUtySC1Wb2NXQVU?oc=5",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 81.23,
-      "novelty": "ongoing",
-      "source_count": 3,
+      "score": 89.76,
+      "novelty": "new",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -176,45 +140,18 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CLOSED",
-      "to": "OPEN",
-      "detected_at": "2026-05-14T16:54:59.042509+00:00",
+      "event_key": "opec_plus_policy",
+      "field": "retired",
+      "from": "HOLDING",
+      "to": null,
+      "detected_at": "2026-05-14T18:59:54.867827+00:00",
       "meaningful": true,
       "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-14T16:54:59.042509+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-14T16:54:59.042509+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "LOW",
-      "detected_at": "2026-05-14T16:54:59.042509+00:00",
-      "meaningful": true,
-      "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.913, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.933, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: retired — last_confirmed too old"
   ]
 }
