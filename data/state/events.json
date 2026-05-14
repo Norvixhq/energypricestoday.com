@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-05-14T12:06:54.927004+00:00",
-  "previous_generated_at": "2026-05-14T10:03:04.352421+00:00",
-  "resolver_run_count": 2,
+  "generated_at": "2026-05-14T14:45:25.158989+00:00",
+  "previous_generated_at": "2026-05-14T12:06:54.927004+00:00",
+  "resolver_run_count": 3,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "OPEC Cuts 2026 Oil Demand Forecast Amid Strait of Hormuz Closure",
+      "status_detail": "OPEC cuts oil demand outlook as Hormuz disruption persists",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.962,
-      "last_confirmed": "2026-05-14T11:37:30+00:00",
-      "source_count": 7,
-      "summary_short": "Jordan Joins Israel, Bahrain, UAE, Qatar, Saudi Arabia, Egypt, and Other Countries in an Urgent Effort to Ensure Safety ",
-      "summary_long": "Jordan Joins Israel, Bahrain, UAE, Qatar, Saudi Arabia, Egypt, and Other Countries in an Urgent Effort to Ensure Safety and Security for Cruise Tourism and Crude Oil, LNG, LPG Network in the Strait of Hormuz and the Suez Canal as Rising Fuel Costs and Incr. Saudi oil production falls to lowest level since 1990 amid Hormuz disruption",
+      "confidence": 0.96,
+      "last_confirmed": "2026-05-14T13:01:00+00:00",
+      "source_count": 9,
+      "summary_short": "Tensions flare up over Strait of Hormuz as ship is reported seized and heading toward Iran",
+      "summary_long": "Tensions flare up over Strait of Hormuz as ship is reported seized and heading toward Iran. OPEC cuts oil demand outlook as Hormuz disruption persists",
       "evidence_cluster_ids": [
+        "c_a5d8955a4d3b1a",
+        "c_238709cb156506",
+        "c_47ab84c7fe2897",
         "c_d99d2e41bb7ddd",
-        "c_8e26c102dcddcc",
-        "c_fca8c8a636f3a7",
-        "c_70427871e215c6",
-        "c_52c4ebfd1c7e08"
+        "c_8e26c102dcddcc"
       ],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fca8c8a636 → CLOSED (kw='closure', weight=0.52) [OPEN suppressed]",
-        "winning=CLOSED (0.52/0.52), conf=0.962"
+        "cluster c_238709cb15 → CLOSED (kw='closure', weight=0.62) [OPEN suppressed]",
+        "winning=CLOSED (0.62/0.62), conf=0.96"
       ]
     },
     "us_iran_ceasefire": {
@@ -54,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-14T11:40:35+00:00",
-      "source_count": 8,
-      "summary_short": "Asia Pacific banks face growing credit risks, raise provisions as Iran war drags on",
-      "summary_long": "Asia Pacific banks face growing credit risks, raise provisions as Iran war drags on. Japan-Bound Oil Tanker Clears Strait of Hormuz Amid Iranian Crackdown",
+      "last_confirmed": "2026-05-14T13:09:00+00:00",
+      "source_count": 14,
+      "summary_short": "Tensions flare up over Strait of Hormuz as ship is reported seized and heading toward Iran",
+      "summary_long": "Tensions flare up over Strait of Hormuz as ship is reported seized and heading toward Iran. Why cheap Russian oil can't save India from US-Iran energy crisis?",
       "evidence_cluster_ids": [
+        "c_a5d8955a4d3b1a",
+        "c_dddc1be3f75c53",
         "c_0ae7621cb96f9f",
-        "c_70427871e215c6",
-        "c_e28fb700321595",
-        "c_125ebc887bd67d",
-        "c_94c5f690e46b77"
+        "c_94c5f690e46b77",
+        "c_d0f1b2de0fcfbc"
       ],
-      "evidence_count": 8,
+      "evidence_count": 13,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -95,15 +95,14 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-14T08:14:08+00:00",
+      "last_confirmed": "2026-05-14T09:11:00+00:00",
       "source_count": 2,
-      "summary_short": "Oil prices mixed as IEA flags greater volatility ahead, OPEC cuts demand forecast",
-      "summary_long": "Oil prices mixed as IEA flags greater volatility ahead, OPEC cuts demand forecast. OPEC Cuts 2026 Oil Demand Forecast Amid Strait of Hormuz Closure",
+      "summary_short": "OPEC cuts oil demand outlook as Hormuz disruption persists",
+      "summary_long": "OPEC cuts oil demand outlook as Hormuz disruption persists",
       "evidence_cluster_ids": [
-        "c_6faed49ab7fd57",
-        "c_fca8c8a636f3a7"
+        "c_238709cb156506"
       ],
-      "evidence_count": 2,
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -153,14 +152,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_06cb55d4ce9e0e",
-      "lead_title": "Stressed crude oil market looks to Xi-Trump summit for Iran help",
-      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb3hmRVBZX1pVY09UblFUVEZoTE05eVBmWkpkMGhvSlVIZldtM093X0R4X21OQmx3UU05Zmg0enFKaGZKV2RqLUl4TEx2NjFZWGc2WXY0V1ZxbEpZeUtzeWtJa3hDWFZUVkpuamR3NXMzN0xyOElJbHRvWnl4Zl9sY3lPc1NyTjJJM190TVVqVDdzUHVMTHc2ODVCLWlHcjB6S2V2dGI2VFBBR091aDFlbzNJNzQxRFBwUmJQUi1GZzd6ZkJD?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_07b7e0e0cec19a",
+      "lead_title": "WTI Crude Oil Futures Edge 0.1% Higher to $101.12, Brent Futures Climb 0.4% to $106.10 Pre-Bell",
+      "lead_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVEhiMGQ5YlNPZDk3X2Joc3JKOU1yT2F2SGF1dG40SExsQW5VSFNIZWc3MUNBam1jYmphT0RyNXoyOU5PQ3hFc0VpU3R0Wmg4LUxxQWFvVENmbzA0c21hNkNzTV9DZXhBOU1Zb3R3a1Z3ZF8ydTB0UU44TkpFb3JPTWFKZzdubVZzS3pSTUpYdFdMT3BHTndGMlpoOHlZX0NETXdVb1hza2RrejlMd3hqX09sYzRSTm9pTUwwRHBIQW44cmxXTXBSRnd4N0dnSUtmb3FzZ21PUF9pRVE?oc=5",
+      "lead_source": "marketscreener.com",
       "topic": "oil",
-      "score": 93.32,
+      "score": 92.53,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -172,7 +171,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.962, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.96, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
