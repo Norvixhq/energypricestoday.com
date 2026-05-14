@@ -50,6 +50,8 @@ const ARTICLE_SLUGS = {
   "Crude Braces for Turmoil": "crude-braces-for-turmoil",
   "Crude Oil Crashes 15% as Strait of Hormuz Set to Reopen Under Ceasefire Terms": "crude-oil-crashes-15-as-strait-of-hormuz-set-to-reopen-under-ceasefire-terms",
   "Crude Posts Historic Drop": "crude-posts-historic-drop",
+  "Crude oil price steadies ahead of Trump-Xi meeting; Brent hovers around $105/bbl": "crude-oil-price-steadies-ahead-of-trump-xi-meeting-brent-hovers-around-105bbl",
+  "Current price of oil as of May 13, 2026": "current-price-of-oil-as-of-may-13-2026",
   "Daily pricing \u2014 24hr delay": "daily-pricing-24hr-delay",
   "Diesel and Heating Oil Margins Diverge as Trucking Demand Holds": "diesel-and-heating-oil-margins-diverge-as-trucking-demand-holds",
   "Drones Strike Qatari Waters; UAE and Kuwait Intercept Iranian Drones": "drones-strike-qatari-waters-uae-and-kuwait-intercept-iranian-drones",
@@ -219,11 +221,15 @@ const ARTICLE_SLUGS = {
   "Oil Plunges 11% as Hormuz Reopens \u2014 WTI Closes at $83.85": "oil-plunges-11-as-hormuz-reopens-wti-closes-at-8385",
   "Oil Plunges Most Since April 2020 on Hormuz Reopening News": "oil-plunges-most-since-april-2020-on-hormuz-reopening-news",
   "Oil Price Forecast 2026 What Analysts Predict for Crude": "oil-price-forecast-2026-what-analysts-predict-for-crude",
+  "Oil Price Today (May 12): Crude oil at $105 as Donald Trump says peace talks on \u2018life support\u2019. What are e": "oil-price-today-may-12-crude-oil-at-105-as-donald-trump-says-peace-talks-on-life",
+  "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump\u2019s China visit. What are experts saying": "oil-price-today-may-13-crude-oil-snaps-3-day-fall-ahead-of-trumps-china-visit-wh",
   "Oil Prices Climb Near $100 as Energy Secretary Warns Prices Will Keep Rising": "oil-prices-climb-near-100-as-energy-secretary-warns-prices-will-keep-rising",
   "Oil Prices Ease on Ceasefire Extension Hopes \u2014 WTI Pulls Back Below $95": "oil-prices-ease-on-ceasefire-extension-hopes-wti-pulls-back-below-95",
   "Oil Prices Expected to Surge as Markets Open Monday \u2014 Analysts Warn of $110+ WTI": "oil-prices-expected-to-surge-as-markets-open-monday-analysts-warn-of-110-wti",
   "Oil Prices Whipsaw on Hormuz Reversal \u2014 WTI Recovers From Friday\u2019s 11% Plunge": "oil-prices-whipsaw-on-hormuz-reversal-wti-recovers-from-fridays-11-plunge",
   "Oil Rallies 5% as Hormuz Deal Collapses; WTI $100, Brent $106": "oil-rallies-5-percent-as-hormuz-deal-collapses-wti-100-brent-106",
+  "Oil price predicted to remain above $100 for rest of year": "oil-price-predicted-to-remain-above-100-for-rest-of-year",
+  "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on \u2018life support\u2019": "oil-prices-today-brent-crude-jumps-to-105-per-barrel-as-us-iran-ceasefire-hangs-",
   "Options Market Pricing Elevated Volatility Through Summer 2026": "options-market-pricing-elevated-volatility-through-summer-2026",
   "Pakistan Army Chief Holds Emergency Talks in Tehran to Restart Negotiations": "pakistan-army-chief-holds-emergency-talks-in-tehran-to-restart-negotiations",
   "Pakistan FM Dar Working to Bridge U.S.-Iran Differences Before Tuesday Ceasefire Expiration": "pakistan-fm-dar-working-to-bridge-us-iran-differences-before-tuesday-ceasefire-e",
@@ -354,6 +360,7 @@ const ARTICLE_SLUGS = {
   "U.S. Tightens Sanctions on Russian Oil Price Cap Violators": "us-tightens-sanctions-on-russian-oil-price-cap-violators",
   "U.S. Utility-Scale Solar Pipeline Exceeds 300 GW as IRA Credits Flow": "us-utility-scale-solar-pipeline-exceeds-300-gw-as-ira-credits-flow",
   "U.S. and Iran Considering Two-Week Ceasefire Extension \u2014 Bloomberg Reports": "us-and-iran-considering-two-week-ceasefire-extension-bloomberg-reports",
+  "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal": "us-crude-oil-tops-100-again-as-hope-fades-for-a-us-iran-peace-deal",
   "U.S.-China Trade Tensions": "us-china-trade-tensions",
   "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Expiration": "us-iran-ceasefire-explained-timeline-terms-expiration",
   "U.S.-Iran Ceasefire Explained: Timeline, Terms, and Extension": "us-iran-ceasefire-explained-timeline-terms-and-extension",
@@ -398,7 +405,8 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
+  "Why Physical Crude Premiums Collapse Despite the Hormuz Crisis": "why-physical-crude-premiums-collapse-despite-the-hormuz-crisis"
 };
 
 function slugifyTitle(title) {

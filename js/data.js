@@ -58,11 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "IEA: Global Oil Inventories Drawing at Record 4M bpd Pace; Severe Undersupply Through October", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "EIA Crude Stocks Drop 4.3M Barrels \\u2014 Nearly Double Expectations", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "UAE Officially Departs OPEC Effective May 1; EIA Cuts 2027 Spare Capacity Forecast", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Iranian Oil Export Shipments Stall \\u2014 First Sustained Interruption Since Conflict Began", cat: "Geopolitics", slug: "geopolitics", time: "5h" },
-  { title: "Trump Weighs Return to Military Action; National Security Team Meeting on Hormuz", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
+  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump’s China visit. What are experts saying", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Crude oil price steadies ahead of Trump-Xi meeting; Brent hovers around $105/bbl", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil Price Today (May 12): Crude oil at $105 as Donald Trump says peace talks on ‘life support’. What are e", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Current price of oil as of May 13, 2026", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Why Physical Crude Premiums Collapse Despite the Hormuz Crisis", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil price predicted to remain above $100 for rest of year", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
