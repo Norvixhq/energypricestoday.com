@@ -398,19 +398,7 @@ const ARTICLE_SLUGS = {
   "Why Are Gas Prices So High What Drives Pump Prices in 2026": "why-are-gas-prices-so-high-what-drives-pump-prices-in-2026",
   "Why Do Oil Prices Change Every Day?": "why-do-oil-prices-change-every-day",
   "Why European Gas Storage Levels Matter More Than Ever": "why-european-gas-storage-levels-matter-more-than-ever",
-  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever",
-  "WTI Pulls Back to $101.85, Brent $107.05 After Three-Day Rally": "wti-tops-102-brent-108-as-hormuz-stalemate-deepens",
-  "April U.S. Inflation Accelerates as Surging Energy Prices Hit Consumer Index": "eia-crude-stocks-drop-4-3-million-barrels-nearly-double-expectations",
-  "April U.S. CPI Accelerates as Energy Prices Hit Consumer Index": "eia-crude-stocks-drop-4-3-million-barrels-nearly-double-expectations",
-  "Asian Refiners Including Japan Seek Alternatives to Persian Gulf Supplies": "iea-global-oil-inventories-record-4m-bpd-pace-undersupply-through-october",
-  "Global Oil Inventories Drawing at Record 4M bpd Pace": "iea-global-oil-inventories-record-4m-bpd-pace-undersupply-through-october",
-  "Crude Stocks Drop 4.3M Barrels — Nearly Double Expectations": "eia-crude-stocks-drop-4-3-million-barrels-nearly-double-expectations",
-  "UAE Officially Departs OPEC Effective May 1; Spare Capacity Forecasts Cut": "uae-officially-departs-opec-effective-may-1-eia-cuts-spare-capacity",
-  "Iranian Oil Export Shipments Stall — First Sustained Interruption": "iranian-oil-export-shipments-stall-first-sustained-interruption",
-  "Trump Heads to Beijing This Week; Trade May Take Priority Over Iran Talks": "trump-heads-to-beijing-set-to-press-xi-to-lean-on-iran",
-  "ADNOC Tanker Barakah Struck by Drones; HMM Namu Hit by Explosion Off UAE": "iran-strikes-uae-fujairah-oil-hub-first-major-bypass-infrastructure-hit",
-  "Iran Sends Updated Peace Proposal Through Pakistan; Trump 'Not Satisfied'": "iran-sends-updated-peace-proposal-through-pakistan-trump-not-satisfied",
-  "Trump Says Iran in 'State of Collapse' as Hormuz Standoff Drags Into Ninth Week": "trump-says-iran-in-state-of-collapse-as-hormuz-standoff-drags-into-ninth-week"
+  "Why Fewer Rigs Are Producing More Oil Than Ever": "why-fewer-rigs-are-producing-more-oil-than-ever"
 };
 
 function slugifyTitle(title) {
