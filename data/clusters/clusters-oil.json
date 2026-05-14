@@ -1,12 +1,74 @@
 {
   "topic": "oil",
-  "generated_at": "2026-05-14T20:43:14.097869+00:00",
+  "generated_at": "2026-05-14T21:55:59.080882+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 22,
+  "clusters_found": 23,
   "clusters": [
+    {
+      "cluster_id": "c_d2c735fbe49339",
+      "topic": "oil",
+      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "Brent",
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-13T15:17:00+00:00",
+      "latest_seen": "2026-05-14T13:21:00+00:00",
+      "age_hours": 8.58,
+      "score": 86.35,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 19.85,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 16,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "318ca6606920ed2b",
+          "title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-05-13T15:17:00+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "8a5d2d36200fec20",
+          "title": "WTI Crude Oil Futures Edge 0.1% Higher to $101.12, Brent Futures Climb 0.4% to $106.10 Pre-Bell",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVEhiMGQ5YlNPZDk3X2Joc3JKOU1yT2F2SGF1dG40SExsQW5VSFNIZWc3MUNBam1jYmphT0RyNXoyOU5PQ3hFc0VpU3R0Wmg4LUxxQWFvVENmbzA0c21hNkNzTV9DZXhBOU1Zb3R3a1Z3ZF8ydTB0UU44TkpFb3JPTWFKZzdubVZzS3pSTUpYdFdMT3BHTndGMlpoOHlZX0NETXdVb1hza2RrejlMd3hqX09sYzRSTm9pTUwwRHBIQW44cmxXTXBSRnd4N0dnSUtmb3FzZ21PUF9pRVE?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-05-14T10:17:29+00:00",
+          "confidence": 0.8
+        },
+        {
+          "headline_id": "eab50b2bca813f7a",
+          "title": "Oil News: WTI Crude Oil Futures Eye $100 Breakdown as Hormuz Risks Ease",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTXZpdW5jdFJCdGRWZVNGSmpMUTk3ZkQtMVd3cFh5b3BvR3NmcW5Hems4MHEteEFUNEp6NGZMN1JEZzhRTVBzQkpOVTV0OGgwdGJLc3c5Tjg3T1IwMGdaMUIxQkRIOWJuS0dsdXFPNVlWQmtaVXpKOUhfQUFwWmdkaHdVV19ybl9qNGhmc3NvNjdlZjZQdXpWaEtuLUltdDQ0b3hzTHE4ZVp6ZENkZjl6a1ltdzFxMm1JRTV4VGhYSHpZU1BTbGdz?oc=5",
+          "source": "FXEmpire",
+          "source_type": "rss",
+          "published_at": "2026-05-14T13:21:00+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
     {
       "cluster_id": "c_cce47328aa9aae",
       "topic": "oil",
@@ -26,17 +88,17 @@
       ],
       "earliest_seen": "2026-05-13T12:22:04+00:00",
       "latest_seen": "2026-05-14T14:21:44+00:00",
-      "age_hours": 6.36,
-      "score": 88.43,
+      "age_hours": 7.57,
+      "score": 77.71,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 21.18,
+        "recency_points": 20.46,
         "source_quality_points": 26.25,
         "entity_relevance_points": 16,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "74357e76f65bcc5d",
@@ -79,61 +141,86 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_259099538f95c1",
+      "cluster_id": "c_612038e011e727",
       "topic": "oil",
-      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "PTT PCL Says In 2026, Dubai Crude Oil Price Expected To Average US$ 82-92 Per Barrel",
+      "lead_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQelhBUFRWeXBRTkc5T0hlbUJ6SEJNME5hbU5PWlRCczNValVwTDZfQ2Y4NWpFc2JySXJGUzlZN2oyTC1lTks2RTlNM2czcTk5NjRBOXZqdkRsQTRqcEMzelgxdENCdDE0SDEwRTlIejVOU19rcDJXQjQ0a1J0M0hxLXB1QWp1MXZTZ0ZFQmJVU3drNmY4aTF3b2wxclRtM2MxT3JJZ19KNGtGaGtQRXFockN1QWh1QXZuTENTTXV6ZTI5VHBUUGF4R3d1dkZ0THh6ek9SeE93UF9PZWZZS1J4ZHYyYjlPOUU?oc=5",
+      "lead_source": "TradingView",
       "canonical_entities": [
         "barrel",
         "crude",
         "oil"
       ],
-      "source_count": 4,
-      "distinct_publishers": 4,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-13T10:00:13+00:00",
-      "latest_seen": "2026-05-14T18:05:20+00:00",
-      "age_hours": 2.63,
-      "score": 81.45,
+      "earliest_seen": "2026-05-14T14:24:48+00:00",
+      "latest_seen": "2026-05-14T14:24:48+00:00",
+      "age_hours": 7.52,
+      "score": 69.99,
       "score_components": {
-        "source_count_points": 20,
-        "recency_points": 23.42,
-        "source_quality_points": 26.02,
+        "source_count_points": 5,
+        "recency_points": 20.49,
+        "source_quality_points": 22.5,
         "entity_relevance_points": 12,
-        "materiality_points": 0.0
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "318ca6606920ed2b",
-          "title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-          "source": "WSJ",
+          "headline_id": "4d8f12ef0cb2e13f",
+          "title": "PTT PCL Says In 2026, Dubai Crude Oil Price Expected To Average US$ 82-92 Per Barrel",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQelhBUFRWeXBRTkc5T0hlbUJ6SEJNME5hbU5PWlRCczNValVwTDZfQ2Y4NWpFc2JySXJGUzlZN2oyTC1lTks2RTlNM2czcTk5NjRBOXZqdkRsQTRqcEMzelgxdENCdDE0SDEwRTlIejVOU19rcDJXQjQ0a1J0M0hxLXB1QWp1MXZTZ0ZFQmJVU3drNmY4aTF3b2wxclRtM2MxT3JJZ19KNGtGaGtQRXFockN1QWh1QXZuTENTTXV6ZTI5VHBUUGF4R3d1dkZ0THh6ek9SeE93UF9PZWZZS1J4ZHYyYjlPOUU?oc=5",
+          "source": "TradingView",
           "source_type": "rss",
-          "published_at": "2026-05-13T15:17:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "5a605e03836764ca",
-          "title": "USA Crude Oil Stocks Drop More Than 4MM Barrels WoW",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR3pFbGllVXMtVXVuSVVnNDRDY25pTWR4bkZVS2wzX3lBMGpXX29qMFY4MGU4Nlg2Y3lqUzVuaHN4X0I0UU90cXlITV9MQ0JHMERPdFl4TjhkMUJhX1AtWERaRFpxYXhuUWd4MFNTX1VFTWJaMEVzZzZNQ3NpUm8tck82MFdiOGNUMnpqd1ZNN19jWE5QVmtES3oyWDR6alhtLUZTZEVOZ3BwbnZGU2pxTGlGdw?oc=5",
-          "source": "Rigzone",
-          "source_type": "rss",
-          "published_at": "2026-05-14T14:10:10+00:00",
-          "confidence": 0.97
-        },
-        {
-          "headline_id": "580fb06c820c1a1a",
-          "title": "Pakistan says imported 6 million barrels of crude oil from US this fiscal year",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XSndBdmxKNzdUakZ0MFZSLVp2Mzcyb3hjUDZjSXRFQ3Vzek9VYms0OG50WkVtSzh2aEdXSGtiejZjVTlubGlwajdTUEFGSjREQmk4Ny1pUzlqUQ?oc=5",
-          "source": "Arab News",
-          "source_type": "rss",
-          "published_at": "2026-05-14T18:05:20+00:00",
+          "published_at": "2026-05-14T14:24:48+00:00",
           "confidence": 0.75
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_4f766194639fc9",
+      "topic": "oil",
+      "lead_title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "barrel",
+        "crude",
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-11T20:33:52+00:00",
+      "latest_seen": "2026-05-13T10:00:13+00:00",
+      "age_hours": 35.93,
+      "score": 61.69,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 3.44,
+        "source_quality_points": 26.25,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "7c0cb504ef155f1c",
+          "title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-11T20:33:52+00:00",
+          "confidence": 1.0
         },
         {
           "headline_id": "72ed99bfeb64269d",
@@ -145,60 +232,7 @@
           "confidence": 0.75
         }
       ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_cce8df00fae5f8",
-      "topic": "oil",
-      "lead_title": "WTI Crude Oil Futures Edge 0.1% Higher to $101.12, Brent Futures Climb 0.4% to $106.10 Pre-Bell",
-      "lead_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVEhiMGQ5YlNPZDk3X2Joc3JKOU1yT2F2SGF1dG40SExsQW5VSFNIZWc3MUNBam1jYmphT0RyNXoyOU5PQ3hFc0VpU3R0Wmg4LUxxQWFvVENmbzA0c21hNkNzTV9DZXhBOU1Zb3R3a1Z3ZF8ydTB0UU44TkpFb3JPTWFKZzdubVZzS3pSTUpYdFdMT3BHTndGMlpoOHlZX0NETXdVb1hza2RrejlMd3hqX09sYzRSTm9pTUwwRHBIQW44cmxXTXBSRnd4N0dnSUtmb3FzZ21PUF9pRVE?oc=5",
-      "lead_source": "marketscreener.com",
-      "canonical_entities": [
-        "Brent",
-        "WTI",
-        "crude",
-        "oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T10:17:29+00:00",
-      "latest_seen": "2026-05-14T13:21:00+00:00",
-      "age_hours": 7.37,
-      "score": 79.83,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 20.58,
-        "source_quality_points": 23.25,
-        "entity_relevance_points": 16,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "8a5d2d36200fec20",
-          "title": "WTI Crude Oil Futures Edge 0.1% Higher to $101.12, Brent Futures Climb 0.4% to $106.10 Pre-Bell",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNVEhiMGQ5YlNPZDk3X2Joc3JKOU1yT2F2SGF1dG40SExsQW5VSFNIZWc3MUNBam1jYmphT0RyNXoyOU5PQ3hFc0VpU3R0Wmg4LUxxQWFvVENmbzA0c21hNkNzTV9DZXhBOU1Zb3R3a1Z3ZF8ydTB0UU44TkpFb3JPTWFKZzdubVZzS3pSTUpYdFdMT3BHTndGMlpoOHlZX0NETXdVb1hza2RrejlMd3hqX09sYzRSTm9pTUwwRHBIQW44cmxXTXBSRnd4N0dnSUtmb3FzZ21PUF9pRVE?oc=5",
-          "source": "marketscreener.com",
-          "source_type": "rss",
-          "published_at": "2026-05-14T10:17:29+00:00",
-          "confidence": 0.8
-        },
-        {
-          "headline_id": "eab50b2bca813f7a",
-          "title": "Oil News: WTI Crude Oil Futures Eye $100 Breakdown as Hormuz Risks Ease",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTXZpdW5jdFJCdGRWZVNGSmpMUTk3ZkQtMVd3cFh5b3BvR3NmcW5Hems4MHEteEFUNEp6NGZMN1JEZzhRTVBzQkpOVTV0OGgwdGJLc3c5Tjg3T1IwMGdaMUIxQkRIOWJuS0dsdXFPNVlWQmtaVXpKOUhfQUFwWmdkaHdVV19ybl9qNGhmc3NvNjdlZjZQdXpWaEtuLUltdDQ0b3hzTHE4ZVp6ZENkZjl6a1ltdzFxMm1JRTV4VGhYSHpZU1BTbGdz?oc=5",
-          "source": "FXEmpire",
-          "source_type": "rss",
-          "published_at": "2026-05-14T13:21:00+00:00",
-          "confidence": 0.75
-        }
-      ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -215,19 +249,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-14T18:21:00+00:00",
-      "latest_seen": "2026-05-14T18:21:00+00:00",
-      "age_hours": 2.37,
-      "score": 68.08,
+      "earliest_seen": "2026-05-14T18:08:00+00:00",
+      "latest_seen": "2026-05-14T18:08:00+00:00",
+      "age_hours": 3.8,
+      "score": 57.22,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.58,
+        "recency_points": 22.72,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2736326014baef8f",
@@ -235,129 +269,8 @@
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbnRZcndxSVhtRi15SlBKN19zektmRldfQ3lwMFpzT2ZvZk56TGQ3WjhMeDR5UURrbmJrWFRPZ1ZMQV9wcU45MDVvMHJramdfdVZjYlZLR3dLTUQtVUhtdXktT1EzTFQ5MmJOYjA3d0trVEFnWVpFMXcyXzlNZ2lWSDZOV2pIYWFNVkswelVhaHBTcnFv?oc=5",
           "source": "The Guardian",
           "source_type": "rss",
-          "published_at": "2026-05-14T18:21:00+00:00",
+          "published_at": "2026-05-14T18:08:00+00:00",
           "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_fae1fc91718bbb",
-      "topic": "oil",
-      "lead_title": "TCW Adds Debt of EM Oil Exporters on War’s Lasting Energy Impact",
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV3JoS2dWVHRNcXYyaDNRT0dwSkY0UDcyTXVhRm5DTmZ5S3FJa0RzaHczT2dKNkVxZENGOUZXNFhoOTB0dDNiTEk3TUFWVm5DT2dmT3VXWlllZlVCa3BoZl8zVXJ1LUZRUmhmdHVkMWpVa1VxeVZCdW9RVkZsRGJlTTZDd0UzTl9FWlBMRFcwTEFEa2M1T21LQXdCNlRIT3RiMTJBN1R3Y3VnWlh0M2o0cXNnME9Ydw?oc=5",
-      "lead_source": "Bloomberg.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T13:33:46+00:00",
-      "latest_seen": "2026-05-14T13:33:46+00:00",
-      "age_hours": 7.16,
-      "score": 59.71,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.71,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "5803f7668e0b2027",
-          "title": "TCW Adds Debt of EM Oil Exporters on War’s Lasting Energy Impact",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNV3JoS2dWVHRNcXYyaDNRT0dwSkY0UDcyTXVhRm5DTmZ5S3FJa0RzaHczT2dKNkVxZENGOUZXNFhoOTB0dDNiTEk3TUFWVm5DT2dmT3VXWlllZlVCa3BoZl8zVXJ1LUZRUmhmdHVkMWpVa1VxeVZCdW9RVkZsRGJlTTZDd0UzTl9FWlBMRFcwTEFEa2M1T21LQXdCNlRIT3RiMTJBN1R3Y3VnWlh0M2o0cXNnME9Ydw?oc=5",
-          "source": "Bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-05-14T13:33:46+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_8aa14906938e1c",
-      "topic": "oil",
-      "lead_title": "Protests flare across Havana as power cuts deepen amid US blockade",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGNzek1zN2p0SnJ5QmVRVm1xaFkxWjQzYlBSaFNJRTY2ZTBILTRUTHFKWE1RN0VqWnlBV1pIYXhodHhIRmpYUUl4V1k4R0Q5V2hSaEFLUVBqa3N5aTlvb2g4Q1VIU0Q1TTZfZUpZWERyMTdPOWhVOUlReEVfaDdvMm54M0NxY0RaZkNadUxNMW9JcjVWdXZPQWY5X2lXVU1iYXVWWDBJVmdUdHB4MTJ3dDNEMi00SW1xOGVz?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T00:51:00+00:00",
-      "latest_seen": "2026-05-14T00:51:00+00:00",
-      "age_hours": 19.87,
-      "score": 56.58,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 13.08,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "7964ec2162cd0ace",
-          "title": "Protests flare across Havana as power cuts deepen amid US blockade",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGNzek1zN2p0SnJ5QmVRVm1xaFkxWjQzYlBSaFNJRTY2ZTBILTRUTHFKWE1RN0VqWnlBV1pIYXhodHhIRmpYUUl4V1k4R0Q5V2hSaEFLUVBqa3N5aTlvb2g4Q1VIU0Q1TTZfZUpZWERyMTdPOWhVOUlReEVfaDdvMm54M0NxY0RaZkNadUxNMW9JcjVWdXZPQWY5X2lXVU1iYXVWWDBJVmdUdHB4MTJ3dDNEMi00SW1xOGVz?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-14T00:51:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_55abfa87becc47",
-      "topic": "oil",
-      "lead_title": "Cuba runs out of diesel and fuel oil",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUMzeGNaa1gyUTVqbVhLVDNuN3FTUEZWdk9hckRLQVVGTHAwdGZyQXZXdzJpdmp6S0VNSk5lUnM1SjlibTE4cXBubE5IVXExV3lYWGtrZVkwb0FISnpIUUdhbU9iemdtSnBqTHhyU1gzaGprbVZEdnduZ0EyTE9zSTNHUDk?oc=5",
-      "lead_source": "Financial Times",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T09:24:23+00:00",
-      "latest_seen": "2026-05-14T09:24:23+00:00",
-      "age_hours": 11.31,
-      "score": 56.31,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.21,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "3550d5dc41e6fabd",
-          "title": "Cuba runs out of diesel and fuel oil",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUMzeGNaa1gyUTVqbVhLVDNuN3FTUEZWdk9hckRLQVVGTHAwdGZyQXZXdzJpdmp6S0VNSk5lUnM1SjlibTE4cXBubE5IVXExV3lYWGtrZVkwb0FISnpIUUdhbU9iemdtSnBqTHhyU1gzaGprbVZEdnduZ0EyTE9zSTNHUDk?oc=5",
-          "source": "Financial Times",
-          "source_type": "rss",
-          "published_at": "2026-05-14T09:24:23+00:00",
-          "confidence": 0.97
         }
       ],
       "top_tier": false,
@@ -379,11 +292,11 @@
       ],
       "earliest_seen": "2026-05-14T10:53:48+00:00",
       "latest_seen": "2026-05-14T10:53:48+00:00",
-      "age_hours": 9.82,
-      "score": 56.01,
+      "age_hours": 11.04,
+      "score": 55.28,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.11,
+        "recency_points": 18.38,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -405,91 +318,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_68d21c2c1e65aa",
-      "topic": "oil",
-      "lead_title": "Oil prices could soon rise convulsively",
-      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdERWR1ZGQ3AtaW5aLWRaTXRtTmFwY1lxNkM1ZHhnTk1sNldxT05hckRER1FwRVJydTE3b0d1eVpHX00xbGhUNWJZd1FFVTN0QW5CSnpic0UwQnVOajQ3b25EQXVoV2dlbzFhWDlHVk96MGhrYlZkMW16QTgwRWNWTVlpQWxScU92LW04SQ?oc=5",
-      "lead_source": "The Economist",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T09:20:04+00:00",
-      "latest_seen": "2026-05-14T09:20:04+00:00",
-      "age_hours": 11.39,
-      "score": 55.07,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.17,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "3f57a609b288845e",
-          "title": "Oil prices could soon rise convulsively",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdERWR1ZGQ3AtaW5aLWRaTXRtTmFwY1lxNkM1ZHhnTk1sNldxT05hckRER1FwRVJydTE3b0d1eVpHX00xbGhUNWJZd1FFVTN0QW5CSnpic0UwQnVOajQ3b25EQXVoV2dlbzFhWDlHVk96MGhrYlZkMW16QTgwRWNWTVlpQWxScU92LW04SQ?oc=5",
-          "source": "The Economist",
-          "source_type": "rss",
-          "published_at": "2026-05-14T09:20:04+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_01d90221ed8b9c",
-      "topic": "oil",
-      "lead_title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
-      "lead_source": "LiteFinance",
-      "canonical_entities": [
-        "Brent",
-        "WTI",
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-11T07:00:00+00:00",
-      "latest_seen": "2026-05-11T07:00:00+00:00",
-      "age_hours": 85.72,
-      "score": 55.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 24.0,
-        "entity_relevance_points": 16,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "8ecc11cd1aa875cb",
-          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
-          "source": "LiteFinance",
-          "source_type": "rss",
-          "published_at": "2026-05-11T07:00:00+00:00",
-          "confidence": 0.8
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_ea94b765648bf2",
       "topic": "oil",
       "lead_title": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
@@ -503,11 +331,11 @@
       ],
       "earliest_seen": "2026-05-14T15:26:41+00:00",
       "latest_seen": "2026-05-14T15:26:41+00:00",
-      "age_hours": 5.28,
-      "score": 53.23,
+      "age_hours": 6.49,
+      "score": 52.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.83,
+        "recency_points": 21.11,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -542,11 +370,11 @@
       ],
       "earliest_seen": "2026-05-14T16:05:04+00:00",
       "latest_seen": "2026-05-14T16:05:04+00:00",
-      "age_hours": 4.64,
-      "score": 52.72,
+      "age_hours": 5.85,
+      "score": 51.99,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.22,
+        "recency_points": 21.49,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -568,6 +396,174 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_55abfa87becc47",
+      "topic": "oil",
+      "lead_title": "Cuba runs out of diesel and fuel oil",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUMzeGNaa1gyUTVqbVhLVDNuN3FTUEZWdk9hckRLQVVGTHAwdGZyQXZXdzJpdmp6S0VNSk5lUnM1SjlibTE4cXBubE5IVXExV3lYWGtrZVkwb0FISnpIUUdhbU9iemdtSnBqTHhyU1gzaGprbVZEdnduZ0EyTE9zSTNHUDk?oc=5",
+      "lead_source": "Financial Times",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T09:24:23+00:00",
+      "latest_seen": "2026-05-14T09:24:23+00:00",
+      "age_hours": 12.53,
+      "score": 50.58,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.48,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "3550d5dc41e6fabd",
+          "title": "Cuba runs out of diesel and fuel oil",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUUMzeGNaa1gyUTVqbVhLVDNuN3FTUEZWdk9hckRLQVVGTHAwdGZyQXZXdzJpdmp6S0VNSk5lUnM1SjlibTE4cXBubE5IVXExV3lYWGtrZVkwb0FISnpIUUdhbU9iemdtSnBqTHhyU1gzaGprbVZEdnduZ0EyTE9zSTNHUDk?oc=5",
+          "source": "Financial Times",
+          "source_type": "rss",
+          "published_at": "2026-05-14T09:24:23+00:00",
+          "confidence": 0.97
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8834be2f583183",
+      "topic": "oil",
+      "lead_title": "Brent crude oil price spikes overnight as gas prices climb",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFVPTGZtOGxYZEVpOU1xVWRQQ3pnRkdIRkdHOFpCWHZtUHI4Y0JLcHBYMkJmT0lsRGdsMks2amZiT3lCbkRJSzRYYzUzbDZoTVdMdGNWa2JrcjlIUmhoOHdJRENGdzR5STV4ejI1c0NaNW10WGk1enE2MlBVcXoxa2haMHBtTkc2RGhXWmpDemp6R1lYcTAzOXJDamswdmxEdVI1MlNScUVkc1Y2MFdmc0J1emluN3Z4eW1OcFdqak5KNVFqSGpSRA?oc=5",
+      "lead_source": "El Paso Times",
+      "canonical_entities": [
+        "Brent",
+        "crude",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-30T07:00:00+00:00",
+      "latest_seen": "2026-04-30T07:00:00+00:00",
+      "age_hours": 350.93,
+      "score": 49.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6f884bab6580e763",
+          "title": "Brent crude oil price spikes overnight as gas prices climb",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObFVPTGZtOGxYZEVpOU1xVWRQQ3pnRkdIRkdHOFpCWHZtUHI4Y0JLcHBYMkJmT0lsRGdsMks2amZiT3lCbkRJSzRYYzUzbDZoTVdMdGNWa2JrcjlIUmhoOHdJRENGdzR5STV4ejI1c0NaNW10WGk1enE2MlBVcXoxa2haMHBtTkc2RGhXWmpDemp6R1lYcTAzOXJDamswdmxEdVI1MlNScUVkc1Y2MFdmc0J1emluN3Z4eW1OcFdqak5KNVFqSGpSRA?oc=5",
+          "source": "El Paso Times",
+          "source_type": "rss",
+          "published_at": "2026-04-30T07:00:00+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_12f65f355cb1c6",
+      "topic": "oil",
+      "lead_title": "Brent crude oil spot prices surge past futures price in April",
+      "lead_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HSTVJZEhFT1U4Y2t2WFJRTjl0eFN5alpTQWZ6bE52MkIzVHp0VFJUTGtjejdOQjZuRE9pNlhBOXZvbEVQQVBSX3o0Z1NJMU4xNFFvelJYZ2ladEJhbC05emhMRQ?oc=5",
+      "lead_source": "U.S. Energy Information Administration (EIA) (.gov)",
+      "canonical_entities": [
+        "Brent",
+        "crude",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-24T07:00:00+00:00",
+      "latest_seen": "2026-04-24T07:00:00+00:00",
+      "age_hours": 494.93,
+      "score": 49.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "0fdabf57e581dc24",
+          "title": "Brent crude oil spot prices surge past futures price in April",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HSTVJZEhFT1U4Y2t2WFJRTjl0eFN5alpTQWZ6bE52MkIzVHp0VFJUTGtjejdOQjZuRE9pNlhBOXZvbEVQQVBSX3o0Z1NJMU4xNFFvelJYZ2ladEJhbC05emhMRQ?oc=5",
+          "source": "U.S. Energy Information Administration (EIA) (.gov)",
+          "source_type": "rss",
+          "published_at": "2026-04-24T07:00:00+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_68d21c2c1e65aa",
+      "topic": "oil",
+      "lead_title": "Oil prices could soon rise convulsively",
+      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdERWR1ZGQ3AtaW5aLWRaTXRtTmFwY1lxNkM1ZHhnTk1sNldxT05hckRER1FwRVJydTE3b0d1eVpHX00xbGhUNWJZd1FFVTN0QW5CSnpic0UwQnVOajQ3b25EQXVoV2dlbzFhWDlHVk96MGhrYlZkMW16QTgwRWNWTVlpQWxScU92LW04SQ?oc=5",
+      "lead_source": "The Economist",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T09:20:04+00:00",
+      "latest_seen": "2026-05-14T09:20:04+00:00",
+      "age_hours": 12.6,
+      "score": 49.34,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.44,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "3f57a609b288845e",
+          "title": "Oil prices could soon rise convulsively",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdERWR1ZGQ3AtaW5aLWRaTXRtTmFwY1lxNkM1ZHhnTk1sNldxT05hckRER1FwRVJydTE3b0d1eVpHX00xbGhUNWJZd1FFVTN0QW5CSnpic0UwQnVOajQ3b25EQXVoV2dlbzFhWDlHVk96MGhrYlZkMW16QTgwRWNWTVlpQWxScU92LW04SQ?oc=5",
+          "source": "The Economist",
+          "source_type": "rss",
+          "published_at": "2026-05-14T09:20:04+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_45ef4cc01e1457",
       "topic": "oil",
       "lead_title": "Cuba says oil and diesel supplies have run dry under U.S. sanctions",
@@ -583,11 +579,11 @@
       ],
       "earliest_seen": "2026-05-14T07:17:19+00:00",
       "latest_seen": "2026-05-14T07:17:19+00:00",
-      "age_hours": 13.43,
-      "score": 48.84,
+      "age_hours": 14.64,
+      "score": 48.11,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.94,
+        "recency_points": 16.21,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -624,11 +620,11 @@
       ],
       "earliest_seen": "2026-05-14T01:09:00+00:00",
       "latest_seen": "2026-05-14T01:09:00+00:00",
-      "age_hours": 19.57,
-      "score": 47.26,
+      "age_hours": 20.78,
+      "score": 46.53,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.26,
+        "recency_points": 12.53,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -644,47 +640,6 @@
           "source_type": "rss",
           "published_at": "2026-05-14T01:09:00+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3a229e88bdde1c",
-      "topic": "oil",
-      "lead_title": "Cuba has run out of diesel and fuel oil, energy minister says, as US blockade pushes island to brink",
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOTZFMjYzZjZieHJiZTdMRUZTeTNSWndTSkVDNEhpSUViYXY1dVVRQTd2WkRQbXZuZFNDMDU0RC1laFlxeWN6VmZQQmhTNzhGRDVZNV9jQzVxY3FtV005RW1kRlVNLUFfWUZQT0JBbjYxUGlpUUFsZXZOelhUeXllNlRPQ0FBVHRFRUJRSm5yQUJrNU91VGxvNFlR?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T02:15:00+00:00",
-      "latest_seen": "2026-05-14T02:15:00+00:00",
-      "age_hours": 18.47,
-      "score": 43.42,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 13.92,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "d401444d12f64bd1",
-          "title": "Cuba has run out of diesel and fuel oil, energy minister says, as US blockade pushes island to brink",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOTZFMjYzZjZieHJiZTdMRUZTeTNSWndTSkVDNEhpSUViYXY1dVVRQTd2WkRQbXZuZFNDMDU0RC1laFlxeWN6VmZQQmhTNzhGRDVZNV9jQzVxY3FtV005RW1kRlVNLUFfWUZQT0JBbjYxUGlpUUFsZXZOelhUeXllNlRPQ0FBVHRFRUJRSm5yQUJrNU91VGxvNFlR?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-05-14T02:15:00+00:00",
-          "confidence": 0.85
         }
       ],
       "top_tier": false,
@@ -708,7 +663,7 @@
       ],
       "earliest_seen": "2026-05-11T05:56:11+00:00",
       "latest_seen": "2026-05-12T12:00:00+00:00",
-      "age_hours": 56.72,
+      "age_hours": 57.93,
       "score": 43.25,
       "score_components": {
         "source_count_points": 10,
@@ -743,6 +698,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_3a229e88bdde1c",
+      "topic": "oil",
+      "lead_title": "Cuba has run out of diesel and fuel oil, energy minister says, as US blockade pushes island to brink",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOTZFMjYzZjZieHJiZTdMRUZTeTNSWndTSkVDNEhpSUViYXY1dVVRQTd2WkRQbXZuZFNDMDU0RC1laFlxeWN6VmZQQmhTNzhGRDVZNV9jQzVxY3FtV005RW1kRlVNLUFfWUZQT0JBbjYxUGlpUUFsZXZOelhUeXllNlRPQ0FBVHRFRUJRSm5yQUJrNU91VGxvNFlR?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T02:15:00+00:00",
+      "latest_seen": "2026-05-14T02:15:00+00:00",
+      "age_hours": 19.68,
+      "score": 42.69,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 13.19,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "d401444d12f64bd1",
+          "title": "Cuba has run out of diesel and fuel oil, energy minister says, as US blockade pushes island to brink",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOTZFMjYzZjZieHJiZTdMRUZTeTNSWndTSkVDNEhpSUViYXY1dVVRQTd2WkRQbXZuZFNDMDU0RC1laFlxeWN6VmZQQmhTNzhGRDVZNV9jQzVxY3FtV005RW1kRlVNLUFfWUZQT0JBbjYxUGlpUUFsZXZOelhUeXllNlRPQ0FBVHRFRUJRSm5yQUJrNU91VGxvNFlR?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-05-14T02:15:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_dda825d830e23a",
       "topic": "oil",
       "lead_title": "China’s fuel exports fail to rebound after Beijing signals easing of ban",
@@ -756,11 +752,11 @@
       ],
       "earliest_seen": "2026-05-14T04:01:03+00:00",
       "latest_seen": "2026-05-14T04:01:03+00:00",
-      "age_hours": 16.7,
-      "score": 42.58,
+      "age_hours": 17.92,
+      "score": 41.85,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.98,
+        "recency_points": 14.25,
         "source_quality_points": 27.6,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -782,6 +778,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_8aa14906938e1c",
+      "topic": "oil",
+      "lead_title": "Protests flare across Havana as power cuts deepen amid US blockade",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGNzek1zN2p0SnJ5QmVRVm1xaFkxWjQzYlBSaFNJRTY2ZTBILTRUTHFKWE1RN0VqWnlBV1pIYXhodHhIRmpYUUl4V1k4R0Q5V2hSaEFLUVBqa3N5aTlvb2g4Q1VIU0Q1TTZfZUpZWERyMTdPOWhVOUlReEVfaDdvMm54M0NxY0RaZkNadUxNMW9JcjVWdXZPQWY5X2lXVU1iYXVWWDBJVmdUdHB4MTJ3dDNEMi00SW1xOGVz?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T00:51:00+00:00",
+      "latest_seen": "2026-05-14T00:51:00+00:00",
+      "age_hours": 21.08,
+      "score": 40.85,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 12.35,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "7964ec2162cd0ace",
+          "title": "Protests flare across Havana as power cuts deepen amid US blockade",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGNzek1zN2p0SnJ5QmVRVm1xaFkxWjQzYlBSaFNJRTY2ZTBILTRUTHFKWE1RN0VqWnlBV1pIYXhodHhIRmpYUUl4V1k4R0Q5V2hSaEFLUVBqa3N5aTlvb2g4Q1VIU0Q1TTZfZUpZWERyMTdPOWhVOUlReEVfaDdvMm54M0NxY0RaZkNadUxNMW9JcjVWdXZPQWY5X2lXVU1iYXVWWDBJVmdUdHB4MTJ3dDNEMi00SW1xOGVz?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-14T00:51:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_00d813f267c572",
       "topic": "oil",
       "lead_title": "Global oil supply to plunge below demand this year due to Iran war, IEA says",
@@ -797,11 +832,11 @@
       ],
       "earliest_seen": "2026-05-13T15:06:08+00:00",
       "latest_seen": "2026-05-13T15:06:08+00:00",
-      "age_hours": 29.62,
-      "score": 41.23,
+      "age_hours": 30.83,
+      "score": 40.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.23,
+        "recency_points": 6.5,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -823,13 +858,15 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_6f87fb047beaff",
+      "cluster_id": "c_01d90221ed8b9c",
       "topic": "oil",
-      "lead_title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
-      "lead_source": "Reuters",
+      "lead_title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
+      "lead_source": "LiteFinance",
       "canonical_entities": [
-        "barrel",
+        "Brent",
+        "WTI",
+        "crude",
         "oil"
       ],
       "source_count": 1,
@@ -837,28 +874,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-11T20:33:52+00:00",
-      "latest_seen": "2026-05-11T20:33:52+00:00",
-      "age_hours": 72.16,
-      "score": 38.0,
+      "earliest_seen": "2026-05-11T07:00:00+00:00",
+      "latest_seen": "2026-05-11T07:00:00+00:00",
+      "age_hours": 86.93,
+      "score": 40.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
+        "source_quality_points": 24.0,
+        "entity_relevance_points": 16,
         "materiality_points": -5.0
       },
       "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "7c0cb504ef155f1c",
-          "title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
-          "source": "Reuters",
+          "headline_id": "8ecc11cd1aa875cb",
+          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
+          "source": "LiteFinance",
           "source_type": "rss",
-          "published_at": "2026-05-11T20:33:52+00:00",
-          "confidence": 1.0
+          "published_at": "2026-05-11T07:00:00+00:00",
+          "confidence": 0.8
         }
       ],
       "top_tier": false,
@@ -881,7 +918,7 @@
       ],
       "earliest_seen": "2026-05-03T07:00:00+00:00",
       "latest_seen": "2026-05-03T07:00:00+00:00",
-      "age_hours": 277.72,
+      "age_hours": 278.93,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -922,11 +959,11 @@
       ],
       "earliest_seen": "2026-05-13T08:00:02+00:00",
       "latest_seen": "2026-05-13T08:00:02+00:00",
-      "age_hours": 36.72,
-      "score": 36.07,
+      "age_hours": 37.93,
+      "score": 35.34,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.97,
+        "recency_points": 2.24,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -963,11 +1000,11 @@
       ],
       "earliest_seen": "2026-05-13T04:00:00+00:00",
       "latest_seen": "2026-05-13T04:00:00+00:00",
-      "age_hours": 40.72,
-      "score": 34.57,
+      "age_hours": 41.93,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 0.57,
+        "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
