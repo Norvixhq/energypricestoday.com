@@ -58,14 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Current price of oil as of May 13, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "Crude oil prices may ease to $79/barrel by 2027: US energy information administration", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump’s China visit. What are experts saying", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Why Physical Crude Premiums Collapse Despite the Hormuz Crisis", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "Current price of oil as of May 14, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Why Physical Crude Premiums Collapse Despite the Hormuz Crisis", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Crude oil prices may ease to $79/barrel by 2027: US energy information administration", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump’s China visit. What are experts saying", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
   { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil prices dip after Iran says some vessels are crossing Hormuz", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
