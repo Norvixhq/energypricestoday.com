@@ -1,12 +1,62 @@
 {
   "topic": "gasoline",
-  "generated_at": "2026-05-14T14:45:25.069830+00:00",
+  "generated_at": "2026-05-14T16:54:58.951577+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 26,
   "clusters": [
+    {
+      "cluster_id": "c_f0db1f70357f19",
+      "topic": "gasoline",
+      "lead_title": "US Retail Sales Rise for Third Month Despite Gas Price Surge",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQnBYNU9HT1JJX2E3cS1lRTJ5bEpNbE1NNjFvWXhKRGF3V2dJd18xTU95WVpVTkQyWGd3MVJDYU1BUTBVei1xVmhjR0pVbGpnenVYeDFVS3ZzQkxVZ01lZmRfVzdESGRTQ3FDcHZFZDVLd0tOTk5UT2FZMzktVDRPUUlYOGhTeFgwaDlmSTFJbmpxa1AxWUhzVFQ3UEVOdHdFaXpQM0J5YWZoRDBKQ016cnQxU0s?oc=5",
+      "lead_source": "Bloomberg.com",
+      "canonical_entities": [
+        "retail"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T12:34:13+00:00",
+      "latest_seen": "2026-05-14T14:35:11+00:00",
+      "age_hours": 2.33,
+      "score": 72.35,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 23.6,
+        "source_quality_points": 24.75,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "930fbfdac5bd1a04",
+          "title": "US Retail Sales Rise for Third Month Despite Gas Price Surge",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQnBYNU9HT1JJX2E3cS1lRTJ5bEpNbE1NNjFvWXhKRGF3V2dJd18xTU95WVpVTkQyWGd3MVJDYU1BUTBVei1xVmhjR0pVbGpnenVYeDFVS3ZzQkxVZ01lZmRfVzdESGRTQ3FDcHZFZDVLd0tOTk5UT2FZMzktVDRPUUlYOGhTeFgwaDlmSTFJbmpxa1AxWUhzVFQ3UEVOdHdFaXpQM0J5YWZoRDBKQ016cnQxU0s?oc=5",
+          "source": "Bloomberg.com",
+          "source_type": "rss",
+          "published_at": "2026-05-14T12:34:13+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "7a0f3b16d2d33123",
+          "title": "U.S. retail sales rise for third straight month in April 2026",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9MV1Q3YTA4a2N3VmRqVkhPXzNEWE5udDUyVEFaZm5HTnBYV2d5b0c1Z0lvRjJFckdqUmY2SmFZQUJlV1l5MFgwNXlQNGQxWUQ5Z3NPZTJIaTVhMlhkVjl0bU1HeklfV1NNM1g0WnhGVW42R19VTmVn?oc=5",
+          "source": "qz.com",
+          "source_type": "rss",
+          "published_at": "2026-05-14T14:35:11+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
     {
       "cluster_id": "c_987467cd49334e",
       "topic": "gasoline",
@@ -16,24 +66,24 @@
       "canonical_entities": [
         "retail"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-14T13:01:00+00:00",
-      "latest_seen": "2026-05-14T14:11:00+00:00",
-      "age_hours": 0.57,
-      "score": 68.16,
+      "latest_seen": "2026-05-14T15:23:00+00:00",
+      "age_hours": 1.53,
+      "score": 67.58,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.66,
+        "source_count_points": 15,
+        "recency_points": 24.08,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "ad3de41d5d831e1c",
@@ -41,7 +91,16 @@
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWnJMcmVwRzBhVmNqQmlqd2pnR0M5Y3VtMXVoQy1FLU5lX1NlSW54dTg1VlhLYUdRVTZ0VFdsajlwM0ZuTDJNd0tpWlQ0VDZsZkxneTR6YkZwTjVCaXZvWG9COTlMMFE2eUpwNldDTUVlUWtrQ2cwdmI0MWRsUnA5SmFra0RMVTJhZTU3aHFwUFA4ZU8y?oc=5",
           "source": "AP News",
           "source_type": "rss",
-          "published_at": "2026-05-14T14:11:00+00:00",
+          "published_at": "2026-05-14T15:23:00+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "1bfcd5d24ae2a2ea",
+          "title": "Retail sales growth slowed in April as Iran war fuels higher gas prices",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeF81YVV4a0lmRDlUZHRrZ2I4YkRPWDlXQlFscFJCRlZZa2FFSkF0Z3VrZVZvTmRLbDRyeTk1LWpRVmpTRlhVSkhVSjBCNjhOSDRMTW5hUXQ4NkJscDhyRDVDc3FyQjByNU8tM1JNci1IS3IyaHZJRURCUkdDQmhHQ3NsWEZ0R1NCWHNULWJNdUVXb0FmekQ5Z3BPZkZ2Ynd4R2wwb2RMbW5BYkF60gGyAUFVX3lxTE5JSVN5T0lsQThySGttZEJXWFkzczlKU0E5TVh4d0ZQd3dSSWRCNzZSUDRtZHF4QVlTVWpJS2QzZEtYOFpuRE5YeW1POE5Kb0hqMmNJMEFRTllza05hTTl1OXhQQngzYVBhREl6SGVrV05OdjlReXJGZXBfR21rb1VreThOMW9zNWtIQkNhVFduWUw5cUlxbW54U0tFSk0yX2ZVbFUxT2F0YzRHMzFBbXI4RHc?oc=5",
+          "source": "PBS",
+          "source_type": "rss",
+          "published_at": "2026-05-14T14:40:35+00:00",
           "confidence": 0.65
         },
         {
@@ -55,6 +114,402 @@
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_4d2373e42497fc",
+      "topic": "gasoline",
+      "lead_title": "Will a gas tax help lower prices at the pump?",
+      "lead_url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ocFBnVTZJbXB1d0ZPMzdKWHZUOGJaWkNFOE9ZdFVFa1YyTEVkOXFUdndPcVU0VUY4NUkzOVZ0NFhhcjd1OFJFSmZYU01UYkxSMVR4a1JtZmlRaWttSkpzOTdkaEZDZw?oc=5",
+      "lead_source": "University of Cincinnati",
+      "canonical_entities": [
+        "pump"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:22:19+00:00",
+      "latest_seen": "2026-05-14T16:22:19+00:00",
+      "age_hours": 0.54,
+      "score": 63.17,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.67,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "aa5ea7ac92679e57",
+          "title": "Will a gas tax help lower prices at the pump?",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ocFBnVTZJbXB1d0ZPMzdKWHZUOGJaWkNFOE9ZdFVFa1YyTEVkOXFUdndPcVU0VUY4NUkzOVZ0NFhhcjd1OFJFSmZYU01UYkxSMVR4a1JtZmlRaWttSkpzOTdkaEZDZw?oc=5",
+          "source": "University of Cincinnati",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:22:19+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e85344be5cf11b",
+      "topic": "gasoline",
+      "lead_title": "Relief at the pump? Staten Island’s Malliotakis calls for gas tax holiday as prices climb",
+      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTFYtTnMwMFAtN3JvY1psVW1JSXVGVnFzVjczLTRMQmplYm9QT2hrUkFYVkw2V3U0MnJtSGVWX0laM3p5ZzdZWFJvZzdNcGprY0RFVUxfZWtkYzZQV2pYLWw0Qk95ZTZOMzVJQnNJWl9VNnpCV3pWSXpVSnlDWUl3QzJyNTNyamx3amQ1MGFqREtjVU5jekI0bGhEUERGUXpWb19PVjNLMi14Vm1PMC16VHdoeGlxZjVTckpfb09OMXdZQUMzSzdIY1pMZWrSAeABQVVfeXFMUHNiU0hsX1lybTdLWTduU18yOHJHdkY0aGpBaU5QM3NzaTg1TGpCTTA5Y0t3UnBUc3JhY0FsUHZmT0JqcHFGUzVROVh2bUJnZkFjb3F0Z3duN3VUcWk0eEM2cFhhU2RKOTlNWHU4aXZuSWdTTmVkRnEzY2p1UjRSYXNENUttZ2ZVME5Tc1NKZG14OVVBanZKZnU5MnF3U0l6V0ZPM0RHV0ZPM0hlRm51RGFMRUg1VFRSN0tiNXhhd2V1TExqWHEtVHZyc250ZlJfa2oxTjJIeTlYYXh0ck55WUI?oc=5",
+      "lead_source": "SILive.com",
+      "canonical_entities": [
+        "pump"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T15:02:00+00:00",
+      "latest_seen": "2026-05-14T15:02:00+00:00",
+      "age_hours": 1.88,
+      "score": 62.37,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.87,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b60cbabfe42008a4",
+          "title": "Relief at the pump? Staten Island’s Malliotakis calls for gas tax holiday as prices climb",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPTFYtTnMwMFAtN3JvY1psVW1JSXVGVnFzVjczLTRMQmplYm9QT2hrUkFYVkw2V3U0MnJtSGVWX0laM3p5ZzdZWFJvZzdNcGprY0RFVUxfZWtkYzZQV2pYLWw0Qk95ZTZOMzVJQnNJWl9VNnpCV3pWSXpVSnlDWUl3QzJyNTNyamx3amQ1MGFqREtjVU5jekI0bGhEUERGUXpWb19PVjNLMi14Vm1PMC16VHdoeGlxZjVTckpfb09OMXdZQUMzSzdIY1pMZWrSAeABQVVfeXFMUHNiU0hsX1lybTdLWTduU18yOHJHdkY0aGpBaU5QM3NzaTg1TGpCTTA5Y0t3UnBUc3JhY0FsUHZmT0JqcHFGUzVROVh2bUJnZkFjb3F0Z3duN3VUcWk0eEM2cFhhU2RKOTlNWHU4aXZuSWdTTmVkRnEzY2p1UjRSYXNENUttZ2ZVME5Tc1NKZG14OVVBanZKZnU5MnF3U0l6V0ZPM0RHV0ZPM0hlRm51RGFMRUg1VFRSN0tiNXhhd2V1TExqWHEtVHZyc250ZlJfa2oxTjJIeTlYYXh0ck55WUI?oc=5",
+          "source": "SILive.com",
+          "source_type": "rss",
+          "published_at": "2026-05-14T15:02:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_a0d8600ac0928e",
+      "topic": "gasoline",
+      "lead_title": "Opinion | Trump’s War Is Punishing the Poor, Starting at the Gas Pump",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYmRudVV3anlTWUs1T0twb3IyZ3BkN1paYTI3WkJMTDRFN1pnWjF1T0JxRzVYdm5aT292Y2RsU3ZLTFBFbHlLU2NqeUxoLV9XcWZaYU54UkFrcjhoNmg5VXhxOEt1UlRYY0YzMm83dmJzSkcxUXBoWjl2MTJLNTVSWERRRnA?oc=5",
+      "lead_source": "The New York Times",
+      "canonical_entities": [
+        "pump"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T15:00:06+00:00",
+      "latest_seen": "2026-05-14T15:00:06+00:00",
+      "age_hours": 1.91,
+      "score": 62.35,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.85,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "fe6d311bb20aa649",
+          "title": "Opinion | Trump’s War Is Punishing the Poor, Starting at the Gas Pump",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYmRudVV3anlTWUs1T0twb3IyZ3BkN1paYTI3WkJMTDRFN1pnWjF1T0JxRzVYdm5aT292Y2RsU3ZLTFBFbHlLU2NqeUxoLV9XcWZaYU54UkFrcjhoNmg5VXhxOEt1UlRYY0YzMm83dmJzSkcxUXBoWjl2MTJLNTVSWERRRnA?oc=5",
+          "source": "The New York Times",
+          "source_type": "rss",
+          "published_at": "2026-05-14T15:00:06+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6348649bd8b908",
+      "topic": "gasoline",
+      "lead_title": "White House scrambles for gas-price relief as Iran war drags on",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0VjdHVndkRaT0dPYVNNTTAyaHRxdkpxVkVhQlpac3Q3N2JPZ3F2MDk0Q0RlZHc3RjBTb3dTS041OVZvaWdHeUV0TlR6NVROMFVFN3hRUG9CZ2E1UGRjMzJ6X3EzbmVKTG94aGFqdUd3ZFVOT05pVEJjQUtHVlNieGFicjl6T01lMndOT29Ta2pLdzZ2THFoOXdvZ1Q2WjU1dERveHNSNUQ1MmZZMmc?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:18:00+00:00",
+      "latest_seen": "2026-05-14T16:18:00+00:00",
+      "age_hours": 0.62,
+      "score": 58.13,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.63,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "2b8abb81a948f537",
+          "title": "White House scrambles for gas-price relief as Iran war drags on",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0VjdHVndkRaT0dPYVNNTTAyaHRxdkpxVkVhQlpac3Q3N2JPZ3F2MDk0Q0RlZHc3RjBTb3dTS041OVZvaWdHeUV0TlR6NVROMFVFN3hRUG9CZ2E1UGRjMzJ6X3EzbmVKTG94aGFqdUd3ZFVOT05pVEJjQUtHVlNieGFicjl6T01lMndOT29Ta2pLdzZ2THFoOXdvZ1Q2WjU1dERveHNSNUQ1MmZZMmc?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:18:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_18b7e6cd7fc6f3",
+      "topic": "gasoline",
+      "lead_title": "Wisconsin gas prices continue rise as diesel hits another record high",
+      "lead_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNN2JnOU5lbjVvTHhDYjlSelduNTF3a05JbmhfbFZLUHhqRXVjQ1dPUjVoRzIzdW00Q3hsaU9PRXBmQlU0M1Rscl94UVN1OHh2emdPMHZGRWZUVHNBRDJ5Z0Z1cE41Slp3RmxhWjdjRDBDMVRlZkRrZHJXZXV1bG50bDdxZlRfOGJzTkl4dE1ub3VVQ0hOaVlRempGTVE3NjMtanN0SVlqWENMWnkzaGIybllzYWRNX1ZUYTZhaXF1VGhkZk9JdkRGVnp0Y0NZeXg1MW1R?oc=5",
+      "lead_source": "Milwaukee Journal Sentinel",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:44:00+00:00",
+      "latest_seen": "2026-05-14T16:44:00+00:00",
+      "age_hours": 0.18,
+      "score": 57.89,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.89,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "d17c0a772ee56e9c",
+          "title": "Wisconsin gas prices continue rise as diesel hits another record high",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNN2JnOU5lbjVvTHhDYjlSelduNTF3a05JbmhfbFZLUHhqRXVjQ1dPUjVoRzIzdW00Q3hsaU9PRXBmQlU0M1Rscl94UVN1OHh2emdPMHZGRWZUVHNBRDJ5Z0Z1cE41Slp3RmxhWjdjRDBDMVRlZkRrZHJXZXV1bG50bDdxZlRfOGJzTkl4dE1ub3VVQ0hOaVlRempGTVE3NjMtanN0SVlqWENMWnkzaGIybllzYWRNX1ZUYTZhaXF1VGhkZk9JdkRGVnp0Y0NZeXg1MW1R?oc=5",
+          "source": "Milwaukee Journal Sentinel",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:44:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_98331958bb9608",
+      "topic": "gasoline",
+      "lead_title": "Gas prices suddenly spike by more than 20 cents a gallon in Minnesota",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTlhKTExPdUZibHBMZHdaYXZhdVBUSG1PX2VKdU42NWl6YXBmb2RjQmU0b1hyNDU3aFRiMEN0TTlkc2xiRE5OWHpfQ3ZEUnFhejRfU2F0NlBpMnVXSnJHd3I4cDFUMUlMbGZjM3d2cVBZMUJ3NngwRE1wLWpONDBvQUp1d29PTzkyeGwxd3hqYVBPSnF3dnpEZ001R1BtSG9HUTI5V1l6TXpnVG5tbkdZVw?oc=5",
+      "lead_source": "Bring Me The News",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:39:03+00:00",
+      "latest_seen": "2026-05-14T16:39:03+00:00",
+      "age_hours": 0.27,
+      "score": 57.84,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.84,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "228be1216b8ae85d",
+          "title": "Gas prices suddenly spike by more than 20 cents a gallon in Minnesota",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTlhKTExPdUZibHBMZHdaYXZhdVBUSG1PX2VKdU42NWl6YXBmb2RjQmU0b1hyNDU3aFRiMEN0TTlkc2xiRE5OWHpfQ3ZEUnFhejRfU2F0NlBpMnVXSnJHd3I4cDFUMUlMbGZjM3d2cVBZMUJ3NngwRE1wLWpONDBvQUp1d29PTzkyeGwxd3hqYVBPSnF3dnpEZ001R1BtSG9HUTI5V1l6TXpnVG5tbkdZVw?oc=5",
+          "source": "Bring Me The News",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:39:03+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_bbf3e1414eda96",
+      "topic": "gasoline",
+      "lead_title": "Why suspending the gas tax won’t help consumers",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUlvemtyNVRQQ3JaWkdSYlFERTRiQmZjRVpHcno2cHlQTW9SdFhwWkVTc0VLQ28tZlQ5YTVQaV9RYUpiS09SaEV5MC1VUTBkUTh1bEdoYmowc3J4a1JxTlk5Y21rRm04VlQ4OWpZNEhNekxPaGxwVWo2Tmk5bEFPdTIzeUFUQ0lUeXo2eTUxNnN6U3gwNGc?oc=5",
+      "lead_source": "marketplace.org",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:36:23+00:00",
+      "latest_seen": "2026-05-14T16:36:23+00:00",
+      "age_hours": 0.31,
+      "score": 57.81,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.81,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9bd3ab3dff7715c1",
+          "title": "Why suspending the gas tax won’t help consumers",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUlvemtyNVRQQ3JaWkdSYlFERTRiQmZjRVpHcno2cHlQTW9SdFhwWkVTc0VLQ28tZlQ5YTVQaV9RYUpiS09SaEV5MC1VUTBkUTh1bEdoYmowc3J4a1JxTlk5Y21rRm04VlQ4OWpZNEhNekxPaGxwVWo2Tmk5bEFPdTIzeUFUQ0lUeXo2eTUxNnN6U3gwNGc?oc=5",
+          "source": "marketplace.org",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:36:23+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ebfe94c20a4dca",
+      "topic": "gasoline",
+      "lead_title": "Gas Prices In Alabama Hold Steady With An Average Of $4.07",
+      "lead_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZHpEV3Y4eDgwSTl3QzhxcFIwUUZJdGhkNlpSR3pSYlFEZm5SWFAyOTFtOUpCbVFxRm9zV3huOFNZdkhMQXBJa0lSWkZkSGt4T2VHMzROeHlqb2ZJeFY4cllBTWZZTzBi?oc=5",
+      "lead_source": "Tuscaloosa Thread",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:28:06+00:00",
+      "latest_seen": "2026-05-14T16:28:06+00:00",
+      "age_hours": 0.45,
+      "score": 57.73,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.73,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "92a3725a8d2d2325",
+          "title": "Gas Prices In Alabama Hold Steady With An Average Of $4.07",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1lZHpEV3Y4eDgwSTl3QzhxcFIwUUZJdGhkNlpSR3pSYlFEZm5SWFAyOTFtOUpCbVFxRm9zV3huOFNZdkhMQXBJa0lSWkZkSGt4T2VHMzROeHlqb2ZJeFY4cllBTWZZTzBi?oc=5",
+          "source": "Tuscaloosa Thread",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:28:06+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d65bed44d75152",
+      "topic": "gasoline",
+      "lead_title": "Ohio lawmakers look to follow other states in cutting gas tax as prices climb",
+      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQWxRaDA3VTdSLW1rYTlRbGplNVZtTmpQZDNvTkVZLXJhWEhPWVRxeHF6QlNXcVE5RmthdHd0alYwRXNEMC1WZERabDlZM1hBQ20yWEtSNFNhV25Sd1FKLUVROXBEczdKOGk2ZnFsdVY4UEt1NDBkMUVXdnNHYlpwd1FtRTM5WTdoeUlReE85clBaOWE2U1U5MVU1U2pGdkRZcHFHR1dCRTYzZWloa2pHRmpmcnktWFBLLVZMZmtB?oc=5",
+      "lead_source": "Cleveland.com",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:23:00+00:00",
+      "latest_seen": "2026-05-14T16:23:00+00:00",
+      "age_hours": 0.53,
+      "score": 57.68,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.68,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "767bd009ed7f6e19",
+          "title": "Ohio lawmakers look to follow other states in cutting gas tax as prices climb",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQWxRaDA3VTdSLW1rYTlRbGplNVZtTmpQZDNvTkVZLXJhWEhPWVRxeHF6QlNXcVE5RmthdHd0alYwRXNEMC1WZERabDlZM1hBQ20yWEtSNFNhV25Sd1FKLUVROXBEczdKOGk2ZnFsdVY4UEt1NDBkMUVXdnNHYlpwd1FtRTM5WTdoeUlReE85clBaOWE2U1U5MVU1U2pGdkRZcHFHR1dCRTYzZWloa2pHRmpmcnktWFBLLVZMZmtB?oc=5",
+          "source": "Cleveland.com",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:23:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7dfe78b39fee9e",
+      "topic": "gasoline",
+      "lead_title": "East Texas' KETK reports that gas prices are making it harder for nonprofits to help disaster victims and foster children",
+      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ3lOaU9OVC05ZFBGNlA5ZTFnMnh5V3FZVVhIbFZkc2lEbU41WkF1cXRiMWFReE4xOTh2TlpNYktoQ3ZPUGF2eTNvdTdEYTRrMkZCSHoxXzBqUDZDNXBCRTJvaFFZT2NXUHRRYjZoZXBzdGgxdHBnOVFFd2tQa3dFQ1lhemRVYTFmZjIxRGdNbFhySHVkNWZjYTNhcXl3Ukl4T19zTVRqakNUMzAyQjFsb0ppWkJVaEtaYXpzNzRlVmNXTmtOWUE?oc=5",
+      "lead_source": "Media Matters for America",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T16:18:12+00:00",
+      "latest_seen": "2026-05-14T16:18:12+00:00",
+      "age_hours": 0.61,
+      "score": 57.63,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.63,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "501a375c9b45e749",
+          "title": "East Texas' KETK reports that gas prices are making it harder for nonprofits to help disaster victims and foster children",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZ3lOaU9OVC05ZFBGNlA5ZTFnMnh5V3FZVVhIbFZkc2lEbU41WkF1cXRiMWFReE4xOTh2TlpNYktoQ3ZPUGF2eTNvdTdEYTRrMkZCSHoxXzBqUDZDNXBCRTJvaFFZT2NXUHRRYjZoZXBzdGgxdHBnOVFFd2tQa3dFQ1lhemRVYTFmZjIxRGdNbFhySHVkNWZjYTNhcXl3Ukl4T19zTVRqakNUMzAyQjFsb0ppWkJVaEtaYXpzNzRlVmNXTmtOWUE?oc=5",
+          "source": "Media Matters for America",
+          "source_type": "rss",
+          "published_at": "2026-05-14T16:18:12+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -73,17 +528,17 @@
       ],
       "earliest_seen": "2026-05-14T12:41:00+00:00",
       "latest_seen": "2026-05-14T13:27:27+00:00",
-      "age_hours": 1.3,
-      "score": 67.72,
+      "age_hours": 3.46,
+      "score": 56.42,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 24.22,
+        "recency_points": 22.92,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "14daa5da61b35811",
@@ -104,46 +559,7 @@
           "confidence": 0.65
         }
       ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6348649bd8b908",
-      "topic": "gasoline",
-      "lead_title": "White House scrambles for gas-price relief as Iran war drags on",
-      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0VjdHVndkRaT0dPYVNNTTAyaHRxdkpxVkVhQlpac3Q3N2JPZ3F2MDk0Q0RlZHc3RjBTb3dTS041OVZvaWdHeUV0TlR6NVROMFVFN3hRUG9CZ2E1UGRjMzJ6X3EzbmVKTG94aGFqdUd3ZFVOT05pVEJjQUtHVlNieGFicjl6T01lMndOT29Ta2pLdzZ2THFoOXdvZ1Q2WjU1dERveHNSNUQ1MmZZMmc?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T12:40:57+00:00",
-      "latest_seen": "2026-05-14T12:40:57+00:00",
-      "age_hours": 2.07,
-      "score": 67.26,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.76,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "2b8abb81a948f537",
-          "title": "White House scrambles for gas-price relief as Iran war drags on",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0VjdHVndkRaT0dPYVNNTTAyaHRxdkpxVkVhQlpac3Q3N2JPZ3F2MDk0Q0RlZHc3RjBTb3dTS041OVZvaWdHeUV0TlR6NVROMFVFN3hRUG9CZ2E1UGRjMzJ6X3EzbmVKTG94aGFqdUd3ZFVOT05pVEJjQUtHVlNieGFicjl6T01lMndOT29Ta2pLdzZ2THFoOXdvZ1Q2WjU1dERveHNSNUQ1MmZZMmc?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-14T12:40:57+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -162,17 +578,17 @@
       ],
       "earliest_seen": "2026-05-14T14:35:33+00:00",
       "latest_seen": "2026-05-14T14:35:33+00:00",
-      "age_hours": 0.16,
-      "score": 63.4,
+      "age_hours": 2.32,
+      "score": 52.11,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.9,
+        "recency_points": 23.61,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "646dd46e98737ed6",
@@ -191,8 +607,8 @@
       "cluster_id": "c_ee959ca4b15a08",
       "topic": "gasoline",
       "lead_title": "Trump eyes gas tax pause as Iran conflict drives pump prices above $4.50",
-      "lead_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQlB5TUw4SUFCLW5PcUMxb1RIaUhTelpHSjBfcnFlU0dLUExwX0FiTUgwR2Z4NFRXTmhjZGFfZFZlRmE1TW5ZNDducUhGZTVFSjJ5cFpGb0czZWtHUVFmM2ZKenpRZV9zSUxCWDcwR2N0WTN5YnI1SFV2QW1PbUlTUw?oc=5",
-      "lead_source": "Yahoo",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT3p2YmlxR0pyaXdKTTZhN0dXQnF2OUg5T25GWjQ2RS03bW9rNkpNNllSY1hwU05fV0J5clZiY2pIM3dNeTkxMWpmdWg3R1Z3QnFIa3o4bzdyLWRtMnpxaE5FY0d6WG4xdU5USG5DSnZfaWttV1VmQXFoWjlrYjkwUk9yN21FY3lPY0FF?oc=5",
+      "lead_source": "The Cool Down",
       "canonical_entities": [
         "pump"
       ],
@@ -203,23 +619,23 @@
       ],
       "earliest_seen": "2026-05-14T13:40:00+00:00",
       "latest_seen": "2026-05-14T13:40:00+00:00",
-      "age_hours": 1.09,
-      "score": 62.85,
+      "age_hours": 3.25,
+      "score": 51.55,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.35,
+        "recency_points": 23.05,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "9d000c6b846d8d84",
           "title": "Trump eyes gas tax pause as Iran conflict drives pump prices above $4.50",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQlB5TUw4SUFCLW5PcUMxb1RIaUhTelpHSjBfcnFlU0dLUExwX0FiTUgwR2Z4NFRXTmhjZGFfZFZlRmE1TW5ZNDducUhGZTVFSjJ5cFpGb0czZWtHUVFmM2ZKenpRZV9zSUxCWDcwR2N0WTN5YnI1SFV2QW1PbUlTUw?oc=5",
-          "source": "Yahoo",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT3p2YmlxR0pyaXdKTTZhN0dXQnF2OUg5T25GWjQ2RS03bW9rNkpNNllSY1hwU05fV0J5clZiY2pIM3dNeTkxMWpmdWg3R1Z3QnFIa3o4bzdyLWRtMnpxaE5FY0d6WG4xdU5USG5DSnZfaWttV1VmQXFoWjlrYjkwUk9yN21FY3lPY0FF?oc=5",
+          "source": "The Cool Down",
           "source_type": "rss",
           "published_at": "2026-05-14T13:40:00+00:00",
           "confidence": 0.65
@@ -244,17 +660,17 @@
       ],
       "earliest_seen": "2026-05-14T13:03:23+00:00",
       "latest_seen": "2026-05-14T13:03:23+00:00",
-      "age_hours": 1.7,
-      "score": 62.48,
+      "age_hours": 3.86,
+      "score": 51.18,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.98,
+        "recency_points": 22.68,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1a84fe0854054235",
@@ -285,17 +701,17 @@
       ],
       "earliest_seen": "2026-05-14T12:59:00+00:00",
       "latest_seen": "2026-05-14T12:59:00+00:00",
-      "age_hours": 1.77,
-      "score": 62.44,
+      "age_hours": 3.93,
+      "score": 51.14,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.94,
+        "recency_points": 22.64,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7d29e70947ca48e9",
@@ -305,439 +721,6 @@
           "source_type": "rss",
           "published_at": "2026-05-14T12:59:00+00:00",
           "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_25f2a9132c880f",
-      "topic": "gasoline",
-      "lead_title": "Gas Tax Holiday Calculator: See How Much You’d Save at the Pump",
-      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rcEJSZjgtWk1mc3lWYjZpdGJ4RXV6OWQzZ18yMW52SzROcjRod013bVdsYzVZNWNMZEptdTFwM19GcjBQSDl4QnZPdDNoLTV6b29oX3RGcGtPVVBZbmhvb3VVb0FDYURfNzVVMF9IRER4aTBP?oc=5",
-      "lead_source": "Bipartisan Policy Center",
-      "canonical_entities": [
-        "pump"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T12:50:12+00:00",
-      "latest_seen": "2026-05-14T12:50:12+00:00",
-      "age_hours": 1.92,
-      "score": 62.35,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.85,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "9369eade4c93f358",
-          "title": "Gas Tax Holiday Calculator: See How Much You’d Save at the Pump",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rcEJSZjgtWk1mc3lWYjZpdGJ4RXV6OWQzZ18yMW52SzROcjRod013bVdsYzVZNWNMZEptdTFwM19GcjBQSDl4QnZPdDNoLTV6b29oX3RGcGtPVVBZbmhvb3VVb0FDYURfNzVVMF9IRER4aTBP?oc=5",
-          "source": "Bipartisan Policy Center",
-          "source_type": "rss",
-          "published_at": "2026-05-14T12:50:12+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_28da095f33fefa",
-      "topic": "gasoline",
-      "lead_title": "Gas prices down slightly this week in Kansas, nation, AAA says",
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1lLYzNGQ2lKWkJtcW1GcTBFZnVjS1FyR0NRVkFIYzJ2T3pzN0I0aDhPeFVzdEpmRG0zeWc0NEtma3dQR2dMMnI2SHdWMGd5dXhWRTlZNXhaeUhRLTZrMTlGSlJhNjhaX1VHc0VQZzZ2UmRxVGpYRmxtakFkb25SSFVJeWNub1NCamMxNzhiY2x4My12?oc=5",
-      "lead_source": "WIBW",
-      "canonical_entities": [
-        "AAA"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T12:24:00+00:00",
-      "latest_seen": "2026-05-14T12:24:00+00:00",
-      "age_hours": 2.36,
-      "score": 62.09,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.59,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "0c70e82da4457692",
-          "title": "Gas prices down slightly this week in Kansas, nation, AAA says",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNa1lLYzNGQ2lKWkJtcW1GcTBFZnVjS1FyR0NRVkFIYzJ2T3pzN0I0aDhPeFVzdEpmRG0zeWc0NEtma3dQR2dMMnI2SHdWMGd5dXhWRTlZNXhaeUhRLTZrMTlGSlJhNjhaX1VHc0VQZzZ2UmRxVGpYRmxtakFkb25SSFVJeWNub1NCamMxNzhiY2x4My12?oc=5",
-          "source": "WIBW",
-          "source_type": "rss",
-          "published_at": "2026-05-14T12:24:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a50f5618f4a2f0",
-      "topic": "gasoline",
-      "lead_title": "As gas prices rise, where does Tennessee rank for highest gas tax rates?",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRXlSSWJycVlrS0l4YWF1Rjc5MWpXYmtRcUl6VUZpMVJjM29wZE02Ulh4VXppSFZ2X3RiOW0wVU9CZDFvR3JmSDQ0ZkNncWpCbnFzcFdSS2lfOVdjbm5pZ2ZaeXU5OXd6elJJYTBYWlhRS1g3VGY1aDZLNEVlemIwSkFvUHhTSE5WOFd1Y2VHYTVlWU1oYzlsQUw2Zw?oc=5",
-      "lead_source": "WVLT",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T14:31:00+00:00",
-      "latest_seen": "2026-05-14T14:31:00+00:00",
-      "age_hours": 0.24,
-      "score": 57.86,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.86,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "57df2827f1190d45",
-          "title": "As gas prices rise, where does Tennessee rank for highest gas tax rates?",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRXlSSWJycVlrS0l4YWF1Rjc5MWpXYmtRcUl6VUZpMVJjM29wZE02Ulh4VXppSFZ2X3RiOW0wVU9CZDFvR3JmSDQ0ZkNncWpCbnFzcFdSS2lfOVdjbm5pZ2ZaeXU5OXd6elJJYTBYWlhRS1g3VGY1aDZLNEVlemIwSkFvUHhTSE5WOFd1Y2VHYTVlWU1oYzlsQUw2Zw?oc=5",
-          "source": "WVLT",
-          "source_type": "rss",
-          "published_at": "2026-05-14T14:31:00+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_33d8ccc36b7e8b",
-      "topic": "gasoline",
-      "lead_title": "Consumers Spent More in April Despite High Gas Prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblg0RkdHODBjZXRWMkY3WXprV2lub1BSbVUtcGNkcXNHeDBkM3g2SDdwM3MtcE5hQnZXZDZZWk5IOURCTFgtam42c2dWTWtXdllldmZGRGJ5Y3I4S1lVQ0FrZ3BGSGFoUllkeko2MHJQWEpabmx3dVQ2Wi1BTEFqdDlSemZSbElsYUJmemF3?oc=5",
-      "lead_source": "The New York Times",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T14:17:26+00:00",
-      "latest_seen": "2026-05-14T14:17:26+00:00",
-      "age_hours": 0.47,
-      "score": 57.72,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.72,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "5c47e2cdcab08d7d",
-          "title": "Consumers Spent More in April Despite High Gas Prices",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQblg0RkdHODBjZXRWMkY3WXprV2lub1BSbVUtcGNkcXNHeDBkM3g2SDdwM3MtcE5hQnZXZDZZWk5IOURCTFgtam42c2dWTWtXdllldmZGRGJ5Y3I4S1lVQ0FrZ3BGSGFoUllkeko2MHJQWEpabmx3dVQ2Wi1BTEFqdDlSemZSbElsYUJmemF3?oc=5",
-          "source": "The New York Times",
-          "source_type": "rss",
-          "published_at": "2026-05-14T14:17:26+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0d917ddbb97dc6",
-      "topic": "gasoline",
-      "lead_title": "Arkansas State Representative Kendon Underwood calls for temporary suspension of state gas tax",
-      "lead_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZzdjeE1Vb3ZVbTFldGxXWUZkeHhCcHB1bEw2NE1oOUJBZWd4OGZRVWFYcFhfc1Q0cFBlWG5GalpuZ0VYTHJGazdjdXlVVXp4NmpTM0c3akNXWV9uaFMwV01IdXN4VkJORTQ2NE1IUTNicEROZTlOc09YakxMbzBxeHJ1WVNWN0doOHZXZlFrYlJMSVB0SmJMbmpyYUoyTS1MaFUtQmlXaFNxanlUck9EUlU0d2d6Y016eDVyR1lSVVdkSUZaMFl4QTlvWjBNMGo3MmFrd3B6enpfRXQybHpNZzVmRW82NkRT?oc=5",
-      "lead_source": "5newsonline.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T14:17:00+00:00",
-      "latest_seen": "2026-05-14T14:17:00+00:00",
-      "age_hours": 0.47,
-      "score": 57.72,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.72,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "61bb986a875e0bfa",
-          "title": "Arkansas State Representative Kendon Underwood calls for temporary suspension of state gas tax",
-          "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQZzdjeE1Vb3ZVbTFldGxXWUZkeHhCcHB1bEw2NE1oOUJBZWd4OGZRVWFYcFhfc1Q0cFBlWG5GalpuZ0VYTHJGazdjdXlVVXp4NmpTM0c3akNXWV9uaFMwV01IdXN4VkJORTQ2NE1IUTNicEROZTlOc09YakxMbzBxeHJ1WVNWN0doOHZXZlFrYlJMSVB0SmJMbmpyYUoyTS1MaFUtQmlXaFNxanlUck9EUlU0d2d6Y016eDVyR1lSVVdkSUZaMFl4QTlvWjBNMGo3MmFrd3B6enpfRXQybHpNZzVmRW82NkRT?oc=5",
-          "source": "5newsonline.com",
-          "source_type": "rss",
-          "published_at": "2026-05-14T14:17:00+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3604b0c069a710",
-      "topic": "gasoline",
-      "lead_title": "Inflation hits a 3-year high as gas prices surge 28% in a year",
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWFfekxsSWthWnJwVEY0bkFvek1OT1pTcWE4aXVGZlNsUWllYzkzbERPOE9LOVJJdi05X1F3ZWs3c3NxaEpWWVE4Y0pDaEhNMzhRMnRkSDZrWi1BT0hWQ0pwOU51WHFidldNenRxaW1JazVzNjRjMnFPQnk4bnZHMkc4UlBMVFNRNEZoMHdUcklDN1VnTFFNR3FWSFQ2MkNBTlNacVhZX3ZuSkpq0gHAAUFVX3lxTE5JR1dPZ1hWZXBCd3NVNTVOd3Q2d0xUdzJjbjFBYWg2Tzc2Qmh1bHQxeTJ0SnZzcHk1dFJSVkRpelhVdjRIdnpSVHRSU21VMU9MUE5vazFORG1HWDFjVFpobndYTlNXaDR5RzMtWFJ0dVdnQ0wwNGJFYldmLUdHTFJ4Vmk3b0p5SXJfUDNTZHdEXy04V19HMk8xSDhHeGFsZkY2SUVjR0ZtXzNlLWN0NDUyQmRNclZGR2tUQTBOVVFySg?oc=5",
-      "lead_source": "OregonLive.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T14:00:00+00:00",
-      "latest_seen": "2026-05-14T14:00:00+00:00",
-      "age_hours": 0.76,
-      "score": 57.55,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.55,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "41901078cef307f8",
-          "title": "Inflation hits a 3-year high as gas prices surge 28% in a year",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbWFfekxsSWthWnJwVEY0bkFvek1OT1pTcWE4aXVGZlNsUWllYzkzbERPOE9LOVJJdi05X1F3ZWs3c3NxaEpWWVE4Y0pDaEhNMzhRMnRkSDZrWi1BT0hWQ0pwOU51WHFidldNenRxaW1JazVzNjRjMnFPQnk4bnZHMkc4UlBMVFNRNEZoMHdUcklDN1VnTFFNR3FWSFQ2MkNBTlNacVhZX3ZuSkpq0gHAAUFVX3lxTE5JR1dPZ1hWZXBCd3NVNTVOd3Q2d0xUdzJjbjFBYWg2Tzc2Qmh1bHQxeTJ0SnZzcHk1dFJSVkRpelhVdjRIdnpSVHRSU21VMU9MUE5vazFORG1HWDFjVFpobndYTlNXaDR5RzMtWFJ0dVdnQ0wwNGJFYldmLUdHTFJ4Vmk3b0p5SXJfUDNTZHdEXy04V19HMk8xSDhHeGFsZkY2SUVjR0ZtXzNlLWN0NDUyQmRNclZGR2tUQTBOVVFySg?oc=5",
-          "source": "OregonLive.com",
-          "source_type": "rss",
-          "published_at": "2026-05-14T14:00:00+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c19c1f05545e9c",
-      "topic": "gasoline",
-      "lead_title": "The Odds: President Trump & Gas Prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbi1TZ0xOTU9ybmMycXoyaWhIZjRfY2xLdnAwY3VoNEl6a19EaXBZQ3JxZ1ZvM3czMlZvNnhZMF9ieDY3ZnQ2OE9wRlQtLWd2RTlfUnV2UjNyLVJ5S3Q1NmhZVkxFNkNoNFMyZ0JmOS1kUFhVYmxrZkdMYUZPTGdWREUtTWQ1MnVjSVI3YXNLSklNcmxCSklTSE5UclQ?oc=5",
-      "lead_source": "CNN",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T13:50:10+00:00",
-      "latest_seen": "2026-05-14T13:50:10+00:00",
-      "age_hours": 0.92,
-      "score": 57.45,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.45,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "848fd84c97bd4c3d",
-          "title": "The Odds: President Trump & Gas Prices",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbi1TZ0xOTU9ybmMycXoyaWhIZjRfY2xLdnAwY3VoNEl6a19EaXBZQ3JxZ1ZvM3czMlZvNnhZMF9ieDY3ZnQ2OE9wRlQtLWd2RTlfUnV2UjNyLVJ5S3Q1NmhZVkxFNkNoNFMyZ0JmOS1kUFhVYmxrZkdMYUZPTGdWREUtTWQ1MnVjSVI3YXNLSklNcmxCSklTSE5UclQ?oc=5",
-          "source": "CNN",
-          "source_type": "rss",
-          "published_at": "2026-05-14T13:50:10+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_53f905f15f7974",
-      "topic": "gasoline",
-      "lead_title": "Gas prices rise again amid Iran war, tax relief debated",
-      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JdW1LVWc3dENPM3RkcmtXZjh1RTRtaHRsdUd3aERReER0MGFaVEJYMkx4VkFyQ3p1WUI5OXBkanBubDFtbDJGeDl5RGFWcS1rMlh0RG9MclB2d2fSAWBBVV95cUxPa3FIaXNXZS1rS193akJxYXZ3akRsbVJGVk9KSVZHVkw3TkV3U0VaelJyR3FITk5oSFZ0dWw1STVkbURGTGJSQTRCZFYyT3RidkxBdWFtMFFzRGtmZHZLZGU?oc=5",
-      "lead_source": "FOX 9 Minneapolis-St. Paul",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T13:42:46+00:00",
-      "latest_seen": "2026-05-14T13:42:46+00:00",
-      "age_hours": 1.04,
-      "score": 57.37,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.37,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "37fa4310c85acc93",
-          "title": "Gas prices rise again amid Iran war, tax relief debated",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5JdW1LVWc3dENPM3RkcmtXZjh1RTRtaHRsdUd3aERReER0MGFaVEJYMkx4VkFyQ3p1WUI5OXBkanBubDFtbDJGeDl5RGFWcS1rMlh0RG9MclB2d2fSAWBBVV95cUxPa3FIaXNXZS1rS193akJxYXZ3akRsbVJGVk9KSVZHVkw3TkV3U0VaelJyR3FITk5oSFZ0dWw1STVkbURGTGJSQTRCZFYyT3RidkxBdWFtMFFzRGtmZHZLZGU?oc=5",
-          "source": "FOX 9 Minneapolis-St. Paul",
-          "source_type": "rss",
-          "published_at": "2026-05-14T13:42:46+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_00864f50a16cd0",
-      "topic": "gasoline",
-      "lead_title": "Average LA, OC Gas Prices Hover Around $6.30",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbVpLU0NwVVpOUTlud3REOGIxcWZ3a1dWNUQ1OW1fSlhCT3MwSmh6LUEyYW1kdGVMSXptMzF0UmdsSnZVSjdVM0pEY1ZRNHBKb3RyU3F6MjcxZGZBM1c5ZFFqd1dOc2pLSEdKLVNZN0JjekdoQUs5T3hJa1A0MXZ0TXByWmgxNFItOUxiUXRPV2dycHZraUNuN0JWUWZwZw?oc=5",
-      "lead_source": "MyNewsLA.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T13:40:00+00:00",
-      "latest_seen": "2026-05-14T13:40:00+00:00",
-      "age_hours": 1.09,
-      "score": 57.35,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.35,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "2e8aec37a1d0c4a9",
-          "title": "Average LA, OC Gas Prices Hover Around $6.30",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbVpLU0NwVVpOUTlud3REOGIxcWZ3a1dWNUQ1OW1fSlhCT3MwSmh6LUEyYW1kdGVMSXptMzF0UmdsSnZVSjdVM0pEY1ZRNHBKb3RyU3F6MjcxZGZBM1c5ZFFqd1dOc2pLSEdKLVNZN0JjekdoQUs5T3hJa1A0MXZ0TXByWmgxNFItOUxiUXRPV2dycHZraUNuN0JWUWZwZw?oc=5",
-          "source": "MyNewsLA.com",
-          "source_type": "rss",
-          "published_at": "2026-05-14T13:40:00+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_50c46d6713bdf9",
-      "topic": "gasoline",
-      "lead_title": "European natural gas prices rise with key Trump-Xi meeting in focus",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM2NhTmZNN3BkZmhfQ3BKMTVndlR0S3dIbmMwcEYwcVQxdnlRVUZQYnFDWW5CTERhQ1dMdUtydDloSWlQbWNfN1ByMW9xZlVnQ1NDSUVnZU1zZGlpQzhVQ2k0a3ZNSVBSMFItcDVyVTVPNExvZVlod0N4WkxKcXlZdjJydUJVaTJTTFJCZmpZZzFiZWhObG5fUUMxTFdLQi1xTDh2Q3V5WVdZMmxPZ0ZZNlQyN3ZtNGFmMC1DMzlNWQ?oc=5",
-      "lead_source": "Investing.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T13:27:23+00:00",
-      "latest_seen": "2026-05-14T13:27:23+00:00",
-      "age_hours": 1.3,
-      "score": 57.22,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.22,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "0e7c3d1af2696b52",
-          "title": "European natural gas prices rise with key Trump-Xi meeting in focus",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM2NhTmZNN3BkZmhfQ3BKMTVndlR0S3dIbmMwcEYwcVQxdnlRVUZQYnFDWW5CTERhQ1dMdUtydDloSWlQbWNfN1ByMW9xZlVnQ1NDSUVnZU1zZGlpQzhVQ2k0a3ZNSVBSMFItcDVyVTVPNExvZVlod0N4WkxKcXlZdjJydUJVaTJTTFJCZmpZZzFiZWhObG5fUUMxTFdLQi1xTDh2Q3V5WVdZMmxPZ0ZZNlQyN3ZtNGFmMC1DMzlNWQ?oc=5",
-          "source": "Investing.com",
-          "source_type": "rss",
-          "published_at": "2026-05-14T13:27:23+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_aaf04aece1479f",
-      "topic": "gasoline",
-      "lead_title": "Average gas prices break records",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc2Z5SncxeG1Ia01vWERPUGgydjJuNS1BMWgtc1ZJdmQyUXAwOWpvcnRvTjk1VHVIdE92TUljT3VMbWV0ZXlsaUlHNkZ1THgtY1N5VnBLbDFGbER2d0x3T3IwQTdRaDBOR3AtZnVoT1BtSG1RNEZya0dGRVpKSDNSVm5raDJuOEtpX2hIZWJ1WjJ5RHpkRW1fMGVSTG55TGMzZktrU2JHcDdJV3M?oc=5",
-      "lead_source": "KXLY.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T13:24:00+00:00",
-      "latest_seen": "2026-05-14T13:24:00+00:00",
-      "age_hours": 1.36,
-      "score": 57.19,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.19,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "959fc16f6026dd90",
-          "title": "Average gas prices break records",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc2Z5SncxeG1Ia01vWERPUGgydjJuNS1BMWgtc1ZJdmQyUXAwOWpvcnRvTjk1VHVIdE92TUljT3VMbWV0ZXlsaUlHNkZ1THgtY1N5VnBLbDFGbER2d0x3T3IwQTdRaDBOR3AtZnVoT1BtSG1RNEZya0dGRVpKSDNSVm5raDJuOEtpX2hIZWJ1WjJ5RHpkRW1fMGVSTG55TGMzZktrU2JHcDdJV3M?oc=5",
-          "source": "KXLY.com",
-          "source_type": "rss",
-          "published_at": "2026-05-14T13:24:00+00:00",
-          "confidence": 0.6
         }
       ],
       "top_tier": false,
@@ -759,11 +742,11 @@
       ],
       "earliest_seen": "2026-05-14T12:38:00+00:00",
       "latest_seen": "2026-05-14T12:38:00+00:00",
-      "age_hours": 2.12,
-      "score": 52.23,
+      "age_hours": 4.28,
+      "score": 50.93,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.73,
+        "recency_points": 22.43,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -800,16 +783,16 @@
       ],
       "earliest_seen": "2026-05-14T02:56:32+00:00",
       "latest_seen": "2026-05-14T02:56:32+00:00",
-      "age_hours": 11.81,
-      "score": 46.41,
+      "age_hours": 13.97,
+      "score": 40.12,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.91,
+        "recency_points": 16.62,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -819,47 +802,6 @@
           "source": "NBC 5 Chicago",
           "source_type": "rss",
           "published_at": "2026-05-14T02:56:32+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_138a870aed8294",
-      "topic": "gasoline",
-      "lead_title": "What a US gas tax suspension could mean for drivers and prices they see at pump",
-      "lead_url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdlpCY0xEbUV5ZHpCUnNDd3hRMG1XY00zTndCdDdranp4X29zMGlpb0Z1M3pQclhOcXpJVDdYb09RbDNUdzM5STFFaXRVX2VQMW5xS1JwRnlyRkp2c1Q1bl96ZHVDTzRqb1pjdEpTSk1TWWlWXzZtWkZXdWpPR3o5Z09aa2tjcjBYdEJPbzY0UmJsTDJyRUkwX0FpZjVUeEt0WWlLTVJNNWtFUW12YTQtVVV3WS1ZbFE3WmFMckppOW9SYkVOMXFIVVVEUVVmbW80UXU3eXZheldWSTN4d2ptZWtSamU3MlZ5WmZMNXl3QmhtckNQalhR?oc=5",
-      "lead_source": "The Wenatchee World",
-      "canonical_entities": [
-        "pump"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T01:25:00+00:00",
-      "latest_seen": "2026-05-14T01:25:00+00:00",
-      "age_hours": 13.34,
-      "score": 40.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 17.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f4dbf3684549eced",
-          "title": "What a US gas tax suspension could mean for drivers and prices they see at pump",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdlpCY0xEbUV5ZHpCUnNDd3hRMG1XY00zTndCdDdranp4X29zMGlpb0Z1M3pQclhOcXpJVDdYb09RbDNUdzM5STFFaXRVX2VQMW5xS1JwRnlyRkp2c1Q1bl96ZHVDTzRqb1pjdEpTSk1TWWlWXzZtWkZXdWpPR3o5Z09aa2tjcjBYdEJPbzY0UmJsTDJyRUkwX0FpZjVUeEt0WWlLTVJNNWtFUW12YTQtVVV3WS1ZbFE3WmFMckppOW9SYkVOMXFIVVVEUVVmbW80UXU3eXZheldWSTN4d2ptZWtSamU3MlZ5WmZMNXl3QmhtckNQalhR?oc=5",
-          "source": "The Wenatchee World",
-          "source_type": "rss",
-          "published_at": "2026-05-14T01:25:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -880,11 +822,11 @@
       ],
       "earliest_seen": "2026-05-13T19:04:12+00:00",
       "latest_seen": "2026-05-13T19:04:12+00:00",
-      "age_hours": 19.69,
-      "score": 39.59,
+      "age_hours": 21.85,
+      "score": 38.29,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.19,
+        "recency_points": 11.89,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -906,47 +848,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_289c9a0f0d1d8f",
-      "topic": "gasoline",
-      "lead_title": "AAA Fuel Prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTTY4a1NHUFo4MTJwLXhZWkZKS0NoWFlQNHA4U1hQblU2eENWZWVUem9nNUdGOTYwdFB4MG1yUG5YclNoSkJQRFp4OUlyMm16SkVydVluN0VoR0llMkc2anZXMUNGelJXOEhvVFpMUHR5R3BZRXdDN0tBb1h6RlU5eVljMzZaRklvZ1E?oc=5",
-      "lead_source": "AAA Gas Prices",
-      "canonical_entities": [
-        "AAA"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-04-23T07:00:00+00:00",
-      "latest_seen": "2026-04-23T07:00:00+00:00",
-      "age_hours": 511.76,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "eb6f5ec48820b7f3",
-          "title": "AAA Fuel Prices",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTTY4a1NHUFo4MTJwLXhZWkZKS0NoWFlQNHA4U1hQblU2eENWZWVUem9nNUdGOTYwdFB4MG1yUG5YclNoSkJQRFp4OUlyMm16SkVydVluN0VoR0llMkc2anZXMUNGelJXOEhvVFpMUHR5R3BZRXdDN0tBb1h6RlU5eVljMzZaRklvZ1E?oc=5",
-          "source": "AAA Gas Prices",
-          "source_type": "rss",
-          "published_at": "2026-04-23T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_e5332f321300d9",
       "topic": "gasoline",
       "lead_title": "EPA allows E15 gasoline amid high gas prices, but auto shops urge caution",
@@ -962,11 +863,11 @@
       ],
       "earliest_seen": "2026-05-13T21:44:11+00:00",
       "latest_seen": "2026-05-13T21:44:11+00:00",
-      "age_hours": 17.02,
-      "score": 38.29,
+      "age_hours": 19.18,
+      "score": 36.99,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.79,
+        "recency_points": 13.49,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -1003,11 +904,11 @@
       ],
       "earliest_seen": "2026-05-13T14:33:08+00:00",
       "latest_seen": "2026-05-13T14:33:08+00:00",
-      "age_hours": 24.2,
-      "score": 33.98,
+      "age_hours": 26.36,
+      "score": 32.68,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.48,
+        "recency_points": 9.18,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -1042,7 +943,7 @@
       ],
       "earliest_seen": "2026-04-30T07:00:00+00:00",
       "latest_seen": "2026-04-30T07:00:00+00:00",
-      "age_hours": 343.76,
+      "age_hours": 345.92,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
@@ -1081,7 +982,7 @@
       ],
       "earliest_seen": "2026-04-29T07:00:00+00:00",
       "latest_seen": "2026-04-29T07:00:00+00:00",
-      "age_hours": 367.76,
+      "age_hours": 369.92,
       "score": 24.0,
       "score_components": {
         "source_count_points": 5,
@@ -1122,7 +1023,7 @@
       ],
       "earliest_seen": "2026-05-07T17:45:58+00:00",
       "latest_seen": "2026-05-07T17:45:58+00:00",
-      "age_hours": 164.99,
+      "age_hours": 167.15,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1141,6 +1042,47 @@
           "source": "AAA Gas Prices",
           "source_type": "rss",
           "published_at": "2026-05-07T17:45:58+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_289c9a0f0d1d8f",
+      "topic": "gasoline",
+      "lead_title": "AAA Fuel Prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTTY4a1NHUFo4MTJwLXhZWkZKS0NoWFlQNHA4U1hQblU2eENWZWVUem9nNUdGOTYwdFB4MG1yUG5YclNoSkJQRFp4OUlyMm16SkVydVluN0VoR0llMkc2anZXMUNGelJXOEhvVFpMUHR5R3BZRXdDN0tBb1h6RlU5eVljMzZaRklvZ1E?oc=5",
+      "lead_source": "AAA Gas Prices",
+      "canonical_entities": [
+        "AAA"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-04-23T07:00:00+00:00",
+      "latest_seen": "2026-04-23T07:00:00+00:00",
+      "age_hours": 513.92,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "eb6f5ec48820b7f3",
+          "title": "AAA Fuel Prices",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTTY4a1NHUFo4MTJwLXhZWkZKS0NoWFlQNHA4U1hQblU2eENWZWVUem9nNUdGOTYwdFB4MG1yUG5YclNoSkJQRFp4OUlyMm16SkVydVluN0VoR0llMkc2anZXMUNGelJXOEhvVFpMUHR5R3BZRXdDN0tBb1h6RlU5eVljMzZaRklvZ1E?oc=5",
+          "source": "AAA Gas Prices",
+          "source_type": "rss",
+          "published_at": "2026-04-23T07:00:00+00:00",
           "confidence": 0.65
         }
       ],
