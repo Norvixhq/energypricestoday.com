@@ -1,0 +1,228 @@
+{
+  "version": 2,
+  "generated_at": "2026-05-14T10:03:04.352421+00:00",
+  "previous_generated_at": "",
+  "resolver_run_count": 1,
+  "events": {
+    "hormuz_status": {
+      "key": "hormuz_status",
+      "display_name": "Strait of Hormuz Status",
+      "category": "chokepoint",
+      "status": "CLOSED",
+      "status_detail": "OPEC Cuts 2026 Oil Demand Forecast Amid Strait of Hormuz Closure",
+      "status_tag": "Strait closed",
+      "risk_level": "HIGH",
+      "confidence": 0.958,
+      "last_confirmed": "2026-05-14T09:24:00+00:00",
+      "source_count": 10,
+      "summary_short": "Second Japan-linked oil tanker sails via Strait of Hormuz as PM asks Iran to help out",
+      "summary_long": "Second Japan-linked oil tanker sails via Strait of Hormuz as PM asks Iran to help out. OPEC Cuts 2026 Oil Demand Forecast Amid Strait of Hormuz Closure",
+      "evidence_cluster_ids": [
+        "c_fca8c8a636f3a7",
+        "c_70427871e215c6",
+        "c_aa2ef2ddfbacf3",
+        "c_2017120b83e558",
+        "c_587d137f6a579f"
+      ],
+      "evidence_count": 10,
+      "affected_pages": [
+        "index.html",
+        "oil-prices.html",
+        "category/geopolitics.html",
+        "markets.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.hormuz-status",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.hormuz",
+        "markets.drivers.hormuz"
+      ],
+      "update_priority": "critical",
+      "freshness": "fresh",
+      "stale_after_hours": 24,
+      "rationale": [
+        "cluster c_fca8c8a636 → CLOSED (kw='closure', weight=0.65) [OPEN suppressed]",
+        "winning=CLOSED (0.65/0.65), conf=0.958"
+      ]
+    },
+    "us_iran_ceasefire": {
+      "key": "us_iran_ceasefire",
+      "display_name": "U.S.-Iran Ceasefire",
+      "category": "diplomatic_event",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-14T09:31:46+00:00",
+      "source_count": 34,
+      "summary_short": "Asia Pacific banks face growing credit risks, raise provisions as Iran war drags on",
+      "summary_long": "Asia Pacific banks face growing credit risks, raise provisions as Iran war drags on. Japan-Bound Oil Tanker Clears Strait of Hormuz Amid Iranian Crackdown",
+      "evidence_cluster_ids": [
+        "c_0ae7621cb96f9f",
+        "c_70427871e215c6",
+        "c_94c5f690e46b77",
+        "c_e28fb700321595",
+        "c_d0f1b2de0fcfbc"
+      ],
+      "evidence_count": 34,
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.next-catalyst",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.ceasefire"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 72,
+      "rationale": [
+        "fell back to default 'HOLDING'"
+      ],
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
+    },
+    "opec_plus_policy": {
+      "key": "opec_plus_policy",
+      "display_name": "OPEC+ Policy",
+      "category": "policy_state",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "No change",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-14T08:14:08+00:00",
+      "source_count": 6,
+      "summary_short": "OPEC Cuts 2026 Oil Demand Forecast Amid Strait of Hormuz Closure",
+      "summary_long": "OPEC Cuts 2026 Oil Demand Forecast Amid Strait of Hormuz Closure. Oil rises as IEA flags greater volatility ahead, OPEC cuts demand forecast",
+      "evidence_cluster_ids": [
+        "c_15214d99face46",
+        "c_fca8c8a636f3a7",
+        "c_1adf82ba508401",
+        "c_587d137f6a579f",
+        "c_e2958b1e3c0ee3"
+      ],
+      "evidence_count": 6,
+      "affected_pages": [
+        "oil-prices.html",
+        "markets.html"
+      ],
+      "dependent_modules": [
+        "oil-prices.drivers.opec",
+        "markets.drivers.opec"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 168,
+      "rationale": [
+        "fell back to default 'HOLDING'"
+      ]
+    },
+    "global_risk_level": {
+      "key": "global_risk_level",
+      "display_name": "Global Energy Risk Level",
+      "category": "composite",
+      "status": "HIGH",
+      "risk_level": "HIGH",
+      "score": 50,
+      "composite_of": [
+        "hormuz_status",
+        "us_iran_ceasefire",
+        "opec_plus_policy"
+      ],
+      "summary_short": "Global energy risk: high.",
+      "summary_long": "Risk drivers: Hormuz closed",
+      "summary_micro": "closed",
+      "rationale": [
+        "hormuz=CLOSED (+40)",
+        "ceasefire=HOLDING (+10)"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.risk-level",
+        "geopolitics.risk-meter.level"
+      ],
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html",
+        "markets.html"
+      ]
+    },
+    "top_story": {
+      "key": "top_story",
+      "display_name": "Current Top Story",
+      "category": "news_event",
+      "cluster_id": "c_798b2cd9f5d8d0",
+      "lead_title": "Stressed crude oil market looks to Xi-Trump summit for Iran help",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb3hmRVBZX1pVY09UblFUVEZoTE05eVBmWkpkMGhvSlVIZldtM093X0R4X21OQmx3UU05Zmg0enFKaGZKV2RqLUl4TEx2NjFZWGc2WXY0V1ZxbEpZeUtzeWtJa3hDWFZUVkpuamR3NXMzN0xyOElJbHRvWnl4Zl9sY3lPc1NyTjJJM190TVVqVDdzUHVMTHc2ODVCLWlHcjB6S2V2dGI2VFBBR091aDFlbzNJNzQxRFBwUmJQUi1GZzd6ZkJD?oc=5",
+      "lead_source": "Reuters",
+      "topic": "oil",
+      "score": 93.72,
+      "novelty": "new",
+      "source_count": 6,
+      "confidence": 0.95,
+      "dependent_modules": [
+        "homepage.breaking-banner.primary"
+      ],
+      "affected_pages": [
+        "index.html"
+      ]
+    }
+  },
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "new_event",
+      "from": null,
+      "to": "CLOSED",
+      "detected_at": "2026-05-14T10:03:04.352249+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-05-14T10:03:04.352249+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "opec_plus_policy",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-05-14T10:03:04.352249+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "new_event",
+      "from": null,
+      "to": "HIGH",
+      "detected_at": "2026-05-14T10:03:04.352249+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "top_story",
+      "field": "new_event",
+      "from": null,
+      "to": "",
+      "detected_at": "2026-05-14T10:03:04.352249+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
+  "resolution_log": [
+    "hormuz_status: resolved=CLOSED, confidence=0.958, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+  ]
+}
