@@ -86,8 +86,8 @@ function priceChange(change, pct) {
   if (change === null || change === undefined) return '<span style="color:var(--text-3)">—</span>';
   const up = change >= 0;
   const cls = up ? 'up' : 'down';
-  const ico = up ? 'trending-up' : 'trending-down';
-  return `<span class="change ${cls}">${icon(ico, 13)} ${up ? '+' : ''}${change.toFixed(2)} (${up ? '+' : ''}${pct.toFixed(2)}%)</span>`;
+  const arrow = up ? '▲' : '▼';
+  return `<span class="change ${cls}">${arrow} ${up ? '+' : ''}${change.toFixed(2)} (${up ? '+' : ''}${pct.toFixed(2)}%)</span>`;
 }
 
 // ─── CATEGORY PILL ───────────────────────────────────────────────
@@ -168,7 +168,7 @@ function renderHeader(activePage) {
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
       <a class="logo" href="${prefix}index.html">
-        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high" style="filter:drop-shadow(0 0 6px rgba(61,143,212,0.7)) drop-shadow(0 0 14px rgba(61,143,212,0.4)) drop-shadow(0 0 30px rgba(61,143,212,0.2))">
+        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
@@ -504,7 +504,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img" style="filter:drop-shadow(0 0 6px rgba(61,143,212,0.6)) drop-shadow(0 0 14px rgba(61,143,212,0.3))"></a>
+          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img"></a>
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div class="footer-columns">
