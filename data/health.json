@@ -1,61 +1,72 @@
 {
   "status": "healthy",
-  "generated_at": "2026-05-15T04:32:35.089433+00:00",
+  "generated_at": "2026-05-15T10:36:16.989341+00:00",
   "checks": {
     "commodity_prices": {
       "status": "fresh",
-      "last_success": "2026-05-15T04:30:33.565024+00:00",
+      "last_success": "2026-05-15T10:33:30.217224+00:00",
       "age_minutes": 2,
       "threshold_minutes": 60,
       "observer_reported_status": "fresh"
     },
     "gas_prices": {
       "status": "fresh",
-      "last_success": "2026-05-15T04:30:36.927066+00:00",
-      "age_minutes": 1,
+      "last_success": "2026-05-15T10:33:33.410875+00:00",
+      "age_minutes": 2,
       "threshold_minutes": 1440,
       "observer_reported_status": "fresh"
     },
     "headlines": {
       "status": "fresh",
-      "last_success": "2026-05-15T04:32:34.864323+00:00",
+      "last_success": "2026-05-15T10:36:16.811151+00:00",
       "age_minutes": 0,
       "threshold_minutes": 60,
-      "total_stories": 300,
-      "failed_topics": []
+      "total_stories": 0,
+      "failed_topics": [
+        "energy",
+        "geopolitics",
+        "oil",
+        "gasoline",
+        "natgas",
+        "heating",
+        "rigcount",
+        "renewables",
+        "companies",
+        "breaking"
+      ]
     },
     "clusters": {
       "status": "fresh",
-      "last_success": "2026-05-15T04:32:34.976659+00:00",
+      "last_success": "2026-05-15T10:36:16.868789+00:00",
       "age_minutes": 0,
       "threshold_minutes": 60,
-      "top_cluster_count": 15
+      "top_cluster_count": 0
     },
     "events": {
       "status": "fresh",
-      "last_success": "2026-05-15T04:32:35.020764+00:00",
+      "last_success": "2026-05-15T10:36:16.915213+00:00",
       "age_minutes": 0,
       "threshold_minutes": 60,
-      "event_count": 4
+      "event_count": 3
     },
     "autopilot": {
       "status": "ok",
-      "last_success": "2026-05-15T04:32:35.055783+00:00",
+      "last_success": "2026-05-15T10:36:16.952937+00:00",
       "minutes_since": 0,
       "delayed_threshold_minutes": 45,
       "failing_threshold_minutes": 120
     },
     "news_update": {
       "status": "ok",
-      "last_success": "2026-05-15T04:30:31.856185+00:00",
+      "last_success": "2026-05-15T10:33:27.990799+00:00",
       "minutes_since": 2,
       "threshold_minutes": 480,
-      "total_articles": 412
+      "total_articles": 413
     },
     "nightly_audit": {
       "status": "ok",
-      "last_success": "2026-05-14T09:28:31.235151+00:00",
-      "minutes_since": 1144,
+      "last_success": "2026-05-15T09:40:11.383570+00:00",
+      "minutes_since": 56,
       "threshold_minutes": 2880
     }
   },
@@ -63,78 +74,78 @@
     "date": "2026-05-15",
     "apis": {
       "oilpriceapi": {
-        "calls_today": 2,
-        "succeeded": 2,
+        "calls_today": 3,
+        "succeeded": 3,
         "failed": 0,
         "limit_per_day": 10000,
         "pct_of_limit": 0.0,
         "endpoints": {
-          "prices/all": 2
+          "prices/all": 3
         },
-        "last_call": "2026-05-15T04:30:33.563689+00:00"
+        "last_call": "2026-05-15T10:33:30.215901+00:00"
       },
       "aaa": {
-        "calls_today": 2,
-        "succeeded": 2,
+        "calls_today": 3,
+        "succeeded": 3,
         "failed": 0,
         "limit_per_day": 500,
-        "pct_of_limit": 0.4,
+        "pct_of_limit": 0.6,
         "endpoints": {
-          "gasprices": 2
+          "gasprices": 3
         },
-        "last_call": "2026-05-15T04:30:33.876766+00:00"
+        "last_call": "2026-05-15T10:33:30.482878+00:00"
       },
       "eia": {
-        "calls_today": 8,
-        "succeeded": 8,
+        "calls_today": 12,
+        "succeeded": 12,
         "failed": 0,
         "limit_per_day": 5000,
         "pct_of_limit": 0.2,
         "endpoints": {
-          "gasoline/regular": 2,
-          "gasoline/mid": 2,
-          "gasoline/premium": 2,
-          "gasoline/diesel": 2
+          "gasoline/regular": 3,
+          "gasoline/mid": 3,
+          "gasoline/premium": 3,
+          "gasoline/diesel": 3
         },
-        "last_call": "2026-05-15T04:30:36.926657+00:00"
+        "last_call": "2026-05-15T10:33:33.410448+00:00"
       },
       "google_news": {
-        "calls_today": 20,
+        "calls_today": 30,
         "succeeded": 20,
-        "failed": 0,
+        "failed": 10,
         "limit_per_day": 5000,
-        "pct_of_limit": 0.4,
+        "pct_of_limit": 0.6,
         "endpoints": {},
-        "last_call": "2026-05-15T04:32:27.266342+00:00"
+        "last_call": "2026-05-15T10:36:09.593999+00:00"
       },
       "gdelt": {
-        "calls_today": 20,
-        "succeeded": 5,
-        "failed": 15,
+        "calls_today": 30,
+        "succeeded": 12,
+        "failed": 18,
         "limit_per_day": 500,
-        "pct_of_limit": 4.0,
+        "pct_of_limit": 6.0,
         "endpoints": {},
-        "last_call": "2026-05-15T04:32:34.860641+00:00"
+        "last_call": "2026-05-15T10:36:16.810179+00:00"
       },
       "anthropic": {
-        "calls_today": 1,
-        "succeeded": 1,
+        "calls_today": 2,
+        "succeeded": 2,
         "failed": 0,
         "limit_per_day": 1000,
-        "pct_of_limit": 0.1,
+        "pct_of_limit": 0.2,
         "endpoints": {
-          "messages": 1
+          "messages": 2
         },
-        "last_call": "2026-05-15T01:54:01.550313+00:00"
+        "last_call": "2026-05-15T10:10:47.402974+00:00"
       }
     }
   },
   "recent_activity": {
-    "last_successful_autopilot": "2026-05-15T04:32:35.055783+00:00",
-    "last_successful_news_update": "2026-05-15T04:30:31.856185+00:00",
-    "last_successful_nightly_audit": "2026-05-14T09:28:31.235151+00:00",
-    "meaningful_changes_last_24h": 4,
-    "articles_created_last_24h": 412
+    "last_successful_autopilot": "2026-05-15T10:36:16.952937+00:00",
+    "last_successful_news_update": "2026-05-15T10:33:27.990799+00:00",
+    "last_successful_nightly_audit": "2026-05-15T09:40:11.383570+00:00",
+    "meaningful_changes_last_24h": 0,
+    "articles_created_last_24h": 413
   },
   "reason_codes": [],
   "thresholds": {

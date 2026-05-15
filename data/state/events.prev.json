@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-15T00:13:52.999339+00:00",
-  "previous_generated_at": "2026-05-14T23:05:35.403539+00:00",
-  "resolver_run_count": 9,
+  "generated_at": "2026-05-15T04:32:35.020764+00:00",
+  "previous_generated_at": "2026-05-15T00:13:52.999339+00:00",
+  "resolver_run_count": 10,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -13,16 +13,16 @@
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
       "confidence": 0.951,
-      "last_confirmed": "2026-05-14T15:26:41+00:00",
-      "source_count": 10,
-      "summary_short": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows",
-      "summary_long": "Three crude oil tankers exit Strait of Hormuz with trackers switched off, data shows. China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
+      "last_confirmed": "2026-05-15T04:22:49+00:00",
+      "source_count": 7,
+      "summary_short": "Oil prices rise to $107 as China expresses interest in U.S. crude, Hormuz risks persist",
+      "summary_long": "Oil prices rise to $107 as China expresses interest in U.S. crude, Hormuz risks persist. Brent crude rises as Trump says China wants US oil, Hormuz fears persist",
       "evidence_cluster_ids": [
+        "c_5db603c1cc9b84",
+        "c_e9c4cce4c29b39",
         "c_fbc9a4377fd43a",
         "c_8e26c102dcddcc",
-        "c_70427871e215c6",
-        "c_47ab84c7fe2897",
-        "c_4bafb1c135b776"
+        "c_70427871e215c6"
       ],
       "evidence_count": 7,
       "affected_pages": [
@@ -41,9 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_fbc9a4377f → OPEN (kw='reopen', weight=0.46)",
-        "cluster c_ea94b76564 → OPEN (kw='reopen', weight=0.42)",
-        "winning=OPEN (0.88/0.88), conf=0.951"
+        "cluster c_fbc9a4377f → OPEN (kw='reopen', weight=0.36)",
+        "cluster c_ea94b76564 → OPEN (kw='reopen', weight=0.32)",
+        "winning=OPEN (0.67/0.67), conf=0.951"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,17 +56,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-14T15:33:34+00:00",
-      "source_count": 6,
-      "summary_short": "Dollar’s Link to Oil Most Positive Ever as Iran Crisis Drags On",
-      "summary_long": "Dollar’s Link to Oil Most Positive Ever as Iran Crisis Drags On. Why cheap Russian oil can't save India from US-Iran energy crisis?",
+      "source_count": 9,
+      "summary_short": "India asks US for waiver on Russian oil as Iran war squeezes energy supply: Report",
+      "summary_long": "India asks US for waiver on Russian oil as Iran war squeezes energy supply: Report. Trump wants China's help on Iran. Beijing may have other ideas",
       "evidence_cluster_ids": [
+        "c_e28fb700321595",
+        "c_2219b496516f17",
         "c_c78bc802e39684",
-        "c_dddc1be3f75c53",
         "c_0ae7621cb96f9f",
-        "c_ae8b4ab6826942",
         "c_70427871e215c6"
       ],
-      "evidence_count": 5,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -120,14 +120,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_d2c735fbe49339",
+      "cluster_id": "c_c612dc01165b90",
       "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
       "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
       "lead_source": "WSJ",
       "topic": "oil",
-      "score": 86.5,
-      "novelty": "growing",
-      "source_count": 4,
+      "score": 97.95,
+      "novelty": "new",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -137,17 +137,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "opec_plus_policy",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-05-15T00:13:52.999292+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.951, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
