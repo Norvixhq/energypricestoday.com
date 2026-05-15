@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-05-15T15:04:04.103176+00:00",
-  "previous_generated_at": "2026-05-15T12:28:28.561112+00:00",
-  "resolver_run_count": 13,
+  "generated_at": "2026-05-15T17:03:58.662966+00:00",
+  "previous_generated_at": "2026-05-15T15:04:04.103176+00:00",
+  "resolver_run_count": 14,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "OPEN",
-      "status_detail": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
+      "status_detail": "no definitive signals",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.899,
-      "last_confirmed": "2026-05-15T14:26:05+00:00",
-      "source_count": 14,
-      "summary_short": "UAE's new oil pipeline push to double export capacity bypassing Hormuz",
-      "summary_long": "UAE's new oil pipeline push to double export capacity bypassing Hormuz. UAE's new oil pipeline push to double export capacity bypassing Hormuz",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-15T14:15:00+00:00",
+      "source_count": 15,
+      "summary_short": "Brent Set for Weekly Loss of More Than 7% as Hormuz Impasse Worries Markets",
+      "summary_long": "Brent Set for Weekly Loss of More Than 7% as Hormuz Impasse Worries Markets. UAE's new oil pipeline push to double export capacity bypassing Hormuz",
       "evidence_cluster_ids": [
+        "c_32528e20894ec4",
         "c_d64ad8270a091d",
+        "c_8516eefe0c7b1a",
         "c_b768196b026c23",
-        "c_cc30a47f95f999",
-        "c_729e4d4879f7bb",
-        "c_bcddec08541981"
+        "c_587d137f6a579f"
       ],
       "evidence_count": 9,
       "affected_pages": [
@@ -41,10 +41,7 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_729e4d4879 → CLOSED (kw='closure', weight=0.10) [OPEN suppressed]",
-        "cluster c_fbc9a4377f → OPEN (kw='reopen', weight=0.22)",
-        "cluster c_ea94b76564 → OPEN (kw='reopen', weight=0.19)",
-        "winning=OPEN (0.41/0.50), conf=0.899"
+        "fell back to default 'OPEN'"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +53,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-15T01:07:00+00:00",
-      "source_count": 11,
-      "summary_short": "Oil prices up 2% as Trump and Iran's comments dent peace hopes",
-      "summary_long": "Oil prices up 2% as Trump and Iran's comments dent peace hopes. Iran war: What is the Strait of Hormuz and why does it matter?",
+      "last_confirmed": "2026-05-15T10:49:57+00:00",
+      "source_count": 9,
+      "summary_short": "Bahrain Joins Iran, Saudi Arabia, UAE, Kuwait, Oman, Iraq, Qatar, and Others Finding Urgent Solutions to Tackle Crude Oi",
+      "summary_long": "Bahrain Joins Iran, Saudi Arabia, UAE, Kuwait, Oman, Iraq, Qatar, and Others Finding Urgent Solutions to Tackle Crude Oil, LNG, LPG Trade Uncertainty in Strait of Hormuz with New Passages and Energy Infrastructure Across Basra, Kharg Island, Dhahran, A. Oil prices jump after Trump says he is losing patience with Iran",
       "evidence_cluster_ids": [
-        "c_73d860bbaba3df",
-        "c_cc30a47f95f999",
-        "c_71b65c4a2c3505",
+        "c_8516eefe0c7b1a",
+        "c_bf77abf380e483",
         "c_c78bc802e39684",
-        "c_bc90c8c3244b7d"
+        "c_ae8b4ab6826942",
+        "c_6319966dd9c484"
       ],
-      "evidence_count": 11,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -87,36 +84,6 @@
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
-    },
-    "opec_plus_policy": {
-      "key": "opec_plus_policy",
-      "display_name": "OPEC+ Policy",
-      "category": "policy_state",
-      "status": "HOLDING",
-      "status_detail": "no recent coverage",
-      "status_tag": "No change",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
-      "affected_pages": [
-        "oil-prices.html",
-        "markets.html"
-      ],
-      "dependent_modules": [
-        "oil-prices.drivers.opec",
-        "markets.drivers.opec"
-      ],
-      "update_priority": "high",
-      "freshness": "fresh",
-      "stale_after_hours": 168,
-      "rationale": [
-        "no matching clusters"
-      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -151,14 +118,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_d2c735fbe49339",
-      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-      "lead_source": "WSJ",
+      "cluster_id": "c_b243cf71411d1e",
+      "lead_title": "Carney says Canada, Alberta will advance a potential crude oil pipeline",
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM05xZU1zNnpUekVMLWdsekF6V0Qza3RZeWhSTnVVLWpVdUhONF9PTU82LVJybmVEUTZlT0ZqdkxTQ3VfUTRoN2VNbTRuWmtXWEtJYjdtbWNLUFkyMlV2RW1CVFUySmV6QVUyX3p2eFJjMFVtSHhiYmdjWkxNT1d4Uk1aMmhDVk5nOVlhNTJobEZjQW1sdkVPUnlNLWc4MjJvdkNwUmVndTRVbFBwYjdKS2pDZjJaMVU3bHhSOUxtaTJFelRGOUtySC1Wb2NXQVU?oc=5",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 95.15,
+      "score": 91.4,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,10 +135,20 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "opec_plus_policy",
+      "field": "retired",
+      "from": "HOLDING",
+      "to": null,
+      "detected_at": "2026-05-15T17:03:58.662894+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.899, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: retired — last_confirmed too old"
   ]
 }
