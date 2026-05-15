@@ -60,12 +60,12 @@ const FULL_PRICES = {
 const BREAKING_NEWS = [
   { title: "Current price of oil as of May 14, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
   { title: "Oil prices today: Crude rises over 1% as Donald Trump warns Iran, Hormuz concerns persist", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
-  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
-  { title: "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump’s China visit. What are experts saying", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
-  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "Oil Price Today (May 12): Crude oil at $105 as Donald Trump says peace talks on ‘life support’. What are e", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
-  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
-  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
+  { title: "Oil Price Today (May 13): Crude oil snaps 3-day fall ahead of Trump’s China visit. What are experts saying", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Oil prices today: Brent crude jumps to $105 per barrel as US-Iran ceasefire hangs on ‘life support’", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil prices up 2% as Trump and Iran's comments dent peace hopes", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
