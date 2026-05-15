@@ -83,6 +83,32 @@ main{overflow-x:hidden}
   --lead-prose:    1.72;
 }
 
+/* ─── LIGHT THEME — premium editorial light palette ─────────────────
+   Triggered by data-theme="light" on <html>. Token-only override:
+   every component CSS uses var(--*) so this rules-once approach
+   re-themes the entire site without touching any other selector.
+   Palette is warm off-white + deep ink + restrained blue (not pure
+   white / pure black — that reads as a broken inversion).
+   ──────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] {
+  --bg:        #f7f5f0;       /* warm off-white, slight cream */
+  --surface:   #ffffff;       /* card surface */
+  --surface-2: #f1ede4;       /* hover/active surface, warm */
+  --border:    rgba(15, 23, 42, 0.10);
+  --border-h:  rgba(15, 23, 42, 0.18);
+  --text-1:    #0f172a;       /* deep ink for headlines */
+  --text-2:    #475569;       /* secondary, muted slate */
+  --text-3:    #94a3b8;       /* tertiary / captions */
+  --blue:      #1d63a8;       /* slightly deeper blue for AA contrast */
+  --blue-h:    #2a78c4;
+  --blue-mute: rgba(29, 99, 168, 0.08);
+  --amber:     #b06002;       /* deeper amber for contrast */
+  --amber-mute:rgba(176, 96, 2, 0.10);
+  --gold:      #b8851a;
+  --green:     #058049;       /* darker green for contrast on light */
+  --red:       #b8253c;
+}
+
 /* ─── RESET ─────────────────────────────────────────────────────── */
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 html{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
@@ -2141,3 +2167,153 @@ a.article-featured{pointer-events:auto}
    Was: margin-bottom:16px sitting next to large H1.
    Now: a touch more space below for editorial feel. */
 .page-hero-large .breadcrumbs{ margin-bottom:22px; opacity:0.85; }
+
+/* ═══════════════════════════════════════════════════════════════════
+   LIGHT MODE REFINEMENTS — May 2026
+   Targeted overrides for components that need more than token swaps:
+   hero gradients, image filters, header backdrop, ticker, charts.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* Header backdrop: dark mode uses near-black gradient; light mode uses warm cream */
+:root[data-theme="light"] .site-header {
+  background: rgba(247, 245, 240, 0.94);
+  backdrop-filter: saturate(140%) blur(10px);
+  -webkit-backdrop-filter: saturate(140%) blur(10px);
+  border-bottom: 1px solid rgba(15,23,42,0.08);
+}
+
+/* Logo glow is calibrated for dark — remove on light, swap to subtle navy tint */
+:root[data-theme="light"] .logo-img {
+  filter: drop-shadow(0 1px 2px rgba(15,23,42,0.10)) !important;
+}
+
+/* Hero background gradient is built for dark — softer warm wash on light */
+:root[data-theme="light"] .hero-bg {
+  background: linear-gradient(135deg, rgba(29,99,168,0.04) 0%, rgba(247,245,240,0) 60%);
+  opacity: 1;
+}
+:root[data-theme="light"] .page-hero-large {
+  background: linear-gradient(180deg, rgba(255,255,255,0.6) 0%, rgba(247,245,240,0) 100%);
+}
+
+/* Ticker strip: dark mode uses black bar; light uses paper-tone with darker text */
+:root[data-theme="light"] .market-ticker-strip {
+  background: #ede9de;
+  border-top: 1px solid rgba(15,23,42,0.08);
+  border-bottom: 1px solid rgba(15,23,42,0.08);
+}
+:root[data-theme="light"] .ticker-item { color: #334155; }
+:root[data-theme="light"] .ticker-sep { color: rgba(15,23,42,0.12); }
+
+/* Price card surface in light mode — subtle elevation, no glow */
+:root[data-theme="light"] .price-card {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.08);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.03), 0 1px 1px rgba(15,23,42,0.02);
+}
+:root[data-theme="light"] .price-card:hover {
+  border-color: rgba(29,99,168,0.30);
+  box-shadow: 0 2px 6px rgba(15,23,42,0.06);
+}
+
+/* Driver-card hover state */
+:root[data-theme="light"] .driver-card:hover {
+  border-color: rgba(176,96,2,0.30);
+  background: #fffdf8;
+}
+
+/* Editor's-note background: gold-tinted in light mode but warmer/lighter */
+:root[data-theme="light"] .editor-note {
+  background: linear-gradient(180deg, rgba(184,133,26,0.06) 0%, rgba(184,133,26,0.015) 100%);
+}
+
+/* Footer: dark mode has near-black; light mode uses cream */
+:root[data-theme="light"] .site-footer {
+  background: #ede9de;
+  border-top: 1px solid rgba(15,23,42,0.10);
+}
+:root[data-theme="light"] .footer-heading { color: #475569; }
+:root[data-theme="light"] .footer-links a { color: #64748b; }
+:root[data-theme="light"] .footer-links a:hover { color: var(--blue); }
+
+/* Search overlay backdrop */
+:root[data-theme="light"] #search-overlay {
+  background: rgba(247, 245, 240, 0.96);
+}
+
+/* Mobile nav drawer */
+:root[data-theme="light"] #mobile-nav {
+  background: #ffffff;
+  border-left: 1px solid rgba(15,23,42,0.10);
+}
+
+/* Glance-strip risk-tagged tiles use red-tinted background — adjust for light */
+:root[data-theme="light"] .glance-item.risk-high {
+  background: rgba(184, 37, 60, 0.05);
+  border-color: rgba(184, 37, 60, 0.18);
+}
+
+/* Risk-vector cards in geopolitics — softer surface in light */
+:root[data-theme="light"] .risk-vector-card {
+  background: #ffffff;
+}
+:root[data-theme="light"] .risk-vector-card:hover {
+  background: #fafaf6;
+}
+
+/* Correction-notice red gradient — softer in light mode */
+:root[data-theme="light"] .editor-note[style*="border-left-color:var(--red)"],
+:root[data-theme="light"] .editor-note[style*="border-left-color: var(--red)"] {
+  background: linear-gradient(180deg, rgba(184,37,60,0.05) 0%, rgba(184,37,60,0.01) 100%) !important;
+}
+
+/* Conflict snapshot cards — premium surface in light */
+:root[data-theme="light"] .conflict-snap-card {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.08);
+}
+
+/* ─── THEME TOGGLE BUTTON ─────────────────────────────────────────
+   Sun/moon button in .header-actions next to search button.
+   ──────────────────────────────────────────────────────────────── */
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  padding: 0;
+}
+.theme-toggle:hover {
+  border-color: var(--border-h);
+  color: var(--text-1);
+  background: var(--surface);
+}
+.theme-toggle svg {
+  width: 18px;
+  height: 18px;
+  transition: transform 0.3s ease;
+}
+.theme-toggle:hover svg { transform: rotate(15deg); }
+/* In dark mode, show the moon icon (light state target); in light, show sun */
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+:root[data-theme="light"] .theme-toggle .icon-sun { display: block; }
+:root[data-theme="light"] .theme-toggle .icon-moon { display: none; }
+@media (max-width: 640px) {
+  .theme-toggle { width: 34px; height: 34px; }
+  .theme-toggle svg { width: 16px; height: 16px; }
+}
+
+/* Smooth theme transition (excluded for elements that animate) */
+html, body, .site-header, .price-card, .driver-card, .risk-vector-card,
+.editor-note, .conflict-snap-card, .stat-box, .site-footer, .market-ticker-strip,
+.glance-item, a.btn-primary, a.btn-secondary {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
+}

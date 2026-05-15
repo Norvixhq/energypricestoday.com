@@ -172,6 +172,10 @@ function renderHeader(activePage) {
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
+        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+        </button>
         <button class="header-search-btn" onclick="toggleSearch()" aria-label="Search">${icon('search', 18)}</button>
         <button class="mobile-toggle" onclick="toggleMobileNav()" aria-label="Menu">${icon('menu', 24)}</button>
       </div>
@@ -315,6 +319,22 @@ document.addEventListener('click', function(e) {
     document.body.style.overflow = '';
   }
 });
+
+// ─── THEME TOGGLE ────────────────────────────────────────────────
+// Persisted in localStorage. Default is dark. Applied to <html> as
+// data-theme="light" attribute. The initial application happens in a
+// tiny inline <head> script (see HTML files) to prevent flash-of-wrong-
+// theme before this main.js loads.
+function toggleTheme() {
+  var current = document.documentElement.getAttribute('data-theme');
+  var next = current === 'light' ? 'dark' : 'light';
+  if (next === 'dark') {
+    document.documentElement.removeAttribute('data-theme');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'light');
+  }
+  try { localStorage.setItem('ept-theme', next); } catch (e) {}
+}
 
 // ─── SEARCH OVERLAY ──────────────────────────────────────────────
 function toggleSearch() {
