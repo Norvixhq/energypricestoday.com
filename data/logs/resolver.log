@@ -120,3 +120,15 @@
 [2026-05-15T10:36:16.915187+00:00]   Δ top_story.retired: '' → 'None' (triggers_publish=True)
 [2026-05-15T10:36:16.915740+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (3 events)
 [2026-05-15T10:36:16.915811+00:00] ════════════════════════════════════════════════════════════
+[2026-05-15T12:28:28.554852+00:00] resolver: start
+[2026-05-15T12:28:28.559084+00:00] resolver: scanning 273 clusters across 10 topics
+[2026-05-15T12:28:28.559549+00:00]   hormuz_status: OPEN (conf=0.961, freshness=fresh, clusters=13)
+[2026-05-15T12:28:28.560653+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=11)
+[2026-05-15T12:28:28.560813+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=2)
+[2026-05-15T12:28:28.560852+00:00]   global_risk_level: LOW (score=10)
+[2026-05-15T12:28:28.560993+00:00]   top_story: 'Carney says Canada, Alberta will advance a potential crude o' (score=92.55)
+[2026-05-15T12:28:28.561037+00:00] resolver: 2 change(s), 2 meaningful, 1 publish-triggering
+[2026-05-15T12:28:28.561063+00:00]   Δ opec_plus_policy.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-05-15T12:28:28.561089+00:00]   Δ top_story.new_event: 'None' → '' (triggers_publish=True)
+[2026-05-15T12:28:28.561674+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-15T12:28:28.561742+00:00] ════════════════════════════════════════════════════════════
