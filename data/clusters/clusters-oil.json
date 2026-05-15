@@ -1,18 +1,18 @@
 {
   "topic": "oil",
-  "generated_at": "2026-05-15T12:28:28.465191+00:00",
+  "generated_at": "2026-05-15T15:04:04.004754+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 26,
+  "clusters_found": 22,
   "clusters": [
     {
-      "cluster_id": "c_31cda3436af928",
+      "cluster_id": "c_d2c735fbe49339",
       "topic": "oil",
-      "lead_title": "Carney says Canada, Alberta will advance a potential crude oil pipeline",
-      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM05xZU1zNnpUekVMLWdsekF6V0Qza3RZeWhSTnVVLWpVdUhONF9PTU82LVJybmVEUTZlT0ZqdkxTQ3VfUTRoN2VNbTRuWmtXWEtJYjdtbWNLUFkyMlV2RW1CVFUySmV6QVUyX3p2eFJjMFVtSHhiYmdjWkxNT1d4Uk1aMmhDVk5nOVlhNTJobEZjQW1sdkVPUnlNLWc4MjJvdkNwUmVndTRVbFBwYjdKS2pDZjJaMVU3bHhSOUxtaTJFelRGOUtySC1Wb2NXQVU?oc=5",
-      "lead_source": "Reuters",
+      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
+      "lead_source": "WSJ",
       "canonical_entities": [
         "Brent",
         "WTI",
@@ -20,19 +20,156 @@
         "oil"
       ],
       "source_count": 4,
-      "distinct_publishers": 3,
+      "distinct_publishers": 4,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-13T15:17:00+00:00",
+      "latest_seen": "2026-05-15T14:04:00+00:00",
+      "age_hours": 1.0,
+      "score": 95.15,
+      "score_components": {
+        "source_count_points": 20,
+        "recency_points": 24.4,
+        "source_quality_points": 24.75,
+        "entity_relevance_points": 16,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "318ca6606920ed2b",
+          "title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-05-13T15:17:00+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "78af4a6638907184",
+          "title": "WTI Crude Oil Futures Jump 3.5% to $104.69, Brent Futures Advance 3.4% to $109.12 Early Friday",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUlNPZDUzWDd3XzVpdFhmSWhGYnp0d3BGSU51U2ZyTkRWSlkxdXpPREtWNDh5bmVwdm5PMlQ4ZjZya1NWUUFMQmhJT0hlMmNwaThkbkNWbTNhRXlGSU1zOUUzVkxiOEZqMDBIZmlWUXpoM3JXTXExalVlU3JMTllTTVZHb1p0NjhLdDhPR0RTdW9ia2xFY0pCRGhPOGNNTjg5a0VlaVVONExJczkwM2dJbUV5eHBxb3ZCSmVtdGFEV0txTmRSckhkNm91aHRNSVFfbzJ6Ql9reHR6UQ?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-05-15T10:31:50+00:00",
+          "confidence": 0.8
+        },
+        {
+          "headline_id": "8f2dcbe79eece441",
+          "title": "Crude Oil eases its overnight rally but what's next? – WTI Technical analysis",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORng2a3ZXSXZQN1BIUTcxOWI1ekVvMndyZFRtVDRLMURhTDVZbG9KdjZhWUZwb1pTT3p2YzI1ZjF5dTJ5UjRGV0xIVzlRdS0wcWZUcWs5endBV2dBdG9STDM0VFE2dW9aR0J3Zk5EWXF5YmJBUHFCVUxBaTRVOHBwa2R3MVgwbHBIaWNV?oc=5",
+          "source": "marketpulse.com",
+          "source_type": "rss",
+          "published_at": "2026-05-15T14:04:00+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "12a04837c953be6f",
+          "title": "WTI Crude Oil: Elliott Wave Analysis and Forecast for 15.05.26–22.05.26",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWDJGM1NXc1BJT2pCVlNpcDE2WC1KRDB3aEs3OWRKelZjWUg0RTNtXzVmbDB4V1kzV2VSVXRYWFFUeUNMbnpWX3duMm52b1d2ZjZkQkFPeFBOZkpBYmVFNGZkR05hZXNqRGNmQXNfeFE2S18zZkdoYW1oc0RfTkxnRDNwLV9lRWJ2enRmaFVUdXduSHIxTHlGbFJDbVlGM0pKX1NNTUR5cjItal9jWVVBMDlHNzh6d0t6Tk1mZU81UjVlcnVFVHZnUEpzU1EtcmdSR1FIbWpZYldrcEd2MlZvQXpn?oc=5",
+          "source": "LiteFinance",
+          "source_type": "rss",
+          "published_at": "2026-05-15T12:20:54+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_203dda71d8ac25",
+      "topic": "oil",
+      "lead_title": "UAE's new oil pipeline push to double export capacity bypassing Hormuz",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTR2TU82b0FQREFnbzVydjN6UEJHYVNKZWxTY1FrSUUwUVpZdDJwYUZwSHpXSnV4S2oyMndORGtzRTR0YU1yMFVoaUlGblRKNXA5cmR2aHYzZWZGV3h1SE1zcmdlcWVNLU5RODNTRTh1MVRwaHRYUHI5ZnFiZzlwbUs5d0dpV2FtdDVvWU5iV0VsdlBIb1ZKZEVWVjBTZWhVZzR5eVdKZ2JIUQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 4,
+      "distinct_publishers": 4,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-15T07:10:07+00:00",
+      "latest_seen": "2026-05-15T14:26:05+00:00",
+      "age_hours": 0.63,
+      "score": 86.52,
+      "score_components": {
+        "source_count_points": 20,
+        "recency_points": 24.62,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "eab678531e963b26",
+          "title": "UAE's new oil pipeline push to double export capacity bypassing Hormuz",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTR2TU82b0FQREFnbzVydjN6UEJHYVNKZWxTY1FrSUUwUVpZdDJwYUZwSHpXSnV4S2oyMndORGtzRTR0YU1yMFVoaUlGblRKNXA5cmR2aHYzZWZGV3h1SE1zcmdlcWVNLU5RODNTRTh1MVRwaHRYUHI5ZnFiZzlwbUs5d0dpV2FtdDVvWU5iV0VsdlBIb1ZKZEVWVjBTZWhVZzR5eVdKZ2JIUQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-15T13:32:21+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "5dee97e3877cc9ca",
+          "title": "UAE Will Double Oil Export Capacity Bypassing Hormuz by 2027",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcHpIWGlPR2o3QmJtMkh3amxnX1dZZ3RTamhkMExLb0tudFRNcGtKWi02TlhURlVySFdUTGZLbWtPR3NoVmdrc2NlNGFjZ25TSEtLZEJkR1VEc0VJeGJOa1RkZm11dW9EYTdyS1RjNVBkU3hXd0ZhMFpsczNFMzdxcDhiUVA3NVIyb3c1ZVdFandqZVZsSFVnZ2F2aTFxQmcwWlFEbTY2dGs?oc=5",
+          "source": "Bloomberg.com",
+          "source_type": "rss",
+          "published_at": "2026-05-15T07:10:07+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "27830e5382780f16",
+          "title": "UAE to Double Oil Export Capacity Bypassing Hormuz by 2027",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeTVOeV9UdDJ0cUxsWWlpRVQ4M0tMSXVmYzBFa1RMeFFYaXRUaGVYamVSQlBYVkFhaE9lNV9zNkE3LVhGV0dhNUswYU9pZmMxRmlVamNfN2hpbWJuTlRHUndYSEIyeUttTkFtaXJGRWdGSzM3SmdJTHpaWFdxM2hRYk5kNDNEbWdHdUxyRXZ1MGhFTTJRUDZrSEJhNWFBeXhTOHdEa2dyeDV0YzZrbEtXT3diOVR2RkRwZjRMUg?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2026-05-15T14:26:05+00:00",
+          "confidence": 0.87
+        },
+        {
+          "headline_id": "fcd5741b8504000c",
+          "title": "UAE to complete second oil pipeline bypassing strait of Hormuz by 2027",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMTJ2dFJBd0tJd1V4c3RPeDF5Q18xdmY1czExUkZlSjZoU0d3ZlgzNEwzalRzMGJ3UmdWOVk0dklwbTFKVnNtZ2o1bGprdXpvd3NxRnduc2Y4d1BIUDg2WWcyRW9SMDhFaHRCODlRYk9VMUJBV0dDTWFEdVZRR3Vfd0psMW14Q09tWGxfeFVvTFdwV09h?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-05-15T11:45:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d5b2ff8cd29238",
+      "topic": "oil",
+      "lead_title": "Carney says Canada, Alberta will advance a potential crude oil pipeline",
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOM05xZU1zNnpUekVMLWdsekF6V0Qza3RZeWhSTnVVLWpVdUhONF9PTU82LVJybmVEUTZlT0ZqdkxTQ3VfUTRoN2VNbTRuWmtXWEtJYjdtbWNLUFkyMlV2RW1CVFUySmV6QVUyX3p2eFJjMFVtSHhiYmdjWkxNT1d4Uk1aMmhDVk5nOVlhNTJobEZjQW1sdkVPUnlNLWc4MjJvdkNwUmVndTRVbFBwYjdKS2pDZjJaMVU3bHhSOUxtaTJFelRGOUtySC1Wb2NXQVU?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "crude",
+        "oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-14T10:24:08+00:00",
-      "latest_seen": "2026-05-15T12:20:54+00:00",
-      "age_hours": 0.13,
-      "score": 92.55,
+      "latest_seen": "2026-05-15T12:55:48+00:00",
+      "age_hours": 2.14,
+      "score": 81.52,
       "score_components": {
-        "source_count_points": 15,
-        "recency_points": 24.92,
-        "source_quality_points": 26.62,
-        "entity_relevance_points": 16,
+        "source_count_points": 10,
+        "recency_points": 23.72,
+        "source_quality_points": 29.8,
+        "entity_relevance_points": 8,
         "materiality_points": 10.0
       },
       "novelty": "new",
@@ -57,35 +194,25 @@
           "confidence": 1.0
         },
         {
-          "headline_id": "78af4a6638907184",
-          "title": "WTI Crude Oil Futures Jump 3.5% to $104.69, Brent Futures Advance 3.4% to $109.12 Early Friday",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUlNPZDUzWDd3XzVpdFhmSWhGYnp0d3BGSU51U2ZyTkRWSlkxdXpPREtWNDh5bmVwdm5PMlQ4ZjZya1NWUUFMQmhJT0hlMmNwaThkbkNWbTNhRXlGSU1zOUUzVkxiOEZqMDBIZmlWUXpoM3JXTXExalVlU3JMTllTTVZHb1p0NjhLdDhPR0RTdW9ia2xFY0pCRGhPOGNNTjg5a0VlaVVONExJczkwM2dJbUV5eHBxb3ZCSmVtdGFEV0txTmRSckhkNm91aHRNSVFfbzJ6Ql9reHR6UQ?oc=5",
-          "source": "marketscreener.com",
+          "headline_id": "11a339781fd6475c",
+          "title": "Energy Secretary Chris Wright: China will be buying more U.S. crude oil because of Iran",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOW0zY0JMQkNacHZTLWxXNGllMXZwMndqVng4eWdVOTdzLW0zSnJ5bW9INzN2T1hBeThXMXNjQzE3ZHl5aVpuaDNUcko2cF9DbjRqckh4T29HaEdZUEpaWWtERy1BV1NIVW1PMlFhRVQ2Mi0wWHNsUXc4ejgtRGhaMWltMDJLZnVCY3pJTzg0QmRnSHc4WWNiMEE4WlFhN1k4QmZDaHVXOExSLWNaSURyUlhSSTVrWmg4WjFGRlQ2NlhSUG8yRW13?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-05-15T10:31:50+00:00",
-          "confidence": 0.8
-        },
-        {
-          "headline_id": "12a04837c953be6f",
-          "title": "WTI Crude Oil: Elliott Wave Analysis and Forecast for 15.05.26–22.05.26",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWDJGM1NXc1BJT2pCVlNpcDE2WC1KRDB3aEs3OWRKelZjWUg0RTNtXzVmbDB4V1kzV2VSVXRYWFFUeUNMbnpWX3duMm52b1d2ZjZkQkFPeFBOZkpBYmVFNGZkR05hZXNqRGNmQXNfeFE2S18zZkdoYW1oc0RfTkxnRDNwLV9lRWJ2enRmaFVUdXduSHIxTHlGbFJDbVlGM0pKX1NNTUR5cjItal9jWVVBMDlHNzh6d0t6Tk1mZU81UjVlcnVFVHZnUEpzU1EtcmdSR1FIbWpZYldrcEd2MlZvQXpn?oc=5",
-          "source": "LiteFinance",
-          "source_type": "rss",
-          "published_at": "2026-05-15T12:20:54+00:00",
-          "confidence": 0.75
+          "published_at": "2026-05-15T12:55:48+00:00",
+          "confidence": 0.98
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_14068e3577ea98",
+      "cluster_id": "c_2d5bb54b194afc",
       "topic": "oil",
-      "lead_title": "Capital Economics sees oil at $150 per barrel through 2027 in an extreme case",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNemo4aTZIQnd4a3I1dTU4V1ZvU0ZvcEp2djJUc2RJckRFWUNOM2dmS2ZXRjhGbXVpSHFYLWJzSjdvcEVjMzlUUnpDcjZiUUs1aW16QW9HYzA4V2VkYU1xVUNTRkNGR2x2cDRUZy1MMFE0LXRET3k3ZnlYSFJpcHUwNkxIQjM0enpfNC1hY0VQaHFOdVpPekF3V1JYeWNDeVNuclN6STQtRExNTUtsb2FLUUxESlk5R3BWaGdpOW9Daw?oc=5",
-      "lead_source": "Reuters",
+      "lead_title": "China will buy more U.S. oil because it is a natural trade partner, says Energy Secretary Wright",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVUx6bVdnc29QeEpRblhjLS1GbFBHOTQ0MzhoUUdNZkhTOXptcTlaWmUxWWJXTE4tN3pGczZ1Vk1JZGZvZGQxWld5TnFYQTRMa0JOUE9NUmhnZzFEQ05vV1doZHRiTmN0OUwyNmVXZWJHWW5jRW5tU2x6Y2pxN092X2ljUGvSAYoBQVVfeXFMTXZIYjJVd1otWWMycGFPVF9KUUVXRndaYjNkQ0k1Y3ByVWdWZHBJTkZxQnNCWUwtc3E1S241RWpGY2VMZTBlUU9XZC1ncjIzU3AxMHgybG1CbEcwM1YwUEhHWmxUWTc2VWpVekRYOHNiMERrVkJSbVllcjE2T1lvN1I4eWVwSzVVdVZ3?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
-        "barrel",
         "oil"
       ],
       "source_count": 1,
@@ -93,55 +220,14 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T10:45:55+00:00",
-      "latest_seen": "2026-05-15T10:45:55+00:00",
-      "age_hours": 1.71,
-      "score": 76.97,
+      "earliest_seen": "2026-05-15T14:06:02+00:00",
+      "latest_seen": "2026-05-15T14:06:02+00:00",
+      "age_hours": 0.97,
+      "score": 71.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.97,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "636f8e86c4d8f63c",
-          "title": "Capital Economics sees oil at $150 per barrel through 2027 in an extreme case",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNemo4aTZIQnd4a3I1dTU4V1ZvU0ZvcEp2djJUc2RJckRFWUNOM2dmS2ZXRjhGbXVpSHFYLWJzSjdvcEVjMzlUUnpDcjZiUUs1aW16QW9HYzA4V2VkYU1xVUNTRkNGR2x2cDRUZy1MMFE0LXRET3k3ZnlYSFJpcHUwNkxIQjM0enpfNC1hY0VQaHFOdVpPekF3V1JYeWNDeVNuclN6STQtRExNTUtsb2FLUUxESlk5R3BWaGdpOW9Daw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-15T10:45:55+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_131f84c4f7b7fc",
-      "topic": "oil",
-      "lead_title": "UAE Will Double Oil Export Capacity Bypassing Hormuz by 2027",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcHpIWGlPR2o3QmJtMkh3amxnX1dZZ3RTamhkMExLb0tudFRNcGtKWi02TlhURlVySFdUTGZLbWtPR3NoVmdrc2NlNGFjZ25TSEtLZEJkR1VEc0VJeGJOa1RkZm11dW9EYTdyS1RjNVBkU3hXd0ZhMFpsczNFMzdxcDhiUVA3NVIyb3c1ZVdFandqZVZsSFVnZ2F2aTFxQmcwWlFEbTY2dGs?oc=5",
-      "lead_source": "Bloomberg.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-15T07:10:07+00:00",
-      "latest_seen": "2026-05-15T11:29:00+00:00",
-      "age_hours": 0.99,
-      "score": 76.16,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.41,
-        "source_quality_points": 27.75,
+        "recency_points": 24.42,
+        "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -149,25 +235,96 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "5dee97e3877cc9ca",
-          "title": "UAE Will Double Oil Export Capacity Bypassing Hormuz by 2027",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcHpIWGlPR2o3QmJtMkh3amxnX1dZZ3RTamhkMExLb0tudFRNcGtKWi02TlhURlVySFdUTGZLbWtPR3NoVmdrc2NlNGFjZ25TSEtLZEJkR1VEc0VJeGJOa1RkZm11dW9EYTdyS1RjNVBkU3hXd0ZhMFpsczNFMzdxcDhiUVA3NVIyb3c1ZVdFandqZVZsSFVnZ2F2aTFxQmcwWlFEbTY2dGs?oc=5",
-          "source": "Bloomberg.com",
+          "headline_id": "5d10d5bdce4a6a37",
+          "title": "China will buy more U.S. oil because it is a natural trade partner, says Energy Secretary Wright",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVUx6bVdnc29QeEpRblhjLS1GbFBHOTQ0MzhoUUdNZkhTOXptcTlaWmUxWWJXTE4tN3pGczZ1Vk1JZGZvZGQxWld5TnFYQTRMa0JOUE9NUmhnZzFEQ05vV1doZHRiTmN0OUwyNmVXZWJHWW5jRW5tU2x6Y2pxN092X2ljUGvSAYoBQVVfeXFMTXZIYjJVd1otWWMycGFPVF9KUUVXRndaYjNkQ0k1Y3ByVWdWZHBJTkZxQnNCWUwtc3E1S241RWpGY2VMZTBlUU9XZC1ncjIzU3AxMHgybG1CbEcwM1YwUEhHWmxUWTc2VWpVekRYOHNiMERrVkJSbVllcjE2T1lvN1I4eWVwSzVVdVZ3?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-05-15T07:10:07+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "fcd5741b8504000c",
-          "title": "UAE to complete second oil pipeline bypassing strait of Hormuz by 2027",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPMTJ2dFJBd0tJd1V4c3RPeDF5Q18xdmY1czExUkZlSjZoU0d3ZlgzNEwzalRzMGJ3UmdWOVk0dklwbTFKVnNtZ2o1bGprdXpvd3NxRnduc2Y4d1BIUDg2WWcyRW9SMDhFaHRCODlRYk9VMUJBV0dDTWFEdVZRR3Vfd0psMW14Q09tWGxfeFVvTFdwV09h?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-05-15T11:29:00+00:00",
-          "confidence": 0.85
+          "published_at": "2026-05-15T14:06:02+00:00",
+          "confidence": 0.93
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_4e1f16dca46cf3",
+      "topic": "oil",
+      "lead_title": "CNBC Exclusive: Transcript: U.S. Energy Secretary Chris Wright Speaks with CNBC’s Brian Sullivan on “Squawk Box” Today",
+      "lead_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOWZ2SUdwU2JUcDdsUkkyOXFxVVBqb25xOVRMelBydm5nZWJHaVhlX3YzMkJCZW9TVDRkc2FzQkU5enJNdloySm5JbmVHdHEzY25qb3ExSFdWV2x3VEI0LVU2andtTmpFXzcwNzFkV0dpUEZMOWh1M2JJbDNzcXJxYWNWWmhVYTliTFZWNjZsNDB1bERBeHlXTjMxamktaDVGdHRkUF8teThKWWFoRmw3TmxkbjlMNTlDUGpIQmNZZVJ2Z2N0Z0tvZlhna0dUQ0lVNl9rb1dsQjJGaVpLOFVLYm530gHnAUFVX3lxTE1iUVh3QTl6dWR3ODYwOXYwNXczanc1R3hfSkE3Ymk4Uk9BbFR4SlB6bnVmNkxBYlVKYXZMNDdScVFfQkZJTG9oSDdFc3EtZm1vZFoyMThXMXROOEwyalhIUWpwUkJqLV93TmIxWThiSjUwMkFMaG1qMmNzcEVpLWp3UVJkRVlQc3g4NEVNUndXMTlFZ2F2NzBtV2hiUlZsRjc3ZW9Wd0VGUm5ZaHdWWDFMOXhRdlp4Y3JZd3hKRlNSdlo1RjFUTHFhbURzZnhRQ0M0dHZFcjFlT0JMY091N3VZTVVQUTU4aw?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-15T13:45:14+00:00",
+      "latest_seen": "2026-05-15T13:45:14+00:00",
+      "age_hours": 1.31,
+      "score": 65.61,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.21,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "ee60da3a4f98c250",
+          "title": "CNBC Exclusive: Transcript: U.S. Energy Secretary Chris Wright Speaks with CNBC’s Brian Sullivan on “Squawk Box” Today",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOWZ2SUdwU2JUcDdsUkkyOXFxVVBqb25xOVRMelBydm5nZWJHaVhlX3YzMkJCZW9TVDRkc2FzQkU5enJNdloySm5JbmVHdHEzY25qb3ExSFdWV2x3VEI0LVU2andtTmpFXzcwNzFkV0dpUEZMOWh1M2JJbDNzcXJxYWNWWmhVYTliTFZWNjZsNDB1bERBeHlXTjMxamktaDVGdHRkUF8teThKWWFoRmw3TmxkbjlMNTlDUGpIQmNZZVJ2Z2N0Z0tvZlhna0dUQ0lVNl9rb1dsQjJGaVpLOFVLYm530gHnAUFVX3lxTE1iUVh3QTl6dWR3ODYwOXYwNXczanc1R3hfSkE3Ymk4Uk9BbFR4SlB6bnVmNkxBYlVKYXZMNDdScVFfQkZJTG9oSDdFc3EtZm1vZFoyMThXMXROOEwyalhIUWpwUkJqLV93TmIxWThiSjUwMkFMaG1qMmNzcEVpLWp3UVJkRVlQc3g4NEVNUndXMTlFZ2F2NzBtV2hiUlZsRjc3ZW9Wd0VGUm5ZaHdWWDFMOXhRdlp4Y3JZd3hKRlNSdlo1RjFUTHFhbURzZnhRQ0M0dHZFcjFlT0JMY091N3VZTVVQUTU4aw?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-05-15T13:45:14+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d9c7c8d10f46d3",
+      "topic": "oil",
+      "lead_title": "Oil prices jump after Trump says he is losing patience with Iran",
+      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUXgta21IXzROM1FUU1ZpdlFzRWpRd2Y5MzdoYmlJZ2pSRjJDUFdRNG5XME45Nm1YeEw1ZWdNY2N4RGxnVHBydXVlWWRMZUkwc2l6WTh2UmVfQjZoTjVMLUdESWpGblF6aEFUbmI0cVhoTFVFMi1NRHpSTlpaMHhrSGh2ZEF5Rlc0bTV2ald2U3VjM05B0gGaAUFVX3lxTFBSVFlidU56VzZzNHU2N2lSeDAzQzV2TTVXQWFMRmJrbWs0LVJpeGVtWmktUXBhdV9sY1dwTTQ4cG4tdWdSS2hVOXpZNTE0Ulc3OW9pLXpvR0ZnUmJsUGN1QndfbHVhQWlyVEVjcjdNUHFUVzNLZWV4MmFwUENTUFRoR2ktWFJhcGlDQ0gxd1Z3czMwZU44dzlaNXc?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-15T02:43:00+00:00",
+      "latest_seen": "2026-05-15T02:43:00+00:00",
+      "age_hours": 12.35,
+      "score": 64.49,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.59,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6cec7f6527b7288f",
+          "title": "Oil prices jump after Trump says he is losing patience with Iran",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUXgta21IXzROM1FUU1ZpdlFzRWpRd2Y5MzdoYmlJZ2pSRjJDUFdRNG5XME45Nm1YeEw1ZWdNY2N4RGxnVHBydXVlWWRMZUkwc2l6WTh2UmVfQjZoTjVMLUdESWpGblF6aEFUbmI0cVhoTFVFMi1NRHpSTlpaMHhrSGh2ZEF5Rlc0bTV2ald2U3VjM05B0gGaAUFVX3lxTFBSVFlidU56VzZzNHU2N2lSeDAzQzV2TTVXQWFMRmJrbWs0LVJpeGVtWmktUXBhdV9sY1dwTTQ4cG4tdWdSS2hVOXpZNTE0Ulc3OW9pLXpvR0ZnUmJsUGN1QndfbHVhQWlyVEVjcjdNUHFUVzNLZWV4MmFwUENTUFRoR2ktWFJhcGlDQ0gxd1Z3czMwZU44dzlaNXc?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-05-15T02:43:00+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -184,19 +341,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T11:11:42+00:00",
-      "latest_seen": "2026-05-15T11:11:42+00:00",
-      "age_hours": 1.28,
-      "score": 73.23,
+      "earliest_seen": "2026-05-15T12:10:52+00:00",
+      "latest_seen": "2026-05-15T12:10:52+00:00",
+      "age_hours": 2.89,
+      "score": 62.27,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.23,
+        "recency_points": 23.27,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "16fc033d1294d445",
@@ -204,130 +361,7 @@
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ3Ezc01iSVgzM0NqVTB3a29Ca3pXZ3JwY3l2OVRtcDZNcF9sdDRSUzRSVWZzeHpPb0ZhRThyeVI2UWtjZ1BZdUlQU2puXzgxNGFBZnZ6QnNTY0ZlbzFpMDlWWngyenIzcFcyZU1zZjdpZGxHSkNRUldteGVvVFRISEdwUVRmR3lFZ21CMVVLbV85aF80YVZ6X2JpTzVabzFEelpJSWF6U0FBRTBV?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-05-15T11:11:42+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_adc07d334f0cd9",
-      "topic": "oil",
-      "lead_title": "UAE to accelerate oil pipeline project to help bypass Hormuz",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTR2TU82b0FQREFnbzVydjN6UEJHYVNKZWxTY1FrSUUwUVpZdDJwYUZwSHpXSnV4S2oyMndORGtzRTR0YU1yMFVoaUlGblRKNXA5cmR2aHYzZWZGV3h1SE1zcmdlcWVNLU5RODNTRTh1MVRwaHRYUHI5ZnFiZzlwbUs5d0dpV2FtdDVvWU5iV0VsdlBIb1ZKZEVWVjBTZWhVZzR5eVdKZ2JIUQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-15T10:47:44+00:00",
-      "latest_seen": "2026-05-15T10:47:44+00:00",
-      "age_hours": 1.68,
-      "score": 72.99,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.99,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "322ecfa324fdcd93",
-          "title": "UAE to accelerate oil pipeline project to help bypass Hormuz",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZTR2TU82b0FQREFnbzVydjN6UEJHYVNKZWxTY1FrSUUwUVpZdDJwYUZwSHpXSnV4S2oyMndORGtzRTR0YU1yMFVoaUlGblRKNXA5cmR2aHYzZWZGV3h1SE1zcmdlcWVNLU5RODNTRTh1MVRwaHRYUHI5ZnFiZzlwbUs5d0dpV2FtdDVvWU5iV0VsdlBIb1ZKZEVWVjBTZWhVZzR5eVdKZ2JIUQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-15T10:47:44+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3f1dd1f184c446",
-      "topic": "oil",
-      "lead_title": "Russian seaborne oil product exports fell in April amid drone attacks, data from industry sources shows",
-      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMTFwanNzYmNMbnN2NmZWdWZxM0V6a3JpdzNTWnVpMU03d3lQRi1zLTB2Z0M1TlBhVU95SEs1ZFA5V04tSWp0czhtTGZrbUxzYng5amtIUXNDd0FGbEJjMHBvallnLXd5NG5jWUhsUlE5S19sNHk2blNlbWJzUnB6ei1sQnBMMG9GMTVtSVJ6c0liX2dnQjJpLTVxUmUzU1FkZF9oUTFEckpNM2VXcG1uZVNjQW5ZOGY1U01MOVJHX3VrSktDRmdKekhIZ1k?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-15T09:57:19+00:00",
-      "latest_seen": "2026-05-15T09:57:19+00:00",
-      "age_hours": 2.52,
-      "score": 72.49,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.49,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "10833c0c5efc9331",
-          "title": "Russian seaborne oil product exports fell in April amid drone attacks, data from industry sources shows",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMTFwanNzYmNMbnN2NmZWdWZxM0V6a3JpdzNTWnVpMU03d3lQRi1zLTB2Z0M1TlBhVU95SEs1ZFA5V04tSWp0czhtTGZrbUxzYng5amtIUXNDd0FGbEJjMHBvallnLXd5NG5jWUhsUlE5S19sNHk2blNlbWJzUnB6ei1sQnBMMG9GMTVtSVJ6c0liX2dnQjJpLTVxUmUzU1FkZF9oUTFEckpNM2VXcG1uZVNjQW5ZOGY1U01MOVJHX3VrSktDRmdKekhIZ1k?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-15T09:57:19+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7cbf4291d5c4c6",
-      "topic": "oil",
-      "lead_title": "South African rand weakens as dollar firms, oil rises while markets eye Trump-Xi talks",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSllPVS1uZFdYdjlfWXl4SXJHUFVrVk9xZ2trQm5UU3M2VS1kUnN4WVdneDFSU2psRlpoendkMHgxU1pzWUlEeDdVNGRNenpSSTRWcGc2OG5QREtLeEU1QmxuMHJhTXFJY2JSYmNHT2doS3poZ1pESS1PTXlpX0VzM2VzeC1iTklRRmFHenk1S0pUYXEtTklfQ09xSjd1emxoNkNNeF9fUFcxRS16cGd1X29EYjJ4aklOTW9kV0pWVWs3YmM?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-15T07:32:19+00:00",
-      "latest_seen": "2026-05-15T07:32:19+00:00",
-      "age_hours": 4.94,
-      "score": 71.04,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.04,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "58df9005c1527c93",
-          "title": "South African rand weakens as dollar firms, oil rises while markets eye Trump-Xi talks",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSllPVS1uZFdYdjlfWXl4SXJHUFVrVk9xZ2trQm5UU3M2VS1kUnN4WVdneDFSU2psRlpoendkMHgxU1pzWUlEeDdVNGRNenpSSTRWcGc2OG5QREtLeEU1QmxuMHJhTXFJY2JSYmNHT2doS3poZ1pESS1PTXlpX0VzM2VzeC1iTklRRmFHenk1S0pUYXEtTklfQ09xSjd1emxoNkNNeF9fUFcxRS16cGd1X29EYjJ4aklOTW9kV0pWVWs3YmM?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-15T07:32:19+00:00",
+          "published_at": "2026-05-15T12:10:52+00:00",
           "confidence": 1.0
         }
       ],
@@ -350,17 +384,17 @@
       ],
       "earliest_seen": "2026-05-15T09:19:57+00:00",
       "latest_seen": "2026-05-15T09:19:57+00:00",
-      "age_hours": 3.14,
-      "score": 70.01,
+      "age_hours": 5.74,
+      "score": 58.46,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.11,
+        "recency_points": 21.56,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "d68e6927d7488f6e",
@@ -376,11 +410,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_343ccfac7cfee6",
+      "cluster_id": "c_bf636af62bb834",
       "topic": "oil",
-      "lead_title": "USA EIA Reveals Latest Oil Price Forecasts",
-      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaEt3Z3lxLWRyX2I0WTM1aER1SU1PcV9IdEdEZExOVTNvM2I5Q1FVZUkwaFNZVmFWVmlDYTBNdmFpb1ZXUWF0X01OdDZMbFJmZGd6MWFuWVhkUXBhSGVkVzdRemdTOUpIMHYtODBKaWFBRnhnaGIzT0c0eFdocU56eVA5Z1VrNnJfSGJFYkhnU2hKWmpxLV9xcW4welJkcENB?oc=5",
-      "lead_source": "Rigzone",
+      "lead_title": "Why the oil futures curve is not a crystal ball",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZGhXU05TUFN2dTdLXzBNZ0d0d3ZmNnh3YWxQTWY0ekViQ25zN0JtaldRNXNXckV1LWVHc2l3cl9wdWVvN1JvUEU2YkE5RzZXQnNmRHI5d1pqVG5DQkprT2VBVlg0Y0F2RW04X09Fa293eGk5TG1kSVJnWjdWWEJBYndTUUc?oc=5",
+      "lead_source": "Financial Times",
       "canonical_entities": [
         "oil"
       ],
@@ -389,40 +423,41 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T11:17:37+00:00",
-      "latest_seen": "2026-05-15T11:17:37+00:00",
-      "age_hours": 1.18,
-      "score": 69.39,
+      "earliest_seen": "2026-05-15T04:01:55+00:00",
+      "latest_seen": "2026-05-15T04:01:55+00:00",
+      "age_hours": 11.04,
+      "score": 56.48,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.29,
-        "source_quality_points": 26.1,
+        "recency_points": 18.38,
+        "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "9d30f05e54d85450",
-          "title": "USA EIA Reveals Latest Oil Price Forecasts",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaEt3Z3lxLWRyX2I0WTM1aER1SU1PcV9IdEdEZExOVTNvM2I5Q1FVZUkwaFNZVmFWVmlDYTBNdmFpb1ZXUWF0X01OdDZMbFJmZGd6MWFuWVhkUXBhSGVkVzdRemdTOUpIMHYtODBKaWFBRnhnaGIzT0c0eFdocU56eVA5Z1VrNnJfSGJFYkhnU2hKWmpxLV9xcW4welJkcENB?oc=5",
-          "source": "Rigzone",
+          "headline_id": "3a850467f5aa4731",
+          "title": "Why the oil futures curve is not a crystal ball",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZGhXU05TUFN2dTdLXzBNZ0d0d3ZmNnh3YWxQTWY0ekViQ25zN0JtaldRNXNXckV1LWVHc2l3cl9wdWVvN1JvUEU2YkE5RzZXQnNmRHI5d1pqVG5DQkprT2VBVlg0Y0F2RW04X09Fa293eGk5TG1kSVJnWjdWWEJBYndTUUc?oc=5",
+          "source": "Financial Times",
           "source_type": "rss",
-          "published_at": "2026-05-15T11:17:37+00:00",
-          "confidence": 0.87
+          "published_at": "2026-05-15T04:01:55+00:00",
+          "confidence": 0.97
         }
       ],
       "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_828ca3de540057",
+      "cluster_id": "c_6f87fb047beaff",
       "topic": "oil",
-      "lead_title": "Oil prices jump after Trump leaves China with Iran conflict still at a stalemate",
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUXgta21IXzROM1FUU1ZpdlFzRWpRd2Y5MzdoYmlJZ2pSRjJDUFdRNG5XME45Nm1YeEw1ZWdNY2N4RGxnVHBydXVlWWRMZUkwc2l6WTh2UmVfQjZoTjVMLUdESWpGblF6aEFUbmI0cVhoTFVFMi1NRHpSTlpaMHhrSGh2ZEF5Rlc0bTV2ald2U3VjM05B0gGaAUFVX3lxTFBSVFlidU56VzZzNHU2N2lSeDAzQzV2TTVXQWFMRmJrbWs0LVJpeGVtWmktUXBhdV9sY1dwTTQ4cG4tdWdSS2hVOXpZNTE0Ulc3OW9pLXpvR0ZnUmJsUGN1QndfbHVhQWlyVEVjcjdNUHFUVzNLZWV4MmFwUENTUFRoR2ktWFJhcGlDQ0gxd1Z3czMwZU44dzlaNXc?oc=5",
-      "lead_source": "CNBC",
+      "lead_title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+      "lead_source": "Reuters",
       "canonical_entities": [
+        "barrel",
         "oil"
       ],
       "source_count": 1,
@@ -430,28 +465,67 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T02:43:00+00:00",
-      "latest_seen": "2026-05-15T02:43:00+00:00",
-      "age_hours": 9.76,
-      "score": 66.05,
+      "earliest_seen": "2026-05-11T20:33:52+00:00",
+      "latest_seen": "2026-05-11T20:33:52+00:00",
+      "age_hours": 90.5,
+      "score": 53.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.15,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
+        "recency_points": 0.0,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 8,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "bdb7bd99eabfaa2c",
-          "title": "Oil prices jump after Trump leaves China with Iran conflict still at a stalemate",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUXgta21IXzROM1FUU1ZpdlFzRWpRd2Y5MzdoYmlJZ2pSRjJDUFdRNG5XME45Nm1YeEw1ZWdNY2N4RGxnVHBydXVlWWRMZUkwc2l6WTh2UmVfQjZoTjVMLUdESWpGblF6aEFUbmI0cVhoTFVFMi1NRHpSTlpaMHhrSGh2ZEF5Rlc0bTV2ald2U3VjM05B0gGaAUFVX3lxTFBSVFlidU56VzZzNHU2N2lSeDAzQzV2TTVXQWFMRmJrbWs0LVJpeGVtWmktUXBhdV9sY1dwTTQ4cG4tdWdSS2hVOXpZNTE0Ulc3OW9pLXpvR0ZnUmJsUGN1QndfbHVhQWlyVEVjcjdNUHFUVzNLZWV4MmFwUENTUFRoR2ktWFJhcGlDQ0gxd1Z3czMwZU44dzlaNXc?oc=5",
-          "source": "CNBC",
+          "headline_id": "7c0cb504ef155f1c",
+          "title": "US to loan 53.3 million barrels of oil from Strategic Petroleum Reserve",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQjE4X0J5ZlpaczgxaXFCdkJOWHA5VnFLbTRsbmNrY1dpZ2gxQWJOZlN2Ulk2NHJIbDY5YlBqVDh2ODI3RVhET0FUSlB1VnRMNEVNRTV5aVdRQnlMdWFhV3Qzam5mdURUYWxPZGFRTVhHYjdhMnN6RDBiSE9TLWJGTmVzRlhfb3NPZmRfeDJFTldMeWd4VzNlQ1l2cVNBNEEwWWJnLTgwZDRiS0hDbEx1RQ?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-05-15T02:43:00+00:00",
-          "confidence": 0.93
+          "published_at": "2026-05-11T20:33:52+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_609570078a6ad2",
+      "topic": "oil",
+      "lead_title": "Trump says he and Xi agree to keep Iran from having nuclear arms",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVdSWHU5UjhERVU3S3dMRkJWLWIwbkQyZFdkLXJWME5qMTJKUFFyaVFBdTJWME5SX1h1aUgyY3lQdTIwZWJ4UjJubEtjMDB0akYxd3JHWkRybUZFSzRhaERLb3JDc0g0VkRMcDBzeHB3YlFSeU5GTE1wYkFjTjdUVl9fUFZ5RDUxbnhxWDctRXJXbW1qak0xRW13V1NWZkU3Y1E?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-15T04:26:09+00:00",
+      "latest_seen": "2026-05-15T04:26:09+00:00",
+      "age_hours": 10.63,
+      "score": 52.12,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 18.62,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "3c67b66cd84e13d6",
+          "title": "Trump says he and Xi agree to keep Iran from having nuclear arms",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVdSWHU5UjhERVU3S3dMRkJWLWIwbkQyZFdkLXJWME5qMTJKUFFyaVFBdTJWME5SX1h1aUgyY3lQdTIwZWJ4UjJubEtjMDB0akYxd3JHWkRybUZFSzRhaERLb3JDc0g0VkRMcDBzeHB3YlFSeU5GTE1wYkFjTjdUVl9fUFZ5RDUxbnhxWDctRXJXbW1qak0xRW13V1NWZkU3Y1E?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-15T04:26:09+00:00",
+          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -473,17 +547,17 @@
       ],
       "earliest_seen": "2026-05-15T01:56:00+00:00",
       "latest_seen": "2026-05-15T01:56:00+00:00",
-      "age_hours": 10.54,
-      "score": 65.58,
+      "age_hours": 13.13,
+      "score": 49.02,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.68,
+        "recency_points": 17.12,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "80da31a1c4d852a9",
@@ -510,19 +584,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T06:04:16+00:00",
-      "latest_seen": "2026-05-15T06:04:16+00:00",
-      "age_hours": 6.4,
-      "score": 64.66,
+      "earliest_seen": "2026-05-15T01:36:00+00:00",
+      "latest_seen": "2026-05-15T01:36:00+00:00",
+      "age_hours": 13.47,
+      "score": 45.42,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.16,
+        "recency_points": 16.92,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "12afb86ba038a1c8",
@@ -530,46 +604,7 @@
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1Vpck9GV3BPb1A5LW5aM0xsWGJ4OV9udnZDMTEzbTJZOXR1RFhTay1tVXRpV1FDZDd0U2cxU2hCd1BXVEFJOTFZVjYyR293UXVEUGJ1dWt6TEhTYmwwblF6YXZsOVJWMk9WQl9nempVaEdBYWtnN0thaWgwazQ3N2U0MjVDVHZVYWlwdDNKQlRrajMwazEwMEpGRGxNOS1kalBvSXZkVUhOeWZaQXRscEsySXdTQQ?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-05-15T06:04:16+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_609570078a6ad2",
-      "topic": "oil",
-      "lead_title": "Trump says he and Xi agree to keep Iran from having nuclear arms",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVdSWHU5UjhERVU3S3dMRkJWLWIwbkQyZFdkLXJWME5qMTJKUFFyaVFBdTJWME5SX1h1aUgyY3lQdTIwZWJ4UjJubEtjMDB0akYxd3JHWkRybUZFSzRhaERLb3JDc0g0VkRMcDBzeHB3YlFSeU5GTE1wYkFjTjdUVl9fUFZ5RDUxbnhxWDctRXJXbW1qak0xRW13V1NWZkU3Y1E?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-15T04:25:00+00:00",
-      "latest_seen": "2026-05-15T04:25:00+00:00",
-      "age_hours": 8.06,
-      "score": 63.67,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.17,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "3c67b66cd84e13d6",
-          "title": "Trump says he and Xi agree to keep Iran from having nuclear arms",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUVdSWHU5UjhERVU3S3dMRkJWLWIwbkQyZFdkLXJWME5qMTJKUFFyaVFBdTJWME5SX1h1aUgyY3lQdTIwZWJ4UjJubEtjMDB0akYxd3JHWkRybUZFSzRhaERLb3JDc0g0VkRMcDBzeHB3YlFSeU5GTE1wYkFjTjdUVl9fUFZ5RDUxbnhxWDctRXJXbW1qak0xRW13V1NWZkU3Y1E?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-15T04:25:00+00:00",
+          "published_at": "2026-05-15T01:36:00+00:00",
           "confidence": 0.95
         }
       ],
@@ -590,17 +625,17 @@
       ],
       "earliest_seen": "2026-05-15T02:40:50+00:00",
       "latest_seen": "2026-05-15T02:40:50+00:00",
-      "age_hours": 9.79,
-      "score": 59.62,
+      "age_hours": 12.39,
+      "score": 43.07,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.12,
+        "recency_points": 17.57,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1682d5eeaa3303ca",
@@ -610,89 +645,6 @@
           "source_type": "rss",
           "published_at": "2026-05-15T02:40:50+00:00",
           "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_bf636af62bb834",
-      "topic": "oil",
-      "lead_title": "Why the oil futures curve is not a crystal ball",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZGhXU05TUFN2dTdLXzBNZ0d0d3ZmNnh3YWxQTWY0ekViQ25zN0JtaldRNXNXckV1LWVHc2l3cl9wdWVvN1JvUEU2YkE5RzZXQnNmRHI5d1pqVG5DQkprT2VBVlg0Y0F2RW04X09Fa293eGk5TG1kSVJnWjdWWEJBYndTUUc?oc=5",
-      "lead_source": "Financial Times",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-15T04:00:08+00:00",
-      "latest_seen": "2026-05-15T04:00:08+00:00",
-      "age_hours": 8.47,
-      "score": 58.02,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.92,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "3a850467f5aa4731",
-          "title": "Why the oil futures curve is not a crystal ball",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZGhXU05TUFN2dTdLXzBNZ0d0d3ZmNnh3YWxQTWY0ekViQ25zN0JtaldRNXNXckV1LWVHc2l3cl9wdWVvN1JvUEU2YkE5RzZXQnNmRHI5d1pqVG5DQkprT2VBVlg0Y0F2RW04X09Fa293eGk5TG1kSVJnWjdWWEJBYndTUUc?oc=5",
-          "source": "Financial Times",
-          "source_type": "rss",
-          "published_at": "2026-05-15T04:00:08+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_01502cdaa033bc",
-      "topic": "oil",
-      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-13T15:17:00+00:00",
-      "latest_seen": "2026-05-13T15:17:00+00:00",
-      "age_hours": 45.19,
-      "score": 53.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "318ca6606920ed2b",
-          "title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-05-13T15:17:00+00:00",
-          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -714,11 +666,11 @@
       ],
       "earliest_seen": "2026-05-14T18:08:00+00:00",
       "latest_seen": "2026-05-14T18:08:00+00:00",
-      "age_hours": 18.34,
-      "score": 43.5,
+      "age_hours": 20.93,
+      "score": 41.94,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.0,
+        "recency_points": 12.44,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -753,11 +705,11 @@
       ],
       "earliest_seen": "2026-05-14T23:49:30+00:00",
       "latest_seen": "2026-05-14T23:49:30+00:00",
-      "age_hours": 12.65,
-      "score": 42.91,
+      "age_hours": 15.24,
+      "score": 41.35,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.41,
+        "recency_points": 15.85,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -794,11 +746,11 @@
       ],
       "earliest_seen": "2026-05-14T08:02:58+00:00",
       "latest_seen": "2026-05-14T08:02:58+00:00",
-      "age_hours": 28.43,
-      "score": 41.94,
+      "age_hours": 31.02,
+      "score": 40.39,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.94,
+        "recency_points": 6.39,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -814,166 +766,6 @@
           "source_type": "rss",
           "published_at": "2026-05-14T08:02:58+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_68d21c2c1e65aa",
-      "topic": "oil",
-      "lead_title": "Oil prices could soon rise convulsively",
-      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdERWR1ZGQ3AtaW5aLWRaTXRtTmFwY1lxNkM1ZHhnTk1sNldxT05hckRER1FwRVJydTE3b0d1eVpHX00xbGhUNWJZd1FFVTN0QW5CSnpic0UwQnVOajQ3b25EQXVoV2dlbzFhWDlHVk96MGhrYlZkMW16QTgwRWNWTVlpQWxScU92LW04SQ?oc=5",
-      "lead_source": "The Economist",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T09:20:04+00:00",
-      "latest_seen": "2026-05-14T09:20:04+00:00",
-      "age_hours": 27.14,
-      "score": 40.62,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 8.72,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "3f57a609b288845e",
-          "title": "Oil prices could soon rise convulsively",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdERWR1ZGQ3AtaW5aLWRaTXRtTmFwY1lxNkM1ZHhnTk1sNldxT05hckRER1FwRVJydTE3b0d1eVpHX00xbGhUNWJZd1FFVTN0QW5CSnpic0UwQnVOajQ3b25EQXVoV2dlbzFhWDlHVk96MGhrYlZkMW16QTgwRWNWTVlpQWxScU92LW04SQ?oc=5",
-          "source": "The Economist",
-          "source_type": "rss",
-          "published_at": "2026-05-14T09:20:04+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_45ef4cc01e1457",
-      "topic": "oil",
-      "lead_title": "Cuba says oil and diesel supplies have run dry under U.S. sanctions",
-      "lead_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeExSMzd4SDRVeGxPclVTclVMVTBQYTNMV1Vfckw2blNCaGlIXzl5aUNoWnFidW96NmdiakFoaFVjM2o2c0tPdGU3WDJBSXBEMUhRcS1GcE50SEN6X1V1UFBqd2J0RUpiR0ZiU2tuRHZjUUtHS1R1SHdhTUE4Y0EwaXd5RzBJUdIBiwFBVV95cUxPTDlES1JhcFlPZ2FUS1BGTFM1RVcwYkxPbktfTnFSemd5MDRnVXNYdkxKT01Ua1h3RE5vc1g2bkVqbUNldUk3d3hnV1ZwdGFnaGlla3Z2RmdvMWlJbDNmQ3otMVo1ZW9TNzM2TTU2THdOXzRuNllCWlFhRnJOd2Z0UnRUa1BTVXNFb2VJ?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T07:17:19+00:00",
-      "latest_seen": "2026-05-14T07:17:19+00:00",
-      "age_hours": 29.19,
-      "score": 39.39,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 7.49,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "5cfd5d9a6854751e",
-          "title": "Cuba says oil and diesel supplies have run dry under U.S. sanctions",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeExSMzd4SDRVeGxPclVTclVMVTBQYTNMV1Vfckw2blNCaGlIXzl5aUNoWnFidW96NmdiakFoaFVjM2o2c0tPdGU3WDJBSXBEMUhRcS1GcE50SEN6X1V1UFBqd2J0RUpiR0ZiU2tuRHZjUUtHS1R1SHdhTUE4Y0EwaXd5RzBJUdIBiwFBVV95cUxPTDlES1JhcFlPZ2FUS1BGTFM1RVcwYkxPbktfTnFSemd5MDRnVXNYdkxKT01Ua1h3RE5vc1g2bkVqbUNldUk3d3hnV1ZwdGFnaGlla3Z2RmdvMWlJbDNmQ3otMVo1ZW9TNzM2TTU2THdOXzRuNllCWlFhRnJOd2Z0UnRUa1BTVXNFb2VJ?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-05-14T07:17:19+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_ea94b765648bf2",
-      "topic": "oil",
-      "lead_title": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
-      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcExVZVl1cHRvZmFZY19EZGxSVDFtOVFhYXJXeVVpSUdfWXFwM1o5Q3B6RHp2WjM0Ykx3bTNGOUZJeENUZGNXSXluV2VEaDZQbmNIcUpHcnNlQ3VOTktTVkZ2WjQtdV9JRjE5T2lDRlp0ZDZrTnZoclZiYldxdkR4YzJKdFpndzh4WnQzUTlSd9IBlAFBVV95cUxNTXlnSVFRSlVILUN4Z3NKOG5LcVByS3RKR2VveGdiRW1YdWo5VUxUX3pGei1SSW1DNi1qSTFQUW5YeUxpWFdNX2F3aDJuRzRYUmFvdENCVGpuOVFzMjJMSGdqLWRiWG5vVVJaajVScGJyWHptZktqSHl4YlpvanB4MXF0RWc3UXhIenlhOXVfbmlpajg3?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T15:26:41+00:00",
-      "latest_seen": "2026-05-14T15:26:41+00:00",
-      "age_hours": 21.03,
-      "score": 38.78,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 12.38,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "e02f941d40186f6b",
-          "title": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcExVZVl1cHRvZmFZY19EZGxSVDFtOVFhYXJXeVVpSUdfWXFwM1o5Q3B6RHp2WjM0Ykx3bTNGOUZJeENUZGNXSXluV2VEaDZQbmNIcUpHcnNlQ3VOTktTVkZ2WjQtdV9JRjE5T2lDRlp0ZDZrTnZoclZiYldxdkR4YzJKdFpndzh4WnQzUTlSd9IBlAFBVV95cUxNTXlnSVFRSlVILUN4Z3NKOG5LcVByS3RKR2VveGdiRW1YdWo5VUxUX3pGei1SSW1DNi1qSTFQUW5YeUxpWFdNX2F3aDJuRzRYUmFvdENCVGpuOVFzMjJMSGdqLWRiWG5vVVJaajVScGJyWHptZktqSHl4YlpvanB4MXF0RWc3UXhIenlhOXVfbmlpajg3?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-05-14T15:26:41+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_38cdea1967aa53",
-      "topic": "oil",
-      "lead_title": "U.S. officials flag prospect of Chinese energy purchases after Trump-Xi meeting",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZzNLTkJTTF9kelVrZUNaWTY3Uk1hSlpacmpvWFJyQnZTaVF2ZW93TWVRcEpfVURUNHBvSDB0NC00aEZ4WXktZl9maVRpdHBCMndpSFljbXNYMXRHSDNvZnBQcTBXcC03Uk9RTEF2NjR5M0ZabzZCWnExcEpFNkk1SHlhUFh4azFHWnRiRVZoLVhMSFZiQV9FczlNQzRocUZ0Tl9Qc243VnpaYmZIUU00OA?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-14T11:17:47+00:00",
-      "latest_seen": "2026-05-14T11:17:47+00:00",
-      "age_hours": 25.18,
-      "score": 38.39,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 9.89,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "89af36918e2bd27f",
-          "title": "U.S. officials flag prospect of Chinese energy purchases after Trump-Xi meeting",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZzNLTkJTTF9kelVrZUNaWTY3Uk1hSlpacmpvWFJyQnZTaVF2ZW93TWVRcEpfVURUNHBvSDB0NC00aEZ4WXktZl9maVRpdHBCMndpSFljbXNYMXRHSDNvZnBQcTBXcC03Uk9RTEF2NjR5M0ZabzZCWnExcEpFNkk1SHlhUFh4azFHWnRiRVZoLVhMSFZiQV9FczlNQzRocUZ0Tl9Qc243VnpaYmZIUU00OA?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-05-14T11:17:47+00:00",
-          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -996,7 +788,7 @@
       ],
       "earliest_seen": "2026-05-11T05:56:11+00:00",
       "latest_seen": "2026-05-11T05:56:11+00:00",
-      "age_hours": 102.54,
+      "age_hours": 105.13,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -1022,6 +814,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_45ef4cc01e1457",
+      "topic": "oil",
+      "lead_title": "Cuba says oil and diesel supplies have run dry under U.S. sanctions",
+      "lead_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeExSMzd4SDRVeGxPclVTclVMVTBQYTNMV1Vfckw2blNCaGlIXzl5aUNoWnFidW96NmdiakFoaFVjM2o2c0tPdGU3WDJBSXBEMUhRcS1GcE50SEN6X1V1UFBqd2J0RUpiR0ZiU2tuRHZjUUtHS1R1SHdhTUE4Y0EwaXd5RzBJUdIBiwFBVV95cUxPTDlES1JhcFlPZ2FUS1BGTFM1RVcwYkxPbktfTnFSemd5MDRnVXNYdkxKT01Ua1h3RE5vc1g2bkVqbUNldUk3d3hnV1ZwdGFnaGlla3Z2RmdvMWlJbDNmQ3otMVo1ZW9TNzM2TTU2THdOXzRuNllCWlFhRnJOd2Z0UnRUa1BTVXNFb2VJ?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T07:17:19+00:00",
+      "latest_seen": "2026-05-14T07:17:19+00:00",
+      "age_hours": 31.78,
+      "score": 37.83,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 5.93,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "5cfd5d9a6854751e",
+          "title": "Cuba says oil and diesel supplies have run dry under U.S. sanctions",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeExSMzd4SDRVeGxPclVTclVMVTBQYTNMV1Vfckw2blNCaGlIXzl5aUNoWnFidW96NmdiakFoaFVjM2o2c0tPdGU3WDJBSXBEMUhRcS1GcE50SEN6X1V1UFBqd2J0RUpiR0ZiU2tuRHZjUUtHS1R1SHdhTUE4Y0EwaXd5RzBJUdIBiwFBVV95cUxPTDlES1JhcFlPZ2FUS1BGTFM1RVcwYkxPbktfTnFSemd5MDRnVXNYdkxKT01Ua1h3RE5vc1g2bkVqbUNldUk3d3hnV1ZwdGFnaGlla3Z2RmdvMWlJbDNmQ3otMVo1ZW9TNzM2TTU2THdOXzRuNllCWlFhRnJOd2Z0UnRUa1BTVXNFb2VJ?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-05-14T07:17:19+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_2774b228935942",
       "topic": "oil",
       "lead_title": "U.S. crude oil exports surge to record as tankers flock to Gulf Coast during Iran war",
@@ -1038,7 +871,7 @@
       ],
       "earliest_seen": "2026-05-03T07:00:00+00:00",
       "latest_seen": "2026-05-03T07:00:00+00:00",
-      "age_hours": 293.47,
+      "age_hours": 296.07,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -1064,6 +897,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_ea94b765648bf2",
+      "topic": "oil",
+      "lead_title": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
+      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcExVZVl1cHRvZmFZY19EZGxSVDFtOVFhYXJXeVVpSUdfWXFwM1o5Q3B6RHp2WjM0Ykx3bTNGOUZJeENUZGNXSXluV2VEaDZQbmNIcUpHcnNlQ3VOTktTVkZ2WjQtdV9JRjE5T2lDRlp0ZDZrTnZoclZiYldxdkR4YzJKdFpndzh4WnQzUTlSd9IBlAFBVV95cUxNTXlnSVFRSlVILUN4Z3NKOG5LcVByS3RKR2VveGdiRW1YdWo5VUxUX3pGei1SSW1DNi1qSTFQUW5YeUxpWFdNX2F3aDJuRzRYUmFvdENCVGpuOVFzMjJMSGdqLWRiWG5vVVJaajVScGJyWHptZktqSHl4YlpvanB4MXF0RWc3UXhIenlhOXVfbmlpajg3?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-14T15:26:41+00:00",
+      "latest_seen": "2026-05-14T15:26:41+00:00",
+      "age_hours": 23.62,
+      "score": 37.23,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 10.83,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "e02f941d40186f6b",
+          "title": "China will work behind the scenes to help reopen the Strait of Hormuz, Bessent says",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcExVZVl1cHRvZmFZY19EZGxSVDFtOVFhYXJXeVVpSUdfWXFwM1o5Q3B6RHp2WjM0Ykx3bTNGOUZJeENUZGNXSXluV2VEaDZQbmNIcUpHcnNlQ3VOTktTVkZ2WjQtdV9JRjE5T2lDRlp0ZDZrTnZoclZiYldxdkR4YzJKdFpndzh4WnQzUTlSd9IBlAFBVV95cUxNTXlnSVFRSlVILUN4Z3NKOG5LcVByS3RKR2VveGdiRW1YdWo5VUxUX3pGei1SSW1DNi1qSTFQUW5YeUxpWFdNX2F3aDJuRzRYUmFvdENCVGpuOVFzMjJMSGdqLWRiWG5vVVJaajVScGJyWHptZktqSHl4YlpvanB4MXF0RWc3UXhIenlhOXVfbmlpajg3?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-05-14T15:26:41+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_3a229e88bdde1c",
       "topic": "oil",
       "lead_title": "Cuba has run out of diesel and fuel oil, energy minister says, as US blockade pushes island to brink",
@@ -1079,11 +951,11 @@
       ],
       "earliest_seen": "2026-05-14T02:15:00+00:00",
       "latest_seen": "2026-05-14T02:15:00+00:00",
-      "age_hours": 34.22,
-      "score": 33.97,
+      "age_hours": 36.82,
+      "score": 32.41,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.47,
+        "recency_points": 2.91,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
