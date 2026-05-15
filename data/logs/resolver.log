@@ -89,3 +89,14 @@
 [2026-05-14T23:05:35.403523+00:00] resolver: no state changes
 [2026-05-14T23:05:35.403962+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-05-14T23:05:35.403990+00:00] ════════════════════════════════════════════════════════════
+[2026-05-15T00:13:52.993912+00:00] resolver: start
+[2026-05-15T00:13:52.997662+00:00] resolver: scanning 261 clusters across 10 topics
+[2026-05-15T00:13:52.998080+00:00]   hormuz_status: OPEN (conf=0.951, freshness=fresh, clusters=7)
+[2026-05-15T00:13:52.998947+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=5)
+[2026-05-15T00:13:52.999092+00:00]   opec_plus_policy: RETIRED (stale beyond 2× threshold)
+[2026-05-15T00:13:52.999129+00:00]   global_risk_level: LOW (score=10)
+[2026-05-15T00:13:52.999270+00:00]   top_story: 'U.S. Crude Oil Inventories Post Third Straight Weekly Drop' (score=86.5)
+[2026-05-15T00:13:52.999304+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-05-15T00:13:52.999323+00:00]   Δ opec_plus_policy.retired: 'HOLDING' → 'None' (triggers_publish=True)
+[2026-05-15T00:13:52.999744+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-05-15T00:13:52.999770+00:00] ════════════════════════════════════════════════════════════
