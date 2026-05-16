@@ -58,11 +58,14 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Trump-Xi Summit in Beijing: Both Sides Agree Strait of Hormuz Must Remain Open", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
-  { title: "Trump Warns Iran to Reach a Deal or Face \\u2018Annihilation\\u2019", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
-  { title: "EIA Crude Stocks Drop 4.3M Barrels \\u2014 Nearly Double Expectations", cat: "Oil Markets", slug: "oil-prices", time: "1d" },
-  { title: "IEA: Global Oil Inventories Drawing at Record 4M bpd Pace; Severe Undersupply Through October", cat: "Oil Markets", slug: "oil-prices", time: "1d" },
-  { title: "UAE Officially Departs OPEC Effective May 1; EIA Cuts 2027 Spare Capacity Forecast", cat: "Oil Markets", slug: "oil-prices", time: "2d" },
+  { title: "Current price of oil as of May 15, 2026", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
+  { title: "Oil Prices Surge as Hormuz Shutdown Keeps Supply Fears Alive", cat: "Oil Markets", slug: "oil-prices", time: "2h" },
+  { title: "Oil prices today: Crude rises over 1% as Donald Trump warns Iran, Hormuz concerns persist", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Crude oil surges 8% in a week to near $110 as Iran war tensions simmer again. Where are prices headed?", cat: "Oil Markets", slug: "oil-prices", time: "4h" },
+  { title: "Oil prices drop and stock markets rise after reports of deal to end Iran war", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
+  { title: "U.S. crude oil tops $100 again as hope fades for a U.S.-Iran peace deal", cat: "Oil Markets", slug: "oil-prices", time: "6h" },
+  { title: "America barely uses Middle East oil. So why did gas prices rise?", cat: "Oil Markets", slug: "oil-prices", time: "7h" },
+  { title: "Oil Prices Rise as Trump-Xi Summit Yields No Clear Breakthroughs on Iran War", cat: "Oil Markets", slug: "oil-prices", time: "8h" },
 ];
 
 const MARKET_DRIVERS = [
