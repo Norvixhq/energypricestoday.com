@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-16T10:41:24.190521+00:00",
-  "previous_generated_at": "2026-05-16T09:14:42.136132+00:00",
-  "resolver_run_count": 2,
+  "generated_at": "2026-05-16T11:38:34.189333+00:00",
+  "previous_generated_at": "2026-05-16T10:41:24.190521+00:00",
+  "resolver_run_count": 3,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -14,16 +14,17 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-05-16T08:50:37+00:00",
-      "source_count": 8,
+      "source_count": 9,
       "summary_short": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April",
-      "summary_long": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April. UAE's new oil pipeline push to double export capacity bypassing Hormuz",
+      "summary_long": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April. UAE fast tracks second West-East oil pipeline to bypass Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_d64ad8270a091d",
+        "c_b768196b026c23",
         "c_5847cdc319d350",
+        "c_d64ad8270a091d",
         "c_27fd7acaea55dd",
         "c_203dda71d8ac25"
       ],
-      "evidence_count": 4,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -53,14 +54,17 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-05-15T18:41:36+00:00",
-      "source_count": 2,
-      "summary_short": "Iraq Joins UAE, Saudi Arabia, Qatar, Iran, Oman, Bahrain, Turkey and Others as Middle East Powers Fast-Track New Oil Pip",
-      "summary_long": "Iraq Joins UAE, Saudi Arabia, Qatar, Iran, Oman, Bahrain, Turkey and Others as Middle East Powers Fast-Track New Oil Pipelines, LNG Corridors and Secure Trade Routes Beyond Strait of Hormuz to Stabilize Jet Fuel Crisis, Recover Tourism and Protect Glo. Oil rises, with Brent climbing back above $100 as optimism fades over Iran war de-escalation",
+      "source_count": 6,
+      "summary_short": "Middle East oil production plunges due to Iran war, OPEC data shows",
+      "summary_long": "Middle East oil production plunges due to Iran war, OPEC data shows. Iraq Joins UAE, Saudi Arabia, Qatar, Iran, Oman, Bahrain, Turkey and Others as Middle East Powers Fa",
       "evidence_cluster_ids": [
+        "c_48cbc4467bfacd",
         "c_5847cdc319d350",
-        "c_88723009bdaa89"
+        "c_3d8bb6729e3316",
+        "c_1665abaff84403",
+        "c_f2684e6e2ee678"
       ],
-      "evidence_count": 2,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -80,36 +84,6 @@
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": ""
-    },
-    "opec_plus_policy": {
-      "key": "opec_plus_policy",
-      "display_name": "OPEC+ Policy",
-      "category": "policy_state",
-      "status": "HOLDING",
-      "status_detail": "no recent coverage",
-      "status_tag": "No change",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
-      "affected_pages": [
-        "oil-prices.html",
-        "markets.html"
-      ],
-      "dependent_modules": [
-        "oil-prices.drivers.opec",
-        "markets.drivers.opec"
-      ],
-      "update_priority": "high",
-      "freshness": "fresh",
-      "stale_after_hours": 168,
-      "rationale": [
-        "no matching clusters"
-      ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
@@ -144,15 +118,15 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_d6f6846b981c27",
-      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
+      "cluster_id": "c_e5e81ec9e273e8",
+      "lead_title": "The Winners and Losers of Oil’s New World Order",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeExrQ1ZyU1lpcGVlNTdRNFl1Q25HN0k0VWUxVjU2X0NDNEZ3LUc3aXZxcWxrTGI3bS1mNHZhZ2V6OFNHNnBobUdGakRUaEN1Rk9acUJDd05BRzdzRGFYN0M4Y2JWU25fNmtpclBoVUxQcXpQbEdKaXJDWGcwLWtJNmQ5RzdrQlBSUV9wT3U5TWF4SzBVVGgzZEpPUQ?oc=5",
       "lead_source": "WSJ",
       "topic": "oil",
-      "score": 74.63,
+      "score": 66.43,
       "novelty": "new",
-      "source_count": 3,
-      "confidence": 0.95,
+      "source_count": 1,
+      "confidence": 0.93215,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
       ],
@@ -164,17 +138,17 @@
   "changes_since_last_run": [
     {
       "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-05-16T10:41:24.190455+00:00",
+      "field": "retired",
+      "from": "HOLDING",
+      "to": null,
+      "detected_at": "2026-05-16T11:38:34.189270+00:00",
       "meaningful": true,
-      "triggers_publish": false
+      "triggers_publish": true
     }
   ],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
-    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+    "opec_plus_policy: retired — last_confirmed too old"
   ]
 }
