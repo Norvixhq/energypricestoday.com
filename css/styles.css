@@ -2236,10 +2236,101 @@ a.article-featured{pointer-events:auto}
 :root[data-theme="light"] .footer-links a { color: #64748b; }
 :root[data-theme="light"] .footer-links a:hover { color: var(--blue); }
 
-/* Search overlay backdrop */
+/* ─── SEARCH OVERLAY — LIGHT MODE ─────────────────────────────────
+   The default search styling uses dark gradients, near-black surfaces,
+   and white-tinted borders that look broken on a cream backdrop.
+   These overrides re-skin every interior surface for light.
+   ─────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .search-overlay,
 :root[data-theme="light"] #search-overlay {
-  background: rgba(247, 245, 240, 0.96);
+  background: radial-gradient(ellipse at top, rgba(247,245,240,0.96) 0%, rgba(237,233,222,0.97) 60%);
 }
+
+/* Search box (input container) */
+:root[data-theme="light"] .search-box {
+  background: linear-gradient(180deg, #ffffff 0%, #fafaf6 100%);
+  border: 1px solid rgba(15,23,42,0.12);
+  box-shadow:
+    0 24px 60px -12px rgba(15,23,42,0.18),
+    0 0 0 1px rgba(15,23,42,0.02) inset;
+}
+:root[data-theme="light"] .search-box:focus-within {
+  border-color: rgba(29,99,168,0.55);
+  box-shadow:
+    0 24px 60px -12px rgba(15,23,42,0.20),
+    0 0 0 4px rgba(29,99,168,0.10),
+    0 0 0 1px rgba(15,23,42,0.04) inset;
+}
+:root[data-theme="light"] .search-box-icon { color: var(--blue); }
+:root[data-theme="light"] .search-box input,
+:root[data-theme="light"] #search-input { color: #0f172a; }
+:root[data-theme="light"] .search-box input::placeholder,
+:root[data-theme="light"] #search-input::placeholder { color: #94a3b8; }
+
+/* ESC keyboard hint */
+:root[data-theme="light"] .search-kbd {
+  color: #475569;
+  background: rgba(15,23,42,0.04);
+  border-color: rgba(15,23,42,0.12);
+}
+
+/* Close button (X) inside the search box */
+:root[data-theme="light"] .search-close-btn {
+  background: rgba(15,23,42,0.04);
+  border-color: rgba(15,23,42,0.12);
+  color: #475569;
+}
+:root[data-theme="light"] .search-close-btn:hover {
+  color: var(--blue);
+  background: rgba(29,99,168,0.08);
+  border-color: rgba(29,99,168,0.30);
+}
+
+/* Search results dropdown */
+:root[data-theme="light"] .search-results {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.10);
+  box-shadow: 0 16px 48px -8px rgba(15,23,42,0.12);
+}
+:root[data-theme="light"] .search-results a { color: #334155; }
+:root[data-theme="light"] .search-results a:hover {
+  background: rgba(29,99,168,0.06);
+  color: #0f172a;
+}
+:root[data-theme="light"] .search-results a strong { color: #0f172a; }
+:root[data-theme="light"] .search-results-empty { color: #64748b; }
+
+/* Pillar quick-launch section label + divider */
+:root[data-theme="light"] .search-section-label { color: #64748b; }
+:root[data-theme="light"] .search-section-label::after {
+  background: linear-gradient(90deg, rgba(15,23,42,0.12) 0%, transparent 100%);
+}
+
+/* Pillar cards */
+:root[data-theme="light"] .search-pillar {
+  background: linear-gradient(180deg, #ffffff 0%, #fafaf6 100%);
+  border: 1px solid rgba(15,23,42,0.10);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.03);
+}
+:root[data-theme="light"] .search-pillar::before {
+  background: linear-gradient(90deg, transparent, rgba(29,99,168,0.35), transparent);
+}
+:root[data-theme="light"] .search-pillar:hover {
+  background: linear-gradient(180deg, #ffffff 0%, #f5f3ec 100%);
+  border-color: rgba(29,99,168,0.40);
+  box-shadow: 0 4px 12px rgba(15,23,42,0.08);
+}
+:root[data-theme="light"] .search-pillar-icon {
+  background: rgba(29,99,168,0.10);
+  border-color: rgba(29,99,168,0.20);
+  color: var(--blue);
+}
+:root[data-theme="light"] .search-pillar:hover .search-pillar-icon {
+  background: rgba(29,99,168,0.18);
+  border-color: rgba(29,99,168,0.40);
+}
+:root[data-theme="light"] .search-pillar-name { color: #0f172a; }
+:root[data-theme="light"] .search-pillar-desc { color: #64748b; }
 
 /* Mobile nav drawer */
 :root[data-theme="light"] #mobile-nav {
@@ -2819,28 +2910,18 @@ html, body, .site-header, .price-card, .driver-card, .risk-vector-card,
      6. Ticker text contrast
    ═══════════════════════════════════════════════════════════════════ */
 
-/* ─── LOGO SWAP — show the right wordmark per theme ───────────── */
-.logo-img-light { display: none; }
-.logo-img-dark  { display: block; }
-:root[data-theme="light"] .logo-img-dark  { display: none !important; }
-:root[data-theme="light"] .logo-img-light { display: block !important; }
-.footer-logo-img-light { display: none; }
-.footer-logo-img-dark  { display: block; }
-:root[data-theme="light"] .footer-logo-img-dark  { display: none !important; }
-:root[data-theme="light"] .footer-logo-img-light { display: block !important; }
-
-/* The light-mode PNG already has dark letters baked in — no filter needed.
-   Override the previous filter chain so the new asset reads cleanly. */
+/* ─── LOGO IN LIGHT MODE ─────────────────────────────────────────
+   The image src is swapped at JS render time (and on toggle), so
+   there is only ever ONE logo in the DOM. No filter needed — the
+   light asset has dark slate letters baked in.
+   ─────────────────────────────────────────────────────────────── */
 :root[data-theme="light"] .logo-img,
-:root[data-theme="light"] .logo-img-light,
-:root[data-theme="light"] .footer-logo-img-light {
+:root[data-theme="light"] .footer-logo-img {
   filter: none !important;
   opacity: 1;
   transition: opacity 0.2s ease;
 }
-:root[data-theme="light"] .logo:hover .logo-img-light {
-  opacity: 0.88;
-}
+:root[data-theme="light"] .logo:hover .logo-img { opacity: 0.88; }
 
 /* ─── HEADER BAND COHESION ──────────────────────────────────────
    Make the breaking-news bar, header surface, and ticker strip

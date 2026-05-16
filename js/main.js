@@ -165,11 +165,15 @@ function renderHeader(activePage) {
     return `<a href="${href}" class="${cls}">${n.label}</a>`;
   }).join('');
 
+  // Pick the logo variant that matches the current theme — done at render time
+  // so we only emit a single <img> and never flash two logos at once.
+  var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+  var logoSrc = prefix + 'images/' + (isLight ? 'logo-light.png' : 'logo.png');
+
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
       <a class="logo" href="${prefix}index.html">
-        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img logo-img-dark" width="332" height="64" decoding="async" fetchpriority="high">
-        <img src="${prefix}images/logo-light.png" alt="" class="logo-img logo-img-light" width="332" height="64" decoding="async" aria-hidden="true">
+        <img src="${logoSrc}" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
@@ -335,6 +339,27 @@ function toggleTheme() {
     document.documentElement.setAttribute('data-theme', 'light');
   }
   try { localStorage.setItem('ept-theme', next); } catch (e) {}
+
+  // Swap logo image src to match the new theme. We render only one logo
+  // (chosen at initial render time) so we manually retarget it here
+  // when the user toggles. Logos at .logo-img and .footer-logo-img.
+  var headerLogo = document.querySelector('.site-header .logo-img');
+  var footerLogo = document.querySelector('.site-footer .footer-logo-img');
+  [headerLogo, footerLogo].forEach(function(img) {
+    if (!img) return;
+    var src = img.getAttribute('src') || '';
+    // Switch between logo.png and logo-light.png while preserving the
+    // existing relative-path prefix (./images/ vs ../images/).
+    if (next === 'light') {
+      if (src.indexOf('logo-light.png') === -1) {
+        img.setAttribute('src', src.replace(/logo\.png(\?.*)?$/, 'logo-light.png$1'));
+      }
+    } else {
+      if (src.indexOf('logo-light.png') !== -1) {
+        img.setAttribute('src', src.replace(/logo-light\.png(\?.*)?$/, 'logo.png$1'));
+      }
+    }
+  });
 }
 
 // ─── SEARCH OVERLAY ──────────────────────────────────────────────
@@ -500,12 +525,14 @@ function initNewsletter() {
 function renderFooter() {
   const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
+  const footerIsLight = document.documentElement.getAttribute('data-theme') === 'light';
+  const footerLogoSrc = p + 'images/' + (footerIsLight ? 'logo-light.png' : 'logo.png');
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img footer-logo-img-dark"><img src="${p}images/logo-light.png" alt="" class="footer-logo-img footer-logo-img-light" aria-hidden="true"></a>
+          <a href="${p}index.html"><img src="${footerLogoSrc}" alt="EnergyPricesToday.com" class="footer-logo-img"></a>
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div class="footer-columns">
