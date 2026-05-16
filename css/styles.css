@@ -2331,3 +2331,476 @@ html, body, .site-header, .price-card, .driver-card, .risk-vector-card,
 .glance-item, a.btn-primary, a.btn-secondary {
   transition: background-color 0.25s ease, border-color 0.25s ease, color 0.25s ease;
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   LIGHT MODE DEEP POLISH — May 2026
+   Premium calibration so light mode reads as a fully-designed
+   editorial theme, not a dark-mode token swap. Targets header chrome,
+   nav, logo, hero/section gradients, charts/tables, dividers,
+   geopolitics chrome, and intentional shadow/depth use.
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─── HEADER & NAV ───────────────────────────────────────────────────
+   Crisper backdrop, more contrast on nav items, hover affordances,
+   consistent icon-button color so search+toggle+hamburger match.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .site-header {
+  background: rgba(247, 245, 240, 0.96);
+  backdrop-filter: saturate(160%) blur(12px);
+  -webkit-backdrop-filter: saturate(160%) blur(12px);
+  border-bottom: 1px solid rgba(15,23,42,0.10);
+  box-shadow: 0 1px 0 rgba(15,23,42,0.02);
+}
+:root[data-theme="light"] .site-header.scrolled {
+  background: rgba(247, 245, 240, 0.98);
+  border-bottom-color: rgba(15,23,42,0.12);
+  box-shadow: 0 2px 8px rgba(15,23,42,0.04);
+}
+
+/* Desktop nav links — readable on cream, with clear hover */
+:root[data-theme="light"] .nav-desktop a,
+:root[data-theme="light"] .nav-desktop .nav-link,
+:root[data-theme="light"] .nav-desktop .nav-dropdown-trigger {
+  color: #334155;
+  font-weight: 500;
+}
+:root[data-theme="light"] .nav-desktop a:hover,
+:root[data-theme="light"] .nav-desktop .nav-link:hover,
+:root[data-theme="light"] .nav-desktop .nav-dropdown-trigger:hover {
+  color: var(--blue);
+}
+:root[data-theme="light"] .nav-desktop a.active,
+:root[data-theme="light"] .nav-desktop .nav-link.active {
+  color: var(--blue);
+}
+
+/* Dropdown panel for "All Energy" menu */
+:root[data-theme="light"] .nav-dropdown,
+:root[data-theme="light"] .nav-dropdown-panel,
+:root[data-theme="light"] .nav-dropdown-wrap .nav-dropdown {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.10);
+  box-shadow: 0 12px 32px rgba(15,23,42,0.10), 0 2px 6px rgba(15,23,42,0.04);
+}
+:root[data-theme="light"] .nav-dropdown a,
+:root[data-theme="light"] .nav-dropdown-panel a {
+  color: #334155;
+}
+:root[data-theme="light"] .nav-dropdown a:hover,
+:root[data-theme="light"] .nav-dropdown-panel a:hover {
+  background: rgba(29,99,168,0.06);
+  color: var(--blue);
+}
+
+/* Icon buttons in header — match the theme-toggle treatment */
+:root[data-theme="light"] .header-search-btn {
+  color: #475569;
+  border: 1px solid transparent;
+}
+:root[data-theme="light"] .header-search-btn:hover {
+  color: var(--blue);
+  border-color: rgba(15,23,42,0.10);
+  background: rgba(15,23,42,0.03);
+}
+:root[data-theme="light"] .mobile-toggle {
+  color: #334155;
+}
+:root[data-theme="light"] .mobile-toggle:hover {
+  color: var(--blue);
+}
+
+/* ─── LOGO IN LIGHT MODE ─────────────────────────────────────────────
+   The logo PNG is a blue-cyan wordmark designed for dark. On cream
+   it can look faded. Use a subtle darkening + clean contour shadow
+   (no glow) so the wordmark sits crisply against the light header.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .logo-img {
+  filter:
+    drop-shadow(0 1px 1px rgba(15,23,42,0.12))
+    contrast(1.05)
+    saturate(1.10) !important;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+:root[data-theme="light"] .logo:hover .logo-img {
+  opacity: 0.92;
+}
+:root[data-theme="light"] .footer-logo-img {
+  filter:
+    drop-shadow(0 1px 1px rgba(15,23,42,0.10))
+    contrast(1.05)
+    saturate(1.10);
+  opacity: 0.92;
+}
+
+/* ─── TYPOGRAPHY HIERARCHY ───────────────────────────────────────────
+   In dark mode, body text is light-grey on near-black — high contrast
+   naturally. In light, text needs a tighter contrast band: headlines
+   in deep ink, body in slightly-warmer slate, captions in true muted.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] h1,
+:root[data-theme="light"] h2,
+:root[data-theme="light"] .section-title,
+:root[data-theme="light"] .article-page h1,
+:root[data-theme="light"] .pillar-card h3 {
+  color: #0f172a;
+}
+:root[data-theme="light"] h3 { color: #1e293b; }
+:root[data-theme="light"] .article-body p,
+:root[data-theme="light"] .prose p {
+  color: #334155;
+}
+:root[data-theme="light"] .article-meta,
+:root[data-theme="light"] .article-meta-sm,
+:root[data-theme="light"] .pillar-stat-label,
+:root[data-theme="light"] .section-deck,
+:root[data-theme="light"] .source-line {
+  color: #64748b;
+}
+:root[data-theme="light"] .breadcrumbs,
+:root[data-theme="light"] .breadcrumbs a {
+  color: #64748b;
+}
+:root[data-theme="light"] .breadcrumbs a:hover { color: var(--blue); }
+
+/* Section dividers — rgba(255,255,255,0.04) is invisible on cream */
+:root[data-theme="light"] .section {
+  border-top-color: rgba(15,23,42,0.06);
+}
+
+/* ─── HERO / PAGE-HERO BACKGROUNDS ──────────────────────────────────
+   Dark mode used radial blue glows on near-black; light wants a
+   subtle warm wash + soft top vignette so heroes feel premium.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .page-hero,
+:root[data-theme="light"] .page-hero-large {
+  background:
+    radial-gradient(1200px 400px at 15% 0%, rgba(29,99,168,0.06) 0%, transparent 60%),
+    linear-gradient(180deg, #ffffff 0%, #f7f5f0 100%);
+}
+:root[data-theme="light"] .page-hero h1,
+:root[data-theme="light"] .page-hero-large h1 { color: #0a0f1a; }
+:root[data-theme="light"] .hero-sub,
+:root[data-theme="light"] .page-hero .lede { color: #475569; }
+
+/* ─── CARD & SURFACE POLISH ─────────────────────────────────────────
+   Dark mode cards float on near-black with subtle border. Light
+   needs intentional shadow + clean white surface to create depth.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .pillar-card {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.08);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.04);
+}
+:root[data-theme="light"] .pillar-card:hover {
+  border-color: var(--blue);
+  box-shadow: 0 8px 24px rgba(15,23,42,0.08), 0 2px 6px rgba(15,23,42,0.04);
+}
+:root[data-theme="light"] .pillar-stat-val {
+  color: #0f172a;
+  font-weight: 700;
+}
+:root[data-theme="light"] .pillar-cta { color: var(--blue); }
+
+:root[data-theme="light"] .driver-card {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.08);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.03);
+}
+
+:root[data-theme="light"] .stat-box {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.08);
+}
+
+:root[data-theme="light"] .article-card {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.08);
+}
+:root[data-theme="light"] .article-card:hover {
+  border-color: rgba(29,99,168,0.30);
+  box-shadow: 0 4px 12px rgba(15,23,42,0.06);
+}
+
+/* ─── MARKET TABLE ──────────────────────────────────────────────────
+   Dark uses black bg with white-tinted borders. Light needs paper.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .market-table,
+:root[data-theme="light"] .market-table-wrap {
+  background: #ffffff;
+}
+:root[data-theme="light"] .market-table th {
+  background: #f1ede4;
+  color: #334155;
+  border-bottom: 1px solid rgba(15,23,42,0.10);
+}
+:root[data-theme="light"] .market-table td {
+  border-bottom: 1px solid rgba(15,23,42,0.05);
+  color: #334155;
+}
+:root[data-theme="light"] .market-table tr:hover td {
+  background: rgba(29,99,168,0.03);
+}
+:root[data-theme="light"] .market-table .table-price { color: #0f172a; font-weight: 600; }
+:root[data-theme="light"] .market-tab {
+  color: #475569;
+  border-color: rgba(15,23,42,0.10);
+}
+:root[data-theme="light"] .market-tab.active {
+  background: var(--blue);
+  color: #ffffff;
+  border-color: var(--blue);
+}
+:root[data-theme="light"] .market-tab:not(.active):hover {
+  background: rgba(29,99,168,0.06);
+  color: var(--blue);
+}
+
+/* ─── FRESHNESS PILLS ──────────────────────────────────────────────
+   Pills calibrated for dark; light needs more contrast on each.
+   ─────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .freshness--live {
+  background: rgba(5, 128, 73, 0.10);
+  color: #057041;
+  border-color: rgba(5, 128, 73, 0.30);
+}
+:root[data-theme="light"] .freshness--daily {
+  background: rgba(29, 99, 168, 0.10);
+  color: #1a558e;
+  border-color: rgba(29, 99, 168, 0.30);
+}
+:root[data-theme="light"] .freshness--weekly,
+:root[data-theme="light"] .freshness--monthly {
+  background: rgba(176, 96, 2, 0.10);
+  color: #8a4d02;
+  border-color: rgba(176, 96, 2, 0.30);
+}
+:root[data-theme="light"] .freshness--reference {
+  background: rgba(71, 85, 105, 0.08);
+  color: #475569;
+  border-color: rgba(15, 23, 42, 0.10);
+}
+
+/* ─── BUTTONS ───────────────────────────────────────────────────────
+   Btn-primary needs darker blue on light; btn-secondary needs border.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .btn-primary,
+:root[data-theme="light"] a.btn-primary {
+  background: var(--blue);
+  color: #ffffff;
+  border: 1px solid var(--blue);
+}
+:root[data-theme="light"] .btn-primary:hover,
+:root[data-theme="light"] a.btn-primary:hover {
+  background: var(--blue-h);
+  border-color: var(--blue-h);
+}
+:root[data-theme="light"] .btn-secondary,
+:root[data-theme="light"] a.btn-secondary {
+  background: #ffffff;
+  color: var(--blue);
+  border: 1px solid rgba(29,99,168,0.30);
+}
+:root[data-theme="light"] .btn-secondary:hover,
+:root[data-theme="light"] a.btn-secondary:hover {
+  background: rgba(29,99,168,0.06);
+  border-color: var(--blue);
+}
+:root[data-theme="light"] .btn-amber {
+  background: #b06002;
+  color: #ffffff;
+  border-color: #b06002;
+}
+
+/* ─── GEOPOLITICS — INTEL HUB CHROME ────────────────────────────────
+   The intel-strip and risk modules use dark-tinted RGBA backgrounds;
+   recalibrate for paper.
+   ─────────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .geo-intel-strip {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.10);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.03);
+}
+:root[data-theme="light"] .geo-intel-row-top { border-bottom-color: rgba(15,23,42,0.06); }
+:root[data-theme="light"] .geo-intel-chip {
+  background: rgba(184, 37, 60, 0.06);
+  border-color: rgba(184, 37, 60, 0.25);
+  color: #b8253c;
+}
+:root[data-theme="light"] .geo-intel-chip-level { color: #b8253c; }
+:root[data-theme="light"] .geo-intel-verdict { color: #0f172a; }
+:root[data-theme="light"] .geo-intel-pill {
+  background: rgba(15,23,42,0.04);
+  border-color: rgba(15,23,42,0.10);
+  color: #475569;
+}
+:root[data-theme="light"] .geo-intel-headline-text { color: #334155; }
+
+/* Conflict snapshot cards — dark mode used near-black gradients */
+:root[data-theme="light"] .conflict-snap-card {
+  background:
+    linear-gradient(160deg, #ffffff 0%, #fafaf7 100%);
+  border: 1px solid rgba(15,23,42,0.10);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.03);
+}
+:root[data-theme="light"] .conflict-snap-card:hover {
+  border-color: rgba(29,99,168,0.30);
+}
+:root[data-theme="light"] .conflict-snap-card-flag {
+  background: linear-gradient(160deg, #fffaf0 0%, #fff7e6 100%);
+  border-color: rgba(176, 96, 2, 0.22);
+}
+:root[data-theme="light"] .conflict-snap-eyebrow { color: #64748b; }
+:root[data-theme="light"] .conflict-snap-value { color: #0f172a; }
+:root[data-theme="light"] .conflict-snap-meta-flag { color: #8a4d02; }
+:root[data-theme="light"] .conflict-snap-context { color: #475569; }
+
+/* What Markets Are Watching / Posture / Scenario cards */
+:root[data-theme="light"] .watch-item,
+:root[data-theme="light"] .posture-card,
+:root[data-theme="light"] .scenario-card {
+  background: #ffffff;
+  border-color: rgba(15,23,42,0.10);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.03);
+}
+:root[data-theme="light"] .watch-item:hover {
+  background: #fafaf6;
+}
+:root[data-theme="light"] .watch-tier-high .watch-tier-label {
+  background: rgba(184,37,60,0.10); color: #b8253c;
+}
+:root[data-theme="light"] .watch-tier-medium .watch-tier-label {
+  background: rgba(176,96,2,0.10); color: #8a4d02;
+}
+:root[data-theme="light"] .watch-tier-low .watch-tier-label {
+  background: rgba(29,99,168,0.10); color: #1a558e;
+}
+:root[data-theme="light"] .posture-stance-hostile {
+  background: rgba(184,37,60,0.10); color: #b8253c;
+}
+:root[data-theme="light"] .posture-stance-strained {
+  background: rgba(176,96,2,0.10); color: #8a4d02;
+}
+:root[data-theme="light"] .posture-stance-shifted {
+  background: rgba(184,133,26,0.12); color: #8a5e0a;
+}
+:root[data-theme="light"] .posture-stance-conditional {
+  background: rgba(29,99,168,0.10); color: #1a558e;
+}
+:root[data-theme="light"] .posture-stance-mediator {
+  background: rgba(5,128,73,0.10); color: #057041;
+}
+:root[data-theme="light"] .scenario-implication {
+  border-top-color: rgba(15,23,42,0.08);
+}
+:root[data-theme="light"] .scenario-prob { color: #0f172a; }
+
+/* Risk-vector card severity left-borders — keep red/amber accents */
+:root[data-theme="light"] .risk-vector-card {
+  background: #ffffff;
+  border-color: rgba(15,23,42,0.08);
+  box-shadow: 0 1px 2px rgba(15,23,42,0.03);
+}
+:root[data-theme="light"] .risk-vector-high {
+  border-left-color: #b8253c !important;
+}
+:root[data-theme="light"] .risk-vector-elevated {
+  border-left-color: #b06002 !important;
+}
+
+/* Hormuz hero callout — uses dark glassy gradient; warm in light */
+:root[data-theme="light"] .hormuz-hero {
+  background:
+    linear-gradient(135deg, #fff8ec 0%, #ffffff 100%);
+  border: 1px solid rgba(176, 96, 2, 0.20);
+  box-shadow: 0 4px 16px rgba(15,23,42,0.04);
+}
+:root[data-theme="light"] .hormuz-hero-glow,
+:root[data-theme="light"] .hormuz-hero-grid {
+  opacity: 0.4;
+}
+:root[data-theme="light"] .hormuz-hero-eyebrow {
+  color: #8a4d02;
+}
+:root[data-theme="light"] .hormuz-hero-title { color: #0f172a; }
+:root[data-theme="light"] .hormuz-hero-subtitle { color: #475569; }
+:root[data-theme="light"] .hormuz-hero-desc { color: #334155; }
+:root[data-theme="light"] .hormuz-hero-stat-num { color: #0f172a; }
+:root[data-theme="light"] .hormuz-hero-stat-label { color: #64748b; }
+
+/* ─── EDITORIAL / PROSE BLOCKS ─────────────────────────────────────
+   Editor's notes, source lines, masthead lines.
+   ─────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .editor-note {
+  background: linear-gradient(180deg, rgba(184,133,26,0.05) 0%, rgba(184,133,26,0.01) 100%);
+  border-left-color: var(--gold);
+}
+:root[data-theme="light"] .editor-note-label { color: #8a5e0a; }
+:root[data-theme="light"] .editor-note-body { color: #334155; }
+:root[data-theme="light"] .editor-note-byline { color: #64748b; }
+:root[data-theme="light"] .masthead-line {
+  background: transparent;
+  border-top: 1px solid rgba(15,23,42,0.08);
+  border-bottom: 1px solid rgba(15,23,42,0.08);
+  color: #64748b;
+}
+:root[data-theme="light"] .masthead-line strong { color: #334155; }
+
+/* Hub-style article rows (country/topic hubs) */
+:root[data-theme="light"] .hub-article-row {
+  border-bottom-color: rgba(15,23,42,0.08);
+}
+:root[data-theme="light"] .hub-article-title { color: #0f172a; }
+:root[data-theme="light"] .hub-article-title:hover { color: var(--blue); }
+:root[data-theme="light"] .hub-article-meta { color: #64748b; }
+:root[data-theme="light"] .hub-article-excerpt { color: #475569; }
+
+/* Cat-pill (category tag) */
+:root[data-theme="light"] .cat-pill {
+  background: rgba(29,99,168,0.08);
+  color: var(--blue);
+  border: 1px solid rgba(29,99,168,0.20);
+}
+
+/* Change up/down — light needs darker greens/reds for AA contrast */
+:root[data-theme="light"] .change.up { color: #057041; }
+:root[data-theme="light"] .change.down { color: #b8253c; }
+
+/* ─── SECTION TITLES & ACTIONS ───────────────────────────────────── */
+:root[data-theme="light"] .section-action a,
+:root[data-theme="light"] a.section-action {
+  color: var(--blue);
+}
+:root[data-theme="light"] .section-action a:hover { text-decoration: underline; }
+
+/* ─── ARTICLES PAGE / ARTICLE PAGE ──────────────────────────────── */
+:root[data-theme="light"] .article-page,
+:root[data-theme="light"] .article-page h1,
+:root[data-theme="light"] .article-page h2,
+:root[data-theme="light"] .article-page h3 {
+  color: #0a0f1a;
+}
+:root[data-theme="light"] .article-author-row,
+:root[data-theme="light"] .article-author-name { color: #334155; }
+:root[data-theme="light"] .article-author-date { color: #64748b; }
+
+/* "Last reviewed" badge — soften green-dot pill in light */
+:root[data-theme="light"] [style*="Last reviewed:"],
+:root[data-theme="light"] [style*="Reviewed and current as of"] {
+  background: #ffffff !important;
+  border-color: rgba(15,23,42,0.10) !important;
+  color: #475569 !important;
+}
+
+/* Scrollbar overrides for light — dark-mode thumbs are white-tinted */
+:root[data-theme="light"] ::-webkit-scrollbar-track { background: #f1ede4; }
+:root[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: rgba(15,23,42,0.22);
+  border: 2px solid #f1ede4;
+}
+:root[data-theme="light"] ::-webkit-scrollbar-thumb:hover { background: rgba(15,23,42,0.36); }
+
+/* Selection color — dark mode uses blue+white, fine on light too */
+:root[data-theme="light"] ::selection {
+  background: rgba(29,99,168,0.20);
+  color: #0a0f1a;
+}
