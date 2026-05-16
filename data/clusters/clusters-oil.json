@@ -1,81 +1,41 @@
 {
   "topic": "oil",
-  "generated_at": "2026-05-16T11:38:34.088757+00:00",
+  "generated_at": "2026-05-16T12:47:03.634708+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 24,
+  "clusters_found": 23,
   "clusters": [
     {
-      "cluster_id": "c_e5e81ec9e273e8",
-      "topic": "oil",
-      "lead_title": "The Winners and Losers of Oil’s New World Order",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeExrQ1ZyU1lpcGVlNTdRNFl1Q25HN0k0VWUxVjU2X0NDNEZ3LUc3aXZxcWxrTGI3bS1mNHZhZ2V6OFNHNnBobUdGakRUaEN1Rk9acUJDd05BRzdzRGFYN0M4Y2JWU25fNmtpclBoVUxQcXpQbEdKaXJDWGcwLWtJNmQ5RzdrQlBSUV9wT3U5TWF4SzBVVGgzZEpPUQ?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-16T00:31:18+00:00",
-      "latest_seen": "2026-05-16T00:31:18+00:00",
-      "age_hours": 11.12,
-      "score": 66.43,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.33,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "9e87b5c401157536",
-          "title": "The Winners and Losers of Oil’s New World Order",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeExrQ1ZyU1lpcGVlNTdRNFl1Q25HN0k0VWUxVjU2X0NDNEZ3LUc3aXZxcWxrTGI3bS1mNHZhZ2V6OFNHNnBobUdGakRUaEN1Rk9acUJDd05BRzdzRGFYN0M4Y2JWU25fNmtpclBoVUxQcXpQbEdKaXJDWGcwLWtJNmQ5RzdrQlBSUV9wT3U5TWF4SzBVVGgzZEpPUQ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-05-16T00:31:18+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_27fd7acaea55dd",
+      "cluster_id": "c_c885fc7c3b36ca",
       "topic": "oil",
       "lead_title": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April",
       "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRGljU1pITHJaNl9CQkNWZk1LUk1vaGpER0Q1U1o2d0N4aDBOZEhMSHVoRHF3NmJxWjlLTnRtTThMenFMY24wckFXcXg0UTFhUVZJaDAxZG1mVUo3RjktQlVxZF91TkkwZzdpcGM4Vk10WDJ3bkdQaHNnbEhhcy14SGZVckxEdnpGQUwxbVJLWVNNbFBGNEZCLXdYVXVsNVk2WEdveXltbFdYQWlUMkRid25BWmR4d2c?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [
         "barrel",
+        "crude",
         "oil"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-05-16T08:50:37+00:00",
-      "latest_seen": "2026-05-16T08:50:37+00:00",
-      "age_hours": 2.8,
-      "score": 66.32,
+      "latest_seen": "2026-05-16T11:56:34+00:00",
+      "age_hours": 0.84,
+      "score": 82.75,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.32,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "source_count_points": 10,
+        "recency_points": 24.5,
+        "source_quality_points": 26.25,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
           "headline_id": "bb680a783042326a",
@@ -85,47 +45,77 @@
           "source_type": "rss",
           "published_at": "2026-05-16T08:50:37+00:00",
           "confidence": 1.0
+        },
+        {
+          "headline_id": "4c9cdee1d5c481fa",
+          "title": "UAE to store 30 mn barrels of crude in India’s strategic reserves; where is this oil kept?",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOd2dFN3o5UndJY1RxdW9DaXZHRWhLU3hYVWt5ZGJrTXZhZnhTWjE0U2NOSFRSS1BNb0pkaGpqcnQ1TnF0Y3dhR2lSdmVoSkJ5aDByY2VSSTkzQWVzY2NVZEZCcE5CY1N1NG1SMlNYVmwyWWFGMWp1bE81UG1iNzNNWEx4RmVJZjhfVGl6aEJsa3Zwb0FIUEtISnlBazZwRXhGQTlxenhmbGhMdUJGLUpRTmlFS05ReGpvODNfN0l3LWV1NTdRTHNr?oc=5",
+          "source": "The Federal",
+          "source_type": "rss",
+          "published_at": "2026-05-16T11:56:34+00:00",
+          "confidence": 0.75
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_cd14c22906a631",
+      "cluster_id": "c_d2c735fbe49339",
       "topic": "oil",
-      "lead_title": "ASIA OIL MOC: Fuel oil, middle distillates trade volumes surge in H2 March, gasoline lags",
-      "lead_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbVZuaUozNEVlakRLeVZQdTZfQks1Q21aNkpEcms5dlU4WnVoaG1rWDlwenVYX2FDb1QzQW11d01oRzlzU25OZURKX2tfWEs4NU9lVXo0M1pqVkFGZTh4YWxZNF9Ja1VXMGVxRFNvcHpxc29zVnFGS0dBczBaTHNaQUhDMWJFYWtHeGVWQk42dWZGdFhBaUdHbEFzQWdpOFlGS1FsZ1dhb3B0VHVCR3gtR3pZUjN2R2dNMTFqTFFDVTRYTGZpRk80N2QtMGYxbUhNNWRkTUV0R2RrbUZMQzZJSlFhTS1HbFI0SUg2ZzBDbFVPX1UzeExTaVlrN1Vqa3RY?oc=5",
-      "lead_source": "S&P Global",
+      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
+      "lead_source": "WSJ",
       "canonical_entities": [
+        "Brent",
+        "WTI",
+        "crude",
         "oil"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T18:44:05+00:00",
-      "latest_seen": "2026-05-15T18:44:05+00:00",
-      "age_hours": 16.91,
-      "score": 61.76,
+      "earliest_seen": "2026-05-13T15:17:00+00:00",
+      "latest_seen": "2026-05-15T19:20:34+00:00",
+      "age_hours": 17.44,
+      "score": 81.04,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.86,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
+        "source_count_points": 15,
+        "recency_points": 14.54,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 16,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "2a1901b8f4ae6552",
-          "title": "ASIA OIL MOC: Fuel oil, middle distillates trade volumes surge in H2 March, gasoline lags",
-          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbVZuaUozNEVlakRLeVZQdTZfQks1Q21aNkpEcms5dlU4WnVoaG1rWDlwenVYX2FDb1QzQW11d01oRzlzU25OZURKX2tfWEs4NU9lVXo0M1pqVkFGZTh4YWxZNF9Ja1VXMGVxRFNvcHpxc29zVnFGS0dBczBaTHNaQUhDMWJFYWtHeGVWQk42dWZGdFhBaUdHbEFzQWdpOFlGS1FsZ1dhb3B0VHVCR3gtR3pZUjN2R2dNMTFqTFFDVTRYTGZpRk80N2QtMGYxbUhNNWRkTUV0R2RrbUZMQzZJSlFhTS1HbFI0SUg2ZzBDbFVPX1UzeExTaVlrN1Vqa3RY?oc=5",
-          "source": "S&P Global",
+          "headline_id": "318ca6606920ed2b",
+          "title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
+          "source": "WSJ",
           "source_type": "rss",
-          "published_at": "2026-05-15T18:44:05+00:00",
-          "confidence": 0.93
+          "published_at": "2026-05-13T15:17:00+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "78af4a6638907184",
+          "title": "WTI Crude Oil Futures Jump 3.5% to $104.69, Brent Futures Advance 3.4% to $109.12 Early Friday",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUlNPZDUzWDd3XzVpdFhmSWhGYnp0d3BGSU51U2ZyTkRWSlkxdXpPREtWNDh5bmVwdm5PMlQ4ZjZya1NWUUFMQmhJT0hlMmNwaThkbkNWbTNhRXlGSU1zOUUzVkxiOEZqMDBIZmlWUXpoM3JXTXExalVlU3JMTllTTVZHb1p0NjhLdDhPR0RTdW9ia2xFY0pCRGhPOGNNTjg5a0VlaVVONExJczkwM2dJbUV5eHBxb3ZCSmVtdGFEV0txTmRSckhkNm91aHRNSVFfbzJ6Ql9reHR6UQ?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-05-15T10:31:50+00:00",
+          "confidence": 0.8
+        },
+        {
+          "headline_id": "2fa8632fb1eb246b",
+          "title": "Brent crude rises amid US-Iran tensions, impacting WTI price expectations",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjB0ZUdtdWotR0ZIUmppcG9Sd0xYVWxkMmVJLVE4U2l5dl8tSUFCQzhlaExwbndNUTkwR25vTHdBWEFkWHJCS2hOV0ZKdW14S00xMDNwSlBjb3RNNlVKZ0ROV2VFS05wVVdIb3R6NmdLTXZld0Y0YjdLWDZ3LS1NRmdJY0dNWF80S1h0TFgyeU1WcDBhdVA0RE1HTU13T2twZ1E?oc=5",
+          "source": "Crypto Briefing",
+          "source_type": "rss",
+          "published_at": "2026-05-15T19:20:34+00:00",
+          "confidence": 0.75
         }
       ],
       "top_tier": true,
@@ -147,11 +137,11 @@
       ],
       "earliest_seen": "2026-05-16T07:18:40+00:00",
       "latest_seen": "2026-05-16T07:18:40+00:00",
-      "age_hours": 4.33,
-      "score": 59.3,
+      "age_hours": 5.47,
+      "score": 58.62,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.4,
+        "recency_points": 21.72,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -169,66 +159,45 @@
           "confidence": 0.93
         }
       ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_8db6f939564585",
+      "cluster_id": "c_e5e81ec9e273e8",
       "topic": "oil",
-      "lead_title": "Brent crude rises amid US-Iran tensions, impacting WTI price expectations",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjB0ZUdtdWotR0ZIUmppcG9Sd0xYVWxkMmVJLVE4U2l5dl8tSUFCQzhlaExwbndNUTkwR25vTHdBWEFkWHJCS2hOV0ZKdW14S00xMDNwSlBjb3RNNlVKZ0ROV2VFS05wVVdIb3R6NmdLTXZld0Y0YjdLWDZ3LS1NRmdJY0dNWF80S1h0TFgyeU1WcDBhdVA0RE1HTU13T2twZ1E?oc=5",
-      "lead_source": "Crypto Briefing",
+      "lead_title": "The Winners and Losers of Oil’s New World Order",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeExrQ1ZyU1lpcGVlNTdRNFl1Q25HN0k0VWUxVjU2X0NDNEZ3LUc3aXZxcWxrTGI3bS1mNHZhZ2V6OFNHNnBobUdGakRUaEN1Rk9acUJDd05BRzdzRGFYN0M4Y2JWU25fNmtpclBoVUxQcXpQbEdKaXJDWGcwLWtJNmQ5RzdrQlBSUV9wT3U5TWF4SzBVVGgzZEpPUQ?oc=5",
+      "lead_source": "WSJ",
       "canonical_entities": [
-        "Brent",
-        "WTI",
-        "crude",
         "oil"
       ],
-      "source_count": 3,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T17:31:43+00:00",
-      "latest_seen": "2026-05-15T19:20:34+00:00",
-      "age_hours": 16.3,
-      "score": 58.72,
+      "earliest_seen": "2026-05-16T02:22:52+00:00",
+      "latest_seen": "2026-05-16T02:22:52+00:00",
+      "age_hours": 10.4,
+      "score": 56.86,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 15.22,
-        "source_quality_points": 22.5,
-        "entity_relevance_points": 16,
-        "materiality_points": -5.0
+        "source_count_points": 5,
+        "recency_points": 18.76,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
       },
-      "novelty": "decaying",
+      "novelty": "ongoing",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "2fa8632fb1eb246b",
-          "title": "Brent crude rises amid US-Iran tensions, impacting WTI price expectations",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcjB0ZUdtdWotR0ZIUmppcG9Sd0xYVWxkMmVJLVE4U2l5dl8tSUFCQzhlaExwbndNUTkwR25vTHdBWEFkWHJCS2hOV0ZKdW14S00xMDNwSlBjb3RNNlVKZ0ROV2VFS05wVVdIb3R6NmdLTXZld0Y0YjdLWDZ3LS1NRmdJY0dNWF80S1h0TFgyeU1WcDBhdVA0RE1HTU13T2twZ1E?oc=5",
-          "source": "Crypto Briefing",
+          "headline_id": "9e87b5c401157536",
+          "title": "The Winners and Losers of Oil’s New World Order",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeExrQ1ZyU1lpcGVlNTdRNFl1Q25HN0k0VWUxVjU2X0NDNEZ3LUc3aXZxcWxrTGI3bS1mNHZhZ2V6OFNHNnBobUdGakRUaEN1Rk9acUJDd05BRzdzRGFYN0M4Y2JWU25fNmtpclBoVUxQcXpQbEdKaXJDWGcwLWtJNmQ5RzdrQlBSUV9wT3U5TWF4SzBVVGgzZEpPUQ?oc=5",
+          "source": "WSJ",
           "source_type": "rss",
-          "published_at": "2026-05-15T19:20:34+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "b3327f3fd94ea022",
-          "title": "US-Iran tensions drive WTI crude oil to $105.4 amid supply disruption fears",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPamRYOXJhdHFnQkQ3SFQyck5hanNjaW9WNGhMOEMySjA4LVpMTE13Q1JmaGtLcUJsaUVFLXZsRXE2NGRMS18wZWdteW00ZXpVZVlkaWhmU1JxSzE2VFpPN0ZRS3MxWW42N0dKcS1rcV9HcUJ1dmN2R2c4em91d0xNSVBHa1A1RldIOTAxaWJIUEc5eks5dWhZQmUyMTV5c2ZuUGVrSzlWd0RsYU5MT2lHT0lMaUE4N0VOdHloNEVNUWtoMXkxNVcwZ3V1cFFzYzF4RVVnOWpn?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-05-15T18:42:57+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "49dcd48a38ce836b",
-          "title": "Iran tensions drive WTI crude oil surge, Fed rate cut odds fall for 2026",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQaWM5eFNaQmRnWVZNbHlFQ3VtZnhrYWZudjV1M09lbWJVX0Z1Ukh0QnpNOUliTHlkNWJYUWNZdWZNQUxzWFJnVGE3ZGhaXzdpMzNRQmlmMnFHYTRPQm9kVW42Yy1uay1BckRKX3B5ZXBFZnI4b2lneWR3c3NCWDk4NGltSWpyajlSb1ViX1pzQ3pSNWlKNWZHMUNRLURVOWdj?oc=5",
-          "source": "Crypto Briefing",
-          "source_type": "rss",
-          "published_at": "2026-05-15T17:31:43+00:00",
-          "confidence": 0.75
+          "published_at": "2026-05-16T02:22:52+00:00",
+          "confidence": 0.97
         }
       ],
       "top_tier": false,
@@ -250,11 +219,11 @@
       ],
       "earliest_seen": "2026-05-15T11:45:00+00:00",
       "latest_seen": "2026-05-15T13:32:21+00:00",
-      "age_hours": 22.1,
-      "score": 54.24,
+      "age_hours": 23.25,
+      "score": 53.55,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 11.74,
+        "recency_points": 11.05,
         "source_quality_points": 28.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -310,11 +279,11 @@
       ],
       "earliest_seen": "2026-05-14T00:58:00+00:00",
       "latest_seen": "2026-05-15T12:55:48+00:00",
-      "age_hours": 22.71,
-      "score": 54.17,
+      "age_hours": 23.85,
+      "score": 53.49,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 11.37,
+        "recency_points": 10.69,
         "source_quality_points": 29.8,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
@@ -354,48 +323,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_01502cdaa033bc",
-      "topic": "oil",
-      "lead_title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-05-13T15:17:00+00:00",
-      "latest_seen": "2026-05-13T15:17:00+00:00",
-      "age_hours": 68.36,
-      "score": 53.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "318ca6606920ed2b",
-          "title": "U.S. Crude Oil Inventories Post Third Straight Weekly Drop",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRWVzekZnN2ZHdVdvTkp5YnJCSWN5TEREWjFfdFJJYlpTbkdlbm91Tm55ZDc4TkVqeHZ6bFhoMFhLRzQtcFVHUFotWXcza2lZeUw1QzBhNWRkcG9UNjIxdHo5VG0zYkM1cm1zYkw0X0ZtVEk2LTF0ZG1GN3NaUVdvUzd2Y2hJVElKUWlXQjlYZWhJMEVkNExsVjYxa3QyS2RtTi1peFcyTlRpQQ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-05-13T15:17:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_f8aba4cc01953e",
       "topic": "oil",
       "lead_title": "US will replenish every barrel of oil it releases from Strategic Petroleum Reserve, Energy Secretary Wright says",
@@ -412,11 +339,11 @@
       ],
       "earliest_seen": "2026-05-15T15:28:21+00:00",
       "latest_seen": "2026-05-15T15:28:21+00:00",
-      "age_hours": 20.17,
-      "score": 50.9,
+      "age_hours": 21.31,
+      "score": 50.21,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.9,
+        "recency_points": 12.21,
         "source_quality_points": 30.0,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
@@ -453,11 +380,11 @@
       ],
       "earliest_seen": "2026-05-15T21:32:00+00:00",
       "latest_seen": "2026-05-15T21:32:00+00:00",
-      "age_hours": 14.11,
-      "score": 50.53,
+      "age_hours": 15.25,
+      "score": 49.85,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.53,
+        "recency_points": 15.85,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -494,11 +421,11 @@
       ],
       "earliest_seen": "2026-05-15T19:31:23+00:00",
       "latest_seen": "2026-05-15T19:31:23+00:00",
-      "age_hours": 16.12,
-      "score": 49.33,
+      "age_hours": 17.26,
+      "score": 48.64,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.33,
+        "recency_points": 14.64,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -520,39 +447,41 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_fa4a12b0d6af8b",
+      "cluster_id": "c_cd14c22906a631",
       "topic": "oil",
-      "lead_title": "India raises retail fuel prices for first time since Iran war started",
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1Vpck9GV3BPb1A5LW5aM0xsWGJ4OV9udnZDMTEzbTJZOXR1RFhTay1tVXRpV1FDZDd0U2cxU2hCd1BXVEFJOTFZVjYyR293UXVEUGJ1dWt6TEhTYmwwblF6YXZsOVJWMk9WQl9nempVaEdBYWtnN0thaWgwazQ3N2U0MjVDVHZVYWlwdDNKQlRrajMwazEwMEpGRGxNOS1kalBvSXZkVUhOeWZaQXRscEsySXdTQQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
+      "lead_title": "ASIA OIL MOC: Fuel oil, middle distillates trade volumes surge in H2 March, gasoline lags",
+      "lead_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbVZuaUozNEVlakRLeVZQdTZfQks1Q21aNkpEcms5dlU4WnVoaG1rWDlwenVYX2FDb1QzQW11d01oRzlzU25OZURKX2tfWEs4NU9lVXo0M1pqVkFGZTh4YWxZNF9Ja1VXMGVxRFNvcHpxc29zVnFGS0dBczBaTHNaQUhDMWJFYWtHeGVWQk42dWZGdFhBaUdHbEFzQWdpOFlGS1FsZ1dhb3B0VHVCR3gtR3pZUjN2R2dNMTFqTFFDVTRYTGZpRk80N2QtMGYxbUhNNWRkTUV0R2RrbUZMQzZJSlFhTS1HbFI0SUg2ZzBDbFVPX1UzeExTaVlrN1Vqa3RY?oc=5",
+      "lead_source": "S&P Global",
+      "canonical_entities": [
+        "oil"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-05-15T01:36:00+00:00",
-      "latest_seen": "2026-05-15T01:36:00+00:00",
-      "age_hours": 34.04,
-      "score": 48.07,
+      "earliest_seen": "2026-05-15T18:44:05+00:00",
+      "latest_seen": "2026-05-15T18:44:05+00:00",
+      "age_hours": 18.05,
+      "score": 46.07,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.57,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "recency_points": 14.17,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "12afb86ba038a1c8",
-          "title": "India raises retail fuel prices for first time since Iran war started",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1Vpck9GV3BPb1A5LW5aM0xsWGJ4OV9udnZDMTEzbTJZOXR1RFhTay1tVXRpV1FDZDd0U2cxU2hCd1BXVEFJOTFZVjYyR293UXVEUGJ1dWt6TEhTYmwwblF6YXZsOVJWMk9WQl9nempVaEdBYWtnN0thaWgwazQ3N2U0MjVDVHZVYWlwdDNKQlRrajMwazEwMEpGRGxNOS1kalBvSXZkVUhOeWZaQXRscEsySXdTQQ?oc=5",
-          "source": "Reuters",
+          "headline_id": "2a1901b8f4ae6552",
+          "title": "ASIA OIL MOC: Fuel oil, middle distillates trade volumes surge in H2 March, gasoline lags",
+          "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQbVZuaUozNEVlakRLeVZQdTZfQks1Q21aNkpEcms5dlU4WnVoaG1rWDlwenVYX2FDb1QzQW11d01oRzlzU25OZURKX2tfWEs4NU9lVXo0M1pqVkFGZTh4YWxZNF9Ja1VXMGVxRFNvcHpxc29zVnFGS0dBczBaTHNaQUhDMWJFYWtHeGVWQk42dWZGdFhBaUdHbEFzQWdpOFlGS1FsZ1dhb3B0VHVCR3gtR3pZUjN2R2dNMTFqTFFDVTRYTGZpRk80N2QtMGYxbUhNNWRkTUV0R2RrbUZMQzZJSlFhTS1HbFI0SUg2ZzBDbFVPX1UzeExTaVlrN1Vqa3RY?oc=5",
+          "source": "S&P Global",
           "source_type": "rss",
-          "published_at": "2026-05-15T01:36:00+00:00",
-          "confidence": 0.95
+          "published_at": "2026-05-15T18:44:05+00:00",
+          "confidence": 0.93
         }
       ],
       "top_tier": false,
@@ -574,11 +503,11 @@
       ],
       "earliest_seen": "2026-05-15T14:58:00+00:00",
       "latest_seen": "2026-05-15T14:58:00+00:00",
-      "age_hours": 20.68,
-      "score": 44.49,
+      "age_hours": 21.82,
+      "score": 43.81,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.59,
+        "recency_points": 11.91,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -615,11 +544,11 @@
       ],
       "earliest_seen": "2026-05-15T14:06:02+00:00",
       "latest_seen": "2026-05-15T14:06:02+00:00",
-      "age_hours": 21.54,
-      "score": 43.97,
+      "age_hours": 22.68,
+      "score": 43.29,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.07,
+        "recency_points": 11.39,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -654,11 +583,11 @@
       ],
       "earliest_seen": "2026-05-15T17:47:19+00:00",
       "latest_seen": "2026-05-15T17:47:19+00:00",
-      "age_hours": 17.85,
-      "score": 39.79,
+      "age_hours": 19.0,
+      "score": 39.1,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.29,
+        "recency_points": 13.6,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -695,11 +624,11 @@
       ],
       "earliest_seen": "2026-05-15T04:01:55+00:00",
       "latest_seen": "2026-05-15T04:01:55+00:00",
-      "age_hours": 31.61,
-      "score": 39.13,
+      "age_hours": 32.75,
+      "score": 38.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 6.03,
+        "recency_points": 5.35,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -737,7 +666,7 @@
       ],
       "earliest_seen": "2026-05-03T07:00:00+00:00",
       "latest_seen": "2026-05-03T07:00:00+00:00",
-      "age_hours": 316.64,
+      "age_hours": 317.78,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -778,11 +707,11 @@
       ],
       "earliest_seen": "2026-05-15T01:56:00+00:00",
       "latest_seen": "2026-05-15T01:56:00+00:00",
-      "age_hours": 33.71,
-      "score": 36.67,
+      "age_hours": 34.85,
+      "score": 35.99,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.77,
+        "recency_points": 4.09,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -819,7 +748,7 @@
       ],
       "earliest_seen": "2026-05-14T08:02:58+00:00",
       "latest_seen": "2026-05-14T08:02:58+00:00",
-      "age_hours": 51.59,
+      "age_hours": 52.73,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -845,6 +774,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_fa4a12b0d6af8b",
+      "topic": "oil",
+      "lead_title": "India raises retail fuel prices for first time since Iran war started",
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1Vpck9GV3BPb1A5LW5aM0xsWGJ4OV9udnZDMTEzbTJZOXR1RFhTay1tVXRpV1FDZDd0U2cxU2hCd1BXVEFJOTFZVjYyR293UXVEUGJ1dWt6TEhTYmwwblF6YXZsOVJWMk9WQl9nempVaEdBYWtnN0thaWgwazQ3N2U0MjVDVHZVYWlwdDNKQlRrajMwazEwMEpGRGxNOS1kalBvSXZkVUhOeWZaQXRscEsySXdTQQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-05-15T01:36:00+00:00",
+      "latest_seen": "2026-05-15T01:36:00+00:00",
+      "age_hours": 35.18,
+      "score": 32.39,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 3.89,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "12afb86ba038a1c8",
+          "title": "India raises retail fuel prices for first time since Iran war started",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQN1Vpck9GV3BPb1A5LW5aM0xsWGJ4OV9udnZDMTEzbTJZOXR1RFhTay1tVXRpV1FDZDd0U2cxU2hCd1BXVEFJOTFZVjYyR293UXVEUGJ1dWt6TEhTYmwwblF6YXZsOVJWMk9WQl9nempVaEdBYWtnN0thaWgwazQ3N2U0MjVDVHZVYWlwdDNKQlRrajMwazEwMEpGRGxNOS1kalBvSXZkVUhOeWZaQXRscEsySXdTQQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-05-15T01:36:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_cdde4b8ef6b077",
       "topic": "oil",
       "lead_title": "Gold at over one-week low as dollar, yields climb, Middle East tensions stoke inflation",
@@ -858,11 +826,11 @@
       ],
       "earliest_seen": "2026-05-15T01:10:00+00:00",
       "latest_seen": "2026-05-15T01:10:00+00:00",
-      "age_hours": 34.48,
-      "score": 32.81,
+      "age_hours": 35.62,
+      "score": 32.13,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.31,
+        "recency_points": 3.63,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -899,7 +867,7 @@
       ],
       "earliest_seen": "2026-05-14T07:17:19+00:00",
       "latest_seen": "2026-05-14T07:17:19+00:00",
-      "age_hours": 52.35,
+      "age_hours": 53.5,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -940,7 +908,7 @@
       ],
       "earliest_seen": "2026-05-14T02:15:00+00:00",
       "latest_seen": "2026-05-14T02:15:00+00:00",
-      "age_hours": 57.39,
+      "age_hours": 58.53,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -979,11 +947,11 @@
       ],
       "earliest_seen": "2026-05-14T23:49:30+00:00",
       "latest_seen": "2026-05-14T23:49:30+00:00",
-      "age_hours": 35.82,
-      "score": 29.01,
+      "age_hours": 36.96,
+      "score": 28.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.51,
+        "recency_points": 2.82,
         "source_quality_points": 25.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -1018,7 +986,7 @@
       ],
       "earliest_seen": "2026-05-14T15:26:41+00:00",
       "latest_seen": "2026-05-14T15:26:41+00:00",
-      "age_hours": 44.2,
+      "age_hours": 45.34,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
