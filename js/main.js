@@ -167,8 +167,9 @@ function renderHeader(activePage) {
 
   // Pick the logo variant that matches the current theme — done at render time
   // so we only emit a single <img> and never flash two logos at once.
+  // ?v=35 is a cache-buster so browsers refresh the image when we update the asset.
   var isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  var logoSrc = prefix + 'images/' + (isLight ? 'logo-light.png' : 'logo.png');
+  var logoSrc = prefix + 'images/' + (isLight ? 'logo-light.png' : 'logo.png') + '?v=35';
 
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
@@ -526,7 +527,7 @@ function renderFooter() {
   const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
   const footerIsLight = document.documentElement.getAttribute('data-theme') === 'light';
-  const footerLogoSrc = p + 'images/' + (footerIsLight ? 'logo-light.png' : 'logo.png');
+  const footerLogoSrc = p + 'images/' + (footerIsLight ? 'logo-light.png' : 'logo.png') + '?v=35';
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
