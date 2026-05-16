@@ -2804,3 +2804,246 @@ html, body, .site-header, .price-card, .driver-card, .risk-vector-card,
   background: rgba(29,99,168,0.20);
   color: #0a0f1a;
 }
+
+/* ═══════════════════════════════════════════════════════════════════
+   LIGHT THEME — FOLLOW-UP CORRECTION PASS (May 16, 2026)
+   Targeted fixes after visual review of the rendered light header.
+   Issues addressed:
+     1. Logo wordmark white-outlines disappear on cream → swap to
+        a dedicated logo-light.png with dark slate "Energy"/"Today"
+     2. Header band cohesion — breaking-news + header + ticker no
+        longer look like 3 disconnected stripes
+     3. Search button vs theme toggle parity — both now boxed
+     4. Active nav-item amber pull-back for AA contrast
+     5. Suppress hover text-shadow glows in light mode
+     6. Ticker text contrast
+   ═══════════════════════════════════════════════════════════════════ */
+
+/* ─── LOGO SWAP — show the right wordmark per theme ───────────── */
+.logo-img-light { display: none; }
+.logo-img-dark  { display: block; }
+:root[data-theme="light"] .logo-img-dark  { display: none !important; }
+:root[data-theme="light"] .logo-img-light { display: block !important; }
+.footer-logo-img-light { display: none; }
+.footer-logo-img-dark  { display: block; }
+:root[data-theme="light"] .footer-logo-img-dark  { display: none !important; }
+:root[data-theme="light"] .footer-logo-img-light { display: block !important; }
+
+/* The light-mode PNG already has dark letters baked in — no filter needed.
+   Override the previous filter chain so the new asset reads cleanly. */
+:root[data-theme="light"] .logo-img,
+:root[data-theme="light"] .logo-img-light,
+:root[data-theme="light"] .footer-logo-img-light {
+  filter: none !important;
+  opacity: 1;
+  transition: opacity 0.2s ease;
+}
+:root[data-theme="light"] .logo:hover .logo-img-light {
+  opacity: 0.88;
+}
+
+/* ─── HEADER BAND COHESION ──────────────────────────────────────
+   Make the breaking-news bar, header surface, and ticker strip
+   read as a single continuous chrome — same warm cream, hairline
+   dividers, no shifting tones.
+   ─────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .site-header {
+  background: #f7f5f0;
+  border-bottom: 1px solid rgba(15,23,42,0.10);
+  box-shadow: none;
+}
+:root[data-theme="light"] .site-header.scrolled {
+  background: rgba(247, 245, 240, 0.97);
+  backdrop-filter: saturate(160%) blur(12px);
+  -webkit-backdrop-filter: saturate(160%) blur(12px);
+  border-bottom-color: rgba(15,23,42,0.12);
+  box-shadow: 0 1px 0 rgba(15,23,42,0.02);
+}
+
+/* Ticker strip — match header tone, not a second cream band */
+:root[data-theme="light"] .market-ticker-strip {
+  background: #f7f5f0;
+  border-top: 1px solid rgba(15,23,42,0.06);
+  border-bottom: 1px solid rgba(15,23,42,0.10);
+}
+:root[data-theme="light"] .ticker-item,
+:root[data-theme="light"] .ticker-track .ticker-item {
+  color: #1e293b;
+  font-weight: 500;
+}
+:root[data-theme="light"] .ticker-item .change,
+:root[data-theme="light"] .ticker-track .change { font-weight: 600; }
+:root[data-theme="light"] .ticker-sep,
+:root[data-theme="light"] .ticker-divider { color: rgba(15,23,42,0.16); }
+
+/* Breaking-news banner — refined burgundy gradient in light, lighter weight than dark mode */
+:root[data-theme="light"] .breaking-banner {
+  background: linear-gradient(90deg, #7a1a26, #8a1f2b, #7a1a26);
+  border-bottom: 1px solid rgba(184, 37, 60, 0.30);
+}
+:root[data-theme="light"] .breaking-badge {
+  background: #b8253c;
+  color: #fff;
+}
+:root[data-theme="light"] .breaking-text {
+  color: #fde2e6;
+}
+:root[data-theme="light"] .breaking-link {
+  color: #fff;
+  border-bottom-color: rgba(255,255,255,0.40);
+}
+:root[data-theme="light"] .breaking-link:hover { border-bottom-color: #fff; }
+
+/* ─── HEADER BUTTON PARITY ─────────────────────────────────────
+   Search button + mobile-toggle should match the theme-toggle's
+   boxed treatment so they read as a unified control cluster.
+   ─────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .header-search-btn {
+  background: rgba(15,23,42,0.03);
+  border: 1px solid rgba(15,23,42,0.12);
+  color: #334155;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+}
+:root[data-theme="light"] .header-search-btn:hover {
+  background: rgba(29,99,168,0.08);
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+/* Match the toggle exactly so they sit as a pair */
+:root[data-theme="light"] .theme-toggle {
+  width: 36px;
+  height: 36px;
+  background: rgba(15,23,42,0.03);
+  border-color: rgba(15,23,42,0.12);
+  color: #334155;
+}
+:root[data-theme="light"] .theme-toggle:hover {
+  background: rgba(29,99,168,0.08);
+  border-color: var(--blue);
+  color: var(--blue);
+}
+:root[data-theme="light"] .theme-toggle svg {
+  width: 18px;
+  height: 18px;
+}
+@media (max-width: 640px) {
+  :root[data-theme="light"] .theme-toggle,
+  :root[data-theme="light"] .header-search-btn {
+    width: 34px;
+    height: 34px;
+  }
+  :root[data-theme="light"] .theme-toggle svg { width: 16px; height: 16px; }
+}
+
+/* Mobile-toggle (hamburger): only visible at small widths but match style */
+:root[data-theme="light"] .mobile-toggle {
+  color: #334155;
+}
+:root[data-theme="light"] .mobile-toggle:hover { color: var(--blue); }
+
+/* ─── NAV ACTIVE STATE ──────────────────────────────────────────
+   The geopolitics nav-link's amber is too saturated on cream.
+   Pull back to a deeper amber that passes AA on light bg.
+   ─────────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .nav-link.active {
+  color: #8a4d02;
+  font-weight: 600;
+}
+:root[data-theme="light"] .nav-link.active.nav-link-energy,
+:root[data-theme="light"] .nav-link-energy.active {
+  color: var(--blue);
+}
+
+/* ─── SUPPRESS GLOW/TEXT-SHADOW ON LIGHT ───────────────────────
+   nav-link-geo and nav-link-energy have hover text-shadows that
+   read as nice glow on dark but look artificial on cream.
+   ─────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .nav-link-geo,
+:root[data-theme="light"] .nav-link-energy,
+:root[data-theme="light"] .nav-link-geo:hover,
+:root[data-theme="light"] .nav-link-energy:hover {
+  text-shadow: none;
+}
+/* Nav-link-geo distinct color when not active — deep amber, no glow */
+:root[data-theme="light"] .nav-link-geo {
+  color: #8a4d02;
+}
+:root[data-theme="light"] .nav-link-geo:hover {
+  color: #b06002;
+}
+/* Nav-link-energy — deep blue, no glow */
+:root[data-theme="light"] .nav-link-energy {
+  color: var(--blue);
+}
+:root[data-theme="light"] .nav-link-energy:hover {
+  color: var(--blue-h);
+}
+
+/* Suppress generic glow patterns sitewide for light mode header */
+:root[data-theme="light"] .site-header *,
+:root[data-theme="light"] .site-header *:hover {
+  text-shadow: none;
+}
+:root[data-theme="light"] .nav-link::after {
+  background: var(--blue);
+}
+
+/* ─── DROPDOWN CHEVRON ALIGNMENT ─────────────────────────────── */
+:root[data-theme="light"] .nav-dropdown-trigger,
+:root[data-theme="light"] .nav-dropdown-trigger svg {
+  color: #334155;
+}
+:root[data-theme="light"] .nav-dropdown-trigger:hover,
+:root[data-theme="light"] .nav-dropdown-trigger:hover svg {
+  color: var(--blue);
+}
+:root[data-theme="light"] .nav-dropdown-trigger.active,
+:root[data-theme="light"] .nav-dropdown-wrap.open .nav-dropdown-trigger {
+  color: var(--blue);
+}
+
+/* ─── DROPDOWN PANEL — premium shadow on cream ─────────────── */
+:root[data-theme="light"] .nav-dropdown,
+:root[data-theme="light"] .nav-dropdown-panel {
+  background: #ffffff;
+  border: 1px solid rgba(15,23,42,0.10);
+  box-shadow:
+    0 16px 40px rgba(15,23,42,0.10),
+    0 4px 8px rgba(15,23,42,0.04);
+}
+:root[data-theme="light"] .nav-dropdown a {
+  color: #334155;
+}
+:root[data-theme="light"] .nav-dropdown a:hover {
+  background: rgba(29,99,168,0.06);
+  color: var(--blue);
+}
+
+/* ─── MOBILE NAV DRAWER POLISH ───────────────────────────── */
+:root[data-theme="light"] #mobile-nav {
+  background: #ffffff;
+  border-left: 1px solid rgba(15,23,42,0.10);
+}
+:root[data-theme="light"] #mobile-nav a {
+  color: #1e293b;
+  border-bottom: 1px solid rgba(15,23,42,0.06);
+}
+:root[data-theme="light"] #mobile-nav a:hover,
+:root[data-theme="light"] #mobile-nav a.active {
+  background: rgba(29,99,168,0.06);
+  color: var(--blue);
+}
+:root[data-theme="light"] #mobile-backdrop {
+  background: rgba(15,23,42,0.30);
+}
+
+/* ─── HERO PRICE CARDS REFINEMENT ──────────────────────────
+   In light, hero-price LIVE pill green should be deeper for AA;
+   price values in deep ink.
+   ─────────────────────────────────────────────────────────── */
+:root[data-theme="light"] .price-card-label { color: #475569; }
+:root[data-theme="light"] .price-card-value { color: #0f172a; }
+:root[data-theme="light"] .price-card-unit { color: #64748b; }

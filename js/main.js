@@ -168,7 +168,8 @@ function renderHeader(activePage) {
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
       <a class="logo" href="${prefix}index.html">
-        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">
+        <img src="${prefix}images/logo.png" alt="EnergyPricesToday.com" class="logo-img logo-img-dark" width="332" height="64" decoding="async" fetchpriority="high">
+        <img src="${prefix}images/logo-light.png" alt="" class="logo-img logo-img-light" width="332" height="64" decoding="async" aria-hidden="true">
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
@@ -504,7 +505,7 @@ function renderFooter() {
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img"></a>
+          <a href="${p}index.html"><img src="${p}images/logo.png" alt="EnergyPricesToday.com" class="footer-logo-img footer-logo-img-dark"><img src="${p}images/logo-light.png" alt="" class="footer-logo-img footer-logo-img-light" aria-hidden="true"></a>
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div class="footer-columns">
