@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-05-16T11:38:34.189333+00:00",
-  "previous_generated_at": "2026-05-16T10:41:24.190521+00:00",
-  "resolver_run_count": 3,
+  "generated_at": "2026-05-16T12:47:03.720081+00:00",
+  "previous_generated_at": "2026-05-16T11:38:34.189333+00:00",
+  "resolver_run_count": 4,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -13,15 +13,15 @@
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-16T08:50:37+00:00",
-      "source_count": 9,
+      "last_confirmed": "2026-05-16T12:33:45+00:00",
+      "source_count": 10,
       "summary_short": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April",
-      "summary_long": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April. UAE fast tracks second West-East oil pipeline to bypass Strait of Hormuz",
+      "summary_long": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April. Bahrain Joins Iraq, Iran, Kuwait, Saudi Arabia, Qatar, UAE, and Other Countries as Middle East Launc",
       "evidence_cluster_ids": [
-        "c_b768196b026c23",
-        "c_5847cdc319d350",
+        "c_96ddf88f7bfd3e",
+        "c_587d137f6a579f",
         "c_d64ad8270a091d",
-        "c_27fd7acaea55dd",
+        "c_c885fc7c3b36ca",
         "c_203dda71d8ac25"
       ],
       "evidence_count": 6,
@@ -53,16 +53,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-05-15T18:41:36+00:00",
-      "source_count": 6,
-      "summary_short": "Middle East oil production plunges due to Iran war, OPEC data shows",
-      "summary_long": "Middle East oil production plunges due to Iran war, OPEC data shows. Iraq Joins UAE, Saudi Arabia, Qatar, Iran, Oman, Bahrain, Turkey and Others as Middle East Powers Fa",
+      "last_confirmed": "2026-05-16T12:33:45+00:00",
+      "source_count": 7,
+      "summary_short": "Bahrain Joins Iraq, Iran, Kuwait, Saudi Arabia, Qatar, UAE, and Other Countries as Middle East Launches Urgent Efforts t",
+      "summary_long": "Bahrain Joins Iraq, Iran, Kuwait, Saudi Arabia, Qatar, UAE, and Other Countries as Middle East Launches Urgent Efforts to Build New Oil Pipelines and Energy Corridors Beyond Strait of Hormuz to Prevent Future Chokepoints and Protect Regional Aviation, Ho. Trump says US struck military targets on Iran's Kharg Island oil hub",
       "evidence_cluster_ids": [
-        "c_48cbc4467bfacd",
-        "c_5847cdc319d350",
-        "c_3d8bb6729e3316",
-        "c_1665abaff84403",
-        "c_f2684e6e2ee678"
+        "c_96ddf88f7bfd3e",
+        "c_1f8ee1302d5297",
+        "c_6319966dd9c484",
+        "c_4de22183d061fc",
+        "c_5eb471e85e14aa"
       ],
       "evidence_count": 6,
       "affected_pages": [
@@ -118,15 +118,15 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_e5e81ec9e273e8",
-      "lead_title": "The Winners and Losers of Oil’s New World Order",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeExrQ1ZyU1lpcGVlNTdRNFl1Q25HN0k0VWUxVjU2X0NDNEZ3LUc3aXZxcWxrTGI3bS1mNHZhZ2V6OFNHNnBobUdGakRUaEN1Rk9acUJDd05BRzdzRGFYN0M4Y2JWU25fNmtpclBoVUxQcXpQbEdKaXJDWGcwLWtJNmQ5RzdrQlBSUV9wT3U5TWF4SzBVVGgzZEpPUQ?oc=5",
-      "lead_source": "WSJ",
+      "cluster_id": "c_c885fc7c3b36ca",
+      "lead_title": "Iraq exported 10 million barrels of oil through Strait of Hormuz in April",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRGljU1pITHJaNl9CQkNWZk1LUk1vaGpER0Q1U1o2d0N4aDBOZEhMSHVoRHF3NmJxWjlLTnRtTThMenFMY24wckFXcXg0UTFhUVZJaDAxZG1mVUo3RjktQlVxZF91TkkwZzdpcGM4Vk10WDJ3bkdQaHNnbEhhcy14SGZVckxEdnpGQUwxbVJLWVNNbFBGNEZCLXdYVXVsNVk2WEdveXltbFdYQWlUMkRid25BWmR4d2c?oc=5",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 66.43,
+      "score": 82.75,
       "novelty": "new",
-      "source_count": 1,
-      "confidence": 0.93215,
+      "source_count": 2,
+      "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
       ],
@@ -135,17 +135,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "opec_plus_policy",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-05-16T11:38:34.189270+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
