@@ -3128,3 +3128,78 @@ html, body, .site-header, .price-card, .driver-card, .risk-vector-card,
 :root[data-theme="light"] .price-card-label { color: #475569; }
 :root[data-theme="light"] .price-card-value { color: #0f172a; }
 :root[data-theme="light"] .price-card-unit { color: #64748b; }
+
+/* ═══════════════════════════════════════════════════════════════════
+   LOGO WORDMARK — LIGHT MODE NATIVE RENDER
+   When data-theme="light", we replace the PNG logo with this inline
+   SVG bolt + webfont wordmark. Zero raster artifacts on cream;
+   scales perfectly; matches the site's editorial typography.
+   ═══════════════════════════════════════════════════════════════════ */
+.logo-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 44px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.logo-wordmark-bolt {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: block;
+}
+.logo-wordmark-text {
+  font-family: var(--font-head);
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  display: inline-flex;
+  align-items: baseline;
+}
+.logo-wordmark-text .lwm-energy,
+.logo-wordmark-text .lwm-today {
+  color: #0a0f1a;
+}
+.logo-wordmark-text .lwm-prices {
+  color: #1d63a8;
+}
+.logo-wordmark-text .lwm-com {
+  font-size: 13px;
+  font-weight: 500;
+  color: #64748b;
+  margin-left: 2px;
+  align-self: flex-end;
+  padding-bottom: 4px;
+  letter-spacing: 0;
+}
+
+/* Footer wordmark — slightly smaller */
+.footer-wordmark {
+  height: 38px;
+  gap: 8px;
+}
+.footer-wordmark .logo-wordmark-bolt {
+  width: 32px;
+  height: 32px;
+}
+.footer-wordmark .logo-wordmark-text {
+  font-size: 22px;
+}
+.footer-wordmark .lwm-com {
+  font-size: 11px;
+  padding-bottom: 3px;
+}
+
+/* Mobile sizing */
+@media (max-width: 640px) {
+  .logo-wordmark { height: 38px; gap: 8px; }
+  .logo-wordmark-bolt { width: 30px; height: 30px; }
+  .logo-wordmark-text { font-size: 21px; }
+  .logo-wordmark-text .lwm-com { font-size: 11px; padding-bottom: 3px; }
+}
+
+/* Hover state */
+.logo:hover .logo-wordmark { opacity: 0.85; transition: opacity 0.15s ease; }
+.logo .logo-wordmark { transition: opacity 0.15s ease; }

@@ -165,16 +165,40 @@ function renderHeader(activePage) {
     return `<a href="${href}" class="${cls}">${n.label}</a>`;
   }).join('');
 
-  // Pick the logo variant that matches the current theme — done at render time
-  // so we only emit a single <img> and never flash two logos at once.
-  // ?v=35 is a cache-buster so browsers refresh the image when we update the asset.
+  // Logo rendering strategy:
+  //   - DARK mode: use the original logo.png — it was designed for dark
+  //     backgrounds and looks great there.
+  //   - LIGHT mode: render a native inline SVG + webfont wordmark
+  //     instead. The PNG has 3D shading, chrome rings, and shadows that
+  //     don't blend onto cream; algorithmic recoloring leaves artifacts.
+  //     A native HTML/SVG wordmark looks intentionally designed for light,
+  //     scales perfectly, and matches the site's editorial typography.
   var isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  var logoSrc = prefix + 'images/' + (isLight ? 'logo-light.png' : 'logo.png') + '?v=35';
+  var logoMarkup = isLight
+    ? `<span class="logo-wordmark" aria-label="EnergyPricesToday.com">
+         <svg class="logo-wordmark-bolt" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+           <circle cx="16" cy="16" r="14.5" fill="none" stroke="url(#lwm-ring)" stroke-width="1.5"/>
+           <path d="M17.5 4 L9 17 h6 L13.5 28 L23 14 h-6 z" fill="url(#lwm-bolt)"/>
+           <defs>
+             <linearGradient id="lwm-ring" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+               <stop offset="0%" stop-color="#3d8fd4"/>
+               <stop offset="100%" stop-color="#d47a0c"/>
+             </linearGradient>
+             <linearGradient id="lwm-bolt" x1="9" y1="4" x2="23" y2="28" gradientUnits="userSpaceOnUse">
+               <stop offset="0%" stop-color="#5fb0e8"/>
+               <stop offset="55%" stop-color="#1d63a8"/>
+               <stop offset="100%" stop-color="#b06002"/>
+             </linearGradient>
+           </defs>
+         </svg>
+         <span class="logo-wordmark-text"><span class="lwm-energy">Energy</span><span class="lwm-prices">Prices</span><span class="lwm-today">Today</span><span class="lwm-com">.com</span></span>
+       </span>`
+    : `<img src="${prefix}images/logo.png?v=36" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">`;
 
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
       <a class="logo" href="${prefix}index.html">
-        <img src="${logoSrc}" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">
+        ${logoMarkup}
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
@@ -341,26 +365,10 @@ function toggleTheme() {
   }
   try { localStorage.setItem('ept-theme', next); } catch (e) {}
 
-  // Swap logo image src to match the new theme. We render only one logo
-  // (chosen at initial render time) so we manually retarget it here
-  // when the user toggles. Logos at .logo-img and .footer-logo-img.
-  var headerLogo = document.querySelector('.site-header .logo-img');
-  var footerLogo = document.querySelector('.site-footer .footer-logo-img');
-  [headerLogo, footerLogo].forEach(function(img) {
-    if (!img) return;
-    var src = img.getAttribute('src') || '';
-    // Switch between logo.png and logo-light.png while preserving the
-    // existing relative-path prefix (./images/ vs ../images/).
-    if (next === 'light') {
-      if (src.indexOf('logo-light.png') === -1) {
-        img.setAttribute('src', src.replace(/logo\.png(\?.*)?$/, 'logo-light.png$1'));
-      }
-    } else {
-      if (src.indexOf('logo-light.png') !== -1) {
-        img.setAttribute('src', src.replace(/logo-light\.png(\?.*)?$/, 'logo.png$1'));
-      }
-    }
-  });
+  // Re-render header and footer so the logo swaps between the PNG
+  // (dark mode) and the native inline SVG+webfont wordmark (light mode).
+  if (typeof renderHeader === 'function') renderHeader();
+  if (typeof renderFooter === 'function') renderFooter();
 }
 
 // ─── SEARCH OVERLAY ──────────────────────────────────────────────
@@ -527,13 +535,32 @@ function renderFooter() {
   const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
   const footerIsLight = document.documentElement.getAttribute('data-theme') === 'light';
-  const footerLogoSrc = p + 'images/' + (footerIsLight ? 'logo-light.png' : 'logo.png') + '?v=35';
+  const footerLogoMarkup = footerIsLight
+    ? `<span class="logo-wordmark footer-wordmark" aria-label="EnergyPricesToday.com">
+         <svg class="logo-wordmark-bolt" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+           <circle cx="16" cy="16" r="14.5" fill="none" stroke="url(#fwm-ring)" stroke-width="1.5"/>
+           <path d="M17.5 4 L9 17 h6 L13.5 28 L23 14 h-6 z" fill="url(#fwm-bolt)"/>
+           <defs>
+             <linearGradient id="fwm-ring" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+               <stop offset="0%" stop-color="#3d8fd4"/>
+               <stop offset="100%" stop-color="#d47a0c"/>
+             </linearGradient>
+             <linearGradient id="fwm-bolt" x1="9" y1="4" x2="23" y2="28" gradientUnits="userSpaceOnUse">
+               <stop offset="0%" stop-color="#5fb0e8"/>
+               <stop offset="55%" stop-color="#1d63a8"/>
+               <stop offset="100%" stop-color="#b06002"/>
+             </linearGradient>
+           </defs>
+         </svg>
+         <span class="logo-wordmark-text"><span class="lwm-energy">Energy</span><span class="lwm-prices">Prices</span><span class="lwm-today">Today</span><span class="lwm-com">.com</span></span>
+       </span>`
+    : `<img src="${p}images/logo.png?v=36" alt="EnergyPricesToday.com" class="footer-logo-img">`;
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
       <div class="footer-top">
         <div class="footer-brand">
-          <a href="${p}index.html"><img src="${footerLogoSrc}" alt="EnergyPricesToday.com" class="footer-logo-img"></a>
+          <a href="${p}index.html">${footerLogoMarkup}</a>
           <p>Modern energy market intelligence — live pricing, analysis, and news without the clutter.</p>
         </div>
         <div class="footer-columns">
