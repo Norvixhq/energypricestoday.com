@@ -165,35 +165,11 @@ function renderHeader(activePage) {
     return `<a href="${href}" class="${cls}">${n.label}</a>`;
   }).join('');
 
-  // Logo rendering strategy:
-  //   - DARK mode: use the original logo.png — it was designed for dark
-  //     backgrounds and looks great there.
-  //   - LIGHT mode: render a native inline SVG + webfont wordmark
-  //     instead. The PNG has 3D shading, chrome rings, and shadows that
-  //     don't blend onto cream; algorithmic recoloring leaves artifacts.
-  //     A native HTML/SVG wordmark looks intentionally designed for light,
-  //     scales perfectly, and matches the site's editorial typography.
-  var isLight = document.documentElement.getAttribute('data-theme') === 'light';
-  var logoMarkup = isLight
-    ? `<span class="logo-wordmark" aria-label="EnergyPricesToday.com">
-         <svg class="logo-wordmark-bolt" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-           <circle cx="16" cy="16" r="14.5" fill="none" stroke="url(#lwm-ring)" stroke-width="1.5"/>
-           <path d="M17.5 4 L9 17 h6 L13.5 28 L23 14 h-6 z" fill="url(#lwm-bolt)"/>
-           <defs>
-             <linearGradient id="lwm-ring" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-               <stop offset="0%" stop-color="#3d8fd4"/>
-               <stop offset="100%" stop-color="#d47a0c"/>
-             </linearGradient>
-             <linearGradient id="lwm-bolt" x1="9" y1="4" x2="23" y2="28" gradientUnits="userSpaceOnUse">
-               <stop offset="0%" stop-color="#5fb0e8"/>
-               <stop offset="55%" stop-color="#1d63a8"/>
-               <stop offset="100%" stop-color="#b06002"/>
-             </linearGradient>
-           </defs>
-         </svg>
-         <span class="logo-wordmark-text"><span class="lwm-energy">Energy</span><span class="lwm-prices">Prices</span><span class="lwm-today">Today</span><span class="lwm-com">.com</span></span>
-       </span>`
-    : `<img src="${prefix}images/logo.png?v=36" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">`;
+  // Single logo for both themes — same asset used in dark and light modes.
+  // This is the original setup, restored at the user's request after multiple
+  // unsuccessful attempts at a light-mode variant.
+  var logoSrc = prefix + 'images/logo.png?v=48';
+  var logoMarkup = `<img src="${logoSrc}" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">`;
 
   document.getElementById('site-header').innerHTML = `
     <div class="header-inner">
@@ -202,10 +178,6 @@ function renderHeader(activePage) {
       </a>
       <nav class="nav-desktop">${navLinks}</nav>
       <div class="header-actions">
-        <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle light or dark theme" title="Toggle theme">
-          <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
-        </button>
         <button class="header-search-btn" onclick="toggleSearch()" aria-label="Search">${icon('search', 18)}</button>
         <button class="mobile-toggle" onclick="toggleMobileNav()" aria-label="Menu">${icon('menu', 24)}</button>
       </div>
@@ -349,27 +321,6 @@ document.addEventListener('click', function(e) {
     document.body.style.overflow = '';
   }
 });
-
-// ─── THEME TOGGLE ────────────────────────────────────────────────
-// Persisted in localStorage. Default is dark. Applied to <html> as
-// data-theme="light" attribute. The initial application happens in a
-// tiny inline <head> script (see HTML files) to prevent flash-of-wrong-
-// theme before this main.js loads.
-function toggleTheme() {
-  var current = document.documentElement.getAttribute('data-theme');
-  var next = current === 'light' ? 'dark' : 'light';
-  if (next === 'dark') {
-    document.documentElement.removeAttribute('data-theme');
-  } else {
-    document.documentElement.setAttribute('data-theme', 'light');
-  }
-  try { localStorage.setItem('ept-theme', next); } catch (e) {}
-
-  // Re-render header and footer so the logo swaps between the PNG
-  // (dark mode) and the native inline SVG+webfont wordmark (light mode).
-  if (typeof renderHeader === 'function') renderHeader();
-  if (typeof renderFooter === 'function') renderFooter();
-}
 
 // ─── SEARCH OVERLAY ──────────────────────────────────────────────
 function toggleSearch() {
@@ -534,27 +485,7 @@ function initNewsletter() {
 function renderFooter() {
   const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
-  const footerIsLight = document.documentElement.getAttribute('data-theme') === 'light';
-  const footerLogoMarkup = footerIsLight
-    ? `<span class="logo-wordmark footer-wordmark" aria-label="EnergyPricesToday.com">
-         <svg class="logo-wordmark-bolt" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-           <circle cx="16" cy="16" r="14.5" fill="none" stroke="url(#fwm-ring)" stroke-width="1.5"/>
-           <path d="M17.5 4 L9 17 h6 L13.5 28 L23 14 h-6 z" fill="url(#fwm-bolt)"/>
-           <defs>
-             <linearGradient id="fwm-ring" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-               <stop offset="0%" stop-color="#3d8fd4"/>
-               <stop offset="100%" stop-color="#d47a0c"/>
-             </linearGradient>
-             <linearGradient id="fwm-bolt" x1="9" y1="4" x2="23" y2="28" gradientUnits="userSpaceOnUse">
-               <stop offset="0%" stop-color="#5fb0e8"/>
-               <stop offset="55%" stop-color="#1d63a8"/>
-               <stop offset="100%" stop-color="#b06002"/>
-             </linearGradient>
-           </defs>
-         </svg>
-         <span class="logo-wordmark-text"><span class="lwm-energy">Energy</span><span class="lwm-prices">Prices</span><span class="lwm-today">Today</span><span class="lwm-com">.com</span></span>
-       </span>`
-    : `<img src="${p}images/logo.png?v=36" alt="EnergyPricesToday.com" class="footer-logo-img">`;
+  const footerLogoMarkup = `<img src="${p}images/logo.png?v=48" alt="EnergyPricesToday.com" class="footer-logo-img">`;
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
