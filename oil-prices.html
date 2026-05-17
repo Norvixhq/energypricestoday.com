@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=48">
+  <link rel="stylesheet" href="css/styles.css?v=49">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=48">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=48">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=48">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=48">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=48">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=48">
-  <link rel="shortcut icon" href="images/favicon.ico?v=48">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=49">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=49">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=49">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=49">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=49">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=49">
+  <link rel="shortcut icon" href="images/favicon.ico?v=49">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -192,8 +192,8 @@
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=48"></script><script src="js/article-slugs.js?v=48"></script><script src="js/main.js?v=48"></script><script src="js/live-data.js?v=48"></script><script src="js/news-feed.js?v=48"></script>
-  <script src="js/event-state.js?v=48"></script>
+  <script src="js/data.js?v=49"></script><script src="js/article-slugs.js?v=49"></script><script src="js/main.js?v=49"></script><script src="js/live-data.js?v=49"></script><script src="js/news-feed.js?v=49"></script>
+  <script src="js/event-state.js?v=49"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -245,7 +245,7 @@
     // Hormuz and OPEC card bodies are bound to events.json via the spans with
     // data-event-bind — event-state.js will overwrite textContent on fetch.
     // The geopolitics link is appended separately so the bound area stays pure text.
-    var hormuzFallback = 'Strait contested. Live transit at roughly 10% of baseline (6 vessels Friday vs. ~60 normal per IMF PortWatch / Lloyd\u2019s List). All major carriers (Maersk, MSC, CMA CGM, Hapag-Lloyd) have suspended transits. ~1,550 vessels stranded; war-risk insurance at 8x pre-crisis. EIA assumes Hormuz remains effectively closed until late May. EIA assesses 10.5M bpd of Persian Gulf production was shut in during April. Saudi Arabia informed OPEC its output fell to the lowest level since 1990.';
+    var hormuzFallback = 'Strait effectively closed. Pre-conflict ~3,000 vessels used the strait monthly; current traffic at ~5% of baseline per Kpler. House of Commons Library (May 16): \u201Calmost no shipping has used the strait.\u201D IRGC has redefined the strait as a \u201Cvast operational area.\u201D ~1,550 vessels stranded with ~22,500 mariners trapped. Trump\u2019s Project Freedom paused since May 6 citing \u201Cgreat progress.\u201D G7 finance ministers meet in Paris May 18-19 with Hormuz reopening at the top of the agenda.';
     var opecFallback   = 'EIA May STEO incorporates UAE departure from OPEC effective May 1. With UAE spare capacity removed, OPEC 2027 spare capacity now 2.5M bpd vs 3.8M prior. April 206K bpd increase proceeded. Saudi East-West Pipeline at full 5M bpd. May ministerial mid-month operates under new composition.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
@@ -272,14 +272,14 @@
       // ─── BEGIN EDITORIAL: refresh during daily pass ───
       var bias = 'Bullish';          // Bullish | Bearish | Mixed
       var conviction = 'Moderate';   // Low | Moderate | High
-      var summary = 'WTI on track for ~10% weekly gain as Hormuz crisis stretches into its eleventh week. Trump-Xi Beijing summit produced alignment on Hormuz reopening and Iran-no-nuke positions, but Trump then warned Iran of &ldquo;annihilation&rdquo; if no deal reached. Supply backdrop remains structurally tight: IEA reports ~4M bpd Hormuz drop in March-April; EIA crude inventory -4.3M last week; Saudi production at lowest since 1990; UAE departed OPEC effective May 1, cutting 2027 spare capacity to 2.5M bpd. The supply-side narrative remains firmly bullish through summer pending diplomatic resolution.';
+      var summary = 'WTI closed the week around $105 with an 11% weekly gain; Brent ~$109 with 8.1% weekly gain and up 74% year-to-date. G7 finance ministers meet in Paris May 18-19 with Hormuz reopening as top agenda item. Iran has hardened posture: IRGC redefined the strait as a &ldquo;vast operational area;&rdquo; House of Commons Library confirms strait remains effectively closed. Netanyahu&rsquo;s coalition is fracturing on the ultra-Orthodox draft issue, complicating ceasefire ratification. Structural backdrop unchanged and tight: IEA reports ~4M bpd Hormuz drop in March-April; EIA crude inventory -4.3M last week; Saudi production at lowest since 1990; UAE departed OPEC effective May 1, cutting 2027 spare capacity to 2.5M bpd. Bullish supply narrative through summer absent diplomatic breakthrough.';
       var drivers = [
-        { label: 'IEA Undersupply',    weight: 'Strong bullish', note: 'IEA reports crude and fuel flows through Hormuz fell ~4M bpd in March-April. Market materially undersupplied likely through October even if conflict ends sooner.' },
+        { label: 'G7 Paris Meeting',   weight: 'Mixed',           note: 'G7 finance ministers meet May 18-19. Eurogroup President: opening Hormuz is &ldquo;of utmost importance.&rdquo; Could produce coordinated diplomatic pressure but no enforcement mechanism. Brent up 74% YTD; 30Y Treasury at 5.121%, highest since May 2025.' },
+        { label: 'IRGC Operational Area', weight: 'Bullish',      note: 'IRGC Navy redefined Hormuz as &ldquo;vast operational area&rdquo; — doctrinal hardening that expands Iran\u2019s claimed jurisdictional reach. Iran foreign ministry rejected new U.S. accusations. Trump warned of &ldquo;military consequences at a level never seen before&rdquo; if mines not removed.' },
+        { label: 'IEA Undersupply',    weight: 'Strong bullish',  note: 'IEA reports crude and fuel flows through Hormuz fell ~4M bpd in March-April. Market materially undersupplied likely through October even if conflict ends sooner. IEA: &ldquo;Rapidly shrinking buffers may herald future price spikes.&rdquo;' },
         { label: 'EIA Inventory',      weight: 'Bullish',         note: 'U.S. crude -4.3M to 452.9M for week ending May 8, nearly 2x consensus. Gasoline -4.1M (5% below 5-year avg). SPR -8.6M to 384.1M, lowest level since October 2024.' },
+        { label: 'Israel Politics',    weight: 'Mixed',           note: 'Netanyahu coalition fracturing on ultra-Orthodox draft dispute. Early Israeli elections would freeze diplomatic track for months. Ratification of any Iran framework on Israeli side no longer assured.' },
         { label: 'OPEC Structure',     weight: 'Mildly bullish',  note: 'UAE departed OPEC effective May 1. EIA cut OPEC 2027 spare capacity forecast to 2.5M bpd from 3.8M prior. Saudi production at lowest level since 1990.' },
-        { label: 'Trump-Xi Alignment', weight: 'Mixed',           note: 'Both leaders agreed Hormuz must remain open and Iran cannot have nuclear weapon. Xi opposed militarization and tolls. Diplomatic floor under prices but no concrete enforcement timeline.' },
-        { label: 'Trump-Iran Warning', weight: 'Bullish',         note: 'Trump warned Iran of "annihilation" if no deal. 20-yr nuclear moratorium offered as condition. Pakistan acting as intermediary. Risk premium remains elevated.' },
-        { label: 'Refining Demand',    weight: 'Bullish',         note: 'Refinery utilization rose to 91.7% as spring maintenance season ends. Crack spreads at multi-year highs. Crude imports averaged 5.9M bpd, up 424K bpd week-over-week.' },
       ];
       // ─── END EDITORIAL ───
 

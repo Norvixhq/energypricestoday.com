@@ -16,21 +16,44 @@ TEMPLATE = """<!DOCTYPE html>
 <script>!function(f,b,e,v,n,t,s){{if(f.fbq)return;n=f.fbq=function(){{n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)}};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','957762016897581');fbq('track','PageView');</script><noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=957762016897581&ev=PageView&noscript=1"/></noscript>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>{meta_title} — EnergyPricesToday.com</title>
+  <title>{meta_title}</title>
   <meta name="description" content="{meta_desc}">
   <link rel="canonical" href="https://www.energypricestoday.com/articles/{slug}.html">
+  <meta name="news_keywords" content="{keywords}">
+  <meta name="keywords" content="{keywords}">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot-news" content="index, follow">
   <meta property="og:type" content="article">
   <meta property="og:title" content="{meta_title}">
   <meta property="og:description" content="{meta_desc}">
+  <meta property="article:published_time" content="{pub_iso}">
+  <meta property="article:modified_time" content="{pub_iso}">
+  <meta property="article:author" content="EnergyPricesToday Editorial">
+  <meta property="article:section" content="{cat_label}">
+  <meta property="article:tag" content="{cat_label}">
   <meta property="og:url" content="https://www.energypricestoday.com/articles/{slug}.html">
+  <meta property="og:site_name" content="EnergyPricesToday.com">
+  <meta property="og:image" content="https://www.energypricestoday.com/images/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@energypricestoday">
   <meta name="twitter:title" content="{meta_title}">
   <meta name="twitter:description" content="{meta_desc}">
-  <link rel="stylesheet" href="../css/styles.css">
+  <meta name="twitter:image" content="https://www.energypricestoday.com/images/og-image.png">
+  <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="../feed.xml">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
+  <link rel="stylesheet" href="../css/styles.css?v=49">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments);}}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg">
-  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico?v=49">
+  <link rel="icon" type="image/svg+xml" href="../images/favicon.svg?v=49">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png?v=49">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png?v=49">
+  <link rel="icon" type="image/png" sizes="48x48" href="../images/favicon-48x48.png?v=49">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png?v=49">
+  <script type="application/ld+json">{{"@context":"https://schema.org","@type":"NewsArticle","headline":"{title_escaped}","description":"{meta_desc}","datePublished":"{pub_iso}","dateModified":"{pub_iso}","author":{{"@type":"NewsMediaOrganization","name":"EnergyPricesToday","url":"https://www.energypricestoday.com"}},"image":["https://www.energypricestoday.com/images/og-image.png"],"articleSection":"{cat_label}","wordCount":{word_count},"mainEntityOfPage":{{"@type":"WebPage","@id":"https://www.energypricestoday.com/articles/{slug}.html"}},"isAccessibleForFree":true,"publisher":{{"@type":"NewsMediaOrganization","name":"EnergyPricesToday.com","url":"https://www.energypricestoday.com","logo":{{"@type":"ImageObject","url":"https://www.energypricestoday.com/images/logo.png","width":674,"height":130}}}}}}</script>
 </head>
 <body>
   <header class="site-header" id="site-header"></header>
@@ -40,7 +63,7 @@ TEMPLATE = """<!DOCTYPE html>
         <nav class="breadcrumbs"><a href="../index.html">Home</a> &rsaquo; <a href="../category/{primary_cat}.html">{cat_label}</a> &rsaquo; <span>Article</span></nav>
         <h1>{title}</h1>
         <div class="article-meta" style="margin:14px 0 24px">
-          <span>Staff</span>
+          <span>EnergyPricesToday Editorial</span>
           <span>{date_label}</span>
           <span>{read_time} min read</span>
         </div>
@@ -57,9 +80,9 @@ TEMPLATE = """<!DOCTYPE html>
     </article>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="../js/data.js"></script>
-  <script src="../js/article-slugs.js"></script>
-  <script src="../js/main.js"></script>
+  <script src="../js/data.js?v=49"></script>
+  <script src="../js/article-slugs.js?v=49"></script>
+  <script src="../js/main.js?v=49"></script>
 </body>
 </html>
 """
@@ -120,6 +143,8 @@ def write_article(
     date_str: str | None = None,
     read_time: int = 5,
     overwrite: bool = False,
+    pub_iso: str | None = None,
+    keywords: str | None = None,
 ) -> Path:
     """
     Create or overwrite an article file.
@@ -128,6 +153,7 @@ def write_article(
     Raises FileExistsError if overwrite=False and the file exists.
     """
     from .data_js import slugify
+    from datetime import datetime
 
     if slug is None:
         slug = slugify(title)
@@ -137,12 +163,25 @@ def write_article(
         today = date.today()
         date_str = today.strftime("%b %-d, %Y")
 
+    # Build ISO timestamp for article:published_time + schema.org
+    if pub_iso is None:
+        try:
+            parsed = datetime.strptime(date_str, "%b %d, %Y")
+            pub_iso = parsed.strftime("%Y-%m-%dT09:00:00-04:00")
+        except ValueError:
+            try:
+                parsed = datetime.strptime(date_str, "%B %d, %Y")
+                pub_iso = parsed.strftime("%Y-%m-%dT09:00:00-04:00")
+            except ValueError:
+                pub_iso = date.today().strftime("%Y-%m-%dT09:00:00-04:00")
+
     path = ARTICLES_DIR / f"{slug}.html"
     if path.exists() and not overwrite:
         raise FileExistsError(f"{path} already exists")
 
     # HTML-escape title for meta, but NOT for display (preserves entities like em-dash)
     meta_title = html.escape(title, quote=True)
+    title_escaped = html.escape(title, quote=True).replace('"', '\\"')
     meta_desc_raw = (body_paragraphs[0] if body_paragraphs else title)[:160]
     # Strip HTML entities from meta desc
     import re as _re
@@ -154,8 +193,18 @@ def write_article(
 
     cat_label = CAT_LABELS.get(category, category.replace("-", " ").title())
 
+    # Compute word count
+    plain_body = " ".join(_re.sub(r"<[^>]+>", "", p) for p in body_paragraphs)
+    word_count = len(plain_body.split())
+
+    # Default keywords from title + category
+    if keywords is None:
+        keywords = f"{title[:80]}, {cat_label}, energy markets, oil prices, EnergyPricesToday"
+    keywords_escaped = html.escape(keywords, quote=True)
+
     content = TEMPLATE.format(
         title=title,
+        title_escaped=title_escaped,
         meta_title=meta_title,
         meta_desc=meta_desc,
         slug=slug,
@@ -164,6 +213,9 @@ def write_article(
         body_html=body_html,
         primary_cat=category,
         cat_label=cat_label,
+        pub_iso=pub_iso,
+        keywords=keywords_escaped,
+        word_count=word_count,
     )
 
     path.parent.mkdir(parents=True, exist_ok=True)
