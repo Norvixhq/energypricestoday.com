@@ -20,16 +20,16 @@ fbq('init','957762016897581');fbq('track','PageView');
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=49">
+  <link rel="stylesheet" href="css/styles.css?v=50">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=49">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=49">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=49">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=49">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=49">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=49">
-  <link rel="shortcut icon" href="images/favicon.ico?v=49">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=50">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=50">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=50">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=50">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=50">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=50">
+  <link rel="shortcut icon" href="images/favicon.ico?v=50">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -88,8 +88,8 @@ fbq('init','957762016897581');fbq('track','PageView');
     <section class="section"><div class="container">
       <div class="section-header"><h2 class="section-title" id="sec-transmission"></h2></div>
       <p style="color:var(--text-2);font-size:13.5px;margin-bottom:14px;max-width:820px">When benchmarks move, downstream prices follow — but the transmission lag and magnitude varies by commodity. This table summarizes the real-world impact.</p>
-      <div class="market-table-wrap">
-        <table class="market-table">
+      <div class="market-table-wrap transmission-table-wrap">
+        <table class="market-table transmission-table">
           <thead><tr><th style="text-align:left">Benchmark Move</th><th style="text-align:left">Downstream Impact</th><th>Lag</th><th>Visibility</th></tr></thead>
           <tbody id="transmission-tbody"></tbody>
         </table>
@@ -160,8 +160,8 @@ fbq('init','957762016897581');fbq('track','PageView');
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=49"></script><script src="js/article-slugs.js?v=49"></script><script src="js/main.js?v=49"></script><script src="js/live-data.js?v=49"></script><script src="js/news-feed.js?v=49"></script>
-  <script src="js/event-state.js?v=49"></script>
+  <script src="js/data.js?v=50"></script><script src="js/article-slugs.js?v=50"></script><script src="js/main.js?v=50"></script><script src="js/live-data.js?v=50"></script><script src="js/news-feed.js?v=50"></script>
+  <script src="js/event-state.js?v=50"></script>
   <script>
     // ─── Reusable card templates ─────────────────────────────────
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.65">'+d+'</div></div>';}
@@ -443,15 +443,15 @@ fbq('init','957762016897581');fbq('track','PageView');
       ['RBOB +$0.25/gal', 'U.S. pump gasoline +$0.22-$0.25/gal', '5-10 days', 'Very High'],
       ['ULSD +$0.25/gal', 'U.S. trucking & shipping rates +0.8-1.2%', '2-4 weeks', 'Moderate'],
       ['JKM LNG +$2/MMBtu', 'Asian industrial energy cost +~3%', '1-2 months', 'Moderate'],
-      ['EU Carbon +€10/tCO₂', 'European electricity +~€5/MWh (coal gen)', '2-4 weeks', 'Moderate'],
+      ['EU Carbon +€10/tCO\u2082', 'European electricity +~€5/MWh (coal gen)', '2-4 weeks', 'Moderate'],
     ].map(function(r) {
       var vis = r[3];
       var visColor = vis === 'Very High' ? '#10b981' : (vis === 'High' ? '#3d8fd4' : '#94a3b8');
       return '<tr>'
-        + '<td style="text-align:left;font-weight:600">'+r[0]+'</td>'
-        + '<td style="text-align:left;color:var(--text-2);font-size:12.5px">'+r[1]+'</td>'
-        + '<td style="color:var(--text-3);font-size:12px">'+r[2]+'</td>'
-        + '<td><span style="color:'+visColor+';font-size:11px;font-weight:600">'+vis+'</span></td>'
+        + '<td data-label="Benchmark Move" style="text-align:left;font-weight:600">'+r[0]+'</td>'
+        + '<td data-label="Downstream Impact" style="text-align:left;color:var(--text-2);font-size:12.5px">'+r[1]+'</td>'
+        + '<td data-label="Lag" style="color:var(--text-3);font-size:12px">'+r[2]+'</td>'
+        + '<td data-label="Visibility"><span style="color:'+visColor+';font-size:11px;font-weight:600">'+vis+'</span></td>'
         + '</tr>';
     }).join('');
 

@@ -168,7 +168,7 @@ function renderHeader(activePage) {
   // Single logo for both themes — same asset used in dark and light modes.
   // This is the original setup, restored at the user's request after multiple
   // unsuccessful attempts at a light-mode variant.
-  var logoSrc = prefix + 'images/logo.png?v=49';
+  var logoSrc = prefix + 'images/logo.png?v=50';
   var logoMarkup = `<img src="${logoSrc}" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">`;
 
   document.getElementById('site-header').innerHTML = `
@@ -309,9 +309,11 @@ function toggleMobileNav() {
   document.body.style.overflow = open ? 'hidden' : '';
 }
 
-// Close mobile nav via backdrop or close button
+// Close mobile nav via backdrop, close button, or link click
 document.addEventListener('click', function(e) {
-  if (e.target.id === 'mobile-backdrop' || e.target.id === 'mobile-close' || e.target.closest('#mobile-close')) {
+  var inMobileNavLink = e.target.closest('.mobile-nav a');
+  var isCloseAction = e.target.id === 'mobile-backdrop' || e.target.id === 'mobile-close' || e.target.closest('#mobile-close');
+  if (isCloseAction || inMobileNavLink) {
     var nav = document.getElementById('mobile-nav');
     var backdrop = document.getElementById('mobile-backdrop');
     if (nav) nav.classList.remove('open');
@@ -485,7 +487,7 @@ function initNewsletter() {
 function renderFooter() {
   const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
-  const footerLogoMarkup = `<img src="${p}images/logo.png?v=49" alt="EnergyPricesToday.com" class="footer-logo-img">`;
+  const footerLogoMarkup = `<img src="${p}images/logo.png?v=50" alt="EnergyPricesToday.com" class="footer-logo-img">`;
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
