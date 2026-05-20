@@ -168,7 +168,7 @@ function renderHeader(activePage) {
   // Single logo for both themes — same asset used in dark and light modes.
   // This is the original setup, restored at the user's request after multiple
   // unsuccessful attempts at a light-mode variant.
-  var logoSrc = prefix + 'images/logo.png?v=52';
+  var logoSrc = prefix + 'images/logo.png?v=53';
   var logoMarkup = `<img src="${logoSrc}" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">`;
 
   document.getElementById('site-header').innerHTML = `
@@ -487,7 +487,7 @@ function initNewsletter() {
 function renderFooter() {
   const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
-  const footerLogoMarkup = `<img src="${p}images/logo.png?v=52" alt="EnergyPricesToday.com" class="footer-logo-img">`;
+  const footerLogoMarkup = `<img src="${p}images/logo.png?v=53" alt="EnergyPricesToday.com" class="footer-logo-img">`;
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
