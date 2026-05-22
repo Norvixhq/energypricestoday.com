@@ -3,9 +3,9 @@
 Hub refresh — update country/topic hubs with current verified context.
 
 For each hub, replaces the "Current Context" box content with current
-(May 20, 2026) framing, and adds a "Last reviewed" indicator.
+(May 21, 2026) framing, and adds a "Last reviewed" indicator.
 
-All content is grounded in real, verified May 19-20 reporting.
+All content is grounded in real, verified May 20-21 reporting.
 """
 
 import re
@@ -17,25 +17,25 @@ ARTICLES = ROOT / "articles"
 # ─── Per-hub current context (verified May 17, 2026) ──────────────────
 HUBS = {
     "iran.html": {
-        "context": "Current state (May 20, 2026): President Trump said yesterday he called off a planned military strike on Iran scheduled for Tuesday after leaders from Saudi Arabia, Qatar, and the UAE urged him to \"hold off,\" adding that \"serious negotiations were now underway\" (Tehran has not confirmed). Iran's revised peace proposal continues to include transferring 60%-enriched uranium to Russia and gradually reopening Hormuz for blockade lift; Washington characterizes the revisions as \"token.\" CNN reports the Pentagon has prepared a range of military plans for Iran in case Trump resumes attacks. The Strait of Hormuz remains effectively closed. WTI eased toward $103, Brent toward $110.",
+        "context": "Current state (May 21, 2026): The negotiating track hit a substantive wall today. President Trump told reporters at the White House: \"We will get it. We don't need it, we don't want it. We'll probably destroy it after we get it, but we're not going to let them have it,\" referring to Iran's enriched uranium stockpile. Hours earlier, Supreme Leader Mojtaba Khamenei issued a directive (per Reuters citing two senior Iranian sources) that the uranium must not be sent abroad \u2014 contradicting the transfer-to-Russia element of Iran's revised proposal. Iran is also reportedly considering a permanent Hormuz toll system. Iran's ISNA: U.S. text has \"narrowed the gaps to some extent.\" WTI ~$98, Brent ~$102.",
         "lead_articles": [
-            ("Trump Calls Off Planned Iran Strike After Saudi, Qatar, UAE Asked Him to 'Hold Off'", "trump-calls-off-iran-strike-gulf-states-hold-off.html", "May 20, 2026",
-             "President Trump said yesterday he called off a planned military strike on Iran scheduled for Tuesday after leaders from Saudi Arabia, Qatar, and the UAE urged him to hold off, adding that serious negotiations were now underway."),
-            ("Pentagon Has Prepared Range of Military Plans for Iran in Case Trump Resumes Attacks", "pentagon-military-plans-iran-trump-resumes.html", "May 20, 2026",
-             "CNN reported the Pentagon has prepared a range of military plans for Iran in case President Trump decides to resume attacks. The dual posture gives Washington negotiating leverage."),
+            ("Trump vs Khamenei: 'We Will Get It' Clashes with Supreme Leader Order Uranium Must Stay in Iran", "trump-khamenei-uranium-standoff-must-stay-iran.html", "May 21, 2026",
+             "President Trump declared at the White House Thursday the U.S. will eventually recover Iran's stockpile of highly enriched uranium. Hours earlier, Supreme Leader Mojtaba Khamenei issued a directive the uranium must stay in Iran."),
+            ("Iran Considering Permanent Hormuz Toll System; Trump Rejects, France Dismisses NATO Role", "iran-permanent-hormuz-toll-system-trump-rejects.html", "May 21, 2026",
+             "Bloomberg reported Iran is considering a permanent toll system on Hormuz transit. Trump pushed back. France dismissed any NATO role in a Hormuz mission."),
         ],
     },
     "saudi-arabia.html": {
-        "context": "Current state (May 20, 2026): Saudi Arabia was among the Gulf states (alongside Qatar and the UAE) that asked President Trump to call off a planned Iran strike scheduled for Tuesday. Trump confirmed the cancellation. Saudi Aramco CEO Amin Nasser told investors on the Q1 earnings call that market normalization is pushed to 2027 if Hormuz reopening is delayed past mid-June. Saudi production remains at the lowest level since 1990. EIA assesses Iraq, Saudi Arabia, Kuwait, UAE, Qatar, and Bahrain collectively shut in 10.5 million bpd in April, peaking near 10.8 million bpd in May. G7 Paris communiqu\u00e9 concluded May 19 with fiscal-restraint pledge.",
+        "context": "Current state (May 21, 2026): Saudi Arabia was among the Gulf states (alongside Qatar and the UAE) that asked President Trump to call off a planned Iran strike Tuesday. Saudi Aramco CEO Amin Nasser told investors on the Q1 earnings call that market normalization is pushed to 2027 if Hormuz reopening is delayed past mid-June. Saudi production remains at the lowest level since 1990. IEA chief Birol Thursday warned the oil market reaches a \"red zone\" this summer if Hormuz doesn't reopen. EIA: Iraq, Saudi Arabia, Kuwait, UAE, Qatar, and Bahrain collectively shut in 10.5 million bpd in April.",
         "lead_articles": [
+            ("Memorial Day Gas Prices Hit Four-Year High $4.564; IEA Chief Birol Warns of Summer 'Red Zone'", "memorial-day-gas-prices-four-year-high-iea-red-zone.html", "May 21, 2026",
+             "IEA Executive Director Fatih Birol warned the oil market will reach a \"red zone\" this summer if Hormuz doesn't reopen. Aligns with Aramco CEO Nasser's 2027 normalization warning."),
             ("Trump Calls Off Planned Iran Strike After Saudi, Qatar, UAE Asked Him to 'Hold Off'", "trump-calls-off-iran-strike-gulf-states-hold-off.html", "May 20, 2026",
              "Gulf states' coordinated request signals continued regional preference for diplomatic resolution. Saudi Aramco CEO Nasser warned market normalization is pushed to 2027 if Hormuz reopening is delayed past mid-June."),
-            ("G7 Finance Ministers Conclude Paris Meeting with Joint Statement Pledging Fiscal Restraint", "g7-paris-communique-fiscal-restraint-iran-war.html", "May 19, 2026",
-             "G7 finance ministers and central bank governors concluded their two-day Paris meeting with a joint statement pledging fiscal restraint amid Iran-war inflation risks."),
         ],
     },
     "uae.html": {
-        "context": "Current state (May 20, 2026): The UAE was among the Gulf states (alongside Saudi Arabia and Qatar) that asked President Trump to call off a planned Iran strike scheduled for Tuesday. Trump confirmed the cancellation. The UAE formally departed OPEC effective May 1, 2026. EIA's May STEO cut OPEC's 2027 spare capacity forecast to 2.5M bpd from 3.8M prior. ADCOP pipeline carries available bypass volumes. The UAE remains a primary U.S. security partner in the Gulf and attended the G7 Paris meeting as an invited guest. A UAE nuclear facility was attacked over the prior weekend.",
+        "context": "Current state (May 21, 2026): The UAE was among the Gulf states that asked President Trump to call off a planned Iran strike Tuesday. The UAE formally departed OPEC effective May 1, 2026. EIA's May STEO cut OPEC's 2027 spare capacity forecast to 2.5M bpd from 3.8M prior. The UAE remains a primary U.S. security partner in the Gulf. A UAE nuclear facility was attacked the prior weekend. France dismissed any NATO role in a Hormuz mission Thursday: \"The North Atlantic Treaty applies to the North Atlantic.\"",
         "lead_articles": [
             ("Trump Calls Off Planned Iran Strike After Saudi, Qatar, UAE Asked Him to 'Hold Off'", "trump-calls-off-iran-strike-gulf-states-hold-off.html", "May 20, 2026",
              "Gulf states' coordinated request signals continued regional preference for diplomatic resolution. UAE among states asking Trump to hold off."),
@@ -44,38 +44,38 @@ HUBS = {
         ],
     },
     "opec-members.html": {
-        "context": "Current state (May 20, 2026): Saudi Arabia, Qatar, and the UAE (a former OPEC member, departed May 1) coordinated to ask Trump to call off a planned Iran strike Tuesday; Trump confirmed the cancellation. Saudi Aramco CEO Nasser warns market normalization is pushed to 2027 if Hormuz reopening delayed past mid-June. EIA's May STEO cut OPEC's 2027 spare capacity forecast to 2.5 million bpd from 3.8 million prior. Saudi Arabia informed OPEC its output fell to the lowest level since 1990. EIA assesses 10.5 million bpd of Persian Gulf production was shut in during April.",
+        "context": "Current state (May 21, 2026): Saudi Arabia, Qatar, and the UAE (a former OPEC member, departed May 1) asked Trump to call off Tuesday's planned Iran strike. Saudi Aramco CEO Nasser warns market normalization pushed to 2027 if Hormuz reopening delayed past mid-June. IEA chief Birol Thursday: oil market reaches \"red zone\" this summer if Hormuz doesn't reopen. EIA's May STEO cut OPEC's 2027 spare capacity forecast to 2.5 million bpd from 3.8 million prior. Saudi Arabia informed OPEC its output fell to the lowest level since 1990.",
         "lead_articles": [
             ("UAE Officially Departs OPEC Effective May 1; EIA Cuts 2027 Spare Capacity Forecast", "uae-officially-departs-opec-effective-may-1-eia-cuts-spare-capacity.html", "May 13, 2026",
              "The EIA's May Short-Term Energy Outlook released May 12 incorporates the UAE's departure from OPEC, effective May 1, 2026."),
         ],
     },
     "qatar.html": {
-        "context": "Current state (May 20, 2026): Qatar was among the Gulf states (alongside Saudi Arabia and the UAE) that asked President Trump to call off a planned Iran strike Tuesday; Trump confirmed the cancellation. Qatari LNG exports remain disrupted as part of the broader Persian Gulf shutdown that began in late February. EIA's May STEO notes global LNG prices remain elevated as a result of reduced energy flows through the Strait of Hormuz. Qatar's economy minister attended the G7 Paris meeting as an invited guest. U.S. LNG export terminals running near capacity.",
+        "context": "Current state (May 21, 2026): Qatar was among the Gulf states that asked Trump to call off a planned Iran strike Tuesday. Qatari LNG exports remain disrupted as part of the broader Persian Gulf shutdown that began in late February. EIA's May STEO notes global LNG prices remain elevated as a result of reduced energy flows through the Strait of Hormuz. IEA chief Birol Thursday warned of summer \"red zone\" if Hormuz doesn't reopen. JKM and TTF benchmarks elevated.",
         "lead_articles": [],
     },
     "russia.html": {
-        "context": "Current state (May 20, 2026): The U.S. issued a fresh waiver permitting the sale of Russian crude oil and petroleum products already loaded onto tankers \u2014 providing a release valve for global supply during the Persian Gulf disruption. Russia is now centrally positioned in the U.S.-Iran negotiations: Iran's revised proposal includes transferring 60%-enriched uranium to Russian custody. Washington rejected the Russia destination, suggesting an unspecified third country. Russia remains one of few major producers operating outside the Persian Gulf disruption zone.",
+        "context": "Current state (May 21, 2026): Russia's role in any uranium transfer is in flux after Iran's Supreme Leader Mojtaba Khamenei issued a directive Thursday that the country's uranium stockpile must not be sent abroad \u2014 effectively reversing the transfer-to-Russia element of Iran's revised peace proposal. The Kremlin had previously offered to receive and store the material. The U.S. issued a fresh waiver permitting the sale of Russian crude oil already loaded onto tankers, providing a release valve for global supply. Russia remains one of few major producers outside the Persian Gulf disruption zone.",
         "lead_articles": [
-            ("Iran's Revised Peace Proposal: Transfer Enriched Uranium to Russia, Drop Financial Demands", "iran-revised-peace-proposal-uranium-russia-drop-financial-demands.html", "May 18, 2026",
-             "Iranian media reported Tehran's revised peace proposal includes transferring its 60%-enriched uranium stockpile to Russia. The U.S. rejected the destination, suggesting a third country."),
+            ("Trump vs Khamenei: 'We Will Get It' Clashes with Supreme Leader Order Uranium Must Stay in Iran", "trump-khamenei-uranium-standoff-must-stay-iran.html", "May 21, 2026",
+             "Supreme Leader Mojtaba Khamenei's directive that uranium must stay in Iran effectively reverses the transfer-to-Russia element of the revised peace proposal."),
         ],
     },
     "brazil.html": {
-        "context": "Current state (May 20, 2026): Brazilian pre-salt production continues to grow, an increasingly important non-OPEC supply source as Persian Gulf flows remain heavily disrupted. With OPEC's 2027 spare capacity forecast cut to 2.5M bpd from 3.8M prior, Brazil and other non-OPEC producers are receiving heightened market attention. Brazil's finance minister attended the G7 Paris meeting (concluded May 19) as an invited guest. Petrobras Q1 results and pre-salt output milestones are the key watchpoints.",
+        "context": "Current state (May 21, 2026): Brazilian pre-salt production continues to grow, an increasingly important non-OPEC supply source as Persian Gulf flows remain heavily disrupted. With OPEC's 2027 spare capacity forecast cut to 2.5M bpd from 3.8M prior, Brazil and other non-OPEC producers are receiving heightened market attention. Brazil's finance minister attended the G7 Paris meeting (concluded May 19) as an invited guest. Petrobras Q1 results and pre-salt output milestones are the key watchpoints.",
         "lead_articles": [],
     },
     "nigeria.html": {
-        "context": "Current state (May 20, 2026): Nigerian crude is increasingly important to the non-OPEC supply mix as Persian Gulf production remains heavily disrupted. Light, sweet Nigerian grades serve as alternatives for refiners losing access to Middle East crude. Pipeline security, oil-theft enforcement, and African Atlantic Basin flows are the principal watchpoints. The G7 leaders summit June 15-17 in Evian is expected to address rare-earths and supply-chain diversification in detail.",
+        "context": "Current state (May 21, 2026): Nigerian crude is increasingly important to the non-OPEC supply mix as Persian Gulf production remains heavily disrupted. Light, sweet Nigerian grades serve as alternatives for refiners losing access to Middle East crude. Pipeline security, oil-theft enforcement, and African Atlantic Basin flows are the principal watchpoints. The G7 leaders summit June 15-17 in Evian is expected to address rare-earths and supply-chain diversification.",
         "lead_articles": [],
     },
     "venezuela.html": {
-        "context": "Current state (May 20, 2026): Venezuelan production capacity remains a structurally relevant question as global spare capacity has tightened sharply: EIA's May STEO cut OPEC 2027 spare capacity to 2.5M bpd from 3.8M prior following the UAE's departure. Aramco CEO Nasser's 2027 normalization warning underscores the structural tightness. U.S. sanctions policy on Venezuelan crude continues as a relevant input to Atlantic Basin supply balance.",
+        "context": "Current state (May 21, 2026): Venezuelan production capacity remains a structurally relevant question as global spare capacity has tightened sharply: EIA's May STEO cut OPEC 2027 spare capacity to 2.5M bpd from 3.8M prior following the UAE's departure. IEA chief Birol's Thursday \"red zone\" warning underscores the structural tightness. U.S. sanctions policy on Venezuelan crude continues as a relevant input to Atlantic Basin supply balance.",
         "lead_articles": [],
     },
 }
 
-LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: May 20, 2026</div>'''
+LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: May 21, 2026</div>'''
 
 
 def render_article_row(title, slug, date, excerpt):
@@ -108,7 +108,7 @@ def main():
         txt = new_txt
 
         # 2) Add Last reviewed badge after the lead intro paragraph
-        if "Last reviewed: May 20, 2026" not in txt:
+        if "Last reviewed: May 21, 2026" not in txt:
             # Find the close of the lead p tag inside .article-body
             lead_pattern = re.compile(
                 r'(<p style="font-size:16\.5px;line-height:1\.7;color:var\(--text-2\)">[^<]*?</p>)',

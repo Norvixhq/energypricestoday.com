@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=53">
+  <link rel="stylesheet" href="css/styles.css?v=54">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=53">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=53">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=53">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=53">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=53">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=53">
-  <link rel="shortcut icon" href="images/favicon.ico?v=53">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=54">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=54">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=54">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=54">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=54">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=54">
+  <link rel="shortcut icon" href="images/favicon.ico?v=54">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -192,8 +192,8 @@
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=53"></script><script src="js/article-slugs.js?v=53"></script><script src="js/main.js?v=53"></script><script src="js/live-data.js?v=53"></script><script src="js/news-feed.js?v=53"></script>
-  <script src="js/event-state.js?v=53"></script>
+  <script src="js/data.js?v=54"></script><script src="js/article-slugs.js?v=54"></script><script src="js/main.js?v=54"></script><script src="js/live-data.js?v=54"></script><script src="js/news-feed.js?v=54"></script>
+  <script src="js/event-state.js?v=54"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -245,7 +245,7 @@
     // Hormuz and OPEC card bodies are bound to events.json via the spans with
     // data-event-bind — event-state.js will overwrite textContent on fetch.
     // The geopolitics link is appended separately so the bound area stays pure text.
-    var hormuzFallback = 'Strait effectively closed in week 12 of the conflict. Trump called off planned Iran strike Tuesday after Saudi, Qatar, and UAE asked him to \u201Chold off\u201D \u2014 \u201Cserious negotiations now underway\u201D per Trump (Tehran not confirmed). Pre-conflict ~3,000 vessels used the strait monthly; current traffic at ~5% of baseline per Kpler. ~1,550 vessels stranded with ~22,500 mariners trapped. Pentagon has prepared range of military plans for Iran in case Trump resumes. U.S. issued fresh waiver permitting sale of Russian crude already loaded onto tankers. Iran\u2019s revised proposal (uranium to Russia, gradual Hormuz reopening for blockade lift) characterized as \u201Ctoken\u201D by Washington.';
+    var hormuzFallback = 'Strait effectively closed in week 12. Trump-Khamenei uranium standoff: Trump \u201Cwe will get it... we\u2019re not going to let them have it,\u201D Khamenei orders uranium must stay in Iran. Iran considering permanent Hormuz toll system; Trump rejects (\u201Cwe want it open, we want it free\u201D); Rubio warns Iran. France dismissed any NATO role (\u201CNorth Atlantic Treaty applies to the North Atlantic\u201D). IEA chief Birol: oil market reaches \u201Cred zone\u201D this summer if Hormuz doesn\u2019t reopen. Pre-conflict ~3,000 vessels used the strait monthly; current traffic at ~5% of baseline per Kpler. ~1,550 vessels stranded with ~22,500 mariners trapped.';
     var opecFallback   = 'EIA May STEO incorporates UAE departure from OPEC effective May 1. With UAE spare capacity removed, OPEC 2027 spare capacity now 2.5M bpd vs 3.8M prior. April 206K bpd increase proceeded. Saudi East-West Pipeline at full 5M bpd. May ministerial mid-month operates under new composition.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
@@ -272,14 +272,14 @@
       // ─── BEGIN EDITORIAL: refresh during daily pass ───
       var bias = 'Bullish';          // Bullish | Bearish | Mixed
       var conviction = 'Moderate';   // Low | Moderate | High
-      var summary = 'Crude retreated modestly after President Trump said yesterday he called off a planned Iran strike scheduled for Tuesday following Saudi/Qatar/UAE appeals to \u201Chold off,\u201D adding that \u201Cserious negotiations now underway\u201D (Tehran has not confirmed). WTI eased toward $103 from above $107 Monday; Brent toward $110 after $112.93 Tuesday peak. G7 Paris communiqué concluded May 19 with joint fiscal-restraint pledge amid Iran-war inflation risks. CNN reports the Pentagon has prepared a range of military plans for Iran in case Trump resumes attacks \u2014 a dual diplomatic/military posture that keeps the geopolitical premium intact. U.S. issued fresh waiver for Russian crude already loaded onto tankers. Strait of Hormuz remains effectively closed. Saudi Aramco CEO Nasser: market normalization to 2027 if Hormuz reopening delayed past mid-June. Baker Hughes rig count update due Friday May 22.';
+      var summary = 'Crude rebounded modestly Thursday after a three-day slide as Iran\u2019s rhetoric hardened on the two central issues. WTI climbed toward $98 a barrel; Brent closed above $102. Supreme Leader Mojtaba Khamenei issued a directive that Iran\u2019s 60%-enriched uranium stockpile must stay in the country \u2014 reversing the transfer-to-Russia element of the revised proposal. Trump at White House: \u201Cwe will get it... we\u2019re not going to let them have it.\u201D Separately, Bloomberg reported Iran is considering a permanent Hormuz toll system; Trump and Rubio rejected. France dismissed any NATO role in a Hormuz mission. IEA Executive Director Birol warned the oil market reaches a \u201Cred zone\u201D this summer if Hormuz doesn\u2019t reopen. AAA national gas average set a new 2026 high $4.564 \u2014 highest Memorial Day weekend level in four years. Baker Hughes rig count update tomorrow Friday May 22.';
       var drivers = [
-        { label: 'Trump Cancels Strike',  weight: 'Mildly bearish',  note: 'Trump called off planned Iran strike Tuesday after Saudi/Qatar/UAE asked him to hold off — \u201Cserious negotiations now underway\u201D (Tehran not confirmed). Eased near-term escalation risk but no substantive resolution.' },
-        { label: 'G7 Paris Communiqué',   weight: 'Mixed',           note: 'G7 Paris meeting concluded May 19 with joint fiscal-restraint pledge amid Iran-war inflation risks. Lescure hosted; Bessent urged sanctions alignment; Klingbeil called G7 \u201Cthe right framework\u201D for ending war. Leaders summit June 15-17 Evian.' },
-        { label: 'Pentagon Contingency',  weight: 'Bullish',         note: 'CNN: Pentagon has prepared range of military plans for Iran in case Trump resumes. Dual posture keeps escalation premium intact. Iran\u2019s 60%-enriched uranium stockpile (~450kg) remains central unresolved issue.' },
-        { label: 'Aramco 2027 Warning',   weight: 'Strong bullish',  note: 'Saudi Aramco CEO Nasser: market normalization pushed to 2027 if Hormuz reopening delayed past mid-June. Even immediate reopening requires months for rebalance. Saudi production at lowest since 1990.' },
-        { label: 'U.S. Russia Waiver',    weight: 'Mildly bearish',  note: 'U.S. issued fresh waiver permitting sale of Russian crude oil already loaded onto tankers \u2014 provides modest supply release valve. Does not extend to new shipments. Russia central in U.S.-Iran negotiations via uranium proposal.' },
-        { label: 'Federal Gas Tax',       weight: 'Mixed',           note: 'Trump told CBS News he wants to suspend the federal 18.4-cent gasoline tax \u201Cfor a period of time.\u201D AAA national average sits at $4.515, up 43.6% YoY. Six states above $5/gal; California above $6.' },
+        { label: 'Uranium Standoff',     weight: 'Strong bullish',  note: 'Trump: \u201Cwe will get it... we\u2019re not going to let them have it.\u201D Supreme Leader Khamenei: uranium must stay in Iran (per two senior Iranian sources to Reuters). Directly contradicts the transfer-to-Russia element of Iran\u2019s revised proposal. Central unresolved issue.' },
+        { label: 'Hormuz Tolls',         weight: 'Bullish',         note: 'Bloomberg: Iran considering permanent Hormuz toll system. Trump pushes back \u201Cwe want it open, we want it free.\u201D Rubio warns Iran. France dismisses NATO role: \u201CNorth Atlantic Treaty applies to the North Atlantic.\u201D Iran has charged over $1M/ship at points.' },
+        { label: 'IEA Red Zone Warning', weight: 'Strong bullish',  note: 'IEA Executive Director Fatih Birol: oil market reaches \u201Cred zone\u201D this summer if Hormuz doesn\u2019t reopen. \u201CGlobal oil stockpiles will deplete as demand picks up during summer travel.\u201D Aligns with Aramco CEO Nasser\u2019s 2027 normalization warning.' },
+        { label: 'Memorial Day Pump',    weight: 'Bullish',         note: 'AAA national average $4.564 \u2014 new 2026 high, highest Memorial Day weekend in four years. Up 3 cents w/w, +$1.38 YoY (+43.6%). Six states above $5/gal; CA $6.143. Summer driving season begins with the highest holiday prices since 2022.' },
+        { label: 'Aramco 2027 Warning',  weight: 'Strong bullish',  note: 'Saudi Aramco CEO Nasser on Q1 earnings call: market normalization pushed to 2027 if Hormuz reopening delayed past mid-June. Saudi production at lowest since 1990. EIA: 10.5M bpd Persian Gulf production shut in during April.' },
+        { label: 'Iran Partial Bridge',  weight: 'Mixed',           note: 'Iran says latest U.S. proposal \u201Cpartly bridged the gap.\u201D ISNA: U.S. text \u201Cnarrowed the gaps to some extent.\u201D But Khamenei directive on uranium + Hormuz tolls dispute now cloud the outlook. Iran responding to U.S. text via Pakistan.' },
       ];
       // ─── END EDITORIAL ───
 
