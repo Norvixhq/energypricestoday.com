@@ -423,17 +423,25 @@ function slugifyTitle(title) {
 }
 
 // articleUrl() — returns 'articles/<slug>.html' for known titles,
-// or falls back to slugify. PRESERVED AS-IS for backward compatibility
-// with 26+ call sites across the site.
-//
-// Path A Guard B: callers that render lists (map-based card rendering)
-// should filter their arrays via knownArticles() first to eliminate
-// dangling references before they become <a href="..."> with bad URLs.
+// or falls back to slugify with a console warning so we can spot
+// dangling references during dev. Render code paths should prefer
+// articleUrlOrNull() and filter unknown titles upstream. with bad URLs.
 function articleUrl(title) {
   if (typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS[title]) {
     return 'articles/' + ARTICLE_SLUGS[title] + '.html';
   }
+  // Fallback: log + return slugified guess (legacy compat). Filter unknown
+  // titles out of render loops with knownArticleFilter() to eliminate this path.
+  try { console.warn('[articleUrl] unknown title (will fallback to slugify):', title); } catch(e){}
   return 'articles/' + slugifyTitle(title) + '.html';
+}
+
+// Strict variant — returns null instead of slugifying. Prefer in new render code.
+function articleUrlOrNull(title) {
+  if (typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS[title]) {
+    return 'articles/' + ARTICLE_SLUGS[title] + '.html';
+  }
+  return null;
 }
 
 function categoryArticleUrl(title) {
