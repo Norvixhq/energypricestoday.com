@@ -187,6 +187,7 @@ const ARTICLE_SLUGS = {
   "Markets React to Unexpected Inventory Build in Cushing Hub": "markets-react-to-unexpected-inventory-build-in-cushing-hub",
   "Memorial Day Gas Prices Hit Four-Year High $4.564; IEA Chief Birol Warns of Summer 'Red Zone'": "memorial-day-gas-prices-four-year-high-iea-red-zone",
   "Memorial Day Travel Hits Record 45 Million Despite Four-Year-High Pump Prices; Brown Study Tallies $24B Burden": "memorial-day-travel-45-million-record-brown-study-24-billion-burden",
+  "Memorial Day Weekend Ends with $4.491 National Average; Oil Prices Slide on Deal Optimism": "memorial-day-weekend-ends-aaa-449-oil-slides-deal-optimism",
   "Mexico \u2014 Pemex, Gulf of Mexico, Maya Crude": "mexico",
   "Microsoft Signs 20-Year Nuclear Power Purchase Agreement for Data Centers": "microsoft-signs-20-year-nuclear-power-purchase-agreement-for-data-centers",
   "Middle East Tensions Persist": "middle-east-tensions-persist",
@@ -330,6 +331,7 @@ const ARTICLE_SLUGS = {
   "Trump vs Khamenei: 'We Will Get It' Clashes with Supreme Leader Order Uranium Must Stay in Iran": "trump-khamenei-uranium-standoff-must-stay-iran",
   "Trump-Xi Summit in Beijing: Both Sides Agree Strait of Hormuz Must Remain Open": "trump-xi-summit-beijing-iran-hormuz-deal",
   "Trump: Blockade Continues Until Peace Deal Signed": "trump-blockade-continues-until-peace-deal-signed",
+  "Trump: U.S.-Iran Agreement 'Largely Negotiated'; Strait of Hormuz to Reopen Under 60-Day Framework": "trump-iran-agreement-largely-negotiated-60-day-hormuz-framework",
   "Two-Week Ceasefire Expires April 22 \u2014 No Extension Path After Failed Talks": "two-week-ceasefire-expires-april-22-no-extension-path-after-failed-talks",
   "Two-Week Ceasefire Expires April 22 \u2014 No Path to Extension Visible": "two-week-ceasefire-expires-april-22-no-path-to-extension-visible",
   "Two-Week Extension Discussed": "two-week-extension-discussed",
@@ -339,6 +341,7 @@ const ARTICLE_SLUGS = {
   "U.S. Average Gas Price Rises to 3.42 Per Gallon": "us-average-gas-price-rises-to-342-per-gallon",
   "U.S. Awaits Iran Response to 14-Point Memorandum to End Hormuz War": "us-iran-near-14-point-memorandum-to-end-hormuz-war",
   "U.S. Boards Supertanker Carrying Iranian Oil in Indian Ocean": "us-boards-supertanker-carrying-iranian-oil-in-indian-ocean",
+  "U.S. CENTCOM Conducts Defensive Strikes in Southern Iran; IRGC Claims F-35 Engagement": "us-centcom-defensive-strikes-southern-iran-irgc-f35-claim",
   "U.S. Clean Energy Jobs Surpass 4 Million for First Time": "us-clean-energy-jobs-surpass-4-million-for-first-time",
   "U.S. Diesel Prices Why Diesel Costs More Than Gasoline": "us-diesel-prices-why-diesel-costs-more-than-gasoline",
   "U.S. Gas Average Climbs to $4.46, Up Another 6 Cents Over Weekend": "us-gas-average-climbs-to-446-up-another-6-cents-over-weekend",
@@ -423,25 +426,17 @@ function slugifyTitle(title) {
 }
 
 // articleUrl() — returns 'articles/<slug>.html' for known titles,
-// or falls back to slugify with a console warning so we can spot
-// dangling references during dev. Render code paths should prefer
-// articleUrlOrNull() and filter unknown titles upstream. with bad URLs.
+// or falls back to slugify. PRESERVED AS-IS for backward compatibility
+// with 26+ call sites across the site.
+//
+// Path A Guard B: callers that render lists (map-based card rendering)
+// should filter their arrays via knownArticles() first to eliminate
+// dangling references before they become <a href="..."> with bad URLs.
 function articleUrl(title) {
   if (typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS[title]) {
     return 'articles/' + ARTICLE_SLUGS[title] + '.html';
   }
-  // Fallback: log + return slugified guess (legacy compat). Filter unknown
-  // titles out of render loops with knownArticleFilter() to eliminate this path.
-  try { console.warn('[articleUrl] unknown title (will fallback to slugify):', title); } catch(e){}
   return 'articles/' + slugifyTitle(title) + '.html';
-}
-
-// Strict variant — returns null instead of slugifying. Prefer in new render code.
-function articleUrlOrNull(title) {
-  if (typeof ARTICLE_SLUGS !== 'undefined' && ARTICLE_SLUGS[title]) {
-    return 'articles/' + ARTICLE_SLUGS[title] + '.html';
-  }
-  return null;
 }
 
 function categoryArticleUrl(title) {
