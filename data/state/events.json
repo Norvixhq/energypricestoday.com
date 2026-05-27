@@ -1,0 +1,222 @@
+{
+  "version": 2,
+  "generated_at": "2026-05-27T23:05:49.746963+00:00",
+  "previous_generated_at": "",
+  "resolver_run_count": 1,
+  "events": {
+    "hormuz_status": {
+      "key": "hormuz_status",
+      "display_name": "Strait of Hormuz Status",
+      "category": "chokepoint",
+      "status": "OPEN",
+      "status_detail": "Oil drops as Iranian state TV says it has seen draft deal with US to reopen Hormuz",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.914,
+      "last_confirmed": "2026-05-27T17:13:26+00:00",
+      "source_count": 11,
+      "summary_short": "COSCO products tanker leaving Strait of Hormuz, oil traffic still limited",
+      "summary_long": "COSCO products tanker leaving Strait of Hormuz, oil traffic still limited. Oil drops as Iranian state TV says it has seen draft deal with US to reopen Hormuz",
+      "evidence_cluster_ids": [
+        "c_90255c78cb9543",
+        "c_1ecc3ce13ba639",
+        "c_3696e7302a8dad",
+        "c_69b3f97152e387",
+        "c_f070067270fa1e"
+      ],
+      "evidence_count": 11,
+      "affected_pages": [
+        "index.html",
+        "oil-prices.html",
+        "category/geopolitics.html",
+        "markets.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.hormuz-status",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.hormuz",
+        "markets.drivers.hormuz"
+      ],
+      "update_priority": "critical",
+      "freshness": "fresh",
+      "stale_after_hours": 24,
+      "rationale": [
+        "cluster c_90255c78cb → OPEN (kw='reopen', weight=0.53)",
+        "cluster c_963a38d4a8 → CONTESTED (kw='attack', weight=0.08)",
+        "winning=OPEN (0.53/0.61), conf=0.914"
+      ]
+    },
+    "us_iran_ceasefire": {
+      "key": "us_iran_ceasefire",
+      "display_name": "U.S.-Iran Ceasefire",
+      "category": "diplomatic_event",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-05-27T22:22:00+00:00",
+      "source_count": 41,
+      "summary_short": "Russia Boosts Crude Flows as Kremlin Banks Gains From Iran War",
+      "summary_long": "Russia Boosts Crude Flows as Kremlin Banks Gains From Iran War. Oil settles 5% lower as investors await updates on US-Iran peace deal talks",
+      "evidence_cluster_ids": [
+        "c_f51db5b0932b5a",
+        "c_cd976f018046e4",
+        "c_f62f206f768efc",
+        "c_90255c78cb9543",
+        "c_48e776ec4f4c0c"
+      ],
+      "evidence_count": 40,
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.next-catalyst",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.ceasefire"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 72,
+      "rationale": [
+        "fell back to default 'HOLDING'"
+      ],
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
+    },
+    "opec_plus_policy": {
+      "key": "opec_plus_policy",
+      "display_name": "OPEC+ Policy",
+      "category": "policy_state",
+      "status": "HOLDING",
+      "status_detail": "no recent coverage",
+      "status_tag": "No change",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
+      "affected_pages": [
+        "oil-prices.html",
+        "markets.html"
+      ],
+      "dependent_modules": [
+        "oil-prices.drivers.opec",
+        "markets.drivers.opec"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 168,
+      "rationale": [
+        "no matching clusters"
+      ]
+    },
+    "global_risk_level": {
+      "key": "global_risk_level",
+      "display_name": "Global Energy Risk Level",
+      "category": "composite",
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
+      "composite_of": [
+        "hormuz_status",
+        "us_iran_ceasefire",
+        "opec_plus_policy"
+      ],
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
+      "rationale": [
+        "ceasefire=HOLDING (+10)"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.risk-level",
+        "geopolitics.risk-meter.level"
+      ],
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html",
+        "markets.html"
+      ]
+    },
+    "top_story": {
+      "key": "top_story",
+      "display_name": "Current Top Story",
+      "category": "news_event",
+      "cluster_id": "c_ba7f94c5068e7f",
+      "lead_title": "Brent oil jumps more than 3% after Iran vows to retaliate for U.S. strikes",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR0pjbFZrRGxxVXZqOG5MR2RReUJRNjhMWFhsbTRkZm9waTE3VXcyRWNDSU9QeEZMT3p6R282N1ZEQV8xREltU0w4LXBIMGJETTVLc2p2ZWNjZlBFVUM0M1RQcTE0U0MwYm9QaFVKdXhYUkpYSGpUYVN6Ul9udExJZFYxazJZbm5N0gGOAUFVX3lxTFB2ak5CWGwzLTNJWms2ODZfRWxjS2JnQ1hvc2hhU1BTMHZXbVZuQWNpU3ZmR1g0SEFXUDFrYWNhVHFUMzBNRndLYUxUQ0tiQUd3T2RQNGlaWUNYVDVVWlRMd1Y5dVFLUnVqUUUyMmY5NDg4eWViMmVKanNjT0VyN3Iwb0twNTRRbGE2bUlYTVE?oc=5",
+      "lead_source": "CNBC",
+      "topic": "oil",
+      "score": 92.8,
+      "novelty": "new",
+      "source_count": 6,
+      "confidence": 0.95,
+      "dependent_modules": [
+        "homepage.breaking-banner.primary"
+      ],
+      "affected_pages": [
+        "index.html"
+      ]
+    }
+  },
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "new_event",
+      "from": null,
+      "to": "OPEN",
+      "detected_at": "2026-05-27T23:05:49.746794+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-05-27T23:05:49.746794+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "opec_plus_policy",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-05-27T23:05:49.746794+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "new_event",
+      "from": null,
+      "to": "LOW",
+      "detected_at": "2026-05-27T23:05:49.746794+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "top_story",
+      "field": "new_event",
+      "from": null,
+      "to": "",
+      "detected_at": "2026-05-27T23:05:49.746794+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    }
+  ],
+  "resolution_log": [
+    "hormuz_status: resolved=OPEN, confidence=0.914, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
+    "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
+  ]
+}
