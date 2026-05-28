@@ -24,3 +24,14 @@
 [2026-05-28T00:18:43.444841+00:00]   Δ opec_plus_policy.retired: 'HOLDING' → 'None' (triggers_publish=True)
 [2026-05-28T00:18:43.445287+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
 [2026-05-28T00:18:43.445326+00:00] ════════════════════════════════════════════════════════════
+[2026-05-28T04:54:42.601878+00:00] resolver: start
+[2026-05-28T04:54:42.606028+00:00] resolver: scanning 264 clusters across 10 topics
+[2026-05-28T04:54:42.606435+00:00]   hormuz_status: OPEN (conf=0.85, freshness=fresh, clusters=6)
+[2026-05-28T04:54:42.607554+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=10)
+[2026-05-28T04:54:42.607667+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-05-28T04:54:42.607706+00:00]   global_risk_level: LOW (score=10)
+[2026-05-28T04:54:42.607866+00:00]   top_story: 'Markets suggest stocks are on solid ground and crude oil cou' (score=88.9)
+[2026-05-28T04:54:42.607908+00:00] resolver: 1 change(s), 1 meaningful, 0 publish-triggering
+[2026-05-28T04:54:42.607962+00:00]   Δ opec_plus_policy.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-05-28T04:54:42.608594+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-05-28T04:54:42.608634+00:00] ════════════════════════════════════════════════════════════
