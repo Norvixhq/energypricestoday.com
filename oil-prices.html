@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=57">
+  <link rel="stylesheet" href="css/styles.css?v=58">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=57">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=57">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=57">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=57">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=57">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=57">
-  <link rel="shortcut icon" href="images/favicon.ico?v=57">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=58">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=58">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=58">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=58">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=58">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=58">
+  <link rel="shortcut icon" href="images/favicon.ico?v=58">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -192,8 +192,8 @@
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=57"></script><script src="js/article-slugs.js?v=57"></script><script src="js/main.js?v=57"></script><script src="js/live-data.js?v=57"></script><script src="js/news-feed.js?v=57"></script>
-  <script src="js/event-state.js?v=57"></script>
+  <script src="js/data.js?v=58"></script><script src="js/article-slugs.js?v=58"></script><script src="js/main.js?v=58"></script><script src="js/live-data.js?v=58"></script><script src="js/news-feed.js?v=58"></script>
+  <script src="js/event-state.js?v=58"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -245,7 +245,7 @@
     // Hormuz and OPEC card bodies are bound to events.json via the spans with
     // data-event-bind — event-state.js will overwrite textContent on fetch.
     // The geopolitics link is appended separately so the bound area stays pure text.
-    var hormuzFallback = 'Strait effectively closed in week 14 of the conflict, though a 60-day MOU framework now under negotiation would have Iran clear mines and reopen the strait with no tolls during the window. Trump (May 24): agreement \u201Clargely negotiated\u201D; Strait of Hormuz will reopen. Rubio: deal could take \u201Cseveral more days.\u201D U.S. CENTCOM defensive strikes in southern Iran Tuesday; IRGC claims F-35 engagement. Sticking points: Iran says navigation \u201Cwill have costs\u201D; Fars reports strait \u201Cremains under Iran\u2019s management\u201D; frozen assets and uranium unresolved. Pre-conflict ~3,000 vessels/month; current traffic at ~5% of baseline per Kpler. UBS: observed global inventories dropped 246M barrels in March-April; cumulative production losses could exceed 1B barrels by end of May.';
+    var hormuzFallback = 'Strait effectively closed in week 14 of the conflict. Renewed hostilities Thursday: U.S. struck an Iranian military site near Bandar Abbas and intercepted drones near the strait; IRGC claims it retaliated against the U.S. airbase that launched the strikes; Kuwait air defenses responded to threats. In parallel, U.S. officials confirmed Trump has been briefed on a draft MOU to reopen the strait over 60 days in synchronized steps (Iran loosens grip, U.S. pulls back blockade until pre-war status quo). U.S. sanctioned an Iranian shipping agency Wednesday. Pre-conflict ~3,000 vessels/month; current traffic at ~5% of baseline per Kpler. Oil down >10% since May 18; energy executives via MUFG still warn full normalization may not occur until 2027.';
     var opecFallback   = 'EIA May STEO incorporates UAE departure from OPEC effective May 1. With UAE spare capacity removed, OPEC 2027 spare capacity now 2.5M bpd vs 3.8M prior. April 206K bpd increase proceeded. Saudi East-West Pipeline at full 5M bpd. May ministerial mid-month operates under new composition.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
@@ -272,14 +272,14 @@
       // ─── BEGIN EDITORIAL: refresh during daily pass ───
       var bias = 'Mixed';            // Bullish | Bearish | Mixed
       var conviction = 'Moderate';   // Low | Moderate | High
-      var summary = 'WTI briefly fell below $90 a barrel Monday for the first time in nearly three weeks; Brent traded around $98\u2013$99 Tuesday near five-week lows before U.S. defensive strikes in southern Iran caused a partial rebound. The directional bias has shifted: Trump said Saturday on Truth Social that a U.S.-Iran agreement has been \u201Clargely negotiated\u201D and the Strait of Hormuz will reopen, with a proposed 60-day MOU framework under which Iran clears mines, the U.S. lifts the blockade, and the strait operates with no tolls. Rubio: deal could still take \u201Cseveral more days.\u201D Sticking points remain on tolls (Iran said today navigation \u201Cwill have costs\u201D) and frozen assets. AAA national gas pulled back to $4.491; Michigan -20\u00A2 w/w to $4.63. Energy executives via MUFG still warn full normalization may not occur until 2027.';
+      var summary = 'Oil is down more than 10% since May 18, but renewed hostilities Thursday put a floor under the slide: U.S. forces struck an Iranian military site near Bandar Abbas and intercepted drones near the strait, and Iran\\u2019s IRGC claimed a retaliatory attack on the U.S. airbase that launched the strikes. Brent rebounded toward $96\\u2013$97 Thursday after midweek losses; WTI traded around $93. In parallel, U.S. officials confirmed Trump has been briefed on a draft MOU that would reopen Hormuz over 60 days in synchronized steps; Washington sanctioned an Iranian shipping agency Wednesday. Rubio: talks made \\u201Csome progress\\u201D and Trump will give diplomacy \\u201Cevery chance to succeed.\\u201D AAA national gas fell to $4.426 (-12\\u00A2 w/w); EIA reported crude inventories -3.3M barrels to 441.7M. The market is caught between an advancing framework and fresh kinetic risk.';
       var drivers = [
-        { label: 'Deal Largely Negotiated', weight: 'Strong bearish', note: 'Trump said Saturday on Truth Social that a U.S.-Iran agreement has been \u201Clargely negotiated\u201D and the Strait of Hormuz will reopen. Proposed 60-day MOU: Iran clears mines, U.S. lifts blockade, no tolls during window; parallel nuclear and sanctions talks. Regional partners (Pakistan, Qatar, Saudi, UAE, Turkey, Egypt, Jordan, Bahrain) pressing acceptance. First sustained downside catalyst since the war began.' },
-        { label: 'Sticking Points',         weight: 'Bullish',         note: 'Iran foreign ministry Tuesday: Hormuz navigation \u201Cwill have costs.\u201D Fars news agency: strait \u201Cremains under Iran\u2019s management.\u201D Rubio: deal could still take \u201Cseveral more days.\u201D Frozen assets and uranium unresolved. Deal could still fall apart.' },
-        { label: 'Defensive Strikes Resume', weight: 'Bullish',        note: 'U.S. CENTCOM defensive strikes in southern Iran Tuesday, targeting missile sites and mine-laying boats. IRGC claims F-35 engagement in Iranian airspace. Dual-track posture preserves escalation premium even as MOU nears finalization. Markets read this as standard for the negotiating phase.' },
-        { label: 'Inventory Backdrop',       weight: 'Bullish',         note: 'UBS: observed global oil inventories dropped 246M barrels combined in March-April. Cumulative production losses could exceed 1 billion barrels by end of May. Even with a deal, physical recovery takes months \u2014 MUFG and Aramco CEO Nasser warn full normalization may not occur until 2027.' },
-        { label: 'Memorial Day Pullback',    weight: 'Mildly bearish', note: 'AAA national $4.491 today, down from $4.552 Friday. Michigan -20\u00A2 w/w to $4.63. Oregon set Memorial Day all-time record at $5.32 (state pricing dynamics). Wholesale-to-retail lag (1-2 weeks) means further pump declines possible into early June if crude stays softer.' },
-        { label: 'Forward Curve',            weight: 'Mixed',           note: 'HSBC, J.P. Morgan, and EIA April STEO all converging on $95-$96/bbl 2026 Brent average; J.P. Morgan sees $75 for 2027 if normalization proceeds. Goldman Sachs raised year-end Brent forecast to $82. Forward curve now pricing meaningful normalization probability for the first time.' },
+        { label: 'Strikes Resume',          weight: 'Strong bullish', note: 'U.S. struck an Iranian military site near Bandar Abbas Thursday and intercepted drones near the strait; IRGC claims it retaliated against the U.S. airbase that launched the strikes; Kuwait air defenses responded to threats. Renewed kinetic risk put a floor under the multi-day slide and revived supply-disruption fears.' },
+        { label: 'MOU Briefed to Trump',     weight: 'Strong bearish', note: 'U.S. officials confirmed Trump briefed on draft MOU to reopen Hormuz over 60 days in synchronized steps (Iran loosens grip, U.S. pulls back blockade until pre-war status quo). The most concrete reopening structure yet. A signed deal is the dominant medium-term bearish catalyst.' },
+        { label: 'Sanctions + Tolls Dispute', weight: 'Bullish',       note: 'U.S. sanctioned an Iranian agency seeking to control Hormuz shipping Wednesday. Iran\\u2019s Fars news agency: strait \\u201Cremains under Iran\\u2019s management.\\u201D Who controls the waterway and whether Iran can charge tolls remains the principal sticking point alongside uranium and frozen assets. Deal could still fall apart.' },
+        { label: 'Inventory Draw',           weight: 'Bullish',        note: 'EIA Thursday: U.S. crude inventories -3.3M barrels to 441.7M (2% below 5-yr average); gasoline -2.6M; Cushing -2.8M to 23.0M. Refinery utilization 94.5%. The physical market stays tight because Hormuz traffic has not resumed, even as prices retreat on diplomacy.' },
+        { label: 'Pump Pullback',            weight: 'Mildly bearish', note: 'AAA national $4.426 today, down 12\\u00A2 on the week \\u2014 first sustained pullback since the war began. Diesel ~$5.52. Wholesale-to-retail lag (1-2 weeks) means further pump declines possible into early June if crude holds, but a breakdown in talks or sharper escalation reverses that quickly.' },
+        { label: 'Forward Curve',            weight: 'Mixed',          note: 'EIA May STEO sees Brent ~$106 in May-June falling to ~$89 in 4Q26 and ~$79 in 2027 as Middle East output recovers. HSBC and J.P. Morgan cluster near $95-$96 for 2026. The curve now prices meaningful normalization probability \\u2014 a phased 60-day reopening, not an overnight one.' },
       ];
       // ─── END EDITORIAL ───
 
@@ -364,6 +364,6 @@
       ['Heating Oil','category/heating-oil.html','flame','Diesel, distillate markets'],
     ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
   </script>
-  <script src="js/analytics.js?v=57"></script>
-  <script src="js/related-articles.js?v=57"></script>
+  <script src="js/analytics.js?v=58"></script>
+  <script src="js/related-articles.js?v=58"></script>
 </body></html>
