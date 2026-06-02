@@ -17,67 +17,67 @@ ARTICLES = ROOT / "articles"
 # ─── Per-hub current context (verified May 17, 2026) ──────────────────
 HUBS = {
     "iran.html": {
-        "context": "Current state (May 28, 2026): The conflict\u2019s two tracks diverged sharply today. On the ground, U.S. forces struck an Iranian military site near Bandar Abbas and intercepted several drones near the Strait of Hormuz; Iran\u2019s Revolutionary Guard Corps said it retaliated against the U.S. airbase that launched the strikes, warning that \"any act of aggression will not go unanswered.\" On paper, U.S. officials confirmed President Trump has been briefed on a draft MOU that would reopen the strait over 60 days in synchronized steps. Washington sanctioned an Iranian agency seeking to control Hormuz shipping on Wednesday. Iranians are back online after a monthslong internet shutdown. Rubio: talks made \"some progress\"; Trump will give diplomacy \"every chance to succeed.\"",
+        "context": "Current state (June 1, 2026): Iran announced Monday it is halting all communication with the United States unless Israel stops its expanding offensive in southern Lebanon, freezing a negotiating track that days earlier looked close to a 60-day MOU. Foreign Minister Araghchi: a U.S.-Iran ceasefire \"constitutes, without any ambiguity, a comprehensive ceasefire across all fronts, including Lebanon.\" Tehran threatened to completely close the Strait of Hormuz and open the Bab el-Mandeb front. Iran crude loadings fell below 0.3M bpd in May (from 1.5M in April per UBS). President Trump told CNBC he \"couldn\u2019t care less\" if talks end, then said calls with Netanyahu and Hezbollah secured a halt to the Lebanon shooting; the Iran-U.S. channel stayed frozen.",
         "lead_articles": [
-            ("U.S. Strikes Iranian Military Site at Bandar Abbas; IRGC Claims Retaliatory Airbase Attack", "us-strikes-bandar-abbas-irgc-claims-retaliatory-airbase-attack.html", "May 28, 2026",
-             "U.S. forces struck an Iranian military site near Bandar Abbas Thursday and intercepted drones near the strait. Iran\u2019s IRGC said it retaliated against the U.S. airbase that launched the strikes; Kuwait\u2019s air defenses responded to threats."),
-            ("Trump Briefed on Draft MOU That Would Reopen Hormuz Over 60 Days in Synchronized Steps", "trump-briefed-draft-mou-hormuz-60-day-synchronized-reopening.html", "May 28, 2026",
-             "U.S. officials confirmed Trump has been briefed on a draft MOU that would reopen the strait over 60 days in synchronized steps \u2014 Iran loosening its grip as the U.S. pulls back its blockade until pre-war status quo."),
+            ("Iran Halts Communication With U.S. Over Israel\u2019s Lebanon Offensive; Threatens to Close Hormuz", "iran-halts-us-communication-lebanon-offensive-hormuz-threat.html", "June 1, 2026",
+             "Iran announced Monday it is halting all communication with the U.S. unless Israel stops its Lebanon offensive. FM Araghchi said any ceasefire must cover \"all fronts, including Lebanon.\" Tehran threatened to close Hormuz and open the Bab el-Mandeb front."),
+            ("Trump Brokers Israel-Hezbollah Shooting Halt as Iran Freezes U.S. Talks Over Lebanon", "trump-brokers-israel-hezbollah-shooting-halt-iran-freezes-talks.html", "June 1, 2026",
+             "Trump said calls with Netanyahu and, via intermediaries, Hezbollah secured pledges that \"all shooting will stop\" in Lebanon, even as Iran suspended its diplomatic channel with Washington over the same escalation."),
         ],
     },
     "saudi-arabia.html": {
-        "context": "Current state (May 28, 2026): Saudi Arabia remains among the regional partners pressing Washington to accept a U.S.-Iran framework even as hostilities flared anew. U.S. forces struck an Iranian site near Bandar Abbas Thursday; Iran\u2019s IRGC claimed a retaliatory airbase attack, and Kuwait\u2019s air defenses responded to threats \u2014 underscoring continued Gulf spillover risk. In parallel, Trump has been briefed on a draft MOU to reopen Hormuz over 60 days in synchronized steps. Saudi Aramco CEO Amin Nasser has warned market normalization is pushed to 2027 if reopening is delayed past mid-June. Saudi production remains at the lowest level since 1990. Brent rebounded toward $96\u2013$97 Thursday; oil is down >10% since May 18.",
+        "context": "Current state (June 1, 2026): Saudi Arabia is watching the U.S.-Iran channel freeze after Iran suspended communication over Israel\u2019s Lebanon offensive and threatened to close the Strait of Hormuz. Saudi Aramco CEO Amin Nasser has warned market normalization is pushed to 2027 if reopening is delayed past mid-June \u2014 a deadline now in jeopardy with talks stalled. Saudi production remains at the lowest level since 1990. Oil rallied Monday (Brent +4% to $94.98, WTI +5% to $92.16) after Brent\u2019s ~19% slide in May, its worst month since the pandemic.",
         "lead_articles": [
-            ("Trump Briefed on Draft MOU That Would Reopen Hormuz Over 60 Days in Synchronized Steps", "trump-briefed-draft-mou-hormuz-60-day-synchronized-reopening.html", "May 28, 2026",
-             "Saudi Arabia is among the regional partners pressing Washington to accept a framework. The draft MOU would reopen the strait over 60 days in synchronized steps."),
-            ("U.S. Strikes Iranian Military Site at Bandar Abbas; IRGC Claims Retaliatory Airbase Attack", "us-strikes-bandar-abbas-irgc-claims-retaliatory-airbase-attack.html", "May 28, 2026",
-             "Renewed hostilities underscored continued Gulf spillover risk: Kuwait\u2019s air defenses responded to hostile missile and drone threats Thursday morning."),
+            ("Oil Jumps as Trump Says He \u2018Couldn\u2019t Care Less\u2019 Whether Iran Talks End", "oil-jumps-trump-couldnt-care-less-iran-talks-end.html", "June 1, 2026",
+             "Oil rallied Monday after the U.S.-Iran channel froze. WTI rose more than 5% to $92.16, Brent more than 4% to $94.98, erasing hopes for a near-term Hormuz reopening."),
+            ("Iran Halts Communication With U.S. Over Israel\u2019s Lebanon Offensive; Threatens to Close Hormuz", "iran-halts-us-communication-lebanon-offensive-hormuz-threat.html", "June 1, 2026",
+             "Tehran threatened to completely close the Strait of Hormuz and open the Bab el-Mandeb front, reviving the supply-disruption fears that keep Saudi shut-in barrels off the market."),
         ],
     },
     "uae.html": {
-        "context": "Current state (May 28, 2026): The UAE remains among the Gulf states pressing Washington to accept a U.S.-Iran framework. The UAE formally departed OPEC effective May 1, 2026. Renewed hostilities Thursday \u2014 a U.S. strike near Bandar Abbas, an IRGC claim of a retaliatory airbase attack, and Kuwait air defenses responding to threats \u2014 underscored that Gulf spillover risk remains live. In parallel, Trump has been briefed on a draft MOU to reopen Hormuz over 60 days in synchronized steps; Washington sanctioned an Iranian shipping agency Wednesday. ADCOP pipeline continues to carry available bypass volumes that don\u2019t transit Hormuz. The UAE remains a primary U.S. security partner in the Gulf.",
+        "context": "Current state (June 1, 2026): The UAE, which formally departed OPEC effective May 1, is watching the U.S.-Iran channel freeze after Iran suspended communication over Israel\u2019s Lebanon offensive and threatened to close the Strait of Hormuz and open the Bab el-Mandeb front. The renewed Lebanon escalation and Hormuz-closure threat keep Gulf spillover risk live. ADCOP pipeline continues to carry available bypass volumes that don\u2019t transit Hormuz. Oil rallied Monday (Brent +4% to $94.98) after a brutal May. The UAE remains a primary U.S. security partner in the Gulf.",
         "lead_articles": [
-            ("Trump Briefed on Draft MOU That Would Reopen Hormuz Over 60 Days in Synchronized Steps", "trump-briefed-draft-mou-hormuz-60-day-synchronized-reopening.html", "May 28, 2026",
-             "The UAE, alongside Saudi Arabia and Qatar, has pressed Washington to accept a framework. The draft MOU envisions a phased, reciprocal reopening of the strait."),
+            ("Iran Halts Communication With U.S. Over Israel\u2019s Lebanon Offensive; Threatens to Close Hormuz", "iran-halts-us-communication-lebanon-offensive-hormuz-threat.html", "June 1, 2026",
+             "Iran suspended its U.S. channel over Israel\u2019s Lebanon offensive and threatened to close Hormuz \u2014 reviving the Gulf supply-disruption risk that bypass routes like ADCOP only partly offset."),
             ("UAE Nuclear Facility Attacked Over Weekend in Persian Gulf Escalation", "uae-nuclear-facility-attacked-weekend-persian-gulf-escalation.html", "May 18, 2026",
              "Energy infrastructure across the Persian Gulf came under attack, including a nuclear facility in the United Arab Emirates."),
         ],
     },
     "opec-members.html": {
-        "context": "Current state (May 28, 2026): Renewed U.S.-Iran hostilities Thursday \u2014 a U.S. strike near Bandar Abbas and an IRGC claim of a retaliatory airbase attack \u2014 reminded markets the conflict is not resolved even as a draft MOU to reopen Hormuz over 60 days was briefed to Trump. Saudi Arabia, Qatar, and the UAE (former member, departed May 1) are among the regional partners pressing acceptance. The proposed framework would let Iran freely sell oil during the synchronized reopening. EIA assessed 10.5M bpd of Persian Gulf production shut in during April; energy executives via MUFG still warn full normalization may not occur until 2027. Brent rebounded toward $96\u2013$97 Thursday; oil is down >10% since May 18.",
+        "context": "Current state (June 1, 2026): The U.S.-Iran negotiating channel froze Monday after Iran suspended communication over Israel\u2019s Lebanon offensive and threatened to close the Strait of Hormuz, reviving the supply-disruption premium. Saudi Arabia, Qatar, and the UAE (former member, departed May 1) are watching a reopening timeline slip. Iran crude loadings fell below 0.3M bpd in May. EIA assessed ~10.5M bpd of Persian Gulf production shut in; energy executives via MUFG warn full normalization may not occur until 2027. Oil rallied Monday (Brent +4% to $94.98) after its worst month since the pandemic.",
         "lead_articles": [
-            ("Trump Briefed on Draft MOU That Would Reopen Hormuz Over 60 Days in Synchronized Steps", "trump-briefed-draft-mou-hormuz-60-day-synchronized-reopening.html", "May 28, 2026",
-             "Saudi Arabia, Qatar, and the UAE are among the regional partners pressing acceptance. A phased reopening would let Iran freely sell oil during the window."),
+            ("Oil Jumps as Trump Says He \u2018Couldn\u2019t Care Less\u2019 Whether Iran Talks End", "oil-jumps-trump-couldnt-care-less-iran-talks-end.html", "June 1, 2026",
+             "Oil rallied Monday as the U.S.-Iran channel froze, erasing hopes for a near-term Hormuz reopening that would let shut-in OPEC barrels return."),
             ("UAE Officially Departs OPEC Effective May 1; EIA Cuts 2027 Spare Capacity Forecast", "uae-officially-departs-opec-effective-may-1-eia-cuts-spare-capacity.html", "May 13, 2026",
              "The EIA\u2019s May Short-Term Energy Outlook incorporates the UAE\u2019s departure from OPEC, effective May 1, 2026."),
         ],
     },
     "qatar.html": {
-        "context": "Current state (May 28, 2026): Qatar remains one of the principal mediators of the U.S.-Iran framework alongside Pakistan. Renewed hostilities Thursday \u2014 a U.S. strike near Bandar Abbas, an IRGC retaliatory-airbase claim, and Kuwait air defenses responding to threats \u2014 underscored regional spillover risk even as a draft MOU to reopen Hormuz over 60 days was briefed to Trump. The framework would allow Qatari LNG exports to resume as the strait reopens in synchronized steps. JKM and TTF benchmarks remain elevated. Qatar\u2019s diplomats continue shuttle contacts with Iranian counterparts and U.S. envoy Steve Witkoff.",
+        "context": "Current state (June 1, 2026): Qatar, a principal mediator alongside Pakistan, is watching the U.S.-Iran channel freeze after Iran suspended communication over Israel\u2019s Lebanon offensive. Tehran threatened to completely close the Strait of Hormuz and open the Bab el-Mandeb front, which would further disrupt Qatari LNG flows. The collapse of the talks erases the near-term path to a 60-day MOU that would have reopened the strait. JKM and TTF benchmarks remain elevated. Trump said late-Monday calls with Netanyahu and Hezbollah secured a halt to the Lebanon shooting.",
         "lead_articles": [],
     },
     "russia.html": {
-        "context": "Current state (May 28, 2026): Russia remains one of few major producers outside the Persian Gulf disruption zone. The proposed U.S.-Iran 60-day MOU sets nuclear-program negotiations as a parallel track rather than a precondition, and Iran\u2019s foreign ministry has said nuclear issues are not part of current talks \u2014 deprioritizing the earlier uranium-transfer-to-Russia element of Iran\u2019s proposals. The U.S. previously issued a waiver permitting the sale of Russian crude already loaded onto tankers. With Brent pulling back toward $96\u2013$97 and oil down >10% since May 18, Urals discount dynamics are again in focus.",
+        "context": "Current state (June 1, 2026): Russia remains one of few major producers outside the Persian Gulf disruption zone as the U.S.-Iran channel freezes over Israel\u2019s Lebanon offensive. The collapse of talks and Tehran\u2019s threat to close the Strait of Hormuz revived the supply-disruption premium, sending Brent +4% to $94.98 Monday after its ~19% slide in May. The U.S. previously issued a waiver permitting the sale of Russian crude already loaded onto tankers. Urals discount dynamics are again in focus as benchmark prices whipsaw.",
         "lead_articles": [
-            ("Trump Briefed on Draft MOU That Would Reopen Hormuz Over 60 Days in Synchronized Steps", "trump-briefed-draft-mou-hormuz-60-day-synchronized-reopening.html", "May 28, 2026",
-             "The 60-day MOU keeps nuclear negotiations on a parallel track. Iran\u2019s foreign ministry has said nuclear issues are not part of current talks."),
+            ("Oil Jumps as Trump Says He \u2018Couldn\u2019t Care Less\u2019 Whether Iran Talks End", "oil-jumps-trump-couldnt-care-less-iran-talks-end.html", "June 1, 2026",
+             "Oil rallied Monday as the U.S.-Iran channel froze. The renewed disruption premium affects Urals differential dynamics for one of few producers outside the Gulf zone."),
         ],
     },
     "brazil.html": {
-        "context": "Current state (May 28, 2026): Brazilian pre-salt production continues to grow as a non-OPEC supply source even as a U.S.-Iran 60-day MOU to reopen Hormuz advances. Renewed hostilities Thursday \u2014 a U.S. strike near Bandar Abbas and an IRGC retaliatory-airbase claim \u2014 reminded markets the Persian Gulf disruption is not yet resolved. Brent pulled back toward $96\u2013$97 (oil down >10% since May 18), which affects pre-salt project economics at the margin. Petrobras Q1 results and pre-salt output milestones remain key watchpoints.",
+        "context": "Current state (June 1, 2026): Brazilian pre-salt production continues to grow as a non-OPEC supply source as the U.S.-Iran channel freezes over Israel\u2019s Lebanon offensive. Tehran\u2019s threat to close the Strait of Hormuz revived the supply premium, sending Brent +4% to $94.98 Monday after a May in which it fell ~19% \u2014 its worst month since the pandemic. The price whipsaw affects pre-salt project economics at the margin. Petrobras Q1 results and pre-salt output milestones remain key watchpoints.",
         "lead_articles": [],
     },
     "nigeria.html": {
-        "context": "Current state (May 28, 2026): Nigerian crude remains important to the non-OPEC supply mix even as a U.S.-Iran 60-day MOU to reopen Hormuz advances. Light, sweet Nigerian grades have served as alternatives for refiners losing access to Middle East crude through the conflict. Renewed hostilities Thursday \u2014 a U.S. strike near Bandar Abbas and an IRGC retaliatory-airbase claim \u2014 underscored that the disruption persists; Brent rebounded toward $96\u2013$97 with oil down >10% since May 18. The G7 leaders summit June 15-17 in Evian is expected to address supply-chain diversification.",
+        "context": "Current state (June 1, 2026): Nigerian crude remains important to the non-OPEC supply mix as the U.S.-Iran channel freezes over Israel\u2019s Lebanon offensive. Light, sweet Nigerian grades have served as alternatives for refiners losing access to Middle East crude through the conflict. Tehran\u2019s threat to close the Strait of Hormuz and open the Bab el-Mandeb front revived the supply premium, sending Brent +4% to $94.98 Monday. The G7 leaders summit June 15-17 in Evian is expected to address supply-chain diversification.",
         "lead_articles": [],
     },
     "venezuela.html": {
-        "context": "Current state (May 28, 2026): Venezuelan production capacity remains a structurally relevant question as a U.S.-Iran 60-day MOU to reopen Hormuz advances. Renewed hostilities Thursday \u2014 a U.S. strike near Bandar Abbas and an IRGC retaliatory-airbase claim \u2014 reminded markets the Persian Gulf disruption persists. EIA\u2019s May STEO cut OPEC 2027 spare capacity to 2.5M bpd from 3.8M prior, keeping non-OPEC supply quality in focus. U.S. sanctions policy on Venezuelan crude remains a relevant input to Atlantic Basin balances. Brent rebounded toward $96\u2013$97; oil is down >10% since May 18.",
+        "context": "Current state (June 1, 2026): Venezuelan production capacity remains a structurally relevant question as the U.S.-Iran channel freezes over Israel\u2019s Lebanon offensive. Tehran\u2019s threat to close the Strait of Hormuz and open the Bab el-Mandeb front revived the supply-disruption premium, sending Brent +4% to $94.98 Monday after its worst month since the pandemic. U.S. sanctions policy on Venezuelan crude remains a relevant input to Atlantic Basin balances as benchmark prices whipsaw.",
         "lead_articles": [],
     },
 }
 
-LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: May 28, 2026</div>'''
+LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: June 1, 2026</div>'''
 
 
 def render_article_row(title, slug, date, excerpt):
@@ -110,7 +110,7 @@ def main():
         txt = new_txt
 
         # 2) Add Last reviewed badge after the lead intro paragraph
-        if "Last reviewed: May 28, 2026" not in txt:
+        if "Last reviewed: June 1, 2026" not in txt:
             # Find the close of the lead p tag inside .article-body
             lead_pattern = re.compile(
                 r'(<p style="font-size:16\.5px;line-height:1\.7;color:var\(--text-2\)">[^<]*?</p>)',
