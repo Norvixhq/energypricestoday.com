@@ -168,7 +168,7 @@ function renderHeader(activePage) {
   // Single logo for both themes — same asset used in dark and light modes.
   // This is the original setup, restored at the user's request after multiple
   // unsuccessful attempts at a light-mode variant.
-  var logoSrc = prefix + 'images/logo.png?v=62';
+  var logoSrc = prefix + 'images/logo.png?v=63';
   var logoMarkup = `<img src="${logoSrc}" alt="EnergyPricesToday.com" class="logo-img" width="332" height="64" decoding="async" fetchpriority="high">`;
 
   document.getElementById('site-header').innerHTML = `
@@ -487,7 +487,7 @@ function initNewsletter() {
 function renderFooter() {
   const inSub = window.location.pathname.includes('/category/') || window.location.pathname.includes('/authors/') || window.location.pathname.includes('/articles/');
   const p = inSub ? '../' : '';
-  const footerLogoMarkup = `<img src="${p}images/logo.png?v=62" alt="EnergyPricesToday.com" class="footer-logo-img">`;
+  const footerLogoMarkup = `<img src="${p}images/logo.png?v=63" alt="EnergyPricesToday.com" class="footer-logo-img">`;
 
   document.getElementById('site-footer').innerHTML = `
     <div class="container">
@@ -640,16 +640,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ─── LOAD MORE ARTICLES ──────────────────────────────────────────
 var EXTRA_ARTICLES = [
-  { title: "OPEC+ Considers Easing Production Cuts in Q4 2026", author: "Staff", date: "Mar 28, 2026", readTime: "5 min" },
-  { title: "China's Strategic Petroleum Reserve Purchases Slow in March", author: "Staff", date: "Mar 27, 2026", readTime: "4 min" },
-  { title: "U.S. Shale Operators Report Highest Well Productivity on Record", author: "Staff", date: "Mar 26, 2026", readTime: "6 min" },
-  { title: "IEA Warns of Potential Supply Shortfall in Late 2026", author: "Staff", date: "Mar 25, 2026", readTime: "5 min" },
-  { title: "European Refiners Boost Margins With Russian Crude Alternatives", author: "Staff", date: "Mar 24, 2026", readTime: "4 min" },
-  { title: "Brazil's Pre-Salt Output Reaches 4 Million Barrels Per Day Milestone", author: "Staff", date: "Mar 23, 2026", readTime: "5 min" },
-  { title: "Natural Gas Flaring Reduction Efforts Gain Momentum in Permian", author: "Staff", date: "Mar 22, 2026", readTime: "4 min" },
-  { title: "India Diversifies Crude Imports Away From Middle East Dependence", author: "Staff", date: "Mar 21, 2026", readTime: "5 min" },
-  { title: "Global Oil Tanker Rates Spike on Red Sea Rerouting Congestion", author: "Staff", date: "Mar 20, 2026", readTime: "4 min" },
-  { title: "Electric Vehicle Sales Growth Slows in Europe But Accelerates in Asia", author: "Staff", date: "Mar 19, 2026", readTime: "6 min" },
+  { title: "OPEC+ Considers Easing Production Cuts in Q4 2026", author: "EnergyPricesToday Editorial", date: "Mar 28, 2026", readTime: "5 min" },
+  { title: "China's Strategic Petroleum Reserve Purchases Slow in March", author: "EnergyPricesToday Editorial", date: "Mar 27, 2026", readTime: "4 min" },
+  { title: "U.S. Shale Operators Report Highest Well Productivity on Record", author: "EnergyPricesToday Editorial", date: "Mar 26, 2026", readTime: "6 min" },
+  { title: "IEA Warns of Potential Supply Shortfall in Late 2026", author: "EnergyPricesToday Editorial", date: "Mar 25, 2026", readTime: "5 min" },
+  { title: "European Refiners Boost Margins With Russian Crude Alternatives", author: "EnergyPricesToday Editorial", date: "Mar 24, 2026", readTime: "4 min" },
+  { title: "Brazil's Pre-Salt Output Reaches 4 Million Barrels Per Day Milestone", author: "EnergyPricesToday Editorial", date: "Mar 23, 2026", readTime: "5 min" },
+  { title: "Natural Gas Flaring Reduction Efforts Gain Momentum in Permian", author: "EnergyPricesToday Editorial", date: "Mar 22, 2026", readTime: "4 min" },
+  { title: "India Diversifies Crude Imports Away From Middle East Dependence", author: "EnergyPricesToday Editorial", date: "Mar 21, 2026", readTime: "5 min" },
+  { title: "Global Oil Tanker Rates Spike on Red Sea Rerouting Congestion", author: "EnergyPricesToday Editorial", date: "Mar 20, 2026", readTime: "4 min" },
+  { title: "Electric Vehicle Sales Growth Slows in Europe But Accelerates in Asia", author: "EnergyPricesToday Editorial", date: "Mar 19, 2026", readTime: "6 min" },
 ];
 
 function initLoadMore() {
