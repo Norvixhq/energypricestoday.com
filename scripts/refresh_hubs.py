@@ -17,67 +17,67 @@ ARTICLES = ROOT / "articles"
 # ─── Per-hub current context (verified May 17, 2026) ──────────────────
 HUBS = {
     "iran.html": {
-        "context": "Current state (June 7, 2026): Escalation has re-intensified. Israel struck Iranian-backed Hezbollah military targets in southern Beirut on Sunday in response to Hezbollah firing missiles into northern Israel \u2014 a dangerous moment for the U.S.-Iran peace talks. Before the strike, Iran\u2019s Islamic Revolutionary Guard Corps warned via state media that if Israel hit Beirut, Iran would launch strikes against Israel and could halt negotiations with Washington. Over the weekend, U.S. and Iranian forces exchanged strikes near the Strait of Hormuz: CENTCOM intercepted a wave of Iranian missiles and drones, struck Iranian coastal radar sites, and downed six drones in two days, while Iran fired \"warning\" shots near the strait. President Trump nonetheless said talks were progressing well.",
+        "context": "Current state (June 9, 2026): De-escalation has taken hold. After Israel\u2019s Sunday strike on Hezbollah targets in southern Beirut, Iran followed through on its warning and exchanged strikes with Israel over the weekend \u2014 then announced Monday it had ended its military operations, and the two countries agreed Tuesday to halt attacks against each other. President Trump says both are close to a new ceasefire, with progress between Washington and Tehran. Iran warns operations could resume if Israel continues its campaign in Lebanon. Crude round-tripped the episode, falling below $90 after touching $95. The Strait of Hormuz remains closed under the dual U.S.-Iran blockade; Fitch projects it could reopen around the end of July.",
         "lead_articles": [
-            ("Israel Strikes Hezbollah Targets in Southern Beirut, Imperiling U.S.-Iran Talks", "israel-strikes-southern-beirut-imperiling-us-iran-talks.html", "June 7, 2026",
-             "Israel struck Hezbollah targets in southern Beirut Sunday. Iran\u2019s IRGC had warned it would strike Israel and could halt negotiations with the U.S. if Beirut were hit \u2014 a dangerous moment for the talks and the tenuous ceasefire."),
-            ("U.S. and Iran Exchange Strikes Near Hormuz; CENTCOM Downs Drones, Hits Coastal Radar", "us-iran-exchange-strikes-hormuz-centcom-downs-drones-coastal-radar.html", "June 7, 2026",
-             "U.S. and Iranian forces exchanged strikes near the strait over the weekend; CENTCOM downed six Iranian drones and struck coastal radar sites, while Iran fired \"warning\" shots tied to U.S. naval repositioning."),
+            ("Iran and Israel Agree to Halt Attacks After Weekend Exchange; Trump Says New Ceasefire Is Close", "iran-israel-agree-halt-attacks-trump-new-ceasefire-close.html", "June 9, 2026",
+             "Iran and Israel agreed Tuesday to halt attacks after a weekend exchange of strikes threatened the fragile ceasefire. Trump says both are close to a new ceasefire \u2014 though Iran warns operations resume if Israel continues in Lebanon."),
+            ("Oil Falls Below $90 After Touching $95; Crude Surrenders the Escalation Spike", "oil-falls-below-90-after-95-crude-surrenders-escalation-spike.html", "June 9, 2026",
+             "Crude round-tripped the escalation: WTI spiked to $95 early Monday before falling below $90 Tuesday as the halt in attacks revived the diplomatic track."),
         ],
     },
     "saudi-arabia.html": {
-        "context": "Current state (June 7, 2026): Saudi Arabia is watching a sharp re-escalation. Israel struck Hezbollah targets in southern Beirut on Sunday, and Iran had warned it would retaliate and could halt U.S. talks if Beirut were hit; over the weekend U.S. and Iranian forces exchanged strikes near the Strait of Hormuz, with a strike also hitting Kuwait International Airport \u2014 a sign of widening Gulf spillover. Saudi Aramco CEO Amin Nasser has warned market normalization slips to 2027 if reopening is delayed past mid-June. Saudi production remains at the lowest level since 1990. Brent slid to ~$93 Friday on weak Chinese demand even as it held 3\u20134% higher for the week.",
+        "context": "Current state (June 9, 2026): Saudi Arabia is watching de-escalation take hold. Iran and Israel agreed Tuesday to halt attacks after a weekend exchange of strikes, and Trump says both are close to a new ceasefire \u2014 reviving the path toward a phased Hormuz reopening that Fitch now pegs around the end of July. OPEC+ approved a July quota increase of 188,000 bpd despite persistent supply risks. Saudi production remains near its lowest since 1990 with ~10.5M bpd of Gulf output shut in; Aramco CEO Amin Nasser has warned normalization slips to 2027 if reopening is delayed past mid-June \u2014 a deadline now passing. Crude fell below $90 as the escalation premium unwound.",
         "lead_articles": [
-            ("U.S. and Iran Exchange Strikes Near Hormuz; CENTCOM Downs Drones, Hits Coastal Radar", "us-iran-exchange-strikes-hormuz-centcom-downs-drones-coastal-radar.html", "June 7, 2026",
-             "U.S. and Iranian forces exchanged strikes near Hormuz over the weekend; a strike also hit Kuwait International Airport, underscoring the conflict\u2019s widening spillover across the Gulf."),
-            ("Israel Strikes Hezbollah Targets in Southern Beirut, Imperiling U.S.-Iran Talks", "israel-strikes-southern-beirut-imperiling-us-iran-talks.html", "June 7, 2026",
-             "Israel\u2019s strike on southern Beirut Sunday raised the risk of a wider escalation that would keep Saudi shut-in barrels off the market."),
+            ("Oil Falls Below $90 After Touching $95; Crude Surrenders the Escalation Spike", "oil-falls-below-90-after-95-crude-surrenders-escalation-spike.html", "June 9, 2026",
+             "Crude surrendered the weekend\u2019s escalation spike as Iran and Israel halted attacks. OPEC+ approved a July quota increase of 188,000 bpd; Fitch sees possible 4Q26 oversupply once Hormuz reopens."),
+            ("Iran and Israel Agree to Halt Attacks After Weekend Exchange; Trump Says New Ceasefire Is Close", "iran-israel-agree-halt-attacks-trump-new-ceasefire-close.html", "June 9, 2026",
+             "The halt in attacks revives the diplomatic path toward reopening the strait \u2014 the trigger for restoring shut-in Saudi barrels to the market."),
         ],
     },
     "uae.html": {
-        "context": "Current state (June 7, 2026): The UAE, which formally departed OPEC effective May 1, is watching a sharp re-escalation. Israel struck Hezbollah targets in southern Beirut on Sunday, and Iran had warned it would retaliate and could halt U.S. talks if Beirut were hit; over the weekend U.S. and Iranian forces exchanged strikes near the Strait of Hormuz, with a strike hitting Kuwait International Airport \u2014 a reminder that Gulf spillover risk is live. ADCOP pipeline continues to carry available bypass volumes that don\u2019t transit Hormuz. Brent slid to ~$93 Friday on weak Chinese demand. The UAE remains a primary U.S. security partner in the Gulf.",
+        "context": "Current state (June 9, 2026): The UAE, which formally departed OPEC effective May 1, is watching de-escalation take hold. Iran and Israel agreed Tuesday to halt attacks after a weekend exchange, and Trump says both are close to a new ceasefire \u2014 reviving the path toward a Hormuz reopening that Fitch pegs around the end of July. ADCOP pipeline continues to carry available bypass volumes that don\u2019t transit the strait, which remains closed under the dual U.S.-Iran blockade. Crude fell below $90 as the escalation premium unwound. The UAE remains a primary U.S. security partner in the Gulf.",
         "lead_articles": [
-            ("U.S. and Iran Exchange Strikes Near Hormuz; CENTCOM Downs Drones, Hits Coastal Radar", "us-iran-exchange-strikes-hormuz-centcom-downs-drones-coastal-radar.html", "June 7, 2026",
-             "U.S. and Iranian forces exchanged strikes near Hormuz over the weekend; a strike hit Kuwait International Airport \u2014 a reminder that bypass routes like ADCOP only partly offset the Gulf disruption."),
+            ("Iran and Israel Agree to Halt Attacks After Weekend Exchange; Trump Says New Ceasefire Is Close", "iran-israel-agree-halt-attacks-trump-new-ceasefire-close.html", "June 9, 2026",
+             "De-escalation revives the reopening path \u2014 relief for bypass-constrained Gulf exporters once the strait reopens; Fitch pegs that around the end of July."),
             ("UAE Nuclear Facility Attacked Over Weekend in Persian Gulf Escalation", "uae-nuclear-facility-attacked-weekend-persian-gulf-escalation.html", "May 18, 2026",
              "Energy infrastructure across the Persian Gulf came under attack, including a nuclear facility in the United Arab Emirates."),
         ],
     },
     "opec-members.html": {
-        "context": "Current state (June 7, 2026): A sharp re-escalation has revived the supply-disruption risk. Israel struck Hezbollah targets in southern Beirut on Sunday, with Iran having warned it would retaliate and could halt U.S. talks if Beirut were hit; over the weekend U.S. and Iranian forces exchanged strikes near the Strait of Hormuz. Saudi Arabia, Qatar, and the UAE (former member, departed May 1) are watching the reopening timeline slip. EIA assessed ~10.5M bpd of Persian Gulf production shut in; the next EIA Short-Term Energy Outlook is due June 9. Brent slid to ~$93 Friday on weak Chinese demand even as it held 3\u20134% higher for the week.",
+        "context": "Current state (June 9, 2026): OPEC+ approved a July quota increase of 188,000 bpd despite persistent supply risks \u2014 modest barrels into a market where ~10.5M bpd of Persian Gulf production remains shut in. De-escalation took hold this week: Iran and Israel agreed Tuesday to halt attacks, and Trump says both are close to a new ceasefire. Fitch projects Hormuz could reopen around the end of July and warns rapid capacity recovery plus a more aggressive OPEC+ policy could recreate an oversupply by 4Q26, with Brent averaging $87 for full-year 2026. Crude fell below $90 as the escalation premium unwound; Chinese imports pulled back aggressively.",
         "lead_articles": [
-            ("U.S. and Iran Exchange Strikes Near Hormuz; CENTCOM Downs Drones, Hits Coastal Radar", "us-iran-exchange-strikes-hormuz-centcom-downs-drones-coastal-radar.html", "June 7, 2026",
-             "U.S. and Iranian forces exchanged strikes near Hormuz over the weekend, reviving the supply-disruption risk that keeps shut-in OPEC barrels off the market."),
+            ("Oil Falls Below $90 After Touching $95; Crude Surrenders the Escalation Spike", "oil-falls-below-90-after-95-crude-surrenders-escalation-spike.html", "June 9, 2026",
+             "OPEC+ approved a July quota increase of 188,000 bpd as crude surrendered the weekend\u2019s escalation spike; Fitch flags possible 4Q26 oversupply once the strait reopens."),
             ("UAE Officially Departs OPEC Effective May 1; EIA Cuts 2027 Spare Capacity Forecast", "uae-officially-departs-opec-effective-may-1-eia-cuts-spare-capacity.html", "May 13, 2026",
              "The EIA\u2019s May Short-Term Energy Outlook incorporates the UAE\u2019s departure from OPEC, effective May 1, 2026."),
         ],
     },
     "qatar.html": {
-        "context": "Current state (June 7, 2026): Qatar, a principal mediator alongside Pakistan, is watching a sharp re-escalation that threatens the diplomacy. Israel struck Hezbollah targets in southern Beirut on Sunday, and Iran had warned it would retaliate and could halt U.S. talks if Beirut were hit; over the weekend U.S. and Iranian forces exchanged strikes near the Strait of Hormuz, which would further disrupt Qatari LNG flows if it widens. Hezbollah rejected the latest U.S.-brokered ceasefire. JKM and TTF benchmarks remain elevated. Trump still says talks are progressing well.",
+        "context": "Current state (June 9, 2026): Qatar, a principal mediator alongside Pakistan, is watching de-escalation take hold. Iran and Israel agreed Tuesday to halt attacks after a weekend exchange, and Trump says both are close to a new ceasefire \u2014 reviving the diplomatic path toward a Hormuz reopening that would allow Qatari LNG exports to resume; Fitch pegs that around the end of July. The strait remains closed under the dual U.S.-Iran blockade, and the EIA notes global LNG prices remain elevated on reduced Hormuz flows. JKM and TTF benchmarks stay elevated. Iran\u2019s caveat \u2014 operations resume if Israel continues in Lebanon \u2014 keeps the Lebanon track in focus for Doha.",
         "lead_articles": [],
     },
     "russia.html": {
-        "context": "Current state (June 7, 2026): Russia remains one of few major producers outside the Persian Gulf disruption zone as escalation re-intensifies. Israel struck Hezbollah targets in southern Beirut on Sunday and U.S. and Iranian forces exchanged strikes near the Strait of Hormuz over the weekend, reviving the supply-disruption risk. Brent slid to ~$93 Friday on weak Chinese demand \u2014 crude imports at a ten-year low \u2014 even as it held 3\u20134% higher for the week. The U.S. previously issued a waiver permitting the sale of Russian crude already loaded onto tankers. Urals discount dynamics remain in focus as benchmark prices swing.",
+        "context": "Current state (June 9, 2026): Russia remains one of few major producers outside the Persian Gulf disruption zone as de-escalation takes hold. Iran and Israel agreed Tuesday to halt attacks, and crude round-tripped the weekend\u2019s escalation \u2014 WTI below $90 after touching $95. OPEC+ approved a July quota increase of 188,000 bpd, and Fitch flags possible 4Q26 oversupply once Hormuz reopens (~end of July in its view), with Brent averaging $87 for 2026 \u2014 a softer price backdrop for Urals differentials. The U.S. previously issued a waiver permitting the sale of Russian crude already loaded onto tankers. Chinese imports pulled back aggressively.",
         "lead_articles": [
-            ("U.S. and Iran Exchange Strikes Near Hormuz; CENTCOM Downs Drones, Hits Coastal Radar", "us-iran-exchange-strikes-hormuz-centcom-downs-drones-coastal-radar.html", "June 7, 2026",
-             "U.S. and Iranian forces exchanged strikes near Hormuz over the weekend, reviving a supply-disruption risk that affects Urals differential dynamics for producers outside the Gulf zone."),
+            ("Oil Falls Below $90 After Touching $95; Crude Surrenders the Escalation Spike", "oil-falls-below-90-after-95-crude-surrenders-escalation-spike.html", "June 9, 2026",
+             "Crude surrendered the escalation spike as attacks halted; Fitch sees Brent averaging $87 for 2026 with possible 4Q26 oversupply \u2014 a softer backdrop for Urals differentials."),
         ],
     },
     "brazil.html": {
-        "context": "Current state (June 7, 2026): Brazilian pre-salt production continues to grow as a non-OPEC supply source as escalation re-intensifies in the Middle East. Israel struck Hezbollah targets in southern Beirut on Sunday and U.S. and Iranian forces exchanged strikes near the Strait of Hormuz over the weekend. Brent slid to ~$93 Friday on weak Chinese demand even as it held 3\u20134% higher for the week. The price swings affect pre-salt project economics at the margin. Petrobras Q1 results and pre-salt output milestones remain key watchpoints.",
+        "context": "Current state (June 9, 2026): Brazilian pre-salt production continues to grow as a non-OPEC supply source as de-escalation takes hold in the Middle East. Iran and Israel agreed Tuesday to halt attacks, and crude fell below $90 after the weekend\u2019s brief spike to $95. Fitch cites strong non-OPEC supply growth \u2014 of which Brazil is a leading contributor \u2014 among the factors that could recreate an oversupply by 4Q26 once Hormuz reopens, with Brent averaging $87 for 2026. The softer price path tightens pre-salt project economics at the margin. Petrobras output milestones remain key watchpoints.",
         "lead_articles": [],
     },
     "nigeria.html": {
-        "context": "Current state (June 7, 2026): Nigerian crude remains important to the non-OPEC supply mix as escalation re-intensifies. Light, sweet Nigerian grades have served as alternatives for refiners losing access to Middle East crude through the conflict. Israel struck Hezbollah targets in southern Beirut on Sunday and U.S. and Iranian forces exchanged strikes near the Strait of Hormuz over the weekend. Brent slid to ~$93 Friday on weak Chinese demand. The G7 leaders summit June 15-17 in Evian is expected to address supply-chain diversification.",
+        "context": "Current state (June 9, 2026): Nigerian crude remains important to the non-OPEC supply mix as de-escalation takes hold. Light, sweet Nigerian grades have served as alternatives for refiners losing access to Middle East crude through the conflict \u2014 a premium position that softens as the reopening path revives. Iran and Israel agreed Tuesday to halt attacks; crude fell below $90 after the weekend spike, and Fitch sees Brent averaging $87 for 2026. The G7 leaders summit June 15-17 in Evian is expected to address supply-chain diversification.",
         "lead_articles": [],
     },
     "venezuela.html": {
-        "context": "Current state (June 7, 2026): Venezuelan production capacity remains a structurally relevant question as escalation re-intensifies in the Middle East. Israel struck Hezbollah targets in southern Beirut on Sunday and U.S. and Iranian forces exchanged strikes near the Strait of Hormuz over the weekend, reviving the supply-disruption risk. Brent slid to ~$93 Friday on weak Chinese demand even as it held 3\u20134% higher for the week. U.S. sanctions policy on Venezuelan crude remains a relevant input to Atlantic Basin balances as benchmark prices swing.",
+        "context": "Current state (June 9, 2026): Venezuelan production capacity remains a structurally relevant question as de-escalation takes hold in the Middle East. Iran and Israel agreed Tuesday to halt attacks, and crude fell below $90 after the weekend\u2019s brief spike to $95 \u2014 with Fitch projecting Brent averaging $87 for 2026 and possible oversupply by 4Q26 once Hormuz reopens. A softer price path reduces the urgency of marginal Atlantic Basin barrels. U.S. sanctions policy on Venezuelan crude remains a relevant input as benchmark prices swing.",
         "lead_articles": [],
     },
 }
 
-LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: June 7, 2026</div>'''
+LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: June 9, 2026</div>'''
 
 
 def render_article_row(title, slug, date, excerpt):
@@ -110,7 +110,7 @@ def main():
         txt = new_txt
 
         # 2) Add Last reviewed badge after the lead intro paragraph
-        if "Last reviewed: June 7, 2026" not in txt:
+        if "Last reviewed: June 9, 2026" not in txt:
             # Find the close of the lead p tag inside .article-body
             lead_pattern = re.compile(
                 r'(<p style="font-size:16\.5px;line-height:1\.7;color:var\(--text-2\)">[^<]*?</p>)',

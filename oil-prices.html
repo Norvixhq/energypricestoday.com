@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=61">
+  <link rel="stylesheet" href="css/styles.css?v=62">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=61">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=61">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=61">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=61">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=61">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=61">
-  <link rel="shortcut icon" href="images/favicon.ico?v=61">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=62">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=62">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=62">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=62">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=62">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=62">
+  <link rel="shortcut icon" href="images/favicon.ico?v=62">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -192,8 +192,8 @@
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=61"></script><script src="js/article-slugs.js?v=61"></script><script src="js/main.js?v=61"></script><script src="js/live-data.js?v=61"></script><script src="js/news-feed.js?v=61"></script>
-  <script src="js/event-state.js?v=61"></script>
+  <script src="js/data.js?v=62"></script><script src="js/article-slugs.js?v=62"></script><script src="js/main.js?v=62"></script><script src="js/live-data.js?v=62"></script><script src="js/news-feed.js?v=62"></script>
+  <script src="js/event-state.js?v=62"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -245,7 +245,7 @@
     // Hormuz and OPEC card bodies are bound to events.json via the spans with
     // data-event-bind — event-state.js will overwrite textContent on fetch.
     // The geopolitics link is appended separately so the bound area stays pure text.
-    var hormuzFallback = 'Strait effectively closed in week 15 of the conflict. Escalation re-intensifying: Israel struck Hezbollah targets in southern Beirut Sunday, and the IRGC had warned it would strike Israel and could halt U.S. talks if Beirut were hit. Over the weekend U.S. and Iranian forces exchanged strikes near the strait \u2014 CENTCOM intercepted a wave of Iranian missiles and drones, struck Iranian coastal radar sites, and downed six drones in two days; Iran fired \u201Cwarning\u201D shots near the strait; a strike hit Kuwait International Airport. Hezbollah rejected the U.S.-brokered ceasefire. Pre-conflict ~3,000 vessels/month; current traffic far below prewar levels. Trump says Hormuz could reopen quickly if Iran signs an MOU; little concrete progress, Lebanon the key obstacle. Any reopening would likely be only partial given Gulf infrastructure damage.';
+    var hormuzFallback = 'Strait effectively closed in week 15 of the conflict, under a dual U.S.-Iran blockade severely disrupting crude, refined fuels, and LNG. De-escalation took hold this week: after a weekend exchange of strikes triggered by Israel\u2019s Beirut attack, Iran ended its military operations Monday and the two countries agreed Tuesday to halt attacks. Trump says both are close to a new ceasefire, with progress between Washington and Tehran \u2014 though Iran warns operations could resume if Israel continues in Lebanon. Fitch projects the strait could reopen around the end of July, calling the closure a temporary logistical shock, with Brent averaging $87 for full-year 2026. Any reopening would likely be only partial at first given Gulf infrastructure damage.';
     var opecFallback   = 'EIA May STEO incorporates UAE departure from OPEC effective May 1. With UAE spare capacity removed, OPEC 2027 spare capacity now 2.5M bpd vs 3.8M prior. April 206K bpd increase proceeded. Saudi East-West Pipeline at full 5M bpd. May ministerial mid-month operates under new composition.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
@@ -270,16 +270,16 @@
       var target = document.getElementById('outlook-card');
       if (!target) return;
       // ─── BEGIN EDITORIAL: refresh during daily pass ───
-      var bias = 'Mixed';            // Bullish | Bearish | Mixed
+      var bias = 'Bearish';          // Bullish | Bearish | Mixed
       var conviction = 'Moderate';   // Low | Moderate | High
-      var summary = 'Crude is caught between re-intensifying geopolitical risk and softening demand. Israel struck Hezbollah targets in southern Beirut Sunday \u2014 the IRGC had warned it would strike Israel and could halt U.S. talks if Beirut were hit \u2014 and over the weekend U.S. and Iranian forces exchanged strikes near Hormuz, with CENTCOM downing six Iranian drones and hitting coastal radar and a strike landing on Kuwait International Airport. Yet Brent slid about 2% Friday to around $93 on weak Chinese demand (crude imports at a ten-year low) and the lack of a U.S.-Iran breakthrough, even as it held 3\u20134% higher for the week. Markets were closed Sunday, so today\u2019s Beirut strike is a risk event rather than a new close. Trump says Hormuz could reopen quickly if Iran signs an MOU; little concrete progress, with Lebanon the key obstacle. AAA national gas fell to $4.174, a second straight weekly decline.';
+      var summary = 'The market\u2019s center of gravity has shifted bearish as de-escalation takes hold. Crude fell below $90 Tuesday (Brent below $93), surrendering the weekend\u2019s escalation spike, after Iran and Israel agreed to halt attacks against each other \u2014 Iran ended its military operations Monday and Israel is holding fire. Trump says both countries are close to a new ceasefire, with progress between Washington and Tehran. OPEC+ approved a July quota increase of 188,000 bpd, Chinese crude imports pulled back aggressively, and Fitch projects Hormuz could reopen around the end of July with Brent averaging $87 for 2026 and a possible 4Q26 oversupply. The floor under prices: the strait remains closed under the dual blockade, and Iran warns operations could resume if Israel continues in Lebanon. The EIA\u2019s June STEO sees the largest fuel-price impacts landing this quarter. AAA gas fell to $4.161, down nearly 20\u00A2 in a week.';
       var drivers = [
-        { label: 'Beirut Strike',           weight: 'Bullish',        note: 'Israel struck Hezbollah targets in southern Beirut Sunday in response to missiles fired into northern Israel. Iran\u2019s IRGC had warned it would strike Israel and could halt negotiations with the U.S. if Beirut were hit \u2014 making this a dangerous moment for the talks and the tenuous ceasefire. A confirmed Iranian retaliation or talks suspension would revive the supply premium.' },
-        { label: 'Weekend Exchanges',        weight: 'Bullish',        note: 'U.S. and Iranian forces exchanged strikes near Hormuz: CENTCOM intercepted a wave of Iranian missiles and drones, struck Iranian coastal radar sites, and downed six drones in two days. Iran fired \u201Cwarning\u201D shots near the strait; a strike hit Kuwait International Airport. The renewed clashes kept Brent 3\u20134% higher for the week.' },
-        { label: 'Weak Chinese Demand',      weight: 'Bearish',        note: 'Brent slid ~2% Friday to ~$93, extending a 2.8% prior-session drop, as Chinese crude imports fell to their lowest in ten years on reduced refinery activity. Several analysts now expect global oil demand growth to slow significantly this year \u2014 a genuine counterweight to the geopolitical premium.' },
-        { label: 'Talks Still Open',         weight: 'Mixed',          note: 'Trump says talks are \u201Cprogressing well\u201D and Hormuz could reopen quickly if Iran signs an MOU, but little concrete progress has emerged and Israel\u2019s Lebanon operations remain the key obstacle. Hezbollah rejected the latest U.S.-brokered ceasefire. A signed MOU is bearish; a collapse is bullish \u2014 hence the two-sided risk.' },
-        { label: 'Pump Keeps Easing',        weight: 'Mildly bearish', note: 'AAA national $4.174 today, a second straight weekly decline (-18\u00A2 over the prior week), as pumps catch down to May\u2019s crude slide with crude below $100. The weekend escalation has not reached the pump. California $5.99 (highest), Indiana $3.59 (cheapest), Hawaii ~$5.64.' },
-        { label: 'Forward Curve',            weight: 'Mixed',          note: 'Goldman Sachs sees 4Q26 Brent at $90 and WTI at $83 with \u201Ctwo-sided\u201D risks. Rig count edged up (oil +2 to 431, the highest since June 2025). The next EIA Short-Term Energy Outlook is due June 9. The curve balances a tight physical present against softening demand and an uncertain diplomatic path.' },
+        { label: 'Attacks Halted',          weight: 'Bearish',        note: 'Iran and Israel agreed Tuesday to halt attacks after the weekend exchange triggered by Israel\u2019s Beirut strike. Iran ended its military operations Monday; Israel signaled it would hold fire. Trump: both countries close to a new ceasefire, progress between Washington and Tehran. The diplomatic track survived its sternest test in weeks \u2014 the single largest bearish repricing catalyst.' },
+        { label: 'Round-Trip Complete',      weight: 'Bearish',        note: 'WTI spiked to $95 early Monday and Brent crossed $98 on the weekend exchanges, then both surrendered the gains \u2014 WTI below $90 and Brent below $93 Tuesday. Escalation premium added in hours, withdrawn in a day. The speed of the unwind shows how much of the price remains a referendum on the diplomacy rather than physical flows.' },
+        { label: 'OPEC+ Adds Barrels',       weight: 'Bearish',        note: 'OPEC+ approved another July quota increase of 188,000 bpd despite persistent supply risks. Fitch warns rapid Middle East capacity recovery, strong non-OPEC growth, and a more aggressive OPEC+ policy could recreate an oversupply by 4Q26, with prices pulling back once the strait reopens \u2014 which Fitch pegs around the end of July.' },
+        { label: 'Weak Chinese Demand',      weight: 'Bearish',        note: 'Fresh data showed an aggressive pullback in Chinese crude imports, with the top importer leaning on inventories rather than overseas supply since the conflict began. The demand-side softness capped the weekend spike and compounds the bearish tilt as the escalation premium unwinds.' },
+        { label: 'Strait Still Closed',      weight: 'Bullish',        note: 'Hormuz remains effectively closed in week 15 under the dual U.S.-Iran blockade, severely disrupting crude, refined fuels, and LNG. The EIA\u2019s June STEO sees the largest price impacts of the conflict landing in 2Q26, especially diesel and jet. Physical flows stay throttled until a deal actually reopens the strait \u2014 the structural floor under prices.' },
+        { label: 'Halt Is Conditional',      weight: 'Mildly bullish', note: 'Iran warns operations could resume if Israel continues its campaign in Lebanon \u2014 the same linkage that triggered this weekend\u2019s breach. A new ceasefire is close per Trump but not signed. If the halt breaks down or formalization stalls, the escalation premium returns as fast as it left. De-escalation, not yet resolution.' },
       ];
       // ─── END EDITORIAL ───
 
@@ -364,6 +364,6 @@
       ['Heating Oil','category/heating-oil.html','flame','Diesel, distillate markets'],
     ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
   </script>
-  <script src="js/analytics.js?v=61"></script>
-  <script src="js/related-articles.js?v=61"></script>
+  <script src="js/analytics.js?v=62"></script>
+  <script src="js/related-articles.js?v=62"></script>
 </body></html>
