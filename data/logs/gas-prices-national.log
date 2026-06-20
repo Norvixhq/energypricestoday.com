@@ -1,3 +1,9 @@
 [2026-04-19T16:04:08.905567+00:00] AAA fetch failed (expected on GitHub runners): HTTP Error 403: Forbidden
 [2026-04-19T16:04:08.906332+00:00] EIA fallback skipped: no EIA_API_KEY set
 [2026-04-19T16:04:08.907569+00:00] Both AAA and EIA failed; kept previous snapshot
+[2026-06-20T16:00:16.775366+00:00] AAA page returned but parsed 0/4 grades
+[2026-06-20T16:00:32.149391+00:00] EIA regular fetch failed: The read operation timed out
+[2026-06-20T16:00:47.281766+00:00] EIA mid fetch failed: The read operation timed out
+[2026-06-20T16:01:02.414391+00:00] EIA premium fetch failed: The read operation timed out
+[2026-06-20T16:01:12.708718+00:00] EIA returned 1/4 grades
+[2026-06-20T16:01:12.708801+00:00] ERROR: no data available and no previous snapshot to preserve
