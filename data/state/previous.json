@@ -1,11 +1,11 @@
 {
   "commodity-prices": {
     "meta": {
-      "generated_at": "2026-06-20T16:00:16.520748+00:00",
+      "generated_at": "2026-06-21T02:00:24.308731+00:00",
       "status": "fresh",
       "source": "oilpriceapi",
       "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
-      "last_success": "2026-06-20T16:00:16.520748+00:00"
+      "last_success": "2026-06-21T02:00:24.308731+00:00"
     },
     "prices": {
       "Brent Crude": {
@@ -18,16 +18,16 @@
       },
       "Diesel ULSD": {
         "price": 3.19,
-        "change": 0.01,
-        "pct": 0.31,
+        "change": 0.0,
+        "pct": 0.0,
         "unit": "$/gal",
         "source_code": "DIESEL_USD",
         "updated_at": "2026-06-19T16:25:04Z"
       },
       "Dutch TTF Natural Gas": {
         "price": 42.09,
-        "change": -0.08,
-        "pct": -0.19,
+        "change": 1.45,
+        "pct": 3.57,
         "unit": "EUR/MWh",
         "source_code": "DUTCH_TTF_EUR",
         "updated_at": "2026-06-20T15:01:19Z"
@@ -42,8 +42,8 @@
       },
       "Heating Oil": {
         "price": 3.19,
-        "change": 0.01,
-        "pct": 0.31,
+        "change": 0.0,
+        "pct": 0.0,
         "unit": "$/gal",
         "source_code": "HEATING_OIL_USD",
         "updated_at": "2026-06-19T17:14:40Z"
@@ -62,7 +62,7 @@
         "pct": 0.0,
         "unit": "$/MMBtu",
         "source_code": "JKM_LNG_USD",
-        "updated_at": "2026-06-19T00:04:13Z"
+        "updated_at": "2026-06-20T22:00:06Z"
       },
       "Natural Gas": {
         "price": 3.2,
@@ -70,7 +70,7 @@
         "pct": 0.0,
         "unit": "$/MMBtu",
         "source_code": "NATURAL_GAS_USD",
-        "updated_at": "2026-06-20T15:52:15Z"
+        "updated_at": "2026-06-21T01:52:07Z"
       },
       "Coal": {
         "price": 144.0,
@@ -82,8 +82,8 @@
       },
       "WTI Crude": {
         "price": 76.51,
-        "change": -0.05,
-        "pct": -0.07,
+        "change": 0.0,
+        "pct": 0.0,
         "unit": "$/bbl",
         "source_code": "WTI_USD",
         "updated_at": "2026-06-19T17:07:13Z"
@@ -92,10 +92,10 @@
   },
   "gas-prices-national": {
     "meta": {
-      "generated_at": "2026-06-20T16:01:12.708817+00:00",
+      "generated_at": "2026-06-21T02:01:13.094746+00:00",
       "status": "failed"
     },
     "prices": {}
   },
-  "as_of": "2026-06-20T16:03:06.246459+00:00"
+  "as_of": "2026-06-21T02:03:08.407456+00:00"
 }

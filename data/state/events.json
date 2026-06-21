@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-06-20T16:03:06.213278+00:00",
-  "previous_generated_at": "",
-  "resolver_run_count": 1,
+  "generated_at": "2026-06-21T02:03:08.380586+00:00",
+  "previous_generated_at": "2026-06-20T16:03:06.213278+00:00",
+  "resolver_run_count": 2,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CLOSED",
-      "status_detail": "Supertankers With 80 Million Barrels of Oil Ready to Pass Hormuz",
+      "status_detail": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.878,
-      "last_confirmed": "2026-06-20T15:30:53+00:00",
-      "source_count": 19,
-      "summary_short": "Supertankers With 80 Million Barrels of Oil Ready to Pass Hormuz",
-      "summary_long": "Supertankers With 80 Million Barrels of Oil Ready to Pass Hormuz. Iraq forgoes 350M barrels in oil exports since Hormuz closure",
+      "confidence": 0.959,
+      "last_confirmed": "2026-06-20T21:11:57+00:00",
+      "source_count": 10,
+      "summary_short": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon",
+      "summary_long": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon. Three Indian-flagged oil tankers clear Strait of Hormuz, minister says",
       "evidence_cluster_ids": [
-        "c_b18ce98668a9cb",
-        "c_f0d1a9ed5941e8",
-        "c_34e996fbc76e7c",
-        "c_c9f246802c0fa3",
-        "c_ae4eebab0a4f3e"
+        "c_39d64d09d3aae4",
+        "c_e4ae5635f89069",
+        "c_5d5e062381a17e",
+        "c_c1819f2ba2b600",
+        "c_22c85c67ddc265"
       ],
-      "evidence_count": 13,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,14 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b18ce98668 → OPEN (kw='reopen', weight=0.13)",
-        "cluster c_34e996fbc7 → OPEN (kw='reopen', weight=0.10)",
-        "cluster c_c9f246802c → OPEN (kw='reopen', weight=0.10)",
-        "cluster c_3788556701 → CLOSED (kw='closes strait', weight=0.90)",
-        "cluster c_d4a9b5c241 → CLOSED (kw='closure', weight=0.61) [OPEN suppressed]",
-        "cluster c_1a62b28b38 → OPEN (kw='reopen', weight=0.10)",
-        "cluster c_5cc99e0a49 → OPEN (kw='reopen', weight=0.09)",
-        "winning=CLOSED (1.52/2.04), conf=0.878"
+        "cluster c_39d64d09d3 → CLOSED (kw='closed strait', weight=0.71)",
+        "cluster c_c1819f2ba2 → CLOSED (kw='closed strait', weight=0.56)",
+        "winning=CLOSED (1.27/1.27), conf=0.959"
       ]
     },
     "us_iran_ceasefire": {
@@ -60,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-06-20T15:14:11+00:00",
-      "source_count": 38,
-      "summary_short": "Iran Resumes Kharg Island Oil Loadings After US Blockade Lifted",
-      "summary_long": "Iran Resumes Kharg Island Oil Loadings After US Blockade Lifted. Iranian oil output and export recovery may lag Middle East neighbors: analysts",
+      "last_confirmed": "2026-06-20T21:11:57+00:00",
+      "source_count": 15,
+      "summary_short": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon",
+      "summary_long": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon. Iran Resumes Kharg Island Oil Loadings After US Blockade Lifted",
       "evidence_cluster_ids": [
+        "c_39d64d09d3aae4",
         "c_f09da23974848e",
-        "c_4136981fade2c4",
-        "c_2352b9e8c70c02",
-        "c_f74981c462b801",
-        "c_f0d1a9ed5941e8"
+        "c_f13b8df28b60f2",
+        "c_b2d45b0f37568a",
+        "c_be2c38e876e580"
       ],
-      "evidence_count": 38,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -97,18 +92,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-06-18T14:54:00+00:00",
-      "source_count": 1,
-      "summary_short": "No Oil Demand Peak in Sight, OPEC Says",
-      "summary_long": "No Oil Demand Peak in Sight, OPEC Says",
-      "evidence_cluster_ids": [
-        "c_b24a308fe80380"
-      ],
-      "evidence_count": 1,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -121,7 +114,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -158,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_37885567011a4f",
-      "lead_title": "Supertankers With 80 Million Barrels of Oil Ready to Pass Hormuz",
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZ1VOaGxSVWdzVjVnTmZpUnQzc29lOEc1VjAydlVGRXNONnlJWGJIckw1QlVqQjQyM3l4WjlVcVdFMXFUdzBsQjFqb3RCWUJwNVd2b1JTSmNwRnVvM3NIMXdPMkFfRExHYWI3OEptbUlPeFJ3OWR4RjV2Sjl3SFJxaVJhVTRKLVIyTkx1WkVTeEhEMTVCSlNwNHFISVhjSmdiOUtsaFdwa0plbVlPbTNVYXRxb1BYdw?oc=5",
-      "lead_source": "Bloomberg",
-      "topic": "oil",
-      "score": 91.46,
+      "cluster_id": "c_39d64d09d3aae4",
+      "lead_title": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFbVh2NGR4RU1xWVVYUExYN0FlNF8zRjFKenhqQlZnWk5OVkFJbzFlRHdJcUxwS1JiUFJoQ1dsUXFLN0tjMDVELUM3SHdVTjNMUTdLSXJBMGRKUQ?oc=5",
+      "lead_source": "BBC",
+      "topic": "geopolitics",
+      "score": 79.09,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 1,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -175,55 +168,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CLOSED",
-      "detected_at": "2026-06-20T16:03:06.213118+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-06-20T16:03:06.213118+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-06-20T16:03:06.213118+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "new_event",
-      "from": null,
-      "to": "HIGH",
-      "detected_at": "2026-06-20T16:03:06.213118+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "top_story",
-      "field": "new_event",
-      "from": null,
-      "to": "",
-      "detected_at": "2026-06-20T16:03:06.213118+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.878, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.959, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
