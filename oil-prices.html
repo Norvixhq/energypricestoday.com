@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=66">
+  <link rel="stylesheet" href="css/styles.css?v=67">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=66">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=66">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=66">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=66">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=66">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=66">
-  <link rel="shortcut icon" href="images/favicon.ico?v=66">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=67">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=67">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=67">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=67">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=67">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=67">
+  <link rel="shortcut icon" href="images/favicon.ico?v=67">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -192,8 +192,8 @@
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=66"></script><script src="js/article-slugs.js?v=66"></script><script src="js/main.js?v=66"></script><script src="js/live-data.js?v=66"></script><script src="js/news-feed.js?v=66"></script>
-  <script src="js/event-state.js?v=66"></script>
+  <script src="js/data.js?v=67"></script><script src="js/article-slugs.js?v=67"></script><script src="js/main.js?v=67"></script><script src="js/live-data.js?v=67"></script><script src="js/news-feed.js?v=67"></script>
+  <script src="js/event-state.js?v=67"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -245,7 +245,7 @@
     // Hormuz and OPEC card bodies are bound to events.json via the spans with
     // data-event-bind — event-state.js will overwrite textContent on fetch.
     // The geopolitics link is appended separately so the bound area stays pure text.
-    var hormuzFallback = 'Reopening underway: the U.S.-Iran interim peace deal took effect June 18, ending the war that closed the strait since Feb 28. Under Article 5, Iran will guarantee free passage for commercial vessels for 60 days; nearly 600 ships had been stranded. Trump says the waterway will be fully open following the signing, but maritime and security experts warn clearing naval mines and restoring insurer confidence could take weeks. IEA chief Birol urged a reopening \u201Cwithout conditions\u201D and the agency sees a possible 2027 supply surplus as Gulf barrels return. Risk remains: Iran warns an Israeli move on Lebanon would violate the deal, and Israel says it won\u2019t withdraw from seized territory.';
+    var hormuzFallback = 'Reopening underway but lagging: the interim U.S.-Iran deal took effect June 18, and tankers are crossing again \u2014 VP Vance said 12M+ barrels transited overnight, three Saudi supertankers (6M bbl) exited, and Kuwait lifted force majeure. But the formal Geneva signing set for June 19 was postponed, with the sides turning to a 60-day roadmap. Traffic remains a fraction of the prewar 120-130 transits a day, 500+ vessels still wait to exit the Gulf, mine-clearing could take weeks, and insurers stay cautious (INTERTANKO has sought clarity on safe passage). Risk: Trump has threatened renewed strikes and Iran disputes a Lebanon ceasefire.';
     var opecFallback   = 'EIA May STEO incorporates UAE departure from OPEC effective May 1. With UAE spare capacity removed, OPEC 2027 spare capacity now 2.5M bpd vs 3.8M prior. April 206K bpd increase proceeded. Saudi East-West Pipeline at full 5M bpd. May ministerial mid-month operates under new composition.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
@@ -272,14 +272,14 @@
       // ─── BEGIN EDITORIAL: refresh during daily pass ───
       var bias = 'Bearish';          // Bullish | Bearish | Mixed
       var conviction = 'Moderate';   // Low | Moderate | High
-      var summary = 'The war is ending and the supply premium is unwinding. The U.S.-Iran interim peace deal took effect June 18; crude fell to multi-month lows \u2014 WTI ~$75.83, Brent ~$78.41, down from above $107 at the peak. Under Article 5, Iran will guarantee free passage for commercial vessels for 60 days, reopening the Strait of Hormuz, and the IEA sees a possible significant supply surplus by 2027 as Gulf barrels return. The bias stays bearish: a formal Geneva ceremony is set for June 19, and the market\u2019s focus has shifted from scarcity to how fast a glut could form. Two things temper the downside: the physical reopening lags the signing (mine-clearing and insurer confidence could take weeks; Cushing inventories near multi-year lows), and the Lebanon front is unresolved \u2014 Iran warns an Israeli move there would violate the deal, and Israel says it won\u2019t withdraw from seized territory.';
+      var summary = 'The war premium keeps unwinding, but the path to a final peace got bumpier. Crude held near multi-month lows \u2014 WTI ~$74.82, Brent ~$77.90, with Brent down roughly 36% from its conflict peak above $120. The interim deal that took effect June 18 is holding: tankers are crossing Hormuz again, Kuwait lifted force majeure, and the U.S. Treasury issued a 60-day license authorizing the sale of Iranian oil. But the formal Geneva signing set for June 19 was abruptly postponed, and the sides turned to a 60-day roadmap toward a final deal. Bias stays bearish, with real two-way risk: Trump threatened renewed strikes, Iran disputes a Lebanon ceasefire, and the physical reopening lags \u2014 500+ vessels still wait, mine-clearing takes weeks, and analysts warn supply near prewar levels partly reflects inventory liquidation, not restored production. OPEC\u2019s Al Ghais pushed back on glut forecasts; Brent looks likely to trade a $75-$82 band near term.';
       var drivers = [
-        { label: 'Deal in Effect',          weight: 'Bearish',        note: 'The U.S.-Iran interim peace deal took effect June 18, with a formal Geneva ceremony June 19. Trump and Pezeshkian signed the MOU electronically June 15. Iran agreed to forgo nuclear weapons and dilute enriched uranium; the U.S. to release $25B in frozen assets on compliance. The end of the war removes the supply premium that drove crude above $100.' },
-        { label: 'Hormuz Reopening',         weight: 'Bearish',        note: 'Under Article 5, Iran guarantees free passage for commercial vessels for 60 days; nearly 600 ships had been stranded. The return of ~a fifth of global oil flows through the strait is the single largest bearish force. Trump says it will be fully open following the signing.' },
-        { label: 'IEA Sees 2027 Surplus',    weight: 'Bearish',        note: 'The IEA said the market could move into a significant supply surplus by 2027 as disrupted Gulf barrels return alongside strong non-OPEC growth; chief Birol urged a reopening \u201Cwithout conditions.\u201D OPEC last week cut its 2026 demand-growth forecast to 970k bpd. The debate has shifted from scarcity to glut.' },
-        { label: 'Reopening Lags Signing',   weight: 'Mildly bullish', note: 'The physical reopening will trail the diplomatic one: clearing naval mines, restoring insurer confidence, restarting idled fields, and repairing facilities could take weeks. Cushing inventories have fallen to ~20M barrels, the lowest in years \u2014 a tightness that may slow the decline even as the premium unwinds.' },
-        { label: 'Lebanon Risk',             weight: 'Mildly bullish', note: 'The clearest path to a renewed risk premium: Iran\u2019s Araghchi warns any Israeli attack on Lebanon or occupation of Lebanese territory would violate the agreement, and Israel says it will not withdraw from territory it seized. An escalation there could quickly reverse the price decline.' },
-        { label: 'Forward Curve',            weight: 'Bearish',        note: 'The curve has reset sharply lower, with front-month WTI near $75.83 and the strip in mild contango as the supply outlook normalizes. Fitch had projected Brent averaging $87 for 2026; prices now sit well below that as the market prices the end of the disruption and a possible 2027 surplus.' },
+        { label: 'Interim Deal Holding',     weight: 'Bearish',        note: 'The interim memorandum that took effect June 18 remains in force. Tankers are crossing Hormuz again (Vance: 12M+ barrels overnight, two nights with no Iranian fire), Kuwait lifted force majeure, and Treasury issued a 60-day license authorizing the sale of Iranian oil, payable in dollars. The supply-return narrative is intact and remains the dominant bearish force.' },
+        { label: 'Ceremony Postponed',       weight: 'Mildly bullish', note: 'The formal Geneva signing set for June 19 was abruptly called off; Switzerland said the B\u00FCrgenstock talks would not proceed and Vance no longer traveled. The sides turned to a 60-day roadmap toward a final deal. The interim deal holds, but the lengthened path leaves room for the kind of stumble that could restore a risk premium.' },
+        { label: 'Trump Strike Threat',      weight: 'Mildly bullish', note: 'President Trump threatened renewed military action against Iran, and Tehran accused Washington of failing to ensure a Lebanon ceasefire. With a permanent settlement, sanctions architecture, and Iran\u2019s enriched uranium all unresolved over a 60-day window, an escalation is the clearest near-term path back to higher prices.' },
+        { label: 'Reopening Lags',           weight: 'Mildly bullish', note: 'Traffic through Hormuz is still a fraction of the prewar 120-130 transits a day; 500+ vessels wait to exit the Gulf, mine-clearing could take weeks, and INTERTANKO has sought clarity on safe passage as insurers stay cautious. The physical normalization the market is front-running has not fully arrived.' },
+        { label: 'Inventory Liquidation',    weight: 'Mildly bullish', note: 'Analysts including Quantum Strategy\u2019s David Roche warn that Middle East supply near prewar levels partly reflects the drawdown of crude held in storage and on tankers rather than restored production \u2014 leaving the market exposed to a tightening once those stockpiles are depleted.' },
+        { label: 'Demand Debate',            weight: 'Bearish',        note: 'OPEC\u2019s Al Ghais rejected forecasts of a near-term demand peak and pushed back on IEA glut projections, citing fundamentals. The IEA still sees a possible 2027 surplus as Gulf barrels return. The unresolved demand debate, alongside a softer macro backdrop, keeps the medium-term bias tilted lower.' },
       ];
       // ─── END EDITORIAL ───
 
@@ -364,6 +364,6 @@
       ['Heating Oil','category/heating-oil.html','flame','Diesel, distillate markets'],
     ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
   </script>
-  <script src="js/analytics.js?v=66"></script>
-  <script src="js/related-articles.js?v=66"></script>
+  <script src="js/analytics.js?v=67"></script>
+  <script src="js/related-articles.js?v=67"></script>
 </body></html>
