@@ -167,7 +167,8 @@ fbq('init','957762016897581');fbq('track','PageView');
           <p class="hero-sub">Live oil prices, U.S. gas prices by state, and real-time energy geopolitics &mdash; WTI, Brent, AAA data, and the news that moves them, in one place.</p>
           <p class="hero-today">
             <span class="hero-today-label">Today</span>
-            Renewed hostilities: U.S. struck an Iranian military site near Bandar Abbas Thursday and intercepted drones near Hormuz; the IRGC said it retaliated against the U.S. airbase that launched the strikes, and Kuwait&rsquo;s air defenses responded to missile and drone threats. In parallel, U.S. officials confirmed Trump has been briefed on a draft MOU that would reopen the strait over 60 days in synchronized steps, and Washington sanctioned an Iranian shipping agency Wednesday. Rubio: talks made &ldquo;some progress&rdquo;; Trump will give diplomacy &ldquo;every chance to succeed.&rdquo; Oil down &gt;10% since May 18; Brent rebounds toward $97, WTI ~$93. AAA gas $4.426.
+            <span data-event-bind="top_story.lead_summary"
+                  data-event-fallback="Crude has round-tripped to pre-war levels: WTI fell below $70 and Brent below $74, the lowest since late February and down ~40% from the wartime peak, as Gulf supply returns under the interim deal. The IEA estimates the UAE is exporting at ~85% of pre-war levels, and Brent\u2019s prompt spread flipped into bearish contango for the first time since the conflict. But the Strait of Hormuz is a half-open, half-closed puzzle after Iran signaled a renewed closure: transits briefly fell to 12 vessels, insurers still treat the region as a war zone, and full recovery is weeks away. Domestic tightness lingers \u2014 the EIA says U.S. crude inventories are the lowest since 1984. AAA gas eased to $3.928; diesel slipped back below $5.">Crude has round-tripped to pre-war levels: WTI fell below $70 and Brent below $74, the lowest since late February and down ~40% from the wartime peak, as Gulf supply returns under the interim deal. The IEA estimates the UAE is exporting at ~85% of pre-war levels, and Brent&rsquo;s prompt spread flipped into bearish contango for the first time since the conflict. But the Strait of Hormuz is a half-open, half-closed puzzle after Iran signaled a renewed closure: transits briefly fell to 12 vessels, insurers still treat the region as a war zone, and full recovery is weeks away. Domestic tightness lingers &mdash; the EIA says U.S. crude inventories are the lowest since 1984. AAA gas eased to $3.928; diesel slipped back below $5.</span>
           </p>
         </div>
         <div class="grid-10" id="hero-prices" style="margin-bottom:20px"></div>
@@ -175,17 +176,17 @@ fbq('init','957762016897581');fbq('track','PageView');
         <div class="glance-strip" id="glance-strip">
           <div class="glance-item">
             <div class="glance-item-label">Brent-WTI Spread <span class="freshness freshness--live">Live</span></div>
-            <div class="glance-item-value" data-glance="spread">+$4.62</div>
+            <div class="glance-item-value" data-glance="spread">+$3.80</div>
             <div class="glance-item-sub">global vs U.S.</div>
           </div>
           <div class="glance-item risk-high">
             <div class="glance-item-label">Hormuz Status <span class="freshness freshness--daily">Daily</span></div>
             <div class="glance-item-value" style="font-size:14px"
                  data-event-bind="hormuz_status.status"
-                 data-event-fallback="CLOSED">CLOSED</div>
+                 data-event-fallback="HALF-OPEN">HALF-OPEN</div>
             <div class="glance-item-sub"
                  data-event-bind="hormuz_status.status_tag"
-                 data-event-fallback="Strait closed">Strait closed</div>
+                 data-event-fallback="Conflicting signals">Conflicting signals</div>
           </div>
           <div class="glance-item">
             <div class="glance-item-label">U.S. Gas Avg <span class="freshness freshness--daily">Daily</span></div>
@@ -199,7 +200,7 @@ fbq('init','957762016897581');fbq('track','PageView');
                  data-event-fallback="HIGH">HIGH</div>
             <div class="glance-item-sub"
                  data-event-bind="global_risk_level.summary_micro"
-                 data-event-fallback="Hormuz + ceasefire">Hormuz + ceasefire</div>
+                 data-event-fallback="Hormuz re-closure signal">Hormuz re-closure signal</div>
           </div>
           <div class="glance-item">
             <div class="glance-item-label">Next Catalyst <span class="freshness freshness--reference">Editorial</span></div>
