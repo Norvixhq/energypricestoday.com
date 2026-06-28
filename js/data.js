@@ -4,50 +4,50 @@
    ═══════════════════════════════════════════════════════════════════ */
 
 const COMMODITIES = [
-  { name: "WTI Crude", price: 69.40, change: -1.62, pct: -2.28, unit: "$/bbl", spark: [74.8,73.9,72.5,71.8,70.9,70.6,69.40], loading: false },
-  { name: "Brent Crude", price: 73.20, change: -1.55, pct: -2.07, unit: "$/bbl", spark: [77.9,77.0,75.6,74.9,74.0,73.7,73.20], loading: false },
-  { name: "Natural Gas", price: 3.32, change: -0.03, pct: -0.90, unit: "$/MMBtu", spark: [3.38,3.37,3.36,3.35,3.34,3.33,3.32], loading: false },
-  { name: "Gasoline RBOB", price: 2.36, change: -0.06, pct: -2.48, unit: "$/gal", spark: [2.48,2.45,2.42,2.41,2.39,2.38,2.36], loading: false },
-  { name: "Heating Oil", price: 2.57, change: -0.06, pct: -2.28, unit: "$/gal", spark: [2.68,2.65,2.62,2.61,2.59,2.58,2.57], loading: false },
-  { name: "Murban Crude", price: 73.40, change: -1.50, pct: -2.00, unit: "$/bbl", spark: [78.1,77.2,75.8,75.1,74.2,73.9,73.4], loading: false },
-  { name: "Diesel ULSD", price: 2.60, change: -0.06, pct: -2.26, unit: "$/gal", spark: [2.71,2.68,2.65,2.64,2.62,2.61,2.60], loading: false },
-  { name: "Jet Fuel", price: 2.79, change: -0.06, pct: -2.10, unit: "$/gal", spark: [2.90,2.87,2.84,2.83,2.81,2.80,2.79], loading: false },
-  { name: "Coal", price: 140.5, change: -0.4, pct: -0.28, unit: "$/ton", spark: [141.1,141.0,140.8,140.7,140.6,140.5,140.5], loading: false },
-  { name: "Gold", price: 4958.70, change: 7.40, pct: 0.15, unit: "$/oz", spark: [], loading: false },
+  { name: "WTI Crude", price: 68.30, change: -1.10, pct: -1.58, unit: "$/bbl", spark: [69.4,69.0,68.7,69.8,68.9,68.6,68.30], loading: false },
+  { name: "Brent Crude", price: 72.10, change: -1.10, pct: -1.50, unit: "$/bbl", spark: [73.2,72.8,72.5,73.6,72.7,72.4,72.10], loading: false },
+  { name: "Natural Gas", price: 3.30, change: -0.02, pct: -0.60, unit: "$/MMBtu", spark: [3.32,3.32,3.31,3.31,3.30,3.31,3.30], loading: false },
+  { name: "Gasoline RBOB", price: 2.31, change: -0.05, pct: -2.12, unit: "$/gal", spark: [2.36,2.35,2.34,2.35,2.33,2.32,2.31], loading: false },
+  { name: "Heating Oil", price: 2.52, change: -0.05, pct: -1.95, unit: "$/gal", spark: [2.57,2.56,2.55,2.56,2.54,2.53,2.52], loading: false },
+  { name: "Murban Crude", price: 72.30, change: -1.10, pct: -1.50, unit: "$/bbl", spark: [73.4,73.0,72.7,73.8,72.9,72.6,72.3], loading: false },
+  { name: "Diesel ULSD", price: 2.55, change: -0.05, pct: -1.92, unit: "$/gal", spark: [2.60,2.59,2.58,2.59,2.57,2.56,2.55], loading: false },
+  { name: "Jet Fuel", price: 2.74, change: -0.05, pct: -1.79, unit: "$/gal", spark: [2.79,2.78,2.77,2.78,2.76,2.75,2.74], loading: false },
+  { name: "Coal", price: 140.0, change: -0.5, pct: -0.36, unit: "$/ton", spark: [140.5,140.4,140.3,140.2,140.1,140.0,140.0], loading: false },
+  { name: "Gold", price: 4965.20, change: 6.50, pct: 0.13, unit: "$/oz", spark: [], loading: false },
 ];
 
 const FULL_PRICES = {
   "All Prices": [
     ...COMMODITIES,
-    { name: "Dubai Fateh", price: 71.60, change: -1.50, pct: -2.05, unit: "$/bbl", spark: [76.1,75.2,73.8,73.1,72.2,71.9,71.6] },
-    { name: "Louisiana Light", price: 72.10, change: -1.55, pct: -2.11, unit: "$/bbl", spark: [77.6,76.7,75.3,74.6,73.7,73.4,72.1] },
+    { name: "Dubai Fateh", price: 70.50, change: -1.10, pct: -1.54, unit: "$/bbl", spark: [71.6,71.2,70.9,72.0,71.1,70.8,70.5] },
+    { name: "Louisiana Light", price: 71.00, change: -1.10, pct: -1.53, unit: "$/bbl", spark: [72.1,71.7,71.4,72.5,71.6,71.3,71.0] },
   ],
   "OPEC Blends": [
-    { name: "OPEC Basket", price: 72.80, change: -1.50, pct: -2.02, unit: "$/bbl", spark: [77.3,76.4,75.0,74.3,73.4,73.1,72.8] },
-    { name: "Arab Light", price: 73.90, change: -1.50, pct: -1.99, unit: "$/bbl", spark: [78.4,77.5,76.1,75.4,74.5,74.2,73.9] },
-    { name: "Bonny Light", price: 74.60, change: -1.50, pct: -1.97, unit: "$/bbl", spark: [79.1,78.2,76.8,76.1,75.2,74.9,74.6] },
-    { name: "Iran Heavy", price: 67.70, change: -1.50, pct: -2.17, unit: "$/bbl", spark: [72.2,71.3,69.9,69.2,68.3,68.0,67.7] },
-    { name: "Kuwait Export", price: 71.90, change: -1.50, pct: -2.04, unit: "$/bbl", spark: [76.4,75.5,74.1,73.4,72.5,72.2,71.9] },
+    { name: "OPEC Basket", price: 71.70, change: -1.10, pct: -1.51, unit: "$/bbl", spark: [72.8,72.4,72.1,73.2,72.3,72.0,71.7] },
+    { name: "Arab Light", price: 72.80, change: -1.10, pct: -1.49, unit: "$/bbl", spark: [73.9,73.5,73.2,74.3,73.4,73.1,72.8] },
+    { name: "Bonny Light", price: 73.50, change: -1.10, pct: -1.47, unit: "$/bbl", spark: [74.6,74.2,73.9,75.0,74.1,73.8,73.5] },
+    { name: "Iran Heavy", price: 66.60, change: -1.10, pct: -1.62, unit: "$/bbl", spark: [67.7,67.3,67.0,68.1,67.2,66.9,66.6] },
+    { name: "Kuwait Export", price: 70.80, change: -1.10, pct: -1.53, unit: "$/bbl", spark: [71.9,71.5,71.2,72.3,71.4,71.1,70.8] },
   ],
   "U.S. Blends": [
-    { name: "WTI Crude", price: 69.40, change: -1.62, pct: -2.28, unit: "$/bbl", spark: [74.8,73.9,72.5,71.8,70.9,70.6,69.40] },
-    { name: "Louisiana Light", price: 72.10, change: -1.55, pct: -2.11, unit: "$/bbl", spark: [77.6,76.7,75.3,74.6,73.7,73.4,72.1] },
-    { name: "WTI Midland", price: 70.50, change: -1.60, pct: -2.22, unit: "$/bbl", spark: [75.9,75.0,73.6,72.9,72.0,71.7,70.5] },
-    { name: "Mars Blend", price: 68.20, change: -1.60, pct: -2.29, unit: "$/bbl", spark: [73.6,72.7,71.3,70.6,69.7,69.4,68.2] },
-    { name: "Eagle Ford", price: 69.60, change: -1.60, pct: -2.25, unit: "$/bbl", spark: [75.0,74.1,72.7,72.0,71.1,70.8,69.6] },
+    { name: "WTI Crude", price: 68.30, change: -1.10, pct: -1.58, unit: "$/bbl", spark: [69.4,69.0,68.7,69.8,68.9,68.6,68.30] },
+    { name: "Louisiana Light", price: 71.00, change: -1.10, pct: -1.53, unit: "$/bbl", spark: [72.1,71.7,71.4,72.5,71.6,71.3,71.0] },
+    { name: "WTI Midland", price: 69.40, change: -1.10, pct: -1.56, unit: "$/bbl", spark: [70.5,70.1,69.8,70.9,70.0,69.7,69.4] },
+    { name: "Mars Blend", price: 67.10, change: -1.10, pct: -1.61, unit: "$/bbl", spark: [68.2,67.8,67.5,68.6,67.7,67.4,67.1] },
+    { name: "Eagle Ford", price: 68.50, change: -1.10, pct: -1.58, unit: "$/bbl", spark: [69.6,69.2,68.9,70.0,69.1,68.8,68.5] },
   ],
   "Canadian Blends": [
-    { name: "Western Canadian Select", price: 58.80, change: -1.40, pct: -2.33, unit: "$/bbl", spark: [63.9,63.0,61.6,60.9,60.0,59.7,58.8] },
-    { name: "Syncrude Sweet", price: 68.70, change: -1.60, pct: -2.28, unit: "$/bbl", spark: [74.1,73.2,71.8,71.1,70.2,69.9,68.7] },
-    { name: "Cold Lake Blend", price: 58.20, change: -1.40, pct: -2.35, unit: "$/bbl", spark: [63.3,62.4,61.0,60.3,59.4,59.1,58.2] },
-    { name: "Peace Sour", price: 63.00, change: -1.50, pct: -2.33, unit: "$/bbl", spark: [68.3,67.4,66.0,65.3,64.4,64.1,63.0] },
+    { name: "Western Canadian Select", price: 57.80, change: -1.00, pct: -1.70, unit: "$/bbl", spark: [58.8,58.4,58.1,59.2,58.3,58.0,57.8] },
+    { name: "Syncrude Sweet", price: 67.60, change: -1.10, pct: -1.60, unit: "$/bbl", spark: [68.7,68.3,68.0,69.1,68.2,67.9,67.6] },
+    { name: "Cold Lake Blend", price: 57.20, change: -1.00, pct: -1.72, unit: "$/bbl", spark: [58.2,57.8,57.5,58.6,57.7,57.4,57.2] },
+    { name: "Peace Sour", price: 62.00, change: -1.00, pct: -1.59, unit: "$/bbl", spark: [63.0,62.6,62.3,63.4,62.5,62.2,62.0] },
   ],
   "Refined Products": [
-    { name: "Gasoline RBOB", price: 2.36, change: -0.06, pct: -2.48, unit: "$/gal", spark: [2.48,2.45,2.42,2.41,2.39,2.38,2.36] },
-    { name: "Heating Oil", price: 2.57, change: -0.06, pct: -2.28, unit: "$/gal", spark: [2.68,2.65,2.62,2.61,2.59,2.58,2.57] },
-    { name: "Diesel", price: 2.60, change: -0.06, pct: -2.26, unit: "$/gal", spark: [2.71,2.68,2.65,2.64,2.62,2.61,2.60] },
-    { name: "Jet Fuel", price: 2.79, change: -0.06, pct: -2.10, unit: "$/gal", spark: [2.90,2.87,2.84,2.83,2.81,2.80,2.79] },
-    { name: "Naphtha", price: 556.00, change: -12.00, pct: -2.11, unit: "$/mt", spark: [592,584,572,566,560,558,556] },
+    { name: "Gasoline RBOB", price: 2.31, change: -0.05, pct: -2.12, unit: "$/gal", spark: [2.36,2.35,2.34,2.35,2.33,2.32,2.31] },
+    { name: "Heating Oil", price: 2.52, change: -0.05, pct: -1.95, unit: "$/gal", spark: [2.57,2.56,2.55,2.56,2.54,2.53,2.52] },
+    { name: "Diesel", price: 2.55, change: -0.05, pct: -1.92, unit: "$/gal", spark: [2.60,2.59,2.58,2.59,2.57,2.56,2.55] },
+    { name: "Jet Fuel", price: 2.74, change: -0.05, pct: -1.79, unit: "$/gal", spark: [2.79,2.78,2.77,2.78,2.76,2.75,2.74] },
+    { name: "Naphtha", price: 547.00, change: -9.00, pct: -1.62, unit: "$/mt", spark: [556,553,551,555,550,548,547] },
   ],
   "Natural Gas": [
     { name: "Henry Hub", price: 3.46, change: -0.04, pct: -1.14, unit: "$/MMBtu", spark: [3.55,3.52,3.50,3.49,3.48,3.47,3.46] },
@@ -58,50 +58,50 @@ const FULL_PRICES = {
 };
 
 const BREAKING_NEWS = [
-  { title: "Crude Sinks to Pre-War Levels: WTI Below $70, Brent Below $74", cat: "Oil Markets", slug: "oil-prices", time: "1h" },
-  { title: "Hormuz Baffles Markets: Half-Open, Half-Closed After Iran\u2019s Renewed Closure Signal", cat: "Geopolitics", slug: "geopolitics", time: "3h" },
-  { title: "Brent\u2019s Prompt Spread Flips Into Bearish Contango for the First Time Since the Conflict", cat: "Oil Markets", slug: "oil-prices", time: "5h" },
-  { title: "IEA: UAE Exporting at ~85% of Pre-War Levels as Tankers Transit With Signals On", cat: "Geopolitics", slug: "geopolitics", time: "7h" },
-  { title: "AAA National Average Eases to $3.928; Diesel Slips Back Below $5", cat: "Gas Prices", slug: "gas-prices", time: "9h" },
-  { title: "EIA: U.S. Crude Inventories at Lowest Since 1984 as Cushing Nears Minimums", cat: "Oil Markets", slug: "oil-prices", time: "11h" },
-  { title: "Oil Down ~40% From Wartime Peak as War-Risk Premium Nearly Wiped Out", cat: "Oil Markets", slug: "oil-prices", time: "13h" },
-  { title: "U.S. Waiver Permits Purchases of Already-Loaded Iranian Oil, Adding Supply", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
+  { title: "Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", cat: "Geopolitics", slug: "geopolitics", time: "1h" },
+  { title: "Brent Near $72, Lowest Since February 27, After an Over-10% Weekly Drop", cat: "Oil Markets", slug: "oil-prices", time: "3h" },
+  { title: "Container Ship Ever Lovely Struck Off Oman, but Trump Confirms the Strait Stays Open", cat: "Geopolitics", slug: "geopolitics", time: "5h" },
+  { title: "Saudi Arabia Loads Tankers at Ras Tanura as the Gulf Output Ramp Begins", cat: "Geopolitics", slug: "geopolitics", time: "7h" },
+  { title: "AAA National Average Slips to $3.867 as Pump Relief Broadens", cat: "Gas Prices", slug: "gas-prices", time: "9h" },
+  { title: "Iraq Pushes for a Higher OPEC Quota to Recoup Wartime Losses", cat: "Oil Markets", slug: "oil-prices", time: "11h" },
+  { title: "Supply Recovery Runs Into a Tanker Shortage as Producers Scramble for Vessels", cat: "Oil Markets", slug: "oil-prices", time: "13h" },
+  { title: "Trump Accuses Iran of Ceasefire Violation as Drones Reported Near Ships", cat: "Geopolitics", slug: "geopolitics", time: "1d" },
 ];
 
 const MARKET_DRIVERS = [
-  { cat: "Pre-War Lows", icon: "trending-down", title: "Crude Sinks to Pre-War Levels: WTI Below $70, Brent Below $74", desc: "Oil extended its slide for a fourth straight session, with WTI dropping below $70 a barrel and Brent below $74 \u2014 the lowest levels since late February, before the conflict began. Prices have now collapsed roughly 40% from their wartime peak above $120 as the supply outlook improves and tankers resume transiting the Strait of Hormuz with their tracking signals on. The move nearly wipes out the entire war-risk premium that had accumulated since the end of February, a remarkable round trip for a market that priced Brent above $120 just weeks ago." },
-  { cat: "Curve Flips to Contango", icon: "activity", title: "Brent\u2019s Prompt Spread Shifts Into Bearish Contango for the First Time Since the Conflict", desc: "Brent\u2019s prompt spread, a closely watched gauge of near-term supply, shifted into bearish contango this week for the first time since the conflict began \u2014 a structural signal that the market now sees near-term supply as ample rather than scarce. The flip caps a dramatic repricing: buyers face a surge of crude offers from the Middle East and other exporting regions, including West Africa, and a temporary U.S. waiver permitting purchases of already-loaded Iranian oil is expected to add further supply." },
-  { cat: "Half-Open Strait", icon: "anchor", title: "Hormuz Baffles Markets: Half-Open, Half-Closed After Iran\u2019s Renewed Closure Signal", desc: "Confusion over the Strait of Hormuz persists, with Iran and the U.S. issuing conflicting statements about whether the chokepoint is open or closed. After Tehran signaled a renewed closure over the weekend, maritime-intelligence firm Windward said transits fell to 12 vessels on Sunday from more than 21 on Saturday, with neutral and European tonnage largely absent and several inbound ships traveling dark. Insurers and shipowners continue treating the region as a high-risk war zone; a full recovery in Gulf flows still appears weeks away even as overall volumes improve." },
-  { cat: "Gulf Supply Returns", icon: "ship", title: "IEA: UAE Exporting at ~85% of Pre-War Levels as Tankers Transit With Signals On", desc: "The supply recovery is increasingly visible in the data. The International Energy Agency estimates the United Arab Emirates is exporting oil at nearly 85% of pre-war levels, having sold roughly 60 million barrels from the Persian Gulf recently. Shipowners are transiting the chokepoint with active satellite signals following safety guarantees from the International Maritime Organization, and growing confidence in a lasting agreement has encouraged more tankers to move. The resumed flow has overshadowed the lingering closure signals from Tehran." },
-  { cat: "Gas Below $5 Diesel", icon: "fuel", title: "AAA National Average Eases to $3.928; Diesel Slips Back Below $5", desc: "AAA\u2019s national average for regular gasoline eased to $3.928, holding below $4 as crude trades at pre-war lows. Diesel slipped back below $5 for the first time in months, to $4.980. Indiana is the cheapest market at $3.33, with Texas ($3.38) and Oklahoma ($3.43) close behind, while California ($5.54) and Washington ($5.30) remain the most expensive. With pump prices lagging crude by one to two weeks, the recent collapse in oil points to further relief at the pump through the summer driving season." },
-  { cat: "Domestic Tightness", icon: "alert-triangle", title: "EIA: U.S. Crude Inventories at Lowest Since 1984; Cushing Near Operational Minimums", desc: "Even as global supply returns, a pocket of domestic tightness persists. The EIA reported U.S. crude inventories have plunged to their lowest since 1984, with stockpiles at the Cushing, Oklahoma delivery hub dipping toward \u2014 and by some measures below \u2014 critical minimum operating levels. The drawdown reflects months of record U.S. petroleum exports during the Hormuz disruption. The tightness is a counterweight that could slow the price decline or amplify volatility even as the war premium unwinds." },
+  { cat: "Reopening Accelerates", icon: "ship", title: "Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", desc: "The reopening of the Strait of Hormuz is now visibly underway. Shipping transits have accelerated as vessels openly navigate the waterway with their tracking signals on, restoring Persian Gulf exports to roughly 75% of pre-war levels. Saudi Arabia has begun loading tankers at its Ras Tanura terminal, signaling a major regional output ramp-up, and producers including the UAE, Kuwait, and Qatar are boosting supply \u2014 constrained mainly by the difficulty of securing enough tankers to move the additional crude rather than by the conflict itself." },
+  { cat: "Pre-War Prices Hold", icon: "trending-down", title: "Brent Near $72, Lowest Since February 27, After an Over-10% Weekly Drop", desc: "Crude has settled at pre-war levels: Brent fell to around $72 a barrel \u2014 its lowest since February 27, before the conflict began \u2014 and WTI traded in the high-$60s, leaving the international benchmark down more than 10% on the week, its largest weekly drop in a month. The war-risk premium that pushed Brent above $120 has been almost entirely erased as the supply outlook normalizes, with the market now focused on how quickly Gulf barrels and higher OPEC+ quotas will rebuild global inventories." },
+  { cat: "Ever Lovely Strike", icon: "alert-triangle", title: "Container Ship Struck Off Oman, but Trump Confirms the Strait Stays Open", desc: "A reminder that the reopening is not risk-free: the container ship Ever Lovely was struck by a projectile southeast of Oman, briefly lifting oil about 2% on Thursday. But President Trump confirmed the Strait of Hormuz remains open and traffic has continued, and the price spike quickly faded. Trump separately accused Iran of violating the ceasefire by firing drones at ships near Hormuz. The episode underscores that residual security risk lingers even as commercial traffic returns in force." },
+  { cat: "Iraq Seeks Quota", icon: "bar-chart", title: "Iraq Pushes for a Higher OPEC Quota to Recoup Wartime Losses as Supply Floods Back", desc: "With exports recovering, the policy focus has shifted to how fast OPEC+ restores volume. Iraq is seeking a higher OPEC production quota to recoup the oil sales it lost during the war, joining a broader regional output ramp that includes Saudi loadings at Ras Tanura and increased UAE supply. The push adds to expectations of higher OPEC+ export quotas replenishing refinery inventories worldwide \u2014 a bearish backdrop that keeps prices anchored near pre-war levels even as demand holds into peak summer." },
+  { cat: "Gas Keeps Falling", icon: "fuel", title: "AAA National Average Slips to $3.867 as Pump Relief Broadens", desc: "AAA\u2019s national average for regular gasoline slipped to $3.867, extending a steady decline as crude trades at pre-war lows and Gulf supply returns. Indiana is the cheapest market at $3.23, with Texas ($3.31) and Oklahoma ($3.38) close behind, while California ($5.46) and Washington ($5.20) remain the most expensive. With pump prices lagging crude by one to two weeks, more of the recent collapse has yet to reach drivers, pointing to further relief through the heart of the summer travel season." },
+  { cat: "Tanker Bottleneck", icon: "anchor", title: "Supply Recovery Runs Into a Tanker Shortage as Producers Scramble for Vessels", desc: "The constraint on the recovery has shifted from geopolitics to logistics. Middle Eastern producers are boosting output faster than they can secure tankers to move it, creating a bottleneck that could temper the pace at which Gulf barrels reach global refineries. Freight rates for the region have firmed as charterers compete for available tonnage, and shipping firms remain cautious about the durability of the peace after the Ever Lovely strike \u2014 a friction that may slow, but is unlikely to reverse, the normalization now underway." },
 ];
 
 const FEATURED_ARTICLES = [
-  { id: 101, title: "Crude Sinks to Pre-War Levels as Gulf Supply Returns: WTI Below $70, Brent Below $74", excerpt: "Oil extended its slide for a fourth straight session, with WTI below $70 and Brent below $74 \u2014 the lowest since late February and down ~40% from the wartime peak. Tankers are resuming Hormuz transits with signals on, the IEA estimates the UAE is exporting at ~85% of pre-war levels, and Brent\u2019s prompt spread flipped into bearish contango.", cat: "Oil Markets", slug: "oil-prices", author: "EnergyPricesToday Editorial", date: "June 24, 2026", readTime: "6 min", featured: true },
-  { id: 102, title: "Hormuz Baffles Markets: Half-Open, Half-Closed After Iran\u2019s Renewed Closure Signal", excerpt: "Confusion over the Strait of Hormuz persists as Iran and the U.S. issue conflicting statements. Windward said transits fell to 12 Sunday from 21 Saturday after Tehran\u2019s renewed closure signal, with traffic dark and sanctioned. Insurers still treat the region as a war zone; full recovery appears weeks away even as overall volumes improve.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "June 24, 2026", readTime: "5 min" },
-  { id: 103, title: "Brent\u2019s Prompt Spread Flips Into Contango for the First Time Since the Conflict", excerpt: "Brent\u2019s prompt spread shifted into bearish contango this week, a structural signal the market now sees near-term supply as ample. Buyers face a surge of Middle East and West African offers, and a U.S. waiver permitting purchases of already-loaded Iranian oil adds further supply.", cat: "Oil Markets", slug: "oil-prices", author: "EnergyPricesToday Editorial", date: "June 24, 2026", readTime: "5 min" },
-  { id: 104, title: "IEA: UAE Exporting at ~85% of Pre-War Levels as Tankers Transit With Signals On", excerpt: "The supply recovery is increasingly visible: the IEA estimates the UAE is exporting at nearly 85% of pre-war levels, having sold ~60 million barrels recently. Shipowners are transiting Hormuz with active signals after IMO safety guarantees, overshadowing Tehran\u2019s lingering closure signals.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "June 24, 2026", readTime: "5 min" },
-  { id: 105, title: "AAA National Average Eases to $3.928; Diesel Slips Back Below $5", excerpt: "AAA\u2019s national average eased to $3.928 as crude trades at pre-war lows, and diesel slipped below $5 to $4.980. Indiana is cheapest at $3.33, with Texas ($3.38) and Oklahoma ($3.43) close behind; California ($5.54) and Washington ($5.30) remain highest. More relief is likely as the crude collapse reaches the pump.", cat: "Gas Prices", slug: "gas-prices", author: "EnergyPricesToday Editorial", date: "June 24, 2026", readTime: "4 min" },
-  { id: 106, title: "EIA: U.S. Crude Inventories at Lowest Since 1984 as Cushing Nears Operational Minimums", excerpt: "Even as global supply returns, U.S. crude inventories have plunged to their lowest since 1984, with Cushing stocks dipping toward critical minimum operating levels after months of record petroleum exports. The domestic tightness is a counterweight that could slow the price decline or amplify volatility.", cat: "Oil Markets", slug: "oil-prices", author: "EnergyPricesToday Editorial", date: "June 24, 2026", readTime: "5 min" },
+  { id: 101, title: "Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", excerpt: "The reopening is now visibly underway: transits have accelerated, restoring Persian Gulf exports to roughly 75% of pre-war levels. Saudi Arabia began loading tankers at Ras Tanura, and the UAE, Kuwait, and Qatar are boosting supply \u2014 constrained mainly by tanker availability.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "June 28, 2026", readTime: "6 min", featured: true },
+  { id: 102, title: "Brent Near $72, Lowest Since February 27, After an Over-10% Weekly Drop", excerpt: "Crude has settled at pre-war levels: Brent fell to around $72, its lowest since February 27, and WTI traded in the high-$60s. The war-risk premium that pushed Brent above $120 has been almost entirely erased as the supply outlook normalizes.", cat: "Oil Markets", slug: "oil-prices", author: "EnergyPricesToday Editorial", date: "June 28, 2026", readTime: "5 min" },
+  { id: 103, title: "Container Ship Struck Off Oman, but Trump Confirms the Strait Stays Open", excerpt: "The Ever Lovely was struck by a projectile southeast of Oman, briefly lifting oil about 2%. But Trump confirmed Hormuz remains open and traffic has continued, and the spike faded. Residual security risk lingers even as commercial traffic returns in force.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "June 28, 2026", readTime: "5 min" },
+  { id: 104, title: "Saudi Arabia Loads Tankers at Ras Tanura as the Gulf Output Ramp Begins", excerpt: "Saudi Arabia has begun loading tankers at its Ras Tanura terminal, signaling a major regional output ramp-up. Producers including the UAE, Kuwait, and Qatar are boosting supply, while Iraq seeks a higher OPEC quota to recoup wartime losses.", cat: "Geopolitics", slug: "geopolitics", author: "EnergyPricesToday Editorial", date: "June 28, 2026", readTime: "5 min" },
+  { id: 105, title: "AAA National Average Slips to $3.867 as Pump Relief Broadens", excerpt: "AAA\u2019s national average slipped to $3.867 as crude trades at pre-war lows and Gulf supply returns. Indiana is cheapest at $3.23, with Texas ($3.31) and Oklahoma ($3.38) close behind; California ($5.46) and Washington ($5.20) remain highest.", cat: "Gas Prices", slug: "gas-prices", author: "EnergyPricesToday Editorial", date: "June 28, 2026", readTime: "4 min" },
+  { id: 106, title: "Supply Recovery Runs Into a Tanker Shortage as Producers Scramble for Vessels", excerpt: "The constraint on the recovery has shifted from geopolitics to logistics: producers are boosting output faster than they can secure tankers to move it, creating a bottleneck that could temper the pace at which Gulf barrels reach global refineries.", cat: "Oil Markets", slug: "oil-prices", author: "EnergyPricesToday Editorial", date: "June 28, 2026", readTime: "5 min" },
 ];
 
 const COMPANY_NEWS = [
-  { id: 201, title: "Crude Sinks to Pre-War Levels as Gulf Supply Returns: WTI Below $70, Brent Below $74", date: "June 24, 2026" },
-  { id: 202, title: "Hormuz Baffles Markets: Half-Open, Half-Closed After Iran\u2019s Renewed Closure Signal", date: "June 24, 2026" },
-  { id: 203, title: "Brent\u2019s Prompt Spread Flips Into Contango for the First Time Since the Conflict", date: "June 24, 2026" },
-  { id: 204, title: "IEA: UAE Exporting at ~85% of Pre-War Levels as Tankers Transit With Signals On", date: "June 24, 2026" },
-  { id: 205, title: "AAA National Average Eases to $3.928; Diesel Slips Back Below $5", date: "June 24, 2026" },
-  { id: 206, title: "EIA: U.S. Crude Inventories at Lowest Since 1984 as Cushing Nears Minimums", date: "June 24, 2026" },
+  { id: 201, title: "Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", date: "June 28, 2026" },
+  { id: 202, title: "Brent Near $72, Lowest Since February 27, After an Over-10% Weekly Drop", date: "June 28, 2026" },
+  { id: 203, title: "Container Ship Struck Off Oman, but Trump Confirms the Strait Stays Open", date: "June 28, 2026" },
+  { id: 204, title: "Saudi Arabia Loads Tankers at Ras Tanura as the Gulf Output Ramp Begins", date: "June 28, 2026" },
+  { id: 205, title: "AAA National Average Slips to $3.867 as Pump Relief Broadens", date: "June 28, 2026" },
+  { id: 206, title: "Iraq Pushes for a Higher OPEC Quota to Recoup Wartime Losses", date: "June 28, 2026" },
 ];
 
 const GEO_ITEMS = [
-  { id: 301, region: "Global Markets", title: "Crude Sinks to Pre-War Levels: WTI Below $70, Brent Below $74", desc: "Oil extended its slide for a fourth straight session, with WTI dropping below $70 a barrel and Brent below $74 \u2014 the lowest since late February, before the conflict began. Prices have collapsed roughly 40% from the wartime peak above $120 as the supply outlook improves and tankers resume transiting Hormuz with their tracking signals on. The move nearly wipes out the war-risk premium accumulated since late February, a remarkable round trip for a market that priced Brent above $120 just weeks ago." },
-  { id: 302, region: "Strait of Hormuz", title: "Half-Open, Half-Closed: Iran\u2019s Renewed Closure Signal Baffles Markets", desc: "Confusion over the Strait of Hormuz persists, with Iran and the U.S. issuing conflicting statements about whether the chokepoint is open or closed. After Tehran signaled a renewed closure over the weekend, Windward said transits fell to 12 vessels on Sunday from more than 21 on Saturday, with neutral and European tonnage largely absent and several inbound ships traveling dark. Insurers and shipowners continue treating the region as a high-risk war zone; a full recovery in Gulf flows still appears weeks away even as overall volumes improve." },
-  { id: 303, region: "Gulf Supply", title: "IEA: UAE Exporting at ~85% of Pre-War Levels as Tankers Transit With Signals On", desc: "The supply recovery is increasingly visible in the data. The IEA estimates the United Arab Emirates is exporting oil at nearly 85% of pre-war levels, having sold roughly 60 million barrels from the Persian Gulf recently. Shipowners are transiting the chokepoint with active satellite signals following safety guarantees from the International Maritime Organization, and growing confidence in a lasting agreement has encouraged more tankers to move \u2014 a resumed flow that has overshadowed the lingering closure signals from Tehran." },
-  { id: 304, region: "Oil Curve", title: "Brent\u2019s Prompt Spread Flips Into Bearish Contango for the First Time Since the Conflict", desc: "Brent\u2019s prompt spread, a closely watched gauge of near-term supply, shifted into bearish contango this week for the first time since the conflict began \u2014 a structural signal that the market now sees near-term supply as ample rather than scarce. Buyers face a surge of crude offers from the Middle East and other exporting regions, including West Africa, and a temporary U.S. waiver permitting purchases of already-loaded Iranian oil is expected to add further supply as the war premium unwinds." },
-  { id: 305, region: "U.S. Inventories", title: "EIA: U.S. Crude Inventories at Lowest Since 1984; Cushing Near Operational Minimums", desc: "Even as global supply returns, a pocket of domestic tightness persists. The EIA reported U.S. crude inventories have plunged to their lowest since 1984, with stockpiles at the Cushing, Oklahoma delivery hub dipping toward critical minimum operating levels after months of record U.S. petroleum exports during the Hormuz disruption. The tightness is a counterweight that could slow the price decline or amplify volatility even as the structural war premium evaporates." },
-  { id: 306, region: "U.S. Consumers", title: "AAA National Average Eases to $3.928; Diesel Slips Back Below $5", desc: "AAA\u2019s national average for regular gasoline eased to $3.928, holding below $4 as crude trades at pre-war lows; diesel slipped back below $5 to $4.980. Indiana is the cheapest market at $3.33, with Texas ($3.38) and Oklahoma ($3.43) close behind, while California ($5.54) and Washington ($5.30) remain the most expensive. With pump prices lagging crude by one to two weeks, the recent collapse in oil points to further relief into the summer driving season." },
+  { id: 301, region: "Strait of Hormuz", title: "Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", desc: "The reopening of the Strait of Hormuz is now visibly underway. Shipping transits have accelerated as vessels openly navigate the waterway with tracking signals on, restoring Persian Gulf exports to roughly 75% of pre-war levels. Saudi Arabia has begun loading tankers at its Ras Tanura terminal, and producers including the UAE, Kuwait, and Qatar are boosting supply \u2014 constrained mainly by the difficulty of securing enough tankers to move the additional crude rather than by the conflict." },
+  { id: 302, region: "Maritime Security", title: "Container Ship Ever Lovely Struck Off Oman, but the Strait Stays Open", desc: "A reminder that the reopening is not risk-free: the container ship Ever Lovely was struck by a projectile southeast of Oman, briefly lifting oil about 2%. President Trump confirmed the Strait of Hormuz remains open and traffic has continued, and the spike quickly faded. Trump separately accused Iran of violating the ceasefire by firing drones at ships, underscoring that residual security risk lingers even as commercial traffic returns in force." },
+  { id: 303, region: "Global Markets", title: "Brent Near $72, Lowest Since February 27, After an Over-10% Weekly Drop", desc: "Crude has settled at pre-war levels: Brent fell to around $72 a barrel, its lowest since February 27, and WTI traded in the high-$60s, leaving Brent down more than 10% on the week \u2014 its largest weekly drop in a month. The war-risk premium that pushed Brent above $120 has been almost entirely erased as the supply outlook normalizes and the market turns to how fast Gulf barrels and higher OPEC+ quotas will rebuild inventories." },
+  { id: 304, region: "OPEC & Supply", title: "Saudi Loads at Ras Tanura; Iraq Seeks a Higher Quota as Output Ramps", desc: "The regional output ramp is accelerating. Saudi Arabia has begun loading tankers at Ras Tanura, the UAE, Kuwait, and Qatar are boosting supply, and Iraq is seeking a higher OPEC production quota to recoup the sales it lost during the war. The push adds to expectations of higher OPEC+ export quotas replenishing refinery inventories worldwide \u2014 a bearish backdrop that keeps prices anchored near pre-war levels even as demand holds into peak summer driving season." },
+  { id: 305, region: "Shipping & Logistics", title: "Supply Recovery Runs Into a Tanker Shortage as Producers Scramble for Vessels", desc: "The binding constraint on the recovery has shifted from geopolitics to logistics. Middle Eastern producers are boosting output faster than they can secure tankers to move it, creating a bottleneck that could temper the pace at which Gulf barrels reach global refineries. Freight rates have firmed as charterers compete for tonnage, and shipping firms remain cautious about the durability of the peace after the Ever Lovely strike." },
+  { id: 306, region: "U.S. Consumers", title: "AAA National Average Slips to $3.867 as Pump Relief Broadens", desc: "AAA\u2019s national average for regular gasoline slipped to $3.867, extending a steady decline as crude trades at pre-war lows and Gulf supply returns. Indiana is the cheapest market at $3.23, with Texas ($3.31) and Oklahoma ($3.38) close behind, while California ($5.46) and Washington ($5.20) remain the most expensive. With the one-to-two-week pump lag, more of the recent crude collapse has yet to reach drivers." },
 ];
 
 const CATEGORIES = {
@@ -123,12 +123,12 @@ const CATEGORIES = {
 };
 
 const CATEGORY_ARTICLES = [
+  { id: 460, title: "Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", excerpt: "The reopening is now visibly underway: transits have accelerated, restoring Persian Gulf exports to roughly 75% of pre-war levels. Saudi Arabia began loading at Ras Tanura, and the UAE, Kuwait, and Qatar are boosting supply \u2014 constrained mainly by tanker availability.", date: "Jun 28, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
+  { id: 461, title: "Container Ship Struck Off Oman, but Trump Confirms the Strait Stays Open", excerpt: "The Ever Lovely was struck by a projectile southeast of Oman, briefly lifting oil ~2%. But Trump confirmed Hormuz remains open and traffic continued. Residual security risk lingers even as commercial traffic returns in force.", date: "Jun 28, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
   { id: 450, title: "Crude Sinks to Pre-War Levels as Gulf Supply Returns: WTI Below $70, Brent Below $74", excerpt: "Oil extended its slide for a fourth straight session to the lowest since late February, down ~40% from the wartime peak. Tankers are resuming Hormuz transits with signals on, the IEA estimates the UAE is exporting at ~85% of pre-war levels, and Brent\u2019s curve flipped into contango.", date: "Jun 24, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
   { id: 451, title: "Hormuz Baffles Markets: Half-Open, Half-Closed After Iran\u2019s Renewed Closure Signal", excerpt: "Confusion over the strait persists as Iran and the U.S. issue conflicting statements. Windward said transits fell to 12 Sunday from 21 Saturday after Tehran\u2019s renewed closure signal. Insurers still treat the region as a war zone; full recovery appears weeks away.", date: "Jun 24, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
   { id: 440, title: "Geneva Signing Ceremony Postponed; U.S. and Iran Turn to a 60-Day Roadmap", excerpt: "The formal Geneva ceremony set for June 19 was abruptly called off; mediators Qatar and Pakistan said the sides agreed on a roadmap to a final deal within 60 days. The interim deal that took effect June 18 remains in force, but Trump has threatened renewed strikes.", date: "Jun 22, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
-  { id: 441, title: "Crude Holds Near Multi-Month Lows: WTI About $74.82, Brent $77.90", excerpt: "Oil settled near multi-month lows as a holding interim peace met a slow physical reopening of Hormuz. Brent is down ~36% from its conflict peak. Treasury issued a 60-day license authorizing the sale of Iranian oil.", date: "Jun 22, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
-  { id: 430, title: "U.S. and Iran Sign Peace Deal; Interim Agreement Takes Effect, Ending the War", excerpt: "The interim accord took effect June 18, formally ending the three-month war. Trump and Pezeshkian signed electronically June 15; a Geneva ceremony is set for June 19. Iran will forgo nuclear weapons and dilute enriched uranium; the U.S. will release $25 billion in frozen assets.", date: "Jun 18, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
-  { id: 431, title: "Crude Falls to Multi-Month Lows as Supply Returns: WTI Near $75.83, Brent $78.41", excerpt: "Oil fell again as the deal took effect; the IEA said the market could move into a significant supply surplus by 2027 once Hormuz reopens. Cushing inventories near multi-year lows may slow the decline.", date: "Jun 18, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" }
+  { id: 441, title: "Crude Holds Near Multi-Month Lows: WTI About $74.82, Brent $77.90", excerpt: "Oil settled near multi-month lows as a holding interim peace met a slow physical reopening of Hormuz. Brent is down ~36% from its conflict peak. Treasury issued a 60-day license authorizing the sale of Iranian oil.", date: "Jun 22, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" }
 ];
 
 const TRENDING_TOPICS = [
@@ -172,16 +172,16 @@ const RIG_COUNT_DATA = {
 };
 
 const OIL_FUTURES_DATA = [
-  { contract: "WTI Jul 2026", price: 69.40, change: -1.62, pct: -2.28 },
-  { contract: "WTI Aug 2026", price: 69.55, change: -1.55, pct: -2.18 },
-  { contract: "WTI Sep 2026", price: 69.70, change: -1.48, pct: -2.08 },
-  { contract: "WTI Oct 2026", price: 69.85, change: -1.40, pct: -1.96 },
-  { contract: "WTI Dec 2026", price: 70.15, change: -1.28, pct: -1.79 },
-  { contract: "WTI Dec 2027", price: 70.90, change: -0.85, pct: -1.18 },
-  { contract: "Brent Aug 2026", price: 73.20, change: -1.55, pct: -2.07 },
-  { contract: "Brent Sep 2026", price: 73.35, change: -1.48, pct: -1.98 },
-  { contract: "Brent Oct 2026", price: 73.55, change: -1.40, pct: -1.87 },
-  { contract: "Brent Dec 2026", price: 73.95, change: -1.28, pct: -1.70 },
+  { contract: "WTI Aug 2026", price: 68.30, change: -1.10, pct: -1.58 },
+  { contract: "WTI Sep 2026", price: 68.50, change: -1.05, pct: -1.51 },
+  { contract: "WTI Oct 2026", price: 68.70, change: -1.00, pct: -1.43 },
+  { contract: "WTI Nov 2026", price: 68.95, change: -0.95, pct: -1.36 },
+  { contract: "WTI Dec 2026", price: 69.30, change: -0.88, pct: -1.25 },
+  { contract: "WTI Dec 2027", price: 70.30, change: -0.60, pct: -0.85 },
+  { contract: "Brent Sep 2026", price: 72.10, change: -1.10, pct: -1.50 },
+  { contract: "Brent Oct 2026", price: 72.30, change: -1.05, pct: -1.43 },
+  { contract: "Brent Nov 2026", price: 72.55, change: -1.00, pct: -1.36 },
+  { contract: "Brent Dec 2026", price: 72.95, change: -0.92, pct: -1.25 },
 ];
 
 const SUPPLY_CHOKEPOINTS = [
@@ -201,6 +201,7 @@ const OIL_PRICE_SECTIONS = [
 const CATEGORY_CONTENT = {
   "oil-prices": {
     articles: [
+      { id: 1501, title: "Brent Near $72, Lowest Since February 27, After an Over-10% Weekly Drop", excerpt: "Crude has settled at pre-war levels: Brent fell to around $72, its lowest since February 27, and WTI traded in the high-$60s, leaving Brent down more than 10% on the week. The war-risk premium that pushed Brent above $120 has been almost entirely erased as the supply outlook normalizes.", date: "June 28, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
       { id: 1490, title: "Crude Sinks to Pre-War Levels as Gulf Supply Returns: WTI Below $70, Brent Below $74", excerpt: "Oil extended its slide for a fourth straight session to the lowest since late February, down ~40% from the wartime peak. The IEA estimates the UAE is exporting at ~85% of pre-war levels, and Brent\u2019s prompt spread flipped into bearish contango \u2014 a structural signal that near-term supply is now ample.", date: "June 24, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
       { id: 1481, title: "Crude Holds Near Multi-Month Lows: WTI About $74.82, Brent $77.90", excerpt: "Oil settled near multi-month lows as a holding interim peace met a slow physical reopening of Hormuz. Brent is down ~36% from its conflict peak. The U.S. Treasury issued a 60-day license authorizing the sale of Iranian oil, payable in dollars.", date: "June 22, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
       { id: 1471, title: "Crude Falls to Multi-Month Lows as Supply Returns: WTI Near $75.83, Brent $78.41", excerpt: "Oil fell again Thursday as the interim peace deal took effect. WTI dropped to $75.83 and Brent to $78.41, extending a slide from above $107 at the peak. The IEA said the market could move into a significant supply surplus by 2027 once Hormuz reopens.", date: "June 18, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
@@ -217,9 +218,9 @@ const CATEGORY_CONTENT = {
       { id: 1005, title: "Dubai Crude Fetches Premium as Asian Refiners Compete for Sour Barrels", excerpt: "The Dubai benchmark has firmed on strong buying from Indian and Chinese refiners seeking Middle Eastern grades.", date: "Apr 13, 2026", author: "EnergyPricesToday Editorial", readTime: "4 min" },
     ],
     stats: [
-      { label: "WTI Crude", value: "$69.40", sub: "-2.28%" },
-      { label: "Brent Crude", value: "$73.20", sub: "-2.07%" },
-      { label: "OPEC Basket", value: "$72.80", sub: "-2.02%" },
+      { label: "WTI Crude", value: "$68.30", sub: "-1.58%" },
+      { label: "Brent Crude", value: "$72.10", sub: "-1.50%" },
+      { label: "OPEC Basket", value: "$71.70", sub: "-1.51%" },
     ]
   },
   "oil-futures": {
@@ -231,8 +232,8 @@ const CATEGORY_CONTENT = {
       { id: 1104, title: "Managed Money Net Longs in Crude Futures Rise for Fourth Straight Week", excerpt: "CFTC data shows hedge funds increasing bullish bets on oil as macro headwinds appear to be easing.", date: "Apr 13, 2026", author: "EnergyPricesToday Editorial", readTime: "4 min" },
     ],
     stats: [
-      { label: "WTI Front Month", value: "$69.40", sub: "Jul 2026" },
-      { label: "Brent Front Month", value: "$73.20", sub: "Aug 2026" },
+      { label: "WTI Front Month", value: "$68.30", sub: "Aug 2026" },
+      { label: "Brent Front Month", value: "$72.10", sub: "Sep 2026" },
       { label: "Curve Shape", value: "Backwardation", sub: "-$3.40 to Dec-26" },
     ]
   },
@@ -279,6 +280,7 @@ const CATEGORY_CONTENT = {
   },
   "gas-prices": {
     articles: [
+      { id: 1502, title: "AAA National Average Slips to $3.867 as Pump Relief Broadens", excerpt: "AAA\u2019s national average slipped to $3.867 as crude trades at pre-war lows and Gulf supply returns. Indiana is cheapest at $3.23, Texas $3.31, Oklahoma $3.38; California ($5.46) and Washington ($5.20) remain highest. More relief is likely as the crude collapse reaches the pump.", date: "June 28, 2026", author: "EnergyPricesToday Editorial", readTime: "4 min" },
       { id: 1492, title: "AAA National Average Eases to $3.928; Diesel Slips Back Below $5", excerpt: "AAA\u2019s national average eased to $3.928 as crude trades at pre-war lows, and diesel slipped below $5 to $4.980. Indiana is cheapest at $3.33, Texas $3.38, Oklahoma $3.43; California ($5.54) and Washington ($5.30) remain highest. More relief is likely as the crude collapse reaches the pump.", date: "June 24, 2026", author: "EnergyPricesToday Editorial", readTime: "4 min" },
       { id: 1482, title: "AAA National Average Slides to $3.938 as Summer Travel Heats Up", excerpt: "AAA\u2019s national average fell to $3.938, holding below $4 as crude trades near multi-month lows. Diesel eased to $5.040. Indiana is cheapest at $3.34, Oklahoma and Texas near $3.44; California ($5.58) and Washington ($5.36) remain highest.", date: "June 22, 2026", author: "EnergyPricesToday Editorial", readTime: "4 min" },
       { id: 1472, title: "AAA National Average Falls Below $4 for the First Time Since the War to $3.999", excerpt: "AAA\u2019s national average fell to $3.999 Thursday, below $4 for the first time since the war began, as crude tumbles on the peace deal. Diesel eased to $5.129. More relief is likely as the Strait of Hormuz reopens.", date: "June 18, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
@@ -294,9 +296,9 @@ const CATEGORY_CONTENT = {
       { id: 1504, title: "EIA: U.S. Summer Gasoline Demand Expected to Average 9.1M BPD", excerpt: "The Energy Information Administration forecasts steady consumption growth despite elevated prices and rising EV adoption.", date: "Apr 13, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
     ],
     stats: [
-      { label: "U.S. National Avg", value: "$3.928", sub: "/gallon (AAA 6/24)" },
-      { label: "RBOB Futures", value: "$2.36", sub: "/gallon" },
-      { label: "Crack Spread", value: "$30.80", sub: "3-2-1" },
+      { label: "U.S. National Avg", value: "$3.867", sub: "/gallon (AAA 6/28)" },
+      { label: "RBOB Futures", value: "$2.31", sub: "/gallon" },
+      { label: "Crack Spread", value: "$30.20", sub: "3-2-1" },
     ]
   },
   "natural-gas": {
@@ -327,6 +329,7 @@ const CATEGORY_CONTENT = {
   },
   "geopolitics": {
     articles: [
+      { id: 1500, title: "Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", excerpt: "The reopening of the Strait of Hormuz is now visibly underway: shipping transits have accelerated, restoring Persian Gulf exports to roughly 75% of pre-war levels. Saudi Arabia began loading tankers at Ras Tanura, and the UAE, Kuwait, and Qatar are boosting supply \u2014 constrained mainly by tanker availability rather than the conflict.", date: "June 28, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
       { id: 1491, title: "Hormuz Baffles Markets: Half-Open, Half-Closed After Iran\u2019s Renewed Closure Signal", excerpt: "Confusion over the Strait of Hormuz persists as Iran and the U.S. issue conflicting statements. Windward said transits fell to 12 Sunday from 21 Saturday after Tehran\u2019s renewed closure signal, with traffic dark and sanctioned. Insurers still treat the region as a war zone even as the IEA estimates the UAE is exporting at ~85% of pre-war levels.", date: "June 24, 2026", author: "EnergyPricesToday Editorial", readTime: "5 min" },
       { id: 1480, title: "Geneva Signing Ceremony Postponed; U.S. and Iran Turn to a 60-Day Roadmap", excerpt: "The formal Geneva ceremony set for June 19 was abruptly called off; Switzerland said the B\u00FCrgenstock talks would not proceed and Vance no longer traveled. Mediators Qatar and Pakistan said the sides agreed on a roadmap to a final deal within 60 days. The interim deal that took effect June 18 remains in force, but Trump has threatened renewed strikes.", date: "June 22, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
       { id: 1470, title: "U.S. and Iran Sign Peace Deal; Interim Agreement Takes Effect, Ending the War", excerpt: "The interim accord took effect June 18, ending the three-month war. Trump and Pezeshkian signed the MOU electronically June 15; Trump signed at the G7 in France, with a Geneva ceremony set for June 19. Iran agreed to forgo nuclear weapons and dilute enriched uranium; the U.S. agreed to release $25 billion in frozen assets.", date: "June 18, 2026", author: "EnergyPricesToday Editorial", readTime: "6 min" },
@@ -602,66 +605,66 @@ const CATEGORY_FAQS = {
 
 
 const GAS_PRICES_BY_STATE = [
-  { state:"Alabama", abbr:"AL", regular:3.523, mid:4.004, premium:4.409, diesel:4.611 },
-  { state:"Alaska", abbr:"AK", regular:4.952, mid:5.192, premium:5.422, diesel:5.505 },
-  { state:"Arizona", abbr:"AZ", regular:4.139, mid:4.499, premium:4.824, diesel:5.154 },
-  { state:"Arkansas", abbr:"AR", regular:3.532, mid:4.009, premium:4.374, diesel:4.5 },
-  { state:"California", abbr:"CA", regular:5.535, mid:5.771, premium:5.953, diesel:6.716 },
-  { state:"Colorado", abbr:"CO", regular:3.834, mid:4.224, premium:4.548, diesel:4.527 },
-  { state:"Connecticut", abbr:"CT", regular:4.026, mid:4.647, premium:5.036, diesel:5.343 },
-  { state:"Delaware", abbr:"DE", regular:3.774, mid:4.371, premium:4.667, diesel:4.847 },
-  { state:"District of Columbia", abbr:"DC", regular:4.196, mid:4.835, premium:5.179, diesel:5.629 },
-  { state:"Florida", abbr:"FL", regular:3.787, mid:4.276, premium:4.606, diesel:4.675 },
-  { state:"Georgia", abbr:"GA", regular:3.633, mid:4.1, premium:4.529, diesel:4.738 },
-  { state:"Hawaii", abbr:"HI", regular:5.539, mid:5.777, premium:6.012, diesel:7.064 },
-  { state:"Idaho", abbr:"ID", regular:4.203, mid:4.504, premium:4.796, diesel:4.91 },
-  { state:"Illinois", abbr:"IL", regular:4.215, mid:4.796, premium:5.311, diesel:5.206 },
-  { state:"Indiana", abbr:"IN", regular:3.325, mid:3.919, premium:4.431, diesel:5.228 },
-  { state:"Iowa", abbr:"IA", regular:3.537, mid:3.837, premium:4.389, diesel:4.52 },
-  { state:"Kansas", abbr:"KS", regular:3.587, mid:3.939, premium:4.28, diesel:4.474 },
-  { state:"Kentucky", abbr:"KY", regular:3.543, mid:4.125, premium:4.551, diesel:4.68 },
-  { state:"Louisiana", abbr:"LA", regular:3.511, mid:3.985, premium:4.379, diesel:4.502 },
-  { state:"Maine", abbr:"ME", regular:3.975, mid:4.556, premium:5.036, diesel:5.364 },
-  { state:"Maryland", abbr:"MD", regular:3.802, mid:4.41, premium:4.699, diesel:4.883 },
-  { state:"Massachusetts", abbr:"MA", regular:4.022, mid:4.672, premium:5.056, diesel:5.325 },
-  { state:"Michigan", abbr:"MI", regular:4.189, mid:4.782, premium:5.367, diesel:5.295 },
-  { state:"Minnesota", abbr:"MN", regular:3.687, mid:4.133, premium:4.625, diesel:4.72 },
-  { state:"Mississippi", abbr:"MS", regular:3.523, mid:3.989, premium:4.367, diesel:4.504 },
-  { state:"Missouri", abbr:"MO", regular:3.596, mid:3.985, premium:4.32, diesel:4.543 },
-  { state:"Montana", abbr:"MT", regular:4.011, mid:4.338, premium:4.694, diesel:4.622 },
-  { state:"Nebraska", abbr:"NE", regular:3.676, mid:3.894, premium:4.342, diesel:4.472 },
-  { state:"Nevada", abbr:"NV", regular:4.729, mid:5.051, premium:5.336, diesel:5.508 },
-  { state:"New Hampshire", abbr:"NH", regular:3.977, mid:4.569, premium:5.013, diesel:5.293 },
-  { state:"New Jersey", abbr:"NJ", regular:3.941, mid:4.568, premium:4.845, diesel:5.013 },
-  { state:"New Mexico", abbr:"NM", regular:3.874, mid:4.309, premium:4.61, diesel:4.868 },
-  { state:"New York", abbr:"NY", regular:4.193, mid:4.733, premium:5.105, diesel:5.579 },
-  { state:"North Carolina", abbr:"NC", regular:3.568, mid:4.054, premium:4.458, diesel:4.696 },
-  { state:"North Dakota", abbr:"ND", regular:3.74, mid:4.119, premium:4.531, diesel:4.531 },
-  { state:"Ohio", abbr:"OH", regular:3.948, mid:4.478, premium:4.993, diesel:5.167 },
-  { state:"Oklahoma", abbr:"OK", regular:3.433, mid:3.847, premium:4.154, diesel:4.26 },
-  { state:"Oregon", abbr:"OR", regular:4.803, mid:5.084, premium:5.367, diesel:5.623 },
-  { state:"Pennsylvania", abbr:"PA", regular:4.072, mid:4.541, premium:4.923, diesel:5.484 },
-  { state:"Rhode Island", abbr:"RI", regular:3.88, mid:4.614, premium:5.035, diesel:5.056 },
-  { state:"South Carolina", abbr:"SC", regular:3.534, mid:4.011, premium:4.416, diesel:4.634 },
-  { state:"South Dakota", abbr:"SD", regular:3.806, mid:4.052, premium:4.52, diesel:4.418 },
-  { state:"Tennessee", abbr:"TN", regular:3.465, mid:3.94, premium:4.345, diesel:4.628 },
-  { state:"Texas", abbr:"TX", regular:3.376, mid:3.875, premium:4.246, diesel:4.379 },
-  { state:"Utah", abbr:"UT", regular:4.017, mid:4.293, premium:4.545, diesel:4.866 },
-  { state:"Vermont", abbr:"VT", regular:4.094, mid:4.699, premium:5.112, diesel:5.309 },
-  { state:"Virginia", abbr:"VA", regular:3.763, mid:4.289, premium:4.661, diesel:4.892 },
-  { state:"Washington", abbr:"WA", regular:5.3, mid:5.607, premium:5.848, diesel:6.192 },
-  { state:"West Virginia", abbr:"WV", regular:3.897, mid:4.303, premium:4.755, diesel:4.947 },
-  { state:"Wisconsin", abbr:"WI", regular:3.703, mid:4.261, premium:4.844, diesel:4.848 },
-  { state:"Wyoming", abbr:"WY", regular:4.072, mid:4.361, premium:4.639, diesel:4.866 }
+  { state:"Alabama", abbr:"AL", regular:3.47, mid:3.939, premium:4.34, diesel:4.528 },
+  { state:"Alaska", abbr:"AK", regular:4.871, mid:5.095, premium:5.356, diesel:5.413 },
+  { state:"Arizona", abbr:"AZ", regular:4.051, mid:4.406, premium:4.732, diesel:5.038 },
+  { state:"Arkansas", abbr:"AR", regular:3.469, mid:3.952, premium:4.317, diesel:4.408 },
+  { state:"California", abbr:"CA", regular:5.46, mid:5.687, premium:5.876, diesel:6.605 },
+  { state:"Colorado", abbr:"CO", regular:3.691, mid:4.081, premium:4.404, diesel:4.367 },
+  { state:"Connecticut", abbr:"CT", regular:3.964, mid:4.591, premium:4.98, diesel:5.275 },
+  { state:"Delaware", abbr:"DE", regular:3.694, mid:4.313, premium:4.611, diesel:4.741 },
+  { state:"District of Columbia", abbr:"DC", regular:4.159, mid:4.783, premium:5.237, diesel:5.586 },
+  { state:"Florida", abbr:"FL", regular:3.793, mid:4.266, premium:4.604, diesel:4.614 },
+  { state:"Georgia", abbr:"GA", regular:3.58, mid:4.032, premium:4.464, diesel:4.661 },
+  { state:"Hawaii", abbr:"HI", regular:5.517, mid:5.748, premium:5.986, diesel:7.015 },
+  { state:"Idaho", abbr:"ID", regular:4.126, mid:4.448, premium:4.694, diesel:4.79 },
+  { state:"Illinois", abbr:"IL", regular:4.144, mid:4.732, premium:5.236, diesel:5.097 },
+  { state:"Indiana", abbr:"IN", regular:3.232, mid:3.821, premium:4.329, diesel:5.107 },
+  { state:"Iowa", abbr:"IA", regular:3.499, mid:3.816, premium:4.355, diesel:4.412 },
+  { state:"Kansas", abbr:"KS", regular:3.537, mid:3.89, premium:4.232, diesel:4.378 },
+  { state:"Kentucky", abbr:"KY", regular:3.468, mid:4.018, premium:4.46, diesel:4.578 },
+  { state:"Louisiana", abbr:"LA", regular:3.473, mid:3.943, premium:4.329, diesel:4.423 },
+  { state:"Maine", abbr:"ME", regular:3.909, mid:4.467, premium:4.946, diesel:5.295 },
+  { state:"Maryland", abbr:"MD", regular:3.748, mid:4.364, premium:4.657, diesel:4.798 },
+  { state:"Massachusetts", abbr:"MA", regular:3.942, mid:4.598, premium:4.984, diesel:5.249 },
+  { state:"Michigan", abbr:"MI", regular:4.098, mid:4.735, premium:5.325, diesel:5.178 },
+  { state:"Minnesota", abbr:"MN", regular:3.631, mid:4.07, premium:4.579, diesel:4.631 },
+  { state:"Mississippi", abbr:"MS", regular:3.473, mid:3.924, premium:4.31, diesel:4.409 },
+  { state:"Missouri", abbr:"MO", regular:3.521, mid:3.918, premium:4.243, diesel:4.424 },
+  { state:"Montana", abbr:"MT", regular:3.945, mid:4.26, premium:4.594, diesel:4.431 },
+  { state:"Nebraska", abbr:"NE", regular:3.619, mid:3.861, premium:4.315, diesel:4.342 },
+  { state:"Nevada", abbr:"NV", regular:4.663, mid:4.99, premium:5.267, diesel:5.407 },
+  { state:"New Hampshire", abbr:"NH", regular:3.902, mid:4.509, premium:4.952, diesel:5.206 },
+  { state:"New Jersey", abbr:"NJ", regular:3.877, mid:4.497, premium:4.779, diesel:4.931 },
+  { state:"New Mexico", abbr:"NM", regular:3.845, mid:4.271, premium:4.586, diesel:4.78 },
+  { state:"New York", abbr:"NY", regular:4.121, mid:4.66, premium:5.034, diesel:5.489 },
+  { state:"North Carolina", abbr:"NC", regular:3.533, mid:4.005, premium:4.404, diesel:4.642 },
+  { state:"North Dakota", abbr:"ND", regular:3.678, mid:4.038, premium:4.45, diesel:4.45 },
+  { state:"Ohio", abbr:"OH", regular:3.844, mid:4.384, premium:4.901, diesel:5.046 },
+  { state:"Oklahoma", abbr:"OK", regular:3.377, mid:3.788, premium:4.092, diesel:4.157 },
+  { state:"Oregon", abbr:"OR", regular:4.719, mid:4.98, premium:5.277, diesel:5.51 },
+  { state:"Pennsylvania", abbr:"PA", regular:4.013, mid:4.478, premium:4.859, diesel:5.423 },
+  { state:"Rhode Island", abbr:"RI", regular:3.809, mid:4.528, premium:4.942, diesel:4.979 },
+  { state:"South Carolina", abbr:"SC", regular:3.495, mid:3.974, premium:4.38, diesel:4.54 },
+  { state:"South Dakota", abbr:"SD", regular:3.737, mid:3.964, premium:4.461, diesel:4.329 },
+  { state:"Tennessee", abbr:"TN", regular:3.383, mid:3.847, premium:4.26, diesel:4.532 },
+  { state:"Texas", abbr:"TX", regular:3.31, mid:3.796, premium:4.164, diesel:4.288 },
+  { state:"Utah", abbr:"UT", regular:3.922, mid:4.199, premium:4.438, diesel:4.716 },
+  { state:"Vermont", abbr:"VT", regular:4.02, mid:4.614, premium:5.059, diesel:5.2 },
+  { state:"Virginia", abbr:"VA", regular:3.711, mid:4.232, premium:4.607, diesel:4.827 },
+  { state:"Washington", abbr:"WA", regular:5.2, mid:5.505, premium:5.744, diesel:6.073 },
+  { state:"West Virginia", abbr:"WV", regular:3.801, mid:4.213, premium:4.659, diesel:4.854 },
+  { state:"Wisconsin", abbr:"WI", regular:3.66, mid:4.216, premium:4.797, diesel:4.735 },
+  { state:"Wyoming", abbr:"WY", regular:3.975, mid:4.247, premium:4.54, diesel:4.734 }
 ];
 
 const US_GAS_NATIONAL = {
-  regular: 3.928,
-  mid: 4.441,
-  premium: 4.816,
-  diesel: 4.980,
+  regular: 3.867,
+  mid: 4.376,
+  premium: 4.752,
+  diesel: 4.920,
   source: "AAA Daily Fuel Gauge Report",
-  updated: "As of June 24, 2026"
+  updated: "As of June 28, 2026"
 };
 const ELECTRICITY_PRICES_BY_STATE = [
   { state:"Alabama", abbr:"AL", region:"Southeast", residential:16.79, commercial:14.46, residential_yoy:4.0, commercial_yoy:3.1 },

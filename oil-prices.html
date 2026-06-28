@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=68">
+  <link rel="stylesheet" href="css/styles.css?v=69">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=68">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=68">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=68">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=68">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=68">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=68">
-  <link rel="shortcut icon" href="images/favicon.ico?v=68">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=69">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=69">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=69">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=69">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=69">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=69">
+  <link rel="shortcut icon" href="images/favicon.ico?v=69">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -192,8 +192,8 @@
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=68"></script><script src="js/article-slugs.js?v=68"></script><script src="js/main.js?v=68"></script><script src="js/live-data.js?v=68"></script><script src="js/news-feed.js?v=68"></script>
-  <script src="js/event-state.js?v=68"></script>
+  <script src="js/data.js?v=69"></script><script src="js/article-slugs.js?v=69"></script><script src="js/main.js?v=69"></script><script src="js/live-data.js?v=69"></script><script src="js/news-feed.js?v=69"></script>
+  <script src="js/event-state.js?v=69"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -245,7 +245,7 @@
     // Hormuz and OPEC card bodies are bound to events.json via the spans with
     // data-event-bind — event-state.js will overwrite textContent on fetch.
     // The geopolitics link is appended separately so the bound area stays pure text.
-    var hormuzFallback = 'Half-open, half-closed. The interim deal is holding and supply is visibly returning \u2014 the IEA estimates the UAE is exporting at ~85% of pre-war levels, and shipowners are transiting Hormuz with signals on after IMO safety guarantees. But Iran signaled a renewed closure over the weekend: Windward said transits briefly fell to 12 vessels from more than 21, with traffic turning dark and sanctioned. Insurers and shipowners (BIMCO, INTERTANKO) still treat the region as a war zone where conditions change hour to hour, and a full recovery in Gulf flows appears weeks away. Crude has nonetheless round-tripped to pre-war levels \u2014 WTI below $70, Brent below $74, down ~40% from the peak.';
+    var hormuzFallback = 'Reopening in force. Persian Gulf exports are back to roughly 75% of pre-war levels as transits surge and vessels openly navigate the strait with signals on. Saudi Arabia began loading tankers at Ras Tanura, and the UAE, Kuwait, and Qatar are boosting supply \u2014 with the main constraint now a shortage of tankers, not the conflict. The Ever Lovely was struck off Oman, briefly lifting oil ~2%, but Trump confirmed the strait stays open and traffic continued. Crude has settled at pre-war levels: Brent near $72, its lowest since February 27, after an over-10% weekly drop.';
     var opecFallback   = 'EIA May STEO incorporates UAE departure from OPEC effective May 1. With UAE spare capacity removed, OPEC 2027 spare capacity now 2.5M bpd vs 3.8M prior. April 206K bpd increase proceeded. Saudi East-West Pipeline at full 5M bpd. May ministerial mid-month operates under new composition.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
@@ -272,14 +272,14 @@
       // ─── BEGIN EDITORIAL: refresh during daily pass ───
       var bias = 'Bearish';          // Bullish | Bearish | Mixed
       var conviction = 'Moderate';   // Low | Moderate | High
-      var summary = 'The war premium is nearly gone. Crude has round-tripped to pre-war levels \u2014 WTI below $70, Brent below $74, the lowest since late February and down ~40% from the wartime peak \u2014 on a fourth straight session of losses. The supply outlook keeps improving: the IEA estimates the UAE is exporting at ~85% of pre-war levels, shipowners are transiting Hormuz with signals on after IMO safety guarantees, and Brent\u2019s prompt spread flipped into bearish contango for the first time since the conflict \u2014 a structural sign the market now sees near-term supply as ample. Bias stays bearish, with two complications. The strait is a half-open puzzle after Iran signaled a renewed closure (transits briefly fell to 12 vessels, traffic dark and sanctioned; insurers still treat it as a war zone). And domestic tightness lingers: the EIA reports U.S. crude inventories at their lowest since 1984, with Cushing near operational minimums. A U.S. waiver permitting purchases of already-loaded Iranian oil adds further supply; Brent looks likely to test pre-war levels near $70-$74 absent a fresh escalation.';
+      var summary = 'The war premium is gone and the Gulf is reopening for business. Persian Gulf exports have recovered to roughly 75% of pre-war levels as Hormuz transits surge; Saudi Arabia is loading tankers at Ras Tanura, the UAE, Kuwait, and Qatar are boosting supply, and Iraq is seeking a higher OPEC quota. Crude has settled at pre-war levels: Brent near $72, its lowest since February 27, after an over-10% weekly drop \u2014 its largest in a month \u2014 with WTI in the high-$60s. The curve stays in bearish contango. Bias stays bearish: the binding constraint is now a tanker shortage rather than the conflict, and higher OPEC+ quotas point to inventory rebuilds. Residual risk lingers \u2014 the container ship Ever Lovely was struck off Oman and Trump accused Iran of firing drones at ships \u2014 but the strait stayed open and the market treated the incident as noise. Brent looks likely to hold a $68-$75 band absent a fresh disruption.';
       var drivers = [
-        { label: 'Pre-War Lows',            weight: 'Bearish',        note: 'Crude has round-tripped to pre-war levels \u2014 WTI below $70, Brent below $74, the lowest since late February and down ~40% from the wartime peak. A fourth straight session of losses has nearly wiped out the entire war-risk premium accumulated since the conflict began.' },
-        { label: 'Curve Flips to Contango', weight: 'Bearish',        note: 'Brent\u2019s prompt spread shifted into bearish contango this week for the first time since the conflict began \u2014 prompt barrels now trade at a discount to later months, a structural signal that the market sees near-term supply as ample rather than scarce. A complete inversion of the war-driven backwardation.' },
-        { label: 'Gulf Supply Returns',     weight: 'Bearish',        note: 'The IEA estimates the UAE is exporting at ~85% of pre-war levels (~60M barrels sold recently), shipowners are transiting Hormuz with active signals after IMO safety guarantees, and buyers face a surge of Middle East and West African offers. A U.S. waiver on already-loaded Iranian oil adds further supply.' },
-        { label: 'Half-Open Strait',        weight: 'Mildly bullish', note: 'Iran signaled a renewed closure over the weekend: Windward said transits briefly fell to 12 vessels from more than 21, with traffic dark and sanctioned. Conflicting US/Iran messaging and cautious insurers keep a risk premium flickering even as overall volumes improve.' },
-        { label: 'Cushing Near Minimums',   weight: 'Mildly bullish', note: 'A pocket of domestic tightness persists: the EIA reports U.S. crude inventories at their lowest since 1984, with Cushing stocks dipping toward critical minimum operating levels after months of record petroleum exports. This counterweight could slow the decline or amplify volatility.' },
-        { label: 'Demand Debate',           weight: 'Bearish',        note: 'OPEC\u2019s Al Ghais rejected forecasts of a near-term demand peak and pushed back on IEA glut projections, but the IEA still sees a possible 2027 surplus as Gulf barrels return. With the war premium gone, the medium-term debate has shifted decisively from scarcity to how fast a glut could form.' },
+        { label: 'Reopening Accelerates',   weight: 'Bearish',        note: 'Persian Gulf exports are back to roughly 75% of pre-war levels as Hormuz transits surge and vessels openly navigate with signals on. Saudi Arabia began loading tankers at Ras Tanura, signaling a major regional output ramp. The dominant bearish force in the market.' },
+        { label: 'Pre-War Prices Hold',     weight: 'Bearish',        note: 'Brent fell to around $72, its lowest since February 27, after an over-10% weekly drop \u2014 its largest in a month \u2014 with WTI in the high-$60s. The war-risk premium that pushed Brent above $120 has been almost entirely erased, and the curve stays in bearish contango.' },
+        { label: 'OPEC+ Supply Ramp',       weight: 'Bearish',        note: 'Iraq is seeking a higher OPEC quota to recoup wartime losses, joining a regional output ramp that includes Saudi loadings at Ras Tanura and increased UAE, Kuwait, and Qatar supply. Higher OPEC+ quotas point to refinery inventory rebuilds worldwide.' },
+        { label: 'Tanker Bottleneck',       weight: 'Mildly bullish', note: 'The binding constraint has shifted from geopolitics to logistics: producers are boosting output faster than they can secure tankers to move it. Firming freight rates and the vessel shortage could temper the pace at which Gulf barrels reach global refineries.' },
+        { label: 'Residual Security Risk',  weight: 'Mildly bullish', note: 'The reopening is not risk-free: the container ship Ever Lovely was struck off Oman, briefly lifting oil ~2%, and Trump accused Iran of firing drones at ships. But the strait stayed open and the spike faded \u2014 the market now treats isolated incidents as noise around a normalizing trend.' },
+        { label: 'Demand Debate',           weight: 'Bearish',        note: 'With the war premium gone, the debate has shifted decisively from scarcity to how fast a glut could form. OPEC\u2019s Al Ghais still rejects peak-demand forecasts, but higher quotas, returning Gulf barrels, and a softer macro backdrop keep the medium-term bias tilted lower.' },
       ];
       // ─── END EDITORIAL ───
 
@@ -364,6 +364,6 @@
       ['Heating Oil','category/heating-oil.html','flame','Diesel, distillate markets'],
     ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
   </script>
-  <script src="js/analytics.js?v=68"></script>
-  <script src="js/related-articles.js?v=68"></script>
+  <script src="js/analytics.js?v=69"></script>
+  <script src="js/related-articles.js?v=69"></script>
 </body></html>
