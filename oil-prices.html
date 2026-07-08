@@ -14,16 +14,16 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=Outfit:wght@300;400;500;600;700&display=swap"></noscript>
 
-  <link rel="stylesheet" href="css/styles.css?v=69">
+  <link rel="stylesheet" href="css/styles.css?v=70">
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXGF8HZFWL"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-FXGF8HZFWL");</script>
-  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=69">
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=69">
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=69">
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=69">
-  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=69">
-  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=69">
-  <link rel="shortcut icon" href="images/favicon.ico?v=69">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico?v=70">
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg?v=70">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png?v=70">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png?v=70">
+  <link rel="icon" type="image/png" sizes="48x48" href="images/favicon-48x48.png?v=70">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png?v=70">
+  <link rel="shortcut icon" href="images/favicon.ico?v=70">
   <link rel="alternate" type="application/rss+xml" title="EnergyPricesToday RSS Feed" href="feed.xml">
 </head>
 <body>
@@ -192,8 +192,8 @@
     <div class="container"><div class="masthead-line"><span><strong>Edited by EnergyPricesToday Editorial</strong></span><span>Independent</span><span>Ad-free</span><span>Updated continuously</span></div></div>
   </main>
   <footer class="site-footer" id="site-footer"></footer>
-  <script src="js/data.js?v=69"></script><script src="js/article-slugs.js?v=69"></script><script src="js/main.js?v=69"></script><script src="js/live-data.js?v=69"></script><script src="js/news-feed.js?v=69"></script>
-  <script src="js/event-state.js?v=69"></script>
+  <script src="js/data.js?v=70"></script><script src="js/article-slugs.js?v=70"></script><script src="js/main.js?v=70"></script><script src="js/live-data.js?v=70"></script><script src="js/news-feed.js?v=70"></script>
+  <script src="js/event-state.js?v=70"></script>
   <script>
     function TC(ic,t,d){return '<div class="stat-box" style="text-align:left;padding:20px"><div style="display:flex;align-items:center;gap:8px;margin-bottom:10px"><span style="color:var(--blue)">'+icon(ic,18)+'</span><span style="font-size:14px;font-weight:700;color:var(--text-1)">'+t+'</span></div><div style="font-size:12.5px;color:var(--text-2);line-height:1.6">'+d+'</div></div>';}
 
@@ -245,7 +245,7 @@
     // Hormuz and OPEC card bodies are bound to events.json via the spans with
     // data-event-bind — event-state.js will overwrite textContent on fetch.
     // The geopolitics link is appended separately so the bound area stays pure text.
-    var hormuzFallback = 'Reopening in force. Persian Gulf exports are back to roughly 75% of pre-war levels as transits surge and vessels openly navigate the strait with signals on. Saudi Arabia began loading tankers at Ras Tanura, and the UAE, Kuwait, and Qatar are boosting supply \u2014 with the main constraint now a shortage of tankers, not the conflict. The Ever Lovely was struck off Oman, briefly lifting oil ~2%, but Trump confirmed the strait stays open and traffic continued. Crude has settled at pre-war levels: Brent near $72, its lowest since February 27, after an over-10% weekly drop.';
+    var hormuzFallback = 'The reopening hit its most serious test: Iran struck the Qatari LNG tanker Al-Rekayyat near the Strait of Hormuz and a second vessel was hit by a projectile, and the U.S. revoked Iran\u2019s oil-sale license in response. Oil jumped \u2014 Brent settled +3% at $74.16 and popped to $76 after hours, WTI to $70.44 \u2014 but stayed near four-month lows. Hormuz traffic keeps recovering, with at least eight Japan-linked ships including five supertankers exiting via a route near Iran. The supply picture remains bearish: OPEC+ approved a 188,000 bpd quota increase and Saudi Aramco cut Arab Light to Asia by $11.';
     var opecFallback   = 'EIA May STEO incorporates UAE departure from OPEC effective May 1. With UAE spare capacity removed, OPEC 2027 spare capacity now 2.5M bpd vs 3.8M prior. April 206K bpd increase proceeded. Saudi East-West Pipeline at full 5M bpd. May ministerial mid-month operates under new composition.';
     document.getElementById('driver-cards').innerHTML = [
       TC('globe','Hormuz & Blockade','<span data-event-bind="hormuz_status.summary_long|truncate:280" data-event-fallback="'+hormuzFallback.replace(/"/g,'&quot;')+'">'+hormuzFallback+'</span> <a href="category/geopolitics.html" style="color:var(--blue)">Geopolitics →</a>'),
@@ -272,14 +272,14 @@
       // ─── BEGIN EDITORIAL: refresh during daily pass ───
       var bias = 'Bearish';          // Bullish | Bearish | Mixed
       var conviction = 'Moderate';   // Low | Moderate | High
-      var summary = 'The war premium is gone and the Gulf is reopening for business. Persian Gulf exports have recovered to roughly 75% of pre-war levels as Hormuz transits surge; Saudi Arabia is loading tankers at Ras Tanura, the UAE, Kuwait, and Qatar are boosting supply, and Iraq is seeking a higher OPEC quota. Crude has settled at pre-war levels: Brent near $72, its lowest since February 27, after an over-10% weekly drop \u2014 its largest in a month \u2014 with WTI in the high-$60s. The curve stays in bearish contango. Bias stays bearish: the binding constraint is now a tanker shortage rather than the conflict, and higher OPEC+ quotas point to inventory rebuilds. Residual risk lingers \u2014 the container ship Ever Lovely was struck off Oman and Trump accused Iran of firing drones at ships \u2014 but the strait stayed open and the market treated the incident as noise. Brent looks likely to hold a $68-$75 band absent a fresh disruption.';
+      var summary = 'A security shock met a bearish supply wall. Iran struck the Qatari LNG tanker Al-Rekayyat near Hormuz and a second vessel was hit by a projectile; the U.S. revoked Iran\u2019s oil-sale license, calling the MOU performance-based. Brent settled +3% at $74.16 and popped to $76.04 after hours, WTI to $70.44 then $72.25 \u2014 yet crude stayed near its lowest since late February. The reason: OPEC+ approved a 188,000 bpd quota increase, Saudi Aramco cut Arab Light to Asia by $11 (its first discount since 2020), Saudi exports near pre-war levels, and the UAE has fully restored flows. Hormuz traffic keeps recovering, with supertankers exiting via a route near Iran. Bias stays bearish on supply, but the security premium has abruptly re-rated: a further escalation could whipsaw prices, while a return to calm points back toward the lows. Brent looks likely to hold a $71-$78 band absent a broader breakdown.';
       var drivers = [
-        { label: 'Reopening Accelerates',   weight: 'Bearish',        note: 'Persian Gulf exports are back to roughly 75% of pre-war levels as Hormuz transits surge and vessels openly navigate with signals on. Saudi Arabia began loading tankers at Ras Tanura, signaling a major regional output ramp. The dominant bearish force in the market.' },
-        { label: 'Pre-War Prices Hold',     weight: 'Bearish',        note: 'Brent fell to around $72, its lowest since February 27, after an over-10% weekly drop \u2014 its largest in a month \u2014 with WTI in the high-$60s. The war-risk premium that pushed Brent above $120 has been almost entirely erased, and the curve stays in bearish contango.' },
-        { label: 'OPEC+ Supply Ramp',       weight: 'Bearish',        note: 'Iraq is seeking a higher OPEC quota to recoup wartime losses, joining a regional output ramp that includes Saudi loadings at Ras Tanura and increased UAE, Kuwait, and Qatar supply. Higher OPEC+ quotas point to refinery inventory rebuilds worldwide.' },
-        { label: 'Tanker Bottleneck',       weight: 'Mildly bullish', note: 'The binding constraint has shifted from geopolitics to logistics: producers are boosting output faster than they can secure tankers to move it. Firming freight rates and the vessel shortage could temper the pace at which Gulf barrels reach global refineries.' },
-        { label: 'Residual Security Risk',  weight: 'Mildly bullish', note: 'The reopening is not risk-free: the container ship Ever Lovely was struck off Oman, briefly lifting oil ~2%, and Trump accused Iran of firing drones at ships. But the strait stayed open and the spike faded \u2014 the market now treats isolated incidents as noise around a normalizing trend.' },
-        { label: 'Demand Debate',           weight: 'Bearish',        note: 'With the war premium gone, the debate has shifted decisively from scarcity to how fast a glut could form. OPEC\u2019s Al Ghais still rejects peak-demand forecasts, but higher quotas, returning Gulf barrels, and a softer macro backdrop keep the medium-term bias tilted lower.' },
+        { label: 'Hormuz Tanker Attacks',   weight: 'Bullish',        note: 'Iran struck the Qatari LNG tanker Al-Rekayyat near the strait and a second vessel was hit by a projectile with believed structural damage. The incidents reaffirmed the fragility of the interim peace and drove a sharp intraday rally, reintroducing a supply risk the market had largely written off.' },
+        { label: 'U.S. Revokes Oil License', weight: 'Bullish',        note: 'Washington revoked the license authorizing Iran to sell its oil, stressing the MOU is performance-based. Prices extended gains after hours \u2014 Brent to $76.04, WTI to $72.25 \u2014 sharpening the standoff even as both sides signal an interest in containing the conflict.' },
+        { label: 'OPEC+ Adds Barrels',       weight: 'Bearish',        note: 'OPEC+ approved a 188,000 bpd quota increase for next month, continuing to unwind long-standing curbs. Saudi exports are approaching pre-war levels and the UAE has fully restored flows, reinforcing expectations of ample global supply that keep prices near four-month lows.' },
+        { label: 'Saudi Discounts Asia',     weight: 'Bearish',        note: 'Saudi Aramco cut Arab Light for Asian buyers by $11 a barrel to a $1.50 discount \u2014 the first discount since the price wars of 2020 and 2015. The move signals the kingdom is prioritizing volume and market share as returning Gulf barrels compete for buyers.' },
+        { label: 'Traffic Keeps Recovering', weight: 'Bearish',        note: 'Physical flows through Hormuz kept normalizing despite the attacks: at least eight Japan-linked ships, including five supertankers each able to carry 2 million barrels, exited via a route near Iran. The steady recovery underpins the bearish supply trend between incidents.' },
+        { label: 'OPEC Cohesion Risk',       weight: 'Mildly bullish', note: 'Iraq has pressed OPEC for a higher quota and signaled it could follow the UAE out of the cartel if its demands are not met. The internal strain adds uncertainty to the supply outlook, a modest counterweight to the otherwise bearish backdrop.' },
       ];
       // ─── END EDITORIAL ───
 
@@ -364,6 +364,6 @@
       ['Heating Oil','category/heating-oil.html','flame','Diesel, distillate markets'],
     ].map(function(r){return '<a href="'+r[1]+'" class="spotlight-card" style="text-align:left;padding:16px"><div style="display:flex;align-items:center;gap:10px"><span style="color:var(--blue)">'+icon(r[2],18)+'</span><div><h4 style="margin:0;font-size:13px">'+r[0]+'</h4><div style="font-size:11px;color:var(--text-3);margin-top:2px">'+r[3]+'</div></div></div></a>';}).join('');
   </script>
-  <script src="js/analytics.js?v=69"></script>
-  <script src="js/related-articles.js?v=69"></script>
+  <script src="js/analytics.js?v=70"></script>
+  <script src="js/related-articles.js?v=70"></script>
 </body></html>

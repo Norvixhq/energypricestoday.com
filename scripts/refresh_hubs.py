@@ -17,67 +17,70 @@ ARTICLES = ROOT / "articles"
 # ─── Per-hub current context (verified May 17, 2026) ──────────────────
 HUBS = {
     "iran.html": {
-        "context": "Current state (June 28, 2026): The Strait of Hormuz is reopening in force \u2014 Persian Gulf exports are back to roughly 75% of pre-war levels as transits surge and vessels openly navigate with signals on. Crude has settled at pre-war levels (Brent near $72, its lowest since February 27) after an over-10% weekly drop. The 60-day roadmap toward a final deal remains in force, but friction persists: Trump accused Iran of violating the ceasefire by firing drones at ships, and the container ship Ever Lovely was struck off Oman \u2014 yet the strait stayed open and the spike faded. The nuclear and sanctions questions remain open as the supply normalization continues.",
+        "context": "Current state (July 7, 2026): The reopening hit its most serious test yet. Iran attacked the Qatari LNG tanker Al-Rekayyat near the Strait of Hormuz and a second vessel was struck by a projectile, and the U.S. revoked the license authorizing Iran to sell its oil, stressing the memorandum of understanding is performance-based. Oil jumped \u2014 Brent settled +3% at $74.16 and popped to $76 after hours \u2014 but stayed near four-month lows as OPEC+ added barrels. The two sides also disagree over the use of funds covered under the MOU. The nuclear and sanctions questions remain unresolved as the fragile peace faces renewed strain.",
         "lead_articles": [
-            ("Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", "hormuz-transits-surge-gulf-exports-recover-75-percent-pre-war.html", "June 28, 2026",
-             "The reopening is now visibly underway: transits have surged, restoring Persian Gulf exports to roughly 75% of pre-war levels, even as residual security risk lingers."),
-            ("Container Ship Ever Lovely Struck Off Oman, but the Strait Stays Open", "container-ship-ever-lovely-struck-off-oman-strait-stays-open.html", "June 28, 2026",
-             "The Ever Lovely was struck off Oman and Trump accused Iran of firing drones at ships, but the strait stayed open and the price spike quickly faded."),
+            ("Iran Strikes Qatari LNG Tanker Near Hormuz as U.S. Revokes Oil-Sale License", "iran-strikes-qatari-lng-tanker-hormuz-us-revokes-oil-sale-license.html", "July 7, 2026",
+             "Iran attacked the Qatari LNG tanker Al-Rekayyat and a second vessel was hit by a projectile; the U.S. revoked Iran\u2019s oil-sale license in response, sending oil sharply higher."),
+            ("Oil Jumps on Hormuz Tanker Attacks but Holds Near Four-Month Lows", "oil-jumps-hormuz-tanker-attacks-holds-near-four-month-lows.html", "July 7, 2026",
+             "Brent settled 3% higher at $74.16 after the attacks, but crude stayed near four-month lows as OPEC+ added barrels and Saudi discounted to Asia."),
         ],
     },
     "saudi-arabia.html": {
-        "context": "Current state (June 28, 2026): Saudi Arabia is at the center of the supply ramp \u2014 it has begun loading tankers at its Ras Tanura terminal, one of the world\u2019s largest crude-export hubs, signaling a major regional output recovery. Persian Gulf exports are back to roughly 75% of pre-war levels and crude has settled at pre-war prices (Brent near $72) after an over-10% weekly drop. As OPEC\u2019s swing producer, Riyadh now manages a fast recovery in which the binding constraint is tanker availability rather than the conflict; Saudi allocations to Asian refiners and its posture on OPEC+ quotas (with Iraq pushing for more) will shape the second half of 2026.",
+        "context": "Current state (July 7, 2026): Saudi Arabia is driving the bearish supply story even as security risk re-rates. Over the weekend OPEC+, led by Riyadh, approved a 188,000 bpd quota increase for next month, and Saudi Aramco cut its Arab Light price for Asian buyers by $11 a barrel to a $1.50 discount \u2014 the first discount since the price wars of 2020 and 2015 \u2014 signaling a pivot to volume and market share. Saudi exports are approaching pre-war levels. That backdrop kept crude near four-month lows even after Iran struck a Qatari LNG tanker near Hormuz and the U.S. revoked Iran\u2019s oil-sale license, sending prices briefly higher.",
         "lead_articles": [
-            ("Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", "hormuz-transits-surge-gulf-exports-recover-75-percent-pre-war.html", "June 28, 2026",
-             "Saudi Arabia began loading tankers at Ras Tanura, signaling a major output ramp as Persian Gulf exports recover to roughly 75% of pre-war levels."),
-            ("Container Ship Ever Lovely Struck Off Oman, but the Strait Stays Open", "container-ship-ever-lovely-struck-off-oman-strait-stays-open.html", "June 28, 2026",
-             "A ship strike off Oman briefly lifted oil, but the strait stayed open and Saudi loadings continued as the regional output ramp proceeds."),
+            ("OPEC+ Approves 188,000 bpd Quota Increase as Saudi Cuts Arab Light to Asia", "opec-plus-approves-188000-bpd-quota-increase-saudi-cuts-arab-light.html", "July 7, 2026",
+             "OPEC+ raised quotas by 188,000 bpd for next month while Saudi Aramco cut Arab Light to Asian buyers by $11 \u2014 its first discount since 2020 \u2014 keeping the supply picture bearish."),
+            ("Oil Jumps on Hormuz Tanker Attacks but Holds Near Four-Month Lows", "oil-jumps-hormuz-tanker-attacks-holds-near-four-month-lows.html", "July 7, 2026",
+             "Saudi exports near pre-war levels and the OPEC+ quota hike kept crude near four-month lows even after the tanker attacks drove a sharp intraday rally."),
         ],
     },
     "uae.html": {
-        "context": "Current state (June 28, 2026): The UAE is part of the accelerating supply recovery, boosting output alongside Saudi Arabia, Kuwait, and Qatar as the Strait of Hormuz reopens and Persian Gulf exports return to roughly 75% of pre-war levels. Crude has settled at pre-war prices (Brent near $72) after an over-10% weekly drop. For the UAE, which formally departed OPEC effective May 1, resumed Hormuz traffic relieves the bypass pressure that had elevated the ADCOP pipeline, and the main constraint on shipping more barrels is now tanker availability. The UAE remains a primary U.S. security partner as the reopening proceeds, tested but not derailed by the Ever Lovely strike off Oman.",
+        "context": "Current state (July 7, 2026): The UAE has fully restored its shipping flows as the Gulf supply recovery continues, part of a bearish backdrop that kept crude near four-month lows even after Iran struck a Qatari LNG tanker near Hormuz and the U.S. revoked Iran\u2019s oil-sale license this week. Having formally departed OPEC effective May 1, the UAE is now boosting supply outside the cartel\u2019s quota framework just as OPEC+ approved a further 188,000 bpd increase and Saudi Aramco discounted Arab Light to Asia. The UAE remains a primary U.S. security partner, and resumed Hormuz traffic \u2014 with supertankers exiting via a route near Iran \u2014 has relieved the bypass pressure that had elevated the ADCOP pipeline.",
         "lead_articles": [
-            ("Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", "hormuz-transits-surge-gulf-exports-recover-75-percent-pre-war.html", "June 28, 2026",
-             "The UAE is boosting supply alongside Saudi Arabia, Kuwait, and Qatar as Persian Gulf exports recover to ~75% of pre-war levels, constrained mainly by tanker availability."),
+            ("Oil Jumps on Hormuz Tanker Attacks but Holds Near Four-Month Lows", "oil-jumps-hormuz-tanker-attacks-holds-near-four-month-lows.html", "July 7, 2026",
+             "The UAE has fully restored shipping flows, part of a supply wave that kept crude near four-month lows even as Hormuz tanker attacks re-rated the security risk."),
             ("UAE Nuclear Facility Attacked Over Weekend in Persian Gulf Escalation", "uae-nuclear-facility-attacked-weekend-persian-gulf-escalation.html", "May 18, 2026",
              "Energy infrastructure across the Persian Gulf came under attack, including a nuclear facility in the United Arab Emirates."),
         ],
     },
     "opec-members.html": {
-        "context": "Current state (June 28, 2026): With the Gulf reopening, OPEC+ policy has moved to center stage. Iraq is seeking a higher OPEC quota to recoup the oil sales it lost during the war, joining a regional output ramp that includes Saudi loadings at Ras Tanura and increased UAE, Kuwait, and Qatar supply. Persian Gulf exports are back to roughly 75% of pre-war levels and crude has settled at pre-war prices (Brent near $72) after an over-10% weekly drop. Higher OPEC+ export quotas point to refinery inventory rebuilds worldwide \u2014 a bearish backdrop \u2014 while OPEC\u2019s Al Ghais continues to reject forecasts of a near-term demand peak. The binding constraint on the recovery is now tanker availability rather than the conflict.",
+        "context": "Current state (July 7, 2026): OPEC+ policy is the dominant bearish force. Over the weekend the group approved a 188,000 bpd quota increase for next month, continuing to unwind long-standing curbs, and Saudi Aramco cut Arab Light to Asian buyers by $11 to a $1.50 discount \u2014 its first discount since 2020. But cohesion is under strain: Iraq has reportedly sought a higher quota and told the group it could leave if its demands are not met, raising the prospect of another exit after the UAE departed in May. Crude sits near four-month lows even after Iran struck a Qatari LNG tanker near Hormuz and the U.S. revoked Iran\u2019s oil-sale license this week.",
         "lead_articles": [
-            ("Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", "hormuz-transits-surge-gulf-exports-recover-75-percent-pre-war.html", "June 28, 2026",
-             "Iraq is seeking a higher OPEC quota as Saudi Arabia loads at Ras Tanura and Gulf exports recover to ~75% of pre-war levels, pointing to OPEC+ quota increases."),
+            ("OPEC+ Approves 188,000 bpd Quota Increase as Saudi Cuts Arab Light to Asia", "opec-plus-approves-188000-bpd-quota-increase-saudi-cuts-arab-light.html", "July 7, 2026",
+             "OPEC+ raised quotas by 188,000 bpd while Saudi cut Arab Light to Asia by $11; Iraq is pressing for a higher quota and hinting it could follow the UAE out."),
             ("UAE Officially Departs OPEC Effective May 1; EIA Cuts 2027 Spare Capacity Forecast", "uae-officially-departs-opec-effective-may-1-eia-cuts-spare-capacity.html", "May 13, 2026",
              "The EIA\u2019s May Short-Term Energy Outlook incorporates the UAE\u2019s departure from OPEC, effective May 1, 2026."),
         ],
     },
     "qatar.html": {
-        "context": "Current state (June 28, 2026): Qatar is boosting supply alongside Saudi Arabia, the UAE, and Kuwait as the Strait of Hormuz reopens and Persian Gulf exports return to roughly 75% of pre-war levels. LNG and oil tankers are transiting the strait openly with signals on, and global LNG benchmarks have eased as Qatari cargoes resume to Asian and European buyers. Crude has settled at pre-war prices (Brent near $72) after an over-10% weekly drop. The main constraint on shipping additional volume is tanker availability rather than the conflict, though the Ever Lovely strike off Oman is a reminder that residual security risk lingers even as commercial traffic returns in force.",
-        "lead_articles": [],
+        "context": "Current state (July 7, 2026): Qatar is at the center of today\u2019s escalation. Iran attacked the Qatari LNG tanker Al-Rekayyat as it transited near the Strait of Hormuz, an incident Qatar\u2019s Ministry of Foreign Affairs confirmed, and a second vessel was struck by a projectile. The attacks sent oil sharply higher \u2014 Brent settled +3% at $74.16 \u2014 and prompted the U.S. to revoke Iran\u2019s oil-sale license. As one of the world\u2019s largest LNG exporters, Qatar\u2019s cargoes transit Hormuz, and the strike renews questions among shipowners about the durability of the U.S.-Iran agreement even as overall traffic keeps recovering, with supertankers exiting via a route near Iran.",
+        "lead_articles": [
+            ("Iran Strikes Qatari LNG Tanker Near Hormuz as U.S. Revokes Oil-Sale License", "iran-strikes-qatari-lng-tanker-hormuz-us-revokes-oil-sale-license.html", "July 7, 2026",
+             "Iran attacked the Qatari LNG tanker Al-Rekayyat near Hormuz, confirmed by Qatar\u2019s foreign ministry; the U.S. revoked Iran\u2019s oil-sale license in response."),
+        ],
     },
     "russia.html": {
-        "context": "Current state (June 28, 2026): Crude has settled at pre-war levels (Brent near $72, its lowest since February 27) after an over-10% weekly drop \u2014 a softer, looser backdrop for Russian Urals differentials as Gulf supply floods back. Persian Gulf exports are at roughly 75% of pre-war levels, Saudi Arabia is loading at Ras Tanura, and Iraq is seeking a higher OPEC quota, all adding competing barrels. Russia remains one of few major producers outside the Gulf disruption zone, but the evaporated war premium erodes the scarcity that had supported its export revenues. The market\u2019s focus has shifted to how fast returning Gulf barrels and higher OPEC+ quotas rebuild global inventories.",
+        "context": "Current state (July 7, 2026): Crude sits near four-month lows even after a security-driven spike this week, when Iran struck a Qatari LNG tanker near Hormuz and the U.S. revoked Iran\u2019s oil-sale license (Brent settled +3% at $74.16). The bearish backdrop \u2014 an OPEC+ 188,000 bpd quota increase and a Saudi Arab Light discount to Asia \u2014 keeps pressure on Russian Urals differentials as competing barrels return. Russia remains one of few major producers outside the Gulf disruption zone, but the evaporated war premium erodes the scarcity that had supported its export revenues. The market\u2019s focus is now on how fast returning Gulf barrels and higher OPEC+ quotas rebuild global inventories.",
         "lead_articles": [
-            ("Hormuz Transits Surge as Gulf Exports Recover to ~75% of Pre-War Levels", "hormuz-transits-surge-gulf-exports-recover-75-percent-pre-war.html", "June 28, 2026",
-             "Gulf exports are back to ~75% of pre-war levels and crude has settled at pre-war prices \u2014 a looser backdrop for Urals differentials as competing barrels return."),
+            ("Oil Jumps on Hormuz Tanker Attacks but Holds Near Four-Month Lows", "oil-jumps-hormuz-tanker-attacks-holds-near-four-month-lows.html", "July 7, 2026",
+             "Crude held near four-month lows despite the Hormuz tanker attacks, a soft backdrop for Urals differentials as OPEC+ adds barrels and Saudi discounts to Asia."),
         ],
     },
     "brazil.html": {
-        "context": "Current state (June 28, 2026): Crude has settled at pre-war levels (Brent near $72) after an over-10% weekly drop as the Gulf reopens and Persian Gulf exports recover to roughly 75% of pre-war levels. Brazilian pre-salt output continues to grow as a non-OPEC source; the IEA cites strong non-OPEC growth \u2014 of which Brazil is a leading contributor \u2014 among factors that could tip the market into a 2027 surplus, though OPEC\u2019s Al Ghais rejects that view. The softer price path tightens pre-salt economics at the margin, a full reversal from the wartime premium. With the war premium gone, the market\u2019s focus has shifted to the demand outlook and the pace of OPEC+ quota increases as Iraq and others push for more.",
+        "context": "Current state (July 7, 2026): Crude sits near four-month lows even after Iran struck a Qatari LNG tanker near Hormuz and the U.S. revoked Iran\u2019s oil-sale license this week, briefly lifting prices. Brazilian pre-salt output continues to grow as a non-OPEC source; the IEA cites strong non-OPEC growth \u2014 of which Brazil is a leading contributor \u2014 among factors that could tip the market into a 2027 surplus, a view OPEC\u2019s Al Ghais rejects. With OPEC+ adding barrels and Saudi discounting Arab Light to Asia, the softer price path tightens pre-salt economics at the margin. The market\u2019s focus has shifted to the demand outlook and how the Hormuz security risk resolves.",
         "lead_articles": [],
     },
     "nigeria.html": {
-        "context": "Current state (June 28, 2026): Crude has settled at pre-war levels (Brent near $72, its lowest since February 27) after an over-10% weekly drop. Light, sweet Nigerian grades had served as alternatives for refiners losing Middle East crude during the conflict \u2014 a premium that has now faded as Gulf barrels return, Persian Gulf exports recover to roughly 75% of pre-war levels, and Saudi Arabia loads tankers at Ras Tanura. The softer price environment pressures Nigerian fiscal math as the war premium evaporates. With Iraq and others pushing for higher OPEC+ quotas, the market is focused on the demand outlook and the pace of the Gulf supply ramp.",
+        "context": "Current state (July 7, 2026): Crude sits near four-month lows even after a security-driven spike this week tied to the Hormuz tanker attacks and the U.S. revocation of Iran\u2019s oil-sale license. Light, sweet Nigerian grades had served as alternatives for refiners losing Middle East crude during the conflict \u2014 a premium that has faded as Gulf barrels return and OPEC+ adds supply. Saudi Aramco\u2019s $11 cut to Arab Light for Asia underscores the competitive pressure on West African crude. The softer price environment strains Nigerian fiscal math, and the market is focused on the demand outlook and the pace of the Gulf supply ramp.",
         "lead_articles": [],
     },
     "venezuela.html": {
-        "context": "Current state (June 28, 2026): Crude has settled at pre-war levels (Brent near $72) after an over-10% weekly drop, and Persian Gulf exports have recovered to roughly 75% of pre-war levels. The softer price path reduces the pull on marginal Atlantic Basin barrels that had gained relevance during the wartime disruption, and the returning Gulf supply \u2014 Saudi loadings at Ras Tanura, an Iraqi push for a higher OPEC quota \u2014 adds competing volume. U.S. sanctions policy on Venezuelan crude remains a key variable as the market shifts decisively from scarcity toward a potential 2027 surplus. Venezuelan production capacity stays structurally constrained regardless of the improved geopolitical backdrop.",
+        "context": "Current state (July 7, 2026): Crude sits near four-month lows even after Iran struck a Qatari LNG tanker near Hormuz and the U.S. revoked Iran\u2019s oil-sale license this week. The softer price path reduces the pull on marginal Atlantic Basin barrels that had gained relevance during the wartime disruption, and returning Gulf supply \u2014 an OPEC+ quota increase, a Saudi discount to Asia \u2014 adds competing volume. U.S. sanctions policy on Venezuelan crude remains a key variable as the market shifts from scarcity toward a potential 2027 surplus. Venezuelan production capacity stays structurally constrained regardless of the improved geopolitical backdrop.",
         "lead_articles": [],
     },
 }
 
-LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: June 28, 2026</div>'''
+LAST_REVIEWED_BLOCK = '''<div style="margin-top:8px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-body);font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.08em;color:var(--text-3);padding:6px 12px;background:var(--surface-2);border:1px solid var(--border);border-radius:4px"><span style="width:6px;height:6px;border-radius:50%;background:var(--green);display:inline-block"></span>Last reviewed: July 7, 2026</div>'''
 
 
 def render_article_row(title, slug, date, excerpt):
@@ -110,7 +113,7 @@ def main():
         txt = new_txt
 
         # 2) Add Last reviewed badge after the lead intro paragraph
-        if "Last reviewed: June 28, 2026" not in txt:
+        if "Last reviewed: July 7, 2026" not in txt:
             # Find the close of the lead p tag inside .article-body
             lead_pattern = re.compile(
                 r'(<p style="font-size:16\.5px;line-height:1\.7;color:var\(--text-2\)">[^<]*?</p>)',
