@@ -1,3 +1,7 @@
 [2026-04-19T16:04:08.905567+00:00] AAA fetch failed (expected on GitHub runners): HTTP Error 403: Forbidden
 [2026-04-19T16:04:08.906332+00:00] EIA fallback skipped: no EIA_API_KEY set
 [2026-04-19T16:04:08.907569+00:00] Both AAA and EIA failed; kept previous snapshot
+[2026-07-02T13:01:27.720139+00:00] AAA page returned but parsed 0/4 grades
+[2026-07-02T13:01:46.059714+00:00] EIA diesel fetch failed: HTTP Error 502: Bad Gateway
+[2026-07-02T13:01:46.059911+00:00] EIA returned 3/4 grades
+[2026-07-02T13:01:46.059961+00:00] ERROR: no data available and no previous snapshot to preserve
