@@ -23,3 +23,17 @@
 [2026-07-08T14:33:08.279262+00:00]   Δ opec_plus_policy.new_event: 'None' → 'HOLDING' (triggers_publish=False)
 [2026-07-08T14:33:08.279816+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-07-08T14:33:08.279861+00:00] ════════════════════════════════════════════════════════════
+[2026-07-16T22:42:04.477813+00:00] resolver: start
+[2026-07-16T22:42:04.482139+00:00] resolver: scanning 259 clusters across 10 topics
+[2026-07-16T22:42:04.482628+00:00]   hormuz_status: CONTESTED (conf=0.84, freshness=fresh, clusters=9)
+[2026-07-16T22:42:04.483911+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=16)
+[2026-07-16T22:42:04.484019+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-07-16T22:42:04.484066+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-07-16T22:42:04.484238+00:00]   top_story: 'U.S. Crude Oil Stockpiles Post Weekly Withdrawal' (score=97.91)
+[2026-07-16T22:42:04.484306+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-07-16T22:42:04.484339+00:00]   Δ us_iran_ceasefire.status: 'FRAGILE' → 'HOLDING' (triggers_publish=False)
+[2026-07-16T22:42:04.484371+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-07-16T22:42:04.484399+00:00]   Δ global_risk_level.status: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-07-16T22:42:04.484426+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-07-16T22:42:04.485055+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-07-16T22:42:04.485096+00:00] ════════════════════════════════════════════════════════════
