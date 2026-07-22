@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-07-08T14:33:08.279287+00:00",
-  "previous_generated_at": "2026-07-02T13:03:49.495698+00:00",
-  "resolver_run_count": 2,
+  "generated_at": "2026-07-16T22:42:04.484450+00:00",
+  "previous_generated_at": "2026-07-08T14:33:08.279287+00:00",
+  "resolver_run_count": 3,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Iran’s Attacks on Ships Betray Its Concern Over Losing Its Grip on Hormuz",
+      "status_detail": "US attacks oil tanker in strait of Hormuz as strikes reported in Tehran",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.965,
-      "last_confirmed": "2026-07-08T12:01:57+00:00",
-      "source_count": 10,
-      "summary_short": "Iran’s Attacks on Ships Betray Its Concern Over Losing Its Grip on Hormuz",
-      "summary_long": "Iran’s Attacks on Ships Betray Its Concern Over Losing Its Grip on Hormuz. Four oil and gas tankers turn back from Hormuz strait after vessel attacks",
+      "confidence": 0.84,
+      "last_confirmed": "2026-07-16T21:12:59+00:00",
+      "source_count": 16,
+      "summary_short": "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports",
+      "summary_long": "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports. Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude expor",
       "evidence_cluster_ids": [
-        "c_767270b7798ede",
-        "c_6255d290fc6547",
-        "c_d86e0631e223fb",
-        "c_63b75e83349bd3",
-        "c_ffe2ec4e03f9bc"
+        "c_1d962dfd963b0e",
+        "c_3a1e897466d965",
+        "c_2b89e90019345d",
+        "c_17e5a7a0696153",
+        "c_074e4de2a922b1"
       ],
-      "evidence_count": 7,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,34 +41,33 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_767270b779 → CONTESTED (kw='attack', weight=0.59)",
-        "cluster c_6255d290fc → CONTESTED (kw='attack', weight=0.69)",
-        "cluster c_63b75e8334 → CONTESTED (kw='attack', weight=0.69)",
-        "cluster c_ffe2ec4e03 → CONTESTED (kw='attack', weight=0.53)",
-        "winning=CONTESTED (2.50/2.50), conf=0.965"
+        "cluster c_3a1e897466 → CLOSED (kw='blockade', weight=0.50) [OPEN suppressed]",
+        "cluster c_17e5a7a069 → CONTESTED (kw='attack', weight=0.38)",
+        "cluster c_074e4de2a9 → CONTESTED (kw='attack', weight=0.29)",
+        "winning=CONTESTED (0.67/1.17), conf=0.84"
       ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "FRAGILE",
-      "status_detail": "U.S. and Iran Exchange Strikes in Latest Threat to Fragile Ceasefire",
-      "status_tag": "Under strain",
-      "risk_level": "HIGH",
-      "confidence": 0.956,
-      "last_confirmed": "2026-07-08T11:10:00+00:00",
-      "source_count": 22,
-      "summary_short": "Iran’s Attacks on Ships Betray Its Concern Over Losing Its Grip on Hormuz",
-      "summary_long": "Iran’s Attacks on Ships Betray Its Concern Over Losing Its Grip on Hormuz. U.S., European Government Bond Yields Rise After Trump Says U.S.-Iran Ceasefire Is Over",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-07-16T19:59:57+00:00",
+      "source_count": 21,
+      "summary_short": "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports",
+      "summary_long": "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate if Trump carries out threats",
       "evidence_cluster_ids": [
-        "c_767270b7798ede",
-        "c_78047aaa46ad16",
-        "c_0864e79f917681",
-        "c_ff5384a8ba1a8c",
-        "c_d86e0631e223fb"
+        "c_1d962dfd963b0e",
+        "c_3a1e897466d965",
+        "c_87b80af99d34c0",
+        "c_bdca3768708213",
+        "c_d54b3947aad24c"
       ],
-      "evidence_count": 19,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -83,12 +82,13 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_cc68869e48 → FRAGILE (kw='fragile', weight=0.51)",
-        "winning=FRAGILE (0.51/0.51), conf=0.956"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": ""
+      "next_catalyst_micro": "",
+      "previous_status": "FRAGILE",
+      "last_changed": "2026-07-16T22:42:04.484275+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -124,20 +124,20 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz contested, ceasefire fragile",
-      "summary_micro": "contested + fragile",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
         "hormuz=CONTESTED (+25)",
-        "ceasefire=FRAGILE (+25)"
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -148,20 +148,22 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-07-16T22:42:04.484275+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_13e762a02f247a",
-      "lead_title": "Crude Oil Price Analysis – WTI Gaps Higher as US-Iran Hostilities Flare",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNHNCQlUyZjFPU1YxLWlOOTBGejVTZ2J3azBkMHBrVXE5c24wZ0hZOGt1SGtoSktxX3lGV1Qyb0ZCOFFwZkpsR0d5NTh2M0l6bHpzWDdPclAxdGJxV3ZYd0dBQnJ5Wlp6SGhnZlVJR3dDUXNMU1VNSTdEUEI1QTdDcXZoQ0YzeXBKeEEwUFczRzY3bm9jb2NFN1QzdjF2ZTFqbWlrMmp3bG4tZWw1S3VqQjhnTW8wSVQydkhqUw?oc=5",
-      "lead_source": "FXEmpire",
+      "cluster_id": "c_ea2f1e2bf7fe75",
+      "lead_title": "U.S. Crude Oil Stockpiles Post Weekly Withdrawal",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRFdOTkI0aWZLMDl0XzdlaXgwME9wQ3A2WVJsN2k3REhNT0pSajdZdldjZ29GbHV1dDJkSDBfLVdPTWlLVHJMU0tQejBzemhpVWxIeEJsV0M0MmItR1FvVERZNC1NN1F0d3M2aHJ4Z19aMjBZaVFnWmxsdGlFZXNfQTM1T0ZZYnBHVV90UDYxZ2MxNTJQV0pUTmxfVEo?oc=5",
+      "lead_source": "WSJ",
       "topic": "oil",
-      "score": 93.37,
+      "score": 97.91,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -173,18 +175,45 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
+      "event_key": "us_iran_ceasefire",
+      "field": "status",
+      "from": "FRAGILE",
       "to": "HOLDING",
-      "detected_at": "2026-07-08T14:33:08.279220+00:00",
+      "detected_at": "2026-07-16T22:42:04.484275+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-07-16T22:42:04.484275+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-07-16T22:42:04.484275+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-07-16T22:42:04.484275+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.965, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.956, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.84, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
