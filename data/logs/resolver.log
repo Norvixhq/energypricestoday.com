@@ -105,3 +105,13 @@
 [2026-07-26T19:22:52.566480+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
 [2026-07-26T19:22:52.567087+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-07-26T19:22:52.567150+00:00] ════════════════════════════════════════════════════════════
+[2026-07-26T20:33:50.081101+00:00] resolver: start
+[2026-07-26T20:33:50.085398+00:00] resolver: scanning 253 clusters across 10 topics
+[2026-07-26T20:33:50.085741+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=1)
+[2026-07-26T20:33:50.086650+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=2)
+[2026-07-26T20:33:50.086800+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-07-26T20:33:50.086852+00:00]   global_risk_level: LOW (score=10)
+[2026-07-26T20:33:50.087020+00:00]   top_story: 'West Asia conflict, US Fed rate decision, crude oil prices t' (score=68.28)
+[2026-07-26T20:33:50.087065+00:00] resolver: no state changes
+[2026-07-26T20:33:50.088099+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-07-26T20:33:50.088230+00:00] ════════════════════════════════════════════════════════════
