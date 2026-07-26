@@ -1,30 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-07-22T10:05:03.548856+00:00",
-  "previous_generated_at": "2026-07-16T22:42:04.484450+00:00",
-  "resolver_run_count": 4,
+  "generated_at": "2026-07-25T06:04:05.541253+00:00",
+  "previous_generated_at": "2026-07-22T10:05:03.548856+00:00",
+  "resolver_run_count": 5,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Brent Oil Tops $90 as Middle East Attacks Threaten Hormuz Flows",
+      "status_detail": "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.821,
-      "last_confirmed": "2026-07-22T04:55:00+00:00",
-      "source_count": 6,
-      "summary_short": "Crude continues rally: Brent tops $92, WTI above $85 as Strait of Hormuz tensions threaten global supplie",
-      "summary_long": "Crude continues rally: Brent tops $92, WTI above $85 as Strait of Hormuz tensions threaten global supplie. Indian Refiners Halt Iraq Oil Loadings as Hormuz Risks Escalate",
+      "confidence": 0.954,
+      "last_confirmed": "2026-07-24T18:47:41+00:00",
+      "source_count": 9,
+      "summary_short": "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
+      "summary_long": "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea. Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black",
       "evidence_cluster_ids": [
-        "c_387ebf809b38be",
-        "c_38f86b80db747c",
-        "c_6b471dc735b39c",
-        "c_5303d6a0ff8da5",
-        "c_0f36299783ac30"
+        "c_f1847a630d82ba",
+        "c_1d962dfd963b0e",
+        "c_507f2f9fd8307c",
+        "c_5651ff2e4da8fe",
+        "c_b0e5b3023da99f"
       ],
-      "evidence_count": 5,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,32 +41,34 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_38f86b80db → CONTESTED (kw='attack', weight=0.10)",
-        "cluster c_0f36299783 → OPEN (kw='reopen', weight=0.08)",
-        "winning=CONTESTED (0.10/0.18), conf=0.821"
+        "cluster c_f1847a630d → CONTESTED (kw='attack', weight=0.50)",
+        "cluster c_507f2f9fd8 → CONTESTED (kw='attack', weight=0.50)",
+        "cluster c_b0e5b3023d → CONTESTED (kw='attack', weight=0.50)",
+        "cluster c_7d24fe29b8 → CONTESTED (kw='attack', weight=0.10)",
+        "winning=CONTESTED (1.59/1.59), conf=0.954"
       ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "FRAGILE",
-      "status_detail": "Trump says U.S. will destroy Iran’s oil wells, Kharg Island without deal to 'immediately' reopen Hormuz Strait",
-      "status_tag": "Under strain",
-      "risk_level": "HIGH",
-      "confidence": 0.95,
-      "last_confirmed": "2026-07-22T07:56:07+00:00",
-      "source_count": 19,
-      "summary_short": "Houthis announce Saudi naval blockade, threatening new front in US-Iran war",
-      "summary_long": "Houthis announce Saudi naval blockade, threatening new front in US-Iran war. Oil prices jump 4% as Rubio says Iran 'not serious' about peace talks",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-07-24T14:36:19+00:00",
+      "source_count": 16,
+      "summary_short": "Physical oil prices jump with some nearing $110 as Iran, Ukraine wars hit supply",
+      "summary_long": "Physical oil prices jump with some nearing $110 as Iran, Ukraine wars hit supply. Oil falls on report China pushing for end US-Iran war",
       "evidence_cluster_ids": [
-        "c_79cc37ce7d3af8",
-        "c_529c476a6cb0be",
-        "c_9a950fa5fe8e96",
-        "c_6a620751a1d7b6",
-        "c_387ebf809b38be"
+        "c_9d90d34d59035f",
+        "c_2eb9fdd9d6f0bb",
+        "c_66c01b1ed5af47",
+        "c_7f3c576221584e",
+        "c_1d962dfd963b0e"
       ],
-      "evidence_count": 17,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -81,30 +83,31 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_0f36299783 → FRAGILE (kw='without deal', weight=0.08)",
-        "winning=FRAGILE (0.08/0.08), conf=0.95"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": "",
-      "previous_status": "HOLDING",
-      "last_changed": "2026-07-22T10:05:03.548684+00:00"
+      "previous_status": "FRAGILE",
+      "last_changed": "2026-07-25T06:04:05.541118+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no recent coverage",
+      "status_detail": "no definitive signals",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
+      "last_confirmed": "2026-07-23T17:32:58+00:00",
+      "source_count": 1,
+      "summary_short": "OPEC+ likely to again raise oil output targets from September, sources say",
+      "summary_long": "OPEC+ likely to again raise oil output targets from September, sources say",
+      "evidence_cluster_ids": [
+        "c_a506438fbd8abc"
+      ],
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -117,27 +120,27 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "no matching clusters"
+        "fell back to default 'HOLDING'"
       ]
     },
     "global_risk_level": {
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz contested, ceasefire fragile",
-      "summary_micro": "contested + fragile",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
         "hormuz=CONTESTED (+25)",
-        "ceasefire=FRAGILE (+25)"
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -149,21 +152,21 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-07-22T10:05:03.548684+00:00"
+      "previous_status": "HIGH",
+      "last_changed": "2026-07-25T06:04:05.541118+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_50420dae34b07b",
-      "lead_title": "WTI Crude Oil Futures Jump 3.3% to $87.63, Brent Crude Oil Futures Surge 3.3% to $94.35 Early Wednesday",
-      "lead_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTDIwYXc0VVlYQm0tZVNGamV4ZEpsT21HeGppQ2VVMHI3ajU1REYxbGViT0JxZUZvLXpLakd6UFRZSmM0QVhLOXJPU3JxMmVzNUVRcDFwNFg2RHRRZ0locjVaQmVXQTFSX3Y2T2lfQmVkWmhVV2FXYnN2OGdqajBvZ0xLd0hUS1RNSGxURHlDcW4tV1dQcXAxa3BJTFMzS3hrWHg4eTdSY09fRXl0enBTVUZBdDJRSWVYTmpQZFZEall3UUF2eHBMMWllbXVaUDBmWUxCWllHSHFYM1ByZXQwbFVR?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_043d352834c38a",
+      "lead_title": "U.S. Commercial Crude Oil Stockpiles Post Weekly Build",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdzJyMXRPZ25GeVpDSjl2OFdYQ1FNbkN3M01vQUVvTWhnMGxpUU1oRXFqMDNKZ0NEY1BVbDQwMW1KWWItV0NJS0JjaEwxczRiNEFqOUNfX3lsdDdycnZtZWxNdmNnbTlicUo2QVBvUE1qYWtqam5TbzM5THQ0dmh4dWhZZXVnaXh1UVhXS2JOTHRONGNCSVV0cHpuaFVVa1RnUGMwZg?oc=5",
+      "lead_source": "WSJ",
       "topic": "oil",
-      "score": 97.97,
+      "score": 97.39,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -177,43 +180,43 @@
     {
       "event_key": "us_iran_ceasefire",
       "field": "status",
-      "from": "HOLDING",
-      "to": "FRAGILE",
-      "detected_at": "2026-07-22T10:05:03.548684+00:00",
+      "from": "FRAGILE",
+      "to": "HOLDING",
+      "detected_at": "2026-07-25T06:04:05.541118+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     },
     {
       "event_key": "us_iran_ceasefire",
       "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-07-22T10:05:03.548684+00:00",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-07-25T06:04:05.541118+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "status",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-07-22T10:05:03.548684+00:00",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-07-25T06:04:05.541118+00:00",
       "meaningful": true,
       "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-07-22T10:05:03.548684+00:00",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-07-25T06:04:05.541118+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.821, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.95, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.954, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
