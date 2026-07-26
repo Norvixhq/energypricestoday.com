@@ -91,3 +91,17 @@
 [2026-07-26T14:21:08.114625+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
 [2026-07-26T14:21:08.115184+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-07-26T14:21:08.115227+00:00] ════════════════════════════════════════════════════════════
+[2026-07-26T19:22:52.560412+00:00] resolver: start
+[2026-07-26T19:22:52.564655+00:00] resolver: scanning 255 clusters across 10 topics
+[2026-07-26T19:22:52.564994+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=3)
+[2026-07-26T19:22:52.565957+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=3)
+[2026-07-26T19:22:52.566057+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-07-26T19:22:52.566122+00:00]   global_risk_level: LOW (score=10)
+[2026-07-26T19:22:52.566296+00:00]   top_story: 'Aramco offers more crude oil cargoes from Mediterranean amid' (score=72.25)
+[2026-07-26T19:22:52.566362+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-07-26T19:22:52.566395+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=False)
+[2026-07-26T19:22:52.566426+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-07-26T19:22:52.566454+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-07-26T19:22:52.566480+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-07-26T19:22:52.567087+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-07-26T19:22:52.567150+00:00] ════════════════════════════════════════════════════════════

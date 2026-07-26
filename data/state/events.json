@@ -1,26 +1,26 @@
 {
   "version": 2,
-  "generated_at": "2026-07-26T14:21:08.114651+00:00",
-  "previous_generated_at": "2026-07-26T05:04:02.951150+00:00",
-  "resolver_run_count": 7,
+  "generated_at": "2026-07-26T19:22:52.566505+00:00",
+  "previous_generated_at": "2026-07-26T14:21:08.114651+00:00",
+  "resolver_run_count": 8,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CONTESTED",
-      "status_detail": "Oil prices rise after attacks on tankers in Strait of Hormuz, U.S. revokes Iran sale authorization",
-      "status_tag": "Tankers at risk",
-      "risk_level": "ELEVATED",
-      "confidence": 0.954,
+      "status": "OPEN",
+      "status_detail": "no definitive signals",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.5,
       "last_confirmed": "2026-07-26T11:09:00+00:00",
       "source_count": 3,
       "summary_short": "From the strait of Hormuz to the North Sea, a global maritime war rages around us – and more than the price of oil is at",
-      "summary_long": "From the strait of Hormuz to the North Sea, a global maritime war rages around us – and more than the price of oil is at stake | Simon Tisdall. Four oil and gas tankers turn back from Hormuz strait after vessel attacks",
+      "summary_long": "From the strait of Hormuz to the North Sea, a global maritime war rages around us – and more than the price of oil is at stake | Simon Tisdall. Oil prices settle lower on hopes for smoother shipping in Strait of Hormuz",
       "evidence_cluster_ids": [
+        "c_87b96271843315",
         "c_0e463d5260086f",
-        "c_6398010203f62a",
-        "c_da5c4ad7ed8a24"
+        "c_35fa2d97c99f4d"
       ],
       "evidence_count": 3,
       "affected_pages": [
@@ -39,10 +39,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_6398010203 → CONTESTED (kw='attack', weight=0.09)",
-        "cluster c_da5c4ad7ed → CONTESTED (kw='attack', weight=0.10)",
-        "winning=CONTESTED (0.19/0.19), conf=0.954"
-      ]
+        "fell back to default 'OPEN'"
+      ],
+      "previous_status": "CONTESTED",
+      "last_changed": "2026-07-26T19:22:52.566333+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -54,13 +54,15 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-07-26T04:00:24+00:00",
-      "source_count": 1,
+      "source_count": 3,
       "summary_short": "China pours funding into green energy deals as Iran war hits oil demand",
-      "summary_long": "China pours funding into green energy deals as Iran war hits oil demand",
+      "summary_long": "China pours funding into green energy deals as Iran war hits oil demand. A war meant to break Iran could leave Tehran stronger, and Gulf exposed",
       "evidence_cluster_ids": [
-        "c_8bf80573e1a5e5"
+        "c_8bf80573e1a5e5",
+        "c_9c60b5240fe003",
+        "c_88f16cffcbfbe9"
       ],
-      "evidence_count": 1,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -115,19 +117,18 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "ELEVATED",
-      "risk_level": "ELEVATED",
-      "score": 35,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: elevated.",
-      "summary_long": "Risk drivers: Hormuz contested",
-      "summary_micro": "contested",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -140,21 +141,21 @@
         "oil-prices.html",
         "markets.html"
       ],
-      "previous_status": "LOW",
-      "last_changed": "2026-07-26T14:21:08.114506+00:00"
+      "previous_status": "ELEVATED",
+      "last_changed": "2026-07-26T19:22:52.566333+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_90b581d176e6be",
-      "lead_title": "West Asia conflict, US Fed rate decision, crude oil prices to drive market sentiment",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR2o4ZEJOdGwyVGtYbW0zMk5weFltRXlLaDZSUWpBRktFZXM2dkdhanc1bGk5M2U5eGR0ellzT05oUGQ2eFpEU0hTZi1HcjY3R1N2UktrVlBkNkdPUE5vUE1VVFJjWGVRbzVrWTR2UGQtQ2JtMGk4X3BqZHI3N2hGZmplN2xobkRsLURnajAtSWpvY3JjbmhoMW9mczF1anpsSmNvcWwwaXBxX3pwOVdQTDNxTGJPWXlGenpRSlNRYjY3ZTJGX0NUcDFYNE03eHJXLXJF0gHWAUFVX3lxTE9JYjJkc1Z6RzZsRGZFZHZMTEtjSEYtTVNfSi1neDUzUzhEcHlxT3lNMmR2MnpoQTM2a0pBOUhJd1dSUk5BTVZwUmV6UjdwR19CRUxtU3NIV1FNT0ptbXhORWhFN0dBSmtvaUl0Rl9CRHNSaEh5eEJnS2RFcWVKNlJ3RzN2RDh1T3FoTllpdHJJeW1DYmh5RUQ1UlZGXzlOYTNTVmxLS3RUWEhlZXZ2ekRPb1hKOTRvUDFBVk5Rd0dGQWlIMDBpelptSnVVT2l0SGZVVnBRRUE?oc=5",
-      "lead_source": "Rediff",
-      "topic": "energy",
-      "score": 77.0,
+      "cluster_id": "c_77988ead201c1f",
+      "lead_title": "Aramco offers more crude oil cargoes from Mediterranean amid Red Sea threats, sources say",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWnlLeFN2aDhyckNyeC1lNm5Hcm9hczVyS1FQdEZDSzh4a2VVRTliYzFOY05oaGFRZjBudEREdHRaTkdrV3JyRzFnWTVPMUhIclBKTzlMYktfdmFVcGlBZC1tWDluWkhvelFOYlpzZmN6bzFkVGJsUmFjTXVFTmtsS0ZzSnhSbjIwMnFDaVlWV1JwNUlXbjlidU9LZW1NV1dvSEphek1mT2h5Zm1jV2FzckxDQjlGTkRmeUhLWnZlejh1U1FyaExZaXBaMA?oc=5",
+      "lead_source": "Reuters",
+      "topic": "oil",
+      "score": 72.25,
       "novelty": "new",
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,34 +168,43 @@
   "changes_since_last_run": [
     {
       "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CONTESTED",
-      "detected_at": "2026-07-26T14:21:08.114506+00:00",
+      "field": "status",
+      "from": "CONTESTED",
+      "to": "OPEN",
+      "detected_at": "2026-07-26T19:22:52.566333+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-07-26T19:22:52.566333+00:00",
+      "meaningful": true,
+      "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "status",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-07-26T14:21:08.114506+00:00",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-07-26T19:22:52.566333+00:00",
       "meaningful": true,
       "triggers_publish": false
     },
     {
       "event_key": "global_risk_level",
       "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-07-26T14:21:08.114506+00:00",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-07-26T19:22:52.566333+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.954, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
