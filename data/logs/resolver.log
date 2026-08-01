@@ -115,3 +115,17 @@
 [2026-07-26T20:33:50.087065+00:00] resolver: no state changes
 [2026-07-26T20:33:50.088099+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-07-26T20:33:50.088230+00:00] ════════════════════════════════════════════════════════════
+[2026-08-01T20:03:13.594883+00:00] resolver: start
+[2026-08-01T20:03:13.599010+00:00] resolver: scanning 255 clusters across 10 topics
+[2026-08-01T20:03:13.599368+00:00]   hormuz_status: CONTESTED (conf=0.569, freshness=stale, clusters=6)
+[2026-08-01T20:03:13.600573+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=15)
+[2026-08-01T20:03:13.600674+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-01T20:03:13.600738+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-08-01T20:03:13.600913+00:00]   top_story: 'Turkey Said to Extend Iraq Oil Pipeline Deal by One Year' (score=87.0)
+[2026-08-01T20:03:13.600975+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-08-01T20:03:13.601006+00:00]   Δ hormuz_status.status: 'OPEN' → 'CONTESTED' (triggers_publish=False)
+[2026-08-01T20:03:13.601036+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-08-01T20:03:13.601063+00:00]   Δ global_risk_level.status: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-08-01T20:03:13.601088+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-08-01T20:03:13.601669+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-01T20:03:13.601711+00:00] ════════════════════════════════════════════════════════════

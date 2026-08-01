@@ -1,26 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-07-26T20:33:50.087093+00:00",
-  "previous_generated_at": "2026-07-26T19:22:52.566505+00:00",
-  "resolver_run_count": 9,
+  "generated_at": "2026-08-01T20:03:13.601112+00:00",
+  "previous_generated_at": "2026-07-26T20:33:50.087093+00:00",
+  "resolver_run_count": 10,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "no definitive signals",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-07-26T11:09:00+00:00",
-      "source_count": 1,
-      "summary_short": "From the strait of Hormuz to the North Sea, a global maritime war rages around us – and more than the price of oil is at",
-      "summary_long": "From the strait of Hormuz to the North Sea, a global maritime war rages around us – and more than the price of oil is at stake | Simon Tisdall",
+      "status": "CONTESTED",
+      "status_detail": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
+      "status_tag": "Tankers at risk",
+      "risk_level": "ELEVATED",
+      "confidence": 0.569,
+      "last_confirmed": "2026-07-31T14:11:00+00:00",
+      "source_count": 7,
+      "summary_short": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
+      "summary_long": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz. Oil prices settle lower on hopes for smoother shipping in Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_0e463d5260086f"
+        "c_96435214803c3d",
+        "c_87b96271843315",
+        "c_b6b66306f7244a",
+        "c_7d24fe29b83136",
+        "c_936a6f4a901efb"
       ],
-      "evidence_count": 1,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -34,11 +38,15 @@
         "markets.drivers.hormuz"
       ],
       "update_priority": "critical",
-      "freshness": "fresh",
+      "freshness": "stale",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
-      ]
+        "cluster c_9643521480 → CONTESTED (kw='attack', weight=0.24)",
+        "cluster c_7d24fe29b8 → CONTESTED (kw='attack', weight=0.10)",
+        "winning=CONTESTED (0.34/0.34), conf=0.949"
+      ],
+      "previous_status": "OPEN",
+      "last_changed": "2026-08-01T20:03:13.600950+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -49,15 +57,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-07-26T04:00:24+00:00",
-      "source_count": 2,
-      "summary_short": "China pours funding into green energy deals as Iran war hits oil demand",
-      "summary_long": "China pours funding into green energy deals as Iran war hits oil demand. Iran accuses U.S. of violating ceasefire as Israeli attacks on Lebanon continue",
+      "last_confirmed": "2026-07-31T14:11:00+00:00",
+      "source_count": 17,
+      "summary_short": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz",
+      "summary_long": "Oil prices rise after Iran says it attacked two tankers transiting Strait of Hormuz. Oil prices settle $1 higher after Iran and Israel say they have halted attacks",
       "evidence_cluster_ids": [
-        "c_8bf80573e1a5e5",
-        "c_ed0195db7097ce"
+        "c_96435214803c3d",
+        "c_79cc37ce7d3af8",
+        "c_7635c9943b0926",
+        "c_4b210d4b2e43e7",
+        "c_68d8dc739a0f83"
       ],
-      "evidence_count": 2,
+      "evidence_count": 15,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -112,18 +123,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
+        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -135,21 +147,23 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "LOW",
+      "last_changed": "2026-08-01T20:03:13.600950+00:00"
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_90b581d176e6be",
-      "lead_title": "West Asia conflict, US Fed rate decision, crude oil prices to drive market sentiment",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOR2o4ZEJOdGwyVGtYbW0zMk5weFltRXlLaDZSUWpBRktFZXM2dkdhanc1bGk5M2U5eGR0ellzT05oUGQ2eFpEU0hTZi1HcjY3R1N2UktrVlBkNkdPUE5vUE1VVFJjWGVRbzVrWTR2UGQtQ2JtMGk4X3BqZHI3N2hGZmplN2xobkRsLURnajAtSWpvY3JjbmhoMW9mczF1anpsSmNvcWwwaXBxX3pwOVdQTDNxTGJPWXlGenpRSlNRYjY3ZTJGX0NUcDFYNE03eHJXLXJF0gHWAUFVX3lxTE9JYjJkc1Z6RzZsRGZFZHZMTEtjSEYtTVNfSi1neDUzUzhEcHlxT3lNMmR2MnpoQTM2a0pBOUhJd1dSUk5BTVZwUmV6UjdwR19CRUxtU3NIV1FNT0ptbXhORWhFN0dBSmtvaUl0Rl9CRHNSaEh5eEJnS2RFcWVKNlJ3RzN2RDh1T3FoTllpdHJJeW1DYmh5RUQ1UlZGXzlOYTNTVmxLS3RUWEhlZXZ2ekRPb1hKOTRvUDFBVk5Rd0dGQWlIMDBpelptSnVVT2l0SGZVVnBRRUE?oc=5",
-      "lead_source": "Rediff",
-      "topic": "energy",
-      "score": 68.28,
-      "novelty": "growing",
-      "source_count": 3,
-      "confidence": 0.9414,
+      "cluster_id": "c_5ffe95cc36c00c",
+      "lead_title": "Turkey Said to Extend Iraq Oil Pipeline Deal by One Year",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOb3huR3dCaTNxSUphYXlQNmN6TWEtdHppQTRyTzFfUkVyMW1OV3V1bS16M1UwZV9taV94UlNOampQdkpCdnhsMXpsVTk4S1NUMmF2bWNfd08weU9lNHNZRkYzbGF0cjNoQTF1SHBUX1dLQ25JYzFiM1BCVFhVTk1FS0Q4T1MyVVlkSUZIQm5VNkI2emo0Mm4wdllSenc5YTMyVzFjUWxGRjNneG8?oc=5",
+      "lead_source": "Bloomberg.com",
+      "topic": "oil",
+      "score": 87.0,
+      "novelty": "new",
+      "source_count": 4,
+      "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
       ],
@@ -158,9 +172,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "OPEN",
+      "to": "CONTESTED",
+      "detected_at": "2026-08-01T20:03:13.600950+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-01T20:03:13.600950+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-01T20:03:13.600950+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-01T20:03:13.600950+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.569, fresh=stale",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
