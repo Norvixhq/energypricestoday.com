@@ -129,3 +129,17 @@
 [2026-08-01T20:03:13.601088+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
 [2026-08-01T20:03:13.601669+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-01T20:03:13.601711+00:00] ════════════════════════════════════════════════════════════
+[2026-08-04T19:52:00.973031+00:00] resolver: start
+[2026-08-04T19:52:00.977214+00:00] resolver: scanning 275 clusters across 10 topics
+[2026-08-04T19:52:00.977642+00:00]   hormuz_status: OPEN (conf=0.92, freshness=fresh, clusters=8)
+[2026-08-04T19:52:00.978861+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=17)
+[2026-08-04T19:52:00.979010+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=2)
+[2026-08-04T19:52:00.979054+00:00]   global_risk_level: LOW (score=10)
+[2026-08-04T19:52:00.979234+00:00]   top_story: 'September WTI Crude Oil Contract Closes Down $4.57, or 5.7%;' (score=92.85)
+[2026-08-04T19:52:00.979304+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-08-04T19:52:00.979337+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=True)
+[2026-08-04T19:52:00.979370+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=True)
+[2026-08-04T19:52:00.979398+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-04T19:52:00.979425+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-04T19:52:00.980090+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-04T19:52:00.980132+00:00] ════════════════════════════════════════════════════════════
