@@ -143,3 +143,14 @@
 [2026-08-04T19:52:00.979425+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
 [2026-08-04T19:52:00.980090+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-04T19:52:00.980132+00:00] ════════════════════════════════════════════════════════════
+[2026-08-04T22:39:43.838007+00:00] resolver: start
+[2026-08-04T22:39:43.842130+00:00] resolver: scanning 274 clusters across 10 topics
+[2026-08-04T22:39:43.842521+00:00]   hormuz_status: OPEN (conf=0.96, freshness=fresh, clusters=5)
+[2026-08-04T22:39:43.843566+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=8)
+[2026-08-04T22:39:43.843699+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=1)
+[2026-08-04T22:39:43.843766+00:00]   global_risk_level: LOW (score=10)
+[2026-08-04T22:39:43.843919+00:00]   top_story: 'Core Differences Between West Texas Intermediate (WTI) and B' (score=84.94)
+[2026-08-04T22:39:43.843965+00:00] resolver: 1 change(s), 1 meaningful, 0 publish-triggering
+[2026-08-04T22:39:43.843991+00:00]   Δ us_iran_ceasefire.next_catalyst_date: '' → '2027-03-02' (triggers_publish=False)
+[2026-08-04T22:39:43.844577+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-04T22:39:43.844619+00:00] ════════════════════════════════════════════════════════════
