@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-04T19:52:00.979449+00:00",
-  "previous_generated_at": "2026-08-01T20:03:13.601112+00:00",
-  "resolver_run_count": 11,
+  "generated_at": "2026-08-04T22:39:43.844017+00:00",
+  "previous_generated_at": "2026-08-04T19:52:00.979449+00:00",
+  "resolver_run_count": 12,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Oil prices fall on hopes Strait of Hormuz could reopen",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.92,
+      "confidence": 0.96,
       "last_confirmed": "2026-08-04T15:38:51+00:00",
-      "source_count": 8,
-      "summary_short": "Iran demands inbound control of Hormuz and outbound oversight, source says",
-      "summary_long": "Iran demands inbound control of Hormuz and outbound oversight, source says. Hormuz Opening Uncertain After New Strike, as Trump Administration Says Deal May Be Close",
+      "source_count": 5,
+      "summary_short": "Oil prices fall on hopes Strait of Hormuz could reopen",
+      "summary_long": "Oil prices fall on hopes Strait of Hormuz could reopen. Iran demands inbound control of Hormuz and outbound oversight, source says",
       "evidence_cluster_ids": [
         "c_e35ee3bff82444",
         "c_afdada6f9b4f36",
         "c_123d8f37fe70be",
-        "c_f1847a630d82ba",
+        "c_4bd7143ae913e2",
         "c_99a3fb9861371e"
       ],
-      "evidence_count": 8,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,14 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_123d8f37fe → OPEN (kw='reopen', weight=0.61)",
-        "cluster c_f1847a630d → CONTESTED (kw='attack', weight=0.09)",
-        "cluster c_62b38e2596 → OPEN (kw='reopen', weight=0.53)",
-        "cluster c_1d48e16562 → CONTESTED (kw='attack', weight=0.09)",
-        "winning=OPEN (1.15/1.33), conf=0.92"
-      ],
-      "previous_status": "CONTESTED",
-      "last_changed": "2026-08-04T19:52:00.979271+00:00"
+        "cluster c_123d8f37fe → OPEN (kw='reopen', weight=0.47)",
+        "cluster c_4bd7143ae9 → OPEN (kw='reopen', weight=0.56)",
+        "winning=OPEN (1.03/1.03), conf=0.96"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -59,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-04T18:02:02+00:00",
-      "source_count": 17,
-      "summary_short": "Iran demands inbound control of Hormuz and outbound oversight, source says",
-      "summary_long": "Iran demands inbound control of Hormuz and outbound oversight, source says. Qatar says progress made toward US-Iran talks on ending war",
+      "last_confirmed": "2026-08-04T13:46:35+00:00",
+      "source_count": 8,
+      "summary_short": "Aramco says US-Iran war has cost the global market 2.6 billion barrels of oil",
+      "summary_long": "Aramco says US-Iran war has cost the global market 2.6 billion barrels of oil. Iran demands inbound control of Hormuz and outbound oversight, source says",
       "evidence_cluster_ids": [
+        "c_76d3e1e3a1989a",
         "c_e35ee3bff82444",
-        "c_d52ea9b3e1536d",
-        "c_7e39a3e07e785b",
-        "c_cd9ec6acb72f6b",
-        "c_5b0f393b38e61c"
+        "c_6e3d0c16797acb",
+        "c_79cc37ce7d3af8",
+        "c_7e39a3e07e785b"
       ],
-      "evidence_count": 17,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -87,9 +83,9 @@
       "rationale": [
         "fell back to default 'HOLDING'"
       ],
-      "next_catalyst_date": "",
-      "next_catalyst_description": "",
-      "next_catalyst_micro": ""
+      "next_catalyst_date": "2027-03-02",
+      "next_catalyst_description": "Aramco says US-Iran war has cost the global market 2.6 billion barrels of oil Ar",
+      "next_catalyst_micro": "Aramco says US-Iran"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -101,14 +97,13 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-08-04T17:33:14+00:00",
-      "source_count": 2,
+      "source_count": 1,
       "summary_short": "OPEC Output Rose in July Led by Gulf Nations, Survey Shows",
-      "summary_long": "OPEC Output Rose in July Led by Gulf Nations, Survey Shows. Brazil’s Oil Output Hits Record as War Drives Up Non-OPEC Supply",
+      "summary_long": "OPEC Output Rose in July Led by Gulf Nations, Survey Shows",
       "evidence_cluster_ids": [
-        "c_1ea5ff5e9233be",
-        "c_5a93d8a2435b6e"
+        "c_1ea5ff5e9233be"
       ],
-      "evidence_count": 2,
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -151,20 +146,18 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-08-04T19:52:00.979271+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_e3dc672954ffae",
-      "lead_title": "September WTI Crude Oil Contract Closes Down $4.57, or 5.7%; Settles at $75.77 per Barrel. October Brent Oil Last Seen Down $4.46, or 5.3%, to $79.32",
-      "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPVk14cGdDdWowTzRrYjNiNVlQMzdFb0xrMmNTcnpYLUw4OEJPTmVRclZHYlpvODZnOVFXUlNpY0J1SHozY3hNOTJBQnpLQUpYNTJ6Y1Z4WlhhSm9ycENRaWhHbHhMc0Z4NEZQYWhPakVHU2dIcWZHU2xycUZHSldWSWFkV1ZjMHp0c1l2TUVnU0l5UTNlZkdXTmxZOUwxX3E4Y250Q08xbnZubkdHdW9BYld1TllycXQzMkJxbnhVMFF1aFRzam5tZTRMdURfRnowZGxWMlNQRzQ0MERmbk1wdg?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_6d85995b51b4ba",
+      "lead_title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+      "lead_source": "EnergyNow.com",
       "topic": "oil",
-      "score": 92.85,
+      "score": 84.94,
       "novelty": "new",
       "source_count": 3,
       "confidence": 0.95,
@@ -178,44 +171,17 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CONTESTED",
-      "to": "OPEN",
-      "detected_at": "2026-08-04T19:52:00.979271+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-04T19:52:00.979271+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-04T19:52:00.979271+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-04T19:52:00.979271+00:00",
+      "event_key": "us_iran_ceasefire",
+      "field": "next_catalyst_date",
+      "from": "",
+      "to": "2027-03-02",
+      "detected_at": "2026-08-04T22:39:43.843950+00:00",
       "meaningful": true,
       "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.92, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.96, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

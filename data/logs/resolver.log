@@ -154,3 +154,18 @@
 [2026-08-04T22:39:43.843991+00:00]   Δ us_iran_ceasefire.next_catalyst_date: '' → '2027-03-02' (triggers_publish=False)
 [2026-08-04T22:39:43.844577+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-04T22:39:43.844619+00:00] ════════════════════════════════════════════════════════════
+[2026-08-09T16:59:53.287457+00:00] resolver: start
+[2026-08-09T16:59:53.291555+00:00] resolver: scanning 251 clusters across 10 topics
+[2026-08-09T16:59:53.291941+00:00]   hormuz_status: CONTESTED (conf=0.807, freshness=aging, clusters=6)
+[2026-08-09T16:59:53.293065+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=13)
+[2026-08-09T16:59:53.293175+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-09T16:59:53.293216+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-08-09T16:59:53.293387+00:00]   top_story: 'No solar, wind, renewable energy project within 1 km of inte' (score=85.62)
+[2026-08-09T16:59:53.293448+00:00] resolver: 5 change(s), 5 meaningful, 2 publish-triggering
+[2026-08-09T16:59:53.293475+00:00]   Δ hormuz_status.status: 'OPEN' → 'CONTESTED' (triggers_publish=True)
+[2026-08-09T16:59:53.293503+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=True)
+[2026-08-09T16:59:53.293528+00:00]   Δ us_iran_ceasefire.next_catalyst_date: '2027-03-02' → '' (triggers_publish=False)
+[2026-08-09T16:59:53.293552+00:00]   Δ global_risk_level.status: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-08-09T16:59:53.293576+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-08-09T16:59:53.294261+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-09T16:59:53.294302+00:00] ════════════════════════════════════════════════════════════
