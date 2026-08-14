@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-14T19:41:17.845595+00:00",
-  "previous_generated_at": "2026-08-14T18:37:53.736905+00:00",
-  "resolver_run_count": 17,
+  "generated_at": "2026-08-14T22:03:22.391679+00:00",
+  "previous_generated_at": "2026-08-14T19:41:17.845595+00:00",
+  "resolver_run_count": 18,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,15 +12,15 @@
       "status_detail": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.956,
+      "confidence": 0.959,
       "last_confirmed": "2026-08-14T14:27:38+00:00",
       "source_count": 5,
       "summary_short": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
-      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran. Major oil slick washes up on Iran coast after Hormuz ship strike",
+      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran. Hormuz traffic slows further after US threatens more economic pressure on Iran",
       "evidence_cluster_ids": [
         "c_e35f80d20f0360",
-        "c_fae43f85d0251b",
-        "c_fc770db149eb70"
+        "c_ee4058f1c36f4f",
+        "c_fae43f85d0251b"
       ],
       "evidence_count": 3,
       "affected_pages": [
@@ -39,9 +39,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.71)",
-        "cluster c_fc770db149 → CONTESTED (kw='attack', weight=0.21)",
-        "winning=CONTESTED (0.92/0.92), conf=0.956"
+        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.57)",
+        "winning=CONTESTED (0.57/0.57), conf=0.959"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,18 +52,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-14T18:00:05+00:00",
-      "source_count": 7,
+      "last_confirmed": "2026-08-14T14:27:38+00:00",
+      "source_count": 5,
       "summary_short": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
-      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran. Live Updates: Latest from Israel, Iran, and the Middle East",
+      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran. Oil rises after US threatens indefinite blockade of Iran; set for weekly gains",
       "evidence_cluster_ids": [
         "c_e35f80d20f0360",
-        "c_26dc7b4d779e38",
-        "c_ef7c11a41abedc",
         "c_c78b2e66ca7512",
-        "c_799074a78a59a6"
+        "c_d402597c43e018"
       ],
-      "evidence_count": 5,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -149,14 +146,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_737d10cdb7011b",
-      "lead_title": "U.S. Crude Oil Stockpiles Post Unexpected Build",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTMtRTg5NHJOd0IzUnlTLTBYMzF4bEJYMjF3Z3RxeU10VDNZUVBnd29NVGJLLWV2ZlNJaGhNcG5CejZPQXV6X2g5ZFU4VzcyTmVvcmhtZ3JJY3BaOXN4U2Q1VDFrMmd2bUZwVTNSLUF2c3psWGRiUFpkY09WVVdOSDJERFZPS0hydXlRSVlnVHpCYldYd1JmSzhhRQ?oc=5",
-      "lead_source": "WSJ",
-      "topic": "oil",
-      "score": 88.06,
+      "cluster_id": "c_33f8f3721ed313",
+      "lead_title": "U.S. drilling rig count gains 5 in latest Baker Hughes weekly survey (USO:NYSEARCA)",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOVUzbHBjZGk0b2U1SFgwLXAzODFkQllKWlhzVktxQmVLbDZDbWxTaGkwM1BfYWIyYXBMenNRWlNFU3I3XzhzN20xcXM3TFhYRDJwR085TFZYNmNWRUhyNTdZel8tUlhxOUQycVBUMXZfSmV3WEhqUWRLcjFjQVNnQ3l0d2pJQWF6c1Q0MW04OGlRUHdFTVdDQ3I1cVVsOU1pXzNSZGdab0E?oc=5",
+      "lead_source": "Seeking Alpha",
+      "topic": "rigcount",
+      "score": 87.03,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,7 +165,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.956, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.959, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
