@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-14T16:38:03.988732+00:00",
-  "previous_generated_at": "2026-08-14T15:38:56.964653+00:00",
-  "resolver_run_count": 15,
+  "generated_at": "2026-08-14T18:37:53.736905+00:00",
+  "previous_generated_at": "2026-08-14T16:38:03.988732+00:00",
+  "resolver_run_count": 16,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.955,
-      "last_confirmed": "2026-08-14T09:01:06+00:00",
-      "source_count": 12,
-      "summary_short": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
-      "summary_long": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries. Major oil slick washes up on Iran coast after Hormuz ship strike",
+      "confidence": 0.96,
+      "last_confirmed": "2026-08-14T16:21:21+00:00",
+      "source_count": 8,
+      "summary_short": "Hormuz Attacks Push Oil Toward $100 Despite US Crude Build",
+      "summary_long": "Hormuz Attacks Push Oil Toward $100 Despite US Crude Build. Hormuz Crisis Pushes Asian Refiners Toward U.S. Oil",
       "evidence_cluster_ids": [
+        "c_9429024ad0ffe3",
         "c_0ae68bcb431343",
-        "c_f8681a203d87e2",
-        "c_8d5cd207eb9e5b",
-        "c_fae43f85d0251b",
-        "c_fc770db149eb70"
+        "c_9164d2e83ed309",
+        "c_83cc9e10c57a97",
+        "c_835d6800c70f4b"
       ],
-      "evidence_count": 9,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +41,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_0ae68bcb43 → CONTESTED (kw='attack', weight=0.70)",
-        "cluster c_fc770db149 → CONTESTED (kw='attack', weight=0.34)",
-        "cluster c_6f4ab03d7d → CONTESTED (kw='attack', weight=0.10)",
-        "cluster c_1d48e16562 → CONTESTED (kw='attack', weight=0.09)",
-        "winning=CONTESTED (1.23/1.23), conf=0.955"
+        "cluster c_0ae68bcb43 → CONTESTED (kw='attack', weight=0.42)",
+        "cluster c_9164d2e83e → CONTESTED (kw='attack', weight=0.71)",
+        "cluster c_fc770db149 → CONTESTED (kw='attack', weight=0.23)",
+        "winning=CONTESTED (1.36/1.36), conf=0.96"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,18 +56,17 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-14T13:50:49+00:00",
-      "source_count": 16,
-      "summary_short": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
-      "summary_long": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries. Oil set for weekly gains after US threatens indefinite blockade of Iran",
+      "last_confirmed": "2026-08-14T12:00:00+00:00",
+      "source_count": 5,
+      "summary_short": "Fallout Spreads Across the Middle East as the Iran War Grinds On",
+      "summary_long": "Fallout Spreads Across the Middle East as the Iran War Grinds On. Oil rises after US threatens indefinite blockade of Iran; set for weekly gains",
       "evidence_cluster_ids": [
+        "c_6f5b355676b73e",
+        "c_c78b2e66ca7512",
         "c_0ae68bcb431343",
-        "c_71a0d96036ad76",
-        "c_799074a78a59a6",
-        "c_26dc7b4d779e38",
-        "c_02103171c96288"
+        "c_799074a78a59a6"
       ],
-      "evidence_count": 11,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -94,19 +92,16 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-13T12:28:00+00:00",
-      "source_count": 2,
-      "summary_short": "ADNOC unbound: War, OPEC exit launch Emirates oil giant on quest for growth",
-      "summary_long": "ADNOC unbound: War, OPEC exit launch Emirates oil giant on quest for growth. ADNOC unbound: War, OPEC exit launch Emirates oil giant on quest for growth",
-      "evidence_cluster_ids": [
-        "c_cd8eda4d300410",
-        "c_199083e1413c11"
-      ],
-      "evidence_count": 2,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -119,7 +114,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -150,22 +145,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-08-14T16:38:03.988620+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_737d10cdb7011b",
-      "lead_title": "U.S. Crude Oil Stockpiles Post Unexpected Build",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTMtRTg5NHJOd0IzUnlTLTBYMzF4bEJYMjF3Z3RxeU10VDNZUVBnd29NVGJLLWV2ZlNJaGhNcG5CejZPQXV6X2g5ZFU4VzcyTmVvcmhtZ3JJY3BaOXN4U2Q1VDFrMmd2bUZwVTNSLUF2c3psWGRiUFpkY09WVVdOSDJERFZPS0hydXlRSVlnVHpCYldYd1JmSzhhRQ?oc=5",
-      "lead_source": "wsj.com",
+      "cluster_id": "c_9164d2e83ed309",
+      "lead_title": "Hormuz Attacks Push Oil Toward $100 Despite US Crude Build",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMHZJTlE2V21EekZuTWxKVE9TUWhOREcwbzFsN0h6OVo0VlhSR1dGUGQ2dWFTODZ1TGR1ekNFQ24yZ3JrYUtVOVNhNEdMMmZubmFfbVJKQ18wUE15MUlRcEZwS2pucUNHOWE5d2ktN0hTVWFkYnI0QWc0R3JSbTBUUVl2LU1VRzE4UVV2MjJ0cXVSVFZRRzdzb3piQldaWC1ZRWfSAacBQVVfeXFMTWxhQnVBbkdzQk0yNjY2bTZlVU51RV9uTTlkd1BiWmZkX2piZWJ5ekV3eWlYUjZORTN4VWw2SFIzTUg1UU5PZUMtQTc0eG1sb0FpdlB4MVJxbnZBSG1GbS15QUpibGw0N1VaQTBzOXR5b19pVmM1V2YtYTdBc2pGMWVfRUU2dXljYzh3WHRhZmtCWkI3aXdSNVlmT0dmcWxEQnVLS1pXX0E?oc=5",
+      "lead_source": "oilprice.com",
       "topic": "oil",
-      "score": 94.67,
+      "score": 74.23,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 1,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -175,37 +168,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CONTESTED",
-      "detected_at": "2026-08-14T16:38:03.988620+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-14T16:38:03.988620+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-14T16:38:03.988620+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.96, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
