@@ -1,11 +1,11 @@
 {
   "topic": "companies",
-  "generated_at": "2026-08-14T16:38:03.935385+00:00",
+  "generated_at": "2026-08-14T18:37:53.681272+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_d6dade3010acd1",
@@ -16,24 +16,24 @@
       "canonical_entities": [
         "Shell"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-08-14T11:30:13+00:00",
-      "latest_seen": "2026-08-14T16:30:00+00:00",
-      "age_hours": 0.13,
-      "score": 73.67,
+      "latest_seen": "2026-08-14T18:05:51+00:00",
+      "age_hours": 0.53,
+      "score": 73.88,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.92,
-        "source_quality_points": 24.75,
+        "source_count_points": 15,
+        "recency_points": 24.68,
+        "source_quality_points": 25.2,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e107c6366c7ca97e",
@@ -48,13 +48,195 @@
           "headline_id": "59dfb5abfd11276f",
           "title": "South Africa's Top Court Blocks Shell Wild Coast Exploration",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNenBZTmxDaGU0SFFFM3d3V0pJVlJXY0lpN3BOY3F4ZTYzV29JRTAzeGRsR3BuYWxTaWtEOUxMTXhQOHJibjAxak9RYm0tQnRQWlhiSUtvc3FuSHhJNndLTDRjYllOMnp6SnBjdk1ENEJBRktqWjRXRGdnQ0FLOV9TQTVSUkRLMmpnYTNoeEMwR3RaSHI5bnJtdTZ1cDlRV2NOMTRrQWxicmNOVFRfUXZsd1ZUeU1aUdIBuwFBVV95cUxQazU0MG9SODBVWmJBT1BZeGlOSlpFVmdwaWNKYkdNVFFFR1RNanRKeXhZOWhuZ1FQR2hhOU9hUVY3d1c2RjY0UEdQV19SclM2bXNySVZSandOc0xicVU4MnFPd3ZPalVZVWkxa29wbHBHVXZudTQwdzc0YlhxWTdQcVdPeDZoZHdVLUZKM01nSS1mSHhhTXNjODVPMFNBRmhaYnBmcHVKT1o3UnlWcG12c01YZGgzeE9WZ3RR?oc=5",
-          "source": "Crude Oil Prices Today | OilPrice.com",
+          "source": "oilprice.com",
           "source_type": "rss",
           "published_at": "2026-08-14T16:30:00+00:00",
+          "confidence": 0.87
+        },
+        {
+          "headline_id": "2b01c37c1a21a8fd",
+          "title": "South Africa top court sets aside Shell offshore exploration",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ0xXUFgyWHl1QjJBdC16Wk5qczRnbkdDSHlOcFEzY29fSTJvUWpXRkFEWkM1TzhPaDNfSTRmZlRKZEdEckpCRjg4d0o4aVZQRTRGcWdKR1VvOGtPV0dkSG5xSFAxbFQya19xY3VvdWdSYW9sNHAwR19fdjF3ZXJRSXpwcUJ6Z1hVdnc0M0F0aXg?oc=5",
+          "source": "Macau Business",
+          "source_type": "rss",
+          "published_at": "2026-08-14T18:05:51+00:00",
           "confidence": 0.65
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f3ddd7afadf92c",
+      "topic": "companies",
+      "lead_title": "Houthis Claim Drone Attack on Aramco Facility in Saudi Arabia",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVHJQS1VzTFdpbUc1dTI2dTJPUjFEZ1VSbHpBNlZxS08yUWgzR2NvWlNncFF5LWxvZWw0czVmRjh4XzNBamFEdm1DbDZBbXpDeHpaQllPTFFjRnhRRGNiYWhGRl9fQldSTU1VYnFBcEhtZDNqZFhSbVlvQ2NzSGRJQlF2YW1oZHQxbFlTS1U1TDN3M0NUbUZ6bktiTko5SjlxMnV1bXBJLU4?oc=5",
+      "lead_source": "Kurdistan24",
+      "canonical_entities": [
+        "Aramco"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-14T17:34:23+00:00",
+      "latest_seen": "2026-08-14T18:01:28+00:00",
+      "age_hours": 0.61,
+      "score": 68.14,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 24.64,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e7f1b8dfaab1c08e",
+          "title": "Houthis Claim Drone Attack on Aramco Facility in Saudi Arabia",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVHJQS1VzTFdpbUc1dTI2dTJPUjFEZ1VSbHpBNlZxS08yUWgzR2NvWlNncFF5LWxvZWw0czVmRjh4XzNBamFEdm1DbDZBbXpDeHpaQllPTFFjRnhRRGNiYWhGRl9fQldSTU1VYnFBcEhtZDNqZFhSbVlvQ2NzSGRJQlF2YW1oZHQxbFlTS1U1TDN3M0NUbUZ6bktiTko5SjlxMnV1bXBJLU4?oc=5",
+          "source": "Kurdistan24",
+          "source_type": "rss",
+          "published_at": "2026-08-14T18:01:28+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "6e69e48b662b4a58",
+          "title": "Houthis say they targeted Aramco in Saudi Arabia’s Najran with drone",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMmJEd2xzNTNob3hGNGY5aGsxTjFhTVhYV0l5alJ2ZG9Dc2kwVXNCcjZkUUFVRHEwamh0aXNLazc0Y3BGRlRzb1pjVENKQ0oyeHBlSDExUmQ0Q2p6WW1oclJ3NGR0Mk9rZU9SXzUydUY5elJZQTdUSXUxcU1CU0lnUmQydkNPVERTUjBiX0l1YXVNSDRlZFlqb2R4aDNoN045N2lnQk9CX0JRd0Y0a2NHMWtOZw?oc=5",
+          "source": "The Times of Israel",
+          "source_type": "rss",
+          "published_at": "2026-08-14T17:34:23+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_86a6999b769d02",
+      "topic": "companies",
+      "lead_title": "Omarchy 4.0 Linux Distro Released With Desktop Shell Now Implemented Via Quickshell",
+      "lead_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94SU1WMGoyaU4tb2I5VWpwbTNfMmpyVXotY1Q2YTFadG5ZbDBkOGxiQ0stenhvRE81QkFPREZkaHNDM2VGZC02b3V6SEJEbUVmdXJPMllQMzRmV3NsS1hN?oc=5",
+      "lead_source": "phoronix.com",
+      "canonical_entities": [
+        "Shell"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-14T18:10:00+00:00",
+      "latest_seen": "2026-08-14T18:10:00+00:00",
+      "age_hours": 0.46,
+      "score": 63.22,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.72,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "dfef6abe945287b0",
+          "title": "Omarchy 4.0 Linux Distro Released With Desktop Shell Now Implemented Via Quickshell",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94SU1WMGoyaU4tb2I5VWpwbTNfMmpyVXotY1Q2YTFadG5ZbDBkOGxiQ0stenhvRE81QkFPREZkaHNDM2VGZC02b3V6SEJEbUVmdXJPMllQMzRmV3NsS1hN?oc=5",
+          "source": "phoronix.com",
+          "source_type": "rss",
+          "published_at": "2026-08-14T18:10:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3f20f22f5fdbc9",
+      "topic": "companies",
+      "lead_title": "bp awarded Loran Phase 2 license offshore Venezuela",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSERxMGo5eG1GODJMRVAtbG1TQmxPTlFjZWZ2eC01ZUs3dW9BdHh2OWdSY0JmRVhrbjM1WEx3LWk3M1BXUWZ4eDhxOGgteTBLeFNWa0s2aXlNaEdfeUFLR2IxQlFBU2U2SzFDZm9SVWJHbDlnQXZDOE5zQ0lwdVdyZzNmb3dlVS1YVEZRelB5Vk82NnBaMmpWV0Q5dFJKT2V5Z2pqYQ?oc=5",
+      "lead_source": "Oil & Gas Journal",
+      "canonical_entities": [
+        "BP"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-14T17:26:15+00:00",
+      "latest_seen": "2026-08-14T17:26:15+00:00",
+      "age_hours": 1.19,
+      "score": 62.78,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.28,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "c6858d65706a4900",
+          "title": "bp awarded Loran Phase 2 license offshore Venezuela",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSERxMGo5eG1GODJMRVAtbG1TQmxPTlFjZWZ2eC01ZUs3dW9BdHh2OWdSY0JmRVhrbjM1WEx3LWk3M1BXUWZ4eDhxOGgteTBLeFNWa0s2aXlNaEdfeUFLR2IxQlFBU2U2SzFDZm9SVWJHbDlnQXZDOE5zQ0lwdVdyZzNmb3dlVS1YVEZRelB5Vk82NnBaMmpWV0Q5dFJKT2V5Z2pqYQ?oc=5",
+          "source": "Oil & Gas Journal",
+          "source_type": "rss",
+          "published_at": "2026-08-14T17:26:15+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_93b4d3aaf5a4c0",
+      "topic": "companies",
+      "lead_title": "ExxonMobil’s Trinidad and Tobago TTUD-1 seismic results expected by end-August",
+      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcjlvSXFhUGRCcnF6Vk41Qll6aEdoU1lvaUY5QkdhdG5ZYUhxdFhPNXZ6WnhMbGdTZlVOaWhVT1hFRGRTQW4yZTg3cnZ3SmtWVlF0MDVrTVdHd3hZWDd2RXpxclJtTTdwMjJxQzNoY1V2N21nQWxOdklXMnc1LWlhaGk4aTRHRjlzSV96U0Yydi1xNGVvTkhXUUNYRkVSOWFFUTN6Yk93aWhKTXdmWFk0clZydnlKWS1EUHVuSjV3?oc=5",
+      "lead_source": "Brazil Energy Insight",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-14T17:16:24+00:00",
+      "latest_seen": "2026-08-14T17:16:24+00:00",
+      "age_hours": 1.36,
+      "score": 62.69,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.19,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "907ad772c3a7e622",
+          "title": "ExxonMobil’s Trinidad and Tobago TTUD-1 seismic results expected by end-August",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcjlvSXFhUGRCcnF6Vk41Qll6aEdoU1lvaUY5QkdhdG5ZYUhxdFhPNXZ6WnhMbGdTZlVOaWhVT1hFRGRTQW4yZTg3cnZ3SmtWVlF0MDVrTVdHd3hZWDd2RXpxclJtTTdwMjJxQzNoY1V2N21nQWxOdklXMnc1LWlhaGk4aTRHRjlzSV96U0Yydi1xNGVvTkhXUUNYRkVSOWFFUTN6Yk93aWhKTXdmWFk0clZydnlKWS1EUHVuSjV3?oc=5",
+          "source": "Brazil Energy Insight",
+          "source_type": "rss",
+          "published_at": "2026-08-14T17:16:24+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -73,17 +255,17 @@
       ],
       "earliest_seen": "2026-08-14T11:44:46+00:00",
       "latest_seen": "2026-08-14T11:44:46+00:00",
-      "age_hours": 4.89,
-      "score": 71.07,
+      "age_hours": 6.89,
+      "score": 59.87,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.07,
+        "recency_points": 20.87,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "eba035948a15cb2e",
@@ -95,15 +277,15 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_96c22a97c203f8",
+      "cluster_id": "c_cb63b26bbcb90c",
       "topic": "companies",
-      "lead_title": "BP, XRG Partner on Venezuelan Offshore Gas Development as Oil Majors Tentatively Return",
-      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQlRjekdRRFFSNVhyUmR5NmtERDhnbVpKaWt3NFNONlBEc2FldnNvUGhWbTRuMFh4Z29vdFBhZE5yZWRHRjctcGRPS0xHRk9YZUlCV3E1QzNSaTkzYTY0SU96MGZLY3ozejBCcTBLOXRKcmtJRmlZQmFOTk1NYjFva0tGMlY1NHBkWGtnMk45UDBzLWZNUFI5UUgzMTFNaEcyR2FuTg?oc=5",
-      "lead_source": "wsj.com",
+      "lead_title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGx2TGNtcHNXc2dKS1hQV1FwTVM4MEdwTUVNYkJFQWJCbGxoR3hzdWJLZ2hNa1A0RlBsbXBhc1IyTlprOXJpRGJTd2ZQT0xHSUZMX3FsYWUyQkYwX2tiZXp2UFU4SkY4WjRRdmFva1A0QVM1NVBuaHhIcHhpeEVJMlZuY0VrSjhnR2dFdXdDSVo4WTRuR25V?oc=5",
+      "lead_source": "theguardian.com",
       "canonical_entities": [
         "BP"
       ],
@@ -112,31 +294,72 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-14T10:38:55+00:00",
-      "latest_seen": "2026-08-14T10:38:55+00:00",
-      "age_hours": 5.99,
-      "score": 69.51,
+      "earliest_seen": "2026-08-14T18:10:00+00:00",
+      "latest_seen": "2026-08-14T18:10:00+00:00",
+      "age_hours": 0.46,
+      "score": 59.22,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.41,
+        "recency_points": 24.72,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "35d68580e95556e7",
+          "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGx2TGNtcHNXc2dKS1hQV1FwTVM4MEdwTUVNYkJFQWJCbGxoR3hzdWJLZ2hNa1A0RlBsbXBhc1IyTlprOXJpRGJTd2ZQT0xHSUZMX3FsYWUyQkYwX2tiZXp2UFU4SkY4WjRRdmFva1A0QVM1NVBuaHhIcHhpeEVJMlZuY0VrSjhnR2dFdXdDSVo4WTRuR25V?oc=5",
+          "source": "theguardian.com",
+          "source_type": "rss",
+          "published_at": "2026-08-14T18:10:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_96c22a97c203f8",
+      "topic": "companies",
+      "lead_title": "BP, XRG Partner on Venezuelan Offshore Gas Development as Oil Majors Tentatively Return",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQlRjekdRRFFSNVhyUmR5NmtERDhnbVpKaWt3NFNONlBEc2FldnNvUGhWbTRuMFh4Z29vdFBhZE5yZWRHRjctcGRPS0xHRk9YZUlCV3E1QzNSaTkzYTY0SU96MGZLY3ozejBCcTBLOXRKcmtJRmlZQmFOTk1NYjFva0tGMlY1NHBkWGtnMk45UDBzLWZNUFI5UUgzMTFNaEcyR2FuTg?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "BP"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-14T10:12:00+00:00",
+      "latest_seen": "2026-08-14T10:12:00+00:00",
+      "age_hours": 8.43,
+      "score": 58.04,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 19.94,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "57290498863492d9",
           "title": "BP, XRG Partner on Venezuelan Offshore Gas Development as Oil Majors Tentatively Return",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQlRjekdRRFFSNVhyUmR5NmtERDhnbVpKaWt3NFNONlBEc2FldnNvUGhWbTRuMFh4Z29vdFBhZE5yZWRHRjctcGRPS0xHRk9YZUlCV3E1QzNSaTkzYTY0SU96MGZLY3ozejBCcTBLOXRKcmtJRmlZQmFOTk1NYjFva0tGMlY1NHBkWGtnMk45UDBzLWZNUFI5UUgzMTFNaEcyR2FuTg?oc=5",
-          "source": "wsj.com",
+          "source": "WSJ",
           "source_type": "rss",
-          "published_at": "2026-08-14T10:38:55+00:00",
+          "published_at": "2026-08-14T10:12:00+00:00",
           "confidence": 0.97
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -144,7 +367,7 @@
       "topic": "companies",
       "lead_title": "Kristen Schaal: The Legend of Crystal Shell review – flighty Conchords comic is still kooking on gas",
       "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU1BTUlVMWXN3eXNYejl3VTMyUC01TFE4aHdrSEw4eGdSWWxLRnVIMThiaFY1SFlYcGJqcGZnZVpRbXZPYkpyamg3aFdXaDJmY2pHdVdsNnVna0Jma0Rxc1FJZVNvNVN2Z3FVQVZ1NUlNRTNyR0VMTFY1bjZ6dS1la1ZKVlpkMHp2MHFaeFJhc1g?oc=5",
-      "lead_source": "The Guardian",
+      "lead_source": "theguardian.com",
       "canonical_entities": [
         "Shell"
       ],
@@ -155,23 +378,23 @@
       ],
       "earliest_seen": "2026-08-14T15:56:00+00:00",
       "latest_seen": "2026-08-14T15:56:00+00:00",
-      "age_hours": 0.7,
-      "score": 69.08,
+      "age_hours": 2.7,
+      "score": 57.88,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.58,
+        "recency_points": 23.38,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "625da55772905ceb",
           "title": "Kristen Schaal: The Legend of Crystal Shell review – flighty Conchords comic is still kooking on gas",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU1BTUlVMWXN3eXNYejl3VTMyUC01TFE4aHdrSEw4eGdSWWxLRnVIMThiaFY1SFlYcGJqcGZnZVpRbXZPYkpyamg3aFdXaDJmY2pHdVdsNnVna0Jma0Rxc1FJZVNvNVN2Z3FVQVZ1NUlNRTNyR0VMTFY1bjZ6dS1la1ZKVlpkMHp2MHFaeFJhc1g?oc=5",
-          "source": "The Guardian",
+          "source": "theguardian.com",
           "source_type": "rss",
           "published_at": "2026-08-14T15:56:00+00:00",
           "confidence": 0.85
@@ -197,17 +420,17 @@
       ],
       "earliest_seen": "2026-08-14T16:24:04+00:00",
       "latest_seen": "2026-08-14T16:24:04+00:00",
-      "age_hours": 0.23,
-      "score": 68.86,
+      "age_hours": 2.23,
+      "score": 57.66,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.86,
+        "recency_points": 23.66,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b1c98f9c7a858de4",
@@ -217,47 +440,6 @@
           "source_type": "rss",
           "published_at": "2026-08-14T16:24:04+00:00",
           "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_cb63b26bbcb90c",
-      "topic": "companies",
-      "lead_title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGx2TGNtcHNXc2dKS1hQV1FwTVM4MEdwTUVNYkJFQWJCbGxoR3hzdWJLZ2hNa1A0RlBsbXBhc1IyTlprOXJpRGJTd2ZQT0xHSUZMX3FsYWUyQkYwX2tiZXp2UFU4SkY4WjRRdmFva1A0QVM1NVBuaHhIcHhpeEVJMlZuY0VrSjhnR2dFdXdDSVo4WTRuR25V?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "BP"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T14:10:00+00:00",
-      "latest_seen": "2026-08-14T14:10:00+00:00",
-      "age_hours": 2.47,
-      "score": 68.02,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.52,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "35d68580e95556e7",
-          "title": "BP to develop offshore gasfield in Venezuela with firms linked to Trump administration",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUGx2TGNtcHNXc2dKS1hQV1FwTVM4MEdwTUVNYkJFQWJCbGxoR3hzdWJLZ2hNa1A0RlBsbXBhc1IyTlprOXJpRGJTd2ZQT0xHSUZMX3FsYWUyQkYwX2tiZXp2UFU4SkY4WjRRdmFva1A0QVM1NVBuaHhIcHhpeEVJMlZuY0VrSjhnR2dFdXdDSVo4WTRuR25V?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-08-14T14:10:00+00:00",
-          "confidence": 0.85
         }
       ],
       "top_tier": false,
@@ -279,17 +461,17 @@
       ],
       "earliest_seen": "2026-08-14T11:03:00+00:00",
       "latest_seen": "2026-08-14T11:03:00+00:00",
-      "age_hours": 5.58,
-      "score": 66.75,
+      "age_hours": 7.58,
+      "score": 55.55,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.65,
+        "recency_points": 20.45,
         "source_quality_points": 26.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "179452be69d75790",
@@ -318,17 +500,17 @@
       ],
       "earliest_seen": "2026-08-14T12:00:00+00:00",
       "latest_seen": "2026-08-14T12:00:00+00:00",
-      "age_hours": 4.63,
-      "score": 65.72,
+      "age_hours": 6.63,
+      "score": 54.52,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.22,
+        "recency_points": 21.02,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "2d9b37817baca613",
@@ -338,47 +520,6 @@
           "source_type": "rss",
           "published_at": "2026-08-14T12:00:00+00:00",
           "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5b2d3335837f31",
-      "topic": "companies",
-      "lead_title": "1 person transported to the hospital from ExxonMobil Baton Rouge on Friday",
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkx2VWFpTGp2UWtnNV96S2RJRVFINEZlWnZ0enBhbllFTkV4SnJiY0c3SEZ4d25ESDFLV2h2YnI0UzBHNDBYRnBSYXBsTUFhaU9COUtGc1BIak8zaWw3dEhLR29FcUF6YnpORVBTVEh5QmQ4ZFpJVDI2MWtBQzlDTEhYbW9mUmQzV1l5eGlVY3RpR0p5X3FHNm9VLUhZb1dzNThV?oc=5",
-      "lead_source": "WBRZ",
-      "canonical_entities": [
-        "Exxon"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T16:31:18+00:00",
-      "latest_seen": "2026-08-14T16:31:18+00:00",
-      "age_hours": 0.11,
-      "score": 63.43,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.93,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "11a7eca3fe9fb4db",
-          "title": "1 person transported to the hospital from ExxonMobil Baton Rouge on Friday",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSkx2VWFpTGp2UWtnNV96S2RJRVFINEZlWnZ0enBhbllFTkV4SnJiY0c3SEZ4d25ESDFLV2h2YnI0UzBHNDBYRnBSYXBsTUFhaU9COUtGc1BIak8zaWw3dEhLR29FcUF6YnpORVBTVEh5QmQ4ZFpJVDI2MWtBQzlDTEhYbW9mUmQzV1l5eGlVY3RpR0p5X3FHNm9VLUhZb1dzNThV?oc=5",
-          "source": "WBRZ",
-          "source_type": "rss",
-          "published_at": "2026-08-14T16:31:18+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -398,19 +539,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-14T00:16:36+00:00",
-      "latest_seen": "2026-08-14T00:16:36+00:00",
-      "age_hours": 16.36,
-      "score": 63.29,
+      "earliest_seen": "2026-08-14T00:17:48+00:00",
+      "latest_seen": "2026-08-14T00:17:48+00:00",
+      "age_hours": 18.33,
+      "score": 47.1,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.19,
+        "recency_points": 14.0,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "356122554887c539",
@@ -418,131 +559,8 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOYkZqdlRVWFBBY1Z0ZEFkdS0tS0J0cUY5dHpoaWdLS2JZZE13OHVIWnN4a2V4N2lLcC1hRTRSYkdiX21sZ1JLZklWd3Y4MjA5VWs4eFRfUVBhUlJqbHRBRnhBTDlmank4bjE2RnhjRGhLWWhzLTlIM3FiMVhUeVVJRFFFSVU?oc=5",
           "source": "Financial Times",
           "source_type": "rss",
-          "published_at": "2026-08-14T00:16:36+00:00",
+          "published_at": "2026-08-14T00:17:48+00:00",
           "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_67db1ecde2df2b",
-      "topic": "companies",
-      "lead_title": "Shell Stock And 2 Oil Majors With Fresh Venezuela Gas Exposure",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWDhYdmgwcW55cnlHWldNMGdBel9yNUJPbm1nVGZPRXJVRGdqaFRtbWpFdUZ1aHpXNXE2Nm5pbGZCQzRyQ3dTRmhUVkR4cktzYWxxSURteXoyQm0tMk8xOFJOdlVIaFJSX0xVUEJCZy1XT0NjZVoxeHNuNHZ1LVhlMlNweEIzVlBTcUlaMEZ2aVFMTXFTYkNOWUxYTzI1NGE4dXVWZXNWdjNqaUwzVXRod0FJaE5CYV9veGJGTkZnR0hpNlXSAcgBQVVfeXFMT1NGdF9Xc2dzVUFsTEJrMzJreVIxR1JKMXhBRVFuNXdGRi0wZDhMZ2ZwZHV0TVAyRmZyaWV4ekFPTEVpd3BlOVZFZzNPUlhpUzg2LWZONnZ2ckNMUEVuMUNOZjdEX0Z6eVVuVlBrLWZDQm5iZ1NqdlBVR19iQXdCZWZVY3hTTUlIdGZMekltU0hFN3RwM3ZtbTA1SjFqNnRqU1ZPNzZzRGY4RFJoS045UWZaTUVPX01MajZXei1NZzN0LW9EeGg0MUM?oc=5",
-      "lead_source": "simplywall.st",
-      "canonical_entities": [
-        "Shell"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T15:46:13+00:00",
-      "latest_seen": "2026-08-14T15:46:13+00:00",
-      "age_hours": 0.86,
-      "score": 62.98,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.48,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "bcc8223a521e8e83",
-          "title": "Shell Stock And 2 Oil Majors With Fresh Venezuela Gas Exposure",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWDhYdmgwcW55cnlHWldNMGdBel9yNUJPbm1nVGZPRXJVRGdqaFRtbWpFdUZ1aHpXNXE2Nm5pbGZCQzRyQ3dTRmhUVkR4cktzYWxxSURteXoyQm0tMk8xOFJOdlVIaFJSX0xVUEJCZy1XT0NjZVoxeHNuNHZ1LVhlMlNweEIzVlBTcUlaMEZ2aVFMTXFTYkNOWUxYTzI1NGE4dXVWZXNWdjNqaUwzVXRod0FJaE5CYV9veGJGTkZnR0hpNlXSAcgBQVVfeXFMT1NGdF9Xc2dzVUFsTEJrMzJreVIxR1JKMXhBRVFuNXdGRi0wZDhMZ2ZwZHV0TVAyRmZyaWV4ekFPTEVpd3BlOVZFZzNPUlhpUzg2LWZONnZ2ckNMUEVuMUNOZjdEX0Z6eVVuVlBrLWZDQm5iZ1NqdlBVR19iQXdCZWZVY3hTTUlIdGZMekltU0hFN3RwM3ZtbTA1SjFqNnRqU1ZPNzZzRGY4RFJoS045UWZaTUVPX01MajZXei1NZzN0LW9EeGg0MUM?oc=5",
-          "source": "simplywall.st",
-          "source_type": "rss",
-          "published_at": "2026-08-14T15:46:13+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_dc7963d8ac1944",
-      "topic": "companies",
-      "lead_title": "Contractor injured at ExxonMobil Baton Rouge complex, officials say",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVUNfTHUyUmlZNGt1OGFEQ1JhcWFfOWVmNEJMdlBWZnU5LXpncXBQS1JQbTJsTkItZTc5Mzd2NkMxRlNsa1drMGIzYWQ3SEVXY2c2YVJCRGt6QWR5T1J2QVRvOEZCaXdhaDhSRWlwRDdXcHFUTlYtOFZCVWdPNVZxakxaUGU3SkFranlUQ3JIaklnODAxOXVQZExLcw?oc=5",
-      "lead_source": "Yahoo",
-      "canonical_entities": [
-        "Exxon"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T15:34:40+00:00",
-      "latest_seen": "2026-08-14T15:34:40+00:00",
-      "age_hours": 1.06,
-      "score": 62.87,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.37,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "97bdcc1bac4df363",
-          "title": "Contractor injured at ExxonMobil Baton Rouge complex, officials say",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVUNfTHUyUmlZNGt1OGFEQ1JhcWFfOWVmNEJMdlBWZnU5LXpncXBQS1JQbTJsTkItZTc5Mzd2NkMxRlNsa1drMGIzYWQ3SEVXY2c2YVJCRGt6QWR5T1J2QVRvOEZCaXdhaDhSRWlwRDdXcHFUTlYtOFZCVWdPNVZxakxaUGU3SkFranlUQ3JIaklnODAxOXVQZExLcw?oc=5",
-          "source": "Yahoo",
-          "source_type": "rss",
-          "published_at": "2026-08-14T15:34:40+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_cf51b295764c04",
-      "topic": "companies",
-      "lead_title": "Orlando Magic (SHELL) @ Dallas Mavericks (TD24) Odds",
-      "lead_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZlgxT1pQVjNicTZlSmRHUUlUbU0wY2YtWWo4bWo0S3Rjb1Y4SS1vWnlGdkRUT0NTZGtUd25LTVVhSzFWTU53bGtBOWlOM1dyMTJFWi1wazZTTUFsak1ZcXVIRE5GWUxQN3o5MmxzaVZrd1hYT2hleDdGU2xOc3QxbnRCZTljYXE0TmlvSnFZVW1PcXZjU2NlU092UTFwM2Z4a2NIQUVmdXJwSTNzNWl6bXVXOHBfbGI2NWxzNUNlQlJON2FEZlFmNWlQNWxtUQ?oc=5",
-      "lead_source": "sportsbook.fanduel.com",
-      "canonical_entities": [
-        "Shell"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T15:18:35+00:00",
-      "latest_seen": "2026-08-14T15:18:35+00:00",
-      "age_hours": 1.32,
-      "score": 62.71,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.21,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "70694fa67e0b69a0",
-          "title": "Orlando Magic (SHELL) @ Dallas Mavericks (TD24) Odds",
-          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNZlgxT1pQVjNicTZlSmRHUUlUbU0wY2YtWWo4bWo0S3Rjb1Y4SS1vWnlGdkRUT0NTZGtUd25LTVVhSzFWTU53bGtBOWlOM1dyMTJFWi1wazZTTUFsak1ZcXVIRE5GWUxQN3o5MmxzaVZrd1hYT2hleDdGU2xOc3QxbnRCZTljYXE0TmlvSnFZVW1PcXZjU2NlU092UTFwM2Z4a2NIQUVmdXJwSTNzNWl6bXVXOHBfbGI2NWxzNUNlQlJON2FEZlFmNWlQNWxtUQ?oc=5",
-          "source": "sportsbook.fanduel.com",
-          "source_type": "rss",
-          "published_at": "2026-08-14T15:18:35+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -564,17 +582,17 @@
       ],
       "earliest_seen": "2026-08-13T21:27:14+00:00",
       "latest_seen": "2026-08-13T21:27:14+00:00",
-      "age_hours": 19.18,
-      "score": 62.49,
+      "age_hours": 21.18,
+      "score": 46.29,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.49,
+        "recency_points": 12.29,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e88f16f3bedf7732",
@@ -584,47 +602,6 @@
           "source_type": "rss",
           "published_at": "2026-08-13T21:27:14+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_739b8d5d5451dd",
-      "topic": "companies",
-      "lead_title": "Police find man dead, several shell casings after shooting in Compton",
-      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLWFMLXZ1dHJJUWFKZ0NLc19QcncxN1R2UWV5QzdMSkNjU3ZuQmlkWmJwN05kRFp4MVZOTkJSaTJ6LTBnaDRJWXRWT05GelFZTjRrN3QxUGh5VnQ3S1BrTFB5M2w0LVZGbXB5dWFUSnFZMXJqN2VaNU1tSTZkVWhoLTMzLTRwN2ltMGc?oc=5",
-      "lead_source": "CBS News",
-      "canonical_entities": [
-        "Shell"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T14:37:18+00:00",
-      "latest_seen": "2026-08-14T14:37:18+00:00",
-      "age_hours": 2.01,
-      "score": 62.29,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.79,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "2865819d895ba9d0",
-          "title": "Police find man dead, several shell casings after shooting in Compton",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPLWFMLXZ1dHJJUWFKZ0NLc19QcncxN1R2UWV5QzdMSkNjU3ZuQmlkWmJwN05kRFp4MVZOTkJSaTJ6LTBnaDRJWXRWT05GelFZTjRrN3QxUGh5VnQ3S1BrTFB5M2w0LVZGbXB5dWFUSnFZMXJqN2VaNU1tSTZkVWhoLTMzLTRwN2ltMGc?oc=5",
-          "source": "CBS News",
-          "source_type": "rss",
-          "published_at": "2026-08-14T14:37:18+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -646,17 +623,17 @@
       ],
       "earliest_seen": "2026-08-13T20:26:54+00:00",
       "latest_seen": "2026-08-13T20:26:54+00:00",
-      "age_hours": 20.19,
-      "score": 61.89,
+      "age_hours": 22.18,
+      "score": 45.69,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.89,
+        "recency_points": 11.69,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "8991fa3c5f7f259d",
@@ -666,6 +643,48 @@
           "source_type": "rss",
           "published_at": "2026-08-13T20:26:54+00:00",
           "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e95a147c1a5bb6",
+      "topic": "companies",
+      "lead_title": "‘Making too much money’: Trump blasts Exxon Mobil, Chevron profits",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa1pqS1dUeTZpSG5EblpkS2cwRHZqWFZwMjUxSUJ2VVlsM3NaTGliYXlCaEJ2SHAxNW1IbXMxTm5oNGxUWlZQcEUtZVhZd3VwRlotdmg4cXVLNFdFLTkwYy1wUDdWVkxMeTVVSUFDYjJnQWNEVjZad3JiWU4zc0trX1VTUzN3RTdBdi1MRmFVUWFHNllnVEQ1RV9B?oc=5",
+      "lead_source": "Politico",
+      "canonical_entities": [
+        "Chevron",
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-03T07:00:00+00:00",
+      "latest_seen": "2026-08-03T07:00:00+00:00",
+      "age_hours": 275.63,
+      "score": 44.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "7dac49bcaa4edbd1",
+          "title": "‘Making too much money’: Trump blasts Exxon Mobil, Chevron profits",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa1pqS1dUeTZpSG5EblpkS2cwRHZqWFZwMjUxSUJ2VVlsM3NaTGliYXlCaEJ2SHAxNW1IbXMxTm5oNGxUWlZQcEUtZVhZd3VwRlotdmg4cXVLNFdFLTkwYy1wUDdWVkxMeTVVSUFDYjJnQWNEVjZad3JiWU4zc0trX1VTUzN3RTdBdi1MRmFVUWFHNllnVEQ1RV9B?oc=5",
+          "source": "Politico",
+          "source_type": "rss",
+          "published_at": "2026-08-03T07:00:00+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -687,17 +706,17 @@
       ],
       "earliest_seen": "2026-08-13T17:32:11+00:00",
       "latest_seen": "2026-08-13T17:32:11+00:00",
-      "age_hours": 23.1,
-      "score": 60.14,
+      "age_hours": 25.1,
+      "score": 43.94,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.14,
+        "recency_points": 9.94,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "ba07fd4fe3feaf17",
@@ -728,17 +747,17 @@
       ],
       "earliest_seen": "2026-08-13T16:06:00+00:00",
       "latest_seen": "2026-08-13T16:06:00+00:00",
-      "age_hours": 24.53,
-      "score": 59.28,
+      "age_hours": 26.53,
+      "score": 43.08,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.28,
+        "recency_points": 9.08,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b049093e254c95a4",
@@ -769,17 +788,17 @@
       ],
       "earliest_seen": "2026-08-13T15:28:37+00:00",
       "latest_seen": "2026-08-13T15:28:37+00:00",
-      "age_hours": 25.16,
-      "score": 58.91,
+      "age_hours": 27.15,
+      "score": 42.71,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.91,
+        "recency_points": 8.71,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "687b8ba4a88ad4a3",
@@ -810,17 +829,17 @@
       ],
       "earliest_seen": "2026-08-13T11:45:44+00:00",
       "latest_seen": "2026-08-13T11:45:44+00:00",
-      "age_hours": 28.87,
-      "score": 56.68,
+      "age_hours": 30.87,
+      "score": 40.48,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.68,
+        "recency_points": 6.48,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "5b6fa7a7b0c9afae",
@@ -830,57 +849,6 @@
           "source_type": "rss",
           "published_at": "2026-08-13T11:45:44+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c4fa79f57b2f8a",
-      "topic": "companies",
-      "lead_title": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
-      "lead_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObk5LNVZzcGxBT29HZWR0Z2laYVRPNGtNLUhzcTVodmxTdkt2dDR3QnVTRHlnaC03a1dnd0oyYldtOWx6SWxmTXl4VnVmZUY3aTduN2xsdVJVWnVvbjdram1sSzRPMXExWjM1amFqWVNLbGZxMmxtQXVLVEtod1ZTcVdYMEJDUVRLd1JNXzh6T3Q1QmNhd1BTcnZMczlLZU9sSGFMUnZTZE13eHh0R2Zud0lFM0lhWHEwOXhrM0N0emo1emVZazhOUzJyblN5VlQ3NTlTazA2Z3nSAd4BQVVfeXFMT3V4OWU0RTlMeExsOHFzU0ZPX3J2ZHpKVEdJNlpYRGJmdWpXbFN1Nm8zZmptTWdpWkZ5ejdfUGV0TWRHWjhzel9yLVFWWjJmV3RPLVVxTjZmWmZzYWxKVndYZVI3OTQwV1NKMDNVdVBzQlVNbFVGZ2s1QVBLZ2NUZHJuaEZEcjJOZzNrWlFLVUNKTkhobFROa2VXejVSRVM5cklXOHhvd0VUeHlKRml1TDdNNThsZjN2NmhJODZOUVZXb3ljbVlST0MycE5oa3JoVjFWeVhKajk1OTFYR0ln?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "Chevron",
-        "Exxon"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-03T07:00:00+00:00",
-      "latest_seen": "2026-08-03T07:00:00+00:00",
-      "age_hours": 273.63,
-      "score": 53.2,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 25.2,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "1df61093c4136919",
-          "title": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it'",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObk5LNVZzcGxBT29HZWR0Z2laYVRPNGtNLUhzcTVodmxTdkt2dDR3QnVTRHlnaC03a1dnd0oyYldtOWx6SWxmTXl4VnVmZUY3aTduN2xsdVJVWnVvbjdram1sSzRPMXExWjM1amFqWVNLbGZxMmxtQXVLVEtod1ZTcVdYMEJDUVRLd1JNXzh6T3Q1QmNhd1BTcnZMczlLZU9sSGFMUnZTZE13eHh0R2Zud0lFM0lhWHEwOXhrM0N0emo1emVZazhOUzJyblN5VlQ3NTlTazA2Z3nSAd4BQVVfeXFMT3V4OWU0RTlMeExsOHFzU0ZPX3J2ZHpKVEdJNlpYRGJmdWpXbFN1Nm8zZmptTWdpWkZ5ejdfUGV0TWRHWjhzel9yLVFWWjJmV3RPLVVxTjZmWmZzYWxKVndYZVI3OTQwV1NKMDNVdVBzQlVNbFVGZ2s1QVBLZ2NUZHJuaEZEcjJOZzNrWlFLVUNKTkhobFROa2VXejVSRVM5cklXOHhvd0VUeHlKRml1TDdNNThsZjN2NmhJODZOUVZXb3ljbVlST0MycE5oa3JoVjFWeVhKajk1OTFYR0ln?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-08-03T07:00:00+00:00",
-          "confidence": 0.98
-        },
-        {
-          "headline_id": "7dac49bcaa4edbd1",
-          "title": "‘Making too much money’: Trump blasts Exxon Mobil, Chevron profits",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOa1pqS1dUeTZpSG5EblpkS2cwRHZqWFZwMjUxSUJ2VVlsM3NaTGliYXlCaEJ2SHAxNW1IbXMxTm5oNGxUWlZQcEUtZVhZd3VwRlotdmg4cXVLNFdFLTkwYy1wUDdWVkxMeTVVSUFDYjJnQWNEVjZad3JiWU4zc0trX1VTUzN3RTdBdi1MRmFVUWFHNllnVEQ1RV9B?oc=5",
-          "source": "Politico",
-          "source_type": "rss",
-          "published_at": "2026-08-03T07:00:00+00:00",
-          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -902,17 +870,17 @@
       ],
       "earliest_seen": "2026-08-12T19:10:25+00:00",
       "latest_seen": "2026-08-12T19:10:25+00:00",
-      "age_hours": 45.46,
-      "score": 49.0,
+      "age_hours": 47.46,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e1e76e840a300c83",
@@ -943,17 +911,17 @@
       ],
       "earliest_seen": "2026-08-10T22:49:31+00:00",
       "latest_seen": "2026-08-10T22:49:31+00:00",
-      "age_hours": 89.81,
-      "score": 49.0,
+      "age_hours": 91.81,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "3cf7aa873fee08a1",
@@ -963,57 +931,6 @@
           "source_type": "rss",
           "published_at": "2026-08-10T22:49:31+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_4be2129e59ab52",
-      "topic": "companies",
-      "lead_title": "ExxonMobil Holdings Corporation (XOM) vs. Chevron Corporation (CVX): Trump Attacks the Oil Giants for Making “Too Much Money”",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ2E4YjM3WU9aOE02bVBIUW0zOUZQSFoxVGpteVBGT05UUGxJX3NpdEcyLVdqTHZxUGRTaHc5NXBnUWJyQk5rWUNVUVFpRTdMeThvU2VhQ09JWWZGQTZvNUJ1MWo5ZDcxT3l5WkJxWWRwbWdSNmltQUQyUTJsR3BJdk4tdm5hVFF6RVEzbHh2UUNJcFY4X0ViUXpsUQ?oc=5",
-      "lead_source": "Yahoo Finance",
-      "canonical_entities": [
-        "Chevron",
-        "Exxon"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-11T16:20:00+00:00",
-      "latest_seen": "2026-08-11T20:12:58+00:00",
-      "age_hours": 68.42,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "0380de731aa39308",
-          "title": "ExxonMobil Holdings Corporation (XOM) vs. Chevron Corporation (CVX): Trump Attacks the Oil Giants for Making “Too Much Money”",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ2E4YjM3WU9aOE02bVBIUW0zOUZQSFoxVGpteVBGT05UUGxJX3NpdEcyLVdqTHZxUGRTaHc5NXBnUWJyQk5rWUNVUVFpRTdMeThvU2VhQ09JWWZGQTZvNUJ1MWo5ZDcxT3l5WkJxWWRwbWdSNmltQUQyUTJsR3BJdk4tdm5hVFF6RVEzbHh2UUNJcFY4X0ViUXpsUQ?oc=5",
-          "source": "Yahoo Finance",
-          "source_type": "rss",
-          "published_at": "2026-08-11T20:12:58+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "c6b4369b16385056",
-          "title": "Better Buy for Passive Income: Chevron vs. ExxonMobil",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVZiVUhsRXJuckNYaVhVQ3ppXzYwSHAxNTVZUmJ4RW1wRkxGSUx5RWZESE9OeVlvdHFVaHRyajBXVjVUdzRIRXlrbjhsaWRYR1dtY0lRWlZySzNGZlNmQ0dzRWdUNExGN3VZeGxWT1Q5cW12STloeTJ0WGhjeXBFYzctczlwZ25XOE5JM0V4bDUzZ0QyTmRDc19Gai1ZZG8?oc=5",
-          "source": "Yahoo Finance",
-          "source_type": "rss",
-          "published_at": "2026-08-11T16:20:00+00:00",
-          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -1035,7 +952,7 @@
       ],
       "earliest_seen": "2026-08-04T07:00:00+00:00",
       "latest_seen": "2026-08-04T07:00:00+00:00",
-      "age_hours": 249.63,
+      "age_hours": 251.63,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1076,7 +993,7 @@
       ],
       "earliest_seen": "2026-08-04T07:00:00+00:00",
       "latest_seen": "2026-08-04T07:00:00+00:00",
-      "age_hours": 249.63,
+      "age_hours": 251.63,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1102,6 +1019,57 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_4be2129e59ab52",
+      "topic": "companies",
+      "lead_title": "ExxonMobil Holdings Corporation (XOM) vs. Chevron Corporation (CVX): Trump Attacks the Oil Giants for Making “Too Much Money”",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ2E4YjM3WU9aOE02bVBIUW0zOUZQSFoxVGpteVBGT05UUGxJX3NpdEcyLVdqTHZxUGRTaHc5NXBnUWJyQk5rWUNVUVFpRTdMeThvU2VhQ09JWWZGQTZvNUJ1MWo5ZDcxT3l5WkJxWWRwbWdSNmltQUQyUTJsR3BJdk4tdm5hVFF6RVEzbHh2UUNJcFY4X0ViUXpsUQ?oc=5",
+      "lead_source": "Yahoo Finance",
+      "canonical_entities": [
+        "Chevron",
+        "Exxon"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-11T16:20:00+00:00",
+      "latest_seen": "2026-08-11T20:12:58+00:00",
+      "age_hours": 70.42,
+      "score": 29.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "0380de731aa39308",
+          "title": "ExxonMobil Holdings Corporation (XOM) vs. Chevron Corporation (CVX): Trump Attacks the Oil Giants for Making “Too Much Money”",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ2E4YjM3WU9aOE02bVBIUW0zOUZQSFoxVGpteVBGT05UUGxJX3NpdEcyLVdqTHZxUGRTaHc5NXBnUWJyQk5rWUNVUVFpRTdMeThvU2VhQ09JWWZGQTZvNUJ1MWo5ZDcxT3l5WkJxWWRwbWdSNmltQUQyUTJsR3BJdk4tdm5hVFF6RVEzbHh2UUNJcFY4X0ViUXpsUQ?oc=5",
+          "source": "Yahoo Finance",
+          "source_type": "rss",
+          "published_at": "2026-08-11T20:12:58+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "c6b4369b16385056",
+          "title": "Better Buy for Passive Income: Chevron vs. ExxonMobil",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOVZiVUhsRXJuckNYaVhVQ3ppXzYwSHAxNTVZUmJ4RW1wRkxGSUx5RWZESE9OeVlvdHFVaHRyajBXVjVUdzRIRXlrbjhsaWRYR1dtY0lRWlZySzNGZlNmQ0dzRWdUNExGN3VZeGxWT1Q5cW12STloeTJ0WGhjeXBFYzctczlwZ25XOE5JM0V4bDUzZ0QyTmRDc19Gai1ZZG8?oc=5",
+          "source": "Yahoo Finance",
+          "source_type": "rss",
+          "published_at": "2026-08-11T16:20:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_e1e2706090c28e",
       "topic": "companies",
       "lead_title": "Yemen's Houthis attack Saudi refinery after kingdom signs defence pact",
@@ -1115,7 +1083,7 @@
       ],
       "earliest_seen": "2026-08-09T01:53:13+00:00",
       "latest_seen": "2026-08-09T01:53:13+00:00",
-      "age_hours": 134.75,
+      "age_hours": 136.74,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
