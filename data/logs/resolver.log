@@ -169,3 +169,16 @@
 [2026-08-09T16:59:53.293576+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
 [2026-08-09T16:59:53.294261+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-09T16:59:53.294302+00:00] ════════════════════════════════════════════════════════════
+[2026-08-14T15:38:56.958722+00:00] resolver: start
+[2026-08-14T15:38:56.962797+00:00] resolver: scanning 251 clusters across 10 topics
+[2026-08-14T15:38:56.963163+00:00]   hormuz_status: RETIRED (stale beyond 2× threshold)
+[2026-08-14T15:38:56.964172+00:00]   us_iran_ceasefire: HOLDING (conf=0.3, freshness=stale, clusters=7)
+[2026-08-14T15:38:56.964299+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-14T15:38:56.964345+00:00]   global_risk_level: LOW (score=10)
+[2026-08-14T15:38:56.964476+00:00]   top_story: 'Trump blasts Exxon, Chevron for making 'too much money,' dem' (score=47.77)
+[2026-08-14T15:38:56.964538+00:00] resolver: 3 change(s), 3 meaningful, 1 publish-triggering
+[2026-08-14T15:38:56.964570+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-14T15:38:56.964599+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-14T15:38:56.964628+00:00]   Δ hormuz_status.retired: 'CONTESTED' → 'None' (triggers_publish=True)
+[2026-08-14T15:38:56.965213+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-08-14T15:38:56.965258+00:00] ════════════════════════════════════════════════════════════
