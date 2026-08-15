@@ -1,11 +1,11 @@
 {
   "topic": "oil",
-  "generated_at": "2026-08-15T05:07:07.663059+00:00",
+  "generated_at": "2026-08-15T06:05:37.924594+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 24,
+  "clusters_found": 25,
   "clusters": [
     {
       "cluster_id": "c_737d10cdb7011b",
@@ -19,23 +19,23 @@
         "crude",
         "oil"
       ],
-      "source_count": 4,
-      "distinct_publishers": 3,
+      "source_count": 5,
+      "distinct_publishers": 4,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-08-12T15:07:00+00:00",
-      "latest_seen": "2026-08-14T20:49:08+00:00",
-      "age_hours": 8.3,
-      "score": 76.15,
+      "latest_seen": "2026-08-15T05:45:32+00:00",
+      "age_hours": 0.33,
+      "score": 90.4,
       "score_components": {
-        "source_count_points": 15,
-        "recency_points": 20.02,
-        "source_quality_points": 25.12,
+        "source_count_points": 20,
+        "recency_points": 24.8,
+        "source_quality_points": 24.6,
         "entity_relevance_points": 16,
-        "materiality_points": 0.0
+        "materiality_points": 5.0
       },
-      "novelty": "ongoing",
+      "novelty": "growing",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -64,6 +64,15 @@
           "source_type": "rss",
           "published_at": "2026-08-13T03:42:00+00:00",
           "confidence": 0.8
+        },
+        {
+          "headline_id": "592851ab4c24f80e",
+          "title": "Brent crude oil price rises",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBSUlGSlJ0eWdpaE5kUWYyQ2REM0dHZGhQY3VhaDNISHVLSEJfWUxfbGNNOW9BSFZrczU0cmJ5akIyWTM0SE9aR2o1TFRDdE9tTUNTMkV2bkVSdXlpVFRwOWRZcUlZLW1UYVFJ?oc=5",
+          "source": "Apa.az",
+          "source_type": "rss",
+          "published_at": "2026-08-15T05:45:32+00:00",
+          "confidence": 0.75
         },
         {
           "headline_id": "bda27f50ac7406b3",
@@ -98,11 +107,11 @@
       ],
       "earliest_seen": "2026-08-14T10:13:33+00:00",
       "latest_seen": "2026-08-14T18:40:28+00:00",
-      "age_hours": 10.44,
-      "score": 71.98,
+      "age_hours": 11.42,
+      "score": 71.4,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 18.73,
+        "recency_points": 18.15,
         "source_quality_points": 23.25,
         "entity_relevance_points": 20,
         "materiality_points": 0.0
@@ -133,47 +142,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_24de9576d453bc",
-      "topic": "oil",
-      "lead_title": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T17:26:57+00:00",
-      "latest_seen": "2026-08-14T17:26:57+00:00",
-      "age_hours": 11.67,
-      "score": 57.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "d8b1873f0d2d6626",
-          "title": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-14T17:26:57+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_2b93ededb9d193",
       "topic": "oil",
       "lead_title": "UAE's ADNOC says one of its vessels came under attack while transiting Hormuz",
@@ -187,11 +155,11 @@
       ],
       "earliest_seen": "2026-08-14T23:13:47+00:00",
       "latest_seen": "2026-08-14T23:13:47+00:00",
-      "age_hours": 5.89,
-      "score": 54.97,
+      "age_hours": 6.86,
+      "score": 54.38,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.47,
+        "recency_points": 20.88,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -209,69 +177,7 @@
           "confidence": 0.95
         }
       ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f8c15ed0a3ea24",
-      "topic": "oil",
-      "lead_title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
-      "lead_source": "LiteFinance",
-      "canonical_entities": [
-        "Brent",
-        "WTI",
-        "crude",
-        "oil"
-      ],
-      "source_count": 3,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-10T07:00:00+00:00",
-      "latest_seen": "2026-08-12T07:00:00+00:00",
-      "age_hours": 70.12,
-      "score": 54.0,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 23.0,
-        "entity_relevance_points": 16,
-        "materiality_points": 5.0
-      },
-      "novelty": "growing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0911024b7cca160e",
-          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
-          "source": "LiteFinance",
-          "source_type": "rss",
-          "published_at": "2026-08-10T07:00:00+00:00",
-          "confidence": 0.8
-        },
-        {
-          "headline_id": "372fb88a52f7906d",
-          "title": "WTI Crude Oil futures slip despite projected supply shortfall.",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcDgwRjl2TkNHeVdNZVRJWkF2UUpNb3JOTG1EU3lDdFF3WC1ReUxuc05BcG1rQzlKRlNEVTZ2eGN0ZExpaWRsbDUwRUlycU1oQjFJalZyc25fdjRjQV9EQTVxcnM4WDI2RnNGYVBoU05ybU9wQi1XUHBhWHFuRE1JY1Q5RmpQU1JvdkNFLVQ4akdzUE1NbHJhd09SQzFOYVBUNjBacW9nd2FLTmlhMmZkdVp3X2MxRTl3eVlWT2EzUGVFaFVyM1AtTVdwVQ?oc=5",
-          "source": "CME Group",
-          "source_type": "rss",
-          "published_at": "2026-08-12T07:00:00+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "1af30f9efaa765f5",
-          "title": "WTI Crude Oil futures rise amid falling inventories and geopolitical tensions.",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVWZKbGtqYW96NVhGZ195N0JFeWwyWEp4T2FTTGo4Z0ZGRl9CdF9Va3cxS1lEeUZ2OWFzSk0yRWZlN2oxNmZGazNBR3JpOHp3eFFtdXpwaHRpRExWaWxkQWFIT2ZQbFl6RTlNcnVvNmFXSVA1Zm5zak9DNWk4dFd0MWttMDUxcnludUVhaGFPT1hxaVl1TGRzTHNiZ2pJOUY1R2xKWjJuQUkzaWFHS0dKVEln?oc=5",
-          "source": "CME Group",
-          "source_type": "rss",
-          "published_at": "2026-08-11T21:54:57+00:00",
-          "confidence": 0.75
-        }
-      ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
@@ -288,11 +194,11 @@
       ],
       "earliest_seen": "2026-08-14T20:35:00+00:00",
       "latest_seen": "2026-08-14T20:35:00+00:00",
-      "age_hours": 8.54,
-      "score": 53.38,
+      "age_hours": 9.51,
+      "score": 52.79,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.88,
+        "recency_points": 19.29,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -314,6 +220,88 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_24de9576d453bc",
+      "topic": "oil",
+      "lead_title": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster",
+      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-14T17:26:57+00:00",
+      "latest_seen": "2026-08-14T17:26:57+00:00",
+      "age_hours": 12.64,
+      "score": 51.41,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.41,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "d8b1873f0d2d6626",
+          "title": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-14T17:26:57+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_cd8eda4d300410",
+      "topic": "oil",
+      "lead_title": "ADNOC unbound: War, OPEC exit launch Emirates oil giant on quest for growth",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnh1RFhFMlRJVUJnSHBqT2NHcUZGbkV5bWpGTFZnQUpwWmtVYkRLZDY3M010RUJJRGt3MGp2SHV1SUhLZ0hCVnRfS3dJN09GcWE1WmVJZ0xTdEZKai13d1F2UGw2a2JYMWUyeUJqM0FzR3hEWEVpMTdiQ3dHbEhTYjBRdVU2R3ZoODZkcnQ3bkw4a2drRExvdm55UVUtQVpqTmZzOVo2SFpQdVB2LUdDUTg0X0VxYmVBVWc?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-13T12:28:00+00:00",
+      "latest_seen": "2026-08-13T12:28:00+00:00",
+      "age_hours": 41.63,
+      "score": 49.02,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.02,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "3dac2403c8d098c4",
+          "title": "ADNOC unbound: War, OPEC exit launch Emirates oil giant on quest for growth",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbnh1RFhFMlRJVUJnSHBqT2NHcUZGbkV5bWpGTFZnQUpwWmtVYkRLZDY3M010RUJJRGt3MGp2SHV1SUhLZ0hCVnRfS3dJN09GcWE1WmVJZ0xTdEZKai13d1F2UGw2a2JYMWUyeUJqM0FzR3hEWEVpMTdiQ3dHbEhTYjBRdVU2R3ZoODZkcnQ3bkw4a2drRExvdm55UVUtQVpqTmZzOVo2SFpQdVB2LUdDUTg0X0VxYmVBVWc?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-13T12:28:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_3f689badf56288",
       "topic": "oil",
       "lead_title": "Turkey cuts Russian oil imports as Black Sea export disruptions curb supplies, data shows",
@@ -329,11 +317,11 @@
       ],
       "earliest_seen": "2026-08-14T12:54:24+00:00",
       "latest_seen": "2026-08-14T12:54:24+00:00",
-      "age_hours": 16.21,
-      "score": 49.27,
+      "age_hours": 17.19,
+      "score": 48.69,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.27,
+        "recency_points": 14.69,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -368,11 +356,11 @@
       ],
       "earliest_seen": "2026-08-14T14:21:43+00:00",
       "latest_seen": "2026-08-14T14:21:43+00:00",
-      "age_hours": 14.76,
-      "score": 44.65,
+      "age_hours": 15.73,
+      "score": 44.06,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.15,
+        "recency_points": 15.56,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -409,11 +397,11 @@
       ],
       "earliest_seen": "2026-08-14T04:56:00+00:00",
       "latest_seen": "2026-08-14T04:56:00+00:00",
-      "age_hours": 24.19,
-      "score": 44.49,
+      "age_hours": 25.16,
+      "score": 43.9,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.49,
+        "recency_points": 9.9,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -448,11 +436,11 @@
       ],
       "earliest_seen": "2026-08-14T11:30:13+00:00",
       "latest_seen": "2026-08-14T11:30:13+00:00",
-      "age_hours": 17.62,
-      "score": 42.93,
+      "age_hours": 18.59,
+      "score": 42.35,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.43,
+        "recency_points": 13.85,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -487,11 +475,11 @@
       ],
       "earliest_seen": "2026-08-14T10:41:00+00:00",
       "latest_seen": "2026-08-14T10:41:00+00:00",
-      "age_hours": 18.44,
-      "score": 42.44,
+      "age_hours": 19.41,
+      "score": 41.85,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.94,
+        "recency_points": 13.35,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -513,11 +501,55 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_f8c15ed0a3ea24",
+      "topic": "oil",
+      "lead_title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
+      "lead_source": "LiteFinance",
+      "canonical_entities": [
+        "Brent",
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-10T07:00:00+00:00",
+      "latest_seen": "2026-08-10T07:00:00+00:00",
+      "age_hours": 119.09,
+      "score": 40.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 24.0,
+        "entity_relevance_points": 16,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "0911024b7cca160e",
+          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
+          "source": "LiteFinance",
+          "source_type": "rss",
+          "published_at": "2026-08-10T07:00:00+00:00",
+          "confidence": 0.8
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_81ee4541a9cb4c",
       "topic": "oil",
       "lead_title": "Crude Oil Benchmarks | Brent, WTI, Sweet vs. Sour, Light vs. Heavy",
       "lead_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VZ0xmbmhBYW5RMnp6b29Pa3dabDlBdld5SEdKSUQ3amwyLXZ5QW5yaTdrZEVqNWU2Q1YxN2k4U0tlZGdZQmp5cGQtZWJhclk2blRrSERJRmNwWVpHV1JxdkF3cw?oc=5",
-      "lead_source": "britannica.com",
+      "lead_source": "Encyclopedia Britannica",
       "canonical_entities": [
         "Brent",
         "WTI",
@@ -531,7 +563,7 @@
       ],
       "earliest_seen": "2026-07-27T07:00:00+00:00",
       "latest_seen": "2026-07-27T07:00:00+00:00",
-      "age_hours": 454.12,
+      "age_hours": 455.09,
       "score": 40.0,
       "score_components": {
         "source_count_points": 5,
@@ -547,7 +579,7 @@
           "headline_id": "ab046aa97fc6eb3a",
           "title": "Crude Oil Benchmarks | Brent, WTI, Sweet vs. Sour, Light vs. Heavy",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VZ0xmbmhBYW5RMnp6b29Pa3dabDlBdld5SEdKSUQ3amwyLXZ5QW5yaTdrZEVqNWU2Q1YxN2k4U0tlZGdZQmp5cGQtZWJhclk2blRrSERJRmNwWVpHV1JxdkF3cw?oc=5",
-          "source": "britannica.com",
+          "source": "Encyclopedia Britannica",
           "source_type": "rss",
           "published_at": "2026-07-27T07:00:00+00:00",
           "confidence": 0.8
@@ -572,11 +604,11 @@
       ],
       "earliest_seen": "2026-08-13T21:21:16+00:00",
       "latest_seen": "2026-08-13T21:21:16+00:00",
-      "age_hours": 31.76,
-      "score": 39.94,
+      "age_hours": 32.74,
+      "score": 39.36,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.94,
+        "recency_points": 5.36,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -614,7 +646,7 @@
       ],
       "earliest_seen": "2026-08-10T15:32:22+00:00",
       "latest_seen": "2026-08-10T15:32:22+00:00",
-      "age_hours": 109.58,
+      "age_hours": 110.55,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -655,11 +687,11 @@
       ],
       "earliest_seen": "2026-08-13T16:50:53+00:00",
       "latest_seen": "2026-08-13T16:50:53+00:00",
-      "age_hours": 36.27,
-      "score": 37.24,
+      "age_hours": 37.25,
+      "score": 36.65,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.24,
+        "recency_points": 2.65,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -694,11 +726,11 @@
       ],
       "earliest_seen": "2026-08-13T21:53:00+00:00",
       "latest_seen": "2026-08-13T21:53:00+00:00",
-      "age_hours": 31.24,
-      "score": 34.76,
+      "age_hours": 32.21,
+      "score": 34.17,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 6.26,
+        "recency_points": 5.67,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -720,86 +752,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_fc770db149eb70",
-      "topic": "oil",
-      "lead_title": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-13T21:19:19+00:00",
-      "latest_seen": "2026-08-13T21:19:19+00:00",
-      "age_hours": 31.8,
-      "score": 34.42,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 5.92,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "547d68383771e16c",
-          "title": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-13T21:19:19+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e47468a99d78e7",
-      "topic": "oil",
-      "lead_title": "AI’s Biggest Energy Impact Might Be in the Oil Patch, Not the Data Center",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWDB0WHFLVm1WV1VIbTVsYU5NRl9hQlJyaTNwaXB4UTlRYUZMcERKc0t5TzZCOGpBdndUelZ3aUFtLUZPVWZKSm9lRmxZeVdUN1hZMGQ0Q1BVSFM5Mmo4VTg5bDVBN0FyVzROZEpoc0FKcmJNZFFiOG9vR3huR1hHQzNHYUhRa3dxejZ2a3hvVkZhXzhaWW1KMmd4ei1sM0dRc0UwalpMekZtZkd5TzlrSWZsbW9CUTlfNkhscA?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-13T13:25:00+00:00",
-      "latest_seen": "2026-08-13T13:25:00+00:00",
-      "age_hours": 39.7,
-      "score": 34.28,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 1.18,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0eb0eac267036b1b",
-          "title": "AI’s Biggest Energy Impact Might Be in the Oil Patch, Not the Data Center",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWDB0WHFLVm1WV1VIbTVsYU5NRl9hQlJyaTNwaXB4UTlRYUZMcERKc0t5TzZCOGpBdndUelZ3aUFtLUZPVWZKSm9lRmxZeVdUN1hZMGQ0Q1BVSFM5Mmo4VTg5bDVBN0FyVzROZEpoc0FKcmJNZFFiOG9vR3huR1hHQzNHYUhRa3dxejZ2a3hvVkZhXzhaWW1KMmd4ei1sM0dRc0UwalpMekZtZkd5TzlrSWZsbW9CUTlfNkhscA?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-08-13T13:25:00+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_725f2b891025e6",
       "topic": "oil",
       "lead_title": "The US says more oil is leaving the Middle East, but is it really?",
@@ -815,7 +767,7 @@
       ],
       "earliest_seen": "2026-08-13T05:14:23+00:00",
       "latest_seen": "2026-08-13T05:14:23+00:00",
-      "age_hours": 47.88,
+      "age_hours": 48.85,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -856,7 +808,7 @@
       ],
       "earliest_seen": "2026-08-13T03:00:00+00:00",
       "latest_seen": "2026-08-13T03:00:00+00:00",
-      "age_hours": 50.12,
+      "age_hours": 51.09,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -897,7 +849,7 @@
       ],
       "earliest_seen": "2026-08-12T20:14:01+00:00",
       "latest_seen": "2026-08-12T20:14:01+00:00",
-      "age_hours": 56.89,
+      "age_hours": 57.86,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -923,6 +875,86 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_fc770db149eb70",
+      "topic": "oil",
+      "lead_title": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-13T21:19:19+00:00",
+      "latest_seen": "2026-08-13T21:19:19+00:00",
+      "age_hours": 32.77,
+      "score": 33.84,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 5.34,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "547d68383771e16c",
+          "title": "UAE says Iran attacked two ADNOC vessels in Strait of Hormuz; no injuries",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQVGt4emw3dzdDaUdoNmsxMmRjMlkwZUJCUVlURko4RzRvMjUybnlUMVRGUnFLT0plclNLYkt0dGN1RV9fZnQ3QlE2UkN0d002blZDVUtTX0JwQXhkbXVDZ25WbDBLWld0anI2MmEtMUJOUFVNUTVDeVhpOXlldTQtQmlMVmVzcE1KS0tnWHhUNWtodmJRNjJWNFEyak9ZSGRadktNS3FMZ2tjc0o3MEh6eXEwcTZjY1Q3dmg1eg?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-13T21:19:19+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e47468a99d78e7",
+      "topic": "oil",
+      "lead_title": "AI’s Biggest Energy Impact Might Be in the Oil Patch, Not the Data Center",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWDB0WHFLVm1WV1VIbTVsYU5NRl9hQlJyaTNwaXB4UTlRYUZMcERKc0t5TzZCOGpBdndUelZ3aUFtLUZPVWZKSm9lRmxZeVdUN1hZMGQ0Q1BVSFM5Mmo4VTg5bDVBN0FyVzROZEpoc0FKcmJNZFFiOG9vR3huR1hHQzNHYUhRa3dxejZ2a3hvVkZhXzhaWW1KMmd4ei1sM0dRc0UwalpMekZtZkd5TzlrSWZsbW9CUTlfNkhscA?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-13T13:25:00+00:00",
+      "latest_seen": "2026-08-13T13:25:00+00:00",
+      "age_hours": 40.68,
+      "score": 33.69,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.59,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "0eb0eac267036b1b",
+          "title": "AI’s Biggest Energy Impact Might Be in the Oil Patch, Not the Data Center",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWDB0WHFLVm1WV1VIbTVsYU5NRl9hQlJyaTNwaXB4UTlRYUZMcERKc0t5TzZCOGpBdndUelZ3aUFtLUZPVWZKSm9lRmxZeVdUN1hZMGQ0Q1BVSFM5Mmo4VTg5bDVBN0FyVzROZEpoc0FKcmJNZFFiOG9vR3huR1hHQzNHYUhRa3dxejZ2a3hvVkZhXzhaWW1KMmd4ei1sM0dRc0UwalpMekZtZkd5TzlrSWZsbW9CUTlfNkhscA?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-08-13T13:25:00+00:00",
+          "confidence": 0.97
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_ae7bb6a43d3fb1",
       "topic": "oil",
       "lead_title": "Trump-linked oil venture delays Greenland drilling plans after government warning",
@@ -938,11 +970,11 @@
       ],
       "earliest_seen": "2026-08-13T12:43:17+00:00",
       "latest_seen": "2026-08-13T12:43:17+00:00",
-      "age_hours": 40.4,
-      "score": 32.66,
+      "age_hours": 41.37,
+      "score": 32.08,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 0.76,
+        "recency_points": 0.18,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -979,7 +1011,7 @@
       ],
       "earliest_seen": "2026-08-12T19:39:41+00:00",
       "latest_seen": "2026-08-12T19:39:41+00:00",
-      "age_hours": 57.46,
+      "age_hours": 58.43,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1020,7 +1052,7 @@
       ],
       "earliest_seen": "2026-07-27T07:00:00+00:00",
       "latest_seen": "2026-07-27T07:00:00+00:00",
-      "age_hours": 454.12,
+      "age_hours": 455.09,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
