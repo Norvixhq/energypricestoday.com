@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-15T15:03:42.504823+00:00",
-  "previous_generated_at": "2026-08-15T14:36:30.578026+00:00",
-  "resolver_run_count": 34,
+  "generated_at": "2026-08-15T15:39:13.495226+00:00",
+  "previous_generated_at": "2026-08-15T15:03:42.504823+00:00",
+  "resolver_run_count": 35,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,19 @@
       "status_detail": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.805,
+      "confidence": 0.813,
       "last_confirmed": "2026-08-14T22:36:06+00:00",
-      "source_count": 6,
-      "summary_short": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
-      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran. UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening",
+      "source_count": 9,
+      "summary_short": "Hormuz Attacks Push Oil Toward $100 Despite US Crude Build",
+      "summary_long": "Hormuz Attacks Push Oil Toward $100 Despite US Crude Build. Hormuz traffic slows further after US threatens more economic pressure on Iran",
       "evidence_cluster_ids": [
         "c_e35f80d20f0360",
-        "c_dcb55b1c28c752",
-        "c_3a585a600544c1"
+        "c_9429024ad0ffe3",
+        "c_da1842c2a1f193",
+        "c_835d6800c70f4b",
+        "c_dcb55b1c28c752"
       ],
-      "evidence_count": 3,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -39,9 +41,10 @@
       "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.38)",
-        "cluster c_dcb55b1c28 → CONTESTED (kw='attack', weight=0.28)",
-        "winning=CONTESTED (0.66/0.66), conf=0.947"
+        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.37)",
+        "cluster c_da1842c2a1 → CONTESTED (kw='attack', weight=0.44)",
+        "cluster c_dcb55b1c28 → CONTESTED (kw='attack', weight=0.27)",
+        "winning=CONTESTED (1.08/1.08), conf=0.957"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,17 +56,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-15T14:00:05+00:00",
-      "source_count": 7,
-      "summary_short": "Live Updates: Latest from Israel, Iran, and the Middle East",
-      "summary_long": "Live Updates: Latest from Israel, Iran, and the Middle East. Hormuz traffic slows further after US threatens more economic pressure on Iran",
+      "last_confirmed": "2026-08-14T22:36:06+00:00",
+      "source_count": 6,
+      "summary_short": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
+      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran. Iran's Economy Is Buckling Under the Weight of War",
       "evidence_cluster_ids": [
-        "c_0923e73f05ce37",
         "c_e35f80d20f0360",
-        "c_89bc8bd4ad7693",
-        "c_a14754269b32d0"
+        "c_c5b84cf5928e49",
+        "c_6f5b355676b73e"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -148,14 +150,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_2b46b52b629116",
-      "lead_title": "Turkish Energy Minister: Saudi Arabia's ACWA Power to Develop Solar, Wind Projects in Türkiye",
-      "lead_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTOFRDOFViYVV6WmRxU0Z2WVNVYjFoeTJuR2JyUnNaczJRcThjRXpDNVljcEFxNFpJZTB0X1VaeF9EdkgwMXlLdVhzcWlhbThUbEZuSHYtT0hfM1JSNXQ2UlptMDZ6bjEt?oc=5",
-      "lead_source": "صحيفة مال",
+      "cluster_id": "c_577b3f2b5fd6b6",
+      "lead_title": "Solar Surpasses Wind In Global Electricity Generation For The First Time",
+      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYnZMbXNlaThaMDJvNXNuengyQTFpNXFRV1FJZ202c1Nmb2FCNFJDbzJpVVBrRldzME92b1pQUG5NekNiRURRNzRRTWozMmxRQUg3V0FCUm5xenM4SE5LV3BhZWxUakEwVXVpSndvMldFR01JXzhLbEhSU2x2UXpzUmM0elBtRE9Qa3lBUTBPRXk2RTRoUXYzNXZQM0R3dnhVbm44NWRueFVreTRYVENDTWFxTnpqcVc0RklRQnBxYWZ5aU5qNmJUZTF30gHPAUFVX3lxTE5RN3RYVUwxbVF0SVpBWXVPVU9Jb3R1azYyelQ3eDBIN3dwZS03TWtSZ0N5WVBCNUJOcDd0bk5aLVluS0R5RzBHMTUxdnJ1b2NlZGgwTU0xbk9hbDVjckdSdnREanNmcmtadC15NC1sdVotX1duMkd4aTlDYkQ1aDBxLWQwVHQtVmdzU3QyZ1ZZaE5tNXBKZVJXTTFCdkR3MnpBd05CSTJQOWk3c0t3aUJ4dUltTlZZakRTOEtDNjBPUXhabjUtMmZlNnJIQ3RMOA?oc=5",
+      "lead_source": "oilprice.com",
       "topic": "renewables",
-      "score": 73.95,
+      "score": 80.79,
       "novelty": "new",
-      "source_count": 2,
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.805, fresh=aging",
+    "hormuz_status: resolved=CONTESTED, confidence=0.813, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
