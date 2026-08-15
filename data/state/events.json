@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-15T10:36:47.446583+00:00",
-  "previous_generated_at": "2026-08-15T10:03:10.633272+00:00",
-  "resolver_run_count": 27,
+  "generated_at": "2026-08-15T11:04:13.523775+00:00",
+  "previous_generated_at": "2026-08-15T10:36:47.446583+00:00",
+  "resolver_run_count": 28,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,16 +12,15 @@
       "status_detail": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.815,
+      "confidence": 0.83,
       "last_confirmed": "2026-08-14T22:36:06+00:00",
-      "source_count": 6,
+      "source_count": 5,
       "summary_short": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
-      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran. Oil exporters scramble for routes beyond Hormuz — but there are no easy options",
+      "summary_long": "Hormuz traffic slows further after US threatens more economic pressure on Iran",
       "evidence_cluster_ids": [
-        "c_e35f80d20f0360",
-        "c_3a585a600544c1"
+        "c_e35f80d20f0360"
       ],
-      "evidence_count": 2,
+      "evidence_count": 1,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,8 +37,8 @@
       "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.58)",
-        "winning=CONTESTED (0.58/0.58), conf=0.959"
+        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.57)",
+        "winning=CONTESTED (0.57/0.57), conf=0.977"
       ]
     },
     "us_iran_ceasefire": {
@@ -144,15 +143,15 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_737d10cdb7011b",
-      "lead_title": "U.S. Crude Oil Stockpiles Post Unexpected Build",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTMtRTg5NHJOd0IzUnlTLTBYMzF4bEJYMjF3Z3RxeU10VDNZUVBnd29NVGJLLWV2ZlNJaGhNcG5CejZPQXV6X2g5ZFU4VzcyTmVvcmhtZ3JJY3BaOXN4U2Q1VDFrMmd2bUZwVTNSLUF2c3psWGRiUFpkY09WVVdOSDJERFZPS0hydXlRSVlnVHpCYldYd1JmSzhhRQ?oc=5",
-      "lead_source": "WSJ",
-      "topic": "oil",
-      "score": 78.47,
+      "cluster_id": "c_4710605402dd13",
+      "lead_title": "ExxonMobil Corporation $XOM Shares Bought by Nilsine Partners LLC",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcm5kZXFXT2U1bmVHaWZQNldJT0ZFOThtTFY0U2JiVHlpVjc3akNtNHB0S082NDRsY0o2aXFHTHgxMjVGRmN1b3VpVzROS3NVQjVZYXR2R3J5UnZIQ2NSN0hwQjlhdWl6c1hBU0dFMGx3eUhTWFVFM1JzbkZLblU1Uy1UQkhFRW1NQ1VpN3Z3ODh6Sk9RckY2Nk5QbXVRNXRHM0VjM3dyR2xIWTF3dmxnWmtnTlNRV3lkSC1Ia211T3h6TlU?oc=5",
+      "lead_source": "MarketBeat",
+      "topic": "companies",
+      "score": 52.82,
       "novelty": "ongoing",
-      "source_count": 5,
-      "confidence": 0.95,
+      "source_count": 1,
+      "confidence": 0.8641,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
       ],
@@ -163,7 +162,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.815, fresh=aging",
+    "hormuz_status: resolved=CONTESTED, confidence=0.83, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
