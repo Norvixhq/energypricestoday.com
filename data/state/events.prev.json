@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-15T19:10:04.965329+00:00",
-  "previous_generated_at": "2026-08-15T18:44:44.752057+00:00",
-  "resolver_run_count": 40,
+  "generated_at": "2026-08-15T19:39:36.425475+00:00",
+  "previous_generated_at": "2026-08-15T19:10:04.965329+00:00",
+  "resolver_run_count": 41,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -38,9 +38,9 @@
       "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.32)",
-        "cluster c_dcb55b1c28 → CONTESTED (kw='attack', weight=0.23)",
-        "winning=CONTESTED (0.54/0.54), conf=0.948"
+        "cluster c_e35f80d20f → CONTESTED (kw='attack', weight=0.31)",
+        "cluster c_dcb55b1c28 → CONTESTED (kw='attack', weight=0.22)",
+        "winning=CONTESTED (0.53/0.53), conf=0.948"
       ]
     },
     "us_iran_ceasefire": {
@@ -60,7 +60,7 @@
         "c_0923e73f05ce37",
         "c_e35f80d20f0360",
         "c_80049487f5842c",
-        "c_a315324bf33eb1"
+        "c_d5df08de7c4dd3"
       ],
       "evidence_count": 4,
       "affected_pages": [
@@ -147,15 +147,15 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_737d10cdb7011b",
-      "lead_title": "U.S. Crude Oil Stockpiles Post Unexpected Build",
-      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTMtRTg5NHJOd0IzUnlTLTBYMzF4bEJYMjF3Z3RxeU10VDNZUVBnd29NVGJLLWV2ZlNJaGhNcG5CejZPQXV6X2g5ZFU4VzcyTmVvcmhtZ3JJY3BaOXN4U2Q1VDFrMmd2bUZwVTNSLUF2c3psWGRiUFpkY09WVVdOSDJERFZPS0hydXlRSVlnVHpCYldYd1JmSzhhRQ?oc=5",
-      "lead_source": "WSJ",
-      "topic": "oil",
-      "score": 64.24,
-      "novelty": "decaying",
-      "source_count": 3,
-      "confidence": 0.9212,
+      "cluster_id": "c_815d2adbf3be43",
+      "lead_title": "This Basement Was Just a Cold, Concrete Shell — Now It Feels Like a Sunny European Vacation",
+      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2NGUEFjZDV1U1JIU0Y2a3ZCS29pMWdOQ3prbFNQcXl0aVA1MUE5WTVFSFUtNU5rMlQ0QWxmWUoycXRQVEVhcm9SZjBlVTVwV2d6TkhWMS0xdnR5anl2NHBIZXRXZ1R5aXl5Nk9wMDlsaFhPTUZPM0FxUDhVcFFFU3ZvUzhrMFRpYTBhYnh0ajR0MVU?oc=5",
+      "lead_source": "yahoo.com",
+      "topic": "companies",
+      "score": 63.1,
+      "novelty": "new",
+      "source_count": 1,
+      "confidence": 0.9155,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
       ],
