@@ -1,11 +1,11 @@
 {
   "topic": "oil",
-  "generated_at": "2026-08-15T20:35:18.051698+00:00",
+  "generated_at": "2026-08-15T21:03:29.402169+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 27,
   "clusters": [
     {
       "cluster_id": "c_737d10cdb7011b",
@@ -26,11 +26,11 @@
       ],
       "earliest_seen": "2026-08-12T15:07:00+00:00",
       "latest_seen": "2026-08-14T20:49:08+00:00",
-      "age_hours": 23.77,
-      "score": 62.24,
+      "age_hours": 24.24,
+      "score": 61.96,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 10.74,
+        "recency_points": 10.46,
         "source_quality_points": 25.5,
         "entity_relevance_points": 16,
         "materiality_points": -5.0
@@ -85,11 +85,11 @@
       ],
       "earliest_seen": "2026-08-15T13:18:46+00:00",
       "latest_seen": "2026-08-15T13:18:46+00:00",
-      "age_hours": 7.28,
-      "score": 57.53,
+      "age_hours": 7.75,
+      "score": 57.25,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.63,
+        "recency_points": 20.35,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -111,43 +111,53 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_b9e218e6861f74",
+      "cluster_id": "c_f8c15ed0a3ea24",
       "topic": "oil",
-      "lead_title": "Brent oil tops $100 per barrel, as tumbles for Tesla and Alphabet yank Wall Street lower",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdzJSMEdwQVV6RGMtWDMxcGFBci0xMURsa2hYWnpiTk81azZpVk9IS1gyWDlLM2xoM2xBcUVpUDFiN01tekpWUUNKcWNDZWtmbDk4RDBCbW5ZNjlQdEJLNjlTYnRERDZfVmxYNWtfamNGWjZJMkxwaDV0U0wtSnBtTDJnblFjYmxqRWoxYmFGd2JOUng0Q3JBUUpMcGxWa3M?oc=5",
-      "lead_source": "apnews.com",
+      "lead_title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
+      "lead_source": "litefinance.org",
       "canonical_entities": [
         "Brent",
-        "barrel",
+        "WTI",
+        "crude",
         "oil"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-07-23T07:00:00+00:00",
-      "latest_seen": "2026-07-23T07:00:00+00:00",
-      "age_hours": 565.59,
-      "score": 57.0,
+      "earliest_seen": "2026-08-10T07:00:00+00:00",
+      "latest_seen": "2026-08-12T07:00:00+00:00",
+      "age_hours": 86.06,
+      "score": 54.25,
       "score_components": {
-        "source_count_points": 5,
+        "source_count_points": 10,
         "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "source_quality_points": 23.25,
+        "entity_relevance_points": 16,
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "9b15a0ef19e38d01",
-          "title": "Brent oil tops $100 per barrel, as tumbles for Tesla and Alphabet yank Wall Street lower",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOdzJSMEdwQVV6RGMtWDMxcGFBci0xMURsa2hYWnpiTk81azZpVk9IS1gyWDlLM2xoM2xBcUVpUDFiN01tekpWUUNKcWNDZWtmbDk4RDBCbW5ZNjlQdEJLNjlTYnRERDZfVmxYNWtfamNGWjZJMkxwaDV0U0wtSnBtTDJnblFjYmxqRWoxYmFGd2JOUng0Q3JBUUpMcGxWa3M?oc=5",
-          "source": "apnews.com",
+          "headline_id": "0911024b7cca160e",
+          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
+          "source": "litefinance.org",
           "source_type": "rss",
-          "published_at": "2026-07-23T07:00:00+00:00",
-          "confidence": 1.0
+          "published_at": "2026-08-10T07:00:00+00:00",
+          "confidence": 0.8
+        },
+        {
+          "headline_id": "372fb88a52f7906d",
+          "title": "WTI Crude Oil futures slip despite projected supply shortfall.",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcDgwRjl2TkNHeVdNZVRJWkF2UUpNb3JOTG1EU3lDdFF3WC1ReUxuc05BcG1rQzlKRlNEVTZ2eGN0ZExpaWRsbDUwRUlycU1oQjFJalZyc25fdjRjQV9EQTVxcnM4WDI2RnNGYVBoU05ybU9wQi1XUHBhWHFuRE1JY1Q5RmpQU1JvdkNFLVQ4akdzUE1NbHJhd09SQzFOYVBUNjBacW9nd2FLTmlhMmZkdVp3X2MxRTl3eVlWT2EzUGVFaFVyM1AtTVdwVQ?oc=5",
+          "source": "CME Group",
+          "source_type": "rss",
+          "published_at": "2026-08-12T07:00:00+00:00",
+          "confidence": 0.75
         }
       ],
       "top_tier": true,
@@ -173,11 +183,11 @@
       ],
       "earliest_seen": "2026-08-14T18:40:28+00:00",
       "latest_seen": "2026-08-14T18:40:28+00:00",
-      "age_hours": 25.91,
-      "score": 53.45,
+      "age_hours": 26.38,
+      "score": 53.17,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.45,
+        "recency_points": 9.17,
         "source_quality_points": 24.0,
         "entity_relevance_points": 20,
         "materiality_points": -5.0
@@ -203,7 +213,7 @@
       "topic": "oil",
       "lead_title": "Oil climbs over $1 on tanker attacks, no progrees on peace",
       "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [
         "oil"
       ],
@@ -214,11 +224,11 @@
       ],
       "earliest_seen": "2026-08-14T19:21:47+00:00",
       "latest_seen": "2026-08-14T19:21:47+00:00",
-      "age_hours": 25.23,
-      "score": 43.86,
+      "age_hours": 25.7,
+      "score": 43.58,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.86,
+        "recency_points": 9.58,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -230,7 +240,7 @@
           "headline_id": "d712ca8775f11779",
           "title": "Oil climbs over $1 on tanker attacks, no progrees on peace",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T19:21:47+00:00",
           "confidence": 1.0
@@ -244,7 +254,7 @@
       "topic": "oil",
       "lead_title": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster",
       "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [
         "oil"
       ],
@@ -255,11 +265,11 @@
       ],
       "earliest_seen": "2026-08-14T17:26:57+00:00",
       "latest_seen": "2026-08-14T17:26:57+00:00",
-      "age_hours": 27.14,
-      "score": 42.72,
+      "age_hours": 27.61,
+      "score": 42.43,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.72,
+        "recency_points": 8.43,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -271,54 +281,10 @@
           "headline_id": "d8b1873f0d2d6626",
           "title": "Two slicks appear in Gulf as huge oil spill off Oman threatens disaster",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaE14cERmMFhqTWJMbFBLWlkzaEp2VGpQOGlWUlRDZmNPZnRkT203U3VBQ3Y2TTUtQTNaSEtJbm9LbDVDSU9hS2hRTnpCaHVxVnUxLXJJUUFlV1NTSUdWanhsRlBmUWhNN05ZZTlCRUMtUnhraVhaSjFoS2Z5dU9GNF95bWdoWll6ZzdJMGY1WDBNWElXakhRZ0hvV0lCTmR4X05LYTN6VDZYMVQwb1g1MjhiaXJvS01Ob0lyUkhuSQ?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T17:26:57+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f8c15ed0a3ea24",
-      "topic": "oil",
-      "lead_title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
-      "lead_source": "LiteFinance",
-      "canonical_entities": [
-        "Brent",
-        "WTI",
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-10T07:00:00+00:00",
-      "latest_seen": "2026-08-10T07:00:00+00:00",
-      "age_hours": 133.59,
-      "score": 40.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 24.0,
-        "entity_relevance_points": 16,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0911024b7cca160e",
-          "title": "Crude Oil Price Forecast for 2026, 2027, 2028–2030 and Beyond: WTI and Brent Outlook",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObmdYNGNXYXk4UEdoY0txN0hKa205N0dTWk1Fd2VSSGM2LWNtdlJtMXhJanZSRXZQT1l5QWxLRF9mdlJVOWV3M3lJejlxSTl2Y29yRG1xSkVNWV9YSlg5WC1admhGYW15ZUppRTlULWkxYkVaN0VFUHgzY1I4RlN0cjgyRDI0M2lw?oc=5",
-          "source": "LiteFinance",
-          "source_type": "rss",
-          "published_at": "2026-08-10T07:00:00+00:00",
-          "confidence": 0.8
         }
       ],
       "top_tier": false,
@@ -329,7 +295,7 @@
       "topic": "oil",
       "lead_title": "Crude Oil Benchmarks | Brent, WTI, Sweet vs. Sour, Light vs. Heavy",
       "lead_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VZ0xmbmhBYW5RMnp6b29Pa3dabDlBdld5SEdKSUQ3amwyLXZ5QW5yaTdrZEVqNWU2Q1YxN2k4U0tlZGdZQmp5cGQtZWJhclk2blRrSERJRmNwWVpHV1JxdkF3cw?oc=5",
-      "lead_source": "britannica.com",
+      "lead_source": "Encyclopedia Britannica",
       "canonical_entities": [
         "Brent",
         "WTI",
@@ -343,7 +309,7 @@
       ],
       "earliest_seen": "2026-07-27T07:00:00+00:00",
       "latest_seen": "2026-07-27T07:00:00+00:00",
-      "age_hours": 469.59,
+      "age_hours": 470.06,
       "score": 40.0,
       "score_components": {
         "source_count_points": 5,
@@ -359,7 +325,7 @@
           "headline_id": "ab046aa97fc6eb3a",
           "title": "Crude Oil Benchmarks | Brent, WTI, Sweet vs. Sour, Light vs. Heavy",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5VZ0xmbmhBYW5RMnp6b29Pa3dabDlBdld5SEdKSUQ3amwyLXZ5QW5yaTdrZEVqNWU2Q1YxN2k4U0tlZGdZQmp5cGQtZWJhclk2blRrSERJRmNwWVpHV1JxdkF3cw?oc=5",
-          "source": "britannica.com",
+          "source": "Encyclopedia Britannica",
           "source_type": "rss",
           "published_at": "2026-07-27T07:00:00+00:00",
           "confidence": 0.8
@@ -373,7 +339,7 @@
       "topic": "oil",
       "lead_title": "Turkey cuts Russian oil imports as Black Sea export disruptions curb supplies, data shows",
       "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRFhXelhLQW1UZW1BSXEtdnI3b0tuLXRaZkE4TVNKZFpJcnNnS1hpbm1sM3NJODc2NkpSV3JfWGxXa252NVAxQlB3NDQybWR1SEVGMmJnLXFYSF9jeUo4UW5CUFdVeW1mRFA2cHNPa1l1VmR1OTZpbHZ0eWZtV2NObW5NcUhaWS1jVFZseFFubkpZd192STJCeENyQ2s1ZzlhalJGN0tocUNWOEZ4dnZUc3F3OFpOcnZkdklNNzI0UnFheEtQdnhfWVpjSQ?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [
         "oil"
       ],
@@ -384,11 +350,11 @@
       ],
       "earliest_seen": "2026-08-14T12:54:24+00:00",
       "latest_seen": "2026-08-14T12:54:24+00:00",
-      "age_hours": 31.68,
-      "score": 39.99,
+      "age_hours": 32.15,
+      "score": 39.71,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.99,
+        "recency_points": 5.71,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -400,7 +366,7 @@
           "headline_id": "90b2926a6e01833f",
           "title": "Turkey cuts Russian oil imports as Black Sea export disruptions curb supplies, data shows",
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNRFhXelhLQW1UZW1BSXEtdnI3b0tuLXRaZkE4TVNKZFpJcnNnS1hpbm1sM3NJODc2NkpSV3JfWGxXa252NVAxQlB3NDQybWR1SEVGMmJnLXFYSF9jeUo4UW5CUFdVeW1mRFA2cHNPa1l1VmR1OTZpbHZ0eWZtV2NObW5NcUhaWS1jVFZseFFubkpZd192STJCeENyQ2s1ZzlhalJGN0tocUNWOEZ4dnZUc3F3OFpOcnZkdklNNzI0UnFheEtQdnhfWVpjSQ?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T12:54:24+00:00",
           "confidence": 1.0
@@ -414,7 +380,7 @@
       "topic": "oil",
       "lead_title": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening",
       "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
@@ -423,11 +389,11 @@
       ],
       "earliest_seen": "2026-08-14T22:01:00+00:00",
       "latest_seen": "2026-08-14T22:01:00+00:00",
-      "age_hours": 22.57,
-      "score": 39.96,
+      "age_hours": 23.04,
+      "score": 39.68,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.46,
+        "recency_points": 11.18,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -439,7 +405,7 @@
           "headline_id": "294ad20161a77b81",
           "title": "UAE says Iran attacked ADNOC vessel in Hormuz, urges waterway's reopening",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbEFoM0Z1VnBsRUlGMUtsU3pXUWd6WUVvVW84ak5jbVpIZ25ld1VfR3RITUJ4MEx1ZTRJaGdXSDRadGVRNThPMzFlOVNsNWo4QzV2eTMzVmoxb1RDSE5QNXZkQ1d3bl9oSk85SUFxNEgxU1N6ME9UWHJ6dENMZmk1LWhacTJreTc4VlgtaGRxaFVQbFltR2UwMVN3Z1V3WUJLeHdDNy0wU0NldXRLaVA0NVY5WTZLQ1NOQjJQQWFHSjMtMk9icXc?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T22:01:00+00:00",
           "confidence": 0.95
@@ -453,7 +419,7 @@
       "topic": "oil",
       "lead_title": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices",
       "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
@@ -462,11 +428,11 @@
       ],
       "earliest_seen": "2026-08-14T20:35:00+00:00",
       "latest_seen": "2026-08-14T20:35:00+00:00",
-      "age_hours": 24.01,
-      "score": 39.1,
+      "age_hours": 24.47,
+      "score": 38.82,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.6,
+        "recency_points": 10.32,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -478,7 +444,7 @@
           "headline_id": "10afd779d1030de9",
           "title": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeUM3ajNSZS1FUnR1alRkTEx5QjBoNW1TSi1haWxKcmVLUlRlTWhTNVZJaVJGNkMtVVphd0xTbUtGbFRFUW5MZmh1MExTUmdZQmxpRGNMRkhaeExUemtveEFLQ0cydmJhT2JpNFY3TDVLUGlTekY0RHZJVE5EOEItMml3SlAwTlNLY2pkdUp1bjdSNTdmVGY3Vk1OdVgtOWFpRGlORHZ4NXQyVlc1NEFTWTZoSEtwN3R1UlE?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T20:35:00+00:00",
           "confidence": 0.95
@@ -504,7 +470,7 @@
       ],
       "earliest_seen": "2026-07-22T07:00:00+00:00",
       "latest_seen": "2026-07-22T07:00:00+00:00",
-      "age_hours": 589.59,
+      "age_hours": 590.06,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -546,7 +512,7 @@
       ],
       "earliest_seen": "2026-08-10T15:32:22+00:00",
       "latest_seen": "2026-08-10T15:32:22+00:00",
-      "age_hours": 125.05,
+      "age_hours": 125.52,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -576,7 +542,7 @@
       "topic": "oil",
       "lead_title": "Russia's Black Sea's Sheskharis terminal halts loadings after drone attack, sources say",
       "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHZsRGtvX2VwWnpvanZCc3dkWnNqTnlQaVVWZ3Vta2JLdm9aWlYyYkxDSmI3RXhLNlM5OXZxODFIRW9UdUlkWE1YbEt3WmthNGdfbENKdUpzam05NnJCYzROMFotUlhQTDFpNFZpZ3pXdzNnZW1TVzBBc1kwVnMwalZGY2NvNUlDRG1LVTRBTlhHS2d5ZXN2ZGV1MHpVcDd2dUtvRm9WMjBpN1MwOTAxY0M5OGxhUS1IMEZOU3ZmUzU3WUpETXRGXzBSSVA?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
@@ -585,11 +551,11 @@
       ],
       "earliest_seen": "2026-08-14T14:21:43+00:00",
       "latest_seen": "2026-08-14T14:21:43+00:00",
-      "age_hours": 30.23,
-      "score": 35.36,
+      "age_hours": 30.7,
+      "score": 35.08,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 6.86,
+        "recency_points": 6.58,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -601,7 +567,7 @@
           "headline_id": "2448c5d5444ce1ad",
           "title": "Russia's Black Sea's Sheskharis terminal halts loadings after drone attack, sources say",
           "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZHZsRGtvX2VwWnpvanZCc3dkWnNqTnlQaVVWZ3Vta2JLdm9aWlYyYkxDSmI3RXhLNlM5OXZxODFIRW9UdUlkWE1YbEt3WmthNGdfbENKdUpzam05NnJCYzROMFotUlhQTDFpNFZpZ3pXdzNnZW1TVzBBc1kwVnMwalZGY2NvNUlDRG1LVTRBTlhHS2d5ZXN2ZGV1MHpVcDd2dUtvRm9WMjBpN1MwOTAxY0M5OGxhUS1IMEZOU3ZmUzU3WUpETXRGXzBSSVA?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T14:21:43+00:00",
           "confidence": 0.95
@@ -615,7 +581,7 @@
       "topic": "oil",
       "lead_title": "Russian share of India's oil imports surges to record high in July",
       "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkxHbTB6WThhNjVWQU5yUmpiMmpHWjV5V29PeHJtamcycVNGdUwwUWhOX3RTby1UZzJfeDZjaHhvSWNtQ0ZkNTNfSTg2a2Q0cWUtb3hhbHJsOU9ZSVlQaFFwMXZHOWNPN0ltbUJnSWVjSWl0SkVSVzVJN3ROd2VQSnRFTzFtQ0w5cFg3SUptVFdBa054RGhoeVdYa01pTmFESEVQeG5FSEJsZEdR?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [
         "oil"
       ],
@@ -626,11 +592,11 @@
       ],
       "earliest_seen": "2026-08-14T04:56:00+00:00",
       "latest_seen": "2026-08-14T04:56:00+00:00",
-      "age_hours": 39.66,
-      "score": 35.21,
+      "age_hours": 40.12,
+      "score": 34.93,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.21,
+        "recency_points": 0.93,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -642,7 +608,7 @@
           "headline_id": "d937dd8e32e5b8b0",
           "title": "Russian share of India's oil imports surges to record high in July",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYkxHbTB6WThhNjVWQU5yUmpiMmpHWjV5V29PeHJtamcycVNGdUwwUWhOX3RTby1UZzJfeDZjaHhvSWNtQ0ZkNTNfSTg2a2Q0cWUtb3hhbHJsOU9ZSVlQaFFwMXZHOWNPN0ltbUJnSWVjSWl0SkVSVzVJN3ROd2VQSnRFTzFtQ0w5cFg3SUptVFdBa054RGhoeVdYa01pTmFESEVQeG5FSEJsZEdR?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T04:56:00+00:00",
           "confidence": 1.0
@@ -656,7 +622,7 @@
       "topic": "oil",
       "lead_title": "Are global oil stocks big enough to weather another six months of US-Iran war?",
       "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [
         "oil"
       ],
@@ -667,7 +633,7 @@
       ],
       "earliest_seen": "2026-08-13T21:21:16+00:00",
       "latest_seen": "2026-08-13T21:21:16+00:00",
-      "age_hours": 47.23,
+      "age_hours": 47.7,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -683,7 +649,7 @@
           "headline_id": "30e44fc2061a6216",
           "title": "Are global oil stocks big enough to weather another six months of US-Iran war?",
           "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-13T21:21:16+00:00",
           "confidence": 1.0
@@ -697,7 +663,7 @@
       "topic": "oil",
       "lead_title": "Salvors work to secure ship leaking oil off Oman, risk firm Ambrey says",
       "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWXZnUEpPS0ZneGR2NUIwLVFwa3lNY1Q1QndiTTFQSFhWb3dtZmYtdzdrUnllS1JNREVILUNab3NBUlB3OGxncDIzTjN1OF9PdVVyNVFWQjhoWGpwLVdLTkIxenhXZFhlVTBuRjlyZnEtYUxCMGxscmtzdEhVSWVTY25EZDFqeWJHV2NIdjllU1ZrcFo4QmdnUFZUYWpLSWRRSVRIUGhvUTdXeXQ2WW5qVkNTUzhObzg?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [
         "oil"
       ],
@@ -708,7 +674,7 @@
       ],
       "earliest_seen": "2026-08-13T16:50:53+00:00",
       "latest_seen": "2026-08-13T16:50:53+00:00",
-      "age_hours": 51.74,
+      "age_hours": 52.21,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -724,7 +690,7 @@
           "headline_id": "faa98c886c453808",
           "title": "Salvors work to secure ship leaking oil off Oman, risk firm Ambrey says",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWXZnUEpPS0ZneGR2NUIwLVFwa3lNY1Q1QndiTTFQSFhWb3dtZmYtdzdrUnllS1JNREVILUNab3NBUlB3OGxncDIzTjN1OF9PdVVyNVFWQjhoWGpwLVdLTkIxenhXZFhlVTBuRjlyZnEtYUxCMGxscmtzdEhVSWVTY25EZDFqeWJHV2NIdjllU1ZrcFo4QmdnUFZUYWpLSWRRSVRIUGhvUTdXeXQ2WW5qVkNTUzhObzg?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-13T16:50:53+00:00",
           "confidence": 1.0
@@ -749,7 +715,7 @@
       ],
       "earliest_seen": "2026-08-13T03:00:00+00:00",
       "latest_seen": "2026-08-13T03:00:00+00:00",
-      "age_hours": 65.59,
+      "age_hours": 66.06,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -779,7 +745,7 @@
       "topic": "oil",
       "lead_title": "Huge oil slick hitting Oman's shoreline as agencies warn of disaster",
       "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVGNVS3hTUTZFb3JqbU5JZTRLRzRFMWVrcGpmSmx1WHo4MUVraTRveDUtTEhqMFZGbnY1TFc0VDhwQlhEWEh2TTBIbmlfS2NYcVY5SXk5WExhTU5vMTdtSWhVREhqNnlZNzdqekJ0MVM3ZmtMa0p3UE1CWnRqSndGTURsM0ZaaEJIRzRPMS1LQVB1YVJMdXNnM0xXY0Z0WS0zZlJ2R2N5THM1a0NWZThJT0dHbFdoLWg2YmFTTlhvQ29IaHc?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [
         "oil"
       ],
@@ -790,7 +756,7 @@
       ],
       "earliest_seen": "2026-08-12T20:14:01+00:00",
       "latest_seen": "2026-08-12T20:14:01+00:00",
-      "age_hours": 72.35,
+      "age_hours": 72.82,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -806,7 +772,7 @@
           "headline_id": "2910c20facad94de",
           "title": "Huge oil slick hitting Oman's shoreline as agencies warn of disaster",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVGNVS3hTUTZFb3JqbU5JZTRLRzRFMWVrcGpmSmx1WHo4MUVraTRveDUtTEhqMFZGbnY1TFc0VDhwQlhEWEh2TTBIbmlfS2NYcVY5SXk5WExhTU5vMTdtSWhVREhqNnlZNzdqekJ0MVM3ZmtMa0p3UE1CWnRqSndGTURsM0ZaaEJIRzRPMS1LQVB1YVJMdXNnM0xXY0Z0WS0zZlJ2R2N5THM1a0NWZThJT0dHbFdoLWg2YmFTTlhvQ29IaHc?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-12T20:14:01+00:00",
           "confidence": 1.0
@@ -820,7 +786,7 @@
       "topic": "oil",
       "lead_title": "South Africa's top court blocks Shell's Wild Coast exploration plans",
       "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUjhZc2EwR1Y4V09VTUJxZWtzTTctNnNXZUpZRU40VnpSUUtfdk5nVnlheVBqSE0zY3ctNjUzcE94cm80ZDk2UElSN0dIaFFocTYxVF91WEROb3ViMHdXWjJaR1QzU18weGZ1eWQtaHZuRS1SVERJOWRvZ0Z5TFJjLTVldjcwampxUWF0dVo1UjhmS3hYbXM0ZHR4UzAxc3RBaHhLN1ViX0ZseDA2Y1BxVWlFaW81YjVmVm9tUG9sZFVSc01qWmwtZg?oc=5",
-      "lead_source": "Reuters",
+      "lead_source": "reuters.com",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
@@ -829,11 +795,11 @@
       ],
       "earliest_seen": "2026-08-14T11:30:13+00:00",
       "latest_seen": "2026-08-14T11:30:13+00:00",
-      "age_hours": 33.08,
-      "score": 33.65,
+      "age_hours": 33.55,
+      "score": 33.37,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.15,
+        "recency_points": 4.87,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -845,7 +811,7 @@
           "headline_id": "e107c6366c7ca97e",
           "title": "South Africa's top court blocks Shell's Wild Coast exploration plans",
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUjhZc2EwR1Y4V09VTUJxZWtzTTctNnNXZUpZRU40VnpSUUtfdk5nVnlheVBqSE0zY3ctNjUzcE94cm80ZDk2UElSN0dIaFFocTYxVF91WEROb3ViMHdXWjJaR1QzU18weGZ1eWQtaHZuRS1SVERJOWRvZ0Z5TFJjLTVldjcwampxUWF0dVo1UjhmS3hYbXM0ZHR4UzAxc3RBaHhLN1ViX0ZseDA2Y1BxVWlFaW81YjVmVm9tUG9sZFVSc01qWmwtZg?oc=5",
-          "source": "Reuters",
+          "source": "reuters.com",
           "source_type": "rss",
           "published_at": "2026-08-14T11:30:13+00:00",
           "confidence": 0.95
@@ -870,7 +836,7 @@
       ],
       "earliest_seen": "2026-08-13T13:25:00+00:00",
       "latest_seen": "2026-08-13T13:25:00+00:00",
-      "age_hours": 55.17,
+      "age_hours": 55.64,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -911,11 +877,11 @@
       ],
       "earliest_seen": "2026-08-14T05:01:00+00:00",
       "latest_seen": "2026-08-14T05:01:00+00:00",
-      "age_hours": 39.57,
-      "score": 32.26,
+      "age_hours": 40.04,
+      "score": 31.98,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.26,
+        "recency_points": 0.98,
         "source_quality_points": 27.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -952,7 +918,7 @@
       ],
       "earliest_seen": "2026-08-13T12:43:17+00:00",
       "latest_seen": "2026-08-13T12:43:17+00:00",
-      "age_hours": 55.87,
+      "age_hours": 56.34,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -993,7 +959,7 @@
       ],
       "earliest_seen": "2026-08-13T08:45:24+00:00",
       "latest_seen": "2026-08-13T08:45:24+00:00",
-      "age_hours": 59.83,
+      "age_hours": 60.3,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1034,7 +1000,7 @@
       ],
       "earliest_seen": "2026-07-27T07:00:00+00:00",
       "latest_seen": "2026-07-27T07:00:00+00:00",
-      "age_hours": 469.59,
+      "age_hours": 470.06,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1075,7 +1041,7 @@
       ],
       "earliest_seen": "2026-07-19T07:00:00+00:00",
       "latest_seen": "2026-07-19T07:00:00+00:00",
-      "age_hours": 661.59,
+      "age_hours": 662.06,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1116,7 +1082,7 @@
       ],
       "earliest_seen": "2026-07-27T07:00:00+00:00",
       "latest_seen": "2026-07-27T07:00:00+00:00",
-      "age_hours": 469.59,
+      "age_hours": 470.06,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -1157,7 +1123,7 @@
       ],
       "earliest_seen": "2026-08-13T01:30:00+00:00",
       "latest_seen": "2026-08-13T01:30:00+00:00",
-      "age_hours": 67.09,
+      "age_hours": 67.56,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
