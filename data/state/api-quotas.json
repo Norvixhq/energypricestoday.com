@@ -2,58 +2,58 @@
   "date": "2026-08-15",
   "apis": {
     "oilpriceapi": {
-      "calls_today": 24,
+      "calls_today": 25,
       "succeeded": 10,
-      "failed": 14,
+      "failed": 15,
       "limit_per_day": 10000,
       "pct_of_limit": 0.2,
       "endpoints": {
-        "prices/all": 24
+        "prices/all": 25
       },
-      "last_call": "2026-08-15T21:00:21.896022+00:00"
+      "last_call": "2026-08-15T21:36:31.435988+00:00"
     },
     "aaa": {
-      "calls_today": 24,
-      "succeeded": 24,
+      "calls_today": 25,
+      "succeeded": 25,
       "failed": 0,
       "limit_per_day": 500,
-      "pct_of_limit": 4.8,
+      "pct_of_limit": 5.0,
       "endpoints": {
-        "gasprices": 24
+        "gasprices": 25
       },
-      "last_call": "2026-08-15T21:00:22.046640+00:00"
+      "last_call": "2026-08-15T21:36:31.601780+00:00"
     },
     "eia": {
-      "calls_today": 96,
-      "succeeded": 35,
-      "failed": 61,
+      "calls_today": 100,
+      "succeeded": 38,
+      "failed": 62,
       "limit_per_day": 5000,
-      "pct_of_limit": 1.9,
+      "pct_of_limit": 2.0,
       "endpoints": {
-        "gasoline/regular": 24,
-        "gasoline/mid": 24,
-        "gasoline/premium": 24,
-        "gasoline/diesel": 24
+        "gasoline/regular": 25,
+        "gasoline/mid": 25,
+        "gasoline/premium": 25,
+        "gasoline/diesel": 25
       },
-      "last_call": "2026-08-15T21:01:05.552209+00:00"
+      "last_call": "2026-08-15T21:37:02.210414+00:00"
     },
     "google_news": {
-      "calls_today": 238,
-      "succeeded": 230,
+      "calls_today": 248,
+      "succeeded": 240,
       "failed": 8,
       "limit_per_day": 5000,
-      "pct_of_limit": 4.8,
+      "pct_of_limit": 5.0,
       "endpoints": {},
-      "last_call": "2026-08-15T21:03:15.568886+00:00"
+      "last_call": "2026-08-15T21:38:56.608972+00:00"
     },
     "gdelt": {
-      "calls_today": 238,
-      "succeeded": 55,
-      "failed": 183,
+      "calls_today": 248,
+      "succeeded": 58,
+      "failed": 190,
       "limit_per_day": 500,
-      "pct_of_limit": 47.6,
+      "pct_of_limit": 49.6,
       "endpoints": {},
-      "last_call": "2026-08-15T21:03:29.334646+00:00"
+      "last_call": "2026-08-15T21:39:06.474546+00:00"
     }
   }
 }
