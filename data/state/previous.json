@@ -1,20 +1,20 @@
 {
   "commodity-prices": {
     "meta": {
-      "generated_at": "2026-08-15T10:00:01.683290+00:00",
+      "generated_at": "2026-08-15T10:33:51.508866+00:00",
       "status": "fresh",
       "source": "oilpriceapi",
       "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
-      "last_success": "2026-08-15T10:00:01.683290+00:00"
+      "last_success": "2026-08-15T10:33:51.508866+00:00"
     },
     "prices": {
       "Brent Crude": {
-        "price": 88.82,
-        "change": 0.81,
-        "pct": 0.92,
+        "price": 88.52,
+        "change": 1.68,
+        "pct": 1.93,
         "unit": "$/bbl",
         "source_code": "BRENT_CRUDE_USD",
-        "updated_at": "2026-08-15T09:56:40Z"
+        "updated_at": "2026-08-15T10:21:37Z"
       },
       "Diesel ULSD": {
         "price": 4.28,
@@ -26,8 +26,8 @@
       },
       "Dutch TTF Natural Gas": {
         "price": 61.5,
-        "change": 0.08,
-        "pct": 0.13,
+        "change": 0.32,
+        "pct": 0.52,
         "unit": "EUR/MWh",
         "source_code": "DUTCH_TTF_EUR",
         "updated_at": "2026-08-15T09:55:48Z"
@@ -42,8 +42,8 @@
       },
       "Heating Oil": {
         "price": 4.28,
-        "change": 0.03,
-        "pct": 0.71,
+        "change": 0.05,
+        "pct": 1.18,
         "unit": "$/gal",
         "source_code": "HEATING_OIL_USD",
         "updated_at": "2026-08-15T09:38:19Z"
@@ -70,7 +70,7 @@
         "pct": 0.0,
         "unit": "$/MMBtu",
         "source_code": "NATURAL_GAS_USD",
-        "updated_at": "2026-08-15T09:57:25Z"
+        "updated_at": "2026-08-15T10:28:39Z"
       },
       "Coal": {
         "price": 129.25,
@@ -82,20 +82,20 @@
       },
       "WTI Crude": {
         "price": 82.4,
-        "change": 0.31,
-        "pct": 0.38,
+        "change": 0.61,
+        "pct": 0.75,
         "unit": "$/bbl",
         "source_code": "WTI_USD",
-        "updated_at": "2026-08-15T09:19:13Z"
+        "updated_at": "2026-08-15T10:30:59Z"
       }
     }
   },
   "gas-prices-national": {
     "meta": {
-      "generated_at": "2026-08-15T10:00:47.907286+00:00",
+      "generated_at": "2026-08-15T10:34:35.895957+00:00",
       "status": "failed"
     },
     "prices": {}
   },
-  "as_of": "2026-08-15T10:03:10.653497+00:00"
+  "as_of": "2026-08-15T10:36:47.482746+00:00"
 }
