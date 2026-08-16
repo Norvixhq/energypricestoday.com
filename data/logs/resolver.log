@@ -633,3 +633,13 @@
 [2026-08-16T11:38:52.179192+00:00]   Δ hormuz_status.retired: 'OPEN' → 'None' (triggers_publish=True)
 [2026-08-16T11:38:52.179717+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
 [2026-08-16T11:38:52.179758+00:00] ════════════════════════════════════════════════════════════
+[2026-08-16T13:39:41.097899+00:00] resolver: start
+[2026-08-16T13:39:41.102071+00:00] resolver: scanning 277 clusters across 10 topics
+[2026-08-16T13:39:41.102381+00:00]   hormuz_status: RETIRED (stale beyond 2× threshold)
+[2026-08-16T13:39:41.103317+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=3)
+[2026-08-16T13:39:41.103432+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-16T13:39:41.103473+00:00]   global_risk_level: LOW (score=10)
+[2026-08-16T13:39:41.103650+00:00]   top_story: 'Baker Hughes US Oil Rig Count Rises to 455 as Drilling Activ' (score=71.91)
+[2026-08-16T13:39:41.103692+00:00] resolver: no state changes
+[2026-08-16T13:39:41.104271+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-08-16T13:39:41.104324+00:00] ════════════════════════════════════════════════════════════
