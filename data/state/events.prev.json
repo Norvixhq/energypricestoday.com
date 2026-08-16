@@ -1,9 +1,50 @@
 {
   "version": 2,
-  "generated_at": "2026-08-16T15:03:44.886647+00:00",
-  "previous_generated_at": "2026-08-16T14:43:44.916184+00:00",
-  "resolver_run_count": 62,
+  "generated_at": "2026-08-16T15:41:00.394685+00:00",
+  "previous_generated_at": "2026-08-16T15:03:44.886647+00:00",
+  "resolver_run_count": 63,
   "events": {
+    "us_iran_ceasefire": {
+      "key": "us_iran_ceasefire",
+      "display_name": "U.S.-Iran Ceasefire",
+      "category": "diplomatic_event",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-08-15T15:49:27+00:00",
+      "source_count": 8,
+      "summary_short": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices",
+      "summary_long": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices. US and Iran target infrastructure as strait shipping comes under further attack",
+      "evidence_cluster_ids": [
+        "c_129fb13d0171c3",
+        "c_11ff4ecc1d831f",
+        "c_7d24fe29b83136",
+        "c_cadc370b1013f6",
+        "c_a315324bf33eb1"
+      ],
+      "evidence_count": 8,
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.next-catalyst",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.ceasefire"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 72,
+      "rationale": [
+        "fell back to default 'HOLDING'"
+      ],
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
+    },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
       "display_name": "OPEC+ Policy",
@@ -40,7 +81,7 @@
       "category": "composite",
       "status": "LOW",
       "risk_level": "LOW",
-      "score": 0,
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
@@ -49,7 +90,9 @@
       "summary_short": "Global energy risk: low.",
       "summary_long": "Risk drivers: no major disruption",
       "summary_micro": "stable",
-      "rationale": [],
+      "rationale": [
+        "ceasefire=HOLDING (+10)"
+      ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
         "geopolitics.risk-meter.level"
@@ -59,9 +102,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-08-16T15:03:44.886505+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -72,8 +113,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYUFGZzJMNnNXR0RSMzFsenJzbXI5UXRudGQ3ODFmUWptSGhSVjRzeXF1amtHZlB5ckdtZmNJN2NjOF9KNTVuekVVZ3V3T1E5Qmd0d1pBR2ZGaFBsWTdmTmtWeWQ4bXhVcnF5Yk4yMlBCTDlwY1Z0enRNUi05cVd4OVZHeGZValVENjZxc21ub3RoWjNtcjhta2RXWV9jemhNWnoyZWJLQTl1Q3BJbk1wTmd5a3V4VU52bEhWbjJpRlVySllpbUhDLVNrSGYtUU9MNC1MdThfeGdlam5tMlBuOA?oc=5",
       "lead_source": "marketscreener.com",
       "topic": "oil",
-      "score": 83.17,
-      "novelty": "growing",
+      "score": 77.8,
+      "novelty": "ongoing",
       "source_count": 2,
       "confidence": 0.95,
       "dependent_modules": [
@@ -86,45 +127,18 @@
   },
   "changes_since_last_run": [
     {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-16T15:03:44.886505+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-16T15:03:44.886505+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "retired",
-      "from": "CONTESTED",
-      "to": null,
-      "detected_at": "2026-08-16T15:03:44.886505+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
       "event_key": "us_iran_ceasefire",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-08-16T15:03:44.886505+00:00",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-08-16T15:41:00.394619+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
     "hormuz_status: retired — last_confirmed too old",
-    "us_iran_ceasefire: retired — last_confirmed too old",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
