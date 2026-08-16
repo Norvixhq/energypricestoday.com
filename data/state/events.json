@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-16T17:37:52.905365+00:00",
-  "previous_generated_at": "2026-08-16T17:04:30.736276+00:00",
-  "resolver_run_count": 66,
+  "generated_at": "2026-08-16T18:43:53.684930+00:00",
+  "previous_generated_at": "2026-08-16T17:37:52.905365+00:00",
+  "resolver_run_count": 67,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -41,14 +41,12 @@
       "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_854e859fb8 → CONTESTED (kw='attack', weight=0.40)",
+        "cluster c_854e859fb8 → CONTESTED (kw='attack', weight=0.38)",
         "cluster c_0ae68bcb43 → CONTESTED (kw='attack', weight=0.11)",
         "cluster c_7f3f31176d → CONTESTED (kw='attack', weight=0.10)",
-        "cluster c_999ba1b1e9 → CONTESTED (kw='attack', weight=0.34)",
-        "winning=CONTESTED (0.94/0.94), conf=0.956"
-      ],
-      "previous_status": "OPEN",
-      "last_changed": "2026-08-16T17:37:52.905156+00:00"
+        "cluster c_999ba1b1e9 → CONTESTED (kw='attack', weight=0.33)",
+        "winning=CONTESTED (0.91/0.91), conf=0.956"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -146,23 +144,21 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-08-16T17:37:52.905156+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_04de4ad6d81ec6",
-      "lead_title": "Baker Hughes US Oil Rig Count Rises to 455 as Drilling Activity Holds Steady",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekRSdkJfNUpIdzlaZ3JkMFFFSTBoN1dadERPSE1xdXpOV3Q2eUNpVjc1ekFhcUd1QjdGRDhucXVmb1FrMFZ3Q0RRLTVHVUYyMWZJWmQydGlsMUxVLVdna0g1VHJYeU51c0xUTzcyM1l4VHVKajRTSjNlVGhGOG13V0J0M1haYnlsVjdzNXloWTUwSk5XdkZQOExNeUJuUkxTQjloZXE5R1Y2UjlQYUVsb0JHcnd1TENSU19pTEdYNA?oc=5",
-      "lead_source": "VT Markets",
-      "topic": "rigcount",
-      "score": 77.93,
-      "novelty": "ongoing",
-      "source_count": 4,
-      "confidence": 0.95,
+      "cluster_id": "c_49858549893a73",
+      "lead_title": "Saudi Arabia says attacks cut oil output and East-West Pipeline flow",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUG43N0U2MXF3b3RKdnkwaTRPeDZhWm1QZjJBYUhyMHB1N0pRdFgxaXZMWGFwT2dSSHFiRHFhdFZEQm14UVc5RlRaclNSR0dHS2I3ei1IeVE1b2NRUjE5NDNqd01SQ1lyTUZZam5WbmI0NlEzNmdTWUxFaWhSdmxzQndlYk1aOTFITHdISHB4RWZQTVlnZnMwLVhTV1RWUFFvSkdlUlNaeUYxMl9qRG9TdThRWGFieDJISndiei1UTGczUkxYYTBOTW1RNA?oc=5",
+      "lead_source": "Reuters",
+      "topic": "breaking",
+      "score": 38.55,
+      "novelty": "decaying",
+      "source_count": 2,
+      "confidence": 0.79275,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
       ],
@@ -171,53 +167,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "OPEN",
-      "to": "CONTESTED",
-      "detected_at": "2026-08-16T17:37:52.905156+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-16T17:37:52.905156+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-08-16T17:37:52.905156+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-16T17:37:52.905156+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-16T17:37:52.905156+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=CONTESTED, confidence=0.813, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
