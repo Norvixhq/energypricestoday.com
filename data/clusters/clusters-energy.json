@@ -1,11 +1,11 @@
 {
   "topic": "energy",
-  "generated_at": "2026-08-16T13:39:40.988612+00:00",
+  "generated_at": "2026-08-16T14:04:18.359124+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 29,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_e6eca519da1e3c",
@@ -17,24 +17,24 @@
         "crude",
         "oil"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-16T08:17:41+00:00",
+      "earliest_seen": "2026-08-14T20:11:37+00:00",
       "latest_seen": "2026-08-16T08:17:41+00:00",
-      "age_hours": 5.37,
-      "score": 65.78,
+      "age_hours": 5.78,
+      "score": 65.53,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.78,
+        "source_count_points": 10,
+        "recency_points": 21.53,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c0f15c1e2eadee96",
@@ -43,6 +43,117 @@
           "source": "NDTV Profit",
           "source_type": "rss",
           "published_at": "2026-08-16T08:17:41+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "02d1044c76fd88f4",
+          "title": "US Equity Markets End Lower Amid Weak Retail Sales Data, Rise in Crude Oil Prices",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSzFFSGJtalZqMmxMeUx3UEMwT1RUcDkyN2xxTTc2ai1ycDBWMl9ocTlKYVZSNlM4a0hSZ0ZUenZCWUxzVTluaGluQkM3eEVSZzk2dzM4bEkwSWs5U1lJV1MtUlJDWU5BcUJXeUFYeGZVUm1pMHdRX1FVVU15UGNiTHo5S2RYYzNEc2hVcE9EejVwZVVsbHZ5bkgtcVpnVzY1cGx3Tk9ySXk0eHdtNDNSczNqd0RBMjVndWpPX3JXODdaRXNzSFlwNHJWd1FJZw?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-08-14T20:11:37+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_93ded4c35e5893",
+      "topic": "energy",
+      "lead_title": "[Stock Market Outlook for Today] Continued gains driven by lower crude oil prices and higher semiconductor stocks (14th)",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlRmN1ZOaC1tSEtWVm1rRnJJWlNOT0VWa1VWUmtyOC1kUVBpTG51OVYyc05ualZtall2c1dVSkpEUy1tQUlNWWE3Wm13elltZHY5UW9RMElfWWFUNzFUeng2aTk4enBPR0FzSllsY0VPWE5Pc0tDTW4xMlQ3eWV0NnJHQmN3SkN5SzFTMVk2UVozTTEyQjd3R2wzMlA2YkpVTWpQcEg3WQ?oc=5",
+      "lead_source": "Moomoo",
+      "canonical_entities": [
+        "crude",
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-13T20:00:22+00:00",
+      "latest_seen": "2026-08-13T22:23:00+00:00",
+      "age_hours": 63.69,
+      "score": 49.0,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b0d9277df4f98d92",
+          "title": "[Stock Market Outlook for Today] Continued gains driven by lower crude oil prices and higher semiconductor stocks (14th)",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlRmN1ZOaC1tSEtWVm1rRnJJWlNOT0VWa1VWUmtyOC1kUVBpTG51OVYyc05ualZtall2c1dVSkpEUy1tQUlNWWE3Wm13elltZHY5UW9RMElfWWFUNzFUeng2aTk4enBPR0FzSllsY0VPWE5Pc0tDTW4xMlQ3eWV0NnJHQmN3SkN5SzFTMVk2UVozTTEyQjd3R2wzMlA2YkpVTWpQcEg3WQ?oc=5",
+          "source": "Moomoo",
+          "source_type": "rss",
+          "published_at": "2026-08-13T22:23:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "059a58187c79a713",
+          "title": "US Equity Markets End Higher Amid Weak Producer Inflation Print, Drop in Crude Oil Prices",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNV2Ywa0lWZGdZSC13T04yU2hPcEpmaG5sYnhPazZFV3RUR3dQNy1oZ2xTVFZYR1Z4dEVTMVViZXBkZ2dLRThhRTlKUWFXVDdWTldtSmZiQ3l2QmM1RVlLQ05iSGlJcVIzOTVtU3paUWs2NThuRUJxY0syOEdCX2pLZmZCWGUzUXk0V0NxbnVIaW9XYVVLVDFXSTJkRjh5TEFoekQyQmlHWGtzVXBjNmxYM3VSWjktMFlvMGVCSkVQSVA0ODF3cDFpU1BROXhtY3Rpd2JEZ09pS1g?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-08-13T20:00:22+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_b56bcabfb2566c",
+      "topic": "energy",
+      "lead_title": "Energy Commodity Trading Explained: Five Questions on How Oil and Gas Markets Really Work",
+      "lead_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUFp5NWNsM1JuamNEUVZKN0I4a2pkbUFVYzE4RU5aX1d2RkFQcGZ6b2pNY0hjbHhEc21NVkFhY3hMMFZOa1dyZXFoVVVteGYwb1VNcVJQSEpVcmp1MV9CWkJuZTkyRXVLaHhVUkdzTTJqLS1KLWw5LXl4NVMzd3hsOGYydjhUaTJqaGZWV2JUSWxvR05FZExnZENFdkszRFBsN3VkTnpxVlc0d3g1NUdCZjVsOFVzOG44QVNLd1p0VWZmaE1GbktxaXdneGwwdHpPZ2doRW0zbTM?oc=5",
+      "lead_source": "Foley & Lardner LLP",
+      "canonical_entities": [
+        "energy",
+        "oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-11T10:05:00+00:00",
+      "latest_seen": "2026-08-11T15:56:47+00:00",
+      "age_hours": 118.13,
+      "score": 49.0,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "19aed41fc677c982",
+          "title": "Energy Commodity Trading Explained: Five Questions on How Oil and Gas Markets Really Work",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUFp5NWNsM1JuamNEUVZKN0I4a2pkbUFVYzE4RU5aX1d2RkFQcGZ6b2pNY0hjbHhEc21NVkFhY3hMMFZOa1dyZXFoVVVteGYwb1VNcVJQSEpVcmp1MV9CWkJuZTkyRXVLaHhVUkdzTTJqLS1KLWw5LXl4NVMzd3hsOGYydjhUaTJqaGZWV2JUSWxvR05FZExnZENFdkszRFBsN3VkTnpxVlc0d3g1NUdCZjVsOFVzOG44QVNLd1p0VWZmaE1GbktxaXdneGwwdHpPZ2doRW0zbTM?oc=5",
+          "source": "Foley & Lardner LLP",
+          "source_type": "rss",
+          "published_at": "2026-08-11T15:56:47+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "03dfb0b819884f2f",
+          "title": "Oil Prices See $8 Roundtrip, Energy Market Pricing In Longer Supply Disruption",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcHlGNm16Z3hvaURLRm1nc0hsSmRaTHpzZ2ZnMGp5TDMyRGk1OTYyMjVuYlZJaDR2Mk1lbktfNEg5SHFTMWhpaUIwajhVQTdyVElnU2FKdVhvU205UjZpQk9INmpoaGN6YU1ObFRfaWh2SDEzLTZEZndaeldfVkVfcFpmVE1oWnlycXB6RUwwUjFHRTZ5a0sxa08zUEZpTUFPVE1UcDU3c0tJcXhhYmNwSGRkcWJCQQ?oc=5",
+          "source": "Seeking Alpha",
+          "source_type": "rss",
+          "published_at": "2026-08-11T10:05:00+00:00",
           "confidence": 0.7
         }
       ],
@@ -68,7 +179,7 @@
       ],
       "earliest_seen": "2026-07-20T07:00:00+00:00",
       "latest_seen": "2026-07-22T07:00:00+00:00",
-      "age_hours": 606.66,
+      "age_hours": 607.07,
       "score": 47.7,
       "score_components": {
         "source_count_points": 10,
@@ -99,16 +210,17 @@
           "confidence": 0.8
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_36fcef7fa09840",
+      "cluster_id": "c_6d4121407e682e",
       "topic": "energy",
-      "lead_title": "Russia Captures Record Share of India's Oil Market",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcDFJUzE0ZHJ2SV92UWJuSXI4cEJLb251VjBCMXVjWnktYlZ1clp5ck1qbTQ1NlRnSTUtOUNMS3N6OWN3QkJsUW9mQWN5eXVYbVBudVZ0M1JhWE5wN3l2bk9INEY2QUxhZkVPWTlqMG1PbmFyXzY1dUd0eFpvRE4yV0ZiZUp1RXJOb3ZTSGxJZHRFT2N6T0lHODBpSG9PVXpIdmNZMFRHN0fSAa4BQVVfeXFMTW1GYkxBa2VmUExBSnBqQjJMVTVtX1RnOVZRSDlXanFvNENtY2xlMXVWRG10aGsxNGx6Qkd6ajVITk1ybEZlSXVlVWNBRWpocWc3bjJuZ214aGRaMDlTTy1XM3pNZ2xGandodW54SXktTmZTY1ljeHJyT0FsLU5RUFgzQVZvZ3FINGpYRWh3cUNQMWE0SUh5TFA2a1JIVlVrbnpUbk5CMGpYaHZEdVhB?oc=5",
-      "lead_source": "oilprice.com",
+      "lead_title": "WTI (USOIL) Is up 2.30% on Aug 14: Is the Market Repricing It?",
+      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdWhXT3oyUWtKSVFMem9RbnUyeFhsNnhocjlJN2trdTRuY1hzUlRXOXMxSEtDTXBrRzVlUVRibUdtQjVhTGNkNEp5MTE1SnJhTGRpS21kWC14TG5acUF3eTh5aVZYQTJfWUQ1VWJhWlp2VU1sSWxraTZTTXdRRGJpb1pwMmxXSEJkTktobQ?oc=5",
+      "lead_source": "TradingKey",
       "canonical_entities": [
+        "WTI",
         "oil"
       ],
       "source_count": 1,
@@ -116,229 +228,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-14T07:00:00+00:00",
-      "latest_seen": "2026-08-14T07:00:00+00:00",
-      "age_hours": 54.66,
-      "score": 45.1,
+      "earliest_seen": "2026-08-14T07:15:22+00:00",
+      "latest_seen": "2026-08-14T07:15:22+00:00",
+      "age_hours": 54.82,
+      "score": 44.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 26.1,
-        "entity_relevance_points": 4,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "751b38080a2cb6a0",
-          "title": "Russia Captures Record Share of India's Oil Market",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcDFJUzE0ZHJ2SV92UWJuSXI4cEJLb251VjBCMXVjWnktYlZ1clp5ck1qbTQ1NlRnSTUtOUNMS3N6OWN3QkJsUW9mQWN5eXVYbVBudVZ0M1JhWE5wN3l2bk9INEY2QUxhZkVPWTlqMG1PbmFyXzY1dUd0eFpvRE4yV0ZiZUp1RXJOb3ZTSGxJZHRFT2N6T0lHODBpSG9PVXpIdmNZMFRHN0fSAa4BQVVfeXFMTW1GYkxBa2VmUExBSnBqQjJMVTVtX1RnOVZRSDlXanFvNENtY2xlMXVWRG10aGsxNGx6Qkd6ajVITk1ybEZlSXVlVWNBRWpocWc3bjJuZ214aGRaMDlTTy1XM3pNZ2xGandodW54SXktTmZTY1ljeHJyT0FsLU5RUFgzQVZvZ3FINGpYRWh3cUNQMWE0SUh5TFA2a1JIVlVrbnpUbk5CMGpYaHZEdVhB?oc=5",
-          "source": "oilprice.com",
+          "headline_id": "ba2ae4f429d15eee",
+          "title": "WTI (USOIL) Is up 2.30% on Aug 14: Is the Market Repricing It?",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdWhXT3oyUWtKSVFMem9RbnUyeFhsNnhocjlJN2trdTRuY1hzUlRXOXMxSEtDTXBrRzVlUVRibUdtQjVhTGNkNEp5MTE1SnJhTGRpS21kWC14TG5acUF3eTh5aVZYQTJfWUQ1VWJhWlp2VU1sSWxraTZTTXdRRGJpb1pwMmxXSEJkTktobQ?oc=5",
+          "source": "TradingKey",
           "source_type": "rss",
-          "published_at": "2026-08-14T07:00:00+00:00",
-          "confidence": 0.87
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5d7306d53e6117",
-      "topic": "energy",
-      "lead_title": "Oil Prices Head for 4% Weekly Gain as U.S.-Iran Deadlock Drags On",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSkdlUVJ2MUJ6eF83SnhBaXdkX3VsMnlxa2cxbzlBTTRiZlg3SndQeG5DTWhBM3IzYjJpUzhNZEVxRHVqNVBNTzQtelRaYzZoZklkNmZ5ai1hQzNSUmhmTXA4ZGtHQlF0RkxQSXRaeW1XWC1FRzdwakxFNkFOM0drdnVCd251LWpXQmppTDFVbFEzV1R0TEZkdk1qQ092UnU1Tm81aU50eGFvSE82X3cyQ2Y2UFMxa3E1dmfSAb8BQVVfeXFMT04tWFlsSXpsYTRET2pxR2Q4WVhMUVlqcmtPM0daNE5yUDQ5Y3plbW9Xamk1Y2E4MGRvYy1aMmdGTmxrenZrc1NQSDJIa2V2N3A1OGFSVTVzaHNmZmJfZFkyd01yZHQ5ZTlKUW5kdnRIek5vdW5hOXVQUVh3QW94ZWxKVm5QQmkyVVYzTzlTc2pFWGdsOXN1VnVuREZFdlVVa1FvcktWb2EyNVNqQTlkU0JVMjRMQ0Y5OHphdTdhMmc?oc=5",
-      "lead_source": "oilprice.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T05:40:00+00:00",
-      "latest_seen": "2026-08-14T05:40:00+00:00",
-      "age_hours": 55.99,
-      "score": 45.1,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "8731f7ffc98e9519",
-          "title": "Oil Prices Head for 4% Weekly Gain as U.S.-Iran Deadlock Drags On",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSkdlUVJ2MUJ6eF83SnhBaXdkX3VsMnlxa2cxbzlBTTRiZlg3SndQeG5DTWhBM3IzYjJpUzhNZEVxRHVqNVBNTzQtelRaYzZoZklkNmZ5ai1hQzNSUmhmTXA4ZGtHQlF0RkxQSXRaeW1XWC1FRzdwakxFNkFOM0drdnVCd251LWpXQmppTDFVbFEzV1R0TEZkdk1qQ092UnU1Tm81aU50eGFvSE82X3cyQ2Y2UFMxa3E1dmfSAb8BQVVfeXFMT04tWFlsSXpsYTRET2pxR2Q4WVhMUVlqcmtPM0daNE5yUDQ5Y3plbW9Xamk1Y2E4MGRvYy1aMmdGTmxrenZrc1NQSDJIa2V2N3A1OGFSVTVzaHNmZmJfZFkyd01yZHQ5ZTlKUW5kdnRIek5vdW5hOXVQUVh3QW94ZWxKVm5QQmkyVVYzTzlTc2pFWGdsOXN1VnVuREZFdlVVa1FvcktWb2EyNVNqQTlkU0JVMjRMQ0Y5OHphdTdhMmc?oc=5",
-          "source": "oilprice.com",
-          "source_type": "rss",
-          "published_at": "2026-08-14T05:40:00+00:00",
-          "confidence": 0.87
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6d7fd572f7a5d0",
-      "topic": "energy",
-      "lead_title": "Jefferies Diesel Cracks Reveal the Real Oil Market Squeeze",
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDJPNW9TNDczd2xiQmZvV0NRVmlZeWk2VF9xVzdqcktmMjJSUDhIVGNmdUlBYXp1STB5OUkyMEszQWp6VHdfcWZvU1FZWlhtM0YyMmNvRHktUXVlZjdkRUdZTHRGRWgwM0JwTkR4VG00cWN1VWFNQUhpSzJGc0RUNXVmWUdxTTNoVUhHM2VsM3BXMjlGOHRkMTJWZUhwbWd1YVlv0gGoAUFVX3lxTE1wNldhRGJSMTY4dkotUFIzNFQwQ0U3OFdPbTJmVGFvRURUZWRVdjRwWDFOUThCeVZrU3c4VFRNb0dNSWFONEtyRWo0Vk1MRTRfa0txZHVyV05TZkwtNHQyOENjdkp4WU5jaUJVbFFHZEdVYnJaVEhxVnlMTkQtSTVVSUQ4NjNmcFlIMlV1SVRiQTlVRm9ZRGR5YnNzRDRhNTBVQ1BvZ2VTUA?oc=5",
-      "lead_source": "oilprice.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-13T17:00:00+00:00",
-      "latest_seen": "2026-08-13T17:00:00+00:00",
-      "age_hours": 68.66,
-      "score": 45.1,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "4160c880755735c6",
-          "title": "Jefferies Diesel Cracks Reveal the Real Oil Market Squeeze",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDJPNW9TNDczd2xiQmZvV0NRVmlZeWk2VF9xVzdqcktmMjJSUDhIVGNmdUlBYXp1STB5OUkyMEszQWp6VHdfcWZvU1FZWlhtM0YyMmNvRHktUXVlZjdkRUdZTHRGRWgwM0JwTkR4VG00cWN1VWFNQUhpSzJGc0RUNXVmWUdxTTNoVUhHM2VsM3BXMjlGOHRkMTJWZUhwbWd1YVlv0gGoAUFVX3lxTE1wNldhRGJSMTY4dkotUFIzNFQwQ0U3OFdPbTJmVGFvRURUZWRVdjRwWDFOUThCeVZrU3c4VFRNb0dNSWFONEtyRWo0Vk1MRTRfa0txZHVyV05TZkwtNHQyOENjdkp4WU5jaUJVbFFHZEdVYnJaVEhxVnlMTkQtSTVVSUQ4NjNmcFlIMlV1SVRiQTlVRm9ZRGR5YnNzRDRhNTBVQ1BvZ2VTUA?oc=5",
-          "source": "oilprice.com",
-          "source_type": "rss",
-          "published_at": "2026-08-13T17:00:00+00:00",
-          "confidence": 0.87
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a8fb4aaa76c2eb",
-      "topic": "energy",
-      "lead_title": "Oil Prices Ignore the Warning Signs in Physical Markets",
-      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0szWUttSVVEanNRckhGR2dwZFZaRDhTdUNDZXF4R28ycXVZaDhleElvUmxETGhJMkF6QnRFWWRzNk9oVllnSlRVLUk5UDJFempGM1JzcjdFcVg1ZlBNNmFRTDR5eFBwQTI4N1BRNi1IMTgwNzdWWnBJZXRscFNvWjF6ckNPMnpITVVKcm95WFBydmNvMndIZnhPbHRaOUlseUZHVzRR0gGrAUFVX3lxTE1BTU5OMDkzbDE3ZnhlaHpDdGQ2TmRxbk9MSF9JcE1naFc0WGsyeGFHaWVucDVIMWdoVjl5c2VpNTFfOHNBSW81bGpVbFNMNG9hZFpCbXhvdlh0anVvOGlMaERRRnplaTIxY2NkZU9yLV9RT1J3T3c4MDdMVlRmYlgyakplYTctRWVtRHo2QzRzbklZY29ycW9kejdMWTl4dXdRN0NUSFh0bDZCQQ?oc=5",
-      "lead_source": "oilprice.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-07-28T07:00:00+00:00",
-      "latest_seen": "2026-07-28T07:00:00+00:00",
-      "age_hours": 462.66,
-      "score": 45.1,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "50579da31c6c266d",
-          "title": "Oil Prices Ignore the Warning Signs in Physical Markets",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0szWUttSVVEanNRckhGR2dwZFZaRDhTdUNDZXF4R28ycXVZaDhleElvUmxETGhJMkF6QnRFWWRzNk9oVllnSlRVLUk5UDJFempGM1JzcjdFcVg1ZlBNNmFRTDR5eFBwQTI4N1BRNi1IMTgwNzdWWnBJZXRscFNvWjF6ckNPMnpITVVKcm95WFBydmNvMndIZnhPbHRaOUlseUZHVzRR0gGrAUFVX3lxTE1BTU5OMDkzbDE3ZnhlaHpDdGQ2TmRxbk9MSF9JcE1naFc0WGsyeGFHaWVucDVIMWdoVjl5c2VpNTFfOHNBSW81bGpVbFNMNG9hZFpCbXhvdlh0anVvOGlMaERRRnplaTIxY2NkZU9yLV9RT1J3T3c4MDdMVlRmYlgyakplYTctRWVtRHo2QzRzbklZY29ycW9kejdMWTl4dXdRN0NUSFh0bDZCQQ?oc=5",
-          "source": "oilprice.com",
-          "source_type": "rss",
-          "published_at": "2026-07-28T07:00:00+00:00",
-          "confidence": 0.87
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7e6cf24ad40f8d",
-      "topic": "energy",
-      "lead_title": "Why a Record-Strength El Nio Still Might Not Save Europe's Gas Market",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNamhzeTFOQ3I5WHFNRERWMmpET2NqSElRZXpBSVk4a0lWTEt1V1Zrcm5pa2Fna0UxYzVPcUpYaWVTUW5qZ3diOXlQZFFuUVBDU1l2WGxVcGYyejJjTzV5T2FsWS1Sb2RBaEJFRHk0eXE0QTQxT0VuWlkzRFNSUGpDRFdYY3ZuQ3l6Rlpxc0I3NkZZTDJzeFEzS3BOQV9Ld3NUeEZIeUNrbzhaeTVOZXlqeENzczhYLVHSAbwBQVVfeXFMTVRNQk5tbWZlSUFtNFNxbGU3VFdnbEczOGlVYjFSb2Vwb1VxRmRUMnFRQXdfV01lREptRmlwNTJtVmRGOVFvLWlEMklnck9taW5jZE9id0dwVXRKY2c1ZEw5NlFaaUtEajNZNmVNMVJUZ2kyOW5Zd3I0NFltT3BIZjlqU01DelpjN0tNQnk4Y1BwNTZRRUY0b2Mxc3FGMTMybFI4ekhBel83QzdBNWowYkgtZlFHSng3ZVhoYko?oc=5",
-      "lead_source": "oilprice.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-14T20:00:00+00:00",
-      "latest_seen": "2026-08-14T20:00:00+00:00",
-      "age_hours": 41.66,
-      "score": 39.6,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 24.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "47f38f9a3075084c",
-          "title": "Why a Record-Strength El Nio Still Might Not Save Europe's Gas Market",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNamhzeTFOQ3I5WHFNRERWMmpET2NqSElRZXpBSVk4a0lWTEt1V1Zrcm5pa2Fna0UxYzVPcUpYaWVTUW5qZ3diOXlQZFFuUVBDU1l2WGxVcGYyejJjTzV5T2FsWS1Sb2RBaEJFRHk0eXE0QTQxT0VuWlkzRFNSUGpDRFdYY3ZuQ3l6Rlpxc0I3NkZZTDJzeFEzS3BOQV9Ld3NUeEZIeUNrbzhaeTVOZXlqeENzczhYLVHSAbwBQVVfeXFMTVRNQk5tbWZlSUFtNFNxbGU3VFdnbEczOGlVYjFSb2Vwb1VxRmRUMnFRQXdfV01lREptRmlwNTJtVmRGOVFvLWlEMklnck9taW5jZE9id0dwVXRKY2c1ZEw5NlFaaUtEajNZNmVNMVJUZ2kyOW5Zd3I0NFltT3BIZjlqU01DelpjN0tNQnk4Y1BwNTZRRUY0b2Mxc3FGMTMybFI4ekhBel83QzdBNWowYkgtZlFHSng3ZVhoYko?oc=5",
-          "source": "oilprice.com",
-          "source_type": "rss",
-          "published_at": "2026-08-14T20:00:00+00:00",
-          "confidence": 0.82
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_89f20442617523",
-      "topic": "energy",
-      "lead_title": "Russia's Diesel Exports Crash to Multiyear-Low amid Tight Global Market",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmRQLW03R3c3c2lrbWVoSmI0V0RMM2RlRnZkaThRVURMTmlmZUxtcFUwWXdWR3kzb0N4UTBXelEwcU9DejJXblpTbUVFQzVrSkg0X3lYVzVpRHB1RDB0RHY2bzFuUGRtM3hQMGkzdlRXa3FUbkpGR2NnaV9mLXVPRVVURDBDZFh4S2h2STdMUlJ5MGxETkVEdkIzTEo2aVJqUEUzLWU4ckloNks2QURLZFgxUG1xcGFZMnfSAb8BQVVfeXFMTzkybGdsUGZIb29ZUE9VaWpZNTZkbFdmVFFFdEd0NXBrb1hzeHQ5OGNvMkNLTEZmTnh3Q0R0RGFNbG9UN1lET1VLcGtpOUpWa2hENG1qdzBOWnVPdnVHdTZtbjBxdFQxYmRWVDlSeVhuZ2gtUlRvOHZvdDJSYjk0eWp6WVU4bkx4LWNTZ2NFR2s5T1VaMThTb0NiRThYaUpTSkd1OEJNc2VRM0tKTW9NWlVfR3FlZTZicUNFdXIxeTQ?oc=5",
-      "lead_source": "oilprice.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-13T19:00:00+00:00",
-      "latest_seen": "2026-08-13T19:00:00+00:00",
-      "age_hours": 66.66,
-      "score": 39.6,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 24.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "5dc6f4eea8634b19",
-          "title": "Russia's Diesel Exports Crash to Multiyear-Low amid Tight Global Market",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWmRQLW03R3c3c2lrbWVoSmI0V0RMM2RlRnZkaThRVURMTmlmZUxtcFUwWXdWR3kzb0N4UTBXelEwcU9DejJXblpTbUVFQzVrSkg0X3lYVzVpRHB1RDB0RHY2bzFuUGRtM3hQMGkzdlRXa3FUbkpGR2NnaV9mLXVPRVVURDBDZFh4S2h2STdMUlJ5MGxETkVEdkIzTEo2aVJqUEUzLWU4ckloNks2QURLZFgxUG1xcGFZMnfSAb8BQVVfeXFMTzkybGdsUGZIb29ZUE9VaWpZNTZkbFdmVFFFdEd0NXBrb1hzeHQ5OGNvMkNLTEZmTnh3Q0R0RGFNbG9UN1lET1VLcGtpOUpWa2hENG1qdzBOWnVPdnVHdTZtbjBxdFQxYmRWVDlSeVhuZ2gtUlRvOHZvdDJSYjk0eWp6WVU4bkx4LWNTZ2NFR2s5T1VaMThTb0NiRThYaUpTSkd1OEJNc2VRM0tKTW9NWlVfR3FlZTZicUNFdXIxeTQ?oc=5",
-          "source": "oilprice.com",
-          "source_type": "rss",
-          "published_at": "2026-08-13T19:00:00+00:00",
-          "confidence": 0.82
+          "published_at": "2026-08-14T07:15:22+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -361,7 +272,7 @@
       ],
       "earliest_seen": "2026-07-31T07:00:00+00:00",
       "latest_seen": "2026-07-31T07:00:00+00:00",
-      "age_hours": 390.66,
+      "age_hours": 391.07,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -403,11 +314,11 @@
       ],
       "earliest_seen": "2026-08-15T10:29:52+00:00",
       "latest_seen": "2026-08-15T10:29:52+00:00",
-      "age_hours": 27.16,
-      "score": 37.7,
+      "age_hours": 27.57,
+      "score": 37.46,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.7,
+        "recency_points": 8.46,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
@@ -444,11 +355,11 @@
       ],
       "earliest_seen": "2026-08-14T23:10:58+00:00",
       "latest_seen": "2026-08-14T23:10:58+00:00",
-      "age_hours": 38.48,
-      "score": 35.91,
+      "age_hours": 38.89,
+      "score": 35.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.91,
+        "recency_points": 1.67,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -485,7 +396,7 @@
       ],
       "earliest_seen": "2026-08-14T16:27:21+00:00",
       "latest_seen": "2026-08-14T16:27:21+00:00",
-      "age_hours": 45.21,
+      "age_hours": 45.62,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -526,7 +437,7 @@
       ],
       "earliest_seen": "2026-08-13T21:18:27+00:00",
       "latest_seen": "2026-08-13T21:18:27+00:00",
-      "age_hours": 64.35,
+      "age_hours": 64.76,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -567,7 +478,7 @@
       ],
       "earliest_seen": "2026-07-30T07:00:00+00:00",
       "latest_seen": "2026-07-30T07:00:00+00:00",
-      "age_hours": 414.66,
+      "age_hours": 415.07,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -608,7 +519,7 @@
       ],
       "earliest_seen": "2026-07-28T07:00:00+00:00",
       "latest_seen": "2026-07-28T07:00:00+00:00",
-      "age_hours": 462.66,
+      "age_hours": 463.07,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -649,7 +560,7 @@
       ],
       "earliest_seen": "2026-07-22T07:00:00+00:00",
       "latest_seen": "2026-07-22T07:00:00+00:00",
-      "age_hours": 606.66,
+      "age_hours": 607.07,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -690,7 +601,7 @@
       ],
       "earliest_seen": "2026-07-09T07:00:00+00:00",
       "latest_seen": "2026-07-09T07:00:00+00:00",
-      "age_hours": 918.66,
+      "age_hours": 919.07,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -731,7 +642,7 @@
       ],
       "earliest_seen": "2026-07-24T07:00:00+00:00",
       "latest_seen": "2026-07-24T07:00:00+00:00",
-      "age_hours": 558.66,
+      "age_hours": 559.07,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -772,7 +683,7 @@
       ],
       "earliest_seen": "2026-08-13T08:45:24+00:00",
       "latest_seen": "2026-08-13T08:45:24+00:00",
-      "age_hours": 76.9,
+      "age_hours": 77.32,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -813,7 +724,7 @@
       ],
       "earliest_seen": "2026-08-02T07:00:00+00:00",
       "latest_seen": "2026-08-02T07:00:00+00:00",
-      "age_hours": 342.66,
+      "age_hours": 343.07,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -854,7 +765,7 @@
       ],
       "earliest_seen": "2026-07-24T07:00:00+00:00",
       "latest_seen": "2026-07-24T07:00:00+00:00",
-      "age_hours": 558.66,
+      "age_hours": 559.07,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -895,7 +806,7 @@
       ],
       "earliest_seen": "2026-07-22T07:00:00+00:00",
       "latest_seen": "2026-07-22T07:00:00+00:00",
-      "age_hours": 606.66,
+      "age_hours": 607.07,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -936,7 +847,7 @@
       ],
       "earliest_seen": "2026-07-22T07:00:00+00:00",
       "latest_seen": "2026-07-22T07:00:00+00:00",
-      "age_hours": 606.66,
+      "age_hours": 607.07,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -977,7 +888,7 @@
       ],
       "earliest_seen": "2026-07-20T07:00:00+00:00",
       "latest_seen": "2026-07-20T07:00:00+00:00",
-      "age_hours": 654.66,
+      "age_hours": 655.07,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1018,7 +929,7 @@
       ],
       "earliest_seen": "2026-07-19T07:00:00+00:00",
       "latest_seen": "2026-07-19T07:00:00+00:00",
-      "age_hours": 678.66,
+      "age_hours": 679.07,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1059,7 +970,7 @@
       ],
       "earliest_seen": "2026-06-29T07:00:00+00:00",
       "latest_seen": "2026-06-29T07:00:00+00:00",
-      "age_hours": 1158.66,
+      "age_hours": 1159.07,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1098,11 +1009,11 @@
       ],
       "earliest_seen": "2026-08-14T22:57:49+00:00",
       "latest_seen": "2026-08-14T22:57:49+00:00",
-      "age_hours": 38.7,
-      "score": 30.28,
+      "age_hours": 39.11,
+      "score": 30.04,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.78,
+        "recency_points": 1.54,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -1139,7 +1050,7 @@
       ],
       "earliest_seen": "2026-08-03T07:00:00+00:00",
       "latest_seen": "2026-08-03T07:00:00+00:00",
-      "age_hours": 318.66,
+      "age_hours": 319.07,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -1180,7 +1091,7 @@
       ],
       "earliest_seen": "2026-07-22T07:00:00+00:00",
       "latest_seen": "2026-07-22T07:00:00+00:00",
-      "age_hours": 606.66,
+      "age_hours": 607.07,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
