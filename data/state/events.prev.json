@@ -1,30 +1,24 @@
 {
   "version": 2,
-  "generated_at": "2026-08-16T15:41:00.394685+00:00",
-  "previous_generated_at": "2026-08-16T15:03:44.886647+00:00",
-  "resolver_run_count": 63,
+  "generated_at": "2026-08-16T16:38:35.678283+00:00",
+  "previous_generated_at": "2026-08-16T15:41:00.394685+00:00",
+  "resolver_run_count": 64,
   "events": {
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-15T15:49:27+00:00",
-      "source_count": 8,
-      "summary_short": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices",
-      "summary_long": "Iran defiant on strait as Trump tells Americans to accept high gasoline prices. US and Iran target infrastructure as strait shipping comes under further attack",
-      "evidence_cluster_ids": [
-        "c_129fb13d0171c3",
-        "c_11ff4ecc1d831f",
-        "c_7d24fe29b83136",
-        "c_cadc370b1013f6",
-        "c_a315324bf33eb1"
-      ],
-      "evidence_count": 8,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -39,7 +33,7 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -108,14 +102,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_8581e52070d49b",
-      "lead_title": "September WTI Crude Oil Contract Closes Up $1.15, or 1.4%; Settles at $82.40 per Barrel. October Brent Oil Was Last Seen Up $1.31, or 1.5%, to $88.38.",
-      "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYUFGZzJMNnNXR0RSMzFsenJzbXI5UXRudGQ3ODFmUWptSGhSVjRzeXF1amtHZlB5ckdtZmNJN2NjOF9KNTVuekVVZ3V3T1E5Qmd0d1pBR2ZGaFBsWTdmTmtWeWQ4bXhVcnF5Yk4yMlBCTDlwY1Z0enRNUi05cVd4OVZHeGZValVENjZxc21ub3RoWjNtcjhta2RXWV9jemhNWnoyZWJLQTl1Q3BJbk1wTmd5a3V4VU52bEhWbjJpRlVySllpbUhDLVNrSGYtUU9MNC1MdThfeGdlam5tMlBuOA?oc=5",
-      "lead_source": "marketscreener.com",
-      "topic": "oil",
-      "score": 77.8,
-      "novelty": "ongoing",
-      "source_count": 2,
+      "cluster_id": "c_04de4ad6d81ec6",
+      "lead_title": "Baker Hughes US Oil Rig Count Rises to 455 as Drilling Activity Holds Steady",
+      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekRSdkJfNUpIdzlaZ3JkMFFFSTBoN1dadERPSE1xdXpOV3Q2eUNpVjc1ekFhcUd1QjdGRDhucXVmb1FrMFZ3Q0RRLTVHVUYyMWZJWmQydGlsMUxVLVdna0g1VHJYeU51c0xUTzcyM1l4VHVKajRTSjNlVGhGOG13V0J0M1haYnlsVjdzNXloWTUwSk5XdkZQOExNeUJuUkxTQjloZXE5R1Y2UjlQYUVsb0JHcnd1TENSU19pTEdYNA?oc=5",
+      "lead_source": "VT Markets",
+      "topic": "rigcount",
+      "score": 83.2,
+      "novelty": "growing",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -125,17 +119,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-08-16T15:41:00.394619+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: retired — last_confirmed too old",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
