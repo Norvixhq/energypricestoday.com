@@ -528,3 +528,14 @@
 [2026-08-16T03:09:08.080999+00:00] resolver: no state changes
 [2026-08-16T03:09:08.081570+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-16T03:09:08.081614+00:00] ════════════════════════════════════════════════════════════
+[2026-08-16T04:04:05.967076+00:00] resolver: start
+[2026-08-16T04:04:05.971522+00:00] resolver: scanning 269 clusters across 10 topics
+[2026-08-16T04:04:05.971807+00:00]   hormuz_status: RETIRED (stale beyond 2× threshold)
+[2026-08-16T04:04:05.971993+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-16T04:04:05.972101+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-16T04:04:05.972143+00:00]   global_risk_level: LOW (score=10)
+[2026-08-16T04:04:05.972306+00:00]   top_story: 'U.S. Crude Oil Stockpiles Post Unexpected Build' (score=72.75)
+[2026-08-16T04:04:05.972356+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-08-16T04:04:05.972385+00:00]   Δ hormuz_status.retired: 'OPEN' → 'None' (triggers_publish=True)
+[2026-08-16T04:04:05.972862+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-08-16T04:04:05.972901+00:00] ════════════════════════════════════════════════════════════

@@ -2,58 +2,58 @@
   "date": "2026-08-16",
   "apis": {
     "oilpriceapi": {
-      "calls_today": 2,
-      "succeeded": 2,
+      "calls_today": 3,
+      "succeeded": 3,
       "failed": 0,
       "limit_per_day": 10000,
       "pct_of_limit": 0.0,
       "endpoints": {
-        "prices/all": 2
+        "prices/all": 3
       },
-      "last_call": "2026-08-16T03:06:06.908336+00:00"
+      "last_call": "2026-08-16T04:00:48.974295+00:00"
     },
     "aaa": {
-      "calls_today": 2,
-      "succeeded": 2,
+      "calls_today": 3,
+      "succeeded": 3,
       "failed": 0,
       "limit_per_day": 500,
-      "pct_of_limit": 0.4,
+      "pct_of_limit": 0.6,
       "endpoints": {
-        "gasprices": 2
+        "gasprices": 3
       },
-      "last_call": "2026-08-16T03:06:07.078200+00:00"
+      "last_call": "2026-08-16T04:00:49.101079+00:00"
     },
     "eia": {
-      "calls_today": 8,
+      "calls_today": 12,
       "succeeded": 4,
-      "failed": 4,
+      "failed": 8,
       "limit_per_day": 5000,
       "pct_of_limit": 0.2,
       "endpoints": {
-        "gasoline/regular": 2,
-        "gasoline/mid": 2,
-        "gasoline/premium": 2,
-        "gasoline/diesel": 2
+        "gasoline/regular": 3,
+        "gasoline/mid": 3,
+        "gasoline/premium": 3,
+        "gasoline/diesel": 3
       },
-      "last_call": "2026-08-16T03:07:07.631900+00:00"
+      "last_call": "2026-08-16T04:01:49.441319+00:00"
     },
     "google_news": {
-      "calls_today": 20,
-      "succeeded": 20,
+      "calls_today": 30,
+      "succeeded": 30,
       "failed": 0,
       "limit_per_day": 5000,
-      "pct_of_limit": 0.4,
+      "pct_of_limit": 0.6,
       "endpoints": {},
-      "last_call": "2026-08-16T03:08:57.217697+00:00"
+      "last_call": "2026-08-16T04:03:50.729632+00:00"
     },
     "gdelt": {
-      "calls_today": 20,
-      "succeeded": 9,
-      "failed": 11,
+      "calls_today": 30,
+      "succeeded": 12,
+      "failed": 18,
       "limit_per_day": 500,
-      "pct_of_limit": 4.0,
+      "pct_of_limit": 6.0,
       "endpoints": {},
-      "last_call": "2026-08-16T03:09:07.905476+00:00"
+      "last_call": "2026-08-16T04:04:05.810528+00:00"
     }
   }
 }
