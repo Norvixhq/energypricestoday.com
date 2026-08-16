@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-16T09:08:33.639993+00:00",
-  "previous_generated_at": "2026-08-16T07:03:45.740060+00:00",
-  "resolver_run_count": 54,
+  "generated_at": "2026-08-16T09:46:38.869932+00:00",
+  "previous_generated_at": "2026-08-16T09:08:33.639993+00:00",
+  "resolver_run_count": 55,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -141,7 +141,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekRSdkJfNUpIdzlaZ3JkMFFFSTBoN1dadERPSE1xdXpOV3Q2eUNpVjc1ekFhcUd1QjdGRDhucXVmb1FrMFZ3Q0RRLTVHVUYyMWZJWmQydGlsMUxVLVdna0g1VHJYeU51c0xUTzcyM1l4VHVKajRTSjNlVGhGOG13V0J0M1haYnlsVjdzNXloWTUwSk5XdkZQOExNeUJuUkxTQjloZXE5R1Y2UjlQYUVsb0JHcnd1TENSU19pTEdYNA?oc=5",
       "lead_source": "VT Markets",
       "topic": "rigcount",
-      "score": 74.52,
+      "score": 74.14,
       "novelty": "ongoing",
       "source_count": 6,
       "confidence": 0.95,
@@ -153,17 +153,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "OPEN",
-      "detected_at": "2026-08-16T09:08:33.639922+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
