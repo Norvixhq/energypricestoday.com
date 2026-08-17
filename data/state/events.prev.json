@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-16T23:50:45.218372+00:00",
-  "previous_generated_at": "2026-08-16T23:28:26.685341+00:00",
-  "resolver_run_count": 73,
+  "generated_at": "2026-08-17T01:47:38.927449+00:00",
+  "previous_generated_at": "2026-08-16T23:50:45.218372+00:00",
+  "resolver_run_count": 74,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -37,6 +37,41 @@
       "rationale": [
         "no matching clusters"
       ]
+    },
+    "us_iran_ceasefire": {
+      "key": "us_iran_ceasefire",
+      "display_name": "U.S.-Iran Ceasefire",
+      "category": "diplomatic_event",
+      "status": "HOLDING",
+      "status_detail": "no recent coverage",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.next-catalyst",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.ceasefire"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 72,
+      "rationale": [
+        "no matching clusters"
+      ],
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -74,7 +109,7 @@
       "category": "composite",
       "status": "LOW",
       "risk_level": "LOW",
-      "score": 0,
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
@@ -83,7 +118,9 @@
       "summary_short": "Global energy risk: low.",
       "summary_long": "Risk drivers: no major disruption",
       "summary_micro": "stable",
-      "rationale": [],
+      "rationale": [
+        "ceasefire=HOLDING (+10)"
+      ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
         "geopolitics.risk-meter.level"
@@ -99,15 +136,15 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_04de4ad6d81ec6",
-      "lead_title": "Baker Hughes US Oil Rig Count Rises to 455 as Drilling Activity Holds Steady",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPekRSdkJfNUpIdzlaZ3JkMFFFSTBoN1dadERPSE1xdXpOV3Q2eUNpVjc1ekFhcUd1QjdGRDhucXVmb1FrMFZ3Q0RRLTVHVUYyMWZJWmQydGlsMUxVLVdna0g1VHJYeU51c0xUTzcyM1l4VHVKajRTSjNlVGhGOG13V0J0M1haYnlsVjdzNXloWTUwSk5XdkZQOExNeUJuUkxTQjloZXE5R1Y2UjlQYUVsb0JHcnd1TENSU19pTEdYNA?oc=5",
-      "lead_source": "VT Markets",
-      "topic": "rigcount",
-      "score": 73.87,
+      "cluster_id": "c_9d44f4ea19d8df",
+      "lead_title": "THE SHELL LEAKS FILES: 16 AUGUST 2026",
+      "lead_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdU9PM2FpVEJTdXVwOTFMWW5uVWhGTllseXZHS2RBNzdiaVVvZTUzMTEtdUN1OF9YbDJ1Y1BkRG1RZ3hyeWdzOUl4ekRBeDhZczZrbjh0V3N4VHR1cFdMVEZpaXdWT3daSWw3cVBhYkQzYmFqcExORjZNeENuXzhjSms5UkVYZw?oc=5",
+      "lead_source": "Royal Dutch Shell Plc .com",
+      "topic": "companies",
+      "score": 50.78,
       "novelty": "ongoing",
-      "source_count": 7,
-      "confidence": 0.95,
+      "source_count": 1,
+      "confidence": 0.8539,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
       ],
@@ -119,17 +156,17 @@
   "changes_since_last_run": [
     {
       "event_key": "us_iran_ceasefire",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-08-16T23:50:45.218301+00:00",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-08-17T01:47:38.927381+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: retired — last_confirmed too old",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
