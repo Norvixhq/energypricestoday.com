@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-17T07:36:39.351194+00:00",
-  "previous_generated_at": "2026-08-17T06:23:09.963588+00:00",
-  "resolver_run_count": 79,
+  "generated_at": "2026-08-17T17:35:51.088312+00:00",
+  "previous_generated_at": "2026-08-17T07:36:39.351194+00:00",
+  "resolver_run_count": 80,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,16 +12,19 @@
       "status_detail": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.957,
-      "last_confirmed": "2026-08-16T23:54:51+00:00",
-      "source_count": 2,
-      "summary_short": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
-      "summary_long": "Shipping slows through Strait of Hormuz after tanker attacks, data shows. Shipping slows through Strait of Hormuz after tanker attacks, data shows",
+      "confidence": 0.963,
+      "last_confirmed": "2026-08-17T13:38:50+00:00",
+      "source_count": 6,
+      "summary_short": "Oil Prices Retain Risk Premium as Iran, Oman Progress Talks on Strait of Hormuz",
+      "summary_long": "Oil Prices Retain Risk Premium as Iran, Oman Progress Talks on Strait of Hormuz. Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
       "evidence_cluster_ids": [
+        "c_1f3c3b7071a613",
         "c_b3d9cf502f2e34",
-        "c_c4e568a40df7fd"
+        "c_7f0771737695e4",
+        "c_7e3a4d7fe98e84",
+        "c_fe0dfef3935f51"
       ],
-      "evidence_count": 2,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,9 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.50)",
-        "cluster c_c4e568a40d → CONTESTED (kw='attack', weight=0.45)",
-        "winning=CONTESTED (0.95/0.95), conf=0.957"
+        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.31)",
+        "cluster c_c4e568a40d → CONTESTED (kw='attack', weight=0.27)",
+        "winning=CONTESTED (0.58/0.58), conf=0.963"
       ]
     },
     "us_iran_ceasefire": {
@@ -52,15 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-16T23:01:05+00:00",
-      "source_count": 2,
-      "summary_short": "China’s energy strategy vindicated by Iran war",
-      "summary_long": "China’s energy strategy vindicated by Iran war. Trump reportedly wants to 'take the oil in Iran' as Tehran targets water, power facilities in Kuwait",
+      "last_confirmed": "2026-08-17T09:11:00+00:00",
+      "source_count": 5,
+      "summary_short": "Oil Prices Retain Risk Premium as Iran, Oman Progress Talks on Strait of Hormuz",
+      "summary_long": "Oil Prices Retain Risk Premium as Iran, Oman Progress Talks on Strait of Hormuz. Trump wants more economic pressure on Iran. What are his options?",
       "evidence_cluster_ids": [
+        "c_1f3c3b7071a613",
+        "c_8e87d03bfd8706",
         "c_11b19d9d1ffc45",
-        "c_a14754269b32d0"
+        "c_88723009bdaa89",
+        "c_08a85ab0f25692"
       ],
-      "evidence_count": 2,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -145,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_452681ebef9983",
-      "lead_title": "Crude Oil WTI stalls below VWAP at $81.08: Hourly levels By Investing.com",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUTNzQ3o0MXNHUnF6Q3RCZnhTNHBxd0ppM0c5WXIzVjBwT1I1elNpOW9CdHRyQzQ3NVlScWRfS2RzR3Frdms1Y2RxVzUwVHpuMm9oNTd1R0JXRFU1dHBtMjNKWHQ2Y3RHeGNVNGlEenNfUVZCSE5Pdm9hY3lKLVg3MENMUVBiYXlzbloxa0x4Z2x1Y0Q3cFBfUl9XcWl5ZzAyWjBKaGVRMWdDcUdQR3hwVVk2Rmg?oc=5",
-      "lead_source": "Investing.com India",
+      "cluster_id": "c_14304c19bbb64b",
+      "lead_title": "Crude Oil Forecast – WTI Eyes $93 Bull Flag Target as Brent Threatens $90 Barrier",
+      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWmRLOFdSZGNLZW5Wa0p2NklyNW53cDQxOEI2QWpDUTVjQXhwZFJ0YTlTT3VSNGYtank4cDZ3SU4ycnhFaFBwbU9VbTRlTUNnbWg3N2FpUkt0alJyc0tBSURDUGN2RWVXMHdmRWNPZ3luQVZLWWI4bS1YTE5TQlZHczdzU0g1bGVCRFRIY3pQb04yRldVd3NzZWVjRFJSX1M0MWdlclNrM1pHenUxRGd5eGJ0QWZTMk9GV0l4bF9xMVowenNIeUd3?oc=5",
+      "lead_source": "FXEmpire",
       "topic": "oil",
-      "score": 93.27,
+      "score": 87.7,
       "novelty": "new",
-      "source_count": 7,
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -164,7 +170,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.963, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
