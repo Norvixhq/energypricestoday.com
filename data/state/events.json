@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-17T20:07:26.338692+00:00",
-  "previous_generated_at": "2026-08-17T19:46:31.746777+00:00",
-  "resolver_run_count": 84,
+  "generated_at": "2026-08-17T20:48:26.623819+00:00",
+  "previous_generated_at": "2026-08-17T20:07:26.338692+00:00",
+  "resolver_run_count": 85,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.961,
+      "confidence": 0.957,
       "last_confirmed": "2026-08-17T19:07:00+00:00",
-      "source_count": 8,
+      "source_count": 6,
       "summary_short": "Oil Futures Rise as Hormuz Shipping Remains Constrained",
-      "summary_long": "Oil Futures Rise as Hormuz Shipping Remains Constrained. Oil Futures Rise as Hormuz Shipping Remains Constrained",
+      "summary_long": "Oil Futures Rise as Hormuz Shipping Remains Constrained. Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
       "evidence_cluster_ids": [
         "c_7f61e945beaa97",
-        "c_c0703e90039e56",
         "c_b3d9cf502f2e34",
-        "c_70eaa8a904b20c",
-        "c_7f0771737695e4"
+        "c_7f0771737695e4",
+        "c_7e3a4d7fe98e84",
+        "c_93642623ff12d8"
       ],
-      "evidence_count": 8,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.27)",
-        "winning=CONTESTED (0.27/0.27), conf=0.961"
+        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.26)",
+        "winning=CONTESTED (0.26/0.26), conf=0.957"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,12 +57,12 @@
       "last_confirmed": "2026-08-17T19:28:41+00:00",
       "source_count": 4,
       "summary_short": "Oil Advances as Iran Tensions Persist",
-      "summary_long": "Oil Advances as Iran Tensions Persist. Russia's export revenue jumps 27% in Q2 amid Iran war",
+      "summary_long": "Oil Advances as Iran Tensions Persist. China’s energy strategy vindicated by Iran war",
       "evidence_cluster_ids": [
         "c_38619967186a4b",
-        "c_c63b55d16c3fdb",
         "c_11b19d9d1ffc45",
-        "c_39b13e502ed34e"
+        "c_d5df08de7c4dd3",
+        "c_89bc8bd4ad7693"
       ],
       "evidence_count": 4,
       "affected_pages": [
@@ -149,14 +149,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_28ac4f9bab5ea1",
-      "lead_title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B3?oc=5",
-      "lead_source": "cnbc.com",
-      "topic": "oil",
-      "score": 87.37,
-      "novelty": "growing",
-      "source_count": 5,
+      "cluster_id": "c_3d98d587eff8a9",
+      "lead_title": "WTI Crude Oil Prices Slip Toward $80 and Rebound Monday as Iran Standoff Keeps Markets on Edge",
+      "lead_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYTFiWVNhM0VBZHZBVGhIVVFodk40OFpoOFMtbm0zenJKbUJkamNaSWMzS3ZkTDdQNndUZlhJT2s3Nmp5T1ZCSWlMZU9FX0ZHdUUxaGllMXMyZ0tEZFBrXzZpTkFfejUyWndVamVsV2hkY2ZuRVhlNVpfNHM4T3MwbjlCQnFqN2FuWEpmRnJEcmVicEN2WTdqel9KbXJaRnd4NmY0RmRoU0pqYzl0Q0FrVFJwTENaLTBmcnNSQzh0RlI1Rl91cmZONmpMbkJXQWh6T1E?oc=5",
+      "lead_source": "FXLeaders",
+      "topic": "energy",
+      "score": 83.26,
+      "novelty": "new",
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,7 +168,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.961, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
