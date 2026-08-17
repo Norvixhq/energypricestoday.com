@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-17T21:34:18.199636+00:00",
-  "previous_generated_at": "2026-08-17T20:48:26.623819+00:00",
-  "resolver_run_count": 86,
+  "generated_at": "2026-08-17T22:46:13.075741+00:00",
+  "previous_generated_at": "2026-08-17T21:34:18.199636+00:00",
+  "resolver_run_count": 87,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.957,
-      "last_confirmed": "2026-08-17T19:07:00+00:00",
-      "source_count": 6,
-      "summary_short": "China Added 200,000 Bpd to Crude Reserves in July Despite Hormuz Crisis",
-      "summary_long": "China Added 200,000 Bpd to Crude Reserves in July Despite Hormuz Crisis. Oil Futures Rise as Hormuz Shipping Remains Constrained",
+      "confidence": 0.959,
+      "last_confirmed": "2026-08-17T22:25:00+00:00",
+      "source_count": 7,
+      "summary_short": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
+      "summary_long": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz. Crude Extends Gains as US-Iran Talks Collapse, WTI Tops $84 on Renewed Strait of Hormuz Supply Fears",
       "evidence_cluster_ids": [
+        "c_c0703e90039e56",
         "c_7f61e945beaa97",
         "c_b3d9cf502f2e34",
-        "c_db0b4657a48ec5",
-        "c_7f0771737695e4",
-        "c_7e3a4d7fe98e84"
+        "c_f19927975a9af2",
+        "c_7f0771737695e4"
       ],
-      "evidence_count": 6,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.25)",
-        "winning=CONTESTED (0.25/0.25), conf=0.957"
+        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.24)",
+        "winning=CONTESTED (0.24/0.24), conf=0.959"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,16 +55,15 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-08-17T19:28:41+00:00",
-      "source_count": 4,
-      "summary_short": "Oil Advances as Iran Tensions Persist",
-      "summary_long": "Oil Advances as Iran Tensions Persist. Canadian oil heads to Japan for the first time in over a year as Iran war tightens Middle East suppl",
+      "source_count": 3,
+      "summary_short": "Russia's export revenue jumps 27% in Q2 amid Iran war",
+      "summary_long": "Russia's export revenue jumps 27% in Q2 amid Iran war. Oil Advances as Iran Tensions Persist",
       "evidence_cluster_ids": [
+        "c_c63b55d16c3fdb",
         "c_38619967186a4b",
-        "c_3ede26186abb99",
-        "c_11b19d9d1ffc45",
-        "c_3ae23f400c9a8b"
+        "c_11b19d9d1ffc45"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -149,14 +148,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_9b0412af15e750",
-      "lead_title": "Crude Oil WTI stalls below VWAP at $81.08: Hourly levels",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOREZ4V1RZZXA0MGhEWUhPLTZqZzNLakRkUnhqMnhLWHd0c0lXejhrMWhXRlNWN0lUMGM0WENvMl9FZ2lnckozbDJMU0tvSGdZMjFTUy15VGxpcmIzWWFKZ1Q2RW5POWVSTklWc3d1YmVsRHlrekdSZ0dLVl84X2ZrbEV1WUMwaFpGSzJsRHhRZnMzT2dxc3ZqTy1KYTdjNHVpa3ZhWU1haEw3V3MyeDgwRVliWXk?oc=5",
-      "lead_source": "Investing.com",
+      "cluster_id": "c_28ac4f9bab5ea1",
+      "lead_title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
+      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 83.66,
-      "novelty": "new",
-      "source_count": 3,
+      "score": 88.82,
+      "novelty": "growing",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,7 +167,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.959, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
