@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-17T04:53:06.480665+00:00",
-  "previous_generated_at": "2026-08-17T02:50:11.109872+00:00",
-  "resolver_run_count": 76,
+  "generated_at": "2026-08-17T05:42:57.186122+00:00",
+  "previous_generated_at": "2026-08-17T04:53:06.480665+00:00",
+  "resolver_run_count": 77,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,16 +12,17 @@
       "status_detail": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.963,
+      "confidence": 0.962,
       "last_confirmed": "2026-08-16T23:54:51+00:00",
-      "source_count": 2,
+      "source_count": 3,
       "summary_short": "Shipping slows through Strait of Hormuz after tanker attacks, data shows",
       "summary_long": "Shipping slows through Strait of Hormuz after tanker attacks, data shows. Shipping slows through Strait of Hormuz after tanker attacks, data shows",
       "evidence_cluster_ids": [
         "c_b3d9cf502f2e34",
-        "c_c4e568a40df7fd"
+        "c_c4e568a40df7fd",
+        "c_12670f17f6cef7"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,9 +39,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.64)",
-        "cluster c_c4e568a40d → CONTESTED (kw='attack', weight=0.50)",
-        "winning=CONTESTED (1.13/1.13), conf=0.963"
+        "cluster c_b3d9cf502f → CONTESTED (kw='attack', weight=0.53)",
+        "cluster c_c4e568a40d → CONTESTED (kw='attack', weight=0.48)",
+        "cluster c_12670f17f6 → CONTESTED (kw='attack', weight=0.62)",
+        "winning=CONTESTED (1.64/1.64), conf=0.962"
       ]
     },
     "us_iran_ceasefire": {
@@ -144,14 +146,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_679fba4c249bc5",
-      "lead_title": "WTI Crude Oil Prices Slip Toward $80 Monday Morning as Iran Standoff Keeps Markets on Edge",
-      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZFhDazM3V1RTRXVOOHJ4dDNuYkxmeTM1SlVUaTlmRmJsckZzbTVlY3RpRkhtZ0tvZ3Z6d0VGeV8tWFo0dUh0RjFabjJwZ1NHSV9vV0hwaDRIdjQ2S255U2ZjU2g2M1BKMDRROEV2U1ExRHhMYUYxNWpzbUxiZXFMOU4weDQ1aEtXa3J5VGItV3JMUFpEendpSUx1aHlaRC1oUS1kSFVxcC1sOUFGQUtIbG5mRklwUWVucVliSmRiSDM5WkR2RHRobTh0bDE?oc=5",
-      "lead_source": "fxleaders.com",
+      "cluster_id": "c_f66103620c31de",
+      "lead_title": "Brent crude rises, WTI falls on global markets",
+      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2tVU3lrQWpfQ1JsLWtBUVB5RUNzT0g1VmV5amNVVnoybFRYYWttWGw2ZklBZTJNQ0hFdjJWSHpWaFo2T1hueVdzZEYySW9EdXphQUVadFd2UDg1WnBXMkZoRHZxXzlHZDRQemVLeUdCRVk0UUs4ZG9aX01ESF9NOE4tcFZibWxWdWdma2l4WGplYmYw?oc=5",
+      "lead_source": "Apa.az",
       "topic": "oil",
-      "score": 93.32,
+      "score": 93.33,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -163,7 +165,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.963, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.962, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
