@@ -967,3 +967,17 @@
 [2026-08-17T23:41:59.570210+00:00] resolver: no state changes
 [2026-08-17T23:41:59.570757+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-17T23:41:59.570798+00:00] ════════════════════════════════════════════════════════════
+[2026-08-18T00:03:38.507152+00:00] resolver: start
+[2026-08-18T00:03:38.511527+00:00] resolver: scanning 273 clusters across 10 topics
+[2026-08-18T00:03:38.511904+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=6)
+[2026-08-18T00:03:38.512834+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=2)
+[2026-08-18T00:03:38.512942+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-18T00:03:38.512988+00:00]   global_risk_level: LOW (score=10)
+[2026-08-18T00:03:38.513142+00:00]   top_story: 'Brent oil rises above $90 as Iran rules out interim deal ext' (score=83.39)
+[2026-08-18T00:03:38.513213+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-08-18T00:03:38.513246+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=False)
+[2026-08-18T00:03:38.513277+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-18T00:03:38.513351+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-18T00:03:38.513392+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-18T00:03:38.513977+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-18T00:03:38.514018+00:00] ════════════════════════════════════════════════════════════
