@@ -1,11 +1,11 @@
 {
   "topic": "energy",
-  "generated_at": "2026-08-18T15:53:31.195861+00:00",
+  "generated_at": "2026-08-18T16:41:00.942466+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 27,
   "clusters": [
     {
       "cluster_id": "c_1b4e05e1d005d2",
@@ -18,19 +18,19 @@
         "crude",
         "oil"
       ],
-      "source_count": 3,
-      "distinct_publishers": 3,
+      "source_count": 4,
+      "distinct_publishers": 4,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-18T04:23:53+00:00",
+      "earliest_seen": "2026-08-17T20:20:20+00:00",
       "latest_seen": "2026-08-18T10:37:58+00:00",
-      "age_hours": 5.26,
-      "score": 75.34,
+      "age_hours": 6.05,
+      "score": 79.74,
       "score_components": {
-        "source_count_points": 15,
-        "recency_points": 21.84,
-        "source_quality_points": 21.5,
+        "source_count_points": 20,
+        "recency_points": 21.37,
+        "source_quality_points": 21.37,
         "entity_relevance_points": 12,
         "materiality_points": 5.0
       },
@@ -63,45 +63,56 @@
           "source_type": "rss",
           "published_at": "2026-08-18T04:23:53+00:00",
           "confidence": 0.7
+        },
+        {
+          "headline_id": "77f1b04a0c0fff2d",
+          "title": "US Equity Markets End Lower Amid Rise in Crude Oil Prices Following Trump's Threat to Attack Oman",
+          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdXZGQ21hQ00tMnZ1dlB3ZzlJV1JnNUFOZjRvNGhFQ3BUZFVJX0tVbzhCQjQ3TWFHZGJCVS1jNW9HNGVnWFNlU013cmlycDRvSmxpN29BdVhETVZMenRZcmw4b1lNZnVnT3dzNHU3WWdYc1FudFk5Smc5NEhHQ1NZRWhOdGFSQm1Ra2czZkY4dC14V1JrX29rUUVSOU95akVVRFpyaWlVVk9rT2toRk1tSHFWSUdJbk0xLWd1U1REUkZqNkFzakhqeVo4eVluNXNXeGNVVTRoZ0RkNWFkcG5xbHF4d3M?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-08-17T20:20:20+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_57630d7897a8d4",
+      "cluster_id": "c_07a781878fcb9e",
       "topic": "energy",
-      "lead_title": "Global bond markets put governments on notice over fiscal, inflation risks",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
+      "lead_title": "FTSE 100 steady as energy stocks offset bond jitters",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
       "lead_source": "Reuters",
-      "canonical_entities": [],
+      "canonical_entities": [
+        "energy"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-18T14:56:26+00:00",
-      "latest_seen": "2026-08-18T14:56:26+00:00",
-      "age_hours": 0.95,
-      "score": 67.93,
+      "earliest_seen": "2026-08-18T16:15:16+00:00",
+      "latest_seen": "2026-08-18T16:15:16+00:00",
+      "age_hours": 0.43,
+      "score": 73.74,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.43,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
+        "recency_points": 24.74,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "1e9e0bdc588ba6a5",
-          "title": "Global bond markets put governments on notice over fiscal, inflation risks",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
+          "headline_id": "126a418c1da45866",
+          "title": "FTSE 100 steady as energy stocks offset bond jitters",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-08-18T14:56:26+00:00",
-          "confidence": 0.95
+          "published_at": "2026-08-18T16:15:16+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": true,
@@ -123,11 +134,11 @@
       ],
       "earliest_seen": "2026-08-18T14:04:24+00:00",
       "latest_seen": "2026-08-18T14:04:24+00:00",
-      "age_hours": 1.82,
-      "score": 62.91,
+      "age_hours": 2.61,
+      "score": 62.43,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.91,
+        "recency_points": 23.43,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -164,11 +175,11 @@
       ],
       "earliest_seen": "2026-08-18T10:34:33+00:00",
       "latest_seen": "2026-08-18T10:34:33+00:00",
-      "age_hours": 5.32,
-      "score": 60.81,
+      "age_hours": 6.11,
+      "score": 60.34,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.81,
+        "recency_points": 21.34,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -205,11 +216,11 @@
       ],
       "earliest_seen": "2026-08-18T09:19:18+00:00",
       "latest_seen": "2026-08-18T09:19:18+00:00",
-      "age_hours": 6.57,
-      "score": 60.06,
+      "age_hours": 7.36,
+      "score": 59.58,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.06,
+        "recency_points": 20.58,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -235,7 +246,7 @@
       "topic": "energy",
       "lead_title": "US energy stocks hit record as oil tops $91 on Trump’s hard line against Iran",
       "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSVoxVk9aSmM4ak95SEhtZUVYRDNIRW5lMFJuaGU3Ym5tbVZCZ2pNWFdHWjlXMjFXaDdrTW9mUTlOY2Zwc2E0RGt4YU1Ua3kyM0lPQU9DZHR6eElwdEl2Y0VINmJHTVBZSGtJbVJJOXpBRmVtM2h2Vk1GX2F6ajVKYXFVcWlZcFhWX0RBblo2SlNwdHVzeVFRN01VdnFMR1dKcWJodE9ONWRJdDZySEYtb3JKZUhDU0Ns?oc=5",
-      "lead_source": "aa.com.tr",
+      "lead_source": "Anadolu Ajansı",
       "canonical_entities": [
         "energy",
         "oil"
@@ -247,11 +258,11 @@
       ],
       "earliest_seen": "2026-08-18T14:46:13+00:00",
       "latest_seen": "2026-08-18T14:46:13+00:00",
-      "age_hours": 1.12,
-      "score": 58.33,
+      "age_hours": 1.91,
+      "score": 57.85,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.33,
+        "recency_points": 23.85,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 0.0
@@ -263,7 +274,7 @@
           "headline_id": "6957e27e00ab3d54",
           "title": "US energy stocks hit record as oil tops $91 on Trump’s hard line against Iran",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSVoxVk9aSmM4ak95SEhtZUVYRDNIRW5lMFJuaGU3Ym5tbVZCZ2pNWFdHWjlXMjFXaDdrTW9mUTlOY2Zwc2E0RGt4YU1Ua3kyM0lPQU9DZHR6eElwdEl2Y0VINmJHTVBZSGtJbVJJOXpBRmVtM2h2Vk1GX2F6ajVKYXFVcWlZcFhWX0RBblo2SlNwdHVzeVFRN01VdnFMR1dKcWJodE9ONWRJdDZySEYtb3JKZUhDU0Ns?oc=5",
-          "source": "aa.com.tr",
+          "source": "Anadolu Ajansı",
           "source_type": "rss",
           "published_at": "2026-08-18T14:46:13+00:00",
           "confidence": 0.7
@@ -288,11 +299,11 @@
       ],
       "earliest_seen": "2026-08-18T06:00:00+00:00",
       "latest_seen": "2026-08-18T06:00:00+00:00",
-      "age_hours": 9.89,
-      "score": 58.06,
+      "age_hours": 10.68,
+      "score": 57.59,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.06,
+        "recency_points": 18.59,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -314,10 +325,10 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_c84ecb39ecfb21",
+      "cluster_id": "c_57630d7897a8d4",
       "topic": "energy",
-      "lead_title": "UK shares fall as miners retreat, labour market cools",
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
+      "lead_title": "Global bond markets put governments on notice over fiscal, inflation risks",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [],
       "source_count": 1,
@@ -325,13 +336,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-18T10:14:01+00:00",
-      "latest_seen": "2026-08-18T10:14:01+00:00",
-      "age_hours": 5.66,
-      "score": 55.1,
+      "earliest_seen": "2026-08-18T14:56:26+00:00",
+      "latest_seen": "2026-08-18T14:56:26+00:00",
+      "age_hours": 1.74,
+      "score": 57.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.6,
+        "recency_points": 23.95,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -340,12 +351,12 @@
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "0eda55983c4bfb2e",
-          "title": "UK shares fall as miners retreat, labour market cools",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMlFYeHFieTNRSFZ2Z01Hci02VUdqdFdYbW1mUThhbmJ0TThKSGJEOXByYldoQTAwVVJyckhvbTN0V1BzRXR5LTduUHR1NUNuczc5bmszUURoMUMxaWhPVlp4cXlUS29VSXZ2dy14WmFYbGlOTng1LWY2Ylh0ekxyREhjUFl6RHpRcHBwZ2swY0xZN09GUURWTFNn?oc=5",
+          "headline_id": "1e9e0bdc588ba6a5",
+          "title": "Global bond markets put governments on notice over fiscal, inflation risks",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeWxrV2hFeTRkQjZmS2pjcmpEM1VJd2tTc2lkT1NxVjJ3c0Jpa2ZNQzJ3eFlSa1BoV3pQN3VLNzZEUHM0SHZHMURHLUthd21TV0R6TkY5N0lfR1pKRnRGZGpFc1FzamJfT1l2Q1pYQXloZ25LYWdxOHhQcndkZ21xU1lXZFJwc0ZOcnVqWUkyejNUdVcyWWlORW9rdzZORlJCZjZHMWZNX0tKYU44bDJReUpMcVNlOFBNd0E?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-08-18T10:14:01+00:00",
+          "published_at": "2026-08-18T14:56:26+00:00",
           "confidence": 0.95
         }
       ],
@@ -368,11 +379,11 @@
       ],
       "earliest_seen": "2026-08-18T07:04:00+00:00",
       "latest_seen": "2026-08-18T07:04:00+00:00",
-      "age_hours": 8.83,
-      "score": 54.2,
+      "age_hours": 9.62,
+      "score": 53.73,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.7,
+        "recency_points": 19.23,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -409,11 +420,11 @@
       ],
       "earliest_seen": "2026-08-18T01:05:00+00:00",
       "latest_seen": "2026-08-18T01:05:00+00:00",
-      "age_hours": 14.81,
-      "score": 50.11,
+      "age_hours": 15.6,
+      "score": 49.64,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.11,
+        "recency_points": 15.64,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -450,11 +461,11 @@
       ],
       "earliest_seen": "2026-08-17T22:44:27+00:00",
       "latest_seen": "2026-08-17T22:44:27+00:00",
-      "age_hours": 17.15,
-      "score": 48.71,
+      "age_hours": 17.94,
+      "score": 48.23,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.71,
+        "recency_points": 14.23,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -491,11 +502,11 @@
       ],
       "earliest_seen": "2026-08-17T20:42:00+00:00",
       "latest_seen": "2026-08-17T20:42:00+00:00",
-      "age_hours": 19.19,
-      "score": 46.58,
+      "age_hours": 19.98,
+      "score": 46.11,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.48,
+        "recency_points": 13.01,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -532,11 +543,11 @@
       ],
       "earliest_seen": "2026-08-17T19:07:00+00:00",
       "latest_seen": "2026-08-17T19:07:00+00:00",
-      "age_hours": 20.78,
-      "score": 45.63,
+      "age_hours": 21.57,
+      "score": 45.16,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.53,
+        "recency_points": 12.06,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -571,11 +582,11 @@
       ],
       "earliest_seen": "2026-08-18T01:16:00+00:00",
       "latest_seen": "2026-08-18T01:16:00+00:00",
-      "age_hours": 14.63,
-      "score": 44.72,
+      "age_hours": 15.42,
+      "score": 44.25,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.22,
+        "recency_points": 15.75,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -590,45 +601,6 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-08-18T01:16:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_9852a646361efc",
-      "topic": "energy",
-      "lead_title": "Chip Stocks Get Hit as Global Bond Anxiety Builds: Markets Wrap",
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYjMzSnppazFUSjZTRDU3TFJ2cmloZXpfdTI5U2h5Q2xlb2k3YnBGUlQybmRqSmlWclo4Z3JJdmt3bHUtTVoydV9MbUdvTkhFQ2dWRUVReHNmZ3pMVXR2akl0SW9weWt6UnQtdHl5dWZLYUtMc0JIaGI4WGxGR0VDdEFOd0NBa3g0TVY0YUxMbjN1NDFx?oc=5",
-      "lead_source": "Bloomberg.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-17T22:07:13+00:00",
-      "latest_seen": "2026-08-17T22:07:13+00:00",
-      "age_hours": 17.77,
-      "score": 42.84,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.34,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "730b13179919b2fd",
-          "title": "Chip Stocks Get Hit as Global Bond Anxiety Builds: Markets Wrap",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYjMzSnppazFUSjZTRDU3TFJ2cmloZXpfdTI5U2h5Q2xlb2k3YnBGUlQybmRqSmlWclo4Z3JJdmt3bHUtTVoydV9MbUdvTkhFQ2dWRUVReHNmZ3pMVXR2akl0SW9weWt6UnQtdHl5dWZLYUtMc0JIaGI4WGxGR0VDdEFOd0NBa3g0TVY0YUxMbjN1NDFx?oc=5",
-          "source": "Bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-08-17T22:07:13+00:00",
           "confidence": 0.95
         }
       ],
@@ -652,7 +624,7 @@
       ],
       "earliest_seen": "2026-07-31T07:00:00+00:00",
       "latest_seen": "2026-07-31T07:00:00+00:00",
-      "age_hours": 440.89,
+      "age_hours": 441.68,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -694,7 +666,7 @@
       ],
       "earliest_seen": "2026-08-13T01:59:00+00:00",
       "latest_seen": "2026-08-13T01:59:00+00:00",
-      "age_hours": 133.91,
+      "age_hours": 134.7,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -735,11 +707,11 @@
       ],
       "earliest_seen": "2026-08-17T00:31:00+00:00",
       "latest_seen": "2026-08-17T00:31:00+00:00",
-      "age_hours": 39.38,
-      "score": 35.37,
+      "age_hours": 40.17,
+      "score": 34.9,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.37,
+        "recency_points": 0.9,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -776,7 +748,7 @@
       ],
       "earliest_seen": "2026-08-03T07:00:00+00:00",
       "latest_seen": "2026-08-03T07:00:00+00:00",
-      "age_hours": 368.89,
+      "age_hours": 369.68,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -817,7 +789,7 @@
       ],
       "earliest_seen": "2026-07-09T07:00:00+00:00",
       "latest_seen": "2026-07-09T07:00:00+00:00",
-      "age_hours": 968.89,
+      "age_hours": 969.68,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -858,7 +830,7 @@
       ],
       "earliest_seen": "2026-08-02T07:00:00+00:00",
       "latest_seen": "2026-08-02T07:00:00+00:00",
-      "age_hours": 392.89,
+      "age_hours": 393.68,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -899,7 +871,7 @@
       ],
       "earliest_seen": "2026-07-26T07:00:00+00:00",
       "latest_seen": "2026-07-26T07:00:00+00:00",
-      "age_hours": 560.89,
+      "age_hours": 561.68,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -940,7 +912,7 @@
       ],
       "earliest_seen": "2026-07-24T07:00:00+00:00",
       "latest_seen": "2026-07-24T07:00:00+00:00",
-      "age_hours": 608.89,
+      "age_hours": 609.68,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -981,7 +953,7 @@
       ],
       "earliest_seen": "2026-07-22T07:00:00+00:00",
       "latest_seen": "2026-07-22T07:00:00+00:00",
-      "age_hours": 656.89,
+      "age_hours": 657.68,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1022,7 +994,7 @@
       ],
       "earliest_seen": "2026-07-19T07:00:00+00:00",
       "latest_seen": "2026-07-19T07:00:00+00:00",
-      "age_hours": 728.89,
+      "age_hours": 729.68,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1061,11 +1033,11 @@
       ],
       "earliest_seen": "2026-08-17T01:17:00+00:00",
       "latest_seen": "2026-08-17T01:17:00+00:00",
-      "age_hours": 38.61,
-      "score": 30.33,
+      "age_hours": 39.4,
+      "score": 29.86,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.83,
+        "recency_points": 1.36,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -1102,7 +1074,7 @@
       ],
       "earliest_seen": "2026-08-03T07:00:00+00:00",
       "latest_seen": "2026-08-03T07:00:00+00:00",
-      "age_hours": 368.89,
+      "age_hours": 369.68,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -1141,11 +1113,11 @@
       ],
       "earliest_seen": "2026-08-16T22:14:58+00:00",
       "latest_seen": "2026-08-16T22:14:58+00:00",
-      "age_hours": 41.64,
-      "score": 28.51,
+      "age_hours": 42.43,
+      "score": 28.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 0.01,
+        "recency_points": 0.0,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
