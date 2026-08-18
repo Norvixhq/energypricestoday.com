@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-18T08:47:54.516173+00:00",
-  "previous_generated_at": "2026-08-18T07:08:26.036011+00:00",
-  "resolver_run_count": 96,
+  "generated_at": "2026-08-18T10:06:47.038704+00:00",
+  "previous_generated_at": "2026-08-18T08:47:54.516173+00:00",
+  "resolver_run_count": 97,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Ship attacked in Hormuz Strait as U.S.-Iran ceasefire expiry risks prolonged conflict",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.957,
+      "confidence": 0.955,
       "last_confirmed": "2026-08-18T07:57:44+00:00",
-      "source_count": 9,
+      "source_count": 8,
       "summary_short": "Saudi Arabia resumes oil loadings, sales from inside Strait of Hormuz",
-      "summary_long": "Saudi Arabia resumes oil loadings, sales from inside Strait of Hormuz. Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
+      "summary_long": "Saudi Arabia resumes oil loadings, sales from inside Strait of Hormuz. Oil market starts pricing in a prolonged Hormuz crisis",
       "evidence_cluster_ids": [
         "c_1ac550a36c89e1",
         "c_7f61e945beaa97",
-        "c_8d5cd207eb9e5b",
+        "c_7a7fea351e1fa4",
         "c_70109ca09d10c4",
-        "c_7f1eba6907a459"
+        "c_783c8e5b5d312d"
       ],
-      "evidence_count": 9,
+      "evidence_count": 8,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,30 +41,31 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_094ae13cc4 → CONTESTED (kw='attack', weight=0.48)",
-        "winning=CONTESTED (0.48/0.48), conf=0.957"
+        "cluster c_094ae13cc4 → CONTESTED (kw='attack', weight=0.46)",
+        "winning=CONTESTED (0.46/0.46), conf=0.955"
       ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "FRAGILE",
-      "status_detail": "Bond yields rise, oil extends gains as US-Iran ceasefire expires",
-      "status_tag": "Under strain",
-      "risk_level": "HIGH",
-      "confidence": 0.962,
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
       "last_confirmed": "2026-08-18T08:25:37+00:00",
-      "source_count": 4,
-      "summary_short": "Oil could surge above $100 for weeks as Iran deal remains elusive: Analyst",
-      "summary_long": "Oil could surge above $100 for weeks as Iran deal remains elusive: Analyst. Bond yields rise, oil extends gains as US-Iran ceasefire expires",
+      "source_count": 5,
+      "summary_short": "Oil prices at near three-week high as US-Iran peace hopes fade",
+      "summary_long": "Oil prices at near three-week high as US-Iran peace hopes fade. Oil could surge above $100 for weeks as Iran deal remains elusive: Analyst",
       "evidence_cluster_ids": [
+        "c_54915a63d70ef2",
         "c_81654da750eb1a",
-        "c_bbcab6232523e6",
         "c_1f45ef2e4d78dc",
-        "c_38619967186a4b"
+        "c_38619967186a4b",
+        "c_7a7fea351e1fa4"
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -79,12 +80,13 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_bbcab62325 → FRAGILE (kw='ceasefire expires', weight=0.59)",
-        "winning=FRAGILE (0.59/0.59), conf=0.962"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": ""
+      "next_catalyst_micro": "",
+      "previous_status": "FRAGILE",
+      "last_changed": "2026-08-18T10:06:47.038535+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -120,20 +122,20 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz contested, ceasefire fragile",
-      "summary_micro": "contested + fragile",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
         "hormuz=CONTESTED (+25)",
-        "ceasefire=FRAGILE (+25)"
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -144,7 +146,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-08-18T10:06:47.038535+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -155,9 +159,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 88.32,
+      "score": 87.47,
       "novelty": "ongoing",
-      "source_count": 6,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,10 +171,47 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "status",
+      "from": "FRAGILE",
+      "to": "HOLDING",
+      "detected_at": "2026-08-18T10:06:47.038535+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-18T10:06:47.038535+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-18T10:06:47.038535+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-18T10:06:47.038535+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.962, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.955, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
