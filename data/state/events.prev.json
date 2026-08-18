@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-18T00:03:38.513420+00:00",
-  "previous_generated_at": "2026-08-17T23:41:59.570261+00:00",
-  "resolver_run_count": 90,
+  "generated_at": "2026-08-18T01:54:43.929249+00:00",
+  "previous_generated_at": "2026-08-18T00:03:38.513420+00:00",
+  "resolver_run_count": 91,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -42,9 +42,7 @@
       "stale_after_hours": 24,
       "rationale": [
         "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CONTESTED",
-      "last_changed": "2026-08-18T00:03:38.513179+00:00"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -55,15 +53,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-17T19:28:41+00:00",
-      "source_count": 2,
-      "summary_short": "Russia's export revenue jumps 27% in Q2 amid Iran war",
-      "summary_long": "Russia's export revenue jumps 27% in Q2 amid Iran war. Oil Advances as Iran Tensions Persist",
+      "last_confirmed": "2026-08-17T20:26:00+00:00",
+      "source_count": 3,
+      "summary_short": "Oil Advances as Iran Tensions Persist",
+      "summary_long": "Oil Advances as Iran Tensions Persist. Russia's export revenue jumps 27% in Q2 amid Iran war",
       "evidence_cluster_ids": [
+        "c_38619967186a4b",
         "c_c63b55d16c3fdb",
-        "c_38619967186a4b"
+        "c_ef7c11a41abedc"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -141,9 +140,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-08-18T00:03:38.513179+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -152,11 +149,11 @@
       "cluster_id": "c_28ac4f9bab5ea1",
       "lead_title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
       "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
-      "lead_source": "cnbc.com",
+      "lead_source": "CNBC",
       "topic": "oil",
-      "score": 83.39,
-      "novelty": "ongoing",
-      "source_count": 4,
+      "score": 89.8,
+      "novelty": "growing",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -166,44 +163,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CONTESTED",
-      "to": "OPEN",
-      "detected_at": "2026-08-18T00:03:38.513179+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-18T00:03:38.513179+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-18T00:03:38.513179+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-18T00:03:38.513179+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
