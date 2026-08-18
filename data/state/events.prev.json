@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-18T13:12:42.052407+00:00",
-  "previous_generated_at": "2026-08-18T12:05:20.216288+00:00",
-  "resolver_run_count": 101,
+  "generated_at": "2026-08-18T14:46:17.320202+00:00",
+  "previous_generated_at": "2026-08-18T13:12:42.052407+00:00",
+  "resolver_run_count": 102,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -13,12 +13,12 @@
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-18T10:15:39+00:00",
+      "last_confirmed": "2026-08-18T13:25:48+00:00",
       "source_count": 6,
-      "summary_short": "Saudi Arabia resumes oil loadings, sales from inside Strait of Hormuz",
-      "summary_long": "Saudi Arabia resumes oil loadings, sales from inside Strait of Hormuz. Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
+      "summary_short": "(Reuters) - Saudi Arabia Resumes Oil Loadings Through Strait of Hormuz",
+      "summary_long": "(Reuters) - Saudi Arabia Resumes Oil Loadings Through Strait of Hormuz. Saudi Arabia resumes oil loadings, sales from inside Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_b6d7678c98b477",
+        "c_6e713d6f4c54d8",
         "c_1ac550a36c89e1",
         "c_7f61e945beaa97",
         "c_70109ca09d10c4",
@@ -42,9 +42,7 @@
       "stale_after_hours": 24,
       "rationale": [
         "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CONTESTED",
-      "last_changed": "2026-08-18T13:12:42.052284+00:00"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -55,16 +53,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-18T08:25:37+00:00",
-      "source_count": 4,
+      "last_confirmed": "2026-08-18T14:03:33+00:00",
+      "source_count": 8,
       "summary_short": "Gold slips as oil, bond yields climb on waning US-Iran peace hopes",
-      "summary_long": "Gold slips as oil, bond yields climb on waning US-Iran peace hopes. Oil prices at near three-week high as US-Iran peace hopes fade",
+      "summary_long": "Gold slips as oil, bond yields climb on waning US-Iran peace hopes. Gulf Oil Giants Push to Expand Overseas Stockpiles as Iran War Drags On",
       "evidence_cluster_ids": [
         "c_047015a6e2eb32",
-        "c_54915a63d70ef2",
-        "c_81654da750eb1a"
+        "c_83bc26134ff6e8",
+        "c_392fb6d829ffa3",
+        "c_81654da750eb1a",
+        "c_54915a63d70ef2"
       ],
-      "evidence_count": 3,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -142,22 +142,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-08-18T13:12:42.052284+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_ef94f1fbab1946",
+      "cluster_id": "c_aaf45bcb93df4d",
       "lead_title": "Proposed Canadian crude oil pipeline projects",
       "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNejl0clhJZ05DTnRMNThKMTRZd2Y0dVNRc09QbWx1VUJzNHluT0hRTnRyYVZEbWtXbWVkYWxHQTA4WEdzMWpkYjNaZUZEVngtT3VwbUlndm9idFNNV3JDVFhjNVBxcHBvQVhDR1JWM3pfeUlBQWM5SVNRdVVwdzhhRzJ0WGs3QW9qUkJkbXpQVzdKY0JfR0hrTGVHb2Rndw?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 90.78,
+      "score": 94.74,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 8,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,44 +165,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CONTESTED",
-      "to": "OPEN",
-      "detected_at": "2026-08-18T13:12:42.052284+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-18T13:12:42.052284+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-18T13:12:42.052284+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-18T13:12:42.052284+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
