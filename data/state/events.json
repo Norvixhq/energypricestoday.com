@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-18T22:38:30.603844+00:00",
-  "previous_generated_at": "2026-08-18T22:03:03.963196+00:00",
-  "resolver_run_count": 114,
+  "generated_at": "2026-08-18T23:41:34.378251+00:00",
+  "previous_generated_at": "2026-08-18T22:38:30.603844+00:00",
+  "resolver_run_count": 115,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,17 +12,17 @@
       "status_detail": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.951,
-      "last_confirmed": "2026-08-18T21:46:55+00:00",
+      "confidence": 0.952,
+      "last_confirmed": "2026-08-18T22:27:47+00:00",
       "source_count": 7,
-      "summary_short": "Hormuz Crisis Reshapes Oil Markets as Prices Stabilize Around $90 Barrel",
-      "summary_long": "Hormuz Crisis Reshapes Oil Markets as Prices Stabilize Around $90 Barrel. Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
+      "summary_short": "China’s largest oil shippers abandon Hormuz and Bab al-Mandab",
+      "summary_long": "China’s largest oil shippers abandon Hormuz and Bab al-Mandab. Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
       "evidence_cluster_ids": [
+        "c_ee6739058b395b",
         "c_435f694448bb0f",
         "c_1ac550a36c89e1",
         "c_5ba919194de946",
-        "c_a0298d03620ae4",
-        "c_783c8e5b5d312d"
+        "c_a0298d03620ae4"
       ],
       "evidence_count": 7,
       "affected_pages": [
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.45)",
-        "winning=CONTESTED (0.45/0.45), conf=0.951"
+        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.43)",
+        "winning=CONTESTED (0.43/0.43), conf=0.952"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,19 +53,18 @@
       "status_detail": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.952,
-      "last_confirmed": "2026-08-18T17:25:18+00:00",
-      "source_count": 5,
-      "summary_short": "President Donald Trump says US has no talks planned with Iran and other news from the Middle East",
-      "summary_long": "President Donald Trump says US has no talks planned with Iran and other news from the Middle East. Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
+      "confidence": 0.949,
+      "last_confirmed": "2026-08-18T19:32:44+00:00",
+      "source_count": 4,
+      "summary_short": "Trump says US has no talks planned with Iran and other news from the Middle East",
+      "summary_long": "Trump says US has no talks planned with Iran and other news from the Middle East. Oil closes at three-week high as hopes of US-Iran peace deal fade",
       "evidence_cluster_ids": [
-        "c_2e1f0e073e7763",
-        "c_0774781576f934",
+        "c_12ff1e2df04630",
         "c_84ffb2a46c930c",
-        "c_eb6f6dccd124b9",
-        "c_348829e12491c8"
+        "c_0774781576f934",
+        "c_eb6f6dccd124b9"
       ],
-      "evidence_count": 5,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -80,14 +79,12 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_0774781576 → FRAGILE (kw='ceasefire expires', weight=0.41)",
-        "winning=FRAGILE (0.41/0.41), conf=0.952"
+        "cluster c_0774781576 → FRAGILE (kw='ceasefire expires', weight=0.29)",
+        "winning=FRAGILE (0.29/0.29), conf=0.949"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": "",
-      "previous_status": "HOLDING",
-      "last_changed": "2026-08-18T22:38:30.603672+00:00"
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -147,9 +144,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-08-18T22:38:30.603672+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -158,9 +153,9 @@
       "cluster_id": "c_5bb4a495812fb6",
       "lead_title": "Proposed Canadian crude oil pipeline projects",
       "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNejl0clhJZ05DTnRMNThKMTRZd2Y0dVNRc09QbWx1VUJzNHluT0hRTnRyYVZEbWtXbWVkYWxHQTA4WEdzMWpkYjNaZUZEVngtT3VwbUlndm9idFNNV3JDVFhjNVBxcHBvQVhDR1JWM3pfeUlBQWM5SVNRdVVwdzhhRzJ0WGs3QW9qUkJkbXpQVzdKY0JfR0hrTGVHb2Rndw?oc=5",
-      "lead_source": "reuters.com",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 89.05,
+      "score": 88.42,
       "novelty": "ongoing",
       "source_count": 5,
       "confidence": 0.95,
@@ -172,47 +167,10 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "status",
-      "from": "HOLDING",
-      "to": "FRAGILE",
-      "detected_at": "2026-08-18T22:38:30.603672+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-08-18T22:38:30.603672+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-08-18T22:38:30.603672+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-08-18T22:38:30.603672+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.951, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.952, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.952, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.949, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
