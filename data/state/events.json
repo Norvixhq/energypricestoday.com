@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-18T05:38:17.300608+00:00",
-  "previous_generated_at": "2026-08-18T04:48:34.515445+00:00",
-  "resolver_run_count": 93,
+  "generated_at": "2026-08-18T06:07:03.180606+00:00",
+  "previous_generated_at": "2026-08-18T05:38:17.300608+00:00",
+  "resolver_run_count": 94,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -14,17 +14,17 @@
       "risk_level": "LOW",
       "confidence": 0.5,
       "last_confirmed": "2026-08-17T19:07:00+00:00",
-      "source_count": 6,
-      "summary_short": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
-      "summary_long": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz. Oil Futures Rise as Hormuz Shipping Remains Constrained",
+      "source_count": 5,
+      "summary_short": "Oil Futures Rise as Hormuz Shipping Remains Constrained",
+      "summary_long": "Oil Futures Rise as Hormuz Shipping Remains Constrained. Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
       "evidence_cluster_ids": [
         "c_7f61e945beaa97",
         "c_c0703e90039e56",
-        "c_7a7fea351e1fa4",
         "c_7f0771737695e4",
-        "c_7e3a4d7fe98e84"
+        "c_7e3a4d7fe98e84",
+        "c_fe0dfef3935f51"
       ],
-      "evidence_count": 6,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -52,15 +52,15 @@
       "status_detail": "Bond yields jump, oil extends gains as US-Iran ceasefire expires",
       "status_tag": "Under strain",
       "risk_level": "HIGH",
-      "confidence": 0.953,
+      "confidence": 0.962,
       "last_confirmed": "2026-08-18T01:16:00+00:00",
       "source_count": 3,
-      "summary_short": "Bond yields jump, oil extends gains as US-Iran ceasefire expires",
-      "summary_long": "Bond yields jump, oil extends gains as US-Iran ceasefire expires. Oil Advances as Iran Tensions Persist",
+      "summary_short": "Oil climbs as fading US-Iran peace hopes raise supply risks",
+      "summary_long": "Oil climbs as fading US-Iran peace hopes raise supply risks. Bond yields jump, oil extends gains as US-Iran ceasefire expires",
       "evidence_cluster_ids": [
+        "c_1f45ef2e4d78dc",
         "c_e8c51011174f3a",
-        "c_38619967186a4b",
-        "c_7a7fea351e1fa4"
+        "c_38619967186a4b"
       ],
       "evidence_count": 3,
       "affected_pages": [
@@ -77,8 +77,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_e8c5101117 → FRAGILE (kw='ceasefire expires', weight=0.56)",
-        "winning=FRAGILE (0.56/0.56), conf=0.953"
+        "cluster c_e8c5101117 → FRAGILE (kw='ceasefire expires', weight=0.55)",
+        "winning=FRAGILE (0.55/0.55), conf=0.962"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -147,12 +147,12 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_7be123c9c433f2",
-      "lead_title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
-      "lead_source": "CNBC",
+      "cluster_id": "c_056cbc0f73e73b",
+      "lead_title": "Stock Markets decline in early trade as crude oil jumps to $91 per barrel",
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQWNIeENRZHp3dnRUTldCenBudGNIM3l2UVRXR2tEenNGWWJ1YkRQY3pxaFRRSkliMEh3ZXk3bDZ5MnRvbFpQQjM2MlR1RUlnZjFxSkhDT1ZKcG5jeHoyWDVLOHBfa1NGNTFFZHIwUTNJVU5NcDZ1bTBmV3R2OVpCdnhELTNIMWdHZTIxTllwdTZFc0dRN2lMTm5pV0xCRTdPWUU1ZGFmVVp4ZmtHeHpGN19VWWFTcFdjWnhVa29IcHA0Ti1Zd0xTUzhlckd3MTTSAdYBQVVfeXFMUExNOUVBS3IwNXBSQ2p2U0dOX0pYYWpFQWhmd3FwVTY5NTVGVW1kbWR5M1gyTDJTX2hGeTk2WDBCTnVlWG5ybUl3V1lRdjAxUDBSOFpzLTJqekN2UUtTUGM4ZFRhbHQ1cUd6S2Z2OGFLV3ZkSllkeGlyUFBmSTZBRFpocGE2aURrSm55dDFkLVRnZU1SSFpnMTRqcXFsc2V0dm92MDl3eHBlYUxTSnJTRGJYLWhGR3ZoTGNGZE96S3RhSEtwWXI5LXNES3ZzZEtVNXBSaGM4Zw?oc=5",
+      "lead_source": "The Hindu",
       "topic": "oil",
-      "score": 99.59,
+      "score": 93.3,
       "novelty": "new",
       "source_count": 5,
       "confidence": 0.95,
@@ -167,7 +167,7 @@
   "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.953, fresh=fresh",
+    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.962, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
