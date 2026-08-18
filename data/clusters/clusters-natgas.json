@@ -1,6 +1,6 @@
 {
   "topic": "natgas",
-  "generated_at": "2026-08-18T07:08:25.950697+00:00",
+  "generated_at": "2026-08-18T08:47:54.431529+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -8,23 +8,75 @@
   "clusters_found": 27,
   "clusters": [
     {
-      "cluster_id": "c_011aa423f590fb",
+      "cluster_id": "c_490dd8e7849a23",
       "topic": "natgas",
-      "lead_title": "Midmorning Markets: Henry Hub Cash Slipping on LNG Hiccups",
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGhUbENSbi1leXJMc1RoTm5NRWhaMFZOTy03bWxZLXNBVTVuMGhSMkZRTTlkNTA1ZDlPVGFBcXBjS3RuNWluUXpkVHRZbk1sSFpGNF9xdTB3a1FMZkRkQ3JCUmNKYUx0RjhkenNaZW5GNjJXSjZDaU1wVXVGRFRFNUtfOEFGQ2RYZTVJYUZOaUg5cGthaEE?oc=5",
+      "lead_title": "New Pipeline Supply, LNG Outages Pressure Henry Hub Natural Gas Prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVHNzOHh2UzFETUVmU0lPZ3NNenNBdk5HbC1NcTJEOGgxWmN5ZGxqNWpQLVM3ejlaRkRWYkJBTUM4SW9YSGZTNVFBV3NZSUJpc0dsUFB0SXhXQzg5OGR3Z3FSR2xrZTk4aUJ3T3ZERi1HdVNGNmdUeWkzVVRmV2tLQ20xOTRKZk1GNDBEX0VYT0tud0FBSUptaFA3QnhUMVd4RmxwTHp3?oc=5",
       "lead_source": "Natural Gas Intelligence",
       "canonical_entities": [
         "Henry Hub",
-        "LNG"
+        "LNG",
+        "natural gas"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-07-16T07:00:00+00:00",
+      "latest_seen": "2026-07-16T10:30:22+00:00",
+      "age_hours": 790.29,
+      "score": 53.75,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 0.0,
+        "source_quality_points": 21.75,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "90bedf80c335b15f",
+          "title": "New Pipeline Supply, LNG Outages Pressure Henry Hub Natural Gas Prices",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVHNzOHh2UzFETUVmU0lPZ3NNenNBdk5HbC1NcTJEOGgxWmN5ZGxqNWpQLVM3ejlaRkRWYkJBTUM4SW9YSGZTNVFBV3NZSUJpc0dsUFB0SXhXQzg5OGR3Z3FSR2xrZTk4aUJ3T3ZERi1HdVNGNmdUeWkzVVRmV2tLQ20xOTRKZk1GNDBEX0VYT0tud0FBSUptaFA3QnhUMVd4RmxwTHp3?oc=5",
+          "source": "Natural Gas Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-07-16T07:00:00+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "281f15c2632760f5",
+          "title": "Horizons Live | Why US Henry Hub natural gas prices are set to rise",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZVAtM3Y5aU1tMUxJUXVURXdRWXVHRXZGTlFYRjBubGdGT2gxNjI5dDlVM0JZRGM2eS1TYldkRWZzLWN0RnhhVlpEUXVjS1dxalZkUXIxclZGS01vYWdDaHJiRWpUejlYQ2ZYellyam0wTDFwUXZkb2kyMWRLUFlMaWVyd3B3SXZfUDFzenh2TEZ1SjQyVThYanVB?oc=5",
+          "source": "Wood Mackenzie",
+          "source_type": "rss",
+          "published_at": "2026-07-16T10:30:22+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_2e89cb6d3f69a1",
+      "topic": "natgas",
+      "lead_title": "Stop Trading Natural Gas Futures: Producers Returned Nearly 17% on LNG Demand",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2tnb0ZXWE1XaVI0TV9vVU5pZEcyUmZlc05oMEJvRTFjV2xCTDdNSDl1ZjlqN3Q3ejl4c1dtTjNZanRsaG9oNlJWcEhxblBtVzBGQlJYNGczTVlncjZwNHM1NFJQU1YxRi0zUzluYlBZNjZqVkZpYjh0Z0c2bkN5aTNsLVZQNHhuYmMwMjI1U1djcVplQTFZSXBMa0hjbWtzNS1qRzNuS0pVWDlad2wxWEFqRVNJWWNfQUJn?oc=5",
+      "lead_source": "24/7 Wall St.",
+      "canonical_entities": [
+        "LNG",
+        "natural gas"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-04-01T07:00:00+00:00",
-      "latest_seen": "2026-04-01T07:00:00+00:00",
-      "age_hours": 3336.14,
+      "earliest_seen": "2026-07-14T07:00:00+00:00",
+      "latest_seen": "2026-07-14T07:00:00+00:00",
+      "age_hours": 841.8,
       "score": 44.0,
       "score_components": {
         "source_count_points": 5,
@@ -37,12 +89,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "c4ecb420409fb25f",
-          "title": "Midmorning Markets: Henry Hub Cash Slipping on LNG Hiccups",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdGhUbENSbi1leXJMc1RoTm5NRWhaMFZOTy03bWxZLXNBVTVuMGhSMkZRTTlkNTA1ZDlPVGFBcXBjS3RuNWluUXpkVHRZbk1sSFpGNF9xdTB3a1FMZkRkQ3JCUmNKYUx0RjhkenNaZW5GNjJXSjZDaU1wVXVGRFRFNUtfOEFGQ2RYZTVJYUZOaUg5cGthaEE?oc=5",
-          "source": "Natural Gas Intelligence",
+          "headline_id": "a67d7f97cd075985",
+          "title": "Stop Trading Natural Gas Futures: Producers Returned Nearly 17% on LNG Demand",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQR2tnb0ZXWE1XaVI0TV9vVU5pZEcyUmZlc05oMEJvRTFjV2xCTDdNSDl1ZjlqN3Q3ejl4c1dtTjNZanRsaG9oNlJWcEhxblBtVzBGQlJYNGczTVlncjZwNHM1NFJQU1YxRi0zUzluYlBZNjZqVkZpYjh0Z0c2bkN5aTNsLVZQNHhuYmMwMjI1U1djcVplQTFZSXBMa0hjbWtzNS1qRzNuS0pVWDlad2wxWEFqRVNJWWNfQUJn?oc=5",
+          "source": "24/7 Wall St.",
           "source_type": "rss",
-          "published_at": "2026-04-01T07:00:00+00:00",
+          "published_at": "2026-07-14T07:00:00+00:00",
           "confidence": 0.7
         }
       ],
@@ -50,26 +102,110 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_aaed6655f66b9a",
+      "cluster_id": "c_cafb109c83f7c4",
       "topic": "natgas",
-      "lead_title": "US Natural Gas Futures Dip on Lower Flows to LNG Export Plants",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTRYM29xdlg5b0Z5My1vel9sZ1J4UDRENzdmSlVJbmlGQnU4ejg2V1VRcXhKQjhUX28yWFpxYXpPTFhuQVhvalFhYjdiTmhMU0ptMEc0ejV4VDlBVnlNSG81YUdSZ2tpRkpweWlBb3BBQ2hGOWEzZnFlRXBGOU1HWjR2cjJCSVJldTVwc2t4NGJzSGRWNEhHU2hzZmFoY3VzOG4zVUhmSVFmQzdqbGRQU2VzWFI?oc=5",
-      "lead_source": "Bloomberg.com",
+      "lead_title": "Era of US$2–4/mmbtu Henry Hub natural gas prices ending as demand and supply conditions shift toward US$5/mmbtu (real) by 2035",
+      "lead_url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQdmx6V2tGMXhUcHM4TlJ3dVpQeVNzdk80a01UTWxJalZIZ21yQkRnNzRtdG1RNHBUTF81TEY1RXE5S3NzMWw2NHhyekNSQzF1alppRmhpcUlpSnFwMUo5blAwVFRjS3RKbGh0SHo1OVJFMWtycVJYVzlOYm9uVDFnX0oteU95UVVwbGYwd1p0cWhjUUFWSTlYZWRaZi1CUk1QZ2pNcnAtbzZEQm1BMEtSNjlPQ0JPbVJpblh3S282SzhkcUZQTWJ5bHU2dFB5ajROV1otcmM0dWQ0Q3FBTFh2M01UelBMWkl3ZThqOVQtR20xWlplUmZaTjhORWdUY05FLV9jZElGTQ?oc=5",
+      "lead_source": "Wood Mackenzie",
+      "canonical_entities": [
+        "Henry Hub",
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-07-02T07:00:00+00:00",
+      "latest_seen": "2026-07-02T07:00:00+00:00",
+      "age_hours": 1129.8,
+      "score": 44.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "0bff00d960972f8a",
+          "title": "Era of US$2–4/mmbtu Henry Hub natural gas prices ending as demand and supply conditions shift toward US$5/mmbtu (real) by 2035",
+          "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQdmx6V2tGMXhUcHM4TlJ3dVpQeVNzdk80a01UTWxJalZIZ21yQkRnNzRtdG1RNHBUTF81TEY1RXE5S3NzMWw2NHhyekNSQzF1alppRmhpcUlpSnFwMUo5blAwVFRjS3RKbGh0SHo1OVJFMWtycVJYVzlOYm9uVDFnX0oteU95UVVwbGYwd1p0cWhjUUFWSTlYZWRaZi1CUk1QZ2pNcnAtbzZEQm1BMEtSNjlPQ0JPbVJpblh3S282SzhkcUZQTWJ5bHU2dFB5ajROV1otcmM0dWQ0Q3FBTFh2M01UelBMWkl3ZThqOVQtR20xWlplUmZaTjhORWdUY05FLV9jZElGTQ?oc=5",
+          "source": "Wood Mackenzie",
+          "source_type": "rss",
+          "published_at": "2026-07-02T07:00:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f8b84f51c8d8c6",
+      "topic": "natgas",
+      "lead_title": "Summer Heat, LNG Demand Begin Testing Natural Gas Storage Narrative",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSWhVdzBYamFkdU56VTdFcVZoZ0wxa0ZtUmFzZnNNR2lZRDY0SS1hWHFpVm5sSVA1VmxNVlFqc3VuTXdUcHdvYmZ6YkFmZS04MndjNHlmV2JMOHp3SjRFYVh5OVNuaU8wdjZjU1htV1h0c0lEM0RZV1RmeDZHeXhLTXpMREpPQWRLN1Q0bWRwcWl3M3pIaXRRNWJidlI0V3otSFE?oc=5",
+      "lead_source": "Natural Gas Intelligence",
       "canonical_entities": [
         "LNG",
         "natural gas"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-06-22T07:00:00+00:00",
+      "latest_seen": "2026-06-22T07:00:00+00:00",
+      "age_hours": 1369.8,
+      "score": 44.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "ca123ffc06db9969",
+          "title": "Summer Heat, LNG Demand Begin Testing Natural Gas Storage Narrative",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSWhVdzBYamFkdU56VTdFcVZoZ0wxa0ZtUmFzZnNNR2lZRDY0SS1hWHFpVm5sSVA1VmxNVlFqc3VuTXdUcHdvYmZ6YkFmZS04MndjNHlmV2JMOHp3SjRFYVh5OVNuaU8wdjZjU1htV1h0c0lEM0RZV1RmeDZHeXhLTXpMREpPQWRLN1Q0bWRwcWl3M3pIaXRRNWJidlI0V3otSFE?oc=5",
+          "source": "Natural Gas Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-06-22T07:00:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_aaed6655f66b9a",
+      "topic": "natgas",
+      "lead_title": "US Natural Gas Futures Dip on Lower Flows to LNG Export Plants",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTRYM29xdlg5b0Z5My1vel9sZ1J4UDRENzdmSlVJbmlGQnU4ejg2V1VRcXhKQjhUX28yWFpxYXpPTFhuQVhvalFhYjdiTmhMU0ptMEc0ejV4VDlBVnlNSG81YUdSZ2tpRkpweWlBb3BBQ2hGOWEzZnFlRXBGOU1HWjR2cjJCSVJldTVwc2t4NGJzSGRWNEhHU2hzZmFoY3VzOG4zVUhmSVFmQzdqbGRQU2VzWFI?oc=5",
+      "lead_source": "Bloomberg",
+      "canonical_entities": [
+        "LNG",
+        "natural gas"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-06-02T07:00:00+00:00",
       "latest_seen": "2026-06-02T07:00:00+00:00",
-      "age_hours": 1848.14,
-      "score": 43.0,
+      "age_hours": 1849.8,
+      "score": 38.0,
       "score_components": {
-        "source_count_points": 10,
+        "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 8,
@@ -82,63 +218,13 @@
           "headline_id": "e151d047b3805ca1",
           "title": "US Natural Gas Futures Dip on Lower Flows to LNG Export Plants",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTRYM29xdlg5b0Z5My1vel9sZ1J4UDRENzdmSlVJbmlGQnU4ejg2V1VRcXhKQjhUX28yWFpxYXpPTFhuQVhvalFhYjdiTmhMU0ptMEc0ejV4VDlBVnlNSG81YUdSZ2tpRkpweWlBb3BBQ2hGOWEzZnFlRXBGOU1HWjR2cjJCSVJldTVwc2t4NGJzSGRWNEhHU2hzZmFoY3VzOG4zVUhmSVFmQzdqbGRQU2VzWFI?oc=5",
-          "source": "Bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-06-02T07:00:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "5df90e2fb6a8af55",
-          "title": "US natural gas futures ease as LNG export flows hit four-month low",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUDV2eHNCRmpWaVFOMU1WMG5JTGZaRVVpcE4zeEFrRmVsblhHd044LWVRenFWZHlhc2tuaFZfZVh4WW1mWnBERW9hVlMwLUJNb3Iyd3RSalM4WEdqcUZsQlRVQmRuaGMxd2F0MXFPV0Z2VnNFTlBOWWl5cE1QRU5OWDJyNDZiOFJ1ZGUwX01VLTZLcEkzenJBTWdqZ1d5UFU4dzNnLU1sM05HY0JhMFFBWVgxbTd5dw?oc=5",
-          "source": "Reuters",
+          "source": "Bloomberg",
           "source_type": "rss",
           "published_at": "2026-06-02T07:00:00+00:00",
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_29a37dca94b7b6",
-      "topic": "natgas",
-      "lead_title": "Marsa LNG boosts Suhar’s bunkering hub",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR0xnQkpQSmk0X3hQUEN2N2o2SHZWTWRENGZyeGdWNXYwcllBYlVEcGxLdEFXOWdaMnc2WC13S3U2OWNNeUF1QzlzZ0NCRVlTd2U1YUVZTVpZYjA1VHpieW9XcFFLdTROSk1fUXhDSjFKQnQ0cjlhY05VTTdiOUYwYXBnRjVMYV9uaTlDVGdiTldNdThfaGNrNDlDSFQyd9IBWkFVX3lxTE1idU5DTDNweXVGNVpEb3B4TmIzTE5pbmZVZWZzYzVIUjBKSklPazJzVzl2aUpOX1gzclJEcm8tYzRSbUtfN1pmTEJZQUxVazN6eWRVeDk2SFo2QQ?oc=5",
-      "lead_source": "Oman Observer",
-      "canonical_entities": [
-        "LNG"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-17T14:18:43+00:00",
-      "latest_seen": "2026-08-17T14:18:43+00:00",
-      "age_hours": 16.83,
-      "score": 38.4,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.9,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "cd1eacc5e11bc8b2",
-          "title": "Marsa LNG boosts Suhar’s bunkering hub",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR0xnQkpQSmk0X3hQUEN2N2o2SHZWTWRENGZyeGdWNXYwcllBYlVEcGxLdEFXOWdaMnc2WC13S3U2OWNNeUF1QzlzZ0NCRVlTd2U1YUVZTVpZYjA1VHpieW9XcFFLdTROSk1fUXhDSjFKQnQ0cjlhY05VTTdiOUYwYXBnRjVMYV9uaTlDVGdiTldNdThfaGNrNDlDSFQyd9IBWkFVX3lxTE1idU5DTDNweXVGNVpEb3B4TmIzTE5pbmZVZWZzYzVIUjBKSklPazJzVzl2aUpOX1gzclJEcm8tYzRSbUtfN1pmTEJZQUxVazN6eWRVeDk2SFo2QQ?oc=5",
-          "source": "Oman Observer",
-          "source_type": "rss",
-          "published_at": "2026-08-17T14:18:43+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -158,7 +244,7 @@
       ],
       "earliest_seen": "2026-05-01T07:00:00+00:00",
       "latest_seen": "2026-05-01T07:00:00+00:00",
-      "age_hours": 2616.14,
+      "age_hours": 2617.8,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -188,7 +274,7 @@
       "topic": "natgas",
       "lead_title": "US Natural Gas Futures Top $3 for First Time Since March",
       "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbWcyX3dlVW1ZMXphbXd3VzA4Q0FRc1dDWWE4WkgxU05MVnRpV3RucTJNVGZRX2VFcE1VanVZeldobGFYdW9LbndlQXhveVpoUVdlLXR2QlVxYWRncHVxdkstcXc5VDVJZElxeVBUWExUVDNING9zWW8zQ0sxT01Vb2VBcWFYd3NxcEZodTVaczNqcGp5N0RoaFo1TGhaNmdtNldLaUdFRTl5QQ?oc=5",
-      "lead_source": "Bloomberg.com",
+      "lead_source": "Bloomberg",
       "canonical_entities": [
         "natural gas"
       ],
@@ -199,7 +285,7 @@
       ],
       "earliest_seen": "2026-05-18T07:00:00+00:00",
       "latest_seen": "2026-05-18T07:00:00+00:00",
-      "age_hours": 2208.14,
+      "age_hours": 2209.8,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -215,7 +301,7 @@
           "headline_id": "c39ad68be122b311",
           "title": "US Natural Gas Futures Top $3 for First Time Since March",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbWcyX3dlVW1ZMXphbXd3VzA4Q0FRc1dDWWE4WkgxU05MVnRpV3RucTJNVGZRX2VFcE1VanVZeldobGFYdW9LbndlQXhveVpoUVdlLXR2QlVxYWRncHVxdkstcXc5VDVJZElxeVBUWExUVDNING9zWW8zQ0sxT01Vb2VBcWFYd3NxcEZodTVaczNqcGp5N0RoaFo1TGhaNmdtNldLaUdFRTl5QQ?oc=5",
-          "source": "Bloomberg.com",
+          "source": "Bloomberg",
           "source_type": "rss",
           "published_at": "2026-05-18T07:00:00+00:00",
           "confidence": 1.0
@@ -241,7 +327,7 @@
       ],
       "earliest_seen": "2026-08-07T18:22:40+00:00",
       "latest_seen": "2026-08-07T19:38:11+00:00",
-      "age_hours": 251.5,
+      "age_hours": 253.16,
       "score": 34.0,
       "score_components": {
         "source_count_points": 10,
@@ -293,7 +379,7 @@
       ],
       "earliest_seen": "2026-05-18T07:00:00+00:00",
       "latest_seen": "2026-05-19T07:00:00+00:00",
-      "age_hours": 2184.14,
+      "age_hours": 2185.8,
       "score": 33.75,
       "score_components": {
         "source_count_points": 5,
@@ -343,7 +429,7 @@
       ],
       "earliest_seen": "2026-07-28T07:00:00+00:00",
       "latest_seen": "2026-07-28T07:00:00+00:00",
-      "age_hours": 504.14,
+      "age_hours": 505.8,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -384,7 +470,7 @@
       ],
       "earliest_seen": "2026-07-16T07:00:00+00:00",
       "latest_seen": "2026-07-16T07:00:00+00:00",
-      "age_hours": 792.14,
+      "age_hours": 793.8,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -414,7 +500,7 @@
       "topic": "natgas",
       "lead_title": "USA EIA Raises 2026, 2027 Henry Hub Price Forecasts",
       "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU3pmRGFzeUNVU2xiTGNaMWFuYThQaklsMzROZ1hHTTN1a1lrWTY2U2ZlRTQzREFROWZ1c1R2RUVjeWZkVTIxcUpKRDY2TlNVYkk0QzFmcXJ1NFFHUnVndlpOQmVyQjdiS1FWdWh6S2pyZy0yTm55M0F2SFhzVnA2azF2cWlxcnhBMWtxdGU2RUlKd3gxX0pNYTdaZzhXWnV6X0ZQQUI0VkdOZFk?oc=5",
-      "lead_source": "rigzone.com",
+      "lead_source": "Rigzone",
       "canonical_entities": [
         "Henry Hub"
       ],
@@ -425,7 +511,7 @@
       ],
       "earliest_seen": "2026-06-16T07:00:00+00:00",
       "latest_seen": "2026-06-16T07:00:00+00:00",
-      "age_hours": 1512.14,
+      "age_hours": 1513.8,
       "score": 30.1,
       "score_components": {
         "source_count_points": 5,
@@ -441,7 +527,7 @@
           "headline_id": "93275d323a28830c",
           "title": "USA EIA Raises 2026, 2027 Henry Hub Price Forecasts",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU3pmRGFzeUNVU2xiTGNaMWFuYThQaklsMzROZ1hHTTN1a1lrWTY2U2ZlRTQzREFROWZ1c1R2RUVjeWZkVTIxcUpKRDY2TlNVYkk0QzFmcXJ1NFFHUnVndlpOQmVyQjdiS1FWdWh6S2pyZy0yTm55M0F2SFhzVnA2azF2cWlxcnhBMWtxdGU2RUlKd3gxX0pNYTdaZzhXWnV6X0ZQQUI0VkdOZFk?oc=5",
-          "source": "rigzone.com",
+          "source": "Rigzone",
           "source_type": "rss",
           "published_at": "2026-06-16T07:00:00+00:00",
           "confidence": 0.87
@@ -455,7 +541,7 @@
       "topic": "natgas",
       "lead_title": "USA EIA Lowers Henry Hub Price Forecast for 2026, 2027",
       "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHFISDlCS280eS1oRnhvRUdtLVVaZWtaaWVHSnFNQnVnekhOb3BwcTZ2cV9PU0ZGcGtGMWNYNXFDSjl3U1VVR2ZqeEE5Z2NvNU5IVnctV0owMF9HMFNuRktXZWF0VEdnUkhoWHRYMHRDUkxDNFVZRWVoMG5IamhYN1BENF80OVZvSjhibnhYaWNGbnpxTU9xaEtjRTROSTFSNUxlQkkybldFZC1TdEJB?oc=5",
-      "lead_source": "rigzone.com",
+      "lead_source": "Rigzone",
       "canonical_entities": [
         "Henry Hub"
       ],
@@ -466,7 +552,7 @@
       ],
       "earliest_seen": "2026-05-20T07:00:00+00:00",
       "latest_seen": "2026-05-20T07:00:00+00:00",
-      "age_hours": 2160.14,
+      "age_hours": 2161.8,
       "score": 30.1,
       "score_components": {
         "source_count_points": 5,
@@ -482,7 +568,7 @@
           "headline_id": "efaa7d583b39d662",
           "title": "USA EIA Lowers Henry Hub Price Forecast for 2026, 2027",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeHFISDlCS280eS1oRnhvRUdtLVVaZWtaaWVHSnFNQnVnekhOb3BwcTZ2cV9PU0ZGcGtGMWNYNXFDSjl3U1VVR2ZqeEE5Z2NvNU5IVnctV0owMF9HMFNuRktXZWF0VEdnUkhoWHRYMHRDUkxDNFVZRWVoMG5IamhYN1BENF80OVZvSjhibnhYaWNGbnpxTU9xaEtjRTROSTFSNUxlQkkybldFZC1TdEJB?oc=5",
-          "source": "rigzone.com",
+          "source": "Rigzone",
           "source_type": "rss",
           "published_at": "2026-05-20T07:00:00+00:00",
           "confidence": 0.87
@@ -508,7 +594,7 @@
       ],
       "earliest_seen": "2026-08-03T07:00:00+00:00",
       "latest_seen": "2026-08-03T07:00:00+00:00",
-      "age_hours": 360.14,
+      "age_hours": 361.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -550,7 +636,7 @@
       ],
       "earliest_seen": "2026-07-10T07:00:00+00:00",
       "latest_seen": "2026-07-10T07:00:00+00:00",
-      "age_hours": 936.14,
+      "age_hours": 937.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -592,7 +678,7 @@
       ],
       "earliest_seen": "2026-07-09T07:00:00+00:00",
       "latest_seen": "2026-07-09T07:00:00+00:00",
-      "age_hours": 960.14,
+      "age_hours": 961.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -634,7 +720,7 @@
       ],
       "earliest_seen": "2026-07-07T07:00:00+00:00",
       "latest_seen": "2026-07-07T07:00:00+00:00",
-      "age_hours": 1008.14,
+      "age_hours": 1009.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -660,48 +746,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_ecad858944f479",
-      "topic": "natgas",
-      "lead_title": "Wood Mackenzie: Era of US$2 - 4/million btu Henry Hub natural gas prices ending",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObGFfMDFVNjFRa2VFRGZJZ2w2QW0zZVJYWVA0c0pKdXpHWTFjeEEzNDVtbzFkVERQTDRMZFZQdjJVZzQwa2N1VkdiZldKMTZwN0V2Rk95TUNfYUNldWR6dldrYmJRRjZFcGJ3bGgwQ0tfbFVJS3VORmhmbGVTWF8xRjdPOHZZTDlXTzdmV3RwWFNkLUdEZXJDTUlsdXhCTkhkWm9BZG03TE9Qb2t3UkRCazF4a1B0LTU1a3JsMF9Qd2kxZTNKb3pxby1VRmMxTUJDY3fSAdcBQVVfeXFMTXNua1ptRmFLaHdYeWEtYzlKSDdqdzVZSF9VRHRPYWNiOGpQRzBrZDJfYXJDeGZqUXVpZlBDaVFNdjZwZUxQZ3N1YnFqblpGNUxEMy14TDlhT1lGSEEyeTBockRqQzZXZHZBUXVIMVFscktXWUF5dkxWMTVvalRNTkJlc2pILVhrRUo2c3FPUDRjZXZ5d3R5MExoamNLNzkwTzR6ZUYyQnd1RVRxVnFXQ0RfZXFmdm9tUUZ5NEpiYVVpYlh1U3ZYeEgzYzNNTUlGN3RZcWppdTQ?oc=5",
-      "lead_source": "Oilfield Technology",
-      "canonical_entities": [
-        "Henry Hub",
-        "natural gas"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-07-02T07:00:00+00:00",
-      "latest_seen": "2026-07-02T07:00:00+00:00",
-      "age_hours": 1128.14,
-      "score": 29.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "4f541656605f4c3c",
-          "title": "Wood Mackenzie: Era of US$2 - 4/million btu Henry Hub natural gas prices ending",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObGFfMDFVNjFRa2VFRGZJZ2w2QW0zZVJYWVA0c0pKdXpHWTFjeEEzNDVtbzFkVERQTDRMZFZQdjJVZzQwa2N1VkdiZldKMTZwN0V2Rk95TUNfYUNldWR6dldrYmJRRjZFcGJ3bGgwQ0tfbFVJS3VORmhmbGVTWF8xRjdPOHZZTDlXTzdmV3RwWFNkLUdEZXJDTUlsdXhCTkhkWm9BZG03TE9Qb2t3UkRCazF4a1B0LTU1a3JsMF9Qd2kxZTNKb3pxby1VRmMxTUJDY3fSAdcBQVVfeXFMTXNua1ptRmFLaHdYeWEtYzlKSDdqdzVZSF9VRHRPYWNiOGpQRzBrZDJfYXJDeGZqUXVpZlBDaVFNdjZwZUxQZ3N1YnFqblpGNUxEMy14TDlhT1lGSEEyeTBockRqQzZXZHZBUXVIMVFscktXWUF5dkxWMTVvalRNTkJlc2pILVhrRUo2c3FPUDRjZXZ5d3R5MExoamNLNzkwTzR6ZUYyQnd1RVRxVnFXQ0RfZXFmdm9tUUZ5NEpiYVVpYlh1U3ZYeEgzYzNNTUlGN3RZcWppdTQ?oc=5",
-          "source": "Oilfield Technology",
-          "source_type": "rss",
-          "published_at": "2026-07-02T07:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_a0939381c596bf",
       "topic": "natgas",
       "lead_title": "Defying gravity: why US Henry Hub natural gas prices are set to rise",
@@ -718,7 +762,7 @@
       ],
       "earliest_seen": "2026-06-26T07:00:00+00:00",
       "latest_seen": "2026-06-26T07:00:00+00:00",
-      "age_hours": 1272.14,
+      "age_hours": 1273.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -760,7 +804,7 @@
       ],
       "earliest_seen": "2026-06-09T07:00:00+00:00",
       "latest_seen": "2026-06-09T07:00:00+00:00",
-      "age_hours": 1680.14,
+      "age_hours": 1681.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -802,7 +846,7 @@
       ],
       "earliest_seen": "2026-06-01T07:00:00+00:00",
       "latest_seen": "2026-06-01T07:00:00+00:00",
-      "age_hours": 1872.14,
+      "age_hours": 1873.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -844,7 +888,7 @@
       ],
       "earliest_seen": "2026-05-14T07:00:00+00:00",
       "latest_seen": "2026-05-14T07:00:00+00:00",
-      "age_hours": 2304.14,
+      "age_hours": 2305.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -886,7 +930,7 @@
       ],
       "earliest_seen": "2026-04-20T07:00:00+00:00",
       "latest_seen": "2026-04-20T07:00:00+00:00",
-      "age_hours": 2880.14,
+      "age_hours": 2881.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -928,7 +972,7 @@
       ],
       "earliest_seen": "2026-04-08T07:00:00+00:00",
       "latest_seen": "2026-04-08T07:00:00+00:00",
-      "age_hours": 3168.14,
+      "age_hours": 3169.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -970,7 +1014,7 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 3624.14,
+      "age_hours": 3625.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -996,48 +1040,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_75a50ecae69a33",
-      "topic": "natgas",
-      "lead_title": "Spot Prices Wrap: Henry Hub, AECO Climb as Rattled Global Market Calls on U.S. LNG",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0F6R1AxNkUwYmp4QS1nTkxUSWFybUxkVC1vZVlBT25vYWNqdUpzX2RtWlAwRzlzWC0zaGZXYmpXNkU5X2V4d1JRMW5OM0dFY0Z6dXR4UnluM1BXOXRQREUtSElxaUIybzFBVG1zSmNEbDVsMVY2NWM1MldxTUR6UThDMHEzZVoyX2lHRnNvYkx2ZUJzWExEVDVrV0s3MWpvNlM5Qk5uaThwOGlITGE2TWFR?oc=5",
-      "lead_source": "Natural Gas Intelligence",
-      "canonical_entities": [
-        "Henry Hub",
-        "LNG"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-19T07:00:00+00:00",
-      "latest_seen": "2026-03-19T07:00:00+00:00",
-      "age_hours": 3648.14,
-      "score": 29.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "76b1d50a119f7ada",
-          "title": "Spot Prices Wrap: Henry Hub, AECO Climb as Rattled Global Market Calls on U.S. LNG",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQN0F6R1AxNkUwYmp4QS1nTkxUSWFybUxkVC1vZVlBT25vYWNqdUpzX2RtWlAwRzlzWC0zaGZXYmpXNkU5X2V4d1JRMW5OM0dFY0Z6dXR4UnluM1BXOXRQREUtSElxaUIybzFBVG1zSmNEbDVsMVY2NWM1MldxTUR6UThDMHEzZVoyX2lHRnNvYkx2ZUJzWExEVDVrV0s3MWpvNlM5Qk5uaThwOGlITGE2TWFR?oc=5",
-          "source": "Natural Gas Intelligence",
-          "source_type": "rss",
-          "published_at": "2026-03-19T07:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_7a9cc540342bbe",
       "topic": "natgas",
       "lead_title": "EIA Lowers Henry Hub Natural Gas Price Forecast Despite Iran War Fallout",
@@ -1054,7 +1056,7 @@
       ],
       "earliest_seen": "2026-03-10T07:00:00+00:00",
       "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 3864.14,
+      "age_hours": 3865.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1096,7 +1098,7 @@
       ],
       "earliest_seen": "2026-03-09T07:00:00+00:00",
       "latest_seen": "2026-03-09T07:00:00+00:00",
-      "age_hours": 3888.14,
+      "age_hours": 3889.8,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1135,7 +1137,7 @@
       ],
       "earliest_seen": "2026-04-07T07:00:00+00:00",
       "latest_seen": "2026-04-07T07:00:00+00:00",
-      "age_hours": 3192.14,
+      "age_hours": 3193.8,
       "score": 26.4,
       "score_components": {
         "source_count_points": 5,
