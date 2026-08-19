@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-19T03:07:00.575009+00:00",
-  "previous_generated_at": "2026-08-19T01:50:48.148723+00:00",
-  "resolver_run_count": 118,
+  "generated_at": "2026-08-19T04:03:58.596780+00:00",
+  "previous_generated_at": "2026-08-19T03:07:00.575009+00:00",
+  "resolver_run_count": 119,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.952,
+      "confidence": 0.949,
       "last_confirmed": "2026-08-19T00:39:00+00:00",
-      "source_count": 8,
+      "source_count": 5,
       "summary_short": "Oil edges up on uncertainty over exports through Hormuz",
-      "summary_long": "Oil edges up on uncertainty over exports through Hormuz. Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
+      "summary_long": "Oil edges up on uncertainty over exports through Hormuz. Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
       "evidence_cluster_ids": [
-        "c_ae36ac933e7ee6",
         "c_1ac550a36c89e1",
         "c_bd337bb33e90e5",
-        "c_7f1eba6907a459",
-        "c_5ba919194de946"
+        "c_5ba919194de946",
+        "c_783c8e5b5d312d",
+        "c_a0298d03620ae4"
       ],
-      "evidence_count": 7,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.38)",
-        "winning=CONTESTED (0.38/0.38), conf=0.952"
+        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.33)",
+        "winning=CONTESTED (0.33/0.33), conf=0.949"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,16 +55,15 @@
       "risk_level": "HIGH",
       "confidence": 0.945,
       "last_confirmed": "2026-08-18T07:04:00+00:00",
-      "source_count": 5,
-      "summary_short": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall",
-      "summary_long": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall. How the big oil and gas CEOs think the Iran war supply disruption will play out",
+      "source_count": 3,
+      "summary_short": "Iran threatens new offensive while US rules out extending ceasefire deal",
+      "summary_long": "Iran threatens new offensive while US rules out extending ceasefire deal. Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
       "evidence_cluster_ids": [
-        "c_ae36ac933e7ee6",
+        "c_8b987f0dff8427",
         "c_0774781576f934",
-        "c_3ae23f400c9a8b",
-        "c_89bc8bd4ad7693"
+        "c_3f8819c9fd672a"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -79,8 +78,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_0774781576 → FRAGILE (kw='ceasefire expires', weight=0.25)",
-        "winning=FRAGILE (0.25/0.25), conf=0.945"
+        "cluster c_0774781576 → FRAGILE (kw='ceasefire expires', weight=0.24)",
+        "winning=FRAGILE (0.24/0.24), conf=0.945"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -155,9 +154,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNejl0clhJZ05DTnRMNThKMTRZd2Y0dVNRc09QbWx1VUJzNHluT0hRTnRyYVZEbWtXbWVkYWxHQTA4WEdzMWpkYjNaZUZEVngtT3VwbUlndm9idFNNV3JDVFhjNVBxcHBvQVhDR1JWM3pfeUlBQWM5SVNRdVVwdzhhRzJ0WGs3QW9qUkJkbXpQVzdKY0JfR0hrTGVHb2Rndw?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 89.37,
-      "novelty": "ongoing",
-      "source_count": 5,
+      "score": 93.2,
+      "novelty": "growing",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,7 +168,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.952, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.949, fresh=fresh",
     "us_iran_ceasefire: resolved=FRAGILE, confidence=0.945, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
