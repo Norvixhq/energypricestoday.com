@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-19T13:13:26.850290+00:00",
-  "previous_generated_at": "2026-08-19T12:04:35.586350+00:00",
-  "resolver_run_count": 127,
+  "generated_at": "2026-08-19T14:48:31.152492+00:00",
+  "previous_generated_at": "2026-08-19T13:13:26.850290+00:00",
+  "resolver_run_count": 128,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,18 @@
       "status_detail": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.957,
-      "last_confirmed": "2026-08-19T13:04:14+00:00",
-      "source_count": 7,
-      "summary_short": "Crude Oil Price Forecast – WTI and Brent Chop as Strait of Hormuz Standoff Continues",
-      "summary_long": "Crude Oil Price Forecast – WTI and Brent Chop as Strait of Hormuz Standoff Continues. Iraqi parliament speaker asks Iranian counterpart for special status on Hormuz oil exports",
+      "confidence": 0.953,
+      "last_confirmed": "2026-08-19T11:30:00+00:00",
+      "source_count": 5,
+      "summary_short": "Iraqi parliament speaker asks Iranian counterpart for special status on Hormuz oil exports",
+      "summary_long": "Iraqi parliament speaker asks Iranian counterpart for special status on Hormuz oil exports. Hormuz traffic slows as uncertainty over waterway persists",
       "evidence_cluster_ids": [
         "c_8e0ecf1d4f79ef",
         "c_48b4dc42b49dcf",
         "c_bbcff99867a2e7",
-        "c_7750f28824e245",
-        "c_31e9477a9730c5"
+        "c_a0298d03620ae4"
       ],
-      "evidence_count": 6,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +40,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.21)",
-        "winning=CONTESTED (0.21/0.21), conf=0.957"
+        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.20)",
+        "winning=CONTESTED (0.20/0.20), conf=0.953"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,13 +54,13 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-08-19T11:30:00+00:00",
-      "source_count": 3,
+      "source_count": 4,
       "summary_short": "Iraqi parliament speaker asks Iranian counterpart for special status on Hormuz oil exports",
-      "summary_long": "Iraqi parliament speaker asks Iranian counterpart for special status on Hormuz oil exports. Oil Advances for Fourth Day With US and Iran Locked in Stalemate",
+      "summary_long": "Iraqi parliament speaker asks Iranian counterpart for special status on Hormuz oil exports. Trump says US will hold off on fresh Iran attack in hope of quick deal",
       "evidence_cluster_ids": [
         "c_8e0ecf1d4f79ef",
         "c_7eaaa3323e43e5",
-        "c_7750f28824e245"
+        "c_c3cb60ccf6e3d8"
       ],
       "evidence_count": 3,
       "affected_pages": [
@@ -82,9 +81,7 @@
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
-      "next_catalyst_micro": "",
-      "previous_status": "FRAGILE",
-      "last_changed": "2026-08-19T13:13:26.850206+00:00"
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -144,9 +141,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "HIGH",
-      "last_changed": "2026-08-19T13:13:26.850206+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -157,9 +152,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSmxuWXhVVHZud1czUHNVc1Z5WmdwcGo2RUY1RkI1em1ETm5tcllNdVNTNWxZeGZKTVJERnJLbG1xcUVCR3JmQm82d2lnVEdodDRuOGRSZ2p2cktkOElMTXlKMy1vUHZ5eVdjSUZORGRXRUMzX24ta1RuU1NPNElra01pbmZyaV93WFo2Y1Q4TFlSUDBKM3pFakdaSW1TYmlDdzF2a1FhTU5FclBJ?oc=5",
       "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 80.52,
-      "novelty": "ongoing",
-      "source_count": 9,
+      "score": 85.02,
+      "novelty": "growing",
+      "source_count": 10,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -169,46 +164,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "status",
-      "from": "FRAGILE",
-      "to": "HOLDING",
-      "detected_at": "2026-08-19T13:13:26.850206+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-19T13:13:26.850206+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-19T13:13:26.850206+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "HIGH",
-      "to": "ELEVATED",
-      "detected_at": "2026-08-19T13:13:26.850206+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.957, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.953, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
