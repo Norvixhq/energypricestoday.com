@@ -1,43 +1,53 @@
 {
   "topic": "oil",
-  "generated_at": "2026-08-19T18:03:51.264684+00:00",
+  "generated_at": "2026-08-19T20:49:50.304525+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 17,
+  "clusters_found": 18,
   "clusters": [
     {
-      "cluster_id": "c_f1d0dd7cfff793",
+      "cluster_id": "c_f176dfbc70ff2e",
       "topic": "oil",
-      "lead_title": "US crude oil inventories climb 4.4 million barrels last week",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPaTNvYk04QkZKRW1uQnNkWHBncGtndElsYTZiR1ZGNnVFZ0s3dzZ2enRfX2dsbjlVbHJOUlJSYjI4Sm44eUo4N0ltNHJjQ1JvZkUtaXlUZzFkY1l6R01kZFhXd1JxZ3R4RGkwMGtsTHJVejhMcGVYWkJvd1ZHRGFPN3BtamhPTk1fN056bGw2UEphckoxeXFNN2tiQWpTd20zYmd6SFVNWU9VMTU3RmNHdVUzVEhjUkR0U3JObw?oc=5",
-      "lead_source": "Investing.com",
+      "lead_title": "September WTI Crude Oil Contract Closes Up $0.89, or 1.1%; Settles at $85.83 per Barrel. October Brent Oil Was Last Seen Up $0.83, or 1%, to $91.85",
+      "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSmotV0hadFREamRCUFlwTzQ1X0pFckFNalZwX1RVNlpGVjRUS1htLU5mQ01kOTZmdEk4VE8yRE1ubGhlTnlBaFlNUmpWb0sySFF5Y3RKbGdTLXA5ZUZHWWljRnJxSkM0WmRua3l2bmxmVXpSX04xRXV0S25WTVhVLWVJYW5EV3doR19sZ2xKM3RaZnV1Rk14UjRSbkM0dEszUUZHM0YzWW1yTGh5OVBWaElKOXpTRWtod1Nsa1NUMlRZc2dVbzdsY20tZm5LcmJmZV9Fc25IS21pSm1vSVZ2OQ?oc=5",
+      "lead_source": "marketscreener.com",
       "canonical_entities": [
+        "Brent",
         "WTI",
         "barrel",
         "crude",
         "oil"
       ],
-      "source_count": 7,
-      "distinct_publishers": 7,
+      "source_count": 4,
+      "distinct_publishers": 4,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T02:44:24+00:00",
-      "latest_seen": "2026-08-19T17:04:44+00:00",
-      "age_hours": 0.99,
-      "score": 92.69,
+      "earliest_seen": "2026-08-19T14:30:00+00:00",
+      "latest_seen": "2026-08-19T18:38:28+00:00",
+      "age_hours": 2.19,
+      "score": 96.56,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 24.41,
-        "source_quality_points": 22.29,
-        "entity_relevance_points": 16,
+        "recency_points": 23.69,
+        "source_quality_points": 22.88,
+        "entity_relevance_points": 20,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
+        {
+          "headline_id": "4d09e742c4378901",
+          "title": "September WTI Crude Oil Contract Closes Up $0.89, or 1.1%; Settles at $85.83 per Barrel. October Brent Oil Was Last Seen Up $0.83, or 1%, to $91.85",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSmotV0hadFREamRCUFlwTzQ1X0pFckFNalZwX1RVNlpGVjRUS1htLU5mQ01kOTZmdEk4VE8yRE1ubGhlTnlBaFlNUmpWb0sySFF5Y3RKbGdTLXA5ZUZHWWljRnJxSkM0WmRua3l2bmxmVXpSX04xRXV0S25WTVhVLWVJYW5EV3doR19sZ2xKM3RaZnV1Rk14UjRSbkM0dEszUUZHM0YzWW1yTGh5OVBWaElKOXpTRWtod1Nsa1NUMlRZc2dVbzdsY20tZm5LcmJmZV9Fc25IS21pSm1vSVZ2OQ?oc=5",
+          "source": "marketscreener.com",
+          "source_type": "rss",
+          "published_at": "2026-08-19T18:38:28+00:00",
+          "confidence": 0.8
+        },
         {
           "headline_id": "31d4a445a95b2eff",
           "title": "US crude oil inventories climb 4.4 million barrels last week",
@@ -64,7 +74,41 @@
           "source_type": "rss",
           "published_at": "2026-08-19T14:30:00+00:00",
           "confidence": 0.75
-        },
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_663de59ca15ce0",
+      "topic": "oil",
+      "lead_title": "WTI Crude Oil Forecast 19/08: $86 Test Amid Hormuz Risks",
+      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ0R0a09PVjMyRXRoVklOamRmZlR1ZXpjYTQ1ZjY0ZmlkTXlPNEY5UTVacHlScjE5UjlqUnNudXVGcDU5UDVuRFg0N2ppeHB3cjMxeFQyMUYzM2luWjBDUjhrekd1cGVRVm1pS3FEWnBSeDJxNkxPTHRqaWt1a3psUkNXMFdqSGIxbm9nNGROM0hEOTFIVFM5eTBuOUdVMTJTY0F1bU9aekdQcjlsZ0M1Z3E1ZlRWZ2FleFdFUw?oc=5",
+      "lead_source": "Daily Forex",
+      "canonical_entities": [
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 4,
+      "distinct_publishers": 4,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T02:44:24+00:00",
+      "latest_seen": "2026-08-19T19:13:23+00:00",
+      "age_hours": 1.61,
+      "score": 88.16,
+      "score_components": {
+        "source_count_points": 20,
+        "recency_points": 24.04,
+        "source_quality_points": 22.12,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
         {
           "headline_id": "9f0e30ef3796a796",
           "title": "WTI Crude Oil Forecast 19/08: $86 Test Amid Hormuz Risks",
@@ -75,30 +119,30 @@
           "confidence": 0.75
         },
         {
-          "headline_id": "5eb05c4b847f0183",
-          "title": "Wti Crude Oil Charges Higher with Fed Minutes Set to Test Bulls",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNUk5KeFhBaFBtUTNkOERDZEFndzEySGo5cFl1UzZPd0pOTmhyeUlFajhlMUo5UDlyYVM5b25CS3NJQzZ0VWJiZGtXY3kxUTVFSkhRcks1NzBmMFptRXBiVGFzZGQ3SU1YUjZodklKVEtRY3NUakJmcFVlQVBNOHZUWUtPRklqc3JFUTNtRWZIVVhNNVBkQjUtR1l3RkJiMGpZVHQ2S2dvampuNjFPRG5sNWI5WmFENzlfcllheEJiZlNFTWs0ZkJUYVBqWQ?oc=5",
-          "source": "Action Forex",
+          "headline_id": "a52ae824ac992cd3",
+          "title": "Oil price outlook: Micro WTI Crude Oil futures navigating between arc levels",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmVYRXktSzJaMWJfZ0V6bGFiRVFoUUowQ2ZJaWQxWHFKalIwUmNlcDl2SGVmNlZnSEc3eGhlblNSYU5jWWpBQmhxRlo3WE1lSTZKalJ1aE9NZ2VqYmxkWW9yQTFmemFWTW1ldUlyTzJzRlNPYlFnNFVDMFZKRW1UMGpHa1BnWDdNenFMZ0tOTXpDU3FLVEpJelRrZ2o3Smo1RktKVFpab1BhN1hxQmpqYW15RUZMZ2lfdmUxVXFXUQ?oc=5",
+          "source": "fxstreet.com",
           "source_type": "rss",
-          "published_at": "2026-08-19T04:16:47+00:00",
+          "published_at": "2026-08-19T10:23:57+00:00",
           "confidence": 0.75
         },
         {
           "headline_id": "167037e3251abb08",
           "title": "WTI Crude Oil futures drop as Middle East supply risks linger.",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSk5zQ2h4bmlwLV9wbXE5cUJYZ3JONkhrS1hLWUlNLThkZ1Q0WmpObFNvcEc1WWF1dDZxVzAxc0F1X1BpTWFQUUVwdy1DeVBjX1dLQ1VKT0xZaHZGM0puNGhpaHRBV2pfTXp3RnFZajRfdFNrQXdORFFqWVJUTVp4Uzk1VnMxWF9nWHR3cjdSV2ZlWGROTEEwTkVWc0NmZkVOcUZpRDlPVjBKRkxjekc3Sg?oc=5",
-          "source": "CME Group",
+          "source": "cmegroup.com",
           "source_type": "rss",
           "published_at": "2026-08-19T02:44:24+00:00",
           "confidence": 0.75
         },
         {
-          "headline_id": "bd56621b91c68d7c",
-          "title": "Crude oil prices climb over 1% on Middle East turmoil",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYnhRUnNieGJ0eXpJRlYtY1FPSVlPWnhYV2p2Y042YmswQXYxRVFoR3dKajdHcDF2SFRtSjlpU1c3UnRMX2RJUmJiLUdtQXJnYnhMcE9fYUJxamk5WFpfYnFMSy00X3JpalV3encwRFJKODBVdUl0UlR2aTlaeHdZRGx2NFVOYkdDMTRIQWhjM05WZDZ4bkV2Vk9LNWJHdw?oc=5",
-          "source": "Breakingthenews.net",
+          "headline_id": "d0403d128f90e588",
+          "title": "Heightened Middle East Tensions Boost Crude Oil Prices",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObzZRVGtPT0RLTXVhYURFbXFPVGVpOFFWNjhqYmQ1MkV2TE50blZjcmJuMExaU2l0YVhyWXBhWkxBNTdnRkprVjMwNjVpNFdRbTZzNHctZzI2WVM1cG1tSW0xZnhxbHJCQVdMSHowWVU4Z1Y5SHoxMnNSSXVYUFNEemdveTMtX0FFQ1RCQkxoeDRqWGJfN1ppX1BRdEVWbDg?oc=5",
+          "source": "Barchart.com",
           "source_type": "rss",
-          "published_at": "2026-08-19T15:58:00+00:00",
+          "published_at": "2026-08-19T19:13:23+00:00",
           "confidence": 0.7
         }
       ],
@@ -110,35 +154,35 @@
       "topic": "oil",
       "lead_title": "U.S. Crude Oil Stockpiles Post Weekly Increase",
       "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
-      "lead_source": "WSJ",
+      "lead_source": "wsj.com",
       "canonical_entities": [
         "crude",
         "oil"
       ],
-      "source_count": 4,
-      "distinct_publishers": 4,
+      "source_count": 5,
+      "distinct_publishers": 5,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-08-18T10:09:44+00:00",
-      "latest_seen": "2026-08-19T16:15:00+00:00",
-      "age_hours": 1.81,
-      "score": 79.66,
+      "latest_seen": "2026-08-19T20:21:04+00:00",
+      "age_hours": 0.48,
+      "score": 84.11,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 23.91,
-        "source_quality_points": 27.75,
+        "recency_points": 24.71,
+        "source_quality_points": 26.4,
         "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "materiality_points": 5.0
       },
-      "novelty": "ongoing",
+      "novelty": "growing",
       "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "30a8f0b9ce9c7bdc",
           "title": "U.S. Crude Oil Stockpiles Post Weekly Increase",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
-          "source": "WSJ",
+          "source": "wsj.com",
           "source_type": "rss",
           "published_at": "2026-08-19T15:27:00+00:00",
           "confidence": 1.0
@@ -147,7 +191,7 @@
           "headline_id": "0c9268b3df0b44ad",
           "title": "Watch Fesharaki: Oil’s Real Story Lies in Products, Not Crude",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSmxuWXhVVHZud1czUHNVc1Z5WmdwcGo2RUY1RkI1em1ETm5tcllNdVNTNWxZeGZKTVJERnJLbG1xcUVCR3JmQm82d2lnVEdodDRuOGRSZ2p2cktkOElMTXlKMy1vUHZ5eVdjSUZORGRXRUMzX24ta1RuU1NPNElra01pbmZyaV93WFo2Y1Q4TFlSUDBKM3pFakdaSW1TYmlDdzF2a1FhTU5FclBJ?oc=5",
-          "source": "bloomberg.com",
+          "source": "Bloomberg",
           "source_type": "rss",
           "published_at": "2026-08-19T00:00:00+00:00",
           "confidence": 1.0
@@ -162,64 +206,21 @@
           "confidence": 1.0
         },
         {
-          "headline_id": "ffb08db7677fd824",
-          "title": "Evening update for crude oil-19-08-2026",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOVozaVdKTTNWVkZ6RlpaRnhmMVdWbmxCSzdGbnFBRlBQZXpGd0ZaU3hkRDFsZDRpc2h4eTBHckRpZ3RCR0ZPTzdMWFpDdnVwaUV4OU5mdlVkRF95Q05oa1FlVGFheDVXSHlfRXN5bEZZSDMyZ0lkeEw5aUFpazZleS1fX0w4WWt2cnFEVjhUMDNYb21Uekd1OUM5VUZQdw?oc=5",
-          "source": "Economies.com",
+          "headline_id": "cc29fda333cea840",
+          "title": "Dow Jones Top Energy Headlines at 4 PM ET: U.S. Crude Oil Stockpiles Post Weekly Increase | Oil ...",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaUFYSVZnNlJQYTcxSmc2VHY2M0tjbVgwNlJ0WjVPcVoyT0REZ0oxNzhmVnp2LS1PTkUzSkxma3hpNnRSaUFyb1VtRmp6S3BBbXJmdEpka25KbFhTUW04MFZJQmtFem9KQXR3UVZxOG1vUDlKdjQ0amVkZHBMT0tTN3doVWFNTDdWUVk0eFZBZw?oc=5",
+          "source": "Moomoo",
           "source_type": "rss",
-          "published_at": "2026-08-19T16:15:00+00:00",
+          "published_at": "2026-08-19T20:21:04+00:00",
           "confidence": 0.7
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_60becbe607594b",
-      "topic": "oil",
-      "lead_title": "Oil price outlook: Micro WTI Crude Oil futures navigating between arc levels",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmVYRXktSzJaMWJfZ0V6bGFiRVFoUUowQ2ZJaWQxWHFKalIwUmNlcDl2SGVmNlZnSEc3eGhlblNSYU5jWWpBQmhxRlo3WE1lSTZKalJ1aE9NZ2VqYmxkWW9yQTFmemFWTW1ldUlyTzJzRlNPYlFnNFVDMFZKRW1UMGpHa1BnWDdNenFMZ0tOTXpDU3FLVEpJelRrZ2o3Smo1RktKVFpab1BhN1hxQmpqYW15RUZMZ2lfdmUxVXFXUQ?oc=5",
-      "lead_source": "FXStreet",
-      "canonical_entities": [
-        "WTI",
-        "crude",
-        "oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T10:23:57+00:00",
-      "latest_seen": "2026-08-19T16:35:00+00:00",
-      "age_hours": 1.48,
-      "score": 67.86,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.11,
-        "source_quality_points": 21.75,
-        "entity_relevance_points": 12,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "a52ae824ac992cd3",
-          "title": "Oil price outlook: Micro WTI Crude Oil futures navigating between arc levels",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYmVYRXktSzJaMWJfZ0V6bGFiRVFoUUowQ2ZJaWQxWHFKalIwUmNlcDl2SGVmNlZnSEc3eGhlblNSYU5jWWpBQmhxRlo3WE1lSTZKalJ1aE9NZ2VqYmxkWW9yQTFmemFWTW1ldUlyTzJzRlNPYlFnNFVDMFZKRW1UMGpHa1BnWDdNenFMZ0tOTXpDU3FLVEpJelRrZ2o3Smo1RktKVFpab1BhN1hxQmpqYW15RUZMZ2lfdmUxVXFXUQ?oc=5",
-          "source": "FXStreet",
-          "source_type": "rss",
-          "published_at": "2026-08-19T10:23:57+00:00",
-          "confidence": 0.75
         },
         {
-          "headline_id": "664c61ad5e14664b",
-          "title": "US-Venezuela Oil Trade Surges as Crude Flows Triple, Deals Take Shape",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbXR5OW4wbzdrcnN5UFlLZHl3aTZKYnRqV2ZPRHJIVnYycEl6OHFZc1JsMDlWY2hvZ0s2bk9GMFhHSmNfUXFibk5fajRQZnJqaE93SDRUTlZlczR4d1pYVmdmTTFqSnlHbTNDYTdQN25HdHlMNHFJb3VwRWc5YWd6TFctTWdWdGNiTkxIcw?oc=5",
-          "source": "Hart Energy",
+          "headline_id": "6e17a6f958e65d72",
+          "title": "New process could reduce energy needed for crude-oil distillation by 31%",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQelc2YlpfUGx4eVNvZm5Ic0NfYlplR3d2UEJIWXlVUHktaU5ZbFBZZWdLRkdpdk1LS1BFcXdJLXlpSzYwVEYtd0F4NDZBZTFveWlZdmNmMzVCR1FhdXphZ2MxZE02RDhvRi1Ha1Vfb0xTRy1OUXhkVkhrSWNTdkdDWTNrTFZkZTVoNlpyWkE2eFpYVlNnQ2xkMUdDUDRsRFdlYnRrVQ?oc=5",
+          "source": "R&D World",
           "source_type": "rss",
-          "published_at": "2026-08-19T16:35:00+00:00",
+          "published_at": "2026-08-19T18:32:56+00:00",
           "confidence": 0.7
         }
       ],
@@ -227,11 +228,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_9e433b6b4f03c3",
+      "cluster_id": "c_423dfb76489d3d",
       "topic": "oil",
-      "lead_title": "Crude Oil Moves Higher; Lowe’s Shares Gain After Q2 Earnings",
-      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVEwtUy1mMHkwQmp5YzlobHRHNlFNaDJsa19jMExKXzdZRHQtSzNEd0hBSWhSZWFUU2VhMDJKWExsLXFjYmkxdW9VRUpmWS1EVzVka2k0ZUgtYVFJSUJiR1JLeE5rU1ZrbldlMGR1MlBjWUtpY0xxYUZIZXZLcmhIVmlMZ0gwRFM5NDBXSm1Vd0NSTlB4S3U3NVlFdVpDTXVuVzR6V0l4dWdjY2F4bUxFNWdGcTl0SlU0aWFsZzlB?oc=5",
-      "lead_source": "Benzinga",
+      "lead_title": "Crude Oil Rises for 4th Session",
+      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQjRRTVoyQ016S014dkRpNnVqV0FoWmJZYVZvQmhfd2VPNkgta1lUSzdYck9tY0hIU1Q3N1NuOFM1M3FrQVF4VmlkU2NxNHUxaFFFOEsxODVqOWF3LWI1Nk5WcFhGeGNMQldZN2E5SERVM1lYdjRwNE1BWlZUcTQzVDdzeHdQZ1U4WEE?oc=5",
+      "lead_source": "TradingView",
       "canonical_entities": [
         "crude",
         "oil"
@@ -241,139 +242,45 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T14:53:21+00:00",
-      "latest_seen": "2026-08-19T16:01:44+00:00",
-      "age_hours": 2.04,
-      "score": 67.78,
+      "earliest_seen": "2026-08-19T16:15:00+00:00",
+      "latest_seen": "2026-08-19T17:57:56+00:00",
+      "age_hours": 2.87,
+      "score": 77.28,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 23.78,
+        "recency_points": 23.28,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "22d17ef4ebab36e3",
-          "title": "Crude Oil Moves Higher; Lowe’s Shares Gain After Q2 Earnings",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVEwtUy1mMHkwQmp5YzlobHRHNlFNaDJsa19jMExKXzdZRHQtSzNEd0hBSWhSZWFUU2VhMDJKWExsLXFjYmkxdW9VRUpmWS1EVzVka2k0ZUgtYVFJSUJiR1JLeE5rU1ZrbldlMGR1MlBjWUtpY0xxYUZIZXZLcmhIVmlMZ0gwRFM5NDBXSm1Vd0NSTlB4S3U3NVlFdVpDTXVuVzR6V0l4dWdjY2F4bUxFNWdGcTl0SlU0aWFsZzlB?oc=5",
-          "source": "Benzinga",
-          "source_type": "rss",
-          "published_at": "2026-08-19T16:01:44+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "f53997858452e0e3",
-          "title": "U.S. refiners boost crude oil intake to highest level since 2019",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXVEU3hjbHphQTZDYTRJY3daaGxTRE5nYU4zOS1HRzJ4VVlSN3FVOGRfUzhqTXYyLVlhR3ROZ2RKUGF6MUMzVlY1VWZ6N1c5eXUxWlFybkFReTJhOThyenlHdVZrQTBvWnJDYjRoNkFxVkRiMDhnYkhfZlRmNDdTVC1SY0p3Z1czblkxaGlSbHF0dHRTSmMyV0tpOHYzSC1jTWlXUm5Vbk1tZW85R2hHQTQtajhpZjFmMlV3?oc=5",
-          "source": "Investing.com",
-          "source_type": "rss",
-          "published_at": "2026-08-19T15:25:23+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "b123a43568bf7c05",
-          "title": "US Crude Oil Inventories Rise for 3rd Week",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQREpycFlFM3VubklEdm5YUjZwdHh4RzhfeUU2eXRfZnlfVkxJeFhEVE1uUzlrUENSdGctVDNjdG0tbU5DZU1MZ0xaYUNMM1BWT1hIVTJSWWk3TmpXaTFvcXRrd0RWcEhZeWs3OXhic1hIV1IzVXViN0pjcVVQU3ZUQ21aUHhfSzBtMkRJQk1adnMtUUd1QjBueQ?oc=5",
+          "headline_id": "70ce511ffc562546",
+          "title": "Crude Oil Rises for 4th Session",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQjRRTVoyQ016S014dkRpNnVqV0FoWmJZYVZvQmhfd2VPNkgta1lUSzdYck9tY0hIU1Q3N1NuOFM1M3FrQVF4VmlkU2NxNHUxaFFFOEsxODVqOWF3LWI1Nk5WcFhGeGNMQldZN2E5SERVM1lYdjRwNE1BWlZUcTQzVDdzeHdQZ1U4WEE?oc=5",
           "source": "TradingView",
           "source_type": "rss",
-          "published_at": "2026-08-19T14:53:21+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6cd46e24ca40de",
-      "topic": "oil",
-      "lead_title": "The $91 per barrel price for Brent crude is merely superficial; the real energy risk lies in diesel prices at $170.",
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV0RJVkplVDY4RnBVZ3VBMW1tdE5RMWdLbm9RU3l5Q3pKY1hUWDFmdF9sbnhVd0ZSRFgxdzdIbzgtWS0xY0lGUjlwU1dETUs0S0YzNVRXaVl2VG1oeU1BVGM3Y0J6MXN2VXBBcEFUTGM4MGN1ZTgtdGZRN0dmSzJBQTk0cm5XMDFCT1FaR195NkJYaFMzR3c?oc=5",
-      "lead_source": "moomoo.com",
-      "canonical_entities": [
-        "Brent",
-        "barrel",
-        "crude"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T15:22:49+00:00",
-      "latest_seen": "2026-08-19T15:22:49+00:00",
-      "age_hours": 2.68,
-      "score": 62.89,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.39,
-        "source_quality_points": 22.5,
-        "entity_relevance_points": 12,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "c5980fd4913ce1b1",
-          "title": "The $91 per barrel price for Brent crude is merely superficial; the real energy risk lies in diesel prices at $170.",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV0RJVkplVDY4RnBVZ3VBMW1tdE5RMWdLbm9RU3l5Q3pKY1hUWDFmdF9sbnhVd0ZSRFgxdzdIbzgtWS0xY0lGUjlwU1dETUs0S0YzNVRXaVl2VG1oeU1BVGM3Y0J6MXN2VXBBcEFUTGM4MGN1ZTgtdGZRN0dmSzJBQTk0cm5XMDFCT1FaR195NkJYaFMzR3c?oc=5",
-          "source": "moomoo.com",
-          "source_type": "rss",
-          "published_at": "2026-08-19T15:22:49+00:00",
-          "confidence": 0.75
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_630daeb2b774aa",
-      "topic": "oil",
-      "lead_title": "Crude oil market faces ‘impending supply tightness’ as exports collapse",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTnpPX2l2U2UxTUlSdmZkMURJQmNrOFNDRmJkR0V1SURwRGg3eF9TS3doRktVOHN5TkdmTUlfMGl0c0NKdTlBZnBidHZHT3pYVnp2Rzd1T09iY0RaYTNCMlZqNXNoUVlVN1J3TjQzc1BRUS1ZZnNPTi12NExaekZHSjI5aWdsNDdkREhrOGFsdmludGlzVDlEaHd3NkhsbHI0QnRKd0xCVGdDNTg?oc=5",
-      "lead_source": "Global Trade Review (GTR)",
-      "canonical_entities": [
-        "crude",
-        "oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T14:58:19+00:00",
-      "latest_seen": "2026-08-19T15:05:49+00:00",
-      "age_hours": 2.97,
-      "score": 62.22,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 23.22,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f02128d5280c5c6c",
-          "title": "Crude oil market faces ‘impending supply tightness’ as exports collapse",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTnpPX2l2U2UxTUlSdmZkMURJQmNrOFNDRmJkR0V1SURwRGg3eF9TS3doRktVOHN5TkdmTUlfMGl0c0NKdTlBZnBidHZHT3pYVnp2Rzd1T09iY0RaYTNCMlZqNXNoUVlVN1J3TjQzc1BRUS1ZZnNPTi12NExaekZHSjI5aWdsNDdkREhrOGFsdmludGlzVDlEaHd3NkhsbHI0QnRKd0xCVGdDNTg?oc=5",
-          "source": "Global Trade Review (GTR)",
-          "source_type": "rss",
-          "published_at": "2026-08-19T15:05:49+00:00",
+          "published_at": "2026-08-19T17:57:56+00:00",
           "confidence": 0.7
         },
         {
-          "headline_id": "24d20f2dd1615650",
-          "title": "US Total Crude Oil Stocks Fall in Week Ended Aug. 14",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPclhwUlJQU01scl9Ybkp2Ykc5VTdCZHZGeUhVRVBLa1ZFcUVxODRhX0RJcTRSTEY2WWlCVGhOUThQeFhPRk00N0tSZTkxR2xVcS1qRlZOUjlic2ttMHV1QXpTdGpYcnk4WUNRX2t6dVhtYmFPRGlzX0pLLWtUX2pvMnAzb0ZzTTRaUURic2VQcXViTjloSVFEa3ZrWFN6ZzZNVndIdXBUbw?oc=5",
-          "source": "marketscreener.com",
+          "headline_id": "664c61ad5e14664b",
+          "title": "US-Venezuela Oil Trade Surges as Crude Flows Triple, Deals Take Shape",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbXR5OW4wbzdrcnN5UFlLZHl3aTZKYnRqV2ZPRHJIVnYycEl6OHFZc1JsMDlWY2hvZ0s2bk9GMFhHSmNfUXFibk5fajRQZnJqaE93SDRUTlZlczR4d1pYVmdmTTFqSnlHbTNDYTdQN25HdHlMNHFJb3VwRWc5YWd6TFctTWdWdGNiTkxIcw?oc=5",
+          "source": "Hart Energy",
           "source_type": "rss",
-          "published_at": "2026-08-19T14:58:19+00:00",
+          "published_at": "2026-08-19T16:35:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "ffb08db7677fd824",
+          "title": "Evening update for crude oil-19-08-2026",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNOVozaVdKTTNWVkZ6RlpaRnhmMVdWbmxCSzdGbnFBRlBQZXpGd0ZaU3hkRDFsZDRpc2h4eTBHckRpZ3RCR0ZPTzdMWFpDdnVwaUV4OU5mdlVkRF95Q05oa1FlVGFheDVXSHlfRXN5bEZZSDMyZ0lkeEw5aUFpazZleS1fX0w4WWt2cnFEVjhUMDNYb21Uekd1OUM5VUZQdw?oc=5",
+          "source": "Economies.com",
+          "source_type": "rss",
+          "published_at": "2026-08-19T16:15:00+00:00",
           "confidence": 0.7
         }
       ],
@@ -381,27 +288,27 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_c1352b77411e16",
+      "cluster_id": "c_794e3f99a5b725",
       "topic": "oil",
-      "lead_title": "Oil prices rise more than 1% as Middle East crisis escalates",
-      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb2dqYWhrM1ZaOVBEeDB4LWcwTUp0clNMVHRrY2ktT3R2WnQ3MkJKcmVTNmQwWXAzV2FqNkhTVGphVWIyVnJYSXF6M0Q2Sms4QktoQ3hWajZIV3JuelRzSGg1OWVIaHZoMkxfWDJYbXZMLWhCd21xZlRrS3pBaDFjSFJYNXhPSUo5X0JxWmt4YjlMSlhyMi1R?oc=5",
-      "lead_source": "CNBC",
+      "lead_title": "Diesel Margins Top $100 a Barrel to Reach Record High",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYUVjYmRjeTRQV0lwNlhMMjloN0VJOVJxNmVadE50b2hhVngyWGN5T1VMWDZYNjZXSUJxQVkwN0RwRHpuX1A4bWV4cTRLdUhhaU5fcFl2bDFKc3hFNXpTQjJsT0VsZGpTQW5SSXZFUXZLdlg3M0FOSktaMl9wSHRTSkJRSHJ6V1hHR01JOWpMRlNMYWwwODR1WldsQWhOQ28yR2thYTY0RVl5Y0p4czJzaEVYWUQ?oc=5",
+      "lead_source": "Rigzone",
       "canonical_entities": [
-        "oil"
+        "barrel"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T01:22:00+00:00",
-      "latest_seen": "2026-08-19T01:22:00+00:00",
-      "age_hours": 16.7,
-      "score": 61.88,
+      "earliest_seen": "2026-08-19T20:03:47+00:00",
+      "latest_seen": "2026-08-19T20:03:47+00:00",
+      "age_hours": 0.77,
+      "score": 69.64,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.98,
-        "source_quality_points": 27.9,
+        "recency_points": 24.54,
+        "source_quality_points": 26.1,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
@@ -409,13 +316,137 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "4e80c4e892b78aba",
-          "title": "Oil prices rise more than 1% as Middle East crisis escalates",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNb2dqYWhrM1ZaOVBEeDB4LWcwTUp0clNMVHRrY2ktT3R2WnQ3MkJKcmVTNmQwWXAzV2FqNkhTVGphVWIyVnJYSXF6M0Q2Sms4QktoQ3hWajZIV3JuelRzSGg1OWVIaHZoMkxfWDJYbXZMLWhCd21xZlRrS3pBaDFjSFJYNXhPSUo5X0JxWmt4YjlMSlhyMi1R?oc=5",
-          "source": "CNBC",
+          "headline_id": "992a5f5a5566a7e5",
+          "title": "Diesel Margins Top $100 a Barrel to Reach Record High",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYUVjYmRjeTRQV0lwNlhMMjloN0VJOVJxNmVadE50b2hhVngyWGN5T1VMWDZYNjZXSUJxQVkwN0RwRHpuX1A4bWV4cTRLdUhhaU5fcFl2bDFKc3hFNXpTQjJsT0VsZGpTQW5SSXZFUXZLdlg3M0FOSktaMl9wSHRTSkJRSHJ6V1hHR01JOWpMRlNMYWwwODR1WldsQWhOQ28yR2thYTY0RVl5Y0p4czJzaEVYWUQ?oc=5",
+          "source": "Rigzone",
           "source_type": "rss",
-          "published_at": "2026-08-19T01:22:00+00:00",
-          "confidence": 0.93
+          "published_at": "2026-08-19T20:03:47+00:00",
+          "confidence": 0.87
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_b8e48b6038cf7c",
+      "topic": "oil",
+      "lead_title": "Oil Gains as Refinery Demand Surges",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSlNtV3JieUMxZ09jcjZTYURobzRGc3lWWldhUk1tMlVmSGZnXzdMOWxpX2x0Q3B6di1jN2NNQzRyeXlQT1VJczRfdy1udENZOVhjYUdkdDVKeHEwRDNaNVhpQmUyeXJ4alJxY0FaejJGUkxYQ0MwWVJIdFF5aVE1a3RTdjNOdjJEZ1pYc2IzT0dfSkJibkVJWjJjcnIydw?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T20:01:48+00:00",
+      "latest_seen": "2026-08-19T20:01:48+00:00",
+      "age_hours": 0.8,
+      "score": 69.62,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.52,
+        "source_quality_points": 26.1,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "eae0914866a1a5d1",
+          "title": "Oil Gains as Refinery Demand Surges",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSlNtV3JieUMxZ09jcjZTYURobzRGc3lWWldhUk1tMlVmSGZnXzdMOWxpX2x0Q3B6di1jN2NNQzRyeXlQT1VJczRfdy1udENZOVhjYUdkdDVKeHEwRDNaNVhpQmUyeXJ4alJxY0FaejJGUkxYQ0MwWVJIdFF5aVE1a3RTdjNOdjJEZ1pYc2IzT0dfSkJibkVJWjJjcnIydw?oc=5",
+          "source": "Rigzone",
+          "source_type": "rss",
+          "published_at": "2026-08-19T20:01:48+00:00",
+          "confidence": 0.87
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_92dbbf58bf6cdd",
+      "topic": "oil",
+      "lead_title": "$100 Diesel Cracks Signal a Much Tighter Oil Market Than Brent Suggests",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSmpGOHlPWGR0MkpKT1dBbFozQU9nakMxdFkyR1pXNHNuUW1ta2RyUS1tWEJQMlYxYjJ2MmcycmhKUk9JV09SRTkwYXZ1ZWE1Ql9JYkVVeUZvWWhzdEkyaUU5cEs1UjlHaHdxdUZsdnBrYUVGZ25uQXlBbC1ZY3k0Q1BMOU5zVGczeFh2VXdLUHRPZ1UxZFBkZmp5UGdINi1uaVYtR1BuZEdKTjh4X3FEemlXSG1hS2tYbUHSAb8BQVVfeXFMTnFnVTB1MHZuV0laUER5czJhY0VvcW9TQUNBV3VuR1I5bVc1Wm5HUDdVcXpmb2tWTkIwLUJrTDhXbjM0Z0JTMzBWamh5TzZ3X20yb3l2a1RnOHN0QUsxaGhxSGZnYWpFZ1pnNVNzMDY0U0UzeGdwdDdrS3JNOEVneG45TlZ5a0hYU0QwMzFZa1JVUUEzNDY4XzRCRVFURkJHaEhzNndhQWlhV3JBTWU4YUVPTlc5ZVJDNTJqaTdCdTA?oc=5",
+      "lead_source": "Crude Oil Prices Today | OilPrice.com",
+      "canonical_entities": [
+        "Brent",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T20:00:00+00:00",
+      "latest_seen": "2026-08-19T20:00:00+00:00",
+      "age_hours": 0.83,
+      "score": 68.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.5,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "027eaf659706e6c1",
+          "title": "$100 Diesel Cracks Signal a Much Tighter Oil Market Than Brent Suggests",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSmpGOHlPWGR0MkpKT1dBbFozQU9nakMxdFkyR1pXNHNuUW1ta2RyUS1tWEJQMlYxYjJ2MmcycmhKUk9JV09SRTkwYXZ1ZWE1Ql9JYkVVeUZvWWhzdEkyaUU5cEs1UjlHaHdxdUZsdnBrYUVGZ25uQXlBbC1ZY3k0Q1BMOU5zVGczeFh2VXdLUHRPZ1UxZFBkZmp5UGdINi1uaVYtR1BuZEdKTjh4X3FEemlXSG1hS2tYbUHSAb8BQVVfeXFMTnFnVTB1MHZuV0laUER5czJhY0VvcW9TQUNBV3VuR1I5bVc1Wm5HUDdVcXpmb2tWTkIwLUJrTDhXbjM0Z0JTMzBWamh5TzZ3X20yb3l2a1RnOHN0QUsxaGhxSGZnYWpFZ1pnNVNzMDY0U0UzeGdwdDdrS3JNOEVneG45TlZ5a0hYU0QwMzFZa1JVUUEzNDY4XzRCRVFURkJHaEhzNndhQWlhV3JBTWU4YUVPTlc5ZVJDNTJqaTdCdTA?oc=5",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "source_type": "rss",
+          "published_at": "2026-08-19T20:00:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_626c2aa76bf19a",
+      "topic": "oil",
+      "lead_title": "Oil prices settle near 4-week high as Middle East crisis escalates",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSkdUVWxmeFlpYXd4VjhyeHhvNjBmaVlPbVdFemxvNTJHaExLNWhQbzNXeTN5QkVkWVh4aVU4ODJCWnFGazJnQklMejNuVnpPaHFUN1JEM1lFZ3FZaG96ME00QWdZN1JmYW5fN1lXNmV6dDVZUWxFWlJYc05BaEtzbEpGbXlqSHoxRnB3dTQ2NnZXX0tzRENESXFhRDlGSmxNT01LMWhSWQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T00:39:00+00:00",
+      "latest_seen": "2026-08-19T00:39:00+00:00",
+      "age_hours": 20.18,
+      "score": 61.89,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 12.89,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "1de4f3fbf257dd56",
+          "title": "Oil prices settle near 4-week high as Middle East crisis escalates",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSkdUVWxmeFlpYXd4VjhyeHhvNjBmaVlPbVdFemxvNTJHaExLNWhQbzNXeTN5QkVkWVh4aVU4ODJCWnFGazJnQklMejNuVnpPaHFUN1JEM1lFZ3FZaG96ME00QWdZN1JmYW5fN1lXNmV6dDVZUWxFWlJYc05BaEtzbEpGbXlqSHoxRnB3dTQ2NnZXX0tzRENESXFhRDlGSmxNT01LMWhSWQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-19T00:39:00+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -437,11 +468,11 @@
       ],
       "earliest_seen": "2026-08-19T11:06:40+00:00",
       "latest_seen": "2026-08-19T11:06:40+00:00",
-      "age_hours": 6.95,
-      "score": 59.83,
+      "age_hours": 9.72,
+      "score": 58.17,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.83,
+        "recency_points": 19.17,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -463,12 +494,13 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_55a982b47859e0",
+      "cluster_id": "c_9e433b6b4f03c3",
       "topic": "oil",
-      "lead_title": "Iraq approves oil exports via local and international traders as of Sept. 1",
-      "lead_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdnVObUl1U0JjSFpaanY4Y0huNzlQQ3V2UVFiTjlrV2h1S19BT3NUWEFyT2JKRTRuRWJyOEUwa2xVVExXamNhQUhmUWY4SDhfZU05ZnljTTBLd1hXZzM3UWdULUJPOTc5QnVLVzlEU1hKSDFsajc5azNoeXZGcnNWM1NUZnFxRmhjTFNtRU5XWUp1bklQSXVoV3RVOEplVG9mZy1YOGt2eDE5UDVxMkl4QnlKUVlsQU44MU1WQzE3TkNhTy1TR2p4QVMxdkxvQ1BXSGZiTm5uaW1kaXdwVG5hMGpVb0VxLU0?oc=5",
-      "lead_source": "S&P Global",
+      "lead_title": "Crude Oil Moves Higher; Lowe’s Shares Gain After Q2 Earnings",
+      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVEwtUy1mMHkwQmp5YzlobHRHNlFNaDJsa19jMExKXzdZRHQtSzNEd0hBSWhSZWFUU2VhMDJKWExsLXFjYmkxdW9VRUpmWS1EVzVka2k0ZUgtYVFJSUJiR1JLeE5rU1ZrbldlMGR1MlBjWUtpY0xxYUZIZXZLcmhIVmlMZ0gwRFM5NDBXSm1Vd0NSTlB4S3U3NVlFdVpDTXVuVzR6V0l4dWdjY2F4bUxFNWdGcTl0SlU0aWFsZzlB?oc=5",
+      "lead_source": "Benzinga",
       "canonical_entities": [
+        "crude",
         "oil"
       ],
       "source_count": 1,
@@ -476,28 +508,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T11:36:49+00:00",
-      "latest_seen": "2026-08-19T11:36:49+00:00",
-      "age_hours": 6.45,
-      "score": 58.03,
+      "earliest_seen": "2026-08-19T16:01:44+00:00",
+      "latest_seen": "2026-08-19T16:01:44+00:00",
+      "age_hours": 4.8,
+      "score": 56.12,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.13,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
+        "recency_points": 22.12,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
         "materiality_points": 0.0
       },
       "novelty": "ongoing",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "6785b6bbd54a6d72",
-          "title": "Iraq approves oil exports via local and international traders as of Sept. 1",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOdnVObUl1U0JjSFpaanY4Y0huNzlQQ3V2UVFiTjlrV2h1S19BT3NUWEFyT2JKRTRuRWJyOEUwa2xVVExXamNhQUhmUWY4SDhfZU05ZnljTTBLd1hXZzM3UWdULUJPOTc5QnVLVzlEU1hKSDFsajc5azNoeXZGcnNWM1NUZnFxRmhjTFNtRU5XWUp1bklQSXVoV3RVOEplVG9mZy1YOGt2eDE5UDVxMkl4QnlKUVlsQU44MU1WQzE3TkNhTy1TR2p4QVMxdkxvQ1BXSGZiTm5uaW1kaXdwVG5hMGpVb0VxLU0?oc=5",
-          "source": "S&P Global",
+          "headline_id": "22d17ef4ebab36e3",
+          "title": "Crude Oil Moves Higher; Lowe’s Shares Gain After Q2 Earnings",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVEwtUy1mMHkwQmp5YzlobHRHNlFNaDJsa19jMExKXzdZRHQtSzNEd0hBSWhSZWFUU2VhMDJKWExsLXFjYmkxdW9VRUpmWS1EVzVka2k0ZUgtYVFJSUJiR1JLeE5rU1ZrbldlMGR1MlBjWUtpY0xxYUZIZXZLcmhIVmlMZ0gwRFM5NDBXSm1Vd0NSTlB4S3U3NVlFdVpDTXVuVzR6V0l4dWdjY2F4bUxFNWdGcTl0SlU0aWFsZzlB?oc=5",
+          "source": "Benzinga",
           "source_type": "rss",
-          "published_at": "2026-08-19T11:36:49+00:00",
-          "confidence": 0.93
+          "published_at": "2026-08-19T16:01:44+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -508,7 +540,7 @@
       "topic": "oil",
       "lead_title": "U.S. Crude Oil Stockpiles Post Unexpected Build",
       "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTMtRTg5NHJOd0IzUnlTLTBYMzF4bEJYMjF3Z3RxeU10VDNZUVBnd29NVGJLLWV2ZlNJaGhNcG5CejZPQXV6X2g5ZFU4VzcyTmVvcmhtZ3JJY3BaOXN4U2Q1VDFrMmd2bUZwVTNSLUF2c3psWGRiUFpkY09WVVdOSDJERFZPS0hydXlRSVlnVHpCYldYd1JmSzhhRQ?oc=5",
-      "lead_source": "WSJ",
+      "lead_source": "wsj.com",
       "canonical_entities": [
         "crude",
         "oil"
@@ -520,7 +552,7 @@
       ],
       "earliest_seen": "2026-08-12T15:07:00+00:00",
       "latest_seen": "2026-08-12T15:07:00+00:00",
-      "age_hours": 170.95,
+      "age_hours": 173.71,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -536,7 +568,7 @@
           "headline_id": "8888a14575ca0a8e",
           "title": "U.S. Crude Oil Stockpiles Post Unexpected Build",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTTMtRTg5NHJOd0IzUnlTLTBYMzF4bEJYMjF3Z3RxeU10VDNZUVBnd29NVGJLLWV2ZlNJaGhNcG5CejZPQXV6X2g5ZFU4VzcyTmVvcmhtZ3JJY3BaOXN4U2Q1VDFrMmd2bUZwVTNSLUF2c3psWGRiUFpkY09WVVdOSDJERFZPS0hydXlRSVlnVHpCYldYd1JmSzhhRQ?oc=5",
-          "source": "WSJ",
+          "source": "wsj.com",
           "source_type": "rss",
           "published_at": "2026-08-12T15:07:00+00:00",
           "confidence": 1.0
@@ -561,11 +593,11 @@
       ],
       "earliest_seen": "2026-08-18T06:15:30+00:00",
       "latest_seen": "2026-08-18T06:15:30+00:00",
-      "age_hours": 35.81,
-      "score": 37.52,
+      "age_hours": 38.57,
+      "score": 35.86,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.52,
+        "recency_points": 1.86,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -600,11 +632,11 @@
       ],
       "earliest_seen": "2026-08-18T15:50:46+00:00",
       "latest_seen": "2026-08-18T15:50:46+00:00",
-      "age_hours": 26.22,
-      "score": 35.67,
+      "age_hours": 28.98,
+      "score": 34.01,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.27,
+        "recency_points": 7.61,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -641,7 +673,7 @@
       ],
       "earliest_seen": "2026-08-17T19:13:43+00:00",
       "latest_seen": "2026-08-17T19:13:43+00:00",
-      "age_hours": 46.84,
+      "age_hours": 49.6,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -682,7 +714,7 @@
       ],
       "earliest_seen": "2026-08-17T14:43:55+00:00",
       "latest_seen": "2026-08-17T14:43:55+00:00",
-      "age_hours": 51.33,
+      "age_hours": 54.1,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -723,7 +755,7 @@
       ],
       "earliest_seen": "2026-08-17T11:54:35+00:00",
       "latest_seen": "2026-08-17T11:54:35+00:00",
-      "age_hours": 54.15,
+      "age_hours": 56.92,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -749,47 +781,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_298091d7a641fd",
-      "topic": "oil",
-      "lead_title": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR3hHTDZzczBpQ1pSYkJudm5pcjRmaWJ4elRyNlM1UUxuZW9xZDVPcXBlYVF0WHBBOURKUzhCOEJBcDJCdWVnb0tHQ2JHYWJGUzNqUWVaTGE1NWYwdGx1YlpjbS1Jb1IxZ2JvYlZwSGdNM29PaElSZ1c3U3lIM2oxR1RiUkpRa09fT3J3LTA5dlZoZEtjTk8tNXRaWU9sZw?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T07:04:00+00:00",
-      "latest_seen": "2026-08-18T07:04:00+00:00",
-      "age_hours": 35.0,
-      "score": 33.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 4.0,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "c3b9e5f59f719beb",
-          "title": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR3hHTDZzczBpQ1pSYkJudm5pcjRmaWJ4elRyNlM1UUxuZW9xZDVPcXBlYVF0WHBBOURKUzhCOEJBcDJCdWVnb0tHQ2JHYWJGUzNqUWVaTGE1NWYwdGx1YlpjbS1Jb1IxZ2JvYlZwSGdNM29PaElSZ1c3U3lIM2oxR1RiUkpRa09fT3J3LTA5dlZoZEtjTk8tNXRaWU9sZw?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-08-18T07:04:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_6f175f70e50fa3",
       "topic": "oil",
       "lead_title": "Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations",
@@ -805,7 +796,7 @@
       ],
       "earliest_seen": "2026-08-15T13:18:46+00:00",
       "latest_seen": "2026-08-15T13:18:46+00:00",
-      "age_hours": 100.75,
+      "age_hours": 103.52,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -825,6 +816,47 @@
           "source_type": "rss",
           "published_at": "2026-08-15T13:18:46+00:00",
           "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_298091d7a641fd",
+      "topic": "oil",
+      "lead_title": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR3hHTDZzczBpQ1pSYkJudm5pcjRmaWJ4elRyNlM1UUxuZW9xZDVPcXBlYVF0WHBBOURKUzhCOEJBcDJCdWVnb0tHQ2JHYWJGUzNqUWVaTGE1NWYwdGx1YlpjbS1Jb1IxZ2JvYlZwSGdNM29PaElSZ1c3U3lIM2oxR1RiUkpRa09fT3J3LTA5dlZoZEtjTk8tNXRaWU9sZw?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T07:04:00+00:00",
+      "latest_seen": "2026-08-18T07:04:00+00:00",
+      "age_hours": 37.76,
+      "score": 31.84,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 2.34,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "c3b9e5f59f719beb",
+          "title": "Oil prices jump after US-Iran ceasefire expires and Trump threatens Oman",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNR3hHTDZzczBpQ1pSYkJudm5pcjRmaWJ4elRyNlM1UUxuZW9xZDVPcXBlYVF0WHBBOURKUzhCOEJBcDJCdWVnb0tHQ2JHYWJGUzNqUWVaTGE1NWYwdGx1YlpjbS1Jb1IxZ2JvYlZwSGdNM29PaElSZ1c3U3lIM2oxR1RiUkpRa09fT3J3LTA5dlZoZEtjTk8tNXRaWU9sZw?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-08-18T07:04:00+00:00",
+          "confidence": 0.85
         }
       ],
       "top_tier": false,
