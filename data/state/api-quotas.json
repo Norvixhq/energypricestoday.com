@@ -2,58 +2,58 @@
   "date": "2026-08-19",
   "apis": {
     "eia": {
-      "calls_today": 58,
-      "succeeded": 26,
-      "failed": 32,
+      "calls_today": 62,
+      "succeeded": 28,
+      "failed": 34,
       "limit_per_day": 5000,
       "pct_of_limit": 1.2,
       "endpoints": {
-        "gasoline/premium": 15,
-        "gasoline/diesel": 15,
-        "gasoline/regular": 14,
-        "gasoline/mid": 14
+        "gasoline/premium": 16,
+        "gasoline/diesel": 16,
+        "gasoline/regular": 15,
+        "gasoline/mid": 15
       },
-      "last_call": "2026-08-19T16:48:56.237204+00:00"
+      "last_call": "2026-08-19T17:32:29.155754+00:00"
     },
     "google_news": {
-      "calls_today": 150,
-      "succeeded": 150,
+      "calls_today": 160,
+      "succeeded": 160,
       "failed": 0,
       "limit_per_day": 5000,
-      "pct_of_limit": 3.0,
+      "pct_of_limit": 3.2,
       "endpoints": {},
-      "last_call": "2026-08-19T16:50:58.567778+00:00"
+      "last_call": "2026-08-19T17:34:21.837977+00:00"
     },
     "gdelt": {
-      "calls_today": 150,
+      "calls_today": 160,
       "succeeded": 36,
-      "failed": 114,
+      "failed": 124,
       "limit_per_day": 500,
-      "pct_of_limit": 30.0,
+      "pct_of_limit": 32.0,
       "endpoints": {},
-      "last_call": "2026-08-19T16:51:09.268090+00:00"
+      "last_call": "2026-08-19T17:34:33.654216+00:00"
     },
     "oilpriceapi": {
-      "calls_today": 14,
+      "calls_today": 15,
       "succeeded": 2,
-      "failed": 12,
+      "failed": 13,
       "limit_per_day": 10000,
       "pct_of_limit": 0.1,
       "endpoints": {
-        "prices/all": 14
+        "prices/all": 15
       },
-      "last_call": "2026-08-19T16:48:10.342629+00:00"
+      "last_call": "2026-08-19T17:31:44.012011+00:00"
     },
     "aaa": {
-      "calls_today": 14,
-      "succeeded": 14,
+      "calls_today": 15,
+      "succeeded": 15,
       "failed": 0,
       "limit_per_day": 500,
-      "pct_of_limit": 2.8,
+      "pct_of_limit": 3.0,
       "endpoints": {
-        "gasprices": 14
+        "gasprices": 15
       },
-      "last_call": "2026-08-19T16:48:10.519035+00:00"
+      "last_call": "2026-08-19T17:31:44.220181+00:00"
     }
   }
 }
