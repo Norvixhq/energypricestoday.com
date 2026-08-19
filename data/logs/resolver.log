@@ -1267,3 +1267,17 @@
 [2026-08-18T23:41:34.378226+00:00] resolver: no state changes
 [2026-08-18T23:41:34.378892+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-18T23:41:34.378950+00:00] ════════════════════════════════════════════════════════════
+[2026-08-19T00:03:01.210746+00:00] resolver: start
+[2026-08-19T00:03:01.215104+00:00] resolver: scanning 273 clusters across 10 topics
+[2026-08-19T00:03:01.215533+00:00]   hormuz_status: CONTESTED (conf=0.95, freshness=fresh, clusters=7)
+[2026-08-19T00:03:01.216469+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=5)
+[2026-08-19T00:03:01.216604+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-19T00:03:01.216647+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-08-19T00:03:01.216815+00:00]   top_story: 'Proposed Canadian crude oil pipeline projects' (score=88.21)
+[2026-08-19T00:03:01.216873+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-08-19T00:03:01.216900+00:00]   Δ us_iran_ceasefire.status: 'FRAGILE' → 'HOLDING' (triggers_publish=False)
+[2026-08-19T00:03:01.216927+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-08-19T00:03:01.216951+00:00]   Δ global_risk_level.status: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-08-19T00:03:01.216974+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-08-19T00:03:01.217562+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-19T00:03:01.217606+00:00] ════════════════════════════════════════════════════════════
