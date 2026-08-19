@@ -1391,3 +1391,15 @@
 [2026-08-19T12:04:35.586325+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'HIGH' (triggers_publish=False)
 [2026-08-19T12:04:35.586988+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-19T12:04:35.587058+00:00] ════════════════════════════════════════════════════════════
+[2026-08-19T13:13:26.845619+00:00] resolver: start
+[2026-08-19T13:13:26.848934+00:00] resolver: scanning 270 clusters across 10 topics
+[2026-08-19T13:13:26.849251+00:00]   hormuz_status: CONTESTED (conf=0.957, freshness=fresh, clusters=6)
+[2026-08-19T13:13:26.849937+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=3)
+[2026-08-19T13:13:26.850018+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-19T13:13:26.850048+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-08-19T13:13:26.850178+00:00]   top_story: 'Watch Fesharaki: Oil’s Real Story Lies in Products, Not Crud' (score=80.52)
+[2026-08-19T13:13:26.850230+00:00] resolver: 4 change(s), 2 meaningful, 0 publish-triggering
+[2026-08-19T13:13:26.850252+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-08-19T13:13:26.850272+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-08-19T13:13:26.850754+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-19T13:13:26.850784+00:00] ════════════════════════════════════════════════════════════
