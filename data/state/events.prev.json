@@ -1,27 +1,27 @@
 {
   "version": 2,
-  "generated_at": "2026-08-19T20:49:50.405244+00:00",
-  "previous_generated_at": "2026-08-19T18:03:51.363105+00:00",
-  "resolver_run_count": 133,
+  "generated_at": "2026-08-19T21:34:05.213170+00:00",
+  "previous_generated_at": "2026-08-19T20:49:50.405244+00:00",
+  "resolver_run_count": 134,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "no definitive signals",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-08-19T19:13:23+00:00",
-      "source_count": 8,
-      "summary_short": "WTI Crude Oil Forecast 19/08: $86 Test Amid Hormuz Risks",
-      "summary_long": "WTI Crude Oil Forecast 19/08: $86 Test Amid Hormuz Risks. Iraq asks Iran for special status on Hormuz oil exports",
+      "status": "CONTESTED",
+      "status_detail": "Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea",
+      "status_tag": "Tankers at risk",
+      "risk_level": "ELEVATED",
+      "confidence": 0.951,
+      "last_confirmed": "2026-08-19T16:47:50+00:00",
+      "source_count": 6,
+      "summary_short": "Iraq asks Iran for special status on Hormuz oil exports",
+      "summary_long": "Iraq asks Iran for special status on Hormuz oil exports. Hormuz traffic slows as uncertainty over waterway persists",
       "evidence_cluster_ids": [
         "c_19ef4fb45c58d5",
-        "c_ae36ac933e7ee6",
         "c_48b4dc42b49dcf",
-        "c_663de59ca15ce0"
+        "c_ae36ac933e7ee6",
+        "c_b0e5b3023da99f"
       ],
       "evidence_count": 4,
       "affected_pages": [
@@ -40,8 +40,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
-      ]
+        "cluster c_b0e5b3023d → CONTESTED (kw='attack', weight=0.09)",
+        "winning=CONTESTED (0.09/0.09), conf=0.951"
+      ],
+      "previous_status": "OPEN",
+      "last_changed": "2026-08-19T21:34:05.213015+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -59,10 +62,9 @@
       "evidence_cluster_ids": [
         "c_19ef4fb45c58d5",
         "c_ae36ac933e7ee6",
-        "c_8b987f0dff8427",
         "c_7eaaa3323e43e5"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -117,18 +119,19 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "LOW",
-      "risk_level": "LOW",
-      "score": 10,
+      "status": "ELEVATED",
+      "risk_level": "ELEVATED",
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: low.",
-      "summary_long": "Risk drivers: no major disruption",
-      "summary_micro": "stable",
+      "summary_short": "Global energy risk: elevated.",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
+        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -140,7 +143,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "LOW",
+      "last_changed": "2026-08-19T21:34:05.213015+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -151,9 +156,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOSmotV0hadFREamRCUFlwTzQ1X0pFckFNalZwX1RVNlpGVjRUS1htLU5mQ01kOTZmdEk4VE8yRE1ubGhlTnlBaFlNUmpWb0sySFF5Y3RKbGdTLXA5ZUZHWWljRnJxSkM0WmRua3l2bmxmVXpSX04xRXV0S25WTVhVLWVJYW5EV3doR19sZ2xKM3RaZnV1Rk14UjRSbkM0dEszUUZHM0YzWW1yTGh5OVBWaElKOXpTRWtod1Nsa1NUMlRZc2dVbzdsY20tZm5LcmJmZV9Fc25IS21pSm1vSVZ2OQ?oc=5",
       "lead_source": "marketscreener.com",
       "topic": "oil",
-      "score": 96.56,
-      "novelty": "new",
-      "source_count": 4,
+      "score": 92.66,
+      "novelty": "growing",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -163,9 +168,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "OPEN",
+      "to": "CONTESTED",
+      "detected_at": "2026-08-19T21:34:05.213015+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-19T21:34:05.213015+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-19T21:34:05.213015+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-08-19T21:34:05.213015+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.951, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
