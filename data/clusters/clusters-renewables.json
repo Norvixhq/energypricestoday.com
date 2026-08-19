@@ -1,6 +1,6 @@
 {
   "topic": "renewables",
-  "generated_at": "2026-08-19T10:50:05.757202+00:00",
+  "generated_at": "2026-08-19T11:34:01.601469+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -8,26 +8,78 @@
   "clusters_found": 28,
   "clusters": [
     {
-      "cluster_id": "c_7497a6e997bf91",
+      "cluster_id": "c_2e57b736373e7f",
       "topic": "renewables",
-      "lead_title": "Lexington council advances regulations allowing large-scale solar farms",
-      "lead_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xSGExd2ZVMW0xU1R1ZzdYZEhhS1diYzhGNmdJTURONVZKa0RrR3k2TnlBNWFPbG1UYXBhQl93OC1rblVMWTNSdGNKM0xEVUtlT3N6Y2IxeXk4TTBrUDRMU1U0cnNSWHM40gFoQVVfeXFMTXNJdUloM3FGd2JDS0l1bThYQmJHMWJHc21iQWNKd2Zfc0ZMYzZyYWVnV0lwN0FSdC1YZENxSS1iU3c2TGw4cW9rUFVUa3VBeUlpdHdGUTdJeFhLazB4RHJsbEpDNHMySTg?oc=5",
-      "lead_source": "Lexington Herald Leader",
+      "lead_title": "Renewables drive Türkiye's power capacity growth as solar, wind surge",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEVGb3l0NEpjNUR4NmVDQlM1TURnaENPTWRQdVZ0dzc0Y0EyUEZPQlAxY1hsZEYyYmM5ZExTVXQ4N2lFV3lBekhGOThOaDB4elRFRlRGWUx5WVNackZ5SzJiZGdVRUl0SzZCbWUxZVZrVjdUUzJsYXNRc2J6Z183U2NPbUZ5UGxwUUpwVU9BblNtc0FYQ29tY2tmUGFsMGRzV1hhWEVhNW1XcDJwMWxN?oc=5",
+      "lead_source": "Daily Sabah",
       "canonical_entities": [
-        "solar"
+        "renewable",
+        "solar",
+        "wind"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T12:06:00+00:00",
+      "latest_seen": "2026-08-19T10:50:17+00:00",
+      "age_hours": 0.73,
+      "score": 68.31,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 24.56,
+        "source_quality_points": 21.75,
+        "entity_relevance_points": 12,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "57e82a6b4dfaab10",
+          "title": "Renewables drive Türkiye's power capacity growth as solar, wind surge",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEVGb3l0NEpjNUR4NmVDQlM1TURnaENPTWRQdVZ0dzc0Y0EyUEZPQlAxY1hsZEYyYmM5ZExTVXQ4N2lFV3lBekhGOThOaDB4elRFRlRGWUx5WVNackZ5SzJiZGdVRUl0SzZCbWUxZVZrVjdUUzJsYXNRc2J6Z183U2NPbUZ5UGxwUUpwVU9BblNtc0FYQ29tY2tmUGFsMGRzV1hhWEVhNW1XcDJwMWxN?oc=5",
+          "source": "Daily Sabah",
+          "source_type": "rss",
+          "published_at": "2026-08-18T12:06:00+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "468652d5257fd635",
+          "title": "Germany installs nearly 13 GW of new solar and wind capacity through July 2026",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQV3E1aHJWVW1mQVU5QmlTOWZEWXE3aVBNVU9JUEdoMFkxcEg0cmp0VXMzVEh3dUlOS1pqbXVGdG0tOUN2eE54V1BLdGp5dU5hTThJbTJzM0JyajRVRGZtbVJ4dzhFY05rXzl6UUdZMHdaLXFyYi1id2pqWnh6cktYWWVoS2doZVVqSmQxR3p1Wjg3RUNORzVsdFJaRTdUdmx3bzVpakpqRjBfdXF0NGNFQXBVY2lJM1c0cVc3TFZQVQ?oc=5",
+          "source": "Review Energy",
+          "source_type": "rss",
+          "published_at": "2026-08-19T10:50:17+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d8ac151f4c89fc",
+      "topic": "renewables",
+      "lead_title": "EVO Power and Ranial start nationwide battery and energy management service",
+      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFM5ZzNtazNiTFUxNXlPQjVBVXZsV2dZZnlXR2x1SkpWQTlEdHpYbV9mU2UwOVR2Z1BucGpGWnJqaDdzd3ZieHFxVkctZVkzTldvVVFNZmJwRUwwamdwNko2c0V4TXY0QnNVSkp4RXhjbUtMdXlfTnZwckZzU0pNYzVVQzdvZEotWkVIOHcyQTJ2UkM5ZjVUUkxqMnNCb0NkNXZNWWFXQnF4bnZ6SVJ5UlVjMUhvWENvczhSaVFCbw?oc=5",
+      "lead_source": "Solar Power World",
+      "canonical_entities": [
+        "battery"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T10:00:00+00:00",
-      "latest_seen": "2026-08-19T10:00:00+00:00",
-      "age_hours": 0.83,
-      "score": 63.0,
+      "earliest_seen": "2026-08-19T11:16:51+00:00",
+      "latest_seen": "2026-08-19T11:16:51+00:00",
+      "age_hours": 0.29,
+      "score": 63.33,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.5,
+        "recency_points": 24.83,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -36,12 +88,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "c7913231dbe0b8e2",
-          "title": "Lexington council advances regulations allowing large-scale solar farms",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xSGExd2ZVMW0xU1R1ZzdYZEhhS1diYzhGNmdJTURONVZKa0RrR3k2TnlBNWFPbG1UYXBhQl93OC1rblVMWTNSdGNKM0xEVUtlT3N6Y2IxeXk4TTBrUDRMU1U0cnNSWHM40gFoQVVfeXFMTXNJdUloM3FGd2JDS0l1bThYQmJHMWJHc21iQWNKd2Zfc0ZMYzZyYWVnV0lwN0FSdC1YZENxSS1iU3c2TGw4cW9rUFVUa3VBeUlpdHdGUTdJeFhLazB4RHJsbEpDNHMySTg?oc=5",
-          "source": "Lexington Herald Leader",
+          "headline_id": "102fe32f1a14d3da",
+          "title": "EVO Power and Ranial start nationwide battery and energy management service",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQMFM5ZzNtazNiTFUxNXlPQjVBVXZsV2dZZnlXR2x1SkpWQTlEdHpYbV9mU2UwOVR2Z1BucGpGWnJqaDdzd3ZieHFxVkctZVkzTldvVVFNZmJwRUwwamdwNko2c0V4TXY0QnNVSkp4RXhjbUtMdXlfTnZwckZzU0pNYzVVQzdvZEotWkVIOHcyQTJ2UkM5ZjVUUkxqMnNCb0NkNXZNWWFXQnF4bnZ6SVJ5UlVjMUhvWENvczhSaVFCbw?oc=5",
+          "source": "Solar Power World",
           "source_type": "rss",
-          "published_at": "2026-08-19T10:00:00+00:00",
+          "published_at": "2026-08-19T11:16:51+00:00",
           "confidence": 0.65
         }
       ],
@@ -49,26 +101,26 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_23873b0b42f4b3",
+      "cluster_id": "c_ef03847a497c83",
       "topic": "renewables",
-      "lead_title": "Recurrent Energy Secures $695 Million Financing for 330 MW Cobalt Solar Project in California",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMHpIcW9xR1Q2Wl9fMld6WWZIZHVDX1czYy03MmZFLXNtRkdmVTFaMU04ZGcydW5zMmdqaXljTWhFSmJCWUdUejhrYXM0TGRsbWxuRk9WODh2VW9rd2VUQmlYa1pVZUYwRjRHZTdvRGljVm9RakV4SWhrTGZxUm81dGhPV05DeHZQS1RWaGlGclNHSnF0LXNWUG1jVVc4YUxTSEJrR3pQV3VQeDZiTzFyWnFkR1M2NWxyV2l6UEFkNEdDUm5DOWViVg?oc=5",
-      "lead_source": "SolarQuarter",
+      "lead_title": "LatAm, Caribbean renewables generate 64% of electricity in May",
+      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRnFsbXpva3FFblljMUpoVHRjT0VOU2IyZVpuaC1La1czZTNkRnpDYTEycHVQNlZvUmZFazVaeGx6X2RoaWhjRkFNNEJmVGNxMHl1RlNLQ0xYWGpEM0I3R0hYNURTRExQdktWLXdCbFh0WlhPb0FkbVhfQ3Mwa0J2MFRUNlBPbFU1WHNIOE82LWRXNXNlbVZ0MGNuRzRQYkE5ek9LSHZTSzMtaGJh?oc=5",
+      "lead_source": "Renewables Now",
       "canonical_entities": [
-        "solar"
+        "renewable"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T04:37:19+00:00",
-      "latest_seen": "2026-08-19T04:37:19+00:00",
-      "age_hours": 6.21,
-      "score": 59.77,
+      "earliest_seen": "2026-08-19T11:08:48+00:00",
+      "latest_seen": "2026-08-19T11:08:48+00:00",
+      "age_hours": 0.42,
+      "score": 63.25,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.27,
+        "recency_points": 24.75,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -77,16 +129,222 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "2c8141aec7ee54e6",
-          "title": "Recurrent Energy Secures $695 Million Financing for 330 MW Cobalt Solar Project in California",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMHpIcW9xR1Q2Wl9fMld6WWZIZHVDX1czYy03MmZFLXNtRkdmVTFaMU04ZGcydW5zMmdqaXljTWhFSmJCWUdUejhrYXM0TGRsbWxuRk9WODh2VW9rd2VUQmlYa1pVZUYwRjRHZTdvRGljVm9RakV4SWhrTGZxUm81dGhPV05DeHZQS1RWaGlGclNHSnF0LXNWUG1jVVc4YUxTSEJrR3pQV3VQeDZiTzFyWnFkR1M2NWxyV2l6UEFkNEdDUm5DOWViVg?oc=5",
-          "source": "SolarQuarter",
+          "headline_id": "e9e943ec99c951e7",
+          "title": "LatAm, Caribbean renewables generate 64% of electricity in May",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRnFsbXpva3FFblljMUpoVHRjT0VOU2IyZVpuaC1La1czZTNkRnpDYTEycHVQNlZvUmZFazVaeGx6X2RoaWhjRkFNNEJmVGNxMHl1RlNLQ0xYWGpEM0I3R0hYNURTRExQdktWLXdCbFh0WlhPb0FkbVhfQ3Mwa0J2MFRUNlBPbFU1WHNIOE82LWRXNXNlbVZ0MGNuRzRQYkE5ek9LSHZTSzMtaGJh?oc=5",
+          "source": "Renewables Now",
           "source_type": "rss",
-          "published_at": "2026-08-19T04:37:19+00:00",
+          "published_at": "2026-08-19T11:08:48+00:00",
           "confidence": 0.65
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3733490fc2d6b4",
+      "topic": "renewables",
+      "lead_title": "How SiC4GRID is enhancing grid integration of renewables",
+      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXBzZDBXTjQwWVBad1NEbW5JRVVyWExOZmNkSHJhS1FvS1gtQ05CVVA1d1hDZElWNC0wN29GSWN2R1M1SzRYbmVvX0hVYVNPUFlBaTVpZmtfV0tVMnFuSVNBMkstLWNFS29xdVdIWGFMdE9qTmt6RVZrRmhNTmdmdzNrX1p4YTlmMWx3S1FYclBrdw?oc=5",
+      "lead_source": "enlit.world",
+      "canonical_entities": [
+        "renewable"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T11:01:46+00:00",
+      "latest_seen": "2026-08-19T11:01:46+00:00",
+      "age_hours": 0.54,
+      "score": 63.18,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.68,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "762210f67b9ac4e5",
+          "title": "How SiC4GRID is enhancing grid integration of renewables",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbXBzZDBXTjQwWVBad1NEbW5JRVVyWExOZmNkSHJhS1FvS1gtQ05CVVA1d1hDZElWNC0wN29GSWN2R1M1SzRYbmVvX0hVYVNPUFlBaTVpZmtfV0tVMnFuSVNBMkstLWNFS29xdVdIWGFMdE9qTmt6RVZrRmhNTmdmdzNrX1p4YTlmMWx3S1FYclBrdw?oc=5",
+          "source": "enlit.world",
+          "source_type": "rss",
+          "published_at": "2026-08-19T11:01:46+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ba7d62a81fb4f6",
+      "topic": "renewables",
+      "lead_title": "LETTER: Solar energy would contribute to grid",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY3FWc05waHozUGRWbkluZ3cxTjhaa0c1TzdQNnY0em5nUzhJc0ZOLWV1SmJncU5kRHlHT0ptNUJaV2lCRm5GWXZkX29uMnlCeHhVbENBR255REdPSWV6Wm9hdUYzVTYzb1AxWlhtdjF0bFhmZWUtdkxxMmdxNUdpNlhGd1VGaGd5NG1iTW4yNUNZTjdJbkUxem5oUDlkbHFNVU9pNHFPS05WdVhTcG1fR0hKekdKTDlTWktSQzNMMkJYbm1jdlh5OVB6ZlhQVVFoUmxoUGRB?oc=5",
+      "lead_source": "Idaho County Free Press",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T11:00:00+00:00",
+      "latest_seen": "2026-08-19T11:00:00+00:00",
+      "age_hours": 0.57,
+      "score": 63.16,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.66,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "1cdff714a4f161f7",
+          "title": "LETTER: Solar energy would contribute to grid",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPY3FWc05waHozUGRWbkluZ3cxTjhaa0c1TzdQNnY0em5nUzhJc0ZOLWV1SmJncU5kRHlHT0ptNUJaV2lCRm5GWXZkX29uMnlCeHhVbENBR255REdPSWV6Wm9hdUYzVTYzb1AxWlhtdjF0bFhmZWUtdkxxMmdxNUdpNlhGd1VGaGd5NG1iTW4yNUNZTjdJbkUxem5oUDlkbHFNVU9pNHFPS05WdVhTcG1fR0hKekdKTDlTWktSQzNMMkJYbm1jdlh5OVB6ZlhQVVFoUmxoUGRB?oc=5",
+          "source": "Idaho County Free Press",
+          "source_type": "rss",
+          "published_at": "2026-08-19T11:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_66a0783a8eb05e",
+      "topic": "renewables",
+      "lead_title": "EDF power solutions signs 25-year solar and storage deal with NV Energy",
+      "lead_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwR2kyal90V3FBUzRjUEc3bmY3ZDZCMDZGLUZXdEpHWWRKOTkyNnJ6YThhMnMzTkVTZTE5QkQxbUFhVXdmcmFOdGU1V2V5clpiQ2xJYXhPREZ6LVZMT2JyU2NXbWF6TW1IelY1OV9lZzA0ZkFZMmYxZG1ITQ?oc=5",
+      "lead_source": "Power Technology",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T10:16:24+00:00",
+      "latest_seen": "2026-08-19T10:16:24+00:00",
+      "age_hours": 1.29,
+      "score": 62.72,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.22,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "37d2519ef75de2b7",
+          "title": "EDF power solutions signs 25-year solar and storage deal with NV Energy",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFAwR2kyal90V3FBUzRjUEc3bmY3ZDZCMDZGLUZXdEpHWWRKOTkyNnJ6YThhMnMzTkVTZTE5QkQxbUFhVXdmcmFOdGU1V2V5clpiQ2xJYXhPREZ6LVZMT2JyU2NXbWF6TW1IelY1OV9lZzA0ZkFZMmYxZG1ITQ?oc=5",
+          "source": "Power Technology",
+          "source_type": "rss",
+          "published_at": "2026-08-19T10:16:24+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_a214f25feb8356",
+      "topic": "renewables",
+      "lead_title": "Major developer plans $1B wind, solar and storage project in Oregon",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZm1WMFluYl8wVnVmeExJT2xmcDdJX05XVmpMaDVVMTg3cHphcmxfU0pPdTZKakhYNXJKNXM2Mk1JaHY0dlg2RmhCMWdNQUstQXE0emtlVG5FQXVWaVJ2VHRlbWRIZEEycFgzbUwyWldXVHpheUo3VzlfWThLMXZlMTZvazBzaExERnh3MDM4LXFkeUJlYUZDczVpYWpfVXFPR1IydW5ZWlZMUQ?oc=5",
+      "lead_source": "The Business Journals",
+      "canonical_entities": [
+        "solar",
+        "wind"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T22:10:00+00:00",
+      "latest_seen": "2026-08-18T22:10:00+00:00",
+      "age_hours": 13.4,
+      "score": 60.96,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 16.96,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "915f024ab7f9bf6d",
+          "title": "Major developer plans $1B wind, solar and storage project in Oregon",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZm1WMFluYl8wVnVmeExJT2xmcDdJX05XVmpMaDVVMTg3cHphcmxfU0pPdTZKakhYNXJKNXM2Mk1JaHY0dlg2RmhCMWdNQUstQXE0emtlVG5FQXVWaVJ2VHRlbWRIZEEycFgzbUwyWldXVHpheUo3VzlfWThLMXZlMTZvazBzaExERnh3MDM4LXFkeUJlYUZDczVpYWpfVXFPR1IydW5ZWlZMUQ?oc=5",
+          "source": "The Business Journals",
+          "source_type": "rss",
+          "published_at": "2026-08-18T22:10:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_9e6087e73e7a24",
+      "topic": "renewables",
+      "lead_title": "Could a Dominion-NextEra marriage be bad news for rooftop solar?",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcTNQMVNjVU9lTEktSTROdEljemxIbHU3OXBmZmhvSjR3UlZvNEdhZkIxOTZlR3phc290eExyQkV6eDZfN2xkOXRlMm1TZEFWVXdmQWJ4dVNaZEZLSFVqcHBPbHRxSnV3eVVKU0hFcDNZb29jOU8wZFdSTWhrX0tHaThrZ2o1czNZNllxY1BIU1R4Sy1EVVdES3JDMjFKemRlZ05JWXJ5aGpKUWd4Tk0xazlrLVJhWEFYQkt3WjVpTU5TZ0c5ang3c0lIUXcyQ2Y4Nldsd05ubw?oc=5",
+      "lead_source": "WHRO",
+      "canonical_entities": [
+        "solar"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T04:52:00+00:00",
+      "latest_seen": "2026-08-19T04:52:00+00:00",
+      "age_hours": 6.7,
+      "score": 59.48,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 20.98,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "f4f7779e3eb5c553",
+          "title": "Could a Dominion-NextEra marriage be bad news for rooftop solar?",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcTNQMVNjVU9lTEktSTROdEljemxIbHU3OXBmZmhvSjR3UlZvNEdhZkIxOTZlR3phc290eExyQkV6eDZfN2xkOXRlMm1TZEFWVXdmQWJ4dVNaZEZLSFVqcHBPbHRxSnV3eVVKU0hFcDNZb29jOU8wZFdSTWhrX0tHaThrZ2o1czNZNllxY1BIU1R4Sy1EVVdES3JDMjFKemRlZ05JWXJ5aGpKUWd4Tk0xazlrLVJhWEFYQkt3WjVpTU5TZ0c5ang3c0lIUXcyQ2Y4Nldsd05ubw?oc=5",
+          "source": "WHRO",
+          "source_type": "rss",
+          "published_at": "2026-08-19T04:52:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -105,11 +363,11 @@
       ],
       "earliest_seen": "2026-08-19T04:00:13+00:00",
       "latest_seen": "2026-08-19T04:00:13+00:00",
-      "age_hours": 6.83,
-      "score": 59.0,
+      "age_hours": 7.56,
+      "score": 58.56,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.9,
+        "recency_points": 20.46,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -127,67 +385,15 @@
           "confidence": 0.97
         }
       ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2e57b736373e7f",
-      "topic": "renewables",
-      "lead_title": "Renewables drive Türkiye's power capacity growth as solar, wind surge",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEVGb3l0NEpjNUR4NmVDQlM1TURnaENPTWRQdVZ0dzc0Y0EyUEZPQlAxY1hsZEYyYmM5ZExTVXQ4N2lFV3lBekhGOThOaDB4elRFRlRGWUx5WVNackZ5SzJiZGdVRUl0SzZCbWUxZVZrVjdUUzJsYXNRc2J6Z183U2NPbUZ5UGxwUUpwVU9BblNtc0FYQ29tY2tmUGFsMGRzV1hhWEVhNW1XcDJwMWxN?oc=5",
-      "lead_source": "Daily Sabah",
-      "canonical_entities": [
-        "renewable",
-        "solar",
-        "wind"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T12:06:00+00:00",
-      "latest_seen": "2026-08-18T22:10:00+00:00",
-      "age_hours": 12.67,
-      "score": 56.15,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 17.4,
-        "source_quality_points": 21.75,
-        "entity_relevance_points": 12,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "57e82a6b4dfaab10",
-          "title": "Renewables drive Türkiye's power capacity growth as solar, wind surge",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEVGb3l0NEpjNUR4NmVDQlM1TURnaENPTWRQdVZ0dzc0Y0EyUEZPQlAxY1hsZEYyYmM5ZExTVXQ4N2lFV3lBekhGOThOaDB4elRFRlRGWUx5WVNackZ5SzJiZGdVRUl0SzZCbWUxZVZrVjdUUzJsYXNRc2J6Z183U2NPbUZ5UGxwUUpwVU9BblNtc0FYQ29tY2tmUGFsMGRzV1hhWEVhNW1XcDJwMWxN?oc=5",
-          "source": "Daily Sabah",
-          "source_type": "rss",
-          "published_at": "2026-08-18T12:06:00+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "915f024ab7f9bf6d",
-          "title": "Major developer plans $1B wind, solar and storage project in Oregon",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZm1WMFluYl8wVnVmeExJT2xmcDdJX05XVmpMaDVVMTg3cHphcmxfU0pPdTZKakhYNXJKNXM2Mk1JaHY0dlg2RmhCMWdNQUstQXE0emtlVG5FQXVWaVJ2VHRlbWRIZEEycFgzbUwyWldXVHpheUo3VzlfWThLMXZlMTZvazBzaExERnh3MDM4LXFkeUJlYUZDczVpYWpfVXFPR1IydW5ZWlZMUQ?oc=5",
-          "source": "The Business Journals",
-          "source_type": "rss",
-          "published_at": "2026-08-18T22:10:00+00:00",
-          "confidence": 0.7
-        }
-      ],
       "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_dde63fe1ee61a7",
+      "cluster_id": "c_7497a6e997bf91",
       "topic": "renewables",
-      "lead_title": "From Solar Generation to Energy Independence: How Smarter Energy Storage Is Reshaping the Home",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd2tYQjFNejVwc2pMcU1YWFBVa2VWOExVaFNUM2xBM0dnZHA2QzFRQ2xFWW95aktWdzQyZ3d0SW92UFhiX21lNEtBei1FbURPeng4ZzVoaWtWVnU2S0owRXdjSUNZSVJiN2tib19EV0d6MGJSRkZaRlVyc1h5T0IzTUN6RzJQcWdvNm5Zbm1VeWRYU25EYzVnQkFsS04wR1pnTk9VWUdCdmdvcmxPRmpIS0FZYnhfdmlIcEh1Sk92cUtzNk8yZE1jVHd1Vi1Idk9pZHo4?oc=5",
-      "lead_source": "pv magazine Global",
+      "lead_title": "Lexington council advances regulations allowing large-scale solar farms",
+      "lead_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xSGExd2ZVMW0xU1R1ZzdYZEhhS1diYzhGNmdJTURONVZKa0RrR3k2TnlBNWFPbG1UYXBhQl93OC1rblVMWTNSdGNKM0xEVUtlT3N6Y2IxeXk4TTBrUDRMU1U0cnNSWHM40gFoQVVfeXFMTXNJdUloM3FGd2JDS0l1bThYQmJHMWJHc21iQWNKd2Zfc0ZMYzZyYWVnV0lwN0FSdC1YZENxSS1iU3c2TGw4cW9rUFVUa3VBeUlpdHdGUTdJeFhLazB4RHJsbEpDNHMySTg?oc=5",
+      "lead_source": "Lexington Herald Leader",
       "canonical_entities": [
         "solar"
       ],
@@ -196,13 +402,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T09:47:55+00:00",
-      "latest_seen": "2026-08-19T09:47:55+00:00",
-      "age_hours": 1.04,
-      "score": 52.88,
+      "earliest_seen": "2026-08-19T10:00:00+00:00",
+      "latest_seen": "2026-08-19T10:00:00+00:00",
+      "age_hours": 1.57,
+      "score": 52.56,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.38,
+        "recency_points": 24.06,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -211,12 +417,12 @@
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "07f9025ce05a9040",
-          "title": "From Solar Generation to Energy Independence: How Smarter Energy Storage Is Reshaping the Home",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOd2tYQjFNejVwc2pMcU1YWFBVa2VWOExVaFNUM2xBM0dnZHA2QzFRQ2xFWW95aktWdzQyZ3d0SW92UFhiX21lNEtBei1FbURPeng4ZzVoaWtWVnU2S0owRXdjSUNZSVJiN2tib19EV0d6MGJSRkZaRlVyc1h5T0IzTUN6RzJQcWdvNm5Zbm1VeWRYU25EYzVnQkFsS04wR1pnTk9VWUdCdmdvcmxPRmpIS0FZYnhfdmlIcEh1Sk92cUtzNk8yZE1jVHd1Vi1Idk9pZHo4?oc=5",
-          "source": "pv magazine Global",
+          "headline_id": "c7913231dbe0b8e2",
+          "title": "Lexington council advances regulations allowing large-scale solar farms",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xSGExd2ZVMW0xU1R1ZzdYZEhhS1diYzhGNmdJTURONVZKa0RrR3k2TnlBNWFPbG1UYXBhQl93OC1rblVMWTNSdGNKM0xEVUtlT3N6Y2IxeXk4TTBrUDRMU1U0cnNSWHM40gFoQVVfeXFMTXNJdUloM3FGd2JDS0l1bThYQmJHMWJHc21iQWNKd2Zfc0ZMYzZyYWVnV0lwN0FSdC1YZENxSS1iU3c2TGw4cW9rUFVUa3VBeUlpdHdGUTdJeFhLazB4RHJsbEpDNHMySTg?oc=5",
+          "source": "Lexington Herald Leader",
           "source_type": "rss",
-          "published_at": "2026-08-19T09:47:55+00:00",
+          "published_at": "2026-08-19T10:00:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -237,13 +443,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T09:39:51+00:00",
-      "latest_seen": "2026-08-19T09:39:51+00:00",
-      "age_hours": 1.17,
-      "score": 52.8,
+      "earliest_seen": "2026-08-19T09:49:35+00:00",
+      "latest_seen": "2026-08-19T09:49:35+00:00",
+      "age_hours": 1.74,
+      "score": 52.46,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.3,
+        "recency_points": 23.96,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -257,7 +463,7 @@
           "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPRkc4RDJYTlhibGl6ZTVsRENqcmY2R0xwX2J6MjQ3NHlSeUpxSld0S1pTc3FrNGhVNWZvRWktV3kzZnpKSFNJSTdvZ254S1JYOXV3ZFY1LTlHa3RGVjJWY2FlR1JLNmxNZEVFU3BxX21JTGJ3d1M4M3FGZzJYYVUyZ3BFbmtWU2dGTTQ0THJqNjhndkM1M1JSYVZxSXpROXRmR3B5dGZFSzJPNE1XdEtaZE9zeXVzNEUxblNaeTNiZGZXM1ZfcG5xTl9ZRQ?oc=5",
           "source": "pv magazine India",
           "source_type": "rss",
-          "published_at": "2026-08-19T09:39:51+00:00",
+          "published_at": "2026-08-19T09:49:35+00:00",
           "confidence": 0.65
         }
       ],
@@ -280,11 +486,11 @@
       ],
       "earliest_seen": "2026-08-19T09:32:33+00:00",
       "latest_seen": "2026-08-19T09:32:33+00:00",
-      "age_hours": 1.29,
-      "score": 52.72,
+      "age_hours": 2.02,
+      "score": 52.29,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.22,
+        "recency_points": 23.79,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -321,11 +527,11 @@
       ],
       "earliest_seen": "2026-08-19T09:30:00+00:00",
       "latest_seen": "2026-08-19T09:30:00+00:00",
-      "age_hours": 1.33,
-      "score": 52.7,
+      "age_hours": 2.07,
+      "score": 52.26,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.2,
+        "recency_points": 23.76,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -362,11 +568,11 @@
       ],
       "earliest_seen": "2026-08-19T09:02:57+00:00",
       "latest_seen": "2026-08-19T09:02:57+00:00",
-      "age_hours": 1.79,
-      "score": 52.43,
+      "age_hours": 2.52,
+      "score": 51.99,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.93,
+        "recency_points": 23.49,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -403,11 +609,11 @@
       ],
       "earliest_seen": "2026-08-19T08:33:53+00:00",
       "latest_seen": "2026-08-19T08:33:53+00:00",
-      "age_hours": 2.27,
-      "score": 52.14,
+      "age_hours": 3.0,
+      "score": 51.7,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.64,
+        "recency_points": 23.2,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -444,11 +650,11 @@
       ],
       "earliest_seen": "2026-08-19T08:17:27+00:00",
       "latest_seen": "2026-08-19T08:17:27+00:00",
-      "age_hours": 2.54,
-      "score": 51.97,
+      "age_hours": 3.28,
+      "score": 51.53,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.47,
+        "recency_points": 23.03,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -485,11 +691,11 @@
       ],
       "earliest_seen": "2026-08-19T08:16:50+00:00",
       "latest_seen": "2026-08-19T08:16:50+00:00",
-      "age_hours": 2.55,
-      "score": 51.97,
+      "age_hours": 3.29,
+      "score": 51.53,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.47,
+        "recency_points": 23.03,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -526,11 +732,11 @@
       ],
       "earliest_seen": "2026-08-19T08:10:07+00:00",
       "latest_seen": "2026-08-19T08:10:07+00:00",
-      "age_hours": 2.67,
-      "score": 51.9,
+      "age_hours": 3.4,
+      "score": 51.46,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.4,
+        "recency_points": 22.96,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -556,7 +762,7 @@
       "topic": "renewables",
       "lead_title": "Zacks Industry Outlook Highlights First Solar, Enphase Energy and T1 Energy",
       "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTkdjdk1YUXZ0V3BudXA5TVFqUS1MVjh2Z2RkUDVUSlNpTXlqWm9WZUlJaTgzVUxOaWY1UU5wNXp3ODhiUGswbGlDYVkzVndIbklhc2RlRllwLXItVE01ODZTS2pzUnNfaUJiOV9sazZPRVhUcHYwd3BFdjd1TFljRmUteVpkMnVyVWVpSGRCUVIteDFpMHJLa1Juc0ZXRkxwYkd1SEIyUXR4OVBNUXJtbTdrQ0N0OGZFLTlwYzdTWk9hU0ktMWVfdzBR?oc=5",
-      "lead_source": "tradingview.com",
+      "lead_source": "TradingView",
       "canonical_entities": [
         "solar"
       ],
@@ -567,11 +773,11 @@
       ],
       "earliest_seen": "2026-08-19T07:40:00+00:00",
       "latest_seen": "2026-08-19T07:40:00+00:00",
-      "age_hours": 3.17,
-      "score": 51.6,
+      "age_hours": 3.9,
+      "score": 51.16,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.1,
+        "recency_points": 22.66,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -583,7 +789,7 @@
           "headline_id": "a2fabc82cb0d8f10",
           "title": "Zacks Industry Outlook Highlights First Solar, Enphase Energy and T1 Energy",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOTkdjdk1YUXZ0V3BudXA5TVFqUS1MVjh2Z2RkUDVUSlNpTXlqWm9WZUlJaTgzVUxOaWY1UU5wNXp3ODhiUGswbGlDYVkzVndIbklhc2RlRllwLXItVE01ODZTS2pzUnNfaUJiOV9sazZPRVhUcHYwd3BFdjd1TFljRmUteVpkMnVyVWVpSGRCUVIteDFpMHJLa1Juc0ZXRkxwYkd1SEIyUXR4OVBNUXJtbTdrQ0N0OGZFLTlwYzdTWk9hU0ktMWVfdzBR?oc=5",
-          "source": "tradingview.com",
+          "source": "TradingView",
           "source_type": "rss",
           "published_at": "2026-08-19T07:40:00+00:00",
           "confidence": 0.65
@@ -608,11 +814,11 @@
       ],
       "earliest_seen": "2026-08-19T07:12:46+00:00",
       "latest_seen": "2026-08-19T07:12:46+00:00",
-      "age_hours": 3.62,
-      "score": 51.33,
+      "age_hours": 4.35,
+      "score": 50.89,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.83,
+        "recency_points": 22.39,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -638,7 +844,7 @@
       "topic": "renewables",
       "lead_title": "A Complete Guide to Renewable Energy Sources and Examples",
       "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXpCSDVMOTRGOE5NbEZSQnhqVDZfWUE0V1Rha1NXNDZEeGhRZjhock0tNEFtM1M1TW5sQXpSYzk4cVpXTUh2OVJ6YWFZMWFsNG1lU0tyamhwNFR5Mi15cFhpU1dCTnVLZExaNWU4MU50V2dNbmNOVDZDOUpFTXpVOXpJdWZVc0tPbXgwc3A4Rlc0NGNOSU91cHJiXzYxYzJR?oc=5",
-      "lead_source": "EIN News",
+      "lead_source": "einnews.com",
       "canonical_entities": [
         "renewable"
       ],
@@ -649,11 +855,11 @@
       ],
       "earliest_seen": "2026-08-19T06:57:00+00:00",
       "latest_seen": "2026-08-19T06:57:00+00:00",
-      "age_hours": 3.88,
-      "score": 51.17,
+      "age_hours": 4.62,
+      "score": 50.73,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.67,
+        "recency_points": 22.23,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -665,7 +871,7 @@
           "headline_id": "f6485192200c98cb",
           "title": "A Complete Guide to Renewable Energy Sources and Examples",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMXpCSDVMOTRGOE5NbEZSQnhqVDZfWUE0V1Rha1NXNDZEeGhRZjhock0tNEFtM1M1TW5sQXpSYzk4cVpXTUh2OVJ6YWFZMWFsNG1lU0tyamhwNFR5Mi15cFhpU1dCTnVLZExaNWU4MU50V2dNbmNOVDZDOUpFTXpVOXpJdWZVc0tPbXgwc3A4Rlc0NGNOSU91cHJiXzYxYzJR?oc=5",
-          "source": "EIN News",
+          "source": "einnews.com",
           "source_type": "rss",
           "published_at": "2026-08-19T06:57:00+00:00",
           "confidence": 0.65
@@ -690,11 +896,11 @@
       ],
       "earliest_seen": "2026-08-19T06:44:05+00:00",
       "latest_seen": "2026-08-19T06:44:05+00:00",
-      "age_hours": 4.1,
-      "score": 51.04,
+      "age_hours": 4.83,
+      "score": 50.6,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.54,
+        "recency_points": 22.1,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -720,7 +926,7 @@
       "topic": "renewables",
       "lead_title": "Gresham House Renewable Energy VCT 1 Defers Interim Dividend Payment",
       "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWHE2REFUWkRlTjBNaDllN08yX09LYl9jS2hlTmtxX2Q3aTIya3JXOTlBVGM0QzNJcVp2dGxSVDN0bVV1MHh6QjZkV1JZZ2pxeGxGajdEYXBiM2pMRXZDemlPYXpuUnlHVkZCakhNeTNCQXpiNnAwV2JnSG42MU9MSWl6WngzcGl5NmNTc3QxZjFWdUhLNExLbmd3emNQTmtNRlRCRzJBd1ozd2FndncteWxycEMtOHZXc3ZKTnl0LXFJdE9fR2gwaFotTmZaOXFLczROcg?oc=5",
-      "lead_source": "tradingview.com",
+      "lead_source": "TradingView",
       "canonical_entities": [
         "renewable"
       ],
@@ -731,11 +937,11 @@
       ],
       "earliest_seen": "2026-08-19T06:34:00+00:00",
       "latest_seen": "2026-08-19T06:34:00+00:00",
-      "age_hours": 4.27,
-      "score": 50.94,
+      "age_hours": 5.0,
+      "score": 50.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.44,
+        "recency_points": 22.0,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -747,7 +953,7 @@
           "headline_id": "bc58fbab77558911",
           "title": "Gresham House Renewable Energy VCT 1 Defers Interim Dividend Payment",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWHE2REFUWkRlTjBNaDllN08yX09LYl9jS2hlTmtxX2Q3aTIya3JXOTlBVGM0QzNJcVp2dGxSVDN0bVV1MHh6QjZkV1JZZ2pxeGxGajdEYXBiM2pMRXZDemlPYXpuUnlHVkZCakhNeTNCQXpiNnAwV2JnSG42MU9MSWl6WngzcGl5NmNTc3QxZjFWdUhLNExLbmd3emNQTmtNRlRCRzJBd1ozd2FndncteWxycEMtOHZXc3ZKTnl0LXFJdE9fR2gwaFotTmZaOXFLczROcg?oc=5",
-          "source": "tradingview.com",
+          "source": "TradingView",
           "source_type": "rss",
           "published_at": "2026-08-19T06:34:00+00:00",
           "confidence": 0.65
@@ -772,11 +978,11 @@
       ],
       "earliest_seen": "2026-08-19T06:15:42+00:00",
       "latest_seen": "2026-08-19T06:15:42+00:00",
-      "age_hours": 4.57,
-      "score": 50.76,
+      "age_hours": 5.31,
+      "score": 50.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.26,
+        "recency_points": 21.82,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -813,11 +1019,11 @@
       ],
       "earliest_seen": "2026-08-19T04:47:09+00:00",
       "latest_seen": "2026-08-19T04:47:09+00:00",
-      "age_hours": 6.05,
-      "score": 49.87,
+      "age_hours": 6.78,
+      "score": 49.43,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.37,
+        "recency_points": 20.93,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -832,211 +1038,6 @@
           "source": "Renewables Now",
           "source_type": "rss",
           "published_at": "2026-08-19T04:47:09+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2d6c30e97b9619",
-      "topic": "renewables",
-      "lead_title": "Hindustan Zinc Scales Renewable Power Share to 22%, Eyes 70% by FY28",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdmlELTFyNlFRTjRwczliTURHYVZzaG9yRG9kbFBkTnJIQklmWDRzREdCQ1ZPVU1jc3AyVkZ2QzBCd0U0amtPOFhKNjVxdkxtWWwtMXdpeUpBX1JoZDJrSWY3d1lrbkNrbW91NTJhVHRHbU5ZSTVDYWs1MEZ3MUtwRi1KNEpjTjdYYmRiczAycjk1TF9wZmdkakE3WEZLY3RUUlp3OEVHU0NwVjlOTTRBeFVrbmtKOUZTSkJn?oc=5",
-      "lead_source": "Saur Energy",
-      "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T04:18:56+00:00",
-      "latest_seen": "2026-08-19T04:18:56+00:00",
-      "age_hours": 6.52,
-      "score": 49.59,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.09,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "ea7c941c90a25158",
-          "title": "Hindustan Zinc Scales Renewable Power Share to 22%, Eyes 70% by FY28",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdmlELTFyNlFRTjRwczliTURHYVZzaG9yRG9kbFBkTnJIQklmWDRzREdCQ1ZPVU1jc3AyVkZ2QzBCd0U0amtPOFhKNjVxdkxtWWwtMXdpeUpBX1JoZDJrSWY3d1lrbkNrbW91NTJhVHRHbU5ZSTVDYWs1MEZ3MUtwRi1KNEpjTjdYYmRiczAycjk1TF9wZmdkakE3WEZLY3RUUlp3OEVHU0NwVjlOTTRBeFVrbmtKOUZTSkJn?oc=5",
-          "source": "Saur Energy",
-          "source_type": "rss",
-          "published_at": "2026-08-19T04:18:56+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c5014db2e94409",
-      "topic": "renewables",
-      "lead_title": "Reforming Thailand's rooftop solar policy framework to reduce gas dependence",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSTlFZkl1SzlMYlhnZm9fTUF5XzlwZUhCRWFlbWozaF95ZTJiamJyQ21Ya29HU1BvQTFrWmZJaVhkY2k3allfYTlVc2pZcmxFVm9xNFI0VzZ6eFhmY2VPY01XQ3N5Rjk0aWpmX3JQUjYzcjJ6R2trUUVhVi1nMjZ0RzBublFWWU5YSzJ1eDRMRmYxeVdkY3k3LVlFdUkyNE11OXc?oc=5",
-      "lead_source": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T02:04:29+00:00",
-      "latest_seen": "2026-08-19T02:04:29+00:00",
-      "age_hours": 8.76,
-      "score": 48.24,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.74,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "c6f4062c088aeb45",
-          "title": "Reforming Thailand's rooftop solar policy framework to reduce gas dependence",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSTlFZkl1SzlMYlhnZm9fTUF5XzlwZUhCRWFlbWozaF95ZTJiamJyQ21Ya29HU1BvQTFrWmZJaVhkY2k3allfYTlVc2pZcmxFVm9xNFI0VzZ6eFhmY2VPY01XQ3N5Rjk0aWpmX3JQUjYzcjJ6R2trUUVhVi1nMjZ0RzBublFWWU5YSzJ1eDRMRmYxeVdkY3k3LVlFdUkyNE11OXc?oc=5",
-          "source": "Institute for Energy Economics and Financial Analysis (IEEFA)",
-          "source_type": "rss",
-          "published_at": "2026-08-19T02:04:29+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_b343e40ef9e503",
-      "topic": "renewables",
-      "lead_title": "Trinasolar Powers 10MWh Solar and Storage Project in Phu Quoc, Vietnam",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVThqZEMzNUlncVdCaGdXRGdQT2swVGR5aDVuZ3RXcGNTbVpzQnQwVDF4TzFpX1NXWFc2a2dma1A0UHRFU2lxVEhiZGJ4c2dudXRTWEE5eGhuMF9yRGxPbHR3SU9aTl95dHMtY1hHNGw1WTU0TlJNVzVZRmRtZHMtaVd0WFVncFVaWHA1eC1Xb2dvalZCWWEzUVJDNU1sMWRuTUVvcEtQMWU2dmlHTDVfZFU1WG9jT0lrT1k0?oc=5",
-      "lead_source": "PR Newswire Asia",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T02:00:00+00:00",
-      "latest_seen": "2026-08-19T02:00:00+00:00",
-      "age_hours": 8.83,
-      "score": 48.2,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.7,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "9787ab19814f8036",
-          "title": "Trinasolar Powers 10MWh Solar and Storage Project in Phu Quoc, Vietnam",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVThqZEMzNUlncVdCaGdXRGdQT2swVGR5aDVuZ3RXcGNTbVpzQnQwVDF4TzFpX1NXWFc2a2dma1A0UHRFU2lxVEhiZGJ4c2dudXRTWEE5eGhuMF9yRGxPbHR3SU9aTl95dHMtY1hHNGw1WTU0TlJNVzVZRmRtZHMtaVd0WFVncFVaWHA1eC1Xb2dvalZCWWEzUVJDNU1sMWRuTUVvcEtQMWU2dmlHTDVfZFU1WG9jT0lrT1k0?oc=5",
-          "source": "PR Newswire Asia",
-          "source_type": "rss",
-          "published_at": "2026-08-19T02:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3a4ddaefe942f7",
-      "topic": "renewables",
-      "lead_title": "Turning Sunlight into Progress: GCSTIMES Rooftop Solar PV Project",
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRWViQWtYNkZoNFJZZThWVVpMSXZvZ1VBbVhiMzExZkIyVWZ1bEVZTEZTbUpyUXVkeVUwa0tKelhMVjB6S054c2V5LUxsbHA4VjNmNVR0czNRUnhYRU9jOHJIX1ZDUUowUDBYbW5hX3VlbmU1eVo4SUd2UlliYWVxeTlHak1QZzBrdDQwc1lFcDJIQzRSQlIySGVXUUdvbUFYZE5ZQ09hUnFDdjBQ?oc=5",
-      "lead_source": "Hospitality Net",
-      "canonical_entities": [
-        "solar"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T01:21:00+00:00",
-      "latest_seen": "2026-08-19T01:21:00+00:00",
-      "age_hours": 9.48,
-      "score": 47.81,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.31,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0013fedd7625dc69",
-          "title": "Turning Sunlight into Progress: GCSTIMES Rooftop Solar PV Project",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRWViQWtYNkZoNFJZZThWVVpMSXZvZ1VBbVhiMzExZkIyVWZ1bEVZTEZTbUpyUXVkeVUwa0tKelhMVjB6S054c2V5LUxsbHA4VjNmNVR0czNRUnhYRU9jOHJIX1ZDUUowUDBYbW5hX3VlbmU1eVo4SUd2UlliYWVxeTlHak1QZzBrdDQwc1lFcDJIQzRSQlIySGVXUUdvbUFYZE5ZQ09hUnFDdjBQ?oc=5",
-          "source": "Hospitality Net",
-          "source_type": "rss",
-          "published_at": "2026-08-19T01:21:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1742f34c992888",
-      "topic": "renewables",
-      "lead_title": "Renewable energy firms up China’s status as Bangladesh’s top power investor",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaVBQWmstY0t3VzVOeHI0dUozdmJ1SW1NYnZTZWJOaVZQbzFQT01BQnM1X0tfWTFudGtsc2IyZjhUMXRjMUpFeURuRGtxQjdpS0l6Q3ZFOW03NDRTa2txbXdseENzTDdWeTVDT1lFdk9RVzQ2ckhYSlJwUkl3ZFlUel9vSThuUjFkT1NmdDhDN0FLTmx0WEI4Ug?oc=5",
-      "lead_source": "KrASIA",
-      "canonical_entities": [
-        "renewable"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T00:32:26+00:00",
-      "latest_seen": "2026-08-19T00:32:26+00:00",
-      "age_hours": 10.29,
-      "score": 47.32,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.82,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "c988720b9a2dddd1",
-          "title": "Renewable energy firms up China’s status as Bangladesh’s top power investor",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaVBQWmstY0t3VzVOeHI0dUozdmJ1SW1NYnZTZWJOaVZQbzFQT01BQnM1X0tfWTFudGtsc2IyZjhUMXRjMUpFeURuRGtxQjdpS0l6Q3ZFOW03NDRTa2txbXdseENzTDdWeTVDT1lFdk9RVzQ2ckhYSlJwUkl3ZFlUel9vSThuUjFkT1NmdDhDN0FLTmx0WEI4Ug?oc=5",
-          "source": "KrASIA",
-          "source_type": "rss",
-          "published_at": "2026-08-19T00:32:26+00:00",
           "confidence": 0.65
         }
       ],
@@ -1060,11 +1061,11 @@
       ],
       "earliest_seen": "2026-08-18T10:09:09+00:00",
       "latest_seen": "2026-08-18T12:00:00+00:00",
-      "age_hours": 22.83,
-      "score": 45.3,
+      "age_hours": 23.57,
+      "score": 44.86,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 11.3,
+        "recency_points": 10.86,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
@@ -1111,7 +1112,7 @@
       ],
       "earliest_seen": "2026-08-11T11:12:20+00:00",
       "latest_seen": "2026-08-11T11:12:20+00:00",
-      "age_hours": 191.63,
+      "age_hours": 192.36,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1150,7 +1151,7 @@
       ],
       "earliest_seen": "2026-08-17T15:58:52+00:00",
       "latest_seen": "2026-08-17T15:58:52+00:00",
-      "age_hours": 42.85,
+      "age_hours": 43.59,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
