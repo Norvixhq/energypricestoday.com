@@ -1,11 +1,11 @@
 {
   "topic": "oil",
-  "generated_at": "2026-08-19T03:07:00.473524+00:00",
+  "generated_at": "2026-08-19T04:03:58.498736+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 26,
+  "clusters_found": 24,
   "clusters": [
     {
       "cluster_id": "c_5bb4a495812fb6",
@@ -20,23 +20,23 @@
         "crude",
         "oil"
       ],
-      "source_count": 5,
-      "distinct_publishers": 4,
+      "source_count": 7,
+      "distinct_publishers": 5,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-08-18T10:09:44+00:00",
       "latest_seen": "2026-08-19T02:44:24+00:00",
-      "age_hours": 0.38,
-      "score": 89.37,
+      "age_hours": 1.33,
+      "score": 93.2,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 24.77,
-        "source_quality_points": 24.6,
+        "recency_points": 24.2,
+        "source_quality_points": 24.0,
         "entity_relevance_points": 20,
-        "materiality_points": 0.0
+        "materiality_points": 5.0
       },
-      "novelty": "ongoing",
+      "novelty": "growing",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -83,88 +83,24 @@
           "source_type": "rss",
           "published_at": "2026-08-18T21:44:00+00:00",
           "confidence": 0.75
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_13e9514681c981",
-      "topic": "oil",
-      "lead_title": "Indian shares set for muted start as higher oil prices, Treasury yields weigh",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWNtWG9kcFBGcENWOTI3QlhQMWtvaDhydE12OVJVbWJuN1Naclk1UGlGVWJHVEJjU2NLdXBCUThjNzlSRTd6MVBpLVFzUzVldlpRZkZWZ1dIeFJsVGdmMlQxZGFmRnBrM1JNTF9QSzBRV25wS2JNRDZ5ekw5eThjUmphYzMwQXdkeWxRV1MzWnBaWEhWZzItcDFSWFNZQjJLY0dJeUFST2VQY1BmTEx4SDJiVVY4UXI4?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T02:30:00+00:00",
-      "latest_seen": "2026-08-19T02:30:00+00:00",
-      "age_hours": 0.62,
-      "score": 73.63,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.63,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
+        },
         {
-          "headline_id": "d6b074a55eac8022",
-          "title": "Indian shares set for muted start as higher oil prices, Treasury yields weigh",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbWNtWG9kcFBGcENWOTI3QlhQMWtvaDhydE12OVJVbWJuN1Naclk1UGlGVWJHVEJjU2NLdXBCUThjNzlSRTd6MVBpLVFzUzVldlpRZkZWZ1dIeFJsVGdmMlQxZGFmRnBrM1JNTF9QSzBRV25wS2JNRDZ5ekw5eThjUmphYzMwQXdkeWxRV1MzWnBaWEhWZzItcDFSWFNZQjJLY0dJeUFST2VQY1BmTEx4SDJiVVY4UXI4?oc=5",
-          "source": "Reuters",
+          "headline_id": "0be45e0dcafe3cf0",
+          "title": "CME : WTI Crude Oil futures drop as Middle East supply risks linger.",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPalJESEFUYjJkWktTQ0ZnOWg3TUtUVEM5TXBFZjdkbUlEOWJSUnFYYV9zMmt6NzladnNneEUyXzFKel9yUWdnWmtObUppMlVIWDQwWFJZS21JYVByaHc0Ni1ZcmFGTXVhdlVOWU9BbG1xeUNyTHB6Zl9yYTJzd183RXg3cklsUnhuOFJBeHl4cllzM0lKN3VrZDNlQk1Qa3QxYVhId0RvcEpUOXIzdzdCaE9nMFR6WE9MdHc?oc=5",
+          "source": "marketscreener.com",
           "source_type": "rss",
-          "published_at": "2026-08-19T02:30:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f7db9c698901fc",
-      "topic": "oil",
-      "lead_title": "Guyana now entitled to nearly 40% of production from oil block, president says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU0pKUkFvWEpicE9uUHp5R1duenJfV2VQbDlWSUdiblFvc2dhZWFyTzRPazRyZVl3V3Vjdy14NnhPUFJJNldpQTgycmw5ZjNSUldQQ2tud3Z3OUhCYmN5elIwaXJ4T3hSMHp4MXFHR3dwbTYtUVV5aDVkMDhtQVJlMktaSFYwUnN4WnRlX0ZqMXhRQXhodF80Wm5EQ3FGdEZhYWdudDlwWkY2QVRZT0I5SmJCYzI1RTdx?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T16:09:43+00:00",
-      "latest_seen": "2026-08-18T16:09:43+00:00",
-      "age_hours": 10.95,
-      "score": 67.43,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.43,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
+          "published_at": "2026-08-18T21:17:12+00:00",
+          "confidence": 0.75
+        },
         {
-          "headline_id": "ae838bd70b54b43a",
-          "title": "Guyana now entitled to nearly 40% of production from oil block, president says",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNU0pKUkFvWEpicE9uUHp5R1duenJfV2VQbDlWSUdiblFvc2dhZWFyTzRPazRyZVl3V3Vjdy14NnhPUFJJNldpQTgycmw5ZjNSUldQQ2tud3Z3OUhCYmN5elIwaXJ4T3hSMHp4MXFHR3dwbTYtUVV5aDVkMDhtQVJlMktaSFYwUnN4WnRlX0ZqMXhRQXhodF80Wm5EQ3FGdEZhYWdudDlwWkY2QVRZT0I5SmJCYzI1RTdx?oc=5",
-          "source": "Reuters",
+          "headline_id": "07abadc06779af92",
+          "title": "WTI Crude Oil Forecast: Hormuz Risk Overrides Inventory Surge",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOUS11WWlOcVFUNmF0cUpCbFdjbkxNdEh1Q0RVUmhlRlVFNmpvMkVvSWVnUUFpODU3cjctNkVtZTVSVG1CZ2o4NlNXYmRJcjYwUXA1eC1sWXUwYlZUUmhjOHJFWFFYVXB4aUlOQUxMLUt4dkVaeUREX2ZMT0gwY0czMnJaaF9BcmhOMUlTZ1R1Rll4UHNtOGlSN0wwN3lRNGs2ZkZpd2IxNXo?oc=5",
+          "source": "Investing.com",
           "source_type": "rss",
-          "published_at": "2026-08-18T16:09:43+00:00",
-          "confidence": 1.0
+          "published_at": "2026-08-18T13:35:27+00:00",
+          "confidence": 0.75
         }
       ],
       "top_tier": true,
@@ -186,11 +122,11 @@
       ],
       "earliest_seen": "2026-08-19T00:39:00+00:00",
       "latest_seen": "2026-08-19T00:39:00+00:00",
-      "age_hours": 2.47,
-      "score": 62.52,
+      "age_hours": 3.42,
+      "score": 61.95,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.52,
+        "recency_points": 22.95,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -208,130 +144,7 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a2e026740352b6",
-      "topic": "oil",
-      "lead_title": "Oil Supertanker Earnings on Mideast Route Near $510,000 a Day",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnF4Yks1aUE5SWl4a1NnSGNlZHNlb0l2T1pxNk1wM1hKV0ZDMjV5ZV96WF9xYzdFdVFtRWgxa3VEcXZWWEplQWwzMWY1UFdEbmRlMVlQRW5fbDNWNTJYQXFMX1E2UE5wN1N1MFpHNm9SYi1NYnpybWpsN2JrQjl3YWNiRmlKY2dfdDl2M0luOWVrbWVQZzJPQVVZbGZkeTNvZmNIV3pnaXhxZXlmTTFwbA?oc=5",
-      "lead_source": "bloomberg.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T07:19:15+00:00",
-      "latest_seen": "2026-08-18T07:19:15+00:00",
-      "age_hours": 19.8,
-      "score": 62.12,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 13.12,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "12583a27b8dc1b91",
-          "title": "Oil Supertanker Earnings on Mideast Route Near $510,000 a Day",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnF4Yks1aUE5SWl4a1NnSGNlZHNlb0l2T1pxNk1wM1hKV0ZDMjV5ZV96WF9xYzdFdVFtRWgxa3VEcXZWWEplQWwzMWY1UFdEbmRlMVlQRW5fbDNWNTJYQXFMX1E2UE5wN1N1MFpHNm9SYi1NYnpybWpsN2JrQjl3YWNiRmlKY2dfdDl2M0luOWVrbWVQZzJPQVVZbGZkeTNvZmNIV3pnaXhxZXlmTTFwbA?oc=5",
-          "source": "bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-08-18T07:19:15+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7f1eba6907a459",
-      "topic": "oil",
-      "lead_title": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZHNwVkZXblBYd1drbGZNOTlfRHU0UGlLMjRVQjBGRHltbHFjYjJ6eXZPY1dqQ3dfc3JDNjFZWnc5dXVpYkdHS1NqUE0xU3lmci1rRFNZSmNncVREYUZmdkx5SFBSdC1vaF9IeGJqNlNINWtWeHlLbmdrOGdHbFMzNExVRFppVUR3bGM5czJoc3RUUEZ4YzZmOG94ZjhQbGdOVkdxR2U1Y1VlSFBXOWZ3SGRn?oc=5",
-      "lead_source": "bloomberg.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T02:26:00+00:00",
-      "latest_seen": "2026-08-18T02:26:00+00:00",
-      "age_hours": 24.68,
-      "score": 59.19,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 10.19,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "675a2307a153f0d6",
-          "title": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZHNwVkZXblBYd1drbGZNOTlfRHU0UGlLMjRVQjBGRHltbHFjYjJ6eXZPY1dqQ3dfc3JDNjFZWnc5dXVpYkdHS1NqUE0xU3lmci1rRFNZSmNncVREYUZmdkx5SFBSdC1vaF9IeGJqNlNINWtWeHlLbmdrOGdHbFMzNExVRFppVUR3bGM5czJoc3RUUEZ4YzZmOG94ZjhQbGdOVkdxR2U1Y1VlSFBXOWZ3SGRn?oc=5",
-          "source": "bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-08-18T02:26:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_8e642feaa485bc",
-      "topic": "oil",
-      "lead_title": "Oil closes at three-week high as hopes of US-Iran peace deal fade",
-      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T01:13:00+00:00",
-      "latest_seen": "2026-08-18T01:13:00+00:00",
-      "age_hours": 25.9,
-      "score": 58.46,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 9.46,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "6e80c70aa486ac53",
-          "title": "Oil closes at three-week high as hopes of US-Iran peace deal fade",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-18T01:13:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
@@ -350,11 +163,11 @@
       ],
       "earliest_seen": "2026-08-18T17:31:06+00:00",
       "latest_seen": "2026-08-18T17:31:06+00:00",
-      "age_hours": 9.6,
-      "score": 58.24,
+      "age_hours": 10.55,
+      "score": 57.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.24,
+        "recency_points": 18.67,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -372,7 +185,7 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
@@ -391,11 +204,11 @@
       ],
       "earliest_seen": "2026-08-18T17:14:54+00:00",
       "latest_seen": "2026-08-18T17:14:54+00:00",
-      "age_hours": 9.87,
-      "score": 58.08,
+      "age_hours": 10.82,
+      "score": 57.51,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.08,
+        "recency_points": 18.51,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -421,7 +234,7 @@
       "topic": "oil",
       "lead_title": "Diesel Margins Top $100 a Barrel to Reach Record High as Supply Crunch Grows",
       "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa0ZWeDFXeXhKVDI2Q1RfbkRub3RzYlo5a2kzMzRlMzdDTThzckxwN0dxYXBwb3BSV1hkeGM3aWdIc2pSYmZhRUVIUERPYVdxcWx5a0o5N1RpMHVpVHRmUEZlcEJGUm52c3dkUHNGVGNibXFKUVZSOVlpZHduMmhjQXoxY19lMUp4N21WMzhsSmZ5ZF96YVBObERFUVE3Znlmemhnc3d1WjZna0JySms1V09adFlQMlZGdk9oRUZqLVdlNkIt?oc=5",
-      "lead_source": "bloomberg.com",
+      "lead_source": "Bloomberg",
       "canonical_entities": [
         "barrel"
       ],
@@ -432,11 +245,11 @@
       ],
       "earliest_seen": "2026-08-18T16:15:46+00:00",
       "latest_seen": "2026-08-18T16:15:46+00:00",
-      "age_hours": 10.85,
-      "score": 57.49,
+      "age_hours": 11.8,
+      "score": 56.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.49,
+        "recency_points": 17.92,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -448,7 +261,7 @@
           "headline_id": "d2d2bd1175f55b06",
           "title": "Diesel Margins Top $100 a Barrel to Reach Record High as Supply Crunch Grows",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa0ZWeDFXeXhKVDI2Q1RfbkRub3RzYlo5a2kzMzRlMzdDTThzckxwN0dxYXBwb3BSV1hkeGM3aWdIc2pSYmZhRUVIUERPYVdxcWx5a0o5N1RpMHVpVHRmUEZlcEJGUm52c3dkUHNGVGNibXFKUVZSOVlpZHduMmhjQXoxY19lMUp4N21WMzhsSmZ5ZF96YVBObERFUVE3Znlmemhnc3d1WjZna0JySms1V09adFlQMlZGdk9oRUZqLVdlNkIt?oc=5",
-          "source": "bloomberg.com",
+          "source": "Bloomberg",
           "source_type": "rss",
           "published_at": "2026-08-18T16:15:46+00:00",
           "confidence": 1.0
@@ -471,11 +284,11 @@
       ],
       "earliest_seen": "2026-08-18T22:58:54+00:00",
       "latest_seen": "2026-08-18T22:58:54+00:00",
-      "age_hours": 4.14,
-      "score": 56.02,
+      "age_hours": 5.08,
+      "score": 55.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.52,
+        "recency_points": 21.95,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -497,48 +310,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_8594881aa70f69",
-      "topic": "oil",
-      "lead_title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "Brent",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-17T13:17:15+00:00",
-      "latest_seen": "2026-08-17T13:17:15+00:00",
-      "age_hours": 37.83,
-      "score": 54.7,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 2.3,
-        "source_quality_points": 29.4,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "98f28b3c33d8d5f2",
-          "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-08-17T13:17:15+00:00",
-          "confidence": 0.98
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_3787070cb38777",
       "topic": "oil",
       "lead_title": "Canada's pipeline ambitions hinge on uncertain output expansion",
@@ -552,11 +323,11 @@
       ],
       "earliest_seen": "2026-08-18T20:31:07+00:00",
       "latest_seen": "2026-08-18T20:31:07+00:00",
-      "age_hours": 6.6,
-      "score": 54.54,
+      "age_hours": 7.55,
+      "score": 53.97,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.04,
+        "recency_points": 20.47,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 0.0
@@ -578,84 +349,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_5ba919194de946",
-      "topic": "oil",
-      "lead_title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
-      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T15:18:00+00:00",
-      "latest_seen": "2026-08-18T15:18:00+00:00",
-      "age_hours": 11.82,
-      "score": 51.41,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 17.91,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f66823c3890408c2",
-          "title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-18T15:18:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a0298d03620ae4",
-      "topic": "oil",
-      "lead_title": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
-      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQll2LTZWcThSeTZYWjFBZXE0dVUxSl95V0RVdVhyVGRoZ2x3U28xcmxLWkFEN3ZVSnV1TVZaamh1UHBJd28xT19LN1JBNXdydndscmVqUHBPSUtkaXdBbFRyTnJKZGNlSmtQUnNhX0pka1VKS2xHVEdrTkd6U1o5MFd30gGHAUFVX3lxTE9JSG4tT1c5eF9DUEtCeVF6V1pYWnUtai1uY2hnNERGZ25hR2Y0OHBKR2l2b1dtcEhpaDRxWmdYMWlYMFUzRUJWb0VXTE0wUUczbktXV0Y2alc2RzdfT3hZU1FIUHVreFE0aDNvUS1mSTRBNmk0MEZReWZya3BybHhxTUhPN0RiVQ?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T15:50:46+00:00",
-      "latest_seen": "2026-08-18T15:50:46+00:00",
-      "age_hours": 11.27,
-      "score": 49.64,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.24,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "bb46c60b340dd1ad",
-          "title": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQll2LTZWcThSeTZYWjFBZXE0dVUxSl95V0RVdVhyVGRoZ2x3U28xcmxLWkFEN3ZVSnV1TVZaamh1UHBJd28xT19LN1JBNXdydndscmVqUHBPSUtkaXdBbFRyTnJKZGNlSmtQUnNhX0pka1VKS2xHVEdrTkd6U1o5MFd30gGHAUFVX3lxTE9JSG4tT1c5eF9DUEtCeVF6V1pYWnUtai1uY2hnNERGZ25hR2Y0OHBKR2l2b1dtcEhpaDRxWmdYMWlYMFUzRUJWb0VXTE0wUUczbktXV0Y2alc2RzdfT3hZU1FIUHVreFE0aDNvUS1mSTRBNmk0MEZReWZya3BybHhxTUhPN0RiVQ?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-08-18T15:50:46+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_46d58d63680fa2",
       "topic": "oil",
       "lead_title": "Big Oil’s Liabilities Are Shrinking. What’s Next?",
@@ -671,11 +364,11 @@
       ],
       "earliest_seen": "2026-08-18T10:28:00+00:00",
       "latest_seen": "2026-08-18T10:28:00+00:00",
-      "age_hours": 16.65,
-      "score": 48.11,
+      "age_hours": 17.6,
+      "score": 47.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.01,
+        "recency_points": 14.44,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -712,11 +405,11 @@
       ],
       "earliest_seen": "2026-08-18T07:59:38+00:00",
       "latest_seen": "2026-08-18T07:59:38+00:00",
-      "age_hours": 19.12,
-      "score": 47.53,
+      "age_hours": 20.07,
+      "score": 46.96,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.53,
+        "recency_points": 12.96,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -738,6 +431,86 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_a2e026740352b6",
+      "topic": "oil",
+      "lead_title": "Oil Supertanker Earnings on Mideast Route Near $510,000 a Day",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnF4Yks1aUE5SWl4a1NnSGNlZHNlb0l2T1pxNk1wM1hKV0ZDMjV5ZV96WF9xYzdFdVFtRWgxa3VEcXZWWEplQWwzMWY1UFdEbmRlMVlQRW5fbDNWNTJYQXFMX1E2UE5wN1N1MFpHNm9SYi1NYnpybWpsN2JrQjl3YWNiRmlKY2dfdDl2M0luOWVrbWVQZzJPQVVZbGZkeTNvZmNIV3pnaXhxZXlmTTFwbA?oc=5",
+      "lead_source": "Bloomberg",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T07:19:15+00:00",
+      "latest_seen": "2026-08-18T07:19:15+00:00",
+      "age_hours": 20.75,
+      "score": 46.55,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 12.55,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "12583a27b8dc1b91",
+          "title": "Oil Supertanker Earnings on Mideast Route Near $510,000 a Day",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnF4Yks1aUE5SWl4a1NnSGNlZHNlb0l2T1pxNk1wM1hKV0ZDMjV5ZV96WF9xYzdFdVFtRWgxa3VEcXZWWEplQWwzMWY1UFdEbmRlMVlQRW5fbDNWNTJYQXFMX1E2UE5wN1N1MFpHNm9SYi1NYnpybWpsN2JrQjl3YWNiRmlKY2dfdDl2M0luOWVrbWVQZzJPQVVZbGZkeTNvZmNIV3pnaXhxZXlmTTFwbA?oc=5",
+          "source": "Bloomberg",
+          "source_type": "rss",
+          "published_at": "2026-08-18T07:19:15+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5ba919194de946",
+      "topic": "oil",
+      "lead_title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
+      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T15:18:00+00:00",
+      "latest_seen": "2026-08-18T15:18:00+00:00",
+      "age_hours": 12.77,
+      "score": 45.84,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.34,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "f66823c3890408c2",
+          "title": "Trump says no talks planned with Iran, Tehran says Strait of Hormuz still shut",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUFBFaGFVcWFQMUh6YjRZVVpwX2piQ093ZzVJVjJtRmgtaE9RVFhJNG40STQxbDlhSG00cHBNVWNlRnZ5TE9MSmVVQTdJRk5hTDhIVEVCeXRtbmsyQkNCR1FSQm5GVGRNYmcybHN6RFNzbGJGN3hsdUUzWFh1c0NEdXd0X0h4SHdRXzlsRjd4NDZvR1VBc0M3ZDJxdG1TcTBISHBWSHRjcHBRSG90SU44cE5WM011U2g0V1dObWZXaEJSX2tONDQ0?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-18T15:18:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_783c8e5b5d312d",
       "topic": "oil",
       "lead_title": "Oil market starts pricing in a prolonged Hormuz crisis",
@@ -753,11 +526,11 @@
       ],
       "earliest_seen": "2026-08-18T06:00:00+00:00",
       "latest_seen": "2026-08-18T06:00:00+00:00",
-      "age_hours": 21.12,
-      "score": 46.33,
+      "age_hours": 22.07,
+      "score": 45.76,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.33,
+        "recency_points": 11.76,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -792,11 +565,11 @@
       ],
       "earliest_seen": "2026-08-18T13:59:43+00:00",
       "latest_seen": "2026-08-18T13:59:43+00:00",
-      "age_hours": 13.12,
-      "score": 45.63,
+      "age_hours": 14.07,
+      "score": 45.06,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.13,
+        "recency_points": 16.56,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -818,6 +591,127 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_a0298d03620ae4",
+      "topic": "oil",
+      "lead_title": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQll2LTZWcThSeTZYWjFBZXE0dVUxSl95V0RVdVhyVGRoZ2x3U28xcmxLWkFEN3ZVSnV1TVZaamh1UHBJd28xT19LN1JBNXdydndscmVqUHBPSUtkaXdBbFRyTnJKZGNlSmtQUnNhX0pka1VKS2xHVEdrTkd6U1o5MFd30gGHAUFVX3lxTE9JSG4tT1c5eF9DUEtCeVF6V1pYWnUtai1uY2hnNERGZ25hR2Y0OHBKR2l2b1dtcEhpaDRxWmdYMWlYMFUzRUJWb0VXTE0wUUczbktXV0Y2alc2RzdfT3hZU1FIUHVreFE0aDNvUS1mSTRBNmk0MEZReWZya3BybHhxTUhPN0RiVQ?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T15:50:46+00:00",
+      "latest_seen": "2026-08-18T15:50:46+00:00",
+      "age_hours": 12.22,
+      "score": 44.07,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.67,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "bb46c60b340dd1ad",
+          "title": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQll2LTZWcThSeTZYWjFBZXE0dVUxSl95V0RVdVhyVGRoZ2x3U28xcmxLWkFEN3ZVSnV1TVZaamh1UHBJd28xT19LN1JBNXdydndscmVqUHBPSUtkaXdBbFRyTnJKZGNlSmtQUnNhX0pka1VKS2xHVEdrTkd6U1o5MFd30gGHAUFVX3lxTE9JSG4tT1c5eF9DUEtCeVF6V1pYWnUtai1uY2hnNERGZ25hR2Y0OHBKR2l2b1dtcEhpaDRxWmdYMWlYMFUzRUJWb0VXTE0wUUczbktXV0Y2alc2RzdfT3hZU1FIUHVreFE0aDNvUS1mSTRBNmk0MEZReWZya3BybHhxTUhPN0RiVQ?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-08-18T15:50:46+00:00",
+          "confidence": 0.88
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7f1eba6907a459",
+      "topic": "oil",
+      "lead_title": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZHNwVkZXblBYd1drbGZNOTlfRHU0UGlLMjRVQjBGRHltbHFjYjJ6eXZPY1dqQ3dfc3JDNjFZWnc5dXVpYkdHS1NqUE0xU3lmci1rRFNZSmNncVREYUZmdkx5SFBSdC1vaF9IeGJqNlNINWtWeHlLbmdrOGdHbFMzNExVRFppVUR3bGM5czJoc3RUUEZ4YzZmOG94ZjhQbGdOVkdxR2U1Y1VlSFBXOWZ3SGRn?oc=5",
+      "lead_source": "Bloomberg",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T02:26:00+00:00",
+      "latest_seen": "2026-08-18T02:26:00+00:00",
+      "age_hours": 25.63,
+      "score": 43.62,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 9.62,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "675a2307a153f0d6",
+          "title": "Saudis Offer to Sell Oil Near Oman, a Possible Sign They’re Sailing Dark Through Hormuz",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZHNwVkZXblBYd1drbGZNOTlfRHU0UGlLMjRVQjBGRHltbHFjYjJ6eXZPY1dqQ3dfc3JDNjFZWnc5dXVpYkdHS1NqUE0xU3lmci1rRFNZSmNncVREYUZmdkx5SFBSdC1vaF9IeGJqNlNINWtWeHlLbmdrOGdHbFMzNExVRFppVUR3bGM5czJoc3RUUEZ4YzZmOG94ZjhQbGdOVkdxR2U1Y1VlSFBXOWZ3SGRn?oc=5",
+          "source": "Bloomberg",
+          "source_type": "rss",
+          "published_at": "2026-08-18T02:26:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8e642feaa485bc",
+      "topic": "oil",
+      "lead_title": "Oil closes at three-week high as hopes of US-Iran peace deal fade",
+      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T01:13:00+00:00",
+      "latest_seen": "2026-08-18T01:13:00+00:00",
+      "age_hours": 26.85,
+      "score": 42.89,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 8.89,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "6e80c70aa486ac53",
+          "title": "Oil closes at three-week high as hopes of US-Iran peace deal fade",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-18T01:13:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_2bea23bc0dc203",
       "topic": "oil",
       "lead_title": "China surprises oil markets again with a return to stockpiling in July",
@@ -833,11 +727,11 @@
       ],
       "earliest_seen": "2026-08-18T00:39:08+00:00",
       "latest_seen": "2026-08-18T00:39:08+00:00",
-      "age_hours": 26.46,
-      "score": 43.12,
+      "age_hours": 27.41,
+      "score": 42.55,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.12,
+        "recency_points": 8.55,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -874,11 +768,11 @@
       ],
       "earliest_seen": "2026-08-18T07:04:00+00:00",
       "latest_seen": "2026-08-18T07:04:00+00:00",
-      "age_hours": 20.05,
-      "score": 42.47,
+      "age_hours": 21.0,
+      "score": 41.9,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.97,
+        "recency_points": 12.4,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -894,6 +788,48 @@
           "source_type": "rss",
           "published_at": "2026-08-18T07:04:00+00:00",
           "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8594881aa70f69",
+      "topic": "oil",
+      "lead_title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
+      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "Brent",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-17T13:17:15+00:00",
+      "latest_seen": "2026-08-17T13:17:15+00:00",
+      "age_hours": 38.78,
+      "score": 39.13,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 1.73,
+        "source_quality_points": 29.4,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "98f28b3c33d8d5f2",
+          "title": "Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9DeURSb2RBZ010MURVZDdZV3p4ckVPdHBtZy1BeElkRlhWbGVheERZdWplcUN1dlNkbVpITmV0bHk0aGlIejcwU2ZqbTZiUUtTN09kMVBsSzVGaEk0SG9qM3ppRk5WYWVjVmExOFo4UWtoRWtKTkswT1B30gF_QVVfeXFMT1pWTkNWTkhXLUhqMFhINFUtRjJSRFZjbXdBb0pDTTFCcXQyMndfME9ibWVkQjFPYkNtel9CWVVMYWZmam5HODN0YkhpdjJ5ZTVoQUF3UHdTXzR2QUdqNldyQkpyUWUwMzI3V3dIamExVzlYOFV6TDhvSTJDNUdSMA?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-08-17T13:17:15+00:00",
+          "confidence": 0.98
         }
       ],
       "top_tier": false,
@@ -916,7 +852,7 @@
       ],
       "earliest_seen": "2026-08-12T15:07:00+00:00",
       "latest_seen": "2026-08-12T15:07:00+00:00",
-      "age_hours": 156.0,
+      "age_hours": 156.95,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -957,11 +893,11 @@
       ],
       "earliest_seen": "2026-08-17T14:43:55+00:00",
       "latest_seen": "2026-08-17T14:43:55+00:00",
-      "age_hours": 36.38,
-      "score": 37.17,
+      "age_hours": 37.33,
+      "score": 36.6,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.17,
+        "recency_points": 2.6,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -998,11 +934,11 @@
       ],
       "earliest_seen": "2026-08-17T11:54:35+00:00",
       "latest_seen": "2026-08-17T11:54:35+00:00",
-      "age_hours": 39.21,
-      "score": 35.48,
+      "age_hours": 40.16,
+      "score": 34.91,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.48,
+        "recency_points": 0.91,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -1039,7 +975,7 @@
       ],
       "earliest_seen": "2026-08-17T09:20:05+00:00",
       "latest_seen": "2026-08-17T09:20:05+00:00",
-      "age_hours": 41.78,
+      "age_hours": 42.73,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -1080,7 +1016,7 @@
       ],
       "earliest_seen": "2026-08-15T13:18:46+00:00",
       "latest_seen": "2026-08-15T13:18:46+00:00",
-      "age_hours": 85.8,
+      "age_hours": 86.75,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,

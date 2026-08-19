@@ -1185,3 +1185,13 @@
 [2026-08-19T03:07:00.612133+00:00] [detect] [detect_changes] 0 meaningful changes across 1 sources; 0 page(s) affected
 [2026-08-19T03:07:00.612326+00:00] autopilot: no-op — no meaningful changes (affected=0)
 [2026-08-19T03:07:00.656832+00:00] [health] [write_health] status=degraded codes=[OBSERVER_FAILED, NIGHTLY_AUDIT_MISSING]
+[2026-08-19T04:00:30.799885+00:00] ════════════════════════════════════════════════════════════
+[2026-08-19T04:00:30.800220+00:00] autopilot: start
+[2026-08-19T04:00:31.220043+00:00] [observers] commodity_prices: OK — Kept previous snapshot; marked status=failed
+[2026-08-19T04:01:30.105807+00:00] [observers] gas_prices: OK — ERROR: no data available and no previous snapshot to preserve
+[2026-08-19T04:03:58.444053+00:00] [observers] headlines: OK — [fetch_headlines] ✓ cache updated (300 total stories, 0 failed topics)
+[2026-08-19T04:03:58.555031+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-08-19T04:03:58.602490+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-08-19T04:03:58.634847+00:00] [detect]   • commodity_prices: status fresh -> failed
+[2026-08-19T04:03:58.635029+00:00] autopilot: no-op — no meaningful changes (affected=8)
+[2026-08-19T04:03:58.679872+00:00] [health] [write_health] status=degraded codes=[OBSERVER_FAILED, NIGHTLY_AUDIT_MISSING]
