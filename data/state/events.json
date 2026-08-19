@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-19T05:38:23.271531+00:00",
-  "previous_generated_at": "2026-08-19T04:03:58.596780+00:00",
-  "resolver_run_count": 120,
+  "generated_at": "2026-08-19T06:06:50.932790+00:00",
+  "previous_generated_at": "2026-08-19T05:38:23.271531+00:00",
+  "resolver_run_count": 121,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Ship attack in Hormuz kills crew member while Trump says strait is 'open and operating'",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.955,
+      "confidence": 0.959,
       "last_confirmed": "2026-08-19T04:16:47+00:00",
-      "source_count": 9,
+      "source_count": 7,
       "summary_short": "Crude Oil Price Forecast – WTI and Brent Chop as Strait of Hormuz Standoff Continues",
-      "summary_long": "Crude Oil Price Forecast – WTI and Brent Chop as Strait of Hormuz Standoff Continues. Oil extends climb on prolonged Hormuz export uncertainty",
+      "summary_long": "Crude Oil Price Forecast – WTI and Brent Chop as Strait of Hormuz Standoff Continues. Oil edges up on uncertainty over exports through Hormuz",
       "evidence_cluster_ids": [
-        "c_45c0e9b7bab910",
-        "c_1ac550a36c89e1",
+        "c_4131de9eb90302",
         "c_31e9477a9730c5",
         "c_090c52603f3528",
-        "c_5ba919194de946"
+        "c_5ba919194de946",
+        "c_a0298d03620ae4"
       ],
-      "evidence_count": 7,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.31)",
-        "winning=CONTESTED (0.31/0.31), conf=0.955"
+        "cluster c_a0298d0362 → CONTESTED (kw='attack', weight=0.30)",
+        "winning=CONTESTED (0.30/0.30), conf=0.959"
       ]
     },
     "us_iran_ceasefire": {
@@ -76,8 +76,8 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_0774781576 → FRAGILE (kw='ceasefire expires', weight=0.22)",
-        "winning=FRAGILE (0.22/0.22), conf=0.941"
+        "cluster c_0774781576 → FRAGILE (kw='ceasefire expires', weight=0.21)",
+        "winning=FRAGILE (0.21/0.21), conf=0.941"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
@@ -152,8 +152,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSmxuWXhVVHZud1czUHNVc1Z5WmdwcGo2RUY1RkI1em1ETm5tcllNdVNTNWxZeGZKTVJERnJLbG1xcUVCR3JmQm82d2lnVEdodDRuOGRSZ2p2cktkOElMTXlKMy1vUHZ5eVdjSUZORGRXRUMzX24ta1RuU1NPNElra01pbmZyaV93WFo2Y1Q4TFlSUDBKM3pFakdaSW1TYmlDdzF2a1FhTU5FclBJ?oc=5",
       "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 89.12,
-      "novelty": "new",
+      "score": 78.83,
+      "novelty": "ongoing",
       "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
@@ -166,7 +166,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.959, fresh=fresh",
     "us_iran_ceasefire: resolved=FRAGILE, confidence=0.941, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
