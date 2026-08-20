@@ -1533,3 +1533,14 @@
 [2026-08-20T03:05:31.597645+00:00] resolver: no state changes
 [2026-08-20T03:05:31.598235+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-20T03:05:31.598279+00:00] ════════════════════════════════════════════════════════════
+[2026-08-20T04:03:39.993015+00:00] resolver: start
+[2026-08-20T04:03:39.997243+00:00] resolver: scanning 267 clusters across 10 topics
+[2026-08-20T04:03:39.997547+00:00]   hormuz_status: OPEN (conf=0.3, freshness=stale, clusters=3)
+[2026-08-20T04:03:39.998454+00:00]   us_iran_ceasefire: RETIRED (stale beyond 2× threshold)
+[2026-08-20T04:03:39.998563+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-20T04:03:39.998609+00:00]   global_risk_level: LOW (score=0)
+[2026-08-20T04:03:39.998782+00:00]   top_story: '$100 Diesel Cracks Signal a Much Tighter Oil Market Than Bre' (score=95.39)
+[2026-08-20T04:03:39.998833+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-08-20T04:03:39.998866+00:00]   Δ us_iran_ceasefire.retired: 'HOLDING' → 'None' (triggers_publish=True)
+[2026-08-20T04:03:39.999392+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-08-20T04:03:39.999434+00:00] ════════════════════════════════════════════════════════════
