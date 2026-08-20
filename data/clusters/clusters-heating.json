@@ -1,11 +1,11 @@
 {
   "topic": "heating",
-  "generated_at": "2026-08-20T09:46:06.483866+00:00",
+  "generated_at": "2026-08-20T10:16:19.637992+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 29,
   "clusters": [
     {
       "cluster_id": "c_7fd910b71b24c4",
@@ -23,11 +23,11 @@
       ],
       "earliest_seen": "2026-08-20T05:28:53+00:00",
       "latest_seen": "2026-08-20T05:28:53+00:00",
-      "age_hours": 4.29,
-      "score": 50.93,
+      "age_hours": 4.79,
+      "score": 50.63,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.43,
+        "recency_points": 22.13,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -64,11 +64,11 @@
       ],
       "earliest_seen": "2026-08-20T01:26:00+00:00",
       "latest_seen": "2026-08-20T01:26:00+00:00",
-      "age_hours": 8.34,
-      "score": 48.5,
+      "age_hours": 8.84,
+      "score": 48.2,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.0,
+        "recency_points": 19.7,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -90,249 +90,45 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_e2f10a63be75a0",
+      "cluster_id": "c_d47e9a73ab754b",
       "topic": "heating",
-      "lead_title": "EIA Distillate Inventories Drop by 1.53 Million Barrels in Week Ending August 14",
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnZ5NHUxcVJBOHJ2ZEpadXBuX0VoMFdwVGF0UUNPYzVHQjVaTUx2R3RrTlpudGtjRzVFbnNCWGV2ZGtDMFVpeEdkXzl2bU4xaWZxNHVQSTFTVWl3bUVkekg0R0RBSFUxSkV6RDZzZ2NmdWpqZ0l5R3RyWTVvdklqcXVXbHp0clh1SEtjRm14UExQTUs3T3c?oc=5",
-      "lead_source": "CryptoRank",
+      "lead_title": "Chicago ULSD Platts vs. Heating Oil Spread Swap Sep '26 Futures Price History",
+      "lead_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYMjlNbElKWjF1M0pIQU9hQmE1SGtzOGZwLW5CQjRTMXdiejJVdkx2UkZSWmh3dGJ1UHRpbHZOcVhtVl93c0tsemFkSEp2T1owbFZPUkdyM3otS29FRFVtTzZHTmRUc1pXQ1NNOVpvZndSZk1STnNUUGNTWQ?oc=5",
+      "lead_source": "Barchart.com",
       "canonical_entities": [
-        "distillate"
+        "ULSD",
+        "heating oil"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T22:08:24+00:00",
-      "latest_seen": "2026-08-19T22:08:24+00:00",
-      "age_hours": 11.63,
-      "score": 46.52,
+      "earliest_seen": "2026-08-07T07:00:00+00:00",
+      "latest_seen": "2026-08-07T07:00:00+00:00",
+      "age_hours": 315.27,
+      "score": 44.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.02,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "fde82f609e233df6",
-          "title": "EIA Distillate Inventories Drop by 1.53 Million Barrels in Week Ending August 14",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnZ5NHUxcVJBOHJ2ZEpadXBuX0VoMFdwVGF0UUNPYzVHQjVaTUx2R3RrTlpudGtjRzVFbnNCWGV2ZGtDMFVpeEdkXzl2bU4xaWZxNHVQSTFTVWl3bUVkekg0R0RBSFUxSkV6RDZzZ2NmdWpqZ0l5R3RyWTVvdklqcXVXbHp0clh1SEtjRm14UExQTUs3T3c?oc=5",
-          "source": "CryptoRank",
+          "headline_id": "d597bd17011510d0",
+          "title": "Chicago ULSD Platts vs. Heating Oil Spread Swap Sep '26 Futures Price History",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYMjlNbElKWjF1M0pIQU9hQmE1SGtzOGZwLW5CQjRTMXdiejJVdkx2UkZSWmh3dGJ1UHRpbHZOcVhtVl93c0tsemFkSEp2T1owbFZPUkdyM3otS29FRFVtTzZHTmRUc1pXQ1NNOVpvZndSZk1STnNUUGNTWQ?oc=5",
+          "source": "Barchart.com",
           "source_type": "rss",
-          "published_at": "2026-08-19T22:08:24+00:00",
-          "confidence": 0.65
+          "published_at": "2026-08-07T07:00:00+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f2712f40becb85",
-      "topic": "heating",
-      "lead_title": "Chancellor to offer support over rising heating oil costs",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-14T07:00:00+00:00",
-      "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 3818.77,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "23b15026785d0c37",
-          "title": "Chancellor to offer support over rising heating oil costs",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-14T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_38271813758f5e",
-      "topic": "heating",
-      "lead_title": "Heating oil customers see orders cancelled and prices hiked",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YcFpkZGpVbzd4WDZxTDdoOVJpX3RMSnhBQ0o5eWtoYWtuM1FxV0ZJNGgtaWtTNzRnY3c4cTVpUXZEajNGbGJIb0lOd0xZMk5iakJIZFJ2MHZaQQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-12T07:00:00+00:00",
-      "latest_seen": "2026-03-12T07:00:00+00:00",
-      "age_hours": 3866.77,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "6d0463f7cabc8bfe",
-          "title": "Heating oil customers see orders cancelled and prices hiked",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YcFpkZGpVbzd4WDZxTDdoOVJpX3RMSnhBQ0o5eWtoYWtuM1FxV0ZJNGgtaWtTNzRnY3c4cTVpUXZEajNGbGJIb0lOd0xZMk5iakJIZFJ2MHZaQQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-12T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_494acbbd0dadf1",
-      "topic": "heating",
-      "lead_title": "Heating oil protection calls after 'shock' price rises",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-11T07:00:00+00:00",
-      "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 3890.77,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "534d2b1011bb7fdc",
-          "title": "Heating oil protection calls after 'shock' price rises",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-11T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f04d2fb9e34b68",
-      "topic": "heating",
-      "lead_title": "'My heating oil costs have more than doubled since Iran war started'",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UaHY3Q21Wb3hPNmx6WFVLem9FUWhYMW4wTjN4ek1FRy1Qa29WOXRkYjlUUWRXZHc5UzFPblJQeU1VOFBsRHlLVGdPNXQ1ZEF5WWJHOGxDRi1Jdw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-10T07:00:00+00:00",
-      "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 3914.77,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "887ab049049b8c62",
-          "title": "'My heating oil costs have more than doubled since Iran war started'",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UaHY3Q21Wb3hPNmx6WFVLem9FUWhYMW4wTjN4ek1FRy1Qa29WOXRkYjlUUWRXZHc5UzFPblJQeU1VOFBsRHlLVGdPNXQ1ZEF5WWJHOGxDRi1Jdw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-10T07:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c8e743b96eb0d9",
-      "topic": "heating",
-      "lead_title": "East of England heating oil customers report prices doubling",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BNmdWakpsamFDY1RQbE1kQzlGYUVJUlRXSlplQnlvZW41RXdFNkU3aDU4R2wtY1FtYVpvMnlnbV81S29tRk56bllac0dVcGdGZUs2bm5yUXUyQQ?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-03-07T08:00:00+00:00",
-      "latest_seen": "2026-03-07T08:00:00+00:00",
-      "age_hours": 3985.77,
-      "score": 46.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "6a514be807d7fe7e",
-          "title": "East of England heating oil customers report prices doubling",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BNmdWakpsamFDY1RQbE1kQzlGYUVJUlRXSlplQnlvZW41RXdFNkU3aDU4R2wtY1FtYVpvMnlnbV81S29tRk56bllac0dVcGdGZUs2bm5yUXUyQQ?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-03-07T08:00:00+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
       "low_priority": false
     },
     {
@@ -351,11 +147,11 @@
       ],
       "earliest_seen": "2026-08-19T14:30:00+00:00",
       "latest_seen": "2026-08-19T14:32:27+00:00",
-      "age_hours": 19.23,
-      "score": 41.96,
+      "age_hours": 19.73,
+      "score": 41.66,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 13.46,
+        "recency_points": 13.16,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -386,6 +182,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_e2f10a63be75a0",
+      "topic": "heating",
+      "lead_title": "EIA Distillate Inventories Drop by 1.53 Million Barrels in Week Ending August 14",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnZ5NHUxcVJBOHJ2ZEpadXBuX0VoMFdwVGF0UUNPYzVHQjVaTUx2R3RrTlpudGtjRzVFbnNCWGV2ZGtDMFVpeEdkXzl2bU4xaWZxNHVQSTFTVWl3bUVkekg0R0RBSFUxSkV6RDZzZ2NmdWpqZ0l5R3RyWTVvdklqcXVXbHp0clh1SEtjRm14UExQTUs3T3c?oc=5",
+      "lead_source": "CryptoRank",
+      "canonical_entities": [
+        "distillate"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T22:08:24+00:00",
+      "latest_seen": "2026-08-19T22:08:24+00:00",
+      "age_hours": 12.13,
+      "score": 41.22,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.72,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "fde82f609e233df6",
+          "title": "EIA Distillate Inventories Drop by 1.53 Million Barrels in Week Ending August 14",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMnZ5NHUxcVJBOHJ2ZEpadXBuX0VoMFdwVGF0UUNPYzVHQjVaTUx2R3RrTlpudGtjRzVFbnNCWGV2ZGtDMFVpeEdkXzl2bU4xaWZxNHVQSTFTVWl3bUVkekg0R0RBSFUxSkV6RDZzZ2NmdWpqZ0l5R3RyWTVvdklqcXVXbHp0clh1SEtjRm14UExQTUs3T3c?oc=5",
+          "source": "CryptoRank",
+          "source_type": "rss",
+          "published_at": "2026-08-19T22:08:24+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_2a863af98ca859",
       "topic": "heating",
       "lead_title": "US, Indian fuel exporters profiting from supply uncertainty during wars",
@@ -399,11 +236,11 @@
       ],
       "earliest_seen": "2026-08-19T11:53:36+00:00",
       "latest_seen": "2026-08-19T11:53:36+00:00",
-      "age_hours": 21.88,
-      "score": 40.37,
+      "age_hours": 22.38,
+      "score": 40.07,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.87,
+        "recency_points": 11.57,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -440,11 +277,11 @@
       ],
       "earliest_seen": "2026-08-19T19:40:12+00:00",
       "latest_seen": "2026-08-19T19:40:12+00:00",
-      "age_hours": 14.1,
-      "score": 40.04,
+      "age_hours": 14.6,
+      "score": 39.74,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.54,
+        "recency_points": 16.24,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -459,179 +296,6 @@
           "source": "Bitcoin World",
           "source_type": "rss",
           "published_at": "2026-08-19T19:40:12+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_39c1f271373c7f",
-      "topic": "heating",
-      "lead_title": "Some Diesel Analysts Are Warning of a Supply Crunch Nobody in Washington Is Talking About. Here Is What Holds Up, and What It Could Mean for Q4.",
-      "lead_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQaEYxM3V3clV4ZUZHLVhDVjZDVnRrcFIyOFhMb1doTzFCbjN6c1VyMXJIYlZiVFQzSG9uRXdBakZEQkh2OG9sM2RiVjhkeVNLRFhwM2FpcFpzMUpfS0FuS2JDa2xVYkppQUZSbVpXNWJtWlBWMC1vdlE2WENqSHRxQzZhbUtiZmNZazlQT2xFSklITklZcF9CNzQzRXVSako5VlNiSUxSdVduQ1pMTFE3NEdMTi1vS25MRTM2d0FHY0pBNTl4TkxHUE9WTFNMWHdPV1gwZTJsQ01jbmcxS3V1MXllUU9CTzRYei04OW1ReHNCZVhObEdKT0pURWxzU1FqMzhjVzl3?oc=5",
-      "lead_source": "FreightWaves",
-      "canonical_entities": [
-        "diesel"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T18:28:26+00:00",
-      "latest_seen": "2026-08-18T18:28:26+00:00",
-      "age_hours": 39.29,
-      "score": 39.92,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 1.42,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "93f41eab9e850f16",
-          "title": "Some Diesel Analysts Are Warning of a Supply Crunch Nobody in Washington Is Talking About. Here Is What Holds Up, and What It Could Mean for Q4.",
-          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQaEYxM3V3clV4ZUZHLVhDVjZDVnRrcFIyOFhMb1doTzFCbjN6c1VyMXJIYlZiVFQzSG9uRXdBakZEQkh2OG9sM2RiVjhkeVNLRFhwM2FpcFpzMUpfS0FuS2JDa2xVYkppQUZSbVpXNWJtWlBWMC1vdlE2WENqSHRxQzZhbUtiZmNZazlQT2xFSklITklZcF9CNzQzRXVSako5VlNiSUxSdVduQ1pMTFE3NEdMTi1vS25MRTM2d0FHY0pBNTl4TkxHUE9WTFNMWHdPV1gwZTJsQ01jbmcxS3V1MXllUU9CTzRYei04OW1ReHNCZVhObEdKT0pURWxzU1FqMzhjVzl3?oc=5",
-          "source": "FreightWaves",
-          "source_type": "rss",
-          "published_at": "2026-08-18T18:28:26+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_4ab90674bc4b6e",
-      "topic": "heating",
-      "lead_title": "U.S. Diesel Reserves Sit Near 23-Year Lows",
-      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1VkS1VCb3pZcEdFemE4ajV5MGFPd00taTJjMzI2ZlhCdTBRM0hSVFU3TG90ak05UXRic1hUN2lObWY0TjhvaFdDSjdwNElBdDg1V20yUk5BM0ZEdFlObTQ5UkUyc3F4LUVPdERSQnEtWDE0eVRpOE1sWW8yVEVVQ2pkVXZ5WWNVdlpFbdIBkgFBVV95cUxOT3B4TEJfb0llTmVFdTB3VjFsNzRsbWFFLVNfNUlQWU9oU2RaUVNGbG10dkxST3lZeFFkMDlra2tpSnoxanpDaXV3Vm5vQzZmMTJSZ1Mxa1NwSGdGamV0Mk5mUGpiT2JIeGd4RjY1X1pwSUE5LVdSSnN1VkN5eUx4VWdGSDl1c1YyYTZMLUtMdGtrdw?oc=5",
-      "lead_source": "Crude Oil Prices Today | OilPrice.com",
-      "canonical_entities": [
-        "diesel"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T17:00:00+00:00",
-      "latest_seen": "2026-08-18T17:00:00+00:00",
-      "age_hours": 40.77,
-      "score": 39.04,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.54,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "de9ecc8546bc9d0e",
-          "title": "U.S. Diesel Reserves Sit Near 23-Year Lows",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1VkS1VCb3pZcEdFemE4ajV5MGFPd00taTJjMzI2ZlhCdTBRM0hSVFU3TG90ak05UXRic1hUN2lObWY0TjhvaFdDSjdwNElBdDg1V20yUk5BM0ZEdFlObTQ5UkUyc3F4LUVPdERSQnEtWDE0eVRpOE1sWW8yVEVVQ2pkVXZ5WWNVdlpFbdIBkgFBVV95cUxOT3B4TEJfb0llTmVFdTB3VjFsNzRsbWFFLVNfNUlQWU9oU2RaUVNGbG10dkxST3lZeFFkMDlra2tpSnoxanpDaXV3Vm5vQzZmMTJSZ1Mxa1NwSGdGamV0Mk5mUGpiT2JIeGd4RjY1X1pwSUE5LVdSSnN1VkN5eUx4VWdGSDl1c1YyYTZMLUtMdGtrdw?oc=5",
-          "source": "Crude Oil Prices Today | OilPrice.com",
-          "source_type": "rss",
-          "published_at": "2026-08-18T17:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_570c107b6b7a56",
-      "topic": "heating",
-      "lead_title": "The crude-diesel price spread is wider than ever. BTC might feel it: Crypto Daily",
-      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlRUTWpIbkIyYnRXSnBIQ18yOXIyLTlQVlROZE9vV2hzcUJwaXptZ3ltbkJUa1g2ck9qYWpGdmI5d013U3FkbjM0bDlIRVhFQzhMMmdiWW8xV2I1dk9XSWpEdjdEMXl5S0R6VGlMdXpTclR4bzZLNTdmN1lPZElncHEwVW9MWkpkemVZTnVUeXk5UmpIbzQ4bmhaTDdkRGpNN3ZmSTlUS1BxUFMyOFdVWEh6QjJ4YzYyUHc?oc=5",
-      "lead_source": "CoinDesk",
-      "canonical_entities": [
-        "diesel"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-18T11:21:51+00:00",
-      "latest_seen": "2026-08-18T11:21:51+00:00",
-      "age_hours": 46.4,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a54976cb1ada9175",
-          "title": "The crude-diesel price spread is wider than ever. BTC might feel it: Crypto Daily",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlRUTWpIbkIyYnRXSnBIQ18yOXIyLTlQVlROZE9vV2hzcUJwaXptZ3ltbkJUa1g2ck9qYWpGdmI5d013U3FkbjM0bDlIRVhFQzhMMmdiWW8xV2I1dk9XSWpEdjdEMXl5S0R6VGlMdXpTclR4bzZLNTdmN1lPZElncHEwVW9MWkpkemVZTnVUeXk5UmpIbzQ4bmhaTDdkRGpNN3ZmSTlUS1BxUFMyOFdVWEh6QjJ4YzYyUHc?oc=5",
-          "source": "CoinDesk",
-          "source_type": "rss",
-          "published_at": "2026-08-18T11:21:51+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1f50ef4825d62a",
-      "topic": "heating",
-      "lead_title": "Heating Oil Hits Over 4-Month High",
-      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWXNDbVdHT2o1N2VJN250TVU2cVRMVXJ4V2IxTUw3TWpfcVQ1QnRDQU03V056QnVNdjNsaHBoSlZBdk1rNTF1R0xneFNhR1BwY3ZzSzZ4STdOTmlONXRsdGlCd0NmWDQxTGdmMGRGM19POXExRXlvTXEtT3puRk1obWYwSkt3X1lNYzlMUnhn?oc=5",
-      "lead_source": "TradingView",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-17T14:46:41+00:00",
-      "latest_seen": "2026-08-18T00:46:00+00:00",
-      "age_hours": 57.0,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "b28d0d900c8c808b",
-          "title": "Heating Oil Hits Over 4-Month High",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWXNDbVdHT2o1N2VJN250TVU2cVRMVXJ4V2IxTUw3TWpfcVQ1QnRDQU03V056QnVNdjNsaHBoSlZBdk1rNTF1R0xneFNhR1BwY3ZzSzZ4STdOTmlONXRsdGlCd0NmWDQxTGdmMGRGM19POXExRXlvTXEtT3puRk1obWYwSkt3X1lNYzlMUnhn?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-08-18T00:46:00+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "0a4babdd2b43c819",
-          "title": "Heating Oil Hits 18-week High",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ19wWnliajRpX2hqX09mbTVUWEJNcGRlbkdDM01DQjlkZ3d2a2JLMVUwa3A4R3phY253c1VxejhEYmtqOW9kSXZyNWJJTEdjWTZGbDB1Y29BQkhpMHZIOFJDVG9raWZienZXVGMxOWVrLWEzNmhlY3BjZGF6WmJXSV83aWVXNVU?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-08-17T14:46:41+00:00",
           "confidence": 0.65
         }
       ],
@@ -654,7 +318,7 @@
       ],
       "earliest_seen": "2026-08-17T19:13:43+00:00",
       "latest_seen": "2026-08-17T19:13:43+00:00",
-      "age_hours": 62.54,
+      "age_hours": 63.04,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -695,7 +359,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 3770.77,
+      "age_hours": 3771.27,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -736,7 +400,7 @@
       ],
       "earliest_seen": "2026-08-18T08:17:00+00:00",
       "latest_seen": "2026-08-18T08:17:00+00:00",
-      "age_hours": 49.49,
+      "age_hours": 49.99,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -777,7 +441,7 @@
       ],
       "earliest_seen": "2026-08-04T07:00:00+00:00",
       "latest_seen": "2026-08-04T07:00:00+00:00",
-      "age_hours": 386.77,
+      "age_hours": 387.27,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -818,7 +482,7 @@
       ],
       "earliest_seen": "2026-07-15T07:00:00+00:00",
       "latest_seen": "2026-07-15T07:00:00+00:00",
-      "age_hours": 866.77,
+      "age_hours": 867.27,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -844,6 +508,211 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_f2712f40becb85",
+      "topic": "heating",
+      "lead_title": "Chancellor to offer support over rising heating oil costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-14T07:00:00+00:00",
+      "latest_seen": "2026-03-14T07:00:00+00:00",
+      "age_hours": 3819.27,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "23b15026785d0c37",
+          "title": "Chancellor to offer support over rising heating oil costs",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBmaWdXMU9yWDRYZXdvaU0tWW84VlY2RDFFb3pKMDNsU0Q3QmNEN21ubmdieEVvQV9iNDYyZjlhbEVBcnEzbm1OWXZMWUw0eGJRSC1BS3FwTXNnZw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-14T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_38271813758f5e",
+      "topic": "heating",
+      "lead_title": "Heating oil customers see orders cancelled and prices hiked",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YcFpkZGpVbzd4WDZxTDdoOVJpX3RMSnhBQ0o5eWtoYWtuM1FxV0ZJNGgtaWtTNzRnY3c4cTVpUXZEajNGbGJIb0lOd0xZMk5iakJIZFJ2MHZaQQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-12T07:00:00+00:00",
+      "latest_seen": "2026-03-12T07:00:00+00:00",
+      "age_hours": 3867.27,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "6d0463f7cabc8bfe",
+          "title": "Heating oil customers see orders cancelled and prices hiked",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YcFpkZGpVbzd4WDZxTDdoOVJpX3RMSnhBQ0o5eWtoYWtuM1FxV0ZJNGgtaWtTNzRnY3c4cTVpUXZEajNGbGJIb0lOd0xZMk5iakJIZFJ2MHZaQQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-12T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_494acbbd0dadf1",
+      "topic": "heating",
+      "lead_title": "Heating oil protection calls after 'shock' price rises",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-11T07:00:00+00:00",
+      "latest_seen": "2026-03-11T07:00:00+00:00",
+      "age_hours": 3891.27,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "534d2b1011bb7fdc",
+          "title": "Heating oil protection calls after 'shock' price rises",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45Y201NlFjVmZyRHcwUThfVmt3YnFKMHV2YjdnZmYzc1RRaVpoV19Hb2p1aXVVN0VpN1ZxYUF2T0Z1ZW5fODlweGQxcHN5dENULXlsZWtJZGJ0dw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-11T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f04d2fb9e34b68",
+      "topic": "heating",
+      "lead_title": "'My heating oil costs have more than doubled since Iran war started'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UaHY3Q21Wb3hPNmx6WFVLem9FUWhYMW4wTjN4ek1FRy1Qa29WOXRkYjlUUWRXZHc5UzFPblJQeU1VOFBsRHlLVGdPNXQ1ZEF5WWJHOGxDRi1Jdw?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-10T07:00:00+00:00",
+      "latest_seen": "2026-03-10T07:00:00+00:00",
+      "age_hours": 3915.27,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "887ab049049b8c62",
+          "title": "'My heating oil costs have more than doubled since Iran war started'",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UaHY3Q21Wb3hPNmx6WFVLem9FUWhYMW4wTjN4ek1FRy1Qa29WOXRkYjlUUWRXZHc5UzFPblJQeU1VOFBsRHlLVGdPNXQ1ZEF5WWJHOGxDRi1Jdw?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-10T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c8e743b96eb0d9",
+      "topic": "heating",
+      "lead_title": "East of England heating oil customers report prices doubling",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BNmdWakpsamFDY1RQbE1kQzlGYUVJUlRXSlplQnlvZW41RXdFNkU3aDU4R2wtY1FtYVpvMnlnbV81S29tRk56bllac0dVcGdGZUs2bm5yUXUyQQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-03-07T08:00:00+00:00",
+      "latest_seen": "2026-03-07T08:00:00+00:00",
+      "age_hours": 3986.27,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "6a514be807d7fe7e",
+          "title": "East of England heating oil customers report prices doubling",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BNmdWakpsamFDY1RQbE1kQzlGYUVJUlRXSlplQnlvZW41RXdFNkU3aDU4R2wtY1FtYVpvMnlnbV81S29tRk56bllac0dVcGdGZUs2bm5yUXUyQQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-03-07T08:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_979b3587022866",
       "topic": "heating",
       "lead_title": "Heating oil customers to get up to £350 compensation for cancelled orders",
@@ -859,7 +728,7 @@
       ],
       "earliest_seen": "2026-07-15T07:00:00+00:00",
       "latest_seen": "2026-07-15T07:00:00+00:00",
-      "age_hours": 866.77,
+      "age_hours": 867.27,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -885,47 +754,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_a25b17c25dea26",
-      "topic": "heating",
-      "lead_title": "Heating Oil Extends Advance",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOG1ObERoYnF1RkVCazJtUy1pMzJpeDNuWWNUWnFjTjBCQ3lBSFlQVE4xSW1fdkdTMDRhZXBmX1VDeXVOMkxIUk4xdVRLZUtNSmFyU0R3dFZ5SGpWWng1YVVhT0E0c2RtLUZuVlRTMjFZaTFiNXd0MlB0ZU5ZZm1aSTRfckI?oc=5",
-      "lead_source": "TradingView",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-19T01:43:00+00:00",
-      "latest_seen": "2026-08-19T01:43:00+00:00",
-      "age_hours": 32.05,
-      "score": 29.27,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 5.77,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "00a174615c0334f5",
-          "title": "Heating Oil Extends Advance",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOG1ObERoYnF1RkVCazJtUy1pMzJpeDNuWWNUWnFjTjBCQ3lBSFlQVE4xSW1fdkdTMDRhZXBmX1VDeXVOMkxIUk4xdVRLZUtNSmFyU0R3dFZ5SGpWWng1YVVhT0E0c2RtLUZuVlRTMjFZaTFiNXd0MlB0ZU5ZZm1aSTRfckI?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-08-19T01:43:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_11afe2dbdd8a6d",
       "topic": "heating",
       "lead_title": "ASTM approves updated heating oil specification to include biodiesel blends up to B50",
@@ -942,7 +770,7 @@
       ],
       "earliest_seen": "2026-04-22T07:00:00+00:00",
       "latest_seen": "2026-04-22T07:00:00+00:00",
-      "age_hours": 2882.77,
+      "age_hours": 2883.27,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -984,7 +812,7 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 3578.77,
+      "age_hours": 3579.27,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -1010,6 +838,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_a25b17c25dea26",
+      "topic": "heating",
+      "lead_title": "Heating Oil Extends Advance",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOG1ObERoYnF1RkVCazJtUy1pMzJpeDNuWWNUWnFjTjBCQ3lBSFlQVE4xSW1fdkdTMDRhZXBmX1VDeXVOMkxIUk4xdVRLZUtNSmFyU0R3dFZ5SGpWWng1YVVhT0E0c2RtLUZuVlRTMjFZaTFiNXd0MlB0ZU5ZZm1aSTRfckI?oc=5",
+      "lead_source": "TradingView",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T01:43:00+00:00",
+      "latest_seen": "2026-08-19T01:43:00+00:00",
+      "age_hours": 32.56,
+      "score": 28.97,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 5.47,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "00a174615c0334f5",
+          "title": "Heating Oil Extends Advance",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPOG1ObERoYnF1RkVCazJtUy1pMzJpeDNuWWNUWnFjTjBCQ3lBSFlQVE4xSW1fdkdTMDRhZXBmX1VDeXVOMkxIUk4xdVRLZUtNSmFyU0R3dFZ5SGpWWng1YVVhT0E0c2RtLUZuVlRTMjFZaTFiNXd0MlB0ZU5ZZm1aSTRfckI?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-08-19T01:43:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_5884b31e8087f5",
       "topic": "heating",
       "lead_title": "US imports first fuel oil cargoes shipped via Syria as Iraq leverages new export route",
@@ -1023,7 +892,7 @@
       ],
       "earliest_seen": "2026-07-23T07:00:00+00:00",
       "latest_seen": "2026-07-23T07:00:00+00:00",
-      "age_hours": 674.77,
+      "age_hours": 675.27,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -1064,11 +933,11 @@
       ],
       "earliest_seen": "2026-08-18T22:21:47+00:00",
       "latest_seen": "2026-08-18T22:21:47+00:00",
-      "age_hours": 35.41,
-      "score": 27.26,
+      "age_hours": 35.91,
+      "score": 26.95,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.76,
+        "recency_points": 3.45,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -1103,7 +972,7 @@
       ],
       "earliest_seen": "2026-08-05T07:00:00+00:00",
       "latest_seen": "2026-08-05T07:00:00+00:00",
-      "age_hours": 362.77,
+      "age_hours": 363.27,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1142,7 +1011,7 @@
       ],
       "earliest_seen": "2026-06-16T07:00:00+00:00",
       "latest_seen": "2026-06-16T07:00:00+00:00",
-      "age_hours": 1562.77,
+      "age_hours": 1563.27,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1162,6 +1031,170 @@
           "source_type": "rss",
           "published_at": "2026-06-16T07:00:00+00:00",
           "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_39c1f271373c7f",
+      "topic": "heating",
+      "lead_title": "Some Diesel Analysts Are Warning of a Supply Crunch Nobody in Washington Is Talking About. Here Is What Holds Up, and What It Could Mean for Q4.",
+      "lead_url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQaEYxM3V3clV4ZUZHLVhDVjZDVnRrcFIyOFhMb1doTzFCbjN6c1VyMXJIYlZiVFQzSG9uRXdBakZEQkh2OG9sM2RiVjhkeVNLRFhwM2FpcFpzMUpfS0FuS2JDa2xVYkppQUZSbVpXNWJtWlBWMC1vdlE2WENqSHRxQzZhbUtiZmNZazlQT2xFSklITklZcF9CNzQzRXVSako5VlNiSUxSdVduQ1pMTFE3NEdMTi1vS25MRTM2d0FHY0pBNTl4TkxHUE9WTFNMWHdPV1gwZTJsQ01jbmcxS3V1MXllUU9CTzRYei04OW1ReHNCZVhObEdKT0pURWxzU1FqMzhjVzl3?oc=5",
+      "lead_source": "FreightWaves",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T18:28:26+00:00",
+      "latest_seen": "2026-08-18T18:28:26+00:00",
+      "age_hours": 39.8,
+      "score": 24.62,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 1.12,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "93f41eab9e850f16",
+          "title": "Some Diesel Analysts Are Warning of a Supply Crunch Nobody in Washington Is Talking About. Here Is What Holds Up, and What It Could Mean for Q4.",
+          "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQaEYxM3V3clV4ZUZHLVhDVjZDVnRrcFIyOFhMb1doTzFCbjN6c1VyMXJIYlZiVFQzSG9uRXdBakZEQkh2OG9sM2RiVjhkeVNLRFhwM2FpcFpzMUpfS0FuS2JDa2xVYkppQUZSbVpXNWJtWlBWMC1vdlE2WENqSHRxQzZhbUtiZmNZazlQT2xFSklITklZcF9CNzQzRXVSako5VlNiSUxSdVduQ1pMTFE3NEdMTi1vS25MRTM2d0FHY0pBNTl4TkxHUE9WTFNMWHdPV1gwZTJsQ01jbmcxS3V1MXllUU9CTzRYei04OW1ReHNCZVhObEdKT0pURWxzU1FqMzhjVzl3?oc=5",
+          "source": "FreightWaves",
+          "source_type": "rss",
+          "published_at": "2026-08-18T18:28:26+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_4ab90674bc4b6e",
+      "topic": "heating",
+      "lead_title": "U.S. Diesel Reserves Sit Near 23-Year Lows",
+      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1VkS1VCb3pZcEdFemE4ajV5MGFPd00taTJjMzI2ZlhCdTBRM0hSVFU3TG90ak05UXRic1hUN2lObWY0TjhvaFdDSjdwNElBdDg1V20yUk5BM0ZEdFlObTQ5UkUyc3F4LUVPdERSQnEtWDE0eVRpOE1sWW8yVEVVQ2pkVXZ5WWNVdlpFbdIBkgFBVV95cUxOT3B4TEJfb0llTmVFdTB3VjFsNzRsbWFFLVNfNUlQWU9oU2RaUVNGbG10dkxST3lZeFFkMDlra2tpSnoxanpDaXV3Vm5vQzZmMTJSZ1Mxa1NwSGdGamV0Mk5mUGpiT2JIeGd4RjY1X1pwSUE5LVdSSnN1VkN5eUx4VWdGSDl1c1YyYTZMLUtMdGtrdw?oc=5",
+      "lead_source": "Crude Oil Prices Today | OilPrice.com",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T17:00:00+00:00",
+      "latest_seen": "2026-08-18T17:00:00+00:00",
+      "age_hours": 41.27,
+      "score": 23.74,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.24,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "de9ecc8546bc9d0e",
+          "title": "U.S. Diesel Reserves Sit Near 23-Year Lows",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM1VkS1VCb3pZcEdFemE4ajV5MGFPd00taTJjMzI2ZlhCdTBRM0hSVFU3TG90ak05UXRic1hUN2lObWY0TjhvaFdDSjdwNElBdDg1V20yUk5BM0ZEdFlObTQ5UkUyc3F4LUVPdERSQnEtWDE0eVRpOE1sWW8yVEVVQ2pkVXZ5WWNVdlpFbdIBkgFBVV95cUxOT3B4TEJfb0llTmVFdTB3VjFsNzRsbWFFLVNfNUlQWU9oU2RaUVNGbG10dkxST3lZeFFkMDlra2tpSnoxanpDaXV3Vm5vQzZmMTJSZ1Mxa1NwSGdGamV0Mk5mUGpiT2JIeGd4RjY1X1pwSUE5LVdSSnN1VkN5eUx4VWdGSDl1c1YyYTZMLUtMdGtrdw?oc=5",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "source_type": "rss",
+          "published_at": "2026-08-18T17:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_570c107b6b7a56",
+      "topic": "heating",
+      "lead_title": "The crude-diesel price spread is wider than ever. BTC might feel it: Crypto Daily",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlRUTWpIbkIyYnRXSnBIQ18yOXIyLTlQVlROZE9vV2hzcUJwaXptZ3ltbkJUa1g2ck9qYWpGdmI5d013U3FkbjM0bDlIRVhFQzhMMmdiWW8xV2I1dk9XSWpEdjdEMXl5S0R6VGlMdXpTclR4bzZLNTdmN1lPZElncHEwVW9MWkpkemVZTnVUeXk5UmpIbzQ4bmhaTDdkRGpNN3ZmSTlUS1BxUFMyOFdVWEh6QjJ4YzYyUHc?oc=5",
+      "lead_source": "CoinDesk",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T11:21:51+00:00",
+      "latest_seen": "2026-08-18T11:21:51+00:00",
+      "age_hours": 46.91,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "a54976cb1ada9175",
+          "title": "The crude-diesel price spread is wider than ever. BTC might feel it: Crypto Daily",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlRUTWpIbkIyYnRXSnBIQ18yOXIyLTlQVlROZE9vV2hzcUJwaXptZ3ltbkJUa1g2ck9qYWpGdmI5d013U3FkbjM0bDlIRVhFQzhMMmdiWW8xV2I1dk9XSWpEdjdEMXl5S0R6VGlMdXpTclR4bzZLNTdmN1lPZElncHEwVW9MWkpkemVZTnVUeXk5UmpIbzQ4bmhaTDdkRGpNN3ZmSTlUS1BxUFMyOFdVWEh6QjJ4YzYyUHc?oc=5",
+          "source": "CoinDesk",
+          "source_type": "rss",
+          "published_at": "2026-08-18T11:21:51+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_1f50ef4825d62a",
+      "topic": "heating",
+      "lead_title": "Heating Oil Hits Over 4-Month High",
+      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWXNDbVdHT2o1N2VJN250TVU2cVRMVXJ4V2IxTUw3TWpfcVQ1QnRDQU03V056QnVNdjNsaHBoSlZBdk1rNTF1R0xneFNhR1BwY3ZzSzZ4STdOTmlONXRsdGlCd0NmWDQxTGdmMGRGM19POXExRXlvTXEtT3puRk1obWYwSkt3X1lNYzlMUnhn?oc=5",
+      "lead_source": "TradingView",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-18T00:46:00+00:00",
+      "latest_seen": "2026-08-18T00:46:00+00:00",
+      "age_hours": 57.51,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "b28d0d900c8c808b",
+          "title": "Heating Oil Hits Over 4-Month High",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWXNDbVdHT2o1N2VJN250TVU2cVRMVXJ4V2IxTUw3TWpfcVQ1QnRDQU03V056QnVNdjNsaHBoSlZBdk1rNTF1R0xneFNhR1BwY3ZzSzZ4STdOTmlONXRsdGlCd0NmWDQxTGdmMGRGM19POXExRXlvTXEtT3puRk1obWYwSkt3X1lNYzlMUnhn?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-08-18T00:46:00+00:00",
+          "confidence": 0.65
         }
       ],
       "top_tier": false,
