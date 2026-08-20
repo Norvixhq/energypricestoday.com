@@ -1,44 +1,61 @@
 {
   "topic": "oil",
-  "generated_at": "2026-08-20T10:53:43.014865+00:00",
+  "generated_at": "2026-08-20T13:15:43.406797+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 17,
+  "clusters_found": 18,
   "clusters": [
     {
-      "cluster_id": "c_6c244d6f6e9af4",
+      "cluster_id": "c_9e1bb5f048e770",
       "topic": "oil",
-      "lead_title": "Crude Oil Prices Edge Higher, Brent Tops $92 Per Barrel",
-      "lead_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZFkzZEp4V3g2OGNYSlNwYW5WZ3I3QTFWd21Vc0hTMHdROG9GZ1JsaGtpS2RMMFM1cVNZMFRjS1UxN3hlWDNTTHBYdVpjc0NVM1lkSkJReHVnMEg4ZzhoNUNKdmVpRElSNmJkZzNFSzlpbVd4clRDNHR6ZHU0ZTM5RkRzQkxkM1E?oc=5",
-      "lead_source": "MarketForces Africa",
+      "lead_title": "U.S. Crude Oil Stockpiles Post Weekly Increase",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
+      "lead_source": "WSJ",
       "canonical_entities": [
         "Brent",
-        "WTI",
         "barrel",
         "crude",
         "oil"
       ],
-      "source_count": 7,
+      "source_count": 6,
       "distinct_publishers": 6,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-19T02:44:24+00:00",
-      "latest_seen": "2026-08-20T08:34:43+00:00",
-      "age_hours": 2.32,
-      "score": 96.32,
+      "earliest_seen": "2026-08-18T10:09:44+00:00",
+      "latest_seen": "2026-08-20T12:55:00+00:00",
+      "age_hours": 0.35,
+      "score": 95.54,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 23.61,
-        "source_quality_points": 22.71,
-        "entity_relevance_points": 20,
+        "recency_points": 24.79,
+        "source_quality_points": 24.75,
+        "entity_relevance_points": 16,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
+        {
+          "headline_id": "30a8f0b9ce9c7bdc",
+          "title": "U.S. Crude Oil Stockpiles Post Weekly Increase",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-08-19T15:27:00+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "e4b181cac50f11f5",
+          "title": "Proposed Canadian crude oil pipeline projects",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNejl0clhJZ05DTnRMNThKMTRZd2Y0dVNRc09QbWx1VUJzNHluT0hRTnRyYVZEbWtXbWVkYWxHQTA4WEdzMWpkYjNaZUZEVngtT3VwbUlndm9idFNNV3JDVFhjNVBxcHBvQVhDR1JWM3pfeUlBQWM5SVNRdVVwdzhhRzJ0WGs3QW9qUkJkbXpQVzdKY0JfR0hrTGVHb2Rndw?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-18T10:09:44+00:00",
+          "confidence": 1.0
+        },
         {
           "headline_id": "94930da89fe02fb9",
           "title": "Crude Oil Prices Edge Higher, Brent Tops $92 Per Barrel",
@@ -47,6 +64,76 @@
           "source_type": "rss",
           "published_at": "2026-08-20T08:34:43+00:00",
           "confidence": 0.8
+        },
+        {
+          "headline_id": "6235c077c752271e",
+          "title": "Syria produces 14.8m barrels of crude oil in H1",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE93cVNCQzIzcm5DZ3oxOXZEUU9ZaTRKZ1NCd2EtR2FjNmI0WE1MSXl5UDJvUmFLT1NUZHJ2dGtrVHNUeGRhdlJjNUpfeFN3bVZNV2s5SUNVOS1raDl2WkpFRXNmcw?oc=5",
+          "source": "Arab News PK",
+          "source_type": "rss",
+          "published_at": "2026-08-20T11:01:15+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "b16bc838c4cc0f21",
+          "title": "U.S. Stocks May Come Under Pressure As Crude Oil Prices Spike",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0NYRFktWHBidXpJS24zZUZtcFBLdW9wZmFHS2pyZEhEZXlDNTBRSDZVelYwVUlXYzNmeXlWOG40UnlKQW5TaHh5Q2d5d2lIT0N5STZ4anpPNkwwNVI0SWVITTBvblRKekVGVnVuYzBYLWg5X19lSGpxUmZDWU40OXREQkNnRmw4WHB6NFBoRnZxN3JHVGp1TjFULWRXMmRYRkRUM3F4RjU?oc=5",
+          "source": "RTTNews",
+          "source_type": "rss",
+          "published_at": "2026-08-20T12:55:00+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "e788b9e0cc8f8aa9",
+          "title": "Brent Oil Price Tops $93 as U.S.-Iran Impasse Persists",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeXBieVpyNXJQdHV5Mm02MVEzcDE5S1FJbmRGNkE4RzVpTHFxT0xUTk0zNzBVTnVVeXFjeE5lRFBXSXJuZXR4VXE2aGRCaVl5MFU3YS1wbW9fRWxUWlBrSGdUbXl2WDNlbWhta3IxWnlTc1M4emw0cUJBSGRRZHJ0N0w5UkwyVFY5ejFic0FVNUdEUXA1cUpoeElncmcxVUxvaEVVUVRzVklBblnSAbABQVVfeXFMT2w5QzV0ZVAydHJJUFM4b09iRVFvOElCSEpZckFFUVdHcVFHeVpLVUdTSlAyZUkxR3FNOW9lSWRtMUI0V0o0c1F0WkJQeFBCd3U0dHNldHFoOUxPcHI1NGhtZmp5a0lsUU85NEhBNlVPMjJXN1ZHZXFWemNIekMtdkFPcDBVazRkWVZXU3pEUVRMMVJBY2YwdXhfTTU1Ry04NDJPMGNIRENib2JvU0w0bWo?oc=5",
+          "source": "Crude Oil Prices Today | OilPrice.com",
+          "source_type": "rss",
+          "published_at": "2026-08-20T11:30:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_de162d947c6b2e",
+      "topic": "oil",
+      "lead_title": "Crude oil forecast: WTI extends rally amid US-Iran tensions",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFV1dUJrUzhHc0NYVWpCaC1xZWtUSEYzMjdLV2NSVWp6RVFpSVhSXzBrRUM0Sy1wOXctS184WE5kMHNQWjdvVEE3ejlFUjN1YWlzZGFvSXNLUnByTE1oR2plaTJtcVd5cUlkeGxwZVZUaDcxXy1DTE9jazh1dTh1TVVsajZJbGh2WVBqeUQta3BNWTFMZldnT2RDWDVNR0lKSzlORnNIY04?oc=5",
+      "lead_source": "FOREX.com",
+      "canonical_entities": [
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 7,
+      "distinct_publishers": 5,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-19T02:44:24+00:00",
+      "latest_seen": "2026-08-20T13:03:31+00:00",
+      "age_hours": 0.2,
+      "score": 89.38,
+      "score_components": {
+        "source_count_points": 20,
+        "recency_points": 24.88,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "f154f6ee9e76e929",
+          "title": "Crude oil forecast: WTI extends rally amid US-Iran tensions",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFV1dUJrUzhHc0NYVWpCaC1xZWtUSEYzMjdLV2NSVWp6RVFpSVhSXzBrRUM0Sy1wOXctS184WE5kMHNQWjdvVEE3ejlFUjN1YWlzZGFvSXNLUnByTE1oR2plaTJtcVd5cUlkeGxwZVZUaDcxXy1DTE9jazh1dTh1TVVsajZJbGh2WVBqeUQta3BNWTFMZldnT2RDWDVNR0lKSzlORnNIY04?oc=5",
+          "source": "FOREX.com",
+          "source_type": "rss",
+          "published_at": "2026-08-20T13:03:31+00:00",
+          "confidence": 0.75
         },
         {
           "headline_id": "9904e053afc22f8a",
@@ -107,27 +194,27 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_3b4c8cbebf3ec0",
+      "cluster_id": "c_df8d68c5e53aff",
       "topic": "oil",
-      "lead_title": "Rupee Settles Flat at 95.70 vs US Dollar Amid Crude Oil",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXpLNjNQaEw0YUQtOGV6M25UcV9qQ25GZzk4S0xOMUVtb1ZFSjRHbHNxenlYQlN3cU95Nm1QLUFWWE1CcmhSUHNqaU1wX2VLR0R4Q3RHVlAwTEtGRnc4QTljTzdfVmJmTnBsTktPcVUwRW1ZeXI5NC1TRW1Gc0dJcW5wTEY4TmU5UWhTZVNwWkZ2cUtUU1FGMGl5bXlQS2hqdzBCWWJNNWE2RmPSAbABQVVfeXFMUDV6bXprWnRHODVMazBfRlBKQzNObDZrTlVFMW1FOGJVYUotVlFvNjR6bzk5alV3NkRwSnJHMTFjSW5JRTExR3lUQ3ZLUzBMdnQyTkpTUDRySTNJRlNaRmdEWmx5QWRlSWpQLTNyb3lZT1Y2TDZGMlVxQ1JnZjJQMU0xa0c5YnJkTzBQU19KZlpzTVpDMDkxN2g1WTFkbUdzWm8tZWZ6YzZ4T282cWlDbko?oc=5",
-      "lead_source": "Rediff MoneyWiz",
+      "lead_title": "Forecast update for crude oil – 20-08-2026",
+      "lead_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa2k1NkdfUUJjZzdLUkdxU0ZpcnFXM09KdklYRDQwTnB6bTBKelVjendDd1lMZG5KbTJGY0Yyam04M1NKT2JvRTVGS1V4SGgtTFZTc0lfTmY0RlU5WE1Ec292VndjWFNTcFNYNk9qTHRQMVhNODhKcWt5c1otSDMwOEU1ZFRZS1AwWFhScVhlVUh5NXAzVXdfMmFwOXBDT3pyRmNHTlFBa1pnN05i?oc=5",
+      "lead_source": "Economies.com",
       "canonical_entities": [
         "crude",
         "oil"
       ],
-      "source_count": 5,
-      "distinct_publishers": 4,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T09:37:21+00:00",
-      "latest_seen": "2026-08-20T10:39:55+00:00",
-      "age_hours": 0.23,
-      "score": 83.86,
+      "earliest_seen": "2026-08-20T10:22:00+00:00",
+      "latest_seen": "2026-08-20T10:59:00+00:00",
+      "age_hours": 2.28,
+      "score": 72.63,
       "score_components": {
-        "source_count_points": 20,
-        "recency_points": 24.86,
+        "source_count_points": 10,
+        "recency_points": 23.63,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 10.0
@@ -136,12 +223,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "ef2becbc820c9221",
-          "title": "Rupee Settles Flat at 95.70 vs US Dollar Amid Crude Oil",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdXpLNjNQaEw0YUQtOGV6M25UcV9qQ25GZzk4S0xOMUVtb1ZFSjRHbHNxenlYQlN3cU95Nm1QLUFWWE1CcmhSUHNqaU1wX2VLR0R4Q3RHVlAwTEtGRnc4QTljTzdfVmJmTnBsTktPcVUwRW1ZeXI5NC1TRW1Gc0dJcW5wTEY4TmU5UWhTZVNwWkZ2cUtUU1FGMGl5bXlQS2hqdzBCWWJNNWE2RmPSAbABQVVfeXFMUDV6bXprWnRHODVMazBfRlBKQzNObDZrTlVFMW1FOGJVYUotVlFvNjR6bzk5alV3NkRwSnJHMTFjSW5JRTExR3lUQ3ZLUzBMdnQyTkpTUDRySTNJRlNaRmdEWmx5QWRlSWpQLTNyb3lZT1Y2TDZGMlVxQ1JnZjJQMU0xa0c5YnJkTzBQU19KZlpzTVpDMDkxN2g1WTFkbUdzWm8tZWZ6YzZ4T282cWlDbko?oc=5",
-          "source": "Rediff MoneyWiz",
+          "headline_id": "51121c8f693e2b47",
+          "title": "Forecast update for crude oil – 20-08-2026",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa2k1NkdfUUJjZzdLUkdxU0ZpcnFXM09KdklYRDQwTnB6bTBKelVjendDd1lMZG5KbTJGY0Yyam04M1NKT2JvRTVGS1V4SGgtTFZTc0lfTmY0RlU5WE1Ec292VndjWFNTcFNYNk9qTHRQMVhNODhKcWt5c1otSDMwOEU1ZFRZS1AwWFhScVhlVUh5NXAzVXdfMmFwOXBDT3pyRmNHTlFBa1pnN05i?oc=5",
+          "source": "Economies.com",
           "source_type": "rss",
-          "published_at": "2026-08-20T10:39:55+00:00",
+          "published_at": "2026-08-20T10:59:00+00:00",
           "confidence": 0.7
         },
         {
@@ -152,120 +239,115 @@
           "source_type": "rss",
           "published_at": "2026-08-20T10:22:00+00:00",
           "confidence": 0.7
-        },
-        {
-          "headline_id": "872bab62eb73d909",
-          "title": "Equinor to supply crude oil to Poland's Orlen for three years",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNWc2N0REUHlPV05zWE5HWkxtMlUxcE9CS1ViT3dTVWJsVkpDcEZlVnE2MFpjX2xiTkdyMjQyc2hFU2F3bVJFUkh2cmlYYm1vOHM4ZHF2dUxvamFUZ0FXMmpBU1RGNTFNcDNlXzZZSHd2cmZ6b21GX1Jic3k1TERjcWVncl9NWVVTeUZyMVFXOTl1ai1mVF9oSzlYUTlrekZ0SVRhQmFyV3A4MWYtbERZUkRYQV8?oc=5",
-          "source": "marketscreener.com",
-          "source_type": "rss",
-          "published_at": "2026-08-20T10:20:25+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "78a4655767b9fc48",
-          "title": "Crude Oil Jumps: US ''Economic Warfare'' on Iran Sparks Supply Fears",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTkt6b1ZLSmM0MElNUnlLYVVsVFNkWHktUk5BSm13QnlmTFBETUd6eGszTkxqazd3UnBXNkF1UThNbk5IZmU3X040bE51UXRKcFh4Vkp5bFNiWDEwV2Z0aVRKR3RLb1p2TXdhNXhBeC1FSUVUc0tmU3puVmxWbjBPcTZyTUV1OV8tUzdlUWY3M2FDVzdldTJ5bmhxbzB3ZEczc0tGM080YnBCdkpXR3J2c1lSakdSQdIBuwFBVV95cUxOVFg2RWd5TTJHb3NEVFVHYzFRWTBjZ3RVdUFRYW5wcVctN0JvMkJQbVE4LTJqYnYtcDdHaHljWnNfMDBaLXpGdldGNm0yYzJJYTRLTnJqb3o0NFVkSHdiRmpsR29WV1J1azdpVHJBQ1RUSkQ4Um80N1NaV3dVX0M4UVNtZWhreFRCeWZTV25lWGJFclN1cFhZel9JVG0xUi12R2dRaS1hQW9yMlJTWE9ZcERQT2xZYTQtMFdR?oc=5",
-          "source": "Rediff MoneyWiz",
-          "source_type": "rss",
-          "published_at": "2026-08-20T10:11:19+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "ea2ff1e711cb2b97",
-          "title": "Poland’s Orlen locks in Norwegian crude supplies with Equinor amid oil market volatility",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNM3BuWjJ2allmTjVRN21LUkdsTzlqREU4TmJ5ZlB5V1g5RTNQTEdORFlrekRUNHlzbFZpT3owZW5rb01EWlhZWk16TU9EQi1wdXA5SXVDdTJlM1QwSEUyeDNYWjV6LWprZGgxeHlwNUFIQ2RnY3h6eDc5MUE0ZGE1Z2s2cHhraWJTVXFzdTNEWTU0T2tCVGlud1Z6anhUbVdBal9Vb1ZGcEx3THV6ODRDZUJYNV9Hd0ZLU2Jvbw?oc=5",
-          "source": "Offshore-Energy.biz",
-          "source_type": "rss",
-          "published_at": "2026-08-20T09:37:21+00:00",
-          "confidence": 0.7
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_efcd199d33a5f4",
+      "cluster_id": "c_c1870d55f49ccb",
       "topic": "oil",
-      "lead_title": "U.S. Crude Oil Stockpiles Post Weekly Increase",
-      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "Art of the seal: Trump-aligned oil group touts ‘sealskin diplomacy’ on Greenland",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQckJBZjhYaGRpak9VSkh3b09VV1QxVUFLMEM2bWlzQ0tJNlhET3IwSW9hN3BaWGdPdEE1c0pqMjE4OG80LWFqa1IzNnhUUlBOa2Q4Q20yRC1CNHZMb0Z3bDYwOHF4QzBOdFFFODN0TGtYNHExNzA0TGNIbUpWQVRxR1NHSWE?oc=5",
+      "lead_source": "Financial Times",
       "canonical_entities": [
-        "crude",
         "oil"
       ],
-      "source_count": 3,
-      "distinct_publishers": 3,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-18T10:09:44+00:00",
-      "latest_seen": "2026-08-19T15:27:00+00:00",
-      "age_hours": 19.45,
-      "score": 76.33,
+      "earliest_seen": "2026-08-20T10:00:13+00:00",
+      "latest_seen": "2026-08-20T10:00:13+00:00",
+      "age_hours": 3.26,
+      "score": 71.14,
       "score_components": {
-        "source_count_points": 15,
-        "recency_points": 13.33,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
+        "source_count_points": 5,
+        "recency_points": 23.04,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "30a8f0b9ce9c7bdc",
-          "title": "U.S. Crude Oil Stockpiles Post Weekly Increase",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
-          "source": "WSJ",
+          "headline_id": "b99974f1fdbd39cf",
+          "title": "Art of the seal: Trump-aligned oil group touts ‘sealskin diplomacy’ on Greenland",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQckJBZjhYaGRpak9VSkh3b09VV1QxVUFLMEM2bWlzQ0tJNlhET3IwSW9hN3BaWGdPdEE1c0pqMjE4OG80LWFqa1IzNnhUUlBOa2Q4Q20yRC1CNHZMb0Z3bDYwOHF4QzBOdFFFODN0TGtYNHExNzA0TGNIbUpWQVRxR1NHSWE?oc=5",
+          "source": "Financial Times",
           "source_type": "rss",
-          "published_at": "2026-08-19T15:27:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "0c9268b3df0b44ad",
-          "title": "Watch Fesharaki: Oil’s Real Story Lies in Products, Not Crude",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSmxuWXhVVHZud1czUHNVc1Z5WmdwcGo2RUY1RkI1em1ETm5tcllNdVNTNWxZeGZKTVJERnJLbG1xcUVCR3JmQm82d2lnVEdodDRuOGRSZ2p2cktkOElMTXlKMy1vUHZ5eVdjSUZORGRXRUMzX24ta1RuU1NPNElra01pbmZyaV93WFo2Y1Q4TFlSUDBKM3pFakdaSW1TYmlDdzF2a1FhTU5FclBJ?oc=5",
-          "source": "Bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-08-19T00:00:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "e4b181cac50f11f5",
-          "title": "Proposed Canadian crude oil pipeline projects",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNejl0clhJZ05DTnRMNThKMTRZd2Y0dVNRc09QbWx1VUJzNHluT0hRTnRyYVZEbWtXbWVkYWxHQTA4WEdzMWpkYjNaZUZEVngtT3VwbUlndm9idFNNV3JDVFhjNVBxcHBvQVhDR1JWM3pfeUlBQWM5SVNRdVVwdzhhRzJ0WGs3QW9qUkJkbXpQVzdKY0JfR0hrTGVHb2Rndw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-18T10:09:44+00:00",
-          "confidence": 1.0
+          "published_at": "2026-08-20T10:00:13+00:00",
+          "confidence": 0.97
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_c0be335956a2f3",
+      "cluster_id": "c_488596829124a5",
       "topic": "oil",
-      "lead_title": "US treasury bond surprise drives Gold and EUR/USD higher. Crude Oil elevated [Video]",
-      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRE5MeTZwVGluMW84WmtDbnBlSk1vQVI1MjJaSUJOekViWXlpaFBCNm9uazgtSTBYUEZpa3UxMFRCNGhqMkZhYk41bTF2emtZS3RidHBsU296MVJndlJOV0M0ZUExMzFjNzd1WG91bUZJczBUc2cxUjdZcUNZb1doUm9GbTRmb0NuRVJBRXNHU01SVG9TVkwzTld3aGZRcmZmVUVDNUlUcWl2bDJGV2JKVDllM2oyRjc4ZlgxZWxQR0dCb3p0NGpR?oc=5",
-      "lead_source": "FXStreet",
+      "lead_title": "Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse",
+      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
-        "crude",
         "oil"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T09:45:33+00:00",
-      "latest_seen": "2026-08-20T10:15:07+00:00",
-      "age_hours": 0.64,
-      "score": 73.61,
+      "earliest_seen": "2026-08-20T08:33:57+00:00",
+      "latest_seen": "2026-08-20T08:33:57+00:00",
+      "age_hours": 4.7,
+      "score": 69.08,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.61,
+        "source_count_points": 5,
+        "recency_points": 22.18,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "bae6221b5dc623fa",
+          "title": "Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-08-20T08:33:57+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e3bd1132866892",
+      "topic": "oil",
+      "lead_title": "Iran truce drives spike in China’s oil imports, but soaring Brent clouds demand",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQTVFOHphdXZXOHEwVDJxd3BQallseU4zeEhXMlhKck9IdkJyUWhfa1pqSGRyeUxVSFlqQ1JEQlNiRjYwYnNheHQ0cnFwbWNrWGJmazdvRm5uaERWZzRKcGpIcm5BS1YtV0drSzY5bFpBVkMtMERfS1BLclZMQ0hqY1U5WndLTlAtM280RDNHS1B6SDRNZVBvM2ZzRi1NNkg2WG5zZFExS09qNjVycGNrV2FPT1AtOFdOOGdTRDlMbTBGYWhObFNmSHYtclg5cW9jenhrQdIB1AFBVV95cUxNaHI1UDNOeUQ0RUIyWWR2cHZtblhtS3ptQXZMaTRrOVlZbkVnR1g5bTBxNVhMZWVMemVmXzlnaVQwUzU2S0pLWFZHYi15TjJlOTFIQ3B3ZzJMQ01VdmoxOFh3REFaVU5POVJsbXdPdm11V2twZjluMm5WYnAxQnd3RVR5aGRhM3ljVG9EcGRkYmVva2tNNVZPMl9lTlhjSFZ3TUZlbGdPaFJiNFlaWUdZNEJCY1RmaU56OVk1TlZuNXNwR3J1NGlCRU1aU2RZY1J4UThQMw?oc=5",
+      "lead_source": "South China Morning Post",
+      "canonical_entities": [
+        "Brent",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-20T12:30:16+00:00",
+      "latest_seen": "2026-08-20T12:30:16+00:00",
+      "age_hours": 0.76,
+      "score": 68.55,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.55,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": 10.0
@@ -274,22 +356,134 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "678f376340376133",
-          "title": "US treasury bond surprise drives Gold and EUR/USD higher. Crude Oil elevated [Video]",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRE5MeTZwVGluMW84WmtDbnBlSk1vQVI1MjJaSUJOekViWXlpaFBCNm9uazgtSTBYUEZpa3UxMFRCNGhqMkZhYk41bTF2emtZS3RidHBsU296MVJndlJOV0M0ZUExMzFjNzd1WG91bUZJczBUc2cxUjdZcUNZb1doUm9GbTRmb0NuRVJBRXNHU01SVG9TVkwzTld3aGZRcmZmVUVDNUlUcWl2bDJGV2JKVDllM2oyRjc4ZlgxZWxQR0dCb3p0NGpR?oc=5",
-          "source": "FXStreet",
+          "headline_id": "fc4e3f1714d01b95",
+          "title": "Iran truce drives spike in China’s oil imports, but soaring Brent clouds demand",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNQTVFOHphdXZXOHEwVDJxd3BQallseU4zeEhXMlhKck9IdkJyUWhfa1pqSGRyeUxVSFlqQ1JEQlNiRjYwYnNheHQ0cnFwbWNrWGJmazdvRm5uaERWZzRKcGpIcm5BS1YtV0drSzY5bFpBVkMtMERfS1BLclZMQ0hqY1U5WndLTlAtM280RDNHS1B6SDRNZVBvM2ZzRi1NNkg2WG5zZFExS09qNjVycGNrV2FPT1AtOFdOOGdTRDlMbTBGYWhObFNmSHYtclg5cW9jenhrQdIB1AFBVV95cUxNaHI1UDNOeUQ0RUIyWWR2cHZtblhtS3ptQXZMaTRrOVlZbkVnR1g5bTBxNVhMZWVMemVmXzlnaVQwUzU2S0pLWFZHYi15TjJlOTFIQ3B3ZzJMQ01VdmoxOFh3REFaVU5POVJsbXdPdm11V2twZjluMm5WYnAxQnd3RVR5aGRhM3ljVG9EcGRkYmVva2tNNVZPMl9lTlhjSFZ3TUZlbGdPaFJiNFlaWUdZNEJCY1RmaU56OVk1TlZuNXNwR3J1NGlCRU1aU2RZY1J4UThQMw?oc=5",
+          "source": "South China Morning Post",
           "source_type": "rss",
-          "published_at": "2026-08-20T10:15:07+00:00",
+          "published_at": "2026-08-20T12:30:16+00:00",
           "confidence": 0.7
-        },
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8a6fa74cadf2ff",
+      "topic": "oil",
+      "lead_title": "Oil hits over 3-week high on Middle East supply concerns amid war impasse",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-20T01:11:00+00:00",
+      "latest_seen": "2026-08-20T01:11:00+00:00",
+      "age_hours": 12.08,
+      "score": 66.75,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.75,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
         {
-          "headline_id": "126369325004ae1d",
-          "title": "Why is E-mini Crude Oil Futures stock surging today? By Investing.com",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNkQxYThBU251el9pSHNWdmxJTFJGXzdmN0prTGgtbEhCU19GMjkyMVBPVVMwTlZRd21JbFlGLWQ5czI1dUVJdlVTWkMzYkFMWkNLRVU3bWVVVWlodl9vNlR3Wk9FU3RvQ3d6NGRMM3Y0ZkpUenhzOXA4OEFZSmJiWkJZTnV6X201bFd2UE9ydmRvX0F0MmtmMW1xdUZwV2oyQjI3QnVyLWlXdGFKWHlWMw?oc=5",
-          "source": "Investing.com India",
+          "headline_id": "5bec0ad5e4ef6c44",
+          "title": "Oil hits over 3-week high on Middle East supply concerns amid war impasse",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-08-20T09:45:33+00:00",
-          "confidence": 0.7
+          "published_at": "2026-08-20T01:11:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_934a1e39b7df76",
+      "topic": "oil",
+      "lead_title": "U.S. Stock Futures Mixed Amid Earnings Reports",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-20T11:02:00+00:00",
+      "latest_seen": "2026-08-20T11:02:00+00:00",
+      "age_hours": 2.23,
+      "score": 66.26,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.66,
+        "source_quality_points": 27.6,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "7ae1fa431e2c365e",
+          "title": "U.S. Stock Futures Mixed Amid Earnings Reports",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-08-20T11:02:00+00:00",
+          "confidence": 0.92
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5631193061adb8",
+      "topic": "oil",
+      "lead_title": "China boosts imports of Russian crude, stymieing India's refiners",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "crude"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-20T11:02:34+00:00",
+      "latest_seen": "2026-08-20T11:02:34+00:00",
+      "age_hours": 2.22,
+      "score": 62.67,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.67,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "35666dcbdfcb5f84",
+          "title": "China boosts imports of Russian crude, stymieing India's refiners",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-20T11:02:34+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -311,17 +505,17 @@
       ],
       "earliest_seen": "2026-08-20T09:43:05+00:00",
       "latest_seen": "2026-08-20T09:43:05+00:00",
-      "age_hours": 1.18,
-      "score": 73.29,
+      "age_hours": 3.54,
+      "score": 61.87,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.29,
+        "recency_points": 22.87,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1e7741ceb6eab797",
@@ -350,19 +544,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T10:39:49+00:00",
-      "latest_seen": "2026-08-20T10:39:49+00:00",
-      "age_hours": 0.23,
-      "score": 69.96,
+      "earliest_seen": "2026-08-20T11:39:00+00:00",
+      "latest_seen": "2026-08-20T11:39:00+00:00",
+      "age_hours": 1.61,
+      "score": 59.13,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.86,
+        "recency_points": 24.03,
         "source_quality_points": 26.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "4de1551afe3c7e07",
@@ -370,7 +564,7 @@
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVEszc3gyaVY5QUNvbmV5YXYta1RQR1VPYnEtVnczczlSYnQ1Z2NtSGpucTVTRl93ODF1NFJBZFM3ZWFyV0NKeGJyenFyXzFFalFNLVdpSkxvbk84NVBQYnlQOU9yblNjMm10aHpjbW82aWozZ0gwdGRVNkk2bkk2dm14UWZMSjNIc3NCS1dIbHplN25EWXN4NHZyN3VoQQ?oc=5",
           "source": "Rigzone",
           "source_type": "rss",
-          "published_at": "2026-08-20T10:39:49+00:00",
+          "published_at": "2026-08-20T11:39:00+00:00",
           "confidence": 0.87
         }
       ],
@@ -393,17 +587,17 @@
       ],
       "earliest_seen": "2026-08-20T02:50:00+00:00",
       "latest_seen": "2026-08-20T02:50:00+00:00",
-      "age_hours": 8.06,
-      "score": 69.16,
+      "age_hours": 10.43,
+      "score": 57.74,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.16,
+        "recency_points": 18.74,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0d559324e8b85f80",
@@ -413,88 +607,6 @@
           "source_type": "rss",
           "published_at": "2026-08-20T02:50:00+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e1caa027f568fb",
-      "topic": "oil",
-      "lead_title": "Japan's exports surge on chips demand, imports hit record on oil costs",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVphUlpCMXl6dTdXYWJRMUhndXRlZkNfSEwxTEZRU3J3WGQ1Q201Ul93Y2d1d2pRVEU0NGRhdGh0eTR4M3Y0R3Z2N2dpTzZ2RzczYmdlbkR4eEN3Z0xUZXFGclpfYlBYbnE0aTNYaVpsemRZbjNUcUtkWWRiWmltMjFLSzBRRzdDRTZMaXNvZEk4VU0ydzd5X1JmS1hTZw?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T00:23:00+00:00",
-      "latest_seen": "2026-08-20T00:23:00+00:00",
-      "age_hours": 10.51,
-      "score": 67.69,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 18.69,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "600bad0ff06494f8",
-          "title": "Japan's exports surge on chips demand, imports hit record on oil costs",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVphUlpCMXl6dTdXYWJRMUhndXRlZkNfSEwxTEZRU3J3WGQ1Q201Ul93Y2d1d2pRVEU0NGRhdGh0eTR4M3Y0R3Z2N2dpTzZ2RzczYmdlbkR4eEN3Z0xUZXFGclpfYlBYbnE0aTNYaVpsemRZbjNUcUtkWWRiWmltMjFLSzBRRzdDRTZMaXNvZEk4VU0ydzd5X1JmS1hTZw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-20T00:23:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_c915e46bb87de5",
-      "topic": "oil",
-      "lead_title": "Oil prices rise as Trump sharpens Iran rhetoric amid talks impasse",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T08:33:57+00:00",
-      "latest_seen": "2026-08-20T08:33:57+00:00",
-      "age_hours": 2.33,
-      "score": 60.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.6,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "e9893ed6df950fd1",
-          "title": "Oil prices rise as Trump sharpens Iran rhetoric amid talks impasse",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-08-20T08:33:57+00:00",
-          "confidence": 0.93
         }
       ],
       "top_tier": false,
@@ -516,11 +628,11 @@
       ],
       "earliest_seen": "2026-08-20T04:00:28+00:00",
       "latest_seen": "2026-08-20T04:00:28+00:00",
-      "age_hours": 6.89,
-      "score": 58.97,
+      "age_hours": 9.25,
+      "score": 57.55,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.87,
+        "recency_points": 19.45,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -542,53 +654,13 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_5631193061adb8",
+      "cluster_id": "c_c0be335956a2f3",
       "topic": "oil",
-      "lead_title": "China boosts imports of Russian crude, stymieing India's refiners",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
-      "lead_source": "Reuters",
+      "lead_title": "US treasury bond surprise drives Gold and EUR/USD higher. Crude Oil elevated [Video]",
+      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRE5MeTZwVGluMW84WmtDbnBlSk1vQVI1MjJaSUJOekViWXlpaFBCNm9uazgtSTBYUEZpa3UxMFRCNGhqMkZhYk41bTF2emtZS3RidHBsU296MVJndlJOV0M0ZUExMzFjNzd1WG91bUZJczBUc2cxUjdZcUNZb1doUm9GbTRmb0NuRVJBRXNHU01SVG9TVkwzTld3aGZRcmZmVUVDNUlUcWl2bDJGV2JKVDllM2oyRjc4ZlgxZWxQR0dCb3p0NGpR?oc=5",
+      "lead_source": "FXStreet",
       "canonical_entities": [
-        "crude"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T01:50:55+00:00",
-      "latest_seen": "2026-08-20T01:50:55+00:00",
-      "age_hours": 9.05,
-      "score": 58.57,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.57,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "35666dcbdfcb5f84",
-          "title": "China boosts imports of Russian crude, stymieing India's refiners",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-20T01:50:55+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_65cb6fd322ba3c",
-      "topic": "oil",
-      "lead_title": "Oil hits 3-week high on Middle East supply concerns amid war impasse",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
+        "crude",
         "oil"
       ],
       "source_count": 1,
@@ -596,28 +668,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T01:11:00+00:00",
-      "latest_seen": "2026-08-20T01:11:00+00:00",
-      "age_hours": 9.71,
-      "score": 58.17,
+      "earliest_seen": "2026-08-20T10:15:07+00:00",
+      "latest_seen": "2026-08-20T10:15:07+00:00",
+      "age_hours": 3.01,
+      "score": 57.19,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.17,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
+        "recency_points": 23.19,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
         "materiality_points": 0.0
       },
       "novelty": "ongoing",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "22647a02bc3c5528",
-          "title": "Oil hits 3-week high on Middle East supply concerns amid war impasse",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
-          "source": "Reuters",
+          "headline_id": "678f376340376133",
+          "title": "US treasury bond surprise drives Gold and EUR/USD higher. Crude Oil elevated [Video]",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRE5MeTZwVGluMW84WmtDbnBlSk1vQVI1MjJaSUJOekViWXlpaFBCNm9uazgtSTBYUEZpa3UxMFRCNGhqMkZhYk41bTF2emtZS3RidHBsU296MVJndlJOV0M0ZUExMzFjNzd1WG91bUZJczBUc2cxUjdZcUNZb1doUm9GbTRmb0NuRVJBRXNHU01SVG9TVkwzTld3aGZRcmZmVUVDNUlUcWl2bDJGV2JKVDllM2oyRjc4ZlgxZWxQR0dCb3p0NGpR?oc=5",
+          "source": "FXStreet",
           "source_type": "rss",
-          "published_at": "2026-08-20T01:11:00+00:00",
-          "confidence": 1.0
+          "published_at": "2026-08-20T10:15:07+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": false,
@@ -639,11 +711,11 @@
       ],
       "earliest_seen": "2026-08-20T04:30:25+00:00",
       "latest_seen": "2026-08-20T04:30:25+00:00",
-      "age_hours": 6.39,
-      "score": 58.07,
+      "age_hours": 8.76,
+      "score": 56.65,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.17,
+        "recency_points": 19.75,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -665,39 +737,41 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_b1518afe9f1369",
+      "cluster_id": "c_e1caa027f568fb",
       "topic": "oil",
-      "lead_title": "Bonds Strengthen Further, Dollar Holds Near Lows After Treasury Intervention",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
+      "lead_title": "Japan's exports surge on chips demand, imports hit record on oil costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVphUlpCMXl6dTdXYWJRMUhndXRlZkNfSEwxTEZRU3J3WGQ1Q201Ul93Y2d1d2pRVEU0NGRhdGh0eTR4M3Y0R3Z2N2dpTzZ2RzczYmdlbkR4eEN3Z0xUZXFGclpfYlBYbnE0aTNYaVpsemRZbjNUcUtkWWRiWmltMjFLSzBRRzdDRTZMaXNvZEk4VU0ydzd5X1JmS1hTZw?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T08:44:00+00:00",
-      "latest_seen": "2026-08-20T08:44:00+00:00",
-      "age_hours": 2.16,
-      "score": 56.3,
+      "earliest_seen": "2026-08-20T00:23:00+00:00",
+      "latest_seen": "2026-08-20T00:23:00+00:00",
+      "age_hours": 12.88,
+      "score": 51.27,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.7,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 0.0
+        "recency_points": 17.27,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "7538f23d74f7f4a8",
-          "title": "Bonds Strengthen Further, Dollar Holds Near Lows After Treasury Intervention",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
-          "source": "WSJ",
+          "headline_id": "600bad0ff06494f8",
+          "title": "Japan's exports surge on chips demand, imports hit record on oil costs",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbVphUlpCMXl6dTdXYWJRMUhndXRlZkNfSEwxTEZRU3J3WGQ1Q201Ul93Y2d1d2pRVEU0NGRhdGh0eTR4M3Y0R3Z2N2dpTzZ2RzczYmdlbkR4eEN3Z0xUZXFGclpfYlBYbnE0aTNYaVpsemRZbjNUcUtkWWRiWmltMjFLSzBRRzdDRTZMaXNvZEk4VU0ydzd5X1JmS1hTZw?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-08-20T08:44:00+00:00",
-          "confidence": 0.92
+          "published_at": "2026-08-20T00:23:00+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -720,7 +794,7 @@
       ],
       "earliest_seen": "2026-08-12T15:07:00+00:00",
       "latest_seen": "2026-08-12T15:07:00+00:00",
-      "age_hours": 187.78,
+      "age_hours": 190.15,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -746,47 +820,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_aeadaf5ef718a2",
-      "topic": "oil",
-      "lead_title": "China's July oil throughput posts first month-on-month rise since Iran war",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOEF0djNfWVZQOXRXeThtZWlIcDRkQWpJWTNQWUs1dXQ2OWN0UUZURENHVG5iYXlCMWZFem9aVzQ4TVdab2JzaHVSN2E3aW83OXdEVTlyVnRWYjFCdnNHMXZScGFZUlU1MnZqYjBwVnRucUVhV1lEVTVLMjlGdzdNUmZTMnBiNmlnZzN1Z0xoRXFfUC1SWW5qb2l5Um9iVVdjTkdJTmVmeGF5WFNaRk8wTzlvWnMwcWlxZnlqZWg2cXJZcXc?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-17T11:54:35+00:00",
-      "latest_seen": "2026-08-17T11:54:35+00:00",
-      "age_hours": 70.99,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "a4fb886a3df5c07b",
-          "title": "China's July oil throughput posts first month-on-month rise since Iran war",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOEF0djNfWVZQOXRXeThtZWlIcDRkQWpJWTNQWUs1dXQ2OWN0UUZURENHVG5iYXlCMWZFem9aVzQ4TVdab2JzaHVSN2E3aW83OXdEVTlyVnRWYjFCdnNHMXZScGFZUlU1MnZqYjBwVnRucUVhV1lEVTVLMjlGdzdNUmZTMnBiNmlnZzN1Z0xoRXFfUC1SWW5qb2l5Um9iVVdjTkdJTmVmeGF5WFNaRk8wTzlvWnMwcWlxZnlqZWg2cXJZcXc?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-17T11:54:35+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_6f175f70e50fa3",
       "topic": "oil",
       "lead_title": "Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations",
@@ -802,7 +835,7 @@
       ],
       "earliest_seen": "2026-08-15T13:18:46+00:00",
       "latest_seen": "2026-08-15T13:18:46+00:00",
-      "age_hours": 117.58,
+      "age_hours": 119.95,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
