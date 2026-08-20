@@ -1,6 +1,6 @@
 {
   "topic": "heating",
-  "generated_at": "2026-08-20T13:15:43.429226+00:00",
+  "generated_at": "2026-08-20T14:06:03.641156+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -23,16 +23,16 @@
       ],
       "earliest_seen": "2026-08-20T01:26:00+00:00",
       "latest_seen": "2026-08-20T01:26:00+00:00",
-      "age_hours": 11.83,
-      "score": 46.4,
+      "age_hours": 12.67,
+      "score": 40.9,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.9,
+        "recency_points": 17.4,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -43,87 +43,6 @@
           "source_type": "rss",
           "published_at": "2026-08-20T01:26:00+00:00",
           "confidence": 0.65
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d47e9a73ab754b",
-      "topic": "heating",
-      "lead_title": "Chicago ULSD Platts vs. Heating Oil Spread Swap Sep '26 Futures Price History",
-      "lead_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYMjlNbElKWjF1M0pIQU9hQmE1SGtzOGZwLW5CQjRTMXdiejJVdkx2UkZSWmh3dGJ1UHRpbHZOcVhtVl93c0tsemFkSEp2T1owbFZPUkdyM3otS29FRFVtTzZHTmRUc1pXQ1NNOVpvZndSZk1STnNUUGNTWQ?oc=5",
-      "lead_source": "Barchart.com",
-      "canonical_entities": [
-        "ULSD",
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-07T07:00:00+00:00",
-      "latest_seen": "2026-08-07T07:00:00+00:00",
-      "age_hours": 318.26,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "d597bd17011510d0",
-          "title": "Chicago ULSD Platts vs. Heating Oil Spread Swap Sep '26 Futures Price History",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYMjlNbElKWjF1M0pIQU9hQmE1SGtzOGZwLW5CQjRTMXdiejJVdkx2UkZSWmh3dGJ1UHRpbHZOcVhtVl93c0tsemFkSEp2T1owbFZPUkdyM3otS29FRFVtTzZHTmRUc1pXQ1NNOVpvZndSZk1STnNUUGNTWQ?oc=5",
-          "source": "Barchart.com",
-          "source_type": "rss",
-          "published_at": "2026-08-07T07:00:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_35815a8487aec9",
-      "topic": "heating",
-      "lead_title": "Fuel markets flash supply crunch despite calmer oil prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-07-09T07:00:00+00:00",
-      "latest_seen": "2026-07-09T07:00:00+00:00",
-      "age_hours": 1014.26,
-      "score": 43.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "5e017dfca57da4c0",
-          "title": "Fuel markets flash supply crunch despite calmer oil prices",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "confidence": 0.95
         }
       ],
       "top_tier": true,
@@ -145,11 +64,11 @@
       ],
       "earliest_seen": "2026-08-19T14:30:00+00:00",
       "latest_seen": "2026-08-19T14:32:27+00:00",
-      "age_hours": 22.72,
-      "score": 39.87,
+      "age_hours": 23.56,
+      "score": 39.36,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 11.37,
+        "recency_points": 10.86,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -176,7 +95,7 @@
           "confidence": 0.65
         }
       ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
@@ -195,11 +114,11 @@
       ],
       "earliest_seen": "2026-08-19T22:08:24+00:00",
       "latest_seen": "2026-08-19T22:08:24+00:00",
-      "age_hours": 15.12,
-      "score": 39.43,
+      "age_hours": 15.96,
+      "score": 38.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.93,
+        "recency_points": 15.42,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -217,89 +136,7 @@
           "confidence": 0.65
         }
       ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6fcdd20ce27ffb",
-      "topic": "heating",
-      "lead_title": "Heating Oil Hits 18-week High",
-      "lead_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ19wWnliajRpX2hqX09mbTVUWEJNcGRlbkdDM01DQjlkZ3d2a2JLMVUwa3A4R3phY253c1VxejhEYmtqOW9kSXZyNWJJTEdjWTZGbDB1Y29BQkhpMHZIOFJDVG9raWZienZXVGMxOWVrLWEzNmhlY3BjZGF6WmJXSV83aWVXNVU?oc=5",
-      "lead_source": "TradingView",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-17T14:46:41+00:00",
-      "latest_seen": "2026-08-17T14:46:41+00:00",
-      "age_hours": 70.48,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "0a4babdd2b43c819",
-          "title": "Heating Oil Hits 18-week High",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ19wWnliajRpX2hqX09mbTVUWEJNcGRlbkdDM01DQjlkZ3d2a2JLMVUwa3A4R3phY253c1VxejhEYmtqOW9kSXZyNWJJTEdjWTZGbDB1Y29BQkhpMHZIOFJDVG9raWZienZXVGMxOWVrLWEzNmhlY3BjZGF6WmJXSV83aWVXNVU?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-08-17T14:46:41+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6dbe08955baff4",
-      "topic": "heating",
-      "lead_title": "30-Square-Foot Heating Oil Spill in Basement",
-      "lead_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiS3JFUm5UeGt6TWJlcjRKbkhINUc5SE9LcVN4V1dGd2Rwb1ZzMktDd1NCOU9Hemo4cEhXVEVaOU9xTlBMN2w5Q3pPS0NGLWZyRWc?oc=5",
-      "lead_source": "Citizen app",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-15T21:50:41+00:00",
-      "latest_seen": "2026-08-15T21:50:41+00:00",
-      "age_hours": 111.42,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "51884f9c3d2a926a",
-          "title": "30-Square-Foot Heating Oil Spill in Basement",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiS3JFUm5UeGt6TWJlcjRKbkhINUc5SE9LcVN4V1dGd2Rwb1ZzMktDd1NCOU9Hemo4cEhXVEVaOU9xTlBMN2w5Q3pPS0NGLWZyRWc?oc=5",
-          "source": "Citizen app",
-          "source_type": "rss",
-          "published_at": "2026-08-15T21:50:41+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
+      "top_tier": true,
       "low_priority": false
     },
     {
@@ -316,11 +153,11 @@
       ],
       "earliest_seen": "2026-08-19T11:53:36+00:00",
       "latest_seen": "2026-08-19T11:53:36+00:00",
-      "age_hours": 25.37,
-      "score": 38.28,
+      "age_hours": 26.21,
+      "score": 37.78,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.78,
+        "recency_points": 9.28,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -357,11 +194,11 @@
       ],
       "earliest_seen": "2026-08-19T19:40:12+00:00",
       "latest_seen": "2026-08-19T19:40:12+00:00",
-      "age_hours": 17.59,
-      "score": 37.94,
+      "age_hours": 18.43,
+      "score": 37.44,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.44,
+        "recency_points": 13.94,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -398,7 +235,7 @@
       ],
       "earliest_seen": "2026-08-17T19:13:43+00:00",
       "latest_seen": "2026-08-17T19:13:43+00:00",
-      "age_hours": 66.03,
+      "age_hours": 66.87,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -439,7 +276,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 3774.26,
+      "age_hours": 3775.1,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -480,7 +317,7 @@
       ],
       "earliest_seen": "2026-08-18T08:17:00+00:00",
       "latest_seen": "2026-08-18T08:17:00+00:00",
-      "age_hours": 52.98,
+      "age_hours": 53.82,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -521,7 +358,7 @@
       ],
       "earliest_seen": "2026-08-04T07:00:00+00:00",
       "latest_seen": "2026-08-04T07:00:00+00:00",
-      "age_hours": 390.26,
+      "age_hours": 391.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -562,7 +399,7 @@
       ],
       "earliest_seen": "2026-07-15T07:00:00+00:00",
       "latest_seen": "2026-07-15T07:00:00+00:00",
-      "age_hours": 870.26,
+      "age_hours": 871.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -603,7 +440,7 @@
       ],
       "earliest_seen": "2026-04-29T07:00:00+00:00",
       "latest_seen": "2026-04-29T07:00:00+00:00",
-      "age_hours": 2718.26,
+      "age_hours": 2719.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -644,7 +481,7 @@
       ],
       "earliest_seen": "2026-03-14T07:00:00+00:00",
       "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 3822.26,
+      "age_hours": 3823.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -685,7 +522,7 @@
       ],
       "earliest_seen": "2026-03-12T07:00:00+00:00",
       "latest_seen": "2026-03-12T07:00:00+00:00",
-      "age_hours": 3870.26,
+      "age_hours": 3871.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -726,7 +563,7 @@
       ],
       "earliest_seen": "2026-03-11T07:00:00+00:00",
       "latest_seen": "2026-03-11T07:00:00+00:00",
-      "age_hours": 3894.26,
+      "age_hours": 3895.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -767,7 +604,7 @@
       ],
       "earliest_seen": "2026-03-10T07:00:00+00:00",
       "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 3918.26,
+      "age_hours": 3919.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -808,7 +645,7 @@
       ],
       "earliest_seen": "2026-03-07T08:00:00+00:00",
       "latest_seen": "2026-03-07T08:00:00+00:00",
-      "age_hours": 3989.26,
+      "age_hours": 3990.1,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -849,7 +686,7 @@
       ],
       "earliest_seen": "2026-07-15T07:00:00+00:00",
       "latest_seen": "2026-07-15T07:00:00+00:00",
-      "age_hours": 870.26,
+      "age_hours": 871.1,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -875,6 +712,48 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_d47e9a73ab754b",
+      "topic": "heating",
+      "lead_title": "Chicago ULSD Platts vs. Heating Oil Spread Swap Sep '26 Futures Price History",
+      "lead_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYMjlNbElKWjF1M0pIQU9hQmE1SGtzOGZwLW5CQjRTMXdiejJVdkx2UkZSWmh3dGJ1UHRpbHZOcVhtVl93c0tsemFkSEp2T1owbFZPUkdyM3otS29FRFVtTzZHTmRUc1pXQ1NNOVpvZndSZk1STnNUUGNTWQ?oc=5",
+      "lead_source": "Barchart.com",
+      "canonical_entities": [
+        "ULSD",
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-07T07:00:00+00:00",
+      "latest_seen": "2026-08-07T07:00:00+00:00",
+      "age_hours": 319.1,
+      "score": 29.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "d597bd17011510d0",
+          "title": "Chicago ULSD Platts vs. Heating Oil Spread Swap Sep '26 Futures Price History",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYMjlNbElKWjF1M0pIQU9hQmE1SGtzOGZwLW5CQjRTMXdiejJVdkx2UkZSWmh3dGJ1UHRpbHZOcVhtVl93c0tsemFkSEp2T1owbFZPUkdyM3otS29FRFVtTzZHTmRUc1pXQ1NNOVpvZndSZk1STnNUUGNTWQ?oc=5",
+          "source": "Barchart.com",
+          "source_type": "rss",
+          "published_at": "2026-08-07T07:00:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_11afe2dbdd8a6d",
       "topic": "heating",
       "lead_title": "ASTM approves updated heating oil specification to include biodiesel blends up to B50",
@@ -891,7 +770,7 @@
       ],
       "earliest_seen": "2026-04-22T07:00:00+00:00",
       "latest_seen": "2026-04-22T07:00:00+00:00",
-      "age_hours": 2886.26,
+      "age_hours": 2887.1,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -933,7 +812,7 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 3582.26,
+      "age_hours": 3583.1,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -972,7 +851,7 @@
       ],
       "earliest_seen": "2026-07-23T07:00:00+00:00",
       "latest_seen": "2026-07-23T07:00:00+00:00",
-      "age_hours": 678.26,
+      "age_hours": 679.1,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -998,6 +877,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_35815a8487aec9",
+      "topic": "heating",
+      "lead_title": "Fuel markets flash supply crunch despite calmer oil prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-07-09T07:00:00+00:00",
+      "latest_seen": "2026-07-09T07:00:00+00:00",
+      "age_hours": 1015.1,
+      "score": 28.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "5e017dfca57da4c0",
+          "title": "Fuel markets flash supply crunch despite calmer oil prices",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-07-09T07:00:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_a25b17c25dea26",
       "topic": "heating",
       "lead_title": "Heating Oil Extends Advance",
@@ -1013,11 +931,11 @@
       ],
       "earliest_seen": "2026-08-19T01:43:00+00:00",
       "latest_seen": "2026-08-19T01:43:00+00:00",
-      "age_hours": 35.55,
-      "score": 27.17,
+      "age_hours": 36.38,
+      "score": 26.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.67,
+        "recency_points": 3.17,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -1052,7 +970,7 @@
       ],
       "earliest_seen": "2026-08-05T07:00:00+00:00",
       "latest_seen": "2026-08-05T07:00:00+00:00",
-      "age_hours": 366.26,
+      "age_hours": 367.1,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1091,7 +1009,7 @@
       ],
       "earliest_seen": "2026-06-16T07:00:00+00:00",
       "latest_seen": "2026-06-16T07:00:00+00:00",
-      "age_hours": 1566.26,
+      "age_hours": 1567.1,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -1132,7 +1050,7 @@
       ],
       "earliest_seen": "2026-08-18T18:28:26+00:00",
       "latest_seen": "2026-08-18T18:28:26+00:00",
-      "age_hours": 42.79,
+      "age_hours": 43.63,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1173,7 +1091,7 @@
       ],
       "earliest_seen": "2026-08-18T17:00:00+00:00",
       "latest_seen": "2026-08-18T17:00:00+00:00",
-      "age_hours": 44.26,
+      "age_hours": 45.1,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1192,6 +1110,88 @@
           "source": "Crude Oil Prices Today | OilPrice.com",
           "source_type": "rss",
           "published_at": "2026-08-18T17:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6fcdd20ce27ffb",
+      "topic": "heating",
+      "lead_title": "Heating Oil Hits 18-week High",
+      "lead_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ19wWnliajRpX2hqX09mbTVUWEJNcGRlbkdDM01DQjlkZ3d2a2JLMVUwa3A4R3phY253c1VxejhEYmtqOW9kSXZyNWJJTEdjWTZGbDB1Y29BQkhpMHZIOFJDVG9raWZienZXVGMxOWVrLWEzNmhlY3BjZGF6WmJXSV83aWVXNVU?oc=5",
+      "lead_source": "TradingView",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-17T14:46:41+00:00",
+      "latest_seen": "2026-08-17T14:46:41+00:00",
+      "age_hours": 71.32,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "0a4babdd2b43c819",
+          "title": "Heating Oil Hits 18-week High",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ19wWnliajRpX2hqX09mbTVUWEJNcGRlbkdDM01DQjlkZ3d2a2JLMVUwa3A4R3phY253c1VxejhEYmtqOW9kSXZyNWJJTEdjWTZGbDB1Y29BQkhpMHZIOFJDVG9raWZienZXVGMxOWVrLWEzNmhlY3BjZGF6WmJXSV83aWVXNVU?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-08-17T14:46:41+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6dbe08955baff4",
+      "topic": "heating",
+      "lead_title": "30-Square-Foot Heating Oil Spill in Basement",
+      "lead_url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiS3JFUm5UeGt6TWJlcjRKbkhINUc5SE9LcVN4V1dGd2Rwb1ZzMktDd1NCOU9Hemo4cEhXVEVaOU9xTlBMN2w5Q3pPS0NGLWZyRWc?oc=5",
+      "lead_source": "Citizen app",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-15T21:50:41+00:00",
+      "latest_seen": "2026-08-15T21:50:41+00:00",
+      "age_hours": 112.26,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "51884f9c3d2a926a",
+          "title": "30-Square-Foot Heating Oil Spill in Basement",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBiS3JFUm5UeGt6TWJlcjRKbkhINUc5SE9LcVN4V1dGd2Rwb1ZzMktDd1NCOU9Hemo4cEhXVEVaOU9xTlBMN2w5Q3pPS0NGLWZyRWc?oc=5",
+          "source": "Citizen app",
+          "source_type": "rss",
+          "published_at": "2026-08-15T21:50:41+00:00",
           "confidence": 0.65
         }
       ],
