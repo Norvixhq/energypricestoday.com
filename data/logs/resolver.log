@@ -1639,3 +1639,17 @@
 [2026-08-20T14:59:30.664142+00:00] resolver: no state changes
 [2026-08-20T14:59:30.664739+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-20T14:59:30.664780+00:00] ════════════════════════════════════════════════════════════
+[2026-08-20T15:43:39.304310+00:00] resolver: start
+[2026-08-20T15:43:39.308542+00:00] resolver: scanning 264 clusters across 10 topics
+[2026-08-20T15:43:39.308923+00:00]   hormuz_status: OPEN (conf=0.835, freshness=fresh, clusters=5)
+[2026-08-20T15:43:39.309882+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=4)
+[2026-08-20T15:43:39.309986+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-20T15:43:39.310025+00:00]   global_risk_level: LOW (score=10)
+[2026-08-20T15:43:39.310199+00:00]   top_story: 'U.S. Crude Oil Stockpiles Post Weekly Increase' (score=86.87)
+[2026-08-20T15:43:39.310256+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-08-20T15:43:39.310283+00:00]   Δ hormuz_status.status: 'CLOSED' → 'OPEN' (triggers_publish=True)
+[2026-08-20T15:43:39.310331+00:00]   Δ hormuz_status.risk_level: 'HIGH' → 'LOW' (triggers_publish=True)
+[2026-08-20T15:43:39.310357+00:00]   Δ global_risk_level.status: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-08-20T15:43:39.310380+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-08-20T15:43:39.310962+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-20T15:43:39.311003+00:00] ════════════════════════════════════════════════════════════

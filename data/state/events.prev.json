@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-20T14:06:03.719278+00:00",
-  "previous_generated_at": "2026-08-20T13:15:43.505738+00:00",
-  "resolver_run_count": 148,
+  "generated_at": "2026-08-20T14:59:30.664169+00:00",
+  "previous_generated_at": "2026-08-20T14:06:03.719278+00:00",
+  "resolver_run_count": 149,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,18 +12,19 @@
       "status_detail": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
       "status_tag": "Strait closed",
       "risk_level": "HIGH",
-      "confidence": 0.955,
+      "confidence": 0.954,
       "last_confirmed": "2026-08-20T12:19:47+00:00",
-      "source_count": 5,
+      "source_count": 6,
       "summary_short": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
-      "summary_long": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure. Chinese Refiners Snap Up Iraqi Oil as More Supplies Exit Hormuz",
+      "summary_long": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure. Oil News: Hormuz Flows Stay Low as WTI and Brent Hit Three-Week High",
       "evidence_cluster_ids": [
         "c_3692fe1a24e15c",
+        "c_6df51898e68956",
         "c_7a5ad2da9ec135",
-        "c_8d5cd207eb9e5b",
-        "c_6614680a2d402d"
+        "c_6614680a2d402d",
+        "c_e614537ae71137"
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,8 +41,8 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_3692fe1a24 → CLOSED (kw='closure', weight=0.58) [OPEN suppressed]",
-        "winning=CLOSED (0.58/0.58), conf=0.955"
+        "cluster c_3692fe1a24 → CLOSED (kw='closure', weight=0.57) [OPEN suppressed]",
+        "winning=CLOSED (0.57/0.57), conf=0.954"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,17 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-20T12:35:25+00:00",
-      "source_count": 5,
-      "summary_short": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
-      "summary_long": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure. The Iran war energy crisis is just getting started",
+      "last_confirmed": "2026-08-20T14:04:00+00:00",
+      "source_count": 8,
+      "summary_short": "Oil hits over 3-week high on Middle East supply concerns amid war impasse",
+      "summary_long": "Oil hits over 3-week high on Middle East supply concerns amid war impasse. US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
       "evidence_cluster_ids": [
+        "c_f6e8ff4a3c5317",
         "c_3692fe1a24e15c",
         "c_f582f516af4f9a",
         "c_0f165512cc6a0e",
-        "c_30c7afabf198ff"
+        "c_3ae23f400c9a8b"
       ],
-      "evidence_count": 4,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -148,14 +150,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_068700ccb472cd",
+      "cluster_id": "c_6f5ac0aa978b6c",
       "lead_title": "U.S. Crude Oil Stockpiles Post Weekly Increase",
       "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
       "lead_source": "WSJ",
       "topic": "oil",
-      "score": 94.75,
+      "score": 93.18,
       "novelty": "new",
-      "source_count": 8,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.955, fresh=fresh",
+    "hormuz_status: resolved=CLOSED, confidence=0.954, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

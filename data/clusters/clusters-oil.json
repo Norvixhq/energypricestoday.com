@@ -1,11 +1,11 @@
 {
   "topic": "oil",
-  "generated_at": "2026-08-20T14:59:30.564839+00:00",
+  "generated_at": "2026-08-20T15:43:39.211788+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 20,
+  "clusters_found": 17,
   "clusters": [
     {
       "cluster_id": "c_6f5ac0aa978b6c",
@@ -18,24 +18,24 @@
         "crude",
         "oil"
       ],
-      "source_count": 5,
+      "source_count": 6,
       "distinct_publishers": 5,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-08-18T10:09:44+00:00",
       "latest_seen": "2026-08-20T14:55:29+00:00",
-      "age_hours": 0.07,
-      "score": 93.18,
+      "age_hours": 0.8,
+      "score": 86.87,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 24.96,
-        "source_quality_points": 26.22,
+        "recency_points": 24.52,
+        "source_quality_points": 25.35,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "30a8f0b9ce9c7bdc",
@@ -74,12 +74,142 @@
           "confidence": 0.75
         },
         {
+          "headline_id": "8f724bc24d1b6bc0",
+          "title": "U.S. Stocks Moving Back To The Downside As Crude Oil Surges",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPemFFeVNXbnVJekhaVkxvVTRoRnVmZm1aYlpWbVZSdTVVZVd3c1Q0NnEyNHlyVXVkY3owUEpjeVFBMVVwRGE5cFlmZEJ5MERLU19EMlJfSnJ5YXJKV3FGdWIzYy1BV1ZyX1ZIRlhOLUo3VFV1MXRkWXBVcmN6QkpLZzZJZGxqNUhwS2diUlNTNkRNdXZzUUZVLWtvZGwwMmxZbVpSLWlB?oc=5",
+          "source": "RTTNews",
+          "source_type": "rss",
+          "published_at": "2026-08-20T14:53:00+00:00",
+          "confidence": 0.7
+        },
+        {
           "headline_id": "b16bc838c4cc0f21",
           "title": "U.S. Stocks May Come Under Pressure As Crude Oil Prices Spike",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3phbkh1c0IzaXgwN211ajZKaksyRHduNHNlZUNlYWZfRXNULXJxM2UzN21VVmZVS0dxUFdfVXlnUThDTjB2b3JTUU5tOFd3QXV3b1VrQkhCWTVyMEE4RDI0OVN3UFppeERaT3JxSE9QRkJhakNSLUVGa1R0R0xMTzVLWjZOMXdWZUdVZXNKWUtIejZHZmVNVmpCMkxaZw?oc=5",
           "source": "RTTNews",
           "source_type": "rss",
           "published_at": "2026-08-20T12:55:00+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6ff33442968457",
+      "topic": "oil",
+      "lead_title": "Crude Oil Price Analysis – WTI Tests $90 Resistance as 50 EMA Holds Support",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOG1HWDNLRm1UXzVCaFJFZ1JZZEplY0Y5bmJPc2FKS0VNNFVOckZ1Y19UNngyR3Z3WmNCcGhXS3dIUjlVTG9HVFpmWDdJcGJBRDBHMTVBX1YwTHhxRE9tWFNCNXF4YkJIbHVzWU16OE0xR1ZXbm9QT1lsWk80cTdkZXlnbFVHZVM4ZkY0X3BXYmYzQWJhdHNKNHg2NnZwRndCaW1yaTg0X2UzV3dVVWxacko4R2hKeFZFbnlHLVBHU2w?oc=5",
+      "lead_source": "FXEmpire",
+      "canonical_entities": [
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-20T07:16:11+00:00",
+      "latest_seen": "2026-08-20T15:04:00+00:00",
+      "age_hours": 0.66,
+      "score": 84.1,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 24.6,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "c81a75e3eaac675e",
+          "title": "Crude Oil Price Analysis – WTI Tests $90 Resistance as 50 EMA Holds Support",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOG1HWDNLRm1UXzVCaFJFZ1JZZEplY0Y5bmJPc2FKS0VNNFVOckZ1Y19UNngyR3Z3WmNCcGhXS3dIUjlVTG9HVFpmWDdJcGJBRDBHMTVBX1YwTHhxRE9tWFNCNXF4YkJIbHVzWU16OE0xR1ZXbm9QT1lsWk80cTdkZXlnbFVHZVM4ZkY0X3BXYmYzQWJhdHNKNHg2NnZwRndCaW1yaTg0X2UzV3dVVWxacko4R2hKeFZFbnlHLVBHU2w?oc=5",
+          "source": "FXEmpire",
+          "source_type": "rss",
+          "published_at": "2026-08-20T15:04:00+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "f154f6ee9e76e929",
+          "title": "Crude oil forecast: WTI extends rally amid US-Iran tensions",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFV1dUJrUzhHc0NYVWpCaC1xZWtUSEYzMjdLV2NSVWp6RVFpSVhSXzBrRUM0Sy1wOXctS184WE5kMHNQWjdvVEE3ejlFUjN1YWlzZGFvSXNLUnByTE1oR2plaTJtcVd5cUlkeGxwZVZUaDcxXy1DTE9jazh1dTh1TVVsajZJbGh2WVBqeUQta3BNWTFMZldnT2RDWDVNR0lKSzlORnNIY04?oc=5",
+          "source": "FOREX.com",
+          "source_type": "rss",
+          "published_at": "2026-08-20T13:03:31+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "9904e053afc22f8a",
+          "title": "Oil Technical Analysis: Is WTI Crude Oil Targeting the $90 Level?",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUHhpTnhUakIycHdjcDdGNWdnYTY0X3J3TE43WFBVcGNBTVAtdXpibGxpNjY3amFKc1YwTFY0ekx6S3pBWDBUb0F2OW5QZFFaWnk5UE9STUJpY2Yyc0hKYlJaVzgxX1dESWdoVDJWemZzUmtmMUlQZXlubjdxaklscER0QzdqMnRESjRGS0d0NU9JNUZRTURzNGpoRnlGZG9nY2h0VjVYd0QxSUk?oc=5",
+          "source": "Investing.com",
+          "source_type": "rss",
+          "published_at": "2026-08-20T07:16:11+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_dae7e293ef36dc",
+      "topic": "oil",
+      "lead_title": "Crude Oil Prices Jump as Hopes Dim of Reopening the Strait of Hormuz",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVI4Zk12RlFRNUtEbDV4VEJ1ay1hR2hqNGtVekV6b1AyTFhaaERScmdweWo3QXlWcUVVV25fMVA5dHA1TktFeHJTWWtzeDJDTjN5N1YxRUF0RzdzUGxBUGpuY0dPdTY2QkxTRTZLa2xrNW5aR3FSa2Z6T0otVkJKZzRhQzJsS1ZoS0FZSjdVTGk1clM3Ui1DN205NlZEemxmSUdtLURpS0VpT0tuTXd3aXln?oc=5",
+      "lead_source": "Barchart.com",
+      "canonical_entities": [
+        "crude",
+        "oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-20T14:08:40+00:00",
+      "latest_seen": "2026-08-20T15:33:56+00:00",
+      "age_hours": 0.16,
+      "score": 78.9,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 24.9,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "ab96932ebf431831",
+          "title": "Crude Oil Prices Jump as Hopes Dim of Reopening the Strait of Hormuz",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVI4Zk12RlFRNUtEbDV4VEJ1ay1hR2hqNGtVekV6b1AyTFhaaERScmdweWo3QXlWcUVVV25fMVA5dHA1TktFeHJTWWtzeDJDTjN5N1YxRUF0RzdzUGxBUGpuY0dPdTY2QkxTRTZLa2xrNW5aR3FSa2Z6T0otVkJKZzRhQzJsS1ZoS0FZSjdVTGk1clM3Ui1DN205NlZEemxmSUdtLURpS0VpT0tuTXd3aXln?oc=5",
+          "source": "Barchart.com",
+          "source_type": "rss",
+          "published_at": "2026-08-20T15:33:56+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "ce399cbf1c9e2b18",
+          "title": "High Crude Oil Prices Push Up National Average",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNFlNWDN3cXctbVBXaWowVXI3d0hMVC1VQnREQXdoT3hYVDd6Nk8xajhFYjFhSkp2Y0dWREY4czJrWEI2N1BkTkFmVy1uSllqd0drbDBmWmprYmZRckM1dENUZ3dJbGtDNzBhbjB5czk1eG00LWphVWExc3BBREkya3dQaWNvcnM?oc=5",
+          "source": "AAA Newsroom",
+          "source_type": "rss",
+          "published_at": "2026-08-20T15:02:04+00:00",
+          "confidence": 0.7
+        },
+        {
+          "headline_id": "047dc55616bbf3aa",
+          "title": "Global Markets: Economic warfare threat pushes up crude oil",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTkROVGlObjM5MHNnc1pNSno1LXhzdVdjWWluUU9yemJYZl8tSDltN1Rudi1CU0VjVE8tdEZ2WEMyMndwS1pIazhSMjQ3NHZDLTBIR09CZWhrV3ktbTFXcVZvYnpWTmd4OVJWUWI0ZFZiWFdpaWhYRlBRdmZLbEhFUU8wMW9QcnB0aGlaZWI0VGZLOU0yYnMtSzZmX0NQT2U2R2dMTjVHX0Zzdw?oc=5",
+          "source": "Canadian Cattlemen",
+          "source_type": "rss",
+          "published_at": "2026-08-20T14:08:40+00:00",
           "confidence": 0.7
         }
       ],
@@ -98,24 +228,24 @@
         "crude",
         "oil"
       ],
-      "source_count": 6,
-      "distinct_publishers": 5,
+      "source_count": 5,
+      "distinct_publishers": 4,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-08-18T07:00:00+00:00",
-      "latest_seen": "2026-08-20T10:59:00+00:00",
-      "age_hours": 4.01,
-      "score": 91.09,
+      "latest_seen": "2026-08-20T04:29:26+00:00",
+      "age_hours": 11.24,
+      "score": 77.06,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 22.59,
-        "source_quality_points": 22.5,
+        "recency_points": 18.26,
+        "source_quality_points": 22.8,
         "entity_relevance_points": 16,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "4de97ec3f60c2218",
@@ -161,70 +291,50 @@
           "source_type": "rss",
           "published_at": "2026-08-19T02:44:24+00:00",
           "confidence": 0.75
-        },
-        {
-          "headline_id": "51121c8f693e2b47",
-          "title": "Forecast update for crude oil – 20-08-2026",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPa2k1NkdfUUJjZzdLUkdxU0ZpcnFXM09KdklYRDQwTnB6bTBKelVjendDd1lMZG5KbTJGY0Yyam04M1NKT2JvRTVGS1V4SGgtTFZTc0lfTmY0RlU5WE1Ec292VndjWFNTcFNYNk9qTHRQMVhNODhKcWt5c1otSDMwOEU1ZFRZS1AwWFhScVhlVUh5NXAzVXdfMmFwOXBDT3pyRmNHTlFBa1pnN05i?oc=5",
-          "source": "Economies.com",
-          "source_type": "rss",
-          "published_at": "2026-08-20T10:59:00+00:00",
-          "confidence": 0.7
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_de162d947c6b2e",
+      "cluster_id": "c_c36d2c30060090",
       "topic": "oil",
-      "lead_title": "Crude oil forecast: WTI extends rally amid US-Iran tensions",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFV1dUJrUzhHc0NYVWpCaC1xZWtUSEYzMjdLV2NSVWp6RVFpSVhSXzBrRUM0Sy1wOXctS184WE5kMHNQWjdvVEE3ejlFUjN1YWlzZGFvSXNLUnByTE1oR2plaTJtcVd5cUlkeGxwZVZUaDcxXy1DTE9jazh1dTh1TVVsajZJbGh2WVBqeUQta3BNWTFMZldnT2RDWDVNR0lKSzlORnNIY04?oc=5",
-      "lead_source": "FOREX.com",
+      "lead_title": "Oil prices rise 2% as Trump sharpens Iran rhetoric amid diplomatic impasse",
+      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
-        "WTI",
-        "crude",
         "oil"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T07:16:11+00:00",
-      "latest_seen": "2026-08-20T13:03:31+00:00",
-      "age_hours": 1.93,
-      "score": 78.34,
+      "earliest_seen": "2026-08-20T08:33:57+00:00",
+      "latest_seen": "2026-08-20T08:33:57+00:00",
+      "age_hours": 7.16,
+      "score": 67.6,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 23.84,
-        "source_quality_points": 22.5,
-        "entity_relevance_points": 12,
+        "source_count_points": 5,
+        "recency_points": 20.7,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "f154f6ee9e76e929",
-          "title": "Crude oil forecast: WTI extends rally amid US-Iran tensions",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcFV1dUJrUzhHc0NYVWpCaC1xZWtUSEYzMjdLV2NSVWp6RVFpSVhSXzBrRUM0Sy1wOXctS184WE5kMHNQWjdvVEE3ejlFUjN1YWlzZGFvSXNLUnByTE1oR2plaTJtcVd5cUlkeGxwZVZUaDcxXy1DTE9jazh1dTh1TVVsajZJbGh2WVBqeUQta3BNWTFMZldnT2RDWDVNR0lKSzlORnNIY04?oc=5",
-          "source": "FOREX.com",
+          "headline_id": "2cf07a88449b3b9b",
+          "title": "Oil prices rise 2% as Trump sharpens Iran rhetoric amid diplomatic impasse",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
+          "source": "CNBC",
           "source_type": "rss",
-          "published_at": "2026-08-20T13:03:31+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "9904e053afc22f8a",
-          "title": "Oil Technical Analysis: Is WTI Crude Oil Targeting the $90 Level?",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUHhpTnhUakIycHdjcDdGNWdnYTY0X3J3TE43WFBVcGNBTVAtdXpibGxpNjY3amFKc1YwTFY0ekx6S3pBWDBUb0F2OW5QZFFaWnk5UE9STUJpY2Yyc0hKYlJaVzgxX1dESWdoVDJWemZzUmtmMUlQZXlubjdxaklscER0QzdqMnRESjRGS0d0NU9JNUZRTURzNGpoRnlGZG9nY2h0VjVYd0QxSUk?oc=5",
-          "source": "Investing.com",
-          "source_type": "rss",
-          "published_at": "2026-08-20T07:16:11+00:00",
-          "confidence": 0.75
+          "published_at": "2026-08-20T08:33:57+00:00",
+          "confidence": 0.93
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -243,17 +353,17 @@
       ],
       "earliest_seen": "2026-08-20T14:29:44+00:00",
       "latest_seen": "2026-08-20T14:29:44+00:00",
-      "age_hours": 0.5,
-      "score": 72.8,
+      "age_hours": 1.23,
+      "score": 62.36,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.7,
+        "recency_points": 24.26,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "f1bf0fdebfeb4132",
@@ -263,128 +373,6 @@
           "source_type": "rss",
           "published_at": "2026-08-20T14:29:44+00:00",
           "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1eb756c2bb0906",
-      "topic": "oil",
-      "lead_title": "Stocks Move Lower Amid Disappointing Retail Earnings",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T14:00:00+00:00",
-      "latest_seen": "2026-08-20T14:00:00+00:00",
-      "age_hours": 0.99,
-      "score": 67.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.4,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "06177f6688dd70f8",
-          "title": "Stocks Move Lower Amid Disappointing Retail Earnings",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-08-20T14:00:00+00:00",
-          "confidence": 0.92
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e67e73872ecd8a",
-      "topic": "oil",
-      "lead_title": "Orlen-Equinor Crude Oil Agreement: 3-Year Deal for Johan Sverdrup Oil - News and Statistics",
-      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTWh4UkJReFE2REVJTlpJN0pvc0RObGU4d0EtUGQ1a2JETV9XQlZodEktd1BVZUJ2MjhTSHkwMS1xVHBfTGg4OEE4RjBYR3pxWDF5Ynp4VVkxVFg4NWNSb0k4T0ltRTdMckEwMWVyb3hxZjRNUm5aY213TUNTaU8zSFJxam9ub3hCd2xpSThjbE5CSmM?oc=5",
-      "lead_source": "IndexBox",
-      "canonical_entities": [
-        "crude",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T10:22:00+00:00",
-      "latest_seen": "2026-08-20T10:22:00+00:00",
-      "age_hours": 4.63,
-      "score": 66.22,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.22,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "73ca15f08613fbb7",
-          "title": "Orlen-Equinor Crude Oil Agreement: 3-Year Deal for Johan Sverdrup Oil - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTWh4UkJReFE2REVJTlpJN0pvc0RObGU4d0EtUGQ1a2JETV9XQlZodEktd1BVZUJ2MjhTSHkwMS1xVHBfTGg4OEE4RjBYR3pxWDF5Ynp4VVkxVFg4NWNSb0k4T0ltRTdMckEwMWVyb3hxZjRNUm5aY213TUNTaU8zSFJxam9ub3hCd2xpSThjbE5CSmM?oc=5",
-          "source": "IndexBox",
-          "source_type": "rss",
-          "published_at": "2026-08-20T10:22:00+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5631193061adb8",
-      "topic": "oil",
-      "lead_title": "China boosts imports of Russian crude, stymieing India's refiners",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "crude"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T13:20:02+00:00",
-      "latest_seen": "2026-08-20T13:20:02+00:00",
-      "age_hours": 1.66,
-      "score": 63.01,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.01,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "35666dcbdfcb5f84",
-          "title": "China boosts imports of Russian crude, stymieing India's refiners",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-20T13:20:02+00:00",
-          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -406,11 +394,11 @@
       ],
       "earliest_seen": "2026-08-20T09:43:05+00:00",
       "latest_seen": "2026-08-20T09:43:05+00:00",
-      "age_hours": 5.27,
-      "score": 60.84,
+      "age_hours": 6.01,
+      "score": 60.39,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.84,
+        "recency_points": 21.39,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -447,11 +435,11 @@
       ],
       "earliest_seen": "2026-08-20T12:59:02+00:00",
       "latest_seen": "2026-08-20T12:59:02+00:00",
-      "age_hours": 2.01,
-      "score": 60.7,
+      "age_hours": 2.74,
+      "score": 60.25,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.8,
+        "recency_points": 23.35,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -488,11 +476,11 @@
       ],
       "earliest_seen": "2026-08-20T10:00:13+00:00",
       "latest_seen": "2026-08-20T10:00:13+00:00",
-      "age_hours": 4.99,
-      "score": 60.11,
+      "age_hours": 5.72,
+      "score": 59.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.01,
+        "recency_points": 21.57,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -514,124 +502,39 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_fc2d76593918d8",
+      "cluster_id": "c_1eb756c2bb0906",
       "topic": "oil",
-      "lead_title": "EIA Sees Oil Crunch in 2026, Glut in 2027",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVEszc3gyaVY5QUNvbmV5YXYta1RQR1VPYnEtVnczczlSYnQ1Z2NtSGpucTVTRl93ODF1NFJBZFM3ZWFyV0NKeGJyenFyXzFFalFNLVdpSkxvbk84NVBQYnlQOU9yblNjMm10aHpjbW82aWozZ0gwdGRVNkk2bkk2dm14UWZMSjNIc3NCS1dIbHplN25EWXN4NHZyN3VoQQ?oc=5",
-      "lead_source": "Rigzone",
-      "canonical_entities": [
-        "oil"
-      ],
+      "lead_title": "Stocks Move Lower Amid Disappointing Retail Earnings",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T11:39:00+00:00",
-      "latest_seen": "2026-08-20T11:39:00+00:00",
-      "age_hours": 3.34,
-      "score": 58.09,
+      "earliest_seen": "2026-08-20T14:00:00+00:00",
+      "latest_seen": "2026-08-20T14:00:00+00:00",
+      "age_hours": 1.73,
+      "score": 56.56,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.99,
-        "source_quality_points": 26.1,
-        "entity_relevance_points": 4,
+        "recency_points": 23.96,
+        "source_quality_points": 27.6,
+        "entity_relevance_points": 0,
         "materiality_points": 0.0
       },
       "novelty": "ongoing",
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "4de1551afe3c7e07",
-          "title": "EIA Sees Oil Crunch in 2026, Glut in 2027",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVEszc3gyaVY5QUNvbmV5YXYta1RQR1VPYnEtVnczczlSYnQ1Z2NtSGpucTVTRl93ODF1NFJBZFM3ZWFyV0NKeGJyenFyXzFFalFNLVdpSkxvbk84NVBQYnlQOU9yblNjMm10aHpjbW82aWozZ0gwdGRVNkk2bkk2dm14UWZMSjNIc3NCS1dIbHplN25EWXN4NHZyN3VoQQ?oc=5",
-          "source": "Rigzone",
+          "headline_id": "06177f6688dd70f8",
+          "title": "Stocks Move Lower Amid Disappointing Retail Earnings",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPblZ4TkNlLXdkaVh0UUV2LVlVTkt5QW9KSjFuN1M4Z1k1Ti13SHFxZVdyMXpvV1h2czlUZURJV253eWtRdW0yWkhIVEdIUEE3b1BLTld6T2toUkRSYUx1VjFQb21sMmpvUjBGV3NPSjAyYjlBQjUxTVJqeVFJX25zdkppUHFfTUFjX3pJSG5RWnduT2Y4WlN6RkJfTUdpYjJrSnlTTVRreXhRdlVwU285Y05GMA?oc=5",
+          "source": "WSJ",
           "source_type": "rss",
-          "published_at": "2026-08-20T11:39:00+00:00",
-          "confidence": 0.87
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_488596829124a5",
-      "topic": "oil",
-      "lead_title": "Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T08:33:57+00:00",
-      "latest_seen": "2026-08-20T08:33:57+00:00",
-      "age_hours": 6.43,
-      "score": 58.04,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.14,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "bae6221b5dc623fa",
-          "title": "Oil prices rise 3% as Trump sharpens Iran rhetoric amid talks impasse",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBGdnA4OVZkTmFweUtBR0JuVmRXLXp4N2NrWS1Ya19XdjRDUjVKSy10Sy1Rbk5TZVpwTHRNVXdZcFcxcllnVGpzLUR4WHdpWnk0RkFDemFwdlphZms4ZUluV1dzVWZoY3ota2ZrUkJpNTlXTGQ5cXJZQU5n0gF_QVVfeXFMT18yT3pMYTJVSkNEMk85aFdpSlVvcmlTeEh0TlBpbExnWUREYW80NDdtWG9ySnR2N2dFenFRVlBVaWZmME5OQzB2VmxoYndUWV9pQTJtVFRsYlpOYWc0Qm9MWTNpWXZQNFRZVGdIbklTMVlLSEk4R05wcWxHd0Q4Zw?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-08-20T08:33:57+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e3bd1132866892",
-      "topic": "oil",
-      "lead_title": "Iran truce drives spike in China’s oil imports, but soaring Brent clouds demand",
-      "lead_url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNNWZ5Y1VFTWhoVEI5RGlCT1JxeHVCYjk0dDY3cmNqZThmVklRY3FLcVBhTlZOd3QtWGprOEhKc0xHTFV5bjNnOGszeGxWNDdrNVF3Nm5zRnBnQ2l1QWFFWEFPT0RuU2t0clVsdExZWi1Xa2doT19WZ1dkbzFUSHF4YjYwUnBNWm4xTElEWV9JNEhod2xfa0k2bmtUTkZSaWpYS3JlaVQ2dWNFLWdUdVljMkVyVTRVVVVrVWtuOHczSmpudDRyRHBGLVdvWGItR3RkTldvVF9DeXJWSVFYVGk4YVc5cXd3TE90LThScjJ4SURsUFdjaDdzalVFdUI?oc=5",
-      "lead_source": "South China Morning Post",
-      "canonical_entities": [
-        "Brent",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T12:30:16+00:00",
-      "latest_seen": "2026-08-20T12:30:16+00:00",
-      "age_hours": 2.49,
-      "score": 57.51,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.51,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "fc4e3f1714d01b95",
-          "title": "Iran truce drives spike in China’s oil imports, but soaring Brent clouds demand",
-          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNNWZ5Y1VFTWhoVEI5RGlCT1JxeHVCYjk0dDY3cmNqZThmVklRY3FLcVBhTlZOd3QtWGprOEhKc0xHTFV5bjNnOGszeGxWNDdrNVF3Nm5zRnBnQ2l1QWFFWEFPT0RuU2t0clVsdExZWi1Xa2doT19WZ1dkbzFUSHF4YjYwUnBNWm4xTElEWV9JNEhod2xfa0k2bmtUTkZSaWpYS3JlaVQ2dWNFLWdUdVljMkVyVTRVVVVrVWtuOHczSmpudDRyRHBGLVdvWGItR3RkTldvVF9DeXJWSVFYVGk4YVc5cXd3TE90LThScjJ4SURsUFdjaDdzalVFdUI?oc=5",
-          "source": "South China Morning Post",
-          "source_type": "rss",
-          "published_at": "2026-08-20T12:30:16+00:00",
-          "confidence": 0.7
+          "published_at": "2026-08-20T14:00:00+00:00",
+          "confidence": 0.92
         }
       ],
       "top_tier": false,
@@ -653,11 +556,11 @@
       ],
       "earliest_seen": "2026-08-20T04:01:22+00:00",
       "latest_seen": "2026-08-20T04:01:22+00:00",
-      "age_hours": 10.97,
-      "score": 56.52,
+      "age_hours": 11.7,
+      "score": 56.08,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.42,
+        "recency_points": 17.98,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -694,11 +597,11 @@
       ],
       "earliest_seen": "2026-08-20T04:30:25+00:00",
       "latest_seen": "2026-08-20T04:30:25+00:00",
-      "age_hours": 10.48,
-      "score": 55.61,
+      "age_hours": 11.22,
+      "score": 55.17,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.71,
+        "recency_points": 18.27,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -720,26 +623,26 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_6614680a2d402d",
+      "cluster_id": "c_5631193061adb8",
       "topic": "oil",
-      "lead_title": "Chinese Refiners Snap Up Iraqi Oil as More Supplies Exit Hormuz",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmhvcWxvVFZRN1hpSWtBWmRsWGVLcFFhMlRmUjJ0QXYzLVh1T0Y5eDJlbExrTEVnTy1WWC1lcmRLVWpTbkpCQVRIVWN2NThqUjU2eklxQmFfUm9zRzRwVUpOTlQ0XzFONG4xd1JELWFJQllTZTRfOGFOaFJMbkpfaXhkWGdHU1Q0RUx3b1lhU0JSYk1GRm4zZmlqRDNyeVVhbXlFMjB6eS1sWkFJLUtWTmY5d18?oc=5",
-      "lead_source": "Bloomberg.com",
+      "lead_title": "China boosts imports of Russian crude, stymieing India's refiners",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
+      "lead_source": "Reuters",
       "canonical_entities": [
-        "oil"
+        "crude"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-20T02:50:00+00:00",
-      "latest_seen": "2026-08-20T02:50:00+00:00",
-      "age_hours": 12.16,
-      "score": 51.7,
+      "earliest_seen": "2026-08-20T01:20:29+00:00",
+      "latest_seen": "2026-08-20T01:20:29+00:00",
+      "age_hours": 14.39,
+      "score": 50.37,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.7,
+        "recency_points": 16.37,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -748,12 +651,12 @@
       "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "0d559324e8b85f80",
-          "title": "Chinese Refiners Snap Up Iraqi Oil as More Supplies Exit Hormuz",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSmhvcWxvVFZRN1hpSWtBWmRsWGVLcFFhMlRmUjJ0QXYzLVh1T0Y5eDJlbExrTEVnTy1WWC1lcmRLVWpTbkpCQVRIVWN2NThqUjU2eklxQmFfUm9zRzRwVUpOTlQ0XzFONG4xd1JELWFJQllTZTRfOGFOaFJMbkpfaXhkWGdHU1Q0RUx3b1lhU0JSYk1GRm4zZmlqRDNyeVVhbXlFMjB6eS1sWkFJLUtWTmY5d18?oc=5",
-          "source": "Bloomberg.com",
+          "headline_id": "35666dcbdfcb5f84",
+          "title": "China boosts imports of Russian crude, stymieing India's refiners",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZU9oV2RaZ2RZNW5hZlFqbXFNNmd5RnJkM21hWmo0WVhJX1paTlBWaE50SHhMazFzdHJuVVF2QlpzT1lRZG1VUEdERkdsSXcxTjFmQjd5RXlJeDM1eVR1NHZnd0xlRWJFXzlsbS0tdmpJMlVzeFNrLUk1R25abzR3cUxDYXRCUW1lekg0LU9lWmNzdWFyekI1SFJOdmxJSWVaRS0zT3Z5QzRVNkt3VndialQySlRtbTVKTTdJb3g1T0h2ZXFabXNLMQ?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-08-20T02:50:00+00:00",
+          "published_at": "2026-08-20T01:20:29+00:00",
           "confidence": 1.0
         }
       ],
@@ -776,11 +679,11 @@
       ],
       "earliest_seen": "2026-08-20T01:11:00+00:00",
       "latest_seen": "2026-08-20T01:11:00+00:00",
-      "age_hours": 13.81,
-      "score": 50.71,
+      "age_hours": 14.54,
+      "score": 50.27,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.71,
+        "recency_points": 16.27,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -817,11 +720,11 @@
       ],
       "earliest_seen": "2026-08-20T00:23:00+00:00",
       "latest_seen": "2026-08-20T00:23:00+00:00",
-      "age_hours": 14.61,
-      "score": 50.23,
+      "age_hours": 15.34,
+      "score": 49.79,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.23,
+        "recency_points": 15.79,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -859,7 +762,7 @@
       ],
       "earliest_seen": "2026-08-12T15:07:00+00:00",
       "latest_seen": "2026-08-12T15:07:00+00:00",
-      "age_hours": 191.88,
+      "age_hours": 192.61,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -900,7 +803,7 @@
       ],
       "earliest_seen": "2026-08-15T13:18:46+00:00",
       "latest_seen": "2026-08-15T13:18:46+00:00",
-      "age_hours": 121.68,
+      "age_hours": 122.41,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
