@@ -1,28 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-08-20T14:59:30.664169+00:00",
-  "previous_generated_at": "2026-08-20T14:06:03.719278+00:00",
-  "resolver_run_count": 149,
+  "generated_at": "2026-08-20T15:43:39.310403+00:00",
+  "previous_generated_at": "2026-08-20T14:59:30.664169+00:00",
+  "resolver_run_count": 150,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CLOSED",
-      "status_detail": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
-      "status_tag": "Strait closed",
-      "risk_level": "HIGH",
-      "confidence": 0.954,
-      "last_confirmed": "2026-08-20T12:19:47+00:00",
-      "source_count": 6,
-      "summary_short": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
-      "summary_long": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure. Oil News: Hormuz Flows Stay Low as WTI and Brent Hit Three-Week High",
+      "status": "OPEN",
+      "status_detail": "Crude Oil Prices Jump as Hopes Dim of Reopening the Strait of Hormuz",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.835,
+      "last_confirmed": "2026-08-20T15:33:56+00:00",
+      "source_count": 9,
+      "summary_short": "Crude Oil Prices Jump as Hopes Dim of Reopening the Strait of Hormuz",
+      "summary_long": "Crude Oil Prices Jump as Hopes Dim of Reopening the Strait of Hormuz. US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
       "evidence_cluster_ids": [
         "c_3692fe1a24e15c",
-        "c_6df51898e68956",
+        "c_ae36ac933e7ee6",
         "c_7a5ad2da9ec135",
-        "c_6614680a2d402d",
-        "c_e614537ae71137"
+        "c_6df51898e68956",
+        "c_dae7e293ef36dc"
       ],
       "evidence_count": 5,
       "affected_pages": [
@@ -41,9 +41,12 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_3692fe1a24 → CLOSED (kw='closure', weight=0.57) [OPEN suppressed]",
-        "winning=CLOSED (0.57/0.57), conf=0.954"
-      ]
+        "cluster c_3692fe1a24 → CLOSED (kw='closure', weight=0.55) [OPEN suppressed]",
+        "cluster c_dae7e293ef → OPEN (kw='reopen', weight=0.79)",
+        "winning=OPEN (0.79/1.34), conf=0.835"
+      ],
+      "previous_status": "CLOSED",
+      "last_changed": "2026-08-20T15:43:39.310232+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -54,18 +57,17 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-20T14:04:00+00:00",
-      "source_count": 8,
-      "summary_short": "Oil hits over 3-week high on Middle East supply concerns amid war impasse",
-      "summary_long": "Oil hits over 3-week high on Middle East supply concerns amid war impasse. US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
+      "last_confirmed": "2026-08-20T12:35:25+00:00",
+      "source_count": 6,
+      "summary_short": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure",
+      "summary_long": "US's secret Hormuz corridor: How America kept ships and oil moving despite Iran's closure. The Iran war energy crisis is just getting started",
       "evidence_cluster_ids": [
-        "c_f6e8ff4a3c5317",
         "c_3692fe1a24e15c",
         "c_f582f516af4f9a",
-        "c_0f165512cc6a0e",
-        "c_3ae23f400c9a8b"
+        "c_ae36ac933e7ee6",
+        "c_0f165512cc6a0e"
       ],
-      "evidence_count": 6,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -120,19 +122,18 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "HIGH",
-      "risk_level": "HIGH",
-      "score": 50,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: high.",
-      "summary_long": "Risk drivers: Hormuz closed",
-      "summary_micro": "closed",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CLOSED (+40)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -144,7 +145,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "HIGH",
+      "last_changed": "2026-08-20T15:43:39.310232+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -155,9 +158,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNellOakI3TllDQUR1YWkzSk44ZVFYcDVsSjlqUk12UnZZaF96UjNYQU1BZVp6eXF2aXlqSm95TE5tU2VESnZvS0JGMHlOWnViUkE1UmRXTmc4d2t4QURaS3NVdXlyMFliRTNfOGh1WE1ySzRySXBRbUhnVUg5V012c0ZpalhXZGNXMGkwd1dLYThzVlRYMmxtUVhn?oc=5",
       "lead_source": "WSJ",
       "topic": "oil",
-      "score": 93.18,
-      "novelty": "new",
-      "source_count": 5,
+      "score": 86.87,
+      "novelty": "growing",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -167,9 +170,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CLOSED",
+      "to": "OPEN",
+      "detected_at": "2026-08-20T15:43:39.310232+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-08-20T15:43:39.310232+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-08-20T15:43:39.310232+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "HIGH",
+      "to": "LOW",
+      "detected_at": "2026-08-20T15:43:39.310232+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CLOSED, confidence=0.954, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.835, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
