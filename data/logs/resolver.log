@@ -1665,3 +1665,17 @@
 [2026-08-20T16:16:18.489492+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'HIGH' (triggers_publish=False)
 [2026-08-20T16:16:18.490132+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-20T16:16:18.490173+00:00] ════════════════════════════════════════════════════════════
+[2026-08-23T03:12:03.966100+00:00] resolver: start
+[2026-08-23T03:12:03.970053+00:00] resolver: scanning 259 clusters across 10 topics
+[2026-08-23T03:12:03.970408+00:00]   hormuz_status: OPEN (conf=0.425, freshness=aging, clusters=5)
+[2026-08-23T03:12:03.971519+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=14)
+[2026-08-23T03:12:03.971649+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-23T03:12:03.971697+00:00]   global_risk_level: LOW (score=10)
+[2026-08-23T03:12:03.971866+00:00]   top_story: 'AI Compute Emerges as 'Second Commodity' Traded Like Crude O' (score=78.23)
+[2026-08-23T03:12:03.971943+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-08-23T03:12:03.971975+00:00]   Δ hormuz_status.status: 'CLOSED' → 'OPEN' (triggers_publish=False)
+[2026-08-23T03:12:03.972005+00:00]   Δ hormuz_status.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-08-23T03:12:03.972032+00:00]   Δ global_risk_level.status: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-08-23T03:12:03.972057+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
+[2026-08-23T03:12:03.972663+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-23T03:12:03.972705+00:00] ════════════════════════════════════════════════════════════
