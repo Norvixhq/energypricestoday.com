@@ -1679,3 +1679,17 @@
 [2026-08-23T03:12:03.972057+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'LOW' (triggers_publish=False)
 [2026-08-23T03:12:03.972663+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-23T03:12:03.972705+00:00] ════════════════════════════════════════════════════════════
+[2026-08-24T14:09:48.390246+00:00] resolver: start
+[2026-08-24T14:09:48.394234+00:00] resolver: scanning 253 clusters across 10 topics
+[2026-08-24T14:09:48.394671+00:00]   hormuz_status: CONTESTED (conf=0.968, freshness=fresh, clusters=10)
+[2026-08-24T14:09:48.395732+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=9)
+[2026-08-24T14:09:48.395880+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=3)
+[2026-08-24T14:09:48.395921+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-08-24T14:09:48.396095+00:00]   top_story: 'Oil prices fall as Trump targets Iran: What it means for gas' (score=89.11)
+[2026-08-24T14:09:48.396157+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-08-24T14:09:48.396185+00:00]   Δ hormuz_status.status: 'OPEN' → 'CONTESTED' (triggers_publish=True)
+[2026-08-24T14:09:48.396212+00:00]   Δ hormuz_status.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=True)
+[2026-08-24T14:09:48.396237+00:00]   Δ global_risk_level.status: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-08-24T14:09:48.396261+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-08-24T14:09:48.396869+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-24T14:09:48.396915+00:00] ════════════════════════════════════════════════════════════
