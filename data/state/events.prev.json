@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-24T15:05:17.396390+00:00",
-  "previous_generated_at": "2026-08-24T14:09:48.396284+00:00",
-  "resolver_run_count": 154,
+  "generated_at": "2026-08-24T16:00:10.239848+00:00",
+  "previous_generated_at": "2026-08-24T15:05:17.396390+00:00",
+  "resolver_run_count": 155,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -13,16 +13,16 @@
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-24T13:38:00+00:00",
+      "last_confirmed": "2026-08-24T15:19:00+00:00",
       "source_count": 11,
       "summary_short": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation",
-      "summary_long": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation. TotalEnergies profitably moving heavily discounted oil through Strait of Hormuz, says CEO",
+      "summary_long": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation. U.S. Says Oil Is Pouring Through Hormuz. Trackers Can’t Find It.",
       "evidence_cluster_ids": [
         "c_90ae533f6e2524",
         "c_56f46b1c9f348c",
         "c_a377d30933badf",
-        "c_972445ae54b692",
-        "c_ae83f9b53a083a"
+        "c_ae83f9b53a083a",
+        "c_972445ae54b692"
       ],
       "evidence_count": 7,
       "affected_pages": [
@@ -42,9 +42,7 @@
       "stale_after_hours": 24,
       "rationale": [
         "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CONTESTED",
-      "last_changed": "2026-08-24T15:05:17.396276+00:00"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -146,9 +144,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-08-24T15:05:17.396276+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -159,8 +155,8 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcTFKZXppNXVKQjBTOS1yTm1qeVFPV3pNZXJTcjY4WXJkUHF4SXVuTmVWQXJkZl82Vjd2TXJCQUZVb2hzckxDYl9YV3RKQS1qck5GSTIwcnZ1aGxJRUZiVDlDMUlrRWFzWHduTmx1UFhRMXp2NmFlSGJnU2FhVk5wU2hCcmxZT05QZC1qMkFHbzJMbDZrOVlPYU5vYTNBWEZXaWZsanNac1JvbEhRMm4yR0dpbw?oc=5",
       "lead_source": "FXEmpire",
       "topic": "oil",
-      "score": 94.3,
-      "novelty": "new",
+      "score": 84.05,
+      "novelty": "ongoing",
       "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
@@ -171,44 +167,7 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CONTESTED",
-      "to": "OPEN",
-      "detected_at": "2026-08-24T15:05:17.396276+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-24T15:05:17.396276+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-24T15:05:17.396276+00:00",
-      "meaningful": false,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-24T15:05:17.396276+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
     "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
