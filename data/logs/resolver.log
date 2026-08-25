@@ -1755,3 +1755,17 @@
 [2026-08-25T22:05:02.655158+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
 [2026-08-25T22:05:02.655568+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-08-25T22:05:02.655586+00:00] ════════════════════════════════════════════════════════════
+[2026-08-25T22:50:42.878673+00:00] resolver: start
+[2026-08-25T22:50:42.882670+00:00] resolver: scanning 264 clusters across 10 topics
+[2026-08-25T22:50:42.883025+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=4)
+[2026-08-25T22:50:42.884173+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=12)
+[2026-08-25T22:50:42.884281+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-08-25T22:50:42.884325+00:00]   global_risk_level: LOW (score=10)
+[2026-08-25T22:50:42.884479+00:00]   top_story: 'Japan plans no crude oil release from national reserve in Se' (score=88.1)
+[2026-08-25T22:50:42.884583+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-08-25T22:50:42.884619+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=False)
+[2026-08-25T22:50:42.884650+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-25T22:50:42.884678+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-25T22:50:42.884703+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-08-25T22:50:42.885233+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-08-25T22:50:42.885274+00:00] ════════════════════════════════════════════════════════════
