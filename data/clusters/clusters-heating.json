@@ -1,11 +1,11 @@
 {
   "topic": "heating",
-  "generated_at": "2026-08-25T20:51:22.619107+00:00",
+  "generated_at": "2026-08-25T22:05:02.594741+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 26,
   "clusters": [
     {
       "cluster_id": "c_dd768525221b19",
@@ -23,11 +23,11 @@
       ],
       "earliest_seen": "2026-08-25T12:23:57+00:00",
       "latest_seen": "2026-08-25T12:23:57+00:00",
-      "age_hours": 8.46,
-      "score": 48.43,
+      "age_hours": 9.68,
+      "score": 47.69,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.93,
+        "recency_points": 19.19,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -49,6 +49,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_8fd1bad98752ed",
+      "topic": "heating",
+      "lead_title": "Heating Oil: Watchdog wants tougher regulation of market",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QeG81ZUxobzNZZHpoaTRiVWpnUW9vS1U5bmkwNUhfZmdKeWdLWm9xNzBJUXpuYVQwOUl5YWUzSjc2MGl6SjYweVBia2ZtWFFUdEJLbnV6MXZGUQ?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-07-15T07:00:00+00:00",
+      "latest_seen": "2026-07-15T07:00:00+00:00",
+      "age_hours": 999.08,
+      "score": 46.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "7baa23e91cc440c7",
+          "title": "Heating Oil: Watchdog wants tougher regulation of market",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QeG81ZUxobzNZZHpoaTRiVWpnUW9vS1U5bmkwNUhfZmdKeWdLWm9xNzBJUXpuYVQwOUl5YWUzSjc2MGl6SjYweVBia2ZtWFFUdEJLbnV6MXZGUQ?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-07-15T07:00:00+00:00",
+          "confidence": 0.9
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_a7aea1e7402959",
       "topic": "heating",
       "lead_title": "Heating Oil Holds Losses",
@@ -64,11 +105,11 @@
       ],
       "earliest_seen": "2026-08-24T02:19:00+00:00",
       "latest_seen": "2026-08-25T00:57:00+00:00",
-      "age_hours": 19.91,
-      "score": 36.56,
+      "age_hours": 21.13,
+      "score": 35.82,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 13.06,
+        "recency_points": 12.32,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -114,7 +155,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 3901.86,
+      "age_hours": 3903.08,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -136,7 +177,66 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e4eede76fe06ad",
+      "topic": "heating",
+      "lead_title": "Futures Heating Oil Chart 15 Minutes",
+      "lead_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vZVZGTmdZTUZaWEI2aVNRXy1MVF83T0V5NjFkb2UxZVpNTGRGZktPRTJGeWhOam00alRFbU1OSDJZSEdBbVFrVHB6ZGZRZw?oc=5",
+      "lead_source": "Finviz",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-21T20:59:00+00:00",
+      "latest_seen": "2026-08-23T02:36:59+00:00",
+      "age_hours": 67.47,
+      "score": 33.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 5.0
+      },
+      "novelty": "growing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "5b9a9646da1e9877",
+          "title": "Futures Heating Oil Chart 15 Minutes",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vZVZGTmdZTUZaWEI2aVNRXy1MVF83T0V5NjFkb2UxZVpNTGRGZktPRTJGeWhOam00alRFbU1OSDJZSEdBbVFrVHB6ZGZRZw?oc=5",
+          "source": "Finviz",
+          "source_type": "rss",
+          "published_at": "2026-08-23T02:36:59+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "663d496a0cfd3c59",
+          "title": "Futures Heating Oil Chart 30 Minutes",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9GMnVGcS1yTlNWWHI0czJfMlItRFdkQnVHSDk1WEpzYTlwaDgtcF9kNHVFVW1Ld2FGV2RrMDgyeG5zQVY0cGdSb3FGS2tDUQ?oc=5",
+          "source": "Finviz",
+          "source_type": "rss",
+          "published_at": "2026-08-22T21:37:03+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "15cb94eff87af7bd",
+          "title": "Futures Heating Oil Chart Hourly",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFB1QUZXdjktcTB4X003WmxLQVNSaG5nR1lDUy1yVy1Tc3d2ZE9OSnVJR01NV2VxamlLLTl1TWw4bHJ6ZWxiZkFPS29RYw?oc=5",
+          "source": "Finviz",
+          "source_type": "rss",
+          "published_at": "2026-08-21T20:59:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -155,7 +255,7 @@
       ],
       "earliest_seen": "2026-08-04T07:00:00+00:00",
       "latest_seen": "2026-08-04T07:00:00+00:00",
-      "age_hours": 517.86,
+      "age_hours": 519.08,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -196,7 +296,7 @@
       ],
       "earliest_seen": "2026-04-29T07:00:00+00:00",
       "latest_seen": "2026-04-29T07:00:00+00:00",
-      "age_hours": 2845.86,
+      "age_hours": 2847.08,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -237,7 +337,7 @@
       ],
       "earliest_seen": "2026-03-16T07:00:00+00:00",
       "latest_seen": "2026-03-16T07:00:00+00:00",
-      "age_hours": 3901.86,
+      "age_hours": 3903.08,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -278,7 +378,7 @@
       ],
       "earliest_seen": "2026-03-14T07:00:00+00:00",
       "latest_seen": "2026-03-14T07:00:00+00:00",
-      "age_hours": 3949.86,
+      "age_hours": 3951.08,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -319,7 +419,7 @@
       ],
       "earliest_seen": "2026-03-12T07:00:00+00:00",
       "latest_seen": "2026-03-12T07:00:00+00:00",
-      "age_hours": 3997.86,
+      "age_hours": 3999.08,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -360,7 +460,7 @@
       ],
       "earliest_seen": "2026-03-10T07:00:00+00:00",
       "latest_seen": "2026-03-10T07:00:00+00:00",
-      "age_hours": 4045.86,
+      "age_hours": 4047.08,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -401,7 +501,7 @@
       ],
       "earliest_seen": "2026-03-07T08:00:00+00:00",
       "latest_seen": "2026-03-07T08:00:00+00:00",
-      "age_hours": 4116.86,
+      "age_hours": 4118.08,
       "score": 31.0,
       "score_components": {
         "source_count_points": 5,
@@ -442,7 +542,7 @@
       ],
       "earliest_seen": "2026-07-15T07:00:00+00:00",
       "latest_seen": "2026-07-15T07:00:00+00:00",
-      "age_hours": 997.86,
+      "age_hours": 999.08,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -484,7 +584,7 @@
       ],
       "earliest_seen": "2026-03-24T07:00:00+00:00",
       "latest_seen": "2026-03-24T07:00:00+00:00",
-      "age_hours": 3709.86,
+      "age_hours": 3711.08,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -523,7 +623,7 @@
       ],
       "earliest_seen": "2026-08-21T09:35:45+00:00",
       "latest_seen": "2026-08-21T09:35:45+00:00",
-      "age_hours": 107.26,
+      "age_hours": 108.49,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -562,7 +662,7 @@
       ],
       "earliest_seen": "2026-07-27T07:00:00+00:00",
       "latest_seen": "2026-07-27T07:00:00+00:00",
-      "age_hours": 709.86,
+      "age_hours": 711.08,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -601,7 +701,7 @@
       ],
       "earliest_seen": "2026-07-23T07:00:00+00:00",
       "latest_seen": "2026-07-23T07:00:00+00:00",
-      "age_hours": 805.86,
+      "age_hours": 807.08,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -640,7 +740,7 @@
       ],
       "earliest_seen": "2026-07-09T07:00:00+00:00",
       "latest_seen": "2026-07-09T07:00:00+00:00",
-      "age_hours": 1141.86,
+      "age_hours": 1143.08,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -666,45 +766,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_81b8fda1bd4e90",
-      "topic": "heating",
-      "lead_title": "UK petrol prices hit highest level since Iran war began",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vN0tpNVdZWWNRUC1TdVFmZE1FNWpURGFiUlVQYU9ENW92U1k0U0tCMnVXcjdSd2xHRUV2bTFZMnVfM3pQWEFqNDdDalBIakJMOF80dXlVVTlRdw?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-05T07:00:00+00:00",
-      "latest_seen": "2026-08-05T07:00:00+00:00",
-      "age_hours": 493.86,
-      "score": 25.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "611cdf9767c7a795",
-          "title": "UK petrol prices hit highest level since Iran war began",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vN0tpNVdZWWNRUC1TdVFmZE1FNWpURGFiUlVQYU9ENW92U1k0U0tCMnVXcjdSd2xHRUV2bTFZMnVfM3pQWEFqNDdDalBIakJMOF80dXlVVTlRdw?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-08-05T07:00:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_89ed41bbbeb831",
       "topic": "heating",
       "lead_title": "Northern Ireland: Oil prices hit lowest level since Iran crisis",
@@ -718,7 +779,7 @@
       ],
       "earliest_seen": "2026-06-16T07:00:00+00:00",
       "latest_seen": "2026-06-16T07:00:00+00:00",
-      "age_hours": 1693.86,
+      "age_hours": 1695.08,
       "score": 25.5,
       "score_components": {
         "source_count_points": 5,
@@ -759,7 +820,7 @@
       ],
       "earliest_seen": "2026-08-24T00:16:46+00:00",
       "latest_seen": "2026-08-24T00:16:46+00:00",
-      "age_hours": 44.58,
+      "age_hours": 45.8,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -785,56 +846,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_e4eede76fe06ad",
-      "topic": "heating",
-      "lead_title": "Futures Heating Oil Chart 15 Minutes",
-      "lead_url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vZVZGTmdZTUZaWEI2aVNRXy1MVF83T0V5NjFkb2UxZVpNTGRGZktPRTJGeWhOam00alRFbU1OSDJZSEdBbVFrVHB6ZGZRZw?oc=5",
-      "lead_source": "Finviz",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-22T21:37:03+00:00",
-      "latest_seen": "2026-08-23T02:36:59+00:00",
-      "age_hours": 66.24,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "5b9a9646da1e9877",
-          "title": "Futures Heating Oil Chart 15 Minutes",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vZVZGTmdZTUZaWEI2aVNRXy1MVF83T0V5NjFkb2UxZVpNTGRGZktPRTJGeWhOam00alRFbU1OSDJZSEdBbVFrVHB6ZGZRZw?oc=5",
-          "source": "Finviz",
-          "source_type": "rss",
-          "published_at": "2026-08-23T02:36:59+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "663d496a0cfd3c59",
-          "title": "Futures Heating Oil Chart 30 Minutes",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9GMnVGcS1yTlNWWHI0czJfMlItRFdkQnVHSDk1WEpzYTlwaDgtcF9kNHVFVW1Ld2FGV2RrMDgyeG5zQVY0cGdSb3FGS2tDUQ?oc=5",
-          "source": "Finviz",
-          "source_type": "rss",
-          "published_at": "2026-08-22T21:37:03+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_f741926883c0fd",
       "topic": "heating",
       "lead_title": "Connecticut homeowners urged to budget now for higher heating oil costs",
@@ -850,7 +861,7 @@
       ],
       "earliest_seen": "2026-08-21T21:13:21+00:00",
       "latest_seen": "2026-08-21T22:34:55+00:00",
-      "age_hours": 94.27,
+      "age_hours": 95.5,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -900,7 +911,7 @@
       ],
       "earliest_seen": "2026-08-21T19:37:55+00:00",
       "latest_seen": "2026-08-21T19:37:55+00:00",
-      "age_hours": 97.22,
+      "age_hours": 98.45,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -941,7 +952,7 @@
       ],
       "earliest_seen": "2026-08-21T10:58:19+00:00",
       "latest_seen": "2026-08-21T10:58:19+00:00",
-      "age_hours": 105.88,
+      "age_hours": 107.11,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -982,7 +993,7 @@
       ],
       "earliest_seen": "2026-08-17T14:46:41+00:00",
       "latest_seen": "2026-08-17T14:46:41+00:00",
-      "age_hours": 198.08,
+      "age_hours": 199.31,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1023,7 +1034,7 @@
       ],
       "earliest_seen": "2026-08-15T21:50:41+00:00",
       "latest_seen": "2026-08-15T21:50:41+00:00",
-      "age_hours": 239.01,
+      "age_hours": 240.24,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1064,7 +1075,7 @@
       ],
       "earliest_seen": "2026-08-14T07:00:00+00:00",
       "latest_seen": "2026-08-14T07:00:00+00:00",
-      "age_hours": 277.86,
+      "age_hours": 279.08,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1083,47 +1094,6 @@
           "source": "Department of Energy (.gov)",
           "source_type": "rss",
           "published_at": "2026-08-14T07:00:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_95c29fa63a3a9c",
-      "topic": "heating",
-      "lead_title": "Home heating oil prices near historic highs in CT, experts urge caution before locking in rates",
-      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdXVZUnhobzFxMzFJQkhOb3ktckxQSnh6MlBkajRwcElaNmdLU3RESms1eV9jaEI1X3JhYkFySUVNT09rbVVQOF9hb0NlRFIyRGFvYW82QXlLcHkzRXlrUW03eWR3LTRrdmZscXFndUVsT1YyNU15dk9qMklxS0NNSlJjMC1ITmRQM3FfOWg5Q0duMWdwcERlU2hwaVFQb3pOS1RHYkhIcXpHY092Znl3dEFfSkozR0tQbjg5dTJuQm8xd1poS1E?oc=5",
-      "lead_source": "WFSB",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-11T07:00:00+00:00",
-      "latest_seen": "2026-08-11T07:00:00+00:00",
-      "age_hours": 349.86,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "fed964b8cb870e74",
-          "title": "Home heating oil prices near historic highs in CT, experts urge caution before locking in rates",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdXVZUnhobzFxMzFJQkhOb3ktckxQSnh6MlBkajRwcElaNmdLU3RESms1eV9jaEI1X3JhYkFySUVNT09rbVVQOF9hb0NlRFIyRGFvYW82QXlLcHkzRXlrUW03eWR3LTRrdmZscXFndUVsT1YyNU15dk9qMklxS0NNSlJjMC1ITmRQM3FfOWg5Q0duMWdwcERlU2hwaVFQb3pOS1RHYkhIcXpHY092Znl3dEFfSkozR0tQbjg5dTJuQm8xd1poS1E?oc=5",
-          "source": "WFSB",
-          "source_type": "rss",
-          "published_at": "2026-08-11T07:00:00+00:00",
           "confidence": 0.65
         }
       ],
