@@ -1,29 +1,30 @@
 {
   "version": 2,
-  "generated_at": "2026-08-25T22:50:42.884728+00:00",
-  "previous_generated_at": "2026-08-25T22:05:02.655168+00:00",
-  "resolver_run_count": 159,
+  "generated_at": "2026-08-26T03:15:22.043338+00:00",
+  "previous_generated_at": "2026-08-25T22:50:42.884728+00:00",
+  "resolver_run_count": 160,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "OPEN",
-      "status_detail": "no definitive signals",
+      "status_detail": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-08-25T20:53:00+00:00",
-      "source_count": 7,
-      "summary_short": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation",
-      "summary_long": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation. Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude expor",
+      "confidence": 0.969,
+      "last_confirmed": "2026-08-26T02:35:00+00:00",
+      "source_count": 8,
+      "summary_short": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
+      "summary_long": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz. Asian stocks hesitant before Nvidia, oil slips on Hormuz hopes",
       "evidence_cluster_ids": [
-        "c_90ae533f6e2524",
-        "c_1d962dfd963b0e",
-        "c_879af86479ba44",
-        "c_a441b21aa61d77"
+        "c_af5a649e128972",
+        "c_e9235c9dc39915",
+        "c_ae36ac933e7ee6",
+        "c_bd7fe9c4f3dcd5",
+        "c_49d8a7e31f52a5"
       ],
-      "evidence_count": 4,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,10 +41,11 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CONTESTED",
-      "last_changed": "2026-08-25T22:50:42.884546+00:00"
+        "cluster c_af5a649e12 → OPEN (kw='reopen', weight=0.82)",
+        "cluster c_e9235c9dc3 → OPEN (kw='cleared', weight=0.48)",
+        "cluster c_49d8a7e31f → OPEN (kw='reopen', weight=0.65)",
+        "winning=OPEN (1.95/1.95), conf=0.969"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -54,18 +56,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-25T21:45:00+00:00",
-      "source_count": 15,
-      "summary_short": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation",
-      "summary_long": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation. Oil Drops as Iran Diplomacy Gains",
+      "last_confirmed": "2026-08-26T02:35:00+00:00",
+      "source_count": 14,
+      "summary_short": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
+      "summary_long": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz. Live Updates: Latest from Israel, Iran, and the Middle East",
       "evidence_cluster_ids": [
-        "c_90ae533f6e2524",
+        "c_af5a649e128972",
+        "c_363ceaa581727c",
         "c_8fc84f03e56c96",
-        "c_58f65b5ef306cb",
-        "c_1d962dfd963b0e",
-        "c_1f4fb6e549fc64"
+        "c_1f3af278ab8b02",
+        "c_ae36ac933e7ee6"
       ],
-      "evidence_count": 12,
+      "evidence_count": 10,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -91,16 +93,18 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no recent coverage",
+      "status_detail": "no definitive signals",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
+      "last_confirmed": "2026-08-24T10:43:43+00:00",
+      "source_count": 1,
+      "summary_short": "Chinese refiner Sinopec to boost oil imports from outside the Gulf",
+      "summary_long": "Chinese refiner Sinopec to boost oil imports from outside the Gulf",
+      "evidence_cluster_ids": [
+        "c_8fca4cae65bcd7"
+      ],
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -113,7 +117,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "no matching clusters"
+        "fell back to default 'HOLDING'"
       ]
     },
     "global_risk_level": {
@@ -143,9 +147,7 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-08-25T22:50:42.884546+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
@@ -156,9 +158,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXNmTnlUNEYwMDlmQndWQ0FPalZxbzd4dWJ6aHBZMy1ndFF0ODh5eTluVkJnb3F1OHdhTXMwV3JpUmxWMEVvcURrMW5Xa1E0UWYtM3FzY0lvSmFxMGhaSlZJWEdBcDFmeWJwYmwtWGtZclE1OXNJNmJfaHRnUk9YdmRIcDNJSXZ1bVZ1dEU5Vk1LeFNWUUc0SWlkSFBlNXhvT3lyZnpSdDdlUGpXMGNlRS0yWXM2SDZtSlhF?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 88.1,
-      "novelty": "ongoing",
-      "source_count": 6,
+      "score": 92.47,
+      "novelty": "growing",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -168,46 +170,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CONTESTED",
-      "to": "OPEN",
-      "detected_at": "2026-08-25T22:50:42.884546+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-25T22:50:42.884546+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-25T22:50:42.884546+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-08-25T22:50:42.884546+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.969, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

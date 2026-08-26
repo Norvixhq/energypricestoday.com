@@ -1,12 +1,53 @@
 {
   "topic": "companies",
-  "generated_at": "2026-08-25T22:50:42.832000+00:00",
+  "generated_at": "2026-08-26T03:15:22.000008+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 22,
+  "clusters_found": 24,
   "clusters": [
+    {
+      "cluster_id": "c_84b7bb8b80f57b",
+      "topic": "companies",
+      "lead_title": "Two planned datacentres will have higher UK carbon emissions than ExxonMobil, analysis finds",
+      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYmdXTF9ialI0dk1IaVNKM1V2ZjJwUnBhM09WMmE0a0NyQmlOb3hhbVNvV0xIcEdhNWpFTGpZc2Z3NUN1Q1dUMzVYUEkxYzdpZzRlajRKSGRKX1dHUzFpeTB0dXAxYUU1ZGY4aTltX3hnM3RUQ05laFhmQ0t4UWZCOXI1bmpmcjJHQ1hoUXFTejhjdlJES01KdWZhOEVfN2s?oc=5",
+      "lead_source": "The Guardian",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T01:31:00+00:00",
+      "latest_seen": "2026-08-26T01:31:00+00:00",
+      "age_hours": 1.74,
+      "score": 68.46,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.96,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "bb1373ebf924810c",
+          "title": "Two planned datacentres will have higher UK carbon emissions than ExxonMobil, analysis finds",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYmdXTF9ialI0dk1IaVNKM1V2ZjJwUnBhM09WMmE0a0NyQmlOb3hhbVNvV0xIcEdhNWpFTGpZc2Z3NUN1Q1dUMzVYUEkxYzdpZzRlajRKSGRKX1dHUzFpeTB0dXAxYUU1ZGY4aTltX3hnM3RUQ05laFhmQ0t4UWZCOXI1bmpmcjJHQ1hoUXFTejhjdlJES01KdWZhOEVfN2s?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-08-26T01:31:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
     {
       "cluster_id": "c_37f66059e96bce",
       "topic": "companies",
@@ -17,23 +58,23 @@
         "Exxon",
         "Shell"
       ],
-      "source_count": 8,
-      "distinct_publishers": 7,
+      "source_count": 6,
+      "distinct_publishers": 6,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-08-24T04:01:01+00:00",
       "latest_seen": "2026-08-25T12:41:00+00:00",
-      "age_hours": 10.16,
-      "score": 71.28,
+      "age_hours": 14.57,
+      "score": 64.76,
       "score_components": {
         "source_count_points": 20,
-        "recency_points": 18.9,
-        "source_quality_points": 24.38,
+        "recency_points": 16.26,
+        "source_quality_points": 25.5,
         "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -73,30 +114,12 @@
           "confidence": 0.7
         },
         {
-          "headline_id": "c19cf6309433d93b",
-          "title": "Shell Draws Exxon, LyondellBasell Interest in US Chemicals Assets",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOckQ3OWJUWUU2aWs2T1pqOTJHVk1CRlFpbWRqVVlQV1RxbWFZUGl4SXF0UFE2MHlUT2YwN1BPZzNfZmJlVWplVUJCS3ZTWVo3SVd1cUNBRnh5UkpWSmN0dFA4WkZGZ3hjOW5nb3VFMUYwUl9sTU1aMThNLTBkbHAzY1ZDV19aYlpnTzZvWHEwbUd4YTYwYnNqRGl3c21kOXJhUDJRTGlhaHdSTk15NnV5ZWVvb2VyRVQ5?oc=5",
-          "source": "marketscreener.com",
-          "source_type": "rss",
-          "published_at": "2026-08-25T08:31:39+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "5a949792c80efe21",
-          "title": "Exxon, Apollo interested in Shell's US chemical assets sale",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWUpTUGczQ1NHV01VeGV3Wlg5MFhtbXlOZ0tJOWxsMTZlRGRMTHdvbHJ4WldPdTFTS1VsYWp2cmtRamhzRHRQenZFMGI1Zmk4UjM3SEh6a1JOb2hEZElKQXh6YTh2Ri0tWFB0VzI5ckZvTzJvVkRjQ052ang0a0hhRi1KSlRpRHZjYnJtbWt4bzZRNmEweGZBRVlGNEZ4X2czVmF1QzR5X3ZVOGhjQ1VlOQ?oc=5",
-          "source": "marketscreener.com",
-          "source_type": "rss",
-          "published_at": "2026-08-25T08:12:57+00:00",
-          "confidence": 0.7
-        },
-        {
-          "headline_id": "91aeeb590745397a",
-          "title": "Exxon and LyondellBasell Eye Shell’s US Chemicals Portfolio – FT",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ0g3WXMwT1RuT0Z5ajRyRG9BU1I3eU4wclZHeGZ1TlZyYVNhOUtxb1ZPcldoQnBSdENja3Z3czhXWU5qbjV2ai05Y1J1aFZLckNneE15U1dVaG81M09NckJtMlJlWEZFVzdxOTNwR1BEdXRYOTlLYWtNWHVDcjRaaGhMa191eS1fYmpFOTI0Z1V4Qjho?oc=5",
+          "headline_id": "b7ccbece5a19db95",
+          "title": "ExxonMobil Is Eyeing a Potential $8 Billion Bet on Shell's U.S. Chemical Plants. Here's What It Means for XOM Stock.",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWHdPSjF6SWZDaGl0bjBtamo2dnFVMk9ORXhjb2dqcy1vS1dETTlpY3hrVWc0TjhFbkMzNlRfazkxTi1BNE1HWjVsZWNrUzFpZkY0Rk9kUFN4ZGVocW1JTDVtLW5EUEVsTGZtZ1RKTTRDdjlmUms3YmxPeHljSzZFeWJxRXZEcEdSMXFoOTFRSlhIOU5sbmsxSlZn?oc=5",
           "source": "Yahoo Finance",
           "source_type": "rss",
-          "published_at": "2026-08-24T10:44:15+00:00",
+          "published_at": "2026-08-24T21:35:01+00:00",
           "confidence": 0.7
         },
         {
@@ -113,11 +136,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_364b7d9e715415",
+      "cluster_id": "c_d478649700347c",
       "topic": "companies",
-      "lead_title": "The Ghost In The Shell Episode 8 Review - But Why Tho?",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GX2taUFREOHgzX29ucjJ1aTZ6ekRsLUxfVVZZQ1lhR0RvZjVJUTNFNFFuR01pSTloNnpnZl90UlZuVko1MEJWejhtVV9MNHp5SjhtMzJqTUNUWDBJMU5fcGUyMWtKQUNfdnVjemI5VGZVbC1naG5sM3V3?oc=5",
-      "lead_source": "butwhytho.net",
+      "lead_title": "Lake Catholic vs. Gilmour volleyball: Cougars’ front row breaks out of their shell in 3-1 victory",
+      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUhfSWNFdmNFdnhoY0RhNlZ1QngydEt1Y3JRSjl4SVk2WjVlTGlXN2VCN19RSzNSei1mTGozQjBIR1RMMEJUck96VWxwYThKUjFYdlBsRHFXSTc4bWE3ejNHTXdGNWFyOHQzb0xxbjY0MXdlZHlfQVdvTUhySmIzZUJGRXFON29CQXFZb2xNcEcwMm1qN29QcU5nbDI4ZHJsV25xVlJUN1lma0FpbE9RSTY0MUk0UU1lOUVpNjZmbk5BRnVLU0VPdWFaeUo0bUk?oc=5",
+      "lead_source": "News-Herald",
       "canonical_entities": [
         "Shell"
       ],
@@ -126,13 +149,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-25T22:42:19+00:00",
-      "latest_seen": "2026-08-25T22:42:19+00:00",
-      "age_hours": 0.14,
-      "score": 63.42,
+      "earliest_seen": "2026-08-26T02:54:44+00:00",
+      "latest_seen": "2026-08-26T02:54:44+00:00",
+      "age_hours": 0.34,
+      "score": 63.29,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.92,
+        "recency_points": 24.79,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -141,12 +164,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "ec80cd2c3d3bcfaa",
-          "title": "The Ghost In The Shell Episode 8 Review - But Why Tho?",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9GX2taUFREOHgzX29ucjJ1aTZ6ekRsLUxfVVZZQ1lhR0RvZjVJUTNFNFFuR01pSTloNnpnZl90UlZuVko1MEJWejhtVV9MNHp5SjhtMzJqTUNUWDBJMU5fcGUyMWtKQUNfdnVjemI5VGZVbC1naG5sM3V3?oc=5",
-          "source": "butwhytho.net",
+          "headline_id": "431fca4faa8760b7",
+          "title": "Lake Catholic vs. Gilmour volleyball: Cougars’ front row breaks out of their shell in 3-1 victory",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMUhfSWNFdmNFdnhoY0RhNlZ1QngydEt1Y3JRSjl4SVk2WjVlTGlXN2VCN19RSzNSei1mTGozQjBIR1RMMEJUck96VWxwYThKUjFYdlBsRHFXSTc4bWE3ejNHTXdGNWFyOHQzb0xxbjY0MXdlZHlfQVdvTUhySmIzZUJGRXFON29CQXFZb2xNcEcwMm1qN29QcU5nbDI4ZHJsV25xVlJUN1lma0FpbE9RSTY0MUk0UU1lOUVpNjZmbk5BRnVLU0VPdWFaeUo0bUk?oc=5",
+          "source": "News-Herald",
           "source_type": "rss",
-          "published_at": "2026-08-25T22:42:19+00:00",
+          "published_at": "2026-08-26T02:54:44+00:00",
           "confidence": 0.65
         }
       ],
@@ -154,11 +177,266 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_8768b88fcb690c",
+      "cluster_id": "c_e7588e33472999",
       "topic": "companies",
-      "lead_title": "Yankees' Clarke Schmidt throws his latest live BP session",
-      "lead_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM1ZxazMwSWs1cS1HOUNiVjJucVIzQ1o5Skg2ZkVFTFNYOFhPa3U1SVFEQmtjQlpYbnBWVl9KNmlFRlBuNlg5N2xRbjFSUGRLazhmTWF5ZjZ1alhEMTFCUHdOaWRtM2xUbW1iUjdSVk04LVFBMXBDNVJqc1Q4OEVCLTllMFcxRllKdTY1Zk9HOU9qYm1ranpxbUhhR202TjNYUmR3S1M0YWtlOW16N252ZUtkdUU0WS1yS2VkY1NLeTU5dEtTRVNRQmRPZnFOZm8?oc=5",
-      "lead_source": "Bergen Record",
+      "lead_title": "43 Years of Dividend Hikes, but ExxonMobil’s Cash Is Going Elsewhere",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX0R2blQ1V3QxTHNxRnZrTk1UZlM3WEJqNzNPRHgwWjJZeG1PZ2pwV2UxZTlVcnc2RmhzVURVY0lBcHNnZE9xblQ0R21tTktUcXAxTVdIM2xwVENtNk1DaS13Vm9XRU9kMlA0cXN2bG9JNlRub0doUTRLSkJHcHpGT0FaLU9tcGdJSmNDVXNmSEwwVTVDTzdkeVV6TjVQMHJX?oc=5",
+      "lead_source": "NAI500",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T02:27:39+00:00",
+      "latest_seen": "2026-08-26T02:27:39+00:00",
+      "age_hours": 0.8,
+      "score": 63.02,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.52,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "7481a41e4b911706",
+          "title": "43 Years of Dividend Hikes, but ExxonMobil’s Cash Is Going Elsewhere",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX0R2blQ1V3QxTHNxRnZrTk1UZlM3WEJqNzNPRHgwWjJZeG1PZ2pwV2UxZTlVcnc2RmhzVURVY0lBcHNnZE9xblQ0R21tTktUcXAxTVdIM2xwVENtNk1DaS13Vm9XRU9kMlA0cXN2bG9JNlRub0doUTRLSkJHcHpGT0FaLU9tcGdJSmNDVXNmSEwwVTVDTzdkeVV6TjVQMHJX?oc=5",
+          "source": "NAI500",
+          "source_type": "rss",
+          "published_at": "2026-08-26T02:27:39+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_0e79b9cb3446d2",
+      "topic": "companies",
+      "lead_title": "Targa Resources signs 20-year Permian Basin midstream deal with ExxonMobil, raises 2026 capital estimate to $5 billion",
+      "lead_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BMzRzdEpTcGxlR19rQzhpQjZoZ1JmQ2tlbk1TcVJIUFM5T1F0SG1xT0cxMHYzdG0tdnVQZ3lvbmRGVy0tMW9kX3NEZ0dVZUpqN1R0UWswci1GMmhrUXlvcFZuZC1TU3luVk5qZzJTNjNTWE53T2J5eG9YZ1k?oc=5",
+      "lead_source": "Energies Media",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T02:24:32+00:00",
+      "latest_seen": "2026-08-26T02:24:32+00:00",
+      "age_hours": 0.85,
+      "score": 62.99,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.49,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "6bba848320bc5a11",
+          "title": "Targa Resources signs 20-year Permian Basin midstream deal with ExxonMobil, raises 2026 capital estimate to $5 billion",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BMzRzdEpTcGxlR19rQzhpQjZoZ1JmQ2tlbk1TcVJIUFM5T1F0SG1xT0cxMHYzdG0tdnVQZ3lvbmRGVy0tMW9kX3NEZ0dVZUpqN1R0UWswci1GMmhrUXlvcFZuZC1TU3luVk5qZzJTNjNTWE53T2J5eG9YZ1k?oc=5",
+          "source": "Energies Media",
+          "source_type": "rss",
+          "published_at": "2026-08-26T02:24:32+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_127abf4bd102fe",
+      "topic": "companies",
+      "lead_title": "Beloved Two Harbors Band Shell set to be torn down",
+      "lead_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSVpnQTFveG9zb1JEc3oyckVyaWxtWUtqR09aelZ6Y1l4Rk5WQnltd0RTOFhsaUIwZEZLd2xKUVlFZGVORVNubnhHYmpDMWMtZVZ4cGhkak8yYjVfeDJ5UkZzYThMcHFQWF9KSlk2VXN6eFk3bDZORGc4Qk8xSll5X0hRZ3M1NHJpYkszS0VmUFJLVEp6TVJrRmU5M0Nra2JOQURnVHloQ1k0eXRPamd0OGRodzFsbDBreWpDY2hiNkF4UGl6NE9sUktlbXZHeWFKcEJv?oc=5",
+      "lead_source": "fox21online.com",
+      "canonical_entities": [
+        "Shell"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T02:22:17+00:00",
+      "latest_seen": "2026-08-26T02:22:17+00:00",
+      "age_hours": 0.88,
+      "score": 62.97,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.47,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "3dc2baafe0eae621",
+          "title": "Beloved Two Harbors Band Shell set to be torn down",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQSVpnQTFveG9zb1JEc3oyckVyaWxtWUtqR09aelZ6Y1l4Rk5WQnltd0RTOFhsaUIwZEZLd2xKUVlFZGVORVNubnhHYmpDMWMtZVZ4cGhkak8yYjVfeDJ5UkZzYThMcHFQWF9KSlk2VXN6eFk3bDZORGc4Qk8xSll5X0hRZ3M1NHJpYkszS0VmUFJLVEp6TVJrRmU5M0Nra2JOQURnVHloQ1k0eXRPamd0OGRodzFsbDBreWpDY2hiNkF4UGl6NE9sUktlbXZHeWFKcEJv?oc=5",
+          "source": "fox21online.com",
+          "source_type": "rss",
+          "published_at": "2026-08-26T02:22:17+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_35933c54ac8060",
+      "topic": "companies",
+      "lead_title": "Regulators find Chevron Richmond Refinery emissions have elevated risks for cancer, other health effects",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVHJsNk5OU1RXX2ZlclJjX1dmS2s5LWUyREtIdTg3ZFk0eTRyX1BSOUN2SVp3QTBKeDhZSlY1ZUpuX1V0T1RBMTNJcllhaG1tblN2ZmJRZ1NjREJqQm9qRHdObGdzbmJIRG53ZXk4b1NDR3FNd2ZybHZCUDNDOFREeHlNOFFxaVV1MEROb0s0TTVUUFRQWkNwbUlMdGxza01MckRQdERBYjRUUHlFbXhJT2dDbGtvYVFtQlhB?oc=5",
+      "lead_source": "CBS News",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T01:04:00+00:00",
+      "latest_seen": "2026-08-26T01:57:55+00:00",
+      "age_hours": 1.29,
+      "score": 62.73,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.23,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "13a9029454332845",
+          "title": "Regulators find Chevron Richmond Refinery emissions have elevated risks for cancer, other health effects",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVHJsNk5OU1RXX2ZlclJjX1dmS2s5LWUyREtIdTg3ZFk0eTRyX1BSOUN2SVp3QTBKeDhZSlY1ZUpuX1V0T1RBMTNJcllhaG1tblN2ZmJRZ1NjREJqQm9qRHdObGdzbmJIRG53ZXk4b1NDR3FNd2ZybHZCUDNDOFREeHlNOFFxaVV1MEROb0s0TTVUUFRQWkNwbUlMdGxza01MckRQdERBYjRUUHlFbXhJT2dDbGtvYVFtQlhB?oc=5",
+          "source": "CBS News",
+          "source_type": "rss",
+          "published_at": "2026-08-26T01:57:55+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "b2fbfeb41cf7cb2e",
+          "title": "Chevron Richmond Refinery found to have emissions with elevated risk for cancer",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbFJQNzFGLTlCd3MzY2kxYWF5Tk1ENXR0elh6R2FnaEZrcUsyQjRMWHJ0Sy1zQWpfeUo1LXp2WllHb2FlRmR3S3lMZFQzdlVrXzFBQTJJMG11QU1lZmlwejgzXzdidnlFa1R4YTBlaS0xTEp1bzBHMjZrRUVWckZ3STZQUTc2X0JTZE9PLWdMMWVaR2tJMjNsY1dhNXJFTzhtS2JPQWFBUzNiQWJyT05MWFBxVkg1Tm1mS2VNdTBHSGE?oc=5",
+          "source": "CBS News",
+          "source_type": "rss",
+          "published_at": "2026-08-26T01:04:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_cc6e94dcd12d4b",
+      "topic": "companies",
+      "lead_title": "Morgan Stanley Sees ExxonMobil (XOM) Breaking its Record High. Can the Oil Giant Deliver?",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdWpKWlljQ1RYcU43Y1pmbTZjemlzRDQ4eUlMV1JoZ18wOWFUN0xaMW1lRVhkajFnbUZVc3Bhb0o5VDNYSm1EMWNHUlR4LTZneFRyZ2pjTDJLUFVabkZtRnFBUWdLRHZKMTJoVl9hMlg0ak00dU03QWZuSWMxTF9pbFpRemZSMlU5OTlCV3FSVTAxMnQtLXc?oc=5",
+      "lead_source": "Yahoo Finance",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T01:44:00+00:00",
+      "latest_seen": "2026-08-26T01:44:00+00:00",
+      "age_hours": 1.52,
+      "score": 62.59,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.09,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "1f301edb2f1978c0",
+          "title": "Morgan Stanley Sees ExxonMobil (XOM) Breaking its Record High. Can the Oil Giant Deliver?",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdWpKWlljQ1RYcU43Y1pmbTZjemlzRDQ4eUlMV1JoZ18wOWFUN0xaMW1lRVhkajFnbUZVc3Bhb0o5VDNYSm1EMWNHUlR4LTZneFRyZ2pjTDJLUFVabkZtRnFBUWdLRHZKMTJoVl9hMlg0ak00dU03QWZuSWMxTF9pbFpRemZSMlU5OTlCV3FSVTAxMnQtLXc?oc=5",
+          "source": "Yahoo Finance",
+          "source_type": "rss",
+          "published_at": "2026-08-26T01:44:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8ecc45eff2f833",
+      "topic": "companies",
+      "lead_title": "ExxonMobil Set to Raise Dividend for 44th Consecutive Year",
+      "lead_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN1l3aEFsU2J1QnJkcWdlWGRzckJDTWJPckZnaEJjZnhyb2xpeDdZNE9ZOHQxaGg1RzQxUElFYndLQXNNMkJrajFUcEhMQ3FjYnZVcDMxYjhfemdqVUMzcjBIWXZnWDBXQW13VF9RTkxiRFNUYlJKaGNMOC1aQkxWY2hXNkh6OFlDd1BmS1NKeGFQMURKeFVn?oc=5",
+      "lead_source": "Intellectia AI",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T01:13:13+00:00",
+      "latest_seen": "2026-08-26T01:13:13+00:00",
+      "age_hours": 2.04,
+      "score": 62.28,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.78,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9ffe2ac55bdec569",
+          "title": "ExxonMobil Set to Raise Dividend for 44th Consecutive Year",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN1l3aEFsU2J1QnJkcWdlWGRzckJDTWJPckZnaEJjZnhyb2xpeDdZNE9ZOHQxaGg1RzQxUElFYndLQXNNMkJrajFUcEhMQ3FjYnZVcDMxYjhfemdqVUMzcjBIWXZnWDBXQW13VF9RTkxiRFNUYlJKaGNMOC1aQkxWY2hXNkh6OFlDd1BmS1NKeGFQMURKeFVn?oc=5",
+          "source": "Intellectia AI",
+          "source_type": "rss",
+          "published_at": "2026-08-26T01:13:13+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e2f87984b26fd8",
+      "topic": "companies",
+      "lead_title": "bp Standardizes on SDP",
+      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRi1ZRk9mZ05RZlAxUFJzOEFJLTZNMFVld3RPeG41aXRzRnczOU1KZEtVQkJacnRhN0w0Yk05UER5YUc5UldBZ2FKYTVmeDBkU1E0ajR5MkJidEJJYTlJbFJFVTk1aGI2RlZheFJxQ0Z1bjRuUkZ0bjlmaTRLNUZDbHFDNEdvNUszOFd0NGQ5ZW01ZGNt?oc=5",
+      "lead_source": "Databricks",
       "canonical_entities": [
         "BP"
       ],
@@ -167,13 +445,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-25T22:25:03+00:00",
-      "latest_seen": "2026-08-25T22:25:03+00:00",
-      "age_hours": 0.43,
-      "score": 63.24,
+      "earliest_seen": "2026-08-26T01:07:29+00:00",
+      "latest_seen": "2026-08-26T01:07:29+00:00",
+      "age_hours": 2.13,
+      "score": 62.22,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.74,
+        "recency_points": 23.72,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -182,24 +460,24 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "f67ea894ecc61ad2",
-          "title": "Yankees' Clarke Schmidt throws his latest live BP session",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNM1ZxazMwSWs1cS1HOUNiVjJucVIzQ1o5Skg2ZkVFTFNYOFhPa3U1SVFEQmtjQlpYbnBWVl9KNmlFRlBuNlg5N2xRbjFSUGRLazhmTWF5ZjZ1alhEMTFCUHdOaWRtM2xUbW1iUjdSVk04LVFBMXBDNVJqc1Q4OEVCLTllMFcxRllKdTY1Zk9HOU9qYm1ranpxbUhhR202TjNYUmR3S1M0YWtlOW16N252ZUtkdUU0WS1yS2VkY1NLeTU5dEtTRVNRQmRPZnFOZm8?oc=5",
-          "source": "Bergen Record",
+          "headline_id": "93f337c94fff5fd5",
+          "title": "bp Standardizes on SDP",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRi1ZRk9mZ05RZlAxUFJzOEFJLTZNMFVld3RPeG41aXRzRnczOU1KZEtVQkJacnRhN0w0Yk05UER5YUc5UldBZ2FKYTVmeDBkU1E0ajR5MkJidEJJYTlJbFJFVTk1aGI2RlZheFJxQ0Z1bjRuUkZ0bjlmaTRLNUZDbHFDNEdvNUszOFd0NGQ5ZW01ZGNt?oc=5",
+          "source": "Databricks",
           "source_type": "rss",
-          "published_at": "2026-08-25T22:25:03+00:00",
+          "published_at": "2026-08-26T01:07:29+00:00",
           "confidence": 0.65
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_b4af1ff7c56db9",
+      "cluster_id": "c_2919a32b90d256",
       "topic": "companies",
-      "lead_title": "Showcasing the Oyster Shell",
-      "lead_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzeG9jWFdfZnNScEw5X3ViOVdieHRoeXVTbERlQ1FqUlJkSjZWZ2Y2dkhPdU5MQ1pUVFNyMkNlcEhkLUlPa2JRRG9kVG9wbXVPdFRreEpOTDd2SGc4d0lIbmtJY29yUDdyd25sVTQwcjdtVVZFWGc?oc=5",
-      "lead_source": "The Vineyard Gazette",
+      "lead_title": "‘A liability’: Two Harbors slates historic 90-year-old band shell for demolition",
+      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVlIzMTRYYVFwVnRNMEdJaUtGNWdVNFg4c2ZaS1d3M0dEbW1aVGZEY1VHSVBnaHlrZFlBcmhKSHBpVWw0dzlZdWNNOHR3Y1NIRUFOcm5PaWZQeWx6dVVpX0xpSHg4TUZPU29uRjNFQWk4dklTWVJSbnF3RHc5T29pUjRVXzVObkxNc3VzX29ETkxEYlpFQnk5dGktRUJIb3ZhVjhGaDNKdm1fTnpXX0EybWlnOThmZ9IBygFBVV95cUxONEo4engxVXJ4MGhIazczTGg1NDVhWFplWWlmcEQ1ckRLX3lvY1RwTXI1dFB5SFl4eGxLR2xEVXlxdlFaREdyQVptS3docEwtaDk0RENkZGtOcTBEZmdIaG1vSlVXV0tmMDBkaGhuWFNnZXprRk8zdkJkN2RBOUt5ckFfcFRsWjBDNXp4eDE0dHFZMzREQWZoeUxrMUZxQmIxMnU0ZGtOc0J1VWRDSVlrdnRUV1U1aVZndUtSVkZhcTRRaF9GVUZ0aVVn?oc=5",
+      "lead_source": "Northern News Now",
       "canonical_entities": [
         "Shell"
       ],
@@ -208,13 +486,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-25T22:05:00+00:00",
-      "latest_seen": "2026-08-25T22:05:00+00:00",
-      "age_hours": 0.76,
-      "score": 63.04,
+      "earliest_seen": "2026-08-26T00:30:00+00:00",
+      "latest_seen": "2026-08-26T00:30:00+00:00",
+      "age_hours": 2.76,
+      "score": 61.85,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.54,
+        "recency_points": 23.35,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -223,12 +501,135 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "a72edc37e593330a",
-          "title": "Showcasing the Oyster Shell",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBzeG9jWFdfZnNScEw5X3ViOVdieHRoeXVTbERlQ1FqUlJkSjZWZ2Y2dkhPdU5MQ1pUVFNyMkNlcEhkLUlPa2JRRG9kVG9wbXVPdFRreEpOTDd2SGc4d0lIbmtJY29yUDdyd25sVTQwcjdtVVZFWGc?oc=5",
-          "source": "The Vineyard Gazette",
+          "headline_id": "c00920b9170aea62",
+          "title": "‘A liability’: Two Harbors slates historic 90-year-old band shell for demolition",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVlIzMTRYYVFwVnRNMEdJaUtGNWdVNFg4c2ZaS1d3M0dEbW1aVGZEY1VHSVBnaHlrZFlBcmhKSHBpVWw0dzlZdWNNOHR3Y1NIRUFOcm5PaWZQeWx6dVVpX0xpSHg4TUZPU29uRjNFQWk4dklTWVJSbnF3RHc5T29pUjRVXzVObkxNc3VzX29ETkxEYlpFQnk5dGktRUJIb3ZhVjhGaDNKdm1fTnpXX0EybWlnOThmZ9IBygFBVV95cUxONEo4engxVXJ4MGhIazczTGg1NDVhWFplWWlmcEQ1ckRLX3lvY1RwTXI1dFB5SFl4eGxLR2xEVXlxdlFaREdyQVptS3docEwtaDk0RENkZGtOcTBEZmdIaG1vSlVXV0tmMDBkaGhuWFNnZXprRk8zdkJkN2RBOUt5ckFfcFRsWjBDNXp4eDE0dHFZMzREQWZoeUxrMUZxQmIxMnU0ZGtOc0J1VWRDSVlrdnRUV1U1aVZndUtSVkZhcTRRaF9GVUZ0aVVn?oc=5",
+          "source": "Northern News Now",
           "source_type": "rss",
-          "published_at": "2026-08-25T22:05:00+00:00",
+          "published_at": "2026-08-26T00:30:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_76502857a4541c",
+      "topic": "companies",
+      "lead_title": "ExxonMobil Has Raised Its Dividend 43 Years in a Row. But the Raises Used to Be Bigger.",
+      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNEpZeVVXejZlckhYR0daRk0zckhMNjdMYjY3dXNQY3VoMnBrbmluVWlHblhHdHN4WmQ2VFJvVy00ZFczOXF1UEtvcFphcG9EcmtmMDZLbnJYLUVIcWUxWTJSRHpWQkxFNmdVbndITDAtd3ZXeWo5UXA5MGlGOWtwVWhfN0VVenIycFo1bk56Ny10UGxkRXI5QkdDR19UUmplM3o3YTBIdHBjMk1JOUczUERsQXM0d05yUDFXUnlmV2FNbHlDUDdV?oc=5",
+      "lead_source": "The Motley Fool",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T00:27:56+00:00",
+      "latest_seen": "2026-08-26T00:27:56+00:00",
+      "age_hours": 2.79,
+      "score": 61.83,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.33,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "001947108e9ea267",
+          "title": "ExxonMobil Has Raised Its Dividend 43 Years in a Row. But the Raises Used to Be Bigger.",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNEpZeVVXejZlckhYR0daRk0zckhMNjdMYjY3dXNQY3VoMnBrbmluVWlHblhHdHN4WmQ2VFJvVy00ZFczOXF1UEtvcFphcG9EcmtmMDZLbnJYLUVIcWUxWTJSRHpWQkxFNmdVbndITDAtd3ZXeWo5UXA5MGlGOWtwVWhfN0VVenIycFo1bk56Ny10UGxkRXI5QkdDR19UUmplM3o3YTBIdHBjMk1JOUczUERsQXM0d05yUDFXUnlmV2FNbHlDUDdV?oc=5",
+          "source": "The Motley Fool",
+          "source_type": "rss",
+          "published_at": "2026-08-26T00:27:56+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_3122d8d78744e5",
+      "topic": "companies",
+      "lead_title": "Chevron Plans To Blow Up Wind Turbines With Explosives This Week Near Casper",
+      "lead_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM0l0Q2VaejVYR09fNWtzTGk0U1BqT0pMR0ZpTmdrX2VjbjRvVkRkQTJIRlA5MXI3cXRaNnJvTDc4OWE1YUpGTEJ6T2ZuSl9mSi11QTlEMFllWjRvalVmUjAyQ0FkaTRZbzZ2blpGTV9NMXJsZWxDSjlqRE85dG1kRXJGWTZLVXFta2syZGN3MGl4aWcwZ1VLRnV4Q1hmM0ZKb0xQM0ZsSVhDbW5IZXQ3NjlUMXItR3h3SlJ5QThR?oc=5",
+      "lead_source": "Cowboy State Daily",
+      "canonical_entities": [
+        "Chevron"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-26T00:15:00+00:00",
+      "latest_seen": "2026-08-26T00:15:00+00:00",
+      "age_hours": 3.01,
+      "score": 61.7,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.2,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9659ed44f87cc4ed",
+          "title": "Chevron Plans To Blow Up Wind Turbines With Explosives This Week Near Casper",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOM0l0Q2VaejVYR09fNWtzTGk0U1BqT0pMR0ZpTmdrX2VjbjRvVkRkQTJIRlA5MXI3cXRaNnJvTDc4OWE1YUpGTEJ6T2ZuSl9mSi11QTlEMFllWjRvalVmUjAyQ0FkaTRZbzZ2blpGTV9NMXJsZWxDSjlqRE85dG1kRXJGWTZLVXFta2syZGN3MGl4aWcwZ1VLRnV4Q1hmM0ZKb0xQM0ZsSVhDbW5IZXQ3NjlUMXItR3h3SlJ5QThR?oc=5",
+          "source": "Cowboy State Daily",
+          "source_type": "rss",
+          "published_at": "2026-08-26T00:15:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_967c8e892c77db",
+      "topic": "companies",
+      "lead_title": "ExxonMobil advances $257.5 million high-performance resin plant near Baton Rouge",
+      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWkw2bldqUUtlNEhCTDA5bmNaeHNLYUpFcHBfeFlxemxnN04ybzRic3FCTzM5cGcwMEwwaUdKS29GN3J6RHM4UkRfOURONFFqTml4QXlPTEh0aWpZSTFwaEhQNE5oZnR1aUx6SmwzYnlyUUM1N3dHRUo4V3FEZ2JwLS1ub3duVXVZM2JhWHJn?oc=5",
+      "lead_source": "BIC Magazine",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-25T23:37:30+00:00",
+      "latest_seen": "2026-08-25T23:37:30+00:00",
+      "age_hours": 3.63,
+      "score": 61.32,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.82,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "f11c2fc62117c424",
+          "title": "ExxonMobil advances $257.5 million high-performance resin plant near Baton Rouge",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWkw2bldqUUtlNEhCTDA5bmNaeHNLYUpFcHBfeFlxemxnN04ybzRic3FCTzM5cGcwMEwwaUdKS29GN3J6RHM4UkRfOURONFFqTml4QXlPTEh0aWpZSTFwaEhQNE5oZnR1aUx6SmwzYnlyUUM1N3dHRUo4V3FEZ2JwLS1ub3duVXVZM2JhWHJn?oc=5",
+          "source": "BIC Magazine",
+          "source_type": "rss",
+          "published_at": "2026-08-25T23:37:30+00:00",
           "confidence": 0.65
         }
       ],
@@ -251,11 +652,11 @@
       ],
       "earliest_seen": "2026-08-25T15:15:47+00:00",
       "latest_seen": "2026-08-25T15:15:47+00:00",
-      "age_hours": 7.58,
-      "score": 59.45,
+      "age_hours": 11.99,
+      "score": 56.8,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 20.45,
+        "recency_points": 17.8,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -277,12 +678,54 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_61f6dbcdd33dcc",
+      "cluster_id": "c_cbf25fea211c22",
       "topic": "companies",
-      "lead_title": "Two planned datacentres will have higher UK carbon emissions than ExxonMobil, analysis finds",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYmdXTF9ialI0dk1IaVNKM1V2ZjJwUnBhM09WMmE0a0NyQmlOb3hhbVNvV0xIcEdhNWpFTGpZc2Z3NUN1Q1dUMzVYUEkxYzdpZzRlajRKSGRKX1dHUzFpeTB0dXAxYUU1ZGY4aTltX3hnM3RUQ05laFhmQ0t4UWZCOXI1bmpmcjJHQ1hoUXFTejhjdlJES01KdWZhOEVfN2s?oc=5",
-      "lead_source": "The Guardian",
+      "lead_title": "Yemen's Houthis say they attacked Najran airport, Aramco facilities in Saudi Arabia",
+      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaG03UE5RQVR1RzZTc3d2REJhZVRDUWZRbkZtcnZnUUFWMS1UenhvQnZ3SHozRTA2TEZoRW91X3pRQm5DbkdsYm5fRlJfN0I0YmZ3T3BlQ2YwUUQtS0JhWW44a0FTNThMcnVSU2xleExYVWJZV2VkVlNqUktGSHRpTjd1LXZBQjF2anhaazRHbDdySkNBQVM0U0JoVGxZT3cyUnJGZm0ta1c1TlljUVljMVR5NGdBSWotc2NxeW1FZ1ZGdE1nVXJwRVRsV2s?oc=5",
+      "lead_source": "Reuters",
       "canonical_entities": [
+        "Aramco"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-20T14:12:26+00:00",
+      "latest_seen": "2026-08-20T14:12:26+00:00",
+      "age_hours": 133.05,
+      "score": 49.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9fd9187c82cf2ede",
+          "title": "Yemen's Houthis say they attacked Najran airport, Aramco facilities in Saudi Arabia",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNaG03UE5RQVR1RzZTc3d2REJhZVRDUWZRbkZtcnZnUUFWMS1UenhvQnZ3SHozRTA2TEZoRW91X3pRQm5DbkdsYm5fRlJfN0I0YmZ3T3BlQ2YwUUQtS0JhWW44a0FTNThMcnVSU2xleExYVWJZV2VkVlNqUktGSHRpTjd1LXZBQjF2anhaazRHbDdySkNBQVM0U0JoVGxZT3cyUnJGZm0ta1c1TlljUVljMVR5NGdBSWotc2NxeW1FZ1ZGdE1nVXJwRVRsV2s?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-20T14:12:26+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e3b4088e4a74c2",
+      "topic": "companies",
+      "lead_title": "ExxonMobil vs. Chevron: We Compared 10 Years of Dividend Growth And Here’s the Winner",
+      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRzdDb3pFQXJvY3ExOFQzejBkTFRUQjFwRkNoZ0RqQlJvYWlCdXViS0JydHpyb01RaVNrV0RTY0JOczlWYTdDQnVPQkhJNVFSeUtLbVJsV3ZXVUJqOEt4VC14bUtvYW1rX2U5c1Rrd3lXMTRnUWpoYmRtOHhRdURwSzJhaWU4bnZ6S3ltLU52cDV3WXVh?oc=5",
+      "lead_source": "Yahoo Finance",
+      "canonical_entities": [
+        "Chevron",
         "Exxon"
       ],
       "source_count": 1,
@@ -290,72 +733,20 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-08-25T18:57:00+00:00",
-      "latest_seen": "2026-08-25T18:57:00+00:00",
-      "age_hours": 3.9,
-      "score": 57.16,
+      "earliest_seen": "2026-08-24T17:30:23+00:00",
+      "latest_seen": "2026-08-24T17:30:23+00:00",
+      "age_hours": 33.75,
+      "score": 48.75,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.66,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "recency_points": 4.75,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
-        {
-          "headline_id": "b93d9da49c6b4d43",
-          "title": "Two planned datacentres will have higher UK carbon emissions than ExxonMobil, analysis finds",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYmdXTF9ialI0dk1IaVNKM1V2ZjJwUnBhM09WMmE0a0NyQmlOb3hhbVNvV0xIcEdhNWpFTGpZc2Z3NUN1Q1dUMzVYUEkxYzdpZzRlajRKSGRKX1dHUzFpeTB0dXAxYUU1ZGY4aTltX3hnM3RUQ05laFhmQ0t4UWZCOXI1bmpmcjJHQ1hoUXFTejhjdlJES01KdWZhOEVfN2s?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-08-25T18:57:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_9a02a840408fc3",
-      "topic": "companies",
-      "lead_title": "Zacks Market Edge Highlights: ExxonMobil, TotalEnergies, Chevron",
-      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVNnRnpHekV4SGdXOGpMaVJWVzdKRTZxRXFURlcwZXVhUDJiQ290UGw1RThiUGlNeXVnbFBsZWk2OU1vZUV5MHdiU1lvRkU5NlFOMWFVR2ZiMDN6MHp3UmhRMi15alVZbkdRUnVtN2xzYVlRdWEybVdoYVFXQjJJNHJwY1h3cXpiQkp1ZUdGX1dOY3JoTWpZTDVTRS14NGZ4RmRLNg?oc=5",
-      "lead_source": "Zacks Investment Research",
-      "canonical_entities": [
-        "Chevron",
-        "Exxon",
-        "TotalEnergies"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-24T17:30:23+00:00",
-      "latest_seen": "2026-08-25T08:01:32+00:00",
-      "age_hours": 14.82,
-      "score": 54.86,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 16.11,
-        "source_quality_points": 21.75,
-        "entity_relevance_points": 12,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "b2958024d2a26097",
-          "title": "Zacks Market Edge Highlights: ExxonMobil, TotalEnergies, Chevron",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQVNnRnpHekV4SGdXOGpMaVJWVzdKRTZxRXFURlcwZXVhUDJiQ290UGw1RThiUGlNeXVnbFBsZWk2OU1vZUV5MHdiU1lvRkU5NlFOMWFVR2ZiMDN6MHp3UmhRMi15alVZbkdRUnVtN2xzYVlRdWEybVdoYVFXQjJJNHJwY1h3cXpiQkp1ZUdGX1dOY3JoTWpZTDVTRS14NGZ4RmRLNg?oc=5",
-          "source": "Zacks Investment Research",
-          "source_type": "rss",
-          "published_at": "2026-08-25T08:01:32+00:00",
-          "confidence": 0.75
-        },
         {
           "headline_id": "66363971371c0267",
           "title": "ExxonMobil vs. Chevron: We Compared 10 Years of Dividend Growth And Here’s the Winner",
@@ -385,16 +776,16 @@
       ],
       "earliest_seen": "2026-08-25T11:30:00+00:00",
       "latest_seen": "2026-08-25T11:30:00+00:00",
-      "age_hours": 11.35,
-      "score": 53.29,
+      "age_hours": 15.76,
+      "score": 45.65,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.19,
+        "recency_points": 15.55,
         "source_quality_points": 26.1,
         "entity_relevance_points": 4,
-        "materiality_points": 0.0
+        "materiality_points": -5.0
       },
-      "novelty": "ongoing",
+      "novelty": "decaying",
       "first_seen_cluster": false,
       "evidence": [
         {
@@ -405,293 +796,6 @@
           "source_type": "rss",
           "published_at": "2026-08-25T11:30:00+00:00",
           "confidence": 0.87
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1e2924d83f5511",
-      "topic": "companies",
-      "lead_title": "Regulators find Richmond's Chevron refinery emissions have elevated risks for cancer, other health effects",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVHJsNk5OU1RXX2ZlclJjX1dmS2s5LWUyREtIdTg3ZFk0eTRyX1BSOUN2SVp3QTBKeDhZSlY1ZUpuX1V0T1RBMTNJcllhaG1tblN2ZmJRZ1NjREJqQm9qRHdObGdzbmJIRG53ZXk4b1NDR3FNd2ZybHZCUDNDOFREeHlNOFFxaVV1MEROb0s0TTVUUFRQWkNwbUlMdGxza01MckRQdERBYjRUUHlFbXhJT2dDbGtvYVFtQlhB?oc=5",
-      "lead_source": "CBS News",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-25T21:31:00+00:00",
-      "latest_seen": "2026-08-25T21:31:00+00:00",
-      "age_hours": 1.33,
-      "score": 52.7,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.2,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "e66bb4ed8f980af4",
-          "title": "Regulators find Richmond's Chevron refinery emissions have elevated risks for cancer, other health effects",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVHJsNk5OU1RXX2ZlclJjX1dmS2s5LWUyREtIdTg3ZFk0eTRyX1BSOUN2SVp3QTBKeDhZSlY1ZUpuX1V0T1RBMTNJcllhaG1tblN2ZmJRZ1NjREJqQm9qRHdObGdzbmJIRG53ZXk4b1NDR3FNd2ZybHZCUDNDOFREeHlNOFFxaVV1MEROb0s0TTVUUFRQWkNwbUlMdGxza01MckRQdERBYjRUUHlFbXhJT2dDbGtvYVFtQlhB?oc=5",
-          "source": "CBS News",
-          "source_type": "rss",
-          "published_at": "2026-08-25T21:31:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7b48bbb6ad27be",
-      "topic": "companies",
-      "lead_title": "ExxonMobil (NYSE:XOM) Trading Down 2% - Here's Why",
-      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaENXcUhrR0FjQ085a05KbkR0bVZHQXcxQ0FoUWhER0xQU3JMTFF3MVUwbXRkeWNXSFR5YnBQcHU0blNpajRERG1zQ1EydnJfVUNDMUxzX1d0LXNUdFJkR1REZmxIMWNWQWRCdHBzQ3hZMTRXNWVQeVpxRXgzaVhTQmhMTkM5Tmx0T3o5ZGthYUJNUG5weVRSSDhKNzNxSlh1YUxDYXVWWQ?oc=5",
-      "lead_source": "MarketBeat",
-      "canonical_entities": [
-        "Exxon"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-25T21:27:35+00:00",
-      "latest_seen": "2026-08-25T21:27:35+00:00",
-      "age_hours": 1.39,
-      "score": 52.67,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.17,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "bf4db1c70f1a8235",
-          "title": "ExxonMobil (NYSE:XOM) Trading Down 2% - Here's Why",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaENXcUhrR0FjQ085a05KbkR0bVZHQXcxQ0FoUWhER0xQU3JMTFF3MVUwbXRkeWNXSFR5YnBQcHU0blNpajRERG1zQ1EydnJfVUNDMUxzX1d0LXNUdFJkR1REZmxIMWNWQWRCdHBzQ3hZMTRXNWVQeVpxRXgzaVhTQmhMTkM5Tmx0T3o5ZGthYUJNUG5weVRSSDhKNzNxSlh1YUxDYXVWWQ?oc=5",
-          "source": "MarketBeat",
-          "source_type": "rss",
-          "published_at": "2026-08-25T21:27:35+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_85261cacb583b3",
-      "topic": "companies",
-      "lead_title": "Residents Near Chevron’s Richmond Refinery Face Higher Risk of Cancer, Air District Says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU2wwWHJNSVo3ZWttc3lhV01lNkZVbXZ5UlhFZ0ZIRnlLVG5wRERqR0tsMm1HSmdlMGo0RG1rNnV2WHNNSzNvQWtselRrZnlvaWtnUGtJeUZWSDduYXZLMlJtdGVRUlBQLTBmV3ZWSzR6QzlxMzlMTEt2UXJiSHRTRnZmX3ZjZnFDYnZIWnJlNnduYkxVNWQ3X3lleXZhS19SYUxrMEdoR21QdFBYUEFjcFg2MTZTb1FodDhGSnpuRmk?oc=5",
-      "lead_source": "KQED",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-25T20:03:48+00:00",
-      "latest_seen": "2026-08-25T20:03:48+00:00",
-      "age_hours": 2.78,
-      "score": 51.83,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.33,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "ee8cade1cc84026e",
-          "title": "Residents Near Chevron’s Richmond Refinery Face Higher Risk of Cancer, Air District Says",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPU2wwWHJNSVo3ZWttc3lhV01lNkZVbXZ5UlhFZ0ZIRnlLVG5wRERqR0tsMm1HSmdlMGo0RG1rNnV2WHNNSzNvQWtselRrZnlvaWtnUGtJeUZWSDduYXZLMlJtdGVRUlBQLTBmV3ZWSzR6QzlxMzlMTEt2UXJiSHRTRnZmX3ZjZnFDYnZIWnJlNnduYkxVNWQ3X3lleXZhS19SYUxrMEdoR21QdFBYUEFjcFg2MTZTb1FodDhGSnpuRmk?oc=5",
-          "source": "KQED",
-          "source_type": "rss",
-          "published_at": "2026-08-25T20:03:48+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_5ac3f6b8c1eac3",
-      "topic": "companies",
-      "lead_title": "Chevron Falls as Oil Surrenders the Iran Premium",
-      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON2gxN1RCTGxHSV9INkx6VVdCUTRSQUJyeGZVRUp6djZuZmRkcE9oeEh2WW0tU0p5SWhjVS1nQ2J4SjVUNmh1Q0ZvczM3empQRHd5Q1JtX2Zwd3BXR282clBaR0tJWHVZSHZsaXVPWnZENHF2U1Q1UXE1M2g2dTlPQS0yb3FkVUFoLUhWTnItSjA?oc=5",
-      "lead_source": "GuruFocus",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-25T19:00:58+00:00",
-      "latest_seen": "2026-08-25T19:00:58+00:00",
-      "age_hours": 3.83,
-      "score": 51.2,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.7,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "ad8a5350a8c1b7d0",
-          "title": "Chevron Falls as Oil Surrenders the Iran Premium",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxON2gxN1RCTGxHSV9INkx6VVdCUTRSQUJyeGZVRUp6djZuZmRkcE9oeEh2WW0tU0p5SWhjVS1nQ2J4SjVUNmh1Q0ZvczM3empQRHd5Q1JtX2Zwd3BXR282clBaR0tJWHVZSHZsaXVPWnZENHF2U1Q1UXE1M2g2dTlPQS0yb3FkVUFoLUhWTnItSjA?oc=5",
-          "source": "GuruFocus",
-          "source_type": "rss",
-          "published_at": "2026-08-25T19:00:58+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3f6b5ea6c439f8",
-      "topic": "companies",
-      "lead_title": "ExxonMobil says operations resume at Guyana vessel after fire",
-      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ3RmYlNRd1VQcFpHLWJoQWJIREt3Q2VCMHhWNmItRmpaRllLaTYxTW11bGY3Mm5wNV80Sml2QUJBWjNEVVdiVEgxa3F0NlI0clFTSTF4NUdTWW1ILW9rNFFRNHRINTI3SFFrMmp5Zm1sazc0dE9FSWtLdU54N3RXODY2YThFR0tRV2lkdFM3WTlSMG1ab2lya3NHMnFJNHdoVUVJTnB0dHoyNFoyX2JGZDFCREJZUTh2eVJ6cnhReTVwSzlJSTB4bjJsUQ?oc=5",
-      "lead_source": "TradingView",
-      "canonical_entities": [
-        "Exxon"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-25T18:44:19+00:00",
-      "latest_seen": "2026-08-25T18:44:19+00:00",
-      "age_hours": 4.11,
-      "score": 51.04,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.54,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "45d0b6ae9697f5e6",
-          "title": "ExxonMobil says operations resume at Guyana vessel after fire",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ3RmYlNRd1VQcFpHLWJoQWJIREt3Q2VCMHhWNmItRmpaRllLaTYxTW11bGY3Mm5wNV80Sml2QUJBWjNEVVdiVEgxa3F0NlI0clFTSTF4NUdTWW1ILW9rNFFRNHRINTI3SFFrMmp5Zm1sazc0dE9FSWtLdU54N3RXODY2YThFR0tRV2lkdFM3WTlSMG1ab2lya3NHMnFJNHdoVUVJTnB0dHoyNFoyX2JGZDFCREJZUTh2eVJ6cnhReTVwSzlJSTB4bjJsUQ?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-08-25T18:44:19+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_303775b0bf0dd5",
-      "topic": "companies",
-      "lead_title": "Chevron stock turns heads as company strikes fresh oil",
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdlR2aEJ4R2F5cTN3NnZDWkRFRU9pS3NsLWFJSkZ5U2JtR0dVdkFfQXZjUzkxNEdaSW0xdUhOVTJWSDE0dnhQeHF4U19wcXc3WnZObS1Rb0hEcnd4bUNLeVVVRDN1X3lZWXlNXzN5NnU3bDFfNnRPei0tSldLUGk1OTZRUG0zR1JuSmNpQkJzZ242N2xV?oc=5",
-      "lead_source": "thestreet.com",
-      "canonical_entities": [
-        "Chevron"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-25T18:31:35+00:00",
-      "latest_seen": "2026-08-25T18:31:35+00:00",
-      "age_hours": 4.32,
-      "score": 50.91,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.41,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "4686871d40a8948f",
-          "title": "Chevron stock turns heads as company strikes fresh oil",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdlR2aEJ4R2F5cTN3NnZDWkRFRU9pS3NsLWFJSkZ5U2JtR0dVdkFfQXZjUzkxNEdaSW0xdUhOVTJWSDE0dnhQeHF4U19wcXc3WnZObS1Rb0hEcnd4bUNLeVVVRDN1X3lZWXlNXzN5NnU3bDFfNnRPei0tSldLUGk1OTZRUG0zR1JuSmNpQkJzZ242N2xV?oc=5",
-          "source": "thestreet.com",
-          "source_type": "rss",
-          "published_at": "2026-08-25T18:31:35+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_fc7f71fe6fa0a5",
-      "topic": "companies",
-      "lead_title": "Halliburton wins contract from BP for Bumerangue appraisal campaign (NYSE:HAL)",
-      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczZNUVo1ZG5ocmdTMjdFWDNiUDhTZklpVXNQaUc0Ulg4THBpQUg1bExhWFAxeXJGVS0ydC0wUjg2akVtdTR4Vk9UYVdkeWh1eFhadjRtX1MwVllaZjhlLTU3OEExQjliUVo3WW4ySTdFN0dPT1ViS1RVSWxfQmNuSWVUdUNiMUhlbDU1Rm1XSkRjakZOaXg0dFR2b21YMU1KcWxieXBuMmE?oc=5",
-      "lead_source": "Seeking Alpha",
-      "canonical_entities": [
-        "BP"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-25T17:57:52+00:00",
-      "latest_seen": "2026-08-25T17:57:52+00:00",
-      "age_hours": 4.88,
-      "score": 50.57,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 22.07,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 0.0
-      },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "d8e44117b21cb50a",
-          "title": "Halliburton wins contract from BP for Bumerangue appraisal campaign (NYSE:HAL)",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczZNUVo1ZG5ocmdTMjdFWDNiUDhTZklpVXNQaUc0Ulg4THBpQUg1bExhWFAxeXJGVS0ydC0wUjg2akVtdTR4Vk9UYVdkeWh1eFhadjRtX1MwVllaZjhlLTU3OEExQjliUVo3WW4ySTdFN0dPT1ViS1RVSWxfQmNuSWVUdUNiMUhlbDU1Rm1XSkRjakZOaXg0dFR2b21YMU1KcWxieXBuMmE?oc=5",
-          "source": "Seeking Alpha",
-          "source_type": "rss",
-          "published_at": "2026-08-25T17:57:52+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -713,11 +817,11 @@
       ],
       "earliest_seen": "2026-08-24T22:47:00+00:00",
       "latest_seen": "2026-08-24T22:47:00+00:00",
-      "age_hours": 24.06,
-      "score": 44.56,
+      "age_hours": 28.47,
+      "score": 41.92,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.56,
+        "recency_points": 7.92,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -754,11 +858,11 @@
       ],
       "earliest_seen": "2026-08-24T18:03:43+00:00",
       "latest_seen": "2026-08-24T18:03:43+00:00",
-      "age_hours": 28.78,
-      "score": 41.73,
+      "age_hours": 33.19,
+      "score": 39.08,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.73,
+        "recency_points": 5.08,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -795,11 +899,11 @@
       ],
       "earliest_seen": "2026-08-24T13:29:07+00:00",
       "latest_seen": "2026-08-24T13:29:07+00:00",
-      "age_hours": 33.36,
-      "score": 38.98,
+      "age_hours": 37.77,
+      "score": 36.34,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.98,
+        "recency_points": 2.34,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -836,11 +940,11 @@
       ],
       "earliest_seen": "2026-08-24T12:43:52+00:00",
       "latest_seen": "2026-08-24T12:43:52+00:00",
-      "age_hours": 34.11,
-      "score": 38.53,
+      "age_hours": 38.52,
+      "score": 35.89,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.53,
+        "recency_points": 1.89,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -855,6 +959,47 @@
           "source": "Reuters",
           "source_type": "rss",
           "published_at": "2026-08-24T12:43:52+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_19fcc2130ae2c9",
+      "topic": "companies",
+      "lead_title": "ExxonMobil temporarily halts operations at Guyana site after fire, Bloomberg News reports",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUE0S1c5WWY5Tzl5dHVndnR4SDl4cGd1bjQxcGdPQ1BJbW1neFJhZEtGbk5aRnFueWtWQWVqNE5YVVZYdndrbEJwQlJ4bkpXcF9tOWtuWE9MNTAzXzFsV2Z1Z1NvbmdEbWxGUUhOcGVQQzNkS2llQURhb3phM1dpMWNDS0s5My1NVktjMk5WNUxhX0JXQk42WHpTVUcxZ1lkU05lWVQ4ZFM2UVpuMWtYZWFjVmlQaTJ2b2pBNGNRelg4dGRrSXltRQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "Exxon"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-24T00:11:00+00:00",
+      "latest_seen": "2026-08-24T00:11:00+00:00",
+      "age_hours": 51.07,
+      "score": 34.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "3a1443c1fa8b9240",
+          "title": "ExxonMobil temporarily halts operations at Guyana site after fire, Bloomberg News reports",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUE0S1c5WWY5Tzl5dHVndnR4SDl4cGd1bjQxcGdPQ1BJbW1neFJhZEtGbk5aRnFueWtWQWVqNE5YVVZYdndrbEJwQlJ4bkpXcF9tOWtuWE9MNTAzXzFsV2Z1Z1NvbmdEbWxGUUhOcGVQQzNkS2llQURhb3phM1dpMWNDS0s5My1NVktjMk5WNUxhX0JXQk42WHpTVUcxZ1lkU05lWVQ4ZFM2UVpuMWtYZWFjVmlQaTJ2b2pBNGNRelg4dGRrSXltRQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-08-24T00:11:00+00:00",
           "confidence": 1.0
         }
       ],
@@ -877,11 +1022,11 @@
       ],
       "earliest_seen": "2026-08-24T12:49:00+00:00",
       "latest_seen": "2026-08-24T12:49:00+00:00",
-      "age_hours": 34.03,
-      "score": 34.08,
+      "age_hours": 38.44,
+      "score": 31.44,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.58,
+        "recency_points": 1.94,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -897,88 +1042,6 @@
           "source_type": "rss",
           "published_at": "2026-08-24T12:49:00+00:00",
           "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_19fcc2130ae2c9",
-      "topic": "companies",
-      "lead_title": "ExxonMobil temporarily halts operations at Guyana site after fire, Bloomberg News reports",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUE0S1c5WWY5Tzl5dHVndnR4SDl4cGd1bjQxcGdPQ1BJbW1neFJhZEtGbk5aRnFueWtWQWVqNE5YVVZYdndrbEJwQlJ4bkpXcF9tOWtuWE9MNTAzXzFsV2Z1Z1NvbmdEbWxGUUhOcGVQQzNkS2llQURhb3phM1dpMWNDS0s5My1NVktjMk5WNUxhX0JXQk42WHpTVUcxZ1lkU05lWVQ4ZFM2UVpuMWtYZWFjVmlQaTJ2b2pBNGNRelg4dGRrSXltRQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "Exxon"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-24T00:11:43+00:00",
-      "latest_seen": "2026-08-24T00:11:43+00:00",
-      "age_hours": 46.65,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "3a1443c1fa8b9240",
-          "title": "ExxonMobil temporarily halts operations at Guyana site after fire, Bloomberg News reports",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNUE0S1c5WWY5Tzl5dHVndnR4SDl4cGd1bjQxcGdPQ1BJbW1neFJhZEtGbk5aRnFueWtWQWVqNE5YVVZYdndrbEJwQlJ4bkpXcF9tOWtuWE9MNTAzXzFsV2Z1Z1NvbmdEbWxGUUhOcGVQQzNkS2llQURhb3phM1dpMWNDS0s5My1NVktjMk5WNUxhX0JXQk42WHpTVUcxZ1lkU05lWVQ4ZFM2UVpuMWtYZWFjVmlQaTJ2b2pBNGNRelg4dGRrSXltRQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-24T00:11:43+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7f81e2a8ad5a3d",
-      "topic": "companies",
-      "lead_title": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbHNxUXpMLWp6eDNUendUcVlMS01NTnk0eVNqN1FlYnBwdlgwMElUTXlfR3paamtTNFhBXzJULXlfUDBkaHFuU3poamlYVHhBMGdEQ3ZiWTdtR2dpQng4aE1CMERFWFVGLXBtSTFLY2VpODJKN3paamJSUDV5U1JYUHZIVGNILWJiZzluejV5Vy12dURhVmRfVjdLVTFETXMyRE9hUG1Da2JUcGhISGM4clB0LV9CbXVfeVBlamhRNTA5cjQ1d1hpWA?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "Aramco"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-08-20T16:53:58+00:00",
-      "latest_seen": "2026-08-20T16:53:58+00:00",
-      "age_hours": 125.95,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "df0d494c62558dd1",
-          "title": "Saudi Aramco sells at least 4 million barrels of crude loading outside Hormuz to China, sources say",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbHNxUXpMLWp6eDNUendUcVlMS01NTnk0eVNqN1FlYnBwdlgwMElUTXlfR3paamtTNFhBXzJULXlfUDBkaHFuU3poamlYVHhBMGdEQ3ZiWTdtR2dpQng4aE1CMERFWFVGLXBtSTFLY2VpODJKN3paamJSUDV5U1JYUHZIVGNILWJiZzluejV5Vy12dURhVmRfVjdLVTFETXMyRE9hUG1Da2JUcGhISGM4clB0LV9CbXVfeVBlamhRNTA5cjQ1d1hpWA?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-08-20T16:53:58+00:00",
-          "confidence": 1.0
         }
       ],
       "top_tier": false,
