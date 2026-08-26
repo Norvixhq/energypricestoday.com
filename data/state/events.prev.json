@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-08-26T04:08:47.805314+00:00",
-  "previous_generated_at": "2026-08-26T03:15:22.043338+00:00",
-  "resolver_run_count": 161,
+  "generated_at": "2026-08-26T05:01:10.362891+00:00",
+  "previous_generated_at": "2026-08-26T04:08:47.805314+00:00",
+  "resolver_run_count": 162,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,18 +12,17 @@
       "status_detail": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.94,
+      "confidence": 0.96,
       "last_confirmed": "2026-08-26T02:35:00+00:00",
-      "source_count": 7,
+      "source_count": 6,
       "summary_short": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
       "summary_long": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz. Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
       "evidence_cluster_ids": [
         "c_af5a649e128972",
         "c_e9235c9dc39915",
-        "c_49d8a7e31f52a5",
-        "c_7d24fe29b83136"
+        "c_49d8a7e31f52a5"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -40,11 +39,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_af5a649e12 → OPEN (kw='reopen', weight=0.70)",
-        "cluster c_e9235c9dc3 → OPEN (kw='cleared', weight=0.36)",
-        "cluster c_49d8a7e31f → OPEN (kw='reopen', weight=0.54)",
-        "cluster c_7d24fe29b8 → CONTESTED (kw='attack', weight=0.10)",
-        "winning=OPEN (1.60/1.70), conf=0.94"
+        "cluster c_af5a649e12 → OPEN (kw='reopen', weight=0.68)",
+        "cluster c_e9235c9dc3 → OPEN (kw='cleared', weight=0.34)",
+        "cluster c_49d8a7e31f → OPEN (kw='reopen', weight=0.53)",
+        "winning=OPEN (1.56/1.56), conf=0.96"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,16 +54,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-08-26T02:35:00+00:00",
+      "last_confirmed": "2026-08-26T04:00:05+00:00",
       "source_count": 9,
       "summary_short": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
       "summary_long": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz. Live Updates: Latest from Israel, Iran, and the Middle East",
       "evidence_cluster_ids": [
         "c_af5a649e128972",
         "c_363ceaa581727c",
+        "c_12b462eb7b04ef",
         "c_8fc84f03e56c96",
-        "c_1f4fb6e549fc64",
-        "c_10be3720247964"
+        "c_1f4fb6e549fc64"
       ],
       "evidence_count": 6,
       "affected_pages": [
@@ -151,14 +149,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_31a694e15d28d6",
-      "lead_title": "WTI Crude Oil Price Forecast: Oil Plunges Nearly 5% as US-Iran Talks Expected to Resume, Will It Fall Further?",
-      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMXAwQm1OZVFEel9VWHEtYWE3RkNDWXB2OG0tejFjcFZWeGdtT2tySW15YndjU3VTMm9lQWY5d0dHVjhuVU9zSm5HX2QtdzloT2ZaZlU0YU9xNnh5ZHF5UFdmak1JMVFYS2RqbXYtVEVrakduUWVyRFRMVkZrYXRwVGhicGt6cVJRX3h2M0dnWXJYd2EwNWk5LVFFbUQ4ZXphQ1NibmoxV0E4WkdkV3hXTUVjNHJlOWZMR2hnZEhHb2U1R0JqQXdyNkllM0lWM2JaLVZrUWtHbw?oc=5",
-      "lead_source": "TradingKey",
+      "cluster_id": "c_a9ec9a42632e21",
+      "lead_title": "Japan plans no crude oil release from national reserve in September, October",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXNmTnlUNEYwMDlmQndWQ0FPalZxbzd4dWJ6aHBZMy1ndFF0ODh5eTluVkJnb3F1OHdhTXMwV3JpUmxWMEVvcURrMW5Xa1E0UWYtM3FzY0lvSmFxMGhaSlZJWEdBcDFmeWJwYmwtWGtZclE1OXNJNmJfaHRnUk9YdmRIcDNJSXZ1bVZ1dEU5Vk1LeFNWUUc0SWlkSFBlNXhvT3lyZnpSdDdlUGpXMGNlRS0yWXM2SDZtSlhF?oc=5",
+      "lead_source": "Reuters",
       "topic": "oil",
-      "score": 89.16,
-      "novelty": "new",
-      "source_count": 4,
+      "score": 86.59,
+      "novelty": "ongoing",
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -170,7 +168,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.94, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.96, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

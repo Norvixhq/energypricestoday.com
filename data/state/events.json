@@ -1,26 +1,26 @@
 {
   "version": 2,
-  "generated_at": "2026-08-26T05:01:10.362891+00:00",
-  "previous_generated_at": "2026-08-26T04:08:47.805314+00:00",
-  "resolver_run_count": 162,
+  "generated_at": "2026-08-26T05:45:02.450734+00:00",
+  "previous_generated_at": "2026-08-26T05:01:10.362891+00:00",
+  "resolver_run_count": 163,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "OPEN",
-      "status_detail": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
+      "status_detail": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.96,
+      "confidence": 0.965,
       "last_confirmed": "2026-08-26T02:35:00+00:00",
-      "source_count": 6,
-      "summary_short": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
-      "summary_long": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz. Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
+      "source_count": 5,
+      "summary_short": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz",
+      "summary_long": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz. Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz",
       "evidence_cluster_ids": [
-        "c_af5a649e128972",
+        "c_d16fac4126614c",
         "c_e9235c9dc39915",
-        "c_49d8a7e31f52a5"
+        "c_3d1d0906150efa"
       ],
       "evidence_count": 3,
       "affected_pages": [
@@ -39,10 +39,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_af5a649e12 → OPEN (kw='reopen', weight=0.68)",
-        "cluster c_e9235c9dc3 → OPEN (kw='cleared', weight=0.34)",
-        "cluster c_49d8a7e31f → OPEN (kw='reopen', weight=0.53)",
-        "winning=OPEN (1.56/1.56), conf=0.96"
+        "cluster c_d16fac4126 → OPEN (kw='reopen', weight=0.73)",
+        "cluster c_e9235c9dc3 → OPEN (kw='cleared', weight=0.33)",
+        "cluster c_3d1d090615 → OPEN (kw='reopen', weight=0.60)",
+        "winning=OPEN (1.67/1.67), conf=0.965"
       ]
     },
     "us_iran_ceasefire": {
@@ -55,17 +55,16 @@
       "risk_level": "ELEVATED",
       "confidence": 0.5,
       "last_confirmed": "2026-08-26T04:00:05+00:00",
-      "source_count": 9,
-      "summary_short": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz",
-      "summary_long": "Oil prices slide 2% on Iran-Oman talks to reopen Strait of Hormuz. Live Updates: Latest from Israel, Iran, and the Middle East",
+      "source_count": 6,
+      "summary_short": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz",
+      "summary_long": "Oil prices fall $2 on Iran-Oman talks to reopen Strait of Hormuz. Live Updates: Latest from Israel, Iran, and the Middle East",
       "evidence_cluster_ids": [
-        "c_af5a649e128972",
+        "c_d16fac4126614c",
         "c_363ceaa581727c",
-        "c_12b462eb7b04ef",
         "c_8fc84f03e56c96",
         "c_1f4fb6e549fc64"
       ],
-      "evidence_count": 6,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -154,7 +153,7 @@
       "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMXNmTnlUNEYwMDlmQndWQ0FPalZxbzd4dWJ6aHBZMy1ndFF0ODh5eTluVkJnb3F1OHdhTXMwV3JpUmxWMEVvcURrMW5Xa1E0UWYtM3FzY0lvSmFxMGhaSlZJWEdBcDFmeWJwYmwtWGtZclE1OXNJNmJfaHRnUk9YdmRIcDNJSXZ1bVZ1dEU5Vk1LeFNWUUc0SWlkSFBlNXhvT3lyZnpSdDdlUGpXMGNlRS0yWXM2SDZtSlhF?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 86.59,
+      "score": 86.15,
       "novelty": "ongoing",
       "source_count": 7,
       "confidence": 0.95,
@@ -168,7 +167,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.96, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.965, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
