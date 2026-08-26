@@ -2,58 +2,58 @@
   "date": "2026-08-26",
   "apis": {
     "oilpriceapi": {
-      "calls_today": 2,
-      "succeeded": 2,
+      "calls_today": 3,
+      "succeeded": 3,
       "failed": 0,
       "limit_per_day": 10000,
       "pct_of_limit": 0.0,
       "endpoints": {
-        "prices/all": 2
+        "prices/all": 3
       },
-      "last_call": "2026-08-26T04:05:17.067672+00:00"
+      "last_call": "2026-08-26T04:57:09.398576+00:00"
     },
     "aaa": {
-      "calls_today": 2,
-      "succeeded": 2,
+      "calls_today": 3,
+      "succeeded": 3,
       "failed": 0,
       "limit_per_day": 500,
-      "pct_of_limit": 0.4,
+      "pct_of_limit": 0.6,
       "endpoints": {
-        "gasprices": 2
+        "gasprices": 3
       },
-      "last_call": "2026-08-26T04:05:17.289384+00:00"
+      "last_call": "2026-08-26T04:57:09.688656+00:00"
     },
     "eia": {
-      "calls_today": 8,
+      "calls_today": 12,
       "succeeded": 2,
-      "failed": 6,
+      "failed": 10,
       "limit_per_day": 5000,
       "pct_of_limit": 0.2,
       "endpoints": {
-        "gasoline/regular": 2,
-        "gasoline/mid": 2,
-        "gasoline/premium": 2,
-        "gasoline/diesel": 2
+        "gasoline/regular": 3,
+        "gasoline/mid": 3,
+        "gasoline/premium": 3,
+        "gasoline/diesel": 3
       },
-      "last_call": "2026-08-26T04:05:48.619814+00:00"
+      "last_call": "2026-08-26T04:58:10.443007+00:00"
     },
     "google_news": {
-      "calls_today": 20,
-      "succeeded": 20,
+      "calls_today": 30,
+      "succeeded": 30,
       "failed": 0,
       "limit_per_day": 5000,
-      "pct_of_limit": 0.4,
+      "pct_of_limit": 0.6,
       "endpoints": {},
-      "last_call": "2026-08-26T04:08:32.475608+00:00"
+      "last_call": "2026-08-26T05:00:52.093571+00:00"
     },
     "gdelt": {
-      "calls_today": 20,
+      "calls_today": 30,
       "succeeded": 0,
-      "failed": 20,
+      "failed": 30,
       "limit_per_day": 500,
-      "pct_of_limit": 4.0,
+      "pct_of_limit": 6.0,
       "endpoints": {},
-      "last_call": "2026-08-26T04:08:47.641078+00:00"
+      "last_call": "2026-08-26T05:01:10.226964+00:00"
     }
   }
 }
