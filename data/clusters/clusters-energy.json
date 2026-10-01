@@ -1,41 +1,51 @@
 {
   "topic": "energy",
-  "generated_at": "2026-10-01T06:07:07.846749+00:00",
+  "generated_at": "2026-10-01T13:24:58.546440+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 24,
   "clusters": [
     {
-      "cluster_id": "c_0601265fec6999",
+      "cluster_id": "c_7ca877b29fad19",
       "topic": "energy",
-      "lead_title": "Oil Prices Edge Lower on Signs of Rising Crude Exports From Middle East",
-      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZlR2WV9iODNNQ2VDUUdvS1l0Z1lUZ3J0SG8xLXZvczBhTHFsQXBwUmVsY1ZyRmdzbHp2U3hrRDJSRXVDSU5lMDI0OUdqY2FkTWdBWnd3QkZVQkFYcTJjbUFCM3ZBTWh2bGg3NXRtS3dhS3hzb1RBUEFCSkJhZGpFZ3lOc1lyQVNWdEVJYWZ5SkNSV0lldnZOWjlUNmp5eklUay1VdVJxWkM5QkpyT0N3clk5akRaQTF6NEV3YUNfS2tZenVMdmNn?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude back above $100",
+      "lead_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yODZYTkUzZ09LMVducjBvQ1czQUc2WFdZNmVuUUpDVnpZMEJfMGhpWkkzQlRLUGprcDNielYycW8xYU5peDhhcy1pbzNJUVo1YkV0MjktUVliQ3NTc1ZNOXpDSUtubXZIYnBGOS04NDTSAXZBVV95cUxOQU83cmR3ZHl6YWl1V2RNcFRXbzJqRkFKZktLMkVobTBKMGxibmxDcEQwWjFqdXFQcFozSUVpVUhvZF85SDNCQzZxVk42RjdTWXdWcXd6SkNmWWlLVy1iT0l0NHlRUHNJOG5UZEQ5NlhoMHNmWnVB?oc=5",
+      "lead_source": "CNBC",
       "canonical_entities": [
+        "Brent",
         "crude",
         "oil"
       ],
-      "source_count": 3,
-      "distinct_publishers": 2,
+      "source_count": 6,
+      "distinct_publishers": 5,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-09-29T18:59:00+00:00",
-      "latest_seen": "2026-10-01T05:45:53+00:00",
-      "age_hours": 0.35,
-      "score": 79.79,
+      "earliest_seen": "2026-09-30T14:10:34+00:00",
+      "latest_seen": "2026-10-01T08:32:24+00:00",
+      "age_hours": 4.88,
+      "score": 90.07,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 24.79,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 8,
+        "source_count_points": 20,
+        "recency_points": 22.07,
+        "source_quality_points": 26.0,
+        "entity_relevance_points": 12,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
+        {
+          "headline_id": "71e9b2c1947f25db",
+          "title": "Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude back above $100",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yODZYTkUzZ09LMVducjBvQ1czQUc2WFdZNmVuUUpDVnpZMEJfMGhpWkkzQlRLUGprcDNielYycW8xYU5peDhhcy1pbzNJUVo1YkV0MjktUVliQ3NTc1ZNOXpDSUtubXZIYnBGOS04NDTSAXZBVV95cUxOQU83cmR3ZHl6YWl1V2RNcFRXbzJqRkFKZktLMkVobTBKMGxibmxDcEQwWjFqdXFQcFozSUVpVUhvZF85SDNCQzZxVk42RjdTWXdWcXd6SkNmWWlLVy1iT0l0NHlRUHNJOG5UZEQ5NlhoMHNmWnVB?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-10-01T05:17:12+00:00",
+          "confidence": 1.0
+        },
         {
           "headline_id": "a289badb555c3ab1",
           "title": "Oil Prices Edge Lower on Signs of Rising Crude Exports From Middle East",
@@ -46,21 +56,39 @@
           "confidence": 1.0
         },
         {
-          "headline_id": "e521e36e6f8d8aff",
+          "headline_id": "99d83dbc8c5eeef5",
           "title": "Oil Prices Fall as Gulf Crude Exports Recover",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1UwdjZ0Qk53aGpUZnhLRG93OE5SRm9idmd2VDJuMmJhRS1KaC1WTGMxWUQ0bVk5OW5RNXZ5V29sZmJIcEg5UWs2ZjA4RTNacjIwalpnaVhhVE54Zl9HVXNkajROUWVQTFZwR1E0VGZSU0xwVGRzTlRBdzBxZEI3aHZueUxEQXJpNUY1UFlaRG53RXhZTkd2ZV93NWxDdzVI?oc=5",
           "source": "WSJ",
           "source_type": "rss",
-          "published_at": "2026-09-29T18:59:00+00:00",
+          "published_at": "2026-09-30T14:10:34+00:00",
           "confidence": 1.0
         },
         {
-          "headline_id": "69292aceeed1dd70",
-          "title": "Crude Oil Market Rises on Stalled US-Iran Talks",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOck0tbkprSVJRMmVBREREdzVZV3pfOHlabFJrQ3RYTkFFZHVtM195dkxEYWFFN3RXWjNwaGdEYkFGdWx0dXhLaG9MaTB2ZUVSLWU0NUhJZnY2T25PMWRCNDNySFpSa19wYl9ldjdOODVNTFVfTU5YTS0tQU56aWV5TGt2TEdTLTA?oc=5",
-          "source": "Business Post Nigeria",
+          "headline_id": "9fb37c3862952d09",
+          "title": "Crude Oil Prices Rebound, Brent Tops $98",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5BLU5VLTk1eGhKLTM3bWRxNWxrR19TSkpDN2Z0NUoyR1JwdU5TbThqQ2tyODdvb050UkgwaHJOMm5KUnJNOW9WRFRneHNoUU9oallQMm8zRjhwSlZnY0NLNTFtNTJLV0VHUVFXeFlsSW1uZGc?oc=5",
+          "source": "MarketForces Africa",
           "source_type": "rss",
-          "published_at": "2026-10-01T05:45:53+00:00",
+          "published_at": "2026-10-01T08:32:24+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "5b8af28c4f1d25dd",
+          "title": "Oil price today: Brent crude dips below $100, stock markets mixed",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUk9PTWlUd21fSXBIRktyMXFJMDJZSURkdHJ0VV95WW5PZ2w5aXZ4QVdONnFPeG1Rc2FkaE1hdFZ0WXpFdkw4WkxhUkxWb2ZQb0RYcW52MU91V2VhUHlfV0RweDJDbDVnMmpTZVRJZVhJVklha1JISGNaZW5fR0JDRWJxYkptSmg4TzNEdnJHMGt4aUNMa0Z5b2d6b1YzeGhwQVc3Rkh0blJhQ0VCY2c?oc=5",
+          "source": "iol.co.za",
+          "source_type": "rss",
+          "published_at": "2026-10-01T07:17:38+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "7fb70ed6d0c8ddc2",
+          "title": "Sensex down 1,000 pts, Nifty below 22,300: Rebound in crude oil prices among key factors behind market crash",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdGhBT3RKcWFsRUhLQ25pNEt5aG1QQlpyb25SNlFSMlNHeV9aMzNJanB6LXJDWVFfR1p1N1NXd2VRY0NFajJfUmFoY01peDFUR3o4UkhyY2tlNFZ4eTZ6ZHVlR3BsaEpFNkJFalF4M1ZZM2c4WHFEc0J0dTY2Qi1QNWdtZndzamI1RmxZYk9vVkZwdGFqSW5TRTlDV0lSbnBBQXZ5Z09IV0FLYnNnSEFUb3Q0NkdDdDBwRV9BdmJTZVpmLVJTMktId2FocTcxTWEyVXdDcktDZlBuZVpHQTZ0blF6NEJlLUFTZVY5Z2ROeHNkTnpUQVNRSlFfLUY?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-10-01T04:19:00+00:00",
           "confidence": 0.7
         }
       ],
@@ -68,26 +96,149 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_f48c2059fda38f",
+      "cluster_id": "c_5f438acde2a42b",
       "topic": "energy",
-      "lead_title": "Energy & Utilities Roundup: Market Talk",
-      "lead_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TeFlTLUsyTy1RMjR3U0lVQndQR1JSRDdQNmlZd0tFeVVhckpXM0dqM3hhRGJVS0Vwd3JaamdoOFA1TnpwV0t2VmNrZVJJdksxNW5MMDdhVGNfU0paT2NWZW9DckFBMGVoc0MxeFlSQkFJbkdTaWxxcHV2VXZ2TUk?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "US crude oil inventories up 0.2% in week ending Sept. 25",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNDNLQU9Ta3JDb3hpU2wtQ1ZSV0Z3SmlESnJZOFR6dmQ2bEpLWWtXeVFZM0I5OFFXV3BUN1BQdHdiYWxCR2FfaHRGX1JJSzdZMXIyUkU4anZjbXYzZUtnbVJ6encxYk9oczdBdFNOdHJheE1qUnV0V3A0Y09PaG4wMS1WdmxRZFdRT3BkQU1JOVVyaEFnSVRGQWNLYw?oc=5",
+      "lead_source": "Anadolu Ajansı",
       "canonical_entities": [
-        "energy"
+        "crude",
+        "oil"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-09-30T20:59:00+00:00",
-      "latest_seen": "2026-09-30T20:59:00+00:00",
-      "age_hours": 9.14,
-      "score": 67.62,
+      "earliest_seen": "2026-10-01T06:51:47+00:00",
+      "latest_seen": "2026-10-01T06:51:47+00:00",
+      "age_hours": 6.55,
+      "score": 65.07,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 19.52,
+        "recency_points": 21.07,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "10b2ca2efff4b453",
+          "title": "US crude oil inventories up 0.2% in week ending Sept. 25",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNDNLQU9Ta3JDb3hpU2wtQ1ZSV0Z3SmlESnJZOFR6dmQ2bEpLWWtXeVFZM0I5OFFXV3BUN1BQdHdiYWxCR2FfaHRGX1JJSzdZMXIyUkU4anZjbXYzZUtnbVJ6encxYk9oczdBdFNOdHJheE1qUnV0V3A0Y09PaG4wMS1WdmxRZFdRT3BkQU1JOVVyaEFnSVRGQWNLYw?oc=5",
+          "source": "Anadolu Ajansı",
+          "source_type": "rss",
+          "published_at": "2026-10-01T06:51:47+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_4b3accf4e9b975",
+      "topic": "energy",
+      "lead_title": "Oil Set for Strong Monthly Gain, Dollar Rises as Stalled Iran Talks Keep Energy Markets Tight",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcEJhV2VHNDhwMTRBaWV4cEdBUEZYZ3pfVmRycFR2dFgwcEtGakFfWmRLdWFmbEZvQW42VmJ5SmhGMmRzWXhvaUJ2cmFvZk5DX2sycV9vTzE0R2l3aF9JY1pNeFlYN0FGTWUydFpQcGVLdm9iUEd4SVN0Q1hlX1BHdl8xRGdGNHFjUGFpUWVIWE10a1JmWUJScHNFZF9jN1pRN3BlMk94NWhpdkMzTldMeTRubnhCZTVY?oc=5",
+      "lead_source": "Tekedia",
+      "canonical_entities": [
+        "energy",
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-01T06:09:33+00:00",
+      "latest_seen": "2026-10-01T06:09:33+00:00",
+      "age_hours": 7.26,
+      "score": 64.65,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 20.65,
+        "source_quality_points": 21.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "83ee5d4738dd08b3",
+          "title": "Oil Set for Strong Monthly Gain, Dollar Rises as Stalled Iran Talks Keep Energy Markets Tight",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcEJhV2VHNDhwMTRBaWV4cEdBUEZYZ3pfVmRycFR2dFgwcEtGakFfWmRLdWFmbEZvQW42VmJ5SmhGMmRzWXhvaUJ2cmFvZk5DX2sycV9vTzE0R2l3aF9JY1pNeFlYN0FGTWUydFpQcGVLdm9iUEd4SVN0Q1hlX1BHdl8xRGdGNHFjUGFpUWVIWE10a1JmWUJScHNFZF9jN1pRN3BlMk94NWhpdkMzTldMeTRubnhCZTVY?oc=5",
+          "source": "Tekedia",
+          "source_type": "rss",
+          "published_at": "2026-10-01T06:09:33+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_9a342f27fa816c",
+      "topic": "energy",
+      "lead_title": "Indian benchmark shares post longest weekly losing run in 25 years",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2lpSGdlN0dhOTM3eUw3MlQtN183dHZydW95WXVWM2MyTEFaeTlvRUllR29aLWJxT3dvdVNmNlpzTGVldkpIMFNScVVhVEJ5TTU5TDhoVTZZWlpXbENCUHlKMWx3MmJ4bWkyU1E1OGF6Sk9YakxYcHRyM0tWdnlrX0NpQktmLU90VkRRVG5FQXdPZ3c3dFV0N0xndUdrTl9lY0xKZUJsNmY4LS1BYndDNENRZC0?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-01T02:25:00+00:00",
+      "latest_seen": "2026-10-01T02:25:00+00:00",
+      "age_hours": 11.0,
+      "score": 61.9,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 18.4,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "95f0ebe7b86e80e8",
+          "title": "Indian benchmark shares post longest weekly losing run in 25 years",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOa2lpSGdlN0dhOTM3eUw3MlQtN183dHZydW95WXVWM2MyTEFaeTlvRUllR29aLWJxT3dvdVNmNlpzTGVldkpIMFNScVVhVEJ5TTU5TDhoVTZZWlpXbENCUHlKMWx3MmJ4bWkyU1E1OGF6Sk9YakxYcHRyM0tWdnlrX0NpQktmLU90VkRRVG5FQXdPZ3c3dFV0N0xndUdrTl9lY0xKZUJsNmY4LS1BYndDNENRZC0?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-10-01T02:25:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_1ba072da1a92ec",
+      "topic": "energy",
+      "lead_title": "Flaring Middle East Tensions Push Oil Prices Up",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSWkyZEptNDJJVW00ZWZkMUt4SkUtZWJmNFRvMUtQbkM1WTBudU9neTVHUDBxc0ZpQ0kyUU5EclowQ2xqQVBzUjVNZW5JaHNBaEMtRWx0eHkwSHBUZHkwekFKdVFodXQwWGRtQUI5c3FKdTRtNmRYTHJGUFNEZWVjOUdXVzhTQ3NhWndvRXlsWmhEQ1psSDNlc0pB?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-08-31T20:41:40+00:00",
+      "latest_seen": "2026-08-31T20:41:40+00:00",
+      "age_hours": 736.72,
+      "score": 48.1,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -96,16 +247,16 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "bf90ad62c507257d",
-          "title": "Energy & Utilities Roundup: Market Talk",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5TeFlTLUsyTy1RMjR3U0lVQndQR1JSRDdQNmlZd0tFeVVhckpXM0dqM3hhRGJVS0Vwd3JaamdoOFA1TnpwV0t2VmNrZVJJdksxNW5MMDdhVGNfU0paT2NWZW9DckFBMGVoc0MxeFlSQkFJbkdTaWxxcHV2VXZ2TUk?oc=5",
+          "headline_id": "d89e087a503c3d69",
+          "title": "Flaring Middle East Tensions Push Oil Prices Up",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSWkyZEptNDJJVW00ZWZkMUt4SkUtZWJmNFRvMUtQbkM1WTBudU9neTVHUDBxc0ZpQ0kyUU5EclowQ2xqQVBzUjVNZW5JaHNBaEMtRWx0eHkwSHBUZHkwekFKdVFodXQwWGRtQUI5c3FKdTRtNmRYTHJGUFNEZWVjOUdXVzhTQ3NhWndvRXlsWmhEQ1psSDNlc0pB?oc=5",
           "source": "WSJ",
           "source_type": "rss",
-          "published_at": "2026-09-30T20:59:00+00:00",
+          "published_at": "2026-08-31T20:41:40+00:00",
           "confidence": 0.97
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -124,17 +275,17 @@
       ],
       "earliest_seen": "2026-09-30T16:20:52+00:00",
       "latest_seen": "2026-09-30T16:20:52+00:00",
-      "age_hours": 13.77,
-      "score": 64.84,
+      "age_hours": 21.07,
+      "score": 45.46,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.74,
+        "recency_points": 12.36,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "06103c868b87487e",
@@ -146,7 +297,7 @@
           "confidence": 0.97
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -165,17 +316,17 @@
       ],
       "earliest_seen": "2026-09-30T14:39:00+00:00",
       "latest_seen": "2026-09-30T14:39:00+00:00",
-      "age_hours": 15.47,
-      "score": 63.82,
+      "age_hours": 22.77,
+      "score": 44.44,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.72,
+        "recency_points": 11.34,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "77fa03a60978fb9c",
@@ -206,17 +357,17 @@
       ],
       "earliest_seen": "2026-09-30T13:42:00+00:00",
       "latest_seen": "2026-09-30T13:42:00+00:00",
-      "age_hours": 16.42,
-      "score": 63.25,
+      "age_hours": 23.72,
+      "score": 43.87,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.15,
+        "recency_points": 10.77,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "a77d10d12ea02afe",
@@ -247,17 +398,17 @@
       ],
       "earliest_seen": "2026-09-30T01:39:00+00:00",
       "latest_seen": "2026-09-30T02:51:00+00:00",
-      "age_hours": 27.27,
-      "score": 61.59,
+      "age_hours": 34.57,
+      "score": 42.21,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 8.64,
+        "recency_points": 4.26,
         "source_quality_points": 28.95,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b7aaa18c468c9e65",
@@ -272,90 +423,10 @@
           "headline_id": "00a839ab6fccab83",
           "title": "Oil prices rise on stalled US-Iran talks and tight fuel markets",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNellRcmlNbk9tbGFxRmFzTGJxRVo4bzhQSjhfZ2lfRVBsQ3NCSmlqeDBHYWgtU3Z0aHNFMl9UY0E0Zm5pUTJuSzBXVWw1TmtBZlVyZ1RFN0VadUxzRHNTOURENFdnZ0dMUHlFQmdqN3pTZUtqc2p5bnlXN2RKejNuTkllNWYtSUpuRjV4RWxiVk5XMUQ1ZWFXRXpidGxQdXlBY3BwazZCTlB1Z9IBrwFBVV95cUxQWTNmYmxSSGFIdU5nT0F3dWgtazRuWmJXaGhGbjZmSWg2cTk4VDdFRWNxV0xCa1g4NVFvN1ROeEZqb2gzNGxkTmdpVmJzOTNCei1RZVFoNzg1UW0xVXlYdWt6TTdsTm45WDRBaDBFUmhrXzBuWFRwOVVSQ1k4OHlUcU5KRG9BdGRLR0NxcmVxNmVPLVNYa3pESnVyeDU0SUtXNFc1UWlfWFAyVTNQdU1J?oc=5",
-          "source": "cnbc.com",
+          "source": "CNBC",
           "source_type": "rss",
           "published_at": "2026-09-30T02:51:00+00:00",
           "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_b64efcb067615d",
-      "topic": "energy",
-      "lead_title": "China Has the Power to Bail Out the Diesel Market. Will It Use It?",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQmNZR2plb0FMZFY5ajlHVmIyRFRqdTdwZHNDSFNhVTVSWkllU1VaUHE5SGdzdDY5c2FBRU1kMDFtQVRYTUczSVVnMmVBZ2YxVFFOX2F6eFZrREdjeWd5TnoyWGVMVUVfVm1UQkFKRmxnM2l3dXBUUGE5Nm9tMF9ZUmdxemh6S3NIVzFiVUJqU2VZakhVZFI1T244UHlvWThWcExwRVUxMWs3Yk80M0VNZG1xNA?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-30T09:30:00+00:00",
-      "latest_seen": "2026-09-30T09:30:00+00:00",
-      "age_hours": 20.62,
-      "score": 55.23,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 12.63,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a24329039bb8df63",
-          "title": "China Has the Power to Bail Out the Diesel Market. Will It Use It?",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQmNZR2plb0FMZFY5ajlHVmIyRFRqdTdwZHNDSFNhVTVSWkllU1VaUHE5SGdzdDY5c2FBRU1kMDFtQVRYTUczSVVnMmVBZ2YxVFFOX2F6eFZrREdjeWd5TnoyWGVMVUVfVm1UQkFKRmxnM2l3dXBUUGE5Nm9tMF9ZUmdxemh6S3NIVzFiVUJqU2VZakhVZFI1T244UHlvWThWcExwRVUxMWs3Yk80M0VNZG1xNA?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-09-30T09:30:00+00:00",
-          "confidence": 0.92
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0cce50500058e5",
-      "topic": "energy",
-      "lead_title": "Long-Term Treasury Yields Push Higher Despite Decline in Oil Prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZkdWNzdxdTZUb2RMeGctUGJJa2gweWdoSm8yRU05ZnFiQjUtdld4QmVVdXZwOFhHRUFmOFVqTHBwSXEyTlhPcFYzYkVsMDBheGhVdy1UT1B5dUc4VzVQcVVVMTV5WEUzNXV2RW82cWlEQnBTZWZ4LUJzdTNZeVZnNHdaNU1IdTJtZGUtLUltMUFKVnJZelowQjFhT1pncEhsaFdIWERpalowcUJUS1hLZ3Vlc04?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-29T20:20:54+00:00",
-      "latest_seen": "2026-09-29T20:20:54+00:00",
-      "age_hours": 33.77,
-      "score": 52.84,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 4.74,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "cbe5baaaad530ee2",
-          "title": "Long-Term Treasury Yields Push Higher Despite Decline in Oil Prices",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZkdWNzdxdTZUb2RMeGctUGJJa2gweWdoSm8yRU05ZnFiQjUtdld4QmVVdXZwOFhHRUFmOFVqTHBwSXEyTlhPcFYzYkVsMDBheGhVdy1UT1B5dUc4VzVQcVVVMTV5WEUzNXV2RW82cWlEQnBTZWZ4LUJzdTNZeVZnNHdaNU1IdTJtZGUtLUltMUFKVnJZelowQjFhT1pncEhsaFdIWERpalowcUJUS1hLZ3Vlc04?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-09-29T20:20:54+00:00",
-          "confidence": 0.97
         }
       ],
       "top_tier": false,
@@ -366,7 +437,7 @@
       "topic": "energy",
       "lead_title": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war",
       "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcV94M21oS090d3U1X3c1UlBpV2VfSmpDSjFlLTl2WTRUQXNYSVR1THdQREVYTDJNSXlEcERrckMzSG5DbnJ4aFpHQnhvaUduVzBRNjFJVklzNkVQbEZxYlV3Z3ZTVUNmS3ZMdVBHVTdYTl9VZUlUcnVMQThKTHYwaUcwWUhoajFMMmRxRkphWU_SAZYBQVVfeXFMUHcyc1h1YmRjS2lxOEc5WDltZmtlRjRpMUdQczdWbmRleG5CUERDam1sV3pzNTQzdHdMMi0wV3k5OWxnOHpxQjNEQW8ySXZjaldiMWRRZDQ4bXdFM29WNFNYb3g1S2NIXzJaVlZ3V1MwNTFETjZ2Q1Q4YnA0S1Mtc29LemVMempLTTkxb2NVc0NWRW45cmdB?oc=5",
-      "lead_source": "cnbc.com",
+      "lead_source": "CNBC",
       "canonical_entities": [
         "crude",
         "oil"
@@ -378,23 +449,23 @@
       ],
       "earliest_seen": "2026-09-09T07:00:00+00:00",
       "latest_seen": "2026-09-09T07:00:00+00:00",
-      "age_hours": 527.12,
-      "score": 52.4,
+      "age_hours": 534.42,
+      "score": 37.4,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 29.4,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "84da63cefe5f79a8",
           "title": "U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPcV94M21oS090d3U1X3c1UlBpV2VfSmpDSjFlLTl2WTRUQXNYSVR1THdQREVYTDJNSXlEcERrckMzSG5DbnJ4aFpHQnhvaUduVzBRNjFJVklzNkVQbEZxYlV3Z3ZTVUNmS3ZMdVBHVTdYTl9VZUlUcnVMQThKTHYwaUcwWUhoajFMMmRxRkphWU_SAZYBQVVfeXFMUHcyc1h1YmRjS2lxOEc5WDltZmtlRjRpMUdQczdWbmRleG5CUERDam1sV3pzNTQzdHdMMi0wV3k5OWxnOHpxQjNEQW8ySXZjaldiMWRRZDQ4bXdFM29WNFNYb3g1S2NIXzJaVlZ3V1MwNTFETjZ2Q1Q4YnA0S1Mtc29LemVMempLTTkxb2NVc0NWRW45cmdB?oc=5",
-          "source": "cnbc.com",
+          "source": "CNBC",
           "source_type": "rss",
           "published_at": "2026-09-09T07:00:00+00:00",
           "confidence": 0.98
@@ -404,12 +475,14 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_99d1eb91f88def",
+      "cluster_id": "c_f88195682e1309",
       "topic": "energy",
-      "lead_title": "U.S. Consumer Confidence Fell in September Amid Elevated Oil Prices, Inflation Worries, Conference Board Says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdk5UaXVRTjRnUlV1ejhlNTlrbnp5OERqckFYcVFUX09EU1Zobjh4VVItd1U1Q0hlZ1NaaTVGdFNTd2tscUUzQWZ4bFRoUWZzMlhZV1BTaElhYjVZYWZNSVpidWVLY0lhQXZmZDhsRVV2NkVSR0dSMVFjbTVfcVdtWGY3ekJXQjR4LUx3Sk0ybE5rM0FwVjRfSDlZQUJhSHA4R2lhcTAxaklkZHpHUjBUSjNaSTdPZXBuTnZvY2dHcG1zQQ?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "Waiting on the World to Change – Global Turmoil Spikes Energy Markets, But Sharply Lower Crude Oil Prices, Production Could be Just Ahead",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWDVxbnpkZmEteVllbG1mQ3B5OWYzdGNsc2Z1VHJ2c3FQZ3R4SldFcWR3VmNCelNhekN5WmpMQVVqT1NVQkhZRy11bW9ORi1IQ1gxdlV6SEh1dWF0bXc3WXliQzNfcUpaN2ptTVd0dHl5c2ZFc0ZtRWg2YUtkZHlhZ1dGOUdyandBcU5EU3IyZWhIQ0pfWVUxQzAwQW4xMV9qazNXWW9xWUFhLV9YUWVfNUtiYkpXbWhU?oc=5",
+      "lead_source": "RBN Energy",
       "canonical_entities": [
+        "crude",
+        "energy",
         "oil"
       ],
       "source_count": 1,
@@ -417,110 +490,28 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-09-29T15:21:45+00:00",
-      "latest_seen": "2026-09-29T15:21:45+00:00",
-      "age_hours": 38.76,
-      "score": 49.85,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 1.75,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "7941651882fa37d2",
-          "title": "U.S. Consumer Confidence Fell in September Amid Elevated Oil Prices, Inflation Worries, Conference Board Says",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdk5UaXVRTjRnUlV1ejhlNTlrbnp5OERqckFYcVFUX09EU1Zobjh4VVItd1U1Q0hlZ1NaaTVGdFNTd2tscUUzQWZ4bFRoUWZzMlhZV1BTaElhYjVZYWZNSVpidWVLY0lhQXZmZDhsRVV2NkVSR0dSMVFjbTVfcVdtWGY3ekJXQjR4LUx3Sk0ybE5rM0FwVjRfSDlZQUJhSHA4R2lhcTAxaklkZHpHUjBUSjNaSTdPZXBuTnZvY2dHcG1zQQ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-09-29T15:21:45+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_fe308259fc7eef",
-      "topic": "energy",
-      "lead_title": "Indian shares extend losing run on elevated oil, bond yields",
-      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMG5lWllfVDNRcEhXRTZMSTB4QnRraHlSN2NUaUJxMWN3dVlIeDJRbEx2aWVSa3JibXB6MVE1NVZPbGJTdkpBcnpzUHN2bjhMVTRPWFE1WGNuT25ESUNhYTNZRVpFZzhSQ2xnbUt5ZktKZWFSNWpjNG51NXNRWHNlM1dRNTZkUmZ2cC1hdDJYQjdIQ25keWstWGJ5T0VyUVpNNzBvQQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-29T02:29:00+00:00",
-      "latest_seen": "2026-09-29T02:29:00+00:00",
-      "age_hours": 51.64,
-      "score": 49.0,
+      "earliest_seen": "2026-07-27T07:00:00+00:00",
+      "latest_seen": "2026-07-27T07:00:00+00:00",
+      "age_hours": 1590.42,
+      "score": 34.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "cb9ca169493a7f24",
-          "title": "Indian shares extend losing run on elevated oil, bond yields",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMG5lWllfVDNRcEhXRTZMSTB4QnRraHlSN2NUaUJxMWN3dVlIeDJRbEx2aWVSa3JibXB6MVE1NVZPbGJTdkpBcnpzUHN2bjhMVTRPWFE1WGNuT25ESUNhYTNZRVpFZzhSQ2xnbUt5ZktKZWFSNWpjNG51NXNRWHNlM1dRNTZkUmZ2cC1hdDJYQjdIQ25keWstWGJ5T0VyUVpNNzBvQQ?oc=5",
-          "source": "Reuters",
+          "headline_id": "024a83fec0253951",
+          "title": "Waiting on the World to Change – Global Turmoil Spikes Energy Markets, But Sharply Lower Crude Oil Prices, Production Could be Just Ahead",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWDVxbnpkZmEteVllbG1mQ3B5OWYzdGNsc2Z1VHJ2c3FQZ3R4SldFcWR3VmNCelNhekN5WmpMQVVqT1NVQkhZRy11bW9ORi1IQ1gxdlV6SEh1dWF0bXc3WXliQzNfcUpaN2ptTVd0dHl5c2ZFc0ZtRWg2YUtkZHlhZ1dGOUdyandBcU5EU3IyZWhIQ0pfWVUxQzAwQW4xMV9qazNXWW9xWUFhLV9YUWVfNUtiYkpXbWhU?oc=5",
+          "source": "RBN Energy",
           "source_type": "rss",
-          "published_at": "2026-09-29T02:29:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_65a091f5d83297",
-      "topic": "energy",
-      "lead_title": "Stocks fall; oil prices off highs amid renewed hopes for Middle East negotiations",
-      "lead_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjVwRkxEMEdFMlBlSmpIbDZEZ3dDclNNLVVBLTBya2k1VlpyT00xM1VBeFZ2cmNheUplNXJDYy1Vam9FYWdibUxrWmFLd1ZIUU9LRGhhX09yQkQ0OXF6dW5MZ0Qwc0dXNF9fU3ZBR2NwU3R5eGNWdnpPMW1heVpsUkpGNA?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-28T00:50:00+00:00",
-      "latest_seen": "2026-09-28T00:50:00+00:00",
-      "age_hours": 77.29,
-      "score": 49.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "1babd5d19e9a5579",
-          "title": "Stocks fall; oil prices off highs amid renewed hopes for Middle East negotiations",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPNjVwRkxEMEdFMlBlSmpIbDZEZ3dDclNNLVVBLTBya2k1VlpyT00xM1VBeFZ2cmNheUplNXJDYy1Vam9FYWdibUxrWmFLd1ZIUU9LRGhhX09yQkQ0OXF6dW5MZ0Qwc0dXNF9fU3ZBR2NwU3R5eGNWdnpPMW1heVpsUkpGNA?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-09-28T00:50:00+00:00",
-          "confidence": 1.0
+          "published_at": "2026-07-27T07:00:00+00:00",
+          "confidence": 0.75
         }
       ],
       "top_tier": false,
@@ -540,19 +531,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-09-25T19:28:52+00:00",
-      "latest_seen": "2026-09-25T19:28:52+00:00",
-      "age_hours": 130.64,
-      "score": 49.0,
+      "earliest_seen": "2026-09-25T20:13:04+00:00",
+      "latest_seen": "2026-09-25T20:13:04+00:00",
+      "age_hours": 137.2,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "7b91e88a6835c9cf",
@@ -560,7 +551,7 @@
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-09-25T19:28:52+00:00",
+          "published_at": "2026-09-25T20:13:04+00:00",
           "confidence": 1.0
         }
       ],
@@ -583,17 +574,17 @@
       ],
       "earliest_seen": "2026-09-14T07:00:00+00:00",
       "latest_seen": "2026-09-14T07:00:00+00:00",
-      "age_hours": 407.12,
-      "score": 49.0,
+      "age_hours": 414.42,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "0fe5c551cd4e74b7",
@@ -609,50 +600,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_94df273c668380",
+      "cluster_id": "c_6611704308ef2b",
       "topic": "energy",
-      "lead_title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets",
-      "lead_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
+      "lead_title": "Fuel markets flash supply crunch despite calmer oil prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
       "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-29T21:34:40+00:00",
-      "latest_seen": "2026-09-29T21:34:40+00:00",
-      "age_hours": 32.54,
-      "score": 48.98,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 5.48,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "d7a8d2f18a8cc974",
-          "title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-09-29T21:34:40+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a58746b1441df6",
-      "topic": "energy",
-      "lead_title": "US markets up as oil prices drop",
-      "lead_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rb1Yza3hTZVpfWm1Uby00ZDl1U05WN2xBUUc3TnJaTGtNTF96ZWxheDI4U0toWVpxNktLbTBsTU9kVDlQdjR0d2lDVW1aN0RuVndsbTJhM2w?oc=5",
-      "lead_source": "BBC",
       "canonical_entities": [
         "oil"
       ],
@@ -661,28 +613,69 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-09-29T16:48:50+00:00",
-      "latest_seen": "2026-09-29T16:48:50+00:00",
-      "age_hours": 37.3,
-      "score": 48.62,
+      "earliest_seen": "2026-07-09T07:00:00+00:00",
+      "latest_seen": "2026-07-09T07:00:00+00:00",
+      "age_hours": 2022.42,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.62,
-        "source_quality_points": 27.0,
+        "recency_points": 0.0,
+        "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
-          "headline_id": "841e0245af5eda82",
-          "title": "US markets up as oil prices drop",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rb1Yza3hTZVpfWm1Uby00ZDl1U05WN2xBUUc3TnJaTGtNTF96ZWxheDI4U0toWVpxNktLbTBsTU9kVDlQdjR0d2lDVW1aN0RuVndsbTJhM2w?oc=5",
-          "source": "BBC",
+          "headline_id": "5e017dfca57da4c0",
+          "title": "Fuel markets flash supply crunch despite calmer oil prices",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
+          "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-09-29T16:48:50+00:00",
-          "confidence": 0.9
+          "published_at": "2026-07-09T07:00:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_0cce50500058e5",
+      "topic": "energy",
+      "lead_title": "Long-Term Treasury Yields Push Higher Despite Decline in Oil Prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZkdWNzdxdTZUb2RMeGctUGJJa2gweWdoSm8yRU05ZnFiQjUtdld4QmVVdXZwOFhHRUFmOFVqTHBwSXEyTlhPcFYzYkVsMDBheGhVdy1UT1B5dUc4VzVQcVVVMTV5WEUzNXV2RW82cWlEQnBTZWZ4LUJzdTNZeVZnNHdaNU1IdTJtZGUtLUltMUFKVnJZelowQjFhT1pncEhsaFdIWERpalowcUJUS1hLZ3Vlc04?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-09-29T20:20:54+00:00",
+      "latest_seen": "2026-09-29T20:20:54+00:00",
+      "age_hours": 41.07,
+      "score": 33.46,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.36,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "cbe5baaaad530ee2",
+          "title": "Long-Term Treasury Yields Push Higher Despite Decline in Oil Prices",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZkdWNzdxdTZUb2RMeGctUGJJa2gweWdoSm8yRU05ZnFiQjUtdld4QmVVdXZwOFhHRUFmOFVqTHBwSXEyTlhPcFYzYkVsMDBheGhVdy1UT1B5dUc4VzVQcVVVMTV5WEUzNXV2RW82cWlEQnBTZWZ4LUJzdTNZeVZnNHdaNU1IdTJtZGUtLUltMUFKVnJZelowQjFhT1pncEhsaFdIWERpalowcUJUS1hLZ3Vlc04?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-09-29T20:20:54+00:00",
+          "confidence": 0.97
         }
       ],
       "top_tier": false,
@@ -704,17 +697,17 @@
       ],
       "earliest_seen": "2026-09-21T07:00:00+00:00",
       "latest_seen": "2026-09-21T07:00:00+00:00",
-      "age_hours": 239.12,
-      "score": 48.1,
+      "age_hours": 246.42,
+      "score": 33.1,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "8004d28deeda8fb6",
@@ -745,17 +738,17 @@
       ],
       "earliest_seen": "2026-09-15T07:00:00+00:00",
       "latest_seen": "2026-09-15T07:00:00+00:00",
-      "age_hours": 383.12,
-      "score": 48.1,
+      "age_hours": 390.42,
+      "score": 33.1,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "fc4c4aa2a25221b0",
@@ -786,17 +779,17 @@
       ],
       "earliest_seen": "2026-09-01T07:00:00+00:00",
       "latest_seen": "2026-09-01T07:00:00+00:00",
-      "age_hours": 719.12,
-      "score": 48.1,
+      "age_hours": 726.42,
+      "score": 33.1,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "15ad7db1c030ee99",
@@ -812,52 +805,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_a84828075e1879",
-      "topic": "energy",
-      "lead_title": "Jim Cramer says these stocks can win even as oil and bond yields squeeze the market",
-      "lead_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rWGw1V01IUFFQU2k4amp2TnVwQnVub2gwTEtudEpYNFVjVW9RLUc1SXNXOW9qblBSSFAwa1JlRmlndUk3NEVkRUUxV3FpSWJsQmQ2dGpOdlp6VURtUF9IZktEYjJNSWNMYTl5TldQdHVaVVJHY3dsdnRR0gF_QVVfeXFMT09oZTRzRDJNdzlSRXotSmtfUE5uWUpyQ09jM3Q1MkhPR1dZYmdSa1J5eWhLVnlaaTJHTFh0dWd0bDBLOHBzdm9YaW8xajR0M0EtWXhTWklMVjdHNGFrSDN6QUxwbTZhY21Pal8xU1I4cnN5aXl6UGhvTDlCcmF1aw?oc=5",
-      "lead_source": "cnbc.com",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-28T22:15:57+00:00",
-      "latest_seen": "2026-09-28T22:15:57+00:00",
-      "age_hours": 55.85,
-      "score": 46.9,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "c183051a20bc4be2",
-          "title": "Jim Cramer says these stocks can win even as oil and bond yields squeeze the market",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rWGw1V01IUFFQU2k4amp2TnVwQnVub2gwTEtudEpYNFVjVW9RLUc1SXNXOW9qblBSSFAwa1JlRmlndUk3NEVkRUUxV3FpSWJsQmQ2dGpOdlp6VURtUF9IZktEYjJNSWNMYTl5TldQdHVaVVJHY3dsdnRR0gF_QVVfeXFMT09oZTRzRDJNdzlSRXotSmtfUE5uWUpyQ09jM3Q1MkhPR1dZYmdSa1J5eWhLVnlaaTJHTFh0dWd0bDBLOHBzdm9YaW8xajR0M0EtWXhTWklMVjdHNGFrSDN6QUxwbTZhY21Pal8xU1I4cnN5aXl6UGhvTDlCcmF1aw?oc=5",
-          "source": "cnbc.com",
-          "source_type": "rss",
-          "published_at": "2026-09-28T22:15:57+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_d678bbe6eebaf7",
       "topic": "energy",
       "lead_title": "Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships",
       "lead_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdUhmamNMMjBBQ2d1THpZSmp2X3NORDdDUXVlWWx1c3N3dDJlS3ZsaWZrcWdXR0pTTzZqZHBDeFhsd2RicG9OTEdSV3FqTTNiTEl3Yjc1d1ZYaWV6b3F5cmlPQXpXU29ja0F5ZkY0Q3FnSUxEcGlleTNNMGh3SEpqNlZQRHQxUdIBiwFBVV95cUxNZ3llZW1uVXQ2bmhtM1VETXJjVmFkdFdDb09hT0NfNll0anVXakVGVjJHSDZRV2R5cGF2T0FIbHhkTE5maFZjUEc5VEhTdXVENjlsd2RMZGpENjNWR0xsZS1iTnpseUNrdkJQVEVaa0xnb1Y4aEtuMnl6UHdURC00WTFuY04tanhMNXVR?oc=5",
-      "lead_source": "cnbc.com",
+      "lead_source": "CNBC",
       "canonical_entities": [
         "oil"
       ],
@@ -868,26 +820,67 @@
       ],
       "earliest_seen": "2026-09-07T07:00:00+00:00",
       "latest_seen": "2026-09-07T07:00:00+00:00",
-      "age_hours": 575.12,
-      "score": 46.9,
+      "age_hours": 582.42,
+      "score": 31.9,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "741ad4a022692c4a",
           "title": "Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdUhmamNMMjBBQ2d1THpZSmp2X3NORDdDUXVlWWx1c3N3dDJlS3ZsaWZrcWdXR0pTTzZqZHBDeFhsd2RicG9OTEdSV3FqTTNiTEl3Yjc1d1ZYaWV6b3F5cmlPQXpXU29ja0F5ZkY0Q3FnSUxEcGlleTNNMGh3SEpqNlZQRHQxUdIBiwFBVV95cUxNZ3llZW1uVXQ2bmhtM1VETXJjVmFkdFdDb09hT0NfNll0anVXakVGVjJHSDZRV2R5cGF2T0FIbHhkTE5maFZjUEc5VEhTdXVENjlsd2RMZGpENjNWR0xsZS1iTnpseUNrdkJQVEVaa0xnb1Y4aEtuMnl6UHdURC00WTFuY04tanhMNXVR?oc=5",
-          "source": "cnbc.com",
+          "source": "CNBC",
           "source_type": "rss",
           "published_at": "2026-09-07T07:00:00+00:00",
           "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_a58746b1441df6",
+      "topic": "energy",
+      "lead_title": "US markets up as oil prices drop",
+      "lead_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rb1Yza3hTZVpfWm1Uby00ZDl1U05WN2xBUUc3TnJaTGtNTF96ZWxheDI4U0toWVpxNktLbTBsTU9kVDlQdjR0d2lDVW1aN0RuVndsbTJhM2w?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-09-29T16:48:50+00:00",
+      "latest_seen": "2026-09-29T16:48:50+00:00",
+      "age_hours": 44.6,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "841e0245af5eda82",
+          "title": "US markets up as oil prices drop",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9rb1Yza3hTZVpfWm1Uby00ZDl1U05WN2xBUUc3TnJaTGtNTF96ZWxheDI4U0toWVpxNktLbTBsTU9kVDlQdjR0d2lDVW1aN0RuVndsbTJhM2w?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-09-29T16:48:50+00:00",
+          "confidence": 0.9
         }
       ],
       "top_tier": false,
@@ -909,17 +902,17 @@
       ],
       "earliest_seen": "2026-09-10T07:00:00+00:00",
       "latest_seen": "2026-09-10T07:00:00+00:00",
-      "age_hours": 503.12,
-      "score": 44.5,
+      "age_hours": 510.42,
+      "score": 29.5,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 25.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "1b978316c7c82abe",
@@ -929,168 +922,6 @@
           "source_type": "rss",
           "published_at": "2026-09-10T07:00:00+00:00",
           "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a8f7ab1f0e7650",
-      "topic": "energy",
-      "lead_title": "Stocks and Bonds Pause Ahead of US Data, Micron: Markets Wrap",
-      "lead_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1BTMzZVQ0JJLTF0VnV4LWV6S3l6OXFVZWVITnl6QmpHNmR0eDUwWWNBYTZ1b2xYNmhSLTRaUXk4cjlpcjQ5NkU4Ry1hdnI3ckQ1TXFkY0ZXNjdzMXVwTmZEYnRURmhEdUxXYWdvNl9lbXBDSmRyYzRpZEVzNWFlenAtMFQxMURBdkRKVS1jTUJDU3hL?oc=5",
-      "lead_source": "bloomberg.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-29T07:00:00+00:00",
-      "latest_seen": "2026-09-29T07:00:00+00:00",
-      "age_hours": 47.12,
-      "score": 43.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "fc12461f2c40db01",
-          "title": "Stocks and Bonds Pause Ahead of US Data, Micron: Markets Wrap",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV1BTMzZVQ0JJLTF0VnV4LWV6S3l6OXFVZWVITnl6QmpHNmR0eDUwWWNBYTZ1b2xYNmhSLTRaUXk4cjlpcjQ5NkU4Ry1hdnI3ckQ1TXFkY0ZXNjdzMXVwTmZEYnRURmhEdUxXYWdvNl9lbXBDSmRyYzRpZEVzNWFlenAtMFQxMURBdkRKVS1jTUJDU3hL?oc=5",
-          "source": "bloomberg.com",
-          "source_type": "rss",
-          "published_at": "2026-09-29T07:00:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7e07c2e60e7376",
-      "topic": "energy",
-      "lead_title": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
-      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PWlFMWmkxOHFJZ0JKYXRCbllLX3F5ekxoY3AxcXFYX3RDWE9pbWF3UHhfWm1ZTFpnZ0Q1TUNnSFRHRmlkT0dmYkxVdzdob2h0cE9HZ3BldVcwZVhGbk9zZS1kN0Q1R21vVXNKcmFnOG1KSnh4Rnp1ctIBfkFVX3lxTE9EQUFuTzBTRW1jajFDY05kdlI2bHExWklXdlZUNld4RW9nUERrUkdfalRKUWdhdnBTZ0F0UUZZZERENURfbWp2S3FNXzhEaGNCVDFEenl4UV9fUDYwNEpTeEQyZXZfUEFaOTM0ejFuWkF3eE1CamFFRDZmOGNjQQ?oc=5",
-      "lead_source": "cnbc.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-17T07:00:00+00:00",
-      "latest_seen": "2026-09-17T07:00:00+00:00",
-      "age_hours": 335.12,
-      "score": 41.4,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 26.4,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "85c140908855a7b0",
-          "title": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PWlFMWmkxOHFJZ0JKYXRCbllLX3F5ekxoY3AxcXFYX3RDWE9pbWF3UHhfWm1ZTFpnZ0Q1TUNnSFRHRmlkT0dmYkxVdzdob2h0cE9HZ3BldVcwZVhGbk9zZS1kN0Q1R21vVXNKcmFnOG1KSnh4Rnp1ctIBfkFVX3lxTE9EQUFuTzBTRW1jajFDY05kdlI2bHExWklXdlZUNld4RW9nUERrUkdfalRKUWdhdnBTZ0F0UUZZZERENURfbWp2S3FNXzhEaGNCVDFEenl4UV9fUDYwNEpTeEQyZXZfUEFaOTM0ejFuWkF3eE1CamFFRDZmOGNjQQ?oc=5",
-          "source": "cnbc.com",
-          "source_type": "rss",
-          "published_at": "2026-09-17T07:00:00+00:00",
-          "confidence": 0.88
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f88195682e1309",
-      "topic": "energy",
-      "lead_title": "Waiting on the World to Change – Global Turmoil Spikes Energy Markets, But Sharply Lower Crude Oil Prices, Production Could be Just Ahead",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWDVxbnpkZmEteVllbG1mQ3B5OWYzdGNsc2Z1VHJ2c3FQZ3R4SldFcWR3VmNCelNhekN5WmpMQVVqT1NVQkhZRy11bW9ORi1IQ1gxdlV6SEh1dWF0bXc3WXliQzNfcUpaN2ptTVd0dHl5c2ZFc0ZtRWg2YUtkZHlhZ1dGOUdyandBcU5EU3IyZWhIQ0pfWVUxQzAwQW4xMV9qazNXWW9xWUFhLV9YUWVfNUtiYkpXbWhU?oc=5",
-      "lead_source": "RBN Energy",
-      "canonical_entities": [
-        "crude",
-        "energy",
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-07-27T07:00:00+00:00",
-      "latest_seen": "2026-07-27T07:00:00+00:00",
-      "age_hours": 1583.12,
-      "score": 34.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 22.5,
-        "entity_relevance_points": 12,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "024a83fec0253951",
-          "title": "Waiting on the World to Change – Global Turmoil Spikes Energy Markets, But Sharply Lower Crude Oil Prices, Production Could be Just Ahead",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWDVxbnpkZmEteVllbG1mQ3B5OWYzdGNsc2Z1VHJ2c3FQZ3R4SldFcWR3VmNCelNhekN5WmpMQVVqT1NVQkhZRy11bW9ORi1IQ1gxdlV6SEh1dWF0bXc3WXliQzNfcUpaN2ptTVd0dHl5c2ZFc0ZtRWg2YUtkZHlhZ1dGOUdyandBcU5EU3IyZWhIQ0pfWVUxQzAwQW4xMV9qazNXWW9xWUFhLV9YUWVfNUtiYkpXbWhU?oc=5",
-          "source": "RBN Energy",
-          "source_type": "rss",
-          "published_at": "2026-07-27T07:00:00+00:00",
-          "confidence": 0.75
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6611704308ef2b",
-      "topic": "energy",
-      "lead_title": "Fuel markets flash supply crunch despite calmer oil prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-07-09T07:00:00+00:00",
-      "latest_seen": "2026-07-09T07:00:00+00:00",
-      "age_hours": 2015.12,
-      "score": 34.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "5e017dfca57da4c0",
-          "title": "Fuel markets flash supply crunch despite calmer oil prices",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNDZ1NldKak53VnZLd1p1SUtzd0htUnB0QTV6akdPUEphWFBDb09Xcm04NnVMZXp1bUtIRlgwd3J6b1VKbjZIMWZfbXNyLWlMc2ZETTktRExibFdEMWFuRjZOYUttS0FXd0k5eDdmcV9pTmVxUlJ6eUk0R2RqVXg3bEZwc3I0cVFYUEFvVHlMRmRUc3JxODk3LWRtdm4xN3AyS2xHZjRZZkdrLXR0YjRz?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-07-09T07:00:00+00:00",
-          "confidence": 1.0
         }
       ],
       "top_tier": false,
@@ -1112,7 +943,7 @@
       ],
       "earliest_seen": "2026-08-03T07:00:00+00:00",
       "latest_seen": "2026-08-03T07:00:00+00:00",
-      "age_hours": 1415.12,
+      "age_hours": 1422.42,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -1132,6 +963,84 @@
           "source_type": "rss",
           "published_at": "2026-08-03T07:00:00+00:00",
           "confidence": 0.85
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_94df273c668380",
+      "topic": "energy",
+      "lead_title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets",
+      "lead_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-09-29T19:20:58+00:00",
+      "latest_seen": "2026-09-29T19:20:58+00:00",
+      "age_hours": 42.07,
+      "score": 28.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "d7a8d2f18a8cc974",
+          "title": "Stocks dip, 2-year US yield falls after Fed's Williams cools rate hike bets",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSVdQU2VNMWNudXUwMjk0YnFXekg0R3B3d1gxcHUtcmx1UU9pSEtXNGRZTjMwR29Qa0JhSFJmdmRIZUdpdzFJVXVrcEFyYWwzZ0xsV0J2QmlaLTZXb0FzY0Fpa2JqdGJrWG53Sk0zX3RYc1ZZYmZkWFZ4bHJkM0gtRWpkYw?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-09-29T19:20:58+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_7e07c2e60e7376",
+      "topic": "energy",
+      "lead_title": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
+      "lead_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PWlFMWmkxOHFJZ0JKYXRCbllLX3F5ekxoY3AxcXFYX3RDWE9pbWF3UHhfWm1ZTFpnZ0Q1TUNnSFRHRmlkT0dmYkxVdzdob2h0cE9HZ3BldVcwZVhGbk9zZS1kN0Q1R21vVXNKcmFnOG1KSnh4Rnp1ctIBfkFVX3lxTE9EQUFuTzBTRW1jajFDY05kdlI2bHExWklXdlZUNld4RW9nUERrUkdfalRKUWdhdnBTZ0F0UUZZZERENURfbWp2S3FNXzhEaGNCVDFEenl4UV9fUDYwNEpTeEQyZXZfUEFaOTM0ejFuWkF3eE1CamFFRDZmOGNjQQ?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-09-17T07:00:00+00:00",
+      "latest_seen": "2026-09-17T07:00:00+00:00",
+      "age_hours": 342.42,
+      "score": 26.4,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 26.4,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "85c140908855a7b0",
+          "title": "How record diesel prices will rip through the U.S. economy. Trucks, rails are only the start",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9PWlFMWmkxOHFJZ0JKYXRCbllLX3F5ekxoY3AxcXFYX3RDWE9pbWF3UHhfWm1ZTFpnZ0Q1TUNnSFRHRmlkT0dmYkxVdzdob2h0cE9HZ3BldVcwZVhGbk9zZS1kN0Q1R21vVXNKcmFnOG1KSnh4Rnp1ctIBfkFVX3lxTE9EQUFuTzBTRW1jajFDY05kdlI2bHExWklXdlZUNld4RW9nUERrUkdfalRKUWdhdnBTZ0F0UUZZZERENURfbWp2S3FNXzhEaGNCVDFEenl4UV9fUDYwNEpTeEQyZXZfUEFaOTM0ejFuWkF3eE1CamFFRDZmOGNjQQ?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-09-17T07:00:00+00:00",
+          "confidence": 0.88
         }
       ],
       "top_tier": false,
