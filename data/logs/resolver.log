@@ -1843,3 +1843,17 @@
 [2026-10-01T13:24:58.660381+00:00] resolver: no state changes
 [2026-10-01T13:24:58.661121+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-10-01T13:24:58.661177+00:00] ════════════════════════════════════════════════════════════
+[2026-10-01T23:08:31.244897+00:00] resolver: start
+[2026-10-01T23:08:31.248180+00:00] resolver: scanning 270 clusters across 10 topics
+[2026-10-01T23:08:31.248469+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=5)
+[2026-10-01T23:08:31.249158+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=2)
+[2026-10-01T23:08:31.249248+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-10-01T23:08:31.249279+00:00]   global_risk_level: LOW (score=10)
+[2026-10-01T23:08:31.249412+00:00]   top_story: 'Analysts Look at WTI-Brent Spread' (score=93.53)
+[2026-10-01T23:08:31.249458+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-10-01T23:08:31.249479+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=False)
+[2026-10-01T23:08:31.249501+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-10-01T23:08:31.249521+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-10-01T23:08:31.249540+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-10-01T23:08:31.250327+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-10-01T23:08:31.250366+00:00] ════════════════════════════════════════════════════════════
