@@ -1857,3 +1857,13 @@
 [2026-10-01T23:08:31.249540+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
 [2026-10-01T23:08:31.250327+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-10-01T23:08:31.250366+00:00] ════════════════════════════════════════════════════════════
+[2026-10-02T15:41:08.151683+00:00] resolver: start
+[2026-10-02T15:41:08.155763+00:00] resolver: scanning 272 clusters across 10 topics
+[2026-10-02T15:41:08.156111+00:00]   hormuz_status: OPEN (conf=0.425, freshness=aging, clusters=4)
+[2026-10-02T15:41:08.157086+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=6)
+[2026-10-02T15:41:08.157222+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=1)
+[2026-10-02T15:41:08.157266+00:00]   global_risk_level: LOW (score=10)
+[2026-10-02T15:41:08.157429+00:00]   top_story: 'G-7 Agrees to Release 100 Million Barrels of Crude and Oil P' (score=98.61)
+[2026-10-02T15:41:08.157474+00:00] resolver: no state changes
+[2026-10-02T15:41:08.158234+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-10-02T15:41:08.158277+00:00] ════════════════════════════════════════════════════════════
