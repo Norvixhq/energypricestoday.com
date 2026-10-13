@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-10-01T23:08:31.249558+00:00",
-  "previous_generated_at": "2026-10-01T13:24:58.660410+00:00",
-  "resolver_run_count": 167,
+  "generated_at": "2026-10-02T15:41:08.157501+00:00",
+  "previous_generated_at": "2026-10-01T23:08:31.249558+00:00",
+  "resolver_run_count": 168,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,18 @@
       "status_detail": "no definitive signals",
       "status_tag": "Traffic normal",
       "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-10-01T15:53:00+00:00",
-      "source_count": 6,
-      "summary_short": "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
-      "summary_long": "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained. UAE's Fujairah restores some fuel oil supplies despite Hormuz disruption, boosts Asia exports",
+      "confidence": 0.425,
+      "last_confirmed": "2026-10-02T01:00:00+00:00",
+      "source_count": 4,
+      "summary_short": "The Bond Rout Is Deepening Even as Oil Tankers Return to the Strait of Hormuz",
+      "summary_long": "The Bond Rout Is Deepening Even as Oil Tankers Return to the Strait of Hormuz. No Lights, No Radio: Getting Oil Through Hormuz Is a Risky Job",
       "evidence_cluster_ids": [
-        "c_2ecf1628578c19",
-        "c_da599c5c093d24",
-        "c_697d9934f32f56",
-        "c_77c65079fdc36b",
-        "c_440fa10ab484c3"
+        "c_78d7299719d727",
+        "c_689f5e193c1098",
+        "c_92cf894fa39919",
+        "c_35fa2d97c99f4d"
       ],
-      "evidence_count": 5,
+      "evidence_count": 4,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,13 +37,11 @@
         "markets.drivers.hormuz"
       ],
       "update_priority": "critical",
-      "freshness": "fresh",
+      "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
         "fell back to default 'OPEN'"
-      ],
-      "previous_status": "CONTESTED",
-      "last_changed": "2026-10-01T23:08:31.249438+00:00"
+      ]
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -55,15 +52,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-10-01T21:05:29+00:00",
-      "source_count": 2,
-      "summary_short": "US deploys thousands of troops to Middle East as Donald Trump weighs strikes on Iran",
-      "summary_long": "US deploys thousands of troops to Middle East as Donald Trump weighs strikes on Iran. Most Gulf bourses edge lower on mixed US-Iran cues",
+      "last_confirmed": "2026-10-02T15:29:28+00:00",
+      "source_count": 6,
+      "summary_short": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say",
+      "summary_long": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say. Three reasons Middle East oil is nearly back to pre-Iran war levels",
       "evidence_cluster_ids": [
+        "c_4342884654296f",
+        "c_2452c49157a395",
+        "c_b709bd8f99ffae",
         "c_8a31f504864562",
-        "c_3e431ae70d3110"
+        "c_c0e10f6c48de27"
       ],
-      "evidence_count": 2,
+      "evidence_count": 6,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -89,16 +89,18 @@
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no recent coverage",
+      "status_detail": "no definitive signals",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "",
-      "source_count": 0,
-      "summary_short": "",
-      "summary_long": "",
-      "evidence_cluster_ids": [],
-      "evidence_count": 0,
+      "last_confirmed": "2026-10-02T12:54:06+00:00",
+      "source_count": 1,
+      "summary_short": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say",
+      "summary_long": "EXCLUSIVE: OPEC+ delays oil capacity review after Iran war disrupts expansion plans, sources say",
+      "evidence_cluster_ids": [
+        "c_4342884654296f"
+      ],
+      "evidence_count": 1,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -111,7 +113,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "no matching clusters"
+        "fell back to default 'HOLDING'"
       ]
     },
     "global_risk_level": {
@@ -141,22 +143,20 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "ELEVATED",
-      "last_changed": "2026-10-01T23:08:31.249438+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_c5c7126fd8cde9",
-      "lead_title": "Analysts Look at WTI-Brent Spread",
-      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQR3VtUk9rTkRtdmxKLW1jQ254MW9yc2duQk50T19Cekd0VU1VM29KcUZhdGFVMGxDOHNGU2gzU1JwSnNsaFJrT1JySlVIdnZVRHFRWXlFWU1Sbk1PSHdudkR1aXFZWlVSQTBaVWlSb21TNnBiTEFpRms5V1Z2NUp0VWFKcHJTU0luZ2c1WU80TEdFcFE?oc=5",
-      "lead_source": "Rigzone",
+      "cluster_id": "c_311a9dffd5ed03",
+      "lead_title": "G-7 Agrees to Release 100 Million Barrels of Crude and Oil Products",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNmctbDFWcjNwNy1XUGFrNU5GM1FJS3pKR0Ztb2JGQTBtQWJEMkRpbHk1b2ZkOEJkZUJub3FjV1hLVS1CYl9iUFNkMTI2RHN1MUZVS3FVa29zUjVzeUN5U0NtMEpLVGlCT3ZZLXpCTUFWQ0VDelBsV2lHaGdZMmpNTzhNMEs4OHBaRm94WVJDMUx6WmhRb2YyWGpDMklYYThSbU9LeDJrUE9tQXVCSFhqdVZqZGZFSWs?oc=5",
+      "lead_source": "WSJ",
       "topic": "oil",
-      "score": 93.53,
+      "score": 98.61,
       "novelty": "new",
-      "source_count": 3,
+      "source_count": 7,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -166,46 +166,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "status",
-      "from": "CONTESTED",
-      "to": "OPEN",
-      "detected_at": "2026-10-01T23:08:31.249438+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "hormuz_status",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-10-01T23:08:31.249438+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-10-01T23:08:31.249438+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-10-01T23:08:31.249438+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.425, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
