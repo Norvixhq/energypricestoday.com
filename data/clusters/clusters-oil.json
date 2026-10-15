@@ -1,6 +1,6 @@
 {
   "topic": "oil",
-  "generated_at": "2026-10-15T04:47:50.933994+00:00",
+  "generated_at": "2026-10-15T09:44:59.356081+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -20,19 +20,19 @@
         "crude",
         "oil"
       ],
-      "source_count": 5,
-      "distinct_publishers": 4,
+      "source_count": 3,
+      "distinct_publishers": 3,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-14T01:17:42+00:00",
-      "latest_seen": "2026-10-15T02:30:22+00:00",
-      "age_hours": 2.29,
-      "score": 86.43,
+      "earliest_seen": "2026-10-14T18:36:19+00:00",
+      "latest_seen": "2026-10-15T03:49:00+00:00",
+      "age_hours": 5.93,
+      "score": 79.44,
       "score_components": {
-        "source_count_points": 20,
-        "recency_points": 23.63,
-        "source_quality_points": 22.8,
+        "source_count_points": 15,
+        "recency_points": 21.44,
+        "source_quality_points": 23.0,
         "entity_relevance_points": 20,
         "materiality_points": 0.0
       },
@@ -49,6 +49,15 @@
           "confidence": 0.8
         },
         {
+          "headline_id": "8ad8cc962cd7434d",
+          "title": "WTI Crude Oil: How a US Price Signal Reaches Australian Fuel Markets",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU2RmTVA3cC0tT0tBTHVqQ2pyLXBRZjlvMFFYZXRoZ2ViY1JoenM2WGJXV3hZa3JjZ1lsZFVrUEtmdjJqVHBUcmVkb0M4NXN3cTRlejBCQ1hRMUo1ZWRucWtoX3VlVmN2ZkNQT0FJNXVNSS1UZmUxajdaR0M4d0ctaG9jTzJjOHhsUnB0bDBiRU1ORmtWLXRzRFRRUlJ6OFRCOHJvbGIySTVKVHBjYlE?oc=5",
+          "source": "Kalkine",
+          "source_type": "rss",
+          "published_at": "2026-10-15T03:49:00+00:00",
+          "confidence": 0.75
+        },
+        {
           "headline_id": "e0cb6d0b49101ca4",
           "title": "WTI Crude Oil Bounces Back, but Road to Recovery Looks Rocky",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcmdISlRCTkR0YzhKUklFdHlMZm1lZG1iQWxyblpBTU5RNWEzbjd0OFJ3NlBHZUhrUU92V25CM3V5eGRZRTVvbW9mWWxuendxRGRpclBHMlpGU2hPcGRSTGN4Zk5uS0ZKY3U2bW5kQVFocG9Pelkzc0kzd1dYNnNfTi1wb09zeThxb3AxejBTNDBBLXlGOTFpTjBib25ZMXlJZVcxQVotMS1kLUFtRGFUakxUTU1qaUZxYmtibWRBQ2YwazNBZVE?oc=5",
@@ -56,7 +65,41 @@
           "source_type": "rss",
           "published_at": "2026-10-15T02:30:22+00:00",
           "confidence": 0.75
-        },
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_66dbf31613edee",
+      "topic": "oil",
+      "lead_title": "WTI Crude Oil futures rise on geopolitical tensions as diesel supplies remain tight.",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ0xPcFBHdjNPRTNMcGRMMEZMM011Z3czRGl6WDkya04tMVhQSlBSQlhlNjBVd3lFbGUteFlXRmpuMTY2OW5hMnNqa0F2S0xibF9heDd6aGhVVS1BTENsZF9ZNm1hdWVPeWRieUtMSHhDQ0dPSnVGR2VXMmR3RzFRTWtsUnY3bjZ4X3VoYVRyQU4tY1l5UU53am9sZlZuUHNrQnJsaFF6NWhDQ2ZvNjNEVUJn?oc=5",
+      "lead_source": "CME Group",
+      "canonical_entities": [
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 4,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-13T01:18:33+00:00",
+      "latest_seen": "2026-10-15T09:07:52+00:00",
+      "age_hours": 0.62,
+      "score": 78.75,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 24.63,
+        "source_quality_points": 22.12,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
         {
           "headline_id": "56a5bb113920fb1b",
           "title": "WTI Crude Oil futures rise on geopolitical tensions as diesel supplies remain tight.",
@@ -67,15 +110,6 @@
           "confidence": 0.75
         },
         {
-          "headline_id": "f5bb7de2422e7cf4",
-          "title": "CME : WTI Crude Oil futures rise on geopolitical tensions as diesel supplies remain tight.",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaXZ6UFh3VmJRMGQ3WFFnd0d4enRlUDZIczQ2UUFLd3RFd2UtbGZnNVpOWW5aZVJ6alRUNUR6aHVaWFlyYWd4SjJKS2FZSVk0S24xS1gyUUZ3cFoxT09FdVA0UUtyV1VXZ0ZpcUhaLVNqQW40a3ZQNmdyOG1TRHZlN0t2M21oZEU3eW1SN3I3TE5kR0NnMmxfeVJCbi1paDdTbnpocW14WUxPY0ZVcWxNSnNUX00tRXRjeXozRkF5S3ZNWUdRa2tvakYxUmxoWHN2aFlfM0pPZw?oc=5",
-          "source": "www.marketscreener.com",
-          "source_type": "rss",
-          "published_at": "2026-10-14T17:49:06+00:00",
-          "confidence": 0.75
-        },
-        {
           "headline_id": "1a7e37d7ea043260",
           "title": "WTI Crude Oil futures rise as Gulf tensions support prices.",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSk1WUGFoQ05xRDZnemJOMWFpd0dmY0tOdE5ZZ0RCMHNQZ3JhR1dEY2VnNndUeE1kUk1SZEx6NlY1c2RlRWpmTy1oUWZOeVg5aENNZmV2VnZLUmEtM29jc1pXcllsM3NRRHI5UVI2U2Jka2hlM3pvQXJrWk1kcUVFYVRlaWlEN2pEMzVOdFIwRk9ZbUY1VkoxNjN2aG01M0JGQ2lsdGxBNmREZzhMUjhrcg?oc=5",
@@ -83,9 +117,191 @@
           "source_type": "rss",
           "published_at": "2026-10-14T01:17:42+00:00",
           "confidence": 0.75
+        },
+        {
+          "headline_id": "d6f5a10bf5938bfd",
+          "title": "WTI Crude Oil futures advance for third session amid global tensions.",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVGZiQVJsWkZteUliZnhfdUI1eEFlSkd5RmlHU1JIdHZFbmRRS3RaMXQ0aUtjcFFWTF9qdmtnazRHdnZEOFRiUVhBTWJITFVjejlBT0xPLU5oZW1iZlo0cHVrQlJYWlVKN3FPaDh5WEhhaHlwOVR6MFJ1c1lxU2xjYW5Uc0ZfNFAycGxackU1X1psbEJDUy1jc3hQRFRnNWFoZVdPNU1EUm5ROGxNM1Rxdy1R?oc=5",
+          "source": "CME Group",
+          "source_type": "rss",
+          "published_at": "2026-10-13T01:18:33+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "3a25477c6fd3abc2",
+          "title": "Oil futures: Crude lower as US weighs easing tanker sanctions",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMHpKTlJ0Uzh4dGt1dEQ2ZUZ2dUVaUlRqb1JuOG80MERiM200Qld6Wng0Z25GcjlZczR6eU1VbnZaMEQ5UTJFbzFlcmNfaGJBWXJGR25GeVduMTk5R016SXY4MkZaeVZTRzhQTUduUXZ4eGFBZVFtaURhXzhmSUZWSTRWajVxZ0xkT29YZTdfTWluX2wzVWVFaVFDT1Nza29UVlh4WU5R?oc=5",
+          "source": "Quantum Commodity Intelligence",
+          "source_type": "rss",
+          "published_at": "2026-10-15T09:07:52+00:00",
+          "confidence": 0.7
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_06713a94baa542",
+      "topic": "oil",
+      "lead_title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end",
+      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-15T06:00:00+00:00",
+      "latest_seen": "2026-10-15T06:00:00+00:00",
+      "age_hours": 3.75,
+      "score": 71.75,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.75,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "409a2c705566201d",
+          "title": "COMMENTARY: Oil's long view darkens as Iran war refuses to end",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2VycDJiM2tHUVV0LUZHMjgtcmdqOHQ2QWZkakF6eGlnY2ZmaHduOE80Ul95NjVTTVFtVFR5d3l4Q09QdU15YWI5MzVxYzdnUWlKRXgtR0lGakUyV243MlJPamhMRFIxTF85SWRJclNQLTlJTW9KUHR6OFdFMUpxaURpYkdISHJPRk5ZMDNIZ2h5Zm9rVVVzQTk0Uk56VXdYY1d5ZGduNDJUcVA0MjNBaDNB?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-10-15T06:00:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c180320a85b0ac",
+      "topic": "oil",
+      "lead_title": "Oil prices slide as US weighs easing sanctions on 'shadow fleet'",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOakIxN2pXRENBSjFMY1Rtc00zZG84UUVERE54NFBReWdoV2VJMHRpMFlZdzdSLXdzaEFOOEQwbFp5TG44Mk5wMFZyLVdPOTNpNG5nRlY5Q1lITWFlSjZ1RXdBMDdoRTQ1LTdrMy0zQVJlTThsUUJ2anBxWDNLWkpyV3lUbm5VMm5KMVJybkNpTVJuTGl6bTJia0t5UjE1UHNIclJFQUVRZ0FnektCZWxnSXNGc1VSdlhXM2RZ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-15T01:30:00+00:00",
+      "latest_seen": "2026-10-15T01:30:00+00:00",
+      "age_hours": 8.25,
+      "score": 69.05,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 20.05,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "344055df5a391894",
+          "title": "Oil prices slide as US weighs easing sanctions on 'shadow fleet'",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOakIxN2pXRENBSjFMY1Rtc00zZG84UUVERE54NFBReWdoV2VJMHRpMFlZdzdSLXdzaEFOOEQwbFp5TG44Mk5wMFZyLVdPOTNpNG5nRlY5Q1lITWFlSjZ1RXdBMDdoRTQ1LTdrMy0zQVJlTThsUUJ2anBxWDNLWkpyV3lUbm5VMm5KMVJybkNpTVJuTGl6bTJia0t5UjE1UHNIclJFQUVRZ0FnektCZWxnSXNGc1VSdlhXM2RZ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-10-15T01:30:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_e4e666643513c6",
+      "topic": "oil",
+      "lead_title": "TotalEnergies flags quarterly profit surge as Iran war continues to drive energy prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSjBJVjY0bVpoWDlsbGtrMnpFS0ZvcURsLUZMazd5S0o2Zmw2R2s0ZXc1NzBYb1YxUnNhdENBYzBfajVLVHZiWGJtdk5PbTRLb1BzaWdsNEJDY3lxUFV4TW1wTUpTRmZGTXVOb3JDdVFNeUFTcFZEbVNPcmJBMS1lazUtZVdJbENMMVAxQWRXallDRjZlQ3lINVBfaVppOXBPSHpmUkxqRVdNalVZWVZBcS01cEhWZnlTTDFnRFBoSTVxdkt5?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-15T06:06:00+00:00",
+      "latest_seen": "2026-10-15T06:06:00+00:00",
+      "age_hours": 3.65,
+      "score": 66.31,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.81,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "1c6903b95e83a0e3",
+          "title": "TotalEnergies flags quarterly profit surge as Iran war continues to drive energy prices",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOSjBJVjY0bVpoWDlsbGtrMnpFS0ZvcURsLUZMazd5S0o2Zmw2R2s0ZXc1NzBYb1YxUnNhdENBYzBfajVLVHZiWGJtdk5PbTRLb1BzaWdsNEJDY3lxUFV4TW1wTUpTRmZGTXVOb3JDdVFNeUFTcFZEbVNPcmJBMS1lazUtZVdJbENMMVAxQWRXallDRjZlQ3lINVBfaVppOXBPSHpmUkxqRVdNalVZWVZBcS01cEhWZnlTTDFnRFBoSTVxdkt5?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-10-15T06:06:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_5d51de45e97dcb",
+      "topic": "oil",
+      "lead_title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+      "lead_source": "EnergyNow.com",
+      "canonical_entities": [
+        "Brent",
+        "WTI",
+        "crude"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T16:04:37+00:00",
+      "latest_seen": "2026-10-14T16:04:37+00:00",
+      "age_hours": 17.67,
+      "score": 63.9,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 14.4,
+        "source_quality_points": 22.5,
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "0f753ba1bd300af8",
+          "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+          "source": "EnergyNow.com",
+          "source_type": "rss",
+          "published_at": "2026-10-14T16:04:37+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -102,19 +318,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-15T04:01:37+00:00",
-      "latest_seen": "2026-10-15T04:01:37+00:00",
-      "age_hours": 0.77,
-      "score": 72.64,
+      "earliest_seen": "2026-10-15T04:00:29+00:00",
+      "latest_seen": "2026-10-15T04:00:29+00:00",
+      "age_hours": 5.74,
+      "score": 59.65,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.54,
+        "recency_points": 21.55,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "b6b3677a42752fe0",
@@ -122,52 +338,11 @@
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWjBhU09EZ21MQTh2bHhxYzhDZy1jZnBrNmtPZHNiR3ZhdkN3Nm0tcDc0WmdobkI2dHlRTF9WMV9wRFdJdU5uMDhoNnV3WEFhWXI1a0JpclA0ZEFfV1lIaEMtVVR0Nl9tMlJCQVBIc3BMRm5FTmo5N3djX0dERkNPRlh0Nk4?oc=5",
           "source": "Financial Times",
           "source_type": "rss",
-          "published_at": "2026-10-15T04:01:37+00:00",
+          "published_at": "2026-10-15T04:00:29+00:00",
           "confidence": 0.97
         }
       ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2ba855b0ada2e5",
-      "topic": "oil",
-      "lead_title": "Oil prices fall as investors weigh supply outlook, Middle East tensions",
-      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOakIxN2pXRENBSjFMY1Rtc00zZG84UUVERE54NFBReWdoV2VJMHRpMFlZdzdSLXdzaEFOOEQwbFp5TG44Mk5wMFZyLVdPOTNpNG5nRlY5Q1lITWFlSjZ1RXdBMDdoRTQ1LTdrMy0zQVJlTThsUUJ2anBxWDNLWkpyV3lUbm5VMm5KMVJybkNpTVJuTGl6bTJia0t5UjE1UHNIclJFQUVRZ0FnektCZWxnSXNGc1VSdlhXM2RZ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-15T01:30:00+00:00",
-      "latest_seen": "2026-10-15T01:30:00+00:00",
-      "age_hours": 3.3,
-      "score": 72.02,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.02,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "fa304425ac75ead0",
-          "title": "Oil prices fall as investors weigh supply outlook, Middle East tensions",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOakIxN2pXRENBSjFMY1Rtc00zZG84UUVERE54NFBReWdoV2VJMHRpMFlZdzdSLXdzaEFOOEQwbFp5TG44Mk5wMFZyLVdPOTNpNG5nRlY5Q1lITWFlSjZ1RXdBMDdoRTQ1LTdrMy0zQVJlTThsUUJ2anBxWDNLWkpyV3lUbm5VMm5KMVJybkNpTVJuTGl6bTJia0t5UjE1UHNIclJFQUVRZ0FnektCZWxnSXNGc1VSdlhXM2RZ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-10-15T01:30:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -186,17 +361,17 @@
       ],
       "earliest_seen": "2026-10-15T04:09:18+00:00",
       "latest_seen": "2026-10-15T04:09:18+00:00",
-      "age_hours": 0.64,
-      "score": 71.51,
+      "age_hours": 5.59,
+      "score": 58.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.61,
+        "recency_points": 21.64,
         "source_quality_points": 27.9,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e81b8ec13d638cd9",
@@ -225,17 +400,17 @@
       ],
       "earliest_seen": "2026-10-15T00:06:00+00:00",
       "latest_seen": "2026-10-15T00:06:00+00:00",
-      "age_hours": 4.7,
-      "score": 65.68,
+      "age_hours": 9.65,
+      "score": 52.71,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.18,
+        "recency_points": 19.21,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "242c8daf3cee6c92",
@@ -251,52 +426,42 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_7b888ecd720583",
+      "cluster_id": "c_b6dedc3d0c3406",
       "topic": "oil",
-      "lead_title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
-      "lead_source": "EnergyNow.com",
+      "lead_title": "WTI Crude Oil futures pull back to $91 as volatility eases.",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU24ta0VBdV9ldTZ3X1ZMdzZzRExNYTdxVEFKSVphdzVaanU4ZUEzZ213Y2w4UC1WOE9odXRkTWt5UENZVDN2REhVeFM4X2lUTURkRG1scUJ2Qk41djdBVmZXQl82QkVUblpXNjNHcWMtNFdSekZUWGNoUzBTSGhQbV85WFc5MjdGTS1ndWJXTWptUXlmSTFaMGVtOTBXa1AwU1k2cGVCeWJzWkVkM1VV?oc=5",
+      "lead_source": "CME Group",
       "canonical_entities": [
-        "Brent",
         "WTI",
         "crude",
         "oil"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T01:18:33+00:00",
-      "latest_seen": "2026-10-14T16:04:37+00:00",
-      "age_hours": 12.72,
-      "score": 60.87,
+      "earliest_seen": "2026-10-10T09:26:24+00:00",
+      "latest_seen": "2026-10-10T09:26:24+00:00",
+      "age_hours": 120.31,
+      "score": 49.5,
       "score_components": {
-        "source_count_points": 10,
-        "recency_points": 17.37,
+        "source_count_points": 5,
+        "recency_points": 0.0,
         "source_quality_points": 22.5,
-        "entity_relevance_points": 16,
-        "materiality_points": -5.0
+        "entity_relevance_points": 12,
+        "materiality_points": 10.0
       },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "0f753ba1bd300af8",
-          "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
-          "source": "EnergyNow.com",
-          "source_type": "rss",
-          "published_at": "2026-10-14T16:04:37+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "d6f5a10bf5938bfd",
-          "title": "WTI Crude Oil futures advance for third session amid global tensions.",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVGZiQVJsWkZteUliZnhfdUI1eEFlSkd5RmlHU1JIdHZFbmRRS3RaMXQ0aUtjcFFWTF9qdmtnazRHdnZEOFRiUVhBTWJITFVjejlBT0xPLU5oZW1iZlo0cHVrQlJYWlVKN3FPaDh5WEhhaHlwOVR6MFJ1c1lxU2xjYW5Uc0ZfNFAycGxackU1X1psbEJDUy1jc3hQRFRnNWFoZVdPNU1EUm5ROGxNM1Rxdy1R?oc=5",
+          "headline_id": "51be0acefa4ead97",
+          "title": "WTI Crude Oil futures pull back to $91 as volatility eases.",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU24ta0VBdV9ldTZ3X1ZMdzZzRExNYTdxVEFKSVphdzVaanU4ZUEzZ213Y2w4UC1WOE9odXRkTWt5UENZVDN2REhVeFM4X2lUTURkRG1scUJ2Qk41djdBVmZXQl82QkVUblpXNjNHcWMtNFdSekZUWGNoUzBTSGhQbV85WFc5MjdGTS1ndWJXTWptUXlmSTFaMGVtOTBXa1AwU1k2cGVCeWJzWkVkM1VV?oc=5",
           "source": "CME Group",
           "source_type": "rss",
-          "published_at": "2026-10-13T01:18:33+00:00",
+          "published_at": "2026-10-10T09:26:24+00:00",
           "confidence": 0.75
         }
       ],
@@ -304,10 +469,10 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_66d2cb568bab87",
+      "cluster_id": "c_72c005228c6965",
       "topic": "oil",
-      "lead_title": "EU delays methane rules on oil and gas imports for a year",
-      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1FoRVViUjFFU1FZN0hKaDR4Q3M4S2VheF9USmZYVzNFYk9hd2t1WlJRbmNiSnRwNkF4ZjhxUThPaWdNd0MtS0FHdkFCUDQwWUI3RHAydzl2QkduWXBob09SWDNyREttM1M1Y2hBbDZMLW1HREVSVUtoRVFVOFR6OHNSc0xpUTM5Tmw2RGhSVUprbFNndlRiUU5ZdjA?oc=5",
+      "lead_title": "Oil prices slide about 2% as US, Iran explore path out of war",
+      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [
         "oil"
@@ -317,27 +482,27 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-14T16:04:17+00:00",
-      "latest_seen": "2026-10-14T16:04:17+00:00",
-      "age_hours": 12.73,
-      "score": 51.36,
+      "earliest_seen": "2026-09-25T07:00:00+00:00",
+      "latest_seen": "2026-09-25T07:00:00+00:00",
+      "age_hours": 482.75,
+      "score": 49.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.36,
+        "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": -5.0
+        "materiality_points": 10.0
       },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "789dc4a4eac8c4fd",
-          "title": "EU delays methane rules on oil and gas imports for a year",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1FoRVViUjFFU1FZN0hKaDR4Q3M4S2VheF9USmZYVzNFYk9hd2t1WlJRbmNiSnRwNkF4ZjhxUThPaWdNd0MtS0FHdkFCUDQwWUI3RHAydzl2QkduWXBob09SWDNyREttM1M1Y2hBbDZMLW1HREVSVUtoRVFVOFR6OHNSc0xpUTM5Tmw2RGhSVUprbFNndlRiUU5ZdjA?oc=5",
+          "headline_id": "7b91e88a6835c9cf",
+          "title": "Oil prices slide about 2% as US, Iran explore path out of war",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-10-14T16:04:17+00:00",
+          "published_at": "2026-09-25T07:00:00+00:00",
           "confidence": 1.0
         }
       ],
@@ -360,11 +525,11 @@
       ],
       "earliest_seen": "2026-10-14T15:27:22+00:00",
       "latest_seen": "2026-10-14T15:27:22+00:00",
-      "age_hours": 13.34,
-      "score": 51.0,
+      "age_hours": 18.29,
+      "score": 48.02,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.0,
+        "recency_points": 14.02,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -386,92 +551,10 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_deac05d69f4aec",
+      "cluster_id": "c_11ce2c9a44b1e8",
       "topic": "oil",
-      "lead_title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
-      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-14T09:51:00+00:00",
-      "latest_seen": "2026-10-14T09:51:00+00:00",
-      "age_hours": 18.95,
-      "score": 47.63,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 13.63,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "e06b5d0d0fe3daf9",
-          "title": "Yemen's Houthis vow more attacks on Saudi airports, oil facilities after Aramco HQ hit",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV3VzaTd1VDVxNXczQ2FRa2FsXzdOV0Y5ZlFoaUthcVJhUnlFMHROUUMtWWZzUGZNWFd5WVNZbnJyZ3A4azRaUzNabVQ1U2ZMMmNYTzM1R2ZoeDF5dVQ0Q3FldDNEMW5lVC1oaVQ3Rmdaei01eS1GaFVla0prYUVZeEtJZlBZV2hoUm8yVTJNR3RYSXlhZTBPVWswNmdTWE5nclRiSldzUE91cXNZbzRGZzVOSFpMX294VWs3UlFpV2Q1Z09xTnl4Rw?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-10-14T09:51:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_44e361833b2f47",
-      "topic": "oil",
-      "lead_title": "Equinor makes North Sea oil discovery",
-      "lead_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa2FNREFwS2NkYlg1Zkt6OHZQODFzZUJOOGZFYU5YS3ZBbnpsR0FxWDduV3p3SjB3UzVja2FmR3kzanlWb0JhTVpsZ19XaEN0WUI0cnJMNlhPRFAtNjJhVmNwbTY5VjNuV19qeFJDcU9jUjBOdlJCbHI3dEFMelVfdGZuZ0ZlUFF6el9qVUtONEZOV3c?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-14T06:50:00+00:00",
-      "latest_seen": "2026-10-14T06:50:00+00:00",
-      "age_hours": 21.96,
-      "score": 45.82,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 11.82,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "4b4bcc5249060923",
-          "title": "Equinor makes North Sea oil discovery",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQa2FNREFwS2NkYlg1Zkt6OHZQODFzZUJOOGZFYU5YS3ZBbnpsR0FxWDduV3p3SjB3UzVja2FmR3kzanlWb0JhTVpsZ19XaEN0WUI0cnJMNlhPRFAtNjJhVmNwbTY5VjNuV19qeFJDcU9jUjBOdlJCbHI3dEFMelVfdGZuZ0ZlUFF6el9qVUtONEZOV3c?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-10-14T06:50:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_269b0b216c7188",
-      "topic": "oil",
-      "lead_title": "What's in the diesel deal between Putin and Trump?",
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5",
+      "lead_title": "Saudi Aramco headquarters attacked, limited fire reported",
+      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [],
       "source_count": 1,
@@ -479,13 +562,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T14:44:03+00:00",
-      "latest_seen": "2026-10-13T14:44:03+00:00",
-      "age_hours": 38.06,
-      "score": 45.66,
+      "earliest_seen": "2026-10-13T13:12:00+00:00",
+      "latest_seen": "2026-10-13T13:12:00+00:00",
+      "age_hours": 44.55,
+      "score": 43.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.16,
+        "recency_points": 0.0,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": 10.0
@@ -494,52 +577,13 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "278217ca5bdb4bb7",
-          "title": "What's in the diesel deal between Putin and Trump?",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5",
+          "headline_id": "db9c1f1c6a133063",
+          "title": "Saudi Aramco headquarters attacked, limited fire reported",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUHZtMnk3dUVFWmVkT2FmZVRqNWNrUUc5YkNkWVJMOEhWMmo1dnc2S3FlUlExbjFscTdlY3NQcExPejdxUlF1clZ5S1BKQ1JLdjhzaFdXT2l1YVBmN2VVSkFOSlJNNmlTR2w5d082MDR2b3RkY1VrTTlwWFhuclBteVRaTmtMRUczY0VPaWxBeVV1RE9vUE9kRFZaUlZEX0NnOXZqVnNtNlJIcFU3cnE2VVFTNzhfNVZ0TzZiQWFtSUJCdXJXYU5rU0JB?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-10-13T14:44:03+00:00",
+          "published_at": "2026-10-13T13:12:00+00:00",
           "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2e6cf72c18fe5a",
-      "topic": "oil",
-      "lead_title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase",
-      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-14T15:49:00+00:00",
-      "latest_seen": "2026-10-14T15:49:00+00:00",
-      "age_hours": 12.98,
-      "score": 44.81,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 17.21,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "b2d872b5a010d890",
-          "title": "Two Cargo Ships Sink Near Strait of Hormuz, as Iranian Attacks Increase",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeVJzcVMzeW15SzZXQ09EZHdZNzdXY0lmbWVJNjRDLVlodjE0SVBTeFBES1VudmJROGNiQ3RlYU1NM2FlLWs0eVhadlR1Q3luYnoxTDBkRjBwcFdoN052cUxSOVBkQTFBSkdVYTd0elBuX3F0X19feXBuRGgtTVZfZmVvY21yU0F0RkdKX01DMHZDZE5ITUtMTzFZTnBJX1VnSWpwRW4xQQ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-10-14T15:49:00+00:00",
-          "confidence": 0.92
         }
       ],
       "top_tier": false,
@@ -559,11 +603,11 @@
       ],
       "earliest_seen": "2026-10-14T15:47:29+00:00",
       "latest_seen": "2026-10-14T15:47:29+00:00",
-      "age_hours": 13.01,
-      "score": 43.6,
+      "age_hours": 17.96,
+      "score": 40.62,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.2,
+        "recency_points": 14.22,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -585,45 +629,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_c10cdb2c2e8804",
-      "topic": "oil",
-      "lead_title": "Saudi Aramco headquarters suffered extensive damage in Houthi attack, sources say",
-      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEY0UDJsbGo1MXFVX1FoY1RIdkFLeW96R3hMOEkwQTNRTFpLby1wZEFGRy10SThxSkhSaXZKQ1psYmdiQVZQd19uaDFtZFBZa1pJZzZCT0dsd0lSdmV1UWV0dExiRmU2Y2lVUS1SaWs1UzNkZ25lUnRJaklfWnlOeEFVQTg2dDVQTWF4UWp1aTcyR2JsUWN5d0JzSWRqMlp1ZDY3OXpncUZDN2FuVk9tN0VuaGtIMVpXM1F4RU5QX00xek9q?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-14T11:43:12+00:00",
-      "latest_seen": "2026-10-14T11:43:12+00:00",
-      "age_hours": 17.08,
-      "score": 43.25,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.75,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "d5f5aacdcd1ebefe",
-          "title": "Saudi Aramco headquarters suffered extensive damage in Houthi attack, sources say",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTEY0UDJsbGo1MXFVX1FoY1RIdkFLeW96R3hMOEkwQTNRTFpLby1wZEFGRy10SThxSkhSaXZKQ1psYmdiQVZQd19uaDFtZFBZa1pJZzZCT0dsd0lSdmV1UWV0dExiRmU2Y2lVUS1SaWs1UzNkZ25lUnRJaklfWnlOeEFVQTg2dDVQTWF4UWp1aTcyR2JsUWN5d0JzSWRqMlp1ZDY3OXpncUZDN2FuVk9tN0VuaGtIMVpXM1F4RU5QX00xek9q?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-10-14T11:43:12+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_c73ccbd4a2a4f1",
       "topic": "oil",
       "lead_title": "Indian shares end lower as higher oil prices, foreign outflows dent appetite",
@@ -639,11 +644,11 @@
       ],
       "earliest_seen": "2026-10-14T02:25:00+00:00",
       "latest_seen": "2026-10-14T02:25:00+00:00",
-      "age_hours": 26.38,
-      "score": 43.17,
+      "age_hours": 31.33,
+      "score": 40.2,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.17,
+        "recency_points": 6.2,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -678,11 +683,11 @@
       ],
       "earliest_seen": "2026-10-14T14:44:05+00:00",
       "latest_seen": "2026-10-14T14:44:05+00:00",
-      "age_hours": 14.06,
-      "score": 42.96,
+      "age_hours": 19.02,
+      "score": 39.99,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.56,
+        "recency_points": 13.59,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -704,47 +709,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_c90bbe0ad7d961",
-      "topic": "oil",
-      "lead_title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-14T01:27:00+00:00",
-      "latest_seen": "2026-10-14T01:27:00+00:00",
-      "age_hours": 27.35,
-      "score": 42.59,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 8.59,
-        "source_quality_points": 30.0,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "245a57f136a2473d",
-          "title": "Oil prices gain on attacks in Saudi Arabia, Iran's new tactics to target tankers",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-10-14T01:27:00+00:00",
-          "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_f2c14d816abfc1",
       "topic": "oil",
       "lead_title": "‘From liabilities to goldmines’: refineries eye record profits from diesel shortage",
@@ -758,11 +722,11 @@
       ],
       "earliest_seen": "2026-10-14T12:26:00+00:00",
       "latest_seen": "2026-10-14T12:26:00+00:00",
-      "age_hours": 16.36,
-      "score": 39.18,
+      "age_hours": 21.32,
+      "score": 36.21,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 15.18,
+        "recency_points": 12.21,
         "source_quality_points": 24.0,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -799,11 +763,11 @@
       ],
       "earliest_seen": "2026-10-13T13:58:40+00:00",
       "latest_seen": "2026-10-13T13:58:40+00:00",
-      "age_hours": 38.82,
-      "score": 35.71,
+      "age_hours": 43.77,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 1.71,
+        "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -840,11 +804,11 @@
       ],
       "earliest_seen": "2026-10-13T11:35:43+00:00",
       "latest_seen": "2026-10-13T11:35:43+00:00",
-      "age_hours": 41.2,
-      "score": 34.28,
+      "age_hours": 46.15,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 0.28,
+        "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -881,7 +845,7 @@
       ],
       "earliest_seen": "2026-10-12T22:54:06+00:00",
       "latest_seen": "2026-10-12T22:54:06+00:00",
-      "age_hours": 53.9,
+      "age_hours": 58.85,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -922,7 +886,7 @@
       ],
       "earliest_seen": "2026-10-06T07:00:00+00:00",
       "latest_seen": "2026-10-06T07:00:00+00:00",
-      "age_hours": 213.8,
+      "age_hours": 218.75,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -963,7 +927,7 @@
       ],
       "earliest_seen": "2026-10-05T07:00:00+00:00",
       "latest_seen": "2026-10-05T07:00:00+00:00",
-      "age_hours": 237.8,
+      "age_hours": 242.75,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -1004,7 +968,7 @@
       ],
       "earliest_seen": "2026-10-08T01:46:00+00:00",
       "latest_seen": "2026-10-08T01:46:00+00:00",
-      "age_hours": 171.03,
+      "age_hours": 175.98,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -1030,6 +994,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_269b0b216c7188",
+      "topic": "oil",
+      "lead_title": "What's in the diesel deal between Putin and Trump?",
+      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-13T14:44:03+00:00",
+      "latest_seen": "2026-10-13T14:44:03+00:00",
+      "age_hours": 43.02,
+      "score": 28.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "278217ca5bdb4bb7",
+          "title": "What's in the diesel deal between Putin and Trump?",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-10-13T14:44:03+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_c8d0341e5b3dd2",
       "topic": "oil",
       "lead_title": "Trump's diesel deal with Russia equals less than two weeks of U.S. demand",
@@ -1043,11 +1046,11 @@
       ],
       "earliest_seen": "2026-10-13T15:48:32+00:00",
       "latest_seen": "2026-10-13T15:48:32+00:00",
-      "age_hours": 36.99,
-      "score": 29.21,
+      "age_hours": 41.94,
+      "score": 26.4,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.81,
+        "recency_points": 0.0,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
