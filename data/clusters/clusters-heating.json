@@ -1,33 +1,74 @@
 {
   "topic": "heating",
-  "generated_at": "2026-10-13T22:50:33.554922+00:00",
+  "generated_at": "2026-10-15T00:05:44.632487+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 29,
   "clusters": [
     {
-      "cluster_id": "c_b72fae326d6fa9",
+      "cluster_id": "c_389e08dc61248f",
       "topic": "heating",
-      "lead_title": "Finance minister says heating oil benefit to increase by 30% this year",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUnJpVlV5Y3g1Q2pFMkIxeFRXdjZoVUpVeDY0U2ktbG9oNVRTSy1RLXNHZk9KcjM2RG1BZjllR1AtOWtpSU0xUXptNXR0Um9KanRNXzlkVHE0U0JhR1UxTlhXOXZOV1Z0N3Z6b0xmOXRxZ2xZYlZNVzNFWWg1eVNodzVwajhVMUdHbHE1RGhvYjlVaFZPemJ2YkpvRUlUWFdBNHhYZC1nSndycTd3elBwbnFIZmRaMWptZ3J6S3NtUQ?oc=5",
-      "lead_source": "eKathimerini.com",
+      "lead_title": "‘From liabilities to goldmines’: refineries eye record profits from diesel shortage",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObG5YWndtYmhpZG1OSWNWSmp1R1NXSjFTMWhYUk5DalR1UF9ONUpaWGlMUkRDdWdFSGR1ZDVoaU9CTW1GdzZmWi1lV3QwZjhLdnh1ZFBFZy1wZ3l4RENnQTdneDV1UkJSVVJKSmhXREVTejQwSURZVWdfTXliNlBsQWM1NTVNU296VU9OSzJwYTdXeW5qcUhjSVkyZXRIVGlqNUJ3YzRxSDY?oc=5",
+      "lead_source": "The Guardian",
       "canonical_entities": [
-        "heating oil"
+        "diesel"
       ],
-      "source_count": 3,
-      "distinct_publishers": 3,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T10:51:50+00:00",
-      "latest_seen": "2026-10-13T14:41:40+00:00",
-      "age_hours": 8.15,
-      "score": 68.61,
+      "earliest_seen": "2026-10-14T17:37:00+00:00",
+      "latest_seen": "2026-10-14T17:37:00+00:00",
+      "age_hours": 6.48,
+      "score": 65.61,
       "score_components": {
-        "source_count_points": 15,
-        "recency_points": 20.11,
+        "source_count_points": 5,
+        "recency_points": 21.11,
+        "source_quality_points": 25.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "afa3066474487571",
+          "title": "‘From liabilities to goldmines’: refineries eye record profits from diesel shortage",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObG5YWndtYmhpZG1OSWNWSmp1R1NXSjFTMWhYUk5DalR1UF9ONUpaWGlMUkRDdWdFSGR1ZDVoaU9CTW1GdzZmWi1lV3QwZjhLdnh1ZFBFZy1wZ3l4RENnQTdneDV1UkJSVVJKSmhXREVTejQwSURZVWdfTXliNlBsQWM1NTVNU296VU9OSzJwYTdXeW5qcUhjSVkyZXRIVGlqNUJ3YzRxSDY?oc=5",
+          "source": "The Guardian",
+          "source_type": "rss",
+          "published_at": "2026-10-14T17:37:00+00:00",
+          "confidence": 0.85
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_70f9db0cffc009",
+      "topic": "heating",
+      "lead_title": "NYSERDA: Heating oil prices up 67% compared to 2025",
+      "lead_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRi1tN1ZoUFlDcEVBRHVsclcwSWxKN1VJQTloUDFzQVkwTy1paTFVc3g2ejZrb2IyUmdlSjdIVERPbnVSRmxWakMtNW9XZ0MxUEFDZi05TWFhZlhqODg4b1otR0FCb2ZKV0c3bWluaGd5ckZ2bmlqNDRtN0dtc2xUOGFaVWRpYTJuRmRhM1VYQlVqX3UxX00yZUxZY2NTRE01WmJXYVNTdm5pSmk4SjZOUFE0cjVTWDdqMGc?oc=5",
+      "lead_source": "WENY News",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T22:44:33+00:00",
+      "latest_seen": "2026-10-14T22:44:33+00:00",
+      "age_hours": 1.35,
+      "score": 62.69,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 24.19,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -36,30 +77,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "bc7e74c0a2d677a1",
-          "title": "Finance minister says heating oil benefit to increase by 30% this year",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUnJpVlV5Y3g1Q2pFMkIxeFRXdjZoVUpVeDY0U2ktbG9oNVRTSy1RLXNHZk9KcjM2RG1BZjllR1AtOWtpSU0xUXptNXR0Um9KanRNXzlkVHE0U0JhR1UxTlhXOXZOV1Z0N3Z6b0xmOXRxZ2xZYlZNVzNFWWg1eVNodzVwajhVMUdHbHE1RGhvYjlVaFZPemJ2YkpvRUlUWFdBNHhYZC1nSndycTd3elBwbnFIZmRaMWptZ3J6S3NtUQ?oc=5",
-          "source": "eKathimerini.com",
+          "headline_id": "72dadc0834b039bb",
+          "title": "NYSERDA: Heating oil prices up 67% compared to 2025",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRi1tN1ZoUFlDcEVBRHVsclcwSWxKN1VJQTloUDFzQVkwTy1paTFVc3g2ejZrb2IyUmdlSjdIVERPbnVSRmxWakMtNW9XZ0MxUEFDZi05TWFhZlhqODg4b1otR0FCb2ZKV0c3bWluaGd5ckZ2bmlqNDRtN0dtc2xUOGFaVWRpYTJuRmRhM1VYQlVqX3UxX00yZUxZY2NTRE01WmJXYVNTdm5pSmk4SjZOUFE0cjVTWDdqMGc?oc=5",
+          "source": "WENY News",
           "source_type": "rss",
-          "published_at": "2026-10-13T14:41:40+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "99da65c26f28d93d",
-          "title": "Greek finance minister raises heating oil benefit by 30%",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWUUzY0NFdFRwaTZ6RlNzbVdzOU9hSnZXRmF1N1M2VW9RcU5OTmtSclJFQmdqclU2RUFwVXNQYUIxcFA0Q2pOc3UyM0xnbTdMcVdoOFNsTm1CbWx1YkFYdFBtelM0YU0xbTBkOTZFSWIyUEx6TmthenVieERibFRhd0pqTm03TS1iQndpZjNWMlZuaEFYamxLZzRGQ0FOdHZwaHpFSUo1X1JJcERtVFo4bHlR?oc=5",
-          "source": "Investing.com",
-          "source_type": "rss",
-          "published_at": "2026-10-13T10:52:20+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "0e80366f754fa893",
-          "title": "Greece says heating oil benefit to increase by 30% this year",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQM3JLT092dnVKbnZNRHdwZC1xSHpaMk1PdG5UMk5hLTdORnlkY0pNWktWaFAzUGM2LS1SUDFkdGlOczlZMW1fN3p3TVdlYnU5X1ZUY2RHYnJndEhUYzY4U1RJalVlc0hsZ3V2VDRZTk5NV0xBSzA1c2dCbDFxSHl0Vi14OGZjbFhzeXphWnY1aU1lNlNudzhuUHBrVGItTXBLQWFxMy05SWctbUdIMzJhTU1WaVhuUllXY3BGdTVDbFdudjdoUVZVaA?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-10-13T10:51:50+00:00",
+          "published_at": "2026-10-14T22:44:33+00:00",
           "confidence": 0.65
         }
       ],
@@ -67,11 +90,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_5ac5430c6ee246",
+      "cluster_id": "c_b13cbd3a854a83",
       "topic": "heating",
-      "lead_title": "Heating Oil Surges Nearly 5%",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdWVEd3M2T1dUdUxLYUJzTVNoaENYNmU0NDFQMGdTaFR0SVRqUVIxSk1TNDAxZWttNDdvRWxJbnZUQkppbTZQUklPUk16eW9QclY2VzZJWHpJOEJ4clVfYlktMWlJeGQ3OTgxc2F0eDRERm5pTWVTNzJpWnZzdDVYRXNwQk4?oc=5",
-      "lead_source": "TradingView",
+      "lead_title": "Home heating oil prices soar",
+      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10czRvNC1nNzlka1UwQXBiLWJ2ZXpMN1dMcy1SYlg0RXplMF9LN0VyNGlndXIyUkVnNk1NT21HV2VZMkJ6cUNUeHBFclA4eFR5UzRDdHZpRzJ3dEk2VEV1SjFCYkJaZHEzcXVMdzZ2V2c5MkZn?oc=5",
+      "lead_source": "Mid Hudson News",
       "canonical_entities": [
         "heating oil"
       ],
@@ -80,13 +103,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-12T22:04:00+00:00",
-      "latest_seen": "2026-10-13T17:09:58+00:00",
-      "age_hours": 5.68,
-      "score": 65.09,
+      "earliest_seen": "2026-10-13T21:20:15+00:00",
+      "latest_seen": "2026-10-14T10:37:46+00:00",
+      "age_hours": 13.47,
+      "score": 60.42,
       "score_components": {
         "source_count_points": 10,
-        "recency_points": 21.59,
+        "recency_points": 16.92,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -95,21 +118,21 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "a3757f532f91c347",
-          "title": "Heating Oil Surges Nearly 5%",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdWVEd3M2T1dUdUxLYUJzTVNoaENYNmU0NDFQMGdTaFR0SVRqUVIxSk1TNDAxZWttNDdvRWxJbnZUQkppbTZQUklPUk16eW9QclY2VzZJWHpJOEJ4clVfYlktMWlJeGQ3OTgxc2F0eDRERm5pTWVTNzJpWnZzdDVYRXNwQk4?oc=5",
-          "source": "TradingView",
+          "headline_id": "5a9accbdcc03de27",
+          "title": "Home heating oil prices soar",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE10czRvNC1nNzlka1UwQXBiLWJ2ZXpMN1dMcy1SYlg0RXplMF9LN0VyNGlndXIyUkVnNk1NT21HV2VZMkJ6cUNUeHBFclA4eFR5UzRDdHZpRzJ3dEk2VEV1SjFCYkJaZHEzcXVMdzZ2V2c5MkZn?oc=5",
+          "source": "Mid Hudson News",
           "source_type": "rss",
-          "published_at": "2026-10-13T17:09:58+00:00",
+          "published_at": "2026-10-14T10:37:46+00:00",
           "confidence": 0.65
         },
         {
-          "headline_id": "044e6f3a7e44c367",
-          "title": "Heating oil costs up",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZF9XWTUzdkFmbGFXZE1CWGNBXzRmUXRmbEtTb0JSY3BaaWR1cThCdmRPTlFZaEtzd1JTUTVYYmp4a0FPbVF4U05HSXRxWERaX2FfN3ZWQTYyeUNrV01mTmxFME5GdDZ5cnNkd0l4UmFUYkpqbndFUFo3c1FkSFpxYTNHZ0Q0M003dUtjWDY1ckEyTXA3N2dBN3BDYzk0YU9TeTUyVw?oc=5",
-          "source": "Channel 3000",
+          "headline_id": "1858b1f5cfd60f99",
+          "title": "Home heating oil prices set to skyrocket in CNY this winter",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUW01OGRnRzdZR3hnMzczWm1lNndubVNDcTBZcUt3UURwUld6aVp6ZDNMb0pvR2xTUGNVNlZ0ZTlEVkhFVHFDdU1vbllZRVZ2SVNlU3JDTTNHLVNJaTBPNFJsbk1TYVY2R1pTRzRGTmwwQUJGWnJjUHFKNWEyanRPWHlqQkRDZDRObHI1WHllUHEtOEp3TmJqN0hJSU9sTWYwaWJJdWRydWUyMmRUdUpB?oc=5",
+          "source": "WIVT - News 34",
           "source_type": "rss",
-          "published_at": "2026-10-12T22:04:00+00:00",
+          "published_at": "2026-10-13T21:20:15+00:00",
           "confidence": 0.65
         }
       ],
@@ -117,10 +140,338 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_d167b559fc4f67",
+      "cluster_id": "c_ea700ff473c960",
       "topic": "heating",
-      "lead_title": "Home heating oil prices set to skyrocket in CNY this winter",
-      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTVEtOWdUbDlJMUt6eG95WDlvT2pRVFpoeXVhS21wUW5FeWczb25SVU1aWWxaRzhsVVdVVnVRakIwc1FLUW5zR1ZVTmVBdVhSdF9OQW1NNG56T2M5U043WUVONG8tMFk4UGdlZG0wbEozdVpTQ2F0Wm1YR1Z3TlVyNUxTeldSejFndTFUaWVLU1A3NGRXOERJT2Ita0lMVHBfU2c?oc=5",
+      "lead_title": "Rising diesel prices have helped fuel inflation — and we’re about to see how much worse it could get",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeG42RzVlak5vNHd0VUh2VUpJcDN2WWUyN24xY0dJRzdJSGs2X3ZXOEU0aEJHQ3VOQzBHZ1ZZWnNHMVQ0SEdtTnh0aWtRMWVJdWdTMmVEM0pianFrTUdhSm5sTHhEZ0NtNEdrX0pER1Z0cnl4SmZqVS1CRFlSbTQyVGxUVmxvTXhmM2ZoQzMyc0pqVnIxbVRSUkF2eXgyaFQ5bHRpUzhyM213SVJYQWZYbXhKR2J1QmNrLWc0cXZTVGd3dnZqcHRaN3lNRjIzeDkxcGNxOUxsMA?oc=5",
+      "lead_source": "MarketWatch",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T16:07:00+00:00",
+      "latest_seen": "2026-10-14T16:07:00+00:00",
+      "age_hours": 7.98,
+      "score": 58.71,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 20.21,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "b6668e885b2429f0",
+          "title": "Rising diesel prices have helped fuel inflation — and we’re about to see how much worse it could get",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeG42RzVlak5vNHd0VUh2VUpJcDN2WWUyN24xY0dJRzdJSGs2X3ZXOEU0aEJHQ3VOQzBHZ1ZZWnNHMVQ0SEdtTnh0aWtRMWVJdWdTMmVEM0pianFrTUdhSm5sTHhEZ0NtNEdrX0pER1Z0cnl4SmZqVS1CRFlSbTQyVGxUVmxvTXhmM2ZoQzMyc0pqVnIxbVRSUkF2eXgyaFQ5bHRpUzhyM213SVJYQWZYbXhKR2J1QmNrLWc0cXZTVGd3dnZqcHRaN3lNRjIzeDkxcGNxOUxsMA?oc=5",
+          "source": "MarketWatch",
+          "source_type": "rss",
+          "published_at": "2026-10-14T16:07:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_4d9252796da453",
+      "topic": "heating",
+      "lead_title": "Americans brace for brutal winter as heating oil costs rise",
+      "lead_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVE5CSC00VEQ3WmdpTHg2UEcwaTlpRE9OS0Y0cDNxMEpMUWZWUnhqaFY3LUc4dS1PZHNaNmpfaE9nX0x5YjRVTVF3LTUwa3RfUkk2M0lzbmlXcU1EVXVJWGE4QUlaUkNVNlBzd3JhVlNyNE5xUm03UFQ4dzZqUUhSRDRUYjNlS1g2bEVUZHNqNGVXX1luNnpMUWl30gGfAUFVX3lxTE9iblk2MU5CUzVnazJkUXZZaGFvRC11VnRqOUVaRnRQTmwzd0lEbU5WTW1lc1d4MXlzUFZYUTJEUmVPOTZKNUs5eUlySVRqTGY3YjhITThkSFdvT0taczEyUkxnRGlOdjhrNDBEUkxKVzdUcGhCdGVzVURzeU1fU25VSnNlZzhMQ3V5WmV4cHEwLWd6bk9saW1RTDlUZ0dkdw?oc=5",
+      "lead_source": "ABC News - Breaking News, Latest News and Videos",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T15:01:53+00:00",
+      "latest_seen": "2026-10-14T15:01:53+00:00",
+      "age_hours": 9.06,
+      "score": 58.06,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 19.56,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "2333e0be0632f1a8",
+          "title": "Americans brace for brutal winter as heating oil costs rise",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVE5CSC00VEQ3WmdpTHg2UEcwaTlpRE9OS0Y0cDNxMEpMUWZWUnhqaFY3LUc4dS1PZHNaNmpfaE9nX0x5YjRVTVF3LTUwa3RfUkk2M0lzbmlXcU1EVXVJWGE4QUlaUkNVNlBzd3JhVlNyNE5xUm03UFQ4dzZqUUhSRDRUYjNlS1g2bEVUZHNqNGVXX1luNnpMUWl30gGfAUFVX3lxTE9iblk2MU5CUzVnazJkUXZZaGFvRC11VnRqOUVaRnRQTmwzd0lEbU5WTW1lc1d4MXlzUFZYUTJEUmVPOTZKNUs5eUlySVRqTGY3YjhITThkSFdvT0taczEyUkxnRGlOdjhrNDBEUkxKVzdUcGhCdGVzVURzeU1fU25VSnNlZzhMQ3V5WmV4cHEwLWd6bk9saW1RTDlUZ0dkdw?oc=5",
+          "source": "ABC News - Breaking News, Latest News and Videos",
+          "source_type": "rss",
+          "published_at": "2026-10-14T15:01:53+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f7ac8f10012198",
+      "topic": "heating",
+      "lead_title": "Colorado diesel prices hit a record $6.31 per gallon, according to GasBuddy",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaC1VZzRQUFNRMUZlVzFXbU4wTEUxMjk5em1DMTQzZE5tdVBQaUQyM1p2ZXhyY3M3aUFETU8yYmNJRTJfUmdoUVRkRmgyXzVTb2tVa3pIcU5VWW9NX245d3NWTlBkLW9FTUw0TjRSRnloei1HQ2VJSGV0LXFiUnNMamZ3aTA4a0Vya1liNm9Zd2FuQzZoRXNtdkt1ZmNlOHFzenFtQVEtUEZHS0p2R3I0?oc=5",
+      "lead_source": "KOAA News 5",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T15:00:54+00:00",
+      "latest_seen": "2026-10-14T15:00:54+00:00",
+      "age_hours": 9.08,
+      "score": 58.05,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 19.55,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "cc25e8be4c89767d",
+          "title": "Colorado diesel prices hit a record $6.31 per gallon, according to GasBuddy",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaC1VZzRQUFNRMUZlVzFXbU4wTEUxMjk5em1DMTQzZE5tdVBQaUQyM1p2ZXhyY3M3aUFETU8yYmNJRTJfUmdoUVRkRmgyXzVTb2tVa3pIcU5VWW9NX245d3NWTlBkLW9FTUw0TjRSRnloei1HQ2VJSGV0LXFiUnNMamZ3aTA4a0Vya1liNm9Zd2FuQzZoRXNtdkt1ZmNlOHFzenFtQVEtUEZHS0p2R3I0?oc=5",
+          "source": "KOAA News 5",
+          "source_type": "rss",
+          "published_at": "2026-10-14T15:00:54+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_4661f6a24dacc2",
+      "topic": "heating",
+      "lead_title": "Low East Coast diesel stocks could delay inflation relief for Bitcoin investors",
+      "lead_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeG1Pb0NCNHRGQkJBcGNqNENFeWx5TnVOMi1aREJ5OU5iQ29HZUYtX2ZaSTMxNklGQUE0eVlhbkxZaDUtWDN6Tk1xN3N5TEhwM3BmcklrUFQxN1NITEFmd1FSZXE1dmNWR0QtT0kzVUhfZUhoTHlRMXlvXzZ6NGRvaHh2VG4xd01fRUx4TnFUTlRpVGlaV25SYlg0R2VPcmtW?oc=5",
+      "lead_source": "CryptoSlate",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T14:30:46+00:00",
+      "latest_seen": "2026-10-14T14:30:46+00:00",
+      "age_hours": 9.58,
+      "score": 57.75,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 19.25,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "029ff73629e3c7aa",
+          "title": "Low East Coast diesel stocks could delay inflation relief for Bitcoin investors",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeG1Pb0NCNHRGQkJBcGNqNENFeWx5TnVOMi1aREJ5OU5iQ29HZUYtX2ZaSTMxNklGQUE0eVlhbkxZaDUtWDN6Tk1xN3N5TEhwM3BmcklrUFQxN1NITEFmd1FSZXE1dmNWR0QtT0kzVUhfZUhoTHlRMXlvXzZ6NGRvaHh2VG4xd01fRUx4TnFUTlRpVGlaV25SYlg0R2VPcmtW?oc=5",
+          "source": "CryptoSlate",
+          "source_type": "rss",
+          "published_at": "2026-10-14T14:30:46+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6e609141f566d9",
+      "topic": "heating",
+      "lead_title": "Diesel supply crunch to extend into 2027, IEA warns",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVJPSXhSOHRlRjhQUFNSS2t4ZF85MHB6VHF3RDdGMFRlLUdDOE13Y0RiWW5KRkxXTlNwR2dVcFlfeGJxenNwV3NaZnpmR05fYTA4ZDdJb2lxSGFWQlg0eFBJOURWeURYUE1GbEZNWnJ0a0FYRXVBcDU3SlJUcXpMM3JadFBXSHVFcTZIUDVKbEN5cFlTcEF1cGVvZTY?oc=5",
+      "lead_source": "finchannel",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T13:45:28+00:00",
+      "latest_seen": "2026-10-14T13:45:28+00:00",
+      "age_hours": 10.34,
+      "score": 57.3,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 18.8,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "a043261d3b6ccab0",
+          "title": "Diesel supply crunch to extend into 2027, IEA warns",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaVJPSXhSOHRlRjhQUFNSS2t4ZF85MHB6VHF3RDdGMFRlLUdDOE13Y0RiWW5KRkxXTlNwR2dVcFlfeGJxenNwV3NaZnpmR05fYTA4ZDdJb2lxSGFWQlg0eFBJOURWeURYUE1GbEZNWnJ0a0FYRXVBcDU3SlJUcXpMM3JadFBXSHVFcTZIUDVKbEN5cFlTcEF1cGVvZTY?oc=5",
+          "source": "finchannel",
+          "source_type": "rss",
+          "published_at": "2026-10-14T13:45:28+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_bb70bafa07e650",
+      "topic": "heating",
+      "lead_title": "IEA Says the Diesel Squeeze Lasts Well Into 2027. Futures Imply About $6 Diesel Into January",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPek9MSDE2QVhwTm10aHdZTlZFN1hQbEpQS0xTQ2RsaVNhSmo4SlUwa1o1REE1ZVR4SkZhSEE0RHAya0xlZ2p2Q21WVE5OLTdOQkVlY3M0anZZMXRNaXE5aGtwY212Qzd2SVc1NFNpQUlacU83cmFZNTQ4YzY5cVRqeGxrMFNjak5GT05acHZvVEJPc3dld1U0ZmpuVTIwekExc3VhOHN1SHRabC15dWxjOWFNckYyWU5FYWl6eGNaazhsQQ?oc=5",
+      "lead_source": "Energy News Beat",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T12:54:50+00:00",
+      "latest_seen": "2026-10-14T12:54:50+00:00",
+      "age_hours": 11.18,
+      "score": 56.79,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 18.29,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9abda183889d964e",
+          "title": "IEA Says the Diesel Squeeze Lasts Well Into 2027. Futures Imply About $6 Diesel Into January",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPek9MSDE2QVhwTm10aHdZTlZFN1hQbEpQS0xTQ2RsaVNhSmo4SlUwa1o1REE1ZVR4SkZhSEE0RHAya0xlZ2p2Q21WVE5OLTdOQkVlY3M0anZZMXRNaXE5aGtwY212Qzd2SVc1NFNpQUlacU83cmFZNTQ4YzY5cVRqeGxrMFNjak5GT05acHZvVEJPc3dld1U0ZmpuVTIwekExc3VhOHN1SHRabC15dWxjOWFNckYyWU5FYWl6eGNaazhsQQ?oc=5",
+          "source": "Energy News Beat",
+          "source_type": "rss",
+          "published_at": "2026-10-14T12:54:50+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_6a081e95ca34c9",
+      "topic": "heating",
+      "lead_title": "Greece will subsidize heating oil for households ahead of winter season",
+      "lead_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSk1TRkhwX3pKUEhXTmRPRW54a0stWUx2d0tud1gwYTRIWEFjSlRUM1BacHhWdGtYcXUta0pPVTVqVUxUMWw1RkZNVThVczVPLXpZQ0hfR0VnZm53VXVBSGIxSmxvS0NwdjNRSURZZWhkNGVjVlFsazVMVXZnSDE4SzI0MVpSS1Z6UHkxRS1UT2VoNDlFeXdwWE5EZ1F0S1o1NEdmbElSVWhtelpXUGpic3F1Tk9Sel9fNzJWMDdOb29QSHNMOXdHaWY5azc3NC1BamZaQUo4NWc?oc=5",
+      "lead_source": "TradingView",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T11:49:19+00:00",
+      "latest_seen": "2026-10-14T11:49:19+00:00",
+      "age_hours": 12.27,
+      "score": 56.14,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.64,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "8a6a6ee87f448dce",
+          "title": "Greece will subsidize heating oil for households ahead of winter season",
+          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSk1TRkhwX3pKUEhXTmRPRW54a0stWUx2d0tud1gwYTRIWEFjSlRUM1BacHhWdGtYcXUta0pPVTVqVUxUMWw1RkZNVThVczVPLXpZQ0hfR0VnZm53VXVBSGIxSmxvS0NwdjNRSURZZWhkNGVjVlFsazVMVXZnSDE4SzI0MVpSS1Z6UHkxRS1UT2VoNDlFeXdwWE5EZ1F0S1o1NEdmbElSVWhtelpXUGpic3F1Tk9Sel9fNzJWMDdOb29QSHNMOXdHaWY5azc3NC1BamZaQUo4NWc?oc=5",
+          "source": "TradingView",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:49:19+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_62a5a390b79e5c",
+      "topic": "heating",
+      "lead_title": "Government backs CMA heating oil recommendations but details remain unresolved",
+      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON2VrVkU5bENvbVVPWTdyUUdYQlN3YURoOXg2cHJjTWZWTjVXMklzb185NmNnaHBmb1RMb05GODFxeURUVVJpRXdWeU5XYWN6UmtIWVdUNVQ3UTZqSFJIZ2lESmFlbURDOTVHXzZtWmRXeWFZd2x6OUpuNHRIcXBUdGR4WnFIbUc2RjAyRXNEZXI5RmFSNXhya0dHNVQyd3JmWWRDQjNQSUZPX1lRZ1NmUW1Lcw?oc=5",
+      "lead_source": "Fuel Oil News",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T11:15:25+00:00",
+      "latest_seen": "2026-10-14T11:15:25+00:00",
+      "age_hours": 12.84,
+      "score": 55.8,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.3,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "c9ee97322e7da32d",
+          "title": "Government backs CMA heating oil recommendations but details remain unresolved",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON2VrVkU5bENvbVVPWTdyUUdYQlN3YURoOXg2cHJjTWZWTjVXMklzb185NmNnaHBmb1RMb05GODFxeURUVVJpRXdWeU5XYWN6UmtIWVdUNVQ3UTZqSFJIZ2lESmFlbURDOTVHXzZtWmRXeWFZd2x6OUpuNHRIcXBUdGR4WnFIbUc2RjAyRXNEZXI5RmFSNXhya0dHNVQyd3JmWWRDQjNQSUZPX1lRZ1NmUW1Lcw?oc=5",
+          "source": "Fuel Oil News",
+          "source_type": "rss",
+          "published_at": "2026-10-14T11:15:25+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ae64fd34bf5fdc",
+      "topic": "heating",
+      "lead_title": "‘It’s been very volatile’: Home heating oil prices jump more than 77% in CNY ahead of winter",
+      "lead_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTGtZV0t1NmZSaUdQT2NEdUJIb2tIWEJfd3pwRm8zWEphLS1JSnc1dzlPaXA2VWl3djViRUhwZTBDdUZhN3BmbzVwWTRCZUlnYnliMkVRcUVMNUFOVVhyb1NkbW5ERTUzckdvTnRaUWE3LVFveXNvU05PbUdUM3BUOHhzSzNGZ2RHbzlLdzJhN1V2Zy1oV2hTRGJaaVN1WG96aTJPQWlKelJXR0ZQNG5YMTM5M21RZm54cURkVDVDRVotS1RlaEs3TdIBzgFBVV95cUxQSzJvWGxTNmpQUk5SajJWTk94OERma0gxSE1ZLVNkcVdjd0hOeHVRSnh0clRUb0tYZGkybWRWYUhOR3UtbGhUdnVqclgyQlplRVROd3EyamNXcUNZR09Ddjc2TV83UXRINDZZeWhlaW1iTG4xeGhFVF91VGg0VU9MaDhKaXBadHFpemJKbm11ZVB1d1BjNVpoMWk0UWFZWlJrM1R4YkI4QTBNYmtDNEZpUjlSelVmZENMQ3VHZFVadmo5N0xTRUhyZkZIajlCZw?oc=5",
       "lead_source": "WSYR",
       "canonical_entities": [
         "heating oil"
@@ -130,13 +481,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T22:27:08+00:00",
-      "latest_seen": "2026-10-13T22:27:08+00:00",
-      "age_hours": 0.39,
-      "score": 63.27,
+      "earliest_seen": "2026-10-14T10:30:00+00:00",
+      "latest_seen": "2026-10-14T10:30:00+00:00",
+      "age_hours": 13.6,
+      "score": 55.34,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.77,
+        "recency_points": 16.84,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -145,24 +496,65 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "1858b1f5cfd60f99",
-          "title": "Home heating oil prices set to skyrocket in CNY this winter",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTVEtOWdUbDlJMUt6eG95WDlvT2pRVFpoeXVhS21wUW5FeWczb25SVU1aWWxaRzhsVVdVVnVRakIwc1FLUW5zR1ZVTmVBdVhSdF9OQW1NNG56T2M5U043WUVONG8tMFk4UGdlZG0wbEozdVpTQ2F0Wm1YR1Z3TlVyNUxTeldSejFndTFUaWVLU1A3NGRXOERJT2Ita0lMVHBfU2c?oc=5",
+          "headline_id": "a78537984a59bded",
+          "title": "‘It’s been very volatile’: Home heating oil prices jump more than 77% in CNY ahead of winter",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTGtZV0t1NmZSaUdQT2NEdUJIb2tIWEJfd3pwRm8zWEphLS1JSnc1dzlPaXA2VWl3djViRUhwZTBDdUZhN3BmbzVwWTRCZUlnYnliMkVRcUVMNUFOVVhyb1NkbW5ERTUzckdvTnRaUWE3LVFveXNvU05PbUdUM3BUOHhzSzNGZ2RHbzlLdzJhN1V2Zy1oV2hTRGJaaVN1WG96aTJPQWlKelJXR0ZQNG5YMTM5M21RZm54cURkVDVDRVotS1RlaEs3TdIBzgFBVV95cUxQSzJvWGxTNmpQUk5SajJWTk94OERma0gxSE1ZLVNkcVdjd0hOeHVRSnh0clRUb0tYZGkybWRWYUhOR3UtbGhUdnVqclgyQlplRVROd3EyamNXcUNZR09Ddjc2TV83UXRINDZZeWhlaW1iTG4xeGhFVF91VGg0VU9MaDhKaXBadHFpemJKbm11ZVB1d1BjNVpoMWk0UWFZWlJrM1R4YkI4QTBNYmtDNEZpUjlSelVmZENMQ3VHZFVadmo5N0xTRUhyZkZIajlCZw?oc=5",
           "source": "WSYR",
           "source_type": "rss",
-          "published_at": "2026-10-13T22:27:08+00:00",
+          "published_at": "2026-10-14T10:30:00+00:00",
           "confidence": 0.65
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_39ce8e782580ba",
+      "cluster_id": "c_c128acd6173e71",
       "topic": "heating",
-      "lead_title": "Maine firewood banks seeing increased demand as heating oil prices soar",
-      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQWNDRzR1ZGlJUmFpUHRCQWtDVWozZDNEVkwxaEUzWkgxTTh5RGUyem5iMTNGdHFmc0ZZb0hxbmhsbjVjVHBnRjJ5QUpMZ3VEUTJadjFEc3V6TmlESWgxaU1aWjdkSmxtT0tuMHVEZ0ZIekVpdko1QmhEU1hDM0U2UVRaRmlYdWR1bW01aU5WUm5kdzRrRVUxUXNwbWdIZUhsY190aXRyc21sWTVyOXJv?oc=5",
-      "lead_source": "​​Lewiston Sun Journal​​ ​​​ ​​​",
+      "lead_title": "Spokane Transit, truckers look to account for increased diesel costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2RwU1RHY1FSbXctX3NmbnJlQTJtdnJKbjNnUDhMdmtJOGtjd0RzRzN5YzlDQktrMmVWNC1zeHhsOXZDS0NZZ0ZQcjNvN0lDWXRkeThBcUV6M2J6cXRxZVpVbXByTG1zZWh0MW5WS0Q5Tk41UUdXbGs4MXJFcjFEUGU2VnVCVS1pNTlxbGU5ZjJhc2RZbDh0TnducFE2dw?oc=5",
+      "lead_source": "The Spokesman-Review",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T10:00:00+00:00",
+      "latest_seen": "2026-10-14T10:00:00+00:00",
+      "age_hours": 14.1,
+      "score": 55.04,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 16.54,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "cc9aa4a5cedcd2da",
+          "title": "Spokane Transit, truckers look to account for increased diesel costs",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ2RwU1RHY1FSbXctX3NmbnJlQTJtdnJKbjNnUDhMdmtJOGtjd0RzRzN5YzlDQktrMmVWNC1zeHhsOXZDS0NZZ0ZQcjNvN0lDWXRkeThBcUV6M2J6cXRxZVpVbXByTG1zZWh0MW5WS0Q5Tk41UUdXbGs4MXJFcjFEUGU2VnVCVS1pNTlxbGU5ZjJhc2RZbDh0TnducFE2dw?oc=5",
+          "source": "The Spokesman-Review",
+          "source_type": "rss",
+          "published_at": "2026-10-14T10:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_d1cc8401564e8a",
+      "topic": "heating",
+      "lead_title": "Helleniq offers one-off heating oil discount for winter season",
+      "lead_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdm45bmc1b2RpZUZRVWppR210ek9tbXRRbXRtSTVsRVk4UVdFbmJtY0M3MGJJaWw2SG1BTk55Y2w4ZTZQQTI0MUJwUlhkZW5GZE14S01YNzVwMTZXdHZXeFZKSGhLTmxad1Y0Vy1XWUJ1SGJ6dlRPRkM4R1JvN1luTE1GYU1CNnJKMnVGRWROSGNRTnc1WVpMbXYwekUyMkZYMlVPX1hJMW94NXE5SW9GRVVlQmpESVA4Vl92XzNjUlhrOGpncWthOXpPcEk?oc=5",
+      "lead_source": "TradingView",
       "canonical_entities": [
         "heating oil"
       ],
@@ -171,13 +563,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T20:53:00+00:00",
-      "latest_seen": "2026-10-13T20:53:00+00:00",
-      "age_hours": 1.96,
-      "score": 62.32,
+      "earliest_seen": "2026-10-14T08:52:18+00:00",
+      "latest_seen": "2026-10-14T08:52:18+00:00",
+      "age_hours": 15.22,
+      "score": 54.37,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.82,
+        "recency_points": 15.87,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -186,12 +578,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "bcbb6b45cf5164a1",
-          "title": "Maine firewood banks seeing increased demand as heating oil prices soar",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQWNDRzR1ZGlJUmFpUHRCQWtDVWozZDNEVkwxaEUzWkgxTTh5RGUyem5iMTNGdHFmc0ZZb0hxbmhsbjVjVHBnRjJ5QUpMZ3VEUTJadjFEc3V6TmlESWgxaU1aWjdkSmxtT0tuMHVEZ0ZIekVpdko1QmhEU1hDM0U2UVRaRmlYdWR1bW01aU5WUm5kdzRrRVUxUXNwbWdIZUhsY190aXRyc21sWTVyOXJv?oc=5",
-          "source": "​​Lewiston Sun Journal​​ ​​​ ​​​",
+          "headline_id": "bf091797919b0968",
+          "title": "Helleniq offers one-off heating oil discount for winter season",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdm45bmc1b2RpZUZRVWppR210ek9tbXRRbXRtSTVsRVk4UVdFbmJtY0M3MGJJaWw2SG1BTk55Y2w4ZTZQQTI0MUJwUlhkZW5GZE14S01YNzVwMTZXdHZXeFZKSGhLTmxad1Y0Vy1XWUJ1SGJ6dlRPRkM4R1JvN1luTE1GYU1CNnJKMnVGRWROSGNRTnc1WVpMbXYwekUyMkZYMlVPX1hJMW94NXE5SW9GRVVlQmpESVA4Vl92XzNjUlhrOGpncWthOXpPcEk?oc=5",
+          "source": "TradingView",
           "source_type": "rss",
-          "published_at": "2026-10-13T20:53:00+00:00",
+          "published_at": "2026-10-14T08:52:18+00:00",
           "confidence": 0.65
         }
       ],
@@ -199,7 +591,48 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_e275fddb7da4a4",
+      "cluster_id": "c_3520e8f74f5e07",
+      "topic": "heating",
+      "lead_title": "Greece Readies Triple Heating Oil Relief Package",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR2dxSXhuX19ZcWFDMmh4a2haNEZjYkNVNG54LWFUMVFtRTk3dU1TdEhmdGd1RUJqLWUzcldMR0NqcXFHV082ZU9zdHB2V0dCajYyNmNoLUcyT3hIU2NNU2hGTmVHaVd4Ymg5X2pGQ2U3QW1Ccjk3MmlWMUp3R21hYWNETFVHRzhB?oc=5",
+      "lead_source": "tovima.com",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T08:08:26+00:00",
+      "latest_seen": "2026-10-14T08:08:26+00:00",
+      "age_hours": 15.96,
+      "score": 53.93,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 15.43,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "901873cb2b5d379c",
+          "title": "Greece Readies Triple Heating Oil Relief Package",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQR2dxSXhuX19ZcWFDMmh4a2haNEZjYkNVNG54LWFUMVFtRTk3dU1TdEhmdGd1RUJqLWUzcldMR0NqcXFHV082ZU9zdHB2V0dCajYyNmNoLUcyT3hIU2NNU2hGTmVHaVd4Ymg5X2pGQ2U3QW1Ccjk3MmlWMUp3R21hYWNETFVHRzhB?oc=5",
+          "source": "tovima.com",
+          "source_type": "rss",
+          "published_at": "2026-10-14T08:08:26+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_dccfeded746c0e",
       "topic": "heating",
       "lead_title": "50 gallons of home heating oil spilled in Richmond",
       "lead_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQem1mVk1mOU8teDR0QUVDVUVGdGYybG5yRzNETnFfNktOYXpKRjQ1UWk2V1JMQUNwTktWWFpfUkZlTm04dHpqLUl5c3dCWnZPOUpkZW82d09oYXFGOXo5Qy16ckZkbUdMZG9aeTRDdFJLNzBqSEdDZFJrYktTYWNQT0NBTmFiVGNwZU1WX0oyblV2LXBFN3BXUHA3VFRKVzl5X2tVcGtzcDNCY3p4c0haalFFR2lvd2N4YVZXMXNFRnpvc3ZtWWxyN1ZWWF81b0JTRTBzM0FVMndyRWtpZ21ldkNZNmxZdG5ya3NmOTVBOA?oc=5",
@@ -212,13 +645,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T20:23:39+00:00",
-      "latest_seen": "2026-10-13T20:23:39+00:00",
-      "age_hours": 2.45,
-      "score": 62.03,
+      "earliest_seen": "2026-10-14T06:08:39+00:00",
+      "latest_seen": "2026-10-14T06:08:39+00:00",
+      "age_hours": 17.95,
+      "score": 52.73,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 23.53,
+        "recency_points": 14.23,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -227,12 +660,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "0a695a82c02489f4",
+          "headline_id": "6dcdf298d65c080a",
           "title": "50 gallons of home heating oil spilled in Richmond",
           "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQem1mVk1mOU8teDR0QUVDVUVGdGYybG5yRzNETnFfNktOYXpKRjQ1UWk2V1JMQUNwTktWWFpfUkZlTm04dHpqLUl5c3dCWnZPOUpkZW82d09oYXFGOXo5Qy16ckZkbUdMZG9aeTRDdFJLNzBqSEdDZFJrYktTYWNQT0NBTmFiVGNwZU1WX0oyblV2LXBFN3BXUHA3VFRKVzl5X2tVcGtzcDNCY3p4c0haalFFR2lvd2N4YVZXMXNFRnpvc3ZtWWxyN1ZWWF81b0JTRTBzM0FVMndyRWtpZ21ldkNZNmxZdG5ya3NmOTVBOA?oc=5",
           "source": "WJAR",
           "source_type": "rss",
-          "published_at": "2026-10-13T20:23:39+00:00",
+          "published_at": "2026-10-14T06:08:39+00:00",
           "confidence": 0.65
         }
       ],
@@ -240,175 +673,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_607bc68cce884d",
+      "cluster_id": "c_c1c0da7b6861e4",
       "topic": "heating",
-      "lead_title": "Heating oil market to be regulated for first time, UK govt says",
-      "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNODF2RGRjeFVTY3QxbHN4TkRlWDlHZUpETk8xRi03cmdad3JtNGRKRjFnd0FnOGNFRHFSYnV1eDJ6WmZiNzd1TE9qSS03VG1FWTQ5Ul9MTFp0bWd6RGhITm04dlNDNXRxVF9zOUxwM1JMZUM0THFaM0FWS0piYXZkMmpVUFRCZE1RNzVXS2ZyenJNYXd4M2dST1hIaVc4UmxxM1ZzTEhXYlh0Q2pyMWc1WnlTak1FUdIBWkFVX3lxTE5KRURVUUEyaGFJV3lINmxVTFBJUW5YcnJCNnNGdnNOWVYySDBlNlg0bVhZaXRISGRiQy1pRjQzU1pNa0JSal94ME85eDhCbDV2OUVNXzNkZml3UQ?oc=5",
-      "lead_source": "MLex",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-13T15:59:58+00:00",
-      "latest_seen": "2026-10-13T15:59:58+00:00",
-      "age_hours": 6.84,
-      "score": 59.39,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.89,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "31524428d6e15840",
-          "title": "Heating oil market to be regulated for first time, UK govt says",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNODF2RGRjeFVTY3QxbHN4TkRlWDlHZUpETk8xRi03cmdad3JtNGRKRjFnd0FnOGNFRHFSYnV1eDJ6WmZiNzd1TE9qSS03VG1FWTQ5Ul9MTFp0bWd6RGhITm04dlNDNXRxVF9zOUxwM1JMZUM0THFaM0FWS0piYXZkMmpVUFRCZE1RNzVXS2ZyenJNYXd4M2dST1hIaVc4UmxxM1ZzTEhXYlh0Q2pyMWc1WnlTak1FUdIBWkFVX3lxTE5KRURVUUEyaGFJV3lINmxVTFBJUW5YcnJCNnNGdnNOWVYySDBlNlg0bVhZaXRISGRiQy1pRjQzU1pNa0JSal94ME85eDhCbDV2OUVNXzNkZml3UQ?oc=5",
-          "source": "MLex",
-          "source_type": "rss",
-          "published_at": "2026-10-13T15:59:58+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_264d3c0c56f3fd",
-      "topic": "heating",
-      "lead_title": "Stronger protections for heating oil customers",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQck91cVRhQWMxd3pYVVhjaGF1WGpRVi1ZWDdlbUx2eHVBYzVFbFRsNUVQQWlrSkFUdW54alktVE5NSWdmb1Qtamw4TERxa3I0RFQzQmJVOUJYNl9UZm1femhrMFhjcXpDMW13RVRmNmtVWGtTaE8ydHVhaDd2TkpfVXAzd0t3UG45?oc=5",
-      "lead_source": "GOV.UK",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-13T15:33:05+00:00",
-      "latest_seen": "2026-10-13T15:33:05+00:00",
-      "age_hours": 7.29,
-      "score": 59.13,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 20.63,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "55dc98e91f035a0d",
-          "title": "Stronger protections for heating oil customers",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQck91cVRhQWMxd3pYVVhjaGF1WGpRVi1ZWDdlbUx2eHVBYzVFbFRsNUVQQWlrSkFUdW54alktVE5NSWdmb1Qtamw4TERxa3I0RFQzQmJVOUJYNl9UZm1femhrMFhjcXpDMW13RVRmNmtVWGtTaE8ydHVhaDd2TkpfVXAzd0t3UG45?oc=5",
-          "source": "GOV.UK",
-          "source_type": "rss",
-          "published_at": "2026-10-13T15:33:05+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_21466b1c4067b7",
-      "topic": "heating",
-      "lead_title": "Heating oil recommendations accepted by UK government, antitrust regulator says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNW5EV1FxOERteENyLUJxcEl1b3NMUURWb1U4Y1Z1VjRla0NiSktZUy1IVGV6YWY0WXZzVlBGczhRUFVCT2FicmNRVmdWRTRwalVSTXZsQzJ0cVJ0TlAxUm9DZURzcTFjREp3VnVlQmlpbndQNnBlVmUyNGJhQjE5Skl6eW9WOUI0M3BaNElrMHN1RnNneFhsb2czMXBaMUN2UEFUeEhsUUxHaFBsRHB2S1lIYXE5V2JveXRRQks2QUlEc09TTVRpMjJmY9IBWkFVX3lxTE1Jd01CMXZ4UV9uS1ZxNjA3bklXcFAza2FsTHNmQ2JEWTdtcDlxdElxblNGU1lweTZraC0zNUcxa0Z0Tk9FSVVIUHk3bHJTZmZwQnpZNFZqTUx6QQ?oc=5",
-      "lead_source": "MLex",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-13T14:24:28+00:00",
-      "latest_seen": "2026-10-13T14:24:28+00:00",
-      "age_hours": 8.43,
-      "score": 58.44,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.94,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a56c637949345d08",
-          "title": "Heating oil recommendations accepted by UK government, antitrust regulator says",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNW5EV1FxOERteENyLUJxcEl1b3NMUURWb1U4Y1Z1VjRla0NiSktZUy1IVGV6YWY0WXZzVlBGczhRUFVCT2FicmNRVmdWRTRwalVSTXZsQzJ0cVJ0TlAxUm9DZURzcTFjREp3VnVlQmlpbndQNnBlVmUyNGJhQjE5Skl6eW9WOUI0M3BaNElrMHN1RnNneFhsb2czMXBaMUN2UEFUeEhsUUxHaFBsRHB2S1lIYXE5V2JveXRRQks2QUlEc09TTVRpMjJmY9IBWkFVX3lxTE1Jd01CMXZ4UV9uS1ZxNjA3bklXcFAza2FsTHNmQ2JEWTdtcDlxdElxblNGU1lweTZraC0zNUcxa0Z0Tk9FSVVIUHk3bHJTZmZwQnpZNFZqTUx6QQ?oc=5",
-          "source": "MLex",
-          "source_type": "rss",
-          "published_at": "2026-10-13T14:24:28+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_6a3f45ca25605c",
-      "topic": "heating",
-      "lead_title": "The Retired Investor: Hedge your home heating oil now",
-      "lead_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRERrM3lBZHNjTDJCNlVOUk9TR1VJcWExbjNUTXZDbzBrSEF6TzhOemoyQzZlRWRNUDAxM2FnQzBCc2xwckZEQU9TV1NXajVrZ3lMRzE1bDI0ZXRGU2p0d096MHJ1MVUwRU5UR0x1S0NnUGIzOFJLYUExWjdPb3k3c3dPY3VuQWp4Z1VHbHRsUDJJT3JzMWtlcDlPSDhJcHdNS25lYmNfYWlkLTBFbFpuNTVyUFdsbVNCd3RPRWNiNjBQUnpBQlk4bGNn?oc=5",
-      "lead_source": "TAPinto",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-13T13:24:03+00:00",
-      "latest_seen": "2026-10-13T13:24:03+00:00",
-      "age_hours": 9.44,
-      "score": 57.83,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 19.33,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "6606af80db5fe028",
-          "title": "The Retired Investor: Hedge your home heating oil now",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRERrM3lBZHNjTDJCNlVOUk9TR1VJcWExbjNUTXZDbzBrSEF6TzhOemoyQzZlRWRNUDAxM2FnQzBCc2xwckZEQU9TV1NXajVrZ3lMRzE1bDI0ZXRGU2p0d096MHJ1MVUwRU5UR0x1S0NnUGIzOFJLYUExWjdPb3k3c3dPY3VuQWp4Z1VHbHRsUDJJT3JzMWtlcDlPSDhJcHdNS25lYmNfYWlkLTBFbFpuNTVyUFdsbVNCd3RPRWNiNjBQUnpBQlk4bGNn?oc=5",
-          "source": "TAPinto",
-          "source_type": "rss",
-          "published_at": "2026-10-13T13:24:03+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_b3c8a9212298c0",
-      "topic": "heating",
-      "lead_title": "France Diesel Price Cut: 18 Cents Off per Litre from 1 November - News and Statistics",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMnI5cnptQm5KR1NNclhGWTVUakliU1VNcWdIMkFrUUNiZmh3ZWZkZjNQc3pwQWxCNVlTTVhJR2lVTnZRbG5oanY4Y1VNQkxnNXdyTGlndEhWN2NJZEFQbVdNYU9MTGJjWTFidUVyYm0zUnRNMUhSMlZMWWhRYUsyMlNYc242WUZmYktSejUtSnRTWFBYcEZYT29YckpWSk13bUxaSXpoa3FyTEkxUWtyaVQ1X0JWbW94SHRfUA?oc=5",
-      "lead_source": "IndexBox",
+      "lead_title": "Murkowski, bipartisan senators urge Trump to reverse Russian diesel deal as president rallies in Wasilla",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLUxMX3RFLU9tQ3JoQTU3SjhRaVVaRlBkWlViTHNUc2FFTFJSWGR2OE1XMjBVZ0lYd056U0h2RlkydVVGaTF0Sm9UT2c3WVFPQ01yUmhDeHJJRVZEdndFcHU4TzhITnlNNGptSzQtS3lOWl9icVh0TnltcXMtRVVyZTBFMzIzQ1p1aFlyUndZWVpPak01QUpTdlBJV0VPdXpZb2NmZ2RBOHBWcU13dkVlRjNKTHBuc3F5QU5SbEctUmF5enRHZTZTOEc3VHZFN1U3cURiclpoTdIB6wFBVV95cUxOeloyX2VZb3E2RGJmM2luWFBIMXZ1aFdQVnpzcWdtQU1LRThyOFc3Rks1Qk03VTdaV3pEaE5TUE1SS3VGbk9LUXM4b3NwcHNqaXZUSHVSeE13RGZlZklQV1BaYUNEc0dqcGhWSUJNWmtkNDZWMG5FREpyc0ItWkRXQ1Y1WkhlbGZacVN2TW50TEt2T1FlSXhqeVlubV92R1NRZmxkbVpoTXM1TlVZMEE2Y3MzWlpwYjJXVXZsUTVRZnRVbk9YQ3RMaGRDSFpGd0Q0SXVwY2I2QTJzVFVBUWIxMUlUNGYwSktzYmo4?oc=5",
+      "lead_source": "Alaska's News Source",
       "canonical_entities": [
         "diesel"
       ],
@@ -417,13 +686,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T12:40:46+00:00",
-      "latest_seen": "2026-10-13T12:40:46+00:00",
-      "age_hours": 10.16,
-      "score": 57.4,
+      "earliest_seen": "2026-10-14T05:51:00+00:00",
+      "latest_seen": "2026-10-14T05:51:00+00:00",
+      "age_hours": 18.25,
+      "score": 52.55,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 18.9,
+        "recency_points": 14.05,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -432,12 +701,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "38c0beb24101d894",
-          "title": "France Diesel Price Cut: 18 Cents Off per Litre from 1 November - News and Statistics",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMnI5cnptQm5KR1NNclhGWTVUakliU1VNcWdIMkFrUUNiZmh3ZWZkZjNQc3pwQWxCNVlTTVhJR2lVTnZRbG5oanY4Y1VNQkxnNXdyTGlndEhWN2NJZEFQbVdNYU9MTGJjWTFidUVyYm0zUnRNMUhSMlZMWWhRYUsyMlNYc242WUZmYktSejUtSnRTWFBYcEZYT29YckpWSk13bUxaSXpoa3FyTEkxUWtyaVQ1X0JWbW94SHRfUA?oc=5",
-          "source": "IndexBox",
+          "headline_id": "932013b35b7a6dc9",
+          "title": "Murkowski, bipartisan senators urge Trump to reverse Russian diesel deal as president rallies in Wasilla",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPLUxMX3RFLU9tQ3JoQTU3SjhRaVVaRlBkWlViTHNUc2FFTFJSWGR2OE1XMjBVZ0lYd056U0h2RlkydVVGaTF0Sm9UT2c3WVFPQ01yUmhDeHJJRVZEdndFcHU4TzhITnlNNGptSzQtS3lOWl9icVh0TnltcXMtRVVyZTBFMzIzQ1p1aFlyUndZWVpPak01QUpTdlBJV0VPdXpZb2NmZ2RBOHBWcU13dkVlRjNKTHBuc3F5QU5SbEctUmF5enRHZTZTOEc3VHZFN1U3cURiclpoTdIB6wFBVV95cUxOeloyX2VZb3E2RGJmM2luWFBIMXZ1aFdQVnpzcWdtQU1LRThyOFc3Rks1Qk03VTdaV3pEaE5TUE1SS3VGbk9LUXM4b3NwcHNqaXZUSHVSeE13RGZlZklQV1BaYUNEc0dqcGhWSUJNWmtkNDZWMG5FREpyc0ItWkRXQ1Y1WkhlbGZacVN2TW50TEt2T1FlSXhqeVlubV92R1NRZmxkbVpoTXM1TlVZMEE2Y3MzWlpwYjJXVXZsUTVRZnRVbk9YQ3RMaGRDSFpGd0Q0SXVwY2I2QTJzVFVBUWIxMUlUNGYwSktzYmo4?oc=5",
+          "source": "Alaska's News Source",
           "source_type": "rss",
-          "published_at": "2026-10-13T12:40:46+00:00",
+          "published_at": "2026-10-14T05:51:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -445,11 +714,11 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_f9ed40282f144f",
+      "cluster_id": "c_53604d71d9d511",
       "topic": "heating",
-      "lead_title": "Heating oil homes to get new protections yet long term help faces the axe",
-      "lead_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3dyM2d6bGJzSi1zSmhnU1ZlS1JkbnMtRW4zc254dnZOc05INUpjTEI4czAxcDgwS2lpSnNuN3lDSDE0NHhZYVdKWDdTdi0xYUE0SXZTTUFiOS1JbnJ4dDU0MjhSZ1FfWTBzNElLSXFxenZCU1N6MXZJMk5HbEMxUTFaUXJxNURmNTBMVm5PNFJrNnZNRG5CaWZlSVo3TTdrS0ZJVHF3UUhULWloVHU0YUJ3?oc=5",
-      "lead_source": "End Fuel Poverty Coalition",
+      "lead_title": "Heating oil below €1.60/lt",
+      "lead_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN2xhTU1qaUxDckU4Y2NwcHN3V0pFTHpoaE80TGxXOTYtSEl2c2dkMEpJbTJyQ2lPWU5ZNWt1ZEZCQlZJZWYxQXJkUzNzdWVXcmF6U2IxX2N1NTUycElfYjZuRVp0LUNSYWsxVHduZ3ZGWG5INXMxUW1Uc1N6bmtsYXFsSUd2QQ?oc=5",
+      "lead_source": "eKathimerini.com",
       "canonical_entities": [
         "heating oil"
       ],
@@ -458,13 +727,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T08:18:57+00:00",
-      "latest_seen": "2026-10-13T08:18:57+00:00",
-      "age_hours": 14.53,
-      "score": 54.78,
+      "earliest_seen": "2026-10-14T05:12:23+00:00",
+      "latest_seen": "2026-10-14T05:12:23+00:00",
+      "age_hours": 18.89,
+      "score": 52.17,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 16.28,
+        "recency_points": 13.67,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -473,12 +742,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "51d5b629a3a6e7ca",
-          "title": "Heating oil homes to get new protections yet long term help faces the axe",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd3dyM2d6bGJzSi1zSmhnU1ZlS1JkbnMtRW4zc254dnZOc05INUpjTEI4czAxcDgwS2lpSnNuN3lDSDE0NHhZYVdKWDdTdi0xYUE0SXZTTUFiOS1JbnJ4dDU0MjhSZ1FfWTBzNElLSXFxenZCU1N6MXZJMk5HbEMxUTFaUXJxNURmNTBMVm5PNFJrNnZNRG5CaWZlSVo3TTdrS0ZJVHF3UUhULWloVHU0YUJ3?oc=5",
-          "source": "End Fuel Poverty Coalition",
+          "headline_id": "2ff578b499621f1b",
+          "title": "Heating oil below €1.60/lt",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN2xhTU1qaUxDckU4Y2NwcHN3V0pFTHpoaE80TGxXOTYtSEl2c2dkMEpJbTJyQ2lPWU5ZNWt1ZEZCQlZJZWYxQXJkUzNzdWVXcmF6U2IxX2N1NTUycElfYjZuRVp0LUNSYWsxVHduZ3ZGWG5INXMxUW1Uc1N6bmtsYXFsSUd2QQ?oc=5",
+          "source": "eKathimerini.com",
           "source_type": "rss",
-          "published_at": "2026-10-13T08:18:57+00:00",
+          "published_at": "2026-10-14T05:12:23+00:00",
           "confidence": 0.65
         }
       ],
@@ -486,10 +755,10 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_5d332a721a0446",
+      "cluster_id": "c_356903a4e1de90",
       "topic": "heating",
-      "lead_title": "What's in the diesel deal between Putin and Trump?",
-      "lead_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5",
+      "lead_title": "As diesel prices soar, Bolivian farmer turns trash into tractor fuel",
+      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRXVEa3dQTjVja2lJNXlhTFJTLXlfMTlyOGZzTnk2bDJVMXNoUnB5V1p0VUpPc1JEOW1vTmR6bFA1YWNVLVFHTENpakhYdVpoLXhGRE96ck9tMlhQQnR3aWFEV1hka1BlaV9NcWh1OVlJcFVrR05BbU03SU5YUjFYa013dWxVS0Rsc2VEOFBPSVk5QU53LVk5eHkwMFFKcWFlNkMxRFhrNXd4ZFB0dUxnYUZBbW02UzA?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [
         "diesel"
@@ -499,13 +768,13 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-12T14:01:00+00:00",
-      "latest_seen": "2026-10-12T14:01:00+00:00",
-      "age_hours": 32.83,
-      "score": 54.3,
+      "earliest_seen": "2026-10-13T11:10:09+00:00",
+      "latest_seen": "2026-10-13T11:10:09+00:00",
+      "age_hours": 36.93,
+      "score": 51.84,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 5.3,
+        "recency_points": 2.84,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -514,12 +783,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "5e5d801f75bd88e5",
-          "title": "What's in the diesel deal between Putin and Trump?",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQVYyWUE3V0taZldlY0hsb2o0Rko0Y0QxTGJrbk80SHhyT3VKcWR1LTNfMFFEcEowbklSemZfRHp0Vk51cTBIQWFxNTBMSGZWTGZJejR4TUtoN1V6NGpWcnJtZWhScXY2MGotd1E4eW05UHd1cVZWb3NJLVI2NXl0QnJlRWlMeW1sVVFKSm1mQnBUd29yZVE?oc=5",
+          "headline_id": "8e9c9db72a803135",
+          "title": "As diesel prices soar, Bolivian farmer turns trash into tractor fuel",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPRXVEa3dQTjVja2lJNXlhTFJTLXlfMTlyOGZzTnk2bDJVMXNoUnB5V1p0VUpPc1JEOW1vTmR6bFA1YWNVLVFHTENpakhYdVpoLXhGRE96ck9tMlhQQnR3aWFEV1hka1BlaV9NcWh1OVlJcFVrR05BbU03SU5YUjFYa013dWxVS0Rsc2VEOFBPSVk5QU53LVk5eHkwMFFKcWFlNkMxRFhrNXd4ZFB0dUxnYUZBbW02UzA?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-10-12T14:01:00+00:00",
+          "published_at": "2026-10-13T11:10:09+00:00",
           "confidence": 1.0
         }
       ],
@@ -527,26 +796,26 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_45f1690614dd6a",
+      "cluster_id": "c_df25fadb9bd244",
       "topic": "heating",
-      "lead_title": "Heating Oil Falls for Third Session",
-      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbmhqLU5iQmt5YjNHdXA4ZDUwLWZsY1NuU1ZSVnNsZXAzMG5rTFd5TWRjekpNaG1KbzduU3VLbWRHQ1FzME5KTm96RlA2dEJFNlpZaEk0WU5nRkdpV3UtZlRLN3JkWGVYZEtKYnVaRmR0SU5fVjhGc09JMWhtV2d2a1NBa2pKM08zcnJGYlU1QQ?oc=5",
-      "lead_source": "TradingView",
+      "lead_title": "Trump’s Disastrous Diesel Deal",
+      "lead_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yMVhRYTRDNTdHZGdnOG4xVkxxLWo0b2FYbm1GbFFQRTRic0ZQUU1NODNjb19hZ2lYcUo1a0tJcmJLbjhtbzZCR2xOeGZvd2ZBUHNJMmM5MVIydHZNMlBzNDNQUlFkaUdiQWk5RmY0cUtmeEw4VVE?oc=5",
+      "lead_source": "The Free Press",
       "canonical_entities": [
-        "heating oil"
+        "diesel"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-13T01:38:00+00:00",
-      "latest_seen": "2026-10-13T01:38:00+00:00",
-      "age_hours": 21.21,
-      "score": 50.77,
+      "earliest_seen": "2026-10-14T02:15:39+00:00",
+      "latest_seen": "2026-10-14T02:15:39+00:00",
+      "age_hours": 21.83,
+      "score": 50.4,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.27,
+        "recency_points": 11.9,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -555,12 +824,135 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "d681f879f481255c",
-          "title": "Heating Oil Falls for Third Session",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbmhqLU5iQmt5YjNHdXA4ZDUwLWZsY1NuU1ZSVnNsZXAzMG5rTFd5TWRjekpNaG1KbzduU3VLbWRHQ1FzME5KTm96RlA2dEJFNlpZaEk0WU5nRkdpV3UtZlRLN3JkWGVYZEtKYnVaRmR0SU5fVjhGc09JMWhtV2d2a1NBa2pKM08zcnJGYlU1QQ?oc=5",
-          "source": "TradingView",
+          "headline_id": "297edd62113fb5ba",
+          "title": "Trump’s Disastrous Diesel Deal",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yMVhRYTRDNTdHZGdnOG4xVkxxLWo0b2FYbm1GbFFQRTRic0ZQUU1NODNjb19hZ2lYcUo1a0tJcmJLbjhtbzZCR2xOeGZvd2ZBUHNJMmM5MVIydHZNMlBzNDNQUlFkaUdiQWk5RmY0cUtmeEw4VVE?oc=5",
+          "source": "The Free Press",
           "source_type": "rss",
-          "published_at": "2026-10-13T01:38:00+00:00",
+          "published_at": "2026-10-14T02:15:39+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_daec617f453ef6",
+      "topic": "heating",
+      "lead_title": "Iran War and heating oil take center stage in Maine Senate debate",
+      "lead_url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZWdVVGN0ZHhxYUEyNzFob3RkdEhiZG9xNk5sOElXTnNHRDdnem9aY3Ric0RiQnFqQVhoemExaXdGS0o5S05LZElHWm1UaEotdk5jMFo0OC1yd2lUZG10dEhObDBzVXBnQkRROHBGUW8zdHFyaVEzbWNzYTBwdjZyRHRVd1JvZk9VQjV3LW9Dal8wTUVhZVJrSFVTUU5oQU9CbE1jMmVwV2dxUmlqdjRjT3h1dlE0ZHQ4MVY5TFZsalRJUHhidS1MYjN4N1BHajQ5OXBMTUFORE5nUjE4aENxWU9Lcw?oc=5",
+      "lead_source": "USA Today",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-14T02:08:00+00:00",
+      "latest_seen": "2026-10-14T02:08:00+00:00",
+      "age_hours": 21.96,
+      "score": 50.32,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 11.82,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "ab4d4669cd440c03",
+          "title": "Iran War and heating oil take center stage in Maine Senate debate",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZWdVVGN0ZHhxYUEyNzFob3RkdEhiZG9xNk5sOElXTnNHRDdnem9aY3Ric0RiQnFqQVhoemExaXdGS0o5S05LZElHWm1UaEotdk5jMFo0OC1yd2lUZG10dEhObDBzVXBnQkRROHBGUW8zdHFyaVEzbWNzYTBwdjZyRHRVd1JvZk9VQjV3LW9Dal8wTUVhZVJrSFVTUU5oQU9CbE1jMmVwV2dxUmlqdjRjT3h1dlE0ZHQ4MVY5TFZsalRJUHhidS1MYjN4N1BHajQ5OXBMTUFORE5nUjE4aENxWU9Lcw?oc=5",
+          "source": "USA Today",
+          "source_type": "rss",
+          "published_at": "2026-10-14T02:08:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c3f6a8ebb9ea6c",
+      "topic": "heating",
+      "lead_title": "Trump-Russia diesel deal faces pushback over supply, impact on gas prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ2NtTDItQjVUMTRNeG5mNi1tenU1NWdCX09HbE8xaHhWaEhkX0h4X29SWjMxdm1vNUJ0ZlRmY1B0Slh5LXFzV3lFQy1rcWZWdC1RNDg2RExrTXNaS19tZUdOQlNPaGE2MHQzei02Q1IyekE3UnplMklZS3NGVHlKS2dsVlN3bERtRUdlNlVCZDVEVjc4ODYxeUhCdTU4ZVVKcHJRZdIBuAFBVV95cUxPUGp1MXV2TzNPc2dQWWxfaHRYVnYtSDJ1XzBWekdxaGxiN2FEejB0NEFITmZmTEE0MTJKb2RZMVVyQzNsWEJZWURCdlJ4YWUwb05YNC1uSV9JUVBWczFuUTZrZ291S2tFRkVvN2kwVkpXaEdpaHVWa0hJZjlFVERqcGRqSkNSNHMxRTlvekRkWURSdVJ0VE5GOHZlcF85THlRb2lQaXNJMVRuVDlRZmtlZ2ctRW9nd09p?oc=5",
+      "lead_source": "WBNG",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-13T23:44:00+00:00",
+      "latest_seen": "2026-10-13T23:44:00+00:00",
+      "age_hours": 24.36,
+      "score": 48.88,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 10.38,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "66f02a635fb4d437",
+          "title": "Trump-Russia diesel deal faces pushback over supply, impact on gas prices",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQ2NtTDItQjVUMTRNeG5mNi1tenU1NWdCX09HbE8xaHhWaEhkX0h4X29SWjMxdm1vNUJ0ZlRmY1B0Slh5LXFzV3lFQy1rcWZWdC1RNDg2RExrTXNaS19tZUdOQlNPaGE2MHQzei02Q1IyekE3UnplMklZS3NGVHlKS2dsVlN3bERtRUdlNlVCZDVEVjc4ODYxeUhCdTU4ZVVKcHJRZdIBuAFBVV95cUxPUGp1MXV2TzNPc2dQWWxfaHRYVnYtSDJ1XzBWekdxaGxiN2FEejB0NEFITmZmTEE0MTJKb2RZMVVyQzNsWEJZWURCdlJ4YWUwb05YNC1uSV9JUVBWczFuUTZrZ291S2tFRkVvN2kwVkpXaEdpaHVWa0hJZjlFVERqcGRqSkNSNHMxRTlvekRkWURSdVJ0VE5GOHZlcF85THlRb2lQaXNJMVRuVDlRZmtlZ2ctRW9nd09p?oc=5",
+          "source": "WBNG",
+          "source_type": "rss",
+          "published_at": "2026-10-13T23:44:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_721aab4486fd71",
+      "topic": "heating",
+      "lead_title": "Mass. schools struggling with rising fuel and heating oil costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdUVKUnRqMnhoTGU0QnBlN0wycWJuZVE0dThkRV9RRzd6RzA1dHQ3S2RFUy1rSGtQVGdUa0xwOXhjSFhSSFRrQWcwelZJVEExbFptTnJTSzQxU1hlSllBMEVMZklrMFNmU0Y3dThRbGIzblk1NkE5Q1ZyZDQ2QUh1VkRRUl8taVM0V3A2N0hxMktSTmxXM2RLalV5UzF5Q0JLUjQ0eDE0dDNIQ3V0OVFycVVFY1g4VXhhS1o0b1l4ZVJrS2lLTnfSAcYBQVVfeXFMUHVFSlJ0ajJ4aExlNEJwZTdMMnFibmVRNHU4ZEVfUUc3ekcwNXR0N0tkRVMta0hrUFRnVGtMcDl4Y0hYUkhUa0FnMHpWSVRBMWxabU5yU0s0MVNYZUpZQTBFTGZJazBTZlNGN3U4UWxiM25ZNTZBOUNWcmQ0NkFIdVZEUVJfLWlTNFdwNjdIcTJLUk5sVzNkS2pVeVMxeUNCS1I0NHgxNHQzSEN1dDlRcnFVRWNYOFV4YUtaNG9ZeGVSa0tpS053?oc=5",
+      "lead_source": "NBC Boston",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-13T22:38:46+00:00",
+      "latest_seen": "2026-10-13T22:38:46+00:00",
+      "age_hours": 25.45,
+      "score": 48.23,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 9.73,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "f544d3aff349331e",
+          "title": "Mass. schools struggling with rising fuel and heating oil costs",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQdUVKUnRqMnhoTGU0QnBlN0wycWJuZVE0dThkRV9RRzd6RzA1dHQ3S2RFUy1rSGtQVGdUa0xwOXhjSFhSSFRrQWcwelZJVEExbFptTnJTSzQxU1hlSllBMEVMZklrMFNmU0Y3dThRbGIzblk1NkE5Q1ZyZDQ2QUh1VkRRUl8taVM0V3A2N0hxMktSTmxXM2RLalV5UzF5Q0JLUjQ0eDE0dDNIQ3V0OVFycVVFY1g4VXhhS1o0b1l4ZVJrS2lLTnfSAcYBQVVfeXFMUHVFSlJ0ajJ4aExlNEJwZTdMMnFibmVRNHU4ZEVfUUc3ekcwNXR0N0tkRVMta0hrUFRnVGtMcDl4Y0hYUkhUa0FnMHpWSVRBMWxabU5yU0s0MVNYZUpZQTBFTGZJazBTZlNGN3U4UWxiM25ZNTZBOUNWcmQ0NkFIdVZEUVJfLWlTNFdwNjdIcTJLUk5sVzNkS2pVeVMxeUNCS1I0NHgxNHQzSEN1dDlRcnFVRWNYOFV4YUtaNG9ZeGVSa0tpS053?oc=5",
+          "source": "NBC Boston",
+          "source_type": "rss",
+          "published_at": "2026-10-13T22:38:46+00:00",
           "confidence": 0.65
         }
       ],
@@ -581,19 +973,19 @@
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-06T17:52:48+00:00",
-      "latest_seen": "2026-10-06T17:52:48+00:00",
-      "age_hours": 172.96,
-      "score": 49.0,
+      "earliest_seen": "2026-10-06T07:00:00+00:00",
+      "latest_seen": "2026-10-06T07:00:00+00:00",
+      "age_hours": 209.1,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "687fc252c59f4b99",
@@ -601,7 +993,7 @@
           "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSjNTOThyMXhvc1UzM1A2TVVrak53cDQ2d2h5dElha3lIWVU1NXVVbjhpRHhCejJldi1IS04tOVpBNzR1eDFGeGthX0F3TUNmSXljbkhaWnR6X0xIRmtMNUZtbW5KeG9nQ0NTMXFsdE9rdmdlTjE5dlFOR3JfbFJiWGJUU1pBUTd3RE8wNHgtcVowX1NlWUxRM3VESDM3d1NYRFFJdUJEeGR0eGd3blZtZnhKRDZpTlR3bE1fMEtKS25NS0l0OFVvVw?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-10-06T17:52:48+00:00",
+          "published_at": "2026-10-06T07:00:00+00:00",
           "confidence": 1.0
         }
       ],
@@ -624,17 +1016,17 @@
       ],
       "earliest_seen": "2026-09-24T07:00:00+00:00",
       "latest_seen": "2026-09-24T07:00:00+00:00",
-      "age_hours": 471.84,
-      "score": 49.0,
+      "age_hours": 497.1,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e36d4523c1297720",
@@ -644,458 +1036,6 @@
           "source_type": "rss",
           "published_at": "2026-09-24T07:00:00+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_98107c72591e8d",
-      "topic": "heating",
-      "lead_title": "WATCH: Will gas, grocery and heating oil prices cost Republicans control of Congress?",
-      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYkt1NFgtX0tHZ0ViZ2Q5UjJqWUtjaGVRMDlybVVncWR2V0FFbWRCYU1hZ1hHNmdBUWRmY09pcmhrcE9lWjVmMFozVHhfdlFrTGFxbDZqYk1GNjlBUlB2SEhVQ3lKR1NvaU9XNXplSTVGMjRrOWg4cWJqeURKejlJblBCb2c1YVd3cEd0eGxfdkNyUzBQT1JtelJxZXRha21qUlp3YjdWM2w4ek9tZGRMdFdURWk?oc=5",
-      "lead_source": "Washington Times",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-12T19:39:32+00:00",
-      "latest_seen": "2026-10-12T19:39:32+00:00",
-      "age_hours": 27.18,
-      "score": 47.19,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 8.69,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "8f3a888bf39c3f4c",
-          "title": "WATCH: Will gas, grocery and heating oil prices cost Republicans control of Congress?",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYkt1NFgtX0tHZ0ViZ2Q5UjJqWUtjaGVRMDlybVVncWR2V0FFbWRCYU1hZ1hHNmdBUWRmY09pcmhrcE9lWjVmMFozVHhfdlFrTGFxbDZqYk1GNjlBUlB2SEhVQ3lKR1NvaU9XNXplSTVGMjRrOWg4cWJqeURKejlJblBCb2c1YVd3cEd0eGxfdkNyUzBQT1JtelJxZXRha21qUlp3YjdWM2w4ek9tZGRMdFdURWk?oc=5",
-          "source": "Washington Times",
-          "source_type": "rss",
-          "published_at": "2026-10-12T19:39:32+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_7b4ca3e2846ff2",
-      "topic": "heating",
-      "lead_title": "Some homeowners could get a massive home heating oil bill this year, says Lipow Oil’s Andy Lipow",
-      "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTmFNTG5nMVhXVkhkb3ZBdXBrSG9EdWVfOGU4RWJka014WTR4czVxVVpXNmM3a3ZJd0FabkpXbXlGZzd3ZVQ3TnIwUE9ndzZPR3FzclZWNjRLVEpuLXFLWVQtb0FRbFlRQWswcWZWaW04d0trOVF6VVM4cmszMTlSS1dJYVRFSnd4cmcwNmFDblNTUjRYTUgzaXRhSFVLMy04QUV3YjJvZ1gwN0ZzRmZKMzI2TndQSk5JTVlFRFhDWk83RUNiVWM2ODdkQ2pJXzhwSWlwMw?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-07T17:31:00+00:00",
-      "latest_seen": "2026-10-07T17:31:00+00:00",
-      "age_hours": 149.33,
-      "score": 46.9,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "89407ade66571091",
-          "title": "Some homeowners could get a massive home heating oil bill this year, says Lipow Oil’s Andy Lipow",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTmFNTG5nMVhXVkhkb3ZBdXBrSG9EdWVfOGU4RWJka014WTR4czVxVVpXNmM3a3ZJd0FabkpXbXlGZzd3ZVQ3TnIwUE9ndzZPR3FzclZWNjRLVEpuLXFLWVQtb0FRbFlRQWswcWZWaW04d0trOVF6VVM4cmszMTlSS1dJYVRFSnd4cmcwNmFDblNTUjRYTUgzaXRhSFVLMy04QUV3YjJvZ1gwN0ZzRmZKMzI2TndQSk5JTVlFRFhDWk83RUNiVWM2ODdkQ2pJXzhwSWlwMw?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-10-07T17:31:00+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_217ed5577f33cb",
-      "topic": "heating",
-      "lead_title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
-      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-07T12:35:01+00:00",
-      "latest_seen": "2026-10-07T12:35:01+00:00",
-      "age_hours": 154.26,
-      "score": 46.9,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "53f3caf5a2aa5f3d",
-          "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-10-07T12:35:01+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_b9744df01609aa",
-      "topic": "heating",
-      "lead_title": "$10 diesel? One Ohio analyst says it’s possible",
-      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdVQ0RUg4VmpNdjZRQm9zMWxtUDdHTkZneThOTFlwRE1tOXpqNldIS2ZrdlZ3U3FIdTd3SHBRYTJyOWVVRi1DcEVZa0dEbjUwVWJjNzBzdWhxYXQzQmk4RGNPRklNYzZSdVdaLWY2SFBTcElyRFIwbEhCSlR4RGRkSG5EdHNpTC1xd0xkamhESQ?oc=5",
-      "lead_source": "The Highland County Press",
-      "canonical_entities": [
-        "diesel"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-12T18:31:57+00:00",
-      "latest_seen": "2026-10-12T18:31:57+00:00",
-      "age_hours": 28.31,
-      "score": 46.51,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 8.01,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "62dd365842f11424",
-          "title": "$10 diesel? One Ohio analyst says it’s possible",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdVQ0RUg4VmpNdjZRQm9zMWxtUDdHTkZneThOTFlwRE1tOXpqNldIS2ZrdlZ3U3FIdTd3SHBRYTJyOWVVRi1DcEVZa0dEbjUwVWJjNzBzdWhxYXQzQmk4RGNPRklNYzZSdVdaLWY2SFBTcElyRFIwbEhCSlR4RGRkSG5EdHNpTC1xd0xkamhESQ?oc=5",
-          "source": "The Highland County Press",
-          "source_type": "rss",
-          "published_at": "2026-10-12T18:31:57+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_46e4b24f6d8454",
-      "topic": "heating",
-      "lead_title": "Rural West communities struggle as price of heating oil rises",
-      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lejJyY2NtaWM2Y0thbkZPYU91WkgwM3ZfY01wcTFjVVdkN2xxY2ZHMkswaVlyME5fcVJYVGE3eXBLcFVzMVRvWC1qSGdmZmFFRVJPcmdMUTJlUU0?oc=5",
-      "lead_source": "BBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-12T05:27:55+00:00",
-      "latest_seen": "2026-10-12T05:27:55+00:00",
-      "age_hours": 41.38,
-      "score": 46.17,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.17,
-        "source_quality_points": 27.0,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "20397617072c80cb",
-          "title": "Rural West communities struggle as price of heating oil rises",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lejJyY2NtaWM2Y0thbkZPYU91WkgwM3ZfY01wcTFjVVdkN2xxY2ZHMkswaVlyME5fcVJYVGE3eXBLcFVzMVRvWC1qSGdmZmFFRVJPcmdMUTJlUU0?oc=5",
-          "source": "BBC",
-          "source_type": "rss",
-          "published_at": "2026-10-12T05:27:55+00:00",
-          "confidence": 0.9
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e488996f821b70",
-      "topic": "heating",
-      "lead_title": "Diesel, heating oil prices to impact homeowners heating bills",
-      "lead_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80cEw5Y3pwR09abGc2U2NQRXBjdExHVXhoVHlGM2xqZUE4SDlyeHF3WW9iNk1LdFBuSG9UNlcyLV91eHotRlpsWFdhcVpOUkxSSVZYRTJCc25kUGt6LWd4UlNsNzRvc1c5M1BseG9pemcwcEVaeFp2el9Pd9IBgAFBVV95cUxOaV96MTVHRnJvZlFESVBXc2Rod2FlaFlWQkRZRThyLW1SMFltblFGeDFuSGRSTkdyTm1sWGg0TEl3R1NjWm1NNm03eXF5bUozMzBIYVVPLXdCYnp1VnctOFBGdFVrNmZILXBxMUpEd1RCZlZ5Y2h1MHRJa1FyeEJ2cA?oc=5",
-      "lead_source": "WRIC ABC 8News",
-      "canonical_entities": [
-        "diesel",
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-07T22:22:42+00:00",
-      "latest_seen": "2026-10-07T22:22:42+00:00",
-      "age_hours": 144.46,
-      "score": 44.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 21.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "72ecdfff738a862a",
-          "title": "Diesel, heating oil prices to impact homeowners heating bills",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80cEw5Y3pwR09abGc2U2NQRXBjdExHVXhoVHlGM2xqZUE4SDlyeHF3WW9iNk1LdFBuSG9UNlcyLV91eHotRlpsWFdhcVpOUkxSSVZYRTJCc25kUGt6LWd4UlNsNzRvc1c5M1BseG9pemcwcEVaeFp2el9Pd9IBgAFBVV95cUxOaV96MTVHRnJvZlFESVBXc2Rod2FlaFlWQkRZRThyLW1SMFltblFGeDFuSGRSTkdyTm1sWGg0TEl3R1NjWm1NNm03eXF5bUozMzBIYVVPLXdCYnp1VnctOFBGdFVrNmZILXBxMUpEd1RCZlZ5Y2h1MHRJa1FyeEJ2cA?oc=5",
-          "source": "WRIC ABC 8News",
-          "source_type": "rss",
-          "published_at": "2026-10-07T22:22:42+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_a117f5e71dda59",
-      "topic": "heating",
-      "lead_title": "Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYVc2YXV4eHVUR0RGS09yRUVIUFRSa01ILWZ0R0ktRF9rODA1T3FscXAxOXhEa1ctM2stVjEwRGprQ0l5cTdLVG1LOExFaTV4em1wSTAtRmhRamZyVWZtSHFVSWRtMVFISTdicHcxcDlrUTZVS3NodC1qSUFPWl9MTHRjOGFQTEd1T1dUbUtLYVdBZHlsMDJNRWZZR1htOGtmZkllSS1SdlRWLVFwN3ZodnByWVdublhzeWRhYUVpdzN6MFV0REFta3doc2s1WDBPeXfSAdIBQVVfeXFMTThMSzN4OXJFSFpVdFI5MFlyb2p1MjloUHkzQVMtSUNIdklsaWo5UXk0MnRjdkZrLUlmRGIyd05UVEdLM1ItMmVKajRvQ1RsdXRyNzlYaW0yZzFZV1hROUt6STRyX21PeXlTTzF6azdrWTVVSzh6VTJOZjV2Z1MydUFrWm5vYVlwYjJ3Y3ViQXM0eTc4dm5iVG02VFUtMGItXzJVem1rR3ZYdGJjN2R2MktDRlFlYjdScWJqbDFKSHlIRFRHdWM3a2NBLS11Ql8xSVpB?oc=5",
-      "lead_source": "South China Morning Post",
-      "canonical_entities": [
-        "diesel"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-12T11:00:08+00:00",
-      "latest_seen": "2026-10-12T11:00:08+00:00",
-      "age_hours": 35.84,
-      "score": 42.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 3.5,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "c8921e95fb8e6d7d",
-          "title": "Global diesel shortage: why Gulf refined fuel exports lag crude oil shipments",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPYVc2YXV4eHVUR0RGS09yRUVIUFRSa01ILWZ0R0ktRF9rODA1T3FscXAxOXhEa1ctM2stVjEwRGprQ0l5cTdLVG1LOExFaTV4em1wSTAtRmhRamZyVWZtSHFVSWRtMVFISTdicHcxcDlrUTZVS3NodC1qSUFPWl9MTHRjOGFQTEd1T1dUbUtLYVdBZHlsMDJNRWZZR1htOGtmZkllSS1SdlRWLVFwN3ZodnByWVdublhzeWRhYUVpdzN6MFV0REFta3doc2s1WDBPeXfSAdIBQVVfeXFMTThMSzN4OXJFSFpVdFI5MFlyb2p1MjloUHkzQVMtSUNIdklsaWo5UXk0MnRjdkZrLUlmRGIyd05UVEdLM1ItMmVKajRvQ1RsdXRyNzlYaW0yZzFZV1hROUt6STRyX21PeXlTTzF6azdrWTVVSzh6VTJOZjV2Z1MydUFrWm5vYVlwYjJ3Y3ViQXM0eTc4dm5iVG02VFUtMGItXzJVem1rR3ZYdGJjN2R2MktDRlFlYjdScWJqbDFKSHlIRFRHdWM3a2NBLS11Ql8xSVpB?oc=5",
-          "source": "South China Morning Post",
-          "source_type": "rss",
-          "published_at": "2026-10-12T11:00:08+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0783dacd5a2e20",
-      "topic": "heating",
-      "lead_title": "Heating Oil Prices Near Record High In Pennsylvania |",
-      "lead_url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iTzJXMzlLOEtTbmdaNTRRdUliV2dmUkQwUDY3OXRxNXJ0QjUycjVQQ05SRnNfMFBDSGxDc1ozNXMxOTVMT1doNEc4U1JpMFowZkhndXJnaTJjX2FzeDBoMi1OMl9CdnNRVndBcmpjTlltWTJWdnpPUlJLU3c3Zw?oc=5",
-      "lead_source": "WKOK.com",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-12T10:51:19+00:00",
-      "latest_seen": "2026-10-12T10:51:19+00:00",
-      "age_hours": 35.99,
-      "score": 41.91,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 3.41,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "1c1564637b720b75",
-          "title": "Heating Oil Prices Near Record High In Pennsylvania |",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5iTzJXMzlLOEtTbmdaNTRRdUliV2dmUkQwUDY3OXRxNXJ0QjUycjVQQ05SRnNfMFBDSGxDc1ozNXMxOTVMT1doNEc4U1JpMFowZkhndXJnaTJjX2FzeDBoMi1OMl9CdnNRVndBcmpjTlltWTJWdnpPUlJLU3c3Zw?oc=5",
-          "source": "WKOK.com",
-          "source_type": "rss",
-          "published_at": "2026-10-12T10:51:19+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_d4551cd6646dd5",
-      "topic": "heating",
-      "lead_title": "Trucking industry doubts Trump’s diesel order will dial down fuel prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SRm1xMWdacHJLcDRQMHZGMmI5Wm9GN205VHN2OVo3dkVjMWRQYWh1MlhxOVloMEVKc1dVazZxZGpsN2dVd2dyM0ZRNFhNQ3JINEZFOFhsYTRyMG9DbnVV?oc=5",
-      "lead_source": "Louisiana Illuminator",
-      "canonical_entities": [
-        "diesel"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-12T09:05:35+00:00",
-      "latest_seen": "2026-10-12T09:05:35+00:00",
-      "age_hours": 37.75,
-      "score": 40.85,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 2.35,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "81f60ddc925e3598",
-          "title": "Trucking industry doubts Trump’s diesel order will dial down fuel prices",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5SRm1xMWdacHJLcDRQMHZGMmI5Wm9GN205VHN2OVo3dkVjMWRQYWh1MlhxOVloMEVKc1dVazZxZGpsN2dVd2dyM0ZRNFhNQ3JINEZFOFhsYTRyMG9DbnVV?oc=5",
-          "source": "Louisiana Illuminator",
-          "source_type": "rss",
-          "published_at": "2026-10-12T09:05:35+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_abb60530ea3aec",
-      "topic": "heating",
-      "lead_title": "Heating Oil Extends Losses",
-      "lead_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOU5QaDA1QWtpYmJ2RndoUG5VZzFKZjJvc1dNM2ZfZFExZjBDSl9sM3ZuTFVidUtKeXlNYVpyampZZndhSW5BOXVvSGxBVFJhaWFPT09IVm9JSlAwbFlXRVU1OWhHREdIdjVkbkVBcXBjVUdjM0FKaGc5UmxNMmdIVmZxYw?oc=5",
-      "lead_source": "TradingView",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-12T01:02:00+00:00",
-      "latest_seen": "2026-10-12T01:02:00+00:00",
-      "age_hours": 45.81,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "d070340afade8caf",
-          "title": "Heating Oil Extends Losses",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOU5QaDA1QWtpYmJ2RndoUG5VZzFKZjJvc1dNM2ZfZFExZjBDSl9sM3ZuTFVidUtKeXlNYVpyampZZndhSW5BOXVvSGxBVFJhaWFPT09IVm9JSlAwbFlXRVU1OWhHREdIdjVkbkVBcXBjVUdjM0FKaGc5UmxNMmdIVmZxYw?oc=5",
-          "source": "TradingView",
-          "source_type": "rss",
-          "published_at": "2026-10-12T01:02:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_330b993645e0bc",
-      "topic": "heating",
-      "lead_title": "Valero (VLO) Stock Could Be 44% Overvalued After Heating Oil Relief",
-      "lead_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaWdXRWFYS0dxRGFZLTV6NFNGaVdVdnIxTy1PVWw2dGJqRUlyREVpU29MYTU0dnNlSmlBR25sUG10bmg0YmtPYmw1Z1U3QWk3MFZLUWVRX0EwaURMUUV1YllZazRvM1lSM3NHdUFUbHZmWEdQTkNmSTQ0T0JhQzZKNGk1MDNUWk5xaHdISmhoaFFhS0FHa1Z5Zl9qdTdna2VmRGl5LWtMUi1jNkNiN29aTkxVbVI0YW5JR0pVS1pGckd6WlVUR2fSAcsBQVVfeXFMUEREMUFzdUQyUHBMa1ZmeFVCNXQ4Z3l5MXZ2UU5mLVVKb0ZrbzE4TUF2T19wSUpiamUtTXo2WkJrR1h6MDZla2QzSHY0TGhXdmxjam02MmI3OHJzQUcwOEloNmp3MWZ5ZGtzYW9FRkRSdkR5UzZFVnE2UlRoVmstTkJVaEFZQnVXd2hMcEZIZERUcVhaVGhrcnR3VVVaZ2ZyN2lTMGdVU3BXMWpBMUhkU2Y1RmZIVENGdmRxcFcwZjE4bm9pNFpOMTF0Yzg?oc=5",
-      "lead_source": "Simply Wall Street",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-11T07:04:49+00:00",
-      "latest_seen": "2026-10-11T07:04:49+00:00",
-      "age_hours": 63.76,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "f22a1713c4a49a18",
-          "title": "Valero (VLO) Stock Could Be 44% Overvalued After Heating Oil Relief",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOaWdXRWFYS0dxRGFZLTV6NFNGaVdVdnIxTy1PVWw2dGJqRUlyREVpU29MYTU0dnNlSmlBR25sUG10bmg0YmtPYmw1Z1U3QWk3MFZLUWVRX0EwaURMUUV1YllZazRvM1lSM3NHdUFUbHZmWEdQTkNmSTQ0T0JhQzZKNGk1MDNUWk5xaHdISmhoaFFhS0FHa1Z5Zl9qdTdna2VmRGl5LWtMUi1jNkNiN29aTkxVbVI0YW5JR0pVS1pGckd6WlVUR2fSAcsBQVVfeXFMUEREMUFzdUQyUHBMa1ZmeFVCNXQ4Z3l5MXZ2UU5mLVVKb0ZrbzE4TUF2T19wSUpiamUtTXo2WkJrR1h6MDZla2QzSHY0TGhXdmxjam02MmI3OHJzQUcwOEloNmp3MWZ5ZGtzYW9FRkRSdkR5UzZFVnE2UlRoVmstTkJVaEFZQnVXd2hMcEZIZERUcVhaVGhrcnR3VVVaZ2ZyN2lTMGdVU3BXMWpBMUhkU2Y1RmZIVENGdmRxcFcwZjE4bm9pNFpOMTF0Yzg?oc=5",
-          "source": "Simply Wall Street",
-          "source_type": "rss",
-          "published_at": "2026-10-11T07:04:49+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -1117,7 +1057,7 @@
       ],
       "earliest_seen": "2026-09-23T07:00:00+00:00",
       "latest_seen": "2026-09-23T07:00:00+00:00",
-      "age_hours": 495.84,
+      "age_hours": 521.1,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -1137,6 +1077,129 @@
           "source_type": "rss",
           "published_at": "2026-09-23T07:00:00+00:00",
           "confidence": 0.97
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_39ce8e782580ba",
+      "topic": "heating",
+      "lead_title": "Maine firewood banks seeing increased demand as heating oil prices soar",
+      "lead_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQWNDRzR1ZGlJUmFpUHRCQWtDVWozZDNEVkwxaEUzWkgxTTh5RGUyem5iMTNGdHFmc0ZZb0hxbmhsbjVjVHBnRjJ5QUpMZ3VEUTJadjFEc3V6TmlESWgxaU1aWjdkSmxtT0tuMHVEZ0ZIekVpdko1QmhEU1hDM0U2UVRaRmlYdWR1bW01aU5WUm5kdzRrRVUxUXNwbWdIZUhsY190aXRyc21sWTVyOXJv?oc=5",
+      "lead_source": "​​Lewiston Sun Journal​​ ​​​ ​​​",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-13T20:53:29+00:00",
+      "latest_seen": "2026-10-13T20:53:29+00:00",
+      "age_hours": 27.2,
+      "score": 32.18,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 8.68,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "bcbb6b45cf5164a1",
+          "title": "Maine firewood banks seeing increased demand as heating oil prices soar",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQWNDRzR1ZGlJUmFpUHRCQWtDVWozZDNEVkwxaEUzWkgxTTh5RGUyem5iMTNGdHFmc0ZZb0hxbmhsbjVjVHBnRjJ5QUpMZ3VEUTJadjFEc3V6TmlESWgxaU1aWjdkSmxtT0tuMHVEZ0ZIekVpdko1QmhEU1hDM0U2UVRaRmlYdWR1bW01aU5WUm5kdzRrRVUxUXNwbWdIZUhsY190aXRyc21sWTVyOXJv?oc=5",
+          "source": "​​Lewiston Sun Journal​​ ​​​ ​​​",
+          "source_type": "rss",
+          "published_at": "2026-10-13T20:53:29+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_217ed5577f33cb",
+      "topic": "heating",
+      "lead_title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
+      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-07T12:35:01+00:00",
+      "latest_seen": "2026-10-07T12:35:01+00:00",
+      "age_hours": 179.51,
+      "score": 31.9,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "53f3caf5a2aa5f3d",
+          "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-10-07T12:35:01+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_46e4b24f6d8454",
+      "topic": "heating",
+      "lead_title": "Rural West communities struggle as price of heating oil rises",
+      "lead_url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lejJyY2NtaWM2Y0thbkZPYU91WkgwM3ZfY01wcTFjVVdkN2xxY2ZHMkswaVlyME5fcVJYVGE3eXBLcFVzMVRvWC1qSGdmZmFFRVJPcmdMUTJlUU0?oc=5",
+      "lead_source": "BBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-12T05:27:55+00:00",
+      "latest_seen": "2026-10-12T05:27:55+00:00",
+      "age_hours": 66.63,
+      "score": 31.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "20397617072c80cb",
+          "title": "Rural West communities struggle as price of heating oil rises",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lejJyY2NtaWM2Y0thbkZPYU91WkgwM3ZfY01wcTFjVVdkN2xxY2ZHMkswaVlyME5fcVJYVGE3eXBLcFVzMVRvWC1qSGdmZmFFRVJPcmdMUTJlUU0?oc=5",
+          "source": "BBC",
+          "source_type": "rss",
+          "published_at": "2026-10-12T05:27:55+00:00",
+          "confidence": 0.9
         }
       ],
       "top_tier": false,
