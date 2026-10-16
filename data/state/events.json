@@ -1,30 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-10-16T18:07:57.824800+00:00",
-  "previous_generated_at": "2026-10-15T18:36:03.768564+00:00",
-  "resolver_run_count": 175,
+  "generated_at": "2026-10-16T21:16:37.794581+00:00",
+  "previous_generated_at": "2026-10-16T18:07:57.824800+00:00",
+  "resolver_run_count": 176,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "U.S. crude oil tops $100 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+      "status_detail": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.961,
-      "last_confirmed": "2026-10-16T17:31:17+00:00",
-      "source_count": 11,
-      "summary_short": "U.S. crude oil tops $100 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "summary_long": "U.S. crude oil tops $100 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries. Ship attack reports near Hormuz reach record high as oil exports slow",
+      "confidence": 0.962,
+      "last_confirmed": "2026-10-16T19:07:09+00:00",
+      "source_count": 6,
+      "summary_short": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
+      "summary_long": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz. Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black",
       "evidence_cluster_ids": [
-        "c_b2f0a770f5fd1d",
-        "c_699d244e7cb172",
-        "c_564dab73239846",
+        "c_838d3df0f86355",
         "c_bb804c83c86977",
-        "c_f6435adcf92924"
+        "c_b0e5b3023da99f"
       ],
-      "evidence_count": 6,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,12 +39,48 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_564dab7323 → CONTESTED (kw='attack', weight=0.96)",
-        "cluster c_bb804c83c8 → CONTESTED (kw='attack', weight=0.46)",
-        "cluster c_f6435adcf9 → CONTESTED (kw='attack', weight=0.11)",
-        "cluster c_da5c4ad7ed → CONTESTED (kw='attack', weight=0.10)",
-        "winning=CONTESTED (1.62/1.62), conf=0.961"
+        "cluster c_838d3df0f8 → CONTESTED (kw='attack', weight=0.90)",
+        "cluster c_bb804c83c8 → CONTESTED (kw='attack', weight=0.31)",
+        "cluster c_b0e5b3023d → CONTESTED (kw='attack', weight=0.09)",
+        "winning=CONTESTED (1.30/1.30), conf=0.962"
       ]
+    },
+    "us_iran_ceasefire": {
+      "key": "us_iran_ceasefire",
+      "display_name": "U.S.-Iran Ceasefire",
+      "category": "diplomatic_event",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-10-15T10:00:00+00:00",
+      "source_count": 1,
+      "summary_short": "How Iran's precision strikes picked apart Gulf infrastructure",
+      "summary_long": "How Iran's precision strikes picked apart Gulf infrastructure",
+      "evidence_cluster_ids": [
+        "c_5ea9f126f7da4c"
+      ],
+      "evidence_count": 1,
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.next-catalyst",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.ceasefire"
+      ],
+      "update_priority": "high",
+      "freshness": "fresh",
+      "stale_after_hours": 72,
+      "rationale": [
+        "fell back to default 'HOLDING'"
+      ],
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -84,7 +118,7 @@
       "category": "composite",
       "status": "ELEVATED",
       "risk_level": "ELEVATED",
-      "score": 25,
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
@@ -94,7 +128,8 @@
       "summary_long": "Risk drivers: Hormuz contested",
       "summary_micro": "contested",
       "rationale": [
-        "hormuz=CONTESTED (+25)"
+        "hormuz=CONTESTED (+25)",
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -111,10 +146,10 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_a49068962a23d1",
-      "lead_title": "US solicits exchange of up to 17 million barrels of oil from strategic reserve",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeFNXdnRkamV3Q2plZzU5UHl3LUlPa2hxTVY1VTA5dXU2UXUxWG5DekxOY0ZrWlNobFBDNTRQR2xrTHRZbEJMZUd1dzRQSUd0ZmQ1TDRtTE9YcmRoRVEzUkhrQjhUX01DVk8zdU5saFJEc1NDUWFXcFhsbmFZRlQ0b1FGdm9nTnFGSDAwWUxVMDVJeHZXalROYmNNdlVJLWxxaEloOWtLWUsxOWlzbTFmSWhHMHVaRGM?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_c0929d1656f611",
+      "lead_title": "Brent Oil Taps $110 for First Time Since May as Risks Swirl",
+      "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTGpNaEJ4bFlQS3h1ZVFqZU42ZG1vdUMyaFBQd3M4V1I0SkRSeXEyT0drSlUyM3ItODNSN2ktWENEUjRoUTNRMHJCNHZkdDlEWmx5eG5HX3kwakpaX0FUaUo4TXFrOU5WME5vU2FMTjhBTXFyaW56eVM1dTFILWliUVpnVi1pcE5wZVNRTjdFU2F0aXlCYnRRcWI1VHVoejZhN29EQXE4TWIyMHkwUkE?oc=5",
+      "lead_source": "Bloomberg.com",
       "topic": "oil",
       "score": 100.0,
       "novelty": "new",
@@ -131,17 +166,17 @@
   "changes_since_last_run": [
     {
       "event_key": "us_iran_ceasefire",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-10-16T18:07:57.824729+00:00",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-10-16T21:16:37.794508+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.961, fresh=fresh",
-    "us_iran_ceasefire: retired — last_confirmed too old",
+    "hormuz_status: resolved=CONTESTED, confidence=0.962, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }

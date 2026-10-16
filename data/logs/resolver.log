@@ -1942,3 +1942,14 @@
 [2026-10-16T18:07:57.824773+00:00]   Δ us_iran_ceasefire.retired: 'HOLDING' → 'None' (triggers_publish=True)
 [2026-10-16T18:07:57.825532+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
 [2026-10-16T18:07:57.825575+00:00] ════════════════════════════════════════════════════════════
+[2026-10-16T21:16:37.788909+00:00] resolver: start
+[2026-10-16T21:16:37.792963+00:00] resolver: scanning 275 clusters across 10 topics
+[2026-10-16T21:16:37.793328+00:00]   hormuz_status: CONTESTED (conf=0.962, freshness=fresh, clusters=3)
+[2026-10-16T21:16:37.794117+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=1)
+[2026-10-16T21:16:37.794225+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-10-16T21:16:37.794271+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-10-16T21:16:37.794471+00:00]   top_story: 'Brent Oil Taps $110 for First Time Since May as Risks Swirl' (score=100.0)
+[2026-10-16T21:16:37.794522+00:00] resolver: 1 change(s), 1 meaningful, 0 publish-triggering
+[2026-10-16T21:16:37.794553+00:00]   Δ us_iran_ceasefire.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-10-16T21:16:37.795276+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-10-16T21:16:37.795342+00:00] ════════════════════════════════════════════════════════════
