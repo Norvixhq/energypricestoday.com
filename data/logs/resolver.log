@@ -1931,3 +1931,14 @@
 [2026-10-15T18:36:03.768545+00:00] resolver: no state changes
 [2026-10-15T18:36:03.769294+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-10-15T18:36:03.769332+00:00] ════════════════════════════════════════════════════════════
+[2026-10-16T18:07:57.818813+00:00] resolver: start
+[2026-10-16T18:07:57.823005+00:00] resolver: scanning 270 clusters across 10 topics
+[2026-10-16T18:07:57.823403+00:00]   hormuz_status: CONTESTED (conf=0.961, freshness=fresh, clusters=6)
+[2026-10-16T18:07:57.824371+00:00]   us_iran_ceasefire: RETIRED (stale beyond 2× threshold)
+[2026-10-16T18:07:57.824484+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-10-16T18:07:57.824531+00:00]   global_risk_level: ELEVATED (score=25)
+[2026-10-16T18:07:57.824693+00:00]   top_story: 'US solicits exchange of up to 17 million barrels of oil from' (score=100.0)
+[2026-10-16T18:07:57.824743+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-10-16T18:07:57.824773+00:00]   Δ us_iran_ceasefire.retired: 'HOLDING' → 'None' (triggers_publish=True)
+[2026-10-16T18:07:57.825532+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
+[2026-10-16T18:07:57.825575+00:00] ════════════════════════════════════════════════════════════
