@@ -1,40 +1,42 @@
 {
   "topic": "geopolitics",
-  "generated_at": "2026-10-16T21:16:37.691862+00:00",
+  "generated_at": "2026-10-16T23:42:31.677906+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 29,
+  "clusters_found": 28,
   "clusters": [
     {
-      "cluster_id": "c_1517c52601bc12",
+      "cluster_id": "c_6436d4927df785",
       "topic": "geopolitics",
       "lead_title": "Oil Futures Rise on Middle East, Russia-Ukraine Concerns",
       "lead_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlhVbW1hN3VaS2xQWTRNVHc1MGNIektPR0wzd2V5LWEtcmtZUXRSY1ZWYjJjSUVZZElTaFV4c0VfSnJhbHhBdGlHbjE4bkZDN0lfTnNxLXFxeFR3bnVqY21tSl9YdkZHTlY4VjYwYTVxZmFZV181ZHo0RXVFOEw0UDJoVXNYbWpfT1d2cHUza0FBekFXZzRRMTZlUkJYd2RUSlFxWEhLTHVRNjVZRk9xa0JhQzl0UQ?oc=5",
       "lead_source": "WSJ",
       "canonical_entities": [
+        "Hormuz",
+        "Iran",
         "Russia",
         "Ukraine"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-16T20:01:00+00:00",
+      "earliest_seen": "2026-10-16T17:15:44+00:00",
       "latest_seen": "2026-10-16T20:01:00+00:00",
-      "age_hours": 1.26,
-      "score": 67.24,
+      "age_hours": 3.69,
+      "score": 88.78,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 24.24,
+        "source_count_points": 10,
+        "recency_points": 22.78,
         "source_quality_points": 30.0,
-        "entity_relevance_points": 8,
-        "materiality_points": 0.0
+        "entity_relevance_points": 16,
+        "materiality_points": 10.0
       },
-      "novelty": "ongoing",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
           "headline_id": "89c02f18769457af",
@@ -44,32 +46,80 @@
           "source_type": "rss",
           "published_at": "2026-10-16T20:01:00+00:00",
           "confidence": 1.0
+        },
+        {
+          "headline_id": "5edfe14208ebfda5",
+          "title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT2lpZ1dfaGpSckplSzdGU19iZVY0cTJUd01MN1dpd29hcUtKZkpWbWZFZy1jTWxNME1oRWt6dGV2aU5tbzZ5UVpRVzI3amt6VzlXQXlfVkRNU2o3LXNpcUJZV2pPOXczV0k5SENNdGU4UWcyaEN4bUZUejNtOThUbGVYbGQtN2tYQ1g1M1RKQdIBlAFBVV95cUxPN0Q4b3V0UEhjMWVzZ2RkLXJGLXNtdGRlS0hWSjNROE1HTjA4LXIwM1dtZ3o2NU5leWVBQkpEMXViX2o2SWQ1d2g3dmhScHVRN0JSRDcyV1JsYl80WVZCaFNXVjVjNFRENEx5RDQ1blBhTnUwcjZsQ0xRSmt5aFlPeGxCNF96aVJiQ2Y5UnhjWk5zZEF5?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-10-16T17:15:44+00:00",
+          "confidence": 1.0
         }
       ],
       "top_tier": true,
       "low_priority": false
     },
     {
-      "cluster_id": "c_5ea9f126f7da4c",
+      "cluster_id": "c_93067cdc4a3b8e",
       "topic": "geopolitics",
-      "lead_title": "How Iran's precision strikes picked apart Gulf infrastructure",
-      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
+      "lead_title": "Brent hits 5-month high above $110 on continued tension in Middle East",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdjl0NmpNRTZlNkxJSVR6TEFaeTl0NGV3NURnczBNaWU4bGtaNFE5OXhVUTZrVHExQVB2SjhrcXhhbThheTV6NE1VUzNzMm1uOVhBZmRhUFc5RnpKeEVlTXlUVXZUWHpyWTducjQwT2tISGFNdFNDSUgxc1ZLOWR6enQwalM?oc=5",
+      "lead_source": "Financial Times",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-16T20:55:28+00:00",
+      "latest_seen": "2026-10-16T20:55:28+00:00",
+      "age_hours": 2.78,
+      "score": 65.93,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.33,
+        "source_quality_points": 27.6,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "e920b54aba112722",
+          "title": "Brent hits 5-month high above $110 on continued tension in Middle East",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdjl0NmpNRTZlNkxJSVR6TEFaeTl0NGV3NURnczBNaWU4bGtaNFE5OXhVUTZrVHExQVB2SjhrcXhhbThheTV6NE1VUzNzMm1uOVhBZmRhUFc5RnpKeEVlTXlUVXZUWHpyWTducjQwT2tISGFNdFNDSUgxc1ZLOWR6enQwalM?oc=5",
+          "source": "Financial Times",
+          "source_type": "rss",
+          "published_at": "2026-10-16T20:55:28+00:00",
+          "confidence": 0.92
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_46d17ad0033e79",
+      "topic": "geopolitics",
+      "lead_title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [
-        "Iran"
+        "Russia"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-15T10:00:00+00:00",
-      "latest_seen": "2026-10-15T10:00:00+00:00",
-      "age_hours": 35.28,
-      "score": 52.83,
+      "earliest_seen": "2026-10-16T00:57:00+00:00",
+      "latest_seen": "2026-10-16T00:57:00+00:00",
+      "age_hours": 22.76,
+      "score": 60.34,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 3.83,
+        "recency_points": 11.34,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": 10.0
@@ -78,12 +128,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "3292e81be6817f4c",
-          "title": "How Iran's precision strikes picked apart Gulf infrastructure",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
+          "headline_id": "c106485c1295c4e3",
+          "title": "Oil touches $110 a barrel for first time since May on Middle East, Russia supply fears",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
           "source": "Reuters",
           "source_type": "rss",
-          "published_at": "2026-10-15T10:00:00+00:00",
+          "published_at": "2026-10-16T00:57:00+00:00",
           "confidence": 1.0
         }
       ],
@@ -106,11 +156,11 @@
       ],
       "earliest_seen": "2026-10-16T03:22:00+00:00",
       "latest_seen": "2026-10-16T03:22:00+00:00",
-      "age_hours": 17.91,
-      "score": 48.25,
+      "age_hours": 20.34,
+      "score": 46.79,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.25,
+        "recency_points": 12.79,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -128,7 +178,58 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_2bc990370548de",
+      "topic": "geopolitics",
+      "lead_title": "Saudi Arabia Resumes Red Sea Oil Exports in Blow to Iran",
+      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOFhDR243cDJLOUU1T1hPa3QxaEw3Tlpkang3T2pXMnQ5WkgzRjFnUmNOeU93alItNjZYQ0xMOXFoT19NUFJsQktkZWdhMTlUMXlHOU9MeDVlb2oyQUtwR00tei1yTW5DLTY4eWlqSm15TlNFQnNDeFpuakljZjRQM2FwT2hpZkFTSko4bE53S0RxUFBoLUIxQ3llUC1sSXJHc3BVMk85UmhxZU5LTXVQREhaWkVpTkp0QWRDUW9MNk9jX0hSamVJ?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "Iran",
+        "Saudi"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-09-28T07:00:00+00:00",
+      "latest_seen": "2026-09-28T07:00:00+00:00",
+      "age_hours": 448.71,
+      "score": 41.95,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 0.0,
+        "source_quality_points": 28.95,
+        "entity_relevance_points": 8,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "7074efa66100a56d",
+          "title": "Saudi Arabia Resumes Red Sea Oil Exports in Blow to Iran",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOFhDR243cDJLOUU1T1hPa3QxaEw3Tlpkang3T2pXMnQ5WkgzRjFnUmNOeU93alItNjZYQ0xMOXFoT19NUFJsQktkZWdhMTlUMXlHOU9MeDVlb2oyQUtwR00tei1yTW5DLTY4eWlqSm15TlNFQnNDeFpuakljZjRQM2FwT2hpZkFTSko4bE53S0RxUFBoLUIxQ3llUC1sSXJHc3BVMk85UmhxZU5LTXVQREhaWkVpTkp0QWRDUW9MNk9jX0hSamVJ?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-09-28T07:00:00+00:00",
+          "confidence": 1.0
+        },
+        {
+          "headline_id": "750f8cc14e6b8f52",
+          "title": "Oil prices fall as crude exports recover at Saudi Arabia's Red Sea ports",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kSktEczQ1cU5VX0RyU21RTFFyVFlsSFJyMkhBYmtjSGtxMk5uT0FqMjFSSzkyUk1VY0pFNHpRaW51dWN2bVpnRU1YX0U2by1oRDRJTkNhekFncUhicGlLdEd5YzhSenE0R3NyY0h6VmNUczhwWEs3Y0930gF_QVVfeXFMTThHUHBKazFqa1M4UUh0THhoN1JBUkFxOURNQlpxbXRHeVBzNThjaDlXZVNRS1NPVnFVMEpfWGFzQm1nX1JCRThpWjhXMS1HRzlUUG5ESGtkRHowU3E3U1FPbXlIRDMxc1M2ZHFiTDVFTm5UVzRoTkUtRnhTM0xMSQ?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-09-28T07:00:00+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -145,11 +246,11 @@
       ],
       "earliest_seen": "2026-10-16T03:19:00+00:00",
       "latest_seen": "2026-10-16T03:19:00+00:00",
-      "age_hours": 17.96,
-      "score": 42.72,
+      "age_hours": 20.39,
+      "score": 41.26,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.22,
+        "recency_points": 12.76,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -186,11 +287,11 @@
       ],
       "earliest_seen": "2026-10-15T19:37:00+00:00",
       "latest_seen": "2026-10-15T19:37:00+00:00",
-      "age_hours": 25.66,
-      "score": 42.7,
+      "age_hours": 28.09,
+      "score": 41.24,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 9.6,
+        "recency_points": 8.14,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -206,96 +307,6 @@
           "source_type": "rss",
           "published_at": "2026-10-15T19:37:00+00:00",
           "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_2bc990370548de",
-      "topic": "geopolitics",
-      "lead_title": "Saudi Arabia Resumes Red Sea Oil Exports in Blow to Iran",
-      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOFhDR243cDJLOUU1T1hPa3QxaEw3Tlpkang3T2pXMnQ5WkgzRjFnUmNOeU93alItNjZYQ0xMOXFoT19NUFJsQktkZWdhMTlUMXlHOU9MeDVlb2oyQUtwR00tei1yTW5DLTY4eWlqSm15TlNFQnNDeFpuakljZjRQM2FwT2hpZkFTSko4bE53S0RxUFBoLUIxQ3llUC1sSXJHc3BVMk85UmhxZU5LTXVQREhaWkVpTkp0QWRDUW9MNk9jX0hSamVJ?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "Iran",
-        "Saudi"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-09-28T07:00:00+00:00",
-      "latest_seen": "2026-09-28T07:00:00+00:00",
-      "age_hours": 446.28,
-      "score": 41.95,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 28.95,
-        "entity_relevance_points": 8,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "7074efa66100a56d",
-          "title": "Saudi Arabia Resumes Red Sea Oil Exports in Blow to Iran",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOFhDR243cDJLOUU1T1hPa3QxaEw3Tlpkang3T2pXMnQ5WkgzRjFnUmNOeU93alItNjZYQ0xMOXFoT19NUFJsQktkZWdhMTlUMXlHOU9MeDVlb2oyQUtwR00tei1yTW5DLTY4eWlqSm15TlNFQnNDeFpuakljZjRQM2FwT2hpZkFTSko4bE53S0RxUFBoLUIxQ3llUC1sSXJHc3BVMk85UmhxZU5LTXVQREhaWkVpTkp0QWRDUW9MNk9jX0hSamVJ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-09-28T07:00:00+00:00",
-          "confidence": 1.0
-        },
-        {
-          "headline_id": "750f8cc14e6b8f52",
-          "title": "Oil prices fall as crude exports recover at Saudi Arabia's Red Sea ports",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kSktEczQ1cU5VX0RyU21RTFFyVFlsSFJyMkhBYmtjSGtxMk5uT0FqMjFSSzkyUk1VY0pFNHpRaW51dWN2bVpnRU1YX0U2by1oRDRJTkNhekFncUhicGlLdEd5YzhSenE0R3NyY0h6VmNUczhwWEs3Y0930gF_QVVfeXFMTThHUHBKazFqa1M4UUh0THhoN1JBUkFxOURNQlpxbXRHeVBzNThjaDlXZVNRS1NPVnFVMEpfWGFzQm1nX1JCRThpWjhXMS1HRzlUUG5ESGtkRHowU3E3U1FPbXlIRDMxc1M2ZHFiTDVFTm5UVzRoTkUtRnhTM0xMSQ?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-09-28T07:00:00+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_9760f37e493d16",
-      "topic": "geopolitics",
-      "lead_title": "Oil heads for weekly gain with focus on Middle East supply",
-      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-16T00:57:00+00:00",
-      "latest_seen": "2026-10-16T00:57:00+00:00",
-      "age_hours": 20.33,
-      "score": 41.3,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 12.8,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "82145d6f0e3c6053",
-          "title": "Oil heads for weekly gain with focus on Middle East supply",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY0FIVXBWc1k5eW1ObWUyOGNQS1NGZDA5anNoLVJmVDRoMGR0ZUM5aWdDYTFDX3lKN2dYbVlhZzhuTFUwcVo3N0xmTkpBNXJKV2JLVW9qUmdmNWdxaWFJVlFZLWVPVHJjZ0RTNUdYdGxoMk9RZms0aHpzQWlTVDd4LUNnQ1RKUlZmVkhFSS1FQlk5bWl1dkU2QTQ0bDA2dVdHVzMzcTlRZi00ZkM1THVWRFgzTnYtUm9id3pBM1BWeEI4ZVFqU1ltSDB2SQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-10-16T00:57:00+00:00",
-          "confidence": 0.95
         }
       ],
       "top_tier": false,
@@ -318,7 +329,7 @@
       ],
       "earliest_seen": "2026-10-14T15:49:00+00:00",
       "latest_seen": "2026-10-14T15:49:00+00:00",
-      "age_hours": 53.46,
+      "age_hours": 55.89,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -360,7 +371,7 @@
       ],
       "earliest_seen": "2026-09-28T07:00:00+00:00",
       "latest_seen": "2026-09-28T07:00:00+00:00",
-      "age_hours": 446.28,
+      "age_hours": 448.71,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -402,7 +413,7 @@
       ],
       "earliest_seen": "2026-10-06T07:00:00+00:00",
       "latest_seen": "2026-10-06T07:00:00+00:00",
-      "age_hours": 254.28,
+      "age_hours": 256.71,
       "score": 37.4,
       "score_components": {
         "source_count_points": 5,
@@ -428,6 +439,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_5ea9f126f7da4c",
+      "topic": "geopolitics",
+      "lead_title": "How Iran's precision strikes picked apart Gulf infrastructure",
+      "lead_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "Iran"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-15T10:00:00+00:00",
+      "latest_seen": "2026-10-15T10:00:00+00:00",
+      "age_hours": 37.71,
+      "score": 36.37,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 2.37,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "3292e81be6817f4c",
+          "title": "How Iran's precision strikes picked apart Gulf infrastructure",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONmZVZ0RfSms3U0s1SVE3N3ZMeWxLaVhtTjczazRmNU40UkpCUldVbWZJVUtJVkt3cHdLOEpoTl9qY0lFXzdKWUtydmYzVi1MeDExbXB6eHc3NjAyTi1CT2lveE5WVUNPeHV5SndkU3BmRUNiS1JCQUI2bDYyZjd6RjltYUhzeFVmUDFPSU93NWo?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-10-15T10:00:00+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_9d07b112792102",
       "topic": "geopolitics",
       "lead_title": "How Aramco learned to keep pumping oil under fire",
@@ -441,11 +493,11 @@
       ],
       "earliest_seen": "2026-10-15T16:57:37+00:00",
       "latest_seen": "2026-10-15T16:57:37+00:00",
-      "age_hours": 28.32,
-      "score": 36.51,
+      "age_hours": 30.75,
+      "score": 35.05,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.01,
+        "recency_points": 6.55,
         "source_quality_points": 28.5,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -482,7 +534,7 @@
       ],
       "earliest_seen": "2026-10-14T20:59:11+00:00",
       "latest_seen": "2026-10-14T20:59:11+00:00",
-      "age_hours": 48.29,
+      "age_hours": 50.72,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -523,7 +575,7 @@
       ],
       "earliest_seen": "2026-10-14T11:43:12+00:00",
       "latest_seen": "2026-10-14T11:43:12+00:00",
-      "age_hours": 57.56,
+      "age_hours": 59.99,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -564,7 +616,7 @@
       ],
       "earliest_seen": "2026-10-14T00:06:00+00:00",
       "latest_seen": "2026-10-14T00:06:00+00:00",
-      "age_hours": 69.18,
+      "age_hours": 71.61,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -605,7 +657,7 @@
       ],
       "earliest_seen": "2026-10-13T19:22:00+00:00",
       "latest_seen": "2026-10-13T19:22:00+00:00",
-      "age_hours": 73.91,
+      "age_hours": 76.34,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -646,7 +698,7 @@
       ],
       "earliest_seen": "2026-10-04T07:00:00+00:00",
       "latest_seen": "2026-10-04T07:00:00+00:00",
-      "age_hours": 302.28,
+      "age_hours": 304.71,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -687,7 +739,7 @@
       ],
       "earliest_seen": "2026-10-04T07:00:00+00:00",
       "latest_seen": "2026-10-04T07:00:00+00:00",
-      "age_hours": 302.28,
+      "age_hours": 304.71,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -713,45 +765,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_05efc37648c09f",
-      "topic": "geopolitics",
-      "lead_title": "Bunker Holding expects marine fuel sales to dip in 2026 as war fragments market",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNakFaT3ZBSDU4dEs3alk2OUFqMFNMVnJJYTdMZU9TTldlMW12TWhmN1ItWjdYUE9LWFgyNngxb0E0aTFKUFZUa3NlWVhpM21uYWlQZnB0NFNVQmVGdkg4dEFuWXl6YmFURld0VEM3c2x3UlMySFNRX1oyeDhDRGFIZnRkeGpZSHNhT1VFNHlEODE0NkFkZk5TX096azRVLWs3cW1nVkpHM1JLZUhVaWd4M1JkRzF2TnQ0eFJZUmpvOA?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-15T10:20:09+00:00",
-      "latest_seen": "2026-10-15T10:20:09+00:00",
-      "age_hours": 34.94,
-      "score": 32.54,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 4.04,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "548fa24bbfaa8bfa",
-          "title": "Bunker Holding expects marine fuel sales to dip in 2026 as war fragments market",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNakFaT3ZBSDU4dEs3alk2OUFqMFNMVnJJYTdMZU9TTldlMW12TWhmN1ItWjdYUE9LWFgyNngxb0E0aTFKUFZUa3NlWVhpM21uYWlQZnB0NFNVQmVGdkg4dEFuWXl6YmFURld0VEM3c2x3UlMySFNRX1oyeDhDRGFIZnRkeGpZSHNhT1VFNHlEODE0NkFkZk5TX096azRVLWs3cW1nVkpHM1JLZUhVaWd4M1JkRzF2TnQ0eFJZUmpvOA?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-10-15T10:20:09+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_a3e45baffe8afe",
       "topic": "geopolitics",
       "lead_title": "Oil prices jump as Iran steps up tanker attacks, hurricane threatens U.S. Gulf production",
@@ -767,7 +780,7 @@
       ],
       "earliest_seen": "2026-10-07T07:00:00+00:00",
       "latest_seen": "2026-10-07T07:00:00+00:00",
-      "age_hours": 230.28,
+      "age_hours": 232.71,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -808,7 +821,7 @@
       ],
       "earliest_seen": "2026-09-30T07:00:00+00:00",
       "latest_seen": "2026-09-30T07:00:00+00:00",
-      "age_hours": 398.28,
+      "age_hours": 400.71,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -834,6 +847,45 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_05efc37648c09f",
+      "topic": "geopolitics",
+      "lead_title": "Bunker Holding expects marine fuel sales to dip in 2026 as war fragments market",
+      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNakFaT3ZBSDU4dEs3alk2OUFqMFNMVnJJYTdMZU9TTldlMW12TWhmN1ItWjdYUE9LWFgyNngxb0E0aTFKUFZUa3NlWVhpM21uYWlQZnB0NFNVQmVGdkg4dEFuWXl6YmFURld0VEM3c2x3UlMySFNRX1oyeDhDRGFIZnRkeGpZSHNhT1VFNHlEODE0NkFkZk5TX096azRVLWs3cW1nVkpHM1JLZUhVaWd4M1JkRzF2TnQ0eFJZUmpvOA?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-15T10:20:09+00:00",
+      "latest_seen": "2026-10-15T10:20:09+00:00",
+      "age_hours": 37.37,
+      "score": 31.08,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 2.58,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "548fa24bbfaa8bfa",
+          "title": "Bunker Holding expects marine fuel sales to dip in 2026 as war fragments market",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNakFaT3ZBSDU4dEs3alk2OUFqMFNMVnJJYTdMZU9TTldlMW12TWhmN1ItWjdYUE9LWFgyNngxb0E0aTFKUFZUa3NlWVhpM21uYWlQZnB0NFNVQmVGdkg4dEFuWXl6YmFURld0VEM3c2x3UlMySFNRX1oyeDhDRGFIZnRkeGpZSHNhT1VFNHlEODE0NkFkZk5TX096azRVLWs3cW1nVkpHM1JLZUhVaWd4M1JkRzF2TnQ0eFJZUmpvOA?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-10-15T10:20:09+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_1eac678aa0cb81",
       "topic": "geopolitics",
       "lead_title": "Brent steady as US weighs easing sanctions on global 'shadow fleet'",
@@ -847,7 +899,7 @@
       ],
       "earliest_seen": "2026-10-15T01:30:00+00:00",
       "latest_seen": "2026-10-15T01:30:00+00:00",
-      "age_hours": 43.78,
+      "age_hours": 46.21,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -886,7 +938,7 @@
       ],
       "earliest_seen": "2026-10-15T00:00:00+00:00",
       "latest_seen": "2026-10-15T00:00:00+00:00",
-      "age_hours": 45.28,
+      "age_hours": 47.71,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -925,7 +977,7 @@
       ],
       "earliest_seen": "2026-10-08T07:00:00+00:00",
       "latest_seen": "2026-10-08T07:00:00+00:00",
-      "age_hours": 206.28,
+      "age_hours": 208.71,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -964,7 +1016,7 @@
       ],
       "earliest_seen": "2026-10-06T07:00:00+00:00",
       "latest_seen": "2026-10-06T07:00:00+00:00",
-      "age_hours": 254.28,
+      "age_hours": 256.71,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -1003,7 +1055,7 @@
       ],
       "earliest_seen": "2026-10-05T07:00:00+00:00",
       "latest_seen": "2026-10-05T07:00:00+00:00",
-      "age_hours": 278.28,
+      "age_hours": 280.71,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -1042,7 +1094,7 @@
       ],
       "earliest_seen": "2026-09-29T07:00:00+00:00",
       "latest_seen": "2026-09-29T07:00:00+00:00",
-      "age_hours": 422.28,
+      "age_hours": 424.71,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -1081,7 +1133,7 @@
       ],
       "earliest_seen": "2026-09-22T07:00:00+00:00",
       "latest_seen": "2026-09-22T07:00:00+00:00",
-      "age_hours": 590.28,
+      "age_hours": 592.71,
       "score": 28.5,
       "score_components": {
         "source_count_points": 5,
@@ -1101,84 +1153,6 @@
           "source_type": "rss",
           "published_at": "2026-09-22T07:00:00+00:00",
           "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3ffff812302f72",
-      "topic": "geopolitics",
-      "lead_title": "Oil majors look beyond Middle East war in pursuit of region’s vast reserves",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQnJsUlY0TW1MNHpnTzFVZUJKemNvdmZDRGJ1SW5vTlpCenh2RFBKZk5YZWZTRnloQlZQM1I1MzZVVzBMSmtUQy1zTlRtTWt2RDhwRS1kc3JvYzhQSVI2MEZTelBsOFVoMTlDR081US1XeXNmU3V1UW5aeTJPOWJOWjFaWGo?oc=5",
-      "lead_source": "Financial Times",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-07T07:00:00+00:00",
-      "latest_seen": "2026-10-07T07:00:00+00:00",
-      "age_hours": 230.28,
-      "score": 27.6,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "354c6b68f1a8da09",
-          "title": "Oil majors look beyond Middle East war in pursuit of region’s vast reserves",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQnJsUlY0TW1MNHpnTzFVZUJKemNvdmZDRGJ1SW5vTlpCenh2RFBKZk5YZWZTRnloQlZQM1I1MzZVVzBMSmtUQy1zTlRtTWt2RDhwRS1kc3JvYzhQSVI2MEZTelBsOFVoMTlDR081US1XeXNmU3V1UW5aeTJPOWJOWjFaWGo?oc=5",
-          "source": "Financial Times",
-          "source_type": "rss",
-          "published_at": "2026-10-07T07:00:00+00:00",
-          "confidence": 0.92
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_335aeb340a145a",
-      "topic": "geopolitics",
-      "lead_title": "Oil Futures Little Changed as Market Weighs Export Recovery, Shipping Risks",
-      "lead_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONUtscjBad2NrYlFpckhZRUc0SUFnc3YzYjhqenRqaHlUUHE5Z1BpVGJlRjZWaE5BSzZxUWtoNnFoXzg1VVd5QlNWY3RMLVBiUW1QUXNaTUFBMExBMTNEaXQ3bU13QnlfbUJScW5yNUJDQTJ2SUJXMmo3NXZyOTBtb2FNOThkNjc1ZlgwU3JGRkRSclhaS25UQjk4QWNiZ2Y2bkpiMkJidk1LakNnTmNodTVYN0Q0cTg?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-06T07:00:00+00:00",
-      "latest_seen": "2026-10-06T07:00:00+00:00",
-      "age_hours": 254.28,
-      "score": 27.6,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.6,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "200af0cef9cc6e13",
-          "title": "Oil Futures Little Changed as Market Weighs Export Recovery, Shipping Risks",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONUtscjBad2NrYlFpckhZRUc0SUFnc3YzYjhqenRqaHlUUHE5Z1BpVGJlRjZWaE5BSzZxUWtoNnFoXzg1VVd5QlNWY3RMLVBiUW1QUXNaTUFBMExBMTNEaXQ3bU13QnlfbUJScW5yNUJDQTJ2SUJXMmo3NXZyOTBtb2FNOThkNjc1ZlgwU3JGRkRSclhaS25UQjk4QWNiZ2Y2bkpiMkJidk1LakNnTmNodTVYN0Q0cTg?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-10-06T07:00:00+00:00",
-          "confidence": 0.92
         }
       ],
       "top_tier": false,
