@@ -1,6 +1,6 @@
 {
   "topic": "energy",
-  "generated_at": "2026-10-17T14:11:55.510457+00:00",
+  "generated_at": "2026-10-17T17:17:18.708135+00:00",
   "sources_scanned": [
     "rss"
   ],
@@ -25,17 +25,17 @@
       ],
       "earliest_seen": "2026-10-15T16:36:11+00:00",
       "latest_seen": "2026-10-17T06:44:50+00:00",
-      "age_hours": 7.45,
-      "score": 79.53,
+      "age_hours": 10.54,
+      "score": 67.68,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 20.53,
+        "recency_points": 18.68,
         "source_quality_points": 22.0,
         "entity_relevance_points": 12,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "d119f494644a5a7d",
@@ -69,6 +69,68 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_b874dc265816be",
+      "topic": "energy",
+      "lead_title": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
+      "lead_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DVlpiaVB3TDNMcWszU0s4YVotdmZpYjUzVDVkZ1EwWU5nNTVfWDlsbVI2eVJHRHB6NDJrbXNONEtCdzFoWDJmVDF5V0ltWk5HUE1DMVNWRlhPREYtSmhMZEZUOUN6QnI3d2ZadVYwNErSAXZBVV95cUxNTnU2bkR5aVZmeE40Q3o5cjE5bmNZT2NLRVJhbnkwVzdyNFBHY0JNREQ2NjFfdy1GWEUwblVobnBYRHhiRUw4RkpLN3B6WngycUdQeTJkQlVuYVB0ekhlLUJEeVJBXzJzQlM1X1BQbGxLQmMtdndn?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "Brent",
+        "WTI",
+        "crude",
+        "oil"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-15T04:09:18+00:00",
+      "latest_seen": "2026-10-17T02:11:26+00:00",
+      "age_hours": 15.1,
+      "score": 66.74,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 15.94,
+        "source_quality_points": 24.8,
+        "entity_relevance_points": 16,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "bf7cfa2b986edf44",
+          "title": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DVlpiaVB3TDNMcWszU0s4YVotdmZpYjUzVDVkZ1EwWU5nNTVfWDlsbVI2eVJHRHB6NDJrbXNONEtCdzFoWDJmVDF5V0ltWk5HUE1DMVNWRlhPREYtSmhMZEZUOUN6QnI3d2ZadVYwNErSAXZBVV95cUxNTnU2bkR5aVZmeE40Q3o5cjE5bmNZT2NLRVJhbnkwVzdyNFBHY0JNREQ2NjFfdy1GWEUwblVobnBYRHhiRUw4RkpLN3B6WngycUdQeTJkQlVuYVB0ekhlLUJEeVJBXzJzQlM1X1BQbGxLQmMtdndn?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-10-15T04:09:18+00:00",
+          "confidence": 0.98
+        },
+        {
+          "headline_id": "f21c5983eb515a3f",
+          "title": "Brent Crude Hits $110 as Global Wars Disrupt Oil Supplies",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUTBqMl9KeW4xa1VnTHJ1ZWthWjJqMXBPM01kWUw1SWc5SXptY2FrR28tV09TQUt0LUxzX1ZaS0w2NUZUNjJ1eHRGVnZ5U3RRWHBidGU4cVJDV0F4ZHk4MlpEUUticWRENTdPMTkxUk94VjUwd3ZNMlFyUUlENmRuaVJVcEd0MnpqZGRTTjRLZElCS25DRVE1bHFOR1I5allZTE1iTlQxMXBhM3lGRkJhaWx2Tnh6TjFwWHhrUg?oc=5",
+          "source": "Benzinga",
+          "source_type": "rss",
+          "published_at": "2026-10-17T02:11:26+00:00",
+          "confidence": 0.75
+        },
+        {
+          "headline_id": "f3ef9ad2fa5c483a",
+          "title": "US Crude Oil Tops $100 As Iran Escalates Hormuz Attacks, WTI Up 9% This Week",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQam8za0RsT1Bjd0NCYm5aXzUxeU5ZRjUtWVhJVXRtenBjRS1sS2RrVk1nVjZwSFFibEFTbUFwUV9FLTZiVVk1NTJzOG9zSHhadDA5VGdtcUc1c2R5T25TMXNKN3laTzAyMHhYcjVRUklaTjJ0VGt3aHp5Yi0zSEE1VlVoaWo3Uk9hVXp4M1hERnQzUDNKWWhTSHhCYUxyMGRlMFF5TTRIS1hyeDZEYnlvbzB1YjctR3Q30gHAAUFVX3lxTE5CT01xcTJ5eXlqaUxvOXJWLXk0S1g0Y3RfRkNqMGl3bHYxaFhWdTJlWXQ5bGEyWVRKQ29jMmd4czhNdlFJaWJIN1RGbnZFOHR3MGtXenhkSV9IdXlaLVpoRW5TaTBubnZENW9Vd09VbExrelZGQzZheGhISHQzUmdMbFpiU1dVbFZCVGsxWTFOSzRWRXVTdDQ0cEFGSXlHVFFwZG9FaXg2cHIwVGkwWWJEVjloaUdaclZjdmpLT3NEWg?oc=5",
+          "source": "NDTV Profit",
+          "source_type": "rss",
+          "published_at": "2026-10-16T18:06:44+00:00",
+          "confidence": 0.75
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_11dcddb11189eb",
       "topic": "energy",
       "lead_title": "Energy Crisis Worsens, Oil Tops $110 Briefly On Supply Risk",
@@ -85,17 +147,17 @@
       ],
       "earliest_seen": "2026-10-16T01:00:15+00:00",
       "latest_seen": "2026-10-17T12:10:23+00:00",
-      "age_hours": 2.03,
-      "score": 77.78,
+      "age_hours": 5.12,
+      "score": 65.93,
       "score_components": {
         "source_count_points": 15,
-        "recency_points": 23.78,
+        "recency_points": 21.93,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "675a0f88ddb6de16",
@@ -129,118 +191,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_b874dc265816be",
-      "topic": "energy",
-      "lead_title": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
-      "lead_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DVlpiaVB3TDNMcWszU0s4YVotdmZpYjUzVDVkZ1EwWU5nNTVfWDlsbVI2eVJHRHB6NDJrbXNONEtCdzFoWDJmVDF5V0ltWk5HUE1DMVNWRlhPREYtSmhMZEZUOUN6QnI3d2ZadVYwNErSAXZBVV95cUxNTnU2bkR5aVZmeE40Q3o5cjE5bmNZT2NLRVJhbnkwVzdyNFBHY0JNREQ2NjFfdy1GWEUwblVobnBYRHhiRUw4RkpLN3B6WngycUdQeTJkQlVuYVB0ekhlLUJEeVJBXzJzQlM1X1BQbGxLQmMtdndn?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "Brent",
-        "WTI",
-        "crude",
-        "oil"
-      ],
-      "source_count": 4,
-      "distinct_publishers": 4,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-15T04:09:18+00:00",
-      "latest_seen": "2026-10-17T02:11:26+00:00",
-      "age_hours": 12.01,
-      "score": 72.65,
-      "score_components": {
-        "source_count_points": 20,
-        "recency_points": 17.8,
-        "source_quality_points": 23.85,
-        "entity_relevance_points": 16,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "bf7cfa2b986edf44",
-          "title": "U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DVlpiaVB3TDNMcWszU0s4YVotdmZpYjUzVDVkZ1EwWU5nNTVfWDlsbVI2eVJHRHB6NDJrbXNONEtCdzFoWDJmVDF5V0ltWk5HUE1DMVNWRlhPREYtSmhMZEZUOUN6QnI3d2ZadVYwNErSAXZBVV95cUxNTnU2bkR5aVZmeE40Q3o5cjE5bmNZT2NLRVJhbnkwVzdyNFBHY0JNREQ2NjFfdy1GWEUwblVobnBYRHhiRUw4RkpLN3B6WngycUdQeTJkQlVuYVB0ekhlLUJEeVJBXzJzQlM1X1BQbGxLQmMtdndn?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-10-15T04:09:18+00:00",
-          "confidence": 0.98
-        },
-        {
-          "headline_id": "f21c5983eb515a3f",
-          "title": "Brent Crude Hits $110 as Global Wars Disrupt Oil Supplies",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUTBqMl9KeW4xa1VnTHJ1ZWthWjJqMXBPM01kWUw1SWc5SXptY2FrR28tV09TQUt0LUxzX1ZaS0w2NUZUNjJ1eHRGVnZ5U3RRWHBidGU4cVJDV0F4ZHk4MlpEUUticWRENTdPMTkxUk94VjUwd3ZNMlFyUUlENmRuaVJVcEd0MnpqZGRTTjRLZElCS25DRVE1bHFOR1I5allZTE1iTlQxMXBhM3lGRkJhaWx2Tnh6TjFwWHhrUg?oc=5",
-          "source": "Benzinga",
-          "source_type": "rss",
-          "published_at": "2026-10-17T02:11:26+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "f3ef9ad2fa5c483a",
-          "title": "US Crude Oil Tops $100 As Iran Escalates Hormuz Attacks, WTI Up 9% This Week",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQam8za0RsT1Bjd0NCYm5aXzUxeU5ZRjUtWVhJVXRtenBjRS1sS2RrVk1nVjZwSFFibEFTbUFwUV9FLTZiVVk1NTJzOG9zSHhadDA5VGdtcUc1c2R5T25TMXNKN3laTzAyMHhYcjVRUklaTjJ0VGt3aHp5Yi0zSEE1VlVoaWo3Uk9hVXp4M1hERnQzUDNKWWhTSHhCYUxyMGRlMFF5TTRIS1hyeDZEYnlvbzB1YjctR3Q30gHAAUFVX3lxTE5CT01xcTJ5eXlqaUxvOXJWLXk0S1g0Y3RfRkNqMGl3bHYxaFhWdTJlWXQ5bGEyWVRKQ29jMmd4czhNdlFJaWJIN1RGbnZFOHR3MGtXenhkSV9IdXlaLVpoRW5TaTBubnZENW9Vd09VbExrelZGQzZheGhISHQzUmdMbFpiU1dVbFZCVGsxWTFOSzRWRXVTdDQ0cEFGSXlHVFFwZG9FaXg2cHIwVGkwWWJEVjloaUdaclZjdmpLT3NEWg?oc=5",
-          "source": "NDTV Profit",
-          "source_type": "rss",
-          "published_at": "2026-10-16T18:06:44+00:00",
-          "confidence": 0.75
-        },
-        {
-          "headline_id": "bfc45076c6c06c9c",
-          "title": "Explained - What led to Brent crude prices crossing $110 for the first time since May on Friday",
-          "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaFpQdkVmcnlubzV6bi1mVWp3ZXBoU3Z5RUY1b2xNVjNldFlGc3F5eXROemd1Y0luNmt5dlNHTHJCemhZYVJwM043U1lYWFRMeFlSUk0tLWVYYzZqdDhsNTU4RzMzTVlWVUM0U0lnWnRJc3Rhc1BpQUVoSEhabWhJTlRaejdWQVljTFBzMFJuOWNaampmaGdRN3E5VUM3TmFhMUt1c3BKUl9WRGpudllfRHBXQ0pnS1ZVb1BxN1ItR09KemYwVHV3d3M1LTRWMDJZNnFSTHo5YS1wME5ZN0JSZnoyQWdHdzBBVzNKTTRyNNIB9AFBVV95cUxQOHVyYXNmc29xOUJ2blpWRGhCak4wUTU3VTJiVVNSLXdsN21iRFBLaU9JdW1WaklvSGo0R2xnNjBUX0pIZHRnOWMwSEFxOHdiZkp4amVYakJmNkhkU1hnUDhRUl9Zci1iUzltNkJBUnkzRnJrcGZXUFhPQzdOd3NjX3FRWTlwSjE0XzNtektjTF8yekNEc2hOdmEwSUhBQ1ItcWl1ZTBxd0JHdGYyVTA2blBFT3JMeUpsTzFNcV9VNlk2TzZNdG01c2lqcDB2c1pvdUtqSHJZLVh1bXQwamRGUTN6N3k3UHVkNGpBZ2JObjJIaXdB?oc=5",
-          "source": "CNBC TV18",
-          "source_type": "rss",
-          "published_at": "2026-10-17T02:08:35+00:00",
-          "confidence": 0.7
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_98757afeddb8df",
-      "topic": "energy",
-      "lead_title": "Exclusive | Star Oil Trader Who Made Wrong-Way Bet to Leave Vitol",
-      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTRNUU9qMmJfdFNTZHRWSUZydUlhWlFqSEV4WDFSV3k4TV9QRGdLUG5qWXhkaHAzQjlva3dmZ3BMdUdla1F6enRYWWduYW85dFN6ZHdEOGlHRzh4R0ZZZ2dFNUNCN1AxdjFKWjBuMmt0Y0R6Y1ZhTTlWZ0lmYkRLUjlzbmRFZU5lcnpjczd2bTZGQ1hYYkdPUDlSQmtLZno4QXdxQQ?oc=5",
-      "lead_source": "WSJ",
-      "canonical_entities": [
-        "oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-16T17:17:00+00:00",
-      "latest_seen": "2026-10-16T17:17:00+00:00",
-      "age_hours": 20.92,
-      "score": 60.55,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 12.45,
-        "source_quality_points": 29.1,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "5b91f49e0f04ed67",
-          "title": "Exclusive | Star Oil Trader Who Made Wrong-Way Bet to Leave Vitol",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTRNUU9qMmJfdFNTZHRWSUZydUlhWlFqSEV4WDFSV3k4TV9QRGdLUG5qWXhkaHAzQjlva3dmZ3BMdUdla1F6enRYWWduYW85dFN6ZHdEOGlHRzh4R0ZZZ2dFNUNCN1AxdjFKWjBuMmt0Y0R6Y1ZhTTlWZ0lmYkRLUjlzbmRFZU5lcnpjczd2bTZGQ1hYYkdPUDlSQmtLZno4QXdxQQ?oc=5",
-          "source": "WSJ",
-          "source_type": "rss",
-          "published_at": "2026-10-16T17:17:00+00:00",
-          "confidence": 0.97
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_292cd3b6f57bc1",
       "topic": "energy",
       "lead_title": "Energy & Utilities Roundup: Market Talk",
@@ -256,11 +206,11 @@
       ],
       "earliest_seen": "2026-10-16T21:05:00+00:00",
       "latest_seen": "2026-10-16T21:05:00+00:00",
-      "age_hours": 17.12,
-      "score": 47.83,
+      "age_hours": 20.21,
+      "score": 45.98,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.73,
+        "recency_points": 12.88,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -297,11 +247,11 @@
       ],
       "earliest_seen": "2026-10-16T20:01:00+00:00",
       "latest_seen": "2026-10-16T20:01:00+00:00",
-      "age_hours": 18.18,
-      "score": 47.19,
+      "age_hours": 21.27,
+      "score": 45.34,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.09,
+        "recency_points": 12.24,
         "source_quality_points": 29.1,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -339,11 +289,11 @@
       ],
       "earliest_seen": "2026-10-17T01:10:00+00:00",
       "latest_seen": "2026-10-17T01:10:00+00:00",
-      "age_hours": 13.03,
-      "score": 46.18,
+      "age_hours": 16.12,
+      "score": 44.33,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 17.18,
+        "recency_points": 15.33,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
@@ -374,24 +324,24 @@
         "energy",
         "oil"
       ],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-10-15T06:25:10+00:00",
+      "earliest_seen": "2026-10-14T19:40:28+00:00",
       "latest_seen": "2026-10-15T06:25:10+00:00",
-      "age_hours": 55.78,
+      "age_hours": 58.87,
       "score": 44.0,
       "score_components": {
-        "source_count_points": 5,
+        "source_count_points": 10,
         "recency_points": 0.0,
         "source_quality_points": 21.0,
         "entity_relevance_points": 8,
-        "materiality_points": 10.0
+        "materiality_points": 5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "growing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "c64302d82a59cbb4",
@@ -401,6 +351,56 @@
           "source_type": "rss",
           "published_at": "2026-10-15T06:25:10+00:00",
           "confidence": 0.7
+        },
+        {
+          "headline_id": "0dab4e2a88313bd5",
+          "title": "Energy Prices Lift Vegetable Oils as U.S. Soybean Futures Gain 8% and Global Trade Shifts",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdmVIdUd4djdGaVJ2aW96ZE1wazVwa0hpS2R0aVZlYTJjODNXeWN4VmtpSlc0X2p6OFlNUTJSSFRhNE9TZzI3emg0dVVBUExITERSdW5rc2pqV2x4QmdGaGM3amNGZW1ZQkpVSXBkU0RMOXd4WVFMMEE2SUZJZi1uVkVpQ2xoc0pxQzVvMm53bnktVHAxbFRfNVlHNHI4VkpmZ3Iwc0phT2pTQVItVHhFZ2lkZnZJU1AwZ0F4YkNRWVM?oc=5",
+          "source": "AgroLatam",
+          "source_type": "rss",
+          "published_at": "2026-10-14T19:40:28+00:00",
+          "confidence": 0.7
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_98757afeddb8df",
+      "topic": "energy",
+      "lead_title": "Exclusive | Star Oil Trader Who Made Wrong-Way Bet to Leave Vitol",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTRNUU9qMmJfdFNTZHRWSUZydUlhWlFqSEV4WDFSV3k4TV9QRGdLUG5qWXhkaHAzQjlva3dmZ3BMdUdla1F6enRYWWduYW85dFN6ZHdEOGlHRzh4R0ZZZ2dFNUNCN1AxdjFKWjBuMmt0Y0R6Y1ZhTTlWZ0lmYkRLUjlzbmRFZU5lcnpjczd2bTZGQ1hYYkdPUDlSQmtLZno4QXdxQQ?oc=5",
+      "lead_source": "WSJ",
+      "canonical_entities": [
+        "oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-16T17:17:00+00:00",
+      "latest_seen": "2026-10-16T17:17:00+00:00",
+      "age_hours": 24.01,
+      "score": 43.7,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 10.6,
+        "source_quality_points": 29.1,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "5b91f49e0f04ed67",
+          "title": "Exclusive | Star Oil Trader Who Made Wrong-Way Bet to Leave Vitol",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLTRNUU9qMmJfdFNTZHRWSUZydUlhWlFqSEV4WDFSV3k4TV9QRGdLUG5qWXhkaHAzQjlva3dmZ3BMdUdla1F6enRYWWduYW85dFN6ZHdEOGlHRzh4R0ZZZ2dFNUNCN1AxdjFKWjBuMmt0Y0R6Y1ZhTTlWZ0lmYkRLUjlzbmRFZU5lcnpjczd2bTZGQ1hYYkdPUDlSQmtLZno4QXdxQQ?oc=5",
+          "source": "WSJ",
+          "source_type": "rss",
+          "published_at": "2026-10-16T17:17:00+00:00",
+          "confidence": 0.97
         }
       ],
       "top_tier": false,
@@ -423,11 +423,11 @@
       ],
       "earliest_seen": "2026-10-16T09:31:00+00:00",
       "latest_seen": "2026-10-16T09:31:00+00:00",
-      "age_hours": 28.68,
-      "score": 43.39,
+      "age_hours": 31.77,
+      "score": 41.54,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 7.79,
+        "recency_points": 5.94,
         "source_quality_points": 27.6,
         "entity_relevance_points": 8,
         "materiality_points": -5.0
@@ -464,11 +464,11 @@
       ],
       "earliest_seen": "2026-10-16T11:01:00+00:00",
       "latest_seen": "2026-10-16T11:01:00+00:00",
-      "age_hours": 27.18,
-      "score": 42.69,
+      "age_hours": 30.27,
+      "score": 40.84,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 8.69,
+        "recency_points": 6.84,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -505,7 +505,7 @@
       ],
       "earliest_seen": "2026-09-29T07:00:00+00:00",
       "latest_seen": "2026-09-30T07:00:00+00:00",
-      "age_hours": 415.2,
+      "age_hours": 418.29,
       "score": 37.95,
       "score_components": {
         "source_count_points": 10,
@@ -555,11 +555,11 @@
       ],
       "earliest_seen": "2026-10-16T00:57:00+00:00",
       "latest_seen": "2026-10-16T00:57:00+00:00",
-      "age_hours": 37.25,
-      "score": 36.65,
+      "age_hours": 40.34,
+      "score": 34.8,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 2.65,
+        "recency_points": 0.8,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -596,7 +596,7 @@
       ],
       "earliest_seen": "2026-10-15T16:54:25+00:00",
       "latest_seen": "2026-10-15T16:54:25+00:00",
-      "age_hours": 45.29,
+      "age_hours": 48.38,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -637,7 +637,7 @@
       ],
       "earliest_seen": "2026-10-15T07:56:34+00:00",
       "latest_seen": "2026-10-15T07:56:34+00:00",
-      "age_hours": 54.26,
+      "age_hours": 57.35,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -678,7 +678,7 @@
       ],
       "earliest_seen": "2026-10-06T07:00:00+00:00",
       "latest_seen": "2026-10-06T07:00:00+00:00",
-      "age_hours": 271.2,
+      "age_hours": 274.29,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -719,7 +719,7 @@
       ],
       "earliest_seen": "2026-09-23T07:00:00+00:00",
       "latest_seen": "2026-09-23T07:00:00+00:00",
-      "age_hours": 583.2,
+      "age_hours": 586.29,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -760,7 +760,7 @@
       ],
       "earliest_seen": "2026-10-15T19:37:00+00:00",
       "latest_seen": "2026-10-15T19:37:00+00:00",
-      "age_hours": 42.58,
+      "age_hours": 45.67,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -801,7 +801,7 @@
       ],
       "earliest_seen": "2026-10-06T07:00:00+00:00",
       "latest_seen": "2026-10-06T07:00:00+00:00",
-      "age_hours": 271.2,
+      "age_hours": 274.29,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -842,7 +842,7 @@
       ],
       "earliest_seen": "2026-09-21T07:00:00+00:00",
       "latest_seen": "2026-09-21T07:00:00+00:00",
-      "age_hours": 631.2,
+      "age_hours": 634.29,
       "score": 33.1,
       "score_components": {
         "source_count_points": 5,
@@ -883,7 +883,7 @@
       ],
       "earliest_seen": "2026-10-14T01:55:00+00:00",
       "latest_seen": "2026-10-14T01:55:00+00:00",
-      "age_hours": 84.28,
+      "age_hours": 87.37,
       "score": 31.9,
       "score_components": {
         "source_count_points": 5,
@@ -924,7 +924,7 @@
       ],
       "earliest_seen": "2026-10-08T07:00:00+00:00",
       "latest_seen": "2026-10-08T07:00:00+00:00",
-      "age_hours": 223.2,
+      "age_hours": 226.29,
       "score": 29.5,
       "score_components": {
         "source_count_points": 5,
@@ -966,7 +966,7 @@
       ],
       "earliest_seen": "2026-10-05T07:00:00+00:00",
       "latest_seen": "2026-10-05T07:00:00+00:00",
-      "age_hours": 295.2,
+      "age_hours": 298.29,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
