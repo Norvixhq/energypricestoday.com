@@ -1,27 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-10-18T20:33:26.854880+00:00",
-  "previous_generated_at": "2026-10-18T17:59:34.404394+00:00",
-  "resolver_run_count": 188,
+  "generated_at": "2026-10-18T22:39:51.096641+00:00",
+  "previous_generated_at": "2026-10-18T20:33:26.854880+00:00",
+  "resolver_run_count": 189,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+      "status_detail": "Oil Futures Rise on Middle East, Russia-Ukraine Concerns",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.971,
-      "last_confirmed": "2026-10-18T11:25:00+00:00",
-      "source_count": 6,
+      "confidence": 0.58,
+      "last_confirmed": "2026-10-17T01:07:41+00:00",
+      "source_count": 9,
       "summary_short": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "summary_long": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries. U.S. crude oil near $98 as Iran steps up attacks in Strait of Hormuz",
+      "summary_long": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries. Oil Futures Rise on Middle East, Russia-Ukraine Concerns",
       "evidence_cluster_ids": [
-        "c_2e182174a736be",
-        "c_9f707d1737739b"
+        "c_6436d4927df785",
+        "c_ce3720d5667e0e",
+        "c_fcde0a2621f4ee"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -35,13 +36,51 @@
         "markets.drivers.hormuz"
       ],
       "update_priority": "critical",
-      "freshness": "fresh",
+      "freshness": "stale",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_2e182174a7 → CONTESTED (kw='attack', weight=0.68)",
-        "cluster c_9f707d1737 → CONTESTED (kw='attack', weight=0.12)",
-        "winning=CONTESTED (0.80/0.80), conf=0.971"
+        "cluster c_6436d4927d → CONTESTED (kw='attack', weight=0.13)",
+        "cluster c_ce3720d566 → CONTESTED (kw='attack', weight=0.13)",
+        "cluster c_fcde0a2621 → CONTESTED (kw='attack', weight=0.13)",
+        "winning=CONTESTED (0.40/0.40), conf=0.966"
       ]
+    },
+    "us_iran_ceasefire": {
+      "key": "us_iran_ceasefire",
+      "display_name": "U.S.-Iran Ceasefire",
+      "category": "diplomatic_event",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.425,
+      "last_confirmed": "2026-10-16T20:01:00+00:00",
+      "source_count": 2,
+      "summary_short": "Oil Futures Rise on Middle East, Russia-Ukraine Concerns",
+      "summary_long": "Oil Futures Rise on Middle East, Russia-Ukraine Concerns",
+      "evidence_cluster_ids": [
+        "c_6436d4927df785"
+      ],
+      "evidence_count": 1,
+      "affected_pages": [
+        "index.html",
+        "category/geopolitics.html",
+        "oil-prices.html"
+      ],
+      "dependent_modules": [
+        "homepage.glance-strip.next-catalyst",
+        "geopolitics.risk-meter.text",
+        "oil-prices.drivers.ceasefire"
+      ],
+      "update_priority": "high",
+      "freshness": "aging",
+      "stale_after_hours": 72,
+      "rationale": [
+        "fell back to default 'HOLDING'"
+      ],
+      "next_catalyst_date": "",
+      "next_catalyst_description": "",
+      "next_catalyst_micro": ""
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
@@ -79,7 +118,7 @@
       "category": "composite",
       "status": "ELEVATED",
       "risk_level": "ELEVATED",
-      "score": 25,
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
@@ -89,7 +128,8 @@
       "summary_long": "Risk drivers: Hormuz contested",
       "summary_micro": "contested",
       "rationale": [
-        "hormuz=CONTESTED (+25)"
+        "hormuz=CONTESTED (+25)",
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -106,14 +146,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_2e182174a736be",
-      "lead_title": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
-      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT2lpZ1dfaGpSckplSzdGU19iZVY0cTJUd01MN1dpd29hcUtKZkpWbWZFZy1jTWxNME1oRWt6dGV2aU5tbzZ5UVpRVzI3amt6VzlXQXlfVkRNU2o3LXNpcUJZV2pPOXczV0k5SENNdGU4UWcyaEN4bUZUejNtOThUbGVYbGQtN2tYQ1g1M1RKQdIBlAFBVV95cUxPN0Q4b3V0UEhjMWVzZ2RkLXJGLXNtdGRlS0hWSjNROE1HTjA4LXIwM1dtZ3o2NU5leWVBQkpEMXViX2o2SWQ1d2g3dmhScHVRN0JSRDcyV1JsYl80WVZCaFNXVjVjNFRENEx5RDQ1blBhTnUwcjZsQ0xRSmt5aFlPeGxCNF96aVJiQ2Y5UnhjWk5zZEF5?oc=5",
+      "cluster_id": "c_b72a0804c1c572",
+      "lead_title": "Brent crude hovers near $109 a barrel as Ukraine resumes energy strikes, tankers attacked in Middle East",
+      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUdqTmNWUUFKcWcydVFMaU5uUkthdnpkZ3Z1Y0FaTU54UjdfZDlfYnNJcTU0WTNGU1hRa0Etc3pFNjNPQjBXcjB5S3pFbGMyRUlLTjVoTzdNQjNWVTJsZTNVUER4NDdDQWZMdWdhWnBGR1NkWDJQYnlVT3lJUGsyZmlMY1BKQXliNUZMVHZXWdIBlAFBVV95cUxQMnMyZDFwdWNxYnZScnhQRUlrUnJzcGZPcHQtRTFNWXNURXFBZC1CMThXXzlCLWt4NFpIRDFvREpUSDlVU1h4RDF5UU51Z1VOaVU1WHBWWFN1V1NhSjFMM0hTS3pqOVZXTi1jbnIzYUlNMGo1eGh1RjA0eHRvSWRQT05WNVpUOGl0SkhlU01MdzlsYnhu?oc=5",
       "lead_source": "CNBC",
       "topic": "oil",
-      "score": 84.12,
-      "novelty": "ongoing",
-      "source_count": 4,
+      "score": 90.76,
+      "novelty": "new",
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -126,17 +166,17 @@
   "changes_since_last_run": [
     {
       "event_key": "us_iran_ceasefire",
-      "field": "retired",
-      "from": "HOLDING",
-      "to": null,
-      "detected_at": "2026-10-18T20:33:26.854801+00:00",
+      "field": "new_event",
+      "from": null,
+      "to": "HOLDING",
+      "detected_at": "2026-10-18T22:39:51.096562+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.971, fresh=fresh",
-    "us_iran_ceasefire: retired — last_confirmed too old",
+    "hormuz_status: resolved=CONTESTED, confidence=0.58, fresh=stale",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.425, fresh=aging",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
