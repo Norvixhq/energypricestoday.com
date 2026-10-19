@@ -1,41 +1,40 @@
 {
   "topic": "rigcount",
-  "generated_at": "2026-10-18T22:39:51.024814+00:00",
+  "generated_at": "2026-10-19T00:34:39.914688+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 28,
+  "clusters_found": 29,
   "clusters": [
     {
-      "cluster_id": "c_7beaf0b05b1efc",
+      "cluster_id": "c_a4be0b21dd02a8",
       "topic": "rigcount",
       "lead_title": "US energy firms boost rig count to highest since April 2025, Baker Hughes says",
       "lead_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdjBzemhqYU1jbWo4RzNuRTJlZmthYlU3RGpIZE42SjNRRHE4aUlIWG9jSERkOFRxdDNVbjFUdk5JY0hVcjdiYXA3TzlDdE52TFVOR2NUVWI2YzZEc25QcTNIeUQtOE00OTNoYUtFWjZJQTRIUTdvLW9fd3JpekdpclZvaWltVElWV051NEZCRUpRb3MzTGFDRFd4TGFxdk91MV9XX3hXMkp5WVkzdWc?oc=5",
       "lead_source": "Reuters",
       "canonical_entities": [
         "Baker Hughes",
-        "drilling",
         "rig count"
       ],
-      "source_count": 2,
-      "distinct_publishers": 2,
+      "source_count": 1,
+      "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
       "earliest_seen": "2026-07-17T07:00:00+00:00",
       "latest_seen": "2026-07-17T07:00:00+00:00",
-      "age_hours": 2247.66,
-      "score": 43.25,
+      "age_hours": 2249.58,
+      "score": 53.0,
       "score_components": {
-        "source_count_points": 10,
+        "source_count_points": 5,
         "recency_points": 0.0,
-        "source_quality_points": 26.25,
-        "entity_relevance_points": 12,
-        "materiality_points": -5.0
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 8,
+        "materiality_points": 10.0
       },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
+      "novelty": "new",
+      "first_seen_cluster": true,
       "evidence": [
         {
           "headline_id": "f08e056bcdb2cb0e",
@@ -45,15 +44,45 @@
           "source_type": "rss",
           "published_at": "2026-07-17T07:00:00+00:00",
           "confidence": 1.0
-        },
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8455453bd95ab9",
+      "topic": "rigcount",
+      "lead_title": "North America Adds 26 Rigs Week on Week",
+      "lead_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRTJteW80SUJxc3NRY2xmYUN5VkRPRlNZcC1LU2U1U2dFSUd4NldjM0JhcE5rSjB0cURBMTEyWmVhVGVQa2xfVUZOR2Z6c2RSMHZ4TU5yanhiTnFuRldLc1YwX05nX1REUmZfdmxrYWxqaUFPUl9Mb0xNQXVuQlpEcG96RlN1UlZfQVVjbjNjOGJ6U1pYQmlfYnhlN18?oc=5",
+      "lead_source": "Rigzone",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-07-21T07:00:00+00:00",
+      "latest_seen": "2026-07-21T07:00:00+00:00",
+      "age_hours": 2153.58,
+      "score": 39.6,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 24.6,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
         {
-          "headline_id": "12c319702b05ecee",
-          "title": "U.S. drilling rig count rises again in Baker Hughes survey (USO:NYSEARCA)",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM0E4VU9zWFRJdjh2d0NvZFpUZGhOLWNCc2tXWWxtbW5kZ2J0VTVkbUc1NGZjaUhTNE5nYXNMMGZKZUJwX3dZSUVpUDl4LVNyTFYyVUhEQXlyUnhMdF9MaEd6eTBhQVBURkVpVE5mSk9DVW9ycXU5V243bkp0UGZ5b0ZNaE5MdG9QNF9rakd2UGE1MUkzNnQxX3MzRQ?oc=5",
-          "source": "Seeking Alpha",
+          "headline_id": "110cff55bdea0f58",
+          "title": "North America Adds 26 Rigs Week on Week",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRTJteW80SUJxc3NRY2xmYUN5VkRPRlNZcC1LU2U1U2dFSUd4NldjM0JhcE5rSjB0cURBMTEyWmVhVGVQa2xfVUZOR2Z6c2RSMHZ4TU5yanhiTnFuRldLc1YwX05nX1REUmZfdmxrYWxqaUFPUl9Mb0xNQXVuQlpEcG96RlN1UlZfQVVjbjNjOGJ6U1pYQmlfYnhlN18?oc=5",
+          "source": "Rigzone",
           "source_type": "rss",
-          "published_at": "2026-07-17T07:00:00+00:00",
-          "confidence": 0.75
+          "published_at": "2026-07-21T07:00:00+00:00",
+          "confidence": 0.82
         }
       ],
       "top_tier": true,
@@ -77,7 +106,7 @@
       ],
       "earliest_seen": "2026-10-16T18:35:09+00:00",
       "latest_seen": "2026-10-16T20:14:16+00:00",
-      "age_hours": 50.43,
+      "age_hours": 52.34,
       "score": 38.75,
       "score_components": {
         "source_count_points": 10,
@@ -128,7 +157,7 @@
       ],
       "earliest_seen": "2026-08-28T07:00:00+00:00",
       "latest_seen": "2026-08-28T07:00:00+00:00",
-      "age_hours": 1239.66,
+      "age_hours": 1241.58,
       "score": 38.0,
       "score_components": {
         "source_count_points": 5,
@@ -150,7 +179,7 @@
           "confidence": 1.0
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -171,7 +200,7 @@
       ],
       "earliest_seen": "2026-10-11T23:50:32+00:00",
       "latest_seen": "2026-10-11T23:50:32+00:00",
-      "age_hours": 166.82,
+      "age_hours": 168.74,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -214,7 +243,7 @@
       ],
       "earliest_seen": "2026-10-09T20:25:47+00:00",
       "latest_seen": "2026-10-09T20:25:47+00:00",
-      "age_hours": 218.23,
+      "age_hours": 220.15,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -257,7 +286,7 @@
       ],
       "earliest_seen": "2026-10-02T07:00:00+00:00",
       "latest_seen": "2026-10-02T07:00:00+00:00",
-      "age_hours": 399.66,
+      "age_hours": 401.58,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -300,7 +329,7 @@
       ],
       "earliest_seen": "2026-09-25T07:00:00+00:00",
       "latest_seen": "2026-09-25T07:00:00+00:00",
-      "age_hours": 567.66,
+      "age_hours": 569.58,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -343,7 +372,7 @@
       ],
       "earliest_seen": "2026-08-21T07:00:00+00:00",
       "latest_seen": "2026-08-21T07:00:00+00:00",
-      "age_hours": 1407.66,
+      "age_hours": 1409.58,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -386,7 +415,7 @@
       ],
       "earliest_seen": "2026-07-31T07:00:00+00:00",
       "latest_seen": "2026-07-31T07:00:00+00:00",
-      "age_hours": 1911.66,
+      "age_hours": 1913.58,
       "score": 34.5,
       "score_components": {
         "source_count_points": 5,
@@ -427,7 +456,7 @@
       ],
       "earliest_seen": "2026-07-17T07:00:00+00:00",
       "latest_seen": "2026-07-17T07:00:00+00:00",
-      "age_hours": 2247.66,
+      "age_hours": 2249.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -468,7 +497,7 @@
       ],
       "earliest_seen": "2026-07-02T07:00:00+00:00",
       "latest_seen": "2026-07-02T07:00:00+00:00",
-      "age_hours": 2607.66,
+      "age_hours": 2609.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -509,7 +538,7 @@
       ],
       "earliest_seen": "2026-06-18T07:00:00+00:00",
       "latest_seen": "2026-06-18T07:00:00+00:00",
-      "age_hours": 2943.66,
+      "age_hours": 2945.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -550,7 +579,7 @@
       ],
       "earliest_seen": "2026-06-12T07:00:00+00:00",
       "latest_seen": "2026-06-12T07:00:00+00:00",
-      "age_hours": 3087.66,
+      "age_hours": 3089.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -591,7 +620,7 @@
       ],
       "earliest_seen": "2026-05-15T07:00:00+00:00",
       "latest_seen": "2026-05-15T07:00:00+00:00",
-      "age_hours": 3759.66,
+      "age_hours": 3761.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -632,7 +661,7 @@
       ],
       "earliest_seen": "2026-05-08T07:00:00+00:00",
       "latest_seen": "2026-05-08T07:00:00+00:00",
-      "age_hours": 3927.66,
+      "age_hours": 3929.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -673,7 +702,7 @@
       ],
       "earliest_seen": "2026-04-02T07:00:00+00:00",
       "latest_seen": "2026-04-02T07:00:00+00:00",
-      "age_hours": 4791.66,
+      "age_hours": 4793.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -714,7 +743,7 @@
       ],
       "earliest_seen": "2026-03-27T07:00:00+00:00",
       "latest_seen": "2026-03-27T07:00:00+00:00",
-      "age_hours": 4935.66,
+      "age_hours": 4937.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -755,7 +784,7 @@
       ],
       "earliest_seen": "2026-03-20T07:00:00+00:00",
       "latest_seen": "2026-03-20T07:00:00+00:00",
-      "age_hours": 5103.66,
+      "age_hours": 5105.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -796,7 +825,7 @@
       ],
       "earliest_seen": "2026-03-13T07:00:00+00:00",
       "latest_seen": "2026-03-13T07:00:00+00:00",
-      "age_hours": 5271.66,
+      "age_hours": 5273.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -837,7 +866,7 @@
       ],
       "earliest_seen": "2026-03-06T08:00:00+00:00",
       "latest_seen": "2026-03-06T08:00:00+00:00",
-      "age_hours": 5438.66,
+      "age_hours": 5440.58,
       "score": 34.0,
       "score_components": {
         "source_count_points": 5,
@@ -878,7 +907,7 @@
       ],
       "earliest_seen": "2026-07-07T07:00:00+00:00",
       "latest_seen": "2026-07-07T07:00:00+00:00",
-      "age_hours": 2487.66,
+      "age_hours": 2489.58,
       "score": 30.1,
       "score_components": {
         "source_count_points": 5,
@@ -917,7 +946,7 @@
       ],
       "earliest_seen": "2026-10-12T15:25:00+00:00",
       "latest_seen": "2026-10-12T15:25:00+00:00",
-      "age_hours": 151.25,
+      "age_hours": 153.16,
       "score": 24.6,
       "score_components": {
         "source_count_points": 5,
@@ -956,7 +985,7 @@
       ],
       "earliest_seen": "2026-09-08T07:00:00+00:00",
       "latest_seen": "2026-09-08T07:00:00+00:00",
-      "age_hours": 975.66,
+      "age_hours": 977.58,
       "score": 24.6,
       "score_components": {
         "source_count_points": 5,
@@ -995,7 +1024,7 @@
       ],
       "earliest_seen": "2026-08-18T07:00:00+00:00",
       "latest_seen": "2026-08-18T07:00:00+00:00",
-      "age_hours": 1479.66,
+      "age_hours": 1481.58,
       "score": 24.6,
       "score_components": {
         "source_count_points": 5,
@@ -1034,7 +1063,7 @@
       ],
       "earliest_seen": "2026-08-11T07:00:00+00:00",
       "latest_seen": "2026-08-11T07:00:00+00:00",
-      "age_hours": 1647.66,
+      "age_hours": 1649.58,
       "score": 24.6,
       "score_components": {
         "source_count_points": 5,
@@ -1073,7 +1102,7 @@
       ],
       "earliest_seen": "2026-07-14T07:00:00+00:00",
       "latest_seen": "2026-07-14T07:00:00+00:00",
-      "age_hours": 2319.66,
+      "age_hours": 2321.58,
       "score": 24.6,
       "score_components": {
         "source_count_points": 5,
@@ -1112,7 +1141,7 @@
       ],
       "earliest_seen": "2026-06-09T07:00:00+00:00",
       "latest_seen": "2026-06-09T07:00:00+00:00",
-      "age_hours": 3159.66,
+      "age_hours": 3161.58,
       "score": 24.6,
       "score_components": {
         "source_count_points": 5,
@@ -1151,7 +1180,7 @@
       ],
       "earliest_seen": "2026-05-18T07:00:00+00:00",
       "latest_seen": "2026-05-18T07:00:00+00:00",
-      "age_hours": 3687.66,
+      "age_hours": 3689.58,
       "score": 24.6,
       "score_components": {
         "source_count_points": 5,
