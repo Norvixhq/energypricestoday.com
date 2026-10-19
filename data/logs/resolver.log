@@ -2121,3 +2121,17 @@
 [2026-10-19T11:10:24.084275+00:00]   Δ us_iran_ceasefire.retired: 'HOLDING' → 'None' (triggers_publish=True)
 [2026-10-19T11:10:24.084991+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (3 events)
 [2026-10-19T11:10:24.085049+00:00] ════════════════════════════════════════════════════════════
+[2026-10-19T17:33:02.762519+00:00] resolver: start
+[2026-10-19T17:33:02.764891+00:00] resolver: scanning 267 clusters across 10 topics
+[2026-10-19T17:33:02.765126+00:00]   hormuz_status: CONTESTED (conf=0.96, freshness=fresh, clusters=7)
+[2026-10-19T17:33:02.765674+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=4)
+[2026-10-19T17:33:02.765746+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-10-19T17:33:02.765779+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-10-19T17:33:02.765877+00:00]   top_story: 'Brent Crude Holds Near $110 on Mideast and Ukraine Conflicts' (score=90.51)
+[2026-10-19T17:33:02.765906+00:00] resolver: 4 change(s), 4 meaningful, 1 publish-triggering
+[2026-10-19T17:33:02.765921+00:00]   Δ hormuz_status.new_event: 'None' → 'CONTESTED' (triggers_publish=True)
+[2026-10-19T17:33:02.765938+00:00]   Δ us_iran_ceasefire.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-10-19T17:33:02.765951+00:00]   Δ global_risk_level.status: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-10-19T17:33:02.765964+00:00]   Δ global_risk_level.risk_level: 'LOW' → 'ELEVATED' (triggers_publish=False)
+[2026-10-19T17:33:02.766686+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-10-19T17:33:02.766711+00:00] ════════════════════════════════════════════════════════════
