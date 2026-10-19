@@ -2110,3 +2110,14 @@
 [2026-10-19T05:25:24.948394+00:00]   Δ opec_plus_policy.new_event: 'None' → 'HOLDING' (triggers_publish=False)
 [2026-10-19T05:25:24.949125+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
 [2026-10-19T05:25:24.949168+00:00] ════════════════════════════════════════════════════════════
+[2026-10-19T11:10:24.078309+00:00] resolver: start
+[2026-10-19T11:10:24.082659+00:00] resolver: scanning 275 clusters across 10 topics
+[2026-10-19T11:10:24.083012+00:00]   hormuz_status: RETIRED (stale beyond 2× threshold)
+[2026-10-19T11:10:24.083874+00:00]   us_iran_ceasefire: RETIRED (stale beyond 2× threshold)
+[2026-10-19T11:10:24.083992+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-10-19T11:10:24.084038+00:00]   global_risk_level: LOW (score=0)
+[2026-10-19T11:10:24.084191+00:00]   top_story: 'Oil prices slide as sanctions relief on Russian crude raises' (score=98.56)
+[2026-10-19T11:10:24.084243+00:00] resolver: 1 change(s), 1 meaningful, 1 publish-triggering
+[2026-10-19T11:10:24.084275+00:00]   Δ us_iran_ceasefire.retired: 'HOLDING' → 'None' (triggers_publish=True)
+[2026-10-19T11:10:24.084991+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (3 events)
+[2026-10-19T11:10:24.085049+00:00] ════════════════════════════════════════════════════════════
