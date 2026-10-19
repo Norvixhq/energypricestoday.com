@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-10-19T17:33:02.765977+00:00",
-  "previous_generated_at": "2026-10-19T11:10:24.084304+00:00",
-  "resolver_run_count": 193,
+  "generated_at": "2026-10-19T21:46:09.070071+00:00",
+  "previous_generated_at": "2026-10-19T17:33:02.765977+00:00",
+  "resolver_run_count": 194,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,17 @@
       "status_detail": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.96,
-      "last_confirmed": "2026-10-19T15:40:00+00:00",
-      "source_count": 7,
+      "confidence": 0.958,
+      "last_confirmed": "2026-10-19T17:44:00+00:00",
+      "source_count": 3,
       "summary_short": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
-      "summary_long": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships. Oil slips from five-month highs with Hormuz crossings, Russian sanctions waiver in focus",
+      "summary_long": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships. Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
       "evidence_cluster_ids": [
         "c_ebc774ea308f71",
-        "c_466ba508ab1774",
-        "c_1b4f371643d853",
-        "c_c48104ede9201e",
-        "c_5ff03bf82c7a4b"
+        "c_3cc7b1f0b217b9",
+        "c_1b4f371643d853"
       ],
-      "evidence_count": 7,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,11 +39,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_ebc774ea30 → CONTESTED (kw='attack', weight=0.71)",
-        "cluster c_1b4f371643 → CONTESTED (kw='attack', weight=0.60)",
-        "cluster c_1053e4f1fc → CONTESTED (kw='attack', weight=0.10)",
-        "cluster c_5276947e72 → CONTESTED (kw='attack', weight=0.09)",
-        "winning=CONTESTED (1.50/1.50), conf=0.96"
+        "cluster c_ebc774ea30 → CONTESTED (kw='attack', weight=0.57)",
+        "cluster c_3cc7b1f0b2 → CONTESTED (kw='attack', weight=0.12)",
+        "cluster c_1b4f371643 → CONTESTED (kw='attack', weight=0.47)",
+        "winning=CONTESTED (1.17/1.17), conf=0.958"
       ]
     },
     "us_iran_ceasefire": {
@@ -57,17 +54,16 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-10-19T15:40:00+00:00",
+      "last_confirmed": "2026-10-19T17:44:00+00:00",
       "source_count": 4,
       "summary_short": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
-      "summary_long": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships. Iran and US hit tankers in biggest wave of attacks on shipping since war began",
+      "summary_long": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships. Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
       "evidence_cluster_ids": [
         "c_ebc774ea308f71",
-        "c_a12f30efd9b98e",
-        "c_5276947e721cb3",
-        "c_2c92347835e8e0"
+        "c_3cc7b1f0b217b9",
+        "c_cbac9a863080f0"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -146,20 +142,18 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ],
-      "previous_status": "LOW",
-      "last_changed": "2026-10-19T17:33:02.765893+00:00"
+      ]
     },
     "top_story": {
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_72d312fa710558",
-      "lead_title": "Brent Crude Holds Near $110 on Mideast and Ukraine Conflicts",
-      "lead_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNZW11ZjRDTUdpUHpzY1JpNFZtWjZ1bGhZejdHX2h3Q0NTb1pKU0pxM0NtSDR5QlA4YnQ5NHUybkxGS0VxSWJQcHo0NWcyb3A4S21SbVNld2cyLTQ5eFowV2lqRlh1QUMteG1taWQ5b0dPUGg1SnpxVUlRYmlDWkkxZzBQWVpBTjlwdzEyZDBTRWRacVU1ZFhZMjhrMGd5dw?oc=5",
-      "lead_source": "Bloomberg.com",
-      "topic": "energy",
-      "score": 90.51,
+      "cluster_id": "c_da96262bfd1cc6",
+      "lead_title": "Crude Oil Analysis: WTI Approaches $100 Amid Growing Supply Risks",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWkZWNndRVzJmX2dYVGVHV2lhVXA3NnNUemlHcmZHSzdGeWwyTWtmSE0tOGwtR1JRT1hQZ3NpTUdHVVR4RktOc21vdFlCNDZsZWVxWGNxeXJoZy1tNFp6dHFyOG9PVl9QZjRUTVhMdkJGaUs2b21WWml2Z2hQTC1tZlA0em1RNkJxOGVZVTZfa1NXUW1VdzlobDc4dUctMlFaeUpQLU13T1lhWDDSAbcBQVVfeXFMUC1oZ1lrbnA4Nkc4RWEwZzgxa1Y4M2tDazVxeWFXS09ER09fdTBIcFpGWWdPck03RDJJMVNwYTR5MUcwSXB3SkJ2YTRCWUVMNkFFZ01wcmlQVjBua1BSOUhKZTRBb05rU3UycFppWnZUVzIta3I5cENwN3VvRUlPSUxPOEp0ckVuN3ptYmM0U24zM0lmUTRvRDZVZHB4WkZ2MUdnS3BiNXhqNUtwbUp1ZkI5RkNyV1Jr?oc=5",
+      "lead_source": "FOREX.com",
+      "topic": "oil",
+      "score": 89.13,
       "novelty": "new",
       "source_count": 4,
       "confidence": 0.95,
@@ -171,46 +165,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "hormuz_status",
-      "field": "new_event",
-      "from": null,
-      "to": "CONTESTED",
-      "detected_at": "2026-10-19T17:33:02.765893+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-10-19T17:33:02.765893+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "status",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-10-19T17:33:02.765893+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    },
-    {
-      "event_key": "global_risk_level",
-      "field": "risk_level",
-      "from": "LOW",
-      "to": "ELEVATED",
-      "detected_at": "2026-10-19T17:33:02.765893+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.96, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.958, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
