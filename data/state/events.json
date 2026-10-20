@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-10-20T00:46:14.452648+00:00",
-  "previous_generated_at": "2026-10-19T21:46:09.070071+00:00",
-  "resolver_run_count": 195,
+  "generated_at": "2026-10-20T10:22:56.659644+00:00",
+  "previous_generated_at": "2026-10-20T00:46:14.452648+00:00",
+  "resolver_run_count": 196,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,18 +12,17 @@
       "status_detail": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.956,
-      "last_confirmed": "2026-10-19T22:58:41+00:00",
-      "source_count": 5,
-      "summary_short": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
-      "summary_long": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships. People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
+      "confidence": 0.764,
+      "last_confirmed": "2026-10-19T17:44:00+00:00",
+      "source_count": 3,
+      "summary_short": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption",
+      "summary_long": "New attacks in Hormuz and Saudi test nerves as war's spread worsens oil disruption. People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
       "evidence_cluster_ids": [
         "c_ebc774ea308f71",
-        "c_1b4f371643d853",
-        "c_beb8314903e39c",
-        "c_f503206c5d9e08"
+        "c_f6435adcf92924",
+        "c_539e3eb980342e"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -37,14 +36,13 @@
         "markets.drivers.hormuz"
       ],
       "update_priority": "critical",
-      "freshness": "fresh",
+      "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_ebc774ea30 → CONTESTED (kw='attack', weight=0.68)",
-        "cluster c_1b4f371643 → CONTESTED (kw='attack', weight=0.42)",
-        "cluster c_beb8314903 → CONTESTED (kw='attack', weight=0.56)",
-        "cluster c_f503206c5d → CONTESTED (kw='attack', weight=0.08)",
-        "winning=CONTESTED (1.74/1.74), conf=0.956"
+        "cluster c_ebc774ea30 → CONTESTED (kw='attack', weight=0.33)",
+        "cluster c_f6435adcf9 → CONTESTED (kw='attack', weight=0.11)",
+        "cluster c_539e3eb980 → OPEN (kw='reopen', weight=0.09)",
+        "winning=CONTESTED (0.43/0.52), conf=0.899"
       ]
     },
     "us_iran_ceasefire": {
@@ -56,18 +54,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-10-19T22:58:41+00:00",
-      "source_count": 18,
-      "summary_short": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
-      "summary_long": "People scour strait of Hormuz for spilt cargo after Iran attacks container ships. Oil Wavers as Iran Threats Vie With Robust Gulf Crude Flows",
+      "last_confirmed": "2026-10-20T04:00:19+00:00",
+      "source_count": 9,
+      "summary_short": "Iran war tilts balance of global oil power towards Americas",
+      "summary_long": "Iran war tilts balance of global oil power towards Americas. People scour strait of Hormuz for spilt cargo after Iran attacks container ships",
       "evidence_cluster_ids": [
+        "c_2eb179898b0aac",
         "c_ebc774ea308f71",
-        "c_f023aaaca7a5f1",
-        "c_beb8314903e39c",
-        "c_bbcf306424e05a",
-        "c_ae20629dc8a042"
+        "c_69d286d961ba0e",
+        "c_a12f30efd9b98e",
+        "c_11ff4ecc1d831f"
       ],
-      "evidence_count": 17,
+      "evidence_count": 9,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -152,14 +150,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_eb40d2ed779eb3",
-      "lead_title": "Crude closes mixed after Houthis claim more attacks on Saudi airports, oil facilities (USO:NYSEARCA)",
-      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOG5UdzlCY3RyZzhsVzI0Rm95d0N6SG5NMzJHMTM5QUk4Ym9oblpYdUlScUV2NXZXVWFNR1JmRWU0bW9QNDlUT1dJQzNucFB3eTNhTjBxMU9jd1VQQWhtc2kzU1pOTmJlTWpyZVdablYyQWVzMkVwYl90b1lOU2VmemNkZEpzcUFwRDNDZWJuQ28wajZ2MlE1c1Q1YlVYWmV2cmFENkFmMU5KSXlmWjJLdEhaX09XbEdCWklBcmZzaw?oc=5",
-      "lead_source": "Seeking Alpha",
+      "cluster_id": "c_62359256b424cc",
+      "lead_title": "Oil Prices Rise with Brent Futures Above $110 a Barrel as Middle East Risks Persist",
+      "lead_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTUxmM3AtZ2FXSDFNbHBRTVlickI1OXNDdU1BeGZwOHZ6NVd5SW9RaUx0ZFlMTGVTN3J1QXFzUEc2Z3JOaVFzTTRQV1VXVVVpTktIaV9HYnU3Z2U1UmJCZExNdlZiWlhyMzlJRmh3X0Z5bHhNYW02R09JbE1nSWxEVW9hbXFsdTZuOVVuVjVvYlFEazFqR012VU40cTdnS096MmFQY1h0VQ?oc=5",
+      "lead_source": "WSJ",
       "topic": "oil",
-      "score": 78.49,
+      "score": 98.63,
       "novelty": "new",
-      "source_count": 3,
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -171,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.956, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.764, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
