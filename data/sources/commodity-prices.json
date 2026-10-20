@@ -1,51 +1,51 @@
 {
   "meta": {
-    "generated_at": "2026-10-19T00:32:00.346782+00:00",
-    "status": "failed",
+    "generated_at": "2026-10-20T00:43:37.384039+00:00",
+    "status": "fresh",
     "source": "oilpriceapi",
     "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
-    "last_success": "2026-10-19T00:32:00.346782+00:00"
+    "last_success": "2026-10-20T00:43:37.384039+00:00"
   },
   "prices": {
     "Brent Crude": {
-      "price": 108.15,
-      "change": -1.77,
-      "pct": -1.61,
+      "price": 109.46,
+      "change": 1.07,
+      "pct": 0.99,
       "unit": "$/bbl",
       "source_code": "BRENT_CRUDE_USD",
-      "updated_at": "2026-10-19T00:31:01Z"
+      "updated_at": "2026-10-20T00:43:10Z"
     },
     "Diesel ULSD": {
-      "price": 4.83,
+      "price": 4.94,
       "change": 0.0,
       "pct": 0.0,
       "unit": "$/gal",
       "source_code": "DIESEL_USD",
-      "updated_at": "2026-10-19T00:10:27Z"
+      "updated_at": "2026-10-20T00:40:32Z"
     },
     "Dutch TTF Natural Gas": {
-      "price": 88.93,
-      "change": 1.41,
-      "pct": 1.61,
+      "price": 87.73,
+      "change": -1.2,
+      "pct": -1.35,
       "unit": "EUR/MWh",
       "source_code": "DUTCH_TTF_EUR",
-      "updated_at": "2026-10-19T00:05:59Z"
+      "updated_at": "2026-10-20T00:05:41Z"
     },
     "Gasoline RBOB": {
-      "price": 3.18,
-      "change": 0.0,
-      "pct": 0.0,
+      "price": 3.19,
+      "change": -0.01,
+      "pct": -0.31,
       "unit": "$/gal",
       "source_code": "GASOLINE_USD",
-      "updated_at": "2026-10-19T00:25:12Z"
+      "updated_at": "2026-10-20T00:25:27Z"
     },
     "Heating Oil": {
-      "price": 4.83,
-      "change": -0.06,
-      "pct": -1.23,
+      "price": 4.94,
+      "change": 0.11,
+      "pct": 2.28,
       "unit": "$/gal",
       "source_code": "HEATING_OIL_USD",
-      "updated_at": "2026-10-19T00:14:43Z"
+      "updated_at": "2026-10-20T00:35:30Z"
     },
     "Jet Fuel": {
       "price": 4.56,
@@ -56,36 +56,36 @@
       "updated_at": "2026-10-15T21:01:41Z"
     },
     "JKM LNG (Japan/Korea)": {
-      "price": 29.93,
+      "price": 30.01,
       "change": 0.0,
       "pct": 0.0,
       "unit": "$/MMBtu",
       "source_code": "JKM_LNG_USD",
-      "updated_at": "2026-10-17T00:01:12Z"
-    },
-    "Natural Gas": {
-      "price": 3.06,
-      "change": -0.07,
-      "pct": -2.24,
-      "unit": "$/MMBtu",
-      "source_code": "NATURAL_GAS_USD",
-      "updated_at": "2026-10-19T00:30:14Z"
+      "updated_at": "2026-10-20T00:05:52Z"
     },
     "Coal": {
-      "price": 150.4,
+      "price": 150.65,
       "change": 0.0,
       "pct": 0.0,
       "unit": "$/ton",
       "source_code": "NEWCASTLE_COAL_USD",
-      "updated_at": "2026-10-17T00:01:30Z"
+      "updated_at": "2026-10-20T00:06:03Z"
     },
     "WTI Crude": {
-      "price": 97.6,
-      "change": -4.23,
-      "pct": -4.15,
+      "price": 98.49,
+      "change": 0.89,
+      "pct": 0.91,
       "unit": "$/bbl",
       "source_code": "WTI_USD",
-      "updated_at": "2026-10-19T00:26:20Z"
+      "updated_at": "2026-10-20T00:42:21Z"
+    },
+    "Natural Gas": {
+      "price": 3.22,
+      "change": 0.0,
+      "pct": 0.0,
+      "unit": "$/MMBtu",
+      "source_code": "NATURAL_GAS_USD",
+      "updated_at": "2026-10-15T21:01:12Z"
     }
   }
 }
