@@ -1,27 +1,26 @@
 {
   "version": 2,
-  "generated_at": "2026-10-21T06:06:59.270354+00:00",
-  "previous_generated_at": "2026-10-20T22:44:26.697352+00:00",
-  "resolver_run_count": 199,
+  "generated_at": "2026-10-21T11:57:31.614475+00:00",
+  "previous_generated_at": "2026-10-21T06:06:59.270354+00:00",
+  "resolver_run_count": 200,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "CONTESTED",
-      "status_detail": "Oil rises on Middle East supply worries as Iran ship attacks spread beyond Hormuz",
-      "status_tag": "Tankers at risk",
-      "risk_level": "ELEVATED",
-      "confidence": 0.954,
-      "last_confirmed": "2026-10-20T22:22:00+00:00",
-      "source_count": 2,
-      "summary_short": "Oil rises on Middle East supply worries as Iran ship attacks spread beyond Hormuz",
-      "summary_long": "Oil rises on Middle East supply worries as Iran ship attacks spread beyond Hormuz. Crude oil exports from strait of Hormuz largely return to pre-war levels",
+      "status": "OPEN",
+      "status_detail": "no definitive signals",
+      "status_tag": "Traffic normal",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "last_confirmed": "2026-10-21T06:53:20+00:00",
+      "source_count": 1,
+      "summary_short": "Oil Prices Rise as Hormuz Shipping Risks Persist",
+      "summary_long": "Oil Prices Rise as Hormuz Shipping Risks Persist",
       "evidence_cluster_ids": [
-        "c_1d3778c9624f36",
-        "c_da599c5c093d24"
+        "c_a245d245574ab2"
       ],
-      "evidence_count": 2,
+      "evidence_count": 1,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,9 +37,10 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_1d3778c962 → CONTESTED (kw='attack', weight=0.54)",
-        "winning=CONTESTED (0.54/0.54), conf=0.954"
-      ]
+        "fell back to default 'OPEN'"
+      ],
+      "previous_status": "CONTESTED",
+      "last_changed": "2026-10-21T11:57:31.614313+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
@@ -51,18 +51,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-10-21T00:00:00+00:00",
-      "source_count": 7,
-      "summary_short": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War",
-      "summary_long": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War. Oil rises on Middle East supply worries as Iran ship attacks spread beyond Hormuz",
+      "last_confirmed": "2026-10-21T10:00:06+00:00",
+      "source_count": 5,
+      "summary_short": "Indian Oil to trim Middle East oil imports under annual deals amid Iran war",
+      "summary_long": "Indian Oil to trim Middle East oil imports under annual deals amid Iran war. Iran war sparks heating crisis in US north-east as winter approaches",
       "evidence_cluster_ids": [
+        "c_c155dfa140b321",
+        "c_d7d145c3b9d8d5",
+        "c_8a73e6776905b4",
         "c_2a585c276b14d2",
-        "c_1d3778c9624f36",
-        "c_4d4d70324c6ac1",
-        "c_ec64738667e102",
-        "c_47da275297232c"
+        "c_cfcd8ef3930582"
       ],
-      "evidence_count": 7,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -117,19 +117,18 @@
       "key": "global_risk_level",
       "display_name": "Global Energy Risk Level",
       "category": "composite",
-      "status": "ELEVATED",
-      "risk_level": "ELEVATED",
-      "score": 35,
+      "status": "LOW",
+      "risk_level": "LOW",
+      "score": 10,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
-      "summary_short": "Global energy risk: elevated.",
-      "summary_long": "Risk drivers: Hormuz contested",
-      "summary_micro": "contested",
+      "summary_short": "Global energy risk: low.",
+      "summary_long": "Risk drivers: no major disruption",
+      "summary_micro": "stable",
       "rationale": [
-        "hormuz=CONTESTED (+25)",
         "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
@@ -141,7 +140,9 @@
         "category/geopolitics.html",
         "oil-prices.html",
         "markets.html"
-      ]
+      ],
+      "previous_status": "ELEVATED",
+      "last_changed": "2026-10-21T11:57:31.614313+00:00"
     },
     "top_story": {
       "key": "top_story",
@@ -152,9 +153,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQMXlFU3FvdEtaU3AxTmhWTm5iUHV1R1pLeWhhM3JFR0FUSm9ua3pod2x4WUdUWHZXMW5Mc1FaY0RMakFzNkN3akV5OE0tODVVRHp4QWlMS0ZiUTg3NkhuODdNVkdkR3RHRGh0Mkhaa2QzNl9aUEl0bVlvSWRoTjJfTnhxeEVpU0pzbE5lcjFUS0R5b2xTSTB2ZkdGX1VtcUxyOTRhejdLWmxVUmRFTElxV01JZXUtaUZWb2s1cTNlM1hyZ1ltUF82NkxVV3RZdw?oc=5",
       "lead_source": "Reuters",
       "topic": "oil",
-      "score": 94.89,
-      "novelty": "new",
-      "source_count": 6,
+      "score": 85.37,
+      "novelty": "ongoing",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -164,9 +165,46 @@
       ]
     }
   },
-  "changes_since_last_run": [],
+  "changes_since_last_run": [
+    {
+      "event_key": "hormuz_status",
+      "field": "status",
+      "from": "CONTESTED",
+      "to": "OPEN",
+      "detected_at": "2026-10-21T11:57:31.614313+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "hormuz_status",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-10-21T11:57:31.614313+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "status",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-10-21T11:57:31.614313+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    },
+    {
+      "event_key": "global_risk_level",
+      "field": "risk_level",
+      "from": "ELEVATED",
+      "to": "LOW",
+      "detected_at": "2026-10-21T11:57:31.614313+00:00",
+      "meaningful": true,
+      "triggers_publish": false
+    }
+  ],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.954, fresh=fresh",
+    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

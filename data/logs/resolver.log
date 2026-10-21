@@ -2195,3 +2195,17 @@
 [2026-10-21T06:06:59.270333+00:00] resolver: no state changes
 [2026-10-21T06:06:59.271075+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-10-21T06:06:59.271112+00:00] ════════════════════════════════════════════════════════════
+[2026-10-21T11:57:31.608262+00:00] resolver: start
+[2026-10-21T11:57:31.612660+00:00] resolver: scanning 265 clusters across 10 topics
+[2026-10-21T11:57:31.612979+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=1)
+[2026-10-21T11:57:31.613917+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=5)
+[2026-10-21T11:57:31.614024+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-10-21T11:57:31.614071+00:00]   global_risk_level: LOW (score=10)
+[2026-10-21T11:57:31.614266+00:00]   top_story: 'COMMENTARY: China uses crude stockpiles, but rising oil impo' (score=85.37)
+[2026-10-21T11:57:31.614340+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-10-21T11:57:31.614371+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=False)
+[2026-10-21T11:57:31.614402+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-10-21T11:57:31.614428+00:00]   Δ global_risk_level.status: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-10-21T11:57:31.614452+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-10-21T11:57:31.615287+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-10-21T11:57:31.615346+00:00] ════════════════════════════════════════════════════════════
