@@ -2224,3 +2224,14 @@
 [2026-10-21T17:03:20.485052+00:00]   Δ opec_plus_policy.retired: 'HOLDING' → 'None' (triggers_publish=True)
 [2026-10-21T17:03:20.485833+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (4 events)
 [2026-10-21T17:03:20.485871+00:00] ════════════════════════════════════════════════════════════
+[2026-10-21T23:43:42.897359+00:00] resolver: start
+[2026-10-21T23:43:42.901005+00:00] resolver: scanning 267 clusters across 10 topics
+[2026-10-21T23:43:42.901299+00:00]   hormuz_status: CONTESTED (conf=0.958, freshness=fresh, clusters=1)
+[2026-10-21T23:43:42.902102+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=4)
+[2026-10-21T23:43:42.902182+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-10-21T23:43:42.902207+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-10-21T23:43:42.902318+00:00]   top_story: 'U.S. crude oil inventories decrease by 3.1 million barrels' (score=88.16)
+[2026-10-21T23:43:42.902345+00:00] resolver: 1 change(s), 1 meaningful, 0 publish-triggering
+[2026-10-21T23:43:42.902360+00:00]   Δ opec_plus_policy.new_event: 'None' → 'HOLDING' (triggers_publish=False)
+[2026-10-21T23:43:42.903618+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-10-21T23:43:42.903655+00:00] ════════════════════════════════════════════════════════════
