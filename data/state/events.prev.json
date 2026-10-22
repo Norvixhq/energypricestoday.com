@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-10-21T23:43:42.902375+00:00",
-  "previous_generated_at": "2026-10-21T17:03:20.485069+00:00",
-  "resolver_run_count": 202,
+  "generated_at": "2026-10-22T07:30:12.053001+00:00",
+  "previous_generated_at": "2026-10-21T23:43:42.902375+00:00",
+  "resolver_run_count": 203,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,15 +12,16 @@
       "status_detail": "Middle East Oil Flows Near Prewar Levels Defy Hormuz Attacks",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.958,
+      "confidence": 0.804,
       "last_confirmed": "2026-10-21T13:59:42+00:00",
-      "source_count": 1,
+      "source_count": 2,
       "summary_short": "Middle East Oil Flows Near Prewar Levels Defy Hormuz Attacks",
-      "summary_long": "Middle East Oil Flows Near Prewar Levels Defy Hormuz Attacks",
+      "summary_long": "Middle East Oil Flows Near Prewar Levels Defy Hormuz Attacks. Crude oil exports from strait of Hormuz largely return to pre-war levels",
       "evidence_cluster_ids": [
-        "c_df58068e896730"
+        "c_df58068e896730",
+        "c_da599c5c093d24"
       ],
-      "evidence_count": 1,
+      "evidence_count": 2,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -34,11 +35,11 @@
         "markets.drivers.hormuz"
       ],
       "update_priority": "critical",
-      "freshness": "fresh",
+      "freshness": "aging",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_df58068e89 → CONTESTED (kw='attack', weight=0.46)",
-        "winning=CONTESTED (0.46/0.46), conf=0.958"
+        "cluster c_df58068e89 → CONTESTED (kw='attack', weight=0.31)",
+        "winning=CONTESTED (0.31/0.31), conf=0.946"
       ]
     },
     "us_iran_ceasefire": {
@@ -50,17 +51,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-10-21T10:00:06+00:00",
-      "source_count": 4,
-      "summary_short": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks",
-      "summary_long": "Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks. Indian Oil to trim Middle East oil imports under annual deals amid Iran war",
+      "last_confirmed": "2026-10-22T01:00:00+00:00",
+      "source_count": 16,
+      "summary_short": "Iran’s Fleet of Shadow Tankers Has Run Out of Oil After Monthslong U.S. Blockade",
+      "summary_long": "Iran’s Fleet of Shadow Tankers Has Run Out of Oil After Monthslong U.S. Blockade. Oil Steadies as Traders Weigh Conflicting Signals on Iran Talks",
       "evidence_cluster_ids": [
-        "c_8a7ea3c266d5a7",
+        "c_19da3789963e22",
+        "c_573d98e8132c90",
+        "c_a3e45baffe8afe",
         "c_c155dfa140b321",
-        "c_d7d145c3b9d8d5",
-        "c_2a585c276b14d2"
+        "c_d7d145c3b9d8d5"
       ],
-      "evidence_count": 4,
+      "evidence_count": 16,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -145,14 +147,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_ba712105355d39",
-      "lead_title": "U.S. crude oil inventories decrease by 3.1 million barrels",
-      "lead_url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrWkdFOE15dUlvT01YT3cxQVdzU0JKaVkyTzRkUFcwMkkyX3VscEE1OGg5d0pIM284UEhjUzh4M2R1V3BYTzlmX3dHVEJaUEVpNFJGZGo5MnFWZG1QWUVvLXlkaw?oc=5",
-      "lead_source": "Oil & Gas 360",
+      "cluster_id": "c_0ee72e38455903",
+      "lead_title": "Oil Market Fragmentation Is Making Crude Both Cheap and Expensive",
+      "lead_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcFZTODhQUHRfZnpPM3BjRHRyUGtVVXI3UmVHdmRyZ1JZMFZxbnEwUXM2bGlzM2RaeWFIcFZNb25fZ3hwTlhES1RBNXdzR3RaVFJ1eUVpdDMtSkNnLVVmdXBERlJqa25wODRid0czNzZCRzNLeEw4d2UxaEY4Nks3RDA5d25TVmFRb0NyaDlaSXdjNkVTSi1NNVJWbTVDbHU0TXpkdG5WZTBuYlh4UHplbDNEUnM5SmxRYjNZ?oc=5",
+      "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 88.16,
+      "score": 88.3,
       "novelty": "new",
-      "source_count": 5,
+      "source_count": 3,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -162,19 +164,9 @@
       ]
     }
   },
-  "changes_since_last_run": [
-    {
-      "event_key": "opec_plus_policy",
-      "field": "new_event",
-      "from": null,
-      "to": "HOLDING",
-      "detected_at": "2026-10-21T23:43:42.902333+00:00",
-      "meaningful": true,
-      "triggers_publish": false
-    }
-  ],
+  "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.958, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.804, fresh=aging",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
