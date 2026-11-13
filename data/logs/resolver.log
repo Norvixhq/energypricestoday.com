@@ -2287,3 +2287,17 @@
 [2026-11-13T07:13:25.536341+00:00]   Δ global_risk_level.risk_level: 'ELEVATED' → 'HIGH' (triggers_publish=False)
 [2026-11-13T07:13:25.537565+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-11-13T07:13:25.537598+00:00] ════════════════════════════════════════════════════════════
+[2026-11-13T21:34:44.942303+00:00] resolver: start
+[2026-11-13T21:34:44.945020+00:00] resolver: scanning 270 clusters across 10 topics
+[2026-11-13T21:34:44.945265+00:00]   hormuz_status: CONTESTED (conf=0.957, freshness=fresh, clusters=3)
+[2026-11-13T21:34:44.946032+00:00]   us_iran_ceasefire: HOLDING (conf=0.5, freshness=fresh, clusters=11)
+[2026-11-13T21:34:44.946100+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=0)
+[2026-11-13T21:34:44.946120+00:00]   global_risk_level: ELEVATED (score=35)
+[2026-11-13T21:34:44.946218+00:00]   top_story: 'December WTI Crude Oil Contract Closes Down $0.18, or 0.2%; ' (score=97.65)
+[2026-11-13T21:34:44.946251+00:00] resolver: 4 change(s), 4 meaningful, 0 publish-triggering
+[2026-11-13T21:34:44.946263+00:00]   Δ us_iran_ceasefire.status: 'FRAGILE' → 'HOLDING' (triggers_publish=False)
+[2026-11-13T21:34:44.946276+00:00]   Δ us_iran_ceasefire.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-11-13T21:34:44.946285+00:00]   Δ global_risk_level.status: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-11-13T21:34:44.946293+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
+[2026-11-13T21:34:44.946746+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-11-13T21:34:44.946772+00:00] ════════════════════════════════════════════════════════════
