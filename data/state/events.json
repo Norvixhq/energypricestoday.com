@@ -1,27 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-11-14T01:53:59.981898+00:00",
-  "previous_generated_at": "2026-11-13T21:34:44.946302+00:00",
-  "resolver_run_count": 208,
+  "generated_at": "2026-11-14T08:52:55.302967+00:00",
+  "previous_generated_at": "2026-11-14T01:53:59.981898+00:00",
+  "resolver_run_count": 209,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
-      "status": "OPEN",
-      "status_detail": "no definitive signals",
-      "status_tag": "Traffic normal",
-      "risk_level": "LOW",
-      "confidence": 0.5,
-      "last_confirmed": "2026-11-13T21:28:47+00:00",
-      "source_count": 6,
-      "summary_short": "Four oil tankers hit by explosions in Strait of Hormuz after ignoring warnings, Iran claims",
-      "summary_long": "Four oil tankers hit by explosions in Strait of Hormuz after ignoring warnings, Iran claims. Shafaq News..IRGC claims two oil tankers hit naval mines in Hormuz",
+      "status": "CONTESTED",
+      "status_detail": "Iran Reports Three Oil Tankers Hit Mines in Hormuz",
+      "status_tag": "Tankers at risk",
+      "risk_level": "ELEVATED",
+      "confidence": 0.966,
+      "last_confirmed": "2026-11-14T08:48:37+00:00",
+      "source_count": 10,
+      "summary_short": "Iran Reports Three Oil Tankers Hit Mines in Hormuz",
+      "summary_long": "Iran Reports Three Oil Tankers Hit Mines in Hormuz. Middle East latest: IRGC says two oil tankers caught fire after hitting sea mines in Hormuz",
       "evidence_cluster_ids": [
-        "c_b58c46921d5d12",
+        "c_c66037cd611c9c",
+        "c_3709883f5b8b2a",
         "c_42cb34747cd639"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -38,32 +39,33 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "fell back to default 'OPEN'"
+        "cluster c_c66037cd61 → CONTESTED (kw='struck', weight=0.83)",
+        "winning=CONTESTED (0.83/0.83), conf=0.966"
       ],
-      "previous_status": "CONTESTED",
-      "last_changed": "2026-11-14T01:53:59.981779+00:00"
+      "previous_status": "OPEN",
+      "last_changed": "2026-11-14T08:52:55.302888+00:00"
     },
     "us_iran_ceasefire": {
       "key": "us_iran_ceasefire",
       "display_name": "U.S.-Iran Ceasefire",
       "category": "diplomatic_event",
-      "status": "FRAGILE",
-      "status_detail": "Oil Is Stuck in Limbo, With No More Iran War But No Peace",
-      "status_tag": "Under strain",
-      "risk_level": "HIGH",
-      "confidence": 0.954,
-      "last_confirmed": "2026-11-13T20:06:13+00:00",
-      "source_count": 14,
-      "summary_short": "Oil Holds Gain as Trump Says US Doesn’t Need a Deal With Iran",
-      "summary_long": "Oil Holds Gain as Trump Says US Doesn’t Need a Deal With Iran. Four oil tankers hit by explosions in Strait of Hormuz after ignoring warnings, Iran claims",
+      "status": "HOLDING",
+      "status_detail": "no definitive signals",
+      "status_tag": "In effect",
+      "risk_level": "ELEVATED",
+      "confidence": 0.5,
+      "last_confirmed": "2026-11-14T08:38:43+00:00",
+      "source_count": 13,
+      "summary_short": "Iran Reports Three Oil Tankers Hit Mines in Hormuz",
+      "summary_long": "Iran Reports Three Oil Tankers Hit Mines in Hormuz. Global oil supply returns to surplus for first time since start of Iran war, says IEA",
       "evidence_cluster_ids": [
-        "c_b58c46921d5d12",
-        "c_5e5f44bd778792",
-        "c_781ec85e256542",
-        "c_14b254c78cdb23",
-        "c_56e72a61bed53e"
+        "c_c66037cd611c9c",
+        "c_bf9c876b721aad",
+        "c_e2883c2fa2d64d",
+        "c_821e8ac73f180e",
+        "c_23e0886a279460"
       ],
-      "evidence_count": 10,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -78,32 +80,29 @@
       "freshness": "fresh",
       "stale_after_hours": 72,
       "rationale": [
-        "cluster c_14b254c78c → FRAGILE (kw='in limbo', weight=0.10)",
-        "winning=FRAGILE (0.10/0.10), conf=0.954"
+        "fell back to default 'HOLDING'"
       ],
       "next_catalyst_date": "",
       "next_catalyst_description": "",
       "next_catalyst_micro": "",
-      "previous_status": "HOLDING",
-      "last_changed": "2026-11-14T01:53:59.981779+00:00"
+      "previous_status": "FRAGILE",
+      "last_changed": "2026-11-14T08:52:55.302888+00:00"
     },
     "opec_plus_policy": {
       "key": "opec_plus_policy",
       "display_name": "OPEC+ Policy",
       "category": "policy_state",
       "status": "HOLDING",
-      "status_detail": "no definitive signals",
+      "status_detail": "no recent coverage",
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-11-11T21:13:47+00:00",
-      "source_count": 1,
-      "summary_short": "Oil production nears pre-Iran war levels, OPEC says",
-      "summary_long": "Oil production nears pre-Iran war levels, OPEC says",
-      "evidence_cluster_ids": [
-        "c_56e72a61bed53e"
-      ],
-      "evidence_count": 1,
+      "last_confirmed": "",
+      "source_count": 0,
+      "summary_short": "",
+      "summary_long": "",
+      "evidence_cluster_ids": [],
+      "evidence_count": 0,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -116,7 +115,7 @@
       "freshness": "fresh",
       "stale_after_hours": 168,
       "rationale": [
-        "fell back to default 'HOLDING'"
+        "no matching clusters"
       ]
     },
     "global_risk_level": {
@@ -125,17 +124,18 @@
       "category": "composite",
       "status": "ELEVATED",
       "risk_level": "ELEVATED",
-      "score": 25,
+      "score": 35,
       "composite_of": [
         "hormuz_status",
         "us_iran_ceasefire",
         "opec_plus_policy"
       ],
       "summary_short": "Global energy risk: elevated.",
-      "summary_long": "Risk drivers: ceasefire fragile",
-      "summary_micro": "fragile",
+      "summary_long": "Risk drivers: Hormuz contested",
+      "summary_micro": "contested",
       "rationale": [
-        "ceasefire=FRAGILE (+25)"
+        "hormuz=CONTESTED (+25)",
+        "ceasefire=HOLDING (+10)"
       ],
       "dependent_modules": [
         "homepage.glance-strip.risk-level",
@@ -152,14 +152,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_da9ad435e18356",
+      "cluster_id": "c_e85c84e08545aa",
       "lead_title": "Russia Oil Revenues Hit Five-Month High on Crude Rally, IEA Says",
       "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNHRRSm8tM1ZqT0xZeG9YbUlzdEhoV0ZVY1ZYVE50VFV1bE5KbWhvS2VCR2RuMWVnN1hITi02dkJta3FxaXJvZlhyV3EwNDhPTi1QZml6VTVPWFlVRi1nUjFCTUdtQ05LWlJHblYtQXRBRjFyN3hoMnlGa1Z3SjBaTnBlS1lEbmN2RmszU2dNd2VwajJqQzY1bVhfSGdDQTRlMS16dV9QbnlLUV9wS19Nekl1SEw?oc=5",
-      "lead_source": "Bloomberg",
+      "lead_source": "Bloomberg.com",
       "topic": "oil",
-      "score": 82.82,
+      "score": 91.63,
       "novelty": "new",
-      "source_count": 3,
+      "source_count": 4,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -173,43 +173,43 @@
     {
       "event_key": "hormuz_status",
       "field": "status",
-      "from": "CONTESTED",
-      "to": "OPEN",
-      "detected_at": "2026-11-14T01:53:59.981779+00:00",
+      "from": "OPEN",
+      "to": "CONTESTED",
+      "detected_at": "2026-11-14T08:52:55.302888+00:00",
       "meaningful": true,
-      "triggers_publish": false
+      "triggers_publish": true
     },
     {
       "event_key": "hormuz_status",
       "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "LOW",
-      "detected_at": "2026-11-14T01:53:59.981779+00:00",
+      "from": "LOW",
+      "to": "ELEVATED",
+      "detected_at": "2026-11-14T08:52:55.302888+00:00",
+      "meaningful": true,
+      "triggers_publish": true
+    },
+    {
+      "event_key": "us_iran_ceasefire",
+      "field": "status",
+      "from": "FRAGILE",
+      "to": "HOLDING",
+      "detected_at": "2026-11-14T08:52:55.302888+00:00",
       "meaningful": true,
       "triggers_publish": false
     },
     {
       "event_key": "us_iran_ceasefire",
-      "field": "status",
-      "from": "HOLDING",
-      "to": "FRAGILE",
-      "detected_at": "2026-11-14T01:53:59.981779+00:00",
-      "meaningful": true,
-      "triggers_publish": true
-    },
-    {
-      "event_key": "us_iran_ceasefire",
       "field": "risk_level",
-      "from": "ELEVATED",
-      "to": "HIGH",
-      "detected_at": "2026-11-14T01:53:59.981779+00:00",
+      "from": "HIGH",
+      "to": "ELEVATED",
+      "detected_at": "2026-11-14T08:52:55.302888+00:00",
       "meaningful": true,
-      "triggers_publish": true
+      "triggers_publish": false
     }
   ],
   "resolution_log": [
-    "hormuz_status: resolved=OPEN, confidence=0.5, fresh=fresh",
-    "us_iran_ceasefire: resolved=FRAGILE, confidence=0.954, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.966, fresh=fresh",
+    "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
 }
