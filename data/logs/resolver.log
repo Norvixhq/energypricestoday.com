@@ -2301,3 +2301,17 @@
 [2026-11-13T21:34:44.946293+00:00]   Δ global_risk_level.risk_level: 'HIGH' → 'ELEVATED' (triggers_publish=False)
 [2026-11-13T21:34:44.946746+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
 [2026-11-13T21:34:44.946772+00:00] ════════════════════════════════════════════════════════════
+[2026-11-14T01:53:59.976877+00:00] resolver: start
+[2026-11-14T01:53:59.980313+00:00] resolver: scanning 268 clusters across 10 topics
+[2026-11-14T01:53:59.980607+00:00]   hormuz_status: OPEN (conf=0.5, freshness=fresh, clusters=2)
+[2026-11-14T01:53:59.981488+00:00]   us_iran_ceasefire: FRAGILE (conf=0.954, freshness=fresh, clusters=10)
+[2026-11-14T01:53:59.981587+00:00]   opec_plus_policy: HOLDING (conf=0.5, freshness=fresh, clusters=1)
+[2026-11-14T01:53:59.981620+00:00]   global_risk_level: ELEVATED (score=25)
+[2026-11-14T01:53:59.981752+00:00]   top_story: 'Russia Oil Revenues Hit Five-Month High on Crude Rally, IEA ' (score=82.82)
+[2026-11-14T01:53:59.981800+00:00] resolver: 4 change(s), 4 meaningful, 2 publish-triggering
+[2026-11-14T01:53:59.981822+00:00]   Δ hormuz_status.status: 'CONTESTED' → 'OPEN' (triggers_publish=False)
+[2026-11-14T01:53:59.981844+00:00]   Δ hormuz_status.risk_level: 'ELEVATED' → 'LOW' (triggers_publish=False)
+[2026-11-14T01:53:59.981863+00:00]   Δ us_iran_ceasefire.status: 'HOLDING' → 'FRAGILE' (triggers_publish=True)
+[2026-11-14T01:53:59.981880+00:00]   Δ us_iran_ceasefire.risk_level: 'ELEVATED' → 'HIGH' (triggers_publish=True)
+[2026-11-14T01:53:59.982634+00:00] resolver: wrote /home/runner/work/energypricestoday.com/energypricestoday.com/data/state/events.json (5 events)
+[2026-11-14T01:53:59.982677+00:00] ════════════════════════════════════════════════════════════

@@ -1,101 +1,101 @@
 {
   "commodity-prices": {
     "meta": {
-      "generated_at": "2026-10-20T00:43:37.384039+00:00",
-      "status": "failed",
+      "generated_at": "2026-11-14T01:51:09.054258+00:00",
+      "status": "fresh",
       "source": "oilpriceapi",
       "endpoint": "https://api.oilpriceapi.com/v1/prices/all",
-      "last_success": "2026-10-20T00:43:37.384039+00:00"
+      "last_success": "2026-11-14T01:51:09.054258+00:00"
     },
     "prices": {
       "Brent Crude": {
-        "price": 109.46,
-        "change": 1.07,
-        "pct": 0.99,
+        "price": 96.29,
+        "change": 1.0,
+        "pct": 1.05,
         "unit": "$/bbl",
         "source_code": "BRENT_CRUDE_USD",
-        "updated_at": "2026-10-20T00:43:10Z"
+        "updated_at": "2026-11-14T01:20:39Z"
       },
       "Diesel ULSD": {
-        "price": 4.94,
+        "price": 4.26,
         "change": 0.0,
         "pct": 0.0,
         "unit": "$/gal",
         "source_code": "DIESEL_USD",
-        "updated_at": "2026-10-20T00:40:32Z"
+        "updated_at": "2026-11-13T01:55:42Z"
       },
       "Dutch TTF Natural Gas": {
-        "price": 87.73,
-        "change": -1.2,
-        "pct": -1.35,
+        "price": 90.78,
+        "change": -3.82,
+        "pct": -4.04,
         "unit": "EUR/MWh",
         "source_code": "DUTCH_TTF_EUR",
-        "updated_at": "2026-10-20T00:05:41Z"
+        "updated_at": "2026-11-14T00:07:26Z"
       },
       "Gasoline RBOB": {
-        "price": 3.19,
-        "change": -0.01,
-        "pct": -0.31,
+        "price": 2.62,
+        "change": 0.0,
+        "pct": 0.0,
         "unit": "$/gal",
         "source_code": "GASOLINE_USD",
-        "updated_at": "2026-10-20T00:25:27Z"
+        "updated_at": "2026-11-13T01:55:42Z"
       },
       "Heating Oil": {
-        "price": 4.94,
-        "change": 0.11,
-        "pct": 2.28,
+        "price": 4.26,
+        "change": -0.01,
+        "pct": -0.23,
         "unit": "$/gal",
         "source_code": "HEATING_OIL_USD",
-        "updated_at": "2026-10-20T00:35:30Z"
+        "updated_at": "2026-11-14T01:02:41Z"
       },
       "Jet Fuel": {
-        "price": 4.56,
+        "price": 4.04,
         "change": 0.0,
         "pct": 0.0,
         "unit": "$/gal",
         "source_code": "JET_FUEL_USD",
-        "updated_at": "2026-10-15T21:01:41Z"
+        "updated_at": "2026-11-12T21:01:09Z"
       },
       "JKM LNG (Japan/Korea)": {
-        "price": 30.01,
-        "change": 0.0,
-        "pct": 0.0,
+        "price": 29.6,
+        "change": -1.77,
+        "pct": -5.64,
         "unit": "$/MMBtu",
         "source_code": "JKM_LNG_USD",
-        "updated_at": "2026-10-20T00:05:52Z"
-      },
-      "Coal": {
-        "price": 150.65,
-        "change": 0.0,
-        "pct": 0.0,
-        "unit": "$/ton",
-        "source_code": "NEWCASTLE_COAL_USD",
-        "updated_at": "2026-10-20T00:06:03Z"
-      },
-      "WTI Crude": {
-        "price": 98.49,
-        "change": 0.89,
-        "pct": 0.91,
-        "unit": "$/bbl",
-        "source_code": "WTI_USD",
-        "updated_at": "2026-10-20T00:42:21Z"
+        "updated_at": "2026-11-14T00:16:09Z"
       },
       "Natural Gas": {
-        "price": 3.22,
-        "change": 0.0,
-        "pct": 0.0,
+        "price": 3.23,
+        "change": -0.13,
+        "pct": -3.87,
         "unit": "$/MMBtu",
         "source_code": "NATURAL_GAS_USD",
-        "updated_at": "2026-10-15T21:01:12Z"
+        "updated_at": "2026-11-14T01:40:29Z"
+      },
+      "Coal": {
+        "price": 145.75,
+        "change": 0.75,
+        "pct": 0.52,
+        "unit": "$/ton",
+        "source_code": "NEWCASTLE_COAL_USD",
+        "updated_at": "2026-11-14T00:16:21Z"
+      },
+      "WTI Crude": {
+        "price": 88.92,
+        "change": 0.69,
+        "pct": 0.78,
+        "unit": "$/bbl",
+        "source_code": "WTI_USD",
+        "updated_at": "2026-11-14T00:55:03Z"
       }
     }
   },
   "gas-prices-national": {
     "meta": {
-      "generated_at": "2026-11-13T21:32:43.040140+00:00",
+      "generated_at": "2026-11-14T01:52:10.312552+00:00",
       "status": "failed"
     },
     "prices": {}
   },
-  "as_of": "2026-11-13T21:34:44.969321+00:00"
+  "as_of": "2026-11-14T01:54:00.008456+00:00"
 }
