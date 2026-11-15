@@ -1,32 +1,91 @@
 {
   "topic": "gasoline",
-  "generated_at": "2026-11-15T14:02:10.145151+00:00",
+  "generated_at": "2026-11-15T19:44:48.653380+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
-  "clusters_found": 27,
+  "clusters_found": 25,
   "clusters": [
     {
-      "cluster_id": "c_de5d70ca41e7ff",
+      "cluster_id": "c_c1248cf0465daf",
       "topic": "gasoline",
-      "lead_title": "The Next Wave of Food Inflation Is Coming",
-      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOGtfSTVyazhhZjA4UEJWRVFWTlJWV0dUREtpa3pndDRsN0cyQkFiQjBpVFJ2UHFtbXA5MTMwZTFCQUhENld5QUpiV1c1ZmM5My1HNWFvYk1oOUM4ZmNXZFZCVkJRejNkbmRJTS1UbDJwV1pJd3VOd2k4d0VPNW1Rd1RTTFV4ZEluN1dsYVg4b3NjQQ?oc=5",
-      "lead_source": "WSJ",
+      "lead_title": "California gas prices fall 20 cents in a week, AAA reports",
+      "lead_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZWwzTVVIR2ZkYkxhdEZueGplMHVOeEtoNjdlNkpNbHR5ZEZ2RGRMbmxVR3hyVUNpVnUwNWNmQlFMcFFoYU5aVkRUaDFVVWl0WTZxQ1YwSVZtZkJObVB2Yk9MTDE3LU80T3UtaGJQWmxIVFY5NXh2ZGVMZkp1UWc5UG92Nk10NnBfSGp2RXNrMVhyTS1VVGdpSEpQUXZkTVVpSEE?oc=5",
+      "lead_source": "SFGATE",
+      "canonical_entities": [
+        "AAA"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-13T11:26:23+00:00",
+      "latest_seen": "2026-11-15T05:52:37+00:00",
+      "age_hours": 13.87,
+      "score": 65.18,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 16.68,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "af0d21bc3baae311",
+          "title": "California gas prices fall 20 cents in a week, AAA reports",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZWwzTVVIR2ZkYkxhdEZueGplMHVOeEtoNjdlNkpNbHR5ZEZ2RGRMbmxVR3hyVUNpVnUwNWNmQlFMcFFoYU5aVkRUaDFVVWl0WTZxQ1YwSVZtZkJObVB2Yk9MTDE3LU80T3UtaGJQWmxIVFY5NXh2ZGVMZkp1UWc5UG92Nk10NnBfSGp2RXNrMVhyTS1VVGdpSEpQUXZkTVVpSEE?oc=5",
+          "source": "SFGATE",
+          "source_type": "rss",
+          "published_at": "2026-11-15T05:52:37+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "fd6cf2a8fcaa1984",
+          "title": "AAA report: Utah gas prices fall 27 cents in one week; average cost in national top 10",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWnJOMVp4RUVjNUxXZmZTWmJzWk80b25BM1YxaTNMdENBWkltdE53QlNtcGx6T2ZNdW5IUjM1T3BReC1rWDdVbl9LaDlLWVhQc2RnWWZ1R0dmNUFmaUZnejZuWlJUU2hTMU4wZUE0RkxNYUxNMGMzN0JYbERLV19xd1ppdlBsRFZPaG9hODhYV19IODY5U011U25FVHk4ZkhsQXNhclpiVHRxbFFycV9MTkRUS3VaTzFMbFNDQjV1MzFQT3hHR3hJNWhiX0tJT3M0QklWZGlCUzFvanNjLVF2MWU5OHp4aG9QYVlneThmc3ZDS1E?oc=5",
+          "source": "St. George News",
+          "source_type": "rss",
+          "published_at": "2026-11-14T15:00:00+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "44931a61897791cb",
+          "title": "AAA: California Gas Prices Fall 20 Cents in a Week",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPamNlZFpDcVREai1HZEx3TkkwWWtTQURjRFZ4aUZMNW05dzhWSU9neFRkdXBjay02MHk2X2pKNnpuS1dNNFhPREkzLVBFWmdYMldNZUhqZkNPUmR4dHZLWjBpMFZzMXcyQzM1c05md0ZrZHVaQXlfRmdvbUllMkh3UEcwOE5sSllnMlpUT0FOWQ?oc=5",
+          "source": "Contra Costa News",
+          "source_type": "rss",
+          "published_at": "2026-11-13T11:26:23+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_56ff58a98dc217",
+      "topic": "gasoline",
+      "lead_title": "Gas prices continue dropping in San Luis Obispo County, find lowest costs",
+      "lead_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTJ6WmwxX0hVQTdSYXVfTFV6RFNBQlZpTXdrLU1FalpDbFllMVVCejd2bXJfb2xXaDJlRmpHV2tUN2drN0J1N3pMUWhUZ2p5eFNqWVBjaVRLY3JURm5tRGVtem56eHNpUVZIQjJzR1NscDRPbWQxZ3BWdzNhd0RZUnhvNDY5MEItQ254VUtvM2VZd3VzX1JaX2pxZXlJTDczeGNQNFVQUVdGdw?oc=5",
+      "lead_source": "Cal Coast News",
       "canonical_entities": [],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-11-15T13:39:22+00:00",
-      "latest_seen": "2026-11-15T13:39:22+00:00",
-      "age_hours": 0.38,
-      "score": 67.37,
+      "earliest_seen": "2026-11-15T17:50:24+00:00",
+      "latest_seen": "2026-11-15T17:50:24+00:00",
+      "age_hours": 1.91,
+      "score": 56.86,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.77,
-        "source_quality_points": 27.6,
+        "recency_points": 23.86,
+        "source_quality_points": 18.0,
         "entity_relevance_points": 0,
         "materiality_points": 10.0
       },
@@ -34,16 +93,309 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "35f0ee96fcae7565",
-          "title": "The Next Wave of Food Inflation Is Coming",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOGtfSTVyazhhZjA4UEJWRVFWTlJWV0dUREtpa3pndDRsN0cyQkFiQjBpVFJ2UHFtbXA5MTMwZTFCQUhENld5QUpiV1c1ZmM5My1HNWFvYk1oOUM4ZmNXZFZCVkJRejNkbmRJTS1UbDJwV1pJd3VOd2k4d0VPNW1Rd1RTTFV4ZEluN1dsYVg4b3NjQQ?oc=5",
-          "source": "WSJ",
+          "headline_id": "6ce3e86805330d12",
+          "title": "Gas prices continue dropping in San Luis Obispo County, find lowest costs",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWTJ6WmwxX0hVQTdSYXVfTFV6RFNBQlZpTXdrLU1FalpDbFllMVVCejd2bXJfb2xXaDJlRmpHV2tUN2drN0J1N3pMUWhUZ2p5eFNqWVBjaVRLY3JURm5tRGVtem56eHNpUVZIQjJzR1NscDRPbWQxZ3BWdzNhd0RZUnhvNDY5MEItQ254VUtvM2VZd3VzX1JaX2pxZXlJTDczeGNQNFVQUVdGdw?oc=5",
+          "source": "Cal Coast News",
           "source_type": "rss",
-          "published_at": "2026-11-15T13:39:22+00:00",
-          "confidence": 0.92
+          "published_at": "2026-11-15T17:50:24+00:00",
+          "confidence": 0.6
         }
       ],
       "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_824226bba3993c",
+      "topic": "gasoline",
+      "lead_title": "Gas Prices Drop to $3.91 Ahead of Thanksgiving, But Remain 92 Cents Higher Than Last Year",
+      "lead_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQVFHTHF6d2ZDY3ZMa1RkN21JVDVoTG9xUlY1MXlFMVYwS1ZxOG1DOVNKVzdXUkltN2V2NDVnMmJjd1BnTjR1bUt5ZEZNa1Vrb05jUkFwTkZKRUQwU2RRNmI5Nk1Vb2RtR2dlTDBOQm5lWFpKUjFFZlQzeG5jZkM3cjlwcw?oc=5",
+      "lead_source": "Yahoo Finance",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-15T17:00:45+00:00",
+      "latest_seen": "2026-11-15T17:00:45+00:00",
+      "age_hours": 2.73,
+      "score": 56.36,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.36,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "2e8eaa1011127be8",
+          "title": "Gas Prices Drop to $3.91 Ahead of Thanksgiving, But Remain 92 Cents Higher Than Last Year",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQVFHTHF6d2ZDY3ZMa1RkN21JVDVoTG9xUlY1MXlFMVYwS1ZxOG1DOVNKVzdXUkltN2V2NDVnMmJjd1BnTjR1bUt5ZEZNa1Vrb05jUkFwTkZKRUQwU2RRNmI5Nk1Vb2RtR2dlTDBOQm5lWFpKUjFFZlQzeG5jZkM3cjlwcw?oc=5",
+          "source": "Yahoo Finance",
+          "source_type": "rss",
+          "published_at": "2026-11-15T17:00:45+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_15bc5ab162732c",
+      "topic": "gasoline",
+      "lead_title": "Riverside County Gas Prices Still Falling",
+      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWNzajV5TnNGQjhYZ0s4ZXB1OG9pQjhnNFRtdWJacHd3N044RHpTWkd0R3ROeWR2YU5LUTROM1lqRG8xTHpwb1EyMEUtTGdfTXRUMm8yUDZQN2piVllsaGxnLXhKeDZFRmxTMG8zeWFuejJsTnV4blhYRDJYMjRaTGYwQUN1MVdUR1Jac3Jjbw?oc=5",
+      "lead_source": "MyNewsLA.com",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-15T16:42:26+00:00",
+      "latest_seen": "2026-11-15T16:42:26+00:00",
+      "age_hours": 3.04,
+      "score": 56.18,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 23.18,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "ffdd72db26c6ca52",
+          "title": "Riverside County Gas Prices Still Falling",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeWNzajV5TnNGQjhYZ0s4ZXB1OG9pQjhnNFRtdWJacHd3N044RHpTWkd0R3ROeWR2YU5LUTROM1lqRG8xTHpwb1EyMEUtTGdfTXRUMm8yUDZQN2piVllsaGxnLXhKeDZFRmxTMG8zeWFuejJsTnV4blhYRDJYMjRaTGYwQUN1MVdUR1Jac3Jjbw?oc=5",
+          "source": "MyNewsLA.com",
+          "source_type": "rss",
+          "published_at": "2026-11-15T16:42:26+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8c69207e805ff9",
+      "topic": "gasoline",
+      "lead_title": "Fuel prices unchanged for ninth consecutive week",
+      "lead_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92MHp6cGVvbmFKYkVTbUlBNU1oOFY0aHM3YVJRaHRBdGd3M2lJU2tFVXRNODJxWUlkMW5ycE5Ea1dYcm9QSkpfRkhoOUhfVFhRWVk3dWxaOExrdWxWbFVnS0N1V1E1Smp1S2dWQnB3c0dDTUpPcUE?oc=5",
+      "lead_source": "Taipei Times",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-15T16:00:00+00:00",
+      "latest_seen": "2026-11-15T16:00:00+00:00",
+      "age_hours": 3.75,
+      "score": 55.75,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.75,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "031b3c7cb4312667",
+          "title": "Fuel prices unchanged for ninth consecutive week",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE92MHp6cGVvbmFKYkVTbUlBNU1oOFY0aHM3YVJRaHRBdGd3M2lJU2tFVXRNODJxWUlkMW5ycE5Ea1dYcm9QSkpfRkhoOUhfVFhRWVk3dWxaOExrdWxWbFVnS0N1V1E1Smp1S2dWQnB3c0dDTUpPcUE?oc=5",
+          "source": "Taipei Times",
+          "source_type": "rss",
+          "published_at": "2026-11-15T16:00:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_c53352a85d7824",
+      "topic": "gasoline",
+      "lead_title": "Gas prices in Wyoming fell 22 cents in a week, but November is still a record-breaker",
+      "lead_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSGFyc1pyNzFIVmY2Y1FxNmduYlpQQ3NyaGRSSlpLVWFQWFA0Q0t2LXVsckRoY2I1UGdKU0FMYVhDWk4xY1psUTFsWnRYQ0xlUHd4MjlNSmV0RS1CbkY0bVJVdlE1Ym9kNFVWNUpjSGd1Ry15ZTlMWEl1eVRIMzk2QVItNThaMFJBeEVVRmljN04tekJTNTc2RjZMMA?oc=5",
+      "lead_source": "Casper Star-Tribune",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-15T15:45:00+00:00",
+      "latest_seen": "2026-11-15T15:45:00+00:00",
+      "age_hours": 4.0,
+      "score": 55.6,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.6,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "7d9da198e82db5f1",
+          "title": "Gas prices in Wyoming fell 22 cents in a week, but November is still a record-breaker",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSGFyc1pyNzFIVmY2Y1FxNmduYlpQQ3NyaGRSSlpLVWFQWFA0Q0t2LXVsckRoY2I1UGdKU0FMYVhDWk4xY1psUTFsWnRYQ0xlUHd4MjlNSmV0RS1CbkY0bVJVdlE1Ym9kNFVWNUpjSGd1Ry15ZTlMWEl1eVRIMzk2QVItNThaMFJBeEVVRmljN04tekJTNTc2RjZMMA?oc=5",
+          "source": "Casper Star-Tribune",
+          "source_type": "rss",
+          "published_at": "2026-11-15T15:45:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_8007468c28e1a1",
+      "topic": "gasoline",
+      "lead_title": "Gas prices for 11/15/26: What will you pay as the weekend comes to an end?",
+      "lead_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOUpKcHZGd2xqLTNsNzY5dVR4M1EtOGFNOUdZNVdyaGtyczUxMHVWenJGUC1rTkVuY3J6UkptOWlrWV9sbVFMTHNsazhBM0lvaEZBUW9OTmtUazhNZmlTWEVlRXVPOWt2VHJHekpkNERQTjJTOXgtUWc4aTA4ckdUbU5qdmdFbFZIa04zWVdwN1QtZ0NTcGdPdUxHemRsMXlEdHRhVnRyZVZocnJpWlJQMGZldWrSAcgBQVVfeXFMTnpGNkRScGFsMWxNS3l1Rl9jOUlXRjNvem9HVEpWWXc2alBLemQzZmtjVHltZHN3R0xDSk9mbzh6NWdkUlFlUkQ3WkN0Wms2N0NqTTc5ZkV0RU5tUjFHYkFMdTRWU0VPQW5LMm5FOS01eEs1NldEN1pYTFU3enNXSk1pX1N6c0c2QUtjNGRXS3lyek96RWxNbWY1UEh4YkowX2pnV19zTlctWDFMUzVYdnFEX3RKUFB5ZVRyWXZzXzJPMmMwZko0dEI?oc=5",
+      "lead_source": "Cleveland.com",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-15T15:03:00+00:00",
+      "latest_seen": "2026-11-15T15:03:00+00:00",
+      "age_hours": 4.7,
+      "score": 55.18,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.18,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "dc5acb2f24db3f23",
+          "title": "Gas prices for 11/15/26: What will you pay as the weekend comes to an end?",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOUpKcHZGd2xqLTNsNzY5dVR4M1EtOGFNOUdZNVdyaGtyczUxMHVWenJGUC1rTkVuY3J6UkptOWlrWV9sbVFMTHNsazhBM0lvaEZBUW9OTmtUazhNZmlTWEVlRXVPOWt2VHJHekpkNERQTjJTOXgtUWc4aTA4ckdUbU5qdmdFbFZIa04zWVdwN1QtZ0NTcGdPdUxHemRsMXlEdHRhVnRyZVZocnJpWlJQMGZldWrSAcgBQVVfeXFMTnpGNkRScGFsMWxNS3l1Rl9jOUlXRjNvem9HVEpWWXc2alBLemQzZmtjVHltZHN3R0xDSk9mbzh6NWdkUlFlUkQ3WkN0Wms2N0NqTTc5ZkV0RU5tUjFHYkFMdTRWU0VPQW5LMm5FOS01eEs1NldEN1pYTFU3enNXSk1pX1N6c0c2QUtjNGRXS3lyek96RWxNbWY1UEh4YkowX2pnV19zTlctWDFMUzVYdnFEX3RKUFB5ZVRyWXZzXzJPMmMwZko0dEI?oc=5",
+          "source": "Cleveland.com",
+          "source_type": "rss",
+          "published_at": "2026-11-15T15:03:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_15f97a8d739bfa",
+      "topic": "gasoline",
+      "lead_title": "Feeling the heat: As winter nears, soaring energy prices have residents bracing for bigger bills",
+      "lead_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY2hQb1JpR3ZGZmFZR2tsWFdwWWJ0VW5tbkZDY2lHSEY0bDRKNWZpMjNsQWFteWFnamZUeFhqZXVUalFaSG1jRE4tQWRTTkRKS1VKM3N1b09TQktiQ1BkV3E5anhQNEs0aTlXSUU3LUktLXc1ODlGSU9BMG1rZVJnS3ZIZzVGWWNPcG11Q3pPU1RpMmdvNG5RUUt4V3plOHZKcUNfeUtzR0xQdGxVb1VuMHBfVG5yR2h6NEVOUHF2c281TkdoUzFpZXNjUTExUQ?oc=5",
+      "lead_source": "Athol Daily News",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-15T15:00:00+00:00",
+      "latest_seen": "2026-11-15T15:00:00+00:00",
+      "age_hours": 4.75,
+      "score": 55.15,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 22.15,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "24466966c77c97ce",
+          "title": "Feeling the heat: As winter nears, soaring energy prices have residents bracing for bigger bills",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY2hQb1JpR3ZGZmFZR2tsWFdwWWJ0VW5tbkZDY2lHSEY0bDRKNWZpMjNsQWFteWFnamZUeFhqZXVUalFaSG1jRE4tQWRTTkRKS1VKM3N1b09TQktiQ1BkV3E5anhQNEs0aTlXSUU3LUktLXc1ODlGSU9BMG1rZVJnS3ZIZzVGWWNPcG11Q3pPU1RpMmdvNG5RUUt4V3plOHZKcUNfeUtzR0xQdGxVb1VuMHBfVG5yR2h6NEVOUHF2c281TkdoUzFpZXNjUTExUQ?oc=5",
+          "source": "Athol Daily News",
+          "source_type": "rss",
+          "published_at": "2026-11-15T15:00:00+00:00",
+          "confidence": 0.6
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_71cf3072e142d9",
+      "topic": "gasoline",
+      "lead_title": "AAA: National Average Gas Price Dips Below $4 a Gallon",
+      "lead_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUDB5M1RJOFBuYWdIUDd6bnZvMU9TRTdtbC02TjBjR09ocXlVWkRWdk54eW4xZDNLbDBMTHZxM3ZOX1kzN1lCWUZMS3IyMF9Kbm5kVEdEcV9oZm04T3pLR1Y0eGl5Q0M5M21SaFlWWGpFcGJLUVdFaEFzdHZBQTZCY013?oc=5",
+      "lead_source": "RVBusiness",
+      "canonical_entities": [
+        "AAA"
+      ],
+      "source_count": 3,
+      "distinct_publishers": 3,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-13T11:01:22+00:00",
+      "latest_seen": "2026-11-13T16:54:05+00:00",
+      "age_hours": 50.85,
+      "score": 48.5,
+      "score_components": {
+        "source_count_points": 15,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "9a3303e54105d518",
+          "title": "AAA: National Average Gas Price Dips Below $4 a Gallon",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUDB5M1RJOFBuYWdIUDd6bnZvMU9TRTdtbC02TjBjR09ocXlVWkRWdk54eW4xZDNLbDBMTHZxM3ZOX1kzN1lCWUZMS3IyMF9Kbm5kVEdEcV9oZm04T3pLR1Y0eGl5Q0M5M21SaFlWWGpFcGJLUVdFaEFzdHZBQTZCY013?oc=5",
+          "source": "RVBusiness",
+          "source_type": "rss",
+          "published_at": "2026-11-13T16:54:05+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "a9bf2999668ffd7d",
+          "title": "AAA: Average US Gas Price Drops Below $4",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fUXRWbUlrMi01TzJqekF0QnM2Y3VpQmZ5cnZOZGV2aEZ6MUZHOFRDQ2NYTlpVVE9DTVZHNk5iNTJLVzY2cDg2S095QlhpVmQtYjZCbU5QTXVDeUJvMmEwaGYxTzlORmh0QlV2S2d4WlU?oc=5",
+          "source": "RV PRO",
+          "source_type": "rss",
+          "published_at": "2026-11-13T16:21:49+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "268c0711e7fc3034",
+          "title": "National gas price average falls below $4 for first time since July, AAA says",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd1diSGFIVXZKYlZSY0dHakp5VDI5dmMtN0dwSVY3WFpIOW5XUkhEZDUzY2wxWTNuSTlnelN6RVNyLVVqc254UXNCZ09vcjB4MEh0RV9sQzNNZEo5cWhQS2h4R1pOZ0N4NnljN01lRDlDU182V0w5NkJNbmVBX0Q2MEhHbDd0MkVlbk9tWFJzSVlHZUNJcHFTZVBwRGdNNHc?oc=5",
+          "source": "WRNJ Radio",
+          "source_type": "rss",
+          "published_at": "2026-11-13T11:01:22+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -60,17 +412,17 @@
       ],
       "earliest_seen": "2026-11-15T13:36:52+00:00",
       "latest_seen": "2026-11-15T13:36:52+00:00",
-      "age_hours": 0.42,
-      "score": 57.75,
+      "age_hours": 6.13,
+      "score": 44.32,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.75,
+        "recency_points": 21.32,
         "source_quality_points": 18.0,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "fff450268da87d29",
@@ -82,46 +434,96 @@
           "confidence": 0.6
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
-      "cluster_id": "c_fe3bfd8544f044",
+      "cluster_id": "c_cddc2d61a20a2b",
       "topic": "gasoline",
-      "lead_title": "FILE PHOTO: Gas prices are displayed at a Love's gas station in Magee",
-      "lead_url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRF9rUkt5R2dqRU9ubXpzYkMwV0l2blRHQU5RaVlsZnh2WVdheUtyUTBtUEp2SERTNU1QbWpQdTQ1UDNQdmNQT3FJRE1CY3hKdGZRd1Y1TFJET2pyVVl6a3dkWlkwQkd2Rk9BdTE4aGZtTkNSNk5VTVM5LVZ3dUl2djItNHYyczUxXzc5bFAwNndxU1dyYUR4ZXlwRTcwcDJZbVhCUkdjd0dWcW1pSEpZVzhsYndXUzJyRk0teFVFWDctZHEwWXhqZFlpSTl0aEktTmxmVlBGMUFVb0EzaU9BdDhuT2VOYnhhU1hoOFdYTmlsU0o3?oc=5",
-      "lead_source": "The Daily News | Texas' Oldest Newspaper",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
+      "lead_title": "Nevada gas prices fall 22 cents in a week, AAA says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRnJfRGhfZlU5aDhuNDRxWjVHQ3BsX2hTU2hWSWowdWJIN1FnSnNnQ3NLeUMyLWdXZDRuaGZmbTBpTi1EaDVuX1dfT3c5UUxaTURHdUo3UzVwXzljSjUwcWpfelVNLWV4NFpmUnBwbmM2akpEbXhHaWVTbmxiRUVTQjI0LUZDb2o1M0J3?oc=5",
+      "lead_source": "FOX5 Vegas",
+      "canonical_entities": [
+        "AAA"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-11-15T12:00:40+00:00",
-      "latest_seen": "2026-11-15T12:00:40+00:00",
-      "age_hours": 2.03,
-      "score": 56.78,
+      "earliest_seen": "2026-11-12T19:22:00+00:00",
+      "latest_seen": "2026-11-13T18:50:00+00:00",
+      "age_hours": 48.91,
+      "score": 43.5,
       "score_components": {
-        "source_count_points": 5,
-        "recency_points": 23.78,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
+        "source_count_points": 10,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
         "materiality_points": 10.0
       },
       "novelty": "new",
       "first_seen_cluster": true,
       "evidence": [
         {
+          "headline_id": "ac613a8cd8a7468a",
+          "title": "Nevada gas prices fall 22 cents in a week, AAA says",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRnJfRGhfZlU5aDhuNDRxWjVHQ3BsX2hTU2hWSWowdWJIN1FnSnNnQ3NLeUMyLWdXZDRuaGZmbTBpTi1EaDVuX1dfT3c5UUxaTURHdUo3UzVwXzljSjUwcWpfelVNLWV4NFpmUnBwbmM2akpEbXhHaWVTbmxiRUVTQjI0LUZDb2o1M0J3?oc=5",
+          "source": "FOX5 Vegas",
+          "source_type": "rss",
+          "published_at": "2026-11-13T18:50:00+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "fc164ef6c52c5b49",
+          "title": "Jonesboro gas prices drop 15 cents in a week, AAA says",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTHJyU2dmUFdhbDNwbHF0OEtCemhSU296U1VmQ2NSZjFteXpQX3N1SFVDWkdwNFBNWTBpNm1Wd2VERmpoVXZCdlpUM1MxaWk5VnE3QUVnYmJIREtPa1RNQldUWHRIV1BvY1ZxN1FHZndBMDI2OVp2UmFxNlhtVGRHZnVKclduNkJQdlE?oc=5",
+          "source": "K8 News | Jonesboro, Arkansas",
+          "source_type": "rss",
+          "published_at": "2026-11-12T19:22:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_fe3bfd8544f044",
+      "topic": "gasoline",
+      "lead_title": "FILE PHOTO: Gas prices are displayed at a Love's gas station in Magee",
+      "lead_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUVZfb2R6WUYzcWVEb3dqMWxvbzN2ZWhfM3FLTno5U0x4aGFwVFB5ZWF5TU9rb2Nkci1hU1dYdUJFVlJNYVFBQlJvQUpJX0hrUjJDMjk3WWJaRThDLWprY0FFcnhUYV95dFRld3lQbDBDdlhqOG1lT3BRLU50cnNqUUFMcHFBd3ZSdkgyWmZDUlkxX2tuNHlFSW9hRG5kZlhhYmFrcFBVS1RSZVlFOTByNTdfdmRnZ2NEb3NDdEtqVV9VQW5XTW5XYklxYlFpRU5wMTd3UzNubXN1WmdnQjMtTmQ0R0Y2ZDlqYjJUUzI1TVpwZDRxWm9MbA?oc=5",
+      "lead_source": "The Lufkin Daily News",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-15T11:14:42+00:00",
+      "latest_seen": "2026-11-15T11:14:42+00:00",
+      "age_hours": 8.5,
+      "score": 42.9,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 19.9,
+        "source_quality_points": 18.0,
+        "entity_relevance_points": 0,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
           "headline_id": "d203571399ae0b72",
           "title": "FILE PHOTO: Gas prices are displayed at a Love's gas station in Magee",
-          "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPRF9rUkt5R2dqRU9ubXpzYkMwV0l2blRHQU5RaVlsZnh2WVdheUtyUTBtUEp2SERTNU1QbWpQdTQ1UDNQdmNQT3FJRE1CY3hKdGZRd1Y1TFJET2pyVVl6a3dkWlkwQkd2Rk9BdTE4aGZtTkNSNk5VTVM5LVZ3dUl2djItNHYyczUxXzc5bFAwNndxU1dyYUR4ZXlwRTcwcDJZbVhCUkdjd0dWcW1pSEpZVzhsYndXUzJyRk0teFVFWDctZHEwWXhqZFlpSTl0aEktTmxmVlBGMUFVb0EzaU9BdDhuT2VOYnhhU1hoOFdYTmlsU0o3?oc=5",
-          "source": "The Daily News | Texas' Oldest Newspaper",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNUVZfb2R6WUYzcWVEb3dqMWxvbzN2ZWhfM3FLTno5U0x4aGFwVFB5ZWF5TU9rb2Nkci1hU1dYdUJFVlJNYVFBQlJvQUpJX0hrUjJDMjk3WWJaRThDLWprY0FFcnhUYV95dFRld3lQbDBDdlhqOG1lT3BRLU50cnNqUUFMcHFBd3ZSdkgyWmZDUlkxX2tuNHlFSW9hRG5kZlhhYmFrcFBVS1RSZVlFOTByNTdfdmRnZ2NEb3NDdEtqVV9VQW5XTW5XYklxYlFpRU5wMTd3UzNubXN1WmdnQjMtTmQ0R0Y2ZDlqYjJUUzI1TVpwZDRxWm9MbA?oc=5",
+          "source": "The Lufkin Daily News",
           "source_type": "rss",
-          "published_at": "2026-11-15T12:00:40+00:00",
+          "published_at": "2026-11-15T11:14:42+00:00",
           "confidence": 0.6
         }
       ],
-      "top_tier": true,
+      "top_tier": false,
       "low_priority": false
     },
     {
@@ -138,17 +540,17 @@
       ],
       "earliest_seen": "2026-11-15T10:30:00+00:00",
       "latest_seen": "2026-11-15T10:30:00+00:00",
-      "age_hours": 3.54,
-      "score": 55.88,
+      "age_hours": 9.25,
+      "score": 42.45,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.88,
+        "recency_points": 19.45,
         "source_quality_points": 18.0,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "3796ebae6416da90",
@@ -177,17 +579,17 @@
       ],
       "earliest_seen": "2026-11-15T09:18:00+00:00",
       "latest_seen": "2026-11-15T09:18:00+00:00",
-      "age_hours": 4.74,
-      "score": 55.16,
+      "age_hours": 10.45,
+      "score": 41.73,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.16,
+        "recency_points": 18.73,
         "source_quality_points": 18.0,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "62c00ac2cdcc0e80",
@@ -216,17 +618,17 @@
       ],
       "earliest_seen": "2026-11-15T08:28:59+00:00",
       "latest_seen": "2026-11-15T08:28:59+00:00",
-      "age_hours": 5.55,
-      "score": 54.67,
+      "age_hours": 11.26,
+      "score": 41.24,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 21.67,
+        "recency_points": 18.24,
         "source_quality_points": 18.0,
         "entity_relevance_points": 0,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "6d0120fa825f0773",
@@ -242,172 +644,22 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_41cc5c14e7e89e",
+      "cluster_id": "c_a7b847155c5132",
       "topic": "gasoline",
-      "lead_title": "AAA report: Utah gas prices fall 27 cents in one week; average cost in national top 10",
-      "lead_url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWnJOMVp4RUVjNUxXZmZTWmJzWk80b25BM1YxaTNMdENBWkltdE53QlNtcGx6T2ZNdW5IUjM1T3BReC1rWDdVbl9LaDlLWVhQc2RnWWZ1R0dmNUFmaUZnejZuWlJUU2hTMU4wZUE0RkxNYUxNMGMzN0JYbERLV19xd1ppdlBsRFZPaG9hODhYV19IODY5U011U25FVHk4ZkhsQXNhclpiVHRxbFFycV9MTkRUS3VaTzFMbFNDQjV1MzFQT3hHR3hJNWhiX0tJT3M0QklWZGlCUzFvanNjLVF2MWU5OHp4aG9QYVlneThmc3ZDS1E?oc=5",
-      "lead_source": "St. George News",
+      "lead_title": "AAA Fuel Prices",
+      "lead_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU0NXQ2hjTDllSV9pN1hTOXVONDFlWk9LTnNxd3FiVU1pbGVzQnd5UHA2R05NMUxHZmxQdHpDQkxwVFI4TEs4QnlYMWFkNGt6V2l4b2VMR3VnLXFfTjBfcDliNE0ydFByQmw0UEdHNldXNHp0bEE5aTVMNUt3c0E3dXVFeVZMOW5W?oc=5",
+      "lead_source": "AAA Fuel Prices",
       "canonical_entities": [
         "AAA"
-      ],
-      "source_count": 3,
-      "distinct_publishers": 3,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-13T11:26:23+00:00",
-      "latest_seen": "2026-11-14T15:00:00+00:00",
-      "age_hours": 23.04,
-      "score": 44.68,
-      "score_components": {
-        "source_count_points": 15,
-        "recency_points": 11.18,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "fd6cf2a8fcaa1984",
-          "title": "AAA report: Utah gas prices fall 27 cents in one week; average cost in national top 10",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNWnJOMVp4RUVjNUxXZmZTWmJzWk80b25BM1YxaTNMdENBWkltdE53QlNtcGx6T2ZNdW5IUjM1T3BReC1rWDdVbl9LaDlLWVhQc2RnWWZ1R0dmNUFmaUZnejZuWlJUU2hTMU4wZUE0RkxNYUxNMGMzN0JYbERLV19xd1ppdlBsRFZPaG9hODhYV19IODY5U011U25FVHk4ZkhsQXNhclpiVHRxbFFycV9MTkRUS3VaTzFMbFNDQjV1MzFQT3hHR3hJNWhiX0tJT3M0QklWZGlCUzFvanNjLVF2MWU5OHp4aG9QYVlneThmc3ZDS1E?oc=5",
-          "source": "St. George News",
-          "source_type": "rss",
-          "published_at": "2026-11-14T15:00:00+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "ac613a8cd8a7468a",
-          "title": "Nevada gas prices fall 22 cents in a week, AAA says",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRnJfRGhfZlU5aDhuNDRxWjVHQ3BsX2hTU2hWSWowdWJIN1FnSnNnQ3NLeUMyLWdXZDRuaGZmbTBpTi1EaDVuX1dfT3c5UUxaTURHdUo3UzVwXzljSjUwcWpfelVNLWV4NFpmUnBwbmM2akpEbXhHaWVTbmxiRUVTQjI0LUZDb2o1M0J3?oc=5",
-          "source": "FOX5 Vegas",
-          "source_type": "rss",
-          "published_at": "2026-11-13T18:50:00+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "44931a61897791cb",
-          "title": "AAA: California Gas Prices Fall 20 Cents in a Week",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPamNlZFpDcVREai1HZEx3TkkwWWtTQURjRFZ4aUZMNW05dzhWSU9neFRkdXBjay02MHk2X2pKNnpuS1dNNFhPREkzLVBFWmdYMldNZUhqZkNPUmR4dHZLWjBpMFZzMXcyQzM1c05md0ZrZHVaQXlfRmdvbUllMkh3UEcwOE5sSllnMlpUT0FOWQ?oc=5",
-          "source": "Contra Costa News",
-          "source_type": "rss",
-          "published_at": "2026-11-13T11:26:23+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0d92dbe616b572",
-      "topic": "gasoline",
-      "lead_title": "AAA: Average US Gas Price Drops Below $4",
-      "lead_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fUXRWbUlrMi01TzJqekF0QnM2Y3VpQmZ5cnZOZGV2aEZ6MUZHOFRDQ2NYTlpVVE9DTVZHNk5iNTJLVzY2cDg2S095QlhpVmQtYjZCbU5QTXVDeUJvMmEwaGYxTzlORmh0QlV2S2d4WlU?oc=5",
-      "lead_source": "RV PRO",
-      "canonical_entities": [
-        "AAA"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-13T11:01:22+00:00",
-      "latest_seen": "2026-11-13T16:21:49+00:00",
-      "age_hours": 45.67,
-      "score": 43.5,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "a9bf2999668ffd7d",
-          "title": "AAA: Average US Gas Price Drops Below $4",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1fUXRWbUlrMi01TzJqekF0QnM2Y3VpQmZ5cnZOZGV2aEZ6MUZHOFRDQ2NYTlpVVE9DTVZHNk5iNTJLVzY2cDg2S095QlhpVmQtYjZCbU5QTXVDeUJvMmEwaGYxTzlORmh0QlV2S2d4WlU?oc=5",
-          "source": "RV PRO",
-          "source_type": "rss",
-          "published_at": "2026-11-13T16:21:49+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "268c0711e7fc3034",
-          "title": "National gas price average falls below $4 for first time since July, AAA says",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQd1diSGFIVXZKYlZSY0dHakp5VDI5dmMtN0dwSVY3WFpIOW5XUkhEZDUzY2wxWTNuSTlnelN6RVNyLVVqc254UXNCZ09vcjB4MEh0RV9sQzNNZEo5cWhQS2h4R1pOZ0N4NnljN01lRDlDU182V0w5NkJNbmVBX0Q2MEhHbDd0MkVlbk9tWFJzSVlHZUNJcHFTZVBwRGdNNHc?oc=5",
-          "source": "WRNJ Radio",
-          "source_type": "rss",
-          "published_at": "2026-11-13T11:01:22+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_630f7913963cdc",
-      "topic": "gasoline",
-      "lead_title": "Hybrids make gains in US auto market amid high gasoline prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV09Mb2FXNXYzSHNMbENTRE1lVkctWTA0M2ZhdEdoWWdCbWVjQlI2ODdVZ3lOWDFXVVZ5VXQ4dHhrN2FWQzluU0dIR0FzSldmREpENThkT3dtdklseUwtR2dWNnJiNk1FNW9FMkF1eTM4YU1GbWZSbWFhT3Q5SUoyVHZsa2k4aXV6a0pKMnB3?oc=5",
-      "lead_source": "Yahoo Finance",
-      "canonical_entities": [
-        "gasoline"
       ],
       "source_count": 1,
       "distinct_publishers": 1,
       "source_types": [
         "rss"
       ],
-      "earliest_seen": "2026-11-15T01:49:00+00:00",
-      "latest_seen": "2026-11-15T01:49:00+00:00",
-      "age_hours": 12.22,
-      "score": 41.17,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 17.67,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "c3db71c6430ce866",
-          "title": "Hybrids make gains in US auto market amid high gasoline prices",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV09Mb2FXNXYzSHNMbENTRE1lVkctWTA0M2ZhdEdoWWdCbWVjQlI2ODdVZ3lOWDFXVVZ5VXQ4dHhrN2FWQzluU0dIR0FzSldmREpENThkT3dtdklseUwtR2dWNnJiNk1FNW9FMkF1eTM4YU1GbWZSbWFhT3Q5SUoyVHZsa2k4aXV6a0pKMnB3?oc=5",
-          "source": "Yahoo Finance",
-          "source_type": "rss",
-          "published_at": "2026-11-15T01:49:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_8a6ee4a1ff2d98",
-      "topic": "gasoline",
-      "lead_title": "Pain at the pump eases slightly as diesel prices inch downward",
-      "lead_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ3g2cmRzQUUxLWRzS3ZHYWhjNzJpMWdERmpxQ3hUb05EU3lOai1ua21ud1NJZGx0SmtUTlQxMFhUOTNObHc0RmtWclh6NkpZLUlyeUh3UWVHWWg2UWNGMHVPcnllQWlCcDAtckFyNUVteUZIbU1CU0Flbi1BNFN2dGVSeVlLQmplS3dqeE5UaFdBNU5NUDUzckpSQTIyRGpvVy1KQk5WZkJ5anZHdFNVMjZrOA?oc=5",
-      "lead_source": "Truckers News",
-      "canonical_entities": [
-        "pump"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-13T07:44:08+00:00",
-      "latest_seen": "2026-11-13T07:44:08+00:00",
-      "age_hours": 54.3,
+      "earliest_seen": "2026-09-24T07:00:00+00:00",
+      "latest_seen": "2026-09-24T07:00:00+00:00",
+      "age_hours": 1260.75,
       "score": 38.5,
       "score_components": {
         "source_count_points": 5,
@@ -420,12 +672,12 @@
       "first_seen_cluster": true,
       "evidence": [
         {
-          "headline_id": "ef94c3eff8ebb549",
-          "title": "Pain at the pump eases slightly as diesel prices inch downward",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZ3g2cmRzQUUxLWRzS3ZHYWhjNzJpMWdERmpxQ3hUb05EU3lOai1ua21ud1NJZGx0SmtUTlQxMFhUOTNObHc0RmtWclh6NkpZLUlyeUh3UWVHWWg2UWNGMHVPcnllQWlCcDAtckFyNUVteUZIbU1CU0Flbi1BNFN2dGVSeVlLQmplS3dqeE5UaFdBNU5NUDUzckpSQTIyRGpvVy1KQk5WZkJ5anZHdFNVMjZrOA?oc=5",
-          "source": "Truckers News",
+          "headline_id": "9dfb84ae98370f2e",
+          "title": "AAA Fuel Prices",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNU0NXQ2hjTDllSV9pN1hTOXVONDFlWk9LTnNxd3FiVU1pbGVzQnd5UHA2R05NMUxHZmxQdHpDQkxwVFI4TEs4QnlYMWFkNGt6V2l4b2VMR3VnLXFfTjBfcDliNE0ydFByQmw0UEdHNldXNHp0bEE5aTVMNUt3c0E3dXVFeVZMOW5W?oc=5",
+          "source": "AAA Fuel Prices",
           "source_type": "rss",
-          "published_at": "2026-11-13T07:44:08+00:00",
+          "published_at": "2026-09-24T07:00:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -448,11 +700,11 @@
       ],
       "earliest_seen": "2026-11-14T20:15:00+00:00",
       "latest_seen": "2026-11-14T20:15:00+00:00",
-      "age_hours": 17.79,
-      "score": 37.83,
+      "age_hours": 23.5,
+      "score": 34.4,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 14.33,
+        "recency_points": 10.9,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -487,11 +739,11 @@
       ],
       "earliest_seen": "2026-11-14T14:30:01+00:00",
       "latest_seen": "2026-11-14T14:30:01+00:00",
-      "age_hours": 23.54,
-      "score": 37.28,
+      "age_hours": 29.25,
+      "score": 33.85,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 10.88,
+        "recency_points": 7.45,
         "source_quality_points": 26.4,
         "entity_relevance_points": 0,
         "materiality_points": -5.0
@@ -513,240 +765,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_9d083711f50f86",
-      "topic": "gasoline",
-      "lead_title": "LA, Orange County Gas Prices Continue Downward Trend",
-      "lead_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSHBQaE9zZExxLWw4dElwWmhkbDBpdXhxWGtuWHVfOGthTWEyQWdzYlNRS3E4NGM0QUdBcjBJTGhXb0xnTVhKekdpa0xRNWJMMUQ2THo2TGpIZ1pzNndaM2FVRkM5b1BGSTNjbmdOTUQzYTluZUN3Ri1SWDczLTJmcXVQSzl4NkNZUW9qRC1ienhlczRDbnNpQnJHWHdpVU0?oc=5",
-      "lead_source": "MyNewsLA.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-14T21:42:27+00:00",
-      "latest_seen": "2026-11-14T21:42:27+00:00",
-      "age_hours": 16.33,
-      "score": 33.2,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 15.2,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "0a89af38aa7d59f9",
-          "title": "LA, Orange County Gas Prices Continue Downward Trend",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSHBQaE9zZExxLWw4dElwWmhkbDBpdXhxWGtuWHVfOGthTWEyQWdzYlNRS3E4NGM0QUdBcjBJTGhXb0xnTVhKekdpa0xRNWJMMUQ2THo2TGpIZ1pzNndaM2FVRkM5b1BGSTNjbmdOTUQzYTluZUN3Ri1SWDczLTJmcXVQSzl4NkNZUW9qRC1ienhlczRDbnNpQnJHWHdpVU0?oc=5",
-          "source": "MyNewsLA.com",
-          "source_type": "rss",
-          "published_at": "2026-11-14T21:42:27+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_79fc75fe0c683a",
-      "topic": "gasoline",
-      "lead_title": "National Gas Prices Fall Below $4 per gallon for first time since July",
-      "lead_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYmpYTGNRblhweEJnMFFRSGZBVFFwaVdHazI1OU10OXZuVDJ2azdib0laSFlWaGE4MUxnNlRKaDlhV1AtaGNyYzZhVGtFeUEyejVlcUEwY0NUNHYwaUpsRUdRdjVlUXhwN2tNVGFlRVlHT0Fqd09oYU5iYjFJdlFVdTc4czc2MG1WT2xfeGxTMzJRc3U1aUE0YWNudmdHcl9oMTkzMFVnRDVrakRaZHRXQXRrc1FhOXhGMWlhQXBwSkRWeHU5dDlN?oc=5",
-      "lead_source": "Citizen Tribune",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-14T20:00:00+00:00",
-      "latest_seen": "2026-11-14T20:00:00+00:00",
-      "age_hours": 18.04,
-      "score": 32.18,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.18,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "9a3877fc8d3ef142",
-          "title": "National Gas Prices Fall Below $4 per gallon for first time since July",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYmpYTGNRblhweEJnMFFRSGZBVFFwaVdHazI1OU10OXZuVDJ2azdib0laSFlWaGE4MUxnNlRKaDlhV1AtaGNyYzZhVGtFeUEyejVlcUEwY0NUNHYwaUpsRUdRdjVlUXhwN2tNVGFlRVlHT0Fqd09oYU5iYjFJdlFVdTc4czc2MG1WT2xfeGxTMzJRc3U1aUE0YWNudmdHcl9oMTkzMFVnRDVrakRaZHRXQXRrc1FhOXhGMWlhQXBwSkRWeHU5dDlN?oc=5",
-          "source": "Citizen Tribune",
-          "source_type": "rss",
-          "published_at": "2026-11-14T20:00:00+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_1ae6c502d28d52",
-      "topic": "gasoline",
-      "lead_title": "Riverside County Gas Prices Still Falling",
-      "lead_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWkZwNDQ0RlBEaDdBOE5FWVREQ3FUOXEzdklQYTkzN0ZJS3ZDa25zS0JncGk5MG5mUVdMRDlRUmhhTjJFZ041clFHS1hCbDB0czVpalJ3dzNoMWZjUzdDWUMzdEhXd09Ud0Q3MVVjNG1oODl3UmRrLTY5WGtwSWx4QlQwamszUnFHT0RuODg4NA?oc=5",
-      "lead_source": "MyNewsLA.com",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-14T19:42:18+00:00",
-      "latest_seen": "2026-11-14T19:42:18+00:00",
-      "age_hours": 18.33,
-      "score": 32.0,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 14.0,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "8c6aba3a4168feeb",
-          "title": "Riverside County Gas Prices Still Falling",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWkZwNDQ0RlBEaDdBOE5FWVREQ3FUOXEzdklQYTkzN0ZJS3ZDa25zS0JncGk5MG5mUVdMRDlRUmhhTjJFZ041clFHS1hCbDB0czVpalJ3dzNoMWZjUzdDWUMzdEhXd09Ud0Q3MVVjNG1oODl3UmRrLTY5WGtwSWx4QlQwamszUnFHT0RuODg4NA?oc=5",
-          "source": "MyNewsLA.com",
-          "source_type": "rss",
-          "published_at": "2026-11-14T19:42:18+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_add094eedfc818",
-      "topic": "gasoline",
-      "lead_title": "Diesel Prices Used To Be Cheaper Than Gas - Here's Why That Changed",
-      "lead_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVHdRa0tLVENtS1hVbjZvM3RBXzNyQzJhcDI5Ukt4M21UU0hYbTRuRE9rZUc5MEpzZ0hRTU0teVJXU19rRjdfUU9YZkI5RDhHWk14Rk9PMHZFX3BNTFpWRlZxUGJQNkJqcWp3NTF1dk5yS1FJZFhhWHp2QU5mSFVuTkxsM1F1dw?oc=5",
-      "lead_source": "Jalopnik",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-14T17:05:00+00:00",
-      "latest_seen": "2026-11-14T17:05:00+00:00",
-      "age_hours": 20.95,
-      "score": 30.43,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 12.43,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "3095721b8b47f6d0",
-          "title": "Diesel Prices Used To Be Cheaper Than Gas - Here's Why That Changed",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVHdRa0tLVENtS1hVbjZvM3RBXzNyQzJhcDI5Ukt4M21UU0hYbTRuRE9rZUc5MEpzZ0hRTU0teVJXU19rRjdfUU9YZkI5RDhHWk14Rk9PMHZFX3BNTFpWRlZxUGJQNkJqcWp3NTF1dk5yS1FJZFhhWHp2QU5mSFVuTkxsM1F1dw?oc=5",
-          "source": "Jalopnik",
-          "source_type": "rss",
-          "published_at": "2026-11-14T17:05:00+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_dbdfadc11b44da",
-      "topic": "gasoline",
-      "lead_title": "Stronger Waha prices change midstream economics",
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYnpmMnJxMFpQOVdxQ3dVUmFkSmtNZUtxNUo0THd2UEUtdXFHYnJoWVgyYW43WmNMTGtMMjN5UlJONzFZa2E0NkllaGlSeGc1akQzckFXamFkWFRHVkxrZk93VV9CWVktLW5wOFdnUE5scE9XSGU5OHY4Q2lPazlHNjRqQUw1MjFKWXVYemtZdC1xaXdZUGZmM0tqdzI0cloyOVNB?oc=5",
-      "lead_source": "Midland Reporter-Telegram",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-14T16:57:55+00:00",
-      "latest_seen": "2026-11-14T16:57:55+00:00",
-      "age_hours": 21.07,
-      "score": 30.36,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 12.36,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "c286d2bcd4efc22a",
-          "title": "Stronger Waha prices change midstream economics",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYnpmMnJxMFpQOVdxQ3dVUmFkSmtNZUtxNUo0THd2UEUtdXFHYnJoWVgyYW43WmNMTGtMMjN5UlJONzFZa2E0NkllaGlSeGc1akQzckFXamFkWFRHVkxrZk93VV9CWVktLW5wOFdnUE5scE9XSGU5OHY4Q2lPazlHNjRqQUw1MjFKWXVYemtZdC1xaXdZUGZmM0tqdzI0cloyOVNB?oc=5",
-          "source": "Midland Reporter-Telegram",
-          "source_type": "rss",
-          "published_at": "2026-11-14T16:57:55+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_76a091705acf67",
-      "topic": "gasoline",
-      "lead_title": "Jonesboro Gas Prices Dip Below $3.50 as National Average Finally Falls Under $4",
-      "lead_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTGdlR3IwUFBIUDZHU0o1Z1VKN3g4U3JpMlVCVFp6ME9BbFBNZVpnNVplSXd2Y1pIWm9lOHJsUjViUEg4eDhDVTNNVXFISTRpaHd3ZFZoSGtCdkNqV3VYMlJIZmRKV1lEY0o2UHJrWm9Vb0l6QTNnMlhWYkZKTEJvOWI5MkR5by1Zbl9jbzZ2NXJRa3RrdWV0bmItUGxuTXNQb3RlZWtsbjRSMEpheGRkWFYwbnZLeEd6REV1OA?oc=5",
-      "lead_source": "Jonesboro Right Now",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-14T16:21:16+00:00",
-      "latest_seen": "2026-11-14T16:21:16+00:00",
-      "age_hours": 21.68,
-      "score": 29.99,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 11.99,
-        "source_quality_points": 18.0,
-        "entity_relevance_points": 0,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "d5ce0f941fdabc0f",
-          "title": "Jonesboro Gas Prices Dip Below $3.50 as National Average Finally Falls Under $4",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTGdlR3IwUFBIUDZHU0o1Z1VKN3g4U3JpMlVCVFp6ME9BbFBNZVpnNVplSXd2Y1pIWm9lOHJsUjViUEg4eDhDVTNNVXFISTRpaHd3ZFZoSGtCdkNqV3VYMlJIZmRKV1lEY0o2UHJrWm9Vb0l6QTNnMlhWYkZKTEJvOWI5MkR5by1Zbl9jbzZ2NXJRa3RrdWV0bmItUGxuTXNQb3RlZWtsbjRSMEpheGRkWFYwbnZLeEd6REV1OA?oc=5",
-          "source": "Jonesboro Right Now",
-          "source_type": "rss",
-          "published_at": "2026-11-14T16:21:16+00:00",
-          "confidence": 0.6
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_77c4659cfd71f0",
       "topic": "gasoline",
       "lead_title": "Gas prices in Massachusetts fall below $4 a gallon on average for first time in months, AAA says",
@@ -762,7 +780,7 @@
       ],
       "earliest_seen": "2026-11-13T16:18:00+00:00",
       "latest_seen": "2026-11-13T16:18:00+00:00",
-      "age_hours": 45.74,
+      "age_hours": 51.45,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -803,7 +821,7 @@
       ],
       "earliest_seen": "2026-11-13T15:53:03+00:00",
       "latest_seen": "2026-11-13T15:53:03+00:00",
-      "age_hours": 46.15,
+      "age_hours": 51.86,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -844,7 +862,7 @@
       ],
       "earliest_seen": "2026-11-13T15:33:37+00:00",
       "latest_seen": "2026-11-13T15:33:37+00:00",
-      "age_hours": 46.48,
+      "age_hours": 52.19,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -870,47 +888,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_b26c6a1d30031b",
-      "topic": "gasoline",
-      "lead_title": "Jonesboro gas prices drop 15 cents in a week, AAA says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTHJyU2dmUFdhbDNwbHF0OEtCemhSU296U1VmQ2NSZjFteXpQX3N1SFVDWkdwNFBNWTBpNm1Wd2VERmpoVXZCdlpUM1MxaWk5VnE3QUVnYmJIREtPa1RNQldUWHRIV1BvY1ZxN1FHZndBMDI2OVp2UmFxNlhtVGRHZnVKclduNkJQdlE?oc=5",
-      "lead_source": "K8 News | Jonesboro, Arkansas",
-      "canonical_entities": [
-        "AAA"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-12T19:22:00+00:00",
-      "latest_seen": "2026-11-12T19:22:00+00:00",
-      "age_hours": 66.67,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "fc164ef6c52c5b49",
-          "title": "Jonesboro gas prices drop 15 cents in a week, AAA says",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTHJyU2dmUFdhbDNwbHF0OEtCemhSU296U1VmQ2NSZjFteXpQX3N1SFVDWkdwNFBNWTBpNm1Wd2VERmpoVXZCdlpUM1MxaWk5VnE3QUVnYmJIREtPa1RNQldUWHRIV1BvY1ZxN1FHZndBMDI2OVp2UmFxNlhtVGRHZnVKclduNkJQdlE?oc=5",
-          "source": "K8 News | Jonesboro, Arkansas",
-          "source_type": "rss",
-          "published_at": "2026-11-12T19:22:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_e50dc5209908da",
       "topic": "gasoline",
       "lead_title": "AAA Fuel Prices",
@@ -926,7 +903,7 @@
       ],
       "earliest_seen": "2026-11-12T17:25:20+00:00",
       "latest_seen": "2026-11-12T17:25:20+00:00",
-      "age_hours": 68.61,
+      "age_hours": 74.32,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -952,47 +929,6 @@
       "low_priority": false
     },
     {
-      "cluster_id": "c_f5a549dc38c79e",
-      "topic": "gasoline",
-      "lead_title": "Gasoline prices fall to $4.19 in Vermont, $3.90 in US",
-      "lead_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMjBBVERxVmJXVFFhY2w0U3phMUxadDdUVk9vM3AzUjVnN1Z1SDhmUGxwbkVyVFpsUGNjVTJRanBpU21kdGtSeXpKcDVoZWRoTnlWWFZtd3Zmak9OV0FodXhIYm5xZW1nNDFfQkd3NExlREE1a3NfUlp1bVpQak9QQkYxTUhkU1BvOGlFQQ?oc=5",
-      "lead_source": "Vermont Business Magazine",
-      "canonical_entities": [
-        "gasoline"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-12T15:00:39+00:00",
-      "latest_seen": "2026-11-12T15:00:39+00:00",
-      "age_hours": 71.03,
-      "score": 23.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "50529d5b7fe86771",
-          "title": "Gasoline prices fall to $4.19 in Vermont, $3.90 in US",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMjBBVERxVmJXVFFhY2w0U3phMUxadDdUVk9vM3AzUjVnN1Z1SDhmUGxwbkVyVFpsUGNjVTJRanBpU21kdGtSeXpKcDVoZWRoTnlWWFZtd3Zmak9OV0FodXhIYm5xZW1nNDFfQkd3NExlREE1a3NfUlp1bVpQak9QQkYxTUhkU1BvOGlFQQ?oc=5",
-          "source": "Vermont Business Magazine",
-          "source_type": "rss",
-          "published_at": "2026-11-12T15:00:39+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
       "cluster_id": "c_30a688c8d217ad",
       "topic": "gasoline",
       "lead_title": "Why is gasoline suddenly under $4 a gallon?",
@@ -1008,7 +944,7 @@
       ],
       "earliest_seen": "2026-11-11T19:59:14+00:00",
       "latest_seen": "2026-11-11T19:59:14+00:00",
-      "age_hours": 90.05,
+      "age_hours": 95.76,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1049,7 +985,7 @@
       ],
       "earliest_seen": "2026-11-11T19:15:00+00:00",
       "latest_seen": "2026-11-11T19:15:00+00:00",
-      "age_hours": 90.79,
+      "age_hours": 96.5,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1090,7 +1026,7 @@
       ],
       "earliest_seen": "2026-11-10T22:00:00+00:00",
       "latest_seen": "2026-11-10T22:00:00+00:00",
-      "age_hours": 112.04,
+      "age_hours": 117.75,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
