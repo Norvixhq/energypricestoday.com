@@ -1,30 +1,28 @@
 {
   "version": 2,
-  "generated_at": "2026-11-26T03:47:20.662263+00:00",
-  "previous_generated_at": "2026-11-25T21:33:02.553544+00:00",
-  "resolver_run_count": 216,
+  "generated_at": "2026-11-26T13:17:23.517607+00:00",
+  "previous_generated_at": "2026-11-26T03:47:20.662263+00:00",
+  "resolver_run_count": 217,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Oil rises as Hormuz attacks counter recovery in crude supply",
+      "status_detail": "Oil Up as Hormuz Attacks Counter Recovery in Supply",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.959,
-      "last_confirmed": "2026-11-25T22:03:00+00:00",
-      "source_count": 12,
-      "summary_short": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy",
-      "summary_long": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy. Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks",
+      "confidence": 0.967,
+      "last_confirmed": "2026-11-26T12:55:00+00:00",
+      "source_count": 6,
+      "summary_short": "Crude Oil Extends Gains as Saudi Refinery Attack and Hormuz Strait Mines Revive Supply Fears",
+      "summary_long": "Crude Oil Extends Gains as Saudi Refinery Attack and Hormuz Strait Mines Revive Supply Fears. Iran says \"violating\" oil tanker caught fire after hitting mines east of Hormuz Strait",
       "evidence_cluster_ids": [
-        "c_c89f657db63b77",
-        "c_b307d2afe43b03",
-        "c_3729cf363b7e20",
-        "c_bf820c8535a71c",
-        "c_fd9703d7b112d8"
+        "c_32719279512bbe",
+        "c_ae4fe9189961e0",
+        "c_1e6d7e805b1443"
       ],
-      "evidence_count": 9,
+      "evidence_count": 3,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,13 +39,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_b307d2afe4 → CONTESTED (kw='attack', weight=0.53)",
-        "cluster c_3729cf363b → CONTESTED (kw='attack', weight=0.50)",
-        "cluster c_e77e1dbb5f → CONTESTED (kw='attack', weight=0.59)",
-        "cluster c_f6435adcf9 → CONTESTED (kw='attack', weight=0.11)",
-        "cluster c_8ad6b04730 → CONTESTED (kw='attack', weight=0.10)",
-        "cluster c_1053e4f1fc → CONTESTED (kw='attack', weight=0.10)",
-        "winning=CONTESTED (1.92/1.92), conf=0.959"
+        "cluster c_ae4fe91899 → CONTESTED (kw='attack', weight=0.40)",
+        "cluster c_1e6d7e805b → CONTESTED (kw='attack', weight=0.78)",
+        "winning=CONTESTED (1.18/1.18), conf=0.967"
       ]
     },
     "us_iran_ceasefire": {
@@ -59,18 +53,15 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-11-25T19:48:00+00:00",
-      "source_count": 9,
-      "summary_short": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy",
-      "summary_long": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy. Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities",
+      "last_confirmed": "2026-11-26T12:26:00+00:00",
+      "source_count": 4,
+      "summary_short": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab",
+      "summary_long": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab. Iran says \"violating\" oil tanker caught fire after hitting mines east of Hormuz Strait",
       "evidence_cluster_ids": [
-        "c_c89f657db63b77",
-        "c_a3a23c4b02f1dd",
-        "c_47da275297232c",
-        "c_a12f30efd9b98e",
-        "c_4c993431b7293b"
+        "c_f1afa4b4d9d0fc",
+        "c_32719279512bbe"
       ],
-      "evidence_count": 6,
+      "evidence_count": 2,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -100,15 +91,17 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-11-25T14:27:46+00:00",
-      "source_count": 3,
-      "summary_short": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say",
-      "summary_long": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say. Opec+’s largest members head for clash over oil production estimates",
+      "last_confirmed": "2026-11-26T12:45:00+00:00",
+      "source_count": 4,
+      "summary_short": "Oil Prices Rise as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
+      "summary_long": "Oil Prices Rise as Traders Weigh Middle East Supply Risks, OPEC+ Meeting. Natural Gas and Oil Forecast: Houthi Strikes Lift Oil Before OPEC+, Can WTI Clear $84.97?",
       "evidence_cluster_ids": [
-        "c_9870ffafa0d000",
-        "c_be52b214d2717d"
+        "c_1d5e75413a6128",
+        "c_ce3009d18fd7e3",
+        "c_be52b214d2717d",
+        "c_05932e6bc02e1d"
       ],
-      "evidence_count": 2,
+      "evidence_count": 4,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -158,14 +151,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_0621daecd798c8",
-      "lead_title": "January WTI Crude Oil Contract Closes Up $1.63, or 2%; Settles at $83.68 per Barrel. January Brent Oil Was Last Seen Up $2.74, or 3%, to $94.14",
-      "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMGI1dS1qNXRKQXBjckQ0Wks3N1gxVkUwV2RIOTJRN0x5RmJCVXNzRTNzcWUxMDJrakM4MFNUenNIX1lSWjZxRlRIamxuMzZhWkplV3Fxck9HTmR6eTNoTkF4YmY2OFp6RDJTYnpRX3U4dlRyX1BBXzFiSVZ6bEpUeEs1U0JBYWhpbkdMWFNUV3BlbEpoMV9Ba3hySkxVWXR2aHRjc0UwRE42LVNranRkZXhfUUQ2aHVpQ1l2Wk91NVZkd0NJeUVvSEN4d2hRemRVN21pV3I4ZnZ5M0RXQnBJVw?oc=5",
-      "lead_source": "marketscreener.com",
+      "cluster_id": "c_8412b04da96a40",
+      "lead_title": "U.S. Crude Oil Stockpiles Rise for Third Straight Week",
+      "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmNaUEswZFFHWkVEYVY0NUZVU0xoTVdwcEU3cDd1Z1RWRnN0RnRIeExlbEtrNXNUSHhoQ1ZjU0VEWVZ4Um5FSjMtcmNuXzM1ZTRodnJ6Ti1tUFA1U2VRbEJ3UEZ0VHNkVmJoM1psMnF1ZGZScndxa0l6bElITFpoM1k5MV9FSHpCclB1TmtOZ3BPeWt4V3R1SXBkRmFMYU0xbmxHeA?oc=5",
+      "lead_source": "WSJ",
       "topic": "oil",
-      "score": 87.44,
-      "novelty": "ongoing",
-      "source_count": 4,
+      "score": 95.56,
+      "novelty": "new",
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -177,7 +170,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.959, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.967, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

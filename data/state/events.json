@@ -1,28 +1,26 @@
 {
   "version": 2,
-  "generated_at": "2026-11-26T13:17:23.517607+00:00",
-  "previous_generated_at": "2026-11-26T03:47:20.662263+00:00",
-  "resolver_run_count": 217,
+  "generated_at": "2026-11-26T22:28:48.299140+00:00",
+  "previous_generated_at": "2026-11-26T13:17:23.517607+00:00",
+  "resolver_run_count": 218,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
       "display_name": "Strait of Hormuz Status",
       "category": "chokepoint",
       "status": "CONTESTED",
-      "status_detail": "Oil Up as Hormuz Attacks Counter Recovery in Supply",
+      "status_detail": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.967,
-      "last_confirmed": "2026-11-26T12:55:00+00:00",
-      "source_count": 6,
-      "summary_short": "Crude Oil Extends Gains as Saudi Refinery Attack and Hormuz Strait Mines Revive Supply Fears",
-      "summary_long": "Crude Oil Extends Gains as Saudi Refinery Attack and Hormuz Strait Mines Revive Supply Fears. Iran says \"violating\" oil tanker caught fire after hitting mines east of Hormuz Strait",
+      "confidence": 0.575,
+      "last_confirmed": "2026-11-25T20:15:03+00:00",
+      "source_count": 1,
+      "summary_short": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks",
+      "summary_long": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks",
       "evidence_cluster_ids": [
-        "c_32719279512bbe",
-        "c_ae4fe9189961e0",
-        "c_1e6d7e805b1443"
+        "c_e77e1dbb5f8582"
       ],
-      "evidence_count": 3,
+      "evidence_count": 1,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -36,12 +34,11 @@
         "markets.drivers.hormuz"
       ],
       "update_priority": "critical",
-      "freshness": "fresh",
+      "freshness": "stale",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_ae4fe91899 → CONTESTED (kw='attack', weight=0.40)",
-        "cluster c_1e6d7e805b → CONTESTED (kw='attack', weight=0.78)",
-        "winning=CONTESTED (1.18/1.18), conf=0.967"
+        "cluster c_e77e1dbb5f → CONTESTED (kw='attack', weight=0.26)",
+        "winning=CONTESTED (0.26/0.26), conf=0.958"
       ]
     },
     "us_iran_ceasefire": {
@@ -53,15 +50,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-11-26T12:26:00+00:00",
-      "source_count": 4,
-      "summary_short": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab",
-      "summary_long": "Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab. Iran says \"violating\" oil tanker caught fire after hitting mines east of Hormuz Strait",
+      "last_confirmed": "2026-11-26T21:52:29+00:00",
+      "source_count": 5,
+      "summary_short": "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait",
+      "summary_long": "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait. Iran's Revolutionary Guards say two oil tankers hit sea mines near Oman’s Khasab",
       "evidence_cluster_ids": [
+        "c_80da77e2eee60b",
         "c_f1afa4b4d9d0fc",
-        "c_32719279512bbe"
+        "c_0bb05e3dba4d45",
+        "c_4ac6be36954b48",
+        "c_b26e7627bce994"
       ],
-      "evidence_count": 2,
+      "evidence_count": 5,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -91,17 +91,16 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-11-26T12:45:00+00:00",
-      "source_count": 4,
-      "summary_short": "Oil Prices Rise as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
-      "summary_long": "Oil Prices Rise as Traders Weigh Middle East Supply Risks, OPEC+ Meeting. Natural Gas and Oil Forecast: Houthi Strikes Lift Oil Before OPEC+, Can WTI Clear $84.97?",
+      "last_confirmed": "2026-11-26T14:39:21+00:00",
+      "source_count": 3,
+      "summary_short": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say",
+      "summary_long": "OPEC+ likely to roll over oil output targets for Q1 as capacity disputes persist, sources say. Oil Prices Rise as Traders Weigh Middle East Supply Risks, OPEC+ Meeting",
       "evidence_cluster_ids": [
         "c_1d5e75413a6128",
-        "c_ce3009d18fd7e3",
-        "c_be52b214d2717d",
+        "c_3900cf886e49ee",
         "c_05932e6bc02e1d"
       ],
-      "evidence_count": 4,
+      "evidence_count": 3,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -156,9 +155,9 @@
       "lead_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMmNaUEswZFFHWkVEYVY0NUZVU0xoTVdwcEU3cDd1Z1RWRnN0RnRIeExlbEtrNXNUSHhoQ1ZjU0VEWVZ4Um5FSjMtcmNuXzM1ZTRodnJ6Ti1tUFA1U2VRbEJ3UEZ0VHNkVmJoM1psMnF1ZGZScndxa0l6bElITFpoM1k5MV9FSHpCclB1TmtOZ3BPeWt4V3R1SXBkRmFMYU0xbmxHeA?oc=5",
       "lead_source": "WSJ",
       "topic": "oil",
-      "score": 95.56,
-      "novelty": "new",
-      "source_count": 5,
+      "score": 92.01,
+      "novelty": "growing",
+      "source_count": 6,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -170,7 +169,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.967, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.575, fresh=stale",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]
