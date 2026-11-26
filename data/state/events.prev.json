@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "generated_at": "2026-11-25T11:49:02.960736+00:00",
-  "previous_generated_at": "2026-11-15T19:44:48.708533+00:00",
-  "resolver_run_count": 214,
+  "generated_at": "2026-11-25T21:33:02.553544+00:00",
+  "previous_generated_at": "2026-11-25T11:49:02.960736+00:00",
+  "resolver_run_count": 215,
   "events": {
     "hormuz_status": {
       "key": "hormuz_status",
@@ -12,19 +12,19 @@
       "status_detail": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks",
       "status_tag": "Tankers at risk",
       "risk_level": "ELEVATED",
-      "confidence": 0.959,
-      "last_confirmed": "2026-11-25T10:39:42+00:00",
-      "source_count": 12,
-      "summary_short": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks",
-      "summary_long": "Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks. WTI Oil returns above $81.00 as attacks in the Strait of Hormuz increase",
+      "confidence": 0.956,
+      "last_confirmed": "2026-11-25T20:15:03+00:00",
+      "source_count": 9,
+      "summary_short": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy",
+      "summary_long": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy. Oil Edges Lower as Expanding Supply Vies With Hormuz Attacks",
       "evidence_cluster_ids": [
+        "c_c89f657db63b77",
         "c_3729cf363b7e20",
-        "c_79f0458e9cf2d2",
-        "c_2558d935959099",
-        "c_f5bae678d622eb",
-        "c_621a7d15e24ee2"
+        "c_bf820c8535a71c",
+        "c_88372365aeb098",
+        "c_9976fd130a7aaa"
       ],
-      "evidence_count": 11,
+      "evidence_count": 7,
       "affected_pages": [
         "index.html",
         "oil-prices.html",
@@ -41,14 +41,9 @@
       "freshness": "fresh",
       "stale_after_hours": 24,
       "rationale": [
-        "cluster c_3729cf363b → CONTESTED (kw='attack', weight=0.70)",
-        "cluster c_2558d93595 → CONTESTED (kw='attack', weight=0.54)",
-        "cluster c_9c57c4d997 → CONTESTED (kw='attack', weight=0.19)",
-        "cluster c_71c4d648ac → CONTESTED (kw='attack', weight=0.67)",
-        "cluster c_f6435adcf9 → CONTESTED (kw='attack', weight=0.11)",
-        "cluster c_8ad6b04730 → CONTESTED (kw='attack', weight=0.10)",
-        "cluster c_1053e4f1fc → CONTESTED (kw='attack', weight=0.10)",
-        "winning=CONTESTED (2.40/2.40), conf=0.959"
+        "cluster c_3729cf363b → CONTESTED (kw='attack', weight=0.62)",
+        "cluster c_9976fd130a → CONTESTED (kw='attack', weight=0.27)",
+        "winning=CONTESTED (0.88/0.88), conf=0.956"
       ]
     },
     "us_iran_ceasefire": {
@@ -60,18 +55,18 @@
       "status_tag": "In effect",
       "risk_level": "ELEVATED",
       "confidence": 0.5,
-      "last_confirmed": "2026-11-25T05:29:03+00:00",
-      "source_count": 7,
-      "summary_short": "Iran says 2 ‘rogue’ oil tankers hit naval mines, catch fire in Strait of Hormuz",
-      "summary_long": "Iran says 2 ‘rogue’ oil tankers hit naval mines, catch fire in Strait of Hormuz. COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate",
+      "last_confirmed": "2026-11-25T15:01:35+00:00",
+      "source_count": 16,
+      "summary_short": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy",
+      "summary_long": "Oil tanker catches fire after hitting naval mine in Strait of Hormuz: Iranian Navy. Oil Holds Decline on Signs of Continuing US-Iran Diplomacy",
       "evidence_cluster_ids": [
-        "c_79f0458e9cf2d2",
-        "c_9145706ac0e7ca",
-        "c_30d8bbed0f329a",
-        "c_9fad57a8cdfe0a",
-        "c_47da275297232c"
+        "c_c89f657db63b77",
+        "c_0bf2ff778f7a3c",
+        "c_8e8ff27421a915",
+        "c_8700322d0a7a3b",
+        "c_ae110b7999c95c"
       ],
-      "evidence_count": 6,
+      "evidence_count": 14,
       "affected_pages": [
         "index.html",
         "category/geopolitics.html",
@@ -101,15 +96,16 @@
       "status_tag": "No change",
       "risk_level": "LOW",
       "confidence": 0.5,
-      "last_confirmed": "2026-11-25T11:37:44+00:00",
-      "source_count": 3,
-      "summary_short": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say",
-      "summary_long": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say. Iraq rejects OPEC+ assessment of its oil production capacity ahead of Sunday meeting",
+      "last_confirmed": "2026-11-25T14:27:46+00:00",
+      "source_count": 4,
+      "summary_short": "Opec+’s largest members head for clash over oil production estimates",
+      "summary_long": "Opec+’s largest members head for clash over oil production estimates. Russia says OPEC+ to complete production capacity review by year-end",
       "evidence_cluster_ids": [
-        "c_9870ffafa0d000",
-        "c_e89f6974518269"
+        "c_be52b214d2717d",
+        "c_47b5bdbce9dba0",
+        "c_9870ffafa0d000"
       ],
-      "evidence_count": 2,
+      "evidence_count": 3,
       "affected_pages": [
         "oil-prices.html",
         "markets.html"
@@ -159,14 +155,14 @@
       "key": "top_story",
       "display_name": "Current Top Story",
       "category": "news_event",
-      "cluster_id": "c_8aee167ad6f8c2",
-      "lead_title": "COMMENTARY: Middle East crude oil exports trend lower amid fake Iran stalemate",
-      "lead_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVzZpMHFTclFHbWV5MGFQbmJCOHhtaS02NUQyVmFmU09tZHVJRXZCeHRNWTFNQ0hVenFvQ1JnS2p0aHd0LVFjRE5KTi0tQkVZdElhcko2YXRmWnpkbGtkc0lJX0JjVGtXSE1TbWwyVklTcHVrSWNaTExxT1hYV3JEdG92Ny03TEFNWEJ0Q1hIY2lReVVlZHhkRS0zUUlkZkFiTHhiV0UwVF9RMVdxS2RlS1pseXBJQ3ZwaDBqak5zd29Hd3NGYW5nNUVfZERkR0pI?oc=5",
-      "lead_source": "Reuters",
+      "cluster_id": "c_0621daecd798c8",
+      "lead_title": "January WTI Crude Oil Contract Closes Up $1.63, or 2%; Settles at $83.68 per Barrel. January Brent Oil Was Last Seen Up $2.74, or 3%, to $94.14",
+      "lead_url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOMGI1dS1qNXRKQXBjckQ0Wks3N1gxVkUwV2RIOTJRN0x5RmJCVXNzRTNzcWUxMDJrakM4MFNUenNIX1lSWjZxRlRIamxuMzZhWkplV3Fxck9HTmR6eTNoTkF4YmY2OFp6RDJTYnpRX3U4dlRyX1BBXzFiSVZ6bEpUeEs1U0JBYWhpbkdMWFNUV3BlbEpoMV9Ba3hySkxVWXR2aHRjc0UwRE42LVNranRkZXhfUUQ2aHVpQ1l2Wk91NVZkd0NJeUVvSEN4d2hRemRVN21pV3I4ZnZ5M0RXQnBJVw?oc=5",
+      "lead_source": "marketscreener.com",
       "topic": "oil",
-      "score": 94.6,
+      "score": 96.53,
       "novelty": "new",
-      "source_count": 4,
+      "source_count": 5,
       "confidence": 0.95,
       "dependent_modules": [
         "homepage.breaking-banner.primary"
@@ -178,7 +174,7 @@
   },
   "changes_since_last_run": [],
   "resolution_log": [
-    "hormuz_status: resolved=CONTESTED, confidence=0.959, fresh=fresh",
+    "hormuz_status: resolved=CONTESTED, confidence=0.956, fresh=fresh",
     "us_iran_ceasefire: resolved=HOLDING, confidence=0.5, fresh=fresh",
     "opec_plus_policy: resolved=HOLDING, confidence=0.5, fresh=fresh"
   ]

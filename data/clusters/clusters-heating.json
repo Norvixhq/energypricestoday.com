@@ -1,12 +1,53 @@
 {
   "topic": "heating",
-  "generated_at": "2026-11-25T21:33:02.501134+00:00",
+  "generated_at": "2026-11-26T03:47:20.605994+00:00",
   "sources_scanned": [
     "rss"
   ],
   "total_headlines": 30,
   "clusters_found": 29,
   "clusters": [
+    {
+      "cluster_id": "c_1aa557ff780f7d",
+      "topic": "heating",
+      "lead_title": "COMMENTARY: Oil's Iran war recovery masks a stubborn diesel shortage",
+      "lead_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm1ualZQSkpWSE81dmJhNTVlenN6clBtbnAyczRuVDdPZUFkZDRDX0pPc1pacExyelpWSFp1VmpUWm5WUHFabTV6UmR2V2ZzaldKcjJlMEFiOWx6S0pHTE9tUGRoT1AxVm04SVR6U0d3X2JtZTcxOFpMWWFWS0FJaTlIYTBGTDc1cnB6SXQtQWhxN2xmQ0hnRldZSjI1a2R5aEhzNF9Vai1SX1VJemdyUU4yLW40c05yMGk1eElqMA?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-23T07:32:17+00:00",
+      "latest_seen": "2026-11-23T07:32:17+00:00",
+      "age_hours": 68.25,
+      "score": 49.0,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 30.0,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "89769ebbb479f339",
+          "title": "COMMENTARY: Oil's Iran war recovery masks a stubborn diesel shortage",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTm1ualZQSkpWSE81dmJhNTVlenN6clBtbnAyczRuVDdPZUFkZDRDX0pPc1pacExyelpWSFp1VmpUWm5WUHFabTV6UmR2V2ZzaldKcjJlMEFiOWx6S0pHTE9tUGRoT1AxVm04SVR6U0d3X2JtZTcxOFpMWWFWS0FJaTlIYTBGTDc1cnB6SXQtQWhxN2xmQ0hnRldZSjI1a2R5aEhzNF9Vai1SX1VJemdyUU4yLW40c05yMGk1eElqMA?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-11-23T07:32:17+00:00",
+          "confidence": 1.0
+        }
+      ],
+      "top_tier": true,
+      "low_priority": false
+    },
     {
       "cluster_id": "c_69a0370d4f7128",
       "topic": "heating",
@@ -23,17 +64,17 @@
       ],
       "earliest_seen": "2026-11-25T20:00:00+00:00",
       "latest_seen": "2026-11-25T20:00:00+00:00",
-      "age_hours": 1.55,
-      "score": 62.57,
+      "age_hours": 7.79,
+      "score": 48.83,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 24.07,
+        "recency_points": 20.33,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "ca05696bc43dedb7",
@@ -64,17 +105,17 @@
       ],
       "earliest_seen": "2026-11-25T18:04:28+00:00",
       "latest_seen": "2026-11-25T18:04:28+00:00",
-      "age_hours": 3.48,
-      "score": 61.41,
+      "age_hours": 9.71,
+      "score": 47.67,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.91,
+        "recency_points": 19.17,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": 0.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "075f32731c986318",
@@ -83,47 +124,6 @@
           "source": "La Veu Lliure",
           "source_type": "rss",
           "published_at": "2026-11-25T18:04:28+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": true,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_b6ea273cee4306",
-      "topic": "heating",
-      "lead_title": "US EIA Distillate Stocks Change (Nov/20) 0.715M vs. Exp. 1.3M (Prev. 1.571M)",
-      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONGlKbG0wZm44MzJYaUZPWGFXY0ZPSWRnRlJsNDNCREQyVmhnaVd1ejJLR1hZSDJNd0lLaE1hdjl3ZVhwSGZmc1ZDa0QwcXRxNlgxS2tTYVJrLVQ5UlZUeF8xY1RXcEk2clhEOG0ydGlRNmxIVkhNZ1hpS1BVMWxyYkhfLVdjMmRWMllNdFB3WDdRMWpkeGFMaG1nVERxX1JFVFQ0?oc=5",
-      "lead_source": "Newsquawk",
-      "canonical_entities": [
-        "distillate"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-25T15:50:00+00:00",
-      "latest_seen": "2026-11-25T15:50:00+00:00",
-      "age_hours": 5.72,
-      "score": 60.07,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 21.57,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "e83c473d4632bb11",
-          "title": "US EIA Distillate Stocks Change (Nov/20) 0.715M vs. Exp. 1.3M (Prev. 1.571M)",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONGlKbG0wZm44MzJYaUZPWGFXY0ZPSWRnRlJsNDNCREQyVmhnaVd1ejJLR1hZSDJNd0lLaE1hdjl3ZVhwSGZmc1ZDa0QwcXRxNlgxS2tTYVJrLVQ5UlZUeF8xY1RXcEk2clhEOG0ydGlRNmxIVkhNZ1hpS1BVMWxyYkhfLVdjMmRWMllNdFB3WDdRMWpkeGFMaG1nVERxX1JFVFQ0?oc=5",
-          "source": "Newsquawk",
-          "source_type": "rss",
-          "published_at": "2026-11-25T15:50:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -146,11 +146,11 @@
       ],
       "earliest_seen": "2026-11-25T17:47:22+00:00",
       "latest_seen": "2026-11-25T17:47:22+00:00",
-      "age_hours": 3.76,
-      "score": 51.24,
+      "age_hours": 10.0,
+      "score": 47.5,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 22.74,
+        "recency_points": 19.0,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": 0.0
@@ -165,6 +165,170 @@
           "source": "The Spec",
           "source_type": "rss",
           "published_at": "2026-11-25T17:47:22+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_b6ea273cee4306",
+      "topic": "heating",
+      "lead_title": "US EIA Distillate Stocks Change (Nov/20) 0.715M vs. Exp. 1.3M (Prev. 1.571M)",
+      "lead_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONGlKbG0wZm44MzJYaUZPWGFXY0ZPSWRnRlJsNDNCREQyVmhnaVd1ejJLR1hZSDJNd0lLaE1hdjl3ZVhwSGZmc1ZDa0QwcXRxNlgxS2tTYVJrLVQ5UlZUeF8xY1RXcEk2clhEOG0ydGlRNmxIVkhNZ1hpS1BVMWxyYkhfLVdjMmRWMllNdFB3WDdRMWpkeGFMaG1nVERxX1JFVFQ0?oc=5",
+      "lead_source": "Newsquawk",
+      "canonical_entities": [
+        "distillate"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-25T15:50:00+00:00",
+      "latest_seen": "2026-11-25T15:50:00+00:00",
+      "age_hours": 11.96,
+      "score": 46.33,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 17.83,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 0.0
+      },
+      "novelty": "ongoing",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "e83c473d4632bb11",
+          "title": "US EIA Distillate Stocks Change (Nov/20) 0.715M vs. Exp. 1.3M (Prev. 1.571M)",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONGlKbG0wZm44MzJYaUZPWGFXY0ZPSWRnRlJsNDNCREQyVmhnaVd1ejJLR1hZSDJNd0lLaE1hdjl3ZVhwSGZmc1ZDa0QwcXRxNlgxS2tTYVJrLVQ5UlZUeF8xY1RXcEk2clhEOG0ydGlRNmxIVkhNZ1hpS1BVMWxyYkhfLVdjMmRWMllNdFB3WDdRMWpkeGFMaG1nVERxX1JFVFQ0?oc=5",
+          "source": "Newsquawk",
+          "source_type": "rss",
+          "published_at": "2026-11-25T15:50:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_1b9ddbb07199a1",
+      "topic": "heating",
+      "lead_title": "Why Switzerland is using its strategic diesel and jet fuel reserves",
+      "lead_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbkFmem11cFlJaXRsT3hOWm5ISU01SWRyODRTYUxOcFdjQ3pURHRzWWgwTjJZSGZuS2dEdkFqNGlPZmFqRDh4VFFvdTZRU0xpMm5PRHMxbWc5VlJfRHBRWTlzQzl6WUJZbkV2NkJkYWdqdFltX2ttajdwTTU2XzlVb000LTJyUTRwQVdHeUZSYWk0U193TkNyTlk1LXJoX3BTOWRoSXNvVEJ2OGlHNmVMVk9wMVByeHU2RlRRT0ZKRjc?oc=5",
+      "lead_source": "SWI swissinfo.ch",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-24T08:00:00+00:00",
+      "latest_seen": "2026-11-24T08:00:00+00:00",
+      "age_hours": 43.79,
+      "score": 38.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "5e89942191f33de6",
+          "title": "Why Switzerland is using its strategic diesel and jet fuel reserves",
+          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbkFmem11cFlJaXRsT3hOWm5ISU01SWRyODRTYUxOcFdjQ3pURHRzWWgwTjJZSGZuS2dEdkFqNGlPZmFqRDh4VFFvdTZRU0xpMm5PRHMxbWc5VlJfRHBRWTlzQzl6WUJZbkV2NkJkYWdqdFltX2ttajdwTTU2XzlVb000LTJyUTRwQVdHeUZSYWk0U193TkNyTlk1LXJoX3BTOWRoSXNvVEJ2OGlHNmVMVk9wMVByeHU2RlRRT0ZKRjc?oc=5",
+          "source": "SWI swissinfo.ch",
+          "source_type": "rss",
+          "published_at": "2026-11-24T08:00:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_ea7213d47a30f4",
+      "topic": "heating",
+      "lead_title": "Wright Says U.S. Diesel Will Keep Falling. The National Average Is $5.82, and Inventories Are Still Tight",
+      "lead_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcS1JaVNCUW9KbnFnNnlDb2xqNHVSVXpjVUV3UHRXSzlRX0lEQ3VOMk94S1haQnAtMGFWeW9jN1Q3UDVVcHpVWjdjNzdSNC1IQXJmaS1GZ1l6SXpYdjdxYS1QWGg1cWktT0dYT1hER04wWU0xRUYzX0xvRWRiWjJJbW9BX29BSVp3Q2w0dVFJdmdRNGpnT1c0WVBKQ1d5SFpWb1FDV3lIU19Telo1b2xrYk5jai1XalJuSkdaU0JzbkJyMDlOOFpWeWtlRGZEX011RWZjXw?oc=5",
+      "lead_source": "Energy News Beat",
+      "canonical_entities": [
+        "diesel"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-23T17:38:34+00:00",
+      "latest_seen": "2026-11-23T17:38:34+00:00",
+      "age_hours": 58.15,
+      "score": 38.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": 10.0
+      },
+      "novelty": "new",
+      "first_seen_cluster": true,
+      "evidence": [
+        {
+          "headline_id": "365132421220713e",
+          "title": "Wright Says U.S. Diesel Will Keep Falling. The National Average Is $5.82, and Inventories Are Still Tight",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcS1JaVNCUW9KbnFnNnlDb2xqNHVSVXpjVUV3UHRXSzlRX0lEQ3VOMk94S1haQnAtMGFWeW9jN1Q3UDVVcHpVWjdjNzdSNC1IQXJmaS1GZ1l6SXpYdjdxYS1QWGg1cWktT0dYT1hER04wWU0xRUYzX0xvRWRiWjJJbW9BX29BSVp3Q2w0dVFJdmdRNGpnT1c0WVBKQ1d5SFpWb1FDV3lIU19Telo1b2xrYk5jai1XalJuSkdaU0JzbkJyMDlOOFpWeWtlRGZEX011RWZjXw?oc=5",
+          "source": "Energy News Beat",
+          "source_type": "rss",
+          "published_at": "2026-11-23T17:38:34+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_f3143f89b4941d",
+      "topic": "heating",
+      "lead_title": "Heating Oil Costs Ease in November: What Does Winter Demand Mean for Refiners?",
+      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZLdlpjd1pwWnFuT3I2dDUxVloySkI4RVJWVEVHd2ZQNU1VS29Cb0lFOWlHSENWSEYyVUctR0ZfODc0T01MclcwVC11N0JMaFFHRXBnWkpWZkFaNWNYcHpiZ0lPNVVvN2pxZzVQRjNMZTI5ZlVPYnFCeUJmNjNHWWV4dXJGa3IwWnI3NzVTek4xdlNrZnlwV1NPSnZVOFczRFJ2YWF2S1NDbzRObElMbg?oc=5",
+      "lead_source": "Kalkine",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-25T06:04:00+00:00",
+      "latest_seen": "2026-11-25T06:04:00+00:00",
+      "age_hours": 21.72,
+      "score": 35.47,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 11.97,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "7961829d7da07ae0",
+          "title": "Heating Oil Costs Ease in November: What Does Winter Demand Mean for Refiners?",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZLdlpjd1pwWnFuT3I2dDUxVloySkI4RVJWVEVHd2ZQNU1VS29Cb0lFOWlHSENWSEYyVUctR0ZfODc0T01MclcwVC11N0JMaFFHRXBnWkpWZkFaNWNYcHpiZ0lPNVVvN2pxZzVQRjNMZTI5ZlVPYnFCeUJmNjNHWWV4dXJGa3IwWnI3NzVTek4xdlNrZnlwV1NPSnZVOFczRFJ2YWF2S1NDbzRObElMbg?oc=5",
+          "source": "Kalkine",
+          "source_type": "rss",
+          "published_at": "2026-11-25T06:04:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -187,17 +351,17 @@
       ],
       "earliest_seen": "2026-11-04T08:00:00+00:00",
       "latest_seen": "2026-11-04T08:00:00+00:00",
-      "age_hours": 517.55,
-      "score": 49.0,
+      "age_hours": 523.79,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "27897d474cf958b4",
@@ -228,17 +392,17 @@
       ],
       "earliest_seen": "2026-10-24T07:00:00+00:00",
       "latest_seen": "2026-10-24T07:00:00+00:00",
-      "age_hours": 782.55,
-      "score": 49.0,
+      "age_hours": 788.79,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "30b3deaa7a4059d7",
@@ -269,17 +433,17 @@
       ],
       "earliest_seen": "2026-10-21T07:00:00+00:00",
       "latest_seen": "2026-10-21T07:00:00+00:00",
-      "age_hours": 854.55,
-      "score": 49.0,
+      "age_hours": 860.79,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "94066396810019fe",
@@ -310,17 +474,17 @@
       ],
       "earliest_seen": "2026-09-24T07:00:00+00:00",
       "latest_seen": "2026-09-24T07:00:00+00:00",
-      "age_hours": 1502.55,
-      "score": 49.0,
+      "age_hours": 1508.79,
+      "score": 34.0,
       "score_components": {
         "source_count_points": 5,
         "recency_points": 0.0,
         "source_quality_points": 30.0,
         "entity_relevance_points": 4,
-        "materiality_points": 10.0
+        "materiality_points": -5.0
       },
-      "novelty": "new",
-      "first_seen_cluster": true,
+      "novelty": "decaying",
+      "first_seen_cluster": false,
       "evidence": [
         {
           "headline_id": "e36d4523c1297720",
@@ -330,382 +494,6 @@
           "source_type": "rss",
           "published_at": "2026-09-24T07:00:00+00:00",
           "confidence": 1.0
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_217ed5577f33cb",
-      "topic": "heating",
-      "lead_title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
-      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
-      "lead_source": "CNBC",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-10-07T07:00:00+00:00",
-      "latest_seen": "2026-10-07T07:00:00+00:00",
-      "age_hours": 1190.55,
-      "score": 46.9,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 27.9,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "53f3caf5a2aa5f3d",
-          "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
-          "source": "CNBC",
-          "source_type": "rss",
-          "published_at": "2026-10-07T07:00:00+00:00",
-          "confidence": 0.93
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_e51da379d97db5",
-      "topic": "heating",
-      "lead_title": "Country diary: As winter approaches, all eyes here are on heating oil prices",
-      "lead_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmtiTFpYUTFDWXFQR2l1alJyLW51RzRvY0pYbUJBUGNGcld4cUNTUkVDdE9FNWNrVWFxRF9DbjBWYnJ5TkVsSFhkb2pTczJHZ2dUZmtUNkVtVzNIbnI5QXRqWnJ1Q29CSGxNbFRMd0NwZ3pKd3VpejhZbGpldDVjRTdYNV9yYzZfR0ladmhwV2kySnFjZmM3M3dRYmVaNlprc1MyYTRIb21Od0pwVHRRZG5yU2lQZGdqS1ZTVXZwWEJkUm12?oc=5",
-      "lead_source": "The Guardian",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-02T08:00:00+00:00",
-      "latest_seen": "2026-11-02T08:00:00+00:00",
-      "age_hours": 565.55,
-      "score": 44.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 25.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "ea48f50bc89ae750",
-          "title": "Country diary: As winter approaches, all eyes here are on heating oil prices",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRmtiTFpYUTFDWXFQR2l1alJyLW51RzRvY0pYbUJBUGNGcld4cUNTUkVDdE9FNWNrVWFxRF9DbjBWYnJ5TkVsSFhkb2pTczJHZ2dUZmtUNkVtVzNIbnI5QXRqWnJ1Q29CSGxNbFRMd0NwZ3pKd3VpejhZbGpldDVjRTdYNV9yYzZfR0ladmhwV2kySnFjZmM3M3dRYmVaNlprc1MyYTRIb21Od0pwVHRRZG5yU2lQZGdqS1ZTVXZwWEJkUm12?oc=5",
-          "source": "The Guardian",
-          "source_type": "rss",
-          "published_at": "2026-11-02T08:00:00+00:00",
-          "confidence": 0.85
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_8080e0bcdbc7bc",
-      "topic": "heating",
-      "lead_title": "Trafigura ship fuel venture isn't rushing into alternative fuels as fuel oil demand stays firm, director says",
-      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMjM1Z21RaGVNRFNJNEFSczk3QVVBLW1tZE5ua1RSUWJQcFRHQ0hHalJwODhiRFdnSGRTMWRuTFFwcmhBV0JpNDVOay1CNmh2SFc5NTFxYU00LV82QktQbGhvUmh1Q0pLUzl4M1ZDT0RwenAwZGxJSDI5QnJhTVduT2hGS1dlWGtRRnJuUGMtYldmaUZBVTlWa0pNQW12OTVTZFg3a2pEMURRMXFjWEF1ZjdXWkdTUWVqbDlvVE05cEtORUpfV1U0MkJZWQ?oc=5",
-      "lead_source": "Reuters",
-      "canonical_entities": [],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-19T16:44:00+00:00",
-      "latest_seen": "2026-11-19T16:44:00+00:00",
-      "age_hours": 148.82,
-      "score": 43.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 28.5,
-        "entity_relevance_points": 0,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "e16f5b0488b17025",
-          "title": "Trafigura ship fuel venture isn't rushing into alternative fuels as fuel oil demand stays firm, director says",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMjM1Z21RaGVNRFNJNEFSczk3QVVBLW1tZE5ua1RSUWJQcFRHQ0hHalJwODhiRFdnSGRTMWRuTFFwcmhBV0JpNDVOay1CNmh2SFc5NTFxYU00LV82QktQbGhvUmh1Q0pLUzl4M1ZDT0RwenAwZGxJSDI5QnJhTVduT2hGS1dlWGtRRnJuUGMtYldmaUZBVTlWa0pNQW12OTVTZFg3a2pEMURRMXFjWEF1ZjdXWkdTUWVqbDlvVE05cEtORUpfV1U0MkJZWQ?oc=5",
-          "source": "Reuters",
-          "source_type": "rss",
-          "published_at": "2026-11-19T16:44:00+00:00",
-          "confidence": 0.95
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_f3143f89b4941d",
-      "topic": "heating",
-      "lead_title": "Heating Oil Costs Ease in November: What Does Winter Demand Mean for Refiners?",
-      "lead_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZLdlpjd1pwWnFuT3I2dDUxVloySkI4RVJWVEVHd2ZQNU1VS29Cb0lFOWlHSENWSEYyVUctR0ZfODc0T01MclcwVC11N0JMaFFHRXBnWkpWZkFaNWNYcHpiZ0lPNVVvN2pxZzVQRjNMZTI5ZlVPYnFCeUJmNjNHWWV4dXJGa3IwWnI3NzVTek4xdlNrZnlwV1NPSnZVOFczRFJ2YWF2S1NDbzRObElMbg?oc=5",
-      "lead_source": "Kalkine",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-25T06:04:00+00:00",
-      "latest_seen": "2026-11-25T06:04:00+00:00",
-      "age_hours": 15.48,
-      "score": 39.21,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 15.71,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "7961829d7da07ae0",
-          "title": "Heating Oil Costs Ease in November: What Does Winter Demand Mean for Refiners?",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQOGZLdlpjd1pwWnFuT3I2dDUxVloySkI4RVJWVEVHd2ZQNU1VS29Cb0lFOWlHSENWSEYyVUctR0ZfODc0T01MclcwVC11N0JMaFFHRXBnWkpWZkFaNWNYcHpiZ0lPNVVvN2pxZzVQRjNMZTI5ZlVPYnFCeUJmNjNHWWV4dXJGa3IwWnI3NzVTek4xdlNrZnlwV1NPSnZVOFczRFJ2YWF2S1NDbzRObElMbg?oc=5",
-          "source": "Kalkine",
-          "source_type": "rss",
-          "published_at": "2026-11-25T06:04:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_cebb81c5de1c50",
-      "topic": "heating",
-      "lead_title": "Police warn Lehigh Valley of home heating oil scam",
-      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbV9zb2xrVGlsT3N3RG5FUmljUmxtZ0pzZ0stMlRzZnRGOEhRV2ZHZGF4LUNCTldiVkZZbGVod1RrZmJyQlNUR2NCaTJ6WF9sZ1paaC1DdkFkWFhUaV94STZWVmlfY3RmWDhTMjY2NzczY29OTnE3RXdVZVlXUTJaYzdBaWo?oc=5",
-      "lead_source": "The Morning Call",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 2,
-      "distinct_publishers": 2,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-20T17:09:00+00:00",
-      "latest_seen": "2026-11-21T16:04:14+00:00",
-      "age_hours": 101.48,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 10,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 5.0
-      },
-      "novelty": "growing",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "f75be960eff8a9d7",
-          "title": "Police warn Lehigh Valley of home heating oil scam",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbV9zb2xrVGlsT3N3RG5FUmljUmxtZ0pzZ0stMlRzZnRGOEhRV2ZHZGF4LUNCTldiVkZZbGVod1RrZmJyQlNUR2NCaTJ6WF9sZ1paaC1DdkFkWFhUaV94STZWVmlfY3RmWDhTMjY2NzczY29OTnE3RXdVZVlXUTJaYzdBaWo?oc=5",
-          "source": "The Morning Call",
-          "source_type": "rss",
-          "published_at": "2026-11-21T16:04:14+00:00",
-          "confidence": 0.65
-        },
-        {
-          "headline_id": "05b65ae1e71fda92",
-          "title": "Amid rise in prices, police warn of home heating oil scam targeting consumers",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbHk1WThuRW5ndVR5dTdyeXJfaXdmTUNldDlGTmJQWktNcGZMcWI0bS05c2swZ2lLcU12aVRsZTlTUDVIbGVBdEFjTXhsOEJWTmVtQk1LUGhQQXU0UlRrQWFPVERtLTBCYnhrNXlvOE14NnZQenlZQVdQamNOSFZ1TUZ5S1RDeWNLWWZPQ2Rrd0V6MGV2M1ZaLWhaQnpMTlYwRGQ2MFpDYjJPUXJhNGdTNnA5VWhqYXg4bzh1NVJIekY5bmlGSEI40gHbAUFVX3lxTE9SODNDTXFsSVZzUVVjQWZVLTNDTFhSNXVUQUtJQ0t4LVlZc0tZV2g5Y1IxY3NvazNoNE1xMS15NXhDaVB2ZFRrV3RqSV9PakFiYUVvZnZ0MzRwYUpJQWR3UnNfeFRURE1LRjN0Zl9DRk9DSjJXb1hoSmRjYUZXRmI5YnZ1OUhXZUFNNUZxc3IxY3VsWDI3MFJVcU5GaDRlbFFkXzV2S1k5S2ZiV3FzM2hJX3NqU2xCLTBXY0lfTEVrbDFGWnd3aFFKZGFQWHl3ZDY0WmhhS2pUNTFLcw?oc=5",
-          "source": "lehighvalleylive",
-          "source_type": "rss",
-          "published_at": "2026-11-20T17:09:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_0837ac2fac42ae",
-      "topic": "heating",
-      "lead_title": "State police warn of fake heating oil ads on social media",
-      "lead_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeXpkUnk1OHpzZXc5RFZQakt5TTdlSlQ4c21yWmwzcS1STFB6VGxsamJNOW5wWVZnVGVKNGdvZzRfQWpLTXhySnhGN3pDdE0wVTQ0NWFiX3pxanR1UV9NVFVuc0FvZEZtcVN1c3RHenprVE0wLTd6UEdrMzhfeUZhRzJEZzY1WHY0bFRwd3RrSFZuTklqVWViSUpyTEpVLXhsTTBxaXNsOUxDWHowYkNLczkyc1ZrM0dUdG5fRXBVb2ZDMHY0ajdVX3gtdEYzZ29IVmx3RGl1VU5YVHpCOGVZTnlfT0YxWmhla3R2OGxzVm4zNkFORzJlbw?oc=5",
-      "lead_source": "WFMZ.com",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-20T19:02:00+00:00",
-      "latest_seen": "2026-11-20T19:02:00+00:00",
-      "age_hours": 122.52,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "89e7a6e26e577c7b",
-          "title": "State police warn of fake heating oil ads on social media",
-          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeXpkUnk1OHpzZXc5RFZQakt5TTdlSlQ4c21yWmwzcS1STFB6VGxsamJNOW5wWVZnVGVKNGdvZzRfQWpLTXhySnhGN3pDdE0wVTQ0NWFiX3pxanR1UV9NVFVuc0FvZEZtcVN1c3RHenprVE0wLTd6UEdrMzhfeUZhRzJEZzY1WHY0bFRwd3RrSFZuTklqVWViSUpyTEpVLXhsTTBxaXNsOUxDWHowYkNLczkyc1ZrM0dUdG5fRXBVb2ZDMHY0ajdVX3gtdEYzZ29IVmx3RGl1VU5YVHpCOGVZTnlfT0YxWmhla3R2OGxzVm4zNkFORzJlbw?oc=5",
-          "source": "WFMZ.com",
-          "source_type": "rss",
-          "published_at": "2026-11-20T19:02:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_001feb69bc5af4",
-      "topic": "heating",
-      "lead_title": "State police warn consumers about heating oil purchase scam",
-      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOWRaX0hLX2hsenMxMTE4ZVRCMDhRRGFqWDRUSlF3VkpOcTNJbzhZUmxwR2pXRmZvV0pDUmlfYlNtcVFCelBSbG92VzdpX1B1aEJpUVZUZUxQOVdYekJ2M0RYMGN5bkRjV3RlTjY4OFd4bC1qNkg0cTh1NXZ1RGJ0Z1RQQ0xZYVBfaUZDdUYtbDExZw?oc=5",
-      "lead_source": "fox56.com",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-20T16:44:03+00:00",
-      "latest_seen": "2026-11-20T16:44:03+00:00",
-      "age_hours": 124.82,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "ec847706fc99cbd9",
-          "title": "State police warn consumers about heating oil purchase scam",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOWRaX0hLX2hsenMxMTE4ZVRCMDhRRGFqWDRUSlF3VkpOcTNJbzhZUmxwR2pXRmZvV0pDUmlfYlNtcVFCelBSbG92VzdpX1B1aEJpUVZUZUxQOVdYekJ2M0RYMGN5bkRjV3RlTjY4OFd4bC1qNkg0cTh1NXZ1RGJ0Z1RQQ0xZYVBfaUZDdUYtbDExZw?oc=5",
-          "source": "fox56.com",
-          "source_type": "rss",
-          "published_at": "2026-11-20T16:44:03+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_23c311f1352b59",
-      "topic": "heating",
-      "lead_title": "Heating oil prices in Maine dip for third consecutive week",
-      "lead_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM2N4OGNucWJxNXU5Y0NlOFowV1c2SVN4cGFPWEtBUklGWVlmNjFkLUdTR3pXc0liV3BYMUtoS2RmRGJwM080VF9wV0RlYWxmbFJrVjVKd2hYQWJaRHJpZnhxWnM0MWQ1WHhCYS15WFQ0amFGM3lBaHpxVThIR2NhZ2RCTWNUaTRKUTFj0gGfAUFVX3lxTE1ZMHlxNVBIaHA5a1Q0OW1pWjVvMnZZNFVoSFpOZDVJQkVpamJlcElDMnJaX1VPMnZQQ2RDNkY2U2pxZkpCMFp4aHNsWWVZb1dORGxoemxReFdKdGZ3d2Q4YjdxdnBvN3ZhYWlpcnYtdlIzSDgxS2Q3YmFQM1JmMzJ2U2JPMjIxcC1vVkZtTzVIdXE4clJNZ0dIM2h4bUwzaw?oc=5",
-      "lead_source": "WABI",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-19T23:48:00+00:00",
-      "latest_seen": "2026-11-19T23:48:00+00:00",
-      "age_hours": 141.75,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "72ab81be15d05568",
-          "title": "Heating oil prices in Maine dip for third consecutive week",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM2N4OGNucWJxNXU5Y0NlOFowV1c2SVN4cGFPWEtBUklGWVlmNjFkLUdTR3pXc0liV3BYMUtoS2RmRGJwM080VF9wV0RlYWxmbFJrVjVKd2hYQWJaRHJpZnhxWnM0MWQ1WHhCYS15WFQ0amFGM3lBaHpxVThIR2NhZ2RCTWNUaTRKUTFj0gGfAUFVX3lxTE1ZMHlxNVBIaHA5a1Q0OW1pWjVvMnZZNFVoSFpOZDVJQkVpamJlcElDMnJaX1VPMnZQQ2RDNkY2U2pxZkpCMFp4aHNsWWVZb1dORGxoemxReFdKdGZ3d2Q4YjdxdnBvN3ZhYWlpcnYtdlIzSDgxS2Q3YmFQM1JmMzJ2U2JPMjIxcC1vVkZtTzVIdXE4clJNZ0dIM2h4bUwzaw?oc=5",
-          "source": "WABI",
-          "source_type": "rss",
-          "published_at": "2026-11-19T23:48:00+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_3e080ad972652a",
-      "topic": "heating",
-      "lead_title": "New England Heating Oil Winter 2026-27 by State | GOS",
-      "lead_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUmo5ZkVaaVI0a2xGZ241Vk9nVFdGTlkwUXIxYkpSQTBaWGJ4QUczWE80dlNHa1J3WFM5U1BjT1BKSUZFb1N4UFEwckd2TUphdnpZT25nazMxU1ZCTm0wVW9TMVEtVEYxcjQxVHJnT19QdER4Z2wxX2lBUkVHOENiUXN0Y1RNQUh6N050QzNuUnlpTHpuai1lMw?oc=5",
-      "lead_source": "globaloilshock.com",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-19T08:00:00+00:00",
-      "latest_seen": "2026-11-19T08:00:00+00:00",
-      "age_hours": 157.55,
-      "score": 38.5,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 0.0,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": 10.0
-      },
-      "novelty": "new",
-      "first_seen_cluster": true,
-      "evidence": [
-        {
-          "headline_id": "bf79652508615bc1",
-          "title": "New England Heating Oil Winter 2026-27 by State | GOS",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUmo5ZkVaaVI0a2xGZ241Vk9nVFdGTlkwUXIxYkpSQTBaWGJ4QUczWE80dlNHa1J3WFM5U1BjT1BKSUZFb1N4UFEwckd2TUphdnpZT25nazMxU1ZCTm0wVW9TMVEtVEYxcjQxVHJnT19QdER4Z2wxX2lBUkVHOENiUXN0Y1RNQUh6N050QzNuUnlpTHpuai1lMw?oc=5",
-          "source": "globaloilshock.com",
-          "source_type": "rss",
-          "published_at": "2026-11-19T08:00:00+00:00",
-          "confidence": 0.65
         }
       ],
       "top_tier": false,
@@ -727,11 +515,11 @@
       ],
       "earliest_seen": "2026-11-25T00:19:52+00:00",
       "latest_seen": "2026-11-25T00:19:52+00:00",
-      "age_hours": 21.22,
-      "score": 35.77,
+      "age_hours": 27.46,
+      "score": 32.03,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 12.27,
+        "recency_points": 8.53,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -753,6 +541,47 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_217ed5577f33cb",
+      "topic": "heating",
+      "lead_title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
+      "lead_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
+      "lead_source": "CNBC",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-10-07T07:00:00+00:00",
+      "latest_seen": "2026-10-07T07:00:00+00:00",
+      "age_hours": 1196.79,
+      "score": 31.9,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 27.9,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "53f3caf5a2aa5f3d",
+          "title": "Home heating oil prices are soaring — and users' winter bills could rise 21%, federal outlook shows",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5UNHVvaFVKbDdSWGlwbENDdE1vMjEyREVHNW85QUFBWmhGSkJ5b29IVFJQd3VFZ1dqdkRtdXNuUTk0TlhmVDkxVklYVzdGZ1cwMWlnTGVWWWhmR1ExSURkenJjVGZXTzNBYmlKUllWT1V3R3A50gF6QVVfeXFMT0pyNi1Sb20xNlRNOWt4Q3lHSjZCVko0c3ltU25zcWFPdFFEQlQtaVpvZm1USUdUUmJPZ0pCOU5QSzN6THZ5VGNYWnJXUGIwdXhvY09WREFTbHFmSFktbWlvQkw4TUVLV2FhdVo3azRkVjJWUUNiQk1ybkE?oc=5",
+          "source": "CNBC",
+          "source_type": "rss",
+          "published_at": "2026-10-07T07:00:00+00:00",
+          "confidence": 0.93
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_f813b205a0197d",
       "topic": "heating",
       "lead_title": "Boswell volunteer fire department raffles heating oil to help families facing higher costs",
@@ -768,11 +597,11 @@
       ],
       "earliest_seen": "2026-11-24T23:18:16+00:00",
       "latest_seen": "2026-11-24T23:18:16+00:00",
-      "age_hours": 22.25,
-      "score": 35.15,
+      "age_hours": 28.48,
+      "score": 31.41,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 11.65,
+        "recency_points": 7.91,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -787,47 +616,6 @@
           "source": "WJAC",
           "source_type": "rss",
           "published_at": "2026-11-24T23:18:16+00:00",
-          "confidence": 0.65
-        }
-      ],
-      "top_tier": false,
-      "low_priority": false
-    },
-    {
-      "cluster_id": "c_9f437b770ab437",
-      "topic": "heating",
-      "lead_title": "New England Total Energy Launches Cortese Oil Direct, No-Contract Wholesale Heating Oil for Westchester and Fairfield",
-      "lead_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNak5WUm1uWTgzODluYm9wRmI3ZjBIVVFlZHhnTE5fM2MyQXVhUkN2UWUtM2pjalBZdnVWSVFCdEFCT1hCUnN4NmNVRWd1aVJSVXJyMm1PVWlmWmtXbXVLNTRhSzJOWGEzX0RSTmNyTkItVXpoRzFfU1pwQnh1djR4UVRDYnFDOUxLbWE4ckNQZUt4U2ZrSTlzSlpqNHh6ZVdKVk9BbnVVSk96QzJ2SDJCekdDMk80b1BSS1U4S3g2OUtfM1cxV3F2cGpYZzEwVGVqZ3VYcjUtMG9IVHh4Y2RoVFdTenhpUWxlVjNHanA2Y0VtSnlmOGc?oc=5",
-      "lead_source": "EIN Presswire",
-      "canonical_entities": [
-        "heating oil"
-      ],
-      "source_count": 1,
-      "distinct_publishers": 1,
-      "source_types": [
-        "rss"
-      ],
-      "earliest_seen": "2026-11-24T17:15:00+00:00",
-      "latest_seen": "2026-11-24T17:15:00+00:00",
-      "age_hours": 28.3,
-      "score": 31.52,
-      "score_components": {
-        "source_count_points": 5,
-        "recency_points": 8.02,
-        "source_quality_points": 19.5,
-        "entity_relevance_points": 4,
-        "materiality_points": -5.0
-      },
-      "novelty": "decaying",
-      "first_seen_cluster": false,
-      "evidence": [
-        {
-          "headline_id": "fef774c00ec92f8b",
-          "title": "New England Total Energy Launches Cortese Oil Direct, No-Contract Wholesale Heating Oil for Westchester and Fairfield",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNak5WUm1uWTgzODluYm9wRmI3ZjBIVVFlZHhnTE5fM2MyQXVhUkN2UWUtM2pjalBZdnVWSVFCdEFCT1hCUnN4NmNVRWd1aVJSVXJyMm1PVWlmWmtXbXVLNTRhSzJOWGEzX0RSTmNyTkItVXpoRzFfU1pwQnh1djR4UVRDYnFDOUxLbWE4ckNQZUt4U2ZrSTlzSlpqNHh6ZVdKVk9BbnVVSk96QzJ2SDJCekdDMk80b1BSS1U4S3g2OUtfM1cxV3F2cGpYZzEwVGVqZ3VYcjUtMG9IVHh4Y2RoVFdTenhpUWxlVjNHanA2Y0VtSnlmOGc?oc=5",
-          "source": "EIN Presswire",
-          "source_type": "rss",
-          "published_at": "2026-11-24T17:15:00+00:00",
           "confidence": 0.65
         }
       ],
@@ -851,7 +639,7 @@
       ],
       "earliest_seen": "2026-09-18T07:00:00+00:00",
       "latest_seen": "2026-09-18T07:00:00+00:00",
-      "age_hours": 1646.55,
+      "age_hours": 1652.79,
       "score": 29.0,
       "score_components": {
         "source_count_points": 5,
@@ -877,6 +665,136 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_8080e0bcdbc7bc",
+      "topic": "heating",
+      "lead_title": "Trafigura ship fuel venture isn't rushing into alternative fuels as fuel oil demand stays firm, director says",
+      "lead_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMjM1Z21RaGVNRFNJNEFSczk3QVVBLW1tZE5ua1RSUWJQcFRHQ0hHalJwODhiRFdnSGRTMWRuTFFwcmhBV0JpNDVOay1CNmh2SFc5NTFxYU00LV82QktQbGhvUmh1Q0pLUzl4M1ZDT0RwenAwZGxJSDI5QnJhTVduT2hGS1dlWGtRRnJuUGMtYldmaUZBVTlWa0pNQW12OTVTZFg3a2pEMURRMXFjWEF1ZjdXWkdTUWVqbDlvVE05cEtORUpfV1U0MkJZWQ?oc=5",
+      "lead_source": "Reuters",
+      "canonical_entities": [],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-19T16:44:00+00:00",
+      "latest_seen": "2026-11-19T16:44:00+00:00",
+      "age_hours": 155.06,
+      "score": 28.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 28.5,
+        "entity_relevance_points": 0,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "e16f5b0488b17025",
+          "title": "Trafigura ship fuel venture isn't rushing into alternative fuels as fuel oil demand stays firm, director says",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNMjM1Z21RaGVNRFNJNEFSczk3QVVBLW1tZE5ua1RSUWJQcFRHQ0hHalJwODhiRFdnSGRTMWRuTFFwcmhBV0JpNDVOay1CNmh2SFc5NTFxYU00LV82QktQbGhvUmh1Q0pLUzl4M1ZDT0RwenAwZGxJSDI5QnJhTVduT2hGS1dlWGtRRnJuUGMtYldmaUZBVTlWa0pNQW12OTVTZFg3a2pEMURRMXFjWEF1ZjdXWkdTUWVqbDlvVE05cEtORUpfV1U0MkJZWQ?oc=5",
+          "source": "Reuters",
+          "source_type": "rss",
+          "published_at": "2026-11-19T16:44:00+00:00",
+          "confidence": 0.95
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_cebb81c5de1c50",
+      "topic": "heating",
+      "lead_title": "Police warn Lehigh Valley of home heating oil scam",
+      "lead_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbV9zb2xrVGlsT3N3RG5FUmljUmxtZ0pzZ0stMlRzZnRGOEhRV2ZHZGF4LUNCTldiVkZZbGVod1RrZmJyQlNUR2NCaTJ6WF9sZ1paaC1DdkFkWFhUaV94STZWVmlfY3RmWDhTMjY2NzczY29OTnE3RXdVZVlXUTJaYzdBaWo?oc=5",
+      "lead_source": "The Morning Call",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 2,
+      "distinct_publishers": 2,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-20T17:09:00+00:00",
+      "latest_seen": "2026-11-21T16:04:14+00:00",
+      "age_hours": 107.72,
+      "score": 28.5,
+      "score_components": {
+        "source_count_points": 10,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "f75be960eff8a9d7",
+          "title": "Police warn Lehigh Valley of home heating oil scam",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbV9zb2xrVGlsT3N3RG5FUmljUmxtZ0pzZ0stMlRzZnRGOEhRV2ZHZGF4LUNCTldiVkZZbGVod1RrZmJyQlNUR2NCaTJ6WF9sZ1paaC1DdkFkWFhUaV94STZWVmlfY3RmWDhTMjY2NzczY29OTnE3RXdVZVlXUTJaYzdBaWo?oc=5",
+          "source": "The Morning Call",
+          "source_type": "rss",
+          "published_at": "2026-11-21T16:04:14+00:00",
+          "confidence": 0.65
+        },
+        {
+          "headline_id": "05b65ae1e71fda92",
+          "title": "Amid rise in prices, police warn of home heating oil scam targeting consumers",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbHk1WThuRW5ndVR5dTdyeXJfaXdmTUNldDlGTmJQWktNcGZMcWI0bS05c2swZ2lLcU12aVRsZTlTUDVIbGVBdEFjTXhsOEJWTmVtQk1LUGhQQXU0UlRrQWFPVERtLTBCYnhrNXlvOE14NnZQenlZQVdQamNOSFZ1TUZ5S1RDeWNLWWZPQ2Rrd0V6MGV2M1ZaLWhaQnpMTlYwRGQ2MFpDYjJPUXJhNGdTNnA5VWhqYXg4bzh1NVJIekY5bmlGSEI40gHbAUFVX3lxTE9SODNDTXFsSVZzUVVjQWZVLTNDTFhSNXVUQUtJQ0t4LVlZc0tZV2g5Y1IxY3NvazNoNE1xMS15NXhDaVB2ZFRrV3RqSV9PakFiYUVvZnZ0MzRwYUpJQWR3UnNfeFRURE1LRjN0Zl9DRk9DSjJXb1hoSmRjYUZXRmI5YnZ1OUhXZUFNNUZxc3IxY3VsWDI3MFJVcU5GaDRlbFFkXzV2S1k5S2ZiV3FzM2hJX3NqU2xCLTBXY0lfTEVrbDFGWnd3aFFKZGFQWHl3ZDY0WmhhS2pUNTFLcw?oc=5",
+          "source": "LehighValleyLive.com",
+          "source_type": "rss",
+          "published_at": "2026-11-20T17:09:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_9f437b770ab437",
+      "topic": "heating",
+      "lead_title": "New England Total Energy Launches Cortese Oil Direct, No-Contract Wholesale Heating Oil for Westchester and Fairfield",
+      "lead_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNak5WUm1uWTgzODluYm9wRmI3ZjBIVVFlZHhnTE5fM2MyQXVhUkN2UWUtM2pjalBZdnVWSVFCdEFCT1hCUnN4NmNVRWd1aVJSVXJyMm1PVWlmWmtXbXVLNTRhSzJOWGEzX0RSTmNyTkItVXpoRzFfU1pwQnh1djR4UVRDYnFDOUxLbWE4ckNQZUt4U2ZrSTlzSlpqNHh6ZVdKVk9BbnVVSk96QzJ2SDJCekdDMk80b1BSS1U4S3g2OUtfM1cxV3F2cGpYZzEwVGVqZ3VYcjUtMG9IVHh4Y2RoVFdTenhpUWxlVjNHanA2Y0VtSnlmOGc?oc=5",
+      "lead_source": "EIN Presswire",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-24T17:15:00+00:00",
+      "latest_seen": "2026-11-24T17:15:00+00:00",
+      "age_hours": 34.54,
+      "score": 27.78,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 4.28,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "fef774c00ec92f8b",
+          "title": "New England Total Energy Launches Cortese Oil Direct, No-Contract Wholesale Heating Oil for Westchester and Fairfield",
+          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNak5WUm1uWTgzODluYm9wRmI3ZjBIVVFlZHhnTE5fM2MyQXVhUkN2UWUtM2pjalBZdnVWSVFCdEFCT1hCUnN4NmNVRWd1aVJSVXJyMm1PVWlmWmtXbXVLNTRhSzJOWGEzX0RSTmNyTkItVXpoRzFfU1pwQnh1djR4UVRDYnFDOUxLbWE4ckNQZUt4U2ZrSTlzSlpqNHh6ZVdKVk9BbnVVSk96QzJ2SDJCekdDMk80b1BSS1U4S3g2OUtfM1cxV3F2cGpYZzEwVGVqZ3VYcjUtMG9IVHh4Y2RoVFdTenhpUWxlVjNHanA2Y0VtSnlmOGc?oc=5",
+          "source": "EIN Presswire",
+          "source_type": "rss",
+          "published_at": "2026-11-24T17:15:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_4f3d183593d60b",
       "topic": "heating",
       "lead_title": "As heating oil prices hit new highs, RI customers are 'scared' for winter",
@@ -892,11 +810,11 @@
       ],
       "earliest_seen": "2026-11-24T11:01:00+00:00",
       "latest_seen": "2026-11-24T11:01:00+00:00",
-      "age_hours": 34.53,
-      "score": 27.78,
+      "age_hours": 40.77,
+      "score": 24.04,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.28,
+        "recency_points": 0.54,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -933,11 +851,11 @@
       ],
       "earliest_seen": "2026-11-24T10:48:00+00:00",
       "latest_seen": "2026-11-24T10:48:00+00:00",
-      "age_hours": 34.75,
-      "score": 27.65,
+      "age_hours": 40.99,
+      "score": 23.91,
       "score_components": {
         "source_count_points": 5,
-        "recency_points": 4.15,
+        "recency_points": 0.41,
         "source_quality_points": 19.5,
         "entity_relevance_points": 4,
         "materiality_points": -5.0
@@ -974,7 +892,7 @@
       ],
       "earliest_seen": "2026-11-23T23:46:07+00:00",
       "latest_seen": "2026-11-23T23:46:07+00:00",
-      "age_hours": 45.78,
+      "age_hours": 52.02,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1015,7 +933,7 @@
       ],
       "earliest_seen": "2026-11-23T17:05:51+00:00",
       "latest_seen": "2026-11-23T17:05:51+00:00",
-      "age_hours": 52.45,
+      "age_hours": 58.69,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1056,7 +974,7 @@
       ],
       "earliest_seen": "2026-11-23T16:00:00+00:00",
       "latest_seen": "2026-11-23T16:00:00+00:00",
-      "age_hours": 53.55,
+      "age_hours": 59.79,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1097,7 +1015,7 @@
       ],
       "earliest_seen": "2026-11-20T21:04:00+00:00",
       "latest_seen": "2026-11-20T21:04:00+00:00",
-      "age_hours": 120.48,
+      "age_hours": 126.72,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1138,7 +1056,7 @@
       ],
       "earliest_seen": "2026-11-20T20:29:12+00:00",
       "latest_seen": "2026-11-20T20:29:12+00:00",
-      "age_hours": 121.06,
+      "age_hours": 127.3,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
@@ -1164,6 +1082,88 @@
       "low_priority": false
     },
     {
+      "cluster_id": "c_0837ac2fac42ae",
+      "topic": "heating",
+      "lead_title": "State police warn of fake heating oil ads on social media",
+      "lead_url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeXpkUnk1OHpzZXc5RFZQakt5TTdlSlQ4c21yWmwzcS1STFB6VGxsamJNOW5wWVZnVGVKNGdvZzRfQWpLTXhySnhGN3pDdE0wVTQ0NWFiX3pxanR1UV9NVFVuc0FvZEZtcVN1c3RHenprVE0wLTd6UEdrMzhfeUZhRzJEZzY1WHY0bFRwd3RrSFZuTklqVWViSUpyTEpVLXhsTTBxaXNsOUxDWHowYkNLczkyc1ZrM0dUdG5fRXBVb2ZDMHY0ajdVX3gtdEYzZ29IVmx3RGl1VU5YVHpCOGVZTnlfT0YxWmhla3R2OGxzVm4zNkFORzJlbw?oc=5",
+      "lead_source": "WFMZ.com",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-20T19:02:00+00:00",
+      "latest_seen": "2026-11-20T19:02:00+00:00",
+      "age_hours": 128.76,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "89e7a6e26e577c7b",
+          "title": "State police warn of fake heating oil ads on social media",
+          "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeXpkUnk1OHpzZXc5RFZQakt5TTdlSlQ4c21yWmwzcS1STFB6VGxsamJNOW5wWVZnVGVKNGdvZzRfQWpLTXhySnhGN3pDdE0wVTQ0NWFiX3pxanR1UV9NVFVuc0FvZEZtcVN1c3RHenprVE0wLTd6UEdrMzhfeUZhRzJEZzY1WHY0bFRwd3RrSFZuTklqVWViSUpyTEpVLXhsTTBxaXNsOUxDWHowYkNLczkyc1ZrM0dUdG5fRXBVb2ZDMHY0ajdVX3gtdEYzZ29IVmx3RGl1VU5YVHpCOGVZTnlfT0YxWmhla3R2OGxzVm4zNkFORzJlbw?oc=5",
+          "source": "WFMZ.com",
+          "source_type": "rss",
+          "published_at": "2026-11-20T19:02:00+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
+      "cluster_id": "c_001feb69bc5af4",
+      "topic": "heating",
+      "lead_title": "State police warn consumers about heating oil purchase scam",
+      "lead_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOWRaX0hLX2hsenMxMTE4ZVRCMDhRRGFqWDRUSlF3VkpOcTNJbzhZUmxwR2pXRmZvV0pDUmlfYlNtcVFCelBSbG92VzdpX1B1aEJpUVZUZUxQOVdYekJ2M0RYMGN5bkRjV3RlTjY4OFd4bC1qNkg0cTh1NXZ1RGJ0Z1RQQ0xZYVBfaUZDdUYtbDExZw?oc=5",
+      "lead_source": "fox56.com",
+      "canonical_entities": [
+        "heating oil"
+      ],
+      "source_count": 1,
+      "distinct_publishers": 1,
+      "source_types": [
+        "rss"
+      ],
+      "earliest_seen": "2026-11-20T16:44:03+00:00",
+      "latest_seen": "2026-11-20T16:44:03+00:00",
+      "age_hours": 131.05,
+      "score": 23.5,
+      "score_components": {
+        "source_count_points": 5,
+        "recency_points": 0.0,
+        "source_quality_points": 19.5,
+        "entity_relevance_points": 4,
+        "materiality_points": -5.0
+      },
+      "novelty": "decaying",
+      "first_seen_cluster": false,
+      "evidence": [
+        {
+          "headline_id": "ec847706fc99cbd9",
+          "title": "State police warn consumers about heating oil purchase scam",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOWRaX0hLX2hsenMxMTE4ZVRCMDhRRGFqWDRUSlF3VkpOcTNJbzhZUmxwR2pXRmZvV0pDUmlfYlNtcVFCelBSbG92VzdpX1B1aEJpUVZUZUxQOVdYekJ2M0RYMGN5bkRjV3RlTjY4OFd4bC1qNkg0cTh1NXZ1RGJ0Z1RQQ0xZYVBfaUZDdUYtbDExZw?oc=5",
+          "source": "fox56.com",
+          "source_type": "rss",
+          "published_at": "2026-11-20T16:44:03+00:00",
+          "confidence": 0.65
+        }
+      ],
+      "top_tier": false,
+      "low_priority": false
+    },
+    {
       "cluster_id": "c_6e22cf35d5b764",
       "topic": "heating",
       "lead_title": "Maine’s heating oil prices have fallen nearly 6% over the past 3 weeks",
@@ -1179,7 +1179,7 @@
       ],
       "earliest_seen": "2026-11-20T11:49:41+00:00",
       "latest_seen": "2026-11-20T11:49:41+00:00",
-      "age_hours": 129.72,
+      "age_hours": 135.96,
       "score": 23.5,
       "score_components": {
         "source_count_points": 5,
