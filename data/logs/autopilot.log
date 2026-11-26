@@ -2165,3 +2165,13 @@
 [2026-11-26T03:47:20.690389+00:00] [detect] [detect_changes] 0 meaningful changes across 1 sources; 0 page(s) affected
 [2026-11-26T03:47:20.690496+00:00] autopilot: no-op — no meaningful changes (affected=0)
 [2026-11-26T03:47:20.721873+00:00] [health] [write_health] status=degraded codes=[COMMODITY_STALE, OBSERVER_FAILED, NIGHTLY_AUDIT_MISSING]
+[2026-11-26T13:14:47.360566+00:00] ════════════════════════════════════════════════════════════
+[2026-11-26T13:14:47.361123+00:00] autopilot: start
+[2026-11-26T13:14:47.806394+00:00] [observers] commodity_prices: OK — Kept previous snapshot; marked status=failed
+[2026-11-26T13:15:19.128965+00:00] [observers] gas_prices: OK — ERROR: no data available and no previous snapshot to preserve
+[2026-11-26T13:17:23.370326+00:00] [observers] headlines: OK — [fetch_headlines] ✓ cache updated (300 total stories, 0 failed topics)
+[2026-11-26T13:17:23.479143+00:00] [cluster] [cluster_stories] ✓ clusters rebuilt across 10 topics
+[2026-11-26T13:17:23.523486+00:00] [resolver] ════════════════════════════════════════════════════════════
+[2026-11-26T13:17:23.553627+00:00] [detect] [detect_changes] 0 meaningful changes across 1 sources; 0 page(s) affected
+[2026-11-26T13:17:23.553812+00:00] autopilot: no-op — no meaningful changes (affected=0)
+[2026-11-26T13:17:23.599837+00:00] [health] [write_health] status=degraded codes=[COMMODITY_STALE, OBSERVER_FAILED, NIGHTLY_AUDIT_MISSING]
